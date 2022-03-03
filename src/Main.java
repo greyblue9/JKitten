@@ -20,6 +20,8 @@
 */
 
 import org.alicebot.ab.*;
+import java.util.Map;
+import java.util.LinkedHashMap;
 
 import discord4j.core.event.domain.message.MessageCreateEvent;
 import discord4j.core.DiscordClient;
@@ -30,38 +32,69 @@ import discord4j.core.object.entity.Message;
 import java.io.*;
 import java.util.HashMap;
 
-class ExampleBot {
 
-  public static void main(final String[] args) {
-    final String token = args[0];
-    final DiscordClient client = DiscordClient.create(token);
-    final GatewayDiscordClient gateway = client.login().block();
-
-    gateway.on(MessageCreateEvent.class).subscribe(event -> {
-      final Message message = event.getMessage();
-      if ("!ping".equals(message.getContent())) {
-        final MessageChannel channel = message.getChannel().block();
-        channel.createMessage("Pong!").block();
-      }
-    });
-
-    gateway.onDisconnect().block();
-  }
-}
 
 public class Main {
-
-    public static void main (String[] args) {
-
-
-
-        MagicStrings.setRootPath();
-
+  static {
+  MagicStrings.setRootPath("./");
+        
         AIMLProcessor.extension =  new PCAIMLProcessorExtension();
+          
+  }
+    static Bot _sBot = new Bot(MagicStrings.default_bot_name, MagicStrings.root_path, "chat-app");
+    static AB _ab = new AB(_sBot, "1000.txt");
+  public static class DiscordBot {
+      public static void main(final String[] args) {
+        final String token = System.getenv("Token");
+        final DiscordClient client = DiscordClient.create(token);
+        final GatewayDiscordClient gateway = client.login().block();
+        final Map<Long, Chat> chatSessions = new LinkedHashMap<>();
+        final Bot bot = (_sBot != null) ? _sBot: new Bot(MagicStrings.default_bot_name, MagicStrings.root_path, "chat-app");
+        _sBot = bot;
+        Graphmaster.enableShortCuts = true;
+        EnglishNumberToWords.makeSetMap(bot);
+        bot.addCategoriesFromAIMLIF();
+        if (MagicBooleans.make_verbs_sets_maps) Verbs.makeVerbSetsMaps(bot);
+        if (bot.brain.getCategories().size() < MagicNumbers.brain_print_size) bot.brain.printgraph();
+        bot.brain.nodeStats();
+        
+        gateway.on(MessageCreateEvent.class).subscribe(event -> {
+          final Message message = event.getMessage();
+          if (message.getContent().split(" ").length < 2) return;
+          final MessageChannel channel = message.getChannel().block();
+          if (channel.getId().asLong() != 944426266256367656L) {
+            return;
+          }
+          System.out.println(message);
+          System.out.println(channel);
+          if (message.getAuthor().get().isBot()) {
+            return;
+          }
+          final long authorId = message.getAuthor().get().getId().asLong();
+          if (! chatSessions.containsKey(authorId)) {
+            final Chat chatSession = new Chat(bot, true);
+            chatSessions.put(authorId, chatSession);
+          }
+          final Chat session = chatSessions.get(authorId);
+          final String response = session.multisentenceRespond(message.getContent());
+          if (response.startsWith("If you want ")) return;
+          channel.createMessage(response).block();
+          
+        });
+    
+        //gateway.onDisconnect().block();
+      }
+    }
+  
+    public static void main (String[] args) {
+        
+        DiscordBot.main(args);
         mainFunction(args);
     }
+  
+  
     public static void mainFunction (String[] args) {
-        String botName = "Kitten";
+        String botName = "alice";
         MagicBooleans.jp_tokenize = false;
         MagicBooleans.trace_mode = true;
         String action="chat-app";
@@ -72,7 +105,7 @@ public class Main {
             if (splitArg.length >= 2) {
                 String option = splitArg[0];
                 String value = splitArg[1];
-                //if (MagicBooleans.trace_mode) System.out.println(option+"='"+value+"'");
+                if (MagicBooleans.trace_mode) System.out.println(option+"='"+value+"'");
                 if (option.equals("bot")) botName = value;
                 if (option.equals("action")) action = value;
                 if (option.equals("trace")) {
@@ -90,23 +123,27 @@ public class Main {
         if (MagicBooleans.trace_mode) System.out.println("Working Directory = " + MagicStrings.root_path);
         Graphmaster.enableShortCuts = true;
         //Timer timer = new Timer();
-        Bot bot = new Bot(botName, MagicStrings.root_path, action); //
-        //EnglishNumberToWords.makeSetMap(bot);
-        //getGloss(bot, "c:/ab/data/wn30-lfs/wne-2006-12-06.xml");
+        Bot bot = (_sBot != null) ? _sBot : new Bot(botName, MagicStrings.root_path, action); //
+        _sBot = bot;
+        EnglishNumberToWords.makeSetMap(bot);
+        // getGloss(bot, "c:/ab/data/wn30-lfs/wne-2006-12-06.xml");
         if (MagicBooleans.make_verbs_sets_maps) Verbs.makeVerbSetsMaps(bot);
         //bot.preProcessor.normalizeFile("c:/ab/data/log2.txt", "c:/ab/data/log2normal.txt");
         //System.exit(0);
         if (bot.brain.getCategories().size() < MagicNumbers.brain_print_size) bot.brain.printgraph();
         if (MagicBooleans.trace_mode) System.out.println("Action = '"+action+"'");
         if (action.equals("chat") || action.equals("chat-app")) {
-			boolean doWrites = ! action.equals("chat-app");
+			boolean doWrites = true; // ! action.equals("chat-app");
+      TestAB.testAB(bot, TestAB.sample_file);
+      TestAB.testBotChat();
 			TestAB.testChat(bot, doWrites, MagicBooleans.trace_mode);
+      
 		}
-        //else if (action.equals("test")) testSuite(bot, MagicStrings.root_path+"/data/find.txt");
+        // else if (action.equals("test")) testSuite(bot, MagicStrings.root_path+"/data/find.txt");
         else if (action.equals("ab")) TestAB.testAB(bot, TestAB.sample_file);
         else if (action.equals("aiml2csv") || action.equals("csv2aiml")) convert(bot, action);
         else if (action.equals("abwq")){AB ab = new AB(bot, TestAB.sample_file);  ab.abwq();}
-		else if (action.equals("test")) { TestAB.runTests(bot, MagicBooleans.trace_mode);     }
+		    else if (action.equals("test")) { TestAB.runTests(bot, MagicBooleans.trace_mode);     }
         else if (action.equals("shadow")) { MagicBooleans.trace_mode = false; bot.shadowChecker();}
         else if (action.equals("iqtest")) { ChatTest ct = new ChatTest(bot);
                 try {

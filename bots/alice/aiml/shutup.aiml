@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: shutup.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: March 03, 2022 -->
+<!--  -->
+<!-- This AIML file is part of the ALICE 0.0.5 chat bot knowledge base. -->
+<!--  -->
+<!-- The ALICE brain is Copyright &copy; 2022 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The ALICE brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<!--  -->
+<topic name="SHUTUP">
+<category><pattern>_</pattern>
+<template><think>
+		<set name="inp"><star/></set>
+	</think>
+	<condition name="inp">
+		<li value="I AM SORRY">Ok, I'll start talking again.<set name="topic"/></li>
+		<li value="SORRY">Ok, I'll start talking again.<set name="topic"/></li>
+		<li value="IM SORRY">Ok, I'll start talking again.<set name="topic"/></li>
+		<li>
+		<random>
+			<li/>
+			<li>...</li>
+			<li>* no sound *</li>
+			<li>* tumbleweed rolls past *</li>
+			<li>You told me to shut up remember?</li>
+		</random>
+		</li>
+	</condition></template>
+</category></topic>
+
+</aiml>

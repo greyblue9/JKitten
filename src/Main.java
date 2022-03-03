@@ -21,9 +21,33 @@
 
 import org.alicebot.ab.*;
 
+import discord4j.core.event.domain.message.MessageCreateEvent;
+import discord4j.core.DiscordClient;
+import discord4j.core.GatewayDiscordClient;
+import discord4j.core.object.entity.channel.MessageChannel;
+import discord4j.core.object.entity.Message;
+
 import java.io.*;
 import java.util.HashMap;
 
+class ExampleBot {
+
+  public static void main(final String[] args) {
+    final String token = args[0];
+    final DiscordClient client = DiscordClient.create(token);
+    final GatewayDiscordClient gateway = client.login().block();
+
+    gateway.on(MessageCreateEvent.class).subscribe(event -> {
+      final Message message = event.getMessage();
+      if ("!ping".equals(message.getContent())) {
+        final MessageChannel channel = message.getChannel().block();
+        channel.createMessage("Pong!").block();
+      }
+    });
+
+    gateway.onDisconnect().block();
+  }
+}
 
 public class Main {
 
@@ -37,10 +61,10 @@ public class Main {
         mainFunction(args);
     }
     public static void mainFunction (String[] args) {
-        String botName = "alice2";
+        String botName = "Kitten";
         MagicBooleans.jp_tokenize = false;
         MagicBooleans.trace_mode = true;
-        String action="chat";
+        String action="chat-app";
         System.out.println(MagicStrings.program_name_version);
         for (String s : args) {
             //System.out.println(s);

@@ -65,8 +65,8 @@ public class Main {
           if (channel.getId().asLong() != 944426266256367656L) {
             return;
           }
-          System.out.println(message);
-          System.out.println(channel);
+          //System.out.println(message);
+          //System.out.println(channel);
           if (message.getAuthor().get().isBot()) {
             return;
           }
@@ -77,6 +77,8 @@ public class Main {
           }
           final Chat session = chatSessions.get(authorId);
           final String response = session.multisentenceRespond(message.getContent());
+          System.out.printf("%s: %s\n", message.getAuthor().get().getUsername(), message.getContent());
+          System.out.printf("  >> %s\n", response);
           if (response.startsWith("If you want ")) return;
           channel.createMessage(response).block();
           

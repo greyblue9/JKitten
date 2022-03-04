@@ -270,17 +270,6 @@ Ok.  I think I got that.
 </category>
 </learn></template>
 </category>
-<category><pattern>GOSSIP</pattern>
-<template><think>
-<condition name="gossiplist" value="unknown"><set name="gossiplist"><li>I don't have any gossip.</li></set></condition>
-</think>
-<learn>
-  <category><pattern>RANDOM GOSSIP</pattern>
-<template><random><eval><get name="gossiplist"/></eval></random></template>
-</category>
-</learn>
-<srai>RANDOM GOSSIP</srai></template>
-</category>
 <category><pattern>ADD GOSSIP *</pattern>
 <template><think>
 <condition name="gossiplist">
@@ -1320,11 +1309,6 @@ Ok, I will remember <get var="a1"/> <get var="thing1"/> are <get var="thing2"/>.
 </category>
 </learn></template>
 </category>
-<category><pattern>BAD ANSWER</pattern>
-<template><think><set name="newpattern"><input index="2"/></set></think>
-OK.  You said "<input index="2"/>" and I replied "<response/>".
-What should I say instead?</template>
-</category>
 <category><pattern>QUESTIONWORD <set>name</set> #</pattern>
 <template>Who</template>
 </category>
@@ -1947,17 +1931,6 @@ Ok.  I think I got that.
 <template><eval><get var="response4"/></eval></template>
 </category>
 </learn></template>
-</category>
-<category><pattern>GOSSIP</pattern>
-<template><think>
-<condition name="gossiplist" value="unknown"><set name="gossiplist"><li>I don't have any gossip.</li></set></condition>
-</think>
-<learn>
-  <category><pattern>RANDOM GOSSIP</pattern>
-<template><random><eval><get name="gossiplist"/></eval></random></template>
-</category>
-</learn>
-<srai>RANDOM GOSSIP</srai></template>
 </category>
 <category><pattern>ADD GOSSIP *</pattern>
 <template><think>
@@ -3024,11 +2997,6 @@ Ok, I will remember <get var="a1"/> <get var="thing1"/> are <get var="thing2"/>.
 </category>
 <category><pattern>IT _</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
 <template><srai>LEARN NEW RESPONSE It <star/></srai></template>
-</category>
-<category><pattern>BAD ANSWER</pattern>
-<template><think><set name="newpattern"><input index="2"/></set></think>
-OK.  You said "<input index="2"/>" and I replied "<response/>".
-What should I say instead?</template>
 </category>
 <category><pattern>SHE _</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
 <template><srai>LEARN NEW RESPONSE She <star/></srai></template>

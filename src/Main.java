@@ -60,7 +60,7 @@ public class Main {
         
         gateway.on(MessageCreateEvent.class).subscribe(event -> {
           final Message message = event.getMessage();
-          if (message.getContent().split(" ").length < 2) return;
+          if (message.getContent().split(" ").length < 1) return;
           final MessageChannel channel = message.getChannel().block();
           if (channel.getId().asLong() != 944426266256367656L) {
             return;

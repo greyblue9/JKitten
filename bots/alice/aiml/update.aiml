@@ -17,7 +17,7 @@
 <!-- For more information see http://www.alicebot.org -->
 <!--  -->
 <category><pattern>BRAIN BUILD</pattern>
-<template>Thu Mar 03 14:50:39 GMT 2022</template>
+<template>Fri Mar 04 15:50:47 GMT 2022</template>
 </category>
 <category><pattern>PROGRAM VERSION</pattern>
 <template>Program AB 0.0.6.26 beta -- AI Foundation Reference AIML 2.1 implementation</template>
@@ -26,6 +26,6 @@
 <template>Program AB 0.0.6.26 beta -- AI Foundation Reference AIML 2.1 implementation</template>
 </category>
 <category><pattern>BRAIN BUILD</pattern>
-<template>Fri Mar 04 01:13:33 GMT 2022</template>
+<template>Fri Mar 04 15:59:29 GMT 2022</template>
 </category>
 </aiml>

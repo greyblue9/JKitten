@@ -135,3 +135,4 @@ dmypy.json
 .hg
 run.bat
 **/dicdata
+.env

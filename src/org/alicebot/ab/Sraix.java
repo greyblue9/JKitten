@@ -25,7 +25,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.BufferedWriter;
-import java.io.FileWriter;
+import java.io.*;
 import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -124,7 +124,6 @@ public class Sraix {
     }
 
     public static String sraixPannous(String input, String hint, Chat chatSession)  {
-        try {
             String rawInput = input;
             if (hint == null) hint = MagicStrings.sraix_no_hint;
             input = " "+input+" ";
@@ -145,121 +144,45 @@ public class Sraix {
             }
             // https://weannie.pannous.com/api?input=when+is+daylight+savings+time+in+the+us&locale=en_US&login=pandorabots&ip=169.254.178.212&botid=0&key=CKNgaaVLvNcLhDupiJ1R8vtPzHzWc8mhIQDFSYWj&exclude=Dialogues,ChatBot&out=json
             // exclude=Dialogues,ChatBot&out=json&clientFeatures=show-images,reminder,say&debug=true
-			String url = "https://ask.pannous.com/api?input="+input+"&locale=en_US&timeZone="+offset+locationString+"&login="+MagicStrings.pannous_login+"&ip="+NetworkUtils.localIPAddress()+"&botid=0&key="+MagicStrings.pannous_api_key+"&exclude=Dialogues,ChatBot&out=json&clientFeatures=show-images,reminder,say&debug=true";
+            try {
+			String url = String.format(
+			  "https://www.google.com/search?client=safari&rls=en&gbv=1&q=%1$s&hl=en&num=10",
+			  input.trim().replace(" ", "+")
+		);
+
             MagicBooleans.trace("in Sraix.sraixPannous, url: '" + url + "'");
-            String page = NetworkUtils.responseContent(url);
-            //MagicBooleans.trace("in Sraix.sraixPannous, page: " + page);
-            String text="";
-            String imgRef="";
-            String urlRef="";
-            if (page == null || page.length() == 0) {
-                text = MagicStrings.sraix_failed;
-            }
-            else {
-                JSONArray outputJson = new JSONObject(page).getJSONArray("output");
-				//MagicBooleans.trace("in Sraix.sraixPannous, outputJson class: " + outputJson.getClass() + ", outputJson: " + outputJson);
-                if (outputJson.length() == 0) {
-                    text = MagicStrings.sraix_failed;
-                }
-                else {
-                    JSONObject firstHandler = outputJson.getJSONObject(0);
-					//MagicBooleans.trace("in Sraix.sraixPannous, firstHandler class: " + firstHandler.getClass() + ", firstHandler: " + firstHandler);
-                    JSONObject actions = firstHandler.getJSONObject("actions");
-					//MagicBooleans.trace("in Sraix.sraixPannous, actions class: " + actions.getClass() + ", actions: " + actions);
-                    if (actions.has("reminder")) {
-                        //MagicBooleans.trace("in Sraix.sraixPannous, found reminder action");
-                        Object obj = actions.get("reminder");
-                        if (obj instanceof JSONObject) {
-                            if (MagicBooleans.trace_mode) System.out.println("Found JSON Object");
-                            JSONObject sObj = (JSONObject) obj;
-                            String date = sObj.getString("date");
-                            date = date.substring(0, "2012-10-24T14:32".length());
-                            if (MagicBooleans.trace_mode) System.out.println("date="+date);
-                            String duration = sObj.getString("duration");
-                            if (MagicBooleans.trace_mode) System.out.println("duration="+duration);
-
-                            Pattern datePattern = Pattern.compile("(.*)-(.*)-(.*)T(.*):(.*)");
-                            Matcher m = datePattern.matcher(date);
-                            String year="", month="", day="", hour="", minute="";
-                            if (m.matches())  {
-                                year = m.group(1);
-                                month = String.valueOf(Integer.parseInt(m.group(2))-1);
-                                day = m.group(3);
-
-                                hour = m.group(4);
-                                minute = m.group(5);
-                                text =  "<year>"+year+"</year>" +
-                                        "<month>"+month+"</month>" +
-                                        "<day>"+day+"</day>" +
-                                        "<hour>"+hour+"</hour>" +
-                                        "<minute>"+minute+"</minute>" +
-                                        "<duration>"+duration+"</duration>";
-
-                            }
-                            else text = MagicStrings.schedule_error;
-                        }
-                    }
-                    else if (actions.has("say")  && !hint.equals(MagicStrings.sraix_pic_hint) && !hint.equals(MagicStrings.sraix_shopping_hint)) {
-                        MagicBooleans.trace("in Sraix.sraixPannous, found say action");
-                        Object obj = actions.get("say");
-                        //MagicBooleans.trace("in Sraix.sraixPannous, obj class: " + obj.getClass());
-                        //MagicBooleans.trace("in Sraix.sraixPannous, obj instanceof JSONObject: " + (obj instanceof JSONObject));
-                        if (obj instanceof JSONObject) {
-                            JSONObject sObj = (JSONObject) obj;
-                            text = sObj.getString("text");
-                            if (sObj.has("moreText")) {
-                            JSONArray arr = sObj.getJSONArray("moreText");
-                            for (int i = 0; i < arr.length(); i++) {
-                                text += " " + arr.getString(i);
-                            }
-                            }
-                        } else {
-                            text = obj.toString();
-                        }
-                    }
-                    if (actions.has("show") && !text.contains("Wolfram")
-                            && actions.getJSONObject("show").has("images")) {
-                        MagicBooleans.trace("in Sraix.sraixPannous, found show action");
-                        JSONArray arr = actions.getJSONObject("show").getJSONArray(
-                                "images");
-                        int i = (int)(arr.length() * Math.random());
-                        //for (int j = 0; j < arr.length(); j++) System.out.println(arr.getString(j));
-                        imgRef = arr.getString(i);
-                        if (imgRef.startsWith("//")) imgRef = "http:"+imgRef;
-                        imgRef = "<a href=\""+imgRef+"\"><img src=\""+imgRef+"\"/></a>";
-                        //System.out.println("IMAGE REF="+imgRef);
-
-                    }
-                    if (hint.equals(MagicStrings.sraix_shopping_hint) && actions.has("open") && actions.getJSONObject("open").has("url")) {
-                        urlRef = "<oob><url>"+actions.getJSONObject("open").getString("url")+"</oob></url>";
-
-                    }
-                }
-                if (hint.equals(MagicStrings.sraix_event_hint) && !text.startsWith("<year>")) return MagicStrings.sraix_failed;
-                else if (text.equals(MagicStrings.sraix_failed)) return AIMLProcessor.respond(MagicStrings.sraix_failed, "nothing", "nothing", chatSession);
-                else {
-                    text = text.replace("&#39;","'");
-                    text = text.replace("&apos;","'");
-                    text = text.replaceAll("\\[(.*)\\]", "");
-                    String[] sentences;
-                    sentences = text.split("\\. ");
-                    //System.out.println("Sraix: text has "+sentences.length+" sentences:");
-                    String clippedPage = sentences[0];
-                    for (int i = 1; i < sentences.length; i++) {
-                        if (clippedPage.length() < 500) clippedPage = clippedPage + ". "+sentences[i];
-                        //System.out.println(i+". "+sentences[i]);
-                    }
-
-                    clippedPage = clippedPage + " " + imgRef+ " "+ urlRef;
-                    clippedPage = clippedPage.trim();
-                    log(rawInput, clippedPage);
-                    return clippedPage;
-                }
-            }
-        } catch (Exception ex)   {
-            ex.printStackTrace();
-            System.out.println("Sraix '" + input + "' failed");
-        }
+            
+           org.apache.http.HttpResponse resp = new org.apache.http.impl.client.DefaultHttpClient()
+           .execute(
+           org.apache.http.client.methods.RequestBuilder.get(
+              new java.net.URI(url)
+            )
+           .addHeader("Accept-Language", "en-us")
+          	.addHeader("Host", "www.google.com")
+          	.addHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
+           .addHeader("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15")
+           .build()
+           );
+           InputStream is = resp.getEntity().getContent();	
+           BufferedReader inb = new BufferedReader(new InputStreamReader(is));
+           StringBuilder sb = new StringBuilder("");	
+           String line;
+           String NL = System.getProperty("line.separator");	
+           while ((line = inb.readLine()) != null) {		
+               sb.append(line).append(NL);
+          	}	
+          inb.close();
+          String page = sb.toString();
+           
+           Matcher mchr = Pattern.compile("<div class=\"[^\"]*\">(([a-zA-VX-Z0-9_][a-zA-Z0-9_]+ (?:[a-zA-Z0-9_ .-]+ |))(is [^.]*[;.]))", Pattern.DOTALL)
+           .matcher(page);
+           if (mchr.find()) {
+             String ans = mchr.group(1);
+             return ans;
+           }
+          } catch (Throwable e) { 
+            e.printStackTrace();
+          }
         return MagicStrings.sraix_failed;
     } // sraixPannous
 

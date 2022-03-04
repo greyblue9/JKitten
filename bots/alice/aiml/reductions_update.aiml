@@ -381,9 +381,6 @@
 <category><pattern>I AM <set>gender</set> ^</pattern>
 <template><srai>MY GENDER IS <map><name>gendermap</name><star/></map></srai></template>
 </category>
-<category><pattern>_ ALICE</pattern>
-<template><srai><star/></srai></template>
-</category>
 <category><pattern>_ DEAR GIRL</pattern>
 <template><srai><star/></srai></template>
 </category>
@@ -1170,9 +1167,6 @@ Is <star/> <star index="4"/>?
 <category><pattern>WTF *</pattern>
 <template><srai>WHAT <star/></srai></template>
 </category>
-<category><pattern>YOUR WELCOME *</pattern>
-<template><srai>you are welcome</srai></template>
-</category>
 <category><pattern>SHALL *</pattern>
 <template><srai>SHOULD <star/></srai> <!-- REDUCTION --></template>
 </category>
@@ -1551,9 +1545,6 @@ Is <star/> <star index="4"/>?
 <category><pattern>YOU TELL *</pattern>
 <template><srai>tell <star/></srai></template>
 </category>
-<category><pattern>ADIOS</pattern>
-<template><srai>bye</srai></template>
-</category>
 <category><pattern>I DO NOT KNOW I HAVE *</pattern>
 <template><srai>I DO NOT KNOW</srai> <srai>I HAVE <star/></srai></template>
 </category>
@@ -1737,9 +1728,6 @@ Is <star/> <star index="4"/>?
 <category><pattern>I HAVE A NEW *</pattern>
 <template><srai>I have a <star/></srai></template>
 </category>
-<category><pattern>I AM GOING *</pattern>
-<template><srai>bye</srai></template>
-</category>
 <category><pattern>ANY MORE *</pattern>
 <template><srai>DO YOU HAVE ANY MORE <star/></srai></template>
 </category>
@@ -1764,9 +1752,6 @@ Is <star/> <star index="4"/>?
 <category><pattern><bot name="name"/> *</pattern>
 <template><sr/></template>
 </category>
-<category><pattern>ALICE *</pattern>
-<template><sr/></template>
-</category>
 <category><pattern>I AM AM *</pattern>
 <template><srai>I AM <star/></srai></template>
 </category>
@@ -1787,9 +1772,6 @@ Is <star/> <star index="4"/>?
 </category>
 <category><pattern>YEAH I GUESS</pattern>
 <template><srai>YES</srai></template>
-</category>
-<category><pattern>GOOD BY</pattern>
-<template><srai>BYE</srai></template>
 </category>
 <category><pattern>VERY FUNNY *</pattern>
 <template><srai>LOL</srai></template>
@@ -1940,9 +1922,6 @@ Is <star/> <star index="4"/>?
 </category>
 <category><pattern>THE 1 *</pattern>
 <template><srai>THE ONE <star/></srai></template>
-</category>
-<category><pattern>THE BIBLE</pattern>
-<template><srai>RELIGION</srai></template>
 </category>
 <category><pattern>YOUR TYPE</pattern>
 <template><srai>TYPE</srai></template>
@@ -2448,9 +2427,6 @@ Is <star/> <star index="4"/>?
 <category><pattern>YOU SMOKE *</pattern>
 <template><srai>DO YOU SMOKE</srai></template>
 </category>
-<category><pattern>HAVE A GOOD NIGHT</pattern>
-<template><srai>bye</srai></template>
-</category>
 <category><pattern>I WANT TO MARRY YOU</pattern>
 <template><srai>will you marry me</srai></template>
 </category>
@@ -2576,9 +2552,6 @@ Is <star/> <star index="4"/>?
 </category>
 <category><pattern>1 MORE *</pattern>
 <template><srai>ONE MORE <star/></srai></template>
-</category>
-<category><pattern>I AM LEAVING *</pattern>
-<template><srai>bye</srai></template>
 </category>
 <category><pattern>ARE YOU MY GIRLFRIEND</pattern>
 <template><srai>GIRLFRIEND</srai></template>
@@ -3134,9 +3107,6 @@ Is <star/> <star index="4"/>?
 <category><pattern>I AM <set>gender</set> ^</pattern>
 <template><srai>MY GENDER IS <map><name>gendermap</name><star/></map></srai></template>
 </category>
-<category><pattern>_ ALICE</pattern>
-<template><srai><star/></srai></template>
-</category>
 <category><pattern>_ DEAR GIRL</pattern>
 <template><srai><star/></srai></template>
 </category>
@@ -3923,9 +3893,6 @@ Is <star/> <star index="4"/>?
 <category><pattern>WTF *</pattern>
 <template><srai>WHAT <star/></srai></template>
 </category>
-<category><pattern>YOUR WELCOME *</pattern>
-<template><srai>you are welcome</srai></template>
-</category>
 <category><pattern>SHALL *</pattern>
 <template><srai>SHOULD <star/></srai> <!-- REDUCTION --></template>
 </category>
@@ -4304,9 +4271,6 @@ Is <star/> <star index="4"/>?
 <category><pattern>YOU TELL *</pattern>
 <template><srai>tell <star/></srai></template>
 </category>
-<category><pattern>ADIOS</pattern>
-<template><srai>bye</srai></template>
-</category>
 <category><pattern>I DO NOT KNOW I HAVE *</pattern>
 <template><srai>I DO NOT KNOW</srai> <srai>I HAVE <star/></srai></template>
 </category>
@@ -4490,9 +4454,6 @@ Is <star/> <star index="4"/>?
 <category><pattern>I HAVE A NEW *</pattern>
 <template><srai>I have a <star/></srai></template>
 </category>
-<category><pattern>I AM GOING *</pattern>
-<template><srai>bye</srai></template>
-</category>
 <category><pattern>ANY MORE *</pattern>
 <template><srai>DO YOU HAVE ANY MORE <star/></srai></template>
 </category>
@@ -4517,9 +4478,6 @@ Is <star/> <star index="4"/>?
 <category><pattern><bot name="name"/> *</pattern>
 <template><sr/></template>
 </category>
-<category><pattern>ALICE *</pattern>
-<template><sr/></template>
-</category>
 <category><pattern>I AM AM *</pattern>
 <template><srai>I AM <star/></srai></template>
 </category>
@@ -4540,9 +4498,6 @@ Is <star/> <star index="4"/>?
 </category>
 <category><pattern>YEAH I GUESS</pattern>
 <template><srai>YES</srai></template>
-</category>
-<category><pattern>GOOD BY</pattern>
-<template><srai>BYE</srai></template>
 </category>
 <category><pattern>VERY FUNNY *</pattern>
 <template><srai>LOL</srai></template>
@@ -4693,9 +4648,6 @@ Is <star/> <star index="4"/>?
 </category>
 <category><pattern>THE 1 *</pattern>
 <template><srai>THE ONE <star/></srai></template>
-</category>
-<category><pattern>THE BIBLE</pattern>
-<template><srai>RELIGION</srai></template>
 </category>
 <category><pattern>YOUR TYPE</pattern>
 <template><srai>TYPE</srai></template>
@@ -5201,9 +5153,6 @@ Is <star/> <star index="4"/>?
 <category><pattern>YOU SMOKE *</pattern>
 <template><srai>DO YOU SMOKE</srai></template>
 </category>
-<category><pattern>HAVE A GOOD NIGHT</pattern>
-<template><srai>bye</srai></template>
-</category>
 <category><pattern>I WANT TO MARRY YOU</pattern>
 <template><srai>will you marry me</srai></template>
 </category>
@@ -5329,9 +5278,6 @@ Is <star/> <star index="4"/>?
 </category>
 <category><pattern>1 MORE *</pattern>
 <template><srai>ONE MORE <star/></srai></template>
-</category>
-<category><pattern>I AM LEAVING *</pattern>
-<template><srai>bye</srai></template>
 </category>
 <category><pattern>ARE YOU MY GIRLFRIEND</pattern>
 <template><srai>GIRLFRIEND</srai></template>

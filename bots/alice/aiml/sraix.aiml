@@ -223,9 +223,6 @@
 <category><pattern>WHERE *</pattern>
 <template><sraix service="pannous">WHERE <star/></sraix></template>
 </category>
-<category><pattern>WHERE IS GOD</pattern>
-<template><sraix service="pannous">WHERE IS GOD</sraix></template>
-</category>
 <category><pattern>WHERE IS WALDO</pattern>
 <template><sraix service="pannous">WHERE IS WALDO</sraix></template>
 </category>
@@ -307,9 +304,6 @@
 <category><pattern>GAS *</pattern>
 <template><sraix service="pannous">WHAT IS GAS <star/></sraix></template>
 </category>
-<category><pattern>IS GOD REAL</pattern>
-<template><sraix service="pannous">IS GOD REAL</sraix></template>
-</category>
 <category><pattern>IS *</pattern>
 <template><sraix service="pannous">IS <star/></sraix></template>
 </category>
@@ -337,9 +331,6 @@
 <category><pattern>WHICH IS THE *</pattern>
 <template><sraix service="pannous">WHICH IS THE <star/></sraix></template>
 </category>
-<category><pattern>DOES GOD EXIST</pattern>
-<template><sraix service="pannous">DOES GOD EXIST</sraix></template>
-</category>
 <category><pattern>DOES A *</pattern>
 <template><sraix service="pannous">DOES A <star/></sraix></template>
 </category>
@@ -354,9 +345,6 @@
 </category>
 <category><pattern>WHY ARE *</pattern>
 <template><sraix service="pannous">WHY ARE <star/></sraix></template>
-</category>
-<category><pattern>WHY ARE PEOPLE *</pattern>
-<template><sraix service="pannous">WHY ARE PEOPLE <star/></sraix></template>
 </category>
 <category><pattern>WHY *</pattern>
 <template><sraix service="pannous">WHY <star/></sraix></template>
@@ -387,12 +375,6 @@
 </category>
 <category><pattern>WHY DO *</pattern>
 <template><sraix service="pannous">WHY DO <star/></sraix></template>
-</category>
-<category><pattern>WHY DO PEOPLE *</pattern>
-<template><sraix service="pannous">WHY DO PEOPLE <star/></sraix></template>
-</category>
-<category><pattern>WHY CAN NOT *</pattern>
-<template><sraix service="pannous">WHY CAN NOT <star/></sraix></template>
 </category>
 <category><pattern>WHY AM I *</pattern>
 <template><sraix service="pannous">WHY AM I <star/></sraix></template>
@@ -439,9 +421,6 @@
 <category><pattern>WHO IS DOCTOR *</pattern>
 <template><sraix service="pannous">WHO IS DOCTOR <star/></sraix></template>
 </category>
-<category><pattern>WHO IS DOCTOR WALLACE</pattern>
-<template><sraix service="pannous">WHO IS DOCTOR WALLACE</sraix></template>
-</category>
 <category><pattern>WHO IS A *</pattern>
 <template><sraix service="pannous">WHO IS A <star/></sraix></template>
 </category>
@@ -450,12 +429,6 @@
 </category>
 <category><pattern>WHO IS BARACK OBAMA</pattern>
 <template><sraix service="pannous">WHO IS BARACK OBAMA</sraix></template>
-</category>
-<category><pattern>WHO IS THE SMARTEST *</pattern>
-<template><sraix service="pannous">WHO IS THE SMARTEST <star/></sraix></template>
-</category>
-<category><pattern>WHO IS THE PRIME MINISTER OF *</pattern>
-<template><sraix service="pannous">WHO IS THE CURRENT PRIME MINISTER OF <star/></sraix></template>
 </category>
 <category><pattern>WHO IS THE PRIME MINISTER OF MALAYSIA</pattern>
 <template><sraix service="pannous">WHO IS THE CURRENT PRIME MINISTER OF MALAYSIA</sraix></template>
@@ -493,32 +466,11 @@
 <category><pattern>WHO IS THE GREATEST *</pattern>
 <template><sraix service="pannous">WHO IS THE GREATEST <star/></sraix></template>
 </category>
-<category><pattern>WHO IS THE MOST *</pattern>
-<template><sraix service="pannous">WHO IS THE MOST <star/></sraix></template>
-</category>
 <category><pattern>WHO IS TONY *</pattern>
 <template><sraix service="pannous">WHO IS TONY <star/></sraix></template>
 </category>
-<category><pattern>WHO IS SUPERMAN</pattern>
-<template><sraix service="pannous">WHO IS SUPERMAN</sraix></template>
-</category>
 <category><pattern>WHO IS ROBERT *</pattern>
 <template><sraix service="pannous">WHO IS ROBERT <star/></sraix></template>
-</category>
-<category><pattern>WHO IS STEVE JOBS</pattern>
-<template><sraix service="pannous">WHO IS STEVE JOBS</sraix></template>
-</category>
-<category><pattern>WHO IS CHUCK NORRIS</pattern>
-<template><sraix service="pannous">WHO IS CHUCK NORRIS</sraix></template>
-</category>
-<category><pattern>WHO IS BILL GATES</pattern>
-<template><sraix service="pannous">WHO IS BILL GATES</sraix></template>
-</category>
-<category><pattern>WHO IS MICHAEL JACKSON</pattern>
-<template><sraix service="pannous">WHO IS MICHAEL JACKSON</sraix></template>
-</category>
-<category><pattern>WHO IS MICHAEL JORDAN</pattern>
-<template><sraix service="pannous">WHO IS MICHAEL JORDAN</sraix></template>
 </category>
 <category><pattern>WHO IS MICHAEL *</pattern>
 <template><sraix service="pannous">WHO IS MICHAEL <star/></sraix></template>
@@ -531,9 +483,6 @@
 </category>
 <category><pattern>WHO IS MOUSEBREAKER</pattern>
 <template><sraix service="pannous">WHO IS MOUSEBREAKER</sraix></template>
-</category>
-<category><pattern>WHO IS GOD</pattern>
-<template><sraix service="pannous">WHO IS GOD</sraix></template>
 </category>
 <category><pattern>WHO IS IN *</pattern>
 <template><sraix service="pannous">WHO IS IN <star/></sraix></template>
@@ -550,20 +499,8 @@
 <li><sraix service="pannous">WHO IS <star/></sraix></li>
 </condition></template>
 </category>
-<category><pattern>WHO IS SHAKESPEARE</pattern>
-<template><sraix service="pannous">WHO IS SHAKESPEARE</sraix></template>
-</category>
-<category><pattern>WHO IS SPOCK</pattern>
-<template><sraix service="pannous">WHO IS SPOCK</sraix></template>
-</category>
-<category><pattern>WHO IS JESUS CHRIST</pattern>
-<template><sraix service="pannous">WHO IS JESUS CHRIST</sraix></template>
-</category>
 <category><pattern>WHO IS WINNING *</pattern>
 <template><sraix service="pannous">WHO IS WINNING <star/></sraix></template>
-</category>
-<category><pattern>WHO IS BATMAN</pattern>
-<template><sraix service="pannous">WHO IS BATMAN</sraix></template>
 </category>
 <category><pattern>WHO IS JOHN *</pattern>
 <template><sraix service="pannous">WHO IS JOHN <star/></sraix></template>
@@ -582,9 +519,6 @@
 </category>
 <category><pattern>WHO IS TOM *</pattern>
 <template><sraix service="pannous">WHO IS TOM <star/></sraix></template>
-</category>
-<category><pattern>WHO IS CAPTAIN KIRK</pattern>
-<template><sraix service="pannous">WHO IS CAPTAIN KIRK</sraix></template>
 </category>
 <category><pattern>WHO DOES *</pattern>
 <template><sraix service="pannous">WHO DOES <star/></sraix></template>
@@ -888,9 +822,6 @@
 <category><pattern>WHAT IS A VAGINA</pattern>
 <template><sraix service="pannous">WHAT IS A VAGINA</sraix></template>
 </category>
-<category><pattern>WHAT IS A COMPUTER</pattern>
-<template><sraix service="pannous">WHAT IS A COMPUTER</sraix></template>
-</category>
 <category><pattern>WHAT IS A BLACK *</pattern>
 <template><sraix service="pannous">WHAT IS A BLACK <star/></sraix></template>
 </category>
@@ -1071,9 +1002,6 @@
 <category><pattern>WHAT IS THE CAPITAL OF CHINA</pattern>
 <template><sraix service="pannous">WHAT IS THE CAPITAL OF CHINA</sraix></template>
 </category>
-<category><pattern>WHAT IS THE CAPITAL OF *</pattern>
-<template><sraix service="pannous">WHAT IS THE CAPITAL OF <star/></sraix></template>
-</category>
 <category><pattern>WHAT IS THE CAPITAL OF INDIA</pattern>
 <template><sraix service="pannous">WHAT IS THE CAPITAL OF INDIA</sraix></template>
 </category>
@@ -1091,9 +1019,6 @@
 </category>
 <category><pattern>WHAT IS THE HISTORY OF *</pattern>
 <template><sraix service="pannous">WHAT IS THE HISTORY OF <star/></sraix></template>
-</category>
-<category><pattern>WHAT IS THE INTERNET</pattern>
-<template><sraix service="pannous">WHAT IS THE INTERNET</sraix></template>
 </category>
 <category><pattern>WHAT IS THE BIGGEST *</pattern>
 <template><sraix service="pannous">WHAT IS THE BIGGEST <star/></sraix></template>
@@ -1145,9 +1070,6 @@
 </category>
 <category><pattern>WHAT IS THE CURRENCY OF *</pattern>
 <template><sraix service="pannous">WHAT IS THE CURRENCY OF <star/></sraix></template>
-</category>
-<category><pattern>WHAT IS THE MEANING OF LIFE</pattern>
-<template><sraix service="pannous">WHAT IS THE MEANING OF LIFE</sraix></template>
 </category>
 <category><pattern>WHAT IS THE FASTEST *</pattern>
 <template><sraix service="pannous">WHAT IS THE FASTEST <star/></sraix></template>
@@ -1208,9 +1130,6 @@
 </category>
 <category><pattern>WHAT IS ON *</pattern>
 <template><sraix service="pannous">WHAT IS ON <star/></sraix></template>
-</category>
-<category><pattern>WHAT IS SEX</pattern>
-<template><sraix service="pannous">WHAT IS SEX</sraix></template>
 </category>
 <category><pattern>WHAT IS PROCREATION</pattern>
 <template><sraix service="pannous">WHAT IS PROCREATION</sraix></template>
@@ -1443,9 +1362,6 @@
 <category><pattern>HOW FAR *</pattern>
 <template><sraix service="pannous">HOW FAR <star/></sraix></template>
 </category>
-<category><pattern>HOW FAR IS THE MOON</pattern>
-<template><sraix service="pannous">HOW FAR IS THE MOON</sraix></template>
-</category>
 <category><pattern>HOW FAR IS THE *</pattern>
 <template><sraix service="pannous">HOW FAR IS THE <star/></sraix></template>
 </category>
@@ -1608,17 +1524,11 @@
 <category><pattern>HOW MUCH ARE *</pattern>
 <template><sraix service="pannous">HOW MUCH ARE <star/></sraix></template>
 </category>
-<category><pattern>HOW MUCH MONEY *</pattern>
-<template><sraix service="pannous">HOW MUCH MONEY <star/></sraix></template>
-</category>
 <category><pattern>HOW MUCH MONEY DOES *</pattern>
 <template><sraix service="pannous">HOW MUCH MONEY DOES <star/></sraix></template>
 </category>
 <category><pattern>HOW MUCH *</pattern>
 <template><sraix service="pannous">HOW MUCH <star/></sraix></template>
-</category>
-<category><pattern>HOW MUCH IS A *</pattern>
-<template><sraix service="pannous">HOW MUCH IS A <star/></sraix></template>
 </category>
 <category><pattern>HOW MUCH IS THE *</pattern>
 <template><sraix service="pannous">HOW MUCH IS THE <star/></sraix></template>
@@ -1769,9 +1679,6 @@
 </category>
 <category><pattern>WHAT IS THE HARDEST *</pattern>
 <template><sraix service="pannous">WHAT IS THE HARDEST <star/></sraix></template>
-</category>
-<category><pattern>WHO IS DAVID CAMERON</pattern>
-<template><sraix service="pannous">WHO IS DAVID CAMERON</sraix></template>
 </category>
 <category><pattern>WHAT MAKES *</pattern>
 <template><sraix service="pannous">WHAT MAKES <star/></sraix></template>
@@ -2028,9 +1935,6 @@
 <category><pattern>WHERE *</pattern>
 <template><sraix service="pannous">WHERE <star/></sraix></template>
 </category>
-<category><pattern>WHERE IS GOD</pattern>
-<template><sraix service="pannous">WHERE IS GOD</sraix></template>
-</category>
 <category><pattern>WHERE IS WALDO</pattern>
 <template><sraix service="pannous">WHERE IS WALDO</sraix></template>
 </category>
@@ -2112,9 +2016,6 @@
 <category><pattern>GAS *</pattern>
 <template><sraix service="pannous">WHAT IS GAS <star/></sraix></template>
 </category>
-<category><pattern>IS GOD REAL</pattern>
-<template><sraix service="pannous">IS GOD REAL</sraix></template>
-</category>
 <category><pattern>IS *</pattern>
 <template><sraix service="pannous">IS <star/></sraix></template>
 </category>
@@ -2142,9 +2043,6 @@
 <category><pattern>WHICH IS THE *</pattern>
 <template><sraix service="pannous">WHICH IS THE <star/></sraix></template>
 </category>
-<category><pattern>DOES GOD EXIST</pattern>
-<template><sraix service="pannous">DOES GOD EXIST</sraix></template>
-</category>
 <category><pattern>DOES A *</pattern>
 <template><sraix service="pannous">DOES A <star/></sraix></template>
 </category>
@@ -2159,9 +2057,6 @@
 </category>
 <category><pattern>WHY ARE *</pattern>
 <template><sraix service="pannous">WHY ARE <star/></sraix></template>
-</category>
-<category><pattern>WHY ARE PEOPLE *</pattern>
-<template><sraix service="pannous">WHY ARE PEOPLE <star/></sraix></template>
 </category>
 <category><pattern>WHY *</pattern>
 <template><sraix service="pannous">WHY <star/></sraix></template>
@@ -2192,12 +2087,6 @@
 </category>
 <category><pattern>WHY DO *</pattern>
 <template><sraix service="pannous">WHY DO <star/></sraix></template>
-</category>
-<category><pattern>WHY DO PEOPLE *</pattern>
-<template><sraix service="pannous">WHY DO PEOPLE <star/></sraix></template>
-</category>
-<category><pattern>WHY CAN NOT *</pattern>
-<template><sraix service="pannous">WHY CAN NOT <star/></sraix></template>
 </category>
 <category><pattern>WHY AM I *</pattern>
 <template><sraix service="pannous">WHY AM I <star/></sraix></template>
@@ -2244,9 +2133,6 @@
 <category><pattern>WHO IS DOCTOR *</pattern>
 <template><sraix service="pannous">WHO IS DOCTOR <star/></sraix></template>
 </category>
-<category><pattern>WHO IS DOCTOR WALLACE</pattern>
-<template><sraix service="pannous">WHO IS DOCTOR WALLACE</sraix></template>
-</category>
 <category><pattern>WHO IS A *</pattern>
 <template><sraix service="pannous">WHO IS A <star/></sraix></template>
 </category>
@@ -2255,12 +2141,6 @@
 </category>
 <category><pattern>WHO IS BARACK OBAMA</pattern>
 <template><sraix service="pannous">WHO IS BARACK OBAMA</sraix></template>
-</category>
-<category><pattern>WHO IS THE SMARTEST *</pattern>
-<template><sraix service="pannous">WHO IS THE SMARTEST <star/></sraix></template>
-</category>
-<category><pattern>WHO IS THE PRIME MINISTER OF *</pattern>
-<template><sraix service="pannous">WHO IS THE CURRENT PRIME MINISTER OF <star/></sraix></template>
 </category>
 <category><pattern>WHO IS THE PRIME MINISTER OF MALAYSIA</pattern>
 <template><sraix service="pannous">WHO IS THE CURRENT PRIME MINISTER OF MALAYSIA</sraix></template>
@@ -2298,32 +2178,11 @@
 <category><pattern>WHO IS THE GREATEST *</pattern>
 <template><sraix service="pannous">WHO IS THE GREATEST <star/></sraix></template>
 </category>
-<category><pattern>WHO IS THE MOST *</pattern>
-<template><sraix service="pannous">WHO IS THE MOST <star/></sraix></template>
-</category>
 <category><pattern>WHO IS TONY *</pattern>
 <template><sraix service="pannous">WHO IS TONY <star/></sraix></template>
 </category>
-<category><pattern>WHO IS SUPERMAN</pattern>
-<template><sraix service="pannous">WHO IS SUPERMAN</sraix></template>
-</category>
 <category><pattern>WHO IS ROBERT *</pattern>
 <template><sraix service="pannous">WHO IS ROBERT <star/></sraix></template>
-</category>
-<category><pattern>WHO IS STEVE JOBS</pattern>
-<template><sraix service="pannous">WHO IS STEVE JOBS</sraix></template>
-</category>
-<category><pattern>WHO IS CHUCK NORRIS</pattern>
-<template><sraix service="pannous">WHO IS CHUCK NORRIS</sraix></template>
-</category>
-<category><pattern>WHO IS BILL GATES</pattern>
-<template><sraix service="pannous">WHO IS BILL GATES</sraix></template>
-</category>
-<category><pattern>WHO IS MICHAEL JACKSON</pattern>
-<template><sraix service="pannous">WHO IS MICHAEL JACKSON</sraix></template>
-</category>
-<category><pattern>WHO IS MICHAEL JORDAN</pattern>
-<template><sraix service="pannous">WHO IS MICHAEL JORDAN</sraix></template>
 </category>
 <category><pattern>WHO IS MICHAEL *</pattern>
 <template><sraix service="pannous">WHO IS MICHAEL <star/></sraix></template>
@@ -2336,9 +2195,6 @@
 </category>
 <category><pattern>WHO IS MOUSEBREAKER</pattern>
 <template><sraix service="pannous">WHO IS MOUSEBREAKER</sraix></template>
-</category>
-<category><pattern>WHO IS GOD</pattern>
-<template><sraix service="pannous">WHO IS GOD</sraix></template>
 </category>
 <category><pattern>WHO IS IN *</pattern>
 <template><sraix service="pannous">WHO IS IN <star/></sraix></template>
@@ -2355,20 +2211,8 @@
 <li><sraix service="pannous">WHO IS <star/></sraix></li>
 </condition></template>
 </category>
-<category><pattern>WHO IS SHAKESPEARE</pattern>
-<template><sraix service="pannous">WHO IS SHAKESPEARE</sraix></template>
-</category>
-<category><pattern>WHO IS SPOCK</pattern>
-<template><sraix service="pannous">WHO IS SPOCK</sraix></template>
-</category>
-<category><pattern>WHO IS JESUS CHRIST</pattern>
-<template><sraix service="pannous">WHO IS JESUS CHRIST</sraix></template>
-</category>
 <category><pattern>WHO IS WINNING *</pattern>
 <template><sraix service="pannous">WHO IS WINNING <star/></sraix></template>
-</category>
-<category><pattern>WHO IS BATMAN</pattern>
-<template><sraix service="pannous">WHO IS BATMAN</sraix></template>
 </category>
 <category><pattern>WHO IS JOHN *</pattern>
 <template><sraix service="pannous">WHO IS JOHN <star/></sraix></template>
@@ -2387,9 +2231,6 @@
 </category>
 <category><pattern>WHO IS TOM *</pattern>
 <template><sraix service="pannous">WHO IS TOM <star/></sraix></template>
-</category>
-<category><pattern>WHO IS CAPTAIN KIRK</pattern>
-<template><sraix service="pannous">WHO IS CAPTAIN KIRK</sraix></template>
 </category>
 <category><pattern>WHO DOES *</pattern>
 <template><sraix service="pannous">WHO DOES <star/></sraix></template>
@@ -2693,9 +2534,6 @@
 <category><pattern>WHAT IS A VAGINA</pattern>
 <template><sraix service="pannous">WHAT IS A VAGINA</sraix></template>
 </category>
-<category><pattern>WHAT IS A COMPUTER</pattern>
-<template><sraix service="pannous">WHAT IS A COMPUTER</sraix></template>
-</category>
 <category><pattern>WHAT IS A BLACK *</pattern>
 <template><sraix service="pannous">WHAT IS A BLACK <star/></sraix></template>
 </category>
@@ -2876,9 +2714,6 @@
 <category><pattern>WHAT IS THE CAPITAL OF CHINA</pattern>
 <template><sraix service="pannous">WHAT IS THE CAPITAL OF CHINA</sraix></template>
 </category>
-<category><pattern>WHAT IS THE CAPITAL OF *</pattern>
-<template><sraix service="pannous">WHAT IS THE CAPITAL OF <star/></sraix></template>
-</category>
 <category><pattern>WHAT IS THE CAPITAL OF INDIA</pattern>
 <template><sraix service="pannous">WHAT IS THE CAPITAL OF INDIA</sraix></template>
 </category>
@@ -2896,9 +2731,6 @@
 </category>
 <category><pattern>WHAT IS THE HISTORY OF *</pattern>
 <template><sraix service="pannous">WHAT IS THE HISTORY OF <star/></sraix></template>
-</category>
-<category><pattern>WHAT IS THE INTERNET</pattern>
-<template><sraix service="pannous">WHAT IS THE INTERNET</sraix></template>
 </category>
 <category><pattern>WHAT IS THE BIGGEST *</pattern>
 <template><sraix service="pannous">WHAT IS THE BIGGEST <star/></sraix></template>
@@ -2950,9 +2782,6 @@
 </category>
 <category><pattern>WHAT IS THE CURRENCY OF *</pattern>
 <template><sraix service="pannous">WHAT IS THE CURRENCY OF <star/></sraix></template>
-</category>
-<category><pattern>WHAT IS THE MEANING OF LIFE</pattern>
-<template><sraix service="pannous">WHAT IS THE MEANING OF LIFE</sraix></template>
 </category>
 <category><pattern>WHAT IS THE FASTEST *</pattern>
 <template><sraix service="pannous">WHAT IS THE FASTEST <star/></sraix></template>
@@ -3013,9 +2842,6 @@
 </category>
 <category><pattern>WHAT IS ON *</pattern>
 <template><sraix service="pannous">WHAT IS ON <star/></sraix></template>
-</category>
-<category><pattern>WHAT IS SEX</pattern>
-<template><sraix service="pannous">WHAT IS SEX</sraix></template>
 </category>
 <category><pattern>WHAT IS PROCREATION</pattern>
 <template><sraix service="pannous">WHAT IS PROCREATION</sraix></template>
@@ -3248,9 +3074,6 @@
 <category><pattern>HOW FAR *</pattern>
 <template><sraix service="pannous">HOW FAR <star/></sraix></template>
 </category>
-<category><pattern>HOW FAR IS THE MOON</pattern>
-<template><sraix service="pannous">HOW FAR IS THE MOON</sraix></template>
-</category>
 <category><pattern>HOW FAR IS THE *</pattern>
 <template><sraix service="pannous">HOW FAR IS THE <star/></sraix></template>
 </category>
@@ -3413,17 +3236,11 @@
 <category><pattern>HOW MUCH ARE *</pattern>
 <template><sraix service="pannous">HOW MUCH ARE <star/></sraix></template>
 </category>
-<category><pattern>HOW MUCH MONEY *</pattern>
-<template><sraix service="pannous">HOW MUCH MONEY <star/></sraix></template>
-</category>
 <category><pattern>HOW MUCH MONEY DOES *</pattern>
 <template><sraix service="pannous">HOW MUCH MONEY DOES <star/></sraix></template>
 </category>
 <category><pattern>HOW MUCH *</pattern>
 <template><sraix service="pannous">HOW MUCH <star/></sraix></template>
-</category>
-<category><pattern>HOW MUCH IS A *</pattern>
-<template><sraix service="pannous">HOW MUCH IS A <star/></sraix></template>
 </category>
 <category><pattern>HOW MUCH IS THE *</pattern>
 <template><sraix service="pannous">HOW MUCH IS THE <star/></sraix></template>
@@ -3574,9 +3391,6 @@
 </category>
 <category><pattern>WHAT IS THE HARDEST *</pattern>
 <template><sraix service="pannous">WHAT IS THE HARDEST <star/></sraix></template>
-</category>
-<category><pattern>WHO IS DAVID CAMERON</pattern>
-<template><sraix service="pannous">WHO IS DAVID CAMERON</sraix></template>
 </category>
 <category><pattern>WHAT MAKES *</pattern>
 <template><sraix service="pannous">WHAT MAKES <star/></sraix></template>

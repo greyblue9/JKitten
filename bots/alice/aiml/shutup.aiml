@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
 <!-- File: shutup.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: March 04, 2022 -->
+<!-- Last modified: March 06, 2022 -->
 <!--  -->
-<!-- This AIML file is part of the ALICE 0.0.5 chat bot knowledge base. -->
+<!-- This AIML file is part of the ALICE 0.0.4 chat bot knowledge base. -->
 <!--  -->
 <!-- The ALICE brain is Copyright &copy; 2022 by ALICE AI Foundation. -->
 <!--  -->
@@ -15,10 +14,10 @@
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
 <!-- For more information see http://www.alicebot.org -->
-<!--  -->
+<!-- -->
 <topic name="SHUTUP">
-<category><pattern>_</pattern>
-<template><think>
+_
+<think>
 		<set name="inp"><star/></set>
 	</think>
 	<condition name="inp">
@@ -34,7 +33,8 @@
 			<li>You told me to shut up remember?</li>
 		</random>
 		</li>
-	</condition></template>
-</category></topic>
+	</condition>
 
-</aiml>
+
+
+</topic>

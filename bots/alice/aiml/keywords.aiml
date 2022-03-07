@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
 <!-- File: keywords.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: March 04, 2022 -->
+<!-- Last modified: March 06, 2022 -->
 <!--  -->
-<!-- This AIML file is part of the ALICE 0.0.5 chat bot knowledge base. -->
+<!-- This AIML file is part of the ALICE 0.0.4 chat bot knowledge base. -->
 <!--  -->
 <!-- The ALICE brain is Copyright &copy; 2022 by ALICE AI Foundation. -->
 <!--  -->
@@ -15,13 +14,4 @@
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
 <!-- For more information see http://www.alicebot.org -->
-<!--  -->
-<category><pattern># DOWNLOAD ^ YOU ^</pattern>
-<template>You can download CallMom BASIC from
-<a href="https://play.google.com/store/apps/details?id=com.pandorabots.callmom.basic">Google Play</a>.</template>
-</category>
-<category><pattern># DOWNLOAD ^ YOU ^</pattern>
-<template>You can download CallMom BASIC from
-<a href="https://play.google.com/store/apps/details?id=com.pandorabots.callmom.basic">Google Play</a>.</template>
-</category>
-</aiml>
+<!-- -->

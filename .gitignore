@@ -136,3 +136,10 @@ dmypy.json
 run.bat
 **/dicdata
 .env
+*.1*.bak
+*.1*.mod
+*.*.mod
+*.*.bak
+data/sample.random_in.txt
+bots/alice/logs
+bots/alice/aimlif

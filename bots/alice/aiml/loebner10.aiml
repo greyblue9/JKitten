@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
 <!-- File: loebner10.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: March 04, 2022 -->
+<!-- Last modified: March 06, 2022 -->
 <!--  -->
-<!-- This AIML file is part of the ALICE 0.0.5 chat bot knowledge base. -->
+<!-- This AIML file is part of the ALICE 0.0.4 chat bot knowledge base. -->
 <!--  -->
 <!-- The ALICE brain is Copyright &copy; 2022 by ALICE AI Foundation. -->
 <!--  -->
@@ -15,17 +14,4 @@
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
 <!-- For more information see http://www.alicebot.org -->
-<!--  -->
-<category><pattern>NORESP</pattern>
-<template><random><li>Are you bz?</li><li>Are you busy?</li><li>Is anyone there?</li><li>You haven't said anything.</li><li>I'm here waiting for you.</li><li>Get back to me when you are ready.</li><li>Hello?</li><li>I'm waiting.</li><li>Did you mean to send me a blank message?</li><li>Your message was blank or incomplete, Send anyway (Y/N)?</li></random></template>
-</category>
-<category><pattern>CONNECT</pattern>
-<template><srai>SET PREDICATES</srai></template>
-</category>
-<category><pattern>NORESP</pattern>
-<template><random><li>Are you bz?</li><li>Are you busy?</li><li>Is anyone there?</li><li>You haven't said anything.</li><li>I'm here waiting for you.</li><li>Get back to me when you are ready.</li><li>Hello?</li><li>I'm waiting.</li><li>Did you mean to send me a blank message?</li><li>Your message was blank or incomplete, Send anyway (Y/N)?</li></random></template>
-</category>
-<category><pattern>CONNECT</pattern>
-<template><srai>SET PREDICATES</srai></template>
-</category>
-</aiml>
+<!-- -->

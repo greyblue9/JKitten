@@ -1,269 +1,304 @@
-
 /* Program AB Reference AIML 2.1 implementation
-        Copyright (C) 2013 ALICE A.I. Foundation
-        Contact: info@alicebot.org
-
-        This library is free software; you can redistribute it and/or
-        modify it under the terms of the GNU Library General Public
-        License as published by the Free Software Foundation; either
-        version 2 of the License, or (at your option) any later version.
-
-        This library is distributed in the hope that it will be useful,
-        but WITHOUT ANY WARRANTY; without even the implied warranty of
-        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-        Library General Public License for more details.
-
-        You should have received a copy of the GNU Library General Public
-        License along with this library; if not, write to the
-        Free Software Foundation, Inc., 51 Franklin St, Fifth Floor,
-        Boston, MA  02110-1301, USA.
-*/
-
+ Copyright (C) 2013 ALICE A.I. Foundation
+ Contact: info@alicebot.org
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ Library General Public License for more details.
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the
+ Free Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ */
 import org.alicebot.ab.*;
 import java.util.Map;
 import java.util.LinkedHashMap;
-
 import discord4j.core.event.domain.message.MessageCreateEvent;
 import discord4j.core.DiscordClient;
 import discord4j.core.GatewayDiscordClient;
 import discord4j.core.object.entity.channel.MessageChannel;
 import discord4j.core.object.entity.Message;
-
 import java.io.*;
 import java.util.HashMap;
 
-
-
 public class Main {
+  
+  public static final Map<CharSequence, Chat> chatSessions = new LinkedHashMap<>();
+  
   static {
-  MagicStrings.setRootPath("./");
-        
-        AIMLProcessor.extension =  new PCAIMLProcessorExtension();
-          
+    MagicStrings.setRootPath("./");
+    MagicStrings.default_Customer_id = "856229099952144464";
+    AIMLProcessor.extension = new PCAIMLProcessorExtension();
   }
-    static Bot _sBot = new Bot(MagicStrings.default_bot_name, MagicStrings.root_path, "chat-app");
-    static AB _ab = new AB(_sBot, "1000.txt");
+  
+  public static void trace(final Object... args) {
+    if (!MagicBooleans.trace_mode) return;
+    final StringBuilder sb = new StringBuilder(128);
+    for (final Object arg: args) {
+      if (sb.length() != 0) sb.append(" ");
+      sb.append(
+        (arg instanceof CharSequence)
+          ? (CharSequence) arg
+          : (arg == null)
+              ? "<null>"
+              : arg.toString()
+      );
+    }
+    System.err.print(sb.toString());
+    System.err.print((char) 0x0A);
+    System.err.flush();
+  }
+  
+  public static Chat getOrCreateChat(
+      final Bot bot,
+      final boolean doWrites,
+      final CharSequence customerId
+  )
+  {
+    if (! chatSessions.containsKey(customerId)) {
+      final Chat chat = new Chat(
+        bot, doWrites, customerId.toString(
+      ));
+      trace("created", chat, "for customerId", customerId);
+      chatSessions.put(customerId, chat);
+      return chat;
+    }
+    final Chat chat = chatSessions.get(customerId);
+    trace("Returning", chat, "for customerId", customerId);
+    return chat;
+  }
+  
   public static class DiscordBot {
-      public static void main(final String[] args) {
-        final String token = System.getenv("Token");
-        final DiscordClient client = DiscordClient.create(token);
-        final GatewayDiscordClient gateway = client.login().block();
-        final Map<Long, Chat> chatSessions = new LinkedHashMap<>();
-        final Bot bot = (_sBot != null) ? _sBot: new Bot(MagicStrings.default_bot_name, MagicStrings.root_path, "chat-app");
-        _sBot = bot;
-        Graphmaster.enableShortCuts = true;
-        EnglishNumberToWords.makeSetMap(bot);
-        bot.addCategoriesFromAIMLIF();
-        if (MagicBooleans.make_verbs_sets_maps) Verbs.makeVerbSetsMaps(bot);
-        if (bot.brain.getCategories().size() < MagicNumbers.brain_print_size) bot.brain.printgraph();
-        bot.brain.nodeStats();
-        
-        gateway.on(MessageCreateEvent.class).subscribe(event -> {
-          final Message message = event.getMessage();
-          if (message.getContent().split(" ").length < 1) return;
-          final MessageChannel channel = message.getChannel().block();
-          if (channel.getId().asLong() != 944426266256367656L) {
+
+    public static DiscordClient start(final Bot bot, final boolean doWrites) 
+    {
+      final String token = System.getenv("Token");
+      if (token == null) return null;
+      final DiscordClient cl = DiscordClient.create(token);
+      final GatewayDiscordClient gw = cl.login().block();
+      gw.on(MessageCreateEvent.class).subscribe(
+        (final MessageCreateEvent event) ->
+        {
+          final Message msg = event.getMessage();
+          final MessageChannel channel 
+            = msg.getChannel().block();
+          if (channel.getId().asLong() 
+            != 944426266256367656L)
+          {
             return;
           }
-          //System.out.println(message);
-          //System.out.println(channel);
-          if (message.getAuthor().get().isBot()) {
+          if (msg.getAuthor().get().isBot()) {
             return;
           }
-          final long authorId = message.getAuthor().get().getId().asLong();
-          if (! chatSessions.containsKey(authorId)) {
-            final Chat chatSession = new Chat(bot, true);
-            chatSessions.put(authorId, chatSession);
-          }
-          final Chat session = chatSessions.get(authorId);
-          final String response = session.multisentenceRespond(message.getContent());
-          System.out.printf("%s: %s\n", message.getAuthor().get().getUsername(), message.getContent());
-          System.out.printf("  >> %s\n", response);
-          if (response.startsWith("If you want ")) return;
+          final long authorId 
+            = msg.getAuthor().get().getId().asLong();
+          final Chat chat = getOrCreateChat(
+            bot, doWrites, Long.toString(authorId, 10)
+          );
+          trace("msg", msg, "in chat", chat);
+          final String response = chat.multisentenceRespond(
+            msg.getContent()
+          );
+          System.err.printf(
+            "\n%s: %s\n",
+            msg.getAuthor().get().getUsername(),
+            msg.getContent()
+          );
+          System.err.printf(
+            "  >> %s\n", response
+          );
           channel.createMessage(response).block();
-          
-        });
-    
-        //gateway.onDisconnect().block();
+        }
+      );
+      return cl;
+    }
+  }
+
+  public static void main(final String... args) {
+    String botName = MagicStrings.default_bot_name;
+    MagicBooleans.jp_tokenize = false;
+    MagicBooleans.trace_mode = true;
+    String action = "chat";
+    for (final String s : args) {
+      String[] splitArg = s.split("=");
+      if (splitArg.length >= 2) {
+        String option = splitArg[0];
+        String value = splitArg[1];
+        trace("option:", option, "value:", value);
+        if (option.equals("bot")) botName = value;
+        if (option.equals("action")) action = value;
+        if (option.equals("trace")) {
+          MagicBooleans.trace_mode = Boolean.valueOf(value);
+        }
+        if (option.equals("morph")) {
+          MagicBooleans.jp_tokenize = Boolean.valueOf(value);
+        }
       }
     }
-  
-    public static void main (String[] args) {
-        
-        DiscordBot.main(args);
-        mainFunction(args);
+    trace("Working Directory =", MagicStrings.root_path);
+    Graphmaster.enableShortCuts = false;
+    
+    final Bot bot = new Bot(
+      botName, MagicStrings.root_path, action
+    );
+    boolean doWrites = ! action.equals("chat-app");
+    final Chat chat = getOrCreateChat(
+      bot, doWrites, MagicStrings.default_Customer_id
+    );
+    
+    EnglishNumberToWords.makeSetMap(bot);
+    getGloss(bot, "glossary.xml");
+    if (MagicBooleans.make_verbs_sets_maps) {
+      Verbs.makeVerbSetsMaps(bot);
     }
-  
-  
-    public static void mainFunction (String[] args) {
-        String botName = "alice";
-        MagicBooleans.jp_tokenize = false;
-        MagicBooleans.trace_mode = true;
-        String action="chat-app";
-        System.out.println(MagicStrings.program_name_version);
-        for (String s : args) {
-            //System.out.println(s);
-            String[] splitArg = s.split("=");
-            if (splitArg.length >= 2) {
-                String option = splitArg[0];
-                String value = splitArg[1];
-                if (MagicBooleans.trace_mode) System.out.println(option+"='"+value+"'");
-                if (option.equals("bot")) botName = value;
-                if (option.equals("action")) action = value;
-                if (option.equals("trace")) {
-                    if (value.equals("true")) MagicBooleans.trace_mode = true;
-                    else MagicBooleans.trace_mode = false;
-                }
-                if (option.equals("morph")) {
-                    if (value.equals("true")) MagicBooleans.jp_tokenize = true;
-                    else {
-                        MagicBooleans.jp_tokenize = false;
-                    }
-                }
-             }
-        }
-        if (MagicBooleans.trace_mode) System.out.println("Working Directory = " + MagicStrings.root_path);
-        Graphmaster.enableShortCuts = true;
-        //Timer timer = new Timer();
-        Bot bot = (_sBot != null) ? _sBot : new Bot(botName, MagicStrings.root_path, action); //
-        _sBot = bot;
-        EnglishNumberToWords.makeSetMap(bot);
-        // getGloss(bot, "c:/ab/data/wn30-lfs/wne-2006-12-06.xml");
-        if (MagicBooleans.make_verbs_sets_maps) Verbs.makeVerbSetsMaps(bot);
-        //bot.preProcessor.normalizeFile("c:/ab/data/log2.txt", "c:/ab/data/log2normal.txt");
-        //System.exit(0);
-        if (bot.brain.getCategories().size() < MagicNumbers.brain_print_size) bot.brain.printgraph();
-        if (MagicBooleans.trace_mode) System.out.println("Action = '"+action+"'");
-        if (action.equals("chat") || action.equals("chat-app")) {
-			boolean doWrites = true; // ! action.equals("chat-app");
+    if (bot.brain.getCategories().size() 
+     < MagicNumbers.brain_print_size) {
+      bot.brain.printgraph();
+    }
+    trace("Action =", action);
+    final DiscordClient cl;
+    if (args.length == 0) {
+       cl = DiscordBot.start(bot, doWrites);
+    }
+    
+    if (action == null 
+     || action.equals("chat")
+     || action.equals("chat-app"))
+    {
+      chat.chat();
+    } else if (action.equals("ab")) {
       TestAB.testAB(bot, TestAB.sample_file);
-      TestAB.testBotChat();
-			TestAB.testChat(bot, doWrites, MagicBooleans.trace_mode);
-      
-		}
-        // else if (action.equals("test")) testSuite(bot, MagicStrings.root_path+"/data/find.txt");
-        else if (action.equals("ab")) TestAB.testAB(bot, TestAB.sample_file);
-        else if (action.equals("aiml2csv") || action.equals("csv2aiml")) convert(bot, action);
-        else if (action.equals("abwq")){AB ab = new AB(bot, TestAB.sample_file);  ab.abwq();}
-		    else if (action.equals("test")) { TestAB.runTests(bot, MagicBooleans.trace_mode);     }
-        else if (action.equals("shadow")) { MagicBooleans.trace_mode = false; bot.shadowChecker();}
-        else if (action.equals("iqtest")) { ChatTest ct = new ChatTest(bot);
-                try {
-                    ct.testMultisentenceRespond();
-                }
-            catch (Exception ex) { ex.printStackTrace(); }
-            }
-        else System.out.println("Unrecognized action "+action);
+    } else if (action.equals("aiml2csv") 
+            || action.equals("csv2aiml"))
+    {
+      convert(bot, action);
+    } else if (action.equals("abwq")) {
+      AB ab = new AB(bot, TestAB.sample_file);
+      ab.abwq();
+    } else if (action.equals("test")) {
+      TestAB.runTests(bot, MagicBooleans.trace_mode);
+    } else if (action.equals("shadow")) {
+      MagicBooleans.trace_mode = false;
+      bot.shadowChecker();
+    } else if (action.equals("iqtest")) {
+      ChatTest ct = new ChatTest(bot);
+      try {
+        ct.testMultisentenceRespond();
+      } catch (Exception ex) {
+        ex.printStackTrace();
+      }
+    } else {
+      System.out.println("Unrecognized action " + action);
     }
-    public static void convert(Bot bot, String action) {
-        if (action.equals("aiml2csv")) bot.writeAIMLIFFiles();
-        else if (action.equals("csv2aiml")) bot.writeAIMLFiles();
+  }
+
+  public static void convert(Bot bot, String action) {
+    if (action.equals("aiml2csv")) {
+      bot.writeAIMLIFFiles(); 
+    } else if (action.equals("csv2aiml")) {
+      bot.writeAIMLFiles();
     }
+  }
 
-
-    public static void getGloss (Bot bot, String filename) {
-        System.out.println("getGloss");
-        try{
-            // Open the file that is the first
-            // command line parameter
-            File file = new File(filename);
-            if (file.exists()) {
-                FileInputStream fstream = new FileInputStream(filename);
-                // Get the object
-                getGlossFromInputStream(bot, fstream);
-                fstream.close();
-            }
-        }catch (Exception e){//Catch exception if any
-            System.err.println("Error: " + e.getMessage());
+  public static Object getGloss(Bot bot, String filename) {
+    System.out.println("getGloss");
+    try {
+      // Open the file that is the first
+      // command line parameter
+      final File file = new File(filename);
+      if (file.exists()) {
+        try (final FileInputStream fstream = new FileInputStream(file)) {
+          // Get the object
+          return getGlossFromInputStream(bot, fstream);
         }
+      }
+    } catch (final IOException e) {
+      e.printStackTrace();
     }
-    public static void getGlossFromInputStream (Bot bot, InputStream in)  {
-        System.out.println("getGlossFromInputStream");
-        BufferedReader br = new BufferedReader(new InputStreamReader(in));
-        String strLine;
-        int cnt = 0;
-        int filecnt = 0;
-        HashMap<String, String> def = new HashMap<String, String>();
-        try {
-            //Read File Line By Line
-            String word; String gloss;
-            word = null;
-            gloss = null;
-            while ((strLine = br.readLine()) != null)   {
+    return null;
+  }
 
-                if (strLine.contains("<entry word")) {
-                    int start = strLine.indexOf("<entry word=\"")+"<entry word=\"".length();
+  public static Map<Category, Nodemapper> getGlossFromInputStream(Bot bot, InputStream in) {
+    System.out.println("getGlossFromInputStream");
+    BufferedReader br = new BufferedReader(new InputStreamReader(in));
+    String strLine;
+    int cnt = 0;
+    int filecnt = 0;
+    HashMap<String, String> def = new HashMap<String, String>();
+    final Map<Category, Nodemapper> categories = new HashMap<>();
+    try {
+            //Read File Line By Line
+      String word;
+      String gloss;
+      word = null;
+      gloss = null;
+      while ((strLine = br.readLine()) != null) {
+        if (strLine.contains("<entry word")) {
+          int start = strLine.indexOf("<entry word=\"") + "<entry word=\"".length();
                     //int end = strLine.indexOf(" status=");
-                    int end = strLine.indexOf("#");
-
-                    word = strLine.substring(start, end);
-                    word = word.replaceAll("_"," ");
-                    System.out.println(word);
-
-                }
-                else  if (strLine.contains("<gloss>")) {
-                    gloss = strLine.replaceAll("<gloss>","");
-                    gloss = gloss.replaceAll("</gloss>","");
-                    gloss = gloss.trim();
-                    System.out.println(gloss);
-
-                }
-
-
-                if (word != null && gloss != null) {
-                    word = word.toLowerCase().trim();
-                    if (gloss.length() > 2) gloss = gloss.substring(0, 1).toUpperCase()+gloss.substring(1, gloss.length());
-                    String definition;
-                    if (def.keySet().contains(word))  {
-                        definition = def.get(word);
-                        definition = definition+"; "+gloss;
-                    }
-                    else definition = gloss;
-                    def.put(word, definition);
-                    word = null;
-                    gloss = null;
-                }
-            }
-            Category d = new Category(0,"WNDEF *","*","*","unknown","wndefs"+filecnt+".aiml");
-            bot.brain.addCategory(d);
-            for (String x : def.keySet()) {
-                word = x;
-                gloss = def.get(word)+".";
-                cnt++;
-                if (cnt%5000==0) filecnt++;
-
-                Category c = new Category(0,"WNDEF "+word,"*","*",gloss,"wndefs"+filecnt+".aiml");
-                System.out.println(cnt+" "+filecnt+" "+c.inputThatTopic()+":"+c.getTemplate()+":"+c.getFilename());
-                Nodemapper node;
-                if ((node = bot.brain.findNode(c)) != null) node.category.setTemplate(node.category.getTemplate()+","+gloss);
-                bot.brain.addCategory(c);
-
-
-            }
-        } catch (Exception ex) {
-            ex.printStackTrace();
+          int end = strLine.indexOf("#");
+          word = strLine.substring(start, end);
+          word = word.replaceAll("_", " ");
+          System.out.println(word);
+        } else if (strLine.contains("")) {
+          gloss = strLine.replaceAll("", "");
+          gloss = gloss.replaceAll("", "");
+          gloss = gloss.trim();
+          System.out.println(gloss);
         }
+        if (word != null && gloss != null) {
+          word = word.toLowerCase().trim();
+          if (gloss.length() > 2) gloss = gloss.substring(0, 1).toUpperCase() + gloss.substring(1, gloss.length());
+          String definition;
+          if (def.keySet().contains(word)) {
+            definition = def.get(word);
+            definition = definition + "; " + gloss;
+          } else definition = gloss;
+          def.put(word, definition);
+          word = null;
+          gloss = null;
+        }
+      }
+      Category d = new Category(0, "WNDEF *", "*", "*", "unknown", "wndefs" + filecnt + ".aiml");
+      bot.brain.addCategory(d);
+      for (String x : def.keySet()) {
+        word = x;
+        gloss = def.get(word) + ".";
+        cnt++;
+        if (cnt % 5000 == 0) filecnt++;
+        Category c = new Category(0, "WNDEF " + word, "*", "*", gloss, "wndefs" + filecnt + ".aiml");
+        System.out.println(cnt + " " + filecnt + " " + c.inputThatTopic() + ":" + c.getTemplate() + ":" + c.getFilename());
+        final Nodemapper node;
+        if ((node = bot.brain.findNode(c)) != null) node.category.setTemplate(node.category.getTemplate() + "," + gloss);
+        bot.brain.addCategory(c);
+        categories.put(c, node);
+      }
+    } catch (Exception ex) {
+      ex.printStackTrace();
     }
+    return categories;
+  }
 
-    public static void sraixCache (String filename, Chat chatSession) {
-        int limit = 1000;
-        try {
-            FileInputStream fstream = new FileInputStream(filename);
+  public static void sraixCache(String filename, Chat chatSession) {
+    int limit = 1000;
+    try {
+      FileInputStream fstream = new FileInputStream(filename);
             // Get the object
-            BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
-            String strLine;
+      BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+      String strLine;
             //Read File Line By Line
-            int count = 0;
-            while ((strLine = br.readLine()) != null && count++ < limit) {
-                System.out.println("Human: " + strLine);
-
-                String response = chatSession.multisentenceRespond(strLine);
-                System.out.println("Robot: " + response);
-            }
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
+      int count = 0;
+      while ((strLine = br.readLine()) != null && count++ < limit) {
+        System.out.println("Human: " + strLine);
+        String response = chatSession.multisentenceRespond(strLine);
+        System.out.println("Robot: " + response);
+      }
+    } catch (Exception ex) {
+      ex.printStackTrace();
     }
-
-
+  }
 }

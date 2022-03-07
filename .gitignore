@@ -127,8 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-.aiml.csv
-*.aiml.csv
 *.class
 *.jar
 .idea
@@ -142,4 +140,3 @@ run.bat
 *.*.bak
 data/sample.random_in.txt
 bots/alice/logs
-bots/alice/aimlif

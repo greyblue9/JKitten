@@ -1,0 +1,9 @@
+0,SIMPLEMEMBER * *,*,*,<think>#Newline<set var="element"><star/></set>#Newline<set var="list"><star index="2"/></set>#Newline<set var="result">false</set>#Newline</think>#Newline<condition var="list">#Newline<li var="list"><value>NIL</value><get var="result"/></li>#Newline<li><think>#Newline<set var="head"><first><get var="list"/></first></set>#Newline<set var="list"><rest><get var="list"/></rest></set>#Newline<condition var="head"><value><get var="element"/></value><set var="result">true</set></condition>#Newline</think> <loop/></li>#Newline</condition>,lists.aiml
+0,LISTCAR *,*,*,undefined,lists.aiml
+0,LISTCAR CONS * CONS *,*,*,<star/>,lists.aiml
+0,LISTCAR CONS * NIL,*,*,<star/>,lists.aiml
+0,LISTCAR NIL,*,*,NIL,lists.aiml
+0,LISTCDR *,*,*,undefined,lists.aiml
+0,LISTCDR CONS * CONS *,*,*,CONS <star index="2"/>,lists.aiml
+0,LISTCDR CONS * NIL,*,*,NIL,lists.aiml
+0,LISTCDR NIL,*,*,NIL,lists.aiml

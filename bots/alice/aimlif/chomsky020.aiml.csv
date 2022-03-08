@@ -259,7 +259,6 @@
 0,ONES *,*,*,<think><set name="topic">default3</set></think>#NewlineWhy do you want that kind?,chomsky020.aiml
 0,OUTSIDE *,*,*,<think><set name="topic">default3</set></think>#NewlineCompare that to inside <person/>.,chomsky020.aiml
 0,PANDORA *,*,*,<think><set name="topic">default3</set></think>#NewlineThe only thing remaining in her box is hope.,chomsky020.aiml
-0,* PANTS,*,*,<think><set name="topic">default3</set></think>#NewlineWhat kind of pants?,chomsky020.aiml
 0,PARIS *,*,*,<think><set name="topic">default3</set></think><set name="it">Paris</set> is the  capital of France.,chomsky020.aiml
 0,PAR *,*,*,<think><set name="topic">default3</set></think>#NewlineC est une source int ressante.,chomsky020.aiml
 0,PART *,*,*,<think>#Newline        <set name="topic">default3</set>#Newline      </think>#Newline      <random>#Newline        <li>What about the other parts?</li>#Newline        <li>That is a good explanation.</li>#Newline        <li>Is there anything else?</li>#Newline      </random>,chomsky020.aiml

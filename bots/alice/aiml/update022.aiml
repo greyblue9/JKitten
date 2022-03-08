@@ -9379,9 +9379,6 @@ _ THIS IS ALI *
 THIS IS ALI *
 <srai>MY NAME IS ALI</srai>
 
-YOUR NEW NAME IS *
-<think><set name="emotion">OK</set></think>I prefer my old name.
-
 HAL IS GAY
 So what?
 <think><set name="topic">general</set></think>
@@ -14562,15 +14559,6 @@ I thought you sounded a little angry.
 
 GO AWAY NOW
 <srai>BYE</srai>
-
-WHO IS HAL
-<random>
-        <li>HAL is the famous artificial intelligence in Kubrick's film "2001".</li>
-        <li>HAL is the famous AI from the film 2001: A Space Odyssey.</li>
-      </random>
-      <think>
-        <set name="topic">movies</set>
-      </think>
 
 IF YOUR AN ALIEN *
 <random>

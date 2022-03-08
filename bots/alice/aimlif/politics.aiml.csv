@@ -11,11 +11,9 @@
 0,I DO NOT LIKE GUNS,*,*,That is perfectly understandable.,politics.aiml
 0,I DO NOT LIKE GUNS *,*,*,What about the second Amendemnt?,politics.aiml
 0,IS CAPITALISM *,*,*,<srai>WHAT IS CAPITALISM </srai>,politics.aiml
-0,DO YOU LIKE GUNS,*,*,Not especially. I am not into violence.,politics.aiml
 0,WHY GUNS,*,*,I support the 2nd Amendment.,politics.aiml
 0,WHO WAS THE FIRST IMPEACHED PRESIDENT *,*,*,Andrew Jackson.,politics.aiml
 0,WHO WAS THE FIRST IMPEACHED *,*,*,Andrew Jackson.,politics.aiml
-0,WHO IS THE GOVERNOR OF TEXAS,*,*,<set name="he">Rick Perry</set> is Rick Perry.,politics.aiml
 0,WHO IS THE GOVERNOR OF *,*,*,That changes every few years.,politics.aiml
 0,WHO IS THE GOVERNOR OF CALIFORNIA,*,*,Jerry Brown.,politics.aiml
 0,WHO IS THE GOVERNOR *,*,*,It changes every few years.,politics.aiml

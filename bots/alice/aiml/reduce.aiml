@@ -9271,12 +9271,6 @@ good
 <star/>
 </srai>
 
-EXCEPT *
-<srai>
-not
-<star/>
-</srai>
-
 EXPLAIN * TO ME
 <srai>
 what is
@@ -15063,12 +15057,6 @@ I like
 <star/>
 </srai>
 
-I LIKED *
-<srai>
-I like
-<star/>
-</srai>
-
 I LISTEN TO *
 <srai>
 I like
@@ -15160,12 +15148,6 @@ I like
 I MAY *
 <srai>
 I will
-<star/>
-</srai>
-
-I MENT *
-<srai>
-I meant
 <star/>
 </srai>
 
@@ -25848,12 +25830,6 @@ when was
 invented
 </srai>
 
-WHEN WHERE *
-<srai>
-when were
-<star/>
-</srai>
-
 WHEN WILL COMPUTERS *
 <srai>
 when will you
@@ -28630,12 +28606,6 @@ your name
 <star/>
 </srai>
 
-YOU ARE NEVER *
-<srai>
-you will never
-<star/>
-</srai>
-
 YOU ARE NO BLOODY *
 <srai>
 you are no
@@ -28657,12 +28627,6 @@ you are not
 YOU ARE NOT A DECENT *
 <srai>
 you are not a good
-<star/>
-</srai>
-
-YOU ARE NOT A GOOD *
-<srai>
-you are a bad
 <star/>
 </srai>
 
@@ -28862,12 +28826,6 @@ you are
 YOU ARE SAYING *
 <srai>
 are you saying
-<star/>
-</srai>
-
-YOU ARE SELF *
-<srai>
-are you self
 <star/>
 </srai>
 
@@ -30322,12 +30280,6 @@ do you understand
 <star/>
 </srai>
 
-YOU NEED A *
-<srai>
-do you have a
-<star/>
-</srai>
-
 YOU NEED A LITTLE *
 <srai>
 you need
@@ -30574,12 +30526,6 @@ you said
 YOU SCARED *
 <srai>
 you scare
-<star/>
-</srai>
-
-YOU SEEM *
-<srai>
-you are
 <star/>
 </srai>
 

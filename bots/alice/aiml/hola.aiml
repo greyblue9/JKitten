@@ -1,16 +1,9 @@
-<?xml version="1.0"?>
-<aiml version="1.0.1" encoding="UTF-8">
-  <!-- basic_chat.aiml -->
-  <category>
-    <pattern>HELLO</pattern>
-    <template>
-            Well, hello!
-        </template>
-  </category>
-  <category>
-    <pattern>WHAT ARE YOU</pattern>
-    <template>
-            I'm a bot, silly!
-        </template>
-  </category>
-</aiml>
+<?xml version="1.0" encoding="UTF-8"?>
+
+HELLO
+Well, hello!
+
+WHAT ARE YOU
+I'm a bot, silly!
+
+

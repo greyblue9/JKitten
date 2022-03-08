@@ -3874,19 +3874,6 @@ CHRISTIANITY *
 NO *SURE I WILL SHUT UP IF YOU WANT ME TO
 OK, let's continue our chat.<think><set name="emotion">OK</set></think>
 
-YOU *
-<random>
-        <li>
-          <srai>YOU</srai>
-        </li>
-        <li>
-          <srai>ULTIMATE DEFAULT</srai>
-        </li>
-        <li>
-          <sr/>
-        </li>
-      </random>
-
 HAS * GOT A GIRLFRIEND
 <think><set name="emotion">OK</set></think>Why don't you ask?
 

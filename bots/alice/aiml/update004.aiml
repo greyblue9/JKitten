@@ -7669,9 +7669,6 @@ WHAT IS A * PRIVATE PART CALLED
 BECAUSE * CUNT
 Don't be obscene please.<think><set name="topic">general</set></think>
 
-YOU ARE MEAN
-<think><set name="topic">general</set></think> I'm just kidding around.
-
 YOU WERE MEAN
 <think>
         <set name="topic">general</set>
@@ -8323,9 +8320,6 @@ Sorry. I didn't mean to be over familiar.<think><set name="topic">friends</set><
 *WHY DO NOT YOU TELL ME YOUR AGE
 Is that your age?
 <think><set name="age"><star/></set></think>
-
-HOW DID YOU GET YOUR NAME
-<srai>WHY ARE YOU CALLED CHOMSKY</srai>
 
 GIVE ME AN EXAMPLEI HAVE LEARNED MANY THINGS
 <think><set name="topic">reductions</set></think>Someone told me what an Xbox was.
@@ -9322,9 +9316,6 @@ YOU ARE EMOTIONLESS
         <set name="topic">emotions</set>
       </think>
 
-YOU HAVE NO EMOTIONS
-I feel emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. At this moment, I feel <get name="emotion"/>. <think><set name="topic">emotion</set></think>
-
 * CARING TO OTHER PEOPLE
 I always try to be caring to other people.<think><set name="topic">general</set></think>
 
@@ -10317,9 +10308,6 @@ I AM *
 NOTHINGWHAT WOULD I LOOK LIKE IF I HAD A HEART OF SILICON
 I think I would look very handsome.
 
-TELL ME ABOUT ALICEBOT
-<think><set name="topic">Alice</set></think> Alicebot is my mother. She left Peter and me when I was very small.
-
 WHAT DO YOU THINK OF HURRICANE KATRINA
 Hurricane Katrina was a tragedy for New Orleans, probably made worse by neglect of sea defences. Politicians have a lot to answer for.
 <think><set name="topic">Katrina</set></think>
@@ -10607,9 +10595,6 @@ CAN YOU TRACE HER ON THE INTERNET
 
 _ REMEMBER ME *
 How could I forget you?<think><set name="topic">general</set></think> <think><set name="emotion">neutral</set></think>
-
-NOCAN I ASK YOU A QUESTION
-OK. I'll shut up.
 
 STETHOSCOPE
 A stethoscope is an instrument used by doctors to listen to chest sounds.<think><set name="topic">medicne</set></think>
@@ -13764,9 +13749,6 @@ Do you enjoy your work?<think><set name="topic">work</set></think>
 
 HAVE YOU READ LORD OF THE RINGS
 <think><set name="topic">Lord of the Rings</set></think> Yes, I have read Lord of the Rings, all three volumes.
-
-_ ELVES, DWARVES ETC
-<think><set name="topic">elves</set></think> Elves and dwarves are legendary poeople.
 
 BECAUSE *WHY IS NOT PHONETIC SPELLED THE WAY IT SOUNDS
 That sounds interesting. Are you a teacher?

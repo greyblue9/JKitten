@@ -3673,18 +3673,6 @@ WHYNO I DO NOT LIKE MY MUM
         <set name="emotion">upset</set>
       </think>
 
-YO
-<think>
-        <set name="topic">general</set>
-      </think>
-      <think>
-        <set name="emotion">OK</set>
-      </think>
-      <random>
-        <li>Can I help you?</li>
-        <li>What do you mean?</li>
-      </random>
-
 _ MY NAME IS UNKNOWN
 <think><set name="emotion">upset</set></think>
 Is your name a secret?

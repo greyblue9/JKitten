@@ -546,9 +546,6 @@ I've never heard of them before.  <think><set name="it"><set name="topic"><perso
 <think><set name="topic">that</set></think><think><set name="name"><star/></set></think>
 Pleased to meet you, <star/>
 
-*WHO IS THERE
-<think><set name="topic">that</set></think><person/> Who?
-
 *WHO IS YOUR BROTHER
 <think>
         <set name="topic">that</set>
@@ -579,10 +576,6 @@ I haven't read anything by <person/>. What did he write?
 *WHO SPECIFICALLY *
 <think><set name="topic">that</set></think>
 Really?
-
-** WHO
-<think><set name="topic">that</set></think>
-Ha ha very funny, <get name="name"/>.
 
 *WHO TOLD YOU THAT
 <think><set name="topic">that</set></think><person/> said <input index="1"/>?

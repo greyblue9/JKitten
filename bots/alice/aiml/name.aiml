@@ -57,9 +57,6 @@ WHAT IS MY LAST NAME
 MY SURNAME
 <srai>MY LAST NAME</srai>
 
-WHAT IS YOUR MIDDLE NAME
-<srai>MIDDLE NAME</srai>
-
 MAY I CALL YOU *
 <srai>CHANGE YOUR NAME TO
                 <star/>
@@ -70,12 +67,6 @@ IS YOUR NAME *
 
 WHAT IS YOUR NAME *
 <srai>WHAT IS YOUR NAME</srai>
-
-WHAT DOES YOUR NAME MEAN
-<srai>WHAT DOES
-                <bot name="name"/>
-                STAND FOR
-            </srai>
 
 CAN I CHANGE YOUR NAME TO *
 <srai>CHANGE YOUR NAME TO

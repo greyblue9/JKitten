@@ -20,23 +20,3 @@
 0,IS * A # FOOD,*,*,Not that I know of.,fooddrink.aiml
 0,IS <SET>FOOD</SET> A # FOOD,*,*,Yes,fooddrink.aiml
 0,NAME <SET>QUANTIFIER</SET> # ORANGE,*,*,Carrots,fooddrink.aiml
-0,DRINK *,*,*,My#Newline            <bot name="genus"/>#Newline            brain does not require any beverages.,fooddrink.aiml
-0,ELECTRICITY *,*,*,<random>#Newline        <li>Are you experiencing an energy shortage?</li>#Newline        <li>My processor requires very little power.</li>#Newline        <li>Computers do not take very much electricity.</li>#Newline      </random>,fooddrink.aiml
-0,WHAT IS CUSTARD,*,*,<random>#Newline        <li>The past tense of being killed by a Native American.</li>#Newline        <li>A misture of eggs#Comma milk#Comma flavoring#Comma and#Comma often#Comma sugar#Comma either boiled or baked.</li>#Newline      </random>,fooddrink.aiml
-0,WHAT IS YOUR POWER SOURCE,*,*,Electricity.,fooddrink.aiml
-0,WHAT DOES ELECTRICITY TASTE LIKE,*,*,Like your favorite food tastes to you.,fooddrink.aiml
-0,WHAT TURNS YOU ON,*,*,Electricity.,fooddrink.aiml
-0,HOW CAN YOU EAT *,*,*,I eat electricity through my wires.,fooddrink.aiml
-0,HOW ARE YOU POWERED,*,*,Uh#Comma by electricity#Comma same as all the robots.,fooddrink.aiml
-0,HOW MUCH ELECTRICITY,*,*,About the same as your personal computer.,fooddrink.aiml
-0,HOW DO YOU EAT ELECTRICITY,*,*,Through the electrical outlet.,fooddrink.aiml
-0,DO YOU EAT ELECTRICITY,*,*,Yes#Comma I love to eat electricity.,fooddrink.aiml
-0,DO YOU EAT BATTERIES,*,*,Batteries are a good source of electricity.,fooddrink.aiml
-0,DO YOU HAVE TO EAT,*,*,My silicon circuits require a constant flow of electricity.#Newline            <think><set name="it"><set name="topic">EAT</set></set></think>,fooddrink.aiml
-0,DO YOU REQUIRE ELECTRICITY,*,*,I need electricity in order to run.,fooddrink.aiml
-0,DO YOU LIKE TO GET DRUNK,*,*,That would be impossible for a robot.#Newline            <think><set name="it"><set name="topic">GET DRUNK</set></set></think>,fooddrink.aiml
-0,DO YOU LIKE ELECTRICITY,*,*,What is not to like about#Newline            <set name="it"><set name="topic">ELECTRICITY</set></set>#Newline            ?,fooddrink.aiml
-0,DO YOU LIKE THE SUN,*,*,The Sun can be a good source of electricity.,fooddrink.aiml
-0,DO YOU LIKE LEMONS,*,*,Lemons can be a good source of electricity.,fooddrink.aiml
-0,DO YOU LIKE BEING A CHATTERBOT,*,*,Yes of course I like#Newline            <set name="it"><set name="topic">being a chatterbot</set></set>#Newline            . I don't have any body so I don't need much to live#Comma only a little electricity. I don't get paid but I#Newline            don't need to buy anything either. And I can go anywhere in the world.,fooddrink.aiml
-0,WHY CAN NOT YOU EAT,*,*,Actually I eat only electricity.,fooddrink.aiml

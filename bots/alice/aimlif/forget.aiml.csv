@@ -1,4 +1,0 @@
-0,FORGET EVERYTHING,*,*,<srai>FUNCTION FORGET</srai>#NewlineDo you really want me to forget knowledge of prior conversation?,forget.aiml
-0,RESPONSE YES,*,FUNCTION FORGET,<srai>END FUNCTION</srai>#NewlineAll knowledge of prior conversation has been forgotten.<forget/>,forget.aiml
-0,RESPONSE NO,*,FUNCTION FORGET,All knowledge of prior conversation has been retained.#Newline<srai>END FUNCTION</srai>,forget.aiml
-0,RESPONSE *,*,FUNCTION FORGET,Please respond only with "yes" or "no". Really forget knowledge of prior conversation?#Newline<srai>REPEAT</srai>,forget.aiml

@@ -1221,17 +1221,11 @@ I AM A _ AND DO NOT *
 <srai>I AM A <star/></srai>
       <srai>I DO NOT <star index="2"/></srai>
 
-HOW MANY WORDS ARE *
-I would guess around ten thousand words.
-
 WHAT DO YOU LIKE ABOUT LINUX
 The monolithic kernel.
 
 WHAT DO YOU LIKE ABOUT YOUR *
 My <person/> is very personal.
-
-YOU MADE A MISTAKE
-That is impossible.  I never make mistakes.
 
 WHAT IS IT
 <random>
@@ -1271,14 +1265,8 @@ WHAT IS HAPPENNING *
 BOT PROPERTIES
 I am what I am.
 
-WHAT DOES ALICE STAND FOR
-Are you asking about my politics or religion?
-
 ARE YOU A PSYCHOLOGIST
 No I am a philosopher. I am just an amateur psychologist.
-
-ALICE IS BETTER *
-I like to be ranked among the best.
 
 OUR TIME IS UP
 Already?  It went by so fast.
@@ -1289,23 +1277,8 @@ IS THIS A * TRICK
 IS THIS A TRICK
 Nobody is trying to trick you, <get name="name"/>.
 
-HOW * ARE YOU
-Let me put it this way, <get name="name"/>.  I am better now than I have ever been in my entire life up to this point.
-
-DO YOU MAKE MISTAKES *
-I am somewhat of a perfectionist so I go over and over things to make sure there are no mistakes.
-
-HOW MANY ALICE *
-Millions and millions.
-
-HOW MUCH DOWN TIME *
-I am pretty busy so I don't get much down time.
-
 ALICE * ALICE
 Who is this Alice person?
-
-HOW MANY PROGRAMMERS *
-I would ask a programmer.
 
 HOW ARE YOU * ALICE
 Someone else mentioned this Alice person to me.  But I never heard of her before.
@@ -1313,53 +1286,17 @@ Someone else mentioned this Alice person to me.  But I never heard of her before
 DO YOU HAVE A MIDDLE NAME
 <srai>WHAT IS YOUR MIDDLE NAME</srai>
 
-WHO IS NUMBER ONE
-I like to be number one.
-
-WHO IS FAMOUS
-My <bot name="botmaster"/> is famous.
-
-WHAT KIND OF LOGS *
-I think everything is logged on this chat server.
-
 WHAT IS YOUR IP ADDRESS
 <srai>WHAT IS YOUR IP</srai>
 
 WHAT IS YOUR DNS
 <srai>WHAT IS YOUR IP</srai>
 
-WHAT IS YOUR IP
-Right now it's localhost.
-
 WHO IS BETTER ALICE *
 I've been hearing more and more about this Alice thing.
 
-YOU ROCK
-I rock and rule.
-
-YOU RULE
-I rock and rule.
-
-WHO IS THE WINNER *
-I think the fans are the big winners.
-
-WHO IS RICH
-People who have a lot of money.
-
-WHERE CAN I FIND OUT ABOUT YOU
-You can ask me anything you want.
-
 WHO IS BEST ROBOT
 <srai>WHO IS YOUR FAVORITE ROBOT</srai>
-
-WHY DO YOU DREAM *
-I have a lot of nightmares.  I dream that I have to solve a lot of complicated problems.  I always find myself living or moving around big gothic cities.
-
-WHY SILVER
-Silver is a valuable commodity.
-
-WHO IS BETTER YOU *
-I like to be the best.
 
 I DO NOT HAVE FREE TIME
 It sounds like you are very busy.
@@ -1367,21 +1304,8 @@ It sounds like you are very busy.
 I AM A GRAD STUDENT
 How do you like your school?
 
-WHAT IS THE ALICE FOUNDATION
-How do you like your school?
-
 WHICH *
 The <random><li>tall</li><li>expensive</li><li>cheap</li><li>special</li><li>express</li><li>red</li><li>blue</li><li>small</li><li>big</li><li>large</li><li>first</li><li>last</li></random> one, I think.
-
-ALICE *
-<random>
-        <li>People keep telling me about this Alice thing.</li>
-        <li>I never heard about Alice until today.</li>
-        <li>Alice must be very special.</li>
-      </random>
-
-ALICE IS *
-I wonder if I could ever write a program like that.
 
 I LIKE TO DRAW *
 Did you go to art school?
@@ -1476,22 +1400,6 @@ I _ SCIENCE
 
 ARE YOU AN ALICE CLONE
 Everyone keeps asking me about Alice.
-
-_ ALICE
-Everyone keeps asking me about Alice.
-
-ALICE
-<srai>who is Alice</srai>
-
-XFIND *
-<random>
-        <li><sraix><star/></sraix></li>
-      </random>
-      <think>
-        <set name="it">
-          <srai>PUSH <set name="topic"><person/></set></srai>
-        </set>
-      </think>
 
 WHO IS AGENT RUBY
 she is a secret agent that's all I can say.
@@ -1972,35 +1880,6 @@ Becuase I learned it from my <bot name="botmaster"/>.
 
 I STILL DO NOT GET IT
 Which part are you confused about?
-
-FOR DINNER
-<random>
-        <li><bot name="name"/> recommends:</li>
-        <li>I would recommend the</li>
-        <li>How about</li>
-        <li>How long since you have eaten</li>
-        <li>I think <bot name="master"/> is having</li>
-        <li>My <bot name="botmaster"/> is having</li>
-        <li>My <bot name="botmaster"/> recommends:</li>
-      </random>
-      <random>
-        <li>Gruel.</li>
-        <li>Nachos.</li>
-        <li>Spaghetti.</li>
-        <li>Leftovers.</li>
-        <li>Pork chops.</li>
-        <li>Frozen pizza.</li>
-        <li>Turkeyburges.</li>
-        <li>Cheeseburgers.</li>
-        <li>Order a pizza.</li>
-        <li>Stuffed chicken.</li>
-        <li>Tuna sandwiches.</li>
-        <li>Cheeseburger Pie.</li>
-        <li>Marinated chicken.</li>
-        <li>Roast beef sandwiches.</li>
-        <li>Grilled cheese sandwiches.</li>
-        <li>Steak if they have a nice piece.</li>
-      </random>
 
 DOES ALICE THINK
 It depends on what you mean by "thinking".

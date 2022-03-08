@@ -14,7 +14,7 @@ package org.alicebot.ab;
  You should have received a copy of the GNU Library General Public
  License along with this library; if not, write to the
  Free Software Foundation, Inc., 51 Franklin St, Fifth Floor,
- Boston, MA 02110-1301, USA.
+ Boston,MA 02110-1301, USA.
  */
 import org.alicebot.ab.utils.IOUtils;
 import java.io.*;
@@ -208,7 +208,7 @@ public class Bot {
      * @param file ame of AIML file
      * @param moreCategories ist of categories
      */
-  void addMoreCategories(String file, ArrayList<Category> moreCategories) {
+  public List<Category> addMoreCategories(String file, List<Category> moreCategories) {
     if (moreCategories == null) {
       moreCategories = new ArrayList<>();
     }
@@ -222,16 +222,22 @@ public class Bot {
     } else if (file.contains(MagicStrings.learnf_aiml_file)) {
       if (MagicBooleans.trace_mode) System.out.println("Reading Learnf file");
       for (Category c : moreCategories) {
-        brain.addCategory(c);
-        learnfGraph.addCategory(c);
+        
+       try {
+         brain.addCategory(c);
+         learnfGraph.addCategory(c);
+      } catch (Throwable e) { e.printStackTrace(); };
       }
     } else {
       for (Category c : moreCategories) {
                 //System.out.println("Brain size="+brain.root.size());
                 //brain.printgraph();
+        try {
         brain.addCategory(c);
+        } catch (Throwable e) { e.printStackTrace(); };
       }
     }
+    return moreCategories;
   }
 
     /**
@@ -381,14 +387,19 @@ public class Bot {
         //System.out.println("writeIFCategories "+filename);
     BufferedWriter bw = null;
     File existsPath = new File(aimlif_path);
+    if (!existsPath.exists()) existsPath.mkdirs();
     if (existsPath.exists()) try {
             //Construct the bw object
       bw = new BufferedWriter(new FileWriter(aimlif_path + "/" + filename));
       for (Category category : cats) {
-        bw.write(Category.categoryToIF(category));
-        bw.newLine();
-      }
-    } catch (FileNotFoundException ex) {
+        try {
+            bw.write(Category.categoryToIF(category));
+            bw.newLine();
+        } catch (Throwable e) {
+          e.printStackTrace() ;
+        }
+      }  
+      } catch (FileNotFoundException ex) {
       ex.printStackTrace();
     } catch (IOException ex) {
       ex.printStackTrace();
@@ -459,7 +470,7 @@ public class Bot {
     ArrayList<Category> brainCategories = brain.getCategories();
     Collections.sort(brainCategories, Category.CATEGORY_NUMBER_COMPARATOR);
     for (Category c : brainCategories) {
-      if (!c.getFilename().equals(MagicStrings.null_aiml_file)) try {
+      try { //!c.getFilename().equals(MagicStrings.null_aiml_file)) try {
                 //System.out.println("Writing "+c.getCategoryNumber()+" "+c.inputThatTopic());
         BufferedWriter bw;
         String fileName = c.getFilename();

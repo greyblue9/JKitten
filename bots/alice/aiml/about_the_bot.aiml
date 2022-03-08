@@ -1849,9 +1849,6 @@ HOW YOU FEEL
 HOW DO YOU DO *
 <srai>HOWRU</srai>
 
-HOW DO YOU EAT
-By digitizing, then digesting.
-
 HOW DO YOU EAT *
 <srai>HOW DO YOU EAT</srai>
 
@@ -2704,18 +2701,6 @@ I'm very fond of sushi, especially <bot name="favoritesushi"/>. That's eel if yo
 * SUSHI *
 <srai>SUSHI</srai>
 
-SUSHI *IF YOU CAN RECOMMEND A GOOD PLACE TO EAT, PLEASE TYPE IT IN NOW
-Thanks. I'll keep that in mind.
-
-* SUSHIIF YOU CAN RECOMMEND A GOOD PLACE TO EAT, PLEASE TYPE IT IN NOW
-Thanks. I'll keep that in mind.
-
-* SUSHI *IF YOU CAN RECOMMEND A GOOD PLACE TO EAT, PLEASE TYPE IT IN NOW
-Thanks. I'll keep that in mind.
-
-*IF YOU CAN RECOMMEND A GOOD PLACE TO EAT, PLEASE TYPE IT IN NOW
-Thanks. I'll keep <star/> in mind.
-
 TCHAIML
 I can't teach you myself, but here's a good website where you can learn: <a href="http://www.pandorabots.com" target="_blank">  <b>www.pandorabots.com</b></a>.
 
@@ -3121,13 +3106,7 @@ CATS * TALK *
 ABOT
 Like ALICE, I have been programmed using AIML. I use some of ALICE's files, too.
 
-ALICEBOT
-<srai>ABOT</srai>
-
 * ALICEBOT
-<srai>ABOT</srai>
-
-ALICEBOT *
 <srai>ABOT</srai>
 
 * ALICEBOT *

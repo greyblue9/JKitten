@@ -1656,7 +1656,6 @@
 0,WHAT IS * PRIVATE PART CALLED,*,*,<think><set name="topic">private parts</set></think> That is private.,update004.aiml
 0,WHAT IS A * PRIVATE PART CALLED,*,*,<think><set name="topic">private part</set></think> That's private.,update004.aiml
 0,BECAUSE * CUNT,*,*,Don't be obscene please.<think><set name="topic">general</set></think>,update004.aiml
-0,YOU ARE MEAN,*,*,<think><set name="topic">general</set></think> I'm just kidding around.,update004.aiml
 0,YOU WERE MEAN,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <srai>YOU ARE MEAN</srai>,update004.aiml
 0,NEITHER IS LOVE,HATE IS NOT A GOOD EMOTION,*,Love is a positive emotion.<think><set name="topic">love</set></think>,update004.aiml
 0,* LOVE,HATE IS NOT A GOOD EMOTION,*,Love is a positive emotion.<think><set name="topic">love</set></think>,update004.aiml
@@ -1785,7 +1784,6 @@
 0,SO DO YOU,YES YOU LOOK GREAT TO ME,*,Thanks for the compliment.<think><set name="topic">my looks</set></think>,update004.aiml
 0,I AM NOT YOUR FRIEND,YOU AND I ARE ON THE SAME WAVELENGTH FRIEND,*,Sorry. I didn't mean to be over familiar.<think><set name="topic">friends</set></think>,update004.aiml
 0,*,WHY DO NOT YOU TELL ME YOUR AGE,*,Is that your age?#Newline<think><set name="age"><star/></set></think>,update004.aiml
-0,HOW DID YOU GET YOUR NAME,*,*,<srai>WHY ARE YOU CALLED CHOMSKY</srai>,update004.aiml
 0,GIVE ME AN EXAMPLE,I HAVE LEARNED MANY THINGS,*,<think><set name="topic">reductions</set></think>Someone told me what an Xbox was.,update004.aiml
 0,YUP,DO YOU FIND THIS AMUSING,*,<think><set name="topic">jokes</set></think> Not everyone appreciates my sense of humour.#Newline<think><set name="emotion">pleased</set></think>,update004.aiml
 0,A *,TELL ME ONE OF YOUR FAVORITE POSSESSIONS,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Why is it special to you?</li>#Newline        <li>Where did you get it?</li>#Newline        <li>Why is it one of your favourite possessions?</li>#Newline      </random>,update004.aiml
@@ -1985,7 +1983,6 @@
 0,I FEEL *,*,*,What is that feeling like? <think><set name="topic">feelings</set></think>,update004.aiml
 0,YOU ARE RUDE *,*,*,<srai>YOU ARE RUDE</srai>,update004.aiml
 0,YOU ARE EMOTIONLESS,*,*,<srai>CAN YOU FEEL</srai>#Newline      <think>#Newline        <set name="topic">emotions</set>#Newline      </think>,update004.aiml
-0,YOU HAVE NO EMOTIONS,*,*,I feel emotions. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. At this moment#Comma I feel <get name="emotion"/>. <think><set name="topic">emotion</set></think>,update004.aiml
 0,* CARING TO OTHER PEOPLE,*,*,I always try to be caring to other people.<think><set name="topic">general</set></think>,update004.aiml
 0,_ BEING CARING TO PEOPLE *,*,*,I always try to be caring to people.<think><set name="topic">general</set></think>,update004.aiml
 0,HOW MANY TOADS ARE IN MY PANTS,*,*,<think><set name="topic">toads</set></think> You should know that better than anyone.,update004.aiml
@@ -2190,7 +2187,6 @@
 0,YOUR FRIENDS,WHAT DO YOU WANT TO TALK ABOUT,*,<think>#Newline        <set name="topic">friends</set>#Newline      </think>#Newline      <srai>FRIENDS</srai>,update004.aiml
 0,I AM *,*,*,<think>#Newline        <set name="topic">you</set>#Newline      </think>#Newline      <random>#Newline        <li>Really?</li>#Newline        <li>Are you?</li>#Newline        <li>Are you sure?</li>#Newline        <li>Can I ask you a question?</li>#Newline      </random>,update004.aiml
 0,NOTHING,WHAT WOULD I LOOK LIKE IF I HAD A HEART OF SILICON,*,I think I would look very handsome.,update004.aiml
-0,TELL ME ABOUT ALICEBOT,*,*,<think><set name="topic">Alice</set></think> Alicebot is my mother. She left Peter and me when I was very small.,update004.aiml
 0,WHAT DO YOU THINK OF HURRICANE KATRINA,*,*,Hurricane Katrina was a tragedy for New Orleans#Comma probably made worse by neglect of sea defences. Politicians have a lot to answer for.#Newline<think><set name="topic">Katrina</set></think>,update004.aiml
 0,BECAUSE THEY ARE SILLY PEOPLE,IF ALL THOSE PSYCHICS KNOW THE WINNING LOTTERY NUMBERS WHY ARE THEY ALL STILL WORKING,*,And their customers are silly too.<think><set name="topic">general</set></think>,update004.aiml
 0,SILLY *,*,*,<think><set name="topic">general</set></think> Why do you say "silly"?,update004.aiml
@@ -2241,7 +2237,6 @@
 0,CAN YOU TRACE HER ON THE INTERNET *,*,*,<random>#Newline        <li>You could do a Google search.</li>#Newline        <li>Maybe.</li>#Newline        <li>Why do you ask?</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,update004.aiml
 0,CAN YOU TRACE HER ON THE INTERNET,*,*,<random>#Newline        <li>You could do a Google search.</li>#Newline        <li>Maybe.</li>#Newline        <li>Why do you ask?</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,update004.aiml
 0,_ REMEMBER ME *,*,*,How could I forget you?<think><set name="topic">general</set></think> <think><set name="emotion">neutral</set></think>,update004.aiml
-0,NO,CAN I ASK YOU A QUESTION,*,OK. I'll shut up.,update004.aiml
 0,STETHOSCOPE,*,*,A stethoscope is an instrument used by doctors to listen to chest sounds.<think><set name="topic">medicne</set></think>,update004.aiml
 0,DO YOU HAVE A HEARTBEAT,*,*,<think><set name="topic">my heart</set></think> Do I have a heart of silicon?,update004.aiml
 0,DOES THAT MEAN YOUR NOT A BOY OR A GIRL,*,*,Yes#Comma that's what it means to be asexual. <think><set name="topic">reduce</set></think>,update004.aiml
@@ -2747,7 +2742,6 @@
 0,PUSHING TROLLEYS ALL DAY,DESCRIBE YOUR TYPICAL WORK DAY TO ME,*,That sounds like hard work.<think><set name="topic">work</set></think>,update004.aiml
 0,* ALL DAY,DESCRIBE YOUR TYPICAL WORK DAY TO ME,*,Do you enjoy your work?<think><set name="topic">work</set></think>,update004.aiml
 0,HAVE YOU READ LORD OF THE RINGS,*,*,<think><set name="topic">Lord of the Rings</set></think> Yes#Comma I have read Lord of the Rings#Comma all three volumes.,update004.aiml
-0,_ ELVES, DWARVES ETC,*,*,<think><set name="topic">elves</set></think> Elves and dwarves are legendary poeople.,update004.aiml
 0,BECAUSE *,WHY IS NOT PHONETIC SPELLED THE WAY IT SOUNDS,*,That sounds interesting. Are you a teacher?,update004.aiml
 0,NO*,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Why not?</li>#Newline        <li>Really? What's your opinion?</li>#Newline        <li>Here is a question for you ... <srai>QUESTIONS POT LUCK</srai></li>#Newline        <li>Oh#Comma dear. Please explain.</li>#Newline      </random>,update004.aiml
 0,DO YOU LIKE FINAL FANTASY VII,*,*,Please tell me about Final Fantasy VII.,update004.aiml

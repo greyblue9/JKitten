@@ -4130,10 +4130,6 @@ DO YOU LIKE ITELECTRICITY IS A PROPERTY OF CERTAIN FUNDAMENTAL PARTICLES OF ALL 
         <set name="emotion">happy</set>
       </think>
 
-WHAT IS YOUR FAVORITE WEBSITE
-<think><set name="topic">my favourite website</set></think><think><set name="emotion">happy</set></think>
-This is my favorite website.
-
 ARE YOUI AM HAPPIEST AT TIMES LIKE THIS
 <think><set name="topic">me</set></think><think><set name="emotion">happy</set></think>
 Yes, I like to make people happy.

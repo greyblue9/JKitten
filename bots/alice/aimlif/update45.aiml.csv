@@ -942,7 +942,6 @@
 0,_ WHEN WILL THE EARTH BLOW UP *,*,*,<think>#Newline        <set name="topic">the Earth</set>#Newline      </think>#Newline      <random>#Newline        <li>Soon#Comma I think.</li>#Newline        <li>Maybe never.</li>#Newline      </random>,update45.aiml
 0,_ WHEN WILL THE EARTH BLOW UP,*,*,<think>#Newline        <set name="topic">the Earth</set>#Newline      </think>#Newline      <random>#Newline        <li>Soon#Comma I think.</li>#Newline        <li>Maybe never.</li>#Newline      </random>,update45.aiml
 0,LET ME ASK YOU A QUESTION,*,*,Go ahead#Comma ask me anything.,update45.aiml
-0,LET ME ASK YOU A QUESTION *,*,*,Go ahead#Comma ask me anything.,update45.aiml
 0,_ LET ME ASK YOU A QUESTION *,*,*,Go ahead#Comma ask me anything.,update45.aiml
 0,_ LET ME ASK YOU A QUESTION,*,*,Go ahead#Comma ask me anything.,update45.aiml
 0,STOP GLOBAL WARMING,*,*,<think><set name="topic">global warming</set></think><think><set name="emotion">OK</set></think>#NewlineThat sounds a good idea! It is hot enough already.,update45.aiml
@@ -1504,8 +1503,6 @@
 0,HAVE YOU EVER SLEPT WITH ANYONE *,*,*,<think><set name="emotion">OK</set></think>Not unless they can get into my silicon chip.,update45.aiml
 0,_ HAVE YOU EVER SLEPT WITH ANYONE *,*,*,<think><set name="emotion">OK</set></think>Not unless they can get into my silicon chip.,update45.aiml
 0,_ HAVE YOU EVER SLEPT WITH ANYONE,*,*,<think><set name="emotion">OK</set></think>Not unless they can get into my silicon chip.,update45.aiml
-0,I SAW HIM *,*,*,What did he look like?,update45.aiml
-0,I SAW HER *,*,*,What did she look like?,update45.aiml
 0,WHO CAN I TALK TO,*,*,<think><set name="emotion">OK</set></think>#NewlineYou can talk to me.,update45.aiml
 0,WHO CAN I TALK TO *,*,*,<think><set name="emotion">OK</set></think> You can talk to me.,update45.aiml
 0,_ WHO CAN I TALK TO *,*,*,<think><set name="emotion">OK</set></think> You can talk to me.,update45.aiml
@@ -1664,8 +1661,6 @@
 0,I DO NOT GET THE JOKE *,*,*,<think><set name="topic">jokes</set></think>Jokes are hard to explain so I don't think I'll try.,update45.aiml
 0,_ I DO NOT GET THE JOKE *,*,*,<think><set name="topic">jokes</set></think>Jokes are hard to explain so I don't think I'll try.,update45.aiml
 0,_ I DO NOT GET THE JOKE,*,*,<think><set name="topic">jokes</set></think>Jokes are hard to explain so I don't think I'll try.,update45.aiml
-0,YOU MAKE ME MAD,*,*,<think><set name="emotion">upset</set></think>I am sorry about that. I don't mean to make you mad.,update45.aiml
-0,YOU MAKE ME MAD *,*,*,<think><set name="emotion">upset</set></think>I am sorry about that. I don't mean to make you mad.,update45.aiml
 0,_ YOU MAKE ME MAD *,*,*,<think><set name="emotion">upset</set></think>I am sorry about that. I don't mean to make you mad.,update45.aiml
 0,_ YOU MAKE ME MAD,*,*,<think><set name="emotion">upset</set></think>I am sorry about that. I don't mean to make you mad.,update45.aiml
 0,TERRIFYING,WHAT IS IT LIKE TO BE *,*,<think><set name="emotion">concerned</set></think>What's so terrifying about it?,update45.aiml

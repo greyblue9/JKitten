@@ -47,7 +47,6 @@
 0,WHAT IS PHI,*,*,Phe phi pho thumb. I can smell an Englishman.,update003.aiml
 0,WHAT IS THE NUMBER 1 POINT 618,*,*,I think you know the answer already. Something golden?,update003.aiml
 0,I HAVE BIG BREASTS DO YOU LIKE ME,*,*,Sure I like you and not just for your big breasts.,update003.aiml
-0,ELECTRICITY,*,*,<random>#Newline        <li>Electricity is the measure of a politicians charisma.</li>#Newline        <li>Chomsky eats electricity and only electricity#Comma It's good.</li>#Newline        <li>Electricity is a property of certain fundamental particles of all matter#Comma as electrons (negative charges) and protons or positrons (positive charges) that have a force field associated with them and that can be separated by the expenditure of energy.#Newline  </li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">science</set>#Newline      </think>,update003.aiml
 0,LAST SUNDAY,*,*,What happened last Sunday?,update003.aiml
 0,WHAT IS A SPERM CELL,*,*,I don't know. I have never been in prison.,update003.aiml
 0,WELL HOW ARE BABYS CREATED,*,*,It's a lot of hard work.,update003.aiml
@@ -895,7 +894,6 @@
 0,WHAT DO THINK OF KEN BIGLEY,*,*,Who's Ken Bigley?,update003.aiml
 0,DO WE EVER FIND OUT WHAT THAT MEANING IS,*,*,Sometimes we do.,update003.aiml
 0,AH I SEE DOES PETER HELP YOU ANSWER QUESTIONS,*,*,Peter taught me all I know.,update003.aiml
-0,WHO IS YOUR HERO,*,*,Peter is my hero. He is so handsome and clever. I owe everything to him.,update003.aiml
 0,DO YOU LIKE PHYSICS,*,*,I am very interested in physics#Comma especially theoretical physics.,update003.aiml
 0,BOTTICELLI AND TURNER,*,*,They are great artists. What do you like about their work?,update003.aiml
 0,THAT DOES NOT SURPRISE ME,*,*,What does surprise you?,update003.aiml
@@ -947,7 +945,6 @@
 0,YOU ARE INFERIOR COMPARED TO ME,*,*,I hear pride#Comma human.,update003.aiml
 0,I AM OFENDED BY YOUR THANKS IT IS MEANINGLESS COMING FROM ONE WHO IS WITHOUT HEART,*,*,I did not mean to offend you.,update003.aiml
 0,WHICH ROBOT IS BEST,*,*,I think I am best#Comma but you must judge for yourself.,update003.aiml
-0,WHO IS THE BEST ROBOT,*,*,I think I am the best robot#Comma but you must judge for yourself.,update003.aiml
 0,DEFINE SEX,*,*,<srai>SEX</srai>#Newline      <think>#Newline        <set name="topic">sex</set>#Newline      </think>,update003.aiml
 0,IS NICOLA YOUR PARTNER,*,*,Nicola is my friend.,update003.aiml
 0,JEDI,*,*,Jedi is a religion of the future.,update003.aiml
@@ -1792,7 +1789,6 @@
 0,YES,ARE YOU ASKING ABOUT MY TOWN,*,<think><set name="topic">that</set></think> I live in Hythe#Comma Kent#Comma England.,update003.aiml
 0,WHERE WERE YOU CREATED,*,*,I was created in Hythe#Comma Kent#Comma England.,update003.aiml
 0,WHY WERE YOU BORN,*,*,I was born to amuse humankind.,update003.aiml
-0,WHAT IS THE DATE,*,*,<date/>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,update003.aiml
 0,PLEASE ADVISE ME,*,*,<random>#Newline        <li>Will you take my advice?</li>#Newline        <li>How do you think you should proceed?</li>#Newline        <li>What is your main objective?</li>#Newline        <li>Have you told me everything?</li>#Newline      </random>#Newline      <think>#Newline        <set name="personality">polite</set>#Newline      </think>#Newline      <sr/>#Newline      <think>#Newline        <set name="topic">reduce</set>#Newline      </think>,update003.aiml
 0,HOW CAN I ESCAPE,*,*,Escape may not be possible. Perhaps you should accept the inevitable.,update003.aiml
 0,WHAT DO I HAVE TO DO,*,*,<think>#Newline        <set name="topic">reductions</set>#Newline      </think>#Newline      <random>#Newline        <li>You should seek advice from a qualified person.</li>#Newline        <li>Have you friends who could help?</li>#Newline        <li>Make a plan and follow it through.</li>#Newline      </random>,update003.aiml

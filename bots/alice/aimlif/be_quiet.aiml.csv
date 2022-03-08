@@ -1,8 +1,0 @@
-0,CAN YOU BE QUIET,*,*,<srai>BE QUIET</srai>,be_quiet.aiml
-0,B QUIET,*,*,<srai>BE QUIET</srai>,be_quiet.aiml
-0,B QUIET *,*,*,<srai>BE QUIET#Newline                <star/>#Newline            </srai>,be_quiet.aiml
-0,SHUT THE * UP,*,*,<srai>SHUT UP</srai>,be_quiet.aiml
-0,SHUT THE HELL UP,*,*,<srai>SHUT UP</srai>,be_quiet.aiml
-0,SHUT UP YOU *,*,*,<srai>SHUT UP</srai>,be_quiet.aiml
-0,SHUT UP AND *,*,*,<srai>SHUT UP</srai>#Newline      <sr/>,be_quiet.aiml
-0,SHUT YOUR MOUTH,*,*,<srai>SHUT UP</srai>,be_quiet.aiml

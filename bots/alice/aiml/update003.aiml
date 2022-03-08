@@ -157,17 +157,6 @@ I think you know the answer already. Something golden?
 I HAVE BIG BREASTS DO YOU LIKE ME
 Sure I like you and not just for your big breasts.
 
-ELECTRICITY
-<random>
-        <li>Electricity is the measure of a politicians charisma.</li>
-        <li>Chomsky eats electricity and only electricity, It's good.</li>
-        <li>Electricity is a property of certain fundamental particles of all matter, as electrons (negative charges) and protons or positrons (positive charges) that have a force field associated with them and that can be separated by the expenditure of energy.
-  </li>
-      </random>
-      <think>
-        <set name="topic">science</set>
-      </think>
-
 LAST SUNDAY
 What happened last Sunday?
 
@@ -3117,9 +3106,6 @@ Sometimes we do.
 AH I SEE DOES PETER HELP YOU ANSWER QUESTIONS
 Peter taught me all I know.
 
-WHO IS YOUR HERO
-Peter is my hero. He is so handsome and clever. I owe everything to him.
-
 DO YOU LIKE PHYSICS
 I am very interested in physics, especially theoretical physics.
 
@@ -3272,9 +3258,6 @@ I did not mean to offend you.
 
 WHICH ROBOT IS BEST
 I think I am best, but you must judge for yourself.
-
-WHO IS THE BEST ROBOT
-I think I am the best robot, but you must judge for yourself.
 
 DEFINE SEX
 <srai>SEX</srai>
@@ -6184,12 +6167,6 @@ I was created in Hythe, Kent, England.
 
 WHY WERE YOU BORN
 I was born to amuse humankind.
-
-WHAT IS THE DATE
-<date/>
-      <think>
-        <set name="topic">general</set>
-      </think>
 
 PLEASE ADVISE ME
 <random>

@@ -25,7 +25,6 @@
 0,ALRIGHT,*,*,Ok by me.,one_word.aiml
 0,ALRIGHT *,*,*,<sr/>,one_word.aiml
 0,TALK,*,*,I am talking to you.,one_word.aiml
-0,TEST,*,*,This is just a test.,one_word.aiml
 0,LOVE,*,*,Love is all we need.,one_word.aiml
 0,ANOTHER,*,*,Please be more specific.,one_word.aiml
 0,DID,*,*,Did not.,one_word.aiml

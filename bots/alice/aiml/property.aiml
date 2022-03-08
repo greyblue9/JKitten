@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
-  <category>
-    <pattern>INIT</pattern>
-    <template>
-      <think>
+
+INIT
+<think>
         <set name="botname">@DjangoBuddy</set>
         <set name="master">@encorehu</set>
         <set name="orgnization">DDTCMS</set>
@@ -11,6 +9,5 @@
         <set name="from_city">Changsha</set>
         <set name="os">ALL</set>
       </think>
-    </template>
-  </category>
-</aiml>
+
+

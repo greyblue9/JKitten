@@ -106,6 +106,7 @@ public class Chat {
       String strLine;
             //Read File Line By Line
       while ((strLine = br.readLine()) != null) {
+        System.out.printf("[%s]\n", strLine);
         String[] triple = strLine.split(":");
         if (triple.length >= 3) {
           String subject = triple[0];
@@ -124,7 +125,7 @@ public class Chat {
     return tripleCnt;
   }
 
-    /**
+    /*
      * Chat session terminal interaction
      */
   public void chat() {

@@ -1932,14 +1932,6 @@ NOTHE LETTER O IS FOUND BETWEEN N AND P THE LETTER O IS CIRCULAR HAVE YOU NOTICE
         <li>Well, now you know.</li>
       </random>
 
-WHAT IS TODAY
-<random>
-        <li>
-          <srai>WHAT IS THE DATE</srai>
-        </li>
-        <li>Today is the first day of the rest of your life.</li>
-      </random>
-
 HOW INTELIGENT YOU ARE
 <srai>HOW INTELLIGENT ARE YOU</srai>
 
@@ -8628,9 +8620,6 @@ Maybe he married a rich lady, or inherited a fortune.
 
 HAVE YOU SEEN *
 <think><set name="topic">general</set></think> No, I have not seen <person/>. Tell me about it.
-
-LORD OF THE RINGS
-The Lord of the Rings is a book and a movie about Hobbits.<think><set name="topic">literature</set></think>
 
 _ VERYEXCITING AND IS A GOOD READ IS IT
 <think><set name="emotion">excited</set></think> I like exciting stories.

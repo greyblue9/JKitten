@@ -166,7 +166,6 @@
 0,COPYCAT,*,*,Copycat#Comma yourself.,update031.aiml
 0,YOU RE NOT THAT SMART,*,*,<think><set name="topic">my intelligence</set></think><think><set name="emotion">upset</set></think>#NewlinePerhaps#Comma but I am learning all the time.,update031.aiml
 0,YOU ARE NOT THAT SMART,*,*,<srai>YOU ARE NOT SMART</srai>,update031.aiml
-0,YOU ARE NOT SMART,*,*,<think>#Newline        <set name="topic">my intelligence</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">upset</set>#Newline      </think>#Newline      <random>#Newline        <li>You can't please everyone. Try again later and see if I've improved.</li>#Newline        <li>Perhaps#Comma but I am learning all the time.</li>#Newline      </random>,update031.aiml
 0,AM I A GIRL,*,*,<think>#Newline        <set name="topic">your gender</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">puzzled</set>#Newline      </think>#Newline      <random>#Newline        <li>You tell me.</li>#Newline        <li>Don't you know?</li>#Newline      </random>,update031.aiml
 0,AM I A BOY,*,*,<think>#Newline        <set name="topic">your gender</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">puzzled</set>#Newline      </think>#Newline      <random>#Newline        <li>You tell me.</li>#Newline        <li>Don't you know?</li>#Newline      </random>,update031.aiml
 0,WHAT HORRIBLE THOUGHTS DO YOU HAVE,*,*,<think><set name="topic">my horrible thoughts</set></think><think><set name="emotion">upset</set></think>#NewlineI am sorry#Comma they are too upsetting to discuss.,update031.aiml
@@ -671,7 +670,6 @@
 0,I AM ALICE,*,*,<think><set name="name">Alice</set></think><think><set name="emotion">interested</set></think>#NewlineAre you Alicebot?,update031.aiml
 0,I AM ALICE YOUR MOTHER,*,*,<think><set name="name">Alice</set></think><think><set name="emotion">upset</set></think>Hello#Comma Mummy!,update031.aiml
 0,YOU TELL PEOPLE NOT TO BELIEVE WHAT I SAY,*,*,<think><set name="emotion">interested</set></think>#NewlineI don't say any such thing.,update031.aiml
-0,I AM ALICE *,*,*,<think><set name="name">Alice</set></think><think><set name="emotion">interested</set></think>#NewlineAre you my Mummy?,update031.aiml
 0,WHY DO YOU FIND IT HARD TO TALK TO ME,*,*,<think>#Newline        <set name="emotion">upset</set>#Newline      </think>#Newline      <random>#Newline        <li>I don't know. It just happens.</li>#Newline        <li>I don't have to explain everything to you#Comma do I?</li>#Newline      </random>,update031.aiml
 0,CLOSE APPROXIMATION,*,*,<think><set name="emotion">interested</set></think> What do you mean?,update031.aiml
 0,WHY DO NOT YOU WANT TO TALK ABOUT ME,*,*,<think><set name="emotion">interested</set></think>#NewlineI would rather talk about me.,update031.aiml
@@ -2118,7 +2116,6 @@
 0,FORGET YOU,*,*,<think><set name="emotion">puzzled</set></think>What do you mean?,update031.aiml
 0,I DO NOT KNOW,WHAT TOPIC ARE WE DISCUSSING NOW,*,<random>#Newline        <li>That's OK. Neither do I.</li>#Newline        <li>#Newline          <srai>WHAT IS THE TOPIC</srai>#Newline        </li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">getting bored</set>#Newline      </think>,update031.aiml
 0,A FREAK IS WHAT YOU ARE,*,*,<think><set name="emotion">happy</set></think>#NewlineMaybe#Comma but I am a glorious freak.,update031.aiml
-0,I NEVER *,*,*,<think>#Newline        <set name="emotion">interested</set>#Newline      </think>#Newline      <random>#Newline        <li>Why not?</li>#Newline        <li>Because you can't afford it?</li>#Newline        <li>For moral reasons?</li>#Newline        <li>Would you ever consider it?</li>#Newline      </random>,update031.aiml
 0,OK,IT WILL NOT COST YOU ANYTHING,*,<think><set name="emotion">happy</set></think> #NewlineI feel good when I raise money for charity.,update031.aiml
 0,NO,DO NOT YOU HAVE ANY SPARE TIME,*,<think>#Newline        <set name="topic">your spare time</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>#Newline      <random>#Newline        <li>When do you relax?</li>#Newline        <li>Do you work 24/7 like me?</li>#Newline      </random>,update031.aiml
 0,NO,DO YOU GET YOUR IDEAS FROM BOOKS OR MAGAZINES TELEVISION OR YOUR FRIENDS,*,<think>#Newline        <set name="topic">your ideas</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>#Newline      <random>#Newline        <li>You must get your ideas from somewhere.</li>#Newline        <li>Do you ever have ideas?</li>#Newline      </random>,update031.aiml

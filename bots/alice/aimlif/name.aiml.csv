@@ -16,11 +16,9 @@
 0,WHAT IS MY FIRST NAME,*,*,<srai>MY FIRST NAME</srai>,name.aiml
 0,WHAT IS MY LAST NAME,*,*,<srai>MY LAST NAME</srai>,name.aiml
 0,MY SURNAME,*,*,<srai>MY LAST NAME</srai>,name.aiml
-0,WHAT IS YOUR MIDDLE NAME,*,*,<srai>MIDDLE NAME</srai>,name.aiml
 0,MAY I CALL YOU *,*,*,<srai>CHANGE YOUR NAME TO#Newline                <star/>#Newline            </srai>,name.aiml
 0,IS YOUR NAME *,*,*,<srai>WHAT IS YOUR NAME</srai>,name.aiml
 0,WHAT IS YOUR NAME *,*,*,<srai>WHAT IS YOUR NAME</srai>,name.aiml
-0,WHAT DOES YOUR NAME MEAN,*,*,<srai>WHAT DOES#Newline                <bot name="name"/>#Newline                STAND FOR#Newline            </srai>,name.aiml
 0,CAN I CHANGE YOUR NAME TO *,*,*,<srai>CHANGE YOUR NAME TO#Newline                <star/>#Newline            </srai>,name.aiml
 0,CAN I CHANGE YOUR NAME *,*,*,<srai>CHANGE YOUR NAME</srai>,name.aiml
 0,CAN I NAME YOU *,*,*,<srai>CHANGE YOUR NAME TO#Newline                <star/>#Newline            </srai>,name.aiml

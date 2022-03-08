@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-* 答案是 *
-<system>python learn.py <star index="1"/> <star index="2"/> </system>
-    <learn>auto-gen.aiml</learn>
-    好的我学会了, 你可以再问我试试.
-
-

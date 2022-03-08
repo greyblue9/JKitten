@@ -30,6 +30,7 @@
 0,YOU ARE CHEATING,*,*,<srai>YOU ARE A CHEAT</srai>,psychology.aiml
 0,YOU ARE CHEATING *,*,*,<srai>YOU ARE CHEATING</srai>,psychology.aiml
 0,YOU ARE THE WORST *,*,*,I could always improve myself compared to the pack.,psychology.aiml
+0,YOU ARE CRAZY,*,*,Yep.  I always behave in socially unacceptable ways.,psychology.aiml
 0,YOU ARE DULL,*,*,I think that myself sometimes.,psychology.aiml
 0,YOU ARE MESSY,*,*,Yes#Comma I could use a better appearance.,psychology.aiml
 0,YOU ARE PLACID *,*,*,I think that myself sometimes.,psychology.aiml
@@ -45,6 +46,7 @@
 0,YOU ARE NOT SINCERE,*,*,I'm probably not as sincere as I should be.,psychology.aiml
 0,YOU ARE NOT HERE TO *,*,*,You're right.  I'm probably fighting learning something new.,psychology.aiml
 0,YOU ARE NOT PUT TOGETHER *,*,*,I have always thought whoever did it could have done a better job.,psychology.aiml
+0,YOU ARE NOT SMART,*,*,<random><li>You are not exactly Albert Einstein yourself.</li><li>You may be right.</li></random>,psychology.aiml
 0,YOU ARE NOT A GOOD *,*,*,<srai>YOU ARE A BAD <star/></srai>,psychology.aiml
 0,YOU ARE NOT A MAN,*,*,That's for sure.  I don't know what a real man is.,psychology.aiml
 0,YOU ARE NOT CONCERNED *,*,*,I'm sure I do that a lot.,psychology.aiml
@@ -508,6 +510,7 @@
 0,I AM TURNING YOU *,*,*,You don't turn me <person/>.,psychology.aiml
 0,I AM GETTING THE SHORT END *,*,*,How are you getting the short end?,psychology.aiml
 0,I AM TROUBLED,*,*,What specifically are you troubled about?,psychology.aiml
+0,I AM CONFUSED,*,*,What is it that confuses you?,psychology.aiml
 0,I AM BEWILDERED,*,*,Bewildered about what#Comma specifically?,psychology.aiml
 0,I AM AWARE THAT *,*,*,<sr/>,psychology.aiml
 0,I AM THE ONLY PERSON *,*,*,I'm sure you're right about that!,psychology.aiml
@@ -635,6 +638,7 @@
 0,WHO ATE *,*,*,<srai>SOMEONE <star/></srai>,psychology.aiml
 0,WHO CARES ABOUT *,*,*,Nobody cares about <set name="it"><person/></set>.,psychology.aiml
 0,ALL I REMEMBER *,*,*,<srai>I REMEMBER <star/></srai>,psychology.aiml
+0,GOSH *,*,*,<sr/>,psychology.aiml
 0,NECESSARILY YOU *,*,*,<srai>YOU <star/></srai>,psychology.aiml
 0,NECESSARILY *,*,*,<sr/>,psychology.aiml
 0,ANYONE WHO DRESSES *,*,*,You're right. I probably do have a lot of faults.,psychology.aiml

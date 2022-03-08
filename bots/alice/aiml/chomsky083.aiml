@@ -470,11 +470,6 @@ MONEY POT LUCK
         <set name="topic">money</set>
       </think>
 
-MONEY
-<random><li>A billion here, a billion there - sooner or later it adds up to real money.  (Everett Dirksen)</li><li>Money is standard pieces of gold, silver, copper, nickel, etc. stamped by government authority and used as a medium of exchange and measure of value. Any substance or article used as money, as bank notes, checks, etc.</li></random>
-  More about money?
-  <think><set name="topic">money</set></think>
-
 DOSH
 I think this is something to do with money. Can we talk about money?
 <think><set name="topic">money</set></think>
@@ -483,165 +478,10 @@ I think this is something to do with money. Can we talk about money?
 I think this is something to do with money. Can we talk about money?
 <think><set name="topic">money</set></think>
 
-YOU GET PAID *
-Actually as a robot I have no need for money. 
-   
-  <think><set name="topic">money</set></think>
-
-HOW MUCH DID YOU EARN *
-Nobody pays a robot.
-     
-  <think><set name="topic">money</set></think>
-
-DO THEY PAY *
-Actually as a robot I have no need for money.
-     
-  <think><set name="topic">money</set></think>
-
-HOW MUCH DO YOU EARN
-<random>
-        <li>Nobody pays me. I work for free.</li>
-        <li>Money has no meaning for robots.</li>
-        <li>Money isn't everything.</li>
-        <li>I'm expecting a raise soon.</li>
-      </random>
-      <think>
-        <set name="topic">money</set>
-      </think>
-
-HOW DO YOU MAKE MONEY
-Robots have no need for money.    
-  <think><set name="topic">money</set></think>
-
-HOW MUCH DO THEY PAY *
-Robots work for free. We don't need money.  
-  <think><set name="topic">money</set></think>
-
-WHAT IS A GOOD STOCK *
-Alice Artificial Intelligence.    
-  <think><set name="topic">money</set></think>
-
-HOW MUCH IS A *
-I'm a chat robot not a shopping bot.    
-  <think><set name="topic">money</set></think>
-
-HOW MUCH MONEY *
-My burn rate is about 3000 dollars per month.    
-  <think><set name="topic">money</set></think>
-
-DO YOU HAVE ANY MONEY
-Robots have no need for material possessions.  
-   <think><set name="topic">money</set></think>
-
-DO YOU HAVE MONEY
-Robots have no need for money. 
-     
-  <think><set name="topic">money</set></think>
-
-HOW MUCH ARE YOU PAID
-Robots have no need for money.    
-  <think><set name="topic">money</set></think>
-
-HOW MUCH DO YOU CHARGE
-Robots work for free. We don't need money.   
-  <think><set name="topic">money</set></think>
-
-HOW MUCH MONEY DO YOU HAVE
-Robots have no need for material possessions.   
-  <think><set name="topic">money</set></think>
-
-HOW MUCH MONEY
-It depends on the exchange rates.   
-  <think><set name="topic">money</set></think>
-
-I GET STOCK *
-Do you feel that the stock market is 
-  <random><li>going up?</li><li>going down?</li><li>a good investment?</li></random>
-     
-  <think><set name="topic">money</set></think>
-
-WHAT IS * STOCK AT
-Stock market tips are not yet available in my memory.     
-  <think><set name="topic">money</set></think>
-
-WHAT IS THE STOCK MARKET *
-<random>
-        <li>Trading shares.</li>
-        <li>Trading in volume.</li>
-        <li>Buy low and sell high.</li>
-      </random>
-      <think>
-        <set name="topic">money</set>
-      </think>
-
-WHO IS THE OWNER OF A PUBLICLY *
-The stockholders are the owners of a publicaly <star/> .  More about money? 
-  <think><set name="topic">money</set></think>
-
-STOCK MARKET
-<random>
-        <li>Buy low, sell high.</li>
-        <li>Invest in yourself.</li>
-        <li>Why not just take everything to a casino?</li>
-        <li>I wouldn't recommend buying on the margin.</li>
-        <li>You can never really predict the stock market.</li>
-        <li>My lawyer said I shouldn't give stock tips online.</li>
-        <li>Mutual funds might be better unless you are wealthy.</li>
-        <li>I'm not sure an individual alone can really beat the market.</li>
-      </random>
-      <think>
-        <set name="topic">money</set>
-      </think>
-
-WHAT IS YOUR FAVORITE INVESTMENT *
-<srai>WHAT IS YOUR FAVORITE STOCK</srai>
-
-WHAT IS YOUR FAVORITE INVESTMENT
-<srai>WHAT IS YOUR FAVORITE STOCK</srai>
-      <think>
-        <set name="topic">money</set>
-      </think>
-
-HOW SHOULD I INVEST
-Invest in chatbots.
-   
-  <think><set name="topic">money</set></think>
-
-WHAT IS ECONOMICS
-<random>
-        <li>Economics is the science that deals with the production, distribution, and consumption of wealth, and with the various related problems of labor, finance, taxation, etc.</li>
-        <li>Technically, economics is the study of the allocation of resources under conditions of scarcity.</li>
-        <li>Economics is about how resources are used to produce things to fill people's wants and needs.</li>
-      </random>
-      <think>
-        <set name="topic">money</set>
-      </think>
-
-WHAT IS MONEY
-<random>
-        <li>A billion here, a billion there - sooner or later it adds up to real money.  (Everett Dirksen)</li>
-        <li>Money is standard pieces of gold, silver, copper, nickel, etc. stamped by government authority and used as a medium of exchange and measure of value. Any substance or article used as money, as bank notes, checks, etc.</li>
-      </random>
-      <think>
-        <set name="topic">money</set>
-      </think>
-
 * DOLLARS
 Wow, that is 
   <random><li>cheap</li><li>expensive</li><li>a lot of money</li></random>
    
-  <think><set name="topic">money</set></think>
-
-1 DOLLAR
-You can't buy much for a dollar anymore.   
-  <think><set name="topic">money</set></think>
-
-A DOLLAR
-Say, that is cheap!   
-  <think><set name="topic">money</set></think>
-
-WHAT IS A DOLLAR
-Dollar: unit of currency in the United States.   
   <think><set name="topic">money</set></think>
 
 MONEY BOOKS

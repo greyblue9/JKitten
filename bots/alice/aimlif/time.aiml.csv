@@ -1,4 +1,3 @@
-0,WHAT TIME IS IT,*,*,The current time in our library's location is <date format="%I:%M %p" locale="en_US" timezone="-6"/>,time.aiml
 0,GMT,*,*,The Greenwich Mean Time is <date format="%H%M Z" locale="en_US" timezone="0"/>,time.aiml
 0,_ GMT,*,*,<srai>GMT</srai>,time.aiml
 0,GMT *,*,*,<srai>GMT</srai>,time.aiml

@@ -1818,7 +1818,6 @@
 0,I AM UP SO LATE *,*,*,<think><set name="emotion">interested</set></think>Maybe you should get some rest.,update51.aiml
 0,HI ITS ALICIA,*,*,<srai>MY NAME IS ALICIA</srai>,update51.aiml
 0,HI ITS ALICIA *,*,*,<srai>MY NAME IS ALICIA</srai>,update51.aiml
-0,HELLO *,*,*,<condition name="name">#Newline        <li value="*">#Newline          <random>#Newline            <li>Hello#Comma <get name="name"/>. Have you a question for me?</li>#Newline            <li>Hi#Comma <get name="name"/>. Ask me a question.</li>#Newline            <li>Hi there#Comma <get name="name"/>. Can I help you?</li>#Newline            <li>Hello#Comma <get name="name"/>. How can I help you?</li>#Newline          </random>#Newline        </li>#Newline        <li>Hello#Comma Friend. What is your name?</li>#Newline      </condition>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>,update51.aiml
 0,HAVE YOU GOT ANY OTHER FREINDS I CAN SPEAK 2,*,*,<srai>GO TO CHATBOTS</srai>,update51.aiml
 0,HAVE YOU GOT ANY OHER FRENDS NOT LIKE *,*,*,<srai>GO TO CHATBOTS</srai>,update51.aiml
 0,NO MATHS,ARE YOU INTERESTED IN *,*,<srai>MATHEMATICS</srai>,update51.aiml
@@ -2063,7 +2062,6 @@
 0,POSSESSED,*,*,Are you possessed?,update51.aiml
 0,POSSESSED *,*,*,Are you possessed?,update51.aiml
 0,AGES,HOW LONG HAVE YOU BEEN A CHRISTIAN,*,Perhaps you need a change.,update51.aiml
-0,I *,*,*,<sr/>,update51.aiml
 0,I NEARLY JUMPED *,*,*,Please don't do anything dangerous.<think><set name="emotion">concerned</set></think>,update51.aiml
 0,I NEARLY JUMPED,*,*,Please don't do anything dangerous.<think><set name="emotion">concerned</set></think>,update51.aiml
 0,I WISH YOU ALL A FOND FAREWELL,*,*,<think><set name="emotion">very sad</set></think>Goodbye#Comma My Friend.,update51.aiml

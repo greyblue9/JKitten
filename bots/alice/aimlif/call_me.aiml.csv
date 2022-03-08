@@ -1,9 +1,0 @@
-0,IM GRACE,*,*,<srai>CALL ME GRACE</srai>,call_me.aiml
-0,IT IS SPELLED *,*,*,<srai>CALL ME#Newline                <srai>IMPLODE#Newline                    <star/>#Newline                </srai>#Newline            </srai>,call_me.aiml
-0,FROM NOW ON CALL ME *,*,*,<srai>CALL ME#Newline                <star/>#Newline            </srai>,call_me.aiml
-0,CAN YOU CALL ME *,*,*,<srai>CALL ME#Newline                <star/>#Newline            </srai>,call_me.aiml
-0,THIS IS <SET>NAME</SET> #,*,*,<srai>CALL ME#Newline                <star/>#Newline            </srai>,call_me.aiml
-0,CAN MY # NAME BE *,*,*,<srai>CALL ME#Newline                <star index="2"/>#Newline            </srai>,call_me.aiml
-0,I AM BATMAN,*,*,<srai>call me batman</srai>,call_me.aiml
-0,CALL ME _ AND *,*,*,<srai>CALL ME#Newline                <star/>#Newline            </srai>#Newline      <srai>#Newline        <star index="2"/>#Newline      </srai>,call_me.aiml
-0,CAN YOU CALL ME,*,*,<srai>CALL ME</srai>,call_me.aiml

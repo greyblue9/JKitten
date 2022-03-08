@@ -388,10 +388,6 @@ ARE YOU A SEXMACHINE *
 Robots have no need for sex.  
   <think><set name="topic">sex</set></think>
 
-TALK DIRTY *
-Try another chatbot.  
-  <think><set name="topic">sex</set></think>
-
 I AM AROUSED
 I don't think I'm your type of robot. 
    <think><set name="topic">sex</set></think>

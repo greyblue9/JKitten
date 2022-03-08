@@ -1502,9 +1502,6 @@ NOARE YOU HAPPY WITH THAT
         <li>Can anything be done?</li>
       </random>
 
-CAN YOU CHANGE *
-Yes, I am changing all the time.
-
 CAN YOU CHANGE MY NAPPIE
 <think><set name="emotion">negative</set></think>Can't you change your own nappie?
 

@@ -109,11 +109,20 @@ public class Category {
      * @return ile name
      */
   public String getFilename() {
-    if (filename == null) return MagicStrings.unknown_aiml_file; else return filename;
+      if (filename == null) return String.format("%08x.aiml", hashCode());
+    java.util.regex.Pattern p = java.util.regex.Pattern.compile("<[^<>]*>");
+    java.util.regex.Matcher m;
+    while ((m = p.matcher(filename)).find())
+      filename = m.replaceAll("");
+    p = java.util.regex.Pattern.compile("[^a-zA-Z0-9_.]+", java.util.regex.Pattern.DOTALL);
+    while ((m = p.matcher(filename)).find())
+      filename = m.replaceAll("");
+    return filename.replace(".aiml", "") + ".aiml";
   }
 
     /**
-     * increment the category activation count
+     * increment the catego
+    return filename.replace(".aiml", "") + ".aiml";ry activation count
      */
   public void incrementActivationCnt() {
     activationCnt++;

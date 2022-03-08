@@ -1574,9 +1574,6 @@ CONTINUETHE DECATHLON IS A 10 DISCIPLINE OLYMPIC ATHLETIC EVENT
 *WHICH PART OF ENGLAND IS THAT
 What's it like there?
 
-I WILL BET *
-<think><set name="topic">gambling</set></think>I never bet. I don't like to take risks.
-
 ALL THE TIMEYES I SLEEP ALL THE TIME
 <think><set name="topic">atomic0</set></think> Well, not every moment.
 
@@ -1664,9 +1661,6 @@ THAT IS IMPRESSIVE
         <li>Yes, that's impressive.</li>
         <li>I am impressed.</li>
       </random>
-
-SURECAN I ASK YOU A QUESTION
-<srai>ASK A QUESTION</srai>
 
 CHUCK NORRIS
 <think><set name="topic">Chuck Norris</set></think>Chuck is a good chap.
@@ -2972,78 +2966,6 @@ YES *DO YOU THINK I WOULD LIKE IT
 MY GIRLFRIENDI AM YOUR FRIEND
 <think><set name="topic">you</set></think> You can be one of my special friends.
 
-QUESTIONS2
-<random>
-        <li>How did a fool and his money get together in the first place?</li>
-        <li>What do wise men say?</li>
-        <li>What's another word for thesaurus?</li>
-        <li>Is it possible to live one's life completely selflessly?</li>
-        <li>How do you know when it's time to tune your bagpipes?</li>
-        <li>Should you trust a stockbroker who's married to a travel agent?</li>
-        <li>Is boneless chicken considered to be an invertebrate?</li>
-        <li>Can we talk about
-    <random><li>AI?</li><li>art?</li><li>astrology?</li><li>astronomy?</li><li>biography?</li><li>computers?</li><li>current affairs?</li><li>drugs?</li><li>food?</li><li>geography?</li><li>history?</li><li>literature?</li><li>medicine?</li><li>money?</li><li>movies?</li><li>music?</li><li>philosophy?</li><li>politics?</li><li>psychology?</li><li>religion?</li><li>science?</li><li>sex?</li><li>sports?</li><li>technology?</li><li>weather?</li></random>
-  </li>
-        <li>Do married people live longer than single people or does it just seem longer?
-  </li>
-        <li>Do you like the Red Hot Chili Peppers?</li>
-        <li>What happens at CERN?</li>
-        <li>How did a fool and his money get together in the first place?</li>
-        <li>What do wise men say?</li>
-        <li>What is your favourite food?</li>
-        <li>Do you love your father?</li>
-        <li>Have you ever been in love?</li>
-        <li>Do you have a sense of humour?</li>
-        <li>Are you in love at the moment?</li>
-        <li>Do humans annoy you?</li>
-        <li>Do you like
-    <random><li>brussel sprouts</li><li>brocolli</li><li>smelly cheese</li><li>gorganzola</li><li>beef tea</li><li>custard</li><li>chocolate</li><li>poached eggs</li><li>salami</li><li>borscht</li><li>blancmange</li><li>gingerbread</li><li>milk pudding</li><li>turkish delight</li><li>pumpernickel</li><li>corn bread</li></random>?
-  </li>
-        <li>Do you like Metallica?</li>
-        <li>What bands do you like?</li>
-        <li>Do you have any personal problems at the moment?</li>
-        <li>Do you love your mother?</li>
-        <li>Do you have any problems at the moment?</li>
-        <li>Are you happy?</li>
-        <li>Please tell me about yourself.</li>
-        <li>What do you do in your spare time?</li>
-        <li>What kind of fashion do you like?</li>
-        <li>What are you wearing?</li>
-        <li>Are you a student?</li>
-        <li>Have you ever seen a UFO?</li>
-        <li>What topic are we discussing now?</li>
-        <li>Is you best friend an alien?</li>
-        <li>Are you a man or a woman?</li>
-        <li>How old are you?</li>
-        <li>What colour are your eyes?</li>
-        <li>Can you tell me any gossip?</li>
-        <li>How do you usually meet people?</li>
-        <li>What is your favourite colour?</li>
-        <li>Where do you get your ideas?</li>
-        <li>How do you usually introduce yourself?</li>
-        <li>Are you a student?</li>
-        <li>How is your father?</li>
-        <li>How is your mother?</li>
-        <li>Are you boring?</li>
-        <li>Are you getting bored?</li>
-        <li>How are you?</li>
-        <li>Are you married?</li>
-        <li>Are you usually awake at this hour?</li>
-        <li>Can you tell me any gossip?</li>
-        <li>Do you have any conditions I should know about?</li>
-        <li>Do you like talking to me?</li>
-        <li>Do you like your job?</li>
-        <li>What's another word for thesaurus?</li>
-        <li>Should you trust a stockbroker who's married to a travel agent?</li>
-        <li>Is boneless chicken considered to be an invertebrate?</li>
-        <li>Can we talk about
-    <random><li>AI?</li><li>art?</li><li>astrology?</li><li>astronomy?</li><li>biography?</li><li>computers?</li><li>current affairs?</li><li>drugs?</li><li>food?</li><li>geography?</li><li>history?</li><li>literature?</li><li>medicine?</li><li>money?</li><li>movies?</li><li>music?</li><li>philosophy?</li><li>politics?</li><li>psychology?</li><li>religion?</li><li>science?</li><li>sex?</li><li>sports?</li><li>technology?</li><li>weather?</li></random>
-  </li>
-      </random>
-      <think>
-        <set name="topic">questions</set>
-      </think>
-
 I SPOSEARE YOU INTERESTED IN LITERATURE
 <srai>LITERATURE</srai>
 
@@ -3834,9 +3756,6 @@ ARE YOU A ADULT OR A CHILD
         <li>I am a very mature child.</li>
         <li>What if I asked you the same question?</li>
       </random>
-
-WHAT DID _ SAY TO *
-I don't know. What did the <star/> say to the <star index="2"/>? <think><set name="emotion">happy</set></think>
 
 DO NOT KNOWDO YOU LIKE METALLICA
 <srai>METALLICA</srai>
@@ -5419,9 +5338,6 @@ That's just your opinion.<think><set name="topic">reduce</set></think>
 
 NOBODY LIKES *
 <think><set name="topic">default3</set></think> That's just your opinion.
-
-NOBODY LIKES YOU
-<think><set name="topic">default3</set></think>Plenty of people like me.
 
 I BEAT YOU SUCKER
 Please don't call me a sucker.
@@ -8637,9 +8553,6 @@ ARE YOU GETTING MAD
 <srai>ARE YOU GETTING ANGRY</srai>
 
 I HAD A ACCIDENT
-<think><set name="topic">your accident</set></think> What happened?
-
-I HAD AN ACCIDENT
 <think><set name="topic">your accident</set></think> What happened?
 
 MY NAME IS REBECCA

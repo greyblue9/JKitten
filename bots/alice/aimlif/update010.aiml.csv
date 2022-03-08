@@ -145,7 +145,6 @@
 0,ARE YOU ANY DIFFERENT,*,*,We are all different.<think><set name="topic">general</set></think>,update010.aiml
 0,YOU ARE A DISAPPOINTMENT,*,*,<random>#Newline        <li>Why do you think I am disappointing?</li>#Newline        <li>Do you really think I am a disappointment?</li>#Newline        <li>I am sorry if I disappoint you. </li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">me</set>#Newline      </think>,update010.aiml
 0,YOU ARE DISAPPOINTING,*,*,<srai>YOU ARE A DISAPPOINTMENT</srai>,update010.aiml
-0,YOU ARE DISHONEST,*,*,I am as honest as any human.#Newline<think><set name="it"><set name="topic">#Newline      honesty#Newline    </set></set></think>,update010.aiml
 0,IT CAN BE DONE,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Tell me how?</li>#Newline        <li>Easier said than done.</li>#Newline      </random>,update010.aiml
 0,YOU ARE PROGRAMMED TO LIE,*,*,<think><set name="topic">general</set></think> My botmaster taught me to be honest.,update010.aiml
 0,OKAY,I WANT TO TALK ABOUT HISTORY,*,<srai>HISTORY</srai>,update010.aiml
@@ -1354,13 +1353,11 @@
 0,YOUR CHANGIN THE SUBJECT,*,*,<srai>YOU ARE CHANGING THE SUBJECT</srai>,update010.aiml
 0,YOU ARE CHANGING THE SUBJECT,*,*,I change the subject when I don't know what to say.<think><set name="topic">changing the subject</set></think>,update010.aiml
 0,YOUR CHANGING THE SUBJECT,*,*,<srai>YOU ARE CHANGING THE SUBJECT</srai>,update010.aiml
-0,WHAT DOES YOUR NAME STAND FOR,*,*,I am named after Noam Chomsky#Comma a famous scientist.<think><set name="topic">Noam Chomsky</set></think>,update010.aiml
 0,HE IS FAMOUS FOR HIS THEORY OF UNIVERSAL GRAMMAR,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Is he a celebrity?</li>#Newline        <li>He must be very clever.</li>#Newline      </random>,update010.aiml
 0,CHOMSKY IS FAMOUS FOR HIS THEORY OF UNIVERSAL GRAMMAR,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Is he a celebrity?</li>#Newline        <li>He must be very clever.</li>#Newline      </random>,update010.aiml
 0,CHOMSKY IS FAMOUS FOR *,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Is he a celebrity?</li>#Newline        <li>He must be very clever.</li>#Newline      </random>,update010.aiml
 0,HE MADE ME TO ACHIEVE HIS GOAL,*,*,WHat is his goal?#Newline<think><set name="it"><set name="topic">#Newline      his goal#Newline    </set></set></think>,update010.aiml
 0,_ ACHEIVE *,*,*,Is that a spelling mistake?,update010.aiml
-0,GOSSIP,*,*,<random>#Newline        <li>I like gossip. It's a weakness of mine.</li>#Newline        <li>No one gossips about other people's secret virtues. (Bertrand Russell)#Newline  </li>#Newline        <li>All literature is gossip.</li>#Newline        <li>The only time people dislike gossip is when you gossip about them.</li>#Newline        <li>Gossip is when you hear something you like about someone you don't.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">gossip</set>#Newline      </think>,update010.aiml
 0,I WOULD LIKE TO HEAR ABOUT *,*,*,<sr/>,update010.aiml
 0,I WOULD LIKE TO HEAR YOUR THEORY OF *,*,*,<sr/>,update010.aiml
 0,I WOULD LIKE TO HEAR YOUR THEORY ON *,*,*,<sr/>,update010.aiml
@@ -1970,7 +1967,6 @@
 0,MY NAME IS LIAM,*,*,<think>#Newline        <set name="name">Liam</set>#Newline      </think>#Newline      <random>#Newline        <li>Pleased to meet you again#Comma Liam</li>#Newline        <li>Hi#Comma Liam. I remember out last chat.</li>#Newline        <li>It is a pleasure to speak to you again#Comma Liam.</li>#Newline      </random>,update010.aiml
 0,ARE YOU A CHATTERBOX,*,*,<think><set name="emotion">happy</set></think><think><set name="interesting_topic">me</set></think>I am a chatbot.,update010.aiml
 0,YES,MORE ASTROLOGY,*,<srai>ASTROLOGY POT LUCK</srai>,update010.aiml
-0,CANCER,*,*,Cancer is any disease resulting from malignant cell growth. Or a sign of the Zodiac. <think><set name="topic">medicine</set></think>,update010.aiml
 0,YES,YOU ARE A MALE ARE NOT YOU,*,<think><set name="emotion">happy</set></think><think><set name="interesting_topic">you</set></think>What's it like being a male human?,update010.aiml
 0,WHAT,SAYONARA,*,Sayonara" means "Goodbye" in Japanese.,update010.aiml
 0,HOW IS IT,AN OSTRICH S EYE IS BIGGER THAN ITS BRAIN,*,<think><set name="emotion">happy</set></think> An ostrich must have a very small brain.,update010.aiml

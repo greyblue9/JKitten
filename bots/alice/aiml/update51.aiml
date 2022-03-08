@@ -8935,22 +8935,6 @@ HI ITS ALICIA
 HI ITS ALICIA *
 <srai>MY NAME IS ALICIA</srai>
 
-HELLO *
-<condition name="name">
-        <li value="*">
-          <random>
-            <li>Hello, <get name="name"/>. Have you a question for me?</li>
-            <li>Hi, <get name="name"/>. Ask me a question.</li>
-            <li>Hi there, <get name="name"/>. Can I help you?</li>
-            <li>Hello, <get name="name"/>. How can I help you?</li>
-          </random>
-        </li>
-        <li>Hello, Friend. What is your name?</li>
-      </condition>
-      <think>
-        <set name="emotion">interested</set>
-      </think>
-
 HAVE YOU GOT ANY OTHER FREINDS I CAN SPEAK 2
 <srai>GO TO CHATBOTS</srai>
 
@@ -9993,9 +9977,6 @@ Are you possessed?
 
 AGESHOW LONG HAVE YOU BEEN A CHRISTIAN
 Perhaps you need a change.
-
-I *
-<sr/>
 
 I NEARLY JUMPED *
 Please don't do anything dangerous.<think><set name="emotion">concerned</set></think>

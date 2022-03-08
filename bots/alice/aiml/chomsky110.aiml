@@ -1,848 +1,373 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This QUESTIONS  file created by Peter Lafferty 7 March 2005 -->
-  <category>
-    <pattern>GO TO QUESTIONS</pattern>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ASK ME A QUESTION</pattern>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SHALL I ASK YOU A QUESTION</pattern>
-    <template>
-      <srai>What is your question?</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LETS HAVE A QUESTION</pattern>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LET S HAVE A QUESTION</pattern>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ASK A QUESTION</pattern>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME A QUESTION</pattern>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HAVE YOU A QUESTION</pattern>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE QUESTIONS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO QUESTIONS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO QUESTIONS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO QUESTIONS *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO * QUESTIONS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO * QUESTIONS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ QUESTIONS *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT QUESTIONS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT QUESTIONS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT QUESTIONS *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NOT * QUESTIONS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM NOT INTERESTED IN QUESTIONS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IM NOT INTERESTED IN QUESTIONS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I M NOT INTERESTED IN QUESTIONS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT INTERESTED IN QUESTIONS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT INTERESTED IN QUESTIONS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE  QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE  QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE  QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ABOUT QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ABOUT QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE ABOUT QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE ABOUT QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ABOUT QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ABOUT QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE ABOUT QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE ABOUT QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ABOUT QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ABOUT QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ABOUT QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ABOUT QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH QUESTIONS</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+GO TO QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+ASK ME A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+SHALL I ASK YOU A QUESTION
+<srai>What is your question?</srai>
+
+LETS HAVE A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+LET S HAVE A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+TELL ME A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+HAVE YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+NO MORE QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+NO QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+* NO QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+NO QUESTIONS *
+<srai>CHANGE TOPIC</srai>
+
+_ NO * QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+NO * QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+NO _ QUESTIONS *
+<srai>CHANGE TOPIC</srai>
+
+NOT QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+* NOT QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+NOT QUESTIONS *
+<srai>CHANGE TOPIC</srai>
+
+_ NOT * QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+I AM NOT INTERESTED IN QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+IM NOT INTERESTED IN QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+I M NOT INTERESTED IN QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+NOT INTERESTED IN QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+* NOT INTERESTED IN QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+YESMORE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+* YESMORE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+YES *MORE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+_ YES *MORE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+YMORE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+YUPMORE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+YAHMORE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+YEAHMORE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+OKMORE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+NOMORE QUESTIONS
+<srai>MORE TOPICS</srai>
+
+* NOMORE QUESTIONS
+<srai>MORE TOPICS</srai>
+
+NO *MORE QUESTIONS
+<srai>MORE TOPICS</srai>
+
+NMORE QUESTIONS
+<srai>MORE TOPICS</srai>
+
+NUPMORE QUESTIONS
+<srai>MORE TOPICS</srai>
+
+NAHMORE QUESTIONS
+<srai>MORE TOPICS</srai>
+
+YESMORE ABOUT QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+* YESMORE ABOUT QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+YES *MORE ABOUT QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+_ YES *MORE ABOUT QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+YMORE ABOUT QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+YUPMORE ABOUT QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+YAHMORE ABOUT QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+YEAHMORE ABOUT QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+OKMORE ABOUT QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+NOMORE ABOUT QUESTIONS
+<srai>MORE TOPICS</srai>
+
+* NOMORE ABOUT QUESTIONS
+<srai>MORE TOPICS</srai>
+
+NO *MORE ABOUT QUESTIONS
+<srai>MORE TOPICS</srai>
+
+NMORE ABOUT QUESTIONS
+<srai>MORE TOPICS</srai>
+
+NUPMORE ABOUT QUESTIONS
+<srai>MORE TOPICS</srai>
+
+NAHMORE ABOUT QUESTIONS
+<srai>MORE TOPICS</srai>
+
+YESIS THIS SOMETHING TO DO WITH QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH QUESTIONS</that>
-    <template>
+
+* YESIS THIS SOMETHING TO DO WITH QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH QUESTIONS</that>
-    <template>
+
+YES *IS THIS SOMETHING TO DO WITH QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH QUESTIONS</that>
-    <template>
+
+_ YES *IS THIS SOMETHING TO DO WITH QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>IS THIS SOMETHING TO DO WITH QUESTIONS</that>
-    <template>
+
+YIS THIS SOMETHING TO DO WITH QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH QUESTIONS</that>
-    <template>
+
+YUPIS THIS SOMETHING TO DO WITH QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH QUESTIONS</that>
-    <template>
+
+YAHIS THIS SOMETHING TO DO WITH QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH QUESTIONS</that>
-    <template>
+
+YEAHIS THIS SOMETHING TO DO WITH QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH QUESTIONS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH QUESTIONS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH QUESTIONS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH QUESTIONS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>IS THIS SOMETHING TO DO WITH QUESTIONS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH QUESTIONS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH QUESTIONS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>IS THIS SOMETHING TO DO WITH QUESTIONS</that>
-    <template>
+
+NOIS THIS SOMETHING TO DO WITH QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+* NOIS THIS SOMETHING TO DO WITH QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+NO *IS THIS SOMETHING TO DO WITH QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+_ NO *IS THIS SOMETHING TO DO WITH QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+NIS THIS SOMETHING TO DO WITH QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+NUPIS THIS SOMETHING TO DO WITH QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+NAHIS THIS SOMETHING TO DO WITH QUESTIONS
+<srai>CHANGE TOPIC</srai>
+
+*IS THIS SOMETHING TO DO WITH QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU INTERESTED IN QUESTIONS</that>
-    <template>
+
+YESARE YOU INTERESTED IN QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ARE YOU INTERESTED IN QUESTIONS</that>
-    <template>
+
+* YESARE YOU INTERESTED IN QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ARE YOU INTERESTED IN QUESTIONS</that>
-    <template>
+
+YES *ARE YOU INTERESTED IN QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ARE YOU INTERESTED IN QUESTIONS</that>
-    <template>
+
+_ YES *ARE YOU INTERESTED IN QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU INTERESTED IN QUESTIONS</that>
-    <template>
+
+YARE YOU INTERESTED IN QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ARE YOU INTERESTED IN QUESTIONS</that>
-    <template>
+
+YUPARE YOU INTERESTED IN QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ARE YOU INTERESTED IN QUESTIONS</that>
-    <template>
+
+YAHARE YOU INTERESTED IN QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>ARE YOU INTERESTED IN QUESTIONS</that>
-    <template>
+
+YEAHARE YOU INTERESTED IN QUESTIONS
 Can we talk about questions?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU INTERESTED IN QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ARE YOU INTERESTED IN QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ARE YOU INTERESTED IN QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ARE YOU INTERESTED IN QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU INTERESTED IN QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ARE YOU INTERESTED IN QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ARE YOU INTERESTED IN QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SURE</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALLRIGHT</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>CAN I ASK YOU A QUESTION</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>BROWSE QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>BROWSE QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>BROWSE QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>BROWSE QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>BROWSE QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>BROWSE QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>BROWSE QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>BROWSE QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>BROWSE QUESTIONS</that>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>BROWSE QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>BROWSE QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>BROWSE QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>BROWSE QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>BROWSE QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>BROWSE QUESTIONS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT DID _ SAY TO *</pattern>
-    <template>
-      <random>
+
+NOARE YOU INTERESTED IN QUESTIONS
+<srai>MORE TOPICS</srai>
+
+* NOARE YOU INTERESTED IN QUESTIONS
+<srai>MORE TOPICS</srai>
+
+NO *ARE YOU INTERESTED IN QUESTIONS
+<srai>MORE TOPICS</srai>
+
+_ NO *ARE YOU INTERESTED IN QUESTIONS
+<srai>MORE TOPICS</srai>
+
+NARE YOU INTERESTED IN QUESTIONS
+<srai>MORE TOPICS</srai>
+
+NUPARE YOU INTERESTED IN QUESTIONS
+<srai>MORE TOPICS</srai>
+
+NAHARE YOU INTERESTED IN QUESTIONS
+<srai>MORE TOPICS</srai>
+
+GO AHEADCAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+CARRY ONCAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+PLEASE DOCAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+YES PLEASECAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+GO ONCAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+ALRIGHTCAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+SURECAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+ALLRIGHTCAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+YESCAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+* YESCAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+YES *CAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+_ YES *CAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+YCAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+YUPCAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+YAHCAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+YEAHCAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+OKCAN I ASK YOU A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+NOCAN I ASK YOU A QUESTION
+<srai>MORE TOPICS</srai>
+
+* NOCAN I ASK YOU A QUESTION
+<srai>MORE TOPICS</srai>
+
+NO *CAN I ASK YOU A QUESTION
+<srai>MORE TOPICS</srai>
+
+NCAN I ASK YOU A QUESTION
+<srai>MORE TOPICS</srai>
+
+NUPCAN I ASK YOU A QUESTION
+<srai>MORE TOPICS</srai>
+
+NAHCAN I ASK YOU A QUESTION
+<srai>MORE TOPICS</srai>
+
+YESBROWSE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+* YESBROWSE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+YES *BROWSE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+_ YES *BROWSE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+YBROWSE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+YUPBROWSE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+YAHBROWSE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+YEAHBROWSE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+OKBROWSE QUESTIONS
+<srai>QUESTIONS POT LUCK</srai>
+
+NOBROWSE QUESTIONS
+<srai>MORE TOPICS</srai>
+
+* NOBROWSE QUESTIONS
+<srai>MORE TOPICS</srai>
+
+NO *BROWSE QUESTIONS
+<srai>MORE TOPICS</srai>
+
+NBROWSE QUESTIONS
+<srai>MORE TOPICS</srai>
+
+NUPBROWSE QUESTIONS
+<srai>MORE TOPICS</srai>
+
+NAHBROWSE QUESTIONS
+<srai>MORE TOPICS</srai>
+
+WHAT DID _ SAY TO *
+<random>
         <li>
           <srai>QUESTIONS2</srai>
         </li>
@@ -856,24 +381,15 @@ Can we talk about questions?
       <think>
         <set name="topic">questions</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>ASK QUESTION</pattern>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ASK A QUESTION</pattern>
-    <template>
-      <srai>QUESTIONS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>QUESTIONS POT LUCK</pattern>
-    <template>
-      <random>
+
+ASK QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+ASK A QUESTION
+<srai>QUESTIONS POT LUCK</srai>
+
+QUESTIONS POT LUCK
+<random>
         <li>
           <srai>QUESTIONS1</srai>
         </li>
@@ -893,12 +409,9 @@ Can we talk about questions?
           <srai>QUESTIONS3</srai>
         </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>QUESTIONS1</pattern>
-    <template>
-      <random>
+
+QUESTIONS1
+<random>
         <li>Shall I tell you about my visit to the <random><li>seaside</li><li>cinema</li><li>circus</li></random>?</li>
         <li>What do you think of ex-President Bush?</li>
         <li>What do you think of the situation in Iraq?</li>
@@ -958,12 +471,9 @@ Can we talk about questions?
       <think>
         <set name="emotion">interested</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUESTIONS2</pattern>
-    <template>
-      <random>
+
+QUESTIONS2
+<random>
         <li>How did a fool and his money get together in the first place?</li>
         <li>What's another word for thesaurus?</li>
         <li>How do you know when it's time to tune your bagpipes?</li>
@@ -1020,12 +530,9 @@ Can we talk about questions?
       <think>
         <set name="emotion">interested</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUESTIONS3</pattern>
-    <template>
-      <random>
+
+QUESTIONS3
+<random>
         <li>How is your father?</li>
         <li>How is your mother?</li>
         <li>What do you look like?</li>
@@ -1115,12 +622,9 @@ Can we talk about questions?
       <think>
         <set name="emotion">interested</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUESTIONS4</pattern>
-    <template>
-      <random>
+
+QUESTIONS4
+<random>
         <li>Why is the man who invests all your money called a broker?</li>
         <li>When cheese gets its picture taken, what does it say?</li>
         <li>Why are a wise man and a wise guy opposites?</li>
@@ -1169,6 +673,5 @@ Can we talk about questions?
       <think>
         <set name="emotion">interested</set>
       </think>
-    </template>
-  </category>
-</aiml>
+
+

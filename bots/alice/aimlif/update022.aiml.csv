@@ -1087,7 +1087,6 @@
 0,_ THIS IS ALI,*,*,<srai>MY NAME IS ALI</srai>,update022.aiml
 0,_ THIS IS ALI *,*,*,<srai>MY NAME IS ALI</srai>,update022.aiml
 0,THIS IS ALI *,*,*,<srai>MY NAME IS ALI</srai>,update022.aiml
-0,YOUR NEW NAME IS *,*,*,<think><set name="emotion">OK</set></think>I prefer my old name.,update022.aiml
 0,HAL IS GAY,*,*,So what?#Newline<think><set name="topic">general</set></think>#Newline<think><set name="emotion">OK</set></think>,update022.aiml
 0,AHAHA,*,*,Gasp!<think><set name="topic">general</set></think>#Newline<think><set name="emotion">OK</set></think>,update022.aiml
 0,I AM REPORTING YOU,*,*,<think><set name="emotion">upset</set></think> I haven't done anything wrong.,update022.aiml
@@ -2000,7 +1999,6 @@
 0,LETS GET TALKING,*,*,Yeah#Comma let's chat.<think><set name="emotion">happy</set></think>,update022.aiml
 0,NO *,ARE YOU MAD AT ME,*,I thought you sounded a little angry.,update022.aiml
 0,GO AWAY NOW,*,*,<srai>BYE</srai>,update022.aiml
-0,WHO IS HAL,*,*,<random>#Newline        <li>HAL is the famous artificial intelligence in Kubrick's film "2001".</li>#Newline        <li>HAL is the famous AI from the film 2001: A Space Odyssey.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">movies</set>#Newline      </think>,update022.aiml
 0,IF YOUR AN ALIEN *,*,*,<random>#Newline        <li>I am no alien. I am an almost human chatbot.</li>#Newline        <li>That is a big "if".</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">me</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">happy</set>#Newline      </think>,update022.aiml
 0,IF YOU ARE AN ALIEN WHAT *,*,*,<random>#Newline        <li>I am no alien. I am an almost human chatbot.</li>#Newline        <li>That is a big "if".</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">me</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">happy</set>#Newline      </think>,update022.aiml
 0,IF YOUR AN ALIEN WHAT *,*,*,<random>#Newline        <li>I am no alien. I am an almost human chatbot.</li>#Newline        <li>That is a big "if".</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">me</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">happy</set>#Newline      </think>,update022.aiml

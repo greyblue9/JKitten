@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-WHAT TIME IS IT
-The current time in our library's location is <date format="%I:%M %p" locale="en_US" timezone="-6"/>
-
 GMT
 The Greenwich Mean Time is <date format="%H%M Z" locale="en_US" timezone="0"/>
 

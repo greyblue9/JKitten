@@ -1163,10 +1163,6 @@ PANDORA *
 <think><set name="topic">default3</set></think>
 The only thing remaining in her box is hope.
 
-* PANTS
-<think><set name="topic">default3</set></think>
-What kind of pants?
-
 PARIS *
 <think><set name="topic">default3</set></think><set name="it">Paris</set> is the  capital of France.
 

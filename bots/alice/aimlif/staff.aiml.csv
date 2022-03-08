@@ -259,7 +259,6 @@
 0,I WOULD LIKE * EMAIL ADDRESS,*,*,A list of email addresses is on <a href="http://www.mentorpl.org/mission.html" target="_blank"><b>this page</b></a>.#NewlineIf you don't see the person you're looking for#Comma then no#Comma I can't give you their email address.,staff.aiml
 0,I WANT LIKE * EMAIL,*,*,A list of email addresses is on <a href="http://www.mentorpl.org/mission.html" target="_blank"><b>this page</b></a>.#NewlineIf you don't see the person you're looking for#Comma then no#Comma I can't give you their email address.,staff.aiml
 0,I WANT LIKE * EMAIL ADDRESS,*,*,A list of email addresses is on <a href="http://www.mentorpl.org/mission.html" target="_blank"><b>this page</b></a>.#NewlineIf you don't see the person you're looking for#Comma then no#Comma I can't give you their email address.,staff.aiml
-0,WHY *,IF YOU DON'T SEE THE PERSON YOU'RE LOOKING FOR ON THE LIST, THEN NO, I CAN'T GIVE YOU THEIR EMAIL ADDRESS.,*,Staff privacy issues.,staff.aiml
 0,CONTACT KIDS,*,*,You may contact the Children's Department by phone#Comma 440.255.8811 extension 221.,staff.aiml
 0,* CONTACT KIDS,*,*,<srai>CONTACT KIDS</srai>,staff.aiml
 0,* CONTACT * KIDS,*,*,<srai>CONTACT KIDS</srai>,staff.aiml

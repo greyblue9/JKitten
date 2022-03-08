@@ -645,12 +645,6 @@ YOU ARE A DISAPPOINTMENT
 YOU ARE DISAPPOINTING
 <srai>YOU ARE A DISAPPOINTMENT</srai>
 
-YOU ARE DISHONEST
-I am as honest as any human.
-<think><set name="it"><set name="topic">
-      honesty
-    </set></set></think>
-
 IT CAN BE DONE
 <think>
         <set name="topic">general</set>
@@ -6408,9 +6402,6 @@ I change the subject when I don't know what to say.<think><set name="topic">chan
 YOUR CHANGING THE SUBJECT
 <srai>YOU ARE CHANGING THE SUBJECT</srai>
 
-WHAT DOES YOUR NAME STAND FOR
-I am named after Noam Chomsky, a famous scientist.<think><set name="topic">Noam Chomsky</set></think>
-
 HE IS FAMOUS FOR HIS THEORY OF UNIVERSAL GRAMMAR
 <think>
         <set name="topic">general</set>
@@ -6446,19 +6437,6 @@ WHat is his goal?
 
 _ ACHEIVE *
 Is that a spelling mistake?
-
-GOSSIP
-<random>
-        <li>I like gossip. It's a weakness of mine.</li>
-        <li>No one gossips about other people's secret virtues. (Bertrand Russell)
-  </li>
-        <li>All literature is gossip.</li>
-        <li>The only time people dislike gossip is when you gossip about them.</li>
-        <li>Gossip is when you hear something you like about someone you don't.</li>
-      </random>
-      <think>
-        <set name="topic">gossip</set>
-      </think>
 
 I WOULD LIKE TO HEAR ABOUT *
 <sr/>
@@ -9326,9 +9304,6 @@ ARE YOU A CHATTERBOX
 
 YESMORE ASTROLOGY
 <srai>ASTROLOGY POT LUCK</srai>
-
-CANCER
-Cancer is any disease resulting from malignant cell growth. Or a sign of the Zodiac. <think><set name="topic">medicine</set></think>
 
 YESYOU ARE A MALE ARE NOT YOU
 <think><set name="emotion">happy</set></think><think><set name="interesting_topic">you</set></think>What's it like being a male human?

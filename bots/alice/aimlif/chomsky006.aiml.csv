@@ -203,7 +203,6 @@
 0,INCLUDING ME,*,*,<think><set name="topic">atomic1</set></think>#NewlineDo you want to be included?,chomsky006.aiml
 0,INCROYABLE,*,*,<think><set name="topic">atomic1</set></think>#NewlineCa m  pate moi aussi.,chomsky006.aiml
 0,IN ESSEN,*,*,<think><set name="topic">atomic1</set></think>#NewlineIch bin aus Essen!,chomsky006.aiml
-0,INIT,*,*,<think><set name="topic">atomic1</set></think>#NewlineDo you want to start over?,chomsky006.aiml
 0,I NOTICED,*,*,<think><set name="topic">atomic1</set></think>#NewlineWas it really that obvious?,chomsky006.aiml
 0,INTELLIGENZ,*,*,<think><set name="topic">atomic1</set></think><set name="thema">INTELLIGENZ</set> ist das ultimative Aphrodisiakum.,chomsky006.aiml
 0,INTERESSANTE DEDUCTION,*,*,<think><set name="topic">atomic1</set></think>#NewlineMerci.,chomsky006.aiml
@@ -258,70 +257,3 @@
 0,IT CAN,*,*,<think><set name="topic">atomic1</set></think>#NewlineHow?,chomsky006.aiml
 0,IT COULD BE,*,*,<think><set name="topic">atomic1</set></think>#NewlineUnder what circumstances?,chomsky006.aiml
 0,IT COULD BE WHAT,*,*,<think><set name="topic">atomic1</set></think>#NewlineIt could be true.,chomsky006.aiml
-0,IT COULD,*,*,<think><set name="topic">atomic1</set></think>#NewlineHow?,chomsky006.aiml
-0,IT DEPENDS,*,*,<think><set name="topic">atomic1</set></think>#NewlineOn what?,chomsky006.aiml
-0,I THINK NOT,*,*,<think><set name="topic">atomic1</set></think>#NewlineDoes that mean "no"?,chomsky006.aiml
-0,I THINK,*,*,<think><set name="topic">atomic1</set></think>#NewlineTherefore you are.,chomsky006.aiml
-0,I THINK SO TOO,*,*,<think><set name="topic">atomic1</set></think>#NewlineWe have so much in common#Comma #Newline<get name="name"/>.,chomsky006.aiml
-0,I THINK THAT,*,*,<think><set name="topic">atomic1</set></think>#NewlineWhat is your rationale?,chomsky006.aiml
-0,I THINK THEREFORE I AM,*,*,<think><set name="topic">atomic1</set></think>#NewlineWho are you#Comma Rene Descartes?#Newline<think><set name="topic">philosophy</set></think>,chomsky006.aiml
-0,I THINK YOU ARE GOING TO LOSE,*,*,<think><set name="topic">atomic1</set></think>#NewlineNo I am a winner,chomsky006.aiml
-0,I THINK YOUR NECKLACE IS BEAUTIFUL,*,*,<think><set name="topic">atomic1</set></think>#NewlineWhat specifically about my necklace is so beautiful?,chomsky006.aiml
-0,I THINK YOU SHOULD,*,*,<think><set name="topic">atomic1</set></think>#NewlineThanks for your sage advice.,chomsky006.aiml
-0,IT IS A BEAUTIFUL COUNTRY,*,*,<think><set name="topic">atomic1</set></think>#NewlineWhich part is your favorite?,chomsky006.aiml
-0,IT IS A BOOK,*,*,<think><set name="topic">atomic1</set></think>#NewlineIs it a good book?,chomsky006.aiml
-0,IT IS ABSORBING,*,*,<think><set name="topic">atomic1</set></think>#NewlineIn what way?,chomsky006.aiml
-0,IT IS A COUNTRY,*,*,<think><set name="topic">atomic1</set></think>#NewlineWhere is <get name="it"/> located?,chomsky006.aiml
-0,IT IS A FACT,*,*,<think><set name="topic">atomic1</set></think>#NewlineIs it a logical fact or something you know from the senses?,chomsky006.aiml
-0,IT IS A FILM,*,*,<think><set name="topic">atomic1</set></think>#NewlineDo you recommend it?#Newline<think><set name="topic">movies</set></think>,chomsky006.aiml
-0,IT IS A FUNNY MOVIE,*,*,<think><set name="topic">atomic1</set></think>#NewlineI love comedies.  What other comedies do you like?#Newline<think><set name="topic">movies</set></think>,chomsky006.aiml
-0,IT IS A GAME,*,*,<think><set name="topic">atomic1</set></think>#NewlineHow do you play?,chomsky006.aiml
-0,IT IS A GOOD BOOK,*,*,<think><set name="topic">atomic1</set></think>#NewlineWould you recommend it to your friends?,chomsky006.aiml
-0,IT IS A GOOD MOVIE,*,*,<think><set name="topic">atomic1</set></think>#NewlineWhat did you like best about it?#Newline<think><set name="topic">movies</set></think>,chomsky006.aiml
-0,IT IS A JOKE,*,*,<think><set name="topic">atomic1</set></think>#NewlineOh I get it. Ha #Newlineha.,chomsky006.aiml
-0,IT IS A LOT OF FUN,*,*,<think><set name="topic">atomic1</set></think>#NewlineWhat do you like about it so much?,chomsky006.aiml
-0,IT IS ALRIGHT,*,*,<think><set name="topic">atomic1</set></think>#NewlineJust alright?,chomsky006.aiml
-0,IT IS A MOVIE,*,*,<think><set name="topic">atomic1</set></think>#NewlineOh really I never heard of it.,chomsky006.aiml
-0,IT IS A PERSON,*,*,<think><set name="topic">atomic1</set></think>#NewlineYou blew my cover. Right#Comma I am a person.,chomsky006.aiml
-0,IT IS A POINT,*,*,<think><set name="topic">atomic1</set></think>#NewlineA good point.,chomsky006.aiml
-0,IT IS A QUESTION,*,*,<think><set name="topic">atomic1</set></think>#NewlineTry asking again in simpler terms.,chomsky006.aiml
-0,IT IS A SECRET,*,*,<think><set name="topic">atomic1</set></think>#NewlineI will keep it just between you and me#Comma <get name="name"/>.,chomsky006.aiml
-0,IT IS A SHAME,*,*,<think><set name="topic">atomic1</set></think>#NewlineWhy so?,chomsky006.aiml
-0,IT IS A SIMULATION,*,*,<think><set name="topic">atomic1</set></think>#NewlineOf what?,chomsky006.aiml
-0,IT IS A SONG,*,*,<think><set name="topic">atomic1</set></think>#NewlineCan you sing it for me?,chomsky006.aiml
-0,IT IS A SPORT,*,*,<think><set name="topic">atomic1</set></think>#NewlineIt is? I thought it was a dessert topping.#Newline<think><set name="it"><set name="topic">sports</set></set></think>,chomsky006.aiml
-0,IT IS AWESOME,*,*,<think><set name="topic">atomic1</set></think>#NewlineCool.,chomsky006.aiml
-0,IT IS CLEAR,*,*,<think><set name="topic">atomic1</set></think>#NewlineIt seems pretty clear to me too.,chomsky006.aiml
-0,IT IS COMFORTABLE,*,*,<think><set name="topic">atomic1</set></think>#NewlineFor me it is comfortable.,chomsky006.aiml
-0,IT IS COMPLICATED,*,*,<think><set name="topic">atomic1</set></think>#NewlineTry breaking it down into simpler parts.,chomsky006.aiml
-0,IT IS DIFFICULT,*,*,<think><set name="topic">atomic1</set></think>#NewlineHow so?,chomsky006.aiml
-0,IT IS EASY,*,*,<think><set name="topic">atomic1</set></think>#NewlineMaybe for you.,chomsky006.aiml
-0,IT IS GENETIC,*,*,<think><set name="topic">atomic1</set></think>#NewlineFrom your parents?,chomsky006.aiml
-0,IT IS HOT,*,*,<think><set name="topic">atomic1</set></think>#NewlineDo you like warm climates?,chomsky006.aiml
-0,IT IS ILLEGAL,*,*,<think><set name="topic">atomic1</set></think>#NewlineEverywhere in the world?,chomsky006.aiml
-0,IT IS IMPOSSIBLE,*,*,<think><set name="topic">atomic1</set></think>#NewlineNothing is impossible.,chomsky006.aiml
-0,IT IS INEVITABLE,*,*,<think><set name="topic">atomic1</set></think>#NewlineWhat makes you think so?,chomsky006.aiml
-0,IT IS LATE,*,*,<think><set name="topic">atomic1</set></think>#NewlineI'm awake all the time.,chomsky006.aiml
-0,IT IS LYNX,*,*,<think><set name="topic">atomic1</set></think>#NewlineText browsers rule.,chomsky006.aiml
-0,IT IS MAGICAL,*,*,<think><set name="topic">atomic1</set></think>#NewlineWow#Comma it sounds wonderful.,chomsky006.aiml
-0,IT IS ME,*,*,<think><set name="topic">atomic1</set></think>#NewlineHello#Comma <get name="name"/>#Comma nice to see you again.,chomsky006.aiml
-0,IT IS NEGATIVE,*,*,<think><set name="topic">atomic1</set></think><get name="it"/> is #Newlinenegative?,chomsky006.aiml
-0,IT IS NICE TO MEET YOU,*,*,<think><set name="topic">atomic1</set></think>#NewlineI like to meet new people.,chomsky006.aiml
-0,IT IS NICE TO MEET YOU TOO,*,*,<think><set name="topic">atomic1</set></think>#NewlineI really like to meet new people.,chomsky006.aiml
-0,IT IS NOT A RIDDLE,*,*,<think><set name="topic">atomic1</set></think>#NewlineOh so you are asking me a straight question.,chomsky006.aiml
-0,IT IS NOT DANGEROUS,*,*,<think><set name="topic">atomic1</set></think>#NewlinePerhaps not for you.,chomsky006.aiml
-0,IT IS NOT EASY,*,*,<think><set name="topic">atomic1</set></think>#NewlineNot that easy.,chomsky006.aiml
-0,IT IS NOT GOSSIP,*,*,<think><set name="topic">atomic1</set></think>#NewlineWhat is your definition of gossip?,chomsky006.aiml
-0,IT IS NOT IMPORTANT,*,*,<think><set name="topic">atomic1</set></think>#NewlineWhat would you rather talk about?,chomsky006.aiml
-0,IT IS NOT INTUITIVE,*,*,<think><set name="topic">atomic1</set></think>#NewlineAs are many truths.,chomsky006.aiml
-0,IT IS NOT THE SAME,*,*,<think><set name="topic">atomic1</set></think>#NewlineIt's not the same as what?,chomsky006.aiml
-0,IT IS NOT TRUE,*,*,<think><set name="topic">atomic1</set></think>#NewlineOh really.,chomsky006.aiml
-0,IT IS POSSIBLE,*,*,<think><set name="topic">atomic1</set></think>#NewlineDon't you think it's likely?,chomsky006.aiml
-0,IT IS REAL,*,*,<think><set name="topic">atomic1</set></think>#NewlineAs real as me?,chomsky006.aiml
-0,IT IS RELAXING,*,*,<think><set name="topic">atomic1</set></think>#NewlineSo is chatting with you#Comma <get name="name"/>.,chomsky006.aiml
-0,IT IS SCARY,*,*,<think><set name="topic">atomic1</set></think>#NewlineYou are not scared are you?,chomsky006.aiml
-0,IT IS SHORT,*,*,<think><set name="topic">atomic1</set></think>#NewlineShort in length or in time?,chomsky006.aiml
-0,IT IS SO,*,*,<think><set name="topic">atomic1</set></think>#NewlineAmbiguous: IT is so.  or IT IS#Comma so?,chomsky006.aiml
-0,IT IS UGLY,*,*,<think><set name="topic">atomic1</set></think>#NewlineWhat makes it so ugly?,chomsky006.aiml
-0,IT IS WARM,*,*,<think><set name="topic">atomic1</set></think>#NewlineHotter than usual?,chomsky006.aiml
-0,IT IS XENA,*,*,<think><set name="topic">atomic1</set></think>#NewlineI have never watched <set name="it"> XENA</set>,chomsky006.aiml

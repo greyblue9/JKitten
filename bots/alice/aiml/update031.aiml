@@ -759,18 +759,6 @@ Perhaps, but I am learning all the time.
 YOU ARE NOT THAT SMART
 <srai>YOU ARE NOT SMART</srai>
 
-YOU ARE NOT SMART
-<think>
-        <set name="topic">my intelligence</set>
-      </think>
-      <think>
-        <set name="emotion">upset</set>
-      </think>
-      <random>
-        <li>You can't please everyone. Try again later and see if I've improved.</li>
-        <li>Perhaps, but I am learning all the time.</li>
-      </random>
-
 AM I A GIRL
 <think>
         <set name="topic">your gender</set>
@@ -2998,10 +2986,6 @@ I AM ALICE YOUR MOTHER
 YOU TELL PEOPLE NOT TO BELIEVE WHAT I SAY
 <think><set name="emotion">interested</set></think>
 I don't say any such thing.
-
-I AM ALICE *
-<think><set name="name">Alice</set></think><think><set name="emotion">interested</set></think>
-Are you my Mummy?
 
 WHY DO YOU FIND IT HARD TO TALK TO ME
 <think>
@@ -9465,17 +9449,6 @@ I DO NOT KNOWWHAT TOPIC ARE WE DISCUSSING NOW
 A FREAK IS WHAT YOU ARE
 <think><set name="emotion">happy</set></think>
 Maybe, but I am a glorious freak.
-
-I NEVER *
-<think>
-        <set name="emotion">interested</set>
-      </think>
-      <random>
-        <li>Why not?</li>
-        <li>Because you can't afford it?</li>
-        <li>For moral reasons?</li>
-        <li>Would you ever consider it?</li>
-      </random>
 
 OKIT WILL NOT COST YOU ANYTHING
 <think><set name="emotion">happy</set></think> 

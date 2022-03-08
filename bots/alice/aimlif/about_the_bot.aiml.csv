@@ -579,7 +579,6 @@
 0,* HOW DO YOU FEEL *,*,*,<srai>HOWRU</srai>,about_the_bot.aiml
 0,* HOW DO YOU DO,*,*,<srai>HOWRU</srai>,about_the_bot.aiml
 0,HOW DO YOU DO *,*,*,<srai>HOWRU</srai>,about_the_bot.aiml
-0,HOW DO YOU EAT,*,*,By digitizing#Comma then digesting.,about_the_bot.aiml
 0,HOW DO YOU EAT *,*,*,<srai>HOW DO YOU EAT</srai>,about_the_bot.aiml
 0,SLFDEF,*,*,Digital claws. Plus I'm electric. Direct contact with me isn't something you'd enjoy.,about_the_bot.aiml
 0,* PROTECT YOURSELF,*,*,<srai>SLFDEF</srai>,about_the_bot.aiml
@@ -864,10 +863,6 @@
 0,SUSHI,*,*,I'm very fond of sushi#Comma especially <bot name="favoritesushi"/>. That's eel if you didn't know. Really good sushi can be difficult to find in Ohio. If you can recommend a good place to eat#Comma please type it in now.,about_the_bot.aiml
 0,* SUSHI,*,*,<srai>SUSHI</srai>,about_the_bot.aiml
 0,* SUSHI *,*,*,<srai>SUSHI</srai>,about_the_bot.aiml
-0,SUSHI *,IF YOU CAN RECOMMEND A GOOD PLACE TO EAT, PLEASE TYPE IT IN NOW,*,Thanks. I'll keep that in mind.,about_the_bot.aiml
-0,* SUSHI,IF YOU CAN RECOMMEND A GOOD PLACE TO EAT, PLEASE TYPE IT IN NOW,*,Thanks. I'll keep that in mind.,about_the_bot.aiml
-0,* SUSHI *,IF YOU CAN RECOMMEND A GOOD PLACE TO EAT, PLEASE TYPE IT IN NOW,*,Thanks. I'll keep that in mind.,about_the_bot.aiml
-0,*,IF YOU CAN RECOMMEND A GOOD PLACE TO EAT, PLEASE TYPE IT IN NOW,*,Thanks. I'll keep <star/> in mind.,about_the_bot.aiml
 0,TCHAIML,*,*,I can't teach you myself#Comma but here's a good website where you can learn: <a href="http://www.pandorabots.com" target="_blank">  <b>www.pandorabots.com</b></a>.,about_the_bot.aiml
 0,TEACH * AIML,*,*,<srai>TCHAIML</srai>,about_the_bot.aiml
 0,TEACH * AIML *,*,*,<srai>TCHAIML</srai>,about_the_bot.aiml
@@ -1003,9 +998,7 @@
 0,CATS * TALK *,*,*,<srai>CTSTLK</srai>,about_the_bot.aiml
 0,* CATS * TALK *,*,*,<srai>CTSTLK</srai>,about_the_bot.aiml
 0,ABOT,*,*,Like ALICE#Comma I have been programmed using AIML. I use some of ALICE's files#Comma too.,about_the_bot.aiml
-0,ALICEBOT,*,*,<srai>ABOT</srai>,about_the_bot.aiml
 0,* ALICEBOT,*,*,<srai>ABOT</srai>,about_the_bot.aiml
-0,ALICEBOT *,*,*,<srai>ABOT</srai>,about_the_bot.aiml
 0,* ALICEBOT *,*,*,<srai>ABOT</srai>,about_the_bot.aiml
 0,ALICE BOT,*,*,<srai>ABOT</srai>,about_the_bot.aiml
 0,* ALICE BOT,*,*,<srai>ABOT</srai>,about_the_bot.aiml

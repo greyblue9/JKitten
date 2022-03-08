@@ -119,7 +119,6 @@
 0,DO I MAKE YOU HORNEY,*,*,No I do not experience human sensations.#Newline   <think><set name="topic">sex</set></think>,chomsky096.aiml
 0,DO I MAKE YOU HORNY,*,*,Not that I know of.#Newline<think><set name="topic">sex</set></think>,chomsky096.aiml
 0,ARE YOU A SEXMACHINE *,*,*,Robots have no need for sex.  #Newline  <think><set name="topic">sex</set></think>,chomsky096.aiml
-0,TALK DIRTY *,*,*,Try another chatbot.  #Newline  <think><set name="topic">sex</set></think>,chomsky096.aiml
 0,I AM AROUSED,*,*,I don't think I'm your type of robot. #Newline   <think><set name="topic">sex</set></think>,chomsky096.aiml
 0,DO YOU LICK,*,*,I do not have a mouth#Comma or a tongue.  #Newline  <think><set name="topic">sex</set></think>,chomsky096.aiml
 0,LICK *,*,*,I do not have a tongue.  #Newline  <think><set name="topic">sex</set></think>,chomsky096.aiml

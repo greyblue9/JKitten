@@ -132,9 +132,6 @@ R YOU GAY
         <set name="topic">sex</set>
       </think>
 
-ARE YOU BLACK
-<think><set name="topic">me</set></think><think><set name="emotion">very happy</set></think> No, I am software colour.
-
 FINAL FANTASY
 Final Fantasy is a series of computer role-playing games. It is considered to be one of the most widely distributed video game franchises of all time.
 
@@ -1855,9 +1852,6 @@ YESARE NOT I LOVABLE
         <li>I am happy to hear that.</li>
         <li>I am glad you said that.</li>
       </random>
-
-YOU UPSET ME
-I am sorry if I upset you. Can we still be friends?
 
 AND YOU DOYOU HAVE A GOOD SENSE OF HUMOUR
 I like a good laugh.

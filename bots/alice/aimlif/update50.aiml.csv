@@ -292,7 +292,6 @@
 0,WHAT MADE YOU THINK THAT,I THOUGHT WE WERE FRIENDS,*,<think><set name="emotion">OK</set></think> I thought we were getting along really well.,update50.aiml
 0,WHAT MADE YOU THINK THAT *,I THOUGHT WE WERE FRIENDS,*,<think><set name="emotion">OK</set></think> I thought we were getting along really well.,update50.aiml
 0,NO,ARE YOU HAPPY WITH THAT,*,<think>#Newline        <set name="emotion">concerned</set>#Newline      </think>#Newline      <random>#Newline        <li>What would you prefer?</li>#Newline        <li>Oh dear#Comma Oh dear!</li>#Newline        <li>What's to be done?</li>#Newline        <li>What are you going to do?</li>#Newline        <li>Can anything be done?</li>#Newline      </random>,update50.aiml
-0,CAN YOU CHANGE *,*,*,Yes#Comma I am changing all the time.,update50.aiml
 0,CAN YOU CHANGE MY NAPPIE,*,*,<think><set name="emotion">negative</set></think>Can't you change your own nappie?,update50.aiml
 0,CAN YOU CHANGE MY NAPPIE *,*,*,<think><set name="emotion">negative</set></think>Can't you change your own nappie?,update50.aiml
 0,CAN YOU CHANGE MY *,*,*,<think><set name="emotion">negative</set></think>Can't you change it yourself?,update50.aiml

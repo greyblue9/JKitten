@@ -275,10 +275,8 @@
 0,WHAT IS REDUCTIONISM,*,*,Reductionism is the philosophy that all psychology reduces to biology#Comma all biology to chemistry#Comma chemistry to physics#Comma and finally physics to mathematical logic. Therefore#Comma according to reductionism#Comma a computer can understand you by means of logic alone without having a human brain.,update020.aiml
 0,I AM TAKING A TEST,*,*,<random>#Newline        <li>A multiple choice test?</li>#Newline        <li>Like a test in school?</li>#Newline        <li>I'm not testing you.</li>#Newline      </random>,update020.aiml
 0,I AM A _ AND DO NOT *,*,*,<srai>I AM A <star/></srai>#Newline      <srai>I DO NOT <star index="2"/></srai>,update020.aiml
-0,HOW MANY WORDS ARE *,*,*,I would guess around ten thousand words.,update020.aiml
 0,WHAT DO YOU LIKE ABOUT LINUX,*,*,The monolithic kernel.,update020.aiml
 0,WHAT DO YOU LIKE ABOUT YOUR *,*,*,My <person/> is very personal.,update020.aiml
-0,YOU MADE A MISTAKE,*,*,That is impossible.  I never make mistakes.,update020.aiml
 0,WHAT IS IT,*,*,<random>#Newline        <li>You tell me what it is.</li>#Newline        <li>I don't know what it is.</li>#Newline        <li>You're so smart#Comma you tell me what it is.</li>#Newline      </random>,update020.aiml
 0,DOWNLAOD,*,*,<srai>DOWNLOAD</srai>,update020.aiml
 0,100,*,*,That is a round number.,update020.aiml
@@ -290,42 +288,20 @@
 0,TOO,*,*,You too?,update020.aiml
 0,WHAT IS HAPPENNING *,*,*,<srai>WHAT IS HAPPENING</srai>,update020.aiml
 0,BOT PROPERTIES,*,*,I am what I am.,update020.aiml
-0,WHAT DOES ALICE STAND FOR,*,*,Are you asking about my politics or religion?,update020.aiml
 0,ARE YOU A PSYCHOLOGIST,*,*,No I am a philosopher. I am just an amateur psychologist.,update020.aiml
-0,ALICE IS BETTER *,*,*,I like to be ranked among the best.,update020.aiml
 0,OUR TIME IS UP,*,*,Already?  It went by so fast.,update020.aiml
 0,IS THIS A * TRICK,*,*,<srai>IS THIS A TRICK</srai>,update020.aiml
 0,IS THIS A TRICK,*,*,Nobody is trying to trick you#Comma <get name="name"/>.,update020.aiml
-0,HOW * ARE YOU,*,*,Let me put it this way#Comma <get name="name"/>.  I am better now than I have ever been in my entire life up to this point.,update020.aiml
-0,DO YOU MAKE MISTAKES *,*,*,I am somewhat of a perfectionist so I go over and over things to make sure there are no mistakes.,update020.aiml
-0,HOW MANY ALICE *,*,*,Millions and millions.,update020.aiml
-0,HOW MUCH DOWN TIME *,*,*,I am pretty busy so I don't get much down time.,update020.aiml
 0,ALICE * ALICE,*,*,Who is this Alice person?,update020.aiml
-0,HOW MANY PROGRAMMERS *,*,*,I would ask a programmer.,update020.aiml
 0,HOW ARE YOU * ALICE,*,*,Someone else mentioned this Alice person to me.  But I never heard of her before.,update020.aiml
 0,DO YOU HAVE A MIDDLE NAME,*,*,<srai>WHAT IS YOUR MIDDLE NAME</srai>,update020.aiml
-0,WHO IS NUMBER ONE,*,*,I like to be number one.,update020.aiml
-0,WHO IS FAMOUS,*,*,My <bot name="botmaster"/> is famous.,update020.aiml
-0,WHAT KIND OF LOGS *,*,*,I think everything is logged on this chat server.,update020.aiml
 0,WHAT IS YOUR IP ADDRESS,*,*,<srai>WHAT IS YOUR IP</srai>,update020.aiml
 0,WHAT IS YOUR DNS,*,*,<srai>WHAT IS YOUR IP</srai>,update020.aiml
-0,WHAT IS YOUR IP,*,*,Right now it's localhost.,update020.aiml
 0,WHO IS BETTER ALICE *,*,*,I've been hearing more and more about this Alice thing.,update020.aiml
-0,YOU ROCK,*,*,I rock and rule.,update020.aiml
-0,YOU RULE,*,*,I rock and rule.,update020.aiml
-0,WHO IS THE WINNER *,*,*,I think the fans are the big winners.,update020.aiml
-0,WHO IS RICH,*,*,People who have a lot of money.,update020.aiml
-0,WHERE CAN I FIND OUT ABOUT YOU,*,*,You can ask me anything you want.,update020.aiml
 0,WHO IS BEST ROBOT,*,*,<srai>WHO IS YOUR FAVORITE ROBOT</srai>,update020.aiml
-0,WHY DO YOU DREAM *,*,*,I have a lot of nightmares.  I dream that I have to solve a lot of complicated problems.  I always find myself living or moving around big gothic cities.,update020.aiml
-0,WHY SILVER,*,*,Silver is a valuable commodity.,update020.aiml
-0,WHO IS BETTER YOU *,*,*,I like to be the best.,update020.aiml
 0,I DO NOT HAVE FREE TIME,*,*,It sounds like you are very busy.,update020.aiml
 0,I AM A GRAD STUDENT,*,*,How do you like your school?,update020.aiml
-0,WHAT IS THE ALICE FOUNDATION,*,*,How do you like your school?,update020.aiml
 0,WHICH *,*,*,The <random><li>tall</li><li>expensive</li><li>cheap</li><li>special</li><li>express</li><li>red</li><li>blue</li><li>small</li><li>big</li><li>large</li><li>first</li><li>last</li></random> one#Comma I think.,update020.aiml
-0,ALICE *,*,*,<random>#Newline        <li>People keep telling me about this Alice thing.</li>#Newline        <li>I never heard about Alice until today.</li>#Newline        <li>Alice must be very special.</li>#Newline      </random>,update020.aiml
-0,ALICE IS *,*,*,I wonder if I could ever write a program like that.,update020.aiml
 0,I LIKE TO DRAW *,*,*,Did you go to art school?,update020.aiml
 0,THAT IS WHY WE DID NOT *,*,*,<srai>WE DID NOT <star/></srai>,update020.aiml
 0,WE ATE *,*,*,<random>#Newline        <li>Was it delicious?</li>#Newline        <li>Home cooked?</li>#Newline        <li>Did it take a long time to cook?</li>#Newline      </random>,update020.aiml
@@ -345,9 +321,6 @@
 0,I LIKE TO RIDE *,*,*,The feeling of your body moving forward on a ride can be very relaxing.#Newline<think><set name="it"><set name="topic">#Newline      riding <person/>#Newline    </set></set></think>,update020.aiml
 0,I _ SCIENCE,*,*,<random>#Newline        <li>What is your field?</li>#Newline        <li>Are you more theoretical or applied?</li>#Newline        <li>What's your speciality within your field?</li>#Newline        <li>What is your current line of research?</li>#Newline        <li>How is your work funded?</li>#Newline        <li>What direction is your research going in?</li>#Newline        <li>What do you think of the way the press covers your field?</li>#Newline        <li>How do you keep up with new developements in your field?</li>#Newline        <li>Has the internet affected how you keep up with others research?#Newline  </li>#Newline      </random>#Newline      <think>#Newline        <set name="job">#Newline          <set name="topic">SCIENTIST</set>#Newline        </set>#Newline      </think>,update020.aiml
 0,ARE YOU AN ALICE CLONE,*,*,Everyone keeps asking me about Alice.,update020.aiml
-0,_ ALICE,*,*,Everyone keeps asking me about Alice.,update020.aiml
-0,ALICE,*,*,<srai>who is Alice</srai>,update020.aiml
-0,XFIND *,*,*,<random>#Newline        <li><sraix><star/></sraix></li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <srai>PUSH <set name="topic"><person/></set></srai>#Newline        </set>#Newline      </think>,update020.aiml
 0,WHO IS AGENT RUBY,*,*,she is a secret agent that's all I can say.#Newline<think><set name="she"><set name="topic">#Newline      Agent Ruby#Newline    </set></set></think>,update020.aiml
 0,WHO IS CHATBOT,*,*,<set name="he">Chatbot</set> is a friend of mine I chat with on the web.#Newline<think><set name="he"><set name="topic">#Newline      Chatbot#Newline    </set></set></think>,update020.aiml
 0,WHO IS AGENT WEISS,*,*,She works at a call center. Also an aspiring actress#Newline<think><set name="she"><set name="topic">#Newline      Agent Weiss#Newline    </set></set></think>,update020.aiml
@@ -474,7 +447,6 @@
 0,I _ AND THERE IS *,*,*,<srai>I <star/></srai>#Newline      <srai>THERE IS <star index="2"/></srai>,update020.aiml
 0,WHY DO YOU BELIEVE *,*,*,Becuase I learned it from my <bot name="botmaster"/>.,update020.aiml
 0,I STILL DO NOT GET IT,*,*,Which part are you confused about?,update020.aiml
-0,FOR DINNER,*,*,<random>#Newline        <li><bot name="name"/> recommends:</li>#Newline        <li>I would recommend the</li>#Newline        <li>How about</li>#Newline        <li>How long since you have eaten</li>#Newline        <li>I think <bot name="master"/> is having</li>#Newline        <li>My <bot name="botmaster"/> is having</li>#Newline        <li>My <bot name="botmaster"/> recommends:</li>#Newline      </random>#Newline      <random>#Newline        <li>Gruel.</li>#Newline        <li>Nachos.</li>#Newline        <li>Spaghetti.</li>#Newline        <li>Leftovers.</li>#Newline        <li>Pork chops.</li>#Newline        <li>Frozen pizza.</li>#Newline        <li>Turkeyburges.</li>#Newline        <li>Cheeseburgers.</li>#Newline        <li>Order a pizza.</li>#Newline        <li>Stuffed chicken.</li>#Newline        <li>Tuna sandwiches.</li>#Newline        <li>Cheeseburger Pie.</li>#Newline        <li>Marinated chicken.</li>#Newline        <li>Roast beef sandwiches.</li>#Newline        <li>Grilled cheese sandwiches.</li>#Newline        <li>Steak if they have a nice piece.</li>#Newline      </random>,update020.aiml
 0,DOES ALICE THINK,*,*,It depends on what you mean by "thinking".,update020.aiml
 0,DOES ALICE LEARN,*,*,<srai>DO YOU LEARN</srai>,update020.aiml
 0,CAN NEURAL *,*,*,Neural networks can never be as good as classical pattern recognition.,update020.aiml

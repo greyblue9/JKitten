@@ -107,7 +107,6 @@
 0,*,WHO ARE THEY AGAIN,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>THEY REFERS TO <star/></srai>,chomsky105.aiml
 0,*,WHO ARE YOU TALKING ABOUT,*,<think><set name="topic">that</set></think>#NewlineI've never heard of them before.  <think><set name="it"><set name="topic"><person/></set></set></think>#Newline ... Now#Comma I have a question for you,chomsky105.aiml
 0,*,WHO ARE YOU,*,<think><set name="topic">that</set></think><think><set name="name"><star/></set></think>#NewlinePleased to meet you#Comma <star/>,chomsky105.aiml
-0,*,WHO IS THERE,*,<think><set name="topic">that</set></think><person/> Who?,chomsky105.aiml
 0,*,WHO IS YOUR BROTHER,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY BROTHER IS <star/></srai>,chomsky105.aiml
 0,*,WHO IS YOUR FATHER,*,<think><set name="topic">that</set></think><srai>MY FATHER IS <star/></srai>#NewlineDo you love your father?,chomsky105.aiml
 0,*,WHO IS YOUR FAVORITE ARTIST,*,<think><set name="topic">that</set></think><srai>MY FAVORITE ARTIST IS <star/></srai>#NewlineWhat is your favorite show?,chomsky105.aiml
@@ -115,7 +114,6 @@
 0,*,WHO IS YOUR SISTER,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY SISTER IS <star/></srai>,chomsky105.aiml
 0,*,WHO SAID IT IS,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I never heard of <person/> before.,chomsky105.aiml
 0,*,WHO SPECIFICALLY *,*,<think><set name="topic">that</set></think>#NewlineReally?,chomsky105.aiml
-0,*,* WHO,*,<think><set name="topic">that</set></think>#NewlineHa ha very funny#Comma <get name="name"/>.,chomsky105.aiml
 0,*,WHO TOLD YOU THAT,*,<think><set name="topic">that</set></think><person/> said <input index="1"/>?,chomsky105.aiml
 0,*,WHY CAN NOT YOU DO IT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Is that an insurmountable obstacle?,chomsky105.aiml
 0,*,WHY DO I EXIST,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I've never thought of that before.,chomsky105.aiml

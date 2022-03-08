@@ -1528,7 +1528,6 @@
 0,EVERYTHING S *,*,*,<srai>#Newlineeverything is#Newline<star/>#Newline</srai>,reduce.aiml
 0,EVERYTHINGS *,*,*,<srai>#Newlineeverything is#Newline<star/>#Newline</srai>,reduce.aiml
 0,EXCELLENT *,*,*,<srai>#Newlinegood#Newline<star/>#Newline</srai>,reduce.aiml
-0,EXCEPT *,*,*,<srai>#Newlinenot#Newline<star/>#Newline</srai>,reduce.aiml
 0,EXPLAIN * TO ME,*,*,<srai>#Newlinewhat is#Newline<star/>#Newline</srai>,reduce.aiml
 0,EXPLAIN *,*,*,<srai>#Newlinewhat is#Newline<star/>#Newline</srai>,reduce.aiml
 0,EXPLAIN HOW * ARE,*,*,<srai>#Newlinehow are#Newline<star/>#Newline</srai>,reduce.aiml
@@ -2483,7 +2482,6 @@
 0,I LIKE _ AS WELL,*,*,<srai>#NewlineI like#Newline<star/>#Newlinetoo#Newline</srai>,reduce.aiml
 0,I LIKE _ TOO,*,*,I am glad we have something (#Newline<person/>#Newline) in common.#Newline<srai>#NewlineI like#Newline<star/>#Newline</srai>,reduce.aiml
 0,I LIKE _ VERY MUCH,*,*,<srai>#NewlineI like#Newline<star/>#Newline</srai>,reduce.aiml
-0,I LIKED *,*,*,<srai>#NewlineI like#Newline<star/>#Newline</srai>,reduce.aiml
 0,I LISTEN TO *,*,*,<srai>#NewlineI like#Newline<star/>#Newline</srai>,reduce.aiml
 0,I LIVE ALONE AND HAVE *,*,*,<srai>I live alone</srai>#Newline      <srai>#NewlineI have#Newline<star/>#Newline</srai>,reduce.aiml
 0,I LIVE IN * AND *,*,*,<srai>#NewlineI live in#Newline<star/>#Newline</srai>#Newline      <srai>#Newline        <star index="2"/>#Newline      </srai>,reduce.aiml
@@ -2499,7 +2497,6 @@
 0,I LOVE _ WITH ALL MY HEART,*,*,<srai>#NewlineI love#Newline<star/>#Newline</srai>,reduce.aiml
 0,I LOVED *,*,*,<srai>#NewlineI like#Newline<star/>#Newline</srai>,reduce.aiml
 0,I MAY *,*,*,<srai>#NewlineI will#Newline<star/>#Newline</srai>,reduce.aiml
-0,I MENT *,*,*,<srai>#NewlineI meant#Newline<star/>#Newline</srai>,reduce.aiml
 0,I MERELY *,*,*,<srai>#Newline        <star/>#Newline      </srai>,reduce.aiml
 0,I MIGHT *,*,*,<srai>#Newlinemaybe I will#Newline<star/>#Newline</srai>,reduce.aiml
 0,I MOST CERTAINLY *,*,*,<srai>#Newline        <star/>#Newline      </srai>,reduce.aiml
@@ -4238,7 +4235,6 @@
 0,WHEN SHALL *,*,*,<srai>#Newlinewhen can#Newline<star/>#Newline</srai>,reduce.aiml
 0,WHEN TWO PEOPLE *,*,*,<srai>#Newlinewhen people#Newline<star/>#Newline</srai>,reduce.aiml
 0,WHEN WAS THE FIRST * BUILT,*,*,<srai>#Newlinewhen was#Newline<star/>#Newlineinvented#Newline</srai>,reduce.aiml
-0,WHEN WHERE *,*,*,<srai>#Newlinewhen were#Newline<star/>#Newline</srai>,reduce.aiml
 0,WHEN WILL COMPUTERS *,*,*,<srai>#Newlinewhen will you#Newline<star/>#Newline</srai>,reduce.aiml
 0,WHEN WILL YOU BE *,*,*,Maybe never.#Newline<srai>#Newlineare you#Newline<star/>#Newline</srai>,reduce.aiml
 0,WHER *,*,*,<srai>#Newlinewhere#Newline<star/>#Newline</srai>,reduce.aiml
@@ -4686,12 +4682,10 @@
 0,YOU ARE MUCH *,*,*,<srai>#Newlineyou are#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU ARE MY ONLY *,*,*,<srai>#Newlineyou are my#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU ARE NAME *,*,*,<srai>#Newlineyour name#Newline<star/>#Newline</srai>,reduce.aiml
-0,YOU ARE NEVER *,*,*,<srai>#Newlineyou will never#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU ARE NO BLOODY *,*,*,<srai>#Newlineyou are no#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU ARE NOT * ARE YOU,*,*,<srai>#Newlineare you#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU ARE NOT * AT ALL,*,*,<srai>#Newlineyou are not#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU ARE NOT A DECENT *,*,*,<srai>#Newlineyou are not a good#Newline<star/>#Newline</srai>,reduce.aiml
-0,YOU ARE NOT A GOOD *,*,*,<srai>#Newlineyou are a bad#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU ARE NOT A REAL *,*,*,<srai>#Newlineyou are not a#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU ARE NOT A REALLY *,*,*,<srai>#Newlineyou are not a#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU ARE NOT A VERY *,*,*,<srai>#Newlineyou are not a#Newline<star/>#Newline</srai>,reduce.aiml
@@ -4725,7 +4719,6 @@
 0,YOU ARE REAL *,*,*,<srai>#Newlineyou are#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU ARE REALLY *,*,*,<srai>#Newlineyou are#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU ARE SAYING *,*,*,<srai>#Newlineare you saying#Newline<star/>#Newline</srai>,reduce.aiml
-0,YOU ARE SELF *,*,*,<srai>#Newlineare you self#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU ARE SERIOUSLY *,*,*,<srai>#Newlineyou are#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU ARE SIMPLY *,*,*,<srai>#Newlineyou are#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU ARE SO *,*,*,<srai>#Newlineyou are#Newline<star/>#Newline</srai>,reduce.aiml
@@ -4965,7 +4958,6 @@
 0,YOU MUST KNOW *,*,*,<srai>#Newlinedo you know#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU MUST REALLY *,*,*,<srai>#Newlineyou must#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU MUST UNDERSTAND *,*,*,<srai>#Newlinedo you understand#Newline<star/>#Newline</srai>,reduce.aiml
-0,YOU NEED A *,*,*,<srai>#Newlinedo you have a#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU NEED A LITTLE *,*,*,<srai>#Newlineyou need#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU NEED SOME *,*,*,<srai>#Newlineyou need#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU NEED TO *,*,*,<srai>#Newlineyou should#Newline<star/>#Newline</srai>,reduce.aiml
@@ -5007,7 +4999,6 @@
 0,YOU SAW *,*,*,<srai>#Newlinedid you see#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU SAY *,*,*,<srai>#Newlineyou said#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU SCARED *,*,*,<srai>#Newlineyou scare#Newline<star/>#Newline</srai>,reduce.aiml
-0,YOU SEEM *,*,*,<srai>#Newlineyou are#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU SEEM MUCH BETTER *,*,*,<srai>#Newlineyou are better#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU SEEM TO *,*,*,<srai>#Newlineyou#Newline<star/>#Newline</srai>,reduce.aiml
 0,YOU SEEM TO BE *,*,*,<srai>#Newlineyou are#Newline<star/>#Newline</srai>,reduce.aiml

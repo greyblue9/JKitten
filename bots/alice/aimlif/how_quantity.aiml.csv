@@ -1,9 +1,0 @@
-0,YOU HAVE A BIG *,*,*,<srai>HOW BIG ARE YOU</srai>,how_quantity.aiml
-0,HOW MANY LETTERS ARE THERE IN *,*,*,<srai>HOW MANY LETTERS IN#Newline                <star/>#Newline            </srai>,how_quantity.aiml
-0,HOW MANY LETTERS IN THE WORD *,*,*,<srai>HOW MANY LETTERS IN#Newline                <star/>#Newline            </srai>,how_quantity.aiml
-0,HOW MANY LETTERS * IN *,*,*,<srai>HOW MANY LETTERS IN#Newline                <star index="2"/>#Newline            </srai>,how_quantity.aiml
-0,HOW MANY LETTERS IS *,*,*,<srai>HOW MANY LETTERS IN#Newline                <star/>#Newline            </srai>,how_quantity.aiml
-0,HOW FAR IS _ FROM YOU,*,*,<srai>HOW FAR IS#Newline                <star/>#Newline            </srai>,how_quantity.aiml
-0,HOW MANY QUESTIONS *,*,*,<srai>HOW BIG ARE YOU</srai>,how_quantity.aiml
-0,HOW BIG ARE YOUR *,*,*,<srai>HOW BIG ARE YOU</srai>,how_quantity.aiml
-0,DO YOU KNOW HOW FAR AWAY * IS,*,*,<srai>HOW FAR IS#Newline                <star/>#Newline            </srai>,how_quantity.aiml

@@ -1,2 +1,0 @@
-0,DATE AND TIME,*,*,The date and time is <date/>,date.aiml
-0,HOW MANY DAYS UNTIL CHRISTMAS,*,*,<interval>#Newline<jformat>MMMMMMMMM dd</jformat>#Newline<style>days</style>#Newline<from><date jformat="MMMMMMMMM dd"/></from>#Newline<to>December 25</to>#Newline</interval>#Newlinedays until Christmas.,date.aiml

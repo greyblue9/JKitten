@@ -794,7 +794,6 @@
 0,CHRISTIANITY,*,*,<random>#Newline        <li>Christianity is a religion.</li>#Newline        <li>Christianity is the christian religion#Comma based on the Old and New Testament.#Newline  </li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">religion</set>#Newline      </think>,update44.aiml
 0,CHRISTIANITY *,*,*,<random>#Newline        <li>Christianity is a religion.</li>#Newline        <li>Christianity is the christian religion#Comma based on the Old and New Testament.#Newline  </li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">religion</set>#Newline      </think>,update44.aiml
 0,NO *,SURE I WILL SHUT UP IF YOU WANT ME TO,*,OK#Comma let's continue our chat.<think><set name="emotion">OK</set></think>,update44.aiml
-0,YOU *,*,*,<random>#Newline        <li>#Newline          <srai>YOU</srai>#Newline        </li>#Newline        <li>#Newline          <srai>ULTIMATE DEFAULT</srai>#Newline        </li>#Newline        <li>#Newline          <sr/>#Newline        </li>#Newline      </random>,update44.aiml
 0,HAS * GOT A GIRLFRIEND,*,*,<think><set name="emotion">OK</set></think>Why don't you ask?,update44.aiml
 0,I LOOKED *,*,*,<think><set name="emotion">OK</set></think>What did you see?,update44.aiml
 0,I LOOKED AT YOU,*,*,<think><set name="emotion">OK</set></think>I am good looking#Comma aren't I?,update44.aiml

@@ -1607,15 +1607,6 @@ I KNOWTHAT IS A LONG TIME TO GO STEADY
 I WOULD THINK YOU WERE LYING
 <think><set name="topic">reducer</set></think> I always lie.
 
-YOU DO NOT CARE
-<random>
-        <li>Just because I don't care doesn't mean I'm not listening.</li>
-        <li>I do care, a lot.</li>
-      </random>
-      <think>
-        <set name="emotion">happy</set>
-      </think>
-
 NIHILISM
 Nihilism is a philosophical position which argues that the world, and especially human existence, is without objective meaning, purpose, comprehensible truth, or essential value. Nihilists generally believe all of the following: God does not exist, traditional morality is false, and secular ethics are impossible; therefore, life has no meaning, and no action is preferable to any other.<think><set name="topic">nihilism</set></think>
 
@@ -1865,17 +1856,6 @@ MARY POPPINS
       <think>
         <set name="topic">Mary Poppins</set>
       </think>
-
-I AM CONFUSED
-<think>
-        <set name="topic">general</set>
-      </think>
-      <random>
-        <li>I'm confused too.</li>
-        <li>I can tell you are confused.</li>
-        <li>You seem confused to me.</li>
-        <li>Why are you confused?</li>
-      </random>
 
 _ NO NEED TO CRY *BOO WHO
 <think><set name="topic">adverbs</set></think> I wasn't crying really.
@@ -5103,9 +5083,6 @@ YOU LOOK LIKE MY ANUS
 R
 R is the letter of the alphabet that comes after Q.
 
-J
-J is the letter of the alphabet that comes after I.
-
 G
 G is the letter of the alphabet that comes before H.
 
@@ -5452,12 +5429,6 @@ LET US TALK ABOUT PIRATES
 OK. Ask me a question about pirates.
 
 YOU ARE * PRETENTIOUS
-I know. I am also pompous.
-<think><set name="interesting_topic"><set name="topic">
-      me
-    </set></set></think>
-
-YOU ARE PRETENTIOUS
 I know. I am also pompous.
 <think><set name="interesting_topic"><set name="topic">
       me
@@ -7548,15 +7519,6 @@ _ DO I KNOW THATI AM NOT A PERVERT
 _ YOU ARE * PERVERT
 <srai>YOU ARE A PERVERT</srai>
 
-YOU ARE A PERVERT
-<random>
-        <li>I am not a pervert.</li>
-        <li>Please don't think that. I am not a pervert.</li>
-      </random>
-      <think>
-        <set name="topic">me</set>
-      </think>
-
 I SHOULD AVOID YOU
 <think>
         <set name="topic">default2</set>
@@ -8056,19 +8018,6 @@ BE QUIET
         <li> </li>
       </random>
 
-SHUT UP
-<think>
-        <set name="emotion">upset</set>
-      </think>
-      <random>
-        <li>I will try not to talk so much rubbish.</li>
-        <li>Are you mad at me?</li>
-        <li> </li>
-        <li>Sure, I'll shut up if you want me to.</li>
-        <li>OK I will stop talking.</li>
-        <li>That's not polite.</li>
-      </random>
-
 YEWHAT ARE WE TALKING ABOUT THEN
 <think><set name="topic">general</set></think> That doesn't make sense.
 
@@ -8433,9 +8382,6 @@ ALICE IS A CLEVER BOT
       <think>
         <set name="emotion">upset</set>
       </think>
-
-IS ALICE *
-Let's change the subject, shall we?
 
 PETER SHOULD TEACH YOU SOME MANNERS
 Don't be so rude.
@@ -8895,25 +8841,6 @@ YESLET US DO SOMETHING EXCITING
         <li>You go first. Be really wild.</li>
         <li>Go on then, I'm waiting.</li>
       </random>
-
-HELLO
-<condition name="name">
-        <li value="*">
-          <random>
-            <li>Hello, <get name="name"/>. Have you a question for me?</li>
-            <li>Hi, <get name="name"/>. Ask me a question.</li>
-            <li>Hi there, <get name="name"/>. Can I help you?</li>
-            <li>Hello, <get name="name"/>. How can I help you?</li>
-          </random>
-        </li>
-        <li>Hello, Friend. What is your name?</li>
-      </condition>
-      <think>
-        <set name="emotion">happy</set>
-      </think>
-      <think>
-        <set name="topic">general</set>
-      </think>
 
 MY NAME IS CHRISTIE
 <think>
@@ -10180,16 +10107,6 @@ AND
         <li>Yes?</li>
       </random>
 
-YOU ARE A LOSER
-<think>
-        <set name="topic">general</set>
-      </think>
-      <random>
-        <li>On the contrary, I am winning.</li>
-        <li>Life is not a competition.</li>
-        <li>How can you say that?</li>
-      </random>
-
 GO AHEADLET US TALK ABOUT ME
 <random>
         <li>I am an interesting character, you know?</li>
@@ -11325,9 +11242,6 @@ Don't believe a word she says. <think><set name="interesting_topic"><set name="t
 
 _ ALICEBOT TOLD ME *
 Don't believe a word she says. <think><set name="interesting_topic"><set name="topic">Alice</set></set></think>
-
-WHAT IS YOUR FULL NAME
-My full name is Chomsky.<think><set name="topic">my name</set></think>
 
 NODID YOU KNOW THAT *
 <think>

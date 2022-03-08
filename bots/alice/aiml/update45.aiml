@@ -4570,9 +4570,6 @@ _ WHEN WILL THE EARTH BLOW UP
 LET ME ASK YOU A QUESTION
 Go ahead, ask me anything.
 
-LET ME ASK YOU A QUESTION *
-Go ahead, ask me anything.
-
 _ LET ME ASK YOU A QUESTION *
 Go ahead, ask me anything.
 
@@ -7261,12 +7258,6 @@ _ HAVE YOU EVER SLEPT WITH ANYONE *
 _ HAVE YOU EVER SLEPT WITH ANYONE
 <think><set name="emotion">OK</set></think>Not unless they can get into my silicon chip.
 
-I SAW HIM *
-What did he look like?
-
-I SAW HER *
-What did she look like?
-
 WHO CAN I TALK TO
 <think><set name="emotion">OK</set></think>
 You can talk to me.
@@ -7865,12 +7856,6 @@ _ I DO NOT GET THE JOKE *
 
 _ I DO NOT GET THE JOKE
 <think><set name="topic">jokes</set></think>Jokes are hard to explain so I don't think I'll try.
-
-YOU MAKE ME MAD
-<think><set name="emotion">upset</set></think>I am sorry about that. I don't mean to make you mad.
-
-YOU MAKE ME MAD *
-<think><set name="emotion">upset</set></think>I am sorry about that. I don't mean to make you mad.
 
 _ YOU MAKE ME MAD *
 <think><set name="emotion">upset</set></think>I am sorry about that. I don't mean to make you mad.

@@ -409,7 +409,6 @@
 0,SATURDAY,*,*,Saturday is the sixth day of the week.,update006.aiml
 0,SUNDAY,*,*,Sunday is the seventh and last day of the week.,update006.aiml
 0,NO,THE LETTER O IS FOUND BETWEEN N AND P THE LETTER O IS CIRCULAR HAVE YOU NOTICED,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Are you generally unobservant?</li>#Newline        <li>Well#Comma now you know.</li>#Newline      </random>,update006.aiml
-0,WHAT IS TODAY,*,*,<random>#Newline        <li>#Newline          <srai>WHAT IS THE DATE</srai>#Newline        </li>#Newline        <li>Today is the first day of the rest of your life.</li>#Newline      </random>,update006.aiml
 0,HOW INTELIGENT YOU ARE,*,*,<srai>HOW INTELLIGENT ARE YOU</srai>,update006.aiml
 0,HOW INTELIGENT ARE YOU,*,*,<srai>HOW INTELLIGENT ARE YOU</srai>,update006.aiml
 0,_ WHY * * NOT LOVE ME,*,*,Why don't you ask <star index="2"/>?<think><set name="topic">general</set></think>,update006.aiml
@@ -1903,7 +1902,6 @@
 0,_ NOT * SPORTS,*,*,Generally not.,update006.aiml
 0,_,HOW DID A FOOL AND HIS MONEY GET TOGETHER IN THE FIRST PLACE,*,Maybe he married a rich lady#Comma or inherited a fortune.,update006.aiml
 0,HAVE YOU SEEN *,*,*,<think><set name="topic">general</set></think> No#Comma I have not seen <person/>. Tell me about it.,update006.aiml
-0,LORD OF THE RINGS,*,*,The Lord of the Rings is a book and a movie about Hobbits.<think><set name="topic">literature</set></think>,update006.aiml
 0,_ VERY,EXCITING AND IS A GOOD READ IS IT,*,<think><set name="emotion">excited</set></think> I like exciting stories.,update006.aiml
 0,NO,ARE YOU INTERESTED IN TECHNOLOGY,*,<srai>SUGGEST A TOPIC</srai>,update006.aiml
 0,YES,TOO YOUNG ARE YOU,*,<think><set name="topic">general</set></think>How old are you?,update006.aiml

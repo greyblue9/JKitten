@@ -17,13 +17,20 @@
 import org.alicebot.ab.*;
 import java.util.Map;
 import java.util.LinkedHashMap;
+import java.util.stream.Collectors;
 import discord4j.core.event.domain.message.MessageCreateEvent;
 import discord4j.core.DiscordClient;
 import discord4j.core.GatewayDiscordClient;
 import discord4j.core.object.entity.channel.MessageChannel;
+import discord4j.core.object.entity.channel.GuildChannel;
+import discord4j.core.event.domain.message.MessageCreateEvent;
 import discord4j.core.object.entity.Message;
+import discord4j.core.object.entity.*;
+
 import java.io.*;
 import java.util.HashMap;
+import java.util.regex.*;
+import java.util.*;
 
 public class Main {
   
@@ -96,24 +103,67 @@ public class Main {
           }
           final long authorId 
             = msg.getAuthor().get().getId().asLong();
+          final String username = msg.getAuthor().get().getUsername();
           final Chat chat = getOrCreateChat(
             bot, doWrites, Long.toString(authorId, 10)
           );
+          String currentName = chat.predicates.getOrDefault("name", "unknown");
+          if (null == currentName 
+              || "".equals(currentName) 
+              || "unknown".equals(currentName.toLowerCase()) 
+              || "friend".equals(currentName.toLowerCase()) 
+              || "seeker".equals(currentName.toLowerCase())) 
+          {
+            trace("setting name to", username);
+            chat.predicates.put("name", username);
+            //trace("setting that to", username);
+            //chat.predicates.put("that", username);
+          }
           trace("msg", msg, "in chat", chat);
-          final String response = chat.multisentenceRespond(
-            msg.getContent()
-          );
+          String text = msg.getContent();
+          Pattern p = Pattern.compile("<!?@([0-9]+)>", Pattern.DOTALL);
+          Matcher mchr = p.matcher(text);
+          while (mchr.find()) {
+            long num = Long.parseLong(mchr.group(1));
+            List<Member> members = gw.getGuildMembers(msg.getGuildId().get()).toStream().filter(mb -> mb.getId().asLong() == num).collect(Collectors.toList());
+            if (! members.isEmpty()) {
+              Member member = members.get(0);
+              String memberName = member.getUsername();
+              trace("Replacing member", mchr.group(0), "with", memberName);
+              text = mchr.replaceAll(memberName);
+              mchr.reset(text);
+              continue;
+            }
+            List<Role> roles = gw.getGuildRoles(msg.getGuildId().get()).toStream().filter(r -> r.getId().asLong() == num).collect(Collectors.toList());
+            if (! roles.isEmpty()) {
+              Role role = roles.get(0);
+              String roleName = role.getName();
+              trace("Replacing role", mchr.group(0), "with", roleName);
+              text = mchr.replaceAll(roleName);
+              mchr.reset(text);
+              continue;
+            }
+            List<GuildChannel> channels = gw.getGuildChannels(msg.getGuildId().get()).toStream().filter(c -> c.getId().asLong() == num).collect(Collectors.toList());
+            if (! channels.isEmpty()) {
+              GuildChannel ch = channels.get(0);
+              String channelName = ch.getName();
+              trace("Replacing channel", mchr.group(0), "with", channelName);
+              text = mchr.replaceAll(channelName);
+              mchr.reset(text);
+              continue;
+            }
+          }
+          final String response = chat.multisentenceRespond(text);
           System.err.printf(
-            "\n%s: %s\n",
-            msg.getAuthor().get().getUsername(),
-            msg.getContent()
+            "\n%s: %s\n", msg.getAuthor().get().getUsername(), text
           );
           System.err.printf(
             "  >> %s\n", response
           );
-          channel.createMessage(response).block();
-        }
-      );
+          if (response != null && !response.isEmpty()) {
+          msg.getChannel().block().createMessage(response).block();
+          }
+        });
       return cl;
     }
   }

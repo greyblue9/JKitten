@@ -70,8 +70,10 @@ public class Bot {
      * @param name ame of bot
      */
   public void setAllPaths(String root, String name) {
-    bot_path = root + "/bots";
-    bot_name_path = bot_path + "/" + name;
+    File rootDir =new File(root).getAbsoluteFile();
+    root_path = rootDir.getPath();
+    bot_path = new File(rootDir, "bots").getPath();
+    bot_name_path = new File(new File(bot_path), name).getAbsolutePath();
     if (MagicBooleans.trace_mode) System.out.println("Name = " + name + " Path = " + bot_name_path);
     aiml_path = bot_name_path + "/aiml";
     aimlif_path = bot_name_path + "/aimlif";

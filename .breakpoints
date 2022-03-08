@@ -1,3 +1,68 @@
 {
-  "files": {}
+  "files": {
+    "src/Main.java": [
+      {
+        "id": "5f33e508-3702-4ff1-ab84-58c65992fc5c",
+        "line": 69,
+        "version": 2,
+        "index": 2381
+      },
+      {
+        "id": "6623d435-08b0-4aa5-8ae3-9793b51c4273",
+        "line": 77,
+        "version": 2,
+        "index": 2646
+      },
+      {
+        "id": "96f9f8f5-84b0-447a-80ba-360622ca7c02",
+        "line": 86,
+        "version": 2,
+        "index": 2902
+      },
+      {
+        "id": "3f123694-bcad-46c0-b3e8-aa702b7e6203",
+        "line": 137,
+        "version": 2,
+        "index": 5162
+      },
+      {
+        "id": "ea5d9ae2-29f9-44f4-9bdd-10ea3e10b344",
+        "line": 192,
+        "version": 2,
+        "index": 7349
+      },
+      {
+        "id": "fdbee01e-40f9-422b-9935-59c9c3528f7b",
+        "line": 195,
+        "version": 2,
+        "index": 7453
+      },
+      {
+        "id": "c4691b31-de77-4ce7-bfa5-045d1810096c",
+        "line": 218,
+        "version": 2,
+        "index": 8117
+      },
+      {
+        "id": "a6afb8ed-94c7-4363-96f8-03ec5f14cfa9",
+        "line": 232,
+        "version": 2,
+        "index": 8537
+      }
+    ],
+    "src/org/alicebot/ab/Bot.java": [
+      {
+        "id": "44528371-a1c4-4238-a96e-3223b49ade5b",
+        "line": 163,
+        "version": 204,
+        "index": 5676
+      },
+      {
+        "id": "6c0ce9d9-9cc8-4f58-9085-f107acd15caf",
+        "line": 172,
+        "version": 204,
+        "index": 6201
+      }
+    ]
+  }
 }

@@ -1,5 +1,5 @@
 compile = "javac -classpath .:target/dependency/:lib/\\* -d ./out $(find . -type f -name '*.java')"
-run = ["java", "-Xverify:none", "-classpath", "./out:target/dependency/*:lib/*", "Main"]
+run = ["java", "-Xverify:none", "-classpath", "./lib:./out:target/dependency/*:lib/*", "Main"]
 
 entrypoint = "src/Main.java"
 hidden = ["**/*.class"]
@@ -26,7 +26,7 @@ channel = "stable-21_11"
 support = true
 
 [debugger.compile]
-command = "javac -classpath ./out:/run_dir/junit-4.12.jar:target/dependency/*:lib/* -g -d ./out $(find . -type f -name '*.java')"
+command = "javac -classpath ./out:/run_dir/junit-4.12.jar:target/dependency/*:lib/* -g -Xprefer:source -Xdiags:verbose -Xdoclint:none -proc:none -parameters -nowarn -verbose -d ./out $(find . -type f -name '*.java')"
 
 [debugger.interactive]
 transport = "localhost:0"
@@ -57,4 +57,5 @@ type = "request"
 
 [debugger.interactive.launchMessage.arguments]
 classPaths = [".", "./lib", "./lib/*", "./out"]
+verify = false
 mainClass = "Main"

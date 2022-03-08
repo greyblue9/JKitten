@@ -116,6 +116,7 @@
 0,LARGELY *,*,*,<sr/>,adverbs.aiml
 0,LAZILY *,*,*,<sr/>,adverbs.aiml
 0,LIGHTLY *,*,*,<sr/>,adverbs.aiml
+0,LIKEWISE *,*,*,<sr/>,adverbs.aiml
 0,LITERALLY *,*,*,<sr/>,adverbs.aiml
 0,LOCALLY *,*,*,<sr/>,adverbs.aiml
 0,LOOSELY *,*,*,<sr/>,adverbs.aiml
@@ -211,6 +212,7 @@
 0,SUBSTANTIALLY *,*,*,<sr/>,adverbs.aiml
 0,SUCCESSFULLY *,*,*,<sr/>,adverbs.aiml
 0,SUFFICIENTLY *,*,*,<sr/>,adverbs.aiml
+0,SURPRISINGLY *,*,*,<sr/>,adverbs.aiml
 0,SUSPICIOUSLY *,*,*,<sr/>,adverbs.aiml
 0,SWIFTLY *,*,*,<sr/>,adverbs.aiml
 0,TEMPORARILY *,*,*,<sr/>,adverbs.aiml
@@ -266,6 +268,7 @@
 0,_ ACTIVELY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ ACTIVELY,*,*,<sr/>,adverbs.aiml
 0,_ ACTUALLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
+0,_ ACTUALLY,*,*,<sr/>,adverbs.aiml
 0,_ ADEQUATELY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ ADEQUATELY,*,*,<sr/>,adverbs.aiml
 0,_ AFTERWARDS *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
@@ -280,6 +283,7 @@
 0,_ ALONE *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ ALONE,*,*,<sr/>,adverbs.aiml
 0,_ ALREADY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
+0,_ ALREADY,*,*,<sr/>,adverbs.aiml
 0,_ ALRIGHT *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ ALRIGHT,*,*,<sr/>,adverbs.aiml
 0,_ ALSO,*,*,<sr/>,adverbs.aiml
@@ -296,6 +300,7 @@
 0,_ ANNUALLY,*,*,<sr/>,adverbs.aiml
 0,_ ANXIOUSLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ ANXIOUSLY,*,*,<sr/>,adverbs.aiml
+0,_ ANYWAY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ ANYWHERE *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ ANYWHERE,*,*,<sr/>,adverbs.aiml
 0,_ APART *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
@@ -339,6 +344,7 @@
 0,_ BASICALLY,*,*,<sr/>,adverbs.aiml
 0,_ BEAUTIFULLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ BEAUTIFULLY,*,*,<sr/>,adverbs.aiml
+0,_ BEFORE,*,*,<sr/>,adverbs.aiml
 0,_ BEHIND *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ BEHIND,*,*,<sr/>,adverbs.aiml
 0,_ BELOW *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
@@ -453,6 +459,7 @@
 0,_ EFFICIENTLY,*,*,<sr/>,adverbs.aiml
 0,_ EG *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ EG,*,*,<sr/>,adverbs.aiml
+0,_ EITHER,*,*,<sr/>,adverbs.aiml
 0,_ ELEGANTLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ ELEGANTLY,*,*,<sr/>,adverbs.aiml
 0,_ ELSEWHERE *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
@@ -486,6 +493,7 @@
 0,_ EVIDENTLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ EVIDENTLY,*,*,<sr/>,adverbs.aiml
 0,_ EXACTLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
+0,_ EXACTLY,*,*,<sr/>,adverbs.aiml
 0,_ EXCLUSIVELY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ EXCLUSIVELY,*,*,<sr/>,adverbs.aiml
 0,_ EXPLICITLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
@@ -609,6 +617,7 @@
 0,_ INCREASINGLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ INCREASINGLY,*,*,<sr/>,adverbs.aiml
 0,_ INDEED *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
+0,_ INDEED,*,*,<sr/>,adverbs.aiml
 0,_ INDEFINITELY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ INDEFINITELY,*,*,<sr/>,adverbs.aiml
 0,_ INDEPENDENTLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
@@ -714,11 +723,13 @@
 0,_ NOISILY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ NOISILY,*,*,<sr/>,adverbs.aiml
 0,_ NONETHELESS *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
+0,_ NONETHELESS,*,*,<sr/>,adverbs.aiml
 0,_ NORMALLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ NORMALLY,*,*,<sr/>,adverbs.aiml
 0,_ NOTABLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ NOTABLY,*,*,<sr/>,adverbs.aiml
 0,_ NOW *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
+0,_ NOW,*,*,<sr/>,adverbs.aiml
 0,_ NOWADAYS *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ NOWADAYS,*,*,<sr/>,adverbs.aiml
 0,_ NOWHERE *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
@@ -742,6 +753,7 @@
 0,_ ONCE AGAIN,*,*,<sr/>,adverbs.aiml
 0,_ ONCE MORE *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ ONCE MORE,*,*,<sr/>,adverbs.aiml
+0,_ ONCE,*,*,<sr/>,adverbs.aiml
 0,_ ONLY,*,*,<sr/>,adverbs.aiml
 0,_ ONWARDS *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ ONWARDS,*,*,<sr/>,adverbs.aiml
@@ -810,6 +822,7 @@
 0,_ PRIVATELY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ PRIVATELY,*,*,<sr/>,adverbs.aiml
 0,_ PROBABLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
+0,_ PROBABLY,*,*,<sr/>,adverbs.aiml
 0,_ PROMPTLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ PROMPTLY,*,*,<sr/>,adverbs.aiml
 0,_ PROPERLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
@@ -882,6 +895,7 @@
 0,_ SEPARATELY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ SEPARATELY,*,*,<sr/>,adverbs.aiml
 0,_ SERIOUSLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
+0,_ SERIOUSLY,*,*,<sr/>,adverbs.aiml
 0,_ SEVERAL *,*,*,<sr/>,adverbs.aiml
 0,_ SEVERELY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ SEVERELY,*,*,<sr/>,adverbs.aiml
@@ -939,6 +953,7 @@
 0,_ SPECIALLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ SPECIALLY,*,*,<sr/>,adverbs.aiml
 0,_ SPECIFICALLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
+0,_ SPECIFICALLY,*,*,<sr/>,adverbs.aiml
 0,_ SPEEDILY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ SPEEDILY,*,*,<sr/>,adverbs.aiml
 0,_ STEADILY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
@@ -990,6 +1005,7 @@
 0,_ THOROUGHLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ THOROUGHLY,*,*,<sr/>,adverbs.aiml
 0,_ THOUGH *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
+0,_ THOUGH,*,*,<sr/>,adverbs.aiml
 0,_ THOUGHTFULLY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml
 0,_ THOUGHTFULLY,*,*,<sr/>,adverbs.aiml
 0,_ THROUGH *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,adverbs.aiml

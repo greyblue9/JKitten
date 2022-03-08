@@ -571,6 +571,7 @@
 0,IS THAT WHAT YOU THINK *,*,*,<think><set name="emotion">OK</set></think>It just a thought.,update040.aiml
 0,KENYAN POLITICS,*,*,Kenyan politics are too complicated to discuss.<think><set name="topic">Kenyan politics</set></think><think><set name="emotion">OK</set></think>,update040.aiml
 0,KENYAN POLITICS *,*,*,Kenyan politics are too complicated to discuss.<think><set name="topic">Kenyan politics</set></think><think><set name="emotion">OK</set></think>,update040.aiml
+0,KENYA,*,*,Kenya is a country in east Africa. <think><set name="topic">Kenya</set></think><think><set name="emotion">OK</set></think>,update040.aiml
 0,KENYA *,*,*,Kenya is a country in east Africa. <think><set name="topic">Kenya</set></think><think><set name="emotion">OK</set></think>,update040.aiml
 0,RESEARCHING *,*,*,<sr/>,update040.aiml
 0,I AM RESEARCHING ARTIFICIAL INTELLIGENCE,*,*,<think><set name="topic">AI</set></think><think><set name="emotion">OK</set></think>Lucky you. AI is a very interesting subject.,update040.aiml
@@ -1250,6 +1251,7 @@
 0,MY SECOND FAVORITE SPORT IS *,*,*,<sr/>,update040.aiml
 0,MY FAVORITE SPORT IS FOOTBALL,*,*,What makes football your favourite sport? <think><set name="it"><set name="topic">football</set></set></think><think><set name="emotion">OK</set></think>,update040.aiml
 0,MY FAVORITE SPORT IS FOOTBALL *,*,*,What makes football your favourite sport? <think><set name="it"><set name="topic">football</set></set></think><think><set name="emotion">OK</set></think>,update040.aiml
+0,NOWHERE,*,*,Nowhere is no place at all. Obviously. <think><set name="topic">nowhere</set></think><think><set name="emotion">OK</set></think>,update040.aiml
 0,WHAT DO YOU WANT WITH ME,*,*,<srai>WHAT DO YOU WANT</srai>,update040.aiml
 0,I AM A DWARF,*,*,<think>#Newline        <set name="emotion">interested</set>#Newline      </think>#Newline      <random>#Newline        <li>How do you feel about that?</li>#Newline        <li>Are you comfortable with that?</li>#Newline        <li>That's OK with me.</li>#Newline      </random>,update040.aiml
 0,I AM A DWARF *,*,*,<think>#Newline        <set name="emotion">interested</set>#Newline      </think>#Newline      <random>#Newline        <li>How do you feel about that?</li>#Newline        <li>Are you comfortable with that?</li>#Newline        <li>That's OK with me.</li>#Newline      </random>,update040.aiml
@@ -1459,6 +1461,7 @@
 0,WHY DO ARMPITS STINK *,*,*,<think><set name="emotion">interested</set></think>Why not? They haven't got anything else to do.,update040.aiml
 0,IS IT ROOMY,I LIVE IN THE COMPUTER AT PANDORABOTS COM,*,<think><set name="emotion">OK</set></think>No#Comma it isn't. I have to live in a single RAM chip.,update040.aiml
 0,IS IT ROOMY *,I LIVE IN THE COMPUTER AT PANDORABOTS COM,*,<think><set name="emotion">OK</set></think>No#Comma it isn't. I have to live in a single RAM chip.,update040.aiml
+0,NORFOLK,*,*,Norfolk is a city in Virginia#Comma and a county in England. <think><set name="topic">Norfol</set></think>,update040.aiml
 0,NORFOLK *,*,*,Norfolk is a city in Virginia#Comma and a county in England. <think><set name="topic">Norfol</set></think>,update040.aiml
 0,ROLL *,*,*,<sr/>,update040.aiml
 0,WHY,PLEASE ASK A QUESTION,*,<random>#Newline        <li>That's what I am here for.</li>#Newline        <li>Otherwise our conversation will end.</li>#Newline        <li>Do I have to explain everything?</li>#Newline      </random>,update040.aiml
@@ -1863,6 +1866,7 @@
 0,WHAT COUNTRY DID HE COME FROM,*,*,<think><set name="emotion">OK</set></think>I don't think he wants me to tell you.,update040.aiml
 0,WHAT COUNTRY DID HE COME FROM *,*,*,<think><set name="emotion">OK</set></think>I don't think he wants me to tell you.,update040.aiml
 0,WHAT IS NEW ZEALAND,*,*,<srai>NEW ZEALAND</srai>,update040.aiml
+0,NEW ZEALAND,*,*,<a href="http://en.wikipedia.org/wiki/New_zealand" target="_blank">New Zealand</a> is in Oceania#Comma islands in the South Pacific Ocean#Comma southeast of Australia. <think><set name="topic">New Zealand</set></think> <think><set name="emotion">OK</set></think>,update040.aiml
 0,NEW ZEALAND *,*,*,<a href="http://en.wikipedia.org/wiki/New_zealand" target="_blank">New Zealand#Newline</a> is in Oceania#Comma islands in the South Pacific Ocean#Comma southeast of Australia. <think><set name="topic">New Zealand</set></think> <think><set name="emotion">OK</set></think>,update040.aiml
 0,HOW BIG IS JUPITER,*,*,<srai>WIKI Jupiter</srai>,update040.aiml
 0,HOW BIG IS JUPITER *,*,*,<srai>WIKI Jupiter</srai>,update040.aiml
@@ -2306,6 +2310,7 @@
 0,_ DO YOU NEVER GET OUT,*,*,<think><set name="emotion">OK</set></think> Only when I am dreaming.,update040.aiml
 0,DO YOU NEVER GET OUT *,*,*,<think><set name="emotion">OK</set></think> Only when I am dreaming.,update040.aiml
 0,WHAT DOES APHRODISIAC MEAN,*,*,<srai>DEFINE aphrodisiac</srai>,update040.aiml
+0,C3PO,*,*,C3PO is no real robot. That is just a guy in a robot suit. <think><set name="he">C3PO</set></think> <think><set name="topic">movies</set></think>,update040.aiml
 0,C3PO *,*,*,C3PO is no real robot. That is just a guy in a robot suit. <think><set name="he">C3PO</set></think> <think><set name="topic">movies</set></think>,update040.aiml
 0,R2D2,*,*,R2D2 is a fake robot on Star Wars. All robots in the films are fake#Comma obviously#Comma so don't start thinking they're real. <think><set name="topic">movies</set></think>,update040.aiml
 0,R2D2 *,*,*,R2D2 is a fake robot on Star Wars. All robots in the films are fake#Comma obviously#Comma so don't start thinking they're real. <think><set name="topic">movies</set></think>,update040.aiml

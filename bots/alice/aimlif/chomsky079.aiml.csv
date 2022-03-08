@@ -147,6 +147,7 @@
 0,* IMPORTANT EVENT * HISTORY,*,*,I think the most important event in history was the invention of the computer. This not only allowed chat bots#Comma but provided a great surge forward in many fields#Comma particularly science.  Browse history?,chomsky079.aiml
 0,1066,*,*,In 1066#Comma the Norman King William invaded England and killed the English King Harold during the Battle of Hastings. Hastings is a small town on the south coast of England. More history?#Newline  <think><set name="topic">history</set></think>,chomsky079.aiml
 0,BATTLE OF HASTINGS,*,*,In 1066#Comma the Norman King William invaded England and killed the English King Harold during the Battle of Hastings. Hastings is a small town on the south coast of England. Browse history?#Newline  <think><set name="topic">history</set></think>,chomsky079.aiml
+0,9 11,*,*,September 11#Comma 2001 was the Twin Towers#Comma New York#Comma attack by terrorists. More history?#Newline<think><set name="topic">history</set></think>,chomsky079.aiml
 0,EURO,*,*,The Euro was introduced 1 January 1999 for use in 11 countries of the European  Union. More about money?#Newline   <think><set name="topic">money</set></think>,chomsky079.aiml
 0,EXPLAIN HISTORY,*,*,History has two broad interpretations#Comma depending on whether you accept the role of individuals as important or not. Browse history?#Newline  <think><set name="topic">history</set></think>,chomsky079.aiml
 0,TELL ME ABOUT HISTORY,*,*,<srai>WHAT IS HISTORY</srai>,chomsky079.aiml

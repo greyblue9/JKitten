@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0">
-  <!-- File: triple.aiml -->
-  <!-- Author: Dr. Richard S. Wallace -->
-  <!-- Last modified: July 19, 2014 -->
-  <!--  -->
-  <!-- This AIML file is part of the ALICE2 0.0.5 chat bot knowledge base. -->
-  <!--  -->
-  <!-- The ALICE2 brain is Copyright &copy; 2014 by ALICE AI Foundation. -->
-  <!--  -->
-  <!-- The ALICE2 brain is released under the terms of the GNU Lesser General -->
-  <!-- Public License, as published by the Free Software Foundation. -->
-  <!--  -->
-  <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
-  <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
-  <!--  -->
-  <!-- For more information see http://www.alicebot.org -->
-  <!--
-	     Modified by Keith Sterling Oct 2017
-	-->
-  <!--  -->
-  <category>
-    <pattern>TRIPLE TEST * *</pattern>
-    <template>
-      <select>
+
+TRIPLE TEST * *
+<select>
         <vars>?x</vars>
         <q>
           <subj>
@@ -34,22 +13,16 @@
           <obj>?x</obj>
         </q>
       </select>
-    </template>
-  </category>
-  <category>
-    <pattern>UNIQ TEST</pattern>
-    <template>
-      <uniq>
+
+UNIQ TEST
+<uniq>
         <subj>York</subj>
         <pred>isa</pred>
         <obj>?object</obj>
       </uniq>
-    </template>
-  </category>
-  <category>
-    <pattern>UNIQ TEST 2</pattern>
-    <template>
-      <addtriple>
+
+UNIQ TEST 2
+<addtriple>
         <subj>10099</subj>
         <pred>hasFirstName</pred>
         <obj>Alan</obj>
@@ -78,12 +51,9 @@
         <pred>hasMobileNumber</pred>
         <obj>?number</obj>
       </uniq>
-    </template>
-  </category>
-  <category>
-    <pattern>UNIQ TEST 3</pattern>
-    <template>
-      <addtriple>
+
+UNIQ TEST 3
+<addtriple>
         <subj>X</subj>
         <pred>Y</pred>
         <obj>Z</obj>
@@ -96,21 +66,17 @@
         <pred>Y</pred>
         <obj>Z</obj>
       </uniq>
-    </template>
-  </category>
-  <category>
-    <pattern>ADDTRIPLE TEST</pattern>
-    <template>Adding triples:
+
+ADDTRIPLE TEST
+Adding triples:
             <addtriple><subj>Sacramento</subj><pred>capitalOf</pred><obj>California</obj></addtriple>
             <addtriple><subj>Austin</subj><pred>capitalOf</pred><obj>Texas</obj></addtriple>
             <addtriple><subj>Reno</subj><pred>capitalOf</pred><obj>Nevada</obj></addtriple>
             <addtriple><subj>Austin</subj><pred>capitalOf</pred><obj>Texas</obj></addtriple>
             <addtriple><subj>Los Angeles</subj><pred>capitalOf</pred><obj>California</obj></addtriple>
-        </template>
-  </category>
-  <category>
-    <pattern>DELETETRIPLE TEST</pattern>
-    <template>Adding triples:
+
+DELETETRIPLE TEST
+Adding triples:
             <addtriple><subj>FIDO</subj><pred>ISA</pred><obj>DOG</obj></addtriple>
             <addtriple><subj>ROVER</subj><pred>ISA</pred><obj>DOG</obj></addtriple>
             <addtriple><subj>SNOOPY</subj><pred>ISA</pred><obj>DOG</obj></addtriple>
@@ -123,12 +89,9 @@
             <deletetriple><subj>FIDO</subj><obj>DOG</obj></deletetriple>
             Select:
             <select><vars>?x ?y</vars><q><subj>?x</subj><pred>?y</pred><obj>DOG</obj></q></select>
-        </template>
-  </category>
-  <category>
-    <pattern>SELECT TEST</pattern>
-    <template>
-      <set var="tuples">
+
+SELECT TEST
+<set var="tuples">
         <select>
           <vars>?x</vars>
           <q>
@@ -166,12 +129,9 @@
           <loop/>
         </li>
       </condition>
-    </template>
-  </category>
-  <category>
-    <pattern>SELECT TEST NOTQ</pattern>
-    <template>
-      <set var="tuples">
+
+SELECT TEST NOTQ
+<set var="tuples">
         <select>
           <vars>?x</vars>
           <notq>
@@ -181,12 +141,9 @@
           </notq>
         </select>
       </set>
-    </template>
-  </category>
-  <category>
-    <pattern>SELECT TEST NOT</pattern>
-    <template>
-      <set var="tuples">
+
+SELECT TEST NOT
+<set var="tuples">
         <select>
           <vars>?x</vars>
           <q>
@@ -224,12 +181,9 @@
           <loop/>
         </li>
       </condition>
-    </template>
-  </category>
-  <category>
-    <pattern>SELECT TEST NOT 2</pattern>
-    <template>
-      <set var="tuples">
+
+SELECT TEST NOT 2
+<set var="tuples">
         <select>
           <vars>?x</vars>
           <q>
@@ -277,12 +231,9 @@
           <loop/>
         </li>
       </condition>
-    </template>
-  </category>
-  <category>
-    <pattern>SELECT TEST NOT 3</pattern>
-    <template>
-      <set var="tuples">
+
+SELECT TEST NOT 3
+<set var="tuples">
         <select>
           <vars>?x</vars>
           <q>
@@ -330,12 +281,9 @@
           <loop/>
         </li>
       </condition>
-    </template>
-  </category>
-  <category>
-    <pattern>SELECT TEST 3</pattern>
-    <template>
-      <set var="tuples">
+
+SELECT TEST 3
+<set var="tuples">
         <select>
           <vars>?entity ?lifeArea ?purpose</vars>
           <q>
@@ -370,12 +318,9 @@
                     <loop/>
                 </li>
       </condition>
-    </template>
-  </category>
-  <category>
-    <pattern>SELECT TEST 2</pattern>
-    <template>
-      <set var="tuples">
+
+SELECT TEST 2
+<set var="tuples">
         <select>
           <vars>?x</vars>
           <q>
@@ -418,11 +363,9 @@
           <loop/>
         </li>
       </condition>
-    </template>
-  </category>
-  <category>
-    <pattern>GREEK TEST</pattern>
-    <template><think><srai>Socrates is older than Plato</srai><srai>Plato is older than Aristotle</srai></think>
+
+GREEK TEST
+<think><srai>Socrates is older than Plato</srai><srai>Plato is older than Aristotle</srai></think>
             Who is older Socrates or Plato?
             <srai>Who is older Socrates or Plato</srai>
             Who is older Plato or Socrates?
@@ -439,6 +382,5 @@
             <srai>Who is younger Socrates or Aristotle</srai>
             Who is younger Aristotle or Socrates?
             <srai>Who is younger Aristotle or Socrates</srai>
-        </template>
-  </category>
-</aiml>
+
+

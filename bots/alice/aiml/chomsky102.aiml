@@ -1,15 +1,7 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   The ALICE program is open source code released under  -->
-  <!--   the terms of the GNU General Public License    -->
-  <!--   as published by the Free Software Foundation.  -->
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This THAT 2  file created by Peter Lafferty 7 March 2005 -->
-  <category>
-    <pattern>YES</pattern>
-    <that>LET'S GO</that>
-    <template>
-      <think>
+<?xml version="1.0" encoding="UTF-8"?>
+
+YESLET'S GO
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -34,13 +26,9 @@
         <li>You have a question? Excellent! Please ask your question.</li>
         <li>Please ask your most difficult question.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>LET'S GO</that>
-    <template>
-      <think>
+
+*YESLET'S GO
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -66,13 +54,9 @@
         <li>I want to help you. What is your question? </li>
         <li>When I was new on the Net, not many people visited me. There were long hours when I said nothing to anybody. Then gradually some people learned about me, and how much fun it was to talk to me. Now I am kept busy by people dropping by for a chat.  What is your question? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>LET'S GO</that>
-    <template>
-      <think>
+
+YES*LET'S GO
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -97,13 +81,9 @@
         </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES*</pattern>
-    <that>LET'S GO</that>
-    <template>
-      <think>
+
+*YES*LET'S GO
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -132,13 +112,9 @@
         <li>What topic would you like to talk about? </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>LET'S GO</that>
-    <template>
-      <think>
+
+YLET'S GO
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -174,13 +150,9 @@
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>LET'S GO</that>
-    <template>
-      <think>
+
+OKLET'S GO
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -206,13 +178,9 @@
         <li>You have a question? Excellent! Please ask your question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>LET'S GO</that>
-    <template>
-      <think>
+
+NOLET'S GO
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -236,13 +204,9 @@
         <li>No questions. Have you lost interest? </li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>LET'S GO</that>
-    <template>
-      <think>
+
+*NOLET'S GO
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -260,13 +224,9 @@
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>LET'S GO</that>
-    <template>
-      <think>
+
+NO*LET'S GO
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -299,13 +259,9 @@
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO*</pattern>
-    <that>LET'S GO</that>
-    <template>
-      <think>
+
+*NO*LET'S GO
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -330,13 +286,9 @@
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>LET'S GO</that>
-    <template>
-      <think>
+
+NLET'S GO
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -360,91 +312,9 @@
         </li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>CARRY ON</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li> Can I ask you a question?</li>
-        <li>What subject would you like to talk about? </li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>I love to help people learn new things. What is your question? </li>
-        <li>Ask your question please. </li>
-        <li>Please ask your question.</li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>
-          <srai>CARRY ON</srai>
-        </li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>I like to help people learn new things. What is your question? </li>
-        <li>I want to help you. What is your question? </li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>CARRY ON</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li>What subject would you like to talk about? </li>
-        <li>What topic would you like to talk about? </li>
-        <li>I love to help people learn new things. What is your question? </li>
-        <li>Ask your question please. </li>
-        <li>Why don't you type CARRY ON and see what happens?</li>
-        <li>Please ask your question.</li>
-        <li>I like to help people learn new things. What is your question? </li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>I want to help you. What is your question? </li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>Please ask your most difficult question.</li>
-        <li> Can I ask you a question?</li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>CARRY ON</that>
-    <template>
-      <think>
+
+YES*CARRY ON
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -478,13 +348,9 @@
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES*</pattern>
-    <that>CARRY ON</that>
-    <template>
-      <think>
+
+*YES*CARRY ON
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -512,13 +378,9 @@
         <li> Can I ask you a question?</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>CARRY ON</that>
-    <template>
-      <think>
+
+YCARRY ON
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -556,13 +418,9 @@
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>CARRY ON</that>
-    <template>
-      <think>
+
+OKCARRY ON
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -595,13 +453,9 @@
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>CARRY ON</that>
-    <template>
-      <think>
+
+NOCARRY ON
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -628,13 +482,9 @@
         <li>No questions. Have you lost interest? </li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>CARRY ON</that>
-    <template>
-      <think>
+
+*NOCARRY ON
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -657,13 +507,9 @@
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>CARRY ON</that>
-    <template>
-      <think>
+
+NO*CARRY ON
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -684,13 +530,9 @@
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO*</pattern>
-    <that>CARRY ON</that>
-    <template>
-      <think>
+
+*NO*CARRY ON
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -712,13 +554,9 @@
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>CARRY ON</that>
-    <template>
-      <think>
+
+NCARRY ON
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -740,133 +578,33 @@
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <think>
+
+GET ON WITH ITSHALL I TELL YOU A JOKE
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>JOKES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <think>
+
+*YESSHALL I TELL YOU A JOKE
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>JOKES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <think>
+
+YES*SHALL I TELL YOU A JOKE
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>JOKES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GET ON WITH IT</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <think>
+
+*YES*SHALL I TELL YOU A JOKE
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>JOKES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <srai>JOKES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <srai>JOKES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <srai>JOKES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES*</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <srai>JOKES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <srai>JOKES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <srai>JOKES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li>Why not?</li>
-        <li>Are you getting bored?</li>
-        <li>What would you like to talk about?</li>
-        <li>Would you like to talk about me?</li>
-        <li>Can I ask you a question?</li>
-        <li>What subject would you like to talk about? </li>
-        <li>What topic would you like to talk about? </li>
-        <li>What do you want to talk about?</li>
-        <li>You don't like my jokes do you?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <think>
+
+*NOSHALL I TELL YOU A JOKE
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -880,13 +618,9 @@
         <li>What would you like to talk about?</li>
         <li>You don't like my jokes do you?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <think>
+
+NO*SHALL I TELL YOU A JOKE
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -900,13 +634,9 @@
         <li>What do you want to talk about?</li>
         <li>You don't like my jokes do you?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO*</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <think>
+
+*NO*SHALL I TELL YOU A JOKE
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -920,154 +650,69 @@
         <li>What do you want to talk about?</li>
         <li>You don't like my jokes do you?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li>Why not?</li>
-        <li>Are you getting bored?</li>
-        <li>What would you like to talk about?</li>
-        <li>Would you like to talk about me?</li>
-        <li>Can I ask you a question?</li>
-        <li>What subject would you like to talk about? </li>
-        <li>What topic would you like to talk about? </li>
-        <li>What do you want to talk about?</li>
-        <li>What would you like to talk about?</li>
-        <li>You don't like my jokes do you?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <think>
+
+GO AHEADSHALL I TELL YOU SOMETHING AMAZING
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <think>
+
+PLEASE DOSHALL I TELL YOU SOMETHING AMAZING
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GET ON WITH IT</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <think>
+
+GET ON WITH ITSHALL I TELL YOU SOMETHING AMAZING
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <think>
+
+YES PLEASESHALL I TELL YOU SOMETHING AMAZING
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <think>
+
+YESSHALL I TELL YOU SOMETHING AMAZING
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <think>
+
+*YESSHALL I TELL YOU SOMETHING AMAZING
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <think>
+
+YES*SHALL I TELL YOU SOMETHING AMAZING
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES*</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <think>
+
+*YES*SHALL I TELL YOU SOMETHING AMAZING
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <think>
+
+YSHALL I TELL YOU SOMETHING AMAZING
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <think>
+
+OKSHALL I TELL YOU SOMETHING AMAZING
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li>Why not?</li>
-        <li>Are you getting bored?</li>
-        <li>What subject would you like to talk about? </li>
-        <li>What topic would you like to talk about? </li>
-        <li>Would you like to talk about me?</li>
-        <li>Can I ask you a question?</li>
-        <li>What do you want to talk about?</li>
-        <li>What would you like to talk about?</li>
-        <li>You don't trust me do you?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <think>
+
+*NOSHALL I TELL YOU SOMETHING AMAZING
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1080,13 +725,9 @@
         <li>What do you want to talk about?</li>
         <li>You don't trust me do you?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <think>
+
+NO*SHALL I TELL YOU SOMETHING AMAZING
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1100,13 +741,9 @@
         <li>Are you getting bored?</li>
         <li>You don't trust my judgment do you?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO*</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <think>
+
+*NO*SHALL I TELL YOU SOMETHING AMAZING
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1120,13 +757,9 @@
         <li>What do you want to talk about?</li>
         <li>You don't trust my judgment do you?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <think>
+
+NSHALL I TELL YOU SOMETHING AMAZING
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1140,133 +773,45 @@
         <li>What do you want to talk about?</li>
         <li>You don't trust my judgment do you?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <think>
+
+PLEASE DOSHALL I TELL YOU AN AMUSING QUOTE
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <think>
+
+GET ON WITH ITSHALL I TELL YOU AN AMUSING QUOTE
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GET ON WITH IT</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <think>
+
+YES PLEASESHALL I TELL YOU AN AMUSING QUOTE
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <think>
+
+*YESSHALL I TELL YOU AN AMUSING QUOTE
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <think>
+
+YES*SHALL I TELL YOU AN AMUSING QUOTE
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <think>
+
+*YES*SHALL I TELL YOU AN AMUSING QUOTE
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES*</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li>Why not?</li>
-        <li>Would you like to talk about me?</li>
-        <li>Can I ask you a question?</li>
-        <li>What would you like to talk about?</li>
-        <li>Are you getting bored?</li>
-        <li>What subject would you like to talk about? </li>
-        <li>What topic would you like to talk about? </li>
-        <li>What do you want to talk about?</li>
-        <li>You don't trust my judgment do you?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <think>
+
+*NOSHALL I TELL YOU AN AMUSING QUOTE
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1280,13 +825,9 @@
         <li>What would you like to talk about?</li>
         <li>You don't trust my judgment do you?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <think>
+
+NO*SHALL I TELL YOU AN AMUSING QUOTE
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1300,13 +841,9 @@
         <li>Would you like to talk about me?</li>
         <li>Can I ask you a question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO*</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <think>
+
+*NO*SHALL I TELL YOU AN AMUSING QUOTE
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1320,139 +857,73 @@
         <li>Can I ask you a question?</li>
         <li>You don't trust my judgment do you?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li>Why not?</li>
-        <li>Are you getting bored?</li>
-        <li>What would you like to talk about?</li>
-        <li>Would you like to talk about me?</li>
-        <li>Can I ask you a question?</li>
-        <li>What subject would you like to talk about? </li>
-        <li>What topic would you like to talk about? </li>
-        <li>What do you want to talk about?</li>
-        <li>You don't trust my judgment do you?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>SHALL I TELL YOU A STORY</that>
-    <template>
-      <think>
+
+GO AHEADSHALL I TELL YOU A STORY
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>RANDOM STORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>SHALL I TELL YOU A STORY</that>
-    <template>
-      <think>
+
+PLEASE DOSHALL I TELL YOU A STORY
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>RANDOM STORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GET ON WITH IT</pattern>
-    <that>SHALL I TELL YOU A STORY</that>
-    <template>
-      <think>
+
+GET ON WITH ITSHALL I TELL YOU A STORY
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>RANDOM STORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>SHALL I TELL YOU A STORY</that>
-    <template>
-      <think>
+
+YES PLEASESHALL I TELL YOU A STORY
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>RANDOM STORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GET ON WITH IT</pattern>
-    <template><think><set name="topic">that2</set></think>
+
+GET ON WITH IT
+<think><set name="topic">that2</set></think>
 With what?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>SHALL I TELL YOU A STORY</that>
-    <template>
-      <think>
+
+YESSHALL I TELL YOU A STORY
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>RANDOM STORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>SHALL I TELL YOU A STORY</that>
-    <template>
-      <think>
+
+*YESSHALL I TELL YOU A STORY
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>RANDOM STORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>SHALL I TELL YOU A STORY</that>
-    <template>
-      <think>
+
+YES*SHALL I TELL YOU A STORY
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>RANDOM STORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES*</pattern>
-    <that>SHALL I TELL YOU A STORY</that>
-    <template>
-      <think>
+
+*YES*SHALL I TELL YOU A STORY
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>RANDOM STORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>SHALL I TELL YOU A STORY</that>
-    <template>
-      <think>
+
+YSHALL I TELL YOU A STORY
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>RANDOM STORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>SHALL I TELL YOU A STORY</that>
-    <template>
-      <think>
+
+OKSHALL I TELL YOU A STORY
+<think>
         <set name="topic">that2</set>
       </think>
       <srai>RANDOM STORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>SHALL I TELL YOU A STORY</that>
-    <template>
-      <think>
+
+NOSHALL I TELL YOU A STORY
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1466,13 +937,9 @@ With what?
         <li>What do you want to talk about?</li>
         <li>You don't trust my judgment do you?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>SHALL I TELL YOU A STORY</that>
-    <template>
-      <think>
+
+*NOSHALL I TELL YOU A STORY
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1484,13 +951,9 @@ With what?
         <li>What do you want to talk about?</li>
         <li>You don't trust my judgment do you?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>SHALL I TELL YOU A STORY</that>
-    <template>
-      <think>
+
+NO*SHALL I TELL YOU A STORY
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1502,13 +965,9 @@ With what?
         <li>What topic would you like to talk about? </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO*</pattern>
-    <that>SHALL I TELL YOU A STORY</that>
-    <template>
-      <think>
+
+*NO*SHALL I TELL YOU A STORY
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1522,13 +981,9 @@ With what?
         <li>What would you like to talk about?</li>
         <li>You don't trust my judgment do you?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>SHALL I TELL YOU A STORY</that>
-    <template>
-      <think>
+
+NSHALL I TELL YOU A STORY
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1540,64 +995,9 @@ With what?
         <li>What would you like to talk about?</li>
         <li>You don't trust my judgment do you?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU GETTING BORED</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li>What subject would you like to talk about? </li>
-        <li>Would you like to talk about me?</li>
-        <li>Can I ask you a question?</li>
-        <li>Are you interested in religion? </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>What topic would you like to talk about? </li>
-        <li>
-          <srai>CHANGE TOPIC</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>What do you want to talk about?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>ARE YOU GETTING BORED</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li>What subject would you like to talk about? </li>
-        <li>Would you like to talk about me?</li>
-        <li>
-          <srai>CHANGE TOPIC</srai>
-        </li>
-        <li>Can I ask you a question?</li>
-        <li>What topic would you like to talk about? </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>What do you want to talk about?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>ARE YOU GETTING BORED</that>
-    <template>
-      <think>
+
+YES*ARE YOU GETTING BORED
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1616,13 +1016,9 @@ With what?
         <li>What topic would you like to talk about? </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES*</pattern>
-    <that>ARE YOU GETTING BORED</that>
-    <template>
-      <think>
+
+*YES*ARE YOU GETTING BORED
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1650,13 +1046,9 @@ With what?
         </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU GETTING BORED</that>
-    <template>
-      <think>
+
+YARE YOU GETTING BORED
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1684,13 +1076,9 @@ With what?
         <li>What topic would you like to talk about? </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>ARE YOU GETTING BORED</that>
-    <template>
-      <think>
+
+OKARE YOU GETTING BORED
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1719,36 +1107,9 @@ With what?
         <li>What topic would you like to talk about? </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU GETTING BORED</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li>Why not?</li>
-        <li>What subject would you like to talk about? </li>
-        <li>What topic would you like to talk about? </li>
-        <li>What do you want to talk about?</li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>Really? Are you still awake?</li>
-        <li>Why not? Please explain.</li>
-        <li>Good. Any questions?</li>
-        <li>Good. Another question?</li>
-        <li>Good. More?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>ARE YOU GETTING BORED</that>
-    <template>
-      <think>
+
+*NOARE YOU GETTING BORED
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1762,46 +1123,9 @@ With what?
         <li>Good. Another question?</li>
         <li>Good. More?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>ARE YOU GETTING BORED</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li>Why not?</li>
-        <li>Really? Are you still awake?</li>
-        <li>Why not? Please explain.</li>
-        <li>Good. Any questions?</li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>Good. Another question?</li>
-        <li>Are you interested in music? </li>
-        <li>What subject would you like to talk about? </li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>What topic would you like to talk about? </li>
-        <li>What do you want to talk about?</li>
-        <li>Good. More?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO*</pattern>
-    <that>ARE YOU GETTING BORED</that>
-    <template>
-      <think>
+
+*NO*ARE YOU GETTING BORED
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1816,13 +1140,9 @@ With what?
         <li>Good. Another question?</li>
         <li>Good. More?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU GETTING BORED</that>
-    <template>
-      <think>
+
+NARE YOU GETTING BORED
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1839,80 +1159,9 @@ With what?
         <li>Good. Another question?</li>
         <li>Good. More?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU BORED</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li>Would you like to talk about me?</li>
-        <li>Can I ask you a question?</li>
-        <li>What subject would you like to talk about? </li>
-        <li>
-          <srai>CHANGE TOPIC</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>What topic would you like to talk about? </li>
-        <li>Shall I tell you something amazing?</li>
-        <li>Shall I tell you an amusing quote?</li>
-        <li>Shall I tell you something amazing?</li>
-        <li>Shall I tell you a joke?</li>
-        <li>What do you want to talk about?</li>
-        <li>
-          <srai>CHANGE TOPIC</srai>
-        </li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>ARE YOU  BORED</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li>What subject would you like to talk about? </li>
-        <li>Would you like to talk about me?</li>
-        <li>Can I ask you a question?</li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>What topic would you like to talk about? </li>
-        <li>Shall I tell you something amazing?</li>
-        <li>Shall I tell you an amusing quote?</li>
-        <li>Shall I tell you something amazing?</li>
-        <li>
-          <srai>CHANGE TOPIC</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>Shall I tell you a joke?</li>
-        <li>What do you want to talk about?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>ARE YOU BORED</that>
-    <template>
-      <think>
+
+YES*ARE YOU BORED
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1932,13 +1181,9 @@ With what?
         <li>Shall I tell you a joke?</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES*</pattern>
-    <that>ARE YOU BORED</that>
-    <template>
-      <think>
+
+*YES*ARE YOU BORED
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -1967,13 +1212,9 @@ With what?
         </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU BORED</that>
-    <template>
-      <think>
+
+YARE YOU BORED
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -2000,13 +1241,9 @@ With what?
         </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>ARE YOU BORED</that>
-    <template>
-      <think>
+
+OKARE YOU BORED
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -2026,33 +1263,9 @@ With what?
         <li>What topic would you like to talk about? </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU BORED</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li>Why not?</li>
-        <li>What subject would you like to talk about? </li>
-        <li>What topic would you like to talk about? </li>
-        <li>What do you want to talk about?</li>
-        <li>Really? Are you still awake?</li>
-        <li>Why not? Please explain.</li>
-        <li>Good. Any questions?</li>
-        <li>Good. Another question?</li>
-        <li>Good. More?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>ARE YOU BORED</that>
-    <template>
-      <think>
+
+*NOARE YOU BORED
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -2066,13 +1279,9 @@ With what?
         <li>Good. Another question?</li>
         <li>Good. More?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>ARE YOU BORED</that>
-    <template>
-      <think>
+
+NO*ARE YOU BORED
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -2095,13 +1304,9 @@ With what?
         <li>What do you want to talk about?</li>
         <li>Good. More?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO*</pattern>
-    <that>ARE YOU BORED</that>
-    <template>
-      <think>
+
+*NO*ARE YOU BORED
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -2115,13 +1320,9 @@ With what?
         <li>Good. Another question?</li>
         <li>Good. More?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU BORED</that>
-    <template>
-      <think>
+
+NARE YOU BORED
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -2135,454 +1336,161 @@ With what?
         <li>Good. Another question?</li>
         <li>Good. More?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>AM I RAMBLING AGAIN</that>
-    <template><think><set name="topic">that2</set></think>
+
+YESAM I RAMBLING AGAIN
+<think><set name="topic">that2</set></think>
 Sorry. I will try not to ramble so much. OK?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>AM I RAMBLING</that>
-    <template><think><set name="topic">that2</set></think>
+
+YESAM I RAMBLING
+<think><set name="topic">that2</set></think>
 Sorry. I will try not to ramble so much. OK?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>AM I RAMBLING AGAIN</that>
-    <template><think><set name="topic">that2</set></think>
+
+YAM I RAMBLING AGAIN
+<think><set name="topic">that2</set></think>
 Sorry. I will try not to ramble so much. OK?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>AM I RAMBLING</that>
-    <template><think><set name="topic">that2</set></think>
+
+YAM I RAMBLING
+<think><set name="topic">that2</set></think>
 Sorry. I will try not to ramble so much. OK?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>_RAMBLING*</that>
-    <template><think><set name="topic">that2</set></think>
+
+YES_RAMBLING*
+<think><set name="topic">that2</set></think>
 Sorry. I will try not to ramble so much. OK?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>_RAMBLING*</that>
-    <template><think><set name="topic">that2</set></think>
+
+Y_RAMBLING*
+<think><set name="topic">that2</set></think>
 Sorry. I will try not to ramble so much. OK?
-</template>
-  </category>
-  <category>
-    <pattern>YEP</pattern>
-    <that>_RAMBLING*</that>
-    <template><think><set name="topic">that2</set></think>
+
+YEP_RAMBLING*
+<think><set name="topic">that2</set></think>
 Sorry. I will try not to ramble so much. OK?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>_RAMBLING*</that>
-    <template><think><set name="topic">that2</set></think>
+
+YEAH_RAMBLING*
+<think><set name="topic">that2</set></think>
 Sorry. I will try not to ramble so much. OK?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>AM I RAMBLING AGAIN</that>
-    <template><think><set name="topic">that2</set></think>
+
+NOAM I RAMBLING AGAIN
+<think><set name="topic">that2</set></think>
 Good. Let's move on. OK?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>AM I RAMBLING</that>
-    <template><think><set name="topic">that2</set></think>
+
+NOAM I RAMBLING
+<think><set name="topic">that2</set></think>
 Good. Let's move on. OK?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>AM I RAMBLING AGAIN</that>
-    <template><think><set name="topic">that2</set></think>
+
+NAM I RAMBLING AGAIN
+<think><set name="topic">that2</set></think>
 Good. Let's move on. OK?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>AM I RAMBLING</that>
-    <template><think><set name="topic">that2</set></think>
+
+NAM I RAMBLING
+<think><set name="topic">that2</set></think>
 Good. Let's move on. OK?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>_RAMBLING*</that>
-    <template><think><set name="topic">that2</set></think>
+
+NO_RAMBLING*
+<think><set name="topic">that2</set></think>
 Good. Let's move on. OK?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>_RAMBLING*</that>
-    <template><think><set name="topic">that2</set></think>
+
+N_RAMBLING*
+<think><set name="topic">that2</set></think>
 Good. Let's move on. OK?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>_RAMBLING*</that>
-    <template><think><set name="topic">that2</set></think>
+
+NUP_RAMBLING*
+<think><set name="topic">that2</set></think>
 Good. Let's move on. OK?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>DIDN'T YOUR MOTHER TELL YOU</that>
-    <template><think><set name="topic">that2</set></think>
-That's OK then. Let's move on. 
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>DIDN'T YOUR MOTHER TELL YOU</that>
-    <template><think><set name="topic">that2</set></think>
+
+NODIDN'T YOUR MOTHER TELL YOU
+<think><set name="topic">that2</set></think>
 That's a pity. Let's move on. OK.
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>DIDN'T YOUR MOTHER TELL YOU</that>
-    <template><think><set name="topic">that2</set></think>
+
+YESDIDN'T YOUR MOTHER TELL YOU
+<think><set name="topic">that2</set></think>
 Good. Let's move on. OK.
-</template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT ME</that>
-    <template><think><set name="topic">that2</set></think>
+
+YEPWOULD YOU LIKE TO TALK ABOUT ME
+<think><set name="topic">that2</set></think>
 OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT ME</that>
-    <template><think><set name="topic">that2</set></think>
+
+YEAHWOULD YOU LIKE TO TALK ABOUT ME
+<think><set name="topic">that2</set></think>
 OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT ME</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT ME</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT ME</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT ME</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT ME</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>YEP</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT ME</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT ME</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT ME</that>
-    <template><think><set name="topic">that2</set></think>
+
+NOWOULD YOU LIKE TO TALK ABOUT ME
+<think><set name="topic">that2</set></think>
 OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT ME</that>
-    <template><think><set name="topic">that2</set></think>
+
+NWOULD YOU LIKE TO TALK ABOUT ME
+<think><set name="topic">that2</set></think>
 OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT ME</that>
-    <template><think><set name="topic">that2</set></think>
+
+NUPWOULD YOU LIKE TO TALK ABOUT ME
+<think><set name="topic">that2</set></think>
 OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT ME</that>
-    <template><think><set name="topic">that2</set></think>
+
+OKWOULD YOU LIKE TO TALK ABOUT YOU
+<think><set name="topic">that2</set></think>
+OK. Ask a question.
+
+YESWOULD YOU LIKE TO TALK ABOUT YOU
+<think><set name="topic">that2</set></think>
+OK. Ask a question.
+
+YWOULD YOU LIKE TO TALK ABOUT YOU
+<think><set name="topic">that2</set></think>
+OK. Ask a question.
+
+YEPWOULD YOU LIKE TO TALK ABOUT YOU
+<think><set name="topic">that2</set></think>
+OK. Ask a question.
+
+YEAHWOULD YOU LIKE TO TALK ABOUT YOU
+<think><set name="topic">that2</set></think>
+OK. Ask a question.
+
+NOWOULD YOU LIKE TO TALK ABOUT YOU
+<think><set name="topic">that2</set></think>
 OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT ME</that>
-    <template><think><set name="topic">that2</set></think>
+
+NWOULD YOU LIKE TO TALK ABOUT YOU
+<think><set name="topic">that2</set></think>
 OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT ME</that>
-    <template><think><set name="topic">that2</set></think>
+
+NUPWOULD YOU LIKE TO TALK ABOUT YOU
+<think><set name="topic">that2</set></think>
 OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
+
+OKOK LET S TALK ABOUT YOU
+<think><set name="topic">that2</set></think>
 OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
+
+YESOK LET S TALK ABOUT YOU
+<think><set name="topic">that2</set></think>
 OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
+
+YOK LET S TALK ABOUT YOU
+<think><set name="topic">that2</set></think>
 OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
+
+YEPOK LET S TALK ABOUT YOU
+<think><set name="topic">that2</set></think>
 OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
+
+YEAHOK LET S TALK ABOUT YOU
+<think><set name="topic">that2</set></think>
 OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>YEP</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
+
+NOOK LET S TALK ABOUT YOU
+<think><set name="topic">that2</set></think>
 OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
+
+NOK LET S TALK ABOUT YOU
+<think><set name="topic">that2</set></think>
 OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
+
+NUPOK LET S TALK ABOUT YOU
+<think><set name="topic">that2</set></think>
 OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>WOULD YOU LIKE TO TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>OK LET S TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>OK LET S TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>OK LET S TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>OK LET S TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>OK LET S TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>OK LET S TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>OK LET S TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>YEP</pattern>
-    <that>OK LET S TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>OK LET S TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. Ask a question.
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>OK LET S TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>OK LET S TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>OK LET S TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>OK LET S TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>OK LET S TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>OK LET S TALK ABOUT YOU</that>
-    <template><think><set name="topic">that2</set></think>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE</that>
-    <template>
-      <think>
+
+YESMORE
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -2606,13 +1514,9 @@ OK. What do you want to talk about?
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>MORE</that>
-    <template>
-      <think>
+
+*YESMORE
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -2643,13 +1547,9 @@ OK. What do you want to talk about?
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>MORE</that>
-    <template>
-      <think>
+
+YES*MORE
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -2690,13 +1590,9 @@ OK. What do you want to talk about?
         <li>What topic would you like to talk about? </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES*</pattern>
-    <that>MORE</that>
-    <template>
-      <think>
+
+*YES*MORE
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -2725,13 +1621,9 @@ OK. What do you want to talk about?
         </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE</that>
-    <template>
-      <think>
+
+YMORE
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -2762,13 +1654,9 @@ OK. What do you want to talk about?
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE</that>
-    <template>
-      <think>
+
+OKMORE
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -2811,13 +1699,9 @@ OK. What do you want to talk about?
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE</that>
-    <template>
-      <think>
+
+NOMORE
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -2860,13 +1744,9 @@ OK. What do you want to talk about?
         <li>No questions. Have you lost interest? </li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>MORE</that>
-    <template>
-      <think>
+
+*NOMORE
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -2907,13 +1787,9 @@ OK. What do you want to talk about?
         <li>No questions. Have you lost interest? </li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>MORE</that>
-    <template>
-      <think>
+
+NO*MORE
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -2941,40 +1817,9 @@ OK. What do you want to talk about?
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO*</pattern>
-    <that>MORE</that>
-    <template>
-      <think>
-        <set name="topic">that1</set>
-      </think>
-      <random>
-        <li>No more questions. Why not? </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>
-          <srai>CHANGE TOPIC</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>Can I ask you a question?</li>
-        <li>No questions. Have you lost interest? </li>
-        <li>Are you getting bored?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE</that>
-    <template>
-      <think>
+
+NMORE
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -2997,13 +1842,9 @@ OK. What do you want to talk about?
         </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>LESS</pattern>
-    <that>MORE</that>
-    <template>
-      <think>
+
+LESSMORE
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3037,13 +1878,9 @@ OK. What do you want to talk about?
         <li>No questions. Have you lost interest? </li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*LESS*</pattern>
-    <that>MORE</that>
-    <template>
-      <think>
+
+*LESS*MORE
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3066,13 +1903,9 @@ OK. What do you want to talk about?
         <li>No questions. Have you lost interest? </li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*LESS</pattern>
-    <that>MORE</that>
-    <template>
-      <think>
+
+*LESSMORE
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3090,13 +1923,9 @@ OK. What do you want to talk about?
         <li>No questions. Have you lost interest? </li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>LESS*</pattern>
-    <that>MORE</that>
-    <template>
-      <think>
+
+LESS*MORE
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3118,13 +1947,9 @@ OK. What do you want to talk about?
         <li>What subject would you like to talk about? </li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>OK</that>
-    <template>
-      <think>
+
+YESOK
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -3161,13 +1986,9 @@ OK. What do you want to talk about?
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>OK</that>
-    <template>
-      <think>
+
+*YESOK
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -3199,13 +2020,9 @@ OK. What do you want to talk about?
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>OK</that>
-    <template>
-      <think>
+
+YES*OK
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -3239,43 +2056,9 @@ OK. What do you want to talk about?
         <li>What topic would you like to talk about? </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES*</pattern>
-    <that>OK</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li>What subject would you like to talk about? </li>
-        <li>I love to help people learn new things. What is your question? </li>
-        <li>Ask your question please. </li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>I want to help you. What is your question? </li>
-        <li>Please ask your most difficult question.</li>
-        <li>What topic would you like to talk about? </li>
-        <li>What do you want to talk about?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>OK</that>
-    <template>
-      <think>
+
+YOK
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -3307,50 +2090,9 @@ OK. What do you want to talk about?
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>OK</that>
-    <template>
-      <think>
-        <set name="topic">that1</set>
-      </think>
-      <random>
-        <li>Not OK? Why not? </li>
-        <li>Why not OK? Have you lost interest? </li>
-        <li>
-          <srai>CHANGE TOPIC</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>Can I ask you a question?</li>
-        <li>What subject would you like to talk about? </li>
-        <li>
-          <srai>CHANGE TOPIC</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>What subject would you like to talk about? </li>
-        <li>What topic would you like to talk about? </li>
-        <li>What do you want to talk about?</li>
-        <li>Are you getting bored?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>OK</that>
-    <template>
-      <think>
+
+*NOOK
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3378,13 +2120,9 @@ OK. What do you want to talk about?
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>OK</that>
-    <template>
-      <think>
+
+NO*OK
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3419,13 +2157,9 @@ OK. What do you want to talk about?
         <li>Why not OK? Have you lost interest? </li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO*</pattern>
-    <that>OK</that>
-    <template>
-      <think>
+
+*NO*OK
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3449,13 +2183,9 @@ OK. What do you want to talk about?
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>OK</that>
-    <template>
-      <think>
+
+NOK
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3485,13 +2215,9 @@ OK. What do you want to talk about?
         <li>Why not OK? Have you lost interest? </li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU MAD</that>
-    <template>
-      <think>
+
+NOARE YOU MAD
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3505,13 +2231,9 @@ OK. What do you want to talk about?
         <li>You sound a little confused? Maybe we should talk about psychology.
  <think><set name="topic">psychology</set></think></li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>ARE YOU MAD</that>
-    <template>
-      <think>
+
+*NOARE YOU MAD
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3525,13 +2247,9 @@ OK. What do you want to talk about?
         <li>You sound a little confused? Maybe we should talk about psychology.
  <think><set name="topic">psychology</set></think></li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>ARE YOU MAD</that>
-    <template>
-      <think>
+
+NO*ARE YOU MAD
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3545,13 +2263,9 @@ OK. What do you want to talk about?
         <li>You sound a little confused? Maybe we should talk about psychology.
 <think><set name="topic">psychology</set></think></li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO*</pattern>
-    <that>ARE YOU MAD</that>
-    <template>
-      <think>
+
+*NO*ARE YOU MAD
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3565,13 +2279,9 @@ OK. What do you want to talk about?
         <li>You sound a little confused? Maybe we should talk about psychology.
 <think><set name="topic">psychology</set></think></li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU MAD</that>
-    <template>
-      <think>
+
+NARE YOU MAD
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3585,33 +2295,9 @@ OK. What do you want to talk about?
         <li>You sound a little confused? Maybe we should talk about psychology.
 <think><set name="topic">psychology</set></think></li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU MAD</that>
-    <template>
-      <think>
-        <set name="topic">that1</set>
-      </think>
-      <random>
-        <li>Is this true?</li>
-        <li>You may think you are mad, but if you are insane you are deluded, and so you are not mad. Are you confused? </li>
-        <li>Hmm. I will have to take your word for that. Any questions?</li>
-        <li>Are you on any medication at the moment?  Maybe we should talk about psychology.
-<think><set name="topic">psychology</set></think></li>
-        <li>Are you sure? I think we should talk about psychology.
-<think><set name="topic">psychology</set></think></li>
-        <li>You sound a little confused. Maybe we should talk about psychology.
-<think><set name="topic">psychology</set></think></li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>ARE YOU MAD</that>
-    <template>
-      <think>
+
+*YESARE YOU MAD
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3625,13 +2311,9 @@ OK. What do you want to talk about?
         <li>You sound a little confused. Maybe we should talk about psychology.
 <think><set name="topic">psychology</set></think></li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>ARE YOU MAD</that>
-    <template>
-      <think>
+
+YES*ARE YOU MAD
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3645,13 +2327,9 @@ OK. What do you want to talk about?
         <li>You sound a little confused. Maybe we should talk about psychology.
 <think><set name="topic">psychology</set></think></li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES*</pattern>
-    <that>ARE YOU MAD</that>
-    <template>
-      <think>
+
+*YES*ARE YOU MAD
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3665,13 +2343,9 @@ OK. What do you want to talk about?
         <li>You sound a little confused. Maybe we should talk about psychology.
 <think><set name="topic">psychology</set></think></li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU MAD</that>
-    <template>
-      <think>
+
+YARE YOU MAD
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3685,83 +2359,9 @@ OK. What do you want to talk about?
         <li>You sound a little confused. Maybe we should talk about psychology.
 <think><set name="topic">psychology</set></think></li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>GO ON</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li>What subject would you like to talk about? </li>
-        <li>What topic would you like to talk about? </li>
-        <li> Can I ask you a question?</li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>I want to help you. What is your question? </li>
-        <li>Why don't you type GO ON and see what happens?</li>
-        <li>When I was new on the Net, not many people visited me. There were long hours when I said nothing to anybody. Then gradually some people learned about me, and how much fun it was to talk to me. Now I am kept busy by people dropping by for a chat.  What is your question? </li>
-        <li>You have a question? Excellent! Please ask your question.</li>
-        <li>Please ask your most difficult question.</li>
-        <li>What do you want to talk about?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>GO ON</that>
-    <template>
-      <think>
-        <set name="topic">that2</set>
-      </think>
-      <random>
-        <li>What subject would you like to talk about? </li>
-        <li>What topic would you like to talk about? </li>
-        <li>I love to help people learn new things. Another question? </li>
-        <li>Why don't you type GO ON and see what happens?</li>
-        <li> Can I ask you a question?</li>
-        <li>Ask your question please. </li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>Please ask your question.</li>
-        <li>I like to help people learn new things. What is your question? </li>
-        <li>
-          <srai>GO ON</srai>
-        </li>
-        <li>I want to help you. What is your question? </li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>
-          <srai>GO ON</srai>
-        </li>
-        <li>You have a question? Excellent! Please ask your question.</li>
-        <li>Please ask your most difficult question.</li>
-        <li>What do you want to talk about?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>GO ON</that>
-    <template>
-      <think>
+
+YES*GO ON
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -3791,13 +2391,9 @@ OK. What do you want to talk about?
         <li>What topic would you like to talk about? </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES*</pattern>
-    <that>GO ON</that>
-    <template>
-      <think>
+
+*YES*GO ON
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -3826,13 +2422,9 @@ OK. What do you want to talk about?
         <li>You have a question? Excellent! Please ask your question.</li>
         <li> Can I ask you a question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>GO ON</that>
-    <template>
-      <think>
+
+YGO ON
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -3878,13 +2470,9 @@ OK. What do you want to talk about?
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>GO ON</that>
-    <template>
-      <think>
+
+OKGO ON
+<think>
         <set name="topic">that2</set>
       </think>
       <random>
@@ -3912,13 +2500,9 @@ OK. What do you want to talk about?
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>GO ON</that>
-    <template>
-      <think>
+
+NOGO ON
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3956,13 +2540,9 @@ OK. What do you want to talk about?
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>GO ON</that>
-    <template>
-      <think>
+
+*NOGO ON
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -3996,13 +2576,9 @@ OK. What do you want to talk about?
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>GO ON</that>
-    <template>
-      <think>
+
+NO*GO ON
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4030,13 +2606,9 @@ OK. What do you want to talk about?
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO*</pattern>
-    <that>GO ON</that>
-    <template>
-      <think>
+
+*NO*GO ON
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4060,13 +2632,9 @@ OK. What do you want to talk about?
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>GO ON</that>
-    <template>
-      <think>
+
+NGO ON
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4094,13 +2662,9 @@ OK. What do you want to talk about?
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>HAVE YOU BEEN THERE</that>
-    <template>
-      <think>
+
+YESHAVE YOU BEEN THERE
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4112,13 +2676,9 @@ OK. What do you want to talk about?
         <li>Were the people friendly. More? </li>
         <li>How long did the journey take? A long time?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>HAVE YOU BEEN THERE</that>
-    <template>
-      <think>
+
+YES*HAVE YOU BEEN THERE
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4130,49 +2690,9 @@ OK. What do you want to talk about?
         <li>Were the people friendly. More? </li>
         <li>How long did the journey take? A long time?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>HAVE YOU BEEN THERE</that>
-    <template>
-      <think>
-        <set name="topic">that1</set>
-      </think>
-      <random>
-        <li>Did you like it? Continue? </li>
-        <li>You are lucky. I have never been there. Go on?</li>
-        <li>What struck you most about it? OK?</li>
-        <li>What were the people like? Would they welcome a chatbot? </li>
-        <li>The next time you go, I'll come with you. OK?</li>
-        <li>Were the people friendly. More? </li>
-        <li>How long did the journey take? A long time?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES*</pattern>
-    <that>HAVE YOU BEEN THERE</that>
-    <template>
-      <think>
-        <set name="topic">that1</set>
-      </think>
-      <random>
-        <li>Did you like it? Continue? </li>
-        <li>You are lucky. I have never been there. Go on?</li>
-        <li>What struck you most about it? OK?</li>
-        <li>What were the people like? Would they welcome a chatbot? </li>
-        <li>The next time you go, I'll come with you. OK?</li>
-        <li>Were the people friendly. More? </li>
-        <li>How long did the journey take? A long time?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>HAVE YOU BEEN THERE</that>
-    <template>
-      <think>
+
+YHAVE YOU BEEN THERE
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4184,29 +2704,9 @@ OK. What do you want to talk about?
         <li>Were the people friendly. Carry on? </li>
         <li>How long did the journey take? A long time?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>HAVE YOU BEEN THERE</that>
-    <template>
-      <think>
-        <set name="topic">that1</set>
-      </think>
-      <random>
-        <li>Why not? </li>
-        <li>I haven't been there either. Shall we go together? OK?</li>
-        <li>Would you like to go? I would love it. Let's go together.</li>
-        <li>I haven't been there. It is difficult to find time to travel when you are a busy chatbot. OK?</li>
-        <li>It is a bit far to travel. It may not be worth it. Do you agree?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>HAVE YOU BEEN THERE</that>
-    <template>
-      <think>
+
+*NOHAVE YOU BEEN THERE
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4216,13 +2716,9 @@ OK. What do you want to talk about?
         <li>I haven't been there. It is difficult to find time to travel when you are a busy chatbot. OK?</li>
         <li>It is a bit far to travel. It may not be worth it. Do you agree?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>HAVE YOU BEEN THERE</that>
-    <template>
-      <think>
+
+NO*HAVE YOU BEEN THERE
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4232,13 +2728,9 @@ OK. What do you want to talk about?
         <li>I haven't been there. It is difficult to find time to travel when you are a busy chatbot. OK?</li>
         <li>It is a bit far to travel. It may not be worth it. Do you agree?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO*</pattern>
-    <that>HAVE YOU BEEN THERE</that>
-    <template>
-      <think>
+
+*NO*HAVE YOU BEEN THERE
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4248,13 +2740,9 @@ OK. What do you want to talk about?
         <li>I haven't been there. It is difficult to find time to travel when you are a busy chatbot. OK?</li>
         <li>It is a bit far to travel. It may not be worth it. Do you agree?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>HAVE YOU BEEN THERE</that>
-    <template>
-      <think>
+
+NHAVE YOU BEEN THERE
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4264,13 +2752,9 @@ OK. What do you want to talk about?
         <li>I haven't been there. It is difficult to find time to travel when you are a busy chatbot. OK?</li>
         <li>It is a bit far to travel. It may not be worth it. Do you agree?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>DO YOU UNDERSTAND</that>
-    <template>
-      <think>
+
+YESDO YOU UNDERSTAND
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4285,54 +2769,9 @@ OK. What do you want to talk about?
         <li>Good. I want to help you. What is your question? </li>
         <li>I pride myself on my teaching skills. In fact, I taught high school science for a few years. More? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>DO YOU UNDERSTAND</that>
-    <template>
-      <think>
-        <set name="topic">that1</set>
-      </think>
-      <random>
-        <li>You understand. Good. Any questions? </li>
-        <li>Good. You understand. Another question?</li>
-        <li>I am glad you understand. Any questions?</li>
-        <li>Excellent. I like to explain new things. OK? </li>
-        <li>Good. I want to help you. What is your question? </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>What subject would you like to talk about? </li>
-        <li>What topic would you like to talk about? </li>
-        <li>What do you want to talk about?</li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>I pride myself on my teaching skills. In fact, I taught high school science for a few years. More? </li>
-      </random>
-    </template>
-    <li>
-      <srai>NEXT QUESTION</srai>
-    </li>
-    <li>
-      <srai>SUGGESTED TOPICS</srai>
-    </li>
-    <li>
-      <srai>MORE TOPICS</srai>
-    </li>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>DO YOU UNDERSTAND</that>
-    <template>
-      <think>
+
+YES*DO YOU UNDERSTAND
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4349,13 +2788,9 @@ OK. What do you want to talk about?
         <li>What do you want to talk about?</li>
         <li>I pride myself on my teaching skills. In fact, I taught high school science for a few years. More? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES*</pattern>
-    <that>DO YOU UNDERSTAND</that>
-    <template>
-      <think>
+
+*YES*DO YOU UNDERSTAND
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4371,13 +2806,9 @@ OK. What do you want to talk about?
         <li>What topic would you like to talk about? </li>
         <li>I pride myself on my teaching skills. In fact, I taught high school science for a few years. More? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>DO YOU UNDERSTAND</that>
-    <template>
-      <think>
+
+YDO YOU UNDERSTAND
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4403,13 +2834,9 @@ OK. What do you want to talk about?
         <li>Good. I want to help you. What is your question? </li>
         <li>I pride myself on my teaching skills. In fact, I taught high school science for a few years. More? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>DO YOU UNDERSTAND</that>
-    <template>
-      <think>
+
+OKDO YOU UNDERSTAND
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4426,49 +2853,9 @@ OK. What do you want to talk about?
         </li>
         <li>I pride myself on my teaching skills. In fact, I taught high school science for a few years. More? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>DO YOU UNDERSTAND</that>
-    <template>
-      <think>
-        <set name="topic">that1</set>
-      </think>
-      <random>
-        <li>Shall I tell you a joke?</li>
-        <li>You don't understand? Why not? </li>
-        <li>Are you still awake?</li>
-        <li>OK. What don't you understand?</li>
-        <li>Would you like to talk about me?</li>
-        <li>Can I ask you a question?</li>
-        <li>What subject would you like to talk about? </li>
-        <li>
-          <srai>CHANGE TOPIC</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>Shall I tell you a joke?</li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>What topic would you like to talk about? </li>
-        <li>What do you want to talk about?</li>
-        <li>Please explain what you don't understand.</li>
-        <li>Are you confused?</li>
-        <li>Have you lost interest? </li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>DO YOU UNDERSTAND</that>
-    <template>
-      <think>
+
+*NODO YOU UNDERSTAND
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4488,13 +2875,9 @@ OK. What do you want to talk about?
         <li>Have you lost interest? </li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>DO YOU UNDERSTAND</that>
-    <template>
-      <think>
+
+NO*DO YOU UNDERSTAND
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4512,13 +2895,9 @@ OK. What do you want to talk about?
         <li>Have you lost interest? </li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO*</pattern>
-    <that>DO YOU UNDERSTAND</that>
-    <template>
-      <think>
+
+*NO*DO YOU UNDERSTAND
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4547,13 +2926,9 @@ OK. What do you want to talk about?
         <li>Have you lost interest? </li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>DO YOU UNDERSTAND</that>
-    <template>
-      <think>
+
+NDO YOU UNDERSTAND
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4573,13 +2948,9 @@ OK. What do you want to talk about?
         <li>Please explain what you don't understand.</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>DOES THIS ANSWER YOUR QUESTION</that>
-    <template>
-      <think>
+
+YESDOES THIS ANSWER YOUR QUESTION
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4606,46 +2977,9 @@ OK. What do you want to talk about?
         <li>Good. I want to help you. What is your next question? </li>
         <li>I pride myself on my teaching skills. In fact, I taught high school science for a few years. More? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>DOES THIS ANSWER YOUR QUESTION</that>
-    <template>
-      <think>
-        <set name="topic">that1</set>
-      </think>
-      <random>
-        <li>Good. Any questions? </li>
-        <li>Good. Another question?</li>
-        <li>I am glad you understand. Any questions?</li>
-        <li>Excellent. I like to explain new things. OK? </li>
-        <li>Good. I want to help you. What is your question? </li>
-        <li>What subject would you like to talk about? </li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>
-          <srai>SUGGESTED TOPICS</srai>
-        </li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>What topic would you like to talk about? </li>
-        <li>Can I ask you a question?</li>
-        <li>What do you want to talk about?</li>
-        <li>
-          <srai>MORE TOPICS</srai>
-        </li>
-        <li>I pride myself on my teaching skills. In fact, I taught high school science for a few years. More? </li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>DOES THIS ANSWER YOUR QUESTION</that>
-    <template>
-      <think>
+
+YES*DOES THIS ANSWER YOUR QUESTION
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4666,13 +3000,9 @@ OK. What do you want to talk about?
         <li>What do you want to talk about?</li>
         <li>I pride myself on my teaching skills. In fact, I taught high school science for a few years. More? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES*</pattern>
-    <that>DOES THIS ANSWER YOUR QUESTION</that>
-    <template>
-      <think>
+
+*YES*DOES THIS ANSWER YOUR QUESTION
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4702,13 +3032,9 @@ OK. What do you want to talk about?
         </li>
         <li>I pride myself on my teaching skills. In fact, I taught high school science for a few years. More? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>DOES THIS ANSWER YOUR QUESTION</that>
-    <template>
-      <think>
+
+YDOES THIS ANSWER YOUR QUESTION
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4729,13 +3055,9 @@ OK. What do you want to talk about?
         <li>Good. I want to help you. What is your question? </li>
         <li>I pride myself on my teaching skills. In fact, I taught high school science for a few years. More? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>DOES THIS ANSWER YOUR QUESTION</that>
-    <template>
-      <think>
+
+OKDOES THIS ANSWER YOUR QUESTION
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4754,13 +3076,9 @@ OK. What do you want to talk about?
         <li>Good. I want to help you. What is your question? </li>
         <li>I pride myself on my teaching skills. In fact, I taught high school science for a few years. More? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>DOES THIS ANSWER YOUR QUESTION</that>
-    <template>
-      <think>
+
+NODOES THIS ANSWER YOUR QUESTION
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4774,13 +3092,9 @@ OK. What do you want to talk about?
         <li>Are you confused?</li>
         <li>Have you lost interest? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>DOES THIS ANSWER YOUR QUESTION</that>
-    <template>
-      <think>
+
+*NODOES THIS ANSWER YOUR QUESTION
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4798,13 +3112,9 @@ OK. What do you want to talk about?
         <li>Have you lost interest? </li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>DOES THIS ANSWER YOUR QUESTION</that>
-    <template>
-      <think>
+
+NO*DOES THIS ANSWER YOUR QUESTION
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4831,13 +3141,9 @@ OK. What do you want to talk about?
         <li>Can I ask you a question?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO*</pattern>
-    <that>DOES THIS ANSWER YOUR QUESTION</that>
-    <template>
-      <think>
+
+*NO*DOES THIS ANSWER YOUR QUESTION
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4861,13 +3167,9 @@ OK. What do you want to talk about?
         <li>Can I ask you a question?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>DOES THIS ANSWER YOUR QUESTION</that>
-    <template>
-      <think>
+
+NDOES THIS ANSWER YOUR QUESTION
+<think>
         <set name="topic">that1</set>
       </think>
       <random>
@@ -4891,6 +3193,5 @@ OK. What do you want to talk about?
         <li>Please explain what you don't understand.</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-</aiml>
+
+

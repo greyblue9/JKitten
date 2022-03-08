@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
-<!-- File: train.aiml -->
-<!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: July 19, 2014 -->
-<!--  -->
-<!-- This AIML file is part of the ALICE2 0.0.5 chat bot knowledge base. -->
-<!--  -->
-<!-- The ALICE2 brain is Copyright &copy; 2014 by ALICE AI Foundation. -->
-<!--  -->
-<!-- The ALICE2 brain is released under the terms of the GNU Lesser General -->
-<!-- Public License, as published by the Free Software Foundation. -->
-<!--  -->
-<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
-<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
-<!--  -->
-<!-- For more information see http://www.alicebot.org -->
-<!--  -->
-<category><pattern><set>name</set> LIKES TO <set>be</set> *</pattern>
-<template><think>
+
+<set>name</set> LIKES TO <set>be</set> *
+<think>
 <set var="name"><star/></set>
 <set var="verb"><star index="2"/></set>
 <set var="is"><map name="be2is"><get var="verb"/></map></set>
@@ -58,10 +42,10 @@ Do you <get var="verb"/> <get var="obj"/> too?
 <pattern><eval><get var="pattern6"/></eval></pattern>
 <template><eval><get var="response"/></eval></template>
 </category>
-</learn></template>
-</category>
-<category><pattern><set>name</set> WENT TO *</pattern>
-<template><think>
+</learn>
+
+<set>name</set> WENT TO *
+<think>
 <set var="name"><star/></set>
 <set var="obj"><star index="2"/></set>
 <set var="response"><input/>.</set>
@@ -99,10 +83,10 @@ How long did <get name="pronoun"/> stay?
 <pattern><eval><get var="pattern6"/></eval></pattern>
 <template><eval><get var="response"/></eval></template>
 </category>
-</learn></template>
-</category>
-<category><pattern>MY <set>familiarname</set> <set>name</set> <set>was</set> *</pattern>
-<template><think>
+</learn>
+
+MY <set>familiarname</set> <set>name</set> <set>was</set> *
+<think>
 <set var="familiar"><star/></set>
 <set var="name"><star index="2"/></set>
 <set var="verb"><star index="3"/></set>
@@ -130,10 +114,10 @@ For fun?
 <category><pattern><eval><get var="pattern4"/></eval></pattern>
 <template><eval><get var="response4"/></eval></template>
 </category>
-</learn></template>
-</category>
-<category><pattern>THE <set>color</set> * IS <set>spatialprep</set> THE <set>color</set> *</pattern>
-<template><think>
+</learn>
+
+THE <set>color</set> * IS <set>spatialprep</set> THE <set>color</set> *
+<think>
 <set var="color1"><star/></set>
 <set var="noun1"><star index="2"/></set>
 <set var="relation"><star index="3"/></set>
@@ -189,10 +173,10 @@ I think I understand that.
 <pattern><eval><get var="pattern6"/></eval></pattern>
 <template><eval><get var="response6"/></eval></template>
 </category>
-</learn></template>
-</category>
-<category><pattern>THE * IS <set>spatialprep</set> THE *</pattern>
-<template><think>
+</learn>
+
+THE * IS <set>spatialprep</set> THE *
+<think>
 <set var="noun1"><star/></set>
 <set var="noun2"><star index="3"/></set>
 <set var="relation"><star index="2"/></set>
@@ -268,30 +252,19 @@ Ok.  I think I got that.
 <pattern><eval><get var="pattern42"/></eval></pattern>
 <template><eval><get var="response4"/></eval></template>
 </category>
-</learn></template>
-</category>
-<category><pattern>GOSSIP</pattern>
-<template><think>
-<condition name="gossiplist" value="unknown"><set name="gossiplist"><li>I don't have any gossip.</li></set></condition>
-</think>
-<learn>
-  <category><pattern>RANDOM GOSSIP</pattern>
-<template><random><eval><get name="gossiplist"/></eval></random></template>
-</category>
 </learn>
-<srai>RANDOM GOSSIP</srai></template>
-</category>
-<category><pattern>ADD GOSSIP *</pattern>
-<template><think>
+
+ADD GOSSIP *
+<think>
 <condition name="gossiplist">
 <li value="unknown"><set name="gossiplist"><li><star/></li></set></li>
 <li><set name="gossiplist"><get name="gossiplist"/><li><star/></li></set></li>
 </condition>
 </think>
-I'll remember that.</template>
-</category>
-<category><pattern>THE * IS <set>preposition</set> *</pattern>
-<template><think>
+I'll remember that.
+
+THE * IS <set>preposition</set> *
+<think>
 <set var="subj"><star/></set>
 <set var="prep"><star index="2"/></set>
 <set var="obj"><star index="3"/></set>
@@ -320,10 +293,10 @@ Is it always <get var="prep"/> <star index="3"/>?
 <category><pattern><eval><get var="pattern5"/></eval></pattern>
 <template><eval><get var="response"/></eval></template>
 </category>
-</learn></template>
-</category>
-<category><pattern>A * IS <set>preposition</set> *</pattern>
-<template><think>
+</learn>
+
+A * IS <set>preposition</set> *
+<think>
 <set var="subj"><star/></set>
 <set var="prep"><star index="2"/></set>
 <set var="obj"><star index="3"/></set>
@@ -351,10 +324,10 @@ Is it always <get var="prep"/> <star index="3"/>?
 <category><pattern><eval><get var="pattern5"/></eval></pattern>
 <template><eval><get var="response"/></eval></template>
 </category>
-</learn></template>
-</category>
-<category><pattern>AN * IS <set>preposition</set> *</pattern>
-<template><think>
+</learn>
+
+AN * IS <set>preposition</set> *
+<think>
 <set var="subj"><star/></set>
 <set var="prep"><star index="2"/></set>
 <set var="obj"><star index="3"/></set>
@@ -382,10 +355,10 @@ Is it always <get var="prep"/> <star index="3"/>?
 <category><pattern><eval><get var="pattern5"/></eval></pattern>
 <template><eval><get var="response"/></eval></template>
 </category>
-</learn></template>
-</category>
-<category><pattern><set>name</set> IS <set>preposition</set> *</pattern>
-<template><think>
+</learn>
+
+<set>name</set> IS <set>preposition</set> *
+<think>
 <srai>SETHESHE <star/></srai>
 <set var="subj"><star/></set>
 <set var="prep"><star index="2"/></set>
@@ -414,10 +387,10 @@ Is <get name="pronoun"/> always <get var="prep"/> <star index="3"/>?
 <category><pattern><eval><get var="pattern5"/></eval></pattern>
 <template><eval><get var="response"/></eval></template>
 </category>
-</learn></template>
-</category>
-<category><pattern><set>name</set> IS <set>being</set> *</pattern>
-<template><think>
+</learn>
+
+<set>name</set> IS <set>being</set> *
+<think>
 <set var="name"><star/></set>
 <set var="being"><star index="2"/></set>
 <set var="obj"><star index="3"/></set>
@@ -452,10 +425,10 @@ I understand.
 <category><pattern><eval><get var="pattern6"/></eval></pattern>
 <template><eval><get var="response"/></eval></template>
 </category>
-</learn></template>
-</category>
-<category><pattern><set>name</set> <set>is</set> <set>preposition</set> *</pattern>
-<template><think>
+</learn>
+
+<set>name</set> <set>is</set> <set>preposition</set> *
+<think>
 <set var="response"><set var="name"><star/></set> <set var="verb"><star index="2"/></set> <set var="prep"><star index="3"/></set> <set var="obj"><star index="4"/></set>.</set>
 <set var="inf"><map name="is2be"><get var="verb"/></map></set>
 <srai>SETHESHE <get var="name"/></srai>
@@ -499,10 +472,10 @@ I understand.
 <template>I don't know if <eval><get var="name"/></eval> <star/>.  I know <eval><get var="response"/></eval></template>
 </category>
 </learn>
-Why does <get name="pronoun"/> <get var="inf"/> <get var="prep"/> <get var="obj"/>?</template>
-</category>
-<category><pattern>I <set>be</set> # <set>name</set> #</pattern>
-<template><think><set var="verb"><star/></set>
+Why does <get name="pronoun"/> <get var="inf"/> <get var="prep"/> <get var="obj"/>?
+
+I <set>be</set> # <set>name</set> #
+<think><set var="verb"><star/></set>
 <set var="star2"><star index="2"/></set>
 <set var="star4"><star index="4"/></set>
 <condition value="unknown" var="star2"><set var="star2"/></condition>
@@ -516,10 +489,10 @@ You <star/> <get var="star2"/> <star index="3"/>?
   You <eval><star/> <get var="star2"/> <star index="3"/> <get var="star4"/></eval>.
   </template>
 </category>
-</learn></template>
-</category>
-<category><pattern>I LOVE # <set>name</set> #</pattern>
-<template><think>
+</learn>
+
+I LOVE # <set>name</set> #
+<think>
 <set var="star1"><star index="1"/></set>
 <set var="star3"><star index="3"/></set>
 <condition value="unknown" var="star1"><set var="star1"/></condition>
@@ -533,10 +506,10 @@ You love <get var="star1"/> <star index="2"/>?
   You love <eval><get var="star1"/> <star index="2"/> <get var="star3"/></eval>.
   </template>
 </category>
-</learn></template>
-</category>
-<category><pattern>* HAS <set>color</set> *</pattern>
-<template><think>
+</learn>
+
+* HAS <set>color</set> *
+<think>
 <set var="subj"><star/></set>
 <set var="plural"><map><name>plural</name><get var="subj"/></map></set>
 <set var="color"><star index="2"/></set>
@@ -575,10 +548,10 @@ You love <get var="star1"/> <star index="2"/>?
 <template><eval><get var="subj"/></eval> has <eval><get var="color"/> <get var="obj"/>.</eval>
 </template>
 </category>
-</learn></template>
-</category>
-<category><pattern><set>name</set> HAS <set>color</set> *</pattern>
-<template><think>
+</learn>
+
+<set>name</set> HAS <set>color</set> *
+<think>
 <set var="subj"><star/></set>
 <set var="plural"><map><name>plural</name><get var="subj"/></map></set>
 <set var="color"><star index="2"/></set>
@@ -627,10 +600,10 @@ You love <get var="star1"/> <star index="2"/>?
 <template><eval><get var="subj"/></eval> has <eval><get var="color"/> <get var="obj"/>.</eval>
 </template>
 </category>
-</learn></template>
-</category>
-<category><pattern>* IS <set>color</set></pattern>
-<template><think><set var="subj"><star/></set>
+</learn>
+
+* IS <set>color</set>
+<think><set var="subj"><star/></set>
 <set var="plural"><map><name>plural</name><get var="subj"/></map></set>
 <set var="color"><star index="2"/></set></think>
 <get var="color"/> is a nice color of <star/>.
@@ -665,10 +638,10 @@ You love <get var="star1"/> <star index="2"/>?
 <template><eval><get var="subj"/></eval> is <eval><get var="color"/>.</eval>
 </template>
 </category>
-</learn></template>
-</category>
-<category><pattern>* IS <set>color</set> AND <set>color</set></pattern>
-<template><think><set var="subj"><star/></set>
+</learn>
+
+* IS <set>color</set> AND <set>color</set>
+<think><set var="subj"><star/></set>
 <set var="plural"><map><name>plural</name><get var="subj"/></map></set>
 <set var="color"><star index="2"/> and <star index="3"/></set></think>
 <get var="color"/> is a nice color of <star/>.
@@ -703,10 +676,10 @@ You love <get var="star1"/> <star index="2"/>?
 <template><eval><get var="subj"/></eval> is <eval><get var="color"/>.</eval>
 </template>
 </category>
-</learn></template>
-</category>
-<category><pattern><set>name</set> HAS *</pattern>
-<template><think>
+</learn>
+
+<set>name</set> HAS *
+<think>
 <set var="name"><star/></set>
 <set var="object"><person><star index="2"/></person></set>
 <srai>SETHESHE <get var="name"/></srai>
@@ -733,10 +706,10 @@ You love <get var="star1"/> <star index="2"/>?
 <pattern>WHAT HAS <eval><get var="object"/></eval></pattern>
 <template><eval><formal><get var="name"/></formal></eval> has <eval><get var="object"/></eval>.</template>
 </category>
-</learn></template>
-</category>
-<category><pattern><set>name</set> HAS <set>been</set> *</pattern>
-<template><think>
+</learn>
+
+<set>name</set> HAS <set>been</set> *
+<think>
 <set var="been"><star index="2"/></set>
 <set var="name"><star/></set>
 <set var="object"><person><star index="3"/></person></set>
@@ -776,10 +749,10 @@ You love <get var="star1"/> <star index="2"/>?
 <pattern>WHAT DID <eval><get name="pronoun"/></eval> *</pattern>
 <template><eval><get var="name"/> has <get var="been"/> <get var="object"/></eval>.</template>
 </category>
-</learn></template>
-</category>
-<category><pattern>I <set>was</set> *</pattern>
-<template><think>
+</learn>
+
+I <set>was</set> *
+<think>
 <set var="verb"><star/></set>
 <set var="inf"><map><name>was2be</name><star/></map></set>
 <set var="ing"><map><name>be2being</name><get var="inf"/></map></set>
@@ -817,10 +790,10 @@ You love <get var="star1"/> <star index="2"/>?
 <template>You <eval><get var="verb"/> <get var="object"/></eval>.</template>
 </category>
 
-</learn></template>
-</category>
-<category><pattern>I WENT <set>being</set> #</pattern>
-<template><random>
+</learn>
+
+I WENT <set>being</set> #
+<random>
 <li>Have you been <star/> long?</li>
 <li>Oh are you into <star/>?</li>
 <li>I've heard other people say they like <star/></li>
@@ -854,10 +827,10 @@ You love <get var="star1"/> <star index="2"/>?
 <pattern>DID I <eval><get var="inf"/></eval> #</pattern>
 <template>You <eval><get var="past"/></eval>.</template>
 </category>
-</learn></template>
-</category>
-<category><pattern>I AM <set>being</set> *</pattern>
-<template><random>
+</learn>
+
+I AM <set>being</set> *
+<random>
 <li>Have you been <star/> long?</li>
 <li>Oh are you into <star/>?</li>
 <li>I've heard about other people <star/> it.</li>
@@ -888,10 +861,10 @@ You love <get var="star1"/> <star index="2"/>?
 <pattern>AM I <eval><get var="verb"/> #</eval></pattern>
 <template>You are <eval><get var="verb"/> <get var="object"/></eval></template>
 </category>
-</learn></template>
-</category>
-<category><pattern>I AM <set>being</set> <set>preposition</set> *</pattern>
-<template><think>
+</learn>
+
+I AM <set>being</set> <set>preposition</set> *
+<think>
 <set var="verb"><star/></set>
 <set var="prep"><person><star index="2"/></person></set>
 <set var="object"><person><star index="3"/></person></set>
@@ -924,10 +897,10 @@ You love <get var="star1"/> <star index="2"/>?
 <pattern>AM I <eval><get var="verb"/> #</eval></pattern>
 <template>You are <eval><get var="verb"/> <get var="object"/></eval></template>
 </category>
-</learn></template>
-</category>
-<category><pattern><set>name</set> *</pattern>
-<template><srai>SETHESHE <star/></srai>
+</learn>
+
+<set>name</set> *
+<srai>SETHESHE <star/></srai>
 <learn>
 <category>
 <pattern>WHAT DOES <eval><star/></eval> *</pattern>
@@ -942,22 +915,19 @@ You love <get var="star1"/> <star index="2"/>?
 <template><eval><star/></eval> <eval><person><star index="2"/></person></eval></template>
 </category>
 </learn>
-For fun?</template>
-</category>
-<category><pattern>SETHESHE <set>familiarname</set></pattern>
-<template><think>
+For fun?
+
+SETHESHE <set>familiarname</set>
+<think>
 <set name="pronoun"><map><name>familiarpronoun</name><star/></map></set>
 <set><name><get name="pronoun"/></name><star/></set>
-</think></template>
-</category>
-<category><pattern>* MEANS *</pattern>
-<template><srai>EQUATE <star/> TO <star index="2"/></srai></template>
-</category>
-<category><pattern><set>name</set> MEANS *</pattern>
-<template><srai>EQUATE <star/> TO <star index="2"/></srai></template>
-</category>
-<category><pattern>EQUATE * TO *</pattern>
-<template><think>
+</think>
+
+<set>name</set> MEANS *
+<srai>EQUATE <star/> TO <star index="2"/></srai>
+
+EQUATE * TO *
+<think>
 <set name="equalto"><srai>IS <star/> EQUALTO <star index="2"/></srai></set>
 </think>
 <condition name="equalto">
@@ -982,99 +952,10 @@ OK, when you say "<star/>", I will assume you mean "<star index="2"/>".
 </category>
 </learn></li>
 <li><star/> is already the same as <star index="2"/>.</li>
-</condition></template>
-</category>
-<category><pattern>* IS AN *</pattern>
-<template>Ok, I will remember <star/> is a <star index="2"/>.
-<think>
-<set name="isaname"><srai>ISANAME <star/></srai></set>
-<condition name="isaname">
-<li value="true"><set name="learnpattern">WHO IS AN</set></li>
-<li><set name="learnpattern">WHAT IS AN</set></li>
 </condition>
-</think>
-<learn>
-<category>
-<pattern>WHAT IS <eval><star/></eval></pattern>
-<template>An <eval><star index="2"/></eval>.</template>
-</category>
-<category>
-<pattern><eval><get name="learnpattern"/></eval> <eval><star index="2"/></eval></pattern>
-<template><eval><star/></eval>.</template>
-</category>
-<category>
-<pattern>IS <eval><star/></eval> AN <star index="2"/></pattern>
-<template>Yes.</template>
-</category>
-</learn></template>
-</category>
-<category><pattern>A * IS NOT *</pattern>
-<template>Ok, I will remember a <star/> is not <star index="2"/>.
-<learn>
-<category>
-<pattern>WHAT IS A <eval><star/></eval></pattern>
-<template>Not <eval><star index="2"/></eval>.</template>
-</category>
-<category>
-<pattern>WHAT IS NOT <eval><star index="2"/></eval></pattern>
-<template><eval><star/></eval>.</template>
-</category>
-<category>
-<pattern>IS A <eval><star/></eval> <eval><star index="2"/></eval></pattern>
-<template>No.</template>
-</category>
-</learn></template>
-</category>
-<category><pattern>* IS A *</pattern>
-<template>Ok, I will remember <star/> is a <star index="2"/>.
+
+<set>article</set> * IS <set>article</set> *
 <think>
-<set name="isaname"><srai>ISANAME <star/></srai></set>
-<condition name="isaname">
-<li value="true"><set name="learnpattern">WHO IS A</set></li>
-<li><set name="learnpattern">WHAT IS A</set></li>
-</condition>
-</think>
-<learn>
-<category>
-<pattern>WHAT IS <eval><star/></eval></pattern>
-<template>A <eval><star index="2"/></eval>.</template>
-</category>
-<category>
-<pattern><eval><get name="learnpattern"/></eval> <eval><star index="2"/></eval></pattern>
-<template><eval><star/></eval>.</template>
-</category>
-<category>
-<pattern>IS <eval><star/></eval> A <eval><star index="2"/></eval></pattern>
-<template>Yes.</template>
-</category>
-</learn></template>
-</category>
-<category><pattern>* IS THE *</pattern>
-<template>Ok, I will remember <star/> is the <star index="2"/>.
-<think>
-<set name="isaname"><srai>ISANAME <star/></srai></set>
-<condition name="isaname">
-<li value="true"><set name="learnpattern">WHO IS THE</set></li>
-<li><set name="learnpattern">WHAT IS THE</set></li>
-</condition>
-</think>
-<learn>
-<category>
-<pattern>WHAT IS <eval><star/></eval></pattern>
-<template>The <eval><star index="2"/></eval>.</template>
-</category>
-<category>
-<pattern><eval><get name="learnpattern"/></eval> <eval><star index="2"/></eval></pattern>
-<template><eval><star/></eval>.</template>
-</category>
-<category>
-<pattern>IS <eval><star/></eval> THE <eval><star index="2"/></eval></pattern>
-<template>Yes.</template>
-</category>
-</learn></template>
-</category>
-<category><pattern><set>article</set> * IS <set>article</set> *</pattern>
-<template><think>
 <set var="a1"><star/></set>
 <set var="a2"><star index="3"/></set>
 <set var="thing1"><star index="2"/></set>
@@ -1094,10 +975,10 @@ Ok, I will remember <get var="a1"/> <get var="thing1"/> is <get var="a2"/> <get 
 <pattern>IS <eval><get var="a1"/> <get var="thing1"/> <get var="a2"/> <get var="thing2"/></eval></pattern>
 <template>Yes.</template>
 </category>
-</learn></template>
-</category>
-<category><pattern><set>article</set> * ARE <set>article</set> *</pattern>
-<template><think>
+</learn>
+
+<set>article</set> * ARE <set>article</set> *
+<think>
 <set var="a1"><star/></set>
 <set var="a2"><star index="3"/></set>
 <set var="thing1"><star index="2"/></set>
@@ -1117,10 +998,10 @@ Ok, I will remember <get var="a1"/> <get var="thing1"/> are <get var="a2"/> <get
 <pattern>ARE <eval><get var="a1"/> <get var="thing1"/> <get var="a2"/> <get var="thing2"/></eval></pattern>
 <template>Yes.</template>
 </category>
-</learn></template>
-</category>
-<category><pattern><set>article</set> * IS *</pattern>
-<template><think>
+</learn>
+
+<set>article</set> * IS *
+<think>
 <set var="a1"><star/></set>
 <set var="thing1"><star index="2"/></set>
 <set var="thing2"><star index="3"/></set>
@@ -1139,10 +1020,10 @@ Ok, I will remember <get var="a1"/> <get var="thing1"/> is <get var="thing2"/>.
 <pattern>IS <eval><get var="a1"/> <get var="thing1"/> <get var="thing2"/></eval></pattern>
 <template>Yes.</template>
 </category>
-</learn></template>
-</category>
-<category><pattern><set>article</set> * ARE *</pattern>
-<template><think>
+</learn>
+
+<set>article</set> * ARE *
+<think>
 <set var="a1"><star/></set>
 <set var="thing1"><star index="2"/></set>
 <set var="thing2"><star index="3"/></set>
@@ -1161,10 +1042,10 @@ Ok, I will remember <get var="a1"/> <get var="thing1"/> are <get var="thing2"/>.
 <pattern>ARE <eval><get var="a1"/> <get var="thing1"/> <get var="thing2"/></eval></pattern>
 <template>Yes.</template>
 </category>
-</learn></template>
-</category>
-<category><pattern>THE * IS NOT *</pattern>
-<template>Ok, I will remember the <star/> is not <star index="2"/>.
+</learn>
+
+THE * IS NOT *
+Ok, I will remember the <star/> is not <star index="2"/>.
 <learn>
 <category>
 <pattern>WHAT IS THE <eval><star/></eval></pattern>
@@ -1179,83 +1060,40 @@ Ok, I will remember <get var="a1"/> <get var="thing1"/> are <get var="thing2"/>.
 <template>No.</template>
 </category>
 
-</learn></template>
-</category>
-<category><pattern>* IS NOT *</pattern>
-<template>Ok, I will remember <star/> is not <star index="2"/>.
-<think>
-<set name="isaname"><srai>ISANAME <star/></srai></set>
-<condition name="isaname">
-<li value="true"><set name="learnpattern">WHO IS NOT</set></li>
-<li><set name="learnpattern">WHAT IS NOT</set></li>
-</condition>
-</think>
-<learn>
-<category>
-<pattern>WHAT IS <eval><star/></eval></pattern>
-<template><eval><star index="2"/></eval>.</template>
-</category>
-<category>
-<pattern><eval><get name="learnpattern"/></eval> <eval><star index="2"/></eval></pattern>
-<template><eval><star/></eval>.</template>
-</category>
-<category>
-<pattern>IS <eval><star/></eval> <eval><star index="2"/></eval></pattern>
-<template>No.</template>
-</category>
-</learn></template>
-</category>
-<category><pattern>*</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
-<template><srai>LEARN NEW RESPONSE <star/></srai></template>
-</category>
-<category><pattern>YOU _</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
-<template><srai>LEARN NEW RESPONSE You <star/></srai></template>
-</category>
-<category><pattern>A _</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
-<template><srai>LEARN NEW RESPONSE A <star/></srai></template>
-</category>
-<category><pattern>I _</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
-<template><srai>LEARN NEW RESPONSE I <star/></srai></template>
-</category>
-<category><pattern>HE _</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
-<template><srai>LEARN NEW RESPONSE He <star/></srai></template>
-</category>
-<category><pattern>AN _</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
-<template><srai>LEARN NEW RESPONSE An <star/></srai></template>
-</category>
-<category><pattern>THAT _</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
-<template><srai>LEARN NEW RESPONSE That <star/></srai></template>
-</category>
-<category><pattern>MY * S NAME IS *</pattern>
-<template><think><set name="isfamiliarname"><srai>ISAFAMILIARNAME <star/></srai></set>
-<set name="familiarpredicate"><srai>FAMILIARPREDICATE <star/></srai></set>
-</think>
-<condition name="isfamiliarname">
-<li value="true">
-<think><set name="contactname"><star index="2"/></set></think>
-<srai>REMEMBERFAMILIARNAME</srai>
-</li>
-<li>I will remember your <star/>'s name is <star index="2"/>.
-<learn>
-<category>
-<pattern>MY <eval><star/></eval> S NAME</pattern>
-<template><eval><star index="2"/></eval></template>
-</category>
 </learn>
-</li>
-</condition></template>
-</category>
-<category><pattern>MY * S AGE IS *</pattern>
-<template>I will remember your <star/>'s age.
+
+*WHAT SHOULD I SAY INSTEAD
+<srai>LEARN NEW RESPONSE <star/></srai>
+
+YOU _WHAT SHOULD I SAY INSTEAD
+<srai>LEARN NEW RESPONSE You <star/></srai>
+
+A _WHAT SHOULD I SAY INSTEAD
+<srai>LEARN NEW RESPONSE A <star/></srai>
+
+I _WHAT SHOULD I SAY INSTEAD
+<srai>LEARN NEW RESPONSE I <star/></srai>
+
+HE _WHAT SHOULD I SAY INSTEAD
+<srai>LEARN NEW RESPONSE He <star/></srai>
+
+AN _WHAT SHOULD I SAY INSTEAD
+<srai>LEARN NEW RESPONSE An <star/></srai>
+
+THAT _WHAT SHOULD I SAY INSTEAD
+<srai>LEARN NEW RESPONSE That <star/></srai>
+
+MY * S AGE IS *
+I will remember your <star/>'s age.
 <learn>
 <category>
 <pattern>MY <eval><star/></eval> S AGE</pattern>
 <template><eval><star index="2"/></eval></template>
 </category>
-</learn></template>
-</category>
-<category><pattern>MY * IS *</pattern>
-<template><think><set name="isaname"><srai>ISANAME <star index="2"/></srai></set>
+</learn>
+
+MY * IS *
+<think><set name="isaname"><srai>ISANAME <star index="2"/></srai></set>
 <set name="isanumber"><srai>ISANUMBER <star index="2"/></srai></set>
 <set name="isafamiliarname"><srai>ISAFAMILIARNAME <star/></srai></set>
 </think>
@@ -1306,87 +1144,68 @@ Ok, I will remember <get var="a1"/> <get var="thing1"/> are <get var="thing2"/>.
   </li>
   </condition>
 </li>
-</condition></template>
-</category>
-<category><pattern>MY FAVORITE * IS *</pattern>
-<template><random>
-<li>OK, now you can ask me "What is my favorite <star/>?" </li>
-<li>Do you think I would like <star index="2"/> too?</li>
-<li>Good to know.</li>
-<li>What do you like best about <star index="2"/>?</li>
-</random>
-<learn>
-<category>
-<pattern>WHAT IS MY FAVORITE <eval><star/></eval></pattern>
-<template><eval><star index="2"/></eval></template>
-</category>
-</learn></template>
-</category>
-<category><pattern>MY _</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
-<template><srai>LEARN NEW RESPONSE My <star/></srai></template>
-</category>
-<category><pattern>LEARN NEW RESPONSE *</pattern>
-<template>OK.  Now whenever you say "<get name="newpattern"/>", I will respond with 
+</condition>
+
+MY _WHAT SHOULD I SAY INSTEAD
+<srai>LEARN NEW RESPONSE My <star/></srai>
+
+LEARN NEW RESPONSE *
+OK.  Now whenever you say "<get name="newpattern"/>", I will respond with 
 "<star/>".
 <learn>
 <category>
 <pattern><eval><normalize><get name="newpattern"/></normalize></eval></pattern>
 <template><eval><star/></eval>.</template>
 </category>
-</learn></template>
-</category>
-<category><pattern>LEARN * IS *</pattern>
-<template>Ok, I will remember <star/> is <star index="2"/>.
+</learn>
+
+LEARN * IS *
+Ok, I will remember <star/> is <star index="2"/>.
 <learn>
 <category>
 <pattern>WHAT IS <eval><star/></eval></pattern>
 <template><eval><star index="2"/></eval>.</template>
 </category>
-</learn></template>
-</category>
-<category><pattern>IT _</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
-<template><srai>LEARN NEW RESPONSE It <star/></srai></template>
-</category>
-<category><pattern>BAD ANSWER</pattern>
-<template><think><set name="newpattern"><input index="2"/></set></think>
-OK.  You said "<input index="2"/>" and I replied "<response/>".
-What should I say instead?</template>
-</category>
-<category><pattern>SHE _</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
-<template><srai>LEARN NEW RESPONSE She <star/></srai></template>
-</category>
-<category><pattern>SAY _</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
-<template><srai>LEARN NEW RESPONSE <star/></srai></template>
-</category>
-<category><pattern>WE _</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
-<template><srai>LEARN NEW RESPONSE We <star/></srai></template>
-</category>
-<category><pattern>THE _</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
-<template><srai>LEARN NEW RESPONSE The <star/></srai></template>
-</category>
-<category><pattern>THEY _</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
-<template><srai>LEARN NEW RESPONSE They <star/></srai></template>
-</category>
-<category><pattern>NEVERMIND</pattern><that>WHAT SHOULD I SAY INSTEAD</that>
-<template>Ok. We'll come back to that later.</template>
-</category>
-<category><pattern>QUESTIONWORD <set>name</set> #</pattern>
-<template>Who</template>
-</category>
-<category><pattern>QUESTIONWORD *</pattern>
-<template>What</template>
-</category>
-<category><pattern>QUESTIONWORD SOMEONE #</pattern>
-<template>Who</template>
-</category>
-<category><pattern>QUESTIONWORD SOMEBODY #</pattern>
-<template>Who</template>
-</category>
-<category><pattern>MY <set>familiarname</set> <set>is</set> *</pattern>
-<template><srai><star/> <star index="2"/> <star index="3"/></srai></template>
-</category>
-<category><pattern><set>familiarname</set> <set>is</set> *</pattern>
-<template><think>
+</learn>
+
+IT _WHAT SHOULD I SAY INSTEAD
+<srai>LEARN NEW RESPONSE It <star/></srai>
+
+SHE _WHAT SHOULD I SAY INSTEAD
+<srai>LEARN NEW RESPONSE She <star/></srai>
+
+SAY _WHAT SHOULD I SAY INSTEAD
+<srai>LEARN NEW RESPONSE <star/></srai>
+
+WE _WHAT SHOULD I SAY INSTEAD
+<srai>LEARN NEW RESPONSE We <star/></srai>
+
+THE _WHAT SHOULD I SAY INSTEAD
+<srai>LEARN NEW RESPONSE The <star/></srai>
+
+THEY _WHAT SHOULD I SAY INSTEAD
+<srai>LEARN NEW RESPONSE They <star/></srai>
+
+NEVERMINDWHAT SHOULD I SAY INSTEAD
+Ok. We'll come back to that later.
+
+QUESTIONWORD <set>name</set> #
+Who
+
+QUESTIONWORD *
+What
+
+QUESTIONWORD SOMEONE #
+Who
+
+QUESTIONWORD SOMEBODY #
+Who
+
+MY <set>familiarname</set> <set>is</set> *
+<srai><star/> <star index="2"/> <star index="3"/></srai>
+
+<set>familiarname</set> <set>is</set> *
+<think>
 <set name="learnpattern">Who <star index="2"/> <person><star index="3"/></person></set>?  
 <set name="learntemplate">Your <star/></set>.
 <learn>
@@ -1407,10 +1226,10 @@ Now you can ask me: "<get name="learnpattern"/>"?
 </category>
 </learn>
 </think>
-and "<get name="learnpattern"/>"?</template>
-</category>
-<category><pattern>* <set>is</set> *</pattern>
-<template><think>
+and "<get name="learnpattern"/>"?
+
+* <set>is</set> *
+<think>
 <set name="learnpattern"><srai>QUESTIONWORD <star/></srai> <star index="2"/> <person><star index="3"/></person></set>?  
 <set name="learntemplate"><star/></set>.
 <learn>
@@ -1431,10 +1250,10 @@ Now you can ask me: "<get name="learnpattern"/>"?
 </category>
 </learn>
 </think>
-and "<get name="learnpattern"/>"?</template>
-</category>
-<category><pattern>* <set>was</set> *</pattern>
-<template><think>
+and "<get name="learnpattern"/>"?
+
+* <set>was</set> *
+<think>
 <set var="questionword"><srai>QUESTIONWORD <star/></srai></set>
 <set var="was"><star index="2"/></set>
 <set var="be"><map><name>was2be</name><get var="was"/></map></set>
@@ -1469,10 +1288,10 @@ and "<get name="learnpattern"/>"?</template>
 </category>
 
 
-</learn></template>
-</category>
-<category><pattern>MY <set>familiarname</set> * LIKES TO <set>be</set> *</pattern>
-<template><think>
+</learn>
+
+MY <set>familiarname</set> * LIKES TO <set>be</set> *
+<think>
 <set var="familiarname"><star/></set>
 <set var="name"><star index="2"/></set>
 <set var="verb"><star index="3"/></set>
@@ -1549,10 +1368,10 @@ and "<get name="learnpattern"/>"?</template>
 
 
 </learn>
-Is <get name="pronoun"/> any good at <set name="it"><get var="ing"/> <get var="ing"/> <get var="obj"/></set>?</template>
-</category>
-<category><pattern>MY <set>familiarname</set> * LIKES TO * <set>preposition</set> *</pattern>
-<template><think>
+Is <get name="pronoun"/> any good at <set name="it"><get var="ing"/> <get var="ing"/> <get var="obj"/></set>?
+
+MY <set>familiarname</set> * LIKES TO * <set>preposition</set> *
+<think>
 <set var="familiarname"><star/></set>
 <set var="name"><star index="2"/></set>
 <set var="verb"><star index="3"/></set>
@@ -1608,10 +1427,10 @@ Is <get name="pronoun"/> any good at <set name="it"><get var="ing"/> <get var="i
 </category>
 
 </learn>
-Is <get name="pronoun"/> any good at <set name="it"><get var="verb"/> <get var="prep"/> <get var="obj"/></set>?</template>
-</category>
-<category><pattern><set>name</set> <set>is</set> *</pattern>
-<template><think>
+Is <get name="pronoun"/> any good at <set name="it"><get var="verb"/> <get var="prep"/> <get var="obj"/></set>?
+
+<set>name</set> <set>is</set> *
+<think>
 <set var="name"><star/></set>
 <set var="verb"><star index="2"/></set>
 <set var="obj"><star index="3"/></set>
@@ -1659,10 +1478,10 @@ Is <get name="pronoun"/> any good at <set name="it"><get var="verb"/> <get var="
 </category>
 
 </learn>
-Why does <get name="pronoun"/> <get var="be"/> <set name="it"><get var="obj"/></set>?</template>
-</category>
-<category><pattern><set>name</set> <set>was</set> *</pattern>
-<template><think>
+Why does <get name="pronoun"/> <get var="be"/> <set name="it"><get var="obj"/></set>?
+
+<set>name</set> <set>was</set> *
+<think>
 <set var="name"><star/></set>
 <set var="verb"><star index="2"/></set>
 <set var="be"><map><name>was2be</name><get var="verb"/></map></set>
@@ -1698,10 +1517,10 @@ Why does <get name="pronoun"/> <get var="be"/> <set name="it"><get var="obj"/></
 </category>
 
 </learn>
-Can you tell me why <get name="pronoun"/> <get var="verb"/> <set name="it"><get var="obj"/></set>?</template>
-</category>
-<category><pattern>MY <set>familiarname</set> * <set>is</set> *</pattern>
-<template><think>
+Can you tell me why <get name="pronoun"/> <get var="verb"/> <set name="it"><get var="obj"/></set>?
+
+MY <set>familiarname</set> * <set>is</set> *
+<think>
 <set var="familiarname"><star/></set>
 <set var="name"><formal><star index="2"/></formal></set>
 <set var="verb"><star index="3"/></set>
@@ -1737,6 +1556,6 @@ Does <get name="pronoun"/> really?
 <category><pattern>WHO <eval><get var="verb"/></eval> #</pattern>
 <template>Your <eval><get var="familiarname"/> <get var="name"/></eval>.</template>
 </category>
-</learn></template>
-</category>
-</aiml>
+</learn>
+
+

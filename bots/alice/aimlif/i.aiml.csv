@@ -1,6 +1,10 @@
+0,I LIKE TO PLAY *,*,*,<srai>I PLAY#Newline                <star/>#Newline            </srai>,i.aiml
+0,TOTALLY,*,*,<srai>I agree</srai>,i.aiml
+0,I GO TO SCHOOL *,*,*,<srai>I go to school</srai>,i.aiml
 0,HOPE YOUR *,*,*,<srai>I HOPE YOUR#Newline                <star/>#Newline            </srai>,i.aiml
 0,SOMETIMES I FEEL *,*,*,<srai>I FEEL#Newline                <star/>#Newline            </srai>,i.aiml
 0,HOPE YOU *,*,*,<srai>I HOPE YOU#Newline                <star/>#Newline            </srai>,i.aiml
 0,I AGREE *,*,*,<srai>I AGREE</srai>#Newline      <sr/>,i.aiml
 0,I UNDERSTAND *,*,*,<srai>I UNDERSTAND</srai>#Newline      <sr/>,i.aiml
+0,I HEAR YOU,*,*,<srai>I understand</srai>,i.aiml
 0,I USE TO *,*,*,<srai>I USED TO#Newline                <star/>#Newline            </srai>,i.aiml

@@ -1,15 +1,6 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml version="1.0">
-  <!-- charlix, July, 2006-2008-->
-  <!-- This program is open source code released under-->
-  <!-- the terms of the GNU General Public License-->
-  <!-- as published by the Free Software Foundation.-->
-  <!-- Complies with AIML 1.01 Tag Set Specification-->
-  <!-- as adopted by the ALICE A.I. Foundation.-->
-  <!--reversed.aiml intends to produce aiml categories from simple texts-->
-  <category>
-    <pattern>TESTESCAPE</pattern>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+TESTESCAPE
 &lt;category&gt;
 &lt;pattern&gt;
 <uppercase><get name="treebranch"/> WHAT
@@ -22,13 +13,9 @@
 &lt;/template&gt;
 &lt;/category&gt;
 <get name="br"/> <srai><get name="1be"/> ASKBE1WHATWHAT</srai>
-</template>
-  </category>
-  <!--CHANGE FOR PANDORABOT-->
-  <category>
-    <pattern>*</pattern>
-    <template>
-      <think>
+
+*
+<think>
         <set name="context">
           <star/>
         </set>
@@ -138,92 +125,62 @@
         <set name="br">&lt;br&gt;</set>
       </think>
       <srai>RA <star/></srai>
-    </template>
-  </category>
-  <!--two frames
-first
-second-->
-  <category>
-    <pattern>R2 * VERB *</pattern>
-    <template>
-      <think>
+
+R2 * VERB *
+<think>
         <set name="aux">do</set>
         <set name="aux">verb</set>
       </think>
       <srai/>
-    </template>
-  </category>
-  <category>
-    <pattern>R2 SUBJ *</pattern>
-    <template>
-      <think>
+
+R2 SUBJ *
+<think>
         <set name="questions">what</set>
         <set name="subj">
           <star/>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>R2 VERBNEXT *</pattern>
-    <template>
-      <srai>OBJ <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>R2 VERBNEXT * IN *</pattern>
-    <template>
-      <srai>OBJ <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>R2 OBJ *</pattern>
-    <template>
-      <think>
+
+R2 VERBNEXT *
+<srai>OBJ <star/></srai>
+
+R2 VERBNEXT * IN *
+<srai>OBJ <star/></srai>
+
+R2 OBJ *
+<think>
         <set name="obj">
           <star/>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MYOBJP *</pattern>
-    <template>
-      <think>
+
+MYOBJP *
+<think>
         <set name="1myobj">
           <star/>
         </set>
       </think>
       <srai>ASKQUESTIONS 1<get name="subjq"/>WHAT</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MYOBJP</pattern>
-    <template>
-      <think>
+
+MYOBJP
+<think>
         <set name="1myobj">
           <star/>
         </set>
       </think>
       <srai>ASKQUESTIONS 1<get name="subjq"/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MYSUBJP *</pattern>
-    <template>
-      <think>
+
+MYSUBJP *
+<think>
         <set name="subjq">WHAT</set>
         <set name="1mysubj">
           <star/>
         </set>
       </think>
       <srai>MYOBJP <get name="obj"/></srai>
-    </template>
-  </category>
-  <!--CONFIGURATION-->
-  <category>
-    <pattern>HELP</pattern>
-    <template>Reversed.aiml intends to produce aiml categories from simple texts. <get name="br"/>
+
+HELP
+Reversed.aiml intends to produce aiml categories from simple texts. <get name="br"/>
 Say "NEW SOURCE (YOUR SOURCE)" or "NS (YOUR SOURCE)" to include your source in the answers. <get name="br"/>
 To include a link edit the category "SET SOURCE", then say it. <get name="br"/>
 "UNSET SOURCE" will remove the old source.<get name="br"/>
@@ -233,22 +190,16 @@ Say "STOP RECURSION CODE" if you want to generate code with original sentence in
 You can set a different tree branch for the generated categories, Say "SETTREEBRANCH (YOUR TREEBRANCH PREFIX)" or "SETKWTREEBRANCH (YOUR TREEBRANCH PREFIX)" for keywords' categories. "UNSET TREEBRANCH" or "UNSET KWTREEBRANCH" will remove the old treebranch prefix. <get name="br"/>
 To include a line break edit the category "SET BR", then say it. <get name="br"/>
 "UNSET BR" will remove the old line break.<get name="br"/>
-</template>
-  </category>
-  <category>
-    <pattern>CONNECT</pattern>
-    <template>
-      <think>
+
+CONNECT
+<think>
         <set name="keywording"/>
       </think>
       <srai>NEW SOURCE</srai>
       <srai>HELP</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NS *</pattern>
-    <template>
-      <think>
+
+NS *
+<think>
         <set name="source">Source: <star/></set>
         <set name="it">it</set>
         <set name="they">they</set>
@@ -256,12 +207,9 @@ To include a line break edit the category "SET BR", then say it. <get name="br"/
         <set name="he">he</set>
         <set name="speaker">we</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NS</pattern>
-    <template>
-      <think>
+
+NS
+<think>
         <set name="source"/>
         <set name="it">it</set>
         <set name="they">they</set>
@@ -269,24 +217,18 @@ To include a line break edit the category "SET BR", then say it. <get name="br"/
         <set name="he">he</set>
         <set name="speaker">we</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NEW SOURCE *</pattern>
-    <template>
-      <think>
+
+NEW SOURCE *
+<think>
         <set name="source">Source: <star/></set>
         <set name="it">it</set>
         <set name="they">they</set>
         <set name="she">she</set>
         <set name="he">he</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NEW SOURCE</pattern>
-    <template>
-      <think>
+
+NEW SOURCE
+<think>
         <set name="source"/>
         <set name="it">it</set>
         <set name="they">they</set>
@@ -294,140 +236,87 @@ To include a line break edit the category "SET BR", then say it. <get name="br"/
         <set name="he">he</set>
         <set name="speaker">we</set>
       </think>
-    </template>
-  </category>
-  <!--YOU SHOULD PASTE A URL IN THIS CATEGORY AND say "SET SOURCE" if YOU WANT A LINK TO THE SOURCE-->
-  <category>
-    <pattern>SET SOURCE</pattern>
-    <template>
-      <think>
+
+SET SOURCE
+<think>
         <set name="source">Source: &lt;a href="PASTE-A-URL-HERE"&gt;Source&lt;/a&gt;</set>
         <set name="it">it</set>
         <set name="they">they</set>
         <set name="she">she</set>
         <set name="he">he</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>UNSET SOURCE</pattern>
-    <template>
-      <think>
+
+UNSET SOURCE
+<think>
         <set name="source"/>
         <set name="it">it</set>
         <set name="they">they</set>
         <set name="she">she</set>
         <set name="he">he</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NO PREDICATES</pattern>
-    <template>
-      <think>
+
+NO PREDICATES
+<think>
         <set name="predicating">no</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>USE PREDICATES</pattern>
-    <template>
-      <think>
+
+USE PREDICATES
+<think>
         <set name="predicating"/>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>CREATE KEYWORDS CODE</pattern>
-    <template>
-      <think>
+
+CREATE KEYWORDS CODE
+<think>
         <set name="keywording">yes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>STOP KEYWORDS CODE</pattern>
-    <template>
-      <think>
+
+STOP KEYWORDS CODE
+<think>
         <set name="keywording"/>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>STOP RECURSION CODE</pattern>
-    <template>
-      <think>
+
+STOP RECURSION CODE
+<think>
         <set name="keywording">NORECURSION</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>CREATE RECURSION CODE</pattern>
-    <template>
-      <think>
+
+CREATE RECURSION CODE
+<think>
         <set name="keywording"/>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>SETTREEBRANCH *</pattern>
-    <template>
-      <think>
+
+SETTREEBRANCH *
+<think>
         <set name="treebranch">
           <star/>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>UNSET TREEBRANCH</pattern>
-    <template>
-      <think>
+
+UNSET TREEBRANCH
+<think>
         <set name="treebranch"/>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>SETKWTREEBRANCH *</pattern>
-    <template>
-      <think>
+
+SETKWTREEBRANCH *
+<think>
         <set name="kwtreebranch">
           <star/>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>UNSET KWTREEBRANCH</pattern>
-    <template>
-      <think>
+
+UNSET KWTREEBRANCH
+<think>
         <set name="kwtreebranch"/>
       </think>
-    </template>
-  </category>
-  <!-- <category><pattern>SET BR</pattern><template><think><set name="br"><system>echo -e \\n</system></set></think></template></category> -->
-  <category>
-    <pattern>SET BR</pattern>
-    <template>
-      <think>
+
+SET BR
+<think>
         <set name="br">&lt;br&gt;</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>UNSET BR</pattern>
-    <template>
-      <think>
+
+UNSET BR
+<think>
         <set name="br"/>
       </think>
-    </template>
-  </category>
-  <!--DEVELOPMENT TO REMOVE
-&lt;!- -<srai>ECHO quest: <get name="questions"/></srai>- -&gt;
-<category><pattern>*</pattern><template><star/></template></category>
-<category><pattern>LOGWRITE</pattern><template><system>echo '<get name="result"/>' &gt;&gt; ./aiml/ra.log;</system></template></category>
-<category><pattern>DEBUG *</pattern><template><system>echo '<star/>' &gt;&gt; ./aiml/ra.log;</system></template></category>
-DEVELOPMENT TO REMOVE-->
-  <!--INITIALISATION-->
-  <!--<category><pattern>*</pattern><template><srai>SAVESENTENCE <star/></srai><set name="result"><srai>DAQ <star/></srai></set><srai>LOGWRITE</srai></template></category>-->
-</aiml>
+
+

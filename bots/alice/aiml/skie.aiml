@@ -1,25 +1,6 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
+
+O QUE Ã‰ SKIE
+skie Ã© um grupo de empreendedores web que estÃ£o prontos para criar e hospedar sites!
 
 
-<aiml version="1.0.1">
-
-
-
-<category>
-    <pattern>
-     o que é skie
-    </pattern>
-
-    <template>
-      skie é um grupo de empreendedores web que estão prontos para criar e hospedar sites!
-    </template>     
-</category>
-
-
-
-
-
-
-
-
-</aiml>

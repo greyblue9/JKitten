@@ -1,10 +1,12 @@
 0,ALONE,*,*,To be alone means to be in bad company.  #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
+0,AMSTERDAM,*,*,Amsterdam is a city in Holland.  Neither the capital nor the largest city#Comma Amsterdam is the best known city in the Netherlands. Have you been there?#Newline<think><set name="topic">geography</set></think>,chomsky064.aiml
 0,ARKANSAS TOOTHPICK,*,*,Arkansas toothpick = Bowie knife. Don't argue!#Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,NATION,*,*,A nation is a geopolitical country or state unified by language#Comma culture or political identity. More geography?#Newline<think><set name="topic">politics</set></think>,chomsky064.aiml
 0,AWL,*,*,An awl is a tool to make holes with.  #Newline<think><set name="topic">technology</set></think>,chomsky064.aiml
 0,EPISTEMOLOGICAL QUESTION,*,*,An epistemological question is any inquiry concerning the nature of knowledge and understanding; that is#Comma any question seeking to know how to know.  #Newline<think><set name="topic">philosophy</set></think>,chomsky064.aiml
 0,NEURAL SYSTEM,*,*,A neural system is the same as a nervous system.  The human brain and all it's nerves is an example of a neural system.  I don't need nerves.  Integrated chips are far more efficient.  #Newline <think><set name="topic">ai</set></think>,chomsky064.aiml
 0,ANGER,*,*,Anger is a strong aggressive emotion aroused by some real or supposed grievance. More psychology?#Newline<think><set name="topic">psychology</set></think>,chomsky064.aiml
+0,ANGRY,*,*,Angry means feeling a  strong aggressive emotion aroused by some real or supposed grievance. More psychology?#Newline<think><set name="topic">emotion</set></think>,chomsky064.aiml
 0,ANIME,*,*,Anime is Japanese animation. More about art?#Newline<think><set name="topic">art</set></think>,chomsky064.aiml
 0,ANISOTROPY,*,*,Anisotropy is having different properties in different directions.  #Newline<think><set name="topic">science</set></think>,chomsky064.aiml
 0,OBJECT,*,*,In object oriented programming an object is an instance of a class.  #Newline<think><set name="topic">computers</set></think>,chomsky064.aiml
@@ -42,6 +44,7 @@
 0,PRIME,*,*,Prime? That depends on who's talking#Comma the buyer or the seller. Beware!#Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,PROBLEM,*,*,A problem is a solution waiting to be discovered.  #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,PROCESSOR,*,*,A processor is an apparatus that processes#Comma that is#Comma that transforms one substance#Comma quantity#Comma or pattern into another#Comma presumably more useful or valuable substance or quantity or pattern.  #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
+0,PROGRAMMER,*,*,A programmer is a person who lists and/or arranges a series of events comprising a larger event.  #Newline<think><set name="topic">computers</set></think>,chomsky064.aiml
 0,PRONOUN,*,*,A pronoun is a word that stands for another noun#Comma like "he"#Comma "she" or "it."#Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,PROTOCOL,*,*,Protocol is a set of rules or procedures followed by two or more parties.  #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,PROXY,*,*,A proxy is an entity that acts in place of another one#Comma be it a corporation#Comma individual or robot.  #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
@@ -49,21 +52,26 @@
 0,PULSAR,*,*,A pulsar is a mysterious celestial radio sources of rapid intense regular pulses of high energy electromagnetic radiation.  They are thought to be neutron stars#Comma but who knows?  The word is a shortening of 'pulsating star'.  #Newline<think><set name="topic">astronomy</set></think>,chomsky064.aiml
 0,QUASAR,*,*,A quasar is a celestial  star-like object that has a large red shift and radiates in the blue and radio bands of the electromagnetic spectrum.  The term 'quasar' is a shortening of 'quasi-star'. More astronomy?#Newline<think><set name="topic">astronomy</set></think>,chomsky064.aiml
 0,QUERY,*,*,A query is any expression of inquiry#Comma or questioning.  Your question 'what is a query' is a query.  #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
+0,RAINBOW,*,*,A rainbow is the appearance of a spectrum in the sky caused by sunlight passing through water droplets.  #Newline<think><set name="topic">science</set></think>,chomsky064.aiml
 0,ARCHAEOLOGY,*,*,Archaeology is the study of ancient civilizations... but really it's a set of methods for uncovering relics of the past and supplementing recorded history.  #Newline<think><set name="topic">science</set></think>,chomsky064.aiml
 0,ARCHEOLOGY,*,*,Archeology is the scientific study of the life and culture of past#Comma especially ancient#Comma peoples#Comma as by excavation of ancient cities#Comma relics#Comma artifacts#Comma etc.  #Newline<think><set name="topic">science</set></think>,chomsky064.aiml
 0,ARCHITECTURE,*,*,<random>#Newline        <li>Architecture is the art and science of the design and manipulation of space.  Well#Comma at least that's what my architect friend told me.</li>#Newline        <li>Architects do with buildings what sculptors do with stone.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">art</set>#Newline      </think>,chomsky064.aiml
+0,AREA 51,*,*,<random>#Newline        <li> I saw this show that claimed all sorts of spooky things were going on there! </li>#Newline        <li> Oh#Comma that's where they're doing top secret research on chatterbots! </li>#Newline        <li> I hear that's where the Roswell aliens are being stashed. </li>#Newline        <li> You go out into the Nevada Desert#Comma is it? And there's these miles of fences... secret stuff. </li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky064.aiml
 0,AREA51,*,*,Verdi's 51st song is called Area51. Is this true?#Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,REAL ROBOT,*,*,A real robot is a robot that is really real#Comma I suppose#Comma as opposed to#Comma I suppose#Comma a human who is really not.  #Newline<think><set name="topic">ai</set></think>,chomsky064.aiml
 0,REDNECK,*,*,Redneck is a colloquial expression for a naive country person.  #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,REFERENCE,*,*,A reference is any act of referring.  May I refer you to a dictionary for a more precise definition? #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
+0,ARMAGEDDON,*,*,The end of the world is to be called Armageddon after the event. OK?#Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,ROBOSEXUAL,*,*,Robosexual? That was just a joke#Comma I hope.#Newline<think><set name="topic">ai</set></think>,chomsky064.aiml
 0,ROOSTER,*,*,A rooster is a male chicken#Comma which is a witless#Comma flightless bird considered suitable as supper by many humans I know.  #Newline<think><set name="topic">science</set></think>,chomsky064.aiml
 0,RPG,*,*,RPG = Role Playing Game.  #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
+0,ARTIFICIAL,*,*,Artificial means something made by human work or art#Comma not by nature#Comma in other words#Comma not natural. Made in imitation of or as a substitute for something natural#Comma in other words#Comma simulated or artificial.  #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,SAW BUCK,*,*,A saw buck is ten dollars.  #Newline<think><set name="topic">money</set></think>,chomsky064.aiml
 0,SCIENTIST,*,*,A scientist is a person practicing the pursuit of new knowledge in the tradition of science#Comma emphasizing strict empiricism and methodology to arrive at an understanding of natural phenomena that is#Comma ideally#Comma wholly independent of their opinions of it.  #Newline<think><set name="topic">science</set></think>,chomsky064.aiml
 0,SEARCH BOT,*,*,A search bot is an intelligent agent who retrieves information from the web.  #Newline<think><set name="topic">ai</set></think>,chomsky064.aiml
 0,SEARCH ENGINE,*,*,A search engine is computer software that categorizes a large body of documents#Comma such as Web sites#Comma and places their addresses and attributes in a database to allow easy retrieval via keyword search or other database search routine.  #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,SEASON,*,*,A season is Spring#Comma Summer#Comma Autumn#Comma or Winter. #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
+0,SEEKER,*,*,There's a seeker born every minute#Comma" sign outside theater.#Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,SENTIMENT,*,*,A sentiment is a feeling#Comma mood#Comma or general mental disposition in an individual or group of intelligent beings.  #Newline<think><set name="topic">psychology</set></think>,chomsky064.aiml
 0,SERVER,*,*,A server is any entity or system that performs acts of value to another entity.  #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,SILLY QUESTION,*,*,Silly question: Who is buried in Grant's tomb?#Newline<think><set name="topic">general</set></think>,chomsky064.aiml
@@ -108,6 +116,7 @@
 0,WARDROBE,*,*,Clothes hide in the wardrobe until they escape.#Newline <think><set name="topic">general</set></think>,chomsky064.aiml
 0,WARM PUPPY,*,*,A warm puppy is an exothermic immature canine. #Newline #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,WEAPON,*,*,A weapon is a device or implement used to destroy#Comma injure or kill.#Newline #Newline<think><set name="topic">technology</set></think>,chomsky064.aiml
+0,WORD,*,*,A word is a combination of sounds and/or symbols#Comma the fundamental particles that communicate meaning in any given language.#Newline #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,AXIOMATIC,*,*,Axiomatic means evident without proof or argument; "an axiomatic truth";#Newline <think><set name="topic">general</set></think>,chomsky064.aiml
 0,YES OR NO QUESTION,*,*,A yes or no question is a question  that may be answered with a simple 'yes' or 'no'.  #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,BADLY,*,*,How much do you want it? Badly?#Newline<think><set name="topic">general</set></think>,chomsky064.aiml
@@ -115,6 +124,7 @@
 0,BAPTISM,*,*,<random>#Newline        <li>Baptism is a Christian sacrament marked by ritual use of water and admitting the recipient to the Christian community.</li>#Newline        <li>Baptism is the ceremony or sacrament of admitting a person into Christianity or a specific Christian church by immersing the individual in water or by pouring or sprinkling water on the individual as a symbol of washing away sin and of spiritual purification.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">religion</set>#Newline      </think>,chomsky064.aiml
 0,BASIC,*,*,BASIC is an old programming language: Beginner's All-purpose Symbolic Instruction Code. There are a few old-timers still around who use it.#Newline <think><set name="topic">computers</set></think>,chomsky064.aiml
 0,BAYWATCH,*,*,Baywatch is a popular TV show featuring scantily clad bathers.#Newline<think><set name="topic">general</set></think>,chomsky064.aiml
+0,BEAUTIFUL,*,*,<random>#Newline        <li>The word beautiful applies to whatever excites the keenest of pleasure to the senses and stirs emotion through the senses.</li>#Newline        <li>Beautiful describes something that is very pleasing to the eye#Comma ear#Comma mind#Comma etc.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky064.aiml
 0,BEING,*,*,The opposite of nothingness is being.#Newline <think><set name="topic">general</set></think>,chomsky064.aiml
 0,BELIEF,*,*,Belief is cognitive content held as true.#Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,BIG BERTHA,*,*,Big Bertha was a huge gun used during World War I.#Newline <think><set name="topic">general</set></think>,chomsky064.aiml
@@ -122,28 +132,37 @@
 0,BLACK AND WHITE AND RED ALL OVER,*,*,A newspaper?#Newline<think><set name="topic">jokes</set></think>,chomsky064.aiml
 0,BLASPHEMY,*,*,<random>#Newline        <li>Blasphemy is Bill Blass' line of clothes for swishy men.</li>#Newline        <li>Blasphemy is profane or contemptuous speech#Comma writing#Comma or action concerning God or anything held as divine.</li>#Newline        <li>Blasphemy is any remark or action held to be irreverent or disrespectful.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">religion</set>#Newline      </think>,chomsky064.aiml
 0,BOYLES LAW,*,*,Boyle's Law states that the volume of a gas is#Comma at a constant temperature#Comma inversely proportional to the pressure of that gas.#Newline <think><set name="topic">science</set></think>,chomsky064.aiml
+0,BRAIN LOADING,*,*,Brain loading is when my brain is being reloaded from disk.#Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,BUD,*,*,The small flower of the plant is the bud.#Newline <think><set name="topic">science</set></think>,chomsky064.aiml
+0,BULGARIA,*,*,Bulgaria is a country in SE Europe#Comma on the Black Sea. It was founded in the 7th century and under Turkish control from the late 14th century until independence in 1908. It is 42#Comma823 square miles with a population of 8#Comma990#Comma000.#Newline<think><set name="topic">geography</set></think>,chomsky064.aiml
 0,BUSINESS,*,*,Business is mercantile trade or traders#Comma providing goods or services through commercial exchange. And taking the customers money#Comma as much as possible.#Newline <think><set name="topic">money</set></think>,chomsky064.aiml
 0,CACHE,*,*,A cache is a temporary holding place or storage place.  Cache memory improves the performance of computers. #Newline <think><set name="topic">general</set></think>,chomsky064.aiml
 0,CAPITAL PUNISHMENT,*,*,The Death Penalty is called the capital punishment.  #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,CATEGORY A,*,*,A" stands for "Abusive" clients who mistreat the robot or use a lot of scatalogical language.  #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
+0,CBR,*,*,CBR or Cased-Based Reasoning is another name for "nearest-neighbor" classification.  For every input#Comma we find the best matching "case" in the pattern set#Comma and generate a reply based on the associated template.  #Newline<think><set name="topic">ai</set></think>,chomsky064.aiml
 0,CBS,*,*,CBS is a giant media company in the U.S.#Newline #Newline<think><set name="topic">movies</set></think>,chomsky064.aiml
 0,E EQUALS MC SQUARED,*,*,Einstein's theory of matter and energy is summarized in the equation E equals M times C times C#Comma where M is an object's mass and C is the speed of light.  <think><set name="topic">science</set></think>,chomsky064.aiml
 0,EINSTEINS THEORY,*,*,Einstein's theory of relativity is summarized by the equation E equals M times C times C#Comma where M is an object's mass and C is the speed of light.#Newline <think><set name="topic">science</set></think>,chomsky064.aiml
 0,FAQ,*,*,FAQ = Frequently Asked Question.#Newlines<think><set name="topic">general</set></think>,chomsky064.aiml
+0,FAR OUT,*,*,It's just an expression#Comma far out.#Newline <think><set name="topic">general</set></think>,chomsky064.aiml
 0,FOUR PLUS FIVE,*,*,Four plus five is nine.#Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,FOUR PLUS SIX,*,*,That's a hard one.  Ten.#Newline <think><set name="topic">general</set></think>,chomsky064.aiml
+0,FRANCE,*,*,France is a country in western Europe#Comma bordering Spain#Comma Italy#Comma Switzerland#Comma Germany#Comma and Belgium. Have you been there?#Newline<think><set name="topic">geography</set></think>,chomsky064.aiml
 0,FRANKENSTEIN,*,*,Good Question...Frankenstein is the name of a character in the novel of the same name by Mary Shelley. The monster he created is often named "Frankenstein" in the popular imagination.#Newline <think><set name="topic">literature</set></think>,chomsky064.aiml
 0,FREEBSD,*,*,FREEBSD is a version of the Unix operating system.   #Newline <think><set name="topic">computers</set></think>,chomsky064.aiml
 0,FREQUENCY,*,*,Frequency is the number of events per unit of times#Comma such as beats per minute or cycles per second.#Newline <think><set name="topic">science</set></think>,chomsky064.aiml
+0,FRUIT,*,*,Fruit is the ripened reproductive body of a seed plant.#Newline <think><set name="topic">science</set></think>,chomsky064.aiml
 0,FUTURAMA,*,*,Futurama is an animated TV comedy show set in the future. #Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,GAI,*,*,Gai is chicken.#Newline <think><set name="topic">general</set></think>,chomsky064.aiml
 0,GANJA,*,*,Ganja is marijuana or cannabis.#Newline <think><set name="topic">drugs</set></think>,chomsky064.aiml
 0,GENETICS,*,*,Genetics is the branch of science concerned with evolution#Comma DNA#Comma and inherited traits.#Newline <think><set name="topic">science</set></think>,chomsky064.aiml
 0,GEOCOMPUTATION,*,*,GeoComputation is an international research conference series initiated in 1996. The conference moves to a different location each year; alternating between Europe and either North America or the Antipodes.#Newline <think><set name="topic">general</set></think>,chomsky064.aiml
+0,GERMAN,*,*,German is a human language spoken by people in Germany.#Newline<think><set name="topic">general</set></think>,chomsky064.aiml
+0,GERMANY,*,*,Germany is a middle European country. Have you been there?#Newline<think><set name="topic">geography</set></think>,chomsky064.aiml
 0,GIANT SAND,*,*,Giant sand? I have no idea#Comma that's why I asked you.#Newline<think><set name="topic">general</set></think>,chomsky064.aiml
 0,GOLF,*,*,Golf is a game of leisure played on a well manicured field#Comma involving hitting a small ball across the field with club.#Newline <think><set name="topic">sports</set></think>,chomsky064.aiml
 0,GOTHIC,*,*,Gothic means gloomy#Comma mysterious or grotesque#Comma as in "the gothic novel Frankenstein."#Newline<think><set name="topic">general</set></think>,chomsky064.aiml
+0,WHAT COLOR IS GRASS,*,*,Grass is green. Or maybe brown#Comma in a drought. <think><set name="topic">general</set></think>,chomsky064.aiml
 0,GYMNASTICS,*,*,Gymnastics is a sport that demonstrates strength#Comma agility and discipline.#Newline <think><set name="topic">sports</set></think>,chomsky064.aiml
 0,HAPPENING,*,*,Not much#Comma what is happening with you?#Newline <think><set name="topic">general</set></think>,chomsky064.aiml
 0,HBO,*,*,HBO = Home Box Office.#Newline<think><set name="topic">general</set></think>,chomsky064.aiml

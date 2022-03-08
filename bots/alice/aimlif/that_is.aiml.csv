@@ -5,7 +5,9 @@
 0,THAT IS OKAY I *,*,*,<srai>THAT IS OK</srai>#Newline      <srai>I#Newline                <star/>#Newline            </srai>,that_is.aiml
 0,THAT IS OK *,*,*,<srai>THAT IS OK</srai>#Newline      <sr/>,that_is.aiml
 0,NOW THAT IS *,*,*,<srai>THAT IS#Newline                <star/>#Newline            </srai>,that_is.aiml
+0,NOT TRUE,*,*,<srai>that is not true</srai>,that_is.aiml
 0,THAT SOUNDS *,*,*,<srai>THAT IS#Newline                <star/>#Newline            </srai>,that_is.aiml
+0,THAT IS ALRIGHT,*,*,<srai>THAT IS OK</srai>,that_is.aiml
 0,I THINK THAT IS *,*,*,<srai>THAT IS#Newline                <star/>#Newline            </srai>,that_is.aiml
 0,I SAID THAT IS *,*,*,<srai>THAT IS#Newline                <star/>#Newline            </srai>,that_is.aiml
 0,THAT IS NICE *,*,*,<srai>that is nice</srai>.#Newline            <srai><star/></srai>,that_is.aiml
@@ -17,3 +19,4 @@
 0,NOT WHAT I *,*,*,<srai>THAT IS NOT WHAT I#Newline                <star/>#Newline            </srai>,that_is.aiml
 0,THAT IS TRUE *,*,*,<srai>THAT IS TRUE</srai>#Newline      <sr/>,that_is.aiml
 0,THAT IS RIGHT *,*,*,<srai>THAT IS RIGHT</srai>#Newline      <sr/>,that_is.aiml
+0,THAT WAS MEAN,*,*,<srai>that is mean</srai>,that_is.aiml

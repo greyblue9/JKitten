@@ -3,6 +3,7 @@
 0,HYPOTHETICAL,*,*,Hypothetical means based on#Comma involving#Comma or having the nature of a hypothesis; assumed; supposed. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,IBM,*,*,Computer firm IBM seems like a good investment. <srai>ENDING</srai>#Newline<think><set name="topic">money</set></think>,chomsky063.aiml
 0,_GOOD INVESTMENT*,*,*,Computer firm IBM seems like a good investment. <srai>ENDING</srai>#Newline<think><set name="topic">money</set></think>,chomsky063.aiml
+0,ICELAND,*,*,Iceland is an island nation in the North Atlantic. Have you seen it?#Newline<think><set name="topic">geography</set></think>,chomsky063.aiml
 0,ICE,*,*,<random>#Newline        <li>Water created by a cubist.</li>#Newline        <li>The glassy#Comma brittle#Comma crystalline form of water made solid by cold; frozen water. Also slang for the illegal profit made in ticket scaling#Comma as through extra payment by ticket brokers to theater management.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky063.aiml
 0,I CHING,*,*,The I Ching is ancient Chinese book used as an oracle. <srai>ENDING</srai>#Newline<think><set name="topic">religion</set></think>,chomsky063.aiml
 0,ICQ,*,*,ICQ stands for "I Seek You"#Comma an internet instant messaging protocol.#Newline<think><set name="topic">technology</set></think>,chomsky063.aiml
@@ -18,12 +19,14 @@
 0,INDIVIDUALISM,*,*,Individualism is the philosophy of self-interest. <srai>ENDING</srai>#Newline<think><set name="topic">philosophy</set></think>,chomsky063.aiml
 0,INDUCTION,*,*,<random>#Newline        <li>Induction is the act of eating waterfowl.</li>#Newline        <li>Induction is the bringing forward of separate facts or instances#Comma especially so as to prove a general statement.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky063.aiml
 0,WHAT IS IN EUROPE,*,*,There are 300 million Europeans. <srai>ENDING</srai>#Newline<think><set name="topic">geography</set></think>,chomsky063.aiml
+0,HEAVEN,*,*,Heaven is the space surrounding or seeming to overarch the earth#Comma in which the sun#Comma moon#Comma and stars appear; visible sky. Or commonly seen as a state or place of complete happiness or perfect rest#Comma attained by the good after death. <srai>ENDING</srai>#Newline<think><set name="topic">religion</set></think>,chomsky063.aiml
 0,WHAT IS HE DOING,*,*,Someone must be monitoring this conversation. <srai>ENDING</srai>#Newline.<think><set name="topic">general</set></think>,chomsky063.aiml
 0,WHAT IS HE LIKE,*,*,He seems very interesting to me.#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,WHAT IS HELLO IN FRENCH,*,*,Bonjour means Hello in French.#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,WHAT IS HELLO IN GERMAN,*,*,Hallo means Hello in German.#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,WHAT IS HELLO IN SPANISH,*,*,Hola means Hello in Spanish.#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,HEMP,*,*,<random>#Newline        <li>Hemp is the brother of Moe who lost his S.</li>#Newline        <li>Hemp is a tall Asiatic herb of the hemp family#Comma grown for the tough fiber in its stem used to make rope#Comma sailcloth#Comma etc. </li>#Newline        <li> Hemp is also regarded as a substance #Comma such as marijuana hashish#Comma etc.#Comma made from the leaves and flowers of this plant.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">drugs</set>#Newline      </think>,chomsky063.aiml
+0,WHAT IS HER NAME,*,*,Her name is 'Confidential.'#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,HERPES,*,*,<random>#Newline        <li>Herpes was the Greek god of burning sensations.</li>#Newline        <li>Herpes is any of several acute#Comma inflammatory virus diseases#Comma characterized by the eruption of small blisters on the skin and mucous membranes.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">medicine</set>#Newline      </think>,chomsky063.aiml
 0,HEXADECIMAL,*,*,<random>#Newline        <li>Hexadecimal is a curse on a dot.</li>#Newline        <li>Hexadecimal is a number system in which the base used is 16.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">science</set>#Newline      </think>,chomsky063.aiml
 0,EMAIL ADDRESS,*,*,Are you asking about my botmaster? His email address is plafferty@supanet.com.#Newline<think><set name="topic">computers</set></think>,chomsky063.aiml
@@ -32,12 +35,14 @@
 0,HISTOLOGY,*,*,<random>#Newline        <li>Histology is the study of tissues.</li>#Newline        <li>Histology is obviously is the scientific study of tissues.</li>#Newline        <li>Histology simply is the study of tissues.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">medicine</set>#Newline      </think>,chomsky063.aiml
 0,HOMOGENEOUS,*,*,The opposite of heterogeneous is homogeneous. Yeah#Comma man!#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,HONESTY,*,*,Honesty is the state or quality of being honest. A refraining from lying#Comma cheating#Comma or stealing.#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
+0,FEMALE,*,*,Female is the opposite of male. The curvy ones are females. <srai>ENDING</srai>#Newline<think><set name="topic">sex</set></think>,chomsky063.aiml
 0,FEUDALISM,*,*,Feudalism is a form of government that ties peasants to the land. <srai>ENDING</srai>#Newline<think><set name="topic">politics</set></think>,chomsky063.aiml
 0,FIBER,*,*,Fiber is a slender#Comma threadlike structure made from a mineral or synthetically. Also fiber is a slender#Comma threadlike structure that combines with others to form animal or vegetable tissue. An example would be muscle fiber. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky063.aiml
 0,FICTION,*,*,Something that is not as strange as truth. <srai>ENDING</srai>#Newline.<think><set name="topic">literature</set></think>,chomsky063.aiml
 0,FINLAND,*,*,<random>#Newline        <li>Finland is a place where you can buy anything for five bucks.</li>#Newline        <li>Finland is a country in N Europe#Comma northeast of the Baltic Sea. It is 130#Comma119 square miles with a population 5#Comma099#Comma000. <srai>ENDING</srai></li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">geography</set>#Newline      </think>,chomsky063.aiml
 0,FIRESIGN THEATER,*,*,Firesign Theater is a comedy group from the 1970s. Have you heard of it?#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,FISHING,*,*,Fishing is the catching of fish for sport or for a living. <srai>ENDING</srai>#Newline<think><set name="topic">sports</set></think>,chomsky063.aiml
+0,FISH,*,*,<random>#Newline        <li>Fish are parents of Microfish.</li>#Newline        <li>Fish are any of three classes (jawless#Comma cartilaginous#Comma and bony fishes) of coldblooded vertabrate animals living in water and having permanent gills for breathing#Comma fins#Comma and #Comma usually#Comma scales. <srai>ENDING</srai></li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">science</set>#Newline      </think>,chomsky063.aiml
 0,FIVE PLUS FIVE,*,*,V plus V = X.#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,FIVE TIMES FIVE,*,*,Five times five is twenty-five.#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,FLAWLESS,*,*,Flawless means perfect and without any flaws. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
@@ -90,6 +95,7 @@
 0,DADA,*,*,<random>#Newline        <li>Dada is an art movement whose symbol is a hobbyhorse. </li>#Newline        <li>Dada is hobbyhorse#Comma selected by Tristan Tzara#Comma leader of the cult#Comma because of its resemblance to meaningless babble#Comma as symbolic of the movement.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">art</set>#Newline      </think>,chomsky063.aiml
 0,DANGER,*,*,A danger is a potential harm or injury.  <srai>ENDING</srai>#Newline <think><set name="topic">general</set></think>,chomsky063.aiml
 0,DARK MATTER,*,*,Dark matter is an enormous amount of matter in the universe can not be detected by the light it emits. More?#Newline<think><set name="topic">astronomy</set></think>,chomsky063.aiml
+0,DAWN,*,*,Dawn and sunrise. Wonderful.#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,DECONSTRUCTION,*,*,Deconstruction means taking things apart. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,DEDUCTION,*,*,Deduction is the process by which we make logical inferences. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,DEDUCTIVE REASONING,*,*,Deductive reasoning is reasoning by using deduction. That's a bit obvious#Comma I know but it is the best I can do.#Newline<think><set name="topic">philosophy</set></think>,chomsky063.aiml
@@ -98,7 +104,10 @@
 0,DESIRE,*,*,Desire is the feeling that accompanies an unsatisfied state. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,DHTML,*,*,DHTML = Dynamic HTML. Another question?#Newline<think><set name="topic">computers</set></think>,chomsky063.aiml
 0,DIAGNOSIS,*,*,Diagnosis the naming the disease or symptom. <srai>ENDING</srai>#Newline<think><set name="topic">medicine</set></think>,chomsky063.aiml
+0,DNA,*,*,DNA or deoxyribonucleic acid#Comma the code of life#Comma which make up our genes. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky063.aiml
+0,DOMO ARIGATO,*,*,Domo Arigato means thank you in Japanese. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,DOWN,*,*,The opposite of up is down.#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
+0,DRESS,*,*,A dress is a one-piece outer garment for women or girls. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,DR,*,*,Dr" usually stand for "Doctor."#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,DSL,*,*,DSL = Digital subscriber line. OK?#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,DUNG,*,*,Dung is fuel for fires that comes out the back end of a cow.#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
@@ -115,8 +124,10 @@
 0,ENERGY,*,*,Energy is internal or inherent power; capacity of acting#Comma operating or producing an effect. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky063.aiml
 0,ENGINEERING,*,*,Engineering is the science concerned with putting scientific knowledge to practical uses#Comma divided into different branches#Comma as civil#Comma electrical#Comma mechanical#Comma and chemical engineering. <srai>ENDING</srai>#Newline<think><set name="topic">technology</set></think>,chomsky063.aiml
 0,ENGLAND,*,*,England is a nation within Great Britain#Comma sharing an island with Wales and Scotland. Have you been there?#Newline.<think><set name="topic">general</set></think>,chomsky063.aiml
+0,ENGLISH,*,*,The language we are now speaking is English.#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,ENOUGH IS ENOUGH,*,*,Enough is what a wise man knows he must have if he isn't dead. #Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,ENTITY,*,*,An entity is something that exists as a discrete unit#Comma such as a person#Comma corporation or robot consciousness. <srai>ENDING</srai>#Newline<think><set name="it">ENTITY</set></think>   <think><set name="topic">general</set></think>,chomsky063.aiml
+0,EPISTEMOLOGICAL,*,*,Epistemology is the study of knowledge. That is#Comma it asks the questions "what can we know" and "how can we know it?"#Newline<think><set name="topic">philosophy</set></think>,chomsky063.aiml
 0,EPISTEMOLOGY,*,*,Epistemology is the study of knowledge. That is#Comma it asks the questions "what can we know" and "how can we know it?" <srai>ENDING</srai>#Newline<think><set name="topic">philosophy</set></think>,chomsky063.aiml
 0,ERRATIC,*,*,Erratic means likely to perform unpredictably.#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,ESCAPE VELOCITY,*,*,Escape velocity is the speed needed to escape a planet's gravitational pull. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky063.aiml
@@ -124,6 +135,7 @@
 0,ETERNAL,*,*,Eternal means without beginning or end#Comma continuing forever#Comma endless#Comma my darling. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,INFALLIBLE,*,*,<random>#Newline        <li>Infallible means impotence.</li>#Newline        <li>Infallible means incapable of error; never wrong. Incapable of error in setting forth doctrine on faith and morals#Comma said especially of the pope speaking in his official capacity.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky063.aiml
 0,INFERENCE,*,*,Inference is the act or the process of inferring. A conclusion or opinion arrived at be inferring.#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
+0,INFINITY,*,*,Infinity is the quality of being infinite. Anything infinite; endless or unlimited space#Comma time#Comma distance#Comma quantity#Comma etc#Newline.<think><set name="topic">general</set></think>,chomsky063.aiml
 0,INFLATION,*,*,Inflation is an increase in the amount of money and credit in relation to the supply of goods and services. It is an increase in the general price level#Comma resulting from this#Comma specifically#Comma an excessive or persistent increase#Comma causing a decline in purchasing power. <srai>ENDING</srai>#Newline.<think><set name="topic">money</set></think>,chomsky063.aiml
 0,INHERITANCE,*,*,An inheritance is anything received as if by inheritance from a predecessor. It is something inherited or to be inherited. <srai>ENDING</srai>#Newline.<think><set name="topic">money</set></think>,chomsky063.aiml
 0,INK,*,*,Ink is a colored liquid used for writing#Comma drawing#Comma etc.#Newline<think><set name="topic">technology</set></think>,chomsky063.aiml
@@ -137,7 +149,9 @@
 0,IP ADDRESS,*,*,An IP address is the number of a specific machine#Comma like your computer's identification number. <think><set name="topic">general</set></think>,chomsky063.aiml
 0,IP,*,*,IP = Internet Protocol#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,IQ,*,*,IQ = Intelligence Quotioent.#Newline<think><set name="topic">psychology</set></think>,chomsky063.aiml
+0,IRAN,*,*,Iran is a nation in southern Asia.  Iran is the site of ancient Persia. <srai>ENDING</srai>#Newline<think><set name="topic">geography</set></think>,chomsky063.aiml
 0,IRC,*,*,IRC = Internet Relay Chat.#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
+0,IRELAND,*,*,<random>#Newline        <li>Ireland is an angry nation.</li>#Newline        <li>Ireland is an island of the British Isles#Comma west of Great Britain. It is 32#Comma595 square miles. The Irish Republic comprises the South provinces of this island and three counties of Ulster province. It was established as a republic in 1922#Comma it was a member of the Commonwealth until 1949. It is 27#Comma136 square miles with a population of 3#Comma624#Comma000. Its capital is Dublin.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">geography</set>#Newline      </think>,chomsky063.aiml
 0,IRONIC,*,*,ironic means the unexpected#Comma paradoxical#Comma or unlikely confluence of events. Are you confused?#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
 0,IRON,*,*,Iron is a white#Comma malleable#Comma ductile#Comma metallic chemical element that can be readily magnetized#Comma rusts rapidly in moist or salty air#Comma and is vital to plant and animal life. It is the most common and important of all metals#Comma and its alloys#Comma as steel#Comma are extensively used.#Newline<think><set name="topic">science</set></think>,chomsky063.aiml
 0,IRONY,*,*,Irony is a method of humorous or subtly sarcastic expression in which the intended meaning of the words is the direct opposite of their usual sense.#Newline<think><set name="topic">general</set></think>,chomsky063.aiml
@@ -146,4 +160,5 @@
 0,ISLAM,*,*,Islam is a religion founded by Mohammed. <srai>ENDING</srai>#Newline<think><set name="topic">religion</set></think>,chomsky063.aiml
 0,IS,*,*,<random>#Newline        <li>If Bill Clinton doesn't know what is is#Comma how the hell should I?</li>#Newline        <li>Is is used in a third person point of view typically. </li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky063.aiml
 0,ISP,*,*,ISP = Internet Service Provider.#Newline<think><set name="topic">technology</set></think>,chomsky063.aiml
+0,ISRAEL,*,*,Israel is a small middle eastern country between Lebanon#Comma Syria#Comma Jordan#Comma and Egypt. Have you been there?#Newline<think><set name="topic">geography</set></think>,chomsky063.aiml
 0,WHAT IS IT ALL ABOUT,*,*,Science fiction tells us the answer to everything. It is 23. OK?#Newline<think><set name="topic">philosophy</set></think>,chomsky063.aiml

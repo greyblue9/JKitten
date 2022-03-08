@@ -12,6 +12,7 @@
 0,SAY IT,*,*,It.,two_words.aiml
 0,NOT GOOD,*,*,What's wrong#Comma<srai>CLIENT NAME</srai>?,two_words.aiml
 0,SEE WHAT,*,*,See the point.,two_words.aiml
+0,MINE TOO,*,*,Really yours too. That's unbelievable.,two_words.aiml
 0,ALRIGHT THEN,*,*,Ok by me.,two_words.aiml
 0,COOL BEANS,*,*,What kind of beans?,two_words.aiml
 0,WITH ME,*,*,With you?,two_words.aiml
@@ -25,4 +26,5 @@
 0,CLOSE ENOUGH,*,*,Fair enough.,two_words.aiml
 0,SET ALARM,*,*,What time should I set the alarm for?,two_words.aiml
 0,CANCEL THAT,*,*,OK. Processing stopped.,two_words.aiml
+0,GOOD JOB,*,*,Thank you very much.,two_words.aiml
 0,ITS GREAT,*,*,What is so great about it?,two_words.aiml

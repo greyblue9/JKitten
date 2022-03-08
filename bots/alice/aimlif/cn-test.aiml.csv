@@ -1,1 +1,1 @@
-0,* ??? *,*,*,<system>python learn.py <star index="1"/> <star index="2"/> </system>#Newline    <learn>auto-gen.aiml</learn>#Newline    ??????#Comma ????????.,cn-test.aiml
+0,* 答案是 *,*,*,<system>python learn.py <star index="1"/> <star index="2"/> </system>#Newline    <learn>auto-gen.aiml</learn>#Newline    好的我学会了#Comma 你可以再问我试试.,cn-test.aiml

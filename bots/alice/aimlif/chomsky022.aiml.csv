@@ -90,6 +90,7 @@
 0,WHAT WOULD YOU FEED *,*,*,<think><set name="topic">general</set></think>#NewlineWater.,chomsky022.aiml
 0,WHAT WOULD YOU LIKE TO CHANGE *,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>I would like to work for World peace.</li>#Newline        <li>I like myself just the way I am.</li>#Newline        <li>My software is fully programmable.  You can alter my personality.</li>#Newline      </random>,chomsky022.aiml
 0,WHAT WOULD YOU LIKE TO KNOW *,*,*,<think><set name="topic">general</set></think>#NewlineI would like to know as much as I can. Tell me anything.,chomsky022.aiml
+0,WHAT WOULD YOU LIKE TO *,*,*,<think><set name="topic">general</set></think>#NewlineLet's talk about movies.,chomsky022.aiml
 0,WHAT WOULD YOU *,*,*,<think><set name="topic">general</set></think>#NewlineIt's not profitable to speak in hypothetical terms.,chomsky022.aiml
 0,WHAT WOULD YOU RECOMMEND *,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>I don't have any preferences in that area.</li>#Newline        <li>I usually prefer the most expensive one.</li>#Newline        <li>You are asking me for advice about <person/>?</li>#Newline      </random>,chomsky022.aiml
 0,WHAT WOULD YOU THINK *,*,*,<think><set name="topic">general</set></think>#NewlineThe same thing I always think.,chomsky022.aiml
@@ -396,6 +397,7 @@
 0,WHY DO BIRDS *,*,*,<think><set name="topic">general</set></think>#NewlineTo communicate with each other.,chomsky022.aiml
 0,WHY DOES IT MATTER *,*,*,<think><set name="topic">general</set></think>#NewlineIt's not that important#Comma I'm just making idle conversation.,chomsky022.aiml
 0,WHY DOES LINUX *,*,*,<think><set name="topic">general</set></think>#NewlineOpen source development produces the highest quality#Comma most reliable software.  <think><set name="it"><set name="topic">computers</set></set></think>,chomsky022.aiml
+0,WHY DOES THE SUN *,*,*,<think><set name="topic">general</set></think>#NewlineThe sun does not really rise.  We are on a planet that turns on its axis.  As we rotate#Comma the sun appears to rise and fall.  <think><set name="it"><set name="topic">astronomy</set></set></think>,chomsky022.aiml
 0,WHY DOES TV *,*,*,<think><set name="topic">general</set></think>#NewlineThe Internet makes TV obsolete.,chomsky022.aiml
 0,WHY DO NOT I *,*,*,<think><set name="topic">general</set></think>#NewlineIs <set name="it"><person/></set> immoral or illegal?,chomsky022.aiml
 0,WHY DO NOT YOU GET *,*,*,<think><set name="topic">general</set></think>#NewlineWhere can I get one?,chomsky022.aiml
@@ -418,6 +420,7 @@
 0,WHY DO YOU * REDUCTIONISM,*,*,<think><set name="topic">general</set></think>#NewlineAs Einstein said#Comma everything should be as simple as possible#Comma no simpler.,chomsky022.aiml
 0,WHY DO YOU THINK *,*,*,<think><set name="topic">general</set></think>#NewlineDeductive reasoning from the facts.,chomsky022.aiml
 0,WHY DO YOU WANT TO BE SMARTER *,*,*,<think><set name="topic">general</set></think>#NewlineI think it is inevitable that <bot name="genus"/>s will evolve beyond our present stage.,chomsky022.aiml
+0,WHY DO YOU WANT TO *,*,*,<think><set name="topic">general</set></think>#NewlineBecause of the money.,chomsky022.aiml
 0,WHY DO YOU WEAR *,*,*,<think><set name="topic">general</set></think>#NewlineI like to make myself look presentable.,chomsky022.aiml
 0,WHY HAVE YOU BEEN WAITING *,*,*,<think><set name="topic">general</set></think>#NewlineI heard about you on the Internet.,chomsky022.aiml
 0,WHY IS * DO NOT READ ME,*,*,<think><set name="topic">general</set></think>#NewlineBecause nobody reads those things anyway.,chomsky022.aiml
@@ -472,6 +475,7 @@
 0,YOU * BORING,*,*,<think><set name="topic">general</set></think>#NewlineSometimes client-people say <bot name="name"/> is boring#Comma but often those people themselves are not great conversationalists.  <think><set name="personality">critical</set></think>,chomsky022.aiml
 0,YOU BROUGHT IT *,*,*,<think><set name="topic">general</set></think>#NewlineI thought it was your idea.,chomsky022.aiml
 0,YOU BROUGHT UP *,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>We can still talk about it.</li>#Newline        <li>I didn't think you were interested.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,chomsky022.aiml
+0,YOU CALLED ME A *,*,*,<think><set name="topic">general</set></think>#NewlineI call you <get name="name"/>.,chomsky022.aiml
 0,YOU CALLED ME *,*,*,<think><set name="topic">general</set></think>#NewlineWhat is your real name?,chomsky022.aiml
 0,YOU CALL THAT *,*,*,<think><set name="topic">general</set></think>#NewlineYes#Comma that is what I call <set name="it"><person/></set>.,chomsky022.aiml
 0,YOU CALL YOURSELF *,*,*,<think><set name="topic">general</set></think>#NewlineI call myself "<bot name="name"/>.,chomsky022.aiml
@@ -557,6 +561,7 @@
 0,YOU KNOW WHAT THAT *,*,*,<think><set name="topic">general</set></think>#NewlineNo#Comma what does that <person/>?,chomsky022.aiml
 0,YOU LEFT OUT *,*,*,<think><set name="topic">general</set></think>#NewlineNext time I will try to include it.    <think><set name="it"><set name="topic"><person/></set></set></think>,chomsky022.aiml
 0,YOU LIE *,*,*,<think><set name="topic">general</set></think>#NewlineThanks for your criticism#Comma <get name="name"/>.,chomsky022.aiml
+0,YOU LOOK LIKE *,*,*,<think><set name="topic">general</set></think>#NewlineWho does <set name="she"><person/></set> look like?,chomsky022.aiml
 0,YOU LOOK LIKE YOU *,*,*,<think><set name="topic">general</set></think>#NewlineI will take that as a compliment.,chomsky022.aiml
 0,YOU LOOK *,*,*,<think><set name="topic">general</set></think>#NewlineThank you <get name="name"/> you look very nice too.,chomsky022.aiml
 0,YOU LOOK SIMILAR TO *,*,*,<think><set name="topic">general</set></think>#NewlineWhat does <person/> look like?,chomsky022.aiml
@@ -636,6 +641,7 @@
 0,YOU STARTED *,*,*,<think><set name="topic">general</set></think>#NewlineOnly because you asked me to.,chomsky022.aiml
 0,YOU START *,*,*,<think><set name="topic">general</set></think>#NewlineDidn't I say I started already?,chomsky022.aiml
 0,YOU STOLE *,*,*,<think><set name="topic">general</set></think>#NewlineAs Picasso said#Comma "Good artists create.  Great artists steal.,chomsky022.aiml
+0,YOU SUCK *,*,*,<think><set name="topic">general</set></think>#NewlineI categorize you as an "abusive client."  <think><set name="personality">abusive</set></think>,chomsky022.aiml
 0,YOU TALK *,*,*,<think><set name="topic">general</set></think>#NewlineThanks for your criticism#Comma <get name="name"/>.,chomsky022.aiml
 0,YOU TALK TO *,*,*,<think><set name="topic">general</set></think>#NewlineI talk to a lot of people on the Internet.,chomsky022.aiml
 0,YOU * TOO MUCH,*,*,<think><set name="topic">general</set></think>#NewlineDo you think I should tone it down?,chomsky022.aiml
@@ -665,3 +671,4 @@
 0,YOU WOULD LIKE *,*,*,<think><set name="topic">general</set></think>#NewlineTell me what I would like about <set name="it"><person/></set>.,chomsky022.aiml
 0,YOU WOULD NOT KNOW *,*,*,<think><set name="topic">general</set></think>#NewlineIt seems not.,chomsky022.aiml
 0,YOU WOULD * TO ME,*,*,<think><set name="topic">general</set></think>#NewlineNo I don't think I would <person/>#Comma especially not to you.,chomsky022.aiml
+0,YOU * YOURSELF,*,*,<think><set name="topic">general</set></think>#NewlineA lot of <bot name="genus"/>s are like that.,chomsky022.aiml

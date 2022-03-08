@@ -1,297 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<aiml version="1.0">
+BRING BACK
+<srai>RTNS</srai>
 
-<!--Copyright 2011-2012 David W. Newyear-->
+BRINGING BACK
+<srai>RTNS</srai>
 
- <!-- Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
+BROUGHT BACK
+<srai>RTNS</srai>
 
-      http://www.apache.org/licenses/LICENSE-2.0
+RETURN
+<srai>RTNS</srai>
 
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.-->
-  
-<category>
-<pattern>BRING BACK</pattern>
-<template><srai>RTNS</srai></template>
-</category>
+RETURNS
+<srai>RTNS</srai>
 
-<category>
-<pattern>BRINGING BACK</pattern>
-<template><srai>RTNS</srai></template>
-</category>
+RETURNED
+<srai>RTNS</srai>
 
-<category>
-<pattern>BROUGHT BACK</pattern>
-<template><srai>RTNS</srai></template>
-</category>
-
-<category>
-<pattern>RETURN</pattern>
-<template><srai>RTNS</srai></template>
-</category>
-
-<category>
-<pattern>RETURNS</pattern>
-<template><srai>RTNS</srai></template>
-</category>
-
-<category>
-<pattern>RETURNED</pattern>
-<template><srai>RTNS</srai></template>
-</category>
-
-<category>
-<pattern>RETURNING</pattern>
-<template><srai>RTNS</srai></template>
-</category>
+RETURNING
+<srai>RTNS</srai>
 
 <topic name="RETURNS">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
-</topic>
+<srai>RTRNS2</srai>
 
-<category>
-<pattern>* BRING BACK</pattern>
-<template>
+
+* BRING BACK
 <think>
 <set name="answr"><star/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-<category>
-<pattern>BRING BACK *</pattern>
-<template>
+BRING BACK *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-<category>
-<pattern>* BRING BACK *</pattern>
-<template>
+* BRING BACK *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-<category>
-<pattern>* BRINGING BACK</pattern>
-<template>
+* BRINGING BACK
 <think>
 <set name="answr"><star/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-<category>
-<pattern>BRINGING BACK *</pattern>
-<template>
+BRINGING BACK *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-
-<category>
-<pattern>* BRINGING BACK *</pattern>
-<template>
+* BRINGING BACK *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-
-<category>
-<pattern>* BROUGHT BACK</pattern>
-<template>
+* BROUGHT BACK
 <think>
 <set name="answr"><star/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-
-<category>
-<pattern>BROUGHT BACK *</pattern>
-<template>
+BROUGHT BACK *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-<category>
-<pattern>* BROUGHT BACK *</pattern>
-<template>
+* BROUGHT BACK *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-
-<category>
-<pattern>* RETURN</pattern>
-<template>
+* RETURN
 <think>
 <set name="answr"><star/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-
-<category>
-<pattern>RETURN *</pattern>
-<template>
+RETURN *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-
-<category>
-<pattern>* RETURN *</pattern>
-<template>
+* RETURN *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-
-<category>
-<pattern>* RETURNS</pattern>
-<template>
+* RETURNS
 <think>
 <set name="answr"><star/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-
-<category>
-<pattern>RETURNS *</pattern>
-<template>
+RETURNS *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-
-<category>
-<pattern>* RETURNS *</pattern>
-<template>
+* RETURNS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-
-<category>
-<pattern>* RETURNED</pattern>
-<template>
+* RETURNED
 <think>
 <set name="answr"><star/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-
-<category>
-<pattern>RETURNED *</pattern>
-<template>
+RETURNED *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-
-<category>
-<pattern>* RETURNED *</pattern>
-<template>
+* RETURNED *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-
-<category>
-<pattern>* RETURNING</pattern>
-<template>
+* RETURNING
 <think>
 <set name="answr"><star/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-
-<category>
-<pattern>RETURNING *</pattern>
-<template>
+RETURNING *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
-
-<category>
-<pattern>* RETURNING *</pattern>
-<template>
+* RETURNING *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">RETURNS2</set>
 </think>
-<srai>RTRNS2</srai></template>
-</category>
+<srai>RTRNS2</srai>
 
 <topic name="RETURNS2">
-<category>
-<pattern>RTRNS2</pattern>
-<template>
+RTRNS2
 <think>
 <get name="answr"/>
 <set name="message">no match</set>
@@ -570,14 +457,14 @@
 <li value="* OVERDRIVE *"><set name="message">ebook returns</set></li>
 
 </condition>
-<think><set name="topic"></set></think>
+<think><set name="topic"/></think>
 </think>
  
 <condition name="message">
 
-<li value="stop"><set name="topic"></set>O.K. I'll stop.</li>
+<li value="stop"><set name="topic"/>O.K. I'll stop.</li>
 
-<li value="no match"><set name="topic"></set><srai>NOMATCH</srai></li>
+<li value="no match"><set name="topic"/><srai>NOMATCH</srai></li>
 
 <li value="late return"><srai>LATE RTRN</srai> <srai>FNSMRY</srai></li>
 
@@ -598,9 +485,6 @@
 <li value="bookdrops"><srai>BKDRPS</srai></li>
 
 </condition>
-</template>
-</category>
-</topic>
 
 
-</aiml>
+

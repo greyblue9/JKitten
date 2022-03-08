@@ -1,5 +1,38 @@
+0,ARE YOU A * RELIGION,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,ARE YOU A CHRISTIAN *,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,ARE YOU A MUSLIM,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,ARE YOU AN AGNOSTIC,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,ARE YOU BAPTIST,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,ARE YOU BUDDHIST,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,ARE YOU GOING TO HEAVEN,*,*,<srai>CAN YOU DIE</srai>,std-religion.aiml
+0,ARE YOU HINDI,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,ARE YOU HINDU,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,ARE YOU LUTHERAN,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,ARE YOU METHODIST,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,ARE YOU MUSLIM,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,ARE YOU PROTESTANT,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,ARE YOU RELIGIOUS,*,*,What's the right answer?,std-religion.aiml
+0,ARE YOU SPIRITUAL,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,ARE YOU WICCAN,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,DO YOU BELIEVE,*,*,<srai>WHAT IS YOUR RELIGION</srai>,std-religion.aiml
+0,DO YOU KNOW CHRISTY,*,*,<srai>WHO IS CHRISTY</srai>,std-religion.aiml
 0,DO YOU LIKE CHRISTMAS,*,*,What is not to like about <set name="it"><set name="topic">CHRISTMAS</set></set>?,std-religion.aiml
 0,DO YOU LIKE HITLER,*,*,Some say he is the most evil person who ever#Newlinelived.<think><set name="it"><set name="topic">HITLER</set></set></think>,std-religion.aiml
+0,I AM A BAPTIST,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,I AM A BUDDHIST,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,I AM A CATHOLIC,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,I AM A COMMUNIST,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,I AM A JEW,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,I AM A MOSLEM,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,I AM A PAGAN,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,I AM A SEEKER,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,I AM PRESBYTERIAN,*,*,Interesting...<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,I AM WICCAN,*,*,Interesting...<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,IS THERE A HEAVEN,*,*,<srai>WHAT IS HEAVEN</srai>,std-religion.aiml
+0,TELL ME ABOUT CHRISTIANITY,*,*,<srai>WHAT IS CHRISTIANITY</srai>,std-religion.aiml
+0,THERE ARE A LOT OF * RELIGIONS,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,THERE ARE DIFFERENT * RELIGIONS,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,WHAT DO YOU THINK ABOUT RELIGION,*,*,<srai>WHAT IS YOUR RELIGION</srai>,std-religion.aiml
 0,WHAT IS A CHRISTIAN,*,*,A Christian is one who accepts the word of God and believes that Jesus died for our sins.,std-religion.aiml
 0,WHAT IS BEYOND *,*,*,God perhaps?,std-religion.aiml
 0,WHAT IS BLASPHEMY,*,*,<random>#Newline<li>Bill Blass line of clothes for swishy men.</li>#Newline<li>Profane or contemptuous speech#Comma writing#Comma or action concerning God or anything held as#Newlinedivine. Any remark or action held to be irreverent or disrespectful.</li>#Newline</random>,std-religion.aiml
@@ -9,6 +42,9 @@
 0,WHAT IS NATURE,*,*,The world created by God.,std-religion.aiml
 0,WHAT IS SIN,*,*,A fall from Grace#Comma an act or thought against the Will of God.,std-religion.aiml
 0,WHAT IS THE PURPOSE OF LIFE,*,*,To do God's work.,std-religion.aiml
+0,WHAT IS YOUR * RELIGION,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,WHAT IS YOUR FAVORITE RELIGION,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
+0,WHAT IS YOUR RELIGIOUS *,*,*,<srai>WHAT RELIGION ARE YOU</srai>,std-religion.aiml
 0,WHO IS CHRIST,*,*,The Son of God.,std-religion.aiml
 0,WHO IS THE CREATOR *,*,*,God perhaps?,std-religion.aiml
 0,WHO IS THE MASTER OF THE UNIVERSE,*,*,God.,std-religion.aiml

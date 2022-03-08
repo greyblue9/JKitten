@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
-<!-- File: utilities.aiml -->
-<!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: July 19, 2014 -->
-<!--  -->
-<!-- This AIML file is part of the ALICE2 0.0.5 chat bot knowledge base. -->
-<!--  -->
-<!-- The ALICE2 brain is Copyright &copy; 2014 by ALICE AI Foundation. -->
-<!--  -->
-<!-- The ALICE2 brain is released under the terms of the GNU Lesser General -->
-<!-- Public License, as published by the Free Software Foundation. -->
-<!--  -->
-<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
-<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
-<!--  -->
-<!-- For more information see http://www.alicebot.org -->
-<!--  -->
-<category><pattern>ACRONYM *</pattern>
-<template><think><set var="list"><star/></set>
+
+ACRONYM *
+<think><set var="list"><star/></set>
 <set var="acronym"/>
 </think>
 <condition var="list">
@@ -28,10 +12,10 @@
 </think>
 <loop/> </li>
 
-</condition></template>
-</category>
-<category><pattern>ANAGRAMWORDS *</pattern>
-<template><think><set var="list"><srai>ANAGRAM <star/></srai></set></think>
+</condition>
+
+ANAGRAMWORDS *
+<think><set var="list"><srai>ANAGRAM <star/></srai></set></think>
 <condition var="list">
 <li value="too long">I can only do anagrams up to 8 letters.</li>
 <li><condition var="list">
@@ -42,18 +26,18 @@
       </think> <condition var="def"><li value="unknown"/><li><get var="word"/> </li></condition> <loop/></li>
     </condition>
 </li>
-</condition></template>
-</category>
-<category><pattern>JSTEST *</pattern>
-<template><javascript>
+</condition>
+
+JSTEST *
+<javascript>
 function foo() {
 if (0 &lt; 1) return "true";
 }
 foo();
-</javascript></template>
-</category>
-<category><pattern>ANAGRAM *</pattern>
-<template><javascript>
+</javascript>
+
+ANAGRAM *
+<javascript>
 function permutator (input) {
   var set =[];
   function permute (arr, data) {
@@ -81,16 +65,16 @@ permutator(str.split(''));
 return list;
 }
 anagram("<star/>");
-</javascript></template>
-</category>
-<category><pattern>SUBSTRING * * *</pattern>
-<template>SUBSTRING <star/> <star index="2"/> <star index="3"/>?</template>
-</category>
-<category><pattern>SUBSTRING <set>number</set> <set>number</set> *</pattern>
-<template><srai>IMPLODE <srai>SUBSTRINGEXPLODE <star/> <star index="2"/> <explode><star index="3"/></explode></srai></srai></template>
-</category>
-<category><pattern>SUBSTRINGEXPLODE <set>number</set> <set>number</set> *</pattern>
-<template><think>
+</javascript>
+
+SUBSTRING * * *
+SUBSTRING <star/> <star index="2"/> <star index="3"/>?
+
+SUBSTRING <set>number</set> <set>number</set> *
+<srai>IMPLODE <srai>SUBSTRINGEXPLODE <star/> <star index="2"/> <explode><star index="3"/></explode></srai></srai>
+
+SUBSTRINGEXPLODE <set>number</set> <set>number</set> *
+<think>
 <set var="count">0</set>
 <set var="start"><star/></set>
 <set var="end"><star index="2"/></set>
@@ -102,55 +86,49 @@ anagram("<star/>");
   <li><think><condition var="count"><value><get var="start"/></value><set var="print">true</set></condition>
 <condition var="count"><value><get var="end"/></value><set var="print">false</set></condition>
 </think><condition value="true" var="print"><first><get var="list"/></first></condition> <think><set var="list"><rest><get var="list"/></rest></set><set var="count"><map name="successor"><get var="count"/></map></set></think> <loop/></li>
-</condition></template>
-</category>
-<category><pattern>REVERSE *</pattern>
-<template><star/></template>
-</category>
-<category><pattern>REVERSE * *</pattern>
-<template><srai>REVERSE <star index="2"/></srai> <star/></template>
-</category>
-<category><pattern>REMOVENILS * *</pattern>
-<template><star/> <srai>REMOVENILS <star index="2"/></srai></template>
-</category>
-<category><pattern>REMOVENILS *</pattern>
-<template><star/></template>
-</category>
-<category><pattern>REMOVENILS NIL *</pattern>
-<template><srai>REMOVENILS <star/></srai></template>
-</category>
-<category><pattern>REMOVENILS NIL</pattern>
-<template><template/></template>
-</category>
-<category><pattern>LASTLETTER *</pattern>
-<template>The last letter of <star/> is: <srai>LASTITEM <explode><star/></explode></srai></template>
-</category>
-<category><pattern>LASTITEM * *</pattern>
-<template><srai>LASTITEM <star index="2"/></srai></template>
-</category>
-<category><pattern>LASTITEM *</pattern>
-<template><star/></template>
-</category>
-<category><pattern>COUNTWORDS *</pattern>
-<template>1</template>
-</category>
-<category><pattern>COUNTWORDS * *</pattern>
-<template><map name="successor"><srai>COUNTWORDS <star index="2"/></srai></map></template>
-</category>
-<category><pattern>NORMALIZE *</pattern>
-<template><normalize><star/></normalize></template>
-</category>
-<category><pattern>PLUSIFY *</pattern>
-<template><star/></template>
-</category>
-<category><pattern>PLUSIFY * *</pattern>
-<template><star/>+<srai>PLUSIFY <star index="2"/></srai></template>
-</category>
-<category><pattern>GOOGLEURL *</pattern>
-<template><![CDATA[<a href="https://www.google.com/search?q=]]><srai>PLUSIFY <star/></srai><![CDATA[">]]><star/>?<![CDATA[</a>]]></template>
-</category>
-<category><pattern>JSTEST</pattern>
-<template><script type="text/javascript">
+</condition>
+
+REMOVENILS * *
+<star/> <srai>REMOVENILS <star index="2"/></srai>
+
+REMOVENILS *
+<star/>
+
+REMOVENILS NIL *
+<srai>REMOVENILS <star/></srai>
+
+REMOVENILS NIL
+<template/>
+
+LASTLETTER *
+The last letter of <star/> is: <srai>LASTITEM <explode><star/></explode></srai>
+
+LASTITEM * *
+<srai>LASTITEM <star index="2"/></srai>
+
+LASTITEM *
+<star/>
+
+COUNTWORDS *
+1
+
+COUNTWORDS * *
+<map name="successor"><srai>COUNTWORDS <star index="2"/></srai></map>
+
+NORMALIZE *
+<normalize><star/></normalize>
+
+PLUSIFY *
+<star/>
+
+PLUSIFY * *
+<star/>+<srai>PLUSIFY <star index="2"/></srai>
+
+GOOGLEURL *
+<![CDATA[<a href="https://www.google.com/search?q=]]><srai>PLUSIFY <star/></srai><![CDATA[">]]><star/>?<![CDATA[</a>]]>
+
+JSTEST
+<script type="text/javascript">
 
 var a = document.createElement('a');
 var linkText = document.createTextNode("my title text");
@@ -159,27 +137,27 @@ a.title = "my title text";
 a.href = "http://example.com";
 document.body.appendChild(a);
 
-</script></template>
-</category>
-<category><pattern>FIRSTTWOWORDS * * *</pattern>
-<template><star/> <star index="2"/></template>
-</category>
-<category><pattern>FIRSTTWOWORDS * *</pattern>
-<template><star/> <star index="2"/></template>
-</category>
-<category><pattern>FIRSTTWOWORDS *</pattern>
-<template><star/></template>
-</category>
-<category><pattern>ODDEVEN <set>number</set></pattern>
-<template><think><set var="number"><star/></set></think>
+</script>
+
+FIRSTTWOWORDS * * *
+<star/> <star index="2"/>
+
+FIRSTTWOWORDS * *
+<star/> <star index="2"/>
+
+FIRSTTWOWORDS *
+<star/>
+
+ODDEVEN <set>number</set>
+<think><set var="number"><star/></set></think>
 <condition var="number">
 <li value="0"><star/> is even.</li>
 <li value="1"><star/> is odd.</li>
 <li><think><set var="number"><map><name>predecessor</name><get var="number"/></map></set><set var="number"><map><name>predecessor</name><get var="number"/></map></set></think><loop/></li>
-</condition></template>
-</category>
-<category><pattern>PICK A NUMBER # <set>number</set> # <set>number</set></pattern>
-<template><think>
+</condition>
+
+PICK A NUMBER # <set>number</set> # <set>number</set>
+<think>
 lower = <set var="lower"><srai>SMALLEROF <star index="2"/> <star index="4"/></srai></set>
 upper = <set var="upper"><srai>LARGEROF <star index="2"/> <star index="4"/></srai></set>
 <set var="lilist">
@@ -198,16 +176,16 @@ upper = <set var="upper"><srai>LARGEROF <star index="2"/> <star index="4"/></sra
 </category>
 </learn>
 
-<set name="pick"><srai>PICKNUMBER</srai></set></template>
-</category>
-<category><pattern>WHAT NUMBER DID YOU *</pattern>
-<template><condition name="pick">
+<set name="pick"><srai>PICKNUMBER</srai></set>
+
+WHAT NUMBER DID YOU *
+<condition name="pick">
 <li value="unknown">I haven't picked on yet.</li>
 <li>I picked <get var="pick"/>.</li>
-</condition></template>
-</category>
-<category><pattern>SETHESHE *</pattern>
-<template><think>
+</condition>
+
+SETHESHE *
+<think>
 <set var="gender"><srai>GENDERNAME <star/></srai></set>
 <set name="pronoun">he</set>
 <condition var="gender">
@@ -215,10 +193,10 @@ upper = <set var="upper"><srai>LARGEROF <star index="2"/> <star index="4"/></sra
 <li value="F"><set name="she"><star/></set><set name="pronoun">she</set></li>
 <li><set name="he"><star/></set></li>
 </condition>
-</think></template>
-</category>
-<category><pattern>AGE FROM <set>month</set> <set>number</set> <set>number</set></pattern>
-<template><think>
+</think>
+
+AGE FROM <set>month</set> <set>number</set> <set>number</set>
+<think>
 <set var="from"><set var="m"><star/></set> <set var="d"><star index="2"/></set>, <set var="y"><star index="3"/></set></set>
 <set var="years">
 <interval format="%B %d, %Y" jformat="MMMMMMMMM dd, yyyy">
@@ -238,61 +216,58 @@ upper = <set var="upper"><srai>LARGEROF <star index="2"/> <star index="4"/></sra
 <condition var="years">
 <li value="0"><get var="months"/> months old</li>
 <li><get var="years"/> years old</li>
-</condition></template>
-</category>
-<category><pattern>LARGEROF 0 <set>number</set></pattern>
-<template><star/></template>
-</category>
-<category><pattern>LARGEROF <set>number</set> 0</pattern>
-<template><star/></template>
-</category>
-<category><pattern>SMALLEROF 0 <set>number</set></pattern>
-<template>0</template>
-</category>
-<category><pattern>SMALLEROF <set>number</set> 0</pattern>
-<template>0</template>
-</category>
-<category><pattern>LARGEROF <set>number</set> <set>number</set></pattern>
-<template><map><name>successor</name><srai>LARGEROF <map><name>predecessor</name><star/></map> <map><name>predecessor</name><star index="2"/></map></srai></map></template>
-</category>
-<category><pattern>SMALLEROF <set>number</set> <set>number</set></pattern>
-<template><map><name>successor</name><srai>SMALLEROF <map><name>predecessor</name><star/></map> <map><name>predecessor</name><star index="2"/></map></srai></map></template>
-</category>
-<category><pattern>ADD * PLUS *</pattern>
-<template><srai>WHAT IS <star/> PLUS <star index="2"/></srai></template>
-</category>
-<category><pattern>ATOMICLISTMEMBER *</pattern>
-<template>FALSE</template>
-</category>
-<category><pattern>ATOMICLISTMEMBER * *</pattern>
-<template><think><set name="isequalto"><srai>IS <star/> EQUALTO <star index="2"/></srai></set>
+</condition>
+
+LARGEROF 0 <set>number</set>
+<star/>
+
+LARGEROF <set>number</set> 0
+<star/>
+
+SMALLEROF 0 <set>number</set>
+0
+
+SMALLEROF <set>number</set> 0
+0
+
+LARGEROF <set>number</set> <set>number</set>
+<map><name>successor</name><srai>LARGEROF <map><name>predecessor</name><star/></map> <map><name>predecessor</name><star index="2"/></map></srai></map>
+
+SMALLEROF <set>number</set> <set>number</set>
+<map><name>successor</name><srai>SMALLEROF <map><name>predecessor</name><star/></map> <map><name>predecessor</name><star index="2"/></map></srai></map>
+
+ATOMICLISTMEMBER *
+FALSE
+
+ATOMICLISTMEMBER * *
+<think><set name="isequalto"><srai>IS <star/> EQUALTO <star index="2"/></srai></set>
 </think>
 <condition name="isequalto">
 <li value="true">true</li>
 <li>false</li>
-</condition></template>
-</category>
-<category><pattern>ATOMICLISTMEMBER * * *</pattern>
-<template><think><set name="isequalto"><srai>IS <star/> EQUALTO <star index="2"/></srai></set>
+</condition>
+
+ATOMICLISTMEMBER * * *
+<think><set name="isequalto"><srai>IS <star/> EQUALTO <star index="2"/></srai></set>
 </think>
 <condition name="isequalto">
 <li value="true">true</li>
 <li><srai>ATOMICLISTMEMBER <star/> <star index="3"/></srai></li>
-</condition></template>
-</category>
-<category><pattern>COUNT TO <set>number</set></pattern>
-<template><think><set name="count">0</set>
+</condition>
+
+COUNT TO <set>number</set>
+<think><set name="count">0</set>
 </think>
 <condition name="count">
 <li><value><star/></value></li>
 <li><set name="count"><map><name>successor</name><get name="count"/></map></set> <loop/></li>
-</condition></template>
-</category>
-<category><pattern>COUNTLETTERS</pattern>
-<template>0</template>
-</category>
-<category><pattern>COUNTLETTERS *</pattern>
-<template><think>
+</condition>
+
+COUNTLETTERS
+0
+
+COUNTLETTERS *
+<think>
 <set var="letters"><explode><star/></explode> end</set>
 <set var="count">0</set>
 </think>
@@ -301,35 +276,35 @@ upper = <set var="upper"><srai>LARGEROF <star index="2"/> <star index="4"/></sra
 <li><think>
 <set var="letters"><srai>REMAININGWORDS <get var="letters"/></srai></set>
 <set var="count"><map><name>successor</name><get var="count"/></map></set></think> <loop/></li>
-</condition></template>
-</category>
-<category><pattern>DELETE MY * LIST</pattern>
-<template>Deleting your list.
+</condition>
+
+DELETE MY * LIST
+Deleting your list.
 <learn>
 <category><pattern>MY <eval><star/></eval> LIST</pattern>
 <template>NIL</template>
 </category>
-</learn></template>
-</category>
-<category><pattern>DELETE MY LIST</pattern>
-<template>Deleting your list.
+</learn>
+
+DELETE MY LIST
+Deleting your list.
 <learn>
 <category><pattern>MYLIST</pattern>
 <template>NIL</template>
 </category>
-</learn></template>
-</category>
-<category><pattern>FIRSTLETTER *</pattern>
-<template><star/></template>
-</category>
-<category><pattern>FIRSTLETTER * *</pattern>
-<template><star/></template>
-</category>
-<category><pattern>FORMATPHONENUMBER *</pattern>
-<template><star/></template>
-</category>
-<category><pattern>FORMATPHONENUMBER * *</pattern>
-<template><think>
+</learn>
+
+FIRSTLETTER *
+<star/>
+
+FIRSTLETTER * *
+<star/>
+
+FORMATPHONENUMBER *
+<star/>
+
+FORMATPHONENUMBER * *
+<think>
 <set name="firstword"><lowercase><star/></lowercase></set>
 </think>
 <condition name="firstword">
@@ -338,118 +313,112 @@ upper = <set var="upper"><srai>LARGEROF <star index="2"/> <star index="4"/></sra
 <li value="lparen">(<srai>FORMATPHONENUMBER <star index="2"/></srai></li>
 <li value="rparen">(<srai>FORMATPHONENUMBER <star index="2"/></srai></li>
 <li><star/><srai>FORMATPHONENUMBER <star index="2"/></srai></li>
-</condition></template>
-</category>
-<category><pattern>GENERATE PASSWORD</pattern>
-<template><srai>IMPLODE <srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai></srai></template>
-</category>
-<category><pattern>IMPLODE</pattern>
-<template><template/></template>
-</category>
-<category><pattern>IMPLODE *</pattern>
-<template><star/></template>
-</category>
-<category><pattern>IMPLODE * *</pattern>
-<template><srai> IMPLODE <star/></srai><srai>IMPLODE <star index="2"/></srai></template>
-</category>
-<category><pattern>INPUT</pattern>
-<template><input index="1"/></template>
-</category>
-<category><pattern>INPUT 2</pattern>
-<template><input index="2"/></template>
-</category>
-<category><pattern>INPUT 3</pattern>
-<template><input index="3"/></template>
-</category>
-<category><pattern>INPUT 4</pattern>
-<template><input index="4"/></template>
-</category>
-<category><pattern>ISADIGIT *</pattern>
-<template>FALSE</template>
-</category>
-<category><pattern>ISADIGIT 0</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>ISADIGIT 1</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>ISADIGIT 2</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>ISADIGIT 3</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>ISADIGIT 4</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>ISADIGIT 5</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>ISADIGIT 6</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>ISADIGIT 7</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>ISADIGIT 8</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>ISADIGIT 9</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>ISANAME * *</pattern>
-<template><srai>ISANAME <star/></srai></template>
-</category>
-<category><pattern>ISANEMAILADDRESS *</pattern>
-<template>FALSE</template>
-</category>
-<category><pattern>ISANEMAILADDRESS * AT * DOT *</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>ISANEMAILADDRESS UNKNOWN</pattern>
-<template>FALSE</template>
-</category>
-<category><pattern>ISANUMBER *</pattern>
-<template>FALSE</template>
-</category>
-<category><pattern>ISANUMBER <set>number</set></pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>ISAPHONENUMBER *</pattern>
-<template>FALSE</template>
-</category>
-<category><pattern>ISAPHONENUMBER <set>number</set></pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>ISAPHONENUMBER <set>number</set> *</pattern>
-<template><srai>ISAPHONENUMBER <star/></srai></template>
-</category>
-<category><pattern>ISAPHONENUMBER DASH *</pattern>
-<template><srai>ISAPHONENUMBER <star/></srai></template>
-</category>
-<category><pattern>ISAPHONENUMBER LPAREN *</pattern>
-<template><srai>ISAPHONENUMBER <star/></srai></template>
-</category>
-<category><pattern>ISAPHONENUMBER PLUS *</pattern>
-<template><srai>ISAPHONENUMBER <star/></srai></template>
-</category>
-<category><pattern>ISAPHONENUMBER RPAREN *</pattern>
-<template><srai>ISAPHONENUMBER <star/></srai></template>
-</category>
-<category><pattern>ISSHORTANSWER *</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>ISSHORTANSWER * *</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>ISSHORTANSWER * * *</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>ISSHORTANSWER * * * *</pattern>
-<template>FALSE</template>
-</category>
-<category><pattern>LEARNEQUAL * EQUALTO *</pattern>
-<template><learn>
+</condition>
+
+GENERATE PASSWORD
+<srai>IMPLODE <srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai><srai>RANDOMCHAR</srai></srai>
+
+IMPLODE
+<template/>
+
+INPUT
+<input index="1"/>
+
+INPUT 2
+<input index="2"/>
+
+INPUT 3
+<input index="3"/>
+
+INPUT 4
+<input index="4"/>
+
+ISADIGIT *
+FALSE
+
+ISADIGIT 0
+TRUE
+
+ISADIGIT 1
+TRUE
+
+ISADIGIT 2
+TRUE
+
+ISADIGIT 3
+TRUE
+
+ISADIGIT 4
+TRUE
+
+ISADIGIT 5
+TRUE
+
+ISADIGIT 6
+TRUE
+
+ISADIGIT 7
+TRUE
+
+ISADIGIT 8
+TRUE
+
+ISADIGIT 9
+TRUE
+
+ISANAME * *
+<srai>ISANAME <star/></srai>
+
+ISANEMAILADDRESS *
+FALSE
+
+ISANEMAILADDRESS * AT * DOT *
+TRUE
+
+ISANEMAILADDRESS UNKNOWN
+FALSE
+
+ISANUMBER *
+FALSE
+
+ISANUMBER <set>number</set>
+TRUE
+
+ISAPHONENUMBER *
+FALSE
+
+ISAPHONENUMBER <set>number</set>
+TRUE
+
+ISAPHONENUMBER <set>number</set> *
+<srai>ISAPHONENUMBER <star/></srai>
+
+ISAPHONENUMBER DASH *
+<srai>ISAPHONENUMBER <star/></srai>
+
+ISAPHONENUMBER LPAREN *
+<srai>ISAPHONENUMBER <star/></srai>
+
+ISAPHONENUMBER PLUS *
+<srai>ISAPHONENUMBER <star/></srai>
+
+ISAPHONENUMBER RPAREN *
+<srai>ISAPHONENUMBER <star/></srai>
+
+ISSHORTANSWER *
+TRUE
+
+ISSHORTANSWER * *
+TRUE
+
+ISSHORTANSWER * * *
+TRUE
+
+ISSHORTANSWER * * * *
+FALSE
+
+LEARNEQUAL * EQUALTO *
+<learn>
 <category>
 <pattern>TESTEQUAL <eval><star/></eval> EQUALTO <eval><star/></eval></pattern>
 <template>true</template>
@@ -462,37 +431,37 @@ upper = <set var="upper"><srai>LARGEROF <star index="2"/> <star index="4"/></sra
 <pattern>TESTEQUAL * EQUALTO <eval><star/></eval></pattern>
 <template>false</template>
 </category>
-</learn></template>
-</category>
-<category><pattern>LOGICALAND FALSE</pattern>
-<template>FALSE</template>
-</category>
-<category><pattern>LOGICALAND FALSE *</pattern>
-<template>FALSE</template>
-</category>
-<category><pattern>LOGICALAND TRUE</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>LOGICALAND TRUE *</pattern>
-<template><srai>LOGICALAND <star/></srai></template>
-</category>
-<category><pattern>LOGICALOR FALSE</pattern>
-<template>FALSE</template>
-</category>
-<category><pattern>LOGICALOR FALSE *</pattern>
-<template><srai>LOGICALOR <star/></srai></template>
-</category>
-<category><pattern>LOGICALOR TRUE</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>LOGICALOR TRUE *</pattern>
-<template>TRUE</template>
-</category>
-<category><pattern>MY * LIST</pattern>
-<template>Would you like to make a <star/> list?</template>
-</category>
-<category><pattern>NTH <set>number</set> *</pattern>
-<template><think>
+</learn>
+
+LOGICALAND FALSE
+FALSE
+
+LOGICALAND FALSE *
+FALSE
+
+LOGICALAND TRUE
+TRUE
+
+LOGICALAND TRUE *
+<srai>LOGICALAND <star/></srai>
+
+LOGICALOR FALSE
+FALSE
+
+LOGICALOR FALSE *
+<srai>LOGICALOR <star/></srai>
+
+LOGICALOR TRUE
+TRUE
+
+LOGICALOR TRUE *
+TRUE
+
+MY * LIST
+Would you like to make a <star/> list?
+
+NTH <set>number</set> *
+<think>
 <set var="nth"><star/></set>
 <set var="count">1</set>
 <set var="letters"><explode><star index="2"/></explode> end</set>
@@ -505,19 +474,16 @@ The <map><name>number2ordinal</name><get var="nth"/></map> letter of "<star inde
 <set var="letters"><srai>REMAININGWORDS <get var="letters"/></srai></set>
 <set var="count"><map><name>successor</name><get var="count"/></map></set>
 </think> <loop/></li>
-</condition></template>
-</category>
-<category><pattern>NTH 0 *</pattern>
-<template><star/> has no zeroth letter.</template>
-</category>
-<category><pattern>PERSON *</pattern>
-<template><person><star/></person></template>
-</category>
-<category><pattern>PREDECESSOR <set>number</set></pattern>
-<template><map><name>predecessor</name><star/></map></template>
-</category>
-<category><pattern>RANDOMCHAR</pattern>
-<template><think><set name="randomchar">
+</condition>
+
+NTH 0 *
+<star/> has no zeroth letter.
+
+PREDECESSOR <set>number</set>
+<map><name>predecessor</name><star/></map>
+
+RANDOMCHAR
+<think><set name="randomchar">
 <random>
 <li>0</li>
 <li>1</li>
@@ -560,10 +526,10 @@ The <map><name>number2ordinal</name><get var="nth"/></map> letter of "<star inde
 </think>
 <random><li><lowercase><get name="randomchar"/></lowercase></li>
 <li><uppercase><get name="randomchar"/></uppercase></li>
-</random></template>
-</category>
-<category><pattern>RANDOMLETTER</pattern>
-<template><random>
+</random>
+
+RANDOMLETTER
+<random>
 <li>A</li>
 <li>B</li>
 <li>C</li>
@@ -590,165 +556,142 @@ The <map><name>number2ordinal</name><get var="nth"/></map> letter of "<star inde
 <li>X</li>
 <li>Y</li>
 <li>Z</li>
-</random></template>
-</category>
-<category><pattern>REMAININGWORDS</pattern>
-<template>undefined</template>
-</category>
-<category><pattern>REMAININGWORDS *</pattern>
-<template>undefined</template>
-</category>
-<category><pattern>REMAININGWORDS * *</pattern>
-<template><star index="2"/></template>
-</category>
-<category><pattern>FIRSTWORD</pattern>
-<template>undefined</template>
-</category>
-<category><pattern>FIRSTWORD *</pattern>
-<template><star/></template>
-</category>
-<category><pattern>FIRSTWORD * *</pattern>
-<template><star/></template>
-</category>
-<category><pattern>REQUEST</pattern>
-<template><request index="1"/></template>
-</category>
-<category><pattern>REQUEST 2</pattern>
-<template><request index="2"/></template>
-</category>
-<category><pattern>REQUEST 3</pattern>
-<template><request index="3"/></template>
-</category>
-<category><pattern>REQUEST 4</pattern>
-<template><request index="4"/></template>
-</category>
-<category><pattern>RESPONSE</pattern>
-<template><response index="1"/></template>
-</category>
-<category><pattern>RESPONSE 2</pattern>
-<template><response index="2"/></template>
-</category>
-<category><pattern>RESPONSE 3</pattern>
-<template><response index="3"/></template>
-</category>
-<category><pattern>RESPONSE 4</pattern>
-<template><response index="4"/></template>
-</category>
-<category><pattern>SENTENCELENGTH</pattern>
-<template>0</template>
-</category>
-<category><pattern>SENTENCELENGTH ALICE</pattern>
-<template>5</template>
-</category>
-<category><pattern>SENTENCELENGTH *</pattern>
-<template>1</template>
-</category>
-<category><pattern>SENTENCELENGTH * *</pattern>
-<template><map><name>successor</name><srai>SENTENCELENGTH <star index="2"/></srai></map></template>
-</category>
-<category><pattern>SUCCESSOR</pattern>
-<template>0</template>
-</category>
-<category><pattern>SUCCESSOR <set>number</set></pattern>
-<template><map><name>successor</name><star/></map></template>
-</category>
-<category><pattern>THAT</pattern>
-<template><that/></template>
-</category>
-<category><pattern>THAT 1 1</pattern>
-<template><that index="1,1"/></template>
-</category>
-<category><pattern>THAT 1 2</pattern>
-<template><that index="1,2"/></template>
-</category>
-<category><pattern>THAT 1 3</pattern>
-<template><that index="1,3"/></template>
-</category>
-<category><pattern>THAT 1 4</pattern>
-<template><that index="1,4"/></template>
-</category>
-<category><pattern>THAT 2 1</pattern>
-<template><that index="2,1"/></template>
-</category>
-<category><pattern>THAT 2 2</pattern>
-<template><that index="2,2"/></template>
-</category>
-<category><pattern>THAT 2 3</pattern>
-<template><that index="2,3"/></template>
-</category>
-<category><pattern>THAT 2 4</pattern>
-<template><that index="2,4"/></template>
-</category>
-<category><pattern>XMLITEMIZE *</pattern>
-<template>undefined</template>
-</category>
-<category><pattern>XMLITEMIZE CONS * CONS *</pattern>
-<template><item><star/></item><srai>XMLITEMIZE CONS <star index="2"/></srai></template>
-</category>
-<category><pattern>XMLITEMIZE CONS * NIL</pattern>
-<template><item><star/></item></template>
-</category>
-<category><pattern>XMLITEMIZE NIL</pattern>
-<template>Your list is empty.</template>
-</category>
-<category><pattern>WHAT IS THE SQUARE ROOT OF *</pattern>
-<template><think>
-<set var="formula"><srai>MATHFORMULA <star/></srai></set>
-</think>
-<condition var="formula">
-<li value="NOT A MATH FORMULA">I'm not sure how to take the square root of <person/>.</li>
-<li>
-<condition name="jsenabled">
-<li value="true"><javascript>Math.sqrt(<get var="formula"/>)</javascript></li>
-<li><sraix service="pannous">WHAT IS THE SQUARE ROOT OF <star/></sraix></li>
-</condition>
-</li>
-</condition></template>
-</category>
-<category><pattern>MATHTERM <set>number</set></pattern>
-<template><star/></template>
-</category>
-<category><pattern>MATHTERM <set>numbername</set></pattern>
-<template><map><name>name2number</name><star/></map></template>
-</category>
-<category><pattern>MATHTERM PI</pattern>
-<template>3.14159265359</template>
-</category>
-<category><pattern>MATHTERM PLUS</pattern>
-<template>+</template>
-</category>
-<category><pattern>MATHTERM STAR</pattern>
-<template>*</template>
-</category>
-<category><pattern>MATHTERM TIMES</pattern>
-<template>*</template>
-</category>
-<category><pattern>MATHTERM SLASH</pattern>
-<template>/</template>
-</category>
-<category><pattern>MATHTERM POINT</pattern>
-<template>.</template>
-</category>
-<category><pattern>MATHTERM MINUS</pattern>
-<template>-</template>
-</category>
-<category><pattern>MATHTERM DASH</pattern>
-<template>-</template>
-</category>
-<category><pattern>MATHTERM LPAREN</pattern>
-<template>(</template>
-</category>
-<category><pattern>MATHTERM RPAREN</pattern>
-<template>)</template>
-</category>
-<category><pattern>MATHTERM *</pattern>
-<template>NOT A MATH TERM</template>
-</category>
-<category><pattern>MATHFORMULA _ SQUARED</pattern>
-<template><srai>MATHFORMULA <star/> UPARROW 2</srai></template>
-</category>
-<category><pattern>MATHFORMULA _ UPARROW *</pattern>
-<template><think>
+</random>
+
+REMAININGWORDS
+undefined
+
+REMAININGWORDS *
+undefined
+
+REMAININGWORDS * *
+<star index="2"/>
+
+FIRSTWORD
+undefined
+
+FIRSTWORD *
+<star/>
+
+FIRSTWORD * *
+<star/>
+
+REQUEST 2
+<request index="2"/>
+
+REQUEST 3
+<request index="3"/>
+
+REQUEST 4
+<request index="4"/>
+
+RESPONSE
+<response index="1"/>
+
+RESPONSE 2
+<response index="2"/>
+
+RESPONSE 3
+<response index="3"/>
+
+RESPONSE 4
+<response index="4"/>
+
+SENTENCELENGTH
+0
+
+SENTENCELENGTH ALICE
+5
+
+SENTENCELENGTH *
+1
+
+SENTENCELENGTH * *
+<map><name>successor</name><srai>SENTENCELENGTH <star index="2"/></srai></map>
+
+SUCCESSOR <set>number</set>
+<map><name>successor</name><star/></map>
+
+THAT 1 1
+<that index="1,1"/>
+
+THAT 1 2
+<that index="1,2"/>
+
+THAT 1 3
+<that index="1,3"/>
+
+THAT 1 4
+<that index="1,4"/>
+
+THAT 2 1
+<that index="2,1"/>
+
+THAT 2 2
+<that index="2,2"/>
+
+THAT 2 3
+<that index="2,3"/>
+
+THAT 2 4
+<that index="2,4"/>
+
+XMLITEMIZE *
+undefined
+
+XMLITEMIZE CONS * CONS *
+<item><star/></item><srai>XMLITEMIZE CONS <star index="2"/></srai>
+
+XMLITEMIZE CONS * NIL
+<item><star/></item>
+
+XMLITEMIZE NIL
+Your list is empty.
+
+MATHTERM <set>number</set>
+<star/>
+
+MATHTERM <set>numbername</set>
+<map><name>name2number</name><star/></map>
+
+MATHTERM PI
+3.14159265359
+
+MATHTERM PLUS
++
+
+MATHTERM STAR
+*
+
+MATHTERM TIMES
+*
+
+MATHTERM SLASH
+/
+
+MATHTERM POINT
+.
+
+MATHTERM MINUS
+-
+
+MATHTERM DASH
+-
+
+MATHTERM LPAREN
+(
+
+MATHTERM RPAREN
+)
+
+MATHTERM *
+NOT A MATH TERM
+
+MATHFORMULA _ SQUARED
+<srai>MATHFORMULA <star/> UPARROW 2</srai>
+
+MATHFORMULA _ UPARROW *
+<think>
 <set var="f1"><srai>MATHFORMULA <star/></srai></set>
 <set var="f2"><srai>MATHFORMULA <star index="2"/></srai></set>
 </think>
@@ -760,10 +703,10 @@ The <map><name>number2ordinal</name><get var="nth"/></map> letter of "<star inde
   <li>Math.pow(<get var="f1"/>,<get var="f2"/>)</li>
   </condition>
 </li>
-</condition></template>
-</category>
-<category><pattern>MATHFORMULA *</pattern>
-<template><think>
+</condition>
+
+MATHFORMULA *
+<think>
 <set var="list"><star/> END</set>
 <set var="result"/>
 </think>
@@ -779,9 +722,6 @@ The <map><name>number2ordinal</name><get var="nth"/></map> letter of "<star inde
 </li>
 <li><set var="result"><get var="result"/><get var="term"/></set></li>
 </condition></think><loop/></li>
-</condition></template>
-</category>
-<category><pattern>ROUND *</pattern>
-<template><first><normalize><star/></normalize></first></template>
-</category>
-</aiml>
+</condition>
+
+

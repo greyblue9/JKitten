@@ -78,6 +78,7 @@
 0,YUP,ARE YOU INTERESTED IN ASTRONOMY,*,Can we talk about astronomy?,chomsky041.aiml
 0,YAH,ARE YOU INTERESTED IN ASTRONOMY,*,Can we talk about astronomy?,chomsky041.aiml
 0,YEAH,ARE YOU INTERESTED IN ASTRONOMY,*,Can we talk about astronomy?,chomsky041.aiml
+0,NO,ARE YOU INTERESTED IN ASTRONOMY,*,<srai>MORE TOPICS</srai>,chomsky041.aiml
 0,* NO,ARE YOU INTERESTED IN ASTRONOMY,*,<srai>MORE TOPICS</srai>,chomsky041.aiml
 0,NO *,ARE YOU INTERESTED IN ASTRONOMY,*,<srai>MORE TOPICS</srai>,chomsky041.aiml
 0,* NO *,ARE YOU INTERESTED IN ASTRONOMY,*,<srai>MORE TOPICS</srai>,chomsky041.aiml
@@ -152,6 +153,7 @@
 0,*HYADES*,*,*,I think this is something to do with astronomy. Can we talk about astronomy?#Newline<think><set name="topic">astronomy</set></think>,chomsky041.aiml
 0,WHITE DWARF,*,*,I think this is something to do with astronomy. Can we talk about astronomy?#Newline<think><set name="topic">astronomy</set></think>,chomsky041.aiml
 0,*WHITE DWARF*,*,*,I think this is something to do with astronomy. Can we talk about astronomy?#Newline<think><set name="topic">astronomy</set></think>,chomsky041.aiml
+0,SUPERNOVA,*,*,I think this is something to do with astronomy. Can we talk about astronomy?#Newline<think><set name="topic">astronomy</set></think>,chomsky041.aiml
 0,*SUPERNOVA*,*,*,I think this is something to do with astronomy. Can we talk about astronomy?#Newline<think><set name="topic">astronomy</set></think>,chomsky041.aiml
 0,WHAT IS A STAR,*,*,<srai>STAR</srai>#Newline      <think>#Newline        <set name="topic">astronomy</set>#Newline      </think>,chomsky041.aiml
 0,MILKY WAY,*,*,The total number of stars in our galaxy (the Milky Way Galaxy) is roughly the same as the number of rice grains that could be packed into a cathedral  (roughly 200 billion). If the rice grains were spread out to make a scale model of the Milky Way in the right proportions#Comma the model would be roughly 400#Comma000 km across#Comma about the distance from the Earth to the Moon.  #Newline  <think><set name="topic">astronomy</set></think>,chomsky041.aiml

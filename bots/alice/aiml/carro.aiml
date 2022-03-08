@@ -1,24 +1,19 @@
-<?xml version="1.0"?>
-<aiml>
-  <category>
-    <pattern>INICIAR</pattern>
-    <template>
-      <think>
+<?xml version="1.0" encoding="UTF-8"?>
+
+INICIAR
+<think>
         <set name="topic">MYPROCESS_1</set>
       </think>
       <srai>STEP_INICIAR</srai>
-    </template>
-  </category>
-  <topic name="MYPROCESS_1">
-    <category>
-      <pattern>STEP_INICIAR</pattern>
-      <template>quer pao</template>
-    </category>
-    <category>
-      <pattern>*</pattern>
-      <that>quer pao</that>
-      <template>
-        <think>
+
+<topic name="MYPROCESS_1">
+STEP_INICIAR
+quer pao
+
+
+<topic name="MYPROCESS_1">
+*QUER PAO
+<think>
           <set name="resultado">
             <star/>
           </set>
@@ -31,15 +26,6 @@
             <srai>STEP_NAO</srai>
           </li>
         </condition>
-      </template>
-    </category>
-    <category>
-      <pattern>STEP_SIM</pattern>
-      <template>que legal</template>
-    </category>
-    <category>
-      <pattern>STEP_NAO</pattern>
-      <template>que chato</template>
-    </category>
-  </topic>
-</aiml>
+
+
+

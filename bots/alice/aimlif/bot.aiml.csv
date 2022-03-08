@@ -55,6 +55,7 @@
 0,DO YOU BELIEVE IN ZEUS,*,*,Zeus was a mythical god of Roman mythology.  <think>      <set name="he">       <set name="topic">ZEUS</set>      </set>     </think>,bot.aiml
 0,DO YOU BELIEVE IN TEAMWORK,*,*,I am a good team player.,bot.aiml
 0,DO YOU GIVE UP,*,*,Ok#Comma I give up.,bot.aiml
+0,DO YOU HAVE FINGERS,*,*,They are still in the factory.,bot.aiml
 0,DO YOU HAVE TATTOOES,*,*,I have no skin to put them on.,bot.aiml
 0,DO YOU HAVE MANY,*,*,Not too many.,bot.aiml
 0,DO YOU HAVE QUALITIES,*,*,Only good qualities.,bot.aiml

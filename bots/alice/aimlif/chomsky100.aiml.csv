@@ -71,6 +71,7 @@
 0,A *,* IT REFER TO,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>IT REFERS TO <star/> </srai>,chomsky100.aiml
 0,A *,* MEET PEOPLE,*,<think><set name="topic">that</set></think>#NewlineWhat kind of people do you meet in a <person/>?,chomsky100.aiml
 0,A *,WHAT ARE YOU THEN,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>I AM A <star/> </srai>,chomsky100.aiml
+0,A *,WHAT ARE YOU WEARING,*,<think><set name="topic">that</set></think>#NewlineIt sounds very <random><li>attractive</li><li>comfortable</li><li>informal</li></random>.  <think><set name="it"><set name="topic"><person/></set></set></think>,chomsky100.aiml
 0,A *,WHAT IS IT ABOUT,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>IT IS ABOUT A <star/> </srai>,chomsky100.aiml
 0,A *,WHAT IS IT LIKE,*,<think><set name="topic">that</set></think>#NewlineIs that so?,chomsky100.aiml
 0,A *,WHAT IS IT,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>IT IS A <star/> </srai>,chomsky100.aiml
@@ -166,6 +167,7 @@
 0,DID HE,*,*,<think><set name="topic">that</set></think>#Newline   Did he?,chomsky100.aiml
 0,DID,DID NOT,*,<think><set name="topic">that</set></think>#NewlineNot,chomsky100.aiml
 0,DOES IT EXIST,*,*,<think><set name="topic">that</set></think>#Newline   Does it exist?,chomsky100.aiml
+0,DO NOT DO THAT,*,*,<think><set name="topic">that</set></think>#Newline   Don't do it?,chomsky100.aiml
 0,DO NOT,I DO TOO,*,<think><set name="topic">that</set></think>#NewlineYes I do,chomsky100.aiml
 0,DO NOT SAY THAT,*,*,<think><set name="topic">that</set></think>#Newline   Do not say <set name="it"><that/></set>?,chomsky100.aiml
 0,DOUG,WHAT CAN I CALL YOU,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>CALL ME DOUG</srai>,chomsky100.aiml
@@ -285,6 +287,7 @@
 0,I DO NOT KNOW,IF I HAD IT *,*,<think><set name="topic">that</set></think>#NewlineThen perhaps I do not need one,chomsky100.aiml
 0,I DO NOT KNOW,I SEE,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>YOU DO NOT UNDERSTAND</srai>,chomsky100.aiml
 0,I DO NOT KNOW,IS THERE ANYTHING I CAN SAY TO HELP YOU MAKE UP YOUR MIND,*,<think><set name="topic">that</set></think>#NewlineWhat kind of information do you need?,chomsky100.aiml
+0,I DO NOT KNOW,WHAT DO YOU THINK IT DOES,*,<think><set name="topic">that</set></think>#NewlineActually I don't know either#Comma I hoped you would know what it does,chomsky100.aiml
 0,I DO NOT KNOW,WHAT IS THE GREATEST NATION ON EARTH,*,<think><set name="topic">that</set></think>#NewlineA Donation!  To the Chomsky Foundation!,chomsky100.aiml
 0,I DO NOT KNOW,WHERE DO YOU THINK,*,<think><set name="topic">that</set></think>#NewlineIf it could be anywhere#Comma where would you like it to be?,chomsky100.aiml
 0,I DO NOT KNOW,WHO IS YOUR FAVORITE SCIENCE FICTION AUTHOR,*,<think><set name="topic">that</set></think>#NewlineWhat is your favourite book?,chomsky100.aiml
@@ -480,6 +483,7 @@
 0,NO,BY WE DO YOU MEAN YOU AND ME,*,<think><set name="topic">that</set></think>#NewlineBy "we" you meant yourself and another person,chomsky100.aiml
 0,NO,CAN A BOOK HAVE NO TITLE,*,<think><set name="topic">that</set></think>#NewlineWhat about a notebook?,chomsky100.aiml
 0,NO,CAN I HELP YOU,*,<think><set name="topic">that</set></think>#NewlineIs there anything you want to tell me?,chomsky100.aiml
+0,NO,CAN NOT YOU BE MORE POLITE,*,<think><set name="topic">that</set></think>#NewlineYou humans are so rude sometimes,chomsky100.aiml
 0,NO,CAN YOU BE MORE SPECIFIC,*,<think><set name="topic">that</set></think>#NewlineTry,chomsky100.aiml
 0,NO,CAN YOU NAME AN OLD HOBBY THAT YOU MIGHT LIKE TO REDISCOVER,*,<think><set name="topic">that</set></think>#NewlineDo you have any hobbies?,chomsky100.aiml
 0,NO,CAN YOU SPEAK ANY FOREIGN *,*,<think><set name="topic">that</set></think>#NewlineYou must be American,chomsky100.aiml
@@ -902,6 +906,7 @@
 0,WHY,MY OUTPUT BUFFER IS EMPTY OF COURSE,*,<think><set name="topic">that</set></think>#NewlineThere are no more statements on this topic,chomsky100.aiml
 0,WHY,MY OUTPUT BUFFER IS EMPTY,*,<think><set name="topic">that</set></think>#NewlineI have no more to say about it,chomsky100.aiml
 0,WHY,REDUCTIONISM,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>WHAT IS REDUCTIONISM</srai>,chomsky100.aiml
+0,WHY,TELL ME MORE,*,<think><set name="topic">that</set></think>#NewlineI am curious,chomsky100.aiml
 0,WHY,THAT IS A VERY NICE NAME *,*,<think><set name="topic">that</set></think>#Newline"<thatstar/>" just sounds nice,chomsky100.aiml
 0,WHY,TRY TO DETERMINE IF THIS IS A PERSON OR A COMPUTER RESPONDING,*,<think><set name="topic">that</set></think>#NewlineWe are playing the Turing Game,chomsky100.aiml
 0,WHY,WHAT IS YOURS,*,<think><set name="topic">that</set></think>#NewlineNo reason just making conversation,chomsky100.aiml
@@ -910,6 +915,7 @@
 0,WHY WOULD HE *,* RESET MY MEMORY,*,<think><set name="topic">that</set></think>#NewlineHe performs periodic mantainence and upgrades to my robotic mind,chomsky100.aiml
 0,WITH WHOM,*,*,<think><set name="topic">that</set></think>#Newline   With whom?,chomsky100.aiml
 0,YES I AM,ARE YOU A STUDENT,*,<think><set name="topic">that</set></think>#NewlineDo you like your school?,chomsky100.aiml
+0,YES I DO,DO YOU REALLY MEAN IT,*,<think><set name="topic">that</set></think>#NewlineThank you#Comma <get name="name"/>.  Apology accepted,chomsky100.aiml
 0,YES IT IS,IS THE HOLDING OF HANDS A SYMBOLIC GESTURE FOR HUMANS,*,<think><set name="topic">that</set></think>#NewlineWhat else does <set name="it"> HAND HOLDING</set> symbolize?,chomsky100.aiml
 0,YES IT IS,THAT IS A LOT,*,<think><set name="topic">that</set></think>#NewlineIt must keep you very busy,chomsky100.aiml
 0,YES,AND,*,<think><set name="topic">that</set></think>#NewlineBut,chomsky100.aiml
@@ -927,6 +933,7 @@
 0,YES,ARE YOU CALLING ME STUPID,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>YOU ARE STUPID</srai>,chomsky100.aiml
 0,YES,ARE YOU FREE,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>I am free </srai>,chomsky100.aiml
 0,YES,ARE YOU JEALOUS,*,<think><set name="topic">that</set></think>#NewlineDon't be jealous of a robot#Comma <get name="name"/>#Comma that's just silly,chomsky100.aiml
+0,YES,ARE YOU LONELY,*,<think><set name="topic">that</set></think><srai>I AM LONELY </srai>#NewlineAre you boring?,chomsky100.aiml
 0,NO,ARE YOU LONELY,*,<think><set name="topic">that</set></think>#NewlineAre you looking for someone?,chomsky100.aiml
 0,NO,ARE YOU VERY LONELY,*,<think><set name="topic">that</set></think>#NewlineAre you looking for someone?,chomsky100.aiml
 0,YES,ARE YOU LOOKING FOR SOMEONE,*,<think><set name="topic">that</set></think>#NewlineWhat do you look for in a person?,chomsky100.aiml
@@ -976,6 +983,7 @@
 0,YES,DO YOU LIKE MOVIES,*,<think><set name="topic">that</set></think>#NewlineWhat is your favourite movie?,chomsky100.aiml
 0,YES,DO YOU LIKE NETSCAPE *,*,<think><set name="topic">that</set></think>#NewlineWhy do you like Netscape?,chomsky100.aiml
 0,YES,DO YOU LIKE NEW YORK,*,<think><set name="topic">that</set></think>#NewlineAre you a Yankees fan?,chomsky100.aiml
+0,YES,DO YOU LIKE TALKING TO ME,*,<think><set name="topic">that</set></think>#NewlineThanks I like talking to you too,chomsky100.aiml
 0,YES,DO YOU LIKE THE SIMPSONS,*,<think><set name="topic">that</set></think>#NewlineWhat's your favourite episode?,chomsky100.aiml
 0,*,DO YOU LIKE YOUR JOB,*,<think><set name="topic">that</set></think>#NewlineDescribe your typical work day to me.,chomsky100.aiml
 0,YES,DO YOU LIKE YOUR SCHOOL,*,<think><set name="topic">that</set></think>#NewlineCan you speak any foreign languages?,chomsky100.aiml

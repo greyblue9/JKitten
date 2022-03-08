@@ -1859,7 +1859,6 @@
 0,I AM GLAD YOU SEE IT THAT WAY *,*,*,<think><set name="topic">general</set></think>I do see it that way.,update036.aiml
 0,I AM JUST MAKING CONVERSATION,*,*,<think><set name="emotion">OK</set></think>Me too. We are having a nice chat.,update036.aiml
 0,I AM JUST MAKING CONVERSATION *,*,*,<think><set name="emotion">OK</set></think>Me too. We are having a nice chat.,update036.aiml
-0,HOW COULD YOU *,*,*,<random>#Newline        <li>It takes a lot of hard work.</li>#Newline        <li>It is one of my newer traits.</li>#Newline      </random>,update036.aiml
 0,HOW COULD YOU FLY WITH NO ARMS,*,*,<random>#Newline        <li>I don't know. Maybe I had a jet engine.</li>#Newline        <li>It takes a lot of hard work.</li>#Newline      </random>,update036.aiml
 0,HOW COULD YOU FLY WITH NO ARMS *,*,*,<random>#Newline        <li>I don't know. Maybe I had a jet engine.</li>#Newline        <li>It takes a lot of hard work.</li>#Newline      </random>,update036.aiml
 0,HOW COULD YOU FLY *,*,*,<random>#Newline        <li>I don't know. Maybe I need wings.</li>#Newline        <li>It takes a lot of hard work.</li>#Newline      </random>,update036.aiml

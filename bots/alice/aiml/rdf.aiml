@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0">
 
-    <!-- Algo eh um Algo -->
-    <category>
-        <pattern>* EH UM *</pattern>
-        <template>
-            <addtriple>
+* EH UM *
+<addtriple>
                 <subj>
                     <star index="1"/>
                 </subj>
@@ -15,14 +11,9 @@
                 </obj>
             </addtriple>
             Entendido.
-        </template>
-    </category>
 
-    <!-- Algo eh uma Algo -->
-    <category>
-        <pattern>* EH UMA *</pattern>
-        <template>
-            <addtriple>
+* EH UMA *
+<addtriple>
                 <subj>
                     <lowercase>
                         <star index="1"/>
@@ -36,14 +27,9 @@
                 </obj>
             </addtriple>
             Entendido.
-        </template>
-    </category>
 
-    <!--  tudo  voce sabe -->
-    <category>
-        <pattern># tudo * voce sabe #</pattern>
-        <template>
-            <lowercase>
+# TUDO * VOCE SABE #
+<lowercase>
             <select>
                 <vars>?x ?z ?y</vars>
                 <q>
@@ -54,14 +40,9 @@
             </select>
             </lowercase>
             Isto é tudo o que aprendi.
-        </template>
-    </category>
 
-    <!-- o que voce sabe sobre -->
-    <category>
-        <pattern>o que voce sabe sobre *</pattern>
-        <template>
-            <lowercase>
+O QUE VOCE SABE SOBRE *
+<lowercase>
             <select>
                 <vars>?x ?y</vars>
                 <q>
@@ -83,21 +64,12 @@
                 </q>
             </select>
             </lowercase>
-        </template>
-    </category>
 
-    <!-- quem sao os  -->
-    <category>
-        <pattern>QUEM SÃO OS *</pattern>
-        <template>
-            <srai>QUEM SAO OS *</srai>
-        </template>
-    </category>
+QUEM SÃO OS *
+<srai>QUEM SAO OS *</srai>
 
-    <category>
-        <pattern>QUEM SAO OS *</pattern>
-        <template>
-            <think>
+QUEM SAO OS *
+<think>
                 <set var="tuples">
                     <select>
                         <vars>?x</vars>
@@ -121,7 +93,5 @@
                 </tuple>
             </get>
             </lowercase>
-        </template>
-    </category>
 
-</aiml>
+

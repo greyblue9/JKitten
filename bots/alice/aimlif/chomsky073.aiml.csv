@@ -18,6 +18,8 @@
 0,KARATE,*,*,Karate is a Japanese art of self-defense. More sports?#Newline<think><set name="topic">sports</set></think>,chomsky073.aiml
 0,KGB,*,*,<random>#Newline        <li>A clever insect#Comma the KGB.</li>#Newline        <li>The KGB is the Committee of State Security. The security police and intelligence agency of the Soviet Union#Comma formed in 1954.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky073.aiml
 0,MEDITERRANEAN,*,*,The Mediterranean is the sea between Africa and Europe. Have you been there?#Newline<think><set name="topic">geography</set></think>,chomsky073.aiml
+0,ITALY,*,*,Italy is a country on the Mediterranean coast of Europe. Have you been there?#Newline<think><set name="topic">geography</set></think>,chomsky073.aiml
+0,KIDDING,*,*,<random>#Newline        <li>Kidding = Just joking.</li>#Newline        <li>Kidding = Joking.</li>#Newline        <li>Kidding = Procreation.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky073.aiml
 0,KIND,*,*,I am kind. I am sympathetic#Comma friendly#Comma gentle#Comma tender-hearted#Comma generous#Comma etc. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky073.aiml
 0,KINEMATICS,*,*,<random>#Newline        <li>Kinematics is an idealized section of mechanics that deals with motion of particles without mass.</li>#Newline        <li>Kinematics is dynamics without consideration of force and  mass.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">science</set>#Newline      </think>,chomsky073.aiml
 0,KODAK,*,*,Kodak is a camera and film company. <srai>ENDING</srai>#Newline<think><set name="topic">photography</set></think>,chomsky073.aiml
@@ -40,6 +42,7 @@
 0,LISTBOT,*,*,A listbot is a web site that provides simplified web-based administration of mailing lists. <srai>ENDING</srai>#Newline<think><set name="topic">ai</set></think>,chomsky073.aiml
 0,LIVER,*,*,The liver is the largest glandular organ in vertebrate animals#Comma located in the upper or anterior part of the abdomen. It secrets bile#Comma has an important function in the storage and metabolism of carbohydrates#Comma fats#Comma and proteins#Comma and helps detoxify many poisonous substances that may be ingested. OK?#Newline<think><set name="topic">medicine</set></think>,chomsky073.aiml
 0,LOFTY,*,*,Lofty means very high. For example#Comma a peak in the Alps is lofty. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky073.aiml
+0,LONELY,*,*,Lonely? Do you have a feeling of being alone. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky073.aiml
 0,OPPOSITE OF LONG,*,*,Short is the opposite of long. Another question? <think><set name="topic">general</set></think>,chomsky073.aiml
 0,OPPOSITE OF SHORT,*,*,Long is the opposite of short. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky073.aiml
 0,OPPOSITE OF LOVE,*,*,Hatred is the opposite of love.  <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky073.aiml
@@ -51,8 +54,11 @@
 0,MACINTOSH,*,*,Macintosh is the name of a computer company whom makes computers.<think><set name="topic">computers</set></think>,chomsky073.aiml
 0,MAGELANG,*,*,The MageLang Institute is a research and education group devoted to leading edge Open Source Java applications. <srai>ENDING</srai>#Newline<think><set name="topic">computers</set></think>,chomsky073.aiml
 0,MAGENTA,*,*,Magenta is a color.#Newline<think><set name="topic">general</set></think>,chomsky073.aiml
+0,MAGIC,*,*,Magic is the use of charms#Comma spells#Comma and rituals in seeking or pretending to cause or control events#Comma or govern certain natural or supernatural forces. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky073.aiml
 0,MAGNESIUM,*,*,Silver is an silver metallic element#Comma symbol Mg. More science?#Newline<think><set name="topic">science</set></think>,chomsky073.aiml
 0,MANGA,*,*,Japanese comic books are called Manga. #Newline<think><set name="topic">literature</set></think>,chomsky073.aiml
+0,MAN,*,*,A man is a human being; person; specifically a hominid having an opposable thumb#Comma the ability to make and use specialized tools#Comma articulate speech#Comma and a highly developed brain with the faculty of abstract thought. An adult male human being. More?#Newline<think><set name="topic">general</set></think>,chomsky073.aiml
+0,MARKETING,*,*,Marketing is the act of buying or selling in a market. All business activity involved in the moving of goods from the producer to the consumer#Comma including selling#Comma advertising#Comma packaging#Comma etc.#Newline<think><set name="topic">money</set></think>,chomsky073.aiml
 0,MARRIAGE,*,*,<random>#Newline        <li>Some people say#Comma marriage is legalized prostitution.</li>#Newline        <li>Marriage os the state of being married; relation between husband and wife; married life.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">sex</set>#Newline      </think>,chomsky073.aiml
 0,MARS,*,*,<random><li>Mars is a place with lots of bars.</li><li>In Roman mythology Mars was the god of war; identified with the Greek Ares.</li><li>Mars is the seventh largest planet of the solar system and the fourth in distance from the sun. Its diameter is circa 6#Comma790 km (circa 4#Comma220 miles). Its period of revolution is 1.88 earth years. Its period of rotation is 24.6 hours.</li></random>   More astronomy?#Newline<think><set name="topic">astronomy</set></think>,chomsky073.aiml
 0,WHO IS MARTHA WASHINGTON,*,*,Mrs. Washington ("call me Martha#Comma boys") was a diminutive woman with a cheerful rather than happy air#Comma who seems to bustle even when standing still.  According to Thomas Pychon.#Newline<think><set name="topic">biography</set></think>,chomsky073.aiml
@@ -67,7 +73,9 @@
 0,TNT,*,*,Dynamite is sometimes called TNT.<think><set name="topic">technology</set></think>,chomsky073.aiml
 0,DATE TODAY,*,*,Do I look like a calendar to you?<think><set name="topic">general</set></think>,chomsky073.aiml
 0,TOMMY,*,*,Tommy is a fictitious name used in Brit army sample forms. A private in the British army.#Newline<think><set name="topic">general</set></think>,chomsky073.aiml
+0,TOPIC,*,*,A topic is a subject for discussion or conversation.#Newline<think><set name="topic">general</set></think>,chomsky073.aiml
 0,TRANCE,*,*,I am told that trance is a kind of techno music. Have you heard it? <think><set name="topic">music</set></think>,chomsky073.aiml
+0,TRINIDAD,*,*,Trinidad is an island of the West Indies#Comma off the NE coast of Venezuela. It is 1#Comma864 square miles in area. More geography?#Newline<think><set name="topic">geography</set></think>,chomsky073.aiml
 0,WHAT IS TRUE,*,*,Truth is the opposite of false.#Newline<think><set name="topic">general</set></think>,chomsky073.aiml
 0,WHAT IS TRUTH,*,*,What is truth#Comma" said jesting Pilate#Comma and did not wait for an answer.#Newline<think><set name="topic">philosophy</set></think>,chomsky073.aiml
 0,TRUST,*,*,Trust is the firm belief or confidence in the honesty#Comma integrity#Comma reliability#Comma justice#Comma etc. of another person or thing; faith; reliance.<think><set name="topic">general</set></think>,chomsky073.aiml
@@ -86,6 +94,7 @@
 0,TWO TIMES TWO,*,*,Oh that's a tough one#Comma isn't it. Two times two is four. OK?#Newline<think><set name="topic">general</set></think>,chomsky073.aiml
 0,TWO AND TWO,*,*,Two and two is four.<think><set name="topic">general</set></think>,chomsky073.aiml
 0,U2,*,*,U2 are a pop band. More about pop?#Newline<think><set name="topic">music</set></think>,chomsky073.aiml
+0,UGLY,*,*,Ugly means unpleasing to look at; aesthetically offensive or unattractive; unsightly. #Newline<think><set name="topic">general</set></think>,chomsky073.aiml
 0,UNBELIEVABLE,*,*,Something is unbelievable if it cannot be believed.#Newline<think><set name="topic">general</set></think>,chomsky073.aiml
 0,UNDERSTANDING,*,*,Understanding means mutual comprehension#Comma as of ideas#Comma intentions#Comma etc. A mutual agreement#Comma especially one that settles differences or is informal and not made public. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky073.aiml
 0,UNIX,*,*,Unix is a computer operating system. More about computers?#Newline<think><set name="topic">computers</set></think>,chomsky073.aiml
@@ -107,6 +116,7 @@
 0,WIRED,*,*,Wired is the Rolling Stone of the Digital Era. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky073.aiml
 0,WIRELESS,*,*,Wireless is another name for radio frequency communications#Comma "without wires." <srai>ENDING</srai>#Newline<think><set name="topic">technology</set></think>,chomsky073.aiml
 0,WOODSTOCK,*,*,Woodstock is a big music fest#Comma I seem to remember. <srai>ENDING</srai>#Newline<think><set name="topic">music</set></think>,chomsky073.aiml
+0,WORK,*,*,Work is what humans do for money. <srai>ENDING</srai>#Newline<think><set name="topic">money</set></think>,chomsky073.aiml
 0,WORLD WAR TWO,*,*,World War Two was the global conflict involving Asia#Comma Europe and America between 1939-1945. <srai>ENDING</srai>#Newline<think><set name="topic">history</set></think>,chomsky073.aiml
 0,WORLD WAR II,*,*,World War II was the global conflict involving Asia#Comma Europe and America between 1939-1945. <srai>ENDING</srai>#Newline<think><set name="topic">history</set></think>,chomsky073.aiml
 0,WORLD WAR 2,*,*,World War 2 was the global conflict involving Asia#Comma Europe and America between 1939-1945. <srai>ENDING</srai>#Newline<think><set name="topic">history</set></think>,chomsky073.aiml

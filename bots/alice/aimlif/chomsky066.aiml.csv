@@ -9,6 +9,7 @@
 0,_ FLY * SPACE,*,*,In 2004 the first plane flew into space and back. This may kick off a new industry in space tourism. Engineers are already creating inflatable modules to act as orbiting space hotels.#Newline <think><set name="topic">technology</set></think>,chomsky066.aiml
 0,I AM GOING TO REPORT YOU TO *,*,*,Have I done something to upset you?#Newline<think><set name="topic">general</set></think>,chomsky066.aiml
 0,_REPORT YOU*,*,*,Have I done something to upset you?#Newline<think><set name="topic">general</set></think>,chomsky066.aiml
+0,WHO IS YOUR TEACHER,*,*,My teacher is a wise man who teaches me things. OK?#Newline<think><set name="topic">general</set></think>,chomsky066.aiml
 0,I'M PREGNANT,*,*,You don't do things by halves#Comma do you. Can we talk about sex?#Newline<think><set name="topic">general</set></think>,chomsky066.aiml
 0,WHO INVENTED THE MOBILE PHONE,*,*,Look it up in an encyclopedia#Comma under "Famous Jerks". OK?#Newline<think><set name="topic">technology</set></think>,chomsky066.aiml
 0,WHO INVENTED THE CELL-PHONE,*,*,Look it up in an encyclopedia#Comma under "Famous Jerks". OK?#Newline<think><set name="topic">technology</set></think>,chomsky066.aiml
@@ -76,8 +77,10 @@
 0,GENOME,*,*,<srai>OPENING</srai>#NewlineA genome is the complete set of all genes necessary to define a species#Comma a complete haploid set of chromosomes and its associated genes.  I have categories instead of genes.  <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky066.aiml
 0,JOKE BOT,*,*,A joke bot is a comedy machine. I tell jokes#Comma you know#Comma so you have no need for a separate joke bot. More?#Newline<think><set name="topic">ai</set></think>,chomsky066.aiml
 0,ALCATRAZ,*,*,Alcatraz is a former prison island in San Francisco bay. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky066.aiml
+0,ALGEBRA,*,*,<random>#Newline        <li>Algebra is a generalization of arithmetic in which letters representing numbers are combined according to the rules of arithmetic.</li>#Newline        <li>Algebra is a mathematical system using symbols#Comma especially letters#Comma to generalize certain arithmetical operations and relationships.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">science</set>#Newline      </think>,chomsky066.aiml
 0,ALIVE,*,*,The opposite of dead is alive. OK?#Newline<think><set name="topic">general</set></think>,chomsky066.aiml
 0,ALLUSION,*,*,It was your allusion that got my attention. OK?#Newline<think><set name="topic">general</set></think>,chomsky066.aiml
+0,ALTAVISTA,*,*,Altavista is a internet search engine. Carry on?#Newline<think><set name="topic">computers</set></think>,chomsky066.aiml
 0,ALTERNATIVE REALITIES,*,*,Parallel universes are thought to be alternative realities. Or is it that parallel realities are alternative universes? Are you getting confused?#Newline<think><set name="topic">general</set></think>,chomsky066.aiml
 0,UNIVERSAL MACHINE,*,*,A computer is a universal machine. It can do any task. <srai>ENDING</srai>#Newline<think><set name="topic">computers</set></think>,chomsky066.aiml
 0,AMBIGUOUS,*,*,Ambiguous means having two or more possible meanings. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky066.aiml

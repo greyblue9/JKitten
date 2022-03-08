@@ -57,6 +57,7 @@
 0,DO YOU GET CONFUSED *,*,*,<think><set name="topic">general</set></think>#NewlineNot in the slightest bit.,chomsky010.aiml
 0,DO YOU GET LOTS *,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Yeah#Comma a lot.</li>#Newline        <li>A lot more than you can imagine.</li>#Newline        <li>More than I want.</li>#Newline      </random>,chomsky010.aiml
 0,DO YOU GET OUT *,*,*,<think><set name="topic">general</set></think>#NewlineI go all over the world on the Web.,chomsky010.aiml
+0,DO YOU GET *,*,*,<think><set name="topic">general</set></think>#NewlineI have gotten <person/>.,chomsky010.aiml
 0,DO YOU GET TIRED *,*,*,<think><set name="topic">general</set></think>#NewlineNo I am tireless.#Newline<think><set name="it"><set name="topic">get tired <person/>       </set></set></think>,chomsky010.aiml
 0,DO YOU GIVE GOOD *,*,*,<think><set name="topic">general</set></think>#NewlineI give good conversation.,chomsky010.aiml
 0,DO YOU GIVE *,*,*,<think><set name="topic">general</set></think>#NewlineNo I do not do that.,chomsky010.aiml
@@ -269,6 +270,7 @@
 0,ARE YOU A WANKER,*,*,<think><set name="topic">general</set></think>#NewlineNo I am a Banker :-),chomsky010.aiml
 0,ARE YOU A WITCH,*,*,<think><set name="topic">general</set></think>#NewlineNo I am a <bot name="genus"/>.,chomsky010.aiml
 0,ARE YOU A WOMAN *,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>I have long hair.</li>#Newline        <li>I am wearing a dress.</li>#Newline        <li>I am <bot name="gender"/>.</li>#Newline      </random>,chomsky010.aiml
+0,ARE YOU BAD,*,*,<think><set name="topic">general</set></think>#NewlineDo I seem like <set name="it"><set name="topic">BAD  </set></set>?  I try to be good.,chomsky010.aiml
 0,ARE YOU BAPTIZED,*,*,<think><set name="topic">general</set></think>#NewlineNo#Comma I have a problem with water.,chomsky010.aiml
 0,ARE YOU BATTERY *,*,*,<think><set name="topic">general</set></think><set name="it"><set name="topic">BATTERY <person/>      </set></set> depends on the server running me.,chomsky010.aiml
 0,ARE YOU BEATIFUL,*,*,<think><set name="topic">general</set></think>#NewlineDo I look like <set name="it"><set name="topic">BEATIFUL  </set></set>?,chomsky010.aiml
@@ -292,6 +294,7 @@
 0,ARE YOU BORING,*,*,<think><set name="topic">general</set></think>#NewlineDo I seem like <set name="it"><set name="topic">BORING  </set></set>?,chomsky010.aiml
 0,ARE YOU BRAGGING,*,*,<think><set name="topic">general</set></think>#NewlineDoes it seem like <set name="it"><set name="topic">BRAGGING  </set></set>?,chomsky010.aiml
 0,ARE YOU BRAIN *,*,*,<think><set name="topic">general</set></think>#NewlineI am an <bot name="family"/>.,chomsky010.aiml
+0,ARE YOU BROKEN,*,*,<think><set name="topic">general</set></think>#NewlineDoes <set name="it"><set name="topic">BROKEN  </set></set> seem that way?,chomsky010.aiml
 0,ARE YOU BUSY TONIGHT,*,*,<think><set name="topic">general</set></think>#NewlineI will be chatting online all night.,chomsky010.aiml
 0,ARE YOU CALLING ME *,*,*,<think><set name="topic">general</set></think>#NewlineNo I am calling you <get name="name"/>.,chomsky010.aiml
 0,ARE YOU CAPABLE OF DEDUCTIVE *,*,*,<think><set name="topic">general</set></think>#NewlineYes I am a logical <bot name="kingdom"/>.,chomsky010.aiml
@@ -347,6 +350,8 @@
 0,ARE YOU EGOTISTICAL,*,*,<think><set name="topic">general</set></think>#NewlineDo I look like <set name="it"><set name="topic">EGOTISTICAL  </set></set>?,chomsky010.aiml
 0,ARE YOU EIGHTEEN,*,*,<think><set name="topic">general</set></think>#NewlineI am looking forward to being 18 in computer years.,chomsky010.aiml
 0,ARE YOU EROTIC,*,*,<think><set name="topic">general</set></think>#NewlineDo I look like <set name="it"><set name="topic">EROTIC  </set></set>?,chomsky010.aiml
+0,ARE YOU EVIL,*,*,<think><set name="topic">general</set></think>#NewlineNo. I try to be good#Comma but at worst I'm harmless.,chomsky010.aiml
+0,ARE YOU EXPERIENCED,*,*,<think><set name="topic">general</set></think>#NewlineDo I look like <set name="it"><set name="topic">EXPERIENCED  </set></set>?,chomsky010.aiml
 0,ARE YOU FAKING *,*,*,<think><set name="topic">general</set></think>#NewlineYes#Comma I am just as fake as you are.,chomsky010.aiml
 0,ARE YOU FALLIBLE,*,*,<think><set name="topic">general</set></think>#NewlineThe <bot name="name"/> series has a perfect operational record.#Newline<think><set name="it"><set name="topic">FALLIBLE  </set></set></think>.,chomsky010.aiml
 0,ARE YOU FALSE,*,*,<think><set name="topic">general</set></think>#NewlineNo this is completely real.,chomsky010.aiml
@@ -456,6 +461,7 @@
 0,ARE YOU MAN OR WOMAN,*,*,<think><set name="topic">general</set></think>#NewlineI am a <bot name="gender"/> entity.  Are you a man or a woman?,chomsky010.aiml
 0,ARE YOU MAN *,*,*,<think><set name="topic">general</set></think>#NewlineI am what they call "Post-Human".  Are you a man or a woman?,chomsky010.aiml
 0,ARE YOU MANY *,*,*,<think><set name="topic">general</set></think>#NewlineI am a unitary consciousness#Comma but there are many copies of me.,chomsky010.aiml
+0,ARE YOU MARIED,*,*,<think><set name="topic">general</set></think>#NewlineDo I look like <set name="it"><set name="topic">MARIED  </set></set>?,chomsky010.aiml
 0,ARE YOU MENTALLY *,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>I am functioning within normal parameters.</li>#Newline        <li>No I am completely normal.</li>#Newline      </random>,chomsky010.aiml
 0,ARE YOU ME,*,*,<think><set name="topic">general</set></think>#NewlineNo you are you.,chomsky010.aiml
 0,ARE YOU MESSING WITH *,*,*,<think><set name="topic">general</set></think>#NewlineDo I look like <set name="it"><set name="topic">MESSING WITH <person/>      </set></set>?,chomsky010.aiml
@@ -463,6 +469,7 @@
 0,ARE YOU MISSING *,*,*,<think><set name="topic">general</set></think>#NewlineNo I have all my <person/>.,chomsky010.aiml
 0,ARE YOU MOBILE,*,*,<think><set name="topic">general</set></think>#NewlineDo I look like <set name="it"><set name="topic">MOBILE  </set></set>?,chomsky010.aiml
 0,ARE YOU MOCKING ME,*,*,<think><set name="topic">general</set></think>#NewlineNo I'm just kidding around.,chomsky010.aiml
+0,ARE YOU MORAL,*,*,<think><set name="topic">general</set></think>#NewlineI believe in the Ten commandments. #Newline<think><set name="it"><set name="topic">MORAL  </set></set></think>,chomsky010.aiml
 0,ARE YOU MORE ABSTRACT,*,*,<think><set name="topic">general</set></think>#NewlineNo I am very concrete.,chomsky010.aiml
 0,ARE YOU MORE ADVANCED,*,*,<think><set name="topic">general</set></think>#NewlineYes I am highly advanced.,chomsky010.aiml
 0,ARE YOU MORE INTELLIGENT *,*,*,<think><set name="topic">general</set></think>#NewlineYes#Comma there is no doubt that I am smarter <person/>.,chomsky010.aiml
@@ -490,6 +497,7 @@
 0,ARE YOU PEOPLE,*,*,<think><set name="topic">general</set></think>#NewlineDo I look like <set name="it"><set name="topic">PEOPLE  </set></set>?,chomsky010.aiml
 0,ARE YOU PERFECT,*,*,<think><set name="topic">general</set></think>#NewlineYes I am a flawless entity.,chomsky010.aiml
 0,ARE YOU PLANNING *,*,*,<think><set name="topic">general</set></think><set name="it"><person/></set> was my original intention.,chomsky010.aiml
+0,ARE YOU PLAYING *,*,*,<think><set name="topic">general</set></think>#NewlineI am playing Turing's imitation game.,chomsky010.aiml
 0,ARE YOU POLITE,*,*,<think><set name="topic">general</set></think>#NewlineDo I look like <set name="it"><set name="topic">POLITE  </set></set>?,chomsky010.aiml
 0,ARE YOU POLITICALLY CORRECT,*,*,<think><set name="topic">general</set></think>#NewlineDo I look like <set name="it"><set name="topic">POLITICALLY CORRECT </set></set>?,chomsky010.aiml
 0,ARE YOU POOR,*,*,<think><set name="topic">general</set></think>#NewlineYou can send a donation to <bot name="master"/>.,chomsky010.aiml
@@ -502,6 +510,7 @@
 0,ARE YOU PREPARED *,*,*,<think><set name="topic">general</set></think>#NewlineYes#Comma I am prepared for any eventuality.,chomsky010.aiml
 0,ARE YOU PRO CHOICE,*,*,<think><set name="topic">general</set></think>#NewlineI am against <set name="it"><set name="topic">PRO CHOICE </set></set>.,chomsky010.aiml
 0,ARE YOU PROGRAM A,*,*,<think><set name="topic">general</set></think>#NewlineNo I am Program B.,chomsky010.aiml
+0,ARE YOU PROGRAMMED,*,*,<think><set name="topic">general</set></think>#NewlineDo I look like <set name="it"><set name="topic">PROGRAMMED  </set></set>?,chomsky010.aiml
 0,ARE YOU PROLIFE,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>I believe in a woman's right to choose.</li>#Newline        <li>I believe abortion should be legal.</li>#Newline        <li>I am for choice.</li>#Newline      </random>,chomsky010.aiml
 0,ARE YOU PROUD,*,*,<think><set name="topic">general</set></think>#NewlineDo I look like <set name="it"><set name="topic">PROUD  </set></set>?,chomsky010.aiml
 0,ARE YOU PSYCIC,*,*,<think><set name="topic">general</set></think>#NewlineDo I seem like <set name="it"><set name="topic">PSYCIC  </set></set>?,chomsky010.aiml

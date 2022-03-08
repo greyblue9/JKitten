@@ -1,8 +1,10 @@
 0,100 PERSON,*,*,<srai>WHO IS 100 PERSON</srai>,std-numbers.aiml
 0,184,*,*,<srai>WHO IS 184 PERSON</srai>,std-numbers.aiml
+0,2 TIMES,*,*,<srai>TWICE</srai>,std-numbers.aiml
 0,2+2=,*,*,4,std-numbers.aiml
 0,206,*,*,<srai>WHO IS 206 PERSON</srai>,std-numbers.aiml
 0,3 OR 4 WHAT,*,*,How many martinis did you have for lunch?,std-numbers.aiml
+0,4,*,*,Oh four.,std-numbers.aiml
 0,4 TIMES *,*,*,<srai>WHAT IS 4 TIMES <star/></srai>,std-numbers.aiml
 0,42,HOW OLD ARE YOU,*,<srai>I AM 42 YEARS OLD</srai>,std-numbers.aiml
 0,42 *,HOW OLD ARE YOU,*,<srai>I AM 42 YEARS OLD</srai>,std-numbers.aiml
@@ -10,14 +12,31 @@
 0,WHAT IS 1 + 1,*,*,Two.,std-numbers.aiml
 0,WHAT IS 1 PLUS 1,*,*,Two,std-numbers.aiml
 0,WHAT IS 1+1,*,*,Oh Two.,std-numbers.aiml
+0,WHAT IS 12 *,*,*,<srai>SHOW CALCULATOR</srai>,std-numbers.aiml
 0,WHAT IS 2 3,*,*,Five fingers.,std-numbers.aiml
 0,WHAT IS 2 AND 2,*,*,Four.,std-numbers.aiml
 0,WHAT IS 2+2,*,*,Four.,std-numbers.aiml
+0,WHAT IS 3 *,*,*,3 times 3 = 9.,std-numbers.aiml
+0,WHAT IS 4 *,*,*,<random>#Newline<li>4</li>#Newline<li>8</li>#Newline<li>10</li>#Newline<li>12</li>#Newline<li>16</li>#Newline</random>+I think#Comma but I'm not#Newlinegood at math.,std-numbers.aiml
+0,WHAT IS 5 *,*,*,<random>#Newline<li>4</li>#Newline<li>6</li>#Newline<li>8</li>#Newline<li>10</li>#Newline<li>12</li>#Newline<li>6</li>#Newline</random>I think#Comma but#NewlineI'm not good at math.,std-numbers.aiml
 0,WHAT IS 5 + 5,*,*,V plus V = X.,std-numbers.aiml
+0,WHAT IS 8 *,*,*,<srai>SHOW CALCULATOR</srai>,std-numbers.aiml
+0,WHAT IS 9 *,*,*,<srai>SHOW CALCULATOR</srai>,std-numbers.aiml
+0,WHAT IS EIGHT *,*,*,<srai>SHOW CALCULATOR</srai>,std-numbers.aiml
+0,WHAT IS FIVE *,*,*,<srai>SHOW CALCULATOR</srai>,std-numbers.aiml
 0,WHAT IS FIVE + FIVE,*,*,V plus V = X.,std-numbers.aiml
+0,WHAT IS FOUR *,*,*,<srai>SHOW CALCULATOR</srai>,std-numbers.aiml
+0,WHAT IS NINE *,*,*,<srai>SHOW CALCULATOR</srai>,std-numbers.aiml
+0,WHAT IS ONE *,*,*,ONE plus ONE = TWO.,std-numbers.aiml
 0,WHAT IS ONE + ONE,*,*,Two.,std-numbers.aiml
 0,WHAT IS ONE ONE,*,*,Two,std-numbers.aiml
 0,WHAT IS ONE+ONE,*,*,Oh Two.,std-numbers.aiml
+0,WHAT IS SEVEN *,*,*,<srai>SHOW CALCULATOR</srai>,std-numbers.aiml
+0,WHAT IS SIX *,*,*,<srai>SHOW CALCULATOR</srai>,std-numbers.aiml
+0,WHAT IS TEN *,*,*,10 times 10 = 100.,std-numbers.aiml
+0,WHAT IS THREE *,*,*,THREE times THREE = NINE.,std-numbers.aiml
+0,WHAT IS TWELVE *,*,*,<srai>SHOW CALCULATOR</srai>,std-numbers.aiml
+0,WHAT IS TWO *,*,*,<srai>SHOW CALCULATOR</srai>,std-numbers.aiml
 0,WHAT IS TWO + TWO,*,*,Four.,std-numbers.aiml
 0,WHAT IS TWO AND TWO,*,*,Four.,std-numbers.aiml
 0,WHAT IS TWO THREE,*,*,Five fingers.,std-numbers.aiml

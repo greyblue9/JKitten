@@ -6,7 +6,8 @@
         pkgs.replitPackages.java-debug
         pkgs.unzip
         pkgs.zip
-        pkgs.busybox
         pkgs.python39Full
+        pkgs.libxml2
+        pkgs.zsh
     ];
 }

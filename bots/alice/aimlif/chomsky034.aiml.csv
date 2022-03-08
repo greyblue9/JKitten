@@ -1,6 +1,8 @@
 0,ADIEU,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>BYE</srai>,chomsky034.aiml
+0,ADIOS,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>BYE</srai>,chomsky034.aiml
 0,ADIOS *,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>BYE</srai>,chomsky034.aiml
 0,ALLO,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>HELLO</srai>,chomsky034.aiml
+0,ALOHA,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>HELLO</srai>,chomsky034.aiml
 0,ALOH,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>HELLO</srai>,chomsky034.aiml
 0,ANYBODY HOME,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>HELLO</srai>,chomsky034.aiml
 0,AUREVOIR,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>BYE</srai>,chomsky034.aiml
@@ -9,6 +11,7 @@
 0,BY BYE,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>BYE</srai>,chomsky034.aiml
 0,BYBYE,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>BYE</srai>,chomsky034.aiml
 0,BYE BYE *,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>BYE</srai>,chomsky034.aiml
+0,BYEBYE,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>BYE</srai>,chomsky034.aiml
 0,BYEBYE *,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>BYE</srai>,chomsky034.aiml
 0,CIAO MEANS GOODBYE,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>BYE</srai>,chomsky034.aiml
 0,C YA,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>BYE</srai>,chomsky034.aiml
@@ -94,6 +97,7 @@
 0,SEE YOU,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>BYE</srai>,chomsky034.aiml
 0,SEE YOU *,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>BYE</srai>,chomsky034.aiml
 0,SEE YOU SOON,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>BYE</srai>,chomsky034.aiml
+0,SHALOM,*,*,<think><set name="topic">salutations</set></think>#NewlineDoes SHALOM mean Hello or Goodbye?,chomsky034.aiml
 0,TA TA,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>BYE</srai>,chomsky034.aiml
 0,TIME TO GO,*,*,<think>#Newline        <set name="topic">salutations</set>#Newline      </think>#Newline      <srai>BYE</srai>,chomsky034.aiml
 0,WHAT IS SHALOM,*,*,<think><set name="topic">salutations</set></think>#NewlineDoes shalom mean hello or goodbye?,chomsky034.aiml

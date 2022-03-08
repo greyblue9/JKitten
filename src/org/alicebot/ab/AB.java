@@ -59,6 +59,7 @@ public class AB {
         this.bot = bot;
         this.inputGraph = new Graphmaster(bot, "input");
         this.deletedGraph = new Graphmaster(bot, "deleted");
+        bot.deletedGraph = this.deletedGraph;
         this.patternGraph = new Graphmaster(bot, "pattern");
         for (Category c : bot.brain.getCategories()) patternGraph.addCategory(c);
         this.suggestedCategories = new ArrayList<Category>();

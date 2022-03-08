@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="1.0">
-<!-- -->
-<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License     -->
-<!-- as published by the Free Software Foundation.   -->
-<!-- Complies with AIML 1.0 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
-<!-- -->
-<category><pattern>IMPONDERABLES</pattern>
-<template><random><li>Do fish ever sneeze?</li>
+
+IMPONDERABLES
+<random><li>Do fish ever sneeze?</li>
 <li>Can sour cream go bad?</li>
 <li>What is the speed of dark?</li>
 <li>Why do clocks run clockwise?</li>
@@ -111,6 +102,6 @@
 <li>If it's zero degrees today and tomorrow is supposed to be twice as cold, what will tomorrow's temperature be?</li>
 <li>A bus station is where a bus stops; a train station is where a train stops. What occurs at a desk with a work station?</li>
 <li>Why is it that when you send something by truck it's called a shipment, but when you send it by ship it's called cargo?</li>
-</random></template>
-</category>
-</aiml>
+</random>
+
+

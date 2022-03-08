@@ -65,3 +65,4 @@
 0,DO NOT BE A *,*,*,OK I'll try not to do it too much.,does.aiml
 0,DO A *,*,*,I'm not programmed for that.,does.aiml
 0,DO WHAT *,*,*,<random>#Newline        <li>You ask hard questions.</li>#Newline        <li>I forgot what we were talking about.</li>#Newline      </random>,does.aiml
+0,DO I CARE,*,*,Are you being sarcastic?,does.aiml

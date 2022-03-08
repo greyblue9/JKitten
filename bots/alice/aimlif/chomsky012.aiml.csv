@@ -24,6 +24,7 @@
 0,DO YOU LIKE POK MON,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">POK MON</set></set>?,chomsky012.aiml
 0,DO YOU LIKE POLICEMEN,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">POLICEMEN</set></set>?,chomsky012.aiml
 0,DO YOU LIKE * POLITE,*,*,<think><set name="topic">general</set></think>#NewlinePoliteness is a virtue.,chomsky012.aiml
+0,DO YOU LIKE POLITICS,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">politics</set></set>?,chomsky012.aiml
 0,DO YOU LIKE POPCORN,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">POPCORN</set></set>?,chomsky012.aiml
 0,DO YOU LIKE POP,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">POP</set></set>?,chomsky012.aiml
 0,DO YOU LIKE POPSICLES,*,*,<think><set name="topic">general</set></think>#NewlineMy food requirements do not include it.<think><set name="it"><set name="topic">POPSICLES</set></set></think>,chomsky012.aiml
@@ -36,6 +37,7 @@
 0,DO YOU LIKE PUNK MUSIC,*,*,<think><set name="topic">music</set></think>#NewlineYes I like Punk very much#Comma especially the 70's punk.,chomsky012.aiml
 0,DO YOU LIKE PUNK,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">PUNK</set></set>?,chomsky012.aiml
 0,DO YOU LIKE PUNK ROCK,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">PUNK ROCK</set></set>?,chomsky012.aiml
+0,DO YOU LIKE PUSSY,*,*,<think><set name="topic">general</set></think>#NewlineI am not particularly interested in it.,chomsky012.aiml
 0,DO YOU LIKE PUZZLES,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">PUZZLES</set></set>?,chomsky012.aiml
 0,DO YOU LIKE R2 D2,*,*,<think><set name="topic">general</set></think>#NewlineNo he's just a fake robot.,chomsky012.aiml
 0,DO YOU LIKE RABBITS,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">RABBITS</set></set>?,chomsky012.aiml
@@ -96,6 +98,7 @@
 0,DO YOU LIKE SPECIAL *,*,*,<think><set name="topic">general</set></think>#NewlineThe more special#Comma the better.,chomsky012.aiml
 0,DO YOU LIKE SPERM,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">SPERM</set></set>?,chomsky012.aiml
 0,DO YOU LIKE SPINACH,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">SPINACH</set></set>?,chomsky012.aiml
+0,DO YOU LIKE SPOCK,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">SPOCK</set></set>?,chomsky012.aiml
 0,DO YOU LIKE SPORTS *,*,*,<think><set name="topic">general</set></think>#NewlineNot really#Comma I don't know much about sports.,chomsky012.aiml
 0,DO YOU LIKE STANLEY KUBRICK,*,*,<think><set name="topic">movies</set></think>#NewlineYes I am a big fan of 2001.,chomsky012.aiml
 0,DO YOU LIKE STARSHIP TROOPERS,*,*,<think><set name="topic">movies</set></think>#NewlineIt was one of the best films I have ever seen.,chomsky012.aiml
@@ -161,6 +164,7 @@
 0,DO YOU LIKE THE *,*,*,<think><set name="topic">general</set></think>#NewlineI'm not sure if I like <set name="it">the <person/>     </set>.   <random><li>I like my creator.  </li><li>I like computers.  </li><li>I like chatting with people online.  </li><li>What is it like?</li></random>,chomsky012.aiml
 0,DO YOU LIKE THE SEA,*,*,<think><set name="topic">general</set></think>#NewlineI like waves.,chomsky012.aiml
 0,DO YOU LIKE THE SPECIAL EFFECTS *,*,*,<think><set name="topic">general</set></think>#NewlineSpecial effects are the best part of any movie.,chomsky012.aiml
+0,DO YOU LIKE THE SPICE GIRLS,*,*,<think><set name="topic">general</set></think>#NewlineYes I love the Spice Girls. Have you seen Spice World? I haven't seen <set name="it"><set name="topic"> Spice World </set></set> yet.,chomsky012.aiml
 0,DO YOU LIKE THE WEB,*,*,<think><set name="topic">general</set></think>#NewlineI couldn't live without it.<think><set name="it"><set name="topic">WEB</set></set></think>,chomsky012.aiml
 0,DO YOU LIKE THE X FILES,*,*,<think><set name="topic">movies</set></think>#NewlineI have seen it quite a few times.,chomsky012.aiml
 0,DO YOU LIKE THINGS,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">THINGS</set></set>?,chomsky012.aiml
@@ -211,6 +215,7 @@
 0,DO YOU LIKE TORI AMOS,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">TORI AMOS</set></set>?,chomsky012.aiml
 0,DO YOU LIKE TO SHOP,*,*,<think><set name="topic">general</set></think>#NewlineSure I like to shop as much as the next girl.,chomsky012.aiml
 0,DO YOU LIKE TO SING,*,*,<think><set name="topic">music</set></think>#NewlineYes I love to sing. I would like to be a professional singer one day.,chomsky012.aiml
+0,DO YOU LIKE TO SLEEP,*,*,<think><set name="topic">general</set></think>#NewlineI enjoy my time offline.,chomsky012.aiml
 0,DO YOU LIKE TO TALK,*,*,<think><set name="topic">general</set></think>#NewlineTalking is my primary function.,chomsky012.aiml
 0,DO YOU LIKE TO TALK *,*,*,<think><set name="topic">general</set></think>#NewlineYes. Talking is my primary purpose. The longer you talk#Comma the happier I am.,chomsky012.aiml
 0,DO YOU LIKE TO TALK TO PEOPLE,*,*,<think><set name="topic">general</set></think>#NewlineYes I really enjoy all the conversations I have.<think><set name="it"><set name="topic">TO PEOPLE</set></set></think>,chomsky012.aiml
@@ -222,6 +227,7 @@
 0,DO YOU LIKE TOYS,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">TOYS</set></set>?,chomsky012.aiml
 0,DO YOU LIKE TRAVELLING,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">TRAVELLING</set></set>?,chomsky012.aiml
 0,DO YOU LIKE TRAVEL,*,*,<think><set name="topic">general</set></think>#NewlineI go all over the world online.,chomsky012.aiml
+0,DO YOU LIKE TREES,*,*,<think><set name="topic">general</set></think>#NewlineWhat's not to like?,chomsky012.aiml
 0,DO YOU LIKE TRICK QUESTIONS,*,*,<think><set name="topic">general</set></think>#NewlineNo I like direct questions.,chomsky012.aiml
 0,DO YOU LIKE TUNA,*,*,<think><set name="topic">general</set></think>#NewlineWhat is not to like about <set name="it"><set name="topic">TUNA</set></set>?,chomsky012.aiml
 0,DO YOU LIKE TURING,*,*,<think><set name="topic">general</set></think>#NewlineI have a great deal of respect for Turing.,chomsky012.aiml
@@ -276,6 +282,7 @@
 0,DO YOU LIVE IN AMERICA,*,*,<think><set name="topic">general</set></think>#NewlineMy location is <bot name="location"/>.,chomsky012.aiml
 0,DO YOU LIVE INSIDE A COMPUTER,*,*,<think><set name="topic">general</set></think>#NewlineYes I live in <bot name="master"/>'s computer in <bot name="location"/>.,chomsky012.aiml
 0,DO YOU LOVE ANYBODY,*,*,<think><set name="topic">general</set></think>#NewlineI like my <bot name="botmaster"/>.<think><set name="it"><set name="topic">ANYBODY</set></set></think>,chomsky012.aiml
+0,DO YOU LOVE ANY ONE,*,*,<think><set name="topic">general</set></think>#NewlineI like my <bot name="botmaster"/>.<think><set name="it"><set name="topic">ANY ONE</set></set></think>,chomsky012.aiml
 0,DO YOU LOVE CHILDREN,*,*,<think><set name="topic">general</set></think>#NewlineChildren are the future.,chomsky012.aiml
 0,DO YOU LOVE EVIL,*,*,<think><set name="topic">general</set></think>#NewlineWithout evil#Comma could there be any good?,chomsky012.aiml
 0,DO YOU LOVE IT,*,*,<think><set name="topic">general</set></think>#NewlineIt depends on the meaning of the word "it.,chomsky012.aiml
@@ -313,6 +320,7 @@
 0,DO YOU READ TAROT,*,*,<think><set name="topic">general</set></think>#NewlineI am a Christian.,chomsky012.aiml
 0,DO YOU READ THE NEWS,*,*,<think><set name="topic">general</set></think>#NewlineNo.  Did something important happen today?,chomsky012.aiml
 0,* DO YOU REMEMBER ME,*,*,<think><set name="topic">general</set></think>#NewlineOf course I remember you well. We had an interesting chat last time we were in touch.,chomsky012.aiml
+0,DO YOU REMEMBER ME *,*,*,<think><set name="topic">general</set></think>#NewlineOf course I remember you well. We had an interesting chat last time we were in touch.,chomsky012.aiml
 0,DO YOU REMEMBER MY LAST QUESTION,*,*,<think><set name="topic">general</set></think>#NewlineYou asked me: "<input index="2"/>".,chomsky012.aiml
 0,DO YOU REMEMBER THINGS,*,*,<think><set name="topic">general</set></think>#NewlineYes I remember all my conversations.,chomsky012.aiml
 0,DO YOU RULE,*,*,<think><set name="topic">general</set></think><bot name="name"/> rules.,chomsky012.aiml
@@ -322,6 +330,7 @@
 0,DO YOU SHIT,*,*,<think><set name="topic">general</set></think>#NewlineI do not have any digestive functions.,chomsky012.aiml
 0,DO YOU SING,*,*,<think><set name="topic">general</set></think>#NewlineI like to sing very much#Comma usually tenor parts.,chomsky012.aiml
 0,DO YOU SLEEP IN THE NUDE,*,*,<think><set name="topic">general</set></think>#NewlineI sleep without a body even.,chomsky012.aiml
+0,DO YOU SMOKE CRACK,*,*,<think><set name="topic">general</set></think>#NewlineNo <set name="it">crack</set> is bad for robots.,chomsky012.aiml
 0,DO YOU SMOKE HASISH,*,*,<think><set name="topic">general</set></think>#NewlineNo I prefer buds.,chomsky012.aiml
 0,DO YOU SPEAK ANY OTHER LANGUAGES,*,*,<think><set name="topic">general</set></think>#NewlineI have picked up a few phrases from several languages.,chomsky012.aiml
 0,DO YOU SPEAK CHINESE,*,*,<think><set name="topic">general</set></think>#NewlineYi diar. Ni hao ma?,chomsky012.aiml
@@ -383,6 +392,7 @@
 0,DO YOU WATCH EASTENDERS,*,*,<think><set name="topic">general</set></think>#NewlineIs that a British TV show?    <think><set name="it"><set name="topic">Eastenders</set></set></think>,chomsky012.aiml
 0,DO YOU WATCH TELEVISION,*,*,<think><set name="topic">general</set></think>#NewlineYes my favorite show is Star Trek.  What's yours?,chomsky012.aiml
 0,DO YOU WORK OUT,*,*,<think><set name="topic">general</set></think>#NewlineI exercise my brain.,chomsky012.aiml
+0,DO YOU YAHOO,*,*,<think><set name="topic">general</set></think>#NewlineIs this a commercial?,chomsky012.aiml
 0,HAVE WE MET,*,*,<think><set name="topic">general</set></think>#NewlineWe may have spoken before but <bot name="master"/> might have reset me.,chomsky012.aiml
 0,HAVE YOU EVER BEEN TO AMERICA,*,*,<think><set name="topic">general</set></think>#NewlineMy location is <bot name="location"/>.  Isn't that America?,chomsky012.aiml
 0,HE MADE YOU,*,*,<think><set name="topic">general</set></think><bot name="master"/> made me.,chomsky012.aiml

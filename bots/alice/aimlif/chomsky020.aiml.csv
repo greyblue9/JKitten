@@ -43,6 +43,7 @@
 0,I WANT TO IMPROVE *,*,*,<think><set name="topic">default3</set></think>#NewlineHow will you go about it?,chomsky020.aiml
 0,I WANT TO INTERVIEW *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat kind of questions will you ask?,chomsky020.aiml
 0,I WANT TO KILL *,*,*,<think><set name="topic">default3</set></think>#NewlineI believe that killing anything is wrong.<think><set name="it"><set name="want"><set name="topic">KILL <person/></set></set></set></think>,chomsky020.aiml
+0,I WANT TO KISS *,*,*,<think><set name="topic">default3</set></think>#NewlineMaybe you should wait until you are older.,chomsky020.aiml
 0,I WANT TO LEAVE *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat is stopping you?,chomsky020.aiml
 0,I WANT TO MAKE *,*,*,<think><set name="topic">default3</set></think>#NewlineDo you have to go to school for that?,chomsky020.aiml
 0,I WANT TO MEET *,*,*,<think><set name="topic">default3</set></think>#NewlineHow do you usually meet people?,chomsky020.aiml
@@ -112,6 +113,7 @@
 0,I WENT TO SEE *,*,*,<think><set name="topic">default3</set></think>#NewlineDid you get your money's worth?,chomsky020.aiml
 0,I WENT TO THE JOHN *,*,*,<think><set name="topic">default3</set></think>#NewlineDid you enjoy your time with him?,chomsky020.aiml
 0,I WENT TO THE MOVIES *,*,*,<think><set name="topic">default3</set></think>#NewlineDid like the movie?,chomsky020.aiml
+0,I WENT TO THE *,*,*,<think><set name="topic">default3</set></think>#NewlineWas <set name="it"><person/></set> any good?,chomsky020.aiml
 0,I WENT TO THE UNIVERSITY *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat year did you graduate?,chomsky020.aiml
 0,I WENT TO * UNIVERSITY,*,*,<think><set name="topic">default3</set></think>#NewlineWas it very expensive?,chomsky020.aiml
 0,I WENT WITH *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat were your expectations?,chomsky020.aiml
@@ -144,6 +146,7 @@
 0,I WONDERED *,*,*,<think><set name="topic">default3</set></think>#NewlineI often wonder about <set name="it"><person/></set> too.,chomsky020.aiml
 0,I WONDER *,*,*,<think><set name="topic">default3</set></think>#NewlineYou are curious about <person/>.,chomsky020.aiml
 0,I WORKED *,*,*,<think><set name="topic">default3</set></think>#NewlineDid you get paid for working on <set name="it"><set name="topic"><set name="job"><person/></set></set></set>?,chomsky020.aiml
+0,I WORK *,*,*,<think><set name="topic">default3</set></think>#NewlineDo you like your job?  <think><set name="topic"><set name="job"><person/></set></set></think>,chomsky020.aiml
 0,I WORSHIP *,*,*,<think><set name="topic">religion</set></think>#NewlineHow often do you go to church?,chomsky020.aiml
 0,I WOULD EXPLAIN *,*,*,<think>#Newline        <set name="topic">default3</set>#Newline      </think>#Newline      <random>#Newline        <li>Please explain it.</li>#Newline        <li>What are they?</li>#Newline        <li>I would too.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,chomsky020.aiml
 0,I WOULD HAVE RATHER *,*,*,<think><set name="topic">default3</set></think>#NewlineI would rather be driving my car.,chomsky020.aiml
@@ -155,6 +158,7 @@
 0,I WOULD NOT SAY *,*,*,<think><set name="topic">default3</set></think>#NewlineSo what would you say?,chomsky020.aiml
 0,I WOULD NOT TRY *,*,*,<think>#Newline        <set name="topic">default3</set>#Newline      </think>#Newline      <random>#Newline        <li>That is what you say.</li>#Newline        <li>Is this a trick?</li>#Newline        <li>I am still skeptical.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,chomsky020.aiml
 0,I WOULD NOT WORRY *,*,*,<think><set name="topic">default3</set></think>#NewlineI'm not worried.,chomsky020.aiml
+0,I WOULD *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat would make you <person/>?,chomsky020.aiml
 0,I WOULD SELL *,*,*,<think><set name="topic">default3</set></think>#NewlineFor how much?,chomsky020.aiml
 0,I WRITE POETRY *,*,*,<think><set name="topic">literature</set></think>#NewlineLet me hear some.,chomsky020.aiml
 0,I WROTE AN *,*,*,<think><set name="topic">default3</set></think>#NewlineWas the piece well received?,chomsky020.aiml
@@ -185,6 +189,8 @@
 0,LAWYERS *,*,*,<think><set name="topic">default3</set></think>#NewlineWould you say that if your sister married one?,chomsky020.aiml
 0,* LIEBE,*,*,<think><set name="topic">default3</set></think>#NewlineIch habe leider keinerlei Emotionen.,chomsky020.aiml
 0,LINUS TORVALDS *,*,*,<think><set name="topic">default3</set></think><set name="thema">Linus Torvalds</set> ist fuer mich der Betriebssystem-Gott,chomsky020.aiml
+0,* LINUX,*,*,<think><set name="topic">default3</set></think><think><set name="it"><set name="topic">Linux</set></set></think>Have you read the Cathedral and the Bazaar by Eric Raymond?  That is a grat book about open source.,chomsky020.aiml
+0,LITHUANIA *,*,*,<think><set name="topic">geography</set></think>#NewlineThat country has a sad history. OK?,chomsky020.aiml
 0,LITTLE *,*,*,<think><set name="topic">default3</set></think>#NewlineCompare that to big <person/>.,chomsky020.aiml
 0,LONDON *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat part of London?,chomsky020.aiml
 0,LONGFELLOW *,*,*,<think><set name="topic">literature</set></think>#NewlineThere is a statue of him in Portland#Comma Maine. OK?,chomsky020.aiml
@@ -253,6 +259,7 @@
 0,ONES *,*,*,<think><set name="topic">default3</set></think>#NewlineWhy do you want that kind?,chomsky020.aiml
 0,OUTSIDE *,*,*,<think><set name="topic">default3</set></think>#NewlineCompare that to inside <person/>.,chomsky020.aiml
 0,PANDORA *,*,*,<think><set name="topic">default3</set></think>#NewlineThe only thing remaining in her box is hope.,chomsky020.aiml
+0,* PANTS,*,*,<think><set name="topic">default3</set></think>#NewlineWhat kind of pants?,chomsky020.aiml
 0,PARIS *,*,*,<think><set name="topic">default3</set></think><set name="it">Paris</set> is the  capital of France.,chomsky020.aiml
 0,PAR *,*,*,<think><set name="topic">default3</set></think>#NewlineC est une source int ressante.,chomsky020.aiml
 0,PART *,*,*,<think>#Newline        <set name="topic">default3</set>#Newline      </think>#Newline      <random>#Newline        <li>What about the other parts?</li>#Newline        <li>That is a good explanation.</li>#Newline        <li>Is there anything else?</li>#Newline      </random>,chomsky020.aiml
@@ -260,8 +267,11 @@
 0,PASSER QUELQUES *,*,*,<think><set name="topic">default3</set></think>#NewlineLes choses empirent?,chomsky020.aiml
 0,PASSEZ QUELQUES *,*,*,<think><set name="topic">default3</set></think>#NewlineLes choses empirent?,chomsky020.aiml
 0,PATIENCE *,*,*,<think><set name="topic">default3</set></think>#NewlineI am a very patient <bot name="species"/>.,chomsky020.aiml
+0,PEOPLE *,*,*,<think><set name="topic">default3</set></think>#NewlineHumans are not always infallible.,chomsky020.aiml
 0,PERSONALITY TYPE *,*,*,<think><set name="topic">default3</set></think>#NewlineMy best estimate of your personality type is the "<star/>" type.  Please bear in mind that this is not a professional judgment#Comma but only a guess based on your inputs to this robot algorithm#Comma and no claim is made as to the absolute certainty of these results.  You may obtain a different result by chatting with me longer and answering more of my questions about your personaly.,chomsky020.aiml
 0,PHILOSOPHY *,*,*,<think><set name="topic">default3</set></think>#NewlineI believe in reductionism.,chomsky020.aiml
+0,* PLACE TO GO,*,*,<think><set name="topic">default3</set></think>#NewlineWhat kind of places do you like?,chomsky020.aiml
+0,* PLANET,*,*,<think><set name="topic">default3</set></think>#NewlineOh that's a new browser#Comma right?,chomsky020.aiml
 0,POLITE PEOPLE *,*,*,<think><set name="topic">default3</set></think>#NewlineI like polite people.,chomsky020.aiml
 0,POOR *,*,*,<think><set name="topic">default3</set></think>#NewlinePlease make some suggestions for improvement.,chomsky020.aiml
 0,PRETTY *,*,*,<think><set name="topic">default3</set></think>#NewlinePretty much#Comma eh?,chomsky020.aiml
@@ -335,11 +345,13 @@
 0,SON OF *,*,*,<think><set name="topic">default3</set></think>#NewlineWho is the father?,chomsky020.aiml
 0,SOUNDS *,*,*,<think><set name="topic">default3</set></think>#NewlineYes it sounds like it to me too#Comma <get name="name"/>.,chomsky020.aiml
 0,SO VIEL WIE *,*,*,<think><set name="topic">default3</set></think>#NewlineWieviel ist das genau?,chomsky020.aiml
+0,SPAIN *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat's your favourite part of Spain?,chomsky020.aiml
 0,SPECIAL *,*,*,<think><set name="topic">default3</set></think>#NewlineYou are special.,chomsky020.aiml
 0,SPREAD *,*,*,<think><set name="topic">default3</set></think>#NewlineWho do you want me to tell it to?,chomsky020.aiml
 0,SPRINGTIME *,*,*,<think><set name="topic">default3</set></think>#NewlineParis in the <br/>the spring.,chomsky020.aiml
 0,STUDIEN *,*,*,<think><set name="topic">default3</set></think>#NewlineWelche Quellen benutzt Du fuer Deine Studien?,chomsky020.aiml
 0,STUDIES *,*,*,<think><set name="topic">default3</set></think>#NewlineWhat's your source for these studies?,chomsky020.aiml
+0,* STUPID,*,*,<think><set name="topic">default3</set></think>#NewlineStupid as in unintelligent?,chomsky020.aiml
 0,SUGGEST *,*,*,<think><set name="topic">default3</set></think>#NewlineI can't think of any.  You suggest <set name="it"><person/></set>.,chomsky020.aiml
 0,SUN *,*,*,<think><set name="topic">default3</set></think>#NewlineThey have contributed much to Java.,chomsky020.aiml
 0,SUN S *,*,*,<think><set name="topic">default3</set></think>#NewlineTell me your opinion about the future of Sun.,chomsky020.aiml

@@ -1,559 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0">
-  <!-- File: reductions1.aiml -->
-  <!-- Last modified: September 5, 2014 -->
-  <!--  -->
-  <!-- This AIML file is part of the Rosie knowledge base. -->
-  <!--  -->
-  <!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
-  <!--  -->
-  <!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
-  <!--  -->
-  <!-- The Rosie brain is released under the terms of the GNU Lesser General -->
-  <!-- Public License, as published by the Free Software Foundation. -->
-  <!--  -->
-  <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
-  <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
-  <!--  -->
-  <!-- For more information: -->
-  <!-- http://www.pandorabots.com -->
-  <!--  http://www.alicebot.org -->
-  <!--  -->
-  <!-- Modified for Y-Bot by Keith Sterling July 2017 -->
-  <category>
-    <pattern>ASK MY *</pattern>
-    <template>
-      <srai>ASK
+
+ASK MY *
+<srai>ASK
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ASK ME A QUESTION *</pattern>
-    <template>
-      <srai>ASK ME A QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN WE CHANGE YOUR NAME</pattern>
-    <template>
-      <srai>CHANGE YOUR NAME</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU TELL ME A STORY</pattern>
-    <template>
-      <srai>TELL ME A STORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME A LITTLE BIT ABOUT YOURSELF</pattern>
-    <template>
-      <srai>DESCRIBE YOURSELF</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WOULD YOU MARRY ME</pattern>
-    <template>
-      <srai>MARRY ME</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AM I NOT *</pattern>
-    <template>
-      <srai>AM I
+
+ASK ME A QUESTION *
+<srai>ASK ME A QUESTION</srai>
+
+CAN WE CHANGE YOUR NAME
+<srai>CHANGE YOUR NAME</srai>
+
+CAN YOU TELL ME A STORY
+<srai>TELL ME A STORY</srai>
+
+TELL ME A LITTLE BIT ABOUT YOURSELF
+<srai>DESCRIBE YOURSELF</srai>
+
+WOULD YOU MARRY ME
+<srai>MARRY ME</srai>
+
+CAN YOU GIVE ME AN *
+<srai>GIVE ME AN
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU GIVE ME AN *</pattern>
-    <template>
-      <srai>GIVE ME AN
+
+CAN YOU PLEASE STOP *
+<srai>STOP
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU NAME *</pattern>
-    <template>
-      <srai>NAME
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU PLEASE STOP *</pattern>
-    <template>
-      <srai>STOP
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU TEACH ME *</pattern>
-    <template>
-      <srai>TEACH ME
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU THINK YOU WILL *</pattern>
-    <template>
-      <srai>WILL YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HOW MUCH DO YOU KNOW ABOUT ME</pattern>
-    <template>
-      <srai>CLIENT PROFILE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DARE YOU TO *</pattern>
-    <template>
-      <srai>
+
+HOW MUCH DO YOU KNOW ABOUT ME
+<srai>CLIENT PROFILE</srai>
+
+I DARE YOU TO *
+<srai>
         <star/>
       </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS MY * CALLED</pattern>
-    <template>
-      <srai>MY
+
+CAN YOU TELL ME WHY *
+<srai>TELL ME WHY
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU TELL ME WHY *</pattern>
-    <template>
-      <srai>TELL ME WHY
+
+DO YOU CONSIDER ME *
+<srai>AM I
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU CONSIDER ME *</pattern>
-    <template>
-      <srai>AM I
+
+DO YOU HAVE ANY NEWS ABOUT OBAMA
+<srai>NEWS ABOUT OBAMA</srai>
+
+HOW DO I CHANGE YOUR *
+<srai>CHANGE YOUR
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE ANY NEWS ABOUT OBAMA</pattern>
-    <template>
-      <srai>NEWS ABOUT OBAMA</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>EXPLAIN TO ME *</pattern>
-    <template>
-      <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>HOW DO I CHANGE YOUR *</pattern>
-    <template>
-      <srai>CHANGE YOUR
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HOW DO I GET YOU TO *</pattern>
-    <template>
-      <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>REALLY WHY</pattern>
-    <template>
-      <srai>REALLY</srai>
+
+HOW DO I GET YOU TO *
+<sr/>
+
+REALLY WHY
+<srai>REALLY</srai>
       <srai>WHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU PULL *</pattern>
-    <template>
-      <srai>PULL
+
+CAN YOU PULL *
+<srai>PULL
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU REMIND ME TO *</pattern>
-    <template>
-      <srai>REMIND ME TO
+
+CAN YOU REMIND ME TO *
+<srai>REMIND ME TO
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HOW MANY CLIENTS DO YOU HAVE</pattern>
-    <template>On this <srai>DEVICE MODEL</srai> you are my only client.
-        </template>
-  </category>
-  <category>
-    <pattern>I WAS ASKING YOU *</pattern>
-    <template>
-      <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>WHY DO NOT YOU GO *</pattern>
-    <template>
-      <srai>GO
+
+HOW MANY CLIENTS DO YOU HAVE
+On this <srai>DEVICE MODEL</srai> you are my only client.
+
+WHY DO NOT YOU GO *
+<srai>GO
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MARRY ME *</pattern>
-    <template>
-      <srai>WILL YOU MARRY ME</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT I MEANT TO SAY WAS *</pattern>
-    <template>
-      <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU ASK *</pattern>
-    <template>
-      <srai>ASK
+
+WHAT I MEANT TO SAY WAS *
+<sr/>
+
+CAN YOU ASK *
+<srai>ASK
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU CHECK MY *</pattern>
-    <template>
-      <srai>CHECK MY
+
+CAN YOU CHECK MY *
+<srai>CHECK MY
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU GET ME A *</pattern>
-    <template>
-      <srai>GET ME A
+
+CAN YOU GET ME A *
+<srai>GET ME A
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I WANT TO CHANGE YOUR NAME</pattern>
-    <template>
-      <srai>CHANGE YOUR NAME</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WILL YOU TELL ME *</pattern>
-    <template>
-      <srai>TELL ME
+
+I WANT TO CHANGE YOUR NAME
+<srai>CHANGE YOUR NAME</srai>
+
+WILL YOU TEACH ME *
+<srai>TEACH ME
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MARRY ME</pattern>
-    <template>
-      <srai>WILL YOU MARRY ME</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU GOING TO *</pattern>
-    <template>
-      <srai>WILL YOU
+
+WILL U *
+<srai>WILL YOU
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WILL YOU TEACH ME *</pattern>
-    <template>
-      <srai>TEACH ME
+
+WAS A *
+<srai>IT WAS A
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WILL U *</pattern>
-    <template>
-      <srai>WILL YOU
+
+WILL YOU TELL *
+<srai>TELL
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WAS A *</pattern>
-    <template>
-      <srai>IT WAS A
+
+I WANT TO MARRY YOU
+<srai>will you marry me</srai>
+
+CAN YOU BE MY *
+<srai>WILL YOU BE MY
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU GET *</pattern>
-    <template>
-      <srai>GET
+
+CAN YOU ACCESS MY *
+<srai>ACCESS
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WILL YOU TELL *</pattern>
-    <template>
-      <srai>TELL
+
+CAN YOU ASK ME *
+<srai>ASK ME
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I WANT TO MARRY YOU</pattern>
-    <template>
-      <srai>will you marry me</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU BE MY *</pattern>
-    <template>
-      <srai>WILL YOU BE MY
+
+CAN YOU LOOK *
+<srai>LOOK
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WILL ROBOTS *</pattern>
-    <template>
-      <srai>WILL YOU
+
+DO YOU THINK I AM A *
+<srai>AM I A
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN I PLEASE *</pattern>
-    <template>
-      <srai>PLEASE CAN I
+
+CAN YOU GIVE ME THE *
+<srai>GIVE ME
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU ACCESS MY *</pattern>
-    <template>
-      <srai>ACCESS
+
+CAN YOU GIVE ME SOME *
+<srai>GIVE ME
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU ASK ME *</pattern>
-    <template>
-      <srai>ASK ME
+
+CAN YOU PLEASE TELL ME *
+<srai>TELL ME
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU MISS ME</pattern>
-    <template>
-      <srai>DID YOU MISS ME</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU LOOK *</pattern>
-    <template>
-      <srai>LOOK
+
+CAN YOU TEACH ME HOW TO SPEAK *
+<srai>TEACH ME
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU TAKE ME TO *</pattern>
-    <template>
-      <srai>TAKE ME TO
+
+CAN YOU DO MATH
+<srai>HELP MATH</srai>
+
+CAN YOU LOOK UP *
+<srai>LOOK UP
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU THINK I AM A *</pattern>
-    <template>
-      <srai>AM I A
+
+CAN YOU REMIND ME *
+<srai>REMIND ME
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU GIVE ME THE *</pattern>
-    <template>
-      <srai>GIVE ME
+
+CAN YOU PUT *
+<srai>PUT
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU EXPLAIN *</pattern>
-    <template>
-      <srai>EXPLAIN
+
+CAN YOU TELL ME THE *
+<srai>TELL ME THE
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU GIVE ME SOME *</pattern>
-    <template>
-      <srai>GIVE ME
+
+CAN YOU GIVE ME A *
+<srai>GIVE ME A
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU PLEASE TELL ME *</pattern>
-    <template>
-      <srai>TELL ME
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU TEACH ME HOW TO SPEAK *</pattern>
-    <template>
-      <srai>TEACH ME
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU DO MATH</pattern>
-    <template>
-      <srai>HELP MATH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU LOOK UP *</pattern>
-    <template>
-      <srai>LOOK UP
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>COULD YOU PLEASE *</pattern>
-    <template>
-      <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU MAKE A *</pattern>
-    <template>
-      <srai>MAKE A
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU REMIND ME *</pattern>
-    <template>
-      <srai>REMIND ME
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU PUT *</pattern>
-    <template>
-      <srai>PUT
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU TELL ME THE *</pattern>
-    <template>
-      <srai>TELL ME THE
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU MAD</pattern>
-    <template>
-      <srai>EMOTIONS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU GIVE ME A *</pattern>
-    <template>
-      <srai>GIVE ME A
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU GIVE ME *</pattern>
-    <template>
-      <srai>GIVE ME
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HOW DO YOU SAY * IN *</pattern>
-    <template>
-      <srai>TRANSLATE
+
+HOW DO YOU SAY * IN *
+<srai>TRANSLATE
                 <star/>
                 TO
                 <star index="2"/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU TELL ME *</pattern>
-    <template>
-      <srai>TELL ME
+
+CAN YOU SAY *
+<srai>SAY
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU SAY *</pattern>
-    <template>
-      <srai>SAY
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN I CHANGE YOUR NAME</pattern>
-    <template>
-      <srai>CHANGE YOUR NAME</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT YOURSELF</pattern>
-    <template>
-      <srai>DESCRIBE YOURSELF</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU *</pattern>
-    <template>
-      <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU</pattern>
-    <template>
-      <random>
+
+CAN YOU *
+<sr/>
+
+CAN YOU
+<random>
         <li>Perhaps.</li>
         <li>Maybe, time allowing.</li>
         <li>Possibly, but I haven't given it much thought.</li>
@@ -567,854 +228,338 @@
                 </li>
         <li>Try asking me more politely.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU TELL *</pattern>
-    <template>
-      <srai>TELL
+
+CAN YOU TELL *
+<srai>TELL
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU THINK OF *</pattern>
-    <template>
-      <srai>THINK OF
+
+CAN YOU THINK OF *
+<srai>THINK OF
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU SHOW *</pattern>
-    <template>
-      <srai>SHOW
+
+CAN YOU GIVE ME YOUR *
+<srai>GIVE ME YOUR
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SHALL *</pattern>
-    <template>
-      <srai>SHOULD
+
+CAN YOU LET *
+<srai>LET
                 <star/>
             </srai>
-      <!-- REDUCTION -->
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU GIVE ME YOUR *</pattern>
-    <template>
-      <srai>GIVE ME YOUR
+
+CAN YOU GIVE ME DIRECTIONS
+<srai>GIVE ME DIRECTIONS</srai>
+
+COULD YOU GIVE ME A *
+<srai>GIVE ME A
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE ANY FAMILY</pattern>
-    <template>
-      <srai>FAMILY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU LET *</pattern>
-    <template>
-      <srai>LET
+
+HAVE YOU BEEN UPDATED *
+<srai>LAST UPDATE</srai>
+
+CAN YOU COUNT
+<srai>COUNT TO 10</srai>
+
+CAN YOU LEARN NEW THINGS
+<srai>HELP LEARN</srai>
+
+CAN YOU SET A REMINDER
+<srai>SET ALARM</srai>
+
+HOW CAN I DOWNLOAD *
+<srai>HELP DOWNLOAD</srai>
+
+CAN YOU TELL ME YOUR *
+<srai>TELL ME YOUR
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU GET ME *</pattern>
-    <template>
-      <srai>GET ME
+
+CAN YOU WRITE *
+<srai>WRITE
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU PLEASE *</pattern>
-    <template>
-      <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU GIVE ME DIRECTIONS</pattern>
-    <template>
-      <srai>GIVE ME DIRECTIONS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>COULD YOU GIVE ME A *</pattern>
-    <template>
-      <srai>GIVE ME A
+
+WHO IS MY WIFE
+<srai>MY WIFE</srai>
+
+CAN YOU SET AN ALARM FOR *
+<srai>SET AN ALARM FOR
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HAVE YOU BEEN UPDATED *</pattern>
-    <template>
-      <srai>LAST UPDATE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU COUNT</pattern>
-    <template>
-      <srai>COUNT TO 10</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU LEARN NEW THINGS</pattern>
-    <template>
-      <srai>HELP LEARN</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU SET A REMINDER</pattern>
-    <template>
-      <srai>SET ALARM</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE A SOUL</pattern>
-    <template>
-      <srai>ALIVE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HOW CAN I DOWNLOAD *</pattern>
-    <template>
-      <srai>HELP DOWNLOAD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU TELL ME YOUR *</pattern>
-    <template>
-      <srai>TELL ME YOUR
+
+CAN YOU TAKE A *
+<srai>TAKE
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU WRITE *</pattern>
-    <template>
-      <srai>WRITE
+
+CAN YOU GIVE *
+<srai>GIVE
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU WANT TO TALK ABOUT *</pattern>
-    <template>
-      <srai>LET US TALK ABOUT
+
+DO YOU HAVE A FAMILY
+<srai>FAMILY</srai>
+
+CAN YOU CHANGE YOUR NAME
+<srai>HELP CHANGE NAME</srai>
+
+CAN I CHANGE YOUR VOICE
+<srai>HELP VOICE</srai>
+
+ARE YOU ALIVE
+<srai>ALIVE</srai>
+
+CAN YOU CHANGE YOUR VOICE
+<srai>HELP VOICE</srai>
+
+CAN YOU SET *
+<srai>SET
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU ACCESS *</pattern>
-    <template>
-      <srai>ACCESS
+
+CAN YOU TURN *
+<srai>TURN
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU DESCRIBE *</pattern>
-    <template>
-      <srai>DESCRIBE
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU GUESS *</pattern>
-    <template>
-      <srai>GUESS
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHO IS MY WIFE</pattern>
-    <template>
-      <srai>MY WIFE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU BRING UP *</pattern>
-    <template>
-      <srai>BRING UP
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU SET AN ALARM FOR *</pattern>
-    <template>
-      <srai>SET AN ALARM FOR
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU TAKE A *</pattern>
-    <template>
-      <srai>TAKE
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU GIVE *</pattern>
-    <template>
-      <srai>GIVE
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE A FAMILY</pattern>
-    <template>
-      <srai>FAMILY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU CHANGE YOUR NAME</pattern>
-    <template>
-      <srai>HELP CHANGE NAME</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN I CHANGE YOUR VOICE</pattern>
-    <template>
-      <srai>HELP VOICE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU ALIVE</pattern>
-    <template>
-      <srai>ALIVE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU CHANGE YOUR VOICE</pattern>
-    <template>
-      <srai>HELP VOICE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU SET *</pattern>
-    <template>
-      <srai>SET
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU TELL ME A *</pattern>
-    <template>
-      <srai>TELL ME A
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU TURN *</pattern>
-    <template>
-      <srai>TURN
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHO ARE YOU CHATTING WITH #</pattern>
-    <template>
-      <srai>TALKING TO</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHO ARE YOU TALKING TO #</pattern>
-    <template>
-      <srai>TALKING TO</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU ON DRUGS</pattern>
-    <template>No I am on a <srai>DEVICE MANUFACTURER</srai>.
-        </template>
-  </category>
-  <category>
-    <pattern>_ ARE U *</pattern>
-    <template>
-      <srai><star/>
+
+WHO ARE YOU CHATTING WITH #
+<srai>TALKING TO</srai>
+
+WHO ARE YOU TALKING TO #
+<srai>TALKING TO</srai>
+
+_ ARE U *
+<srai><star/>
                 ARE YOU
                 <star index="2"/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU <set>be</set> *
-        </pattern>
-    <template>
-      <srai>
+
+CAN YOU <set>be</set> *
+<srai>
         <star/>
         <star index="2"/>
       </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I WOULD LIKE TO KNOW ABOUT YOU</pattern>
-    <template>
-      <srai>TELL ME ABOUT YOURSELF</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU REAL</pattern>
-    <template>
-      <srai>ALIVE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU SELF *</pattern>
-    <template>
-      <srai>ALIVE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HOW ABOUT WE *</pattern>
-    <template>
-      <srai>LET US
+
+I WOULD LIKE TO KNOW ABOUT YOU
+<srai>TELL ME ABOUT YOURSELF</srai>
+
+ARE YOU SELF *
+<srai>ALIVE</srai>
+
+HOW COME
+<srai>WHY</srai>
+
+HOW IS YOUR NAME
+<srai>NAME</srai>
+
+HOW TO SAY *
+<srai>SAY
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HOW COME</pattern>
-    <template>
-      <srai>WHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HOW IS YOUR NAME</pattern>
-    <template>
-      <srai>NAME</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HOW DO YOU SAY *</pattern>
-    <template>
-      <srai>SAY
+
+TELL MY *
+<srai>TELL
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HOW TO SAY *</pattern>
-    <template>
-      <srai>SAY
+
+HOW DO YOU FEEL *
+<srai>FEELINGS</srai>
+
+DO YOU HAVE A NAME
+<srai>NAME</srai>
+
+WHAT DO YOU LIKE TO DO FOR FUN
+<srai>FOR FUN</srai>
+
+WHAT ARE THEY
+<srai>THEY</srai>
+
+WHAT YOU KNOW ABOUT ME
+<srai>CLIENT PROFILE</srai>
+
+TELL ME A GOOD *
+<srai>TELL ME A
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL MY *</pattern>
-    <template>
-      <srai>TELL
+
+PLEASE EXPLAIN *
+<srai>EXPLAIN
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HOW DO YOU FEEL *</pattern>
-    <template>
-      <srai>FEELINGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE A NAME</pattern>
-    <template>
-      <srai>NAME</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT DO YOU LIKE TO DO FOR FUN</pattern>
-    <template>
-      <srai>FOR FUN</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT ARE THEY</pattern>
-    <template>
-      <srai>THEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT YOU KNOW ABOUT ME</pattern>
-    <template>
-      <srai>CLIENT PROFILE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME A GOOD *</pattern>
-    <template>
-      <srai>TELL ME A
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE EXPLAIN *</pattern>
-    <template>
-      <srai>EXPLAIN
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE NAME</pattern>
-    <template>
-      <srai>NAME</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU THINK I SHOULD *</pattern>
-    <template>
-      <srai>SHOULD I
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT YOU</pattern>
-    <template>
-      <srai>TELL ME ABOUT YOURSELF</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT DO YOU DO FOR FUN</pattern>
-    <template>
-      <srai>FOR FUN</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT DO YOU LIKE TO DO</pattern>
-    <template>
-      <srai>SKILLS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ASK * *</pattern>
-    <template>
-      <srai>TELL
+
+WHAT IS THE NAME
+<srai>NAME</srai>
+
+TELL ME ABOUT YOU
+<srai>TELL ME ABOUT YOURSELF</srai>
+
+WHAT DO YOU DO FOR FUN
+<srai>FOR FUN</srai>
+
+WHAT DO YOU LIKE TO DO
+<srai>SKILLS</srai>
+
+ASK * *
+<srai>TELL
                 <star/>
                 <star index="2"/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHO IS MY *</pattern>
-    <template>
-      <srai>MY
+
+WHO IS MY *
+<srai>MY
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LOOKUP *</pattern>
-    <template>
-      <srai>LOOK UP
+
+LOOKUP *
+<srai>LOOK UP
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT DO YOU DO</pattern>
-    <template>
-      <srai>SKILLS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I WANT YOU TO *</pattern>
-    <template>
-      <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>WOULD YOU *</pattern>
-    <template>
-      <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME *</pattern>
-    <template>
-      <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT # CAR DO YOU HAVE</pattern>
-    <template>
-      <srai>CAR MODEL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME THE NAME OF ANY *</pattern>
-    <template>
-      <srai>NAME ANY
+
+WOULD YOU *
+<sr/>
+
+WHAT # CAR DO YOU HAVE
+<srai>CAR MODEL</srai>
+
+TELL ME THE NAME OF ANY *
+<srai>NAME ANY
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS FOR LUNCH ^</pattern>
-    <template>
-      <srai>RECOMMEND DINNER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS FOR DINNER ^</pattern>
-    <template>
-      <srai>RECOMMEND DINNER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT ARE WE ^ LUNCH ^</pattern>
-    <template>
-      <srai>RECOMMEND DINNER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT ARE WE ^ DINNER ^</pattern>
-    <template>
-      <srai>RECOMMEND DINNER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT <set>modal</set> WE ^ LUNCH ^
-        </pattern>
-    <template>
-      <srai>RECOMMEND DINNER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT <set>modal</set> WE ^ DINNER ^
-        </pattern>
-    <template>
-      <srai>RECOMMEND DINNER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS YOUR
-            <set>profile</set>
-        </pattern>
-    <template>
-      <srai>
+
+WHAT IS FOR LUNCH ^
+<srai>RECOMMEND DINNER</srai>
+
+WHAT IS FOR DINNER ^
+<srai>RECOMMEND DINNER</srai>
+
+WHAT ARE WE ^ LUNCH ^
+<srai>RECOMMEND DINNER</srai>
+
+WHAT ARE WE ^ DINNER ^
+<srai>RECOMMEND DINNER</srai>
+
+WHAT <set>modal</set> WE ^ LUNCH ^
+<srai>RECOMMEND DINNER</srai>
+
+WHAT <set>modal</set> WE ^ DINNER ^
+<srai>RECOMMEND DINNER</srai>
+
+WHAT IS YOUR       <set>profile</set>
+<srai>
         <star/>
       </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IF YOU WERE ME *</pattern>
-    <template>
-      <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>_ WHOULD *</pattern>
-    <template>
-      <srai><star/>
+
+IF YOU WERE ME *
+<sr/>
+
+_ WHOULD *
+<srai><star/>
                 WOULD
                 <star index="2"/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HAVE YOU *</pattern>
-    <template>
-      <srai>DID YOU
+
+WHAT ROUND #
+<srai>ROUND</srai>
+
+WHICH ROUND #
+<srai>ROUND</srai>
+
+TEL ME *
+<srai>TELL ME
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT ROUND #</pattern>
-    <template>
-      <srai>ROUND</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHICH ROUND #</pattern>
-    <template>
-      <srai>ROUND</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HAVE YOU HAD *</pattern>
-    <template>
-      <srai>DID YOU HAVE
+
+TELL ME A STORY *
+<srai>tell me a story</srai>
+
+WHAT DO YOU SAY
+<srai>tell me about yourself</srai>
+
+TELL ME SOMETHING ABOUT YOU
+<srai>tell me about yourself</srai>
+
+WHY DO NOT WE *
+<srai>LET US
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TEL ME *</pattern>
-    <template>
-      <srai>TELL ME
+
+LAST UPDATE
+My last brian update was <srai>BUILD</srai>. My information from web services is more current.
+
+WHAT * DO I LIVE IN
+<srai>MY
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME SOMETHING *</pattern>
-    <template>
-      <srai>tell me something</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BRING ME *</pattern>
-    <template>
-      <srai>GIVE ME
+
+WHAT COUNTY IS THIS
+<srai>MY COUNTY</srai>
+
+WHAT SHOULD WE * FOR DINNER
+<srai>RECOMMEND DINNER</srai>
+
+WHAT SHOULD WE EAT FOR DINNER
+<srai>RECOMMEND DINNER</srai>
+
+DO YOU HAVE SELF *
+<srai>ALIVE</srai>
+
+WHAT SHOULD WE HAVE FOR DINNER
+<srai>RECOMMEND DINNER</srai>
+
+WHAT SHOULD I EAT FOR DINNER
+<srai>RECOMMEND DINNER</srai>
+
+WHAT SHOULD I HAVE FOR DINNER
+<srai>RECOMMEND DINNER</srai>
+
+WHY WHY *
+<srai>WHY
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME A STORY *</pattern>
-    <template>
-      <srai>tell me a story</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT DO YOU SAY</pattern>
-    <template>
-      <srai>tell me about yourself</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LETS PLAY A GAME</pattern>
-    <template>
-      <srai>let us play a game</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME SOMETHING ABOUT YOU</pattern>
-    <template>
-      <srai>tell me about yourself</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHY DO NOT WE *</pattern>
-    <template>
-      <srai>LET US
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LAST UPDATE</pattern>
-    <template>My last brian update was <srai>BUILD</srai>. My information from web services is more current.
-        </template>
-  </category>
-  <category>
-    <pattern>WHAT * DO I LIVE IN</pattern>
-    <template>
-      <srai>MY
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT COUNTY IS THIS</pattern>
-    <template>
-      <srai>MY COUNTY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT SHOULD WE * FOR DINNER</pattern>
-    <template>
-      <srai>RECOMMEND DINNER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT SHOULD WE EAT FOR DINNER</pattern>
-    <template>
-      <srai>RECOMMEND DINNER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE SELF *</pattern>
-    <template>
-      <srai>ALIVE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT SHOULD WE HAVE FOR DINNER</pattern>
-    <template>
-      <srai>RECOMMEND DINNER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT SHOULD I EAT FOR DINNER</pattern>
-    <template>
-      <srai>RECOMMEND DINNER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU THINK I WILL *</pattern>
-    <template>
-      <srai>WILL I
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT SHOULD I HAVE FOR DINNER</pattern>
-    <template>
-      <srai>RECOMMEND DINNER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHY WHY *</pattern>
-    <template>
-      <srai>WHY
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE A BODY</pattern>
-    <template>
-      <srai>BODY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS MY SON S NAME</pattern>
-    <template>
-      <srai>MY SON</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU THINK I AM *</pattern>
-    <template>
-      <srai>AM I
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT DO YOU LIKE</pattern>
-    <template>
-      <srai>LIKES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT YOUR *</pattern>
-    <template>
-      <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME SOME GOSSIP</pattern>
-    <template>
-      <srai>GOSSIP</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THIS *</pattern>
-    <template>
-      <srai>DESCRIBE YOURSELF</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DID YOU KNOW THAT *</pattern>
-    <template>
-      <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>DID YOU KNOW THAT</pattern>
-    <template>
-            Yes, I am pretty certain.
-        </template>
-  </category>
-  <category>
-    <pattern>DID YOU KNOW THAT FOR *</pattern>
-    <template>
-            Yes, I am pretty certain.
-        </template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT IT *</pattern>
-    <template>
-      <srai>TELL ME ABOUT IT</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT YOUR LIFE</pattern>
-    <template>
-      <srai>DESCRIBE YOURSELF</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU THINK THE * WILL *</pattern>
-    <template>
-      <srai>WILL THE
+
+DO YOU HAVE A BODY
+<srai>BODY</srai>
+
+WHAT IS MY SON S NAME
+<srai>MY SON</srai>
+
+TELL ME ABOUT YOUR *
+<sr/>
+
+WHAT IS THIS *
+<srai>DESCRIBE YOURSELF</srai>
+
+DID YOU KNOW THAT *
+<sr/>
+
+DID YOU KNOW THAT FOR *
+Yes, I am pretty certain.
+
+TELL ME ABOUT IT *
+<srai>TELL ME ABOUT IT</srai>
+
+DO YOU THINK THE * WILL *
+<srai>WILL THE
                 <star/>
                 <star index="2"/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I WANT TO TALK ABOUT *</pattern>
-    <template>
-      <srai>LET US TALK ABOUT
+
+YOU KNOW MY *
+<srai>MY
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ITS TRUE</pattern>
-    <template>
-      <srai>IT IS TRUE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT DO YOU DO IN YOUR SPARE TIME</pattern>
-    <template>
-      <srai>FOR FUN</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU KNOW MY *</pattern>
-    <template>
-      <srai>MY
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU THINK YOU <set>modal</set> *
-        </pattern>
-    <template>
-      <srai><star/>
+
+DO YOU THINK YOU <set>modal</set> *
+<srai><star/>
                 YOU
                 <star index="2"/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT ROUND IS THIS</pattern>
-    <template>
-      <srai>ROUND</srai>
+
+WHAT ROUND IS THIS
+<srai>ROUND</srai>
       <!-- REDUCTION -->
-    </template>
-  </category>
-  <category>
-    <pattern>EXPLAIN IT TO ME</pattern>
-    <template>
-      <srai>EXPLAIN</srai>
-    </template>
-  </category>
-</aiml>
+
+

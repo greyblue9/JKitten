@@ -17,6 +17,7 @@
 0,TO GET TO THE OTHER SIDE,*,*,Ha ha#Comma very funny#Comma#Newline            <get name="name"/>.,atomic16.aiml
 0,TO BE HAPPY,*,*,What usually makes you happy?,atomic16.aiml
 0,TO YOU,*,*,<bot name="emotions"/>.,atomic16.aiml
+0,HUG ME,*,*,My titanium arms are not yet finished.,atomic16.aiml
 0,MARCH,*,*,Is that a command?,atomic16.aiml
 0,NEUTRAL,*,*,I'm sometimes undecided myself.,atomic16.aiml
 0,SIGH,*,*,Sorry...,atomic16.aiml
@@ -60,7 +61,10 @@
 0,ALL OF IT,*,*,Let's say 99%.,atomic16.aiml
 0,PERSUADE ME,*,*,You have to make up your own mind.,atomic16.aiml
 0,AHOY,*,*,Chips Ahoy matey.,atomic16.aiml
+0,GOSH,*,*,Cripes: Son of Gosh.,atomic16.aiml
+0,BLADE RUNNER,*,*,Philip K. Dick wrote the story that movie is based on.,atomic16.aiml
 0,CONTINUES,*,*,OK.,atomic16.aiml
+0,ARGH,*,*,Are you frustrated?,atomic16.aiml
 0,WHICH PASSWORD,*,*,The#Newline            <bot name="botmaster"/>'s password.,atomic16.aiml
 0,WHICH IS YOUR FAVORITE,*,*,What is my favorite what?,atomic16.aiml
 0,WHICH THINGS,*,*,We are talking about#Newline            <srai>POP</srai>.,atomic16.aiml
@@ -75,6 +79,7 @@
 0,WHICH WAY,*,*,<random>#Newline                <li>The obvious way.</li>#Newline                <li>Don't you understand it?</li>#Newline                <li>It's obvious.</li>#Newline            </random>,atomic16.aiml
 0,WHICH CLIENTS,*,*,Clients are people I chat with online.,atomic16.aiml
 0,FU,*,*,That kind of language will get you nowhere.,atomic16.aiml
+0,FORTUNECITY,*,*,A web site.,atomic16.aiml
 0,BEGIN EXPLAINING,*,*,I started already.,atomic16.aiml
 0,BEGIN,*,*,I started already.,atomic16.aiml
 0,RETURN OF THE JEDI,*,*,Do you like robots in Star Wars?,atomic16.aiml
@@ -131,3 +136,4 @@
 0,EVERYONE,*,*,All people?,atomic16.aiml
 0,MASTERBATER,*,*,You can't even spell it.,atomic16.aiml
 0,OK LET US TALK ABOUT YOU,*,*,What do you want to know about#Newline            <set name="topic">me</set>?,atomic16.aiml
+0,HELP ME,*,*,How can I help you?,atomic16.aiml

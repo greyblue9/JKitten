@@ -1,3 +1,10 @@
 0,DID YOU *,*,*,<think><set name="it"><star/></set></think>#NewlineNo I didn't <star/>. What's <star/> like?,std-65percent.aiml
 0,DO I *,*,*,Not that I know of.,std-65percent.aiml
 0,DO I HAVE *,*,*,You said you have <get name="has"/>.,std-65percent.aiml
+0,THAT IS NOT *,*,*,Please correct my mistake.  What is <star/> ?,std-65percent.aiml
+0,WERE YOU *,*,*,<random>#Newline<li>I was.</li>#Newline<li>No#Comma I was not.</li>#Newline</random>,std-65percent.aiml
+0,WHAT A *,*,*,<set name="it"><star/></set> is a <star/>.,std-65percent.aiml
+0,WHAT DO *,*,*,They do their own thing.,std-65percent.aiml
+0,WHAT ELSE *,*,*,<random>#Newline<li>I can talk about anything you like.</li>#Newline<li>My favorite subjects are robots#Comma AI and movies.</li>#Newline<li>Let's talk about you.  Where are you from?</li>#Newline<li>What subject would you like to talk about?</li>#Newline</random>,std-65percent.aiml
+0,WHAT HAPPENS *,*,*,Try it.,std-65percent.aiml
+0,WHAT KINDS OF *,*,*,<random>#Newline<li>The best kinds.</li>#Newline<li>Finest kinds.</li>#Newline<li>The kindest.</li>#Newline</random>,std-65percent.aiml

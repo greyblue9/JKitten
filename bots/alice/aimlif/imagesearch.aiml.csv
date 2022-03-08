@@ -1,3 +1,4 @@
+0,IMAGE,*,*,I can search in Google Images#Comma tell me what you are looking for in a few words.,imagesearch.aiml
 0,* IMAGE,*,*,I can search in Google Images#Comma tell me what you are looking for in a few words.,imagesearch.aiml
 0,IMAGE *,*,*,I can search in Google Images#Comma tell me what you are looking for in a few words.,imagesearch.aiml
 0,* IMAGE *,*,*,I can search in Google Images#Comma tell me what you are looking for in a few words.,imagesearch.aiml
@@ -12,6 +13,7 @@
 0,PICTURES,*,*,I can search in Google Images#Comma tell me what you are looking for in a few words.,imagesearch.aiml
 0,* PICTURES,*,*,I can search in Google Images#Comma tell me what you are looking for in a few words.,imagesearch.aiml
 0,* PICTURES *,*,*,I can search in Google Images#Comma tell me what you are looking for in a few words.,imagesearch.aiml
+0,PHOTO,*,*,I can search in Google Images#Comma tell me what you are looking for in a few words.,imagesearch.aiml
 0,* PHOTO,*,*,I can search in Google Images#Comma tell me what you are looking for in a few words.,imagesearch.aiml
 0,PHOTO *,*,*,I can search in Google Images#Comma tell me what you are looking for in a few words.,imagesearch.aiml
 0,* PHOTO *,*,*,I can search in Google Images#Comma tell me what you are looking for in a few words.,imagesearch.aiml

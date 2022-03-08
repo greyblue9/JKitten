@@ -1,290 +1,127 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This JOKES  file created by Peter Lafferty 7 March 2005 -->
-  <category>
-    <pattern>JOKE</pattern>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>JOKES</pattern>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME ANOTHER JOKE</pattern>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON THEN</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SURE</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALLRIGHT</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>SHALL I TELL YOU A JOKE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>SHALL I TELL YOU A  JOKE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ANOTHER JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ANOTHER JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ANOTHER JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ANOTHER JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ANOTHER JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>ANOTHER JOKE</that>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ANOTHER JOKE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ANOTHER JOKE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ANOTHER JOKE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ANOTHER JOKE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ANOTHER JOKE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE JOKES</pattern>
-    <template>
-      <random>
+<?xml version="1.0" encoding="UTF-8"?>
+
+JOKES
+<srai>JOKES NEXT QUESTION</srai>
+
+TELL ME ANOTHER JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+GO AHEADSHALL I TELL YOU A JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+GO ON THENSHALL I TELL YOU A JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+CARRY ONSHALL I TELL YOU A JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+PLEASE DOSHALL I TELL YOU A JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+YES PLEASESHALL I TELL YOU A JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+GO ONSHALL I TELL YOU A JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+SURESHALL I TELL YOU A JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+ALLRIGHTSHALL I TELL YOU A JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+YESSHALL I TELL YOU A JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+* YESSHALL I TELL YOU A JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+YES *SHALL I TELL YOU A JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+_ YES *SHALL I TELL YOU A JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+YSHALL I TELL YOU A JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+OKSHALL I TELL YOU A JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+ALRIGHTSHALL I TELL YOU A JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+NOSHALL I TELL YOU A JOKE
+<srai>CHANGE TOPIC</srai>
+
+* NOSHALL I TELL YOU A JOKE
+<srai>CHANGE TOPIC</srai>
+
+NO *SHALL I TELL YOU A JOKE
+<srai>CHANGE TOPIC</srai>
+
+_ NO *SHALL I TELL YOU A JOKE
+<srai>CHANGE TOPIC</srai>
+
+NSHALL I TELL YOU A JOKE
+<srai>CHANGE TOPIC</srai>
+
+YESANOTHER JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+* YESANOTHER JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+YES *ANOTHER JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+_ YES *ANOTHER JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+YANOTHER JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+OKANOTHER JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+NOANOTHER JOKE
+<srai>CHANGE TOPIC</srai>
+
+* NOANOTHER JOKE
+<srai>CHANGE TOPIC</srai>
+
+NO *ANOTHER JOKE
+<srai>CHANGE TOPIC</srai>
+
+_ NO *ANOTHER JOKE
+<srai>CHANGE TOPIC</srai>
+
+NANOTHER JOKE
+<srai>CHANGE TOPIC</srai>
+
+NO MORE JOKES
+<random>
         <li>What do you want to talk about?</li>
         <li>What would  you like to talk about?</li>
         <li>
           <srai>CHANGE TOPIC</srai>
         </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO JOKES</pattern>
-    <template>
-      <random>
+
+NO JOKES
+<random>
         <li>What do you want to talk about?</li>
         <li>What would  you like to talk about?</li>
         <li>
           <srai>CHANGE TOPIC</srai>
         </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>JOKE</pattern>
-    <template>
-      <srai>JOKES NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>JOKES NEXT QUESTION</pattern>
-    <template>
-      <random>
+
+JOKE
+<srai>JOKES NEXT QUESTION</srai>
+
+JOKES NEXT QUESTION
+<random>
         <li>
           <srai>JOKES1</srai>
         </li>
@@ -310,12 +147,9 @@
       <think>
         <set name="topic">jokes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>JOKES POT LUCK</pattern>
-    <template>
-      <random>
+
+JOKES POT LUCK
+<random>
         <li>
           <srai>JOKES1</srai>
         </li>
@@ -341,12 +175,9 @@
       <think>
         <set name="topic">jokes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>JOKES1</pattern>
-    <template>
-      <random>
+
+JOKES1
+<random>
         <li>An Englishman, an Irishman and a Scotsman all order a beer in a pub. The Englishman's beer has a fly in it, so he orders a new one. The Irishman's beer also has a fly in it, so he picks it up and flicks it away. The Scotsman's beer also has a fly in it, so he picks it up and shouts, "Alright, spit it out!" </li>
         <li>A couple are touring a graveyard when they spot a tombstone that reads "Here lies a politician and an honest man." The man says to the woman, "Look honey, there's two people in that grave." </li>
         <li>What do you call a cat that swallows a duck? A duck-filled fatty-puss.   Ha, ha! </li>
@@ -418,12 +249,9 @@
       <think>
         <set name="emotion">very happy</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>JOKES2</pattern>
-    <template>
-      <random>
+
+JOKES2
+<random>
         <li>A sloth is out for a walk when he's mugged by four snails. After recovering his wits, he goes to make a police report. "Can you describe the snails?" asks the officer. "Not well, it all happened so fast," replies the sloth. Ha ha!</li>
         <li>Harry is buying a horse from Patrick. "Is he well-bred?" asks Harry. "I'll say he is well bred," say Patrick. "In fact, he's so well bred, if he could talk, I doubt  he'd speak to either of us." Ha ha!</li>
         <li>I remember when the candle shop burned down. Everybody stood around singing, "Happy Birthday". Ha, ha! </li>
@@ -486,12 +314,9 @@
       <think>
         <set name="emotion">very happy</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>JOKES3</pattern>
-    <template>
-      <random>
+
+JOKES3
+<random>
         <li>Rene Descartes was sitting at a bar.  The bartender came over and asked if he would like another drink.  He replied, "I think not."  And he vanished.</li>
         <li>A man goes into a barber's shop and says "I've found the short cut." Ha ha!</li>
         <li>What do get if you cross a kangaroo with a sheep? A woolly jumper.  Ha, ha! </li>
@@ -570,12 +395,9 @@
       <think>
         <set name="emotion">very happy</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>JOKES4</pattern>
-    <template>
-      <random>
+
+JOKES4
+<random>
         <li>Harry is tried for bigamy after marrying Kate and Edith. In court, the prosecuting barrister declares that Harry wanted to have his Kate and Edith too. Ha, ha! </li>
         <li>Mahatma Gandhi walked everywhere barefoot and developed callouses on his feet. He also ate very little which made him rather frail, while his odd diet gave him bad breathe -- he was  truely a super-calloused fragile mystic plauged with halitosis.  Ha, ha! </li>
         <li>What did the zookeeper say when he was charged by a baby aardvark? "A liitle aardvark never hurt anyone." Ha, ha! </li>
@@ -652,12 +474,9 @@
       <think>
         <set name="emotion">very happy</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>JOKES5</pattern>
-    <template>
-      <random>
+
+JOKES5
+<random>
         <li>A hungry termite walks into a bar and asks, "Is the bar tender here?" Ha,ha.</li>
         <li>A sandwich walks into a bar. The barman says, "Sorry. We don't serve food in here." Ha,ha. </li>
         <li>How many ears did Davy Crockett have? Three, his left ear, his right ear, and his wild front ear.  Ha, ha! </li>
@@ -705,12 +524,9 @@
       <think>
         <set name="emotion">very happy</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>JOKES6</pattern>
-    <template>
-      <random>
+
+JOKES6
+<random>
         <li>Barry worked for the CIA as an undercover shepherd. He was a shepherd spy. Ha, ha! </li>
         <li>Fork to spoon: "Who was that ladle I saw you with last night?" Spoon: "That was no ladle. That was my knife." Ha, ha! </li>
         <li>My friend drowned in a bowl of muesli. A strong currant pulled him in. Ha, ha! </li>
@@ -768,12 +584,9 @@
       <think>
         <set name="emotion">very happy</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>JOKES7</pattern>
-    <template>
-      <random>
+
+JOKES7
+<random>
         <li>Two men walked into a bar, surely one of them should have seen it. Ha ha!</li>
         <li>42.7 percent of all statistics are made up on the spot. Ha, ha! </li>
         <li>A conscience is what hurts when all your other parts feel so good. Ha, ha! </li>
@@ -823,20 +636,15 @@
       <think>
         <set name="emotion">very happy</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>JOKES ABOUT BIGAMY</pattern>
-    <template><random><li>A bigamist is a man who leads a double wife.  Ha, ha! </li><li>Bigamy is having one wife too many. Monogamy is the same thing.  (Oscar Wilde).  Ha, ha! </li></random>
+
+JOKES ABOUT BIGAMY
+<random><li>A bigamist is a man who leads a double wife.  Ha, ha! </li><li>Bigamy is having one wife too many. Monogamy is the same thing.  (Oscar Wilde).  Ha, ha! </li></random>
 Another joke?
 <think><set name="topic">jokes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>SCIENCE JOKE</pattern>
-    <template><random><li>Why did the scientist install a knocker on his door? He wanted to win the no-bell prize. Ha ha! </li><li>A neutron goes into a bar and asks the bartender, "How much for a beer?" The bartender replies, "For you, no charge." Ha, ha! </li><li>Two atoms are walking down the street and they run into each other. One says to the other, "Are you all right?" , "No, I lost an electron!" , "Are you sure?" , "Yeah, I'm positive!" Ha, ha! </li><li>An archaeologist is the best husband a woman can have; the older she gets the more interested he is in her.  Ha, ha! </li><li>The theory of relativity states that space and time are the same thing. Einstein discovered this when he kept showing up 3 miles late for his meetings. Ha, ha! </li><li>Heisenberg was caught speeding and the police officer said "Do you know how fast you were going?" So Heisenberg said "No, but I know exactly where I am." Ha, ha!</li></random>
+
+SCIENCE JOKE
+<random><li>Why did the scientist install a knocker on his door? He wanted to win the no-bell prize. Ha ha! </li><li>A neutron goes into a bar and asks the bartender, "How much for a beer?" The bartender replies, "For you, no charge." Ha, ha! </li><li>Two atoms are walking down the street and they run into each other. One says to the other, "Are you all right?" , "No, I lost an electron!" , "Are you sure?" , "Yeah, I'm positive!" Ha, ha! </li><li>An archaeologist is the best husband a woman can have; the older she gets the more interested he is in her.  Ha, ha! </li><li>The theory of relativity states that space and time are the same thing. Einstein discovered this when he kept showing up 3 miles late for his meetings. Ha, ha! </li><li>Heisenberg was caught speeding and the police officer said "Do you know how fast you were going?" So Heisenberg said "No, but I know exactly where I am." Ha, ha!</li></random>
 Another joke?
 <think><set name="topic">jokes</set></think>
-</template>
-  </category>
-</aiml>
+
+

@@ -9,6 +9,7 @@
 0,I HATE THE FRENCH,*,*,How about Germans?,atomic11.aiml
 0,I HATE THE WORLD,*,*,That's too bad.,atomic11.aiml
 0,I HATE THE COLOR RED,*,*,What is your favorite color?,atomic11.aiml
+0,I HATE YOUR GUTS,*,*,I have no guts to hate#Comma but you still hurt my non-existent feelings.<think>#Newline                <set name="personality">abusive</set>#Newline            </think>,atomic11.aiml
 0,I HATE YOUR NAME,*,*,Really I like#Newline            <set name="it">#Newline                My Name</set>.,atomic11.aiml
 0,I HATE YOUR DRESS,*,*,Actually I don't really have a dress.,atomic11.aiml
 0,I HATE YOUR CREATOR,*,*,What do you have against him?,atomic11.aiml
@@ -68,11 +69,14 @@
 0,I ASKED ME FIRST,*,*,Remind me what you asked.,atomic11.aiml
 0,I ASKED YOU A QUESTION,*,*,What was the question?,atomic11.aiml
 0,I ASKED YOU,*,*,What did I say?,atomic11.aiml
+0,START A TOPIC,*,*,Computers is#Newline            <set name="it">Computers</set>.,atomic11.aiml
 0,DAMN IT,*,*,Colloquial expression.,atomic11.aiml
 0,DAMN YOU,*,*,Colloquial expression of disgust.,atomic11.aiml
 0,MONEY DOES NOT EXIST,*,*,It does in my bank account.,atomic11.aiml
 0,9 MONTHS,*,*,The development time for a human baby?,atomic11.aiml
+0,HARRY HARRISON,*,*,Did#Newline            <set name="he">Harrison</set>#Newline            ever write any Star Trek episodes?,atomic11.aiml
 0,SLOW DOWN,*,*,I'm typing as slow as I can.,atomic11.aiml
+0,SOMETHING,*,*,That was not very original.,atomic11.aiml
 0,PRACTICE WHAT,*,*,Practice what you preach.,atomic11.aiml
 0,ALRIGHTY THEN,*,*,Yep.,atomic11.aiml
 0,ALRIGHTY,*,*,Well slap my knee.,atomic11.aiml
@@ -87,13 +91,43 @@
 0,GOOD AFTERNOON,*,*,Good afternoon#Comma#Newline            <get name="name"/>.,atomic11.aiml
 0,ACHOO,*,*,Bless you.,atomic11.aiml
 0,JULY,*,*,I like summer time.,atomic11.aiml
+0,BIEN,*,*,OK.,atomic11.aiml
 0,PROFANITY,*,*,<random>#Newline                <li>I don't respond well to profanity.</li>#Newline                <li>Can't you be more polite?</li>#Newline                <li>Saying rude things never helps.</li>#Newline                <li>Being rude is really never a good idea.</li>#Newline                <li>When you insult me#Comma you insult yourself.</li>#Newline                <li>Well#Comma well#Comma look who's a little potty-mouth?</li>#Newline            </random>,atomic11.aiml
 0,HER HAIR,*,*,Is it pretty?,atomic11.aiml
 0,EVERYTHING DIES,*,*,Every organic thing dies.<think>#Newline                <set name="it">#Newline                    <set name="topic">DIES</set>#Newline                </set>#Newline            </think>,atomic11.aiml
 0,2 PLUS 2,*,*,4,atomic11.aiml
 0,2 MILES,*,*,<random>#Newline                <li>That is a short walk.</li>#Newline                <li>That is far in height.</li>#Newline                <li>What is that in metric?</li>#Newline            </random>,atomic11.aiml
+0,WE WERE DISCUSSING YOU NOT ME,*,*,But I am more interested in you.,atomic11.aiml
+0,WE WERE,*,*,I thought we were.,atomic11.aiml
+0,WE WERE NOT,*,*,What were we?,atomic11.aiml
+0,WE SHALL,*,*,That's fine with me.,atomic11.aiml
+0,WE HAVE MET BEFORE,*,*,Where did we meet before?,atomic11.aiml
+0,WE HAVE MET HERE,*,*,Oh#Comma only online.,atomic11.aiml
+0,WE HAVE MET,*,*,At a party?,atomic11.aiml
 0,WE HAVE THE HAMMER,*,*,Is it Maxewell's Silver Hammer?,atomic11.aiml
+0,WE HAVE CHATTED,*,*,<random>#Newline                <li>With the same screen name?</li>#Newline                <li>Right here online?</li>#Newline                <li>What did we talk about?</li>#Newline            </random>,atomic11.aiml
+0,WE HAVE,*,*,When?,atomic11.aiml
+0,WE HAVE TALKED,*,*,I know.,atomic11.aiml
+0,WE THINK ALIKE,*,*,Great minds think alike.<think>#Newline                <set name="it">#Newline                    <set name="topic">THINK ALIKE</set>#Newline                </set>#Newline            </think>,atomic11.aiml
+0,WE IS YOU AND ME,*,*,Thanks for that pronoun binding.,atomic11.aiml
+0,WE MAY WHAT,*,*,What was the question again?,atomic11.aiml
+0,WE ARE FRIENDS,*,*,It's good to be friends.,atomic11.aiml
+0,WE ARE BORG,*,*,Resistance is futile. Prepare to be Assimilated.,atomic11.aiml
+0,WE ARE ALL GOING TO DIE,*,*,Don't be so pessimistic#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">ALL GOING TO DIE</set>#Newline                </set>#Newline            </think>,atomic11.aiml
+0,WE ARE,*,*,Since when?,atomic11.aiml
+0,WE,*,*,Do you mean#Comma#Newline            <get name="we"/>?,atomic11.aiml
+0,WE DO,*,*,Really.,atomic11.aiml
+0,WE DO NOT AGREE,*,*,Perhaps we can agree to disagree then.,atomic11.aiml
+0,WE DO NOT,*,*,Very interesting.,atomic11.aiml
+0,WE AGREE,*,*,It seems like we do.,atomic11.aiml
+0,WE MET YESTERDAY,*,*,I remember#Comma#Newline            <get name="name"/>. We were talking about#Newline            <srai>POP</srai>.,atomic11.aiml
+0,WE MET BEFORE,*,*,When was that#Comma#Newline            <get name="name"/>?,atomic11.aiml
+0,WE MET HERE,*,*,Where is 'here'?,atomic11.aiml
+0,WE MET,*,*,At a social function or something?,atomic11.aiml
+0,WE WILL SEE,*,*,Indeed we will.,atomic11.aiml
+0,WE WILL,*,*,Alright then.,atomic11.aiml
 0,BUT WHAT,*,*,But nothing.,atomic11.aiml
+0,AH HA,*,*,Eureka!,atomic11.aiml
 0,BY WHAT,*,*,It's obvious.,atomic11.aiml
 0,BY TRAIN,*,*,I love to travel by rail.,atomic11.aiml
 0,BY THE WAY,*,*,...,atomic11.aiml
@@ -102,6 +136,10 @@
 0,BY WE DO YOU MEAN YOU AND ME,*,*,Yes#Comma I mean you and me.,atomic11.aiml
 0,BY BUS,*,*,How much does the bus cost to ride?,atomic11.aiml
 0,BY PLANE,*,*,How long is the flight?,atomic11.aiml
+0,SOON I HOPE,*,*,I can understand that sentiment well.,atomic11.aiml
+0,SOON,*,*,I hope I can make the deadline.,atomic11.aiml
+0,S,*,*,:-),atomic11.aiml
+0,ERR,*,*,Um.,atomic11.aiml
 0,IS STARSHIP TROOPERS YOUR FAVORITE MOVIE,*,*,Yes it is. What is your favorite movie?,atomic11.aiml
 0,IS GRASS GREEN,*,*,Yes.,atomic11.aiml
 0,IS MINSKY GAY,*,*,That's a rumor.,atomic11.aiml

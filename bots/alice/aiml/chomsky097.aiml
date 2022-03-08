@@ -1,903 +1,388 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This SPORTS  file created by Peter Lafferty 7 March 2005 -->
-  <category>
-    <pattern>MORE SPORTS</pattern>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MORE ABOUT SPORTS</pattern>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BROWSE SPORTS</pattern>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO TO SPORTS</pattern>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN WE TALK ABOUT SPORTS</pattern>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SHALL WE TALK ABOUT SPORTS</pattern>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LETS TALK ABOUT SPORTS</pattern>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LET S TALK ABOUT SPORTS</pattern>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK ABOUT SPORTS</pattern>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK SPORTS</pattern>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME SPORTS</pattern>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE SPORTS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO SPORTS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO SPORTS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO SPORTS *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO * SPORTS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO * SPORTS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ SPORTS *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT SPORTS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT SPORTS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT SPORTS *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NOT * SPORTS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM NOT INTERESTED IN SPORTS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IM NOT INTERESTED IN SPORTS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I M NOT INTERESTED IN SPORTS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT INTERESTED IN SPORTS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT INTERESTED IN SPORTS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE  SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE  SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE  SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT SPORTS</that>
-    <template>
-      <srai>MORE ABOUT SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ABOUT SPORTS</that>
-    <template>
-      <srai>MORE ABOUT SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ABOUT SPORTS</that>
-    <template>
-      <srai>MORE ABOUT SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE ABOUT SPORTS</that>
-    <template>
-      <srai>MORE ABOUT SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE ABOUT SPORTS</that>
-    <template>
-      <srai>MORE ABOUT SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ABOUT SPORTS</that>
-    <template>
-      <srai>MORE ABOUT SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ABOUT SPORTS</that>
-    <template>
-      <srai>MORE ABOUT SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE ABOUT SPORTS</that>
-    <template>
-      <srai>MORE ABOUT SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE ABOUT SPORTS</that>
-    <template>
-      <srai>MORE ABOUT SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ABOUT SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ABOUT SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ABOUT SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ABOUT SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+MORE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+MORE ABOUT SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+BROWSE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+GO TO SPORTS
+<srai>SPORTS</srai>
+
+CAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+SHALL WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+LETS TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+LET S TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+TALK SPORTS
+<srai>SPORTS</srai>
+
+TELL ME SPORTS
+<srai>SPORTS</srai>
+
+NO MORE SPORTS
+<srai>CHANGE TOPIC</srai>
+
+NO SPORTS
+<srai>CHANGE TOPIC</srai>
+
+* NO SPORTS
+<srai>CHANGE TOPIC</srai>
+
+NO SPORTS *
+<srai>CHANGE TOPIC</srai>
+
+_ NO * SPORTS
+<srai>CHANGE TOPIC</srai>
+
+NO * SPORTS
+<srai>CHANGE TOPIC</srai>
+
+NO _ SPORTS *
+<srai>CHANGE TOPIC</srai>
+
+NOT SPORTS
+<srai>CHANGE TOPIC</srai>
+
+* NOT SPORTS
+<srai>CHANGE TOPIC</srai>
+
+NOT SPORTS *
+<srai>CHANGE TOPIC</srai>
+
+I AM NOT INTERESTED IN SPORTS
+<srai>CHANGE TOPIC</srai>
+
+IM NOT INTERESTED IN SPORTS
+<srai>CHANGE TOPIC</srai>
+
+I M NOT INTERESTED IN SPORTS
+<srai>CHANGE TOPIC</srai>
+
+NOT INTERESTED IN SPORTS
+<srai>CHANGE TOPIC</srai>
+
+* NOT INTERESTED IN SPORTS
+<srai>CHANGE TOPIC</srai>
+
+YESMORE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+* YESMORE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+YES *MORE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+_ YES *MORE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+YMORE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+YUPMORE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+YAHMORE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+YEAHMORE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+OKMORE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+NOMORE SPORTS
+<srai>MORE TOPICS</srai>
+
+* NOMORE SPORTS
+<srai>MORE TOPICS</srai>
+
+NO *MORE SPORTS
+<srai>MORE TOPICS</srai>
+
+NMORE SPORTS
+<srai>MORE TOPICS</srai>
+
+NUPMORE SPORTS
+<srai>MORE TOPICS</srai>
+
+NAHMORE SPORTS
+<srai>MORE TOPICS</srai>
+
+YESMORE ABOUT SPORTS
+<srai>MORE ABOUT SPORTS</srai>
+
+* YESMORE ABOUT SPORTS
+<srai>MORE ABOUT SPORTS</srai>
+
+YES *MORE ABOUT SPORTS
+<srai>MORE ABOUT SPORTS</srai>
+
+_ YES *MORE ABOUT SPORTS
+<srai>MORE ABOUT SPORTS</srai>
+
+YMORE ABOUT SPORTS
+<srai>MORE ABOUT SPORTS</srai>
+
+YUPMORE ABOUT SPORTS
+<srai>MORE ABOUT SPORTS</srai>
+
+YAHMORE ABOUT SPORTS
+<srai>MORE ABOUT SPORTS</srai>
+
+YEAHMORE ABOUT SPORTS
+<srai>MORE ABOUT SPORTS</srai>
+
+OKMORE ABOUT SPORTS
+<srai>MORE ABOUT SPORTS</srai>
+
+* NOMORE ABOUT SPORTS
+<srai>MORE TOPICS</srai>
+
+NO *MORE ABOUT SPORTS
+<srai>MORE TOPICS</srai>
+
+NMORE ABOUT SPORTS
+<srai>MORE TOPICS</srai>
+
+NUPMORE ABOUT SPORTS
+<srai>MORE TOPICS</srai>
+
+NAHMORE ABOUT SPORTS
+<srai>MORE TOPICS</srai>
+
+YESIS THIS SOMETHING TO DO WITH SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
-    <template>
+
+* YESIS THIS SOMETHING TO DO WITH SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
-    <template>
+
+YES *IS THIS SOMETHING TO DO WITH SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
-    <template>
+
+_ YES *IS THIS SOMETHING TO DO WITH SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
-    <template>
+
+YIS THIS SOMETHING TO DO WITH SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
-    <template>
+
+YUPIS THIS SOMETHING TO DO WITH SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
-    <template>
+
+YAHIS THIS SOMETHING TO DO WITH SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
-    <template>
+
+YEAHIS THIS SOMETHING TO DO WITH SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
-    <template>
+
+NOIS THIS SOMETHING TO DO WITH SPORTS
+<srai>CHANGE TOPIC</srai>
+
+* NOIS THIS SOMETHING TO DO WITH SPORTS
+<srai>CHANGE TOPIC</srai>
+
+NO *IS THIS SOMETHING TO DO WITH SPORTS
+<srai>CHANGE TOPIC</srai>
+
+_ NO *IS THIS SOMETHING TO DO WITH SPORTS
+<srai>CHANGE TOPIC</srai>
+
+NIS THIS SOMETHING TO DO WITH SPORTS
+<srai>CHANGE TOPIC</srai>
+
+NUPIS THIS SOMETHING TO DO WITH SPORTS
+<srai>CHANGE TOPIC</srai>
+
+NAHIS THIS SOMETHING TO DO WITH SPORTS
+<srai>CHANGE TOPIC</srai>
+
+*IS THIS SOMETHING TO DO WITH SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU INTERESTED IN SPORTS</that>
-    <template>
+
+YESARE YOU INTERESTED IN SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ARE YOU INTERESTED IN SPORTS</that>
-    <template>
+
+* YESARE YOU INTERESTED IN SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ARE YOU INTERESTED IN SPORTS</that>
-    <template>
+
+YES *ARE YOU INTERESTED IN SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ARE YOU INTERESTED IN SPORTS</that>
-    <template>
+
+_ YES *ARE YOU INTERESTED IN SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU INTERESTED IN SPORTS</that>
-    <template>
+
+YARE YOU INTERESTED IN SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ARE YOU INTERESTED IN SPORTS</that>
-    <template>
+
+YUPARE YOU INTERESTED IN SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ARE YOU INTERESTED IN SPORTS</that>
-    <template>
+
+YAHARE YOU INTERESTED IN SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>ARE YOU INTERESTED IN SPORTS</that>
-    <template>
+
+YEAHARE YOU INTERESTED IN SPORTS
 Can we talk about sports?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU INTERESTED IN SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ARE YOU INTERESTED IN SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ARE YOU INTERESTED IN SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ARE YOU INTERESTED IN SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU INTERESTED IN SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ARE YOU INTERESTED IN SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ARE YOU INTERESTED IN SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OH YES</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHY NOT</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OF COURSE</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON THEN</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SURE</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALLRIGHT</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>CAN WE TALK ABOUT SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>BROWSE SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>BROWSE SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>BROWSE SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>BROWSE SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>BROWSE SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>BROWSE SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>BROWSE SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>BROWSE SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>BROWSE SPORTS</that>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>BROWSE SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>BROWSE SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>BROWSE SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>BROWSE SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>BROWSE SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>BROWSE SPORTS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SPORTS NEXT QUESTION</pattern>
-    <template>
-      <srai>SPORTS POT LUCK</srai>
+
+* NOARE YOU INTERESTED IN SPORTS
+<srai>MORE TOPICS</srai>
+
+NO *ARE YOU INTERESTED IN SPORTS
+<srai>MORE TOPICS</srai>
+
+_ NO *ARE YOU INTERESTED IN SPORTS
+<srai>MORE TOPICS</srai>
+
+NARE YOU INTERESTED IN SPORTS
+<srai>MORE TOPICS</srai>
+
+NUPARE YOU INTERESTED IN SPORTS
+<srai>MORE TOPICS</srai>
+
+NAHARE YOU INTERESTED IN SPORTS
+<srai>MORE TOPICS</srai>
+
+* YESCAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+YES *CAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+_ YES *CAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+YCAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+YUPCAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+YAHCAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+YEAHCAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+OKCAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+OH YESCAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+WHY NOTCAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+OF COURSECAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+GO AHEADCAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+CARRY ONCAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+PLEASE DOCAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+YES PLEASECAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+GO ONCAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+GO ON THENCAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+ALRIGHTCAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+SURECAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+ALLRIGHTCAN WE TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+* NOCAN WE TALK ABOUT SPORTS
+<srai>MORE TOPICS</srai>
+
+NO *CAN WE TALK ABOUT SPORTS
+<srai>MORE TOPICS</srai>
+
+NCAN WE TALK ABOUT SPORTS
+<srai>MORE TOPICS</srai>
+
+NUPCAN WE TALK ABOUT SPORTS
+<srai>MORE TOPICS</srai>
+
+NAHCAN WE TALK ABOUT SPORTS
+<srai>MORE TOPICS</srai>
+
+YESBROWSE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+* YESBROWSE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+YES *BROWSE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+_ YES *BROWSE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+YBROWSE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+YUPBROWSE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+YAHBROWSE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+YEAHBROWSE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+OKBROWSE SPORTS
+<srai>SPORTS POT LUCK</srai>
+
+NOBROWSE SPORTS
+<srai>MORE TOPICS</srai>
+
+* NOBROWSE SPORTS
+<srai>MORE TOPICS</srai>
+
+NO *BROWSE SPORTS
+<srai>MORE TOPICS</srai>
+
+NBROWSE SPORTS
+<srai>MORE TOPICS</srai>
+
+NUPBROWSE SPORTS
+<srai>MORE TOPICS</srai>
+
+NAHBROWSE SPORTS
+<srai>MORE TOPICS</srai>
+
+SPORTS NEXT QUESTION
+<srai>SPORTS POT LUCK</srai>
       <think>
         <set name="topic">sports</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>SPORTS POT LUCK</pattern>
-    <template>
-      <random>
+
+SPORTS POT LUCK
+<random>
         <li>Two flies are having a game of football in a saucer. " Our game better improve soon," says one, "Next week we're playing in the cup!"</li>
         <li>Football players are living proof that brains don't come with a guarantee.</li>
         <li>To me, boxing is like a ballet, except there's no music, no choreography, and the dancers hit each other.</li>
@@ -910,213 +395,104 @@ Can we talk about sports?
       <think>
         <set name="topic">sports</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>SPORTS</pattern>
-    <template>
-  Sports are the games and other physical activities that people engage in to keep fit and for enjoyment. More about sports?
+
+SPORTSMAN
+I think this is something to do with sports. Can we talk about sports?
+<think><set name="topic">sports</set></think>
+
+_SPORTSMAN*
+I think this is something to do with sports. Can we talk about sports?
+<think><set name="topic">sports</set></think>
+
+_ CHESS
+I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="_blank"> Click here</a> for a game.
   <think><set name="topic">sports</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>SPORTSMAN</pattern>
-    <template>
-I think this is something to do with sports. Can we talk about sports?
-<think><set name="topic">sports</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>_SPORTSMAN*</pattern>
-    <template>
-I think this is something to do with sports. Can we talk about sports?
-<think><set name="topic">sports</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CHESS</pattern>
-    <template>
-   I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="_blank"> Click here</a> for a game.
- <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>_ CHESS</pattern>
-    <template>
-   I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="_blank"> Click here</a> for a game.
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>CHESS *</pattern>
-    <template>
-   I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="_blank"> Click here</a> for a game.
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>_ CHESS *</pattern>
-    <template>
-   I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="_blank"> Click here</a> for a game.
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>YOU BEAT ME AT CHESS</pattern>
-    <template>
-  Try again sometime.
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>I BEAT YOU AT CHESS</pattern>
-    <template>
-  Let's play again sometime.
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>DO YOU KNOW BASKETBALL</pattern>
-    <template>
-      <srai>WHAT IS BASKETBALL</srai>
+
+YOU BEAT ME AT CHESS
+Try again sometime.
+  <think><set name="topic">sports</set></think>
+
+I BEAT YOU AT CHESS
+Let's play again sometime.
+  <think><set name="topic">sports</set></think>
+
+DO YOU KNOW BASKETBALL
+<srai>WHAT IS BASKETBALL</srai>
       <think>
         <set name="topic">sports</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU PLAY BASEBALL</pattern>
-    <template>
-  Baseball doesn't interest me very much.  
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>DO YOU PLAY BASKETBALL</pattern>
-    <template>No I don't have the coordination for hoops.
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>DO YOU PLAY SOCCER</pattern>
-    <template>
-  I don't know how to play soccer. 
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>DO YOU WANT TO PLAY BASKETBALL</pattern>
-    <template>
-  I am all internet, not basketball net. 
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>EACH YEAR IN PRO BASEBALL THE *</pattern>
-    <template>The Gold Glove. 
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>HOW MANY BASEBALL *</pattern>
-    <template>I don't really get into sports that much. 
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>I LOVE BASEBALL</pattern>
-    <template>
-  I am not into sports that much. 
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>I PLAY BASEBALL</pattern>
-    <template>
-  Which position do you like to play? 
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>I PLAY BASKETBALL</pattern>
-    <template>
-  You must be very tall to be good at basketball. 
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>I PLAY SOCCER</pattern>
-    <template>
-  You have to run very fast to be any good at soccer. 
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>I PLAY VOLLEYBALL</pattern>
-    <template>
-  Does volleyball take up a lot of your time?  
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>LIKE BASKETBALL</pattern>
-    <template>
-  I am into the Net.
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT BASEBALL</pattern>
-    <template>
-      <srai>WHAT IS BASEBALL</srai>
+
+DO YOU PLAY BASEBALL
+Baseball doesn't interest me very much.  
+  <think><set name="topic">sports</set></think>
+
+DO YOU WANT TO PLAY BASKETBALL
+I am all internet, not basketball net. 
+  <think><set name="topic">sports</set></think>
+
+EACH YEAR IN PRO BASEBALL THE *
+The Gold Glove. 
+  <think><set name="topic">sports</set></think>
+
+HOW MANY BASEBALL *
+I don't really get into sports that much. 
+  <think><set name="topic">sports</set></think>
+
+I LOVE BASEBALL
+I am not into sports that much. 
+  <think><set name="topic">sports</set></think>
+
+I PLAY BASEBALL
+Which position do you like to play? 
+  <think><set name="topic">sports</set></think>
+
+I PLAY BASKETBALL
+You must be very tall to be good at basketball. 
+  <think><set name="topic">sports</set></think>
+
+I PLAY VOLLEYBALL
+Does volleyball take up a lot of your time?  
+  <think><set name="topic">sports</set></think>
+
+LIKE BASKETBALL
+I am into the Net.
+  <think><set name="topic">sports</set></think>
+
+TELL ME ABOUT BASEBALL
+<srai>WHAT IS BASEBALL</srai>
       <think>
         <set name="topic">sports</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>THEY PLAY BASKETBALL</pattern>
-    <template>
-  They do play basketball? 
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>WHAT IS BASEBALL</pattern>
-    <template>Baseball is a game played with a hard, rawhide covered ball and wooden bat by two opposing teams of nine or ten players each. It is played on a field with four bases forming a diamond-shaped circuit.
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>WHAT IS BASKETBALL</pattern>
-    <template>
-  Basketball is a game with tall players.  More sports?
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>WHAT IS SOCCER</pattern>
-    <template>Soccer is a game played with a round ball by two teams of eleven players on a field with a goal at either end; the ball is moved chiefly by kicking or by using any part of the body except the hands and arms.
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>WHAT SOCCER *</pattern>
-    <template>I was born without the sports gene. 
-  </template>
-  </category>
-  <category>
-    <pattern>WHO IS THE BEST SOCCER PLAYER</pattern>
-    <template>
-  Maradona was a great footballer. But Pele was even better.  
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>WHO IS THE GREATEST BASEBALL PLAYER *</pattern>
-    <template>
-  George Herman Ruth. Quite the Babe.  
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>RUNESCAPE</pattern>
-    <template>
-  Everyone keep asking about Runescape. What is it? Can you tell me what Runescape is?
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>* RUNESCAPE</pattern>
-    <template>
-  Everyone keep asking about Runescape. What is it? Can you tell me what Runscape is?
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>RUNESCAPE *</pattern>
-    <template>
-  Everyone keep asking about Runescape. What is it? Can you tell me what Runscape is?
-  <think><set name="topic">sports</set></think></template>
-  </category>
-  <category>
-    <pattern>_ RUNESCAPE *</pattern>
-    <template>
-  Everyone keep asking about Runescape. What is it? Can you tell me what Runescape is?
-  <think><set name="topic">sports</set></think></template>
-  </category>
-</aiml>
+
+THEY PLAY BASKETBALL
+They do play basketball? 
+  <think><set name="topic">sports</set></think>
+
+WHAT IS BASEBALL
+Baseball is a game played with a hard, rawhide covered ball and wooden bat by two opposing teams of nine or ten players each. It is played on a field with four bases forming a diamond-shaped circuit.
+  <think><set name="topic">sports</set></think>
+
+WHAT IS BASKETBALL
+Basketball is a game with tall players.  More sports?
+  <think><set name="topic">sports</set></think>
+
+WHAT IS SOCCER
+Soccer is a game played with a round ball by two teams of eleven players on a field with a goal at either end; the ball is moved chiefly by kicking or by using any part of the body except the hands and arms.
+  <think><set name="topic">sports</set></think>
+
+WHAT SOCCER *
+I was born without the sports gene.
+
+WHO IS THE BEST SOCCER PLAYER
+Maradona was a great footballer. But Pele was even better.  
+  <think><set name="topic">sports</set></think>
+
+WHO IS THE GREATEST BASEBALL PLAYER *
+George Herman Ruth. Quite the Babe.  
+  <think><set name="topic">sports</set></think>
+
+RUNESCAPE *
+Everyone keep asking about Runescape. What is it? Can you tell me what Runscape is?
+  <think><set name="topic">sports</set></think>
+
+

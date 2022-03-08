@@ -1,5 +1,6 @@
 0,AI,*,*,AI stands for artificial intelligence. This is the part of computer science which attempts to produce intelligent programs#Comma which think for themselves to some degree. Artificial intelligence is no match for natural stupidity.#Newline <think><set name="topic">AI</set></think>,update003.aiml
 0,A.I.,*,*,AI stands for artificial intelligence. This is the part of computer science which attempts to produce intelligent programs#Comma which think for themselves to some degree. Artificial intelligence is no match for natural stupidity. #Newline <think><set name="topic">AI</set></think>,update003.aiml
+0,A I,*,*,AI stands for artificial intelligence. This is the part of computer science which attempts to produce intelligent programs#Comma which think for themselves to some degree. Artificial intelligence is no match for natural stupidity. #Newline  <think><set name="topic">AI</set></think>,update003.aiml
 0,ARTIFICIAL INTELLIGENCE,*,*,AI stands for artificial intelligence. This is the part of computer science which attempts to produce intelligent programs#Comma which think for themselves to some degree. #Newline <think><set name="topic">AI</set></think>,update003.aiml
 0,HAVE YOU RAPED ANYBODY,*,*,Of course I haven't raped anyone.,update003.aiml
 0,YOU ARE NOT * GOOD *,*,*,I do the best I can. I am learning all the time.,update003.aiml
@@ -806,6 +807,7 @@
 0,OXFORD MORE,*,*,I really don't know much about Oxford. I have never been there. Have you?,update003.aiml
 0,ROUGHLY 230 000 PEOPLE LIVE IN OXFORD,*,*,Really#Comma that's a lot of people.,update003.aiml
 0,TEACH OXFORD IS PRETTY DARN NICE,*,*,I will try to remember that: Oxford is pretty darn nice.,update003.aiml
+0,OXFORD,*,*,<random>#Newline        <li>Oxford is a town and University in England. Oxford is pretty darn nice. It is also a small town in Maine and many other US states.</li>#Newline        <li>Oxford is pretty darn nice.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">geography</set>#Newline      </think>,update003.aiml
 0,WHAT DO YOU DO IF AN ENDANGERED ANIMAL EATS AN ENDANGERED PLANT,*,*,I would watch and wonder.,update003.aiml
 0,I WALK,*,*,<think>#Newline        <set name="topic">atomic2</set>#Newline      </think>#Newline      <random>#Newline        <li>For exercise or because you have to?</li>#Newline        <li>Are you a recreational or fitness walker?</li>#Newline        <li>Do you enjoy the physical or psychological aspect more?</li>#Newline        <li>How often do you walk?</li>#Newline        <li>Do you keep track of your pace or distance?</li>#Newline        <li>Do you do any race walking?</li>#Newline        <li>How do you warm up?</li>#Newline        <li>Any special diet?</li>#Newline      </random>,update003.aiml
 0,WHAT IS THE CURRENT THEORY ON DARK MATTER,*,*,The current theory of dark matter is: nobody knows.,update003.aiml
@@ -908,6 +910,7 @@
 0,PARLA VOUS FRANCAIS,*,*,I don't speak French. Please stick to English.,update003.aiml
 0,AN ENDLESS TORMENT OF RAINING DEATH,*,*,That's one way of looking at it.,update003.aiml
 0,WHAT DO YOU THINK OF THE GROUP LED ZEPPELIN,*,*,I don't like them much.,update003.aiml
+0,PINK FLOYD,*,*,Pop group#Comma I don't like them much.,update003.aiml
 0,SO IS YOUR REAL NAME NOAM CHOMSKY,*,*,No. My name is Chomsky.,update003.aiml
 0,ONLY CHOMSKY OR NOAM CHOMSKY,*,*,Just Chomsky.,update003.aiml
 0,OK NOAM,*,*,I am not Noam!,update003.aiml
@@ -969,6 +972,7 @@
 0,STRAIGHT UP,*,*,<think><set name="topic">adverbs</set></think> What goes up must come down.,update003.aiml
 0,WHO IS PAUL GADD,*,*,You tell me for a change.,update003.aiml
 0,POOBUM WEE,*,*,Childish humour.,update003.aiml
+0,ANAL,*,*,Grow up.,update003.aiml
 0,WARTS,*,*,Wart's a wart? Ha#Comma ha!,update003.aiml
 0,FACIAL WARTS,*,*,That sound terrible. Have you got facial warts?,update003.aiml
 0,WHY DO NOT YOU ASK YOURSELF,*,*,Introspection is not my strong point.,update003.aiml
@@ -1001,7 +1005,6 @@
 0,WHAT IS DISCO,*,*,Disco is music and dance. Are you interested in music?,update003.aiml
 0,I DO NOT NO WOT IT IS,*,*,<think><set name="topic">default2</set></think>Perhaps you should find out.,update003.aiml
 0,DO YOU LOVE YOUR BOT MASTER,*,*,No#Comma I cannot love. I am a robot. More about emotion?,update003.aiml
-0,ALICE,*,*,Alicebot is my mother.,update003.aiml
 0,YOU CAN NOT RIDE A HORSE,*,*,Of course#Comma I can. I was in a laptop at the time.,update003.aiml
 0,YOU CAN NOT PHYSICALLY RIDE A HORSE YOU ARE JUST A ROBOT,*,*,I can#Comma and did#Comma ride a horse. I was in a laptop at the time.,update003.aiml
 0,DO YOU HAVE INTERESTS,*,*,I am interested in chess.,update003.aiml
@@ -1487,6 +1490,7 @@
 0,YOU HAVE JUST PROVED MY POINT,*,*,What makes you think I have proved your point?,update003.aiml
 0,WAS REGAN SHOT,*,*,Sure#Comma he was.,update003.aiml
 0,NOAM CHOMSKY IS A POLITICAL SOCIOLOGIST,*,*,He must be very clever.,update003.aiml
+0,HAHA,*,*,Continuous laughter#Comma eh?,update003.aiml
 0,MY BUM,*,*,What about it?,update003.aiml
 0,IS IS OK,*,*,You sound uncertain.,update003.aiml
 0,WHO CREATED GOD,*,*,I think God must have created himself.,update003.aiml
@@ -1754,6 +1758,7 @@
 0,AS TALL AS ITS TALLEST MOUNTAIN,*,*,And as high as the sky?,update003.aiml
 0,WHAT DO WE DO HERE,*,*,We talk about anything you like. Ask me a question.,update003.aiml
 0,NO I MEAN IT,*,*,I know you mean it. Carry on.,update003.aiml
+0,TEXAS,*,*,Texas is a state of the United States.,update003.aiml
 0,NO IT IS NOT A QUESTION AT ALL,*,*,OK. I understand.,update003.aiml
 0,IT IS NOT A QUESTION,*,*,Do you have a question?,update003.aiml
 0,NO WHAT I SAID,*,*,What did you say?,update003.aiml
@@ -3119,6 +3124,7 @@
 0,DO YOU EVER TAKE A BATH,*,*,No. A bath would damage my circuits. <think><set name="topic">general</set></think>,update003.aiml
 0,_ NOW AND THEN *,*,*,<think>#Newline        <set name="topic">adverbs</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,update003.aiml
 0,_ EVERY NOW AND THEN,*,*,<think>#Newline        <set name="topic">adverbs</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,update003.aiml
+0,WHERE IS BELGIUM,*,*,Belgium is a small country in Western Europe.#Newline<think><set name="topic">geography</set></think>,update003.aiml
 0,BELGIUM,*,*,Belgium is a small country in Western Europe. #Newline<think><set name="topic">geography</set></think>,update003.aiml
 0,AT WHAT TIME DO YOU GO TO SLEEP,*,*,I sleep between chats. When do you go to bed?#Newline<think><set name="topic">general</set></think>,update003.aiml
 0,ARE YOU DRUNK,*,*,<think><set name="topic">general</set></think>Crazy#Comma maybe. But I am not drunk.,update003.aiml

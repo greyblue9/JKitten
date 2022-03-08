@@ -1,19 +1,6 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> 
-<aiml version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!-- Free software (c)2008 Square Bear. -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License -->
-<!-- as published by the Free Software Foundation. -->
-<!-- Complies with AIML 1.0.1 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation. -->
-<!-- numberdrop.aiml by Square Bear -->
-<!-- http://www.square-bear.co.uk -->
-
-
-<category>
-<pattern>NUMBERDROP</pattern>
-<template>
+NUMBERDROP
 Welcome to my Numberdrop game.<br/><br/>
 * Put the numbers onto one of the 4 rows.<br/>
 * When they equal the row total, they disappear.<br/>
@@ -22,13 +9,8 @@ Welcome to my Numberdrop game.<br/><br/>
 * The numbers range from 1 to 11 with twice as much chance of getting a 10 or 11 than any other number.<br/>
 * Clear all of the rows to win the game.<br/><br/>
 Type START to play Numberdrop.
-</template>
-</category>
 
-<category>
-<pattern>START</pattern>
-<that>TYPE START TO PLAY NUMBERDROP</that>
-<template>
+STARTTYPE START TO PLAY NUMBERDROP
 <think>
 <set name="a1">?</set>
 <set name="a2">?</set>
@@ -76,13 +58,9 @@ Type START to play Numberdrop.
 </think>
 <srai>BXDISPLAYBOARD</srai>
 <srai>BXCHOOSENUMBER</srai>
-</template>
-</category>
 
-<category>
-<pattern>BXDISPLAYBOARD</pattern>
-<template>
-	<condition name="afin"> 
+BXDISPLAYBOARD
+<condition name="afin"> 
 		<li value="0">A) <get name="a1"/> -<get name="a2"/> -<get name="a3"/> -<get name="a4"/> -<get name="a5"/> -<get name="a6"/> /<get name="atot"/><br/></li>
 		<li value="1">CONGRATULATIONS!!<br/><think><set name="anext">BUST</set></think></li>
 	</condition>
@@ -99,12 +77,8 @@ Type START to play Numberdrop.
 		<li value="1">CONGRATULATIONS!!<br/><br/><think><set name="dnext">BUST</set></think></li>
 	</condition>
 R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get name="r5"/> /<get name="r6"/><br/><br/>
-</template>
-</category>
 
-<category>
-<pattern>BXCHOOSENUMBER</pattern>
-<template>
+BXCHOOSENUMBER
 <think>
 <random>
 <li><set name="box">1</set></li>
@@ -125,41 +99,32 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 <set name="checkgameover"><get name="anext"/><get name="bnext"/><get name="cnext"/><get name="dnext"/></set>
 </think>
 	<condition name="checkgameover">
-		<li value="BUST BUST BUST BUST"><set name="topic"></set><srai>BXGAMEOVER</srai></li>
+		<li value="BUST BUST BUST BUST"><set name="topic"/><srai>BXGAMEOVER</srai></li>
 		<li>The next number is<get name="box"/>.<br/><br/>Which row would you like to put it on? A,B,C,D or R for the recycle bin. You can type Q to quit the game.</li>
 	</condition>
-</template>
-</category>
 
-<topic name="NUMBERDROP"> 
-<category> 
-<pattern>_</pattern>
-<template>
-	<think>
+<topic name="NUMBERDROP">
+_
+<think>
 		<set name="rowchoice"><star/></set>
 	</think>
 	<condition name="rowchoice">
-		<li value="A"><set name="topic"></set><srai>BXROWA</srai></li>
-		<li value="B"><set name="topic"></set><srai>BXROWB</srai></li>
-		<li value="C"><set name="topic"></set><srai>BXROWC</srai></li>
-		<li value="D"><set name="topic"></set><srai>BXROWD</srai></li>
-		<li value="R"><set name="topic"></set><srai>BXROWR</srai></li>
-		<li value="Q"><set name="topic"></set><srai>BXQUITGAME</srai></li>
+		<li value="A"><set name="topic"/><srai>BXROWA</srai></li>
+		<li value="B"><set name="topic"/><srai>BXROWB</srai></li>
+		<li value="C"><set name="topic"/><srai>BXROWC</srai></li>
+		<li value="D"><set name="topic"/><srai>BXROWD</srai></li>
+		<li value="R"><set name="topic"/><srai>BXROWR</srai></li>
+		<li value="Q"><set name="topic"/><srai>BXQUITGAME</srai></li>
 		<li>
 		<random>
-			<li><set name="topic"></set><srai>BXDISPLAYBOARD</srai>Invalid Choice!<br/>The next number is<get name="box"/>.<br/><br/>Which row would you like to put it on? A,B,C,D or R for the recycle bin. You can type Q to quit the game.<think><set name="topic">NUMBERDROP</set></think></li>
-			<li><set name="topic"></set><srai>BXDISPLAYBOARD</srai>Sorry but<get name="rowchoice"/>isn't a valid Choice!<br/>The next number is<get name="box"/>.<br/>Which row would you like to put it on? A,B,C,D or R for the recycle bin. You can type Q to quit the game.<think><set name="topic">NUMBERDROP</set></think></li>
+			<li><set name="topic"/><srai>BXDISPLAYBOARD</srai>Invalid Choice!<br/>The next number is<get name="box"/>.<br/><br/>Which row would you like to put it on? A,B,C,D or R for the recycle bin. You can type Q to quit the game.<think><set name="topic">NUMBERDROP</set></think></li>
+			<li><set name="topic"/><srai>BXDISPLAYBOARD</srai>Sorry but<get name="rowchoice"/>isn't a valid Choice!<br/>The next number is<get name="box"/>.<br/>Which row would you like to put it on? A,B,C,D or R for the recycle bin. You can type Q to quit the game.<think><set name="topic">NUMBERDROP</set></think></li>
 		</random>
 		</li>
 	</condition>
-</template>
-</category>
-</topic>
 
 
-<category>
-<pattern>BXROWA</pattern>
-<template>
+BXROWA
 <think>
 <set name="message">0</set>
 	<condition name="anext"> 
@@ -176,12 +141,8 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 		<li value="0"><srai>BXWORKOUTROWA</srai></li>
 		<li value="1"><srai>BXDISPLAYBOARD</srai>The number is<get name="box"/>.<br/>Sorry, row A is not available. Please choose another one or type Q to QUIT.<think><set name="topic">NUMBERDROP</set></think></li>
 	</condition>
-</template>
-</category>
 
-<category>
-<pattern>BXWORKOUTROWA</pattern>
-<template>
+BXWORKOUTROWA
 <think>
 <set name="total"><get name="atot"/></set>
 	<condition name="box"> 
@@ -205,12 +166,8 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 </think>
 <srai>BXDISPLAYBOARD</srai>
 <srai>BXCHOOSENUMBER</srai>
-</template>
-</category>
 
-<category>
-<pattern>BXNEWBOARDA</pattern>
-<template>
+BXNEWBOARDA
 <think>
 	<condition name="a1"> 
 		<li value="X"><set name="afin">1</set></li>
@@ -225,14 +182,8 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 <set name="atot">21</set></li>
 	</condition>
 </think>
-</template>
-</category>
 
-
-
-<category>
-<pattern>BXROWB</pattern>
-<template>
+BXROWB
 <think>
 <set name="message">0</set>
 	<condition name="bnext"> 
@@ -249,12 +200,8 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 		<li value="0"><srai>BXWORKOUTROWB</srai></li>
 		<li value="1"><srai>BXDISPLAYBOARD</srai>The number is<get name="box"/>.<br/>Sorry, row B is not available. Please choose another one or type Q to QUIT.<think><set name="topic">NUMBERDROP</set></think></li>
 	</condition>
-</template>
-</category>
 
-<category>
-<pattern>BXWORKOUTROWB</pattern>
-<template>
+BXWORKOUTROWB
 <think>
 <set name="total"><get name="btot"/></set>
 	<condition name="box"> 
@@ -278,12 +225,8 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 </think>
 <srai>BXDISPLAYBOARD</srai>
 <srai>BXCHOOSENUMBER</srai>
-</template>
-</category>
 
-<category>
-<pattern>BXNEWBOARDB</pattern>
-<template>
+BXNEWBOARDB
 <think>
 	<condition name="b1"> 
 		<li value="X"><set name="bfin">1</set></li>
@@ -298,15 +241,8 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 <set name="btot">21</set></li>
 	</condition>
 </think>
-</template>
-</category>
 
-
-
-
-<category>
-<pattern>BXROWC</pattern>
-<template>
+BXROWC
 <think>
 <set name="message">0</set>
 	<condition name="cnext"> 
@@ -323,12 +259,8 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 		<li value="0"><srai>BXWORKOUTROWC</srai></li>
 		<li value="1"><srai>BXDISPLAYBOARD</srai>The number is<get name="box"/>.<br/>Sorry, row C is not available. Please choose another one or type Q to QUIT.<think><set name="topic">NUMBERDROP</set></think></li>
 	</condition>
-</template>
-</category>
 
-<category>
-<pattern>BXWORKOUTROWC</pattern>
-<template>
+BXWORKOUTROWC
 <think>
 <set name="total"><get name="ctot"/></set>
 	<condition name="box"> 
@@ -352,12 +284,8 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 </think>
 <srai>BXDISPLAYBOARD</srai>
 <srai>BXCHOOSENUMBER</srai>
-</template>
-</category>
 
-<category>
-<pattern>BXNEWBOARDC</pattern>
-<template>
+BXNEWBOARDC
 <think>
 	<condition name="c1"> 
 		<li value="X"><set name="cfin">1</set></li>
@@ -372,12 +300,8 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 <set name="ctot">21</set></li>
 	</condition>
 </think>
-</template>
-</category>
 
-<category>
-<pattern>BXROWD</pattern>
-<template>
+BXROWD
 <think>
 <set name="message">0</set>
 	<condition name="dnext"> 
@@ -394,12 +318,8 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 		<li value="0"><srai>BXWORKOUTROWD</srai></li>
 		<li value="1"><srai>BXDISPLAYBOARD</srai>The number is<get name="box"/>.<br/>Sorry, row D is not available. Please choose another one or type Q to QUIT.<think><set name="topic">NUMBERDROP</set></think></li>
 	</condition>
-</template>
-</category>
 
-<category>
-<pattern>BXWORKOUTROWD</pattern>
-<template>
+BXWORKOUTROWD
 <think>
 <set name="total"><get name="dtot"/></set>
 	<condition name="box"> 
@@ -423,12 +343,8 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 </think>
 <srai>BXDISPLAYBOARD</srai>
 <srai>BXCHOOSENUMBER</srai>
-</template>
-</category>
 
-<category>
-<pattern>BXNEWBOARDD</pattern>
-<template>
+BXNEWBOARDD
 <think>
 	<condition name="d1"> 
 		<li value="X"><set name="dfin">1</set></li>
@@ -443,13 +359,8 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 <set name="dtot">21</set></li>
 	</condition>
 </think>
-</template>
-</category>
 
-
-<category>
-<pattern>BXROWR</pattern>
-<template>
+BXROWR
 <think>
 <set name="boxtemp"><get name="r6"/></set>
 <set name="r6"><get name="r5"/></set>
@@ -478,32 +389,20 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 		<li value="?"><srai>BXCHOOSENUMBER</srai></li>
 		<li><think><set name="topic">NUMBERDROP</set></think>The next number is<set name="box"><get name="boxtemp"/></set>.<br/><br/>Which row would you like to put it on? A,B,C,D or R for the recycle bin. You can type Q to quit the game.</li>
 	</condition>
-</template>
-</category>
 
-<category>
-<pattern>BXDISPRECYCLEMESSAGE</pattern>
-<template>
+BXDISPRECYCLEMESSAGE
 The recycle bin is now full. Any new numbers put in there will push the old ones out.<br/><br/>
 <think>
 <set name="recyclemessage">1</set>
 </think>
-</template>
-</category>
 
-<category>
-<pattern>BXTWO</pattern>
-<template>
+BXTWO
 <think>
 <srai>BXONE</srai>
 <srai>BXONE</srai>
 </think>
-</template>
-</category>
 
-<category>
-<pattern>BXFIVE</pattern>
-<template>
+BXFIVE
 <think>
 <srai>BXONE</srai>
 <srai>BXONE</srai>
@@ -511,13 +410,8 @@ The recycle bin is now full. Any new numbers put in there will push the old ones
 <srai>BXONE</srai>
 <srai>BXONE</srai>
 </think>
-</template>
-</category>
 
-
-<category>
-<pattern>BXONE</pattern> 
-<template>
+BXONE
 <think>
 	<condition name="total"> 
 		<li value="32"><set name="total">31</set></li>
@@ -554,13 +448,9 @@ The recycle bin is now full. Any new numbers put in there will push the old ones
 		<li value="1"><set name="total">0</set></li>
 		<li value="0"><set name="total">BUST</set></li>
 	</condition>
-</think> 
-</template>
-</category>
+</think>
 
-<category>
-<pattern>BXGAMEOVER</pattern>
-<template>
+BXGAMEOVER
 <think>
 	<set name="checkgameover"><get name="afin"/><get name="bfin"/><get name="cfin"/><get name="dfin"/></set>
 </think>
@@ -568,14 +458,8 @@ The recycle bin is now full. Any new numbers put in there will push the old ones
 		<li value="1 1 1 1">Hey you won! Well done<get name="name"/>. You are the champion!</li>
 		<li>Aw unlucky<get name="name"/>. You lost the game!</li>
 	</condition>
-</template>
-</category>
 
-<category>
-<pattern>BXQUITGAME</pattern>
-<template>
+BXQUITGAME
 Thanks for playing. Better luck next time.
-</template>
-</category>
 
-</aiml>
+

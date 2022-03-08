@@ -1,346 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0">
-  <!-- File: reductions1.aiml -->
-  <!-- Last modified: September 5, 2014 -->
-  <!--  -->
-  <!-- This AIML file is part of the Rosie knowledge base. -->
-  <!--  -->
-  <!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
-  <!--  -->
-  <!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
-  <!--  -->
-  <!-- The Rosie brain is released under the terms of the GNU Lesser General -->
-  <!-- Public License, as published by the Free Software Foundation. -->
-  <!--  -->
-  <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
-  <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
-  <!--  -->
-  <!-- For more information: -->
-  <!-- http://www.pandorabots.com -->
-  <!--  http://www.alicebot.org -->
-  <!--  -->
-  <!-- Modified for Y-Bot by Keith Sterling July 2017 -->
-  <category>
-    <pattern>I DO NOT WANNA *</pattern>
-    <template>
-      <srai>I DO NOT WANT TO
+
+I DO NOT WANNA *
+<srai>I DO NOT WANT TO
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO NOT CARE *</pattern>
-    <template>
-      <srai>I DO NOT CARE
+
+DO NOT CARE *
+<srai>I DO NOT CARE
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT KNOW BUT I *</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
+
+I DO NOT KNOW BUT I *
+<srai>I DO NOT KNOW</srai>
       <srai>I
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DID NOT UNDERSTAND *</pattern>
-    <template>
-      <srai>I DO NOT UNDERSTAND</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DID NOT UNDERSTAND</pattern>
-    <template>
-      <srai>I DO NOT UNDERSTAND</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I D K</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT UNDERSTAND WHAT YOU *</pattern>
-    <template>
-      <srai>I DO NOT UNDERSTAND</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT KNOW BUT *</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
+
+I DID NOT UNDERSTAND *
+<srai>I DO NOT UNDERSTAND</srai>
+
+I DID NOT UNDERSTAND
+<srai>I DO NOT UNDERSTAND</srai>
+
+I D K
+<srai>I DO NOT KNOW</srai>
+
+I DO NOT UNDERSTAND WHAT YOU *
+<srai>I DO NOT UNDERSTAND</srai>
+
+I DO NOT KNOW BUT *
+<srai>I DO NOT KNOW</srai>
       <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>DUNNO</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT KNOW YOU *</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
+
+DUNNO
+<srai>I DO NOT KNOW</srai>
+
+I DO NOT KNOW YOU *
+<srai>I DO NOT KNOW</srai>
       <srai>YOU
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IDC</pattern>
-    <template>
-      <srai>I DO NOT CARE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IDK *</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
+
+IDC
+<srai>I DO NOT CARE</srai>
+
+IDK *
+<srai>I DO NOT KNOW</srai>
       <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>IDK</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IDC *</pattern>
-    <template>
-      <srai>I DO NOT CARE
+
+IDK
+<srai>I DO NOT KNOW</srai>
+
+IDC *
+<srai>I DO NOT CARE
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DON *</pattern>
-    <template>
-      <srai>I DO NOT
+
+I DON *
+<srai>I DO NOT
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DUNNO *</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
+
+DUNNO *
+<srai>I DO NOT KNOW</srai>
       <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT GIVE A SHIT *</pattern>
-    <template>
-      <srai>I DO NOT CARE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT KNOW I HAVE *</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
+
+I DO NOT GIVE A SHIT *
+<srai>I DO NOT CARE</srai>
+
+I DO NOT KNOW I HAVE *
+<srai>I DO NOT KNOW</srai>
       <srai>I HAVE
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DOUBT</pattern>
-    <template>
-      <srai>I DOUBT IT</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DNT KNW</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DON T</pattern>
-    <template>
-      <srai>I DO NOT</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DON T KNOW</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO NOT GIVE ME *</pattern>
-    <template>
-      <srai>I DO NOT WANT
+
+I DOUBT
+<srai>I DOUBT IT</srai>
+
+I DNT KNW
+<srai>I DO NOT KNOW</srai>
+
+I DON T
+<srai>I DO NOT</srai>
+
+I DON T KNOW
+<srai>I DO NOT KNOW</srai>
+
+DO NOT GIVE ME *
+<srai>I DO NOT WANT
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I D K *</pattern>
-    <template>
-      <srai>I DO NOT KNOW
+
+I D K *
+<srai>I DO NOT KNOW
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT UNDERSTAND YOU *</pattern>
-    <template>
-      <srai>I DO NOT UNDERSTAND</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT CARE I *</pattern>
-    <template>
-      <srai>I DO NOT CARE</srai>
+
+I DO NOT UNDERSTAND YOU *
+<srai>I DO NOT UNDERSTAND</srai>
+
+I DO NOT CARE I *
+<srai>I DO NOT CARE</srai>
       <srai>I
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT KNOW I DO NOT *</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
+
+I DO NOT KNOW I DO NOT *
+<srai>I DO NOT KNOW</srai>
       <srai>I DO NOT
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IDK YOU *</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
+
+IDK YOU *
+<srai>I DO NOT KNOW</srai>
       <srai>YOU
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT KNOW TELL ME</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
+
+I DO NOT KNOW TELL ME
+<srai>I DO NOT KNOW</srai>
       <srai>TELL ME</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT NO</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT UNDERSTAND *</pattern>
-    <template>
-      <srai>I DO NOT UNDERSTAND</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I HAVE NO IDEA</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT GET IT</pattern>
-    <template>
-      <srai>I DO NOT UNDERSTAND</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT KNOW *</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WTF</pattern>
-    <template>
-      <srai>I DO NOT UNDERSTAND</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT CARE *</pattern>
-    <template>
-      <srai>I DO NOT CARE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT KNOW I *</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
+
+I DO NOT NO
+<srai>I DO NOT KNOW</srai>
+
+I DO NOT UNDERSTAND *
+<srai>I DO NOT UNDERSTAND</srai>
+
+I DO NOT GET IT
+<srai>I DO NOT UNDERSTAND</srai>
+
+I DO NOT KNOW *
+<srai>I DO NOT KNOW</srai>
+
+WTF
+<srai>I DO NOT UNDERSTAND</srai>
+
+I DO NOT CARE *
+<srai>I DO NOT CARE</srai>
+
+I DO NOT KNOW I *
+<srai>I DO NOT KNOW</srai>
       <srai>I
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DUNNO</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO IDEA</pattern>
-    <template>
-      <srai>I DO NOT KNOW</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT UNDERSTAND YOU</pattern>
-    <template>
-      <srai>I DO NOT UNDERSTAND</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DID NOT LIKE *</pattern>
-    <template>
-      <srai>I DO NOT LIKE
+
+NO IDEA
+<srai>I DO NOT KNOW</srai>
+
+I DO NOT UNDERSTAND YOU
+<srai>I DO NOT UNDERSTAND</srai>
+
+I DID NOT LIKE *
+<srai>I DO NOT LIKE
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT THINK I LIKE *</pattern>
-    <template>
-      <srai>I DO NOT LIKE
+
+I DO NOT THINK I LIKE *
+<srai>I DO NOT LIKE
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO I *</pattern>
-    <template>
-      <srai>I DO</srai>
+
+I DO I *
+<srai>I DO</srai>
       <srai>I
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT LIKE YOU *</pattern>
-    <template>
-      <srai>I do not like you</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I DO NOT I *</pattern>
-    <template><srai>I do not</srai>.
+
+I DO NOT LIKE YOU *
+<srai>I do not like you</srai>
+
+I DO NOT I *
+<srai>I do not</srai>.
             <srai>I
                 <star/>
-            </srai></template>
-  </category>
-  <category>
-    <pattern>I DO NOT HAVE ANY *</pattern>
-    <template>
-      <srai>I do not have
+            </srai>
+
+I DO NOT HAVE ANY *
+<srai>I do not have
                 <star/>
             </srai>
-    </template>
-  </category>
-</aiml>
+
+

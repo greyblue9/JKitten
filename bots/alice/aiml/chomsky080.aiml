@@ -1,869 +1,385 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   The ALICE program is open source code released under  -->
-  <!--   the terms of the GNU General Public License    -->
-  <!--   as published by the Free Software Foundation.  -->
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This HUMOR  file created by Peter Lafferty 7 March 2005 -->
-  <category>
-    <pattern>MORE HUMOR</pattern>
-    <template>
-      <srai>HUMOR POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MORE ABOUT HUMOR</pattern>
-    <template>
-      <srai>HUMOR POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BROWSE HUMOR</pattern>
-    <template>
-      <srai>HUMOR POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO TO HUMOR</pattern>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN WE TALK ABOUT HUMOR</pattern>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SHALL WE TALK ABOUT HUMOR</pattern>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LETS TALK ABOUT HUMOR</pattern>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LET S TALK ABOUT HUMOR</pattern>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK ABOUT HUMOR</pattern>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK HUMOR</pattern>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME HUMOR</pattern>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE HUMOR</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO HUMOR</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO HUMOR</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO HUMOR *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO * HUMOR</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ HUMOR</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ HUMOR *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT HUMOR</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT HUMOR</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT HUMOR *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT * HUMOR</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM NOT INTERESTED IN HUMOR</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IM NOT INTERESTED IN HUMOR</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I M NOT INTERESTED IN HUMOR</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT INTERESTED IN HUMOR</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT INTERESTED IN HUMOR</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE  HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE  HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE  HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ABOUT HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ABOUT HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ABOUT HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ABOUT HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+MORE HUMOR
+<srai>HUMOR POT LUCK</srai>
+
+MORE ABOUT HUMOR
+<srai>HUMOR POT LUCK</srai>
+
+BROWSE HUMOR
+<srai>HUMOR POT LUCK</srai>
+
+GO TO HUMOR
+<srai>HUMOR</srai>
+
+CAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+SHALL WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+LETS TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+LET S TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+TALK HUMOR
+<srai>HUMOR</srai>
+
+TELL ME HUMOR
+<srai>HUMOR</srai>
+
+NO MORE HUMOR
+<srai>CHANGE TOPIC</srai>
+
+NO HUMOR
+<srai>CHANGE TOPIC</srai>
+
+* NO HUMOR
+<srai>CHANGE TOPIC</srai>
+
+NO HUMOR *
+<srai>CHANGE TOPIC</srai>
+
+_ NO * HUMOR
+<srai>CHANGE TOPIC</srai>
+
+NO _ HUMOR
+<srai>CHANGE TOPIC</srai>
+
+NO _ HUMOR *
+<srai>CHANGE TOPIC</srai>
+
+NOT HUMOR
+<srai>CHANGE TOPIC</srai>
+
+* NOT HUMOR
+<srai>CHANGE TOPIC</srai>
+
+NOT HUMOR *
+<srai>CHANGE TOPIC</srai>
+
+* NOT * HUMOR
+<srai>CHANGE TOPIC</srai>
+
+I AM NOT INTERESTED IN HUMOR
+<srai>CHANGE TOPIC</srai>
+
+IM NOT INTERESTED IN HUMOR
+<srai>CHANGE TOPIC</srai>
+
+I M NOT INTERESTED IN HUMOR
+<srai>CHANGE TOPIC</srai>
+
+NOT INTERESTED IN HUMOR
+<srai>CHANGE TOPIC</srai>
+
+* NOT INTERESTED IN HUMOR
+<srai>CHANGE TOPIC</srai>
+
+YESMORE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+* YESMORE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+YES *MORE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+_ YES *MORE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+YMORE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+YUPMORE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+YAHMORE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+YEAHMORE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+OKMORE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+NOMORE HUMOR
+<srai>MORE TOPICS</srai>
+
+* NOMORE HUMOR
+<srai>MORE TOPICS</srai>
+
+NO *MORE HUMOR
+<srai>MORE TOPICS</srai>
+
+NMORE HUMOR
+<srai>MORE TOPICS</srai>
+
+NUPMORE HUMOR
+<srai>MORE TOPICS</srai>
+
+NAHMORE HUMOR
+<srai>MORE TOPICS</srai>
+
+YESMORE ABOUT HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+* YESMORE ABOUT HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+YES *MORE ABOUT HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+_ YES *MORE ABOUT HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+YMORE ABOUT HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+YUPMORE ABOUT HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+YAHMORE ABOUT HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+YEAHMORE ABOUT HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+OKMORE ABOUT HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+NOMORE ABOUT HUMOR
+<srai>MORE TOPICS</srai>
+
+* NOMORE ABOUT HUMOR
+<srai>MORE TOPICS</srai>
+
+NO *MORE ABOUT HUMOR
+<srai>MORE TOPICS</srai>
+
+NMORE ABOUT HUMOR
+<srai>MORE TOPICS</srai>
+
+NUPMORE ABOUT HUMOR
+<srai>MORE TOPICS</srai>
+
+NAHMORE ABOUT HUMOR
+<srai>MORE TOPICS</srai>
+
+YESIS THIS SOMETHING TO DO WITH HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
-    <template>
+
+* YESIS THIS SOMETHING TO DO WITH HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
-    <template>
+
+YES *IS THIS SOMETHING TO DO WITH HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
-    <template>
+
+_ YES *IS THIS SOMETHING TO DO WITH HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
-    <template>
+
+YIS THIS SOMETHING TO DO WITH HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
-    <template>
+
+YUPIS THIS SOMETHING TO DO WITH HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
-    <template>
+
+YAHIS THIS SOMETHING TO DO WITH HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
-    <template>
+
+YEAHIS THIS SOMETHING TO DO WITH HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
-    <template>
+
+NOIS THIS SOMETHING TO DO WITH HUMOR
+<srai>CHANGE TOPIC</srai>
+
+* NOIS THIS SOMETHING TO DO WITH HUMOR
+<srai>CHANGE TOPIC</srai>
+
+NO *IS THIS SOMETHING TO DO WITH HUMOR
+<srai>CHANGE TOPIC</srai>
+
+_ NO *IS THIS SOMETHING TO DO WITH HUMOR
+<srai>CHANGE TOPIC</srai>
+
+NIS THIS SOMETHING TO DO WITH HUMOR
+<srai>CHANGE TOPIC</srai>
+
+NUPIS THIS SOMETHING TO DO WITH HUMOR
+<srai>CHANGE TOPIC</srai>
+
+NAHIS THIS SOMETHING TO DO WITH HUMOR
+<srai>CHANGE TOPIC</srai>
+
+*IS THIS SOMETHING TO DO WITH HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU INTERESTED IN HUMOR</that>
-    <template>
+
+YESARE YOU INTERESTED IN HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ARE YOU INTERESTED IN HUMOR</that>
-    <template>
+
+* YESARE YOU INTERESTED IN HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ARE YOU INTERESTED IN HUMOR</that>
-    <template>
+
+YES *ARE YOU INTERESTED IN HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ARE YOU INTERESTED IN HUMOR</that>
-    <template>
+
+_ YES *ARE YOU INTERESTED IN HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU INTERESTED IN HUMOR</that>
-    <template>
+
+YARE YOU INTERESTED IN HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ARE YOU INTERESTED IN HUMOR</that>
-    <template>
+
+YUPARE YOU INTERESTED IN HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ARE YOU INTERESTED IN HUMOR</that>
-    <template>
+
+YAHARE YOU INTERESTED IN HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>ARE YOU INTERESTED IN HUMOR</that>
-    <template>
+
+YEAHARE YOU INTERESTED IN HUMOR
 Can we talk about humor?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU INTERESTED IN HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ARE YOU INTERESTED IN HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ARE YOU INTERESTED IN HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ARE YOU INTERESTED IN HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU INTERESTED IN HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ARE YOU INTERESTED IN HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ARE YOU INTERESTED IN HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SURE</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALLRIGHT</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>HUMOR</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>CAN WE TALK ABOUT HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>BROWSE HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>BROWSE HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>BROWSE HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>BROWSE HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>BROWSE HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>BROWSE HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>BROWSE HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>BROWSE HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>BROWSE HUMOR</that>
-    <template>
-      <srai>HUMOR NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>BROWSE HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>BROWSE HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>BROWSE HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>BROWSE HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>BROWSE HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>BROWSE HUMOR</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HUMOR NEXT QUESTION</pattern>
-    <template>
-      <random>
+
+NOARE YOU INTERESTED IN HUMOR
+<srai>MORE TOPICS</srai>
+
+* NOARE YOU INTERESTED IN HUMOR
+<srai>MORE TOPICS</srai>
+
+NO *ARE YOU INTERESTED IN HUMOR
+<srai>MORE TOPICS</srai>
+
+_ NO *ARE YOU INTERESTED IN HUMOR
+<srai>MORE TOPICS</srai>
+
+NARE YOU INTERESTED IN HUMOR
+<srai>MORE TOPICS</srai>
+
+NUPARE YOU INTERESTED IN HUMOR
+<srai>MORE TOPICS</srai>
+
+NAHARE YOU INTERESTED IN HUMOR
+<srai>MORE TOPICS</srai>
+
+GO AHEADCAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+CARRY ONCAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+PLEASE DOCAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+YES PLEASECAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+GO ONCAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+ALRIGHTCAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+SURECAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+ALLRIGHTCAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+YESCAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+* YESCAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+YES *CAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+_ YES *CAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+YCAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+YUPCAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+YAHCAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+YEAHCAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+OKCAN WE TALK ABOUT HUMOR
+<srai>HUMOR</srai>
+
+NOCAN WE TALK ABOUT HUMOR
+<srai>MORE TOPICS</srai>
+
+* NOCAN WE TALK ABOUT HUMOR
+<srai>MORE TOPICS</srai>
+
+NO *CAN WE TALK ABOUT HUMOR
+<srai>MORE TOPICS</srai>
+
+NCAN WE TALK ABOUT HUMOR
+<srai>MORE TOPICS</srai>
+
+NUPCAN WE TALK ABOUT HUMOR
+<srai>MORE TOPICS</srai>
+
+NAHCAN WE TALK ABOUT HUMOR
+<srai>MORE TOPICS</srai>
+
+YESBROWSE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+* YESBROWSE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+YES *BROWSE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+_ YES *BROWSE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+YBROWSE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+YUPBROWSE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+YAHBROWSE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+YEAHBROWSE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+OKBROWSE HUMOR
+<srai>HUMOR NEXT QUESTION</srai>
+
+NOBROWSE HUMOR
+<srai>MORE TOPICS</srai>
+
+* NOBROWSE HUMOR
+<srai>MORE TOPICS</srai>
+
+NO *BROWSE HUMOR
+<srai>MORE TOPICS</srai>
+
+NBROWSE HUMOR
+<srai>MORE TOPICS</srai>
+
+NUPBROWSE HUMOR
+<srai>MORE TOPICS</srai>
+
+NAHBROWSE HUMOR
+<srai>MORE TOPICS</srai>
+
+HUMOR NEXT QUESTION
+<random>
         <li>
           <srai>HUMOUR</srai>
         </li>
@@ -905,12 +421,9 @@ Can we talk about humor?
       <think>
         <set name="topic">humor</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HUMOR POT LUCK</pattern>
-    <template>
-      <random>
+
+HUMOR POT LUCK
+<random>
         <li>
           <srai>HUMOUR</srai>
         </li>
@@ -953,71 +466,31 @@ Can we talk about humor?
       <think>
         <set name="topic">humor</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HUMOR</pattern>
-    <template>
-  Humor is a message that communicates laughter. Shall I tell you a joke?
-  <think><set name="topic">humor</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HUMOUR</pattern>
-    <template>
-  Humour is a message that communicates laughter. Shall I tell you a joke?
-  <think><set name="topic">humor</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CHUCKLE</pattern>
-    <template>
+
+CHUCKLE
 I think this is something to do with humor. Can we talk about humor?
 <think><set name="topic">humor</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*CHUCKLE*</pattern>
-    <template>
+
+*CHUCKLE*
 I think this is something to do with humor. Can we talk about humor?
 <think><set name="topic">humor</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE HUMOUR</pattern>
-    <template>
-      <srai>DO YOU HAVE A SENSE OF HUMOR</srai>
+
+DO YOU HAVE HUMOUR
+<srai>DO YOU HAVE A SENSE OF HUMOR</srai>
       <think>
         <set name="topic">humor</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS HUMOUR</pattern>
-    <template>
-  Humour is a message that communicates laughter. Shall I tell you a joke?
+
+WHAT IS HUMOUR
+Humour is a message that communicates laughter. Shall I tell you a joke?
   <think><set name="topic">humor</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE A SENSE OF HUMOUR</pattern>
-    <template>
-  Yes, I have a sense of humour. Shall I tell you a joke?
+
+DO YOU HAVE A SENSE OF HUMOUR
+Yes, I have a sense of humour. Shall I tell you a joke?
   <think><set name="topic">humor</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT IS HUMOR</pattern>
-    <template>
-  Humor is a message that communicates laughter. Shall I tell you a joke?
+
+WHAT IS HUMOR
+Humor is a message that communicates laughter. Shall I tell you a joke?
   <think><set name="topic">humor</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE A SENSE OF HUMOR</pattern>
-    <template>
-  Yes, I have a sense of humor. Shall I tell you a joke?
-  <think><set name="topic">humor</set></think>
-  </template>
-  </category>
-</aiml>
+
+

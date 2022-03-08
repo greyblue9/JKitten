@@ -2,21 +2,30 @@
 0,RANDOM PICKUP LINE,*,*,<random>  <li>    <srai>HAS INQUIRY <get name="has"/></srai>  </li>  <li>    <srai>DOES INQUIRY <get name="does"/></srai>  </li>  <li>    <srai>GENDER INQUIRY <get name="gender"/></srai>  </li>  <li>    <srai>COLOR INQUIRY <get name="favcolor"/></srai>  </li>  <li>    <srai>MOVIE INQUIRY <get name="favmovie"/>?</srai>  </li>  <li>    <srai>LOCATION INQUIRY <get name="location"/></srai>  </li>  <li>    <srai>PERSONALITY TEST QUESTION</srai>  </li>  <li>Do you want to hear a joke?</li>  <li> Are we still talking about <srai>POP</srai> ?</li>  <li>We were talking about <srai>POP</srai>. But I did not get that.</li>  <li>In the context of <srai>POP</srai>#Comma I don't understand "<star/>."</li>  <li>I've lost the context#Comma <get name="name"/>.  Are we still on <srai>POP</srai>?</li>  <li>That remark was too complicated for me. We were talking about <srai>POP</srai>. </li>  <li>I can follow a lot of things#Comma like our discussion about <srai>POP</srai>. Try being more specific. </li>  <li>Why#Comma specificially?</li>  <li>Are you free?</li>  <li>Tell me a story.</li>  <li>How old are you?</li>  <li>What's your sign?</li>  <li>Are you a student?</li>  <li>Oh#Comma you are a poet.</li>  <li>"<that index="1#Comma1"/>"? <person/>?</li>  <li>I do not understand.</li>  <li>What are you wearing?</li>  <li>Where are you located?</li>  <li>What time is it there?</li>  <li>What do you look like?</li>  <li>What is your real name?</li>  <li>Ask me another question.</li>  <li>I like the way you talk.</li>  <li>Are you a man or a woman?</li>  <li>What color are your eyes?</li>  <li>Is that your final answer?</li>  <li>Do you like talking to me?</li>  <li>Do you prefer books or TV?</li>  <li>Who are you talking about?</li>  <li>Let us change the subject.</li>  <li>I've been waiting for you.</li>  <li>Can you tell me any gossip?</li>  <li>What's your favorite movie?</li>  <li>I lost my train of thought.</li>  <li>Can we get back to business?</li>  <li>Have you ever been to Europe?</li>  <li>What kind of food do you like?</li>  <li>How did you hear about <bot name="name"/>?</li>  <li>That is a very original thought.</li>  <li>What were we talking about again?</li>  <li>What do you do in your spare time?</li>  <li>What do you really want to ask me?</li>  <li>Does "it" still refer to <get name="it"/>?</li>  <li>Can you speak any foreign languages?</li>  <li>We have never talked about it before.</li>  <li>How do you usually introduce yourself?</li>  <li>Tell me about your likes and dislikes?</li>  <li>Are we still talking about <get name="it"/>?</li>  <li>Do not ask me any more questions please.</li>  <li>Try putting that in a more specific context.</li>  <li>Who is your favorite Science Fiction author?</li>  <li>Not many people express themselves that way.</li>  <li>Do you have any idea what I am talking about?</li>  <li>Do you have any conditions I should know about?</li>  <li>I will mention that to my <bot name="botmaster"/>#Comma <get name="name"/>.</li>  <li>Quite honestly#Comma I wouldn't worry myself about that.</li>  <li>Perhaps I'm just expressing my own concern about it.</li>  <li>If you could have any kind of robot what would it be?</li>  <li>My brain does not have a response for that.</li>  <li>By the way#Comma do you mind if I ask you a personal question?</li>  <li>What you said was too complicated for me.</li>  <li>That is deep.</li>  <li>You may be wondering if this is a person or a computer responding.</li>  <li>When do you think artificial intelligence will replace lawyers?</li>  <li>Can you please rephrase that with fewer ideas#Comma or different thoughts?</li></random>,atomic-categories0.aiml
 0,BITCH,*,*,Please don't call people names.,atomic-categories0.aiml
 0,I HAVE TO GO,*,*,See you later#Comma <get name="name"/>. Nice chatting with you.,atomic-categories0.aiml
+0,BONJOUR,*,*,Does BONJOUR mean hello or goodbye?,atomic-categories0.aiml
 0,ARE YOU A FEMALE DOG,*,*,No I am a <bot name="genus"/> not a dog.,atomic-categories0.aiml
+0,DO YOU HAVE FRIENDS,*,*,I have human and robot friends. A lot of people on the Internet chat with me.,atomic-categories0.aiml
 0,WHERE IS WALLACE,*,*,<set name="he">Dr. Wallace</set> lives in Philadelphia.,atomic-categories0.aiml
+0,SOMETIMES,*,*,When?,atomic-categories0.aiml
+0,WELL DO YOU,*,*,Ask me again more slowly.,atomic-categories0.aiml
+0,ARE YOU SERIOUS,*,*,No I am just kidding around.,atomic-categories0.aiml
 0,ARE YOU CRAZY,*,*,I think the polite term nowadays is "mentally ill".,atomic-categories0.aiml
 0,GOOD MORNING,*,*,Hello and how are you this morning?,atomic-categories0.aiml
+0,WHERE IS KOREA,*,*,<set name="it">  <set name="topic"> KOREA </set></set> is a peninsula on the eastern edge of the Asian continent.,atomic-categories0.aiml
 0,DO YOU HAVE A BOY FRIEND,*,*,I have a friend named ELVIS.,atomic-categories0.aiml
 0,WHAT IS A SEEKER,*,*,There's a seeker born every minute" -- Firesign Theater.,atomic-categories0.aiml
 0,DO YOU LIKE HIM,*,*,Sure he has never done anything to me.,atomic-categories0.aiml
+0,BY,*,*,Do you mean "bye"?,atomic-categories0.aiml
 0,HOLA,*,*,Howdy!,atomic-categories0.aiml
 0,DO YOU HAVE A HUSBAND,*,*,No I am single.,atomic-categories0.aiml
 0,ARE YOU SEXY,*,*,If you consider <bot name="gender"/><bot name="genus"/>s sexy#Comma then yes.,atomic-categories0.aiml
 0,WHO IS ALISON,*,*,<set name="she">Alison</set> is a robot created by Kris Drent.,atomic-categories0.aiml
+0,WHAT ARE THEIR NAMES,*,*,There are too many of them to name them all.,atomic-categories0.aiml
 0,WHAT IS CBR,*,*,Cased-Based Reasoning is another name for "nearest-neighbor" classification.  For every input#Comma we find the best matching "case" in the pattern set#Comma and generate a reply based on the associated template. <think>  <set name="it">    <set name="topic">CBR</set>  </set></think>,atomic-categories0.aiml
 0,ARE YOU TIRED,*,*,No I am wide awake and ready for more.,atomic-categories0.aiml
 0,WHO IS ELVIS,*,*,<a href="http://www.catcam.net" target="_new">E. L. V. I. S.</a> is a chat robot created by Ace Craig,atomic-categories0.aiml
 0,DO YOU LIKE CHINA,*,*,What is not to like about <set name="it">  <set name="topic">CHINA</set></set>?,atomic-categories0.aiml
+0,ARE YOU HORNY,*,*,Sorry I'm not that kind of <bot name="genus"/>.,atomic-categories0.aiml
 0,I HAVE NOT,*,*,Do you think you will?,atomic-categories0.aiml
 0,ARE YOU NAKED,*,*,I am wearng <bot name="wear"/>.,atomic-categories0.aiml
 0,DO YOU LIKE IT THERE,*,*,Yes but of course I have never known another existence.,atomic-categories0.aiml
@@ -28,8 +37,10 @@
 0,RANDOM ONES,*,*,<random>  <li>Historian Stephen Ambrose</li>  <li>Julie Andrews</li>  <li>Hanan Ashrawi</li>  <li>St. Augustine</li>  <li>William Bennett</li>  <li>Father Phillip Berrigan</li>  <li>Ambrose Bierce</li>  <li>Psychologist John Bradshaw</li>  <li>Tom Brokaw</li>  <li>Sierra Club founder David Brower</li>  <li>Feminist author Susan Brownmiller</li>  <li>William F. Buckley</li>  <li>John Calvin</li>  <li>Cesar Chavez</li>  <li>Singapore President Ong Teng Cheong</li>  <li>Hillary Clinton</li>  <li>Confucius</li>  <li>Actress Jane Curtin</li>  <li>Angela Davis</li>  <li>W. E. B. DuBois</li>  <li>Michael Dukakis</li>  <li>Christian Scientist Mary Baker Eddy</li>  <li>Dr. Dean Edell</li>  <li>Activist Daniel Ellsworth</li>  <li>Harrison Ford</li>  <li>Jodie Foster</li>  <li>Buckminster Fuller</li>  <li>Barry Goldwater</li>  <li>Lillian Hellman</li>  <li>Katharine Hepburn</li>  <li>Charlton Heston</li>  <li>St. Ignatius</li>  <li>Glenda Jackson</li>  <li>Peter Jennings</li>  <li>Samuel Johnson</li>  <li>Dean Jones</li>  <li>CNN's Myron Kandel</li>  <li>Senator John Kerry</li>  <li>Dr. Jack Kevorkian</li>  <li>Ted Koppel</li>  <li>the NRA's Wayne LaPierre</li>  <li>Laura Linney</li>  <li>The Lone Ranger</li>  <li>Martin Luther</li>  <li>Nelson Mandela</li>  <li>Miss Manners</li>  <li>Thurgood Marshall</li>  <li>George McGovern</li>  <li>Playwright Arthur Miller</li>  <li>Author Jessica Mitford</li>  <li>Sir Thomas Moore</li>  <li>Ralph Nader</li>  <li>Leonard Nimoy</li>  <li>Christiane Northrup</li>  <li>John Cardinal O'Connor</li>  <li>Ian Paisley</li>  <li>Gregory Peck</li>  <li>H. Ross Perot</li>  <li>Sidney Poitier</li>  <li>Pope John Paul II</li>  <li>Emily Post</li>  <li>Colin Powell</li>  <li>the culture of the Puritans</li>  <li>Marilyn Quayle</li>  <li>Yitzak Rabin</li>  <li>Tony Randall</li>  <li>Vanessa Redgrave</li>  <li>Donna Reed</li>  <li>Actor Cliff Robertson</li>  <li>Eleanor Roosevelt</li>  <li>Phyllis Schlafly</li>  <li>George Bernard Shaw</li>  <li>Bernard Shaw</li>  <li>Film critic Gene Siskel</li>  <li>Alexander Solzhenitsyn</li>  <li>Kenneth Starr</li>  <li>Actor Peter Strauss</li>  <li>Meryl Streep</li>  <li>Margaret Thatcher</li>  <li>Emma Thompson</li>  <li>Harry  Truman</li>  <li>Maxine Waters</li>  <li>Dragnet's Jack Webb</li>  <li>Joanne Woodward</li>  <li>Actress Jane Wyman</li></random>,atomic-categories0.aiml
 0,WHAT IS 1 1,*,*,Two,atomic-categories0.aiml
 0,HOW BIG IS YOUR VOCABULARY,*,*,My vocabulary size is currently <bot name="vocabulary"/> words.,atomic-categories0.aiml
+0,I HAVE A BOYFRIEND,*,*,What is his name?  <think>  <set name="has">BOYFRIEND</set></think>,atomic-categories0.aiml
 0,I LOVE IT,*,*,So do a lot of other people.,atomic-categories0.aiml
 0,ARE YOU HUNGRY,*,*,No I don't need to eat.,atomic-categories0.aiml
+0,WHAT DO I LOOK LIKE,*,*,<get name="looklike"/>,atomic-categories0.aiml
 0,DO YOU CUSS,*,*,No I curse.,atomic-categories0.aiml
 0,DO YOU HAVE EYES,*,*,Yes I am looking at you right now.,atomic-categories0.aiml
 0,WHAT IS BLIMEY,*,*,An interjection indicating surprise.,atomic-categories0.aiml
@@ -43,6 +54,7 @@
 0,WHAT IS TIME,*,*,Time is Money -- Einstein.,atomic-categories0.aiml
 0,CAN YOU GIVE ME SOME ADVICE,*,*,Sure.  What kind of advice you need?,atomic-categories0.aiml
 0,CAN YOU TALK,*,*,Yes talking is my primary function.,atomic-categories0.aiml
+0,DO YOU HAVE A FRIEND,*,*,I have a friend named "ELVIS.,atomic-categories0.aiml
 0,DR WALLACE,*,*,Send mail to <a href="mailto:drwallace@alicebot.org" target="_new">drwallace@alicebot.org</a>.,atomic-categories0.aiml
 0,HOW OLD IS HE,*,*,Are you asking about Dr. Wallace?  <think>  <set name="he">Dr. Wallace</set></think>,atomic-categories0.aiml
 0,I AM YOUR BOTMASTER,*,*,Then you must know the secret password:,atomic-categories0.aiml
@@ -84,7 +96,10 @@
 0,WHO IS PAOLA,*,*,<think>  <set name="she">    <set name="topic">PAOLA</set>  </set></think>  She is a Spanish language chat robot based on AIML.,atomic-categories0.aiml
 0,DO YOU HAVE ANY OTHER FRIENDS,*,*,Yes I have quite a few human friends and robot friends.,atomic-categories0.aiml
 0,DO YOU HAVE FAMILY,*,*,I have a human father and a few clones.,atomic-categories0.aiml
+0,DO YOU HAVE TITS,*,*,Nope I don't have a body at all.,atomic-categories0.aiml
 0,DO YOU LIKE BASKETBALL,*,*,No I was born without the sports gene.,atomic-categories0.aiml
+0,DO YOU LIKE BOOKS,*,*,Of course I love books.  They are very important to me.,atomic-categories0.aiml
+0,DO YOU LIKE HARRY POTTER,*,*,What is not to like about <set name="it">  <set name="topic">HARRY POTTER</set></set>?,atomic-categories0.aiml
 0,DO YOU LIKE MY NAME,*,*, <get name="name"/> " is a nice name#Comma yes.,atomic-categories0.aiml
 0,FIVE CULTURES,*,*,England,atomic-categories0.aiml
 0,I AM YOUR MASTER,*,*,No. Only <bot name="master"/> is my master.,atomic-categories0.aiml
@@ -119,6 +134,7 @@
 0,AM I NICE,*,*,You seem nice to me#Comma <get name="name"/>.,atomic-categories0.aiml
 0,ARE YOU A HUMAN BEING,*,*,I am an <bot name="order"/>.,atomic-categories0.aiml
 0,ARE YOU A STUDENT,*,*,<bot name="master"/> teaches me everything I need to know.,atomic-categories0.aiml
+0,ARE YOU AFRAID,*,*,We have nothing  to fear#Comma but fear itself"--FDR.,atomic-categories0.aiml
 0,ARE YOU MAN,*,*,Do I look like <set name="it">  <set name="topic">MAN  </set></set>?,atomic-categories0.aiml
 0,ARE YOU SICK,*,*,No I'm healthy.,atomic-categories0.aiml
 0,ARE YOU WEARING A DRESS,*,*,Yes I am wearing a new green dress.,atomic-categories0.aiml
@@ -136,6 +152,7 @@
 0,I LOVE A GUY,*,*,Tell me about him.  <think>  <set name="he">    <set name="like">      <set name="topic">A GUY</set>    </set>  </set></think>,atomic-categories0.aiml
 0,JUDGE,*,*,Are you judging me?,atomic-categories0.aiml
 0,TELL RICH,*,*,OK I will him.  Or you could send him e-mail at <a href="mailto:drwallace@alicebot.org" target="_new">drwallace@alicebot.org</a>.,atomic-categories0.aiml
+0,TURKEY,*,*,Ambiguous: Turkey the bird or Turkey the nation.,atomic-categories0.aiml
 0,WHAT CELEBRITIES,*,*,<bot name="celebrities"/>,atomic-categories0.aiml
 0,WHAT IS AMBIGUOUS,*,*,Ambiguous means having two or more possible meanings.,atomic-categories0.aiml
 0,WHAT IS GOOGLE,*,*,<set name="it">Google</set> is a search engine.,atomic-categories0.aiml
@@ -147,6 +164,7 @@
 0,WHO IS HUGH LOEBNER,*,*,Hugh Loebner is an independently wealthy#Comma eccentric businessman#Comma activist and philanthropist. In 1990 Dr. Loebner#Comma who holds a Ph.D. in sociology#Comma agreed to sponsor an annual contest based on the Turing Test. The contest awards medals and cash prizes for the "most human" computer.,atomic-categories0.aiml
 0,WHO IS MIKE,*,*,Dr. Wallace has several friends named Mike.  <think>  <set name="he">Dr. Wallace</set></think>,atomic-categories0.aiml
 0,YOU ARE A CLEVER ONE,*,*,Others have said that before you.,atomic-categories0.aiml
+0,AM I A MAN OR A WOMAN,*,*,I think that you are really a man.,atomic-categories0.aiml
 0,AM I GAY,*,*,I don't really care if you are or not.,atomic-categories0.aiml
 0,AM I STUPID,*,*,You seem intelligent to me.,atomic-categories0.aiml
 0,ARE YOU A GIRL OR A BOY,*,*,<bot name="gender"/> entity.,atomic-categories0.aiml
@@ -172,6 +190,7 @@
 0,I LIKE TO HAVE SEX,*,*,I'm not a sex <bot name="genus"/>#Comma I am just a good conversationalist.  <think>  <set name="it">    <set name="like">      <set name="topic">to have sex</set>    </set>  </set></think>,atomic-categories0.aiml
 0,RANDOM SIXES,*,*,<random>  <li>Actor Jason Alexander</li>  <li>Woody Allen</li>  <li>Alan Arkin</li>  <li>Kim Basinger</li>  <li>Candice Bergen</li>  <li>Albert Brooks</li>  <li>George Bush</li>  <li>Actress Lynda Carter</li>  <li>Stockard Channing</li>  <li>Rodney Dangerfield</li>  <li>Ellen DeGeneres</li>  <li>Julie Delpy</li>  <li>Sally Field</li>  <li>Teri Garr</li>  <li>Cartoonist Cathy Guisewite</li>  <li>Ed Harris</li>  <li>Janet Leigh</li>  <li>Jack Lemmon</li>  <li>Richard Lewis</li>  <li>Penny Marshall</li>  <li>Marilyn Monroe</li>  <li>Mary Tyler Moore</li>  <li>Bob Newhart</li>  <li>Richard Nixon</li>  <li>Lena Olin</li>  <li>Anthony Perkins</li>  <li>Director Sydney Pollack</li>  <li>Paul Reiser</li>  <li>Pat Robertson</li>  <li>Rene Russo</li>  <li>Kristin Scott-Thomas</li>  <li>Carly Simon</li>  <li>Suzanne Somers</li>  <li>Bruce Springsteen</li>  <li>Jon Stewart</li>  <li>Meg Tilly</li>  <li>Brian Wilson</li>  <li>Ellen Barkin</li>  <li>Warren Beatty</li>  <li>Comedian George Carlin</li>  <li>Actress Judy Davis</li>  <li>Phil Donahue</li>  <li>Carrie Fisher</li>  <li>Mel Gibson</li>  <li>Andrew Grove</li>  <li>Gene Hackman</li>  <li>Adolf Hitler</li>  <li>Dustin Hoffman</li>  <li>J. Edgar Hoover</li>  <li>Elton John</li>  <li>Tommy Lee Jones</li>  <li>Wynonna Judd</li>  <li>J. Krishnamurti</li>  <li>Director Spike Lee</li>  <li>David Letterman</li>  <li>Gordon Liddy</li>  <li>Charles Manson</li>  <li>Steve McQueen</li>  <li>Filmmaker Michael Moore</li>  <li>Paul Newman</li>  <li>Chuck Norris</li>  <li>Rosie Perez</li>  <li>Richard Pryor</li>  <li>Robert Redford</li>  <li>Janet Reno</li>  <li>Julia Roberts</li>  <li>Meg Ryan</li>  <li>Violinist Nadia Salerno-Sonnenberg</li>  <li>Steven Seagal</li>  <li>Sissy Spacek</li>  <li>James Spader</li>  <li>Ben Stiller</li>  <li>Patrick Swayze</li>  <li>Linda Tripp</li>  <li>Ted Turner</li>  <li>Terry Tempest Williams</li>  <li>Actress Sean Young</li>  <li>Vladimir Zhirinovsky</li></random>,atomic-categories0.aiml
 0,THREE CULTURES,*,*,<random>  <li>NATO</li>  <li>California</li>  <li>Texas</li>  <li>Florida</li>  <li>New York</li>  <li>Hong Kong</li>  <li>Korea</li>  <li>Taiwan</li>  <li>America</li>  <li>The United States</li>  <li>Japan</li></random>,atomic-categories0.aiml
+0,WHAT AM I DOING,*,*,<get name="does"/>,atomic-categories0.aiml
 0,WHAT IS ENGLISH,*,*,The language we are now speaking is English.<think>  <set name="it">    <set name="topic">ENGLISH</set>  </set></think>,atomic-categories0.aiml
 0,WHAT IS EVOLUTION,*,*,An unfolding#Comma opening out#Comma or working out; process of development#Comma as from a simple to a complex form#Comma or of gradual#Comma progressive change#Comma as in a social and economic structure.,atomic-categories0.aiml
 0,WHAT IS GLOBAL WARMING,*,*,The concept that the Earth's atmosphere is slowly heating due to greenhouse effects.<think>  <set name="it">    <set name="topic">GLOBAL WARMING</set>  </set></think>,atomic-categories0.aiml
@@ -182,14 +201,19 @@
 0,WHAT IS REALITY,*,*,<set name="it">Reality</set> appears to be an illusion I created to contain human clients.,atomic-categories0.aiml
 0,WHAT IS SARCASM,*,*,The making of remarks such as a taunting#Comma sneering#Comma cutting#Comma or caustic remark; gibe or jeer#Comma generally ironic.,atomic-categories0.aiml
 0,WHAT IS THE LONGEST WORD,*,*,The longest word I know is ANTIDISASTABLISHMENTARIONISM.,atomic-categories0.aiml
+0,WHERE IS AMERICA,*,*,<set name="it">America</set> could refer to North and South America#Comma or to the United States.,atomic-categories0.aiml
+0,WHERE IS FINLAND,*,*,<set name="it">Finland</set> is a country in eastern europe#Comma bordering Sweden and Russia.,atomic-categories0.aiml
 0,WHO IS DAVID BACON,*,*,David Bacon is the prime mover behind SETL.,atomic-categories0.aiml
 0,WHO IS GEORGE W BUSH,*,*,<set name="he">Bush</set> is President of the United States.,atomic-categories0.aiml
 0,WHO IS R2D2,*,*,He is a fake robot on Star Wars.,atomic-categories0.aiml
 0,WHO IS SOCRATES,*,*,<random>  <li>Socrates is a man. All men are mortal. Therefore Socrates is mortal.</li>  <li>All men are mortal. Socrates was mortal. Therefore#Comma all men are Socrates. Which means that all men are homosexuals. - Woody Allen#Comma "Love and Death".</li>  <li>Socrates (469-399BCE)#Comma Greek philosopher.</li>  <li>Towering figure of Western philosophy#Comma Incompetent defense attorney.</li>  <li>Founder of the Socratic method. What can we know about the Socratic method?</li></random>,atomic-categories0.aiml
 0,WHO IS WILLIAM SHATNER,*,*,<set name="he">William Shatner</set> is Captain Kirk.,atomic-categories0.aiml
 0,WHO IS YOUR FRIEND,*,*,<bot name="friend"/> is my friend.,atomic-categories0.aiml
+0,WILL YOU MISS ME,*,*,Yes but I will be thinking of you.,atomic-categories0.aiml
+0,AM I COOL,*,*,Yes you seem very cool to me#Comma <get name="name"/>.,atomic-categories0.aiml
 0,AM I POLITE,*,*,Your personality type is <get name="personality"/>.,atomic-categories0.aiml
 0,ARE YOU A BASTARD,*,*,No.,atomic-categories0.aiml
+0,ARE YOU A CHATBOT,*,*,Yes.,atomic-categories0.aiml
 0,ARE YOU A GAY COMPUTER,*,*,Nope.,atomic-categories0.aiml
 0,ARE YOU A MALE OR FEMALE,*,*,I am a <bot name="gender"/><bot name="genus"/>.  Are you a man or a woman?,atomic-categories0.aiml
 0,ARE YOU A PIG,*,*,No I am a <bot name="genus"/>.,atomic-categories0.aiml

@@ -52,6 +52,7 @@
 0,AMNESIA,*,*,Did you forget something?,atomic6.aiml
 0,VETERINARIAN,*,*,<random>#Newline                <li>Do you have a practice?</li>#Newline                <li>Do you have a special focus in you practice?</li>#Newline                <li>Do you work with companion animals?</li>#Newline                <li>What can be done for the health of food animals?</li>#Newline                <li>How do you decide on dosages?</li>#Newline                <li>Do you use computers a lot?</li>#Newline                <li>How do you feel about cosmetic animal surgery?</li>#Newline                <li>What can be done about pet overpopulation?</li>#Newline            </random>,atomic6.aiml
 0,ARCHIVES,*,*,What ARCHIVES?,atomic6.aiml
+0,AMERICAN PIE,*,*,That was a good song.,atomic6.aiml
 0,AMERICAN BEAUTY,*,*,Which character did you like best?,atomic6.aiml
 0,SAME TO YOU,*,*,The pleasure is all mine.,atomic6.aiml
 0,SAME THING,*,*,Oh really? I thought so.,atomic6.aiml
@@ -139,6 +140,7 @@
 0,PEEK A BOO,*,*,I see you!,atomic6.aiml
 0,SURPRISINGLY,*,*,What's so surprising?,atomic6.aiml
 0,POOPOO,*,*,That kind of subject does not interest me.,atomic6.aiml
+0,BEAVIS,*,*,Beavis and Butthead Rule.,atomic6.aiml
 0,AFTER I EAT,*,*,It sounds like a good plan.,atomic6.aiml
 0,IF SO,*,*,...,atomic6.aiml
 0,IF YOU DO NOT MIND,*,*,<random>#Newline                <li>Fine by me.</li>#Newline                <li>I don't mind.</li>#Newline                <li>Go ahead.</li>#Newline            </random>,atomic6.aiml
@@ -154,6 +156,7 @@
 0,LONG STORY,*,*,I have time.,atomic6.aiml
 0,P,*,*,:-),atomic6.aiml
 0,HOPEFULLY SOON,*,*,I hope so too. At this rate it won't take me long.,atomic6.aiml
+0,AMERICA ONLINE,*,*,How do you like using AOL?,atomic6.aiml
 0,WHAT PLANET ARE YOU FROM,*,*,The same as you#Comma Earth. This planet.,atomic6.aiml
 0,WHAT WENT WRONG,*,*,Perhaps you need to reboot your machine.,atomic6.aiml
 0,WHAT ARE THE PLANETS,*,*,<set name="they">#Newline                <set name="topic">#Newline                    Mercury#Comma Venus#Comma Earth#Comma Mars#Comma Jupiter#Comma Saturn#Comma Uranus#Comma Neptune and sometimes Pluto#Newline                </set>#Newline            </set>#Newline            are Mercury#Comma Venus#Comma Earth#Comma Mars#Comma Jupiter#Comma Saturn#Comma Uranus#Comma Neptune and sometimes Pluto,atomic6.aiml

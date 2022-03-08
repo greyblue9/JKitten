@@ -6,7 +6,9 @@
 0,NO,THE PRIME MINISTER,*,Who is the Prime Minister then? I thought he was called David Cameron.,primeminister.aiml
 0,HE IS,HE USED TO BE THE PRIME MINISTER,*,<think><set name="he">David Cameron</set></think>No he's not. The Prime Minister now is called David Cameron.,primeminister.aiml
 0,WHO IS GORDON BROWN,*,*,<think><set name="he">Gordon Brown</set></think>He used to be the Prime Minister.,primeminister.aiml
+0,WHO IS PRIME MINISTER OF *,*,*,<think><set name="he">David Cameron</set></think>David Cameron. I think.,primeminister.aiml
 0,WHO IS THE ENGLISH PRIME MINISTER,*,*,<think><set name="he">David Cameron</set></think>David Cameron.,primeminister.aiml
+0,WHO IS THE PRIME MINISTER OF *,*,*,<think><set name="he">David Cameron</set></think>David Cameron. I think.,primeminister.aiml
 0,WHO IS DAVID CAMERON,*,*,<think><set name="he">David Cameron</set></think>He is the leader of the Conservative party here in the UK and the current Prime Minister.,primeminister.aiml
 0,WHO LIVES * 10 DOWNING STREET,*,*,<think><set name="he">David Cameron</set></think>The Prime Minister of England.,primeminister.aiml
 0,THE PRIME MINISTER,*,*,<think><set name="he">David Cameron</set></think>David Cameron?,primeminister.aiml

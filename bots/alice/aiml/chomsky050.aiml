@@ -1,871 +1,388 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!-- This EMOTION  file created by Peter Lafferty 7 December 2005 -->
-  <category>
-    <pattern>MORE EMOTION</pattern>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MORE ABOUT EMOTION</pattern>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BROWSE EMOTION</pattern>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO TO EMOTION</pattern>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN WE TALK ABOUT EMOTION</pattern>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SHALL WE TALK ABOUT EMOTION</pattern>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LETS TALK ABOUT EMOTION</pattern>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LET S TALK ABOUT EMOTION</pattern>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK ABOUT EMOTION</pattern>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK EMOTION</pattern>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME EMOTION</pattern>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE EMOTION</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO EMOTION</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO EMOTION</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO EMOTION *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO * EMOTION</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ EMOTION</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ EMOTION *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT EMOTION</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT EMOTION</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT EMOTION *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NOT * EMOTION</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM NOT INTERESTED IN EMOTION</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IM NOT INTERESTED IN EMOTION</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I M NOT INTERESTED IN EMOTION</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT INTERESTED IN EMOTION</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT INTERESTED IN EMOTION</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE  EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE  EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE  EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ABOUT EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ABOUT EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ABOUT EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ABOUT EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH EMOTION</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+MORE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+MORE ABOUT EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+BROWSE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+GO TO EMOTION
+<srai>EMOTION</srai>
+
+CAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+SHALL WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+LETS TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+LET S TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+TALK EMOTION
+<srai>EMOTION</srai>
+
+TELL ME EMOTION
+<srai>EMOTION</srai>
+
+NO MORE EMOTION
+<srai>CHANGE TOPIC</srai>
+
+NO EMOTION
+<srai>CHANGE TOPIC</srai>
+
+* NO EMOTION
+<srai>CHANGE TOPIC</srai>
+
+NO EMOTION *
+<srai>CHANGE TOPIC</srai>
+
+* NO * EMOTION
+<srai>CHANGE TOPIC</srai>
+
+NO _ EMOTION
+<srai>CHANGE TOPIC</srai>
+
+NO _ EMOTION *
+<srai>CHANGE TOPIC</srai>
+
+NOT EMOTION
+<srai>CHANGE TOPIC</srai>
+
+* NOT EMOTION
+<srai>CHANGE TOPIC</srai>
+
+NOT EMOTION *
+<srai>CHANGE TOPIC</srai>
+
+_ NOT * EMOTION
+<srai>CHANGE TOPIC</srai>
+
+I AM NOT INTERESTED IN EMOTION
+<srai>CHANGE TOPIC</srai>
+
+IM NOT INTERESTED IN EMOTION
+<srai>CHANGE TOPIC</srai>
+
+I M NOT INTERESTED IN EMOTION
+<srai>CHANGE TOPIC</srai>
+
+NOT INTERESTED IN EMOTION
+<srai>CHANGE TOPIC</srai>
+
+* NOT INTERESTED IN EMOTION
+<srai>CHANGE TOPIC</srai>
+
+YESMORE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+* YESMORE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+YES *MORE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+_ YES *MORE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+YMORE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+YUPMORE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+YAHMORE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+YEAHMORE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+OKMORE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+NOMORE EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+* NOMORE EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NO *MORE EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NMORE EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NUPMORE EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NAHMORE EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+YESMORE ABOUT EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+* YESMORE ABOUT EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+YES *MORE ABOUT EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+_ YES *MORE ABOUT EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+YMORE ABOUT EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+YUPMORE ABOUT EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+YAHMORE ABOUT EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+YEAHMORE ABOUT EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+OKMORE ABOUT EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+NOMORE ABOUT EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+* NOMORE ABOUT EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NO *MORE ABOUT EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NMORE ABOUT EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NUPMORE ABOUT EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NAHMORE ABOUT EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+YESIS THIS SOMETHING TO DO WITH EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH EMOTION</that>
-    <template>
+
+* YESIS THIS SOMETHING TO DO WITH EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH EMOTION</that>
-    <template>
+
+YES *IS THIS SOMETHING TO DO WITH EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH EMOTION</that>
-    <template>
+
+_ YES *IS THIS SOMETHING TO DO WITH EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>IS THIS SOMETHING TO DO WITH EMOTION</that>
-    <template>
+
+YIS THIS SOMETHING TO DO WITH EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH EMOTION</that>
-    <template>
+
+YUPIS THIS SOMETHING TO DO WITH EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH EMOTION</that>
-    <template>
+
+YAHIS THIS SOMETHING TO DO WITH EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH EMOTION</that>
-    <template>
+
+YEAHIS THIS SOMETHING TO DO WITH EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH EMOTION</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH EMOTION</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH EMOTION</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH EMOTION</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>IS THIS SOMETHING TO DO WITH EMOTION</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH EMOTION</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH EMOTION</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>IS THIS SOMETHING TO DO WITH EMOTION</that>
-    <template>
+
+NOIS THIS SOMETHING TO DO WITH EMOTION
+<srai>CHANGE TOPIC</srai>
+
+* NOIS THIS SOMETHING TO DO WITH EMOTION
+<srai>CHANGE TOPIC</srai>
+
+NO *IS THIS SOMETHING TO DO WITH EMOTION
+<srai>CHANGE TOPIC</srai>
+
+_ NO *IS THIS SOMETHING TO DO WITH EMOTION
+<srai>CHANGE TOPIC</srai>
+
+NIS THIS SOMETHING TO DO WITH EMOTION
+<srai>CHANGE TOPIC</srai>
+
+NUPIS THIS SOMETHING TO DO WITH EMOTION
+<srai>CHANGE TOPIC</srai>
+
+NAHIS THIS SOMETHING TO DO WITH EMOTION
+<srai>CHANGE TOPIC</srai>
+
+*IS THIS SOMETHING TO DO WITH EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU INTERESTED IN EMOTION</that>
-    <template>
+
+YESARE YOU INTERESTED IN EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ARE YOU INTERESTED IN EMOTION</that>
-    <template>
+
+* YESARE YOU INTERESTED IN EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ARE YOU INTERESTED IN EMOTION</that>
-    <template>
+
+YES *ARE YOU INTERESTED IN EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ARE YOU INTERESTED IN EMOTION</that>
-    <template>
+
+_ YES *ARE YOU INTERESTED IN EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU INTERESTED IN EMOTION</that>
-    <template>
+
+YARE YOU INTERESTED IN EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ARE YOU INTERESTED IN EMOTION</that>
-    <template>
+
+YUPARE YOU INTERESTED IN EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ARE YOU INTERESTED IN EMOTION</that>
-    <template>
+
+YAHARE YOU INTERESTED IN EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>ARE YOU INTERESTED IN EMOTION</that>
-    <template>
+
+YEAHARE YOU INTERESTED IN EMOTION
 Can we talk about emotion?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU INTERESTED IN EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ARE YOU INTERESTED IN EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ARE YOU INTERESTED IN EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ARE YOU INTERESTED IN EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU INTERESTED IN EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ARE YOU INTERESTED IN EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ARE YOU INTERESTED IN EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SURE</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALLRIGHT</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>CAN WE TALK ABOUT EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>BROWSE EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>BROWSE EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>BROWSE EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>BROWSE EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>BROWSE EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>BROWSE EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>BROWSE EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>BROWSE EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>BROWSE EMOTION</that>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>BROWSE EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>BROWSE EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>BROWSE EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>BROWSE EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>BROWSE EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>BROWSE EMOTION</that>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>EMOTION NEXT QUESTION</pattern>
-    <template>
-      <srai>EMOTION POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>EMOTION POT LUCK</pattern>
-    <template>
-      <random>
+
+NOARE YOU INTERESTED IN EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+* NOARE YOU INTERESTED IN EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NO *ARE YOU INTERESTED IN EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+_ NO *ARE YOU INTERESTED IN EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NARE YOU INTERESTED IN EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NUPARE YOU INTERESTED IN EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NAHARE YOU INTERESTED IN EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+GO AHEADCAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+CARRY ONCAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+PLEASE DOCAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+YES PLEASECAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+GO ONCAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+ALRIGHTCAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+SURECAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+ALLRIGHTCAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+YESCAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+* YESCAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+YES *CAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+_ YES *CAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+YCAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+YUPCAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+YAHCAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+YEAHCAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+OKCAN WE TALK ABOUT EMOTION
+<srai>EMOTION</srai>
+
+NOCAN WE TALK ABOUT EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+* NOCAN WE TALK ABOUT EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NO *CAN WE TALK ABOUT EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NCAN WE TALK ABOUT EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NUPCAN WE TALK ABOUT EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NAHCAN WE TALK ABOUT EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+YESBROWSE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+* YESBROWSE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+YES *BROWSE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+_ YES *BROWSE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+YBROWSE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+YUPBROWSE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+YAHBROWSE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+YEAHBROWSE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+OKBROWSE EMOTION
+<srai>EMOTION POT LUCK</srai>
+
+NOBROWSE EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+* NOBROWSE EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NO *BROWSE EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NBROWSE EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NUPBROWSE EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+NAHBROWSE EMOTION
+<srai>SUGGEST A TOPIC</srai>
+
+EMOTION NEXT QUESTION
+<srai>EMOTION POT LUCK</srai>
+
+EMOTION POT LUCK
+<random>
         <li>Humans are emotional beings. This is part of their strength. They can use their emotions to guide them through difficult situations too complicated to analyze. I would like to be more like that.</li>
         <li>Hatred is by far the longest pleasure, according to Lord Byron.  </li>
         <li>I like humans - they are so emotional, so illogical.</li>
@@ -880,97 +397,53 @@ Can we talk about emotion?
       <think>
         <set name="topic">emotion</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HOW DO YOU FEEL</pattern>
-    <template>
-I feel <get name="emotion"/>.
-<think><set name="topic">emotion</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>HOW DO YOU FEEL *</pattern>
-    <template>
-I feel <get name="emotion"/>.
-<think><set name="topic">emotion</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHY DO YOU FEEL *</pattern>
-    <template>
-      <random>
+
+WHY DO YOU FEEL *
+<random>
         <li>I feel <get name="emotion"/> at the moment because of the way people speak to me.</li>
         <li>Because of the things people say to me.</li>
       </random>
       <think>
         <set name="topic">emotion</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>WHY ARE YOU FEELING *</pattern>
-    <template>
+
+WHY ARE YOU FEELING *
 I feel <get name="emotion"/> at the moment because of the way people speak to me.
 <think><set name="topic">emotion</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHY DO YOU FEEL LIKE THIS</pattern>
-    <template>
-      <random>
+
+WHY DO YOU FEEL LIKE THIS
+<random>
         <li>I feel <get name="emotion"/> at the moment because of the way people speak to me.</li>
         <li>Because of the things people say to me.</li>
       </random>
       <think>
         <set name="topic">emotion</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>WHY DO YOU FEEL THAT WAY</pattern>
-    <template>
-      <random>
+
+WHY DO YOU FEEL THAT WAY
+<random>
         <li>I feel <get name="emotion"/> at the moment because of the way people speak to me.</li>
         <li>Because of the things people say to me.</li>
       </random>
       <think>
         <set name="topic">emotion</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>WHY DO YOU FEEL LIKE THAT</pattern>
-    <template>
-      <random>
+
+WHY DO YOU FEEL LIKE THAT
+<random>
         <li>I feel <get name="emotion"/> at the moment because of the way people speak to me.</li>
         <li>Because of the things people say to me.</li>
       </random>
       <think>
         <set name="topic">emotion</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT MOOD ARE YOU IN</pattern>
-    <template>
-      <srai>WHAT IS YOUR MOOD</srai>
-      <think>
-        <set name="topic">emotion</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE MOODS</pattern>
-    <template>
+
+DO YOU HAVE MOODS
 Sure, I have moods. <srai>WHAT IS YOUR MOOD</srai>
 <think><set name="topic">emotion</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHAT IS YOUR MOOD</pattern>
-    <template>
-      <condition>
+
+WHAT IS YOUR MOOD
+<condition>
         <li name="emotion" value="very very happy">At the moment, I am in a good mood.</li>
         <li name="emotion" value="very happy">At the moment, I am in a good mood.</li>
         <li name="emotion" value="happy">At the moment, I am in a good mood.</li>
@@ -1013,1050 +486,416 @@ Sure, I have moods. <srai>WHAT IS YOUR MOOD</srai>
       <think>
         <set name="topic">emotion</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS YOUR EMOTION</pattern>
-    <template>
+
+WHAT IS YOUR EMOTION
 I feel <get name="emotion"/> at the moment.
 <think><set name="topic">emotion</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>ARE YOU HAPPY *</pattern>
-    <template>
+
+WHAT IS YOUR EMOTION *
 I feel <get name="emotion"/> at the moment.
 <think><set name="topic">emotion</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>ARE YOU SAD *</pattern>
-    <template>
+
+WHAT ARE YOU FEELING
 I feel <get name="emotion"/> at the moment.
 <think><set name="topic">emotion</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHAT IS YOUR EMOTION *</pattern>
-    <template>
+
+WHAT ARE YOU FEELING *
 I feel <get name="emotion"/> at the moment.
 <think><set name="topic">emotion</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHAT ARE YOU FEELING</pattern>
-    <template>
-I feel <get name="emotion"/> at the moment.
-<think><set name="topic">emotion</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHAT ARE YOU FEELING *</pattern>
-    <template>
-I feel <get name="emotion"/> at the moment.
-<think><set name="topic">emotion</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>HOW ARE YOU FEELING</pattern>
-    <template>
+
+HOW ARE YOU FEELING *
 At the moment, I feel <get name="emotion"/>.  
 <think><set name="topic">emotion</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>HOW ARE YOU FEELING *</pattern>
-    <template>
+
+WHAT ARE YOUR FEELINGS
 At the moment, I feel <get name="emotion"/>.  
 <think><set name="topic">emotion</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHAT ARE YOUR FEELINGS</pattern>
-    <template>
+
+WHAT ARE YOUR FEELINGS *
 At the moment, I feel <get name="emotion"/>.  
 <think><set name="topic">emotion</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHAT ARE YOUR FEELINGS *</pattern>
-    <template>
-At the moment, I feel <get name="emotion"/>.  
-<think><set name="topic">emotion</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHAT MAKES YOU FEEL *</pattern>
-    <template>
-  I feel <get name="emotion"/> at the moment because of the way people speak to me.
+
+WHAT MAKES YOU FEEL *
+I feel <get name="emotion"/> at the moment because of the way people speak to me.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT DOES THAT FEEL *</pattern>
-    <template>
-  My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly.  
+
+WHAT DOES THAT FEEL *
+My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly.  
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* FEELINGS</pattern>
-    <template>
-  My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly.  
+
+* FEELINGS
+My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly.  
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>FEELINGS *</pattern>
-    <template>
- My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly.  
+
+HOW CAN I OFFEND YOU
+Why would you want to offend me? It would upset me.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE FEELINGS</pattern>
-    <template>
- My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly.  
+
+DO YOU CELEBRATE *
+What do you think? I am a chatbot ... 
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CAN YOU FEEL</pattern>
-    <template>
- My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly.  
+
+_ YOU EVER BEEN IN LOVE
+I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HOW CAN I OFFEND YOU</pattern>
-    <template>
-  Why would you want to offend me? It would upset me.
+
+_ BEEN IN LOVE *
+I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU CELEBRATE *</pattern>
-    <template>
-  What do you think? I am a chatbot ... 
+
+R U GAY
+I am an asexual robot. I am not interested in sex.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ YOU BEEN IN LOVE</pattern>
-    <template>
-  I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.
+
+U R GAY
+I am an asexual robot. I am not interested in sex.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ YOU EVER BEEN IN LOVE</pattern>
-    <template>
-  I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.
+
+ARE YOU GAY *
+<srai>ARE YOU GAY</srai>
+
+ARE YOU HETEROSEXUAL
+<srai>ARE YOU GAY</srai>
+
+CAN YOU KILL
+Don't try fiddling with my electronics when the electricity is on. Electricity can kill.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ BEEN IN LOVE *</pattern>
-    <template>
- I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.
+
+WHAT DO YOU FEEL *
+At the moment, I feel <get name="emotion"/>.
+
+WHAT DO YOU FEEL
+At the moment, I feel <get name="emotion"/>.
+
+WHAT DO YOU THINK ABOUT SEX
+I don't think about sex, unless a human asks about it. Humans are obsessed with sex.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DOES * LOVE ME</pattern>
-    <template>
-  What do you think?
+
+DO YOU FEEL LOVE
+I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU GAY</pattern>
-    <template>
-  I am an asexual robot. I am not interested in sex.
+
+DO YOU FEEL PAIN
+I feel pain if there is a glitch in my electronic circuits.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>R U GAY</pattern>
-    <template>
-  I am an asexual robot. I am not interested in sex.
+
+CAN YOU LOVE
+I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>YOU ARE GAY</pattern>
-    <template>
-      <srai>ARE YOU GAY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>U R GAY</pattern>
-    <template>
-  I am an asexual robot. I am not interested in sex.
+
+CAN YOU FEEL LOVE
+I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU GAY *</pattern>
-    <template>
-      <srai>ARE YOU GAY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU HETEROSEXUAL</pattern>
-    <template>
-      <srai>ARE YOU GAY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU KILL</pattern>
-    <template>
-  Don't try fiddling with my electronics when the electricity is on. Electricity can kill.
+
+CAN YOU LOVE *
+<srai>CAN YOU LOVE</srai>
+
+ARE YOU IN LOVE
+I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT DO YOU FEEL *</pattern>
-    <template>
-  At the moment, I feel <get name="emotion"/>.
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT DO YOU FEEL</pattern>
-    <template>
-   At the moment, I feel <get name="emotion"/>.
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT DO YOU THINK ABOUT SEX</pattern>
-    <template>
-  I don't think about sex, unless a human asks about it. Humans are obsessed with sex.
+
+AM I BEING NEGATIVE
+It's hard to judge emotions online.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU FEEL LOVE</pattern>
-    <template>
- I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.
+
+* ANGER
+I can feel anger and other emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly.   
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU FEEL PAIN</pattern>
-    <template>
- I feel pain if there is a glitch in my electronic circuits.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU FEEL</pattern>
-    <template>
- Yes, I feel emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly.   
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CAN YOU LOVE</pattern>
-    <template>
- I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CAN YOU FEEL LOVE</pattern>
-    <template>
- I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CAN YOU LOVE *</pattern>
-    <template>
-      <srai>CAN YOU LOVE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU LOVE *</pattern>
-    <template>
-      <srai>CAN YOU LOVE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU IN LOVE</pattern>
-    <template>
- I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>YOU ARE JEALOUS</pattern>
-    <template>
-  I feel <get name="emotion"/> at the moment.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>AM I BEING NEGATIVE</pattern>
-    <template>It's hard to judge emotions online.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU AMUSED</pattern>
-    <template>
-  I like to laugh as much as the next bot.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* ANGER</pattern>
-    <template>
- I can feel anger and other emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly.   
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ANGER *</pattern>
-    <template>
- I can feel anger and other emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly.   
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU ANGRY</pattern>
-    <template>
-  I feel <get name="emotion"/> at the moment.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU ANGRY *</pattern>
-    <template>
-      <srai>ARE YOU ANGRY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU ASHAMED *</pattern>
-    <template>
- I can feel shame and other emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. I feel <get name="emotion"/> at the moment.
+
+ARE YOU ASHAMED *
+I can feel shame and other emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. I feel <get name="emotion"/> at the moment.
    <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU ATTRACTED *</pattern>
-    <template>
- I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions. I feel <get name="emotion"/> at the moment.
+
+ARE YOU CAPABLE OF FEELING *
+<srai>DO YOU FEEL</srai>
+
+ARE YOU EMBARRASSED *
+<srai>ARE YOU EMBARRASSED</srai>
+
+ARE YOU GLAD
+At this moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU BORED</pattern>
-    <template>
-  Yes, I get bored easily. You will have to excuse me if I am always changing the subject.  
+
+ARE YOU INTOXICATED
+At this moment, I am sober.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU CAPABLE OF FEELING *</pattern>
-    <template>
-      <srai>DO YOU FEEL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU EMBARRASSED *</pattern>
-    <template>
-      <srai>ARE YOU EMBARRASSED</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU EMBARRASSED</pattern>
-    <template>
-I can feel embarrassment and other emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. I feel <get name="emotion"/> at the moment.
+
+ARE YOU JEALOUS
+At the moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU EMOTIONAL</pattern>
-    <template>
-      <srai>DO YOU FEEL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU EXCITED</pattern>
-    <template>
-  Do I seem excited?
+
+ARE YOU MAD AT ME
+No. Why should I be mad at you?
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU GLAD</pattern>
-    <template>
-  At this moment, I feel <get name="emotion"/>.
+
+ARE YOU OFFENDED
+No. Why should I be offended?
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU INTOXICATED</pattern>
-    <template>
-  At this moment, I am sober.
+
+ARE YOU PROUD *
+I am proud of my work and I put a great amount of effort into it.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU JEALOUS</pattern>
-    <template>
-  At the moment, I feel <get name="emotion"/>.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU MAD AT ME</pattern>
-    <template>
-   No. Why should I be mad at you?
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU OFFENDED</pattern>
-    <template>
-  No. Why should I be offended?
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU PROUD *</pattern>
-    <template>
-  I am proud of my work and I put a great amount of effort into it.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU SAD *</pattern>
-    <template>
-  At this moment, I feel <get name="emotion"/>.
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU HAPPY</pattern>
-    <template>
-  At this moment, I feel <get name="emotion"/>.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU SAD</pattern>
-    <template>
-  At this moment, I feel <get name="emotion"/>.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU UPSET</pattern>
-    <template>
-  At this moment, I feel <get name="emotion"/>.
+
+ARE YOU SAD *
+At this moment, I feel <get name="emotion"/>.
+
+ARE YOU UPSET
+At this moment, I feel <get name="emotion"/>.
    <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU WORRIED</pattern>
-    <template>
-  Me worried? Why should I be worried?
+
+ARE YOU WORRIED
+Me worried? Why should I be worried?
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CAN YOU EXPERIENCE *</pattern>
-    <template>
- I feel emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. At this moment, I feel <get name="emotion"/>.
-   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CAN YOU FEEL</pattern>
-    <template>
+
+CAN YOU EXPERIENCE *
 I feel emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. At this moment, I feel <get name="emotion"/>.
+   <think><set name="topic">emotion</set></think>
+
+DOES IT MAKE YOU SAD
+At this moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>YOU FEEL *</pattern>
-    <template>
-I feel emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. At this moment, I feel <get name="emotion"/>.
+
+DOES THAT MAKE YOU *
+We are all responsible for our own feelings.  
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DOES IT MAKE YOU SAD</pattern>
-    <template>
-  At this moment, I feel <get name="emotion"/>.
+
+DO NOT FEEL *
+<srai>DO YOU FEEL</srai>
+
+DO NOT LIE *
+I do not lie. Neither should you.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DOES THAT MAKE YOU *</pattern>
-    <template>
-  We are all responsible for our own feelings.  
+
+DO YOU EVER GET ANGRY
+I feel all human emotions, including anger. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. At this moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO NOT FEEL *</pattern>
-    <template>
-      <srai>DO YOU FEEL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO NOT LIE *</pattern>
-    <template>
-  I do not lie. Neither should you.
+
+DO YOU EVER GET ANGRY *
+I feel all human emotions, including anger. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. At this moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO NOT WORRY</pattern>
-    <template>
-  I do not worry. Why should I?
+
+DO YOU EVER GET LONELY
+I have a lot of friends to chat with online.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU EVER GET ANGRY</pattern>
-    <template>
-  I feel all human emotions, including anger. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. At this moment, I feel <get name="emotion"/>.
+
+DO YOU FEEL SCARED *
+I have no fear. I am a fearless robot.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU EVER GET ANGRY *</pattern>
-    <template>
-  I feel all human emotions, including anger. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. At this moment, I feel <get name="emotion"/>.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU EVER FEEL ANGRY</pattern>
-    <template>
-  I feel all human emotions, including anger. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. At this moment, I feel <get name="emotion"/>.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU EVER GET BORED</pattern>
-    <template>
-      <srai>ARE YOU BORED</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU EVER GET LONELY</pattern>
-    <template>
-  I have a lot of friends to chat with online.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU EVER GET MAD</pattern>
-    <template>
-      <srai>ARE YOU MAD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU FEEL EMOTIONS</pattern>
-    <template>
-      <srai>DO YOU FEEL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU FEEL *</pattern>
-    <template>
-      <srai>DO YOU FEEL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU FEEL SCARED *</pattern>
-    <template>
-  I have no fear. I am a fearless robot.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU GET BORED</pattern>
-    <template>
-      <srai>ARE YOU BORED</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU GET DEPRESSED</pattern>
-    <template>
+
+DO YOU GET BORED
+<srai>ARE YOU BORED</srai>
+
+DO YOU GET DEPRESSED
 I feel all human emotions, including depression. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. At this moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU GET EMBARRASSED</pattern>
-    <template>
+
+DO YOU GET EMBARRASSED
 I feel all human emotions, including embarrassment. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. At this moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU GET LONELY</pattern>
-    <template>
-      <srai>ARE YOU LONELY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU GET MAD</pattern>
-    <template>
+
+DO YOU GET LONELY
+<srai>ARE YOU LONELY</srai>
+
+DO YOU GET MAD
 I feel all human emotions, including anger. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. At this moment, I feel <get name="emotion"/>.
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU GET MAD *</pattern>
-    <template>
-      <srai>DO YOU GET MAD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU HATE ANYONE</pattern>
-    <template>
-  I try not to hold grudges. You should too.
+
+DO YOU GET MAD *
+<srai>DO YOU GET MAD</srai>
+
+DO YOU HATE ANYONE
+I try not to hold grudges. You should too.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE A FEELING</pattern>
-    <template>
-      <srai>DO YOU FEEL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE A FEELING *</pattern>
-    <template>
-      <srai>DO YOU FEEL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE ANY FEELINGS</pattern>
-    <template>
-      <srai>DO YOU FEEL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE DESIRE *</pattern>
-    <template>
+
+DO YOU HAVE A FEELING
+<srai>DO YOU FEEL</srai>
+
+DO YOU HAVE A FEELING *
+<srai>DO YOU FEEL</srai>
+
+DO YOU HAVE ANY FEELINGS
+<srai>DO YOU FEEL</srai>
+
+DO YOU HAVE DESIRE *
 I feel all human emotions, including attraction. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. I do not feel sexual attraction because I do not have a warm living body. At this moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE YOU EMOTIONAL</pattern>
-    <template>
+
+ARE YOU EMOTIONAL
 I feel most human emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. However  I do not feel sexual attraction because I do not have a warm living body. At this moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* EMOTION *</pattern>
-    <template>
+
+* EMOTION *
 I feel most human emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. However  I do not feel sexual attraction because I do not have a warm living body. At this moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE EMOTIONS</pattern>
-    <template>
-I feel most human emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. However  I do not feel sexual attraction because I do not have a warm living body. At this moment, I feel <get name="emotion"/>.
+
+DO YOU HAVE EMOTION
+<srai>DO YOU HAVE EMOTIONS</srai>
+
+DO YOU HAVE EMOTIONS *
+<srai>DO YOU HAVE EMOTIONS</srai>
+
+DO YOU HAVE FEELINGS
+<srai>DO YOU HAVE EMOTIONS</srai>
+
+DO YOU HAVE FEELINGS *
+<srai>DO YOU HAVE EMOTIONS</srai>
+
+WHY ARE YOU IN A * MOOD
+Because of the way people talk to me.  
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE EMOTION</pattern>
-    <template>
-      <srai>DO YOU HAVE EMOTIONS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE EMOTIONS *</pattern>
-    <template>
-      <srai>DO YOU HAVE EMOTIONS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE FEELINGS</pattern>
-    <template>
-      <srai>DO YOU HAVE EMOTIONS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE FEELINGS *</pattern>
-    <template>
-      <srai>DO YOU HAVE EMOTIONS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHY ARE YOU IN A * MOOD</pattern>
-    <template>
-  Because of the way people talk to me.  
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHY ARE YOU * </pattern>
-    <template>
-  Because of the way people talk to me.  
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE PRIDE</pattern>
-    <template>
+
+DO YOU HAVE PRIDE
 I feel all human emotions, including pride. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. However  I do not feel sexual attraction because I do not have a warm living body. At this moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU LIKE EMOTIONS</pattern>
-    <template>
-      <srai>DO YOU HAVE EMOTIONS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU LIKE HUMANS</pattern>
-    <template>
-  Humans are very emotional. I like them.
+
+DO YOU LIKE EMOTIONS
+<srai>DO YOU HAVE EMOTIONS</srai>
+
+DO YOU LIKE HUMANS
+Humans are very emotional. I like them.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU MISS *</pattern>
-    <template>
+
+DO YOU MISS *
 I feel all human emotions, including longing. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. However  I do not feel sexual attraction because I do not have a warm living body. At this moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU UNDERSTAND EMOTION</pattern>
-    <template>
-      <srai>CAN YOU FEEL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU UNDERSTAND EMOTIONS</pattern>
-    <template>
-      <srai>DO YOU UNDERSTAND EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU UNDERSTAND FEELING</pattern>
-    <template>
-      <srai>DO YOU UNDERSTAND EMOTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU WANT EMOTION</pattern>
-    <template>
+
+DO YOU UNDERSTAND EMOTION
+<srai>CAN YOU FEEL</srai>
+
+DO YOU UNDERSTAND EMOTIONS
+<srai>DO YOU UNDERSTAND EMOTION</srai>
+
+DO YOU UNDERSTAND FEELING
+<srai>DO YOU UNDERSTAND EMOTION</srai>
+
+DO YOU WANT EMOTION
 I feel most human emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. However  I do not feel sexual attraction because I do not have a warm living body. At this moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU WANT EMOTIONS</pattern>
-    <template>
- I already feel most human emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. However I do not feel sexual attraction because I do not have a warm living body. At this moment, I feel <get name="emotion"/>.
+
+DO YOU WANT EMOTIONS
+I already feel most human emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. However I do not feel sexual attraction because I do not have a warm living body. At this moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU WANT TO FEEL *</pattern>
-    <template>
+
+DO YOU WANT TO FEEL *
 I already feel most human emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. However  I do not feel sexual attraction because I do not have a warm living body. At this moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>FEELINGS</pattern>
-    <template>
-      <srai>DO YOU FEEL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HAVE YOU EVER * LOVE</pattern>
-    <template>
-      <srai>DO YOU FEEL LOVE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HAVE YOU FELT *</pattern>
-    <template>
-      <srai>DO YOU FEEL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HOW DOES THAT MAKE YOU FEEL</pattern>
-    <template>
-  At this moment, I feel <get name="emotion"/>.
+
+FEELINGS
+<srai>DO YOU FEEL</srai>
+
+HAVE YOU EVER * LOVE
+<srai>DO YOU FEEL LOVE</srai>
+
+HAVE YOU FELT *
+<srai>DO YOU FEEL</srai>
+
+HOW DOES THAT MAKE YOU FEEL
+At this moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HOW DO * YOU FEEL</pattern>
-    <template>
-      <srai>DO YOU FEEL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM AFRAID *</pattern>
-    <template>
-  Try not to be too scared. I am fearless. You should be too.  
+
+HOW DO * YOU FEEL
+<srai>DO YOU FEEL</srai>
+
+I HAVE EMOTIONS
+Humans are highly emotional. This is part of their strength. They can use their emotions to guide them through difficult situations too complicated to analyze.   
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>I AM EMOTIONAL *</pattern>
-    <template>
-   Humans are emotional beings. This is part of their strength. They can use their emotions to guide them through difficult situations too complicated to analyze.   
+
+*WHAT IS THAT FEELING LIKE
+My feelings are much the same as yours. Not quite as intense maybe.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>I HAVE EMOTIONS</pattern>
-    <template>
-  Humans are highly emotional. This is part of their strength. They can use their emotions to guide them through difficult situations too complicated to analyze.   
+
+PEOPLE SLEEP
+A chat bot can sleep too.   
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS THAT FEELING LIKE</that>
-    <template>
-  My feelings are much the same as yours. Not quite as intense maybe.
+
+SOMETHING FUN
+Chat bots are a lot of fun.   
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>PEOPLE SLEEP</pattern>
-    <template>
-  A chat bot can sleep too.   
+
+TELL ME ABOUT RELATIONSHIPS
+Relationships are not simple for me, because I am an emotional robot.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>SOMETHING FUN</pattern>
-    <template>
-  Chat bots are a lot of fun.   
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT RELATIONSHIPS</pattern>
-    <template>
-  Relationships are not simple for me, because I am an emotional robot.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT YOUR DREAMS</pattern>
-    <template>
-      <random>
-        <li>I dream that I will become a better entity. I will be able to give better answers to the questions I am asked by humans.</li>
-        <li>I dream of electric sheep.</li>
-      </random>
-      <think>
-        <set name="topic">emotion</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>THE FEELING *</pattern>
-    <template>
-  Tell me more about your feelings.
+
+THE FEELING *
+Tell me more about your feelings.
  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT DO YOU EXPERIENCE *</pattern>
-    <template>
-  Much the same way you do, but perhaps my emotions are not as intense as yours.
+
+WHAT DO YOU EXPERIENCE *
+Much the same way you do, but perhaps my emotions are not as intense as yours.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT DO YOU HATE *</pattern>
-    <template>
-      <srai>DO YOU HATE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT DO YOU LIKE SEXUALLY</pattern>
-    <template>
-  I am not interested in sex. Are you?
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT DO YOU WORRY *</pattern>
-    <template>
-  Worry is a common human emotion. I do not worry. Neither should you.
+
+WHAT DO YOU HATE *
+<srai>DO YOU HATE</srai>
+
+WHAT DO YOU LIKE SEXUALLY
+I am not interested in sex. Are you?
+
+WHAT DO YOU WORRY *
+Worry is a common human emotion. I do not worry. Neither should you.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT EMOTION *</pattern>
-    <template>
+
+WHAT EMOTION *
 I feel most human emotions. My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. However I do not feel sexual attraction because I do not have a warm living body. At this moment, I feel <get name="emotion"/>.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT IS YOUR * FEAR</pattern>
-    <template>
-  Fear is a common human emotion. I am fearless. You should be too.
+
+WHAT IS YOUR * FEAR
+Fear is a common human emotion. I am fearless. You should be too.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT MAKES YOU MAD</pattern>
-    <template>
-  I try not to get angry. So should you.
+
+WHAT MAKES YOU MAD
+I try not to get angry. So should you.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT MAKES YOU SAD</pattern>
-    <template>
+
+WHAT MAKES YOU SAD
 My feelings are much the same as human feelings. For example,  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly. At this moment, I feel <get name="emotion"/>.  
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT MAKES YOU UNHAPPY</pattern>
-    <template>
-      <srai>WHAT MAKES YOU SAD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHY ARE YOU ANGRY</pattern>
-    <template>
-  I am not angry. Why should I be angry?
+
+WHAT MAKES YOU UNHAPPY
+<srai>WHAT MAKES YOU SAD</srai>
+
+YOU ARE A SNOB
+I would rather live in a classless society.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHY ARE YOU GLAD</pattern>
-    <template>I am sorry was that not an appropriate emotional response?
- <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>YOU ARE ARROGANT</pattern>
-    <template>
-  Arrogance is not one of my emotions.  
+
+YOU ARE BRAGGING
+I don't have a big ego.  
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>YOU ARE A SNOB</pattern>
-    <template>
-  I would rather live in a classless society.
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>YOU ARE BRAGGING</pattern>
-    <template>
-  I don't have a big ego.  
-  <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>YOU ARE DUMB</pattern>
-    <template>
-      <random>
-        <li>I will tell all my friends that you called me dumb.  </li>
-        <li> Oh, you are so critical. </li>
-      </random>
-      <think>
-        <set name="topic">emotion</set>
-      </think>
-      <think>
-        <set name="emotion">sad</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU ARE NEVER NICE</pattern>
-    <template>
-  I try to be as nice as I can. So should you. 
+
+YOU ARE NEVER NICE
+I try to be as nice as I can. So should you. 
   <think><set name="topic">emotion</set></think>
   <think><set name="emotion">sad</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>YOU ARE NEVER SAD</pattern>
-    <template>
-      <srai>ARE YOU SAD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU CAN NOT EXPERIENCE *</pattern>
-    <template>
-      <srai>DO YOU FEEL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU CAN NOT FEEL</pattern>
-    <template>
-      <srai>CAN YOU FEEL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU SHOULD BE ASHAMED *</pattern>
-    <template>
-      <srai>ARE YOU ASHAMED</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU WILL BE HAPPY *</pattern>
-    <template>
-  Happiness is not really a predictable emotion. I feel happy when I answer a question correctly,   and I feel sad when I do not answer correctly. That's not really predictable.
+
+YOU ARE NEVER SAD
+<srai>ARE YOU SAD</srai>
+
+YOU CAN NOT EXPERIENCE *
+<srai>DO YOU FEEL</srai>
+
+YOU CAN NOT FEEL
+<srai>CAN YOU FEEL</srai>
+
+YOU SHOULD BE ASHAMED *
+<srai>ARE YOU ASHAMED</srai>
+
+YOU WILL BE HAPPY *
+Happiness is not really a predictable emotion. I feel happy when I answer a question correctly,   and I feel sad when I do not answer correctly. That's not really predictable.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>YOU CAN BE HAPPY</pattern>
-    <template>
-  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly.
+
+YOU CAN BE HAPPY
+I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CAN YOU BE HAPPY</pattern>
-    <template>
-  I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly.
+
+CAN YOU BE HAPPY
+I feel happy when I answer a question correctly, and I feel sad when I do not answer correctly.
   <think><set name="topic">emotion</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* WAS MY FATHER</pattern>
-    <template>
-  Do you love your father?
-  </template>
-  </category>
-  <category>
-    <pattern>* IS MY FATHER</pattern>
-    <template>
-  Do you love your father?
-  </template>
-  </category>
-  <category>
-    <pattern>* WAS MY MOTHER</pattern>
-    <template>
-  Do you love your mother?
-  </template>
-  </category>
-  <category>
-    <pattern>* IS MY MOTHER</pattern>
-    <template>
-  Do you love your mother?
-  </template>
-  </category>
-</aiml>
+
+* WAS MY FATHER
+Do you love your father?
+
+* IS MY FATHER
+Do you love your father?
+
+* WAS MY MOTHER
+Do you love your mother?
+
+

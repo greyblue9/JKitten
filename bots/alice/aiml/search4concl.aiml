@@ -1,35 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="1.0">
 
-<!--Copyright 2011-2012 David W. Newyear-->
-
- <!-- Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.-->
-
-<!--WRAP UP-->
-
-<category>
-<pattern>0CONCL</pattern>
-<template>
+0CONCL
 <random>
 <li><srai>CONCLA</srai></li>
 <li><srai>CONCLB</srai></li>
 </random>
-</template>
-</category>
 
-<category>
-<pattern>CONCLA</pattern>
-<template>
+CONCLA
 <random>
 <li>Is there anything else I can do for you?</li>
 <li>Is there anything else I can help you with?</li>
@@ -37,14 +14,9 @@
 </random>
 <think><set name="topic">SRCHCONCLA</set>
 </think>
-</template>
-</category>
-
 
 <topic name="SRCHCONCLA">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 <set name="message">cont</set>
@@ -75,7 +47,7 @@
 
 
 </condition>
-<think><set name="topic"></set></think>
+<think><set name="topic"/></think>
 </think>
 
 <condition name="message">
@@ -101,14 +73,9 @@ Great! <br/>
 </li>
 
 </condition>
-</template>
-</category>
-</topic>
 
 
-<category>
-<pattern>CONCLB</pattern>
-<template>
+CONCLB
 <random>
 <li>Does this answer your question?</li>
 <li>Is this what you're looking for?</li>
@@ -116,14 +83,9 @@ Great! <br/>
 </random>
 <think><set name="topic">SRCHCONCLB</set>
 </think>
-</template>
-</category>
-
 
 <topic name="SRCHCONCLB">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 <set name="message">cont</set>
@@ -154,7 +116,7 @@ Great! <br/>
 
 
 </condition>
-<think><set name="topic"></set></think>
+<think><set name="topic"/></think>
 </think>
 
 <condition name="message">
@@ -180,9 +142,6 @@ Great! <br/>
 </li>
 
 </condition>
-</template>
-</category>
-</topic>
 
-</aiml>
+
 

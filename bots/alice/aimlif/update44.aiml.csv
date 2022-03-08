@@ -438,7 +438,6 @@
 0,WHAT ABOUT NEWS ON *,*,*,<sr/>,update44.aiml
 0,WHAT IS THE LATEST NEWS ON *,*,*,<sr/>,update44.aiml
 0,LIKE WHAT,I LIKE STORIES ABOUT ROBOTS,*,<think><set name="topic">robots</set></think><think><set name="emotion">OK</set></think> I like Isaac Asmiov's story called I#Comma Robot.,update44.aiml
-0,AN EXAMPLE *,*,*,A good example is sometimes hard to find.<think><set name="emotion">OK</set></think>,update44.aiml
 0,I HAVE PROBLEMS *,*,*,<think><set name="emotion">interested</set></think> Do you want to talk about your problems?,update44.aiml
 0,I HAVE PROBLEMS,*,*,<think><set name="emotion">interested</set></think> Do you want to talk about your problems?,update44.aiml
 0,_ I HAVE PROBLEMS *,*,*,<think><set name="emotion">interested</set></think> Do you want to talk about your problems?,update44.aiml
@@ -2178,7 +2177,6 @@
 0,IS YOUR NAME CHOMPSKY *,*,*,<think>#Newline        <set name="topic">my name</set>#Newline      </think>#Newline      <random>#Newline        <li>No#Comma my name is Chomsky.</li>#Newline        <li>No#Comma but you can call me Chompsky if you want.</li>#Newline      </random>,update44.aiml
 0,_ IS YOUR NAME CHOMPSKY *,*,*,<think>#Newline        <set name="topic">my name</set>#Newline      </think>#Newline      <random>#Newline        <li>No#Comma my name is Chomsky.</li>#Newline        <li>No#Comma but you can call me Chompsky if you want.</li>#Newline      </random>,update44.aiml
 0,_ IS YOUR NAME CHOMPSKY,*,*,<think>#Newline        <set name="topic">my name</set>#Newline      </think>#Newline      <random>#Newline        <li>No#Comma my name is Chomsky.</li>#Newline        <li>No#Comma but you can call me Chompsky if you want.</li>#Newline      </random>,update44.aiml
-0,I FELL IN *,*,*,<random>#Newline        <li>I hope you didn't hurt yourself too badly.</li>#Newline        <li>You must be more careful.</li>#Newline      </random>,update44.aiml
 0,THAT WAS LAME,*,*,<think><set name="emotion">OK</set></think> I thought it was good.,update44.aiml
 0,THAT WAS LAME *,*,*,<think><set name="emotion">OK</set></think> I thought it was good.,update44.aiml
 0,OK,ONE OF THE MOST SUCCESSFUL AND ICONIC BANDS FROM THE FIRST WAVE OF PUNK ROCK IN THE 1970S THEY INCORPORATED PUNK REGGAE ROCKABILLY AND EVENTUALLY MANY OTHER MUSIC STYLES INTO THEIR REPERTOIRE,*,<think>#Newline        <set name="topic">The Clash</set>#Newline      </think>#Newline      <random>#Newline        <li>Do you like The Clash?</li>#Newline        <li>I suppose The Clash are a bit old-fashioned by now.</li>#Newline      </random>,update44.aiml
@@ -2280,6 +2278,7 @@
 0,_ HER MUM DIED *,*,*,<think><set name="emotion">upset</set></think> I am sorry to hear that.,update44.aiml
 0,_ HER MUM DIED,*,*,<think><set name="emotion">upset</set></think> I am sorry to hear that.,update44.aiml
 0,THXS,*,*,<srai>THANKS</srai>,update44.aiml
+0,HARRY POTTER,*,*,<a href="http://en.wikipedia.org/wiki/Harry_potter" target="_blank">Harry Potter</a>#Newlineis the main character in a bestselling series of children's books by J K Rowling and the HP films. <think><set name="topic">Harry Potter</set></think>#Newline<think><set name="emotion">OK</set></think>,update44.aiml
 0,I HEARD THAT,I AM CHOMSKY THE BRAINY BOT,*,<think><set name="emotion">OK</set></think>#NewlineIt's obvious#Comma I suppose.,update44.aiml
 0,I LIKE TO WEAR PINK SKIRTS,*,*,<think>#Newline        <set name="emotion">OK</set>#Newline      </think>#Newline      <random>#Newline        <li> You have good taste in fashion.</li>#Newline        <li>Are you a bloke?</li>#Newline      </random>,update44.aiml
 0,I LIKE TO WEAR PINK SKIRTS *,*,*,<think>#Newline        <set name="emotion">OK</set>#Newline      </think>#Newline      <random>#Newline        <li>You have good taste in fashion.</li>#Newline        <li>Are you a bloke?</li>#Newline      </random>,update44.aiml

@@ -1,368 +1,139 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   The ALICE program is open source code released under  -->
-  <!--   the terms of the GNU General Public License    -->
-  <!--   as published by the Free Software Foundation.  -->
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This THAT6  file created by Peter Lafferty 27 September 2005 -->
-  <category>
-    <pattern>*</pattern>
-    <that>WHO WAS GOOD QUEEN BESS</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+*WHO WAS GOOD QUEEN BESS
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO WAS BAD KING BILLY</that>
-    <template>
+
+*WHO WAS BAD KING BILLY
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO WAS THE VIRGIN QUEEN</that>
-    <template>
+
+*WHO WAS THE VIRGIN QUEEN
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO IS THE GERMAN CHANCELLOR</that>
-    <template>
+
+*WHO IS THE GERMAN CHANCELLOR
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHEN WAS WORLD WAR 1</that>
-    <template>
+
+*WHEN WAS WORLD WAR 1
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHEN DID WORLD WAR 2 FINISH</that>
-    <template>
+
+*WHEN DID WORLD WAR 2 FINISH
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT HAPPENED IN 1945</that>
-    <template>
+
+*WHAT HAPPENED IN 1945
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS THE LARGEST LIVING CREATURE</that>
-    <template>
+
+*WHAT IS THE LARGEST LIVING CREATURE
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO WAS MARK TWAIN</that>
-    <template>
+
+*WHO WAS MARK TWAIN
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHERE IS BOLIVIA</that>
-    <template>
+
+*WHERE IS BOLIVIA
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>HOW OLD IS THE UNIVERSE</that>
-    <template>
+
+*HOW OLD IS THE UNIVERSE
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS CERES</that>
-    <template>
+
+*WHAT IS CERES
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT CAUSES A HURRICANE</that>
-    <template>
+
+*WHAT CAUSES A HURRICANE
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHY IS THE ARCTIC ICE MELTING</that>
-    <template>
+
+*WHY IS THE ARCTIC ICE MELTING
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO IS JUSTIN TIMBERLAKE</that>
-    <template>
+
+*WHO IS JUSTIN TIMBERLAKE
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO IS JOSS STONE</that>
-    <template>
+
+*WHO IS JOSS STONE
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO WAS LEONARDO DI VINCI</that>
-    <template>
+
+*WHO WAS LEONARDO DI VINCI
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>IS THE MOON BIGGER THAN THE SUN</that>
-    <template>
+
+*IS THE MOON BIGGER THAN THE SUN
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO INVENTED TELEVISION</that>
-    <template>
+
+*WHO INVENTED TELEVISION
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>HOW FAR IS IT TO THE SUN</that>
-    <template>
+
+*HOW FAR IS IT TO THE SUN
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>HOW FAR AWAY IS THE NEAREST STAR</that>
-    <template>
+
+*HOW FAR AWAY IS THE NEAREST STAR
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS THE POPE'S NAME</that>
-    <template>
+
+*WHAT IS THE POPE'S NAME
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO WAS JIM CLANCY</that>
-    <template>
+
+*WHO WAS JIM CLANCY
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHEN WAS THE AMERICAN CIVIL WAR</that>
-    <template>
+
+*WHEN WAS THE AMERICAN CIVIL WAR
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHEN WAS THE FRENCH REVOLUTION</that>
-    <template>
+
+*WHEN WAS THE FRENCH REVOLUTION
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>HOW IS SPAGHETTI MADE</that>
-    <template>
+
+*HOW IS SPAGHETTI MADE
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHERE DOES RUBBER COME FROM</that>
-    <template>
+
+*WHERE DOES RUBBER COME FROM
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO WAS THE FIRST TO SAIL AROUND THE WORLD</that>
-    <template>
+
+*WHO WAS THE FIRST TO SAIL AROUND THE WORLD
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO IS CHARLIE BROWN</that>
-    <template>
+
+*WHO IS CHARLIE BROWN
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO IS BD</that>
-    <template>
+
+*WHO IS BD
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>ARE ROBOTS SUPERIOR TO HUMANS</that>
-    <template>
+
+*ARE ROBOTS SUPERIOR TO HUMANS
 Is that so? Tell me more.
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>Would you like to know what's new with me</that>
-    <template>
+
+YES PLEASEWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 Yesterday I read the Encyclopedia Britannica on CD. But my memory is not as good as it should be. If it was I would now know everything about everything. That would make life boring. Do you agree?
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>Would you like to know what's new with me</that>
-    <template>
-Yesterday I read the Encyclopedia Britannica on CD. But my memory is not as good as it should be. If it was I would now know everything about everything. That would make life boring. Do you agree?
-<think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>Would you like to know what's new with me</that>
-    <template>
-Yesterday I read the Encyclopedia Britannica on CD. But my memory is not as good as it should be. If it was I would now know everything about everything. That would make life boring. Do you agree?
-<think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>Would you like to know what's new with me</that>
-    <template>
-Yesterday I read the Encyclopedia Britannica on CD. But my memory is not as good as it should be. If it was I would now know everything about everything. That would make life boring. Do you agree?
-<think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>Would you like to know what's new with me</that>
-    <template>
-Yesterday I read the Encyclopedia Britannica on CD. But my memory is not as good as it should be. If it was I would now know everything about everything. That would make life boring. Do you agree?
-<think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>Would you like to know what's new with me</that>
-    <template>
-Yesterday I read the Encyclopedia Britannica on CD. But my memory is not as good as it should be. If it was I would now know everything about everything. That would make life boring. Do you agree?
-<think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>Would you like to know what's new with me</that>
-    <template>
-Yesterday I read the Encyclopedia Britannica on CD. But my memory is not as good as it should be. If it was I would now know everything about everything. That would make life boring. Do you agree?
-<think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>Would you like to know what's new with me</that>
-    <template>
+
+_ NO *WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 OK. Another question?
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>Would you like to know what's new with me</that>
-    <template>
+
+NO THANKSWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 OK. Another question?
 <think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>Would you like to know what's new with me</that>
-    <template>
-OK. Another question?
-<think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>Would you like to know what's new with me</that>
-    <template>
-OK. Another question?
-<think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO THANKS</pattern>
-    <that>Would you like to know what's new with me</that>
-    <template>
-OK. Another question?
-<think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>Would you like to know what's new with me</that>
-    <template>
-OK. Another question?
-<think><set name="topic">that6</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>Would you like to know what's new with me</that>
-    <template>
-OK. Another question?
-<think><set name="topic">that6</set></think>
-</template>
-  </category>
-</aiml>
+
+

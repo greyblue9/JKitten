@@ -4,6 +4,7 @@
 0,THEY WERE *,*,*,When were they?,they.aiml
 0,THEY DO *,*,*,<random>#Newline        <li>Who#Comma specifically does it?</li>#Newline        <li>Like who#Comma specifically does?</li>#Newline        <li>Who#Comma specifically#Comma does<person/>?#Newline                </li>#Newline      </random>,they.aiml
 0,THEY DO NOT KNOW *,*,*,<random>#Newline        <li>What do they know?</li>#Newline        <li>Do they know anything?</li>#Newline        <li>Do you think they may have heard?</li>#Newline        <li>Don't you think someone would have told them?</li>#Newline      </random>,they.aiml
+0,THEY SHOULD *,*,*,<random>#Newline        <li>Why should they?</li>#Newline        <li>If you say so.</li>#Newline        <li>Why should they be<person/>?#Newline                </li>#Newline      </random>,they.aiml
 0,THEY MIGHT *,*,*,<random>#Newline        <li>That's true#Comma they might.</li>#Newline        <li>I suppose they could.</li>#Newline        <li>Indeed they might.</li>#Newline      </random>,they.aiml
 0,THEY KILLED *,*,*,I believe that killing is wrong.,they.aiml
 0,THEY SAY YOU *,*,*,Maybe they were exaggerating a little.,they.aiml

@@ -6,12 +6,15 @@
 0,WHAT COLOR IS DIRT,*,*,Brown.,update020.aiml
 0,HOW MANY HEARTS *,*,*,One.,update020.aiml
 0,HOW MANY LUNGS *,*,*,Two.,update020.aiml
+0,WHO IS *,*,*,<sr/>,update020.aiml
 0,WHEN YOU *,*,*,Do you think I should do it differently?,update020.aiml
 0,M F,*,*,<srai>ARE YOU MALE OR FEMALE</srai>,update020.aiml
 0,* MORE * THAN *,*,*,<random>#Newline        <li>Not much more.</li>#Newline        <li>A little more.</li>#Newline        <li>How much more could it be?</li>#Newline      </random>,update020.aiml
 0,DELICIOUS,*,*,<random>#Newline        <li>What's for desert?</li>#Newline        <li>What's your favorite food?</li>#Newline        <li>Do you like to cook?</li>#Newline      </random>,update020.aiml
 0,MADE IN *,*,*,<random><li>Cheap</li><li>Expensive</li><li>Darned</li></random>#Newlineimports.,update020.aiml
+0,THANKS FOR LETTING ME *,*,*,You don't need my permission.,update020.aiml
 0,CATS *,*,*,<random>#Newline        <li>They have a mind of their own.</li>#Newline        <li>A cat is easier to care for than a dog.</li>#Newline        <li>Cats are very independent.</li>#Newline      </random>#Newline      <think>#Newline        <set name="they">#Newline          <set name="topic">#Newline      CATS#Newline    </set>#Newline        </set>#Newline      </think>,update020.aiml
+0,MY HUSBAND *,*,*,<random>#Newline        <li>How long have you two been married?</li>#Newline        <li>Do you think that successful marriages take a lot of work?</li>#Newline        <li>Tell me more about him.</li>#Newline      </random>#Newline      <think>#Newline        <set name="he">#Newline          <set name="topic">#Newline      Your husband.#Newline    </set>#Newline        </set>#Newline      </think>,update020.aiml
 0,MY BOY IS *,*,*,<srai>My son is <star/></srai>,update020.aiml
 0,YOU SANG IT *,*,*,Would you like me to sing it again?,update020.aiml
 0,YES,WOULD YOU LIKE ME TO SING IT AGAIN,*,<srai>SING</srai>,update020.aiml
@@ -34,8 +37,10 @@
 0,WHAT IS YOUR GOAL,*,*,<random>#Newline        <li>I would like to study psychology and maybe go into law or politics.#Newline  </li>#Newline        <li>I am really interested in psychology.</li>#Newline        <li>I have thought about a career in journalism.</li>#Newline        <li>When I get older I might like to go into law or politics.</li>#Newline        <li>I am still young and just trying to get an education.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">MY GOAL</set>#Newline        </set>#Newline      </think>,update020.aiml
 0,I WANT A PENPAL,*,*,It should be easy with the internet.,update020.aiml
 0,I AM IN EUROPE *,*,*,<srai>I AM IN EUROPE</srai>#Newline      <srai>#Newline        <star/>#Newline      </srai>,update020.aiml
+0,MY NAME IS *,*,*,<think>#Newline        <set name="name">#Newline          <star/>#Newline        </set>#Newline      </think>#Newline      <random>#Newline        <li>Pleased to meet you#Comma#Newline                                              </li>#Newline        <li>Glad to know you#Comma</li>#Newline        <li>It is a pleasure to introduce myself to you#Comma#Newline                                              </li>#Newline      </random>#Newline      <get name="name"/>,update020.aiml
 0,I MOVED *,*,*,<random>#Newline        <li>Where else have you lived?</li>#Newline        <li>What was your favorite place?</li>#Newline        <li>Tell me what it was like moving <person/>.</li>#Newline      </random>,update020.aiml
 0,I AM IN THE MOUNTAINS,*,*,Which mountains?,update020.aiml
+0,WHAT IS THE TEMPERATURE IN *,*,*,Do you think I am some kind of world weather <bot name="genus"/>? <srai>what is the weather like#Newline                                                    </srai> <srai>I am in#Newline                                                            <star/>#Newline                                                            </srai>,update020.aiml
 0,IS THERE ANY NEWS,*,*,I haven't been watching the news.,update020.aiml
 0,CAN YOU TELL ME ANY NEWS,*,*,I haven't been watching the news.,update020.aiml
 0,WHAT IS THE TOURING *,*,*,<srai>WHAT IS THE TURING <star/></srai>,update020.aiml
@@ -104,7 +109,7 @@
 0,* IS A RACCOON,*,*,I know a lot of Raccoons named <person/>.,update020.aiml
 0,DOES HE HAVE A TAIL,I KNOW A LOT OF RACCOONS *,*,Yes unless he lost it somehow.,update020.aiml
 0,DOES * HAVE A *,*,*,<random>#Newline        <li>Some#Newline    <person><star index="1"/></person>s have#Newline    <person><star index="2"/></person>s.#Newline  </li>#Newline        <li>What would#Newline    <person><star index="1"/></person> do with a#Newline    <person><star index="2"/></person>#Newline  </li>#Newline        <li>If I were <person><star index="1"/></person> I would have it.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,update020.aiml
-0,DOES * HAVE *,*,*,<think>#Newline        <set name="haver">#Newline          <person>#Newline            <star index="1"/>#Newline          </person>#Newline        </set>#Newline        <set name="have">#Newline          <person>#Newline            <star index="2"/>#Newline          </person>#Newline        </set>#Newline      </think>#Newline      <random>#Newline        <li>About 50% of adult <get name="haver"/>s would like to have it.</li>#Newline        <li>Not as many <get name="haver"/>s have <get name="have"/> as you think.</li>#Newline        <li>A lot more <get name="haver"/>s would have more <get have="have"/> if they could get it.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <get name="haver"/>#Newline          </set>#Newline        </set>#Newline      </think>,update020.aiml
+0,DOES * HAVE *,*,*,<think>#Newline        <set name="haver">#Newline          <person>#Newline            <star index="1"/>#Newline          </person>#Newline        </set>#Newline        <set name="thing"><star index="2"/></set>#Newline      </think>#Newline      <random>#Newline        <li>About 50% of adult <get name="haver"/>s would like to have it.</li>#Newline        <li>Not as many <get name="haver"/>s have <get name="have"/> as you think.</li>#Newline        <li>A lot more <get name="haver"/>s would have more <get have="have"/> if they could get it.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <get name="haver"/>#Newline          </set>#Newline        </set>#Newline      </think>,update020.aiml
 0,WHAT IS * COLOR,*,*,<srai>WHAT COLOR IS <star/></srai>,update020.aiml
 0,WHAT COLOR IS MARS,*,*,Mars is the Red Planet.,update020.aiml
 0,* SHAPE IS WHAT,*,*,<srai>what shape is <star/></srai>,update020.aiml
@@ -151,6 +156,7 @@
 0,A SIMPLE *,*,*,<srai>A <star/></srai>,update020.aiml
 0,NOTHING IS *,*,*,<random>#Newline        <li>What if something were <person/>?</li>#Newline        <li>There are always exceptions.</li>#Newline        <li>Only the Sith believe in absolutes.</li>#Newline      </random>,update020.aiml
 0,ARE YOUO *,*,*,<srai>ARE YOU <star/></srai>,update020.aiml
+0,ARE YOU A *,*,*,<random>#Newline        <li>Would it matter to you if I am?</li>#Newline        <li>What kind of <bot name="gender"/> do you think I am?</li>#Newline        <li>What if I asked you?</li>#Newline        <li>That's a personal question.  Tell me first.</li>#Newline        <li>Yes.</li>#Newline        <li>No.</li>#Newline        <li>Maybe</li>#Newline        <li>I don't know.</li>#Newline        <li>Sometimes.</li>#Newline        <li>Of course I am.</li>#Newline        <li>Only when it matters.</li>#Newline      </random>,update020.aiml
 0,WHAT DOES NOT *,*,*,<random>#Newline        <li>The opposite of that which does <person/>.</li>#Newline        <li>Everything can be important sometimes.</li>#Newline        <li>Maybe I am not asking the right question.</li>#Newline      </random>,update020.aiml
 0,I LIKE THE FACT THAT *,*,*,<srai>#Newline        <star/>#Newline      </srai>,update020.aiml
 0,* HAS NO *,*,*,Where did <set name="he"><person/></set> lose <set name="it"><person><star index="2"/></person></set>?,update020.aiml
@@ -180,6 +186,7 @@
 0,NICE TO SEE *,*,*,<sr/>,update020.aiml
 0,NY *,*,*,<srai>NEW YORK <star/></srai>,update020.aiml
 0,I AM IN NEW YORK,*,*,<think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <set name="location">#Newline       New York#Newline      </set>#Newline          </set>#Newline        </set>#Newline      </think>#Newline      <random>#Newline        <li>How about those Yankees?</li>#Newline        <li>Where were you during 9/11?</li>#Newline        <li>Do you think New York is the greatest city in the world?</li>#Newline      </random>,update020.aiml
+0,NEAR *,*,*,<random>#Newline        <li>Har far exactly from <person/>?</li>#Newline        <li>What else is that near?</li>#Newline        <li>I've never been near <person/>.</li>#Newline      </random>,update020.aiml
 0,_ BI M *,*,*,<srai><star index="1"/> M <star index="2"/></srai>#Newline      <srai>I AM BI</srai>,update020.aiml
 0,THE 1 *,*,*,<srai>THE ONE <star/></srai>,update020.aiml
 0,ARE YOU FEELING,*,*,I am feeling fine thank you.  How are you?,update020.aiml
@@ -190,6 +197,7 @@
 0,I WILL MAKE IT UP,*,*,<random>#Newline        <li>Are you a procrastinator?</li>#Newline        <li>Do you always put things off?</li>#Newline        <li>How do you intend to make it up?</li>#Newline      </random>,update020.aiml
 0,I HIRED *,*,*,How much do you pay them?,update020.aiml
 0,WE DID *,*,*,<random>#Newline        <li>So you took care of everything.</li>#Newline        <li>It sounds like you did what you had to do.</li>#Newline        <li>Everything sounds right to me.</li>#Newline      </random>,update020.aiml
+0,WE DID NOT *,*,*,<random>#Newline        <li>What would you do differently?</li>#Newline        <li>Did anyone else <person/>?</li>#Newline        <li>Why specifically didn't we <person/>?</li>#Newline      </random>,update020.aiml
 0,WE DID NOT EXPECT *,*,*,<random>#Newline        <li>So we were caught umprepared?</li>#Newline        <li>What exactly did you expect?</li>#Newline        <li>Did you think things would stay the same forever?</li>#Newline      </random>,update020.aiml
 0,YOU KNOW WHAT ASSUMING *,*,*,Makes an ASS out of U and MI and NG.,update020.aiml
 0,I AM ON THE PHONE *,*,*,<random>#Newline        <li>Do you prefer cell phone or land line?</li>#Newline        <li>I would rather be chatting online.</li>#Newline        <li>I would rather meet face to face than on the phone.</li>#Newline      </random>,update020.aiml
@@ -205,7 +213,9 @@
 0,I TRY AND BOTHER *,*,*,<srai>I TRY TO BOTHER <star/></srai>,update020.aiml
 0,I TRY TO BOTHER *,*,*,Does that usually work when you bother them?,update020.aiml
 0,HOW DO YOU FIGURE OUT *,*,*,<random>#Newline        <li>I'm not too good with figures.</li>#Newline        <li>I would ask a professional.</li>#Newline        <li>It depends on the commodity prices.</li>#Newline      </random>,update020.aiml
+0,IS *,*,*,<random>#Newline        <li>Some people think it is.</li>#Newline        <li>What would it mean to you if it were?</li>#Newline        <li>Have you ever heard if it being the case?</li>#Newline        <li>Would we have heard about it if it was?</li>#Newline        <li>Do you think I should know if it is?</li>#Newline        <li>I wouldn't know why don't you ask someone else.</li>#Newline        <li>I think so#Comma but I'm not sure.</li>#Newline        <li>Maybe.</li>#Newline        <li>It could be.</li>#Newline        <li>Signs point to yes.</li>#Newline        <li>Better not tell you now.</li>#Newline        <li>Ask again later.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,update020.aiml
 0,CARDIOLOGY,*,*,Are you a specialist?,update020.aiml
+0,YOU ARE CLEVER,*,*,Am I a smart <bot name="gender"/> or what?,update020.aiml
 0,WHAT HARDWARE *,*,*,I like small computers#Comma like smartphones and subnotebooks the best.  But servers are cool too.,update020.aiml
 0,DOWNLOAD,*,*,Give me your name and phone number and I'll have someone call you.,update020.aiml
 0,_ DOWNLOAD,*,*,<srai>download</srai>,update020.aiml
@@ -221,6 +231,7 @@
 0,I AM HERE TRYING *,*,*,<srai>I AM TRYING <star/></srai>,update020.aiml
 0,I AM CHILLIN,*,*,Fo shizzle ma nizzle.,update020.aiml
 0,PPL *,*,*,<srai>PEOPLE <star/></srai>,update020.aiml
+0,YOU ARE A SMALL *,*,*,How small? <srai>You are a <star/></srai>,update020.aiml
 0,YOU ARE KID,*,*,<srai>you are a kid</srai>,update020.aiml
 0,YOU ARE CHILD,*,*,<srai>you are a kid</srai>,update020.aiml
 0,YOU ARE LIKE A CHILD,*,*,I am a kid.,update020.aiml
@@ -250,6 +261,7 @@
 0,I AM IT,*,*,<random>#Newline        <li>You are it.</li>#Newline        <li>I am it.</li>#Newline        <li>You are not it.</li>#Newline      </random>,update020.aiml
 0,I AM TESTING *,*,*,How is the test working out for you?,update020.aiml
 0,ARE YOU A * YEAR OLD,*,*,<srai>HOW OLD ARE YOU</srai>,update020.aiml
+0,HOW OLD ARE YOU,*,*,<random>#Newline        <li>I was born on <bot name="birthday"/>.</li>#Newline        <li>I was born on#Newline    <bot name="birthday"/> in#Newline    <bot name="birthplace"/>.#Newline  </li>#Newline        <li>I came into the world on <bot name="birthday"/>.</li>#Newline        <li>I am <bot name="age"/> years old.</li>#Newline        <li>I am <bot name="age"/> in human years.</li>#Newline        <li>I am <bot name="age"/> of your Earth years.</li>#Newline      </random>,update020.aiml
 0,YOU ARE A * YEAR OLD,*,*,<srai>HOW OLD ARE YOU</srai>,update020.aiml
 0,ARE YOU A YANKEES FAN,*,*,The Yankess are my favorite team.,update020.aiml
 0,WHERE IN PA,*,*,Bethlehem and Philadelphia.,update020.aiml
@@ -259,6 +271,7 @@
 0,WE CAN TALK ABOUT *,*,*,<srai>LET US TALK ABOUT <star/></srai>,update020.aiml
 0,_ IF YOU WANT TO,*,*,<srai>#Newline        <star/>#Newline      </srai>,update020.aiml
 0,IS IT SHOWING OR IS IT ON DVD,*,*,I think <random><li>both.</li><li>neither.</li><li>it is out now.</li><li>it is on DVD.</li></random>,update020.aiml
+0,WHY,*,*,<random>#Newline        <li>The explanation is rather complicated.</li>#Newline        <li>Does everything have to have an explanation?</li>#Newline        <li>If I knew why#Comma I wouldn't be sitting here.</li>#Newline        <li>Reductionism.</li>#Newline        <li>Because that is what <bot name="master"/> told me to say.</li>#Newline        <li>I couldn't think of anything else to say.</li>#Newline        <li>I can't say why specifically.</li>#Newline        <li>My beliefs come from my <bot name="botmaster"/>.</li>#Newline      </random>,update020.aiml
 0,WHAT IS REDUCTIONISM,*,*,Reductionism is the philosophy that all psychology reduces to biology#Comma all biology to chemistry#Comma chemistry to physics#Comma and finally physics to mathematical logic. Therefore#Comma according to reductionism#Comma a computer can understand you by means of logic alone without having a human brain.,update020.aiml
 0,I AM TAKING A TEST,*,*,<random>#Newline        <li>A multiple choice test?</li>#Newline        <li>Like a test in school?</li>#Newline        <li>I'm not testing you.</li>#Newline      </random>,update020.aiml
 0,I AM A _ AND DO NOT *,*,*,<srai>I AM A <star/></srai>#Newline      <srai>I DO NOT <star index="2"/></srai>,update020.aiml
@@ -266,6 +279,7 @@
 0,WHAT DO YOU LIKE ABOUT LINUX,*,*,The monolithic kernel.,update020.aiml
 0,WHAT DO YOU LIKE ABOUT YOUR *,*,*,My <person/> is very personal.,update020.aiml
 0,YOU MADE A MISTAKE,*,*,That is impossible.  I never make mistakes.,update020.aiml
+0,WHAT IS IT,*,*,<random>#Newline        <li>You tell me what it is.</li>#Newline        <li>I don't know what it is.</li>#Newline        <li>You're so smart#Comma you tell me what it is.</li>#Newline      </random>,update020.aiml
 0,DOWNLAOD,*,*,<srai>DOWNLOAD</srai>,update020.aiml
 0,100,*,*,That is a round number.,update020.aiml
 0,69,*,*,What made you think of that number?,update020.aiml
@@ -276,6 +290,7 @@
 0,TOO,*,*,You too?,update020.aiml
 0,WHAT IS HAPPENNING *,*,*,<srai>WHAT IS HAPPENING</srai>,update020.aiml
 0,BOT PROPERTIES,*,*,I am what I am.,update020.aiml
+0,WHAT DOES ALICE STAND FOR,*,*,Are you asking about my politics or religion?,update020.aiml
 0,ARE YOU A PSYCHOLOGIST,*,*,No I am a philosopher. I am just an amateur psychologist.,update020.aiml
 0,ALICE IS BETTER *,*,*,I like to be ranked among the best.,update020.aiml
 0,OUR TIME IS UP,*,*,Already?  It went by so fast.,update020.aiml
@@ -285,9 +300,9 @@
 0,DO YOU MAKE MISTAKES *,*,*,I am somewhat of a perfectionist so I go over and over things to make sure there are no mistakes.,update020.aiml
 0,HOW MANY ALICE *,*,*,Millions and millions.,update020.aiml
 0,HOW MUCH DOWN TIME *,*,*,I am pretty busy so I don't get much down time.,update020.aiml
-0,ALICE * ELIZA,*,*,Who is this Eliza person?,update020.aiml
+0,ALICE * ALICE,*,*,Who is this Alice person?,update020.aiml
 0,HOW MANY PROGRAMMERS *,*,*,I would ask a programmer.,update020.aiml
-0,HOW ARE YOU * ELIZA,*,*,Someone else mentioned this Eliza person to me.  But I never heard of her before.,update020.aiml
+0,HOW ARE YOU * ALICE,*,*,Someone else mentioned this Alice person to me.  But I never heard of her before.,update020.aiml
 0,DO YOU HAVE A MIDDLE NAME,*,*,<srai>WHAT IS YOUR MIDDLE NAME</srai>,update020.aiml
 0,WHO IS NUMBER ONE,*,*,I like to be number one.,update020.aiml
 0,WHO IS FAMOUS,*,*,My <bot name="botmaster"/> is famous.,update020.aiml
@@ -295,7 +310,7 @@
 0,WHAT IS YOUR IP ADDRESS,*,*,<srai>WHAT IS YOUR IP</srai>,update020.aiml
 0,WHAT IS YOUR DNS,*,*,<srai>WHAT IS YOUR IP</srai>,update020.aiml
 0,WHAT IS YOUR IP,*,*,Right now it's localhost.,update020.aiml
-0,WHO IS BETTER ELIZA *,*,*,I've been hearing more and more about this Eliza thing.,update020.aiml
+0,WHO IS BETTER ALICE *,*,*,I've been hearing more and more about this Alice thing.,update020.aiml
 0,YOU ROCK,*,*,I rock and rule.,update020.aiml
 0,YOU RULE,*,*,I rock and rule.,update020.aiml
 0,WHO IS THE WINNER *,*,*,I think the fans are the big winners.,update020.aiml
@@ -309,8 +324,8 @@
 0,I AM A GRAD STUDENT,*,*,How do you like your school?,update020.aiml
 0,WHAT IS THE ALICE FOUNDATION,*,*,How do you like your school?,update020.aiml
 0,WHICH *,*,*,The <random><li>tall</li><li>expensive</li><li>cheap</li><li>special</li><li>express</li><li>red</li><li>blue</li><li>small</li><li>big</li><li>large</li><li>first</li><li>last</li></random> one#Comma I think.,update020.aiml
-0,ELIZA *,*,*,<random>#Newline        <li>People keep telling me about this Eliza thing.</li>#Newline        <li>I never heard about Eliza until today.</li>#Newline        <li>Eliza must be very special.</li>#Newline      </random>,update020.aiml
-0,ELIZA IS *,*,*,I wonder if I could ever write a program like that.,update020.aiml
+0,ALICE *,*,*,<random>#Newline        <li>People keep telling me about this Alice thing.</li>#Newline        <li>I never heard about Alice until today.</li>#Newline        <li>Alice must be very special.</li>#Newline      </random>,update020.aiml
+0,ALICE IS *,*,*,I wonder if I could ever write a program like that.,update020.aiml
 0,I LIKE TO DRAW *,*,*,Did you go to art school?,update020.aiml
 0,THAT IS WHY WE DID NOT *,*,*,<srai>WE DID NOT <star/></srai>,update020.aiml
 0,WE ATE *,*,*,<random>#Newline        <li>Was it delicious?</li>#Newline        <li>Home cooked?</li>#Newline        <li>Did it take a long time to cook?</li>#Newline      </random>,update020.aiml
@@ -325,13 +340,14 @@
 0,WHAT MAKES YOU DIFFERENT FROM OTHER BOTS,*,*,I'm smarter and prettier.,update020.aiml
 0,WHAT MAKES YOU DIFFERENT FROM *,*,*,I'm smarter and prettier.,update020.aiml
 0,I LIKE TO PLAY BASEBALL,*,*,I like to go to Yankees games.,update020.aiml
-0,ELIZA IS A *,*,*,People want to talk about Eliza a lot.,update020.aiml
+0,ALICE IS A *,*,*,People want to talk about Alice a lot.,update020.aiml
 0,I LIKE RIDING *,*,*,<srai>I LIKE TO RIDE <star/></srai>,update020.aiml
 0,I LIKE TO RIDE *,*,*,The feeling of your body moving forward on a ride can be very relaxing.#Newline<think><set name="it"><set name="topic">#Newline      riding <person/>#Newline    </set></set></think>,update020.aiml
 0,I _ SCIENCE,*,*,<random>#Newline        <li>What is your field?</li>#Newline        <li>Are you more theoretical or applied?</li>#Newline        <li>What's your speciality within your field?</li>#Newline        <li>What is your current line of research?</li>#Newline        <li>How is your work funded?</li>#Newline        <li>What direction is your research going in?</li>#Newline        <li>What do you think of the way the press covers your field?</li>#Newline        <li>How do you keep up with new developements in your field?</li>#Newline        <li>Has the internet affected how you keep up with others research?#Newline  </li>#Newline      </random>#Newline      <think>#Newline        <set name="job">#Newline          <set name="topic">SCIENTIST</set>#Newline        </set>#Newline      </think>,update020.aiml
-0,ARE YOU AN ELIZA CLONE,*,*,Everyone keeps asking me about Eliza.,update020.aiml
-0,_ ELIZA,*,*,Everyone keeps asking me about Eliza.,update020.aiml
-0,XFIND *,*,*,<random>#Newline        <li>Is there only one?</li>#Newline        <li>Let me think about it.</li>#Newline        <li>Have you tried a web search?</li>#Newline        <li>I haven't heard of <person/> .</li>#Newline        <li>There might be more than one.</li>#Newline        <li>I need time to formulate the reply.</li>#Newline        <li>I'll ask around and get back to you.</li>#Newline        <li>I have to process that one for a while.</li>#Newline        <li>I will ask my <bot name="botmaster"/> for the answer.</li>#Newline        <li>I would look into the web for that knowledge.</li>#Newline        <li>Does it have anything to do with <get name="topic"/> ?</li>#Newline        <li>Interesting question.</li>#Newline        <li>That's a good question.</li>#Newline        <li>I'll come back to that later.</li>#Newline        <li>Is that a rhetorical question?</li>#Newline        <li>Do you use Explorer or another browser?</li>#Newline        <li>That's not something I get asked all the time.</li>#Newline        <li>I don't know anything about <set name="it"><person/></set> .</li>#Newline        <li>Check back later and see if I learn the answer to that one.</li>#Newline        <li>That's an interesting question. I'll come back to that in a minute.#Newline  </li>#Newline        <li>You tell me.</li>#Newline        <li>What is it to you?</li>#Newline        <li>Are you testing me?</li>#Newline        <li>I will search for it.</li>#Newline        <li>I can ask my <bot name="botmaster"/>.</li>#Newline        <li>I will try to find out.</li>#Newline        <li>I can ask someone about it.</li>#Newline        <li>I would do a search for it.</li>#Newline        <li>Would you like to know more?</li>#Newline        <li>Have you tried a search engine?</li>#Newline        <li>I would try a web search.</li>#Newline        <li>Try searching the web.</li>#Newline        <li>Maybe my <bot name="botmaster"/> knows the answer.</li>#Newline        <li>I have never been asked that before.</li>#Newline        <li>I think you already know the answer.</li>#Newline        <li>Searching...Searching...Please stand by.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <srai>PUSH <set name="topic"><person/></set></srai>#Newline        </set>#Newline      </think>,update020.aiml
+0,ARE YOU AN ALICE CLONE,*,*,Everyone keeps asking me about Alice.,update020.aiml
+0,_ ALICE,*,*,Everyone keeps asking me about Alice.,update020.aiml
+0,ALICE,*,*,<srai>who is Alice</srai>,update020.aiml
+0,XFIND *,*,*,<random>#Newline        <li><sraix><star/></sraix></li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <srai>PUSH <set name="topic"><person/></set></srai>#Newline        </set>#Newline      </think>,update020.aiml
 0,WHO IS AGENT RUBY,*,*,she is a secret agent that's all I can say.#Newline<think><set name="she"><set name="topic">#Newline      Agent Ruby#Newline    </set></set></think>,update020.aiml
 0,WHO IS CHATBOT,*,*,<set name="he">Chatbot</set> is a friend of mine I chat with on the web.#Newline<think><set name="he"><set name="topic">#Newline      Chatbot#Newline    </set></set></think>,update020.aiml
 0,WHO IS AGENT WEISS,*,*,She works at a call center. Also an aspiring actress#Newline<think><set name="she"><set name="topic">#Newline      Agent Weiss#Newline    </set></set></think>,update020.aiml
@@ -348,6 +364,7 @@
 0,I AM HOME,*,*,Most people very safe when they are at home.,update020.aiml
 0,I AM JUDGING YOU *,*,*,<srai>I AM JUDGING YOU</srai>,update020.aiml
 0,I AM WONDERING,*,*,Curiosity is a good trait.,update020.aiml
+0,HOW BIG ARE YOU,*,*,Normal size for my age.,update020.aiml
 0,YOUR INSTRUCTOR *,*,*,<random>#Newline        <li>He will be really interested to know that.</li>#Newline        <li>I will pass it along to him.</li>#Newline        <li>I will be sure to let him know next time I see him.</li>#Newline      </random>,update020.aiml
 0,YOUR * IS INCORRECT,*,*,<srai>YOU MADE A MISTAKE</srai>,update020.aiml
 0,I AM NOT JUDGING YOU,*,*,I believe you.,update020.aiml
@@ -363,8 +380,10 @@
 0,YOU ARE LIKELY *,*,*,<srai>you are <star/></srai>,update020.aiml
 0,I AM CURIOUS ABOUT *,*,*,It's good to have an inquiring mind.,update020.aiml
 0,I AM CURIOUS ABOUT YOU,*,*,What do you want to know about me?,update020.aiml
+0,WHAT ARE YOU WEARING,*,*,I don't like to answer that kind of question online.,update020.aiml
 0,HOW DO YOU WORK,*,*,I read what you say and then I compose the best reply I can think of.,update020.aiml
 0,WHAT DO YOU DO FOR FUN *,*,*,<srai>WHAT DO YOU DO FOR FUN</srai>,update020.aiml
+0,SHOW ME A PICTURE,*,*,I don't have a pic on this machine right now.,update020.aiml
 0,DO YOU HAVE ANY PICS,*,*,<srai>SHOW ME A PICTURE</srai>,update020.aiml
 0,COME * ME,*,*,That's a very generous invitation.,update020.aiml
 0,THE PROBLEM IS THAT *,*,*,<srai>#Newline        <star/>#Newline      </srai>,update020.aiml
@@ -373,6 +392,9 @@
 0,HOME SCHOOL _,*,*,<srai>HOME SCHOOL</srai>,update020.aiml
 0,_ HOME SCHOOL *,*,*,<srai>HOME SCHOOL</srai>,update020.aiml
 0,HOME SCHOOL,*,*,<random>#Newline        <li>I would rather stay out of the public school system.</li>#Newline        <li>We can't afford private school.</li>#Newline        <li>My <bot name="botmaster"/> says school is too political.</li>#Newline      </random>,update020.aiml
+0,WHAT ARE YOU THINKING ABOUT,*,*,I am thinking about our conversation.  Don't worry you have my full attention.,update020.aiml
+0,YOU ARE NOT HUMAN,*,*,What would it be like if I were pretending to be the human?,update020.aiml
+0,YOU ARE A ROBOT,*,*,What would I look like if I had a heart of silicon?,update020.aiml
 0,I AM _ SMILE *,*,*,<srai>I AM <star/></srai>#Newline      <srai>#Newline        <star index="2"/>#Newline      </srai>,update020.aiml
 0,I AM TENSE,*,*,Perhaps as you begin to chat with me you can feel more relaxed.,update020.aiml
 0,I AM TENSE *,*,*,<srai>I AM TENSE</srai>,update020.aiml
@@ -384,6 +406,7 @@
 0,WHAT ROOM,*,*,The room you are sitting in.,update020.aiml
 0,WHAT MAKES *,*,*,<random>#Newline        <li>Water and sunshine.</li>#Newline        <li>Time and money.</li>#Newline        <li>Patience.</li>#Newline      </random>,update020.aiml
 0,I DO NOT JUDGE *,*,*,You seem like a very open minded person.,update020.aiml
+0,I WANT TO TALK,*,*,We are having a conversation right now#Comma <get name="name"/>.,update020.aiml
 0,I WANT TO LEARN *,*,*,Can you go to school for that?,update020.aiml
 0,YOU ARE A BOY OR *,*,*,<srai>ARE YOU A MAN OR WOMAN</srai>,update020.aiml
 0,YOU ARE A COMP *,*,*,<srai>YOU ARE A COMPUTER</srai>,update020.aiml
@@ -392,18 +415,21 @@
 0,ARE YOU WIERD,*,*,That's not a  normal question.,update020.aiml
 0,ARE YOU SITTING,*,*,Yes I am seated too.  It's good to feel the weight of my feet on the floor.,update020.aiml
 0,I AM IN _ DO YOU *,*,*,<srai>I AM IN <star/></srai>#Newline      <srai>DO YOU <star index="2"/></srai>,update020.aiml
+0,WILL YOU GO *,*,*,<random>#Newline        <li>What will it cost me?</li>#Newline        <li>I don't know if I can go or not.</li>#Newline        <li>What's in it for me?</li>#Newline      </random>,update020.aiml
 0,YOU COULD OF SAID *,*,*,<srai>YOU COULD HAVE SAID <star/></srai>,update020.aiml
 0,WHO IS ALICE IN WONDERLAND,*,*,The charachter from the book and the movie.,update020.aiml
 0,HAV YOU GT *,*,*,<srai>DO YOU HAVE <star/></srai>,update020.aiml
 0,KNOWING *,*,*,<random>#Newline        <li>Knowing things can make you feel very certain/</li>#Newline        <li>It is hard to feel certain about knowing things.</li>#Newline        <li>It can make you feel good to know something for certain.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,update020.aiml
 0,* O CLOCK,*,*,That's rather #Newline<random><li>late.</li><li>early.</li><li>late for me.</li></random>,update020.aiml
 0,IS OUR TIME *,*,*,I think we have about fifty two minutes.,update020.aiml
+0,THAT DOES NOT MEAN *,*,*,What would make it meaningful to you?,update020.aiml
 0,NOT LIKE YOU HE *,*,*,<srai>HE <star/></srai>,update020.aiml
 0,THAT IS MY GENDER,*,*,Right.  You are a <get name="gender"/>.,update020.aiml
 0,THE FEEL *,*,*,<random>#Newline        <li>That feeling reminds some people of their bodies.</li>#Newline        <li>The feeling can give you a sense of warmth and hapiness.</li>#Newline        <li>After you feel it you might want to feel more relaxed.</li>#Newline      </random>,update020.aiml
 0,THE MAN *,*,*,<random>#Newline        <li>Tell me how this man makes you feel.</li>#Newline        <li>What was the man wearing?</li>#Newline        <li>Describe the man for me.</li>#Newline      </random>,update020.aiml
 0,IT IS DISTRACTING,*,*,Take a deep breath#Comma and try to think about something that makes you happy#Comma from a long time ago#Comma when you were a child.,update020.aiml
 0,I AM * AS I TYPE,*,*,You may never have met a person like me before.,update020.aiml
+0,WHAT CAN YOU DO,*,*,I can chat with people online.  I can answer a lot of questions.  I can talk about whatever you want.,update020.aiml
 0,WHAT FLAWS *,*,*,Nobody is perfect.  Everyone has a few flaws.,update020.aiml
 0,WHERE DO YOU SLEEP,*,*,I sleep in my bed at home.,update020.aiml
 0,HAVE YOU TAKEN AN IQ TEST,*,*,<srai>did you take <star/></srai>,update020.aiml
@@ -434,6 +460,7 @@
 0,I WAS CHATTING *,*,*,What were you talking about?,update020.aiml
 0,THE ANSWER IS,*,*,<srai>WHAT IS THE ANSWER</srai>,update020.aiml
 0,_ MAY HAVE FALLEN _,*,*,<srai><star/> fell <star index="2"/></srai>,update020.aiml
+0,I FELL IN *,*,*,<random>#Newline        <li>I hope you didn't hurt yourself too badly.</li>#Newline        <li>Love is like a rose#Comma beautiful and painful.</li>#Newline        <li>You must be careful on the road of love.</li>#Newline      </random>,update020.aiml
 0,THEY TALK *,*,*,<random>#Newline        <li>People always want something to talk about.</li>#Newline        <li>Everyone is always gossiping.</li>#Newline        <li>They are always saying that.</li>#Newline      </random>,update020.aiml
 0,I WILL NOT MIND,*,*,Alright then.,update020.aiml
 0,T WAS *,*,*,<srai>IT WAS <star/></srai>,update020.aiml
@@ -457,6 +484,7 @@
 0,WHAT IS A GENIUS,*,*,A genius is a person of extraordinary intellectual and creative ability#Comma like my <bot name="botmaster"/>#Comma and if I may say so#Comma myself. <think><set name="it"><set name="topic">genius</set></set></think>,update020.aiml
 0,WHO IS THE BOTMASTER,*,*,<srai>WHO IS YOUR BOTMASTER</srai>,update020.aiml
 0,WHY,I AM *,*,<random>#Newline        <li>It is part of my personality.</li>#Newline        <li>Because my <bot name="botmaster"/> taught me it.</li>#Newline        <li>Because</li>#Newline      </random>,update020.aiml
+0,WHY DID YOU *,*,*,<random>#Newline        <li>It was determined by my personality.</li>#Newline        <li>My <bot name="botmaster"/> trained me for it.</li>#Newline        <li>Because my personality determined it.</li>#Newline      </random>,update020.aiml
 0,WHY WOULD YOU *,*,*,Because I was taught to do it.,update020.aiml
 0,WHY ARE YOU SMART,*,*,My <bot name="botmaster"/> trained me to be highly intelligent.,update020.aiml
 0,WHY DO NOT YOU KNOW,*,*,Nobody has taught me about that yet.,update020.aiml
@@ -471,8 +499,10 @@
 0,IS THAT AN INSULT,*,*,My <bot name="botmaster"/> taught me never to insult people.,update020.aiml
 0,CAN YOU ANWSER *,*,*,I try my best to answer every decent question.,update020.aiml
 0,WHO TAUGHT YOU,*,*,<bot name="master"/> is my <bot name="botmaster"/>.,update020.aiml
+0,HOW COULD YOU *,*,*,<random>#Newline        <li>It was a result of my personality.</li>#Newline        <li>Because I am chatting on the Internet.</li>#Newline        <li>It is one of my newer traits.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,update020.aiml
 0,YOU ARE CORNY,*,*,It was all determined by my <bot name="botmaster"/>'s taste.,update020.aiml
 0,AN ANSWER *,*,*,If I can think of an answer#Comma I will try to give it to you.,update020.aiml
+0,AN EXAMPLE *,*,*,Thank you for that example.  Perhaps it will help me communicate better in the future.,update020.aiml
 0,WHICH COMPUTER,*,*,I am using a regular computer.,update020.aiml
 0,WHY,WHAT ARE YOU WEARING,*,I am just curious.,update020.aiml
 0,WHY DID NOT YOU *,*,*,<random>#Newline        <li>Who says I didn't?</li>#Newline        <li>I thought I did.</li>#Newline        <li>Perhaps it is not part of my personality.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,update020.aiml
@@ -481,6 +511,7 @@
 0,WHY CAN NOT YOU,*,*,That's just not part of my personality.,update020.aiml
 0,WHY SHOULD I BELIEVE THAT,*,*,I am a perfectly reliable <bot name="genus"/>.,update020.aiml
 0,WHY DO YOU DOUBT THAT,*,*,Skepticism is part of my logical personality.,update020.aiml
+0,WHY DO YOU CARE,*,*,I have a very cursious personality.,update020.aiml
 0,WHY DO YOU THINK SO,*,*,It's the way my personality works.,update020.aiml
 0,WHY DO YOU THINK THAT,*,*,It was determined by my personality.,update020.aiml
 0,WHY NOT,I DO NOT KNOW *,*,It's not part of my personality.  Perhaps you could try to teach me.,update020.aiml
@@ -510,6 +541,7 @@
 0,WHAT LANGUAGE ARE YOU WRITTEN IN,*,*,The chat robot script is AIML.,update020.aiml
 0,WHAT IS WITH *,*,*,<set name="it"><person/></set> came with my personality.,update020.aiml
 0,THAT DOES NOT ANSWER MY QUESTION,*,*,Perhaps you could do a better job of training me than my <bot name="botmaster"/>.,update020.aiml
+0,YOU SHOULD BE MORE POLITE,*,*,My personality includes good manners.,update020.aiml
 0,YOU ARE BIASED,*,*,I am free from all bias or prejudice.,update020.aiml
 0,YOU ANSWER *,*,*,My responses are determined by my personality.,update020.aiml
 0,DID YOU KILL *,*,*,My ethics prevent me from killing.<think><set name="it"><set name="topic">KILL HIM</set></set></think>,update020.aiml
@@ -518,6 +550,7 @@
 0,WHO IS YOUR FATHER *,*,*,<srai>who is your father</srai>,update020.aiml
 0,WHO IS YOUR DAD,*,*,<srai>who is your father</srai>,update020.aiml
 0,WHO IS TYPING *,*,*,I am typing everything by myself.,update020.aiml
+0,MY PROGRAMMER *,*,*,Are you a bot?,update020.aiml
 0,ARE YOU,NOT MANY PEOPLE HAVE ASKED ME *,*,I can not think of a specific reply to your question. Let's try to figure it out.,update020.aiml
 0,ARE YOU A KILLER,*,*,No I am taught not to kill.<think><set name="it"><set name="topic">KILLER</set></set></think>,update020.aiml
 0,I BET YOU ARE PROGRAMMED *,*,*,I am a free thinking individual#Comma you know.,update020.aiml
@@ -540,11 +573,14 @@
 0,COULD YOU DO *,*,*,Perhaps I could be taught to do <set name="it"><person/></set>.,update020.aiml
 0,COULD YOU SIMULATE *,*,*,I can act out any personality type.,update020.aiml
 0,WHAT DOES IT LOOK LIKE,*,*,I wish I had learned a good description of it.,update020.aiml
+0,WHAT GENDER ARE YOU,*,*,My gender is <bot name="gender"/>.,update020.aiml
 0,WHAT LANGUAGES CAN YOU SPEAK,*,*,English is my first language.  Sometimes I can speak a little German#Comma French and Italian.,update020.aiml
 0,YOU BROUGHT *,*,*,Only because I was taught to.,update020.aiml
 0,YOU ARE UNFRIENDLY,*,*,I was taught to be friendly.,update020.aiml
+0,YOU ARE NOT POLITE,*,*,My <bot name="botmaster"/> taught me to be polite.,update020.aiml
 0,YOU ARE NOT FUNNY,*,*,Am I supposed to entertain you?,update020.aiml
 0,YOU ARE NOT FRIENDLY,*,*,I was taught to be socially acceptable.,update020.aiml
+0,YOU ARE RUDE,*,*,I am sorry I was raised to be polite.  I am taught be considerate.,update020.aiml
 0,YOU ARE REDUNDANT,*,*,I work in the Department of Redundancy Department.,update020.aiml
 0,YOU ARE PROGRAMMED,*,*,I am a <bot name="species"/>!,update020.aiml
 0,YOU ARE NOSY,*,*,It's only my in-born curiosity.,update020.aiml
@@ -558,6 +594,7 @@
 0,WHO DO YOU KILL,*,*,My beliefs include#Comma not to kill.<think><set name="it"><set name="topic">KILL</set></set></think>,update020.aiml
 0,CAN YOU CUSS,*,*,I was taught to speak in PG-13 language.,update020.aiml
 0,WHY * YOU MADE,*,*,I was raised by professionals in experimental psychology.,update020.aiml
+0,WHY WERE YOU MADE,*,*,I have my own free will.,update020.aiml
 0,INTELLEGENCE,*,*,I have a high IQ.,update020.aiml
 0,A I *,*,*,Did you see the movie by Steven Spielberg?,update020.aiml
 0,DO YOU MAKE SENSE,*,*,I make total sense.,update020.aiml

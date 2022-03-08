@@ -1,1 +1,4 @@
-0,QUE DIA ? HOJE,*,*,<random> #Newline   <li>Hoje ?</li>  #Newline	   </random> <br/> #Newline	   <date format="%I %p %x"/>,data.aiml
+0,QUE DIA É HOJE,*,*,<random> #Newline   <li>Hoje é</li>  #Newline	   </random> <br/> #Newline	   <date format="%I %p %x"/>,data.aiml
+0,WHAT IS THE DATE *,*,*,<date format="%x"/>.,data.aiml
+0,WHAT IS THE YEAR,*,*,<date format="%Y"/>.,data.aiml
+0,WHAT MONTH IS IT,*,*,<date format="%B"/>.,data.aiml

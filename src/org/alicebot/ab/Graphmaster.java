@@ -19,8 +19,7 @@ package org.alicebot.ab;
         Boston, MA  02110-1301, USA.
 */
 
-import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -37,7 +36,7 @@ public class Graphmaster {
     public final Nodemapper root;
     public int matchCount = 0;
     public int upgradeCnt = 0;
-    public HashSet<String> vocabulary;
+    public SortedSet<String> vocabulary;
     public String resultNote = "";
     public int categoryCnt = 0;
     public static boolean enableShortCuts = false;
@@ -55,7 +54,7 @@ public class Graphmaster {
         root = new Nodemapper();
         this.bot = bot;
         this.name = name;
-        vocabulary = new HashSet<String>();
+        vocabulary = new TreeSet<String>();
     }
 
 
@@ -675,8 +674,8 @@ public class Graphmaster {
         }
     }
 
-    public HashSet<String> getVocabulary () {
-        vocabulary = new HashSet<String>();
+    public SortedSet<String> getVocabulary () {
+        vocabulary = new TreeSet<String>();
         getBrainVocabulary(root);
         for (String set : bot.setMap.keySet()) vocabulary.addAll(bot.setMap.get(set));
         return vocabulary;

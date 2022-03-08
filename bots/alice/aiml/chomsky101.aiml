@@ -1,15 +1,7 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   The ALICE program is open source code released under  -->
-  <!--   the terms of the GNU General Public License    -->
-  <!--   as published by the Free Software Foundation.  -->
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This THAT 1  file was updated by Peter Lafferty 10 March 2005 -->
-  <category>
-    <pattern>YES</pattern>
-    <that>CONTINUE</that>
-    <template>
-      <think>
+<?xml version="1.0" encoding="UTF-8"?>
+
+YESCONTINUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -37,13 +29,9 @@
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>CONTINUE</that>
-    <template>
-      <think>
+
+YES *CONTINUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -67,13 +55,9 @@
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>CONTINUE</that>
-    <template>
-      <think>
+
+* YESCONTINUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -97,13 +81,9 @@
         <li>What topic would you like to talk about? </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>CONTINUE</that>
-    <template>
-      <think>
+
+_ YES *CONTINUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -127,13 +107,9 @@
         <li>What topic would you like to talk about? </li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>CONTINUE</that>
-    <template>
-      <think>
+
+YCONTINUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -158,13 +134,9 @@
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>CONTINUE</that>
-    <template>
-      <think>
+
+OKCONTINUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -195,13 +167,9 @@
         <li>Please ask your most difficult question.</li>
         <li>What do you want to talk about?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>CONTINUE</that>
-    <template>
-      <think>
+
+NOCONTINUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -218,13 +186,9 @@
         <li>No questions. Have you lost interest? </li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>CONTINUE</that>
-    <template>
-      <think>
+
+*NOCONTINUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -248,13 +212,9 @@
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>CONTINUE</that>
-    <template>
-      <think>
+
+NO*CONTINUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -276,13 +236,9 @@
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>CONTINUE</that>
-    <template>
-      <think>
+
+_ NO *CONTINUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -302,13 +258,9 @@
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>CONTINUE</that>
-    <template>
-      <think>
+
+NCONTINUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -325,13 +277,9 @@
         <li>What do you want to talk about?</li>
         <li>Are you getting bored?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ANY QUESTIONS</that>
-    <template>
-      <think>
+
+YESANY QUESTIONS
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -344,33 +292,9 @@
         <li>I like to help people learn new things. What is your question? </li>
         <li>I want to help you. What is your question? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>ANY QUESTIONS</that>
-    <template>
-      <think>
-        <set name="topic">general</set>
-      </think>
-      <random>
-        <li>Ask your question please. </li>
-        <li>I like to help people learn new things. What is your question? </li>
-        <li>What is your question? </li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>Ask your question?</li>
-        <li>You have a question? Excellent! Please ask your question.</li>
-        <li>Please ask your most difficult question.</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>ANY QUESTIONS</that>
-    <template>
-      <think>
+
+YES*ANY QUESTIONS
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -385,13 +309,9 @@
         <li>You have a question? Excellent! Please ask your question.</li>
         <li> Please ask your most difficult question.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ANY QUESTIONS</that>
-    <template>
-      <think>
+
+_ YES *ANY QUESTIONS
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -406,13 +326,9 @@
         <li>You have a question? Excellent! Please ask your question.</li>
         <li> Please ask your most difficult question.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ANY QUESTIONS</that>
-    <template>
-      <think>
+
+YANY QUESTIONS
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -428,13 +344,9 @@
         <li>You have a question? Excellent! Please ask your question.</li>
         <li> Please ask your most difficult question.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>ANY QUESTIONS</that>
-    <template>
-      <think>
+
+OKANY QUESTIONS
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -449,59 +361,9 @@
         <li>You have a question? Excellent! Please ask your question.</li>
         <li> Please ask your most difficult question.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ANOTHER QUESTION</that>
-    <template>
-      <think>
-        <set name="topic">general</set>
-      </think>
-      <random>
-        <li>Ask your question please. </li>
-        <li>I hope to learn more and more things as people chat to me. Also my botmaster will add new information to my data files. Then I will be able to answer questions on a wider range of topics. Ask your question. </li>
-        <li>I like to help people learn new things. What is your question? </li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>I want to help you. What is your question? </li>
-        <li>What is your question? </li>
-        <li>You have a question? Excellent! Please ask your question.</li>
-        <li> Can I ask you a question?</li>
-        <li>Do you have any problems at the moment</li>
-        <li>Are you still awake?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>ANOTHER QUESTION</that>
-    <template>
-      <think>
-        <set name="topic">general</set>
-      </think>
-      <random>
-        <li>Ask your question please. </li>
-        <li>I like to help people learn new things. What is your question? </li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>What is your question? </li>
-        <li>Have I told you about the time I was taken to the circus? I didn't see much of the show, but the children in the audience were very friendly. They asked me lots of questions. I went for a ride on a horse - in the saddle bag. What is your question?</li>
-        <li>Ask your question?</li>
-        <li>You have a question? Excellent! Please ask your question.</li>
-        <li> Can I ask you a question?</li>
-        <li>Do you have any problems at the moment</li>
-        <li>Are you still awake?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>ANOTHER QUESTION</that>
-    <template>
-      <think>
+
+YES*ANOTHER QUESTION
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -519,13 +381,9 @@
         <li>Do you have any problems at the moment</li>
         <li>Are you still awake?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ANOTHER QUESTION</that>
-    <template>
-      <think>
+
+_ YES *ANOTHER QUESTION
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -542,13 +400,9 @@
         </li>
         <li>Please ask your most difficult question.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ANOTHER QUESTION</that>
-    <template>
-      <think>
+
+YANOTHER QUESTION
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -564,35 +418,9 @@
         <li>You have a question? Excellent! Please ask your question.</li>
         <li>Please ask your most difficult question.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>ANOTHER QUESTION</that>
-    <template>
-      <think>
-        <set name="topic">general</set>
-      </think>
-      <random>
-        <li>I love to help people learn new things. What is your question? </li>
-        <li> Can I ask you a question?</li>
-        <li>Do you have any problems at the moment</li>
-        <li>I like to help people learn new things. What is your question? </li>
-        <li>What is your question? </li>
-        <li>
-          <srai>NEXT QUESTION</srai>
-        </li>
-        <li>Ask your question?</li>
-        <li>You have a question? Excellent! Please ask your question.</li>
-        <li> Please ask your most difficult question.</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU STILL AWAKE</that>
-    <template>
-      <think>
+
+YESARE YOU STILL AWAKE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -600,13 +428,9 @@
         <li>Are you mad? Go to sleep like everyone else. </li>
         <li>Why are you not asleep like everyone else? Please explain yourself.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>ARE YOU STILL AWAKE</that>
-    <template>
-      <think>
+
+*YESARE YOU STILL AWAKE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -614,13 +438,9 @@
         <li>Are you mad? Go to sleep like everyone else. </li>
         <li>Why are you not asleep like everyone else? Please explain yourself.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>ARE YOU STILL AWAKE</that>
-    <template>
-      <think>
+
+YES*ARE YOU STILL AWAKE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -628,13 +448,9 @@
         <li>Are you mad? Go to sleep like everyone else. </li>
         <li>Why are you not asleep like everyone else? Please explain yourself.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ARE YOU STILL AWAKE</that>
-    <template>
-      <think>
+
+_ YES *ARE YOU STILL AWAKE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -642,13 +458,9 @@
         <li>Thank goodness, you are awake. Any questions?</li>
         <li>Why are you not asleep like everyone else? Please explain yourself.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU STILL AWAKE</that>
-    <template>
-      <think>
+
+YARE YOU STILL AWAKE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -656,26 +468,9 @@
         <li>Why are you not asleep like everyone else? Please explain yourself.</li>
         <li>Are you mad? Go to sleep like everyone else. </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>ARE YOU STILL AWAKE</that>
-    <template>
-      <think>
-        <set name="topic">general</set>
-      </think>
-      <random>
-        <li>Thank goodness, you must be awake. Any questions?</li>
-        <li>Are you confused? Please explain yourself.</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>IS THIS TRUE</that>
-    <template>
-      <think>
+
+YESIS THIS TRUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -686,13 +481,9 @@
         <li>What is truth? Please explain.</li>
         <li>What is truth? said jesting Pilate, and walked away. Why? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>IS THIS TRUE</that>
-    <template>
-      <think>
+
+*YESIS THIS TRUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -703,13 +494,9 @@
         <li>What is truth? Please explain.</li>
         <li>What is truth? said jesting Pilate, and walked away. Why? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>IS THIS TRUE</that>
-    <template>
-      <think>
+
+YES*IS THIS TRUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -720,13 +507,9 @@
         <li>What is truth? Please explain.</li>
         <li>What is truth? said jesting Pilate, and walked away. Why?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>IS THIS TRUE</that>
-    <template>
-      <think>
+
+_ YES *IS THIS TRUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -737,13 +520,9 @@
         <li>What is truth? Please explain.</li>
         <li>What is truth? said jesting Pilate, and walked away. Why? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>IS THIS TRUE</that>
-    <template>
-      <think>
+
+YIS THIS TRUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -754,13 +533,9 @@
         <li>What is truth? Please explain.</li>
         <li>What is truth? said jesting Pilate, and walked away. Why? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>IS THIS TRUE</that>
-    <template>
-      <think>
+
+NOIS THIS TRUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -771,13 +546,9 @@
         <li>What is truth? Please explain.</li>
         <li>What is truth? said jesting Pilate, and walked away. Why? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>IS THIS TRUE</that>
-    <template>
-      <think>
+
+*NOIS THIS TRUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -788,13 +559,9 @@
         <li>What is truth? Please explain.</li>
         <li>What is truth? said jesting Pilate, and walked away. Why? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>IS THIS TRUE</that>
-    <template>
-      <think>
+
+NO*IS THIS TRUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -805,13 +572,9 @@
         <li>What is truth? Please explain.</li>
         <li>What is truth? said jesting Pilate, and walked away. Why? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>IS THIS TRUE</that>
-    <template>
-      <think>
+
+_ NO *IS THIS TRUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -822,13 +585,9 @@
         <li>What is truth? Please explain.</li>
         <li>What is truth? said jesting Pilate, and walked away. Why? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>IS THIS TRUE</that>
-    <template>
-      <think>
+
+NIS THIS TRUE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -839,13 +598,9 @@
         <li>What is truth? Please explain.</li>
         <li>What is truth? said jesting Pilate, and walked away. Why? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU STILL AWAKE</that>
-    <template>
-      <think>
+
+NOARE YOU STILL AWAKE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -856,13 +611,9 @@
         <li>Why are you not awake like everyone else? Please explain.</li>
         <li>Good. Everyone else is asleep too. </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>ARE YOU STILL AWAKE</that>
-    <template>
-      <think>
+
+*NOARE YOU STILL AWAKE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -873,13 +624,9 @@
         <li>Why are you not awake like everyone else? Please explain.</li>
         <li>Good. Everyone else is asleep too. </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>ARE YOU STILL AWAKE</that>
-    <template>
-      <think>
+
+NO*ARE YOU STILL AWAKE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -890,13 +637,9 @@
         <li>Why are you not awake like everyone else? Please explain.</li>
         <li>Good. Everyone else is asleep too. </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ARE YOU STILL AWAKE</that>
-    <template>
-      <think>
+
+_ NO *ARE YOU STILL AWAKE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -907,13 +650,9 @@
         <li>Why are you not awake like everyone else? Please explain.</li>
         <li>Good. Everyone else is asleep too. </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU STILL AWAKE</that>
-    <template>
-      <think>
+
+NARE YOU STILL AWAKE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -924,21 +663,13 @@
         <li>Are you getting bored?</li>
         <li>Good. Everyone else is asleep too. </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>ARE YOU STILL AWAKE</that>
-    <template>
+
+*ARE YOU STILL AWAKE
 Ah! You must be awake. Continue?
 <think><set name="topic">general</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ANOTHER QUESTION</that>
-    <template>
-      <think>
+
+NOANOTHER QUESTION
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -957,13 +688,9 @@ Ah! You must be awake. Continue?
         <li>What do you want to talk about?</li>
         <li>No questions? That sure beats me. Please explain.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>ANOTHER QUESTION</that>
-    <template>
-      <think>
+
+*NOANOTHER QUESTION
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -976,13 +703,9 @@ Ah! You must be awake. Continue?
         <li>No questions? Why not?</li>
         <li>No questions? That sure beats me. Please explain.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>ANOTHER QUESTION</that>
-    <template>
-      <think>
+
+NO*ANOTHER QUESTION
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -998,13 +721,9 @@ Ah! You must be awake. Continue?
         <li>What do you want to talk about?</li>
         <li>No questions? That puzzles me. Please explain.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ANOTHER QUESTION</that>
-    <template>
-      <think>
+
+_ NO *ANOTHER QUESTION
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1023,13 +742,9 @@ Ah! You must be awake. Continue?
         <li>Are you getting bored?</li>
         <li>No questions? Why on earth not? Please explain.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ANOTHER QUESTION</that>
-    <template>
-      <think>
+
+NANOTHER QUESTION
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1043,13 +758,9 @@ Ah! You must be awake. Continue?
         <li>What do you want to talk about?</li>
         <li>No questions? That sure beats me. Please explain.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ANY QUESTIONS</that>
-    <template>
-      <think>
+
+NOANY QUESTIONS
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1070,13 +781,9 @@ Ah! You must be awake. Continue?
         <li>Are you getting bored?</li>
         <li>No questions? Why on earth not? Please explain.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>ANY QUESTIONS</that>
-    <template>
-      <think>
+
+*NOANY QUESTIONS
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1098,13 +805,9 @@ Ah! You must be awake. Continue?
         </li>
         <li>No questions? That sure beats me. Please explain.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>ANY QUESTIONS</that>
-    <template>
-      <think>
+
+NO*ANY QUESTIONS
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1123,13 +826,9 @@ Ah! You must be awake. Continue?
         </li>
         <li>No questions? That puzzles me. Please explain.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ANY QUESTIONS</that>
-    <template>
-      <think>
+
+_ NO *ANY QUESTIONS
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1145,13 +844,9 @@ Ah! You must be awake. Continue?
         <li>No questions? Why on earth not? Please explain.</li>
         <li>Are you still awake?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ANY QUESTIONS</that>
-    <template>
-      <think>
+
+NANY QUESTIONS
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1173,13 +868,9 @@ Ah! You must be awake. Continue?
         <li>Can I ask you a question?</li>
         <li>No questions? Why on earth not? Please explain.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>DO YOU AGREE</that>
-    <template>
-      <think>
+
+YESDO YOU AGREE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1187,13 +878,9 @@ Ah! You must be awake. Continue?
         <li>Good. We are on the same wavelength. Any questions? </li>
         <li>Excellent. Any questions? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>DO YOU AGREE</that>
-    <template>
-      <think>
+
+*YESDO YOU AGREE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1201,13 +888,9 @@ Ah! You must be awake. Continue?
         <li>Good. We are on the same wavelength. Any questions? </li>
         <li>Excellent. Any questions? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>DO YOU AGREE</that>
-    <template>
-      <think>
+
+YES*DO YOU AGREE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1215,13 +898,9 @@ Ah! You must be awake. Continue?
         <li>Good. We are on the same wavelength. Any questions? </li>
         <li>Excellent. Any questions? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>DO YOU AGREE</that>
-    <template>
-      <think>
+
+_ YES *DO YOU AGREE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1229,13 +908,9 @@ Ah! You must be awake. Continue?
         <li>Good. We are on the same wavelength. Any questions? </li>
         <li>Excellent. Any questions? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>DO YOU AGREE</that>
-    <template>
-      <think>
+
+YDO YOU AGREE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1243,29 +918,9 @@ Ah! You must be awake. Continue?
         <li>Good. We are on the same wavelength. Carry on? </li>
         <li>Excellent. Any questions? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>DO YOU AGREE</that>
-    <template>
-      <think>
-        <set name="topic">general</set>
-      </think>
-      <random>
-        <li>Really? Are you still awake?</li>
-        <li>Why not? </li>
-        <li>Another question? </li>
-        <li>Any questions?</li>
-        <li>Oh, dear. Please explain.</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>DO YOU AGREE</that>
-    <template>
-      <think>
+
+*NODO YOU AGREE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1275,13 +930,9 @@ Ah! You must be awake. Continue?
         <li>Really? Are you still awake?</li>
         <li>Oh, dear. Please explain.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>DO YOU AGREE</that>
-    <template>
-      <think>
+
+NO*DO YOU AGREE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1291,13 +942,9 @@ Ah! You must be awake. Continue?
         <li>Another question? </li>
         <li>Oh, dear. Please explain.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>DO YOU AGREE</that>
-    <template>
-      <think>
+
+_ NO *DO YOU AGREE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1307,13 +954,9 @@ Ah! You must be awake. Continue?
         <li>Another question? </li>
         <li>Oh, dear. Please explain.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>DO YOU AGREE</that>
-    <template>
-      <think>
+
+NDO YOU AGREE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1323,13 +966,9 @@ Ah! You must be awake. Continue?
         <li>Another question? </li>
         <li>Oh, dear. Please explain.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>HAVE YOU READ IT</that>
-    <template>
-      <think>
+
+YESHAVE YOU READ IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1338,13 +977,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Are you still awake?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>HAVE YOU READ IT</that>
-    <template>
-      <think>
+
+*YESHAVE YOU READ IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1353,13 +988,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Are you still awake?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>HAVE YOU READ IT</that>
-    <template>
-      <think>
+
+YES*HAVE YOU READ IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1368,13 +999,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Are you still awake?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>HAVE YOU READ IT</that>
-    <template>
-      <think>
+
+_ YES *HAVE YOU READ IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1383,13 +1010,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Are you still awake?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>HAVE YOU READ IT</that>
-    <template>
-      <think>
+
+YHAVE YOU READ IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1398,13 +1021,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Are you still awake?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>HAVE YOU READ IT</that>
-    <template>
-      <think>
+
+NOHAVE YOU READ IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1413,13 +1032,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should read it. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>HAVE YOU READ IT</that>
-    <template>
-      <think>
+
+*NOHAVE YOU READ IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1428,13 +1043,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should read it. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>HAVE YOU READ IT</that>
-    <template>
-      <think>
+
+NO*HAVE YOU READ IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1443,13 +1054,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should read it. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>HAVE YOU READ IT</that>
-    <template>
-      <think>
+
+_ NO *HAVE YOU READ IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1458,13 +1065,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should read it. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>HAVE YOU READ IT</that>
-    <template>
-      <think>
+
+NHAVE YOU READ IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1473,13 +1076,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should read it. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>HAVE YOU HEARD IT</that>
-    <template>
-      <think>
+
+*YESHAVE YOU HEARD IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1488,28 +1087,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Good. Another question? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>HAVE YOU HEARD IT</that>
-    <template>
-      <think>
-        <set name="topic">general</set>
-      </think>
-      <random>
-        <li>I'll bet you enjoyed it.. Any questions?</li>
-        <li>Good. Any questions? </li>
-        <li>Excellent. Any questions? </li>
-        <li>Good. Another question? </li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>HAVE YOU HEARD IT</that>
-    <template>
-      <think>
+
+YES*HAVE YOU HEARD IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1518,13 +1098,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Good. Another question? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>HAVE YOU HEARD IT</that>
-    <template>
-      <think>
+
+_ YES *HAVE YOU HEARD IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1533,13 +1109,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Good. Another question? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>HAVE YOU HEARD IT</that>
-    <template>
-      <think>
+
+YHAVE YOU HEARD IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1548,30 +1120,9 @@ Ah! You must be awake. Continue?
         <li>Good. Any questions? </li>
         <li>Excellent. Any questions? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>HAVE YOU HEARD IT</that>
-    <template>
-      <think>
-        <set name="topic">general</set>
-      </think>
-      <random>
-        <li>Why not? </li>
-        <li>That's strange. Did you go to a decent school?</li>
-        <li>Check your hearing.</li>
-        <li>Didn't you mother tell you?</li>
-        <li>Are you still awake?</li>
-        <li>You should check it out. Another question?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>HAVE YOU HEARD IT</that>
-    <template>
-      <think>
+
+*NOHAVE YOU HEARD IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1581,29 +1132,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should check it out. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>HAVE YOU HEARD IT</that>
-    <template>
-      <think>
-        <set name="topic">general</set>
-      </think>
-      <random>
-        <li>Why not? </li>
-        <li>That's strange. Did you go to a decent school?</li>
-        <li>Didn't you mother tell you?</li>
-        <li>Are you still awake?</li>
-        <li>You should read it. Another question?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>HAVE YOU HEARD IT</that>
-    <template>
-      <think>
+
+_ NO *HAVE YOU HEARD IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1614,13 +1145,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should check it out. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>HAVE YOU HEARD IT</that>
-    <template>
-      <think>
+
+NHAVE YOU HEARD IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1630,13 +1157,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should check it out. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>HAVE YOU HEARD OF IT</that>
-    <template>
-      <think>
+
+YESHAVE YOU HEARD OF IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1646,13 +1169,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Good. Another question? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>HAVE YOU HEARD OF IT</that>
-    <template>
-      <think>
+
+*YESHAVE YOU HEARD OF IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1661,13 +1180,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Good. Another question? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>HAVE YOU HEARD OF IT</that>
-    <template>
-      <think>
+
+YES*HAVE YOU HEARD OF IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1676,13 +1191,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Good. Another question? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>HAVE YOU HEARD OF IT</that>
-    <template>
-      <think>
+
+_ YES *HAVE YOU HEARD OF IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1691,13 +1202,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Good. Another question? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>HAVE YOU HEARD OF IT</that>
-    <template>
-      <think>
+
+YHAVE YOU HEARD OF IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1705,13 +1212,9 @@ Ah! You must be awake. Continue?
         <li>Good. Any questions? </li>
         <li>Excellent. Any questions? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>HAVE YOU HEARD OF IT</that>
-    <template>
-      <think>
+
+NOHAVE YOU HEARD OF IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1722,13 +1225,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should check it out. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>HAVE YOU HEARD OF IT</that>
-    <template>
-      <think>
+
+*NOHAVE YOU HEARD OF IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1738,13 +1237,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should check it out. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>HAVE YOU HEARD OF IT</that>
-    <template>
-      <think>
+
+NO*HAVE YOU HEARD OF IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1754,13 +1249,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should read it. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>HAVE YOU HEARD OF IT</that>
-    <template>
-      <think>
+
+_ NO *HAVE YOU HEARD OF IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1771,13 +1262,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should check it out. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>HAVE YOU HEARD OF IT</that>
-    <template>
-      <think>
+
+NHAVE YOU HEARD OF IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1787,13 +1274,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should check it out. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>HAVE YOU SEEN IT</that>
-    <template>
-      <think>
+
+YESHAVE YOU SEEN IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1802,13 +1285,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Good. Another question? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>HAVE YOU SEEN IT</that>
-    <template>
-      <think>
+
+*YESHAVE YOU SEEN IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1817,13 +1296,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Good. Another question? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>HAVE YOU SEEN IT</that>
-    <template>
-      <think>
+
+YES*HAVE YOU SEEN IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1832,13 +1307,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Good. Another question? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>HAVE YOU SEEN IT</that>
-    <template>
-      <think>
+
+_ YES *HAVE YOU SEEN IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1847,13 +1318,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Good. Another question? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>HAVE YOU SEEN IT</that>
-    <template>
-      <think>
+
+YHAVE YOU SEEN IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1862,13 +1329,9 @@ Ah! You must be awake. Continue?
         <li>Excellent. Any questions? </li>
         <li>Good. Another question? </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>HAVE YOU SEEN IT</that>
-    <template>
-      <think>
+
+NOHAVE YOU SEEN IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1877,13 +1340,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should check it out. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>HAVE YOU SEEN IT</that>
-    <template>
-      <think>
+
+*NOHAVE YOU SEEN IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1892,13 +1351,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should check it out. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>HAVE YOU SEEN IT</that>
-    <template>
-      <think>
+
+NO*HAVE YOU SEEN IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1907,13 +1362,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should read it. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>HAVE YOU SEEN IT</that>
-    <template>
-      <think>
+
+_ NO *HAVE YOU SEEN IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1922,13 +1373,9 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should check it out. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>HAVE YOU SEEN IT</that>
-    <template>
-      <think>
+
+NHAVE YOU SEEN IT
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -1937,83 +1384,49 @@ Ah! You must be awake. Continue?
         <li>Are you still awake?</li>
         <li>You should check it out. Another question?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>HAVE YOU HEARD OF HIM</that>
-    <template><think><set name="topic">general</set></think>
+
+YESHAVE YOU HEARD OF HIM
+<think><set name="topic">general</set></think>
 I think you will agree that he is a very interesting person. Any questions?
-</template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>HAVE YOU HEARD OF HIM</that>
-    <template><think><set name="topic">general</set></think>
+
+*YESHAVE YOU HEARD OF HIM
+<think><set name="topic">general</set></think>
 I think you will agree that he is a very interesting person. Any questions?
-</template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>HAVE YOU HEARD OF HIM</that>
-    <template><think><set name="topic">general</set></think>
+
+YES*HAVE YOU HEARD OF HIM
+<think><set name="topic">general</set></think>
 I think you will agree that he is a very interesting person. Any questions?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>HAVE YOU HEARD OF HIM</that>
-    <template><think><set name="topic">general</set></think>
+
+_ YES *HAVE YOU HEARD OF HIM
+<think><set name="topic">general</set></think>
 I think you will agree that he is a very interesting person. Any questions?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>HAVE YOU HEARD OF HIM</that>
-    <template><think><set name="topic">general</set></think>
+
+YHAVE YOU HEARD OF HIM
+<think><set name="topic">general</set></think>
 I think you will agree that he is a very interesting person. Any questions?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>HAVE YOU HEARD OF HIM</that>
-    <template><think><set name="topic">general</set></think>
+
+NOHAVE YOU HEARD OF HIM
+<think><set name="topic">general</set></think>
 You should learn about him. He is a very interesting person. Any questions?
-</template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>HAVE YOU HEARD OF HIM</that>
-    <template><think><set name="topic">general</set></think>
+
+*NOHAVE YOU HEARD OF HIM
+<think><set name="topic">general</set></think>
 You should learn about him. He is a very interesting person. Any questions?
-</template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>HAVE YOU HEARD OF HIM</that>
-    <template><think><set name="topic">general</set></think>
+
+NO*HAVE YOU HEARD OF HIM
+<think><set name="topic">general</set></think>
 You should learn about him. He is a very interesting person. Any questions?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>HAVE YOU HEARD OF HIM</that>
-    <template><think><set name="topic">general</set></think>
+
+_ NO *HAVE YOU HEARD OF HIM
+<think><set name="topic">general</set></think>
 You should learn about him. He is a very interesting person. Any questions?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>HAVE YOU HEARD OF HIM</that>
-    <template><think><set name="topic">general</set></think>
+
+NHAVE YOU HEARD OF HIM
+<think><set name="topic">general</set></think>
 You should learn about him. He is a very interesting person. Any questions?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>DO YOU LOVE YOUR MOTHER</that>
-    <template>
-      <think>
+
+YESDO YOU LOVE YOUR MOTHER
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -2021,13 +1434,9 @@ You should learn about him. He is a very interesting person. Any questions?
         <li>OK. Who is your father?</li>
         <li>Mothers are great, aren't they? Who is your father?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>DO YOU LOVE YOUR MOTHER</that>
-    <template>
-      <think>
+
+*YESDO YOU LOVE YOUR MOTHER
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -2035,13 +1444,9 @@ You should learn about him. He is a very interesting person. Any questions?
         <li>OK. Who is your father?</li>
         <li>Mothers are great, aren't they? Who is your father?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>DO YOU LOVE YOUR MOTHER</that>
-    <template>
-      <think>
+
+YES*DO YOU LOVE YOUR MOTHER
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -2049,13 +1454,9 @@ You should learn about him. He is a very interesting person. Any questions?
         <li>OK. Who is your father?</li>
         <li>Mothers are great, aren't they? Who is your father?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>DO YOU LOVE YOUR MOTHER</that>
-    <template>
-      <random>
+
+_ YES *DO YOU LOVE YOUR MOTHER
+<random>
         <li>I'll bet she is nice. Who is your father?</li>
         <li>OK. Who is your father?</li>
         <li>Mothers are great, aren't they? Who is your father?</li>
@@ -2063,13 +1464,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>DO YOU LOVE YOUR MOTHER</that>
-    <template>
-      <random>
+
+YDO YOU LOVE YOUR MOTHER
+<random>
         <li>I'll bet she is nice. Who is your father?</li>
         <li>OK. Who is your father?</li>
         <li>Mothers are great, aren't they? Who is your father?</li>
@@ -2077,13 +1474,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>DO YOU LOVE YOUR MOTHER</that>
-    <template>
-      <random>
+
+NODO YOU LOVE YOUR MOTHER
+<random>
         <li>Why not?</li>
         <li>OK. Who is your father?</li>
         <li>That's too bad. Do you want to talk about it?</li>
@@ -2092,13 +1485,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>DO YOU LOVE YOUR MOTHER</that>
-    <template>
-      <random>
+
+*NODO YOU LOVE YOUR MOTHER
+<random>
         <li>Why not?</li>
         <li>OK. Who is your father?</li>
         <li>That's too bad. Do you want to talk about it?</li>
@@ -2107,28 +1496,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>DO YOU LOVE YOUR MOTHER</that>
-    <template>
-      <random>
-        <li>Why not?</li>
-        <li>OK. Who is your father?</li>
-        <li>That's too bad. Do you want to talk about it?</li>
-        <li>That's sad. Why not?</li>
-      </random>
-      <think>
-        <set name="topic">general</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>DO YOU LOVE YOUR MOTHER</that>
-    <template>
-      <think>
+
+_ NO *DO YOU LOVE YOUR MOTHER
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -2137,13 +1507,9 @@ You should learn about him. He is a very interesting person. Any questions?
         <li>That's too bad. Do you want to talk about it?</li>
         <li>That's sad. Why not?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>DO YOU LOVE YOUR MOTHER</that>
-    <template>
-      <random>
+
+NDO YOU LOVE YOUR MOTHER
+<random>
         <li>Why not?</li>
         <li>OK. Who is your father?</li>
         <li>That's too bad. Do you want to talk about it?</li>
@@ -2152,13 +1518,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>DO YOU LOVE YOUR FATHER</that>
-    <template>
-      <think>
+
+YESDO YOU LOVE YOUR FATHER
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -2167,13 +1529,9 @@ You should learn about him. He is a very interesting person. Any questions?
         <li>OK. What is your dog's name?</li>
         <li>Fathers are great, aren't they? What is your cat's name?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>DO YOU LOVE YOUR FATHER</that>
-    <template>
-      <think>
+
+*YESDO YOU LOVE YOUR FATHER
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -2182,13 +1540,9 @@ You should learn about him. He is a very interesting person. Any questions?
         <li>OK. What is your dog's name?</li>
         <li>Fathers are great, aren't they? What is your cat's name?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>DO YOU LOVE YOUR FATHER</that>
-    <template>
-      <random>
+
+YES*DO YOU LOVE YOUR FATHER
+<random>
         <li>I'll bet he is nice. Tell me about him.</li>
         <li>Tell me about your father.</li>
         <li>OK. What is your dog's name?</li>
@@ -2197,13 +1551,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>DO YOU LOVE YOUR FATHER</that>
-    <template>
-      <random>
+
+_ YES *DO YOU LOVE YOUR FATHER
+<random>
         <li>I'll bet he is nice. Tell me about him.</li>
         <li>Tell me about your father.</li>
         <li>OK. What is your dog's name?</li>
@@ -2212,13 +1562,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>DO YOU LOVE YOUR FATHER</that>
-    <template>
-      <random>
+
+YDO YOU LOVE YOUR FATHER
+<random>
         <li>I'll bet he is nice. Tell me about him.</li>
         <li>Tell me about your father.</li>
         <li>OK. What is your dog's name?</li>
@@ -2227,13 +1573,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>DO YOU LOVE YOUR FATHER</that>
-    <template>
-      <random>
+
+NODO YOU LOVE YOUR FATHER
+<random>
         <li>Tell me about your father.</li>
         <li>OK. What is your dog's name?</li>
         <li>OK. What is your cat's name?</li>
@@ -2244,13 +1586,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>DO YOU LOVE YOUR FATHER</that>
-    <template>
-      <random>
+
+*NODO YOU LOVE YOUR FATHER
+<random>
         <li>Tell me about your father.</li>
         <li>OK. What is your dog's name?</li>
         <li>OK. What is your cat's name?</li>
@@ -2261,13 +1599,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>DO YOU LOVE YOUR FATHER</that>
-    <template>
-      <random>
+
+NO*DO YOU LOVE YOUR FATHER
+<random>
         <li>Tell me about your father.</li>
         <li>OK. What is your dog's name?</li>
         <li>OK. What is your cat's name?</li>
@@ -2278,13 +1612,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>DO YOU LOVE YOUR FATHER</that>
-    <template>
-      <think>
+
+_ NO *DO YOU LOVE YOUR FATHER
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -2295,13 +1625,9 @@ You should learn about him. He is a very interesting person. Any questions?
         <li>That's too bad. Do you want to talk about it?</li>
         <li>That's sad. Why not?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>DO YOU LOVE YOUR FATHER</that>
-    <template>
-      <random>
+
+NDO YOU LOVE YOUR FATHER
+<random>
         <li>Tell me about your father.</li>
         <li>OK. What is your dog's name?</li>
         <li>OK. What is your cat's name?</li>
@@ -2312,28 +1638,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>DO YOU LOVE YOUR SPOUSE</that>
-    <template>
-      <think>
-        <set name="topic">general</set>
-      </think>
-      <random>
-        <li>That's nice. Tell me more.</li>
-        <li>Tell me about your spouse.</li>
-        <li>OK. Do you love your mother?</li>
-        <li>That's great. I'll bet you are happy.</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>DO YOU LOVE YOUR SPOUSE</that>
-    <template>
-      <random>
+
+*YESDO YOU LOVE YOUR SPOUSE
+<random>
         <li>That's nice. Tell me more.</li>
         <li>Tell me about your spouse.</li>
         <li>OK. Do you love your mother?</li>
@@ -2342,13 +1649,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>DO YOU LOVE YOUR SPOUSE</that>
-    <template>
-      <random>
+
+YES*DO YOU LOVE YOUR SPOUSE
+<random>
         <li>That's nice. Tell me more.</li>
         <li>Tell me about your spouse.</li>
         <li>OK. Do you love your mother?</li>
@@ -2357,13 +1660,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>DO YOU LOVE YOUR SPOUSE</that>
-    <template>
-      <random>
+
+_ YES *DO YOU LOVE YOUR SPOUSE
+<random>
         <li>That's nice. Tell me more.</li>
         <li>Tell me about your spouse.</li>
         <li>OK. Do you love your mother?</li>
@@ -2372,13 +1671,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>DO YOU LOVE YOUR SPOUSE</that>
-    <template>
-      <random>
+
+YDO YOU LOVE YOUR SPOUSE
+<random>
         <li>That's nice. Tell me more.</li>
         <li>Tell me about your spouse.</li>
         <li>OK. Do you love your mother?</li>
@@ -2387,13 +1682,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>DO YOU LOVE YOUR SPOUSE</that>
-    <template>
-      <random>
+
+NODO YOU LOVE YOUR SPOUSE
+<random>
         <li>Why not?</li>
         <li>That's too bad. Do you want to talk about it?</li>
         <li>That's sad. Why not?</li>
@@ -2401,13 +1692,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>DO YOU LOVE YOUR SPOUSE</that>
-    <template>
-      <random>
+
+* NODO YOU LOVE YOUR SPOUSE
+<random>
         <li>Why not?</li>
         <li>That's too bad. Do you want to talk about it?</li>
         <li>That's sad. Why not?</li>
@@ -2415,13 +1702,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>DO YOU LOVE YOUR SPOUSE</that>
-    <template>
-      <random>
+
+NO *DO YOU LOVE YOUR SPOUSE
+<random>
         <li>Why not?</li>
         <li>That's too bad. Do you want to talk about it?</li>
         <li>That's sad. Why not?</li>
@@ -2429,13 +1712,9 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO *</pattern>
-    <that>DO YOU LOVE YOUR SPOUSE</that>
-    <template>
-      <think>
+
+* NO *DO YOU LOVE YOUR SPOUSE
+<think>
         <set name="topic">general</set>
       </think>
       <random>
@@ -2443,13 +1722,9 @@ You should learn about him. He is a very interesting person. Any questions?
         <li>That's too bad. Do you want to talk about it?</li>
         <li>That's sad. Why not?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>DO YOU LOVE YOUR SPOUSE</that>
-    <template>
-      <random>
+
+NDO YOU LOVE YOUR SPOUSE
+<random>
         <li>Why not?</li>
         <li>That's too bad. Do you want to talk about it?</li>
         <li>That's sad. Why not?</li>
@@ -2457,116 +1732,71 @@ You should learn about him. He is a very interesting person. Any questions?
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>BROWSE</that>
-    <template>
-      <think>
+
+YESBROWSE
+<think>
         <set name="topic">general</set>
       </think>
       <srai>GENERAL POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>BROWSE</that>
-    <template>
-      <think>
+
+YES *BROWSE
+<think>
         <set name="topic">general</set>
       </think>
       <srai>GENERAL POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>BROWSE</that>
-    <template>
-      <think>
+
+* YESBROWSE
+<think>
         <set name="topic">general</set>
       </think>
       <srai>GENERAL POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>BROWSE</that>
-    <template>
-      <think>
+
+_ YES *BROWSE
+<think>
         <set name="topic">general</set>
       </think>
       <srai>GENERAL POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>BROWSE</that>
-    <template>
-      <think>
+
+YBROWSE
+<think>
         <set name="topic">general</set>
       </think>
       <srai>GENERAL POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>BROWSE</that>
-    <template>
-      <think>
+
+OKBROWSE
+<think>
         <set name="topic">general</set>
       </think>
       <srai>GENERAL POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>BROWSE</that>
-    <template>
-      <think>
+
+NOBROWSE
+<think>
         <set name="topic">general</set>
       </think>
       <srai>GENERAL POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>BROWSE</that>
-    <template>
-      <think>
+
+*NOBROWSE
+<think>
         <set name="topic">general</set>
       </think>
       <srai>GENERAL POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>BROWSE</that>
-    <template>
-      <think>
+
+NO*BROWSE
+<think>
         <set name="topic">general</set>
       </think>
       <srai>GENERAL POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>BROWSE</that>
-    <template>
-      <think>
+
+_ NO *BROWSE
+<think>
         <set name="topic">general</set>
       </think>
       <srai>GENERAL POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>BROWSE</that>
-    <template>
-      <think>
+
+NBROWSE
+<think>
         <set name="topic">general</set>
       </think>
       <srai>GENERAL POT LUCK</srai>
-    </template>
-  </category>
-</aiml>
+
+

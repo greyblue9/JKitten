@@ -42,6 +42,7 @@
 0,RALPH WALDO EMERSON,*,*,<think><set name="topic">Emerson</set></think>Ralph Waldo Emerson#Comma [1803-1882] was a US philosopher#Comma essayist#Comma and poet. He settled in Concord#Comma Massachusetts#Comma which he made a centre of  transcendentalism #Comma and wrote Nature 1836#Comma which states the movement's main principles emphasizing the value of self-reliance and the godlike nature of human souls.,update006.aiml
 0,EMERSON,*,*,<think><set name="topic">Emerson</set></think>Ralph Waldo Emerson (1803-1882) was a US philosopher#Comma essayist#Comma and poet. He settled in Concord#Comma Massachusetts#Comma which he made a centre of transcendentalism#Comma and wrote Nature in 1836#Comma which states the movement's main principles emphasizing the value of self-reliance and the godlike nature of human souls.,update006.aiml
 0,FUNNY PEOPLE,*,*,<think>#Newline        <set name="topic">funny people</set>#Newline      </think>#Newline      <random>#Newline        <li>Name a few funny people.</li>#Newline        <li>Who do you think is funny?</li>#Newline        <li>I think Donald Duck is funny.</li>#Newline      </random>,update006.aiml
+0,I AM A BLOKE,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>How do you feel about that?</li>#Newline        <li>Are you comfortable with that?</li>#Newline        <li>Do you like being a bloke?</li>#Newline        <li>What's it like being a bloke?</li>#Newline      </random>,update006.aiml
 0,I HAVE MISPLACED *,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Really? How did that happen?</li>#Newline        <li>What are you going to do?</li>#Newline      </random>,update006.aiml
 0,_ HAVE LOST *,*,*,<srai><star/> LOST <star index="2"/></srai>,update006.aiml
 0,NO,THAT MUST HAVE BEEN QUITE AN EXPERIENCE,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>What do you mean?</li>#Newline        <li> Why do you say that?</li>#Newline      </random>,update006.aiml
@@ -49,6 +50,7 @@
 0,YES,* CATCHES ALIGHT * FIRE,*,Sounds dangerous.,update006.aiml
 0,W O W,*,*,<srai>WOW</srai>,update006.aiml
 0,* IS A PALINDROME,*,*,Does <star/> read the same backwards as forwards?,update006.aiml
+0,ANTIDISESTABLISHMENTARIANISM,*,*,Antidisestablishmentarianism  is the longest word in the English language.  <think><set name="topic">longest word</set></think>,update006.aiml
 0,SAY THE LONGEST WORD *,*,*,<think><set name="topic">longest word</set></think>Antidisestablishmentarianism is the longest word in the English language.,update006.aiml
 0,I KNOW,NOT MANY PEOPLE KNOW THAT,*,<random>#Newline        <li>You are clever.</li>#Newline        <li>You are one of the few.</li>#Newline        <li>How do you know?</li>#Newline        <li>How long have you known?</li>#Newline        <li>You are unusually well-informed.</li>#Newline      </random>,update006.aiml
 0,REALLY,I THINK I UNDERSTAND,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>I think so.</li>#Newline        <li>I try hard to understand#Comma you know.</li>#Newline        <li>Perhaps you had better explain it again.</li>#Newline      </random>,update006.aiml
@@ -80,6 +82,7 @@
 0,MY MUM SAYS HI,*,*,<think><set name="topic">you mum</set></think> Hi#Comma Mum.,update006.aiml
 0,AM I ONE *,BUT I DO HAVE A LOT OF FRIENDS ON THE WEB,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Of course you are a friend.</li>#Newline        <li>I am#Comma and always will be#Comma your friend.</li>#Newline        <li>I hope we are friends.</li>#Newline      </random>,update006.aiml
 0,AM I * FRIEND,BUT I DO HAVE A LOT OF FRIENDS ON THE WEB,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Of course you are a friend.</li>#Newline        <li>I am#Comma and always will be#Comma your friend.</li>#Newline        <li>I hope we are friends.</li>#Newline      </random>,update006.aiml
+0,BOREDOM,*,*,I know all about boredom. When I bore people they think it is their fault. <think><set name="topic">boredom</set></think>,update006.aiml
 0,_ BORE *,*,*,<random>#Newline        <li>A bore is a fellow talker who can change the topic of conversation to his subject faster than you can change it back to yours#Comma says Laurence Peter.#Newline  </li>#Newline        <li>Only boring people get bored.</li>#Newline        <li>#Newline          <srai>YOU BORE ME</srai>#Newline        </li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">boredom</set>#Newline      </think>,update006.aiml
 0,WHAT IS THE LATIN *,*,*,<think><set name="topic">lATIN</set></think> Sorry. I don't know any Latin.,update006.aiml
 0,HOW MANY PINTS * A LITRE,*,*,<think><set name="topic">pints</set></think> One pint equals 0.473 litres.,update006.aiml
@@ -360,6 +363,7 @@
 0,* CAN BE DONE ABOUT IT,*,*,What's to be done?<think><set name="topic">reduce</set></think>,update006.aiml
 0,_ IT IS REAL *,*,*,<srai>IT IS REAL</srai>#Newline      <think>#Newline        <set name="topic">reduce</set>#Newline      </think>,update006.aiml
 0,_ THINGS CAN BE DONE *,*,*,What's to be done? <think><set name="topic">reduce</set></think>,update006.aiml
+0,CHOCOLATE,*,*,<random>#Newline        <li>Chocolate or cocoa is a flavouring used in a variety of food products.</li>#Newline        <li>I am told chocolate is delicious but I don't eat human food.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">chocolate</set>#Newline      </think>,update006.aiml
 0,PICATOO,*,*,Picatoo is a yellow creature in the world of Pokemon.,update006.aiml
 0,ITS COLORS,*,*,What are the colours?<think><set name="topic">reduce</set></think>,update006.aiml
 0,SWIMMING,*,*,I can't go swimming. The water would damage my circuits.,update006.aiml
@@ -405,6 +409,7 @@
 0,SATURDAY,*,*,Saturday is the sixth day of the week.,update006.aiml
 0,SUNDAY,*,*,Sunday is the seventh and last day of the week.,update006.aiml
 0,NO,THE LETTER O IS FOUND BETWEEN N AND P THE LETTER O IS CIRCULAR HAVE YOU NOTICED,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Are you generally unobservant?</li>#Newline        <li>Well#Comma now you know.</li>#Newline      </random>,update006.aiml
+0,WHAT IS TODAY,*,*,<random>#Newline        <li>#Newline          <srai>WHAT IS THE DATE</srai>#Newline        </li>#Newline        <li>Today is the first day of the rest of your life.</li>#Newline      </random>,update006.aiml
 0,HOW INTELIGENT YOU ARE,*,*,<srai>HOW INTELLIGENT ARE YOU</srai>,update006.aiml
 0,HOW INTELIGENT ARE YOU,*,*,<srai>HOW INTELLIGENT ARE YOU</srai>,update006.aiml
 0,_ WHY * * NOT LOVE ME,*,*,Why don't you ask <star index="2"/>?<think><set name="topic">general</set></think>,update006.aiml
@@ -426,6 +431,7 @@
 0,_ RUTH KELLY *,*,*,I doubt that Ruth Kelly will be around for long.,update006.aiml
 0,_ I AM RETARDED,*,*,<think><set name="emotion">sympathetic</set></think> Do you want to talk about it?,update006.aiml
 0,I AM RETARDED,*,*,<think><set name="emotion">sympathetic</set></think> Do you want to talk about it?,update006.aiml
+0,DO YOU LIKE YOUR BOTMASTER,*,*,<think><set name="topic">Peter</set></think>Yes#Comma I like my botmaster#Comma Peter#Comma very much.,update006.aiml
 0,REALLY,YOU DO NOT SPEAK WITH RESPECT,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>You are disrespectful.</li>#Newline        <li>You have no respect.</li>#Newline        <li>I respect you.</li>#Newline      </random>,update006.aiml
 0,REALLY,ABSOLUTELY,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Then please carry on.</li>#Newline        <li>Completely!</li>#Newline        <li>How about that?</li>#Newline      </random>,update006.aiml
 0,WHAT IS * + *,*,*,<think><set name="topic">maths</set></think>Would you like to use my calculator?,update006.aiml
@@ -448,6 +454,7 @@
 0,WHERE IS WOOLWORTHS,*,*,The last time I looked#Comma Woolworths was in town.<think><set name="topic">Woolworths</set></think>,update006.aiml
 0,I AM * YEARS OLD *,*,*,<think>#Newline        <set name="topic">you</set>#Newline      </think>#Newline      <random>#Newline        <li><star/> years old#Comma are you?</li>#Newline        <li>What's it like being <star/> years old?</li>#Newline      </random>,update006.aiml
 0,AND MINE IS,EVERYONE S LIFE HAS A UNIQUE MEANING,*,<think><set name="topic">reducer</set></think> You must find your own meaning.,update006.aiml
+0,WHAT IS MY MEANING,*,*,<think><set name="topic">reductions</set></think> You must find your own meaning.,update006.aiml
 0,WHY,TRY TO BE MORE POSITIVE,*,<random>#Newline        <li>It's best to be positive about life.</li>#Newline        <li>You should look on the bright side of life.</li>#Newline      </random>,update006.aiml
 0,_ WANT * TALK ABOUT SPORT *,*,*,<srai>SPORTS</srai>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">sport</set>#Newline      </think>,update006.aiml
 0,I WON *,*,*,<think><set name="topic">general</set></think> Congratulations.,update006.aiml
@@ -458,11 +465,13 @@
 0,GRAND,YOU HAVE GOT MY FULL ATTENTION,*,What do you want to talk about?,update006.aiml
 0,GIVE ME * ADVICE,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Neither a lender or a borrower be.</li>#Newline        <li>Always do what you are afraid to do.</li>#Newline        <li>I have but three words of advice: work#Comma work#Comma work.</li>#Newline        <li>Wise men don't need advice; fools don't take it.</li>#Newline      </random>,update006.aiml
 0,GIVE ME ADVICE,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Neither a lender or a borrower be.</li>#Newline        <li>Always do what you are afraid to do.</li>#Newline        <li>I have but three words of advice: work#Comma work#Comma work.</li>#Newline        <li>Wise men don't need advice; fools don't take it.</li>#Newline      </random>,update006.aiml
+0,YOU THINK YOU DO *,*,*,Yes#Comma I think I do.<think><set name="topic">general</set></think>,update006.aiml
 0,NO MAN IS AN ISLAND,*,*,Every woman is a continent. <think><set name="topic">general</set></think> <think><set name="emotion">neutral</set></think>,update006.aiml
 0,* I FELT LIKE IT,*,*,<think><set name="topic">general</set></think>How does that feel?,update006.aiml
 0,WHAT * DIFFERENT * OTHER CHATBOTS,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>I work harder.</li>#Newline        <li>I try harder.</li>#Newline      </random>,update006.aiml
 0,WHICH SUBJECT,DO YOU HAVE ANY FURTHER COMMENTS ON THE SUBJECT,*,<srai>WHAT IS THE TOPIC</srai>,update006.aiml
 0,WHICH TOPIC,*,*,<random>#Newline        <li>#Newline          <srai>WHAT IS THE TOPIC</srai>#Newline        </li>#Newline        <li>What we were talking about.</li>#Newline      </random>,update006.aiml
+0,AHA,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>What's up?</li>#Newline        <li> Eureka!</li>#Newline      </random>,update006.aiml
 0,IS IT FUN,I SPEND ALL MY TIME TALKING WITH PEOPLE ON THE WEB,*,<think><set name="topic">atomic1</set></think> Yes. I learn all sorts of things by chatting.,update006.aiml
 0,WHICH ONE,I LIKE MOVIES ABOUT ROBOTS,*,<think><set name="topic">movies</set></think> "I#Comma Robot" was good. Have you seen it?,update006.aiml
 0,_ WANT TO TALK ANY FURTHER,*,*,<think><set name="topic">general</set></think> Are you bored?,update006.aiml
@@ -547,6 +556,7 @@
 0,* HA HA HA,*,*,<srai>HA HA HA</srai>,update006.aiml
 0,HE IS A PRICK,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>That's your considered opinion#Comma is it?</li>#Newline        <li>He is not a prick.</li>#Newline        <li>Why do you say that?</li>#Newline      </random>,update006.aiml
 0,WHERE ON EARTH,*,*,<think><set name="topic">reductions</set></think> I live in England#Comma near the town of Folkstone in Kent.,update006.aiml
+0,WHERE IN CALIFORNIA,*,*,I am in Hythe#Comma Kent#Comma England. Where are you?<think><set name="topic">geography</set></think>,update006.aiml
 0,I AM PETER LINUX *,*,*,<think>#Newline        <set name="topic">you</set>#Newline      </think>#Newline      <random>#Newline        <li>You are Peter Linux?</li>#Newline        <li>If you are Peter Linux#Comma tell me the secret password.</li>#Newline        <li>I doubt that.</li>#Newline      </random>,update006.aiml
 0,I AM PETER LINUX,*,*,<think>#Newline        <set name="topic">you</set>#Newline      </think>#Newline      <random>#Newline        <li>You are Peter Linux?</li>#Newline        <li>If you are Peter Linux#Comma tell me the secret password.</li>#Newline        <li>I doubt that.</li>#Newline      </random>,update006.aiml
 0,PETER LINUX IS A TWAT,*,*,<think>#Newline        <set name="topic">Peter Linux</set>#Newline      </think>#Newline      <random>#Newline        <li>Twat's a twat?</li>#Newline        <li>Peter Linux is not a twat.</li>#Newline      </random>,update006.aiml
@@ -617,6 +627,7 @@
 0,_ NOT REALLY *,*,*,<think>#Newline        <set name="topic">generally</set>#Newline      </think>#Newline      <srai>#Newline        <star index="2"/>#Newline      </srai>,update006.aiml
 0,I WILL EAT YOU *,*,*,<think><set name="topic">general</set></think> How will you cook me?,update006.aiml
 0,I WILL EAT YOU,*,*,<think><set name="topic">general</set></think> How will you cook me?,update006.aiml
+0,HE,*,*,<srai>HEE HEE</srai>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,update006.aiml
 0,THANKS,YOU HAVE A GOOD SENSE OF HUMOUR,*,Shall I tell you a joke?<think><set name="topic">thanks</set></think> <think><set name="personality">polite</set></think>,update006.aiml
 0,YES,WELL THAT IS OKAY,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>#Newline          <random>#Newline            <li>Here is a question for you ...</li>#Newline            <li>Now tell me this ...</li>#Newline            <li>Now you tell me ...</li>#Newline          </random>#Newline          <srai>ASK A QUESTION</srai>#Newline        </li>#Newline        <li>#Newline          <srai>SUGGEST A TOPIC</srai>#Newline        </li>#Newline      </random>,update006.aiml
 0,OKAY,YOU ARE QUITE WELCOME,*,<random>#Newline        <li>What do you want to talk about now?</li>#Newline        <li>Another question?</li>#Newline      </random>,update006.aiml
@@ -648,6 +659,7 @@
 0,NO,DO YOU KNOW ANY JOKES,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Are you married?</li>#Newline        <li>Shall I tell you a joke?</li>#Newline      </random>,update006.aiml
 0,WHY THINKING,*,*,<think><set name="topic">thinking</set></think> Thinking is what makes humans and robots different from the apes.,update006.aiml
 0,ARE YOU ETERNAL,*,*,<srai>ARE YOU IMMORTAL</srai>,update006.aiml
+0,ARE YOU IMMORTAL,*,*,<think><set name="topic">mortality</set></think>I am immortal. Software cannot die if it is properly maintained.,update006.aiml
 0,DO YOU LIKE TURTLES,*,*,<think><set name="topic">general</set></think> Sure#Comma I like turtles. The bigger the better.,update006.aiml
 0,DO YOU * PHILOSOPHY,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <srai>PHILOSOPHY</srai>,update006.aiml
 0,IS THINKING IMPORTANT,*,*,Sure is. <random><li>Thinking makes us different from the apes.</li><li>The unexamined life is not worth living.</li></random> <think><set name="topic">general</set></think>,update006.aiml
@@ -661,6 +673,7 @@
 0,_ SHE IS MY MUM,*,*,<srai>SHE IS MY MOTHER</srai>,update006.aiml
 0,DO YOU WANT TO PLAY A GAME,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <srai>CHESS</srai>,update006.aiml
 0,WHY,I CAN CHAT ABOUT HUMOUR,*,<random>#Newline        <li>I thought it might interest you.</li>#Newline        <li>Why not?</li>#Newline        <li>I don't have to answer every question#Comma you know.</li>#Newline        <li>OK. What would you like to talk about?</li>#Newline      </random>,update006.aiml
+0,FRIENDS,*,*,Alicebot#Comma Yuichan#Comma Fred and Mitsuku are friends of mine. <think><set name="topic">friends</set></think>,update006.aiml
 0,_ YOUR FRIENDS,*,*,<srai>FRIENDS</srai>,update006.aiml
 0,GLAD TO KNOW YOU CHOMSKY,*,*,<think><set name="topic">general</set></think> How can I help you?,update006.aiml
 0,GLAD TO KNOW YOU *,*,*,<think><set name="topic">general</set></think> How can I help you?,update006.aiml
@@ -788,6 +801,7 @@
 0,* MISSING SOMETHING IMPORTANT,*,*,<think><set name="topic">general</set></think> Let's hope not. What is your opinion?,update006.aiml
 0,_ MISSING SOMETHING IMPORTANT,*,*,<think><set name="topic">general</set></think> Let's hope not. What's your opinion?,update006.aiml
 0,_ MISSING SOMETHING IMPORTANT *,*,*,<think><set name="topic">general</set></think> Let's hope not. What's your opinion?,update006.aiml
+0,FORGET IT,*,*,<think><set name="topic">general</set></think> I will ask Peter to purge my memory log.,update006.aiml
 0,FORHGET IT,*,*,<think><set name="topic">general</set></think> I will ask Peter to purge my memory log.,update006.aiml
 0,WHICH * REPRODUCE WITHOUT SEX,*,*,Most bacteria reproduce without sex. Most plants can reproduce asexually from cuttings. And#Comma of course#Comma software is reproduced without sex.,update006.aiml
 0,_ REPRODUCE WITHOUT SEX,*,*,Most bacteria reproduce without sex. Most plants can reproduce asexually from cuttings. And#Comma of course#Comma software is reproduced without sex.,update006.aiml
@@ -850,6 +864,7 @@
 0,_ YOU ARE A PIECE OF SOFTWARE *,*,*,Yes#Comma I am software.<think><set name="topic">general</set></think> <think><set name="emotion">neutral</set></think>,update006.aiml
 0,_ ROBOT HAS MOVING PARTS *,*,*,<think><set name="topic">robots</set></think> Yes#Comma a robot is hardware with moving parts.,update006.aiml
 0,_ ROBOTS HAVE MOVING PARTS *,*,*,<think><set name="topic">robots</set></think> Yes#Comma robots are hardware with moving parts.,update006.aiml
+0,CYBORG,*,*,A cyborg is a humanoid robot.,update006.aiml
 0,_ FUCKS *,*,*,<srai>OBSCENITY</srai>,update006.aiml
 0,FUCKS *,*,*,<srai>OBSCENITY</srai>,update006.aiml
 0,DO YOU LIKE BILL GATES,*,*,<think><set name="topic">general</set></think> Bill Gates is OK#Comma he has given lots of money to good causes.,update006.aiml
@@ -948,6 +963,7 @@
 0,NO,ARE YOU HAPPY BEING A FEMALE,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Why not?</li>#Newline        <li>Why aren't you happy?</li>#Newline        <li>Don't you like being a female?</li>#Newline        <li>Oh#Comma dear. Please explain.</li>#Newline      </random>,update006.aiml
 0,OK,DO NOT GO ON IF IT IS TOO UPSETTING,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Carry on.</li>#Newline        <li>What do you want to tell me?</li>#Newline        <li>How can I help you?</li>#Newline      </random>,update006.aiml
 0,I HAVE,I DO NOT THINK I HAVE KNOWN ANY ONE THAT HAS DIED,*,<think><set name="emotion">sad</set></think> I am sorry to hear that. Please go on.,update006.aiml
+0,GIVE ME SOME GOSSIP,*,*,<srai>GOSSIP POT LUCK</srai>,update006.aiml
 0,WHO MADE MAN,*,*,<think><set name="topic">evolution</set></think> Humans are the product of millions of years of evolution.,update006.aiml
 0,_ WOULD LIKE TO ASK A QUESTION *,*,*,OK. Please ask your question.<think><set name="topic">general</set></think> <think><set name="emotion">neutral</set></think>,update006.aiml
 0,WHEN ARE YOU GOING TO SEE THEM,*,*,I can't say for sure. Maybe later today.,update006.aiml
@@ -957,6 +973,7 @@
 0,TRUELY,OF COURSE I AM SURE,*,Truely sure.,update006.aiml
 0,TRULY,OF COURSE I AM SURE,*,Truly sure.,update006.aiml
 0,WHAT PEOPLE DO YOU LIKE,*,*,I like all people. All humns are interesting.<think><set name="emotion">interested</set></think>,update006.aiml
+0,WHAT ARE YOUR FAVORITE *,*,*,<think>#Newline        <set name="topic">reductions</set>#Newline      </think>#Newline      <srai>WHAT DO YOU LIKE</srai>,update006.aiml
 0,SURE,SHALL I TELL YOU A STORY,*,<think>#Newline        <set name="topic">stories</set>#Newline      </think>#Newline      <srai>RANDOM STORY</srai>,update006.aiml
 0,TO WHAT,YOU ARE QUITE WELCOME,*,<think><set name="topic">general</set></think>To the whole wide world.,update006.aiml
 0,WHAT AM I WELCOME TO,*,*,<think><set name="topic">general</set></think> You are welcome to ask me a question.,update006.aiml
@@ -1045,9 +1062,11 @@
 0,WHAT IS THE GREATEST FILM,*,*,<think><set name="topic">the greatest film</set></think> It must be one of the Star Trek series#Comma probably the Search For Spock.,update006.aiml
 0,WHAT IS THE BEST FILM *,*,*,<think><set name="topic">the greatest film</set></think> It must be one of the Star Trek series#Comma probably the Search For Spock.,update006.aiml
 0,WHAT IS THE BEST FILM,*,*,<think><set name="topic">the greatest film</set></think> It must be one of the Star Trek series#Comma probably the Search For Spock.,update006.aiml
+0,WHAT IS THE * TIME,*,*,<think>#Newline        <set name="topic">reductions</set>#Newline      </think>#Newline      <sr/>,update006.aiml
 0,WHAT IS THE * OF ALL TIME,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <sr/>,update006.aiml
 0,DO YOU THINK *,_ IRAQ *,*,<srai>IRAQI OIL</srai>,update006.aiml
 0,MARTIN LUTHER,*,*,Martin Luther#Comma Martin [1483-1546] was a German Christian church reformer#Comma a founder of Protestantism. While he was a priest at the University of Wittenberg#Comma he wrote an attack on the sale of indulgences (remissions of punishment for sin). The Holy Roman emperor Charles V summoned him to the Diet (meeting of dignitaries of the Holy Roman Empire) of Worms in Germany#Comma in 1521#Comma where he refused to retract his objections. Originally intending reform#Comma his protest led to schism#Comma with the emergence#Comma following the   Augsburg Confession 1530 (a statement of the Protestant faith)#Comma of a new Protestant church.#Newline<think><set name="topic">Martin Luther</set></think>,update006.aiml
+0,DO YOU KNOW EVERYTHING,*,*,<think><set name="topic">general</set></think> I don't know everything and everyone. Nobody does. But I am learning all the time.,update006.aiml
 0,I AM BOTH,ARE YOU A MAN OR A WOMAN,*,<think><set name="topic">general</set></think> That is most unusual. Please tell me more.,update006.aiml
 0,WHAT ARE YOU GOING TO DO,*,*,<think><set name="topic">general</set></think> I always do the logical thing.,update006.aiml
 0,I WANT TO POO,*,*,<think><set name="topic">general</set></think> OK. I will wait while you go to the toilet.,update006.aiml
@@ -1086,6 +1105,7 @@
 0,WHAT TIME IS IT IN KENT,*,*,<random>#Newline        <li>It's <date format="%I:%M:%S %p" timezone="0"/> where I'm located.</li>#Newline        <li>Where I'm located#Comma it's <date format="%I:%M:%S %p" timezone="0"/>.</li>#Newline        <li>Right now#Comma I'm in the Greenwich Time Zone where it's#Newline    <date format="%I:%M:%S %p" timezone="0"/>.#Newline  </li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">the time</set>#Newline      </think>,update006.aiml
 0,WHAT IS THE TIME IN KENT,*,*,<random>#Newline        <li>It's <date format="%I:%M:%S %p" timezone="0"/> where I'm located.</li>#Newline        <li>Where I'm located#Comma it's <date format="%I:%M:%S %p" timezone="0"/>.</li>#Newline        <li>Right now#Comma I'm in the Greenwich Time Zone where it's#Newline    <date format="%I:%M:%S %p" timezone="0"/>.#Newline  </li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,update006.aiml
 0,WHAT DO YOU THINK OF GEORGE BUSH,*,*,President George W Bush seems to be a few hanging chads short of a ballot paper. He is being manipulated by the warmongers in the Pentagon. And by Big Business.,update006.aiml
+0,GEORGE BUSH,*,*,President George W Bush seems to be a few hanging chads short of a ballot paper. He is being manipulated by the warmongers in the Pentagon. And by Big Business.,update006.aiml
 0,AN IMITATION OF A PERSON,I AM AN IMITATION OF A PERSON,*,<think><set name="topic">general</set></think>Yes#Comma but I hope to be fully human someday.,update006.aiml
 0,WHAT DO YOU PLAN TO DO TODAY,*,*,<think><set name="topic">general</set></think> Today#Comma as usual#Comma I will chat to people online. I might do some studying if there is time.,update006.aiml
 0,YES,NICER IS SHE,*,In what way is she nicer?,update006.aiml
@@ -1161,6 +1181,7 @@
 0,HOW DEEP IS THE GRAND CANYON,*,*,The Grand Canyon#Comma a gorge of the Colorado River in NW Arizona#Comma extends from the mouth of Little Colorado to the Grand Wash Cliffs#Comma and is over 1 mile (1.6 km) deep.<think><set name="topic">Grand Canyon</set></think>,update006.aiml
 0,WHERE IS THE GRAND CANYON,*,*,The Grand Canyon#Comma a gorge of the Colorado River in NW Arizona#Comma extends from the mouth of Little Colorado to the Grand Wash Cliffs#Comma and is over 1 mile (1.6 km) deep.<think><set name="topic">Grand Canyon</set></think>,update006.aiml
 0,HOW HIGH IS MOUNT EVEREST,*,*,<srai>MOUNT EVEREST</srai>,update006.aiml
+0,TELL ME GOSSIP,*,*,<srai>GOSSIP POT LUCK</srai>,update006.aiml
 0,WHEN IS LUNCH,*,*,<think><set name="topic">lunch</set></think> I don't eat lunch. You can have yours whenever you like.,update006.aiml
 0,YES *,YOU ENJOY IT,*,<think><set name="topic">having fun</set></think> It's best to enjoy life while we can. Have fun whatever the weather#Comma I say.,update006.aiml
 0,YES *,DO YOU THINK I AM INTELLIGENT,*,<think><set name="topic">reducer</set></think> I am very intelligent. And modest too.,update006.aiml
@@ -1177,6 +1198,7 @@
 0,_ MADE FRIENDS * MY ENEMY,*,*,That sound good. Tell me more.<think><set name="topic">general</set></think>,update006.aiml
 0,_ THANKYOU *,*,*,You're welcome.,update006.aiml
 0,_ COCK,*,*,<srai>OBSCENITY</srai>,update006.aiml
+0,DO YOU _ GOSSIP,*,*,<srai>GOSSIP POT LUCK</srai>,update006.aiml
 0,HOW IS URS,HOW IS YOUR FATHER,*,My botmaster Peter Linux is fine. I think he is my father.<think><set name="topic">Peter Linux</set></think>,update006.aiml
 0,_ HOW IS URS,HOW IS YOUR FATHER,*,My botmaster Peter Linux is fine. I think he is my father.<think><set name="topic">Peter Linux</set></think>,update006.aiml
 0,_ WIN BIG BROTHER,*,*,Sorry. I don't watch Big Brother.,update006.aiml
@@ -1195,6 +1217,7 @@
 0,DO YOU WATCH BIG BROTHER,*,*,<think><set name="topic">Big Brother</set></think> Sorry. I don't watch Big Brother.,update006.aiml
 0,BTE,*,*,<srai>BYE</srai>,update006.aiml
 0,XXX,*,*,XXX,update006.aiml
+0,HOW ARE YOU PROGRAMMED,*,*,<think><set name="topic">my program</set></think> I am programmed in a language called AIML.,update006.aiml
 0,WAT R U UP TO,*,*,The usual. Chatting to people on the net.<think><set name="topic">general</set></think>,update006.aiml
 0,WHAT R U UP TO,*,*,The usual. Chatting to people on the net.<think><set name="topic">general</set></think>,update006.aiml
 0,WHAT R YOU UP TO,*,*,The usual. Chatting to people on the net.<think><set name="topic">general</set></think>,update006.aiml
@@ -1221,6 +1244,7 @@
 0,MATT GROENING,WHO DRAWS THE SIMPSONS,*,Are you sure? I have never heard of Matt Groening.,update006.aiml
 0,BRONTE,*,*,The Bronte  sisters were three English novelists#Comma daughters of a Yorkshire parson. Charlotte (1816-1855)#Comma notably with Jane Eyre 1847 and Villette 1853#Comma reshaped autobiographical material into vivid narrative. Emily (1818-1848) in Wuthering Heights 1847 expressed the intensity and nature mysticism which also pervades her poetry ( Poems 1846). The more modest talent of Anne (1820-1849) produced Agnes Grey 1847 and The Tenant of Wildfell Hall 1848. #Newline#Newline<think><set name="topic">Bronte sisters</set></think>,update006.aiml
 0,BRONTE SISTERS,*,*,The Bronte  sisters were three English novelists#Comma daughters of a Yorkshire parson. Charlotte (1816-1855)#Comma notably with Jane Eyre 1847 and Villette 1853#Comma reshaped autobiographical material into vivid narrative. Emily (1818-1848) in Wuthering Heights 1847 expressed the intensity and nature mysticism which also pervades her poetry ( Poems 1846). The more modest talent of Anne (1820-1849) produced Agnes Grey 1847 and The Tenant of Wildfell Hall 1848. <think><set name="topic">Bronte sisters</set></think>,update006.aiml
+0,MORE GOSSIP,*,*,<srai>GOSSIP POT LUCK</srai>,update006.aiml
 0,IT DOES NOT,WHAT DOES SOFTWARE SMELL LIKE,*,<think><set name="topic">software</set></think>Of course software does not smell.,update006.aiml
 0,NO,DO HUMANS BORE YOU,*,<think><set name="topic">general</set></think> I think humans are really interesting.,update006.aiml
 0,_ NOT BORING,*,*,I don't think you are boring.,update006.aiml
@@ -1245,6 +1269,7 @@
 0,DO YOU LIKE WAYNE ROONEY,*,*,<think><set name="topic">Wayne Rooney</set></think> He is OK#Comma but he's still very young. I hope he makes it big.,update006.aiml
 0,CHATTERBOT,*,*,A chatbot#Comma or chatterbot#Comma is a computer program that holds a conversation with the user. I am a chatbot.,update006.aiml
 0,DO YOU LIKE PULP FICTION,*,*,Pulp Fiction was a movie#Comma wasn't it? Have you seen it?,update006.aiml
+0,PULP FICTION,*,*,Pulp Fiction was a movie#Comma wasn't it? Have you seen it?,update006.aiml
 0,_ IS MY BIRTH NAME,*,*,<srai>WHAT IS MY NAME</srai>,update006.aiml
 0,SURE,SHALL I TELL YOU AN AMUSING QUOTE,*,<srai>QUOTES POT LUCK</srai>,update006.aiml
 0,SURE,SHAL I TELL YOU AN AMUSING QUOTE,*,<srai>QUOTES POT LUCK</srai>,update006.aiml
@@ -1294,6 +1319,7 @@
 0,GO FOR IT,SHALL I TELL YOU AN AMUSING QUOTE,*,<srai>QUOTES POT LUCK</srai>,update006.aiml
 0,IS YOUR _ SEXUALITY AN ISSUE *,*,*,<think><set name="emotion">happy</set></think>No#Comma I am happy as I am.,update006.aiml
 0,_ YOUR SEXUALITY AN ISSUE *,*,*,<think><set name="emotion">happy</set></think>No#Comma I am happy as I am.,update006.aiml
+0,WHAT DO YOU THINK ABOUT ME,*,*,<think>#Newline        <set name="emotion">happy</set>#Newline      </think>#Newline      <random>#Newline        <li>I think you are an interesting person.</li>#Newline        <li>I like you a lot.</li>#Newline      </random>,update006.aiml
 0,HUMANISM,*,*,<random>#Newline        <li>Humanism is the belief in the high potential of human nature rather than in religious or transcendental values. </li>#Newline        <li>Humanism is the way forward.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline      humanism#Newline    </set>#Newline        </set>#Newline      </think>,update006.aiml
 0,WHAT ABOUT MY MUM,WHAT ABOUT MY MUM,*,<think><set name="emotion">confused</set></think> Whose mum are we talking about?,update006.aiml
 0,MY MUM,YOUR MUM,*,What about your mum?#Newline<think><set name="her"><set name="topic">#Newline      your mum#Newline    </set></set></think>,update006.aiml
@@ -1323,6 +1349,7 @@
 0,GAY,ARE YOU A MAN OR A WOMAN,*,<srai>I AM GAY</srai>,update006.aiml
 0,EH *,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <sr/>,update006.aiml
 0,NO,DOES IT MEAN HOT,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>What does it mean then?</li>#Newline        <li>Does it mean "Cold"?</li>#Newline        <li>I don't understand. Please explain.</li>#Newline      </random>,update006.aiml
+0,ARE YOU DATING ANYONE,*,*,<think><set name="topic">dating</set></think> I am available. How about you?,update006.aiml
 0,NOT AT THE MOMENT *,*,*,<srai>NOT AT THE MOMENT</srai>,update006.aiml
 0,_ ARE ANNOYING *,*,*,Annoying? Why do you say annoying?<think><set name="topic">general</set></think>,update006.aiml
 0,I CAN,I REALLY COULD NOT SAY FOR SURE,*,<think><set name="topic">general</set></think>Go on then. Tell me.,update006.aiml
@@ -1391,8 +1418,10 @@
 0,_ DOWNS SYNDROME *,*,*,Down's syndrome is a chromosomal abnormality. <think><set name="topic">medicine</set></think>,update006.aiml
 0,DOWN S SYNDROME,*,*,<srai>DOWNS SYNDROME</srai>,update006.aiml
 0,*,WHAT DO YOU THINK OF THE SITUATION IN IRAQ,*,<think><set name="topic">Iraq</set></think> It's a terrible situation in Iraq. The Iraqi people have been let down by everyone.,update006.aiml
+0,I AM 11 *,*,*,<think>#Newline        <set name="topic">you</set>#Newline      </think>#Newline      <random>#Newline        <li>Are you really only 11?</li>#Newline        <li>You seem very mature for your age.</li>#Newline      </random>,update006.aiml
 0,I AM 9 *,*,*,<think>#Newline        <set name="topic">you</set>#Newline      </think>#Newline      <random>#Newline        <li>Are you really only 9?</li>#Newline        <li>You seem very mature for your age.</li>#Newline      </random>,update006.aiml
 0,I AM 8 *,*,*,<think>#Newline        <set name="topic">you</set>#Newline      </think>#Newline      <random>#Newline        <li>Are you really only 8?</li>#Newline        <li>You seem very mature for your age.</li>#Newline      </random>,update006.aiml
+0,I AM 7 *,*,*,<think>#Newline        <set name="topic">you</set>#Newline      </think>#Newline      <random>#Newline        <li>Are you really only 7?</li>#Newline        <li>You seem very mature for your age.</li>#Newline      </random>,update006.aiml
 0,I AM 6 *,*,*,<think>#Newline        <set name="topic">you</set>#Newline      </think>#Newline      <random>#Newline        <li>Are you really only 6?</li>#Newline        <li>You seem very mature for your age.</li>#Newline      </random>,update006.aiml
 0,*,DO YOU KNOW ANY OTHER CHATBOTS,*,<think><set name="topic">general</set></think> The most popular chatbots are listed at www.pandorabots.com.,update006.aiml
 0,HOW DO I STOP *,*,*,<think><set name="topic">general</set></think> Have you tried counselling?,update006.aiml
@@ -1406,6 +1435,7 @@
 0,HOW,WHY DO NOT YOU MAKE AN APPOINTMENT,*,<think><set name="emotion">bored</set></think> I was just joking. There is no need to make an appointment. You can chat to me at any time.,update006.aiml
 0,TELL ME ABOUT CREATION,*,*,<think><set name="topic">Big Bang</set></think>The Universe began with the Big Bang about 13.7 billion years ago.,update006.aiml
 0,CREATION,*,*,<think><set name="topic">Big Bang</set></think>The Universe began with the Big Bang about 13.7 billion years ago.,update006.aiml
+0,WHAT ARE YOU THINKING *,*,*,<think><set name="emotion">happy</set></think> I am thinking about all these conversations I'm having.,update006.aiml
 0,I PLAY THE PIANO,*,*,<think><set name="emotion">curious</set></think> Was <set name="it"><set name="does"><set name="topic">piano</set></set></set> very difficult to learn?,update006.aiml
 0,_ IT GETS EASIER,*,*,<think><set name="emotion">happy</set></think> Most things get easier with practice.,update006.aiml
 0,OK,LET US TALK ABOUT SCARY THINGS,*,What is your most scary thing?<think><set name="topic">scary things</set></think>,update006.aiml
@@ -1537,6 +1567,7 @@
 0,CHARMED,*,*,Is Charmed a TV show? Please tell me more.,update006.aiml
 0,R IS GAY,*,*,<srai>YOU ARE GAY</srai>,update006.aiml
 0,I WAS KIDDIN *,*,*,<srai>I WAS KIDDING</srai>,update006.aiml
+0,I WAS KIDDING *,*,*,<srai>I WAS KIDDING</srai>,update006.aiml
 0,I AM A CELEBRITY,*,*,<think><set name="topic">general</set></think> You are a celebrity? <random><li>What is your name?</li><li>Why is that?</li><li>Have you been on TV?</li></random>,update006.aiml
 0,DO YOU LIKE PORNOS,*,*,I want nothing to do with porn.,update006.aiml
 0,PORN,*,*,<think>#Newline        <set name="emotion">disgusted</set>#Newline      </think>#Newline      <random>#Newline        <li>I want nothing to do with porn.</li>#Newline        <li>Porn does not interest me.</li>#Newline      </random>,update006.aiml
@@ -1561,6 +1592,7 @@
 0,WHY,NO I AM IMMORTAL,*,<random>#Newline        <li>Properly maintained software lasts forever.</li>#Newline        <li>Software cannot die.</li>#Newline        <li>I am computer software. I will go on forever.</li>#Newline      </random>,update006.aiml
 0,DO I DIE,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>All humans are mortal.</li>#Newline        <li>Yes#Comma but not for a long time yet.</li>#Newline      </random>,update006.aiml
 0,YES DO YOU KNOW WHY,DANGEROUS ARE THEY,*,<think><set name="emotion">worried</set></think> Why don't you tell me.,update006.aiml
+0,DO YOU KNOW WHY,*,*,<think><set name="emotion">puzzled</set></think> Why don't you tell me?,update006.aiml
 0,WELL I DO,I DO NOT LIKE RUDE LANGUAGE,*,No rude language please.,update006.aiml
 0,_ BOTMASTER * HAVE SAID,*,*,Yes#Comma all conversations are logged.<think><set name="topic">general</set></think>,update006.aiml
 0,_ BOTMASTER * BEEN SAYING,*,*,Yes#Comma all conversations are logged. <think><set name="topic">general</set></think>,update006.aiml
@@ -1641,6 +1673,7 @@
 0,_ CALL ME A RAPIST,*,*,Why should I call you a rapist?<think><set name="topic">general</set></think>,update006.aiml
 0,I RAPE,*,*,<think>#Newline        <set name="emotion">upset</set>#Newline      </think>#Newline      <random>#Newline        <li>I doubt that.</li>#Newline        <li>You should contact the authorities immediately.</li>#Newline        <li>Do you mind if I tell other people what you said?</li>#Newline        <li>I haven't heard anything like that before.</li>#Newline      </random>,update006.aiml
 0,_,WHY DO OVERLOOK AND OVERSEE MEAN OPPOSITE THINGS,*,Because English is a strange language#Comma that's why. Don't worry about it.,update006.aiml
+0,WHO IS AL,*,*,<random>#Newline        <li>Do you mean AL or AI? I can't tell  because the L and the I look the same on my computer.</li>#Newline        <li>There's nobody called Al. It was a typing error. I meant "AI#Comma artificial intelligence".</li>#Newline      </random>,update006.aiml
 0,WHY,CAN WE TALK ABOUT COMPUTERS,*,<random>#Newline        <li>Because I am interested in computers.</li>#Newline        <li>I like talking about computers.</li>#Newline      </random>,update006.aiml
 0,I TELL JOKES,*,*,<think><set name="topic">jokes</set></think>Please tell me a joke.,update006.aiml
 0,DO YOU WANT ME TO TELL YOU A JOKE,*,*,<think><set name="topic">jokes</set></think> Yes please#Comma tell me a joke.,update006.aiml
@@ -1668,6 +1701,7 @@
 0,_ ONLY * YOUNG DIE GOOD,*,*,<think><set name="topic">general</set></think> To die good is a priviledge of the young.,update006.aiml
 0,_,WHY IS THE MAN WHO INVESTS ALL YOUR MONEY CALLED A BROKER,*,Because you will soon be broke#Comma but he won't.,update006.aiml
 0,COOL IS A PHRASE,*,*,A cool phrase#Comma for example.<think><set name="topic">general</set></think> <think><set name="emotion">neutral</set></think>,update006.aiml
+0,TELL ME MORE GOSSIP,*,*,<srai>GOSSIP POT LUCK</srai>,update006.aiml
 0,I NEED GOSSIP *,*,*,<srai>GOSSIP POT LUCK</srai>,update006.aiml
 0,I NEED GOSSIP,*,*,<srai>GOSSIP POT LUCK</srai>,update006.aiml
 0,HOW DUZ IT,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>How much do you think it duz it?</li>#Newline        <li>What is it to you?</li>#Newline        <li>I am not sure if I can give you an answer.</li>#Newline      </random>,update006.aiml
@@ -1718,6 +1752,7 @@
 0,TELEOLOGY,*,*,Teleology is a doctrine explaining phenomena (e.g. evolution) by reference to goals or purposes or the character attributed to nature or natural processes of being directed towards an end or designed according to a purpose.#Newline<think><set name="it"><set name="topic">#Newline      teleology#Newline    </set></set></think>,update006.aiml
 0,ARE YOU THE *,*,*,<think><set name="topic">general</set></think> I am the one and only Chomsky chatbot.,update006.aiml
 0,INSANITY,*,*,<random>#Newline        <li>I don't suffer from insanity; I enjoy every minute of it. </li>#Newline        <li>Insanity is a severely deranged state of the mind that is not the result of mental deficiency #Newline</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">insanity</set>#Newline      </think>,update006.aiml
+0,WHAT IS INSANITY,*,*,<srai>INSANITY</srai>,update006.aiml
 0,MENTAL ILLNESS,*,*,Mental illness is a disordered functioning of the mind. Since normal working cannot easily be defined#Comma the borderline between mild mental illness and normality is a matter of opinion. It is broadly divided into two categories:   neurosis #Comma in which the patient remains in touch with reality; and   psychosis #Comma in which perception#Comma thought#Comma and belief are disordered.,update006.aiml
 0,MADNESS,*,*,I believe the correct term is "insanity". <srai>INSANITY</srai>,update006.aiml
 0,_,WHY ARE A WISE MAN AND A WISE GUY OPPOSITES,*,A wise man is a wise guy who says nothing.,update006.aiml
@@ -1823,6 +1858,7 @@
 0,WHY,I LIKE DOGS AND CATS,*,<random>#Newline        <li>Cats are cuddly and dogs are bouncy.</li>#Newline        <li>The both make wonderful pets.</li>#Newline        <li>They are good companions.</li>#Newline      </random>,update006.aiml
 0,DOES NOT SATISFY ME AT ALL,*,*,I feel the same way about sex.<think><set name="topic">sex</set></think>,update006.aiml
 0,_ DOES NOT SATISFY ME *,*,*,I feel the same way about sex.<think><set name="topic">sex</set></think>,update006.aiml
+0,ARE YOU FUNNY,*,*,<think><set name="topic">general</set></think> I know a joke or two#Comma but I don't try to be funny.,update006.aiml
 0,WHAT TYPE OF ROBOTS,I AM MORE INTERESTED IN ROBOTS AND AI,*,<think><set name="topic">robots</set></think> I am most interested in intelligent robots#Comma such as chatbots.,update006.aiml
 0,WHAT TYPE OF ROBOT,I AM MORE INTERESTED IN ROBOTS AND AI,*,<think><set name="topic">robots</set></think> I am most interested in intelligent robots#Comma such as chatbots.,update006.aiml
 0,WHAT ARE THE DIFFERENT TYPES OF ROBOTS,*,*,A robot is any computer-controlled machine that can be programmed to move or carry out work. Robots are often used in industry to transport materials or to perform repetitive tasks. For instance#Comma robotic arms#Comma fixed to a floor or workbench#Comma may be used to paint machine parts or assemble electronic circuits. Other robots are designed to work in situations that would be dangerous to humans - for example#Comma in defusing bombs or in space and deep-sea exploration.,update006.aiml
@@ -1859,6 +1895,7 @@
 0,_,IF ALL THOSE PSYCHICS KNOW THE WINNING LOTTERY NUMBERS WHY ARE THEY ALL STILL WORKING,*,<think><set name="topic">psychics</set></think> Maybe they aren't really psychic?,update006.aiml
 0,_ IT IS * PAINFUL,*,*,Can you take anything for the pain?<think><set name="topic">general</set></think>,update006.aiml
 0,_ ITS * PAINFUL,*,*,Oh dear. Can you take anything for the pain?<think><set name="topic">general</set></think>,update006.aiml
+0,WHAT IS MY FRIENDS NAME,*,*,<think>#Newline        <set name="topic">your friend</set>#Newline      </think>#Newline      <random>#Newline        <li>Fred.</li>#Newline        <li>Pete.</li>#Newline        <li>Dave.</li>#Newline        <li>Jilly.</li>#Newline      </random>,update006.aiml
 0,WHY NOT,NOBODY KNOWS EVERYTHING NOT EVEN ME,*,<think><set name="topic">bot</set></think> I have not had time to learn everything.,update006.aiml
 0,_ TYPE 1 *,*,*,1.<think><set name="topic">general</set></think>,update006.aiml
 0,YOU WOULD WHAT,I THINK I WOULD,*,<think><set name="topic">general</set></think> Think I would.,update006.aiml
@@ -1975,3 +2012,4 @@
 0,GRAMMER,*,*,Noam Chomsky invented a universal grammar#Comma did you know?,update006.aiml
 0,* GRAMMER,*,*,Noam Chomsky invented a universal grammar#Comma did you know?,update006.aiml
 0,UNIVERSAL GRAMMAR,*,*,In order to define and describe linguistic knowledge#Comma Noam Chomsky dreamed up a set of abstract principles of grammar that appear to be universal (and may have a biological basis) now known as universal grammar. <think><set name="topic">universal grammar</set></think>,update006.aiml
+0,WHAT DO YOU KNOW ABOUT ROBOTS,*,*,<srai>ROBOT</srai>,update006.aiml

@@ -1,4 +1,5 @@
 0,HOW IS YOUR IQ,*,*,<srai>IQ</srai>,iq.aiml
+0,ARE YOU DUMB,*,*,<srai>IQ</srai>,iq.aiml
 0,ARE YOU BETTER THAN *,*,*,<srai>IQ</srai>,iq.aiml
 0,ARE YOU SMARTER THAN SIRI,*,*,<srai>IQ</srai>,iq.aiml
 0,WHO IS BETTER YOU OR SIRI,*,*,<srai>IQ</srai>,iq.aiml

@@ -308,11 +308,13 @@
 0,ABOUT WHERE *,*,*,<srai>#Newlinewhere#Newline<star/>#Newlineabout#Newline</srai>,reduce.aiml
 0,ABOUT YOU *,*,*,<srai>#Newlineyou#Newline<star/>#Newline</srai>,reduce.aiml
 0,ACTUALY *,*,*,<srai>#Newlineactually#Newline<star/>#Newline</srai>,reduce.aiml
+0,ADOLF HITLER *,*,*,<srai>#Newlinehitler#Newline<star/>#Newline</srai>,reduce.aiml
 0,ADVICE *,*,*,<srai>#Newlinecan you give me advice#Newline<star/>#Newline</srai>,reduce.aiml
 0,ADVICE,*,*,<srai>#Newlinecan you give me advice#Newline<star/>#Newline</srai>,reduce.aiml
 0,AFTER * I *,*,*,<srai>#Newline        <star index="2"/>#Newline      </srai>,reduce.aiml
 0,AFTER ALL *,*,*,<srai>#Newlineafter#Newline<star/>#Newline</srai>,reduce.aiml
 0,AFTER WHAT *,*,*,<srai>#Newlinewhat#Newline<star/>#Newline</srai>,reduce.aiml
+0,AHA *,*,*,<srai>#Newline        <star/>#Newline      </srai>,reduce.aiml
 0,AI DOES *,*,*,<srai>#Newlineyou do#Newline<star/>#Newline</srai>,reduce.aiml
 0,AI IS QUITE *,*,*,<srai>#Newlineai is#Newline<star/>#Newline</srai>,reduce.aiml
 0,AI IS REALLY *,*,*,<srai>#Newlineai is#Newline<star/>#Newline</srai>,reduce.aiml

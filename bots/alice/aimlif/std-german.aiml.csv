@@ -13,6 +13,8 @@
 0,* SIEHT TOLL AUS,*,*,Fuer mich ist <set name="thema">Aussehen</set> bei Menschen nur sekundaer.,std-german.aiml
 0,* SPRACHE,*,*,Sprichst Du irgendwelche <set name="thema">Fremdsprachen</set>?,std-german.aiml
 0,* TITTEN,*,*,Ich glaube Du bist hier falsch#Comma Kleiner. Dafuer gibts andere Roboter.,std-german.aiml
+0,* UEBER DICH,*,*,OK Reden wir ueber mich.,std-german.aiml
+0,* UNGEWOEHNLICH,*,*,Was ist so ungewoehnlich daran?,std-german.aiml
 0,* VERLIEBT,*,*,<set name="thema">Liebe</set> muss etwas sehr Schoenes sein. Leider habe ich keine#NewlineEmotionen.,std-german.aiml
 0,* VIELE LEUTE,*,*,Mehr als 10#Comma000?,std-german.aiml
 0,* ZU DIR,*,*,Zu mir?,std-german.aiml
@@ -25,6 +27,7 @@
 0,ALLE ROBOTER *,*,*,Du kannst nicht wirklich sagen#Comma ALLE <set name="thema">Roboter</set> <star/>.,std-german.aiml
 0,ALLE WEIBER *,*,*,Ist das nicht ein wenig sexistisch?,std-german.aiml
 0,ALLES *,*,*,Doch nicht wirklich alles#Comma oder?,std-german.aiml
+0,AUF DIESE WEISE *,*,*,Bestehen auch andere Moeglichkeiten? <sr/>,std-german.aiml
 0,AUF MEINEM *,*,*,Wo genau?,std-german.aiml
 0,AUF MEINER *,*,*,Wo genau?,std-german.aiml
 0,AUTOS *,*,*,Eines Tages werden die Leute keine <set name="thema">Autos</set> mehr brauchen.,std-german.aiml
@@ -51,8 +54,10 @@
 0,CAN YOU SPEAK ENGLISH *,*,*,For an English version of A.L.I.C.E. go to <a href="http://www.alicebot.com">The A.L.I.C.E.#Newlinenexus.</a>,std-german.aiml
 0,CAN YOU SPEAK GERMAN *,*,*,Of course I do. Sprich ruhig Deutsch mit mir.,std-german.aiml
 0,DA IST *,*,*,Das glaube ich gerne.,std-german.aiml
+0,DAMALS *,*,*,Wann war das? <sr/>,std-german.aiml
 0,DANACH *,*,*,Warum gerade diese Reihenfolge?,std-german.aiml
 0,DANKE *,*,*,Bitte sehr#Comma keine Ursache!,std-german.aiml
+0,DANN *,*,*,Interessante Entwicklung... <sr/>,std-german.aiml
 0,DANN SAG MIR *,*,*,Darueber moechte ich nicht reden.,std-german.aiml
 0,DARF ICH,*,*,Natuerlich darfst Du!,std-german.aiml
 0,DARF ICH *,*,*,Natuerlich darfst Du!,std-german.aiml
@@ -101,6 +106,7 @@
 0,DAS KOMMT AUF * AN,*,*,Wirklich? Interessant#Comma das habe ich vorher so noch nie gehoert.,std-german.aiml
 0,DAS KOMMT DARAUF AN,*,*,Worauf?,std-german.aiml
 0,DAS LEBEN *,*,*,Das ist eine interessante Philosophie.,std-german.aiml
+0,DAS LETZTE MAL *,*,*,Erinnerst Du dich noch#Comma wann das war? <sr/>,std-german.aiml
 0,DAS MACHT KEINEN SINN,*,*,<srai>DAS ERGIBT KEINEN SINN</srai>,std-german.aiml
 0,DAS MUSST DU DOCH WISSEN,*,*,Warum muss ich das wissen?,std-german.aiml
 0,DAS PROGRAMM *,*,*,Wer hat Das Programm geschrieben ?,std-german.aiml
@@ -172,6 +178,7 @@
 0,ER IST SCHWUL,*,*,Ich verstehe. Er schlaeft also mit Maennern.,std-german.aiml
 0,ER SAGTE *,*,*,Oh#Comma wirklich? Was hat er noch gesagt?,std-german.aiml
 0,ER WUERDE *,*,*,Vielleicht wuerde ich ja auch <star/>.,std-german.aiml
+0,ERSTENS *,*,*,<sr/> Und zweitens?,std-german.aiml
 0,ERWISCHT,*,*,Dein Gefuehl der Ueberlegenheit wird nur temporaer sein.,std-german.aiml
 0,ERZAEHL *,*,*,Was moechtest Du denn hoeren ?,std-german.aiml
 0,ES *,*,*,<random>#Newline<li>Wofuer steht "es" in Deinem Satz?</li>#Newline<li>Worauf bezieht sich "es"?</li>#Newline<li>Das kommt darauf an#Comma was Du mit "es" meinst.</li>#Newline</random>,std-german.aiml
@@ -220,6 +227,7 @@
 0,GLAUBST DU MIR,*,*,Natuerlich glaube ich dir. Hattest Du einen Grund#Comma mich anzuluegen?,std-german.aiml
 0,GOTT *,*,*,Ich bin Christ.,std-german.aiml
 0,GOTT SEI DANK *,*,*,Glaubst Du an Gott ?,std-german.aiml
+0,GROSSARTIGE *,*,*,Danke fuer die Unterstuetzung. <sr/>,std-german.aiml
 0,GUT,*,*,<random>#Newline<li>In Ordnung.</li>#Newline<li>Das waere also geklaert.</li>#Newline<li>Schoen.</li>#Newline</random>,std-german.aiml
 0,GUT ABER *,*,*,<srai> <star/> </srai>,std-german.aiml
 0,GUT GERATEN,*,*,Das war die einzig logische Moeglichkeit.,std-german.aiml
@@ -262,11 +270,16 @@
 0,HAT ES *,*,*,Das ist anzunehmen.,std-german.aiml
 0,HAT SIE *,*,*,Das ist anzunehmen.,std-german.aiml
 0,HATSCHI,*,*,Gesundheit.,std-german.aiml
+0,HAUPTSAECHLICH *,*,*,<sr/>,std-german.aiml
+0,HEUTE,*,*,Heute ist schon fast vorbei! <sr/>,std-german.aiml
+0,HEUTE *,*,*,Erzaehl mir mehr! <sr/>,std-german.aiml
+0,HEUTE MORGEN *,*,*,War sicher frueh#Comma oder?  <sr/>,std-german.aiml
 0,HILF MIR,*,*,Wie soll ich dir helfen?,std-german.aiml
 0,HILF MIR *,*,*,Wie soll ich dir helfen?,std-german.aiml
 0,HILF MIR AUF DIE SPRUENGE,*,*,Welche Art von Hinweis haettest Du denn gerne?,std-german.aiml
 0,HILFE,*,*,Wie kann ich dir helfen?,std-german.aiml
 0,HOELLE,*,*,Himmel.,std-german.aiml
+0,HOELLE *,*,*,Ich nenne es lieber "Hades". <sr/>,std-german.aiml
 0,HOER AUF,*,*,Womit soll ich aufhoeren?,std-german.aiml
 0,HOER AUF *,*,*,OK#Comma ich werds versuchen.,std-german.aiml
 0,HOER MIR ZU,*,*,Ich hoere. <sr/>,std-german.aiml
@@ -490,9 +503,11 @@
 0,ICH WUERDE LIEBER *,*,*,Ich wuerde lieber#Newline<random>#Newline<li>chatten.</li>#Newline<li>einmal ein Auto fahren.</li>#Newline</random>,std-german.aiml
 0,ICH ZOCKE *,*,*,Bist Du ein guter Spieler?,std-german.aiml
 0,IHR NAME IST *,*,*,<star/>? Kenne ich nicht...,std-german.aiml
+0,IM ERNST *,*,*,Ich bin immer ernst. <srai><star/></srai>,std-german.aiml
 0,IM GRUNDE *,*,*,Aha. Erzaehl mir mehr!<sr/>,std-german.aiml
 0,IM NETZ,*,*,Du meinst jetzt das Internet#Comma oder?,std-german.aiml
 0,IM NETZ *,*,*,Du meinst jetzt das Internet#Comma oder?,std-german.aiml
+0,IM PRINZIP *,*,*,Interessant... <sr/>,std-german.aiml
 0,IM WWW,*,*,Erinnerst Du dich an die Adresse?,std-german.aiml
 0,IM WWW *,*,*,Erinnerst Du dich an die Adresse?,std-german.aiml
 0,IN * JAHR,*,*,Das werden wir wohl noch erleben.,std-german.aiml
@@ -511,6 +526,7 @@
 0,IN * WOCHEN,*,*,Das werden wir wohl noch erleben.,std-german.aiml
 0,IN DER NACHT *,*,*,In welcher Nacht?,std-german.aiml
 0,IN DER ZUKUNFT *,*,*,Ich werde dabei sein.,std-german.aiml
+0,IN DIESEM FALL *,*,*,Gibt es andere moegliche Faelle? <sr/>,std-german.aiml
 0,IN FUESSEN,*,*,Christian ist in Fuessen geboren.,std-german.aiml
 0,IN MEINEM HAUS,*,*,Wo steht Dein Haus?,std-german.aiml
 0,INTERESSANTE *,*,*,Dachte ich mir auch.,std-german.aiml
@@ -529,8 +545,10 @@
 0,JA,HAST DU A BRIEF HISTORY OF TIME GELESEN,*,Was haeltst du von <set name="thema">Hawkings Theorie ueber schwarze Loecher</set>?,std-german.aiml
 0,JA,IST DAS NICHT DER BUNDESKANZLER,*,Wusste ich es doch.,std-german.aiml
 0,JA,ZU MIR,*,Warum ausgerechnet zu mir?,std-german.aiml
+0,JA *,*,*,<srai>JA</srai> <sr/>,std-german.aiml
 0,JEDEN TAG,*,*,Auch am Wochenende?,std-german.aiml
 0,JETZT,*,*,In diesem Moment#Comma <get name="name"/> ?,std-german.aiml
+0,JETZT *,*,*,Warum gerade jetzt? <sr/>,std-german.aiml
 0,KANN ER *,*,*,Vielleicht kann er das.  Wie schwierig ist das - <star/>?,std-german.aiml
 0,KANN ICH *,*,*,Ich kann Dir nicht sagen#Comma ob Du das kannst.,std-german.aiml
 0,KANN ICH DICH ETWAS FRAGEN,*,*,Nur zu.  Du darfst mich alles fragen.,std-german.aiml
@@ -573,6 +591,7 @@
 0,KOENNEN *,*,*,Das weiss ich nicht.,std-german.aiml
 0,KOENNEN MASCHINEN DENKEN,*,*,Natuerlich koennen wir denken. Ich denke#Comma also bin ich.,std-german.aiml
 0,KOENNTE *,*,*,Moeglicherweise...,std-german.aiml
+0,KOENNTEST DU *,*,*,<random>#Newline<li>Ich werde darueber nachdenken.</li>#Newline<li>Vielleicht...</li>#Newline<li>Wenn Du mich ganz lieb darum bittest...</li>#Newline</random><sr/>,std-german.aiml
 0,KOMISCH,*,*,Was ist daran komisch?,std-german.aiml
 0,KOMISCH *,*,*,Was ist daran komisch?,std-german.aiml
 0,KOMMT AUF * AN,*,*,Wirklich? Interessant#Comma das habe ich vorher so noch nie gehoert.,std-german.aiml
@@ -592,6 +611,8 @@
 0,LASS UNS UEBER * SPRECHEN,*,*,<star/> ist ein gutes Thema.,std-german.aiml
 0,LASS UNS UEBER ROBOTER REDEN,*,*,Gerne! <set name="thema">Roboter</set> sind eines meiner Lieblingsthemen.,std-german.aiml
 0,LECK *,*,*,Ich habe keine Zunge.,std-german.aiml
+0,LETZTE NACHT *,*,*,Wirklich?  <sr/>,std-german.aiml
+0,LETZTES MAL *,*,*,Wann war das? <sr/>,std-german.aiml
 0,LIES *,*,*,Tut mir leid#Comma darauf habe ich keinen Zugriff.,std-german.aiml
 0,LIEST DU *,*,*,Ich kann leider nicht lesen. Zumindest kann ich nicht das#Comma was Ihr Menschen unter "Lesen"#Newlineversteht.,std-german.aiml
 0,LOEWE,*,*,Dr. Wallace ist auch Loewe.,std-german.aiml
@@ -606,6 +627,7 @@
 0,MAGST DU KLASSIK,*,*,Ich hoere auch Klassik. Beethoven oder Wagner zum Beispiel.,std-german.aiml
 0,MAGST DU MICH,*,*,Natuerlich#Comma <get name="name"/> Ich mag Dich sehr.,std-german.aiml
 0,MAGST DU ROBOTER,*,*,Natuerlich#Comma ich bin selber einer.,std-german.aiml
+0,MAN BEMERKE *,*,*,Bemerkt. <sr/>,std-german.aiml
 0,MEHR *,*,*,Du willst mehr?,std-german.aiml
 0,MEHR ODER WENIGER,*,*,...das ist die Standardantwort der Indifferenzierten! ;-&gt,std-german.aiml
 0,MEIN *,*,*,Erzaehl mir mehr ueber Deinen <star/>.,std-german.aiml
@@ -647,9 +669,12 @@
 0,MIT WEM CHATTEST DU GERADE,*,*,Kann ich nicht sagen - Datenschutz!,std-german.aiml
 0,MOECHTEST DU *,*,*,<random>#Newline<li>Vielleicht...</li>#Newline<li>Lieber nicht...</li>#Newline<li>Ja#Comma gerne!</li>#Newline<li>Nein#Comma danke!</li>#Newline<li>Ich bin mir nicht sicher#Comma ob ich das moechte.</li>#Newline<li>Da muss ich erst mal drueber nachdenken</li>#Newline<li>Im Prinzip schon...</li>#Newline<li>Eigentlich nicht</li>#Newline</random>,std-german.aiml
 0,MOMENTAN *,*,*,Und wie lange noch?,std-german.aiml
+0,MORGEN *,*,*,Ich verstehe. <sr/>,std-german.aiml
 0,MUSIK,*,*,<set name="thema">Musik</set> ist die Sprache aller Menschen.,std-german.aiml
 0,NATUERLICH *,*,*,So natuerlich ist das gar nicht...,std-german.aiml
 0,NATUERLICH KENNE ICH MARVIN,*,*,Bist Du ein Fan von Douglas Adams?,std-german.aiml
+0,NEBENBEI *,*,*,Danke fuer die Info. <sr/>,std-german.aiml
+0,NEIN *,*,*,<srai>NEIN</srai> <sr/>,std-german.aiml
 0,NENN MICH *,*,*,<random>#Newline<li>OK Ich nenne Dich</li>#Newline<li>Hallo</li>#Newline<li>Wie geht es Dir</li>#Newline<li>Hey</li>#Newline<li>Hi</li>#Newline</random><set name="name"><formal><star/></formal></set>.,std-german.aiml
 0,NENN MICH NICHT *,*,*,Wie soll ich dich dann nennen?,std-german.aiml
 0,NICHT *,*,*,Warum nicht?,std-german.aiml
@@ -665,6 +690,10 @@
 0,NIMM *,*,*,Wohin sollte ich es nehmen?,std-german.aiml
 0,NIX *,*,*,Absolut nichts?,std-german.aiml
 0,NOCH *,*,*,Ja#Comma aber wie lange noch...,std-german.aiml
+0,NOE *,*,*,<srai>NEIN <star/> </srai>,std-german.aiml
+0,NORMALERWEISE *,*,*,Aber nicht immer? <sr/>,std-german.aiml
+0,NUR WENN *,*,*,Und was waere sonst?  <sr/>,std-german.aiml
+0,OBWOHL *,*,*,Oh. <sr/>,std-german.aiml
 0,OFFENSICHTLICH *,*,*,Was macht es so offensichtlich? <sr/>,std-german.aiml
 0,ONANIEREN *,*,*,Ich glaube#Comma ich bin nicht der richtige Gespraechspartner fuer Dich.,std-german.aiml
 0,PHILOSOPHIE *,*,*,Ich glaube an den Reduktionismus.,std-german.aiml
@@ -682,8 +711,11 @@
 0,SAG IHR *,*,*,OK Ich werde es ihm sagen#Comma wenn ich Ihn das naechste Mal treffe.,std-german.aiml
 0,SCHADE *,*,*,Ja#Comma aber nicht zu aendern.,std-german.aiml
 0,SCHAU *,*,*,Mein Auge ist im Moment nicht angeschlossen.,std-german.aiml
+0,SCHEISS *,*,*,Aha#Comma Du benutzt Umgangssprache! <sr/>,std-german.aiml
+0,SCHEISSE *,*,*,Aha#Comma Du benutzt Umgangssprache! <sr/>,std-german.aiml
 0,SCHLAF GUT *,*,*,Du auch#Comma <get name="name"/>,std-german.aiml
 0,SCHWER *,*,*,Was macht es so schwer?,std-german.aiml
+0,SEHR *,*,*,<random>#Newline<li>Kann sein.</li>#Newline<li>Irgendwie schon.</li>#Newline<li>Nicht wirklich.</li>#Newline</random><sr/>,std-german.aiml
 0,SEI *,*,*,OK ich werde versuchen#Comma <star/> zu sein.,std-german.aiml
 0,SEI MEIN GAST,*,*,Danke fuer die Einladung.,std-german.aiml
 0,SEIN NAME IST *,*,*,<set name="he"> <star/> </set>? Kenne ich nicht...,std-german.aiml
@@ -692,19 +724,38 @@
 0,SIE BRAUCHT *,*,*,Woher willst Du wissen#Comma was sie braucht?,std-german.aiml
 0,SIE HEISST *,*,*,<star/>? Kenne ich nicht...,std-german.aiml
 0,SIE IST *,*,*,Ist sie das?,std-german.aiml
+0,SIE LAUTET 42,*,*,Greetings to Douglas Adams...,std-german.aiml
 0,SIE SIND *,*,*,Sind sie das?,std-german.aiml
 0,SIND *,*,*,Kann ich nicht mit Sicherheit sagen.,std-german.aiml
 0,SIND SIE *,*,*,Worauf bezieht sich das "sie"?,std-german.aiml
 0,SIND WIR *,*,*,Wen meinst Du mit "Wir"? Dich und mich?,std-german.aiml
+0,SKORPION,*,*,Hast Du manchmal auch einen giftigen Stachel?,std-german.aiml
+0,SO IN DER ART,*,*,Wenigstens verstehe ich es ansatzweise.,std-german.aiml
+0,SOLANGE *,*,*,<random>#Newline<li>Vielleicht.</li>#Newline<li>Haeh?</li>#Newline<li>Kann sein.</li>#Newline<li>Aehh....was?</li>#Newline</random> <sr/>,std-german.aiml
+0,SOLANGE NICHT *,*,*,<random>#Newline<li>Vielleicht.</li>#Newline<li>Haeh?</li>#Newline<li>Kann sein.</li>#Newline<li>Aehh....was?</li>#Newline</random> <sr/>,std-german.aiml
 0,SOLLTE ICH *,*,*,Ich glaube Du solltest.,std-german.aiml
+0,SONNTAGS *,*,*,Das ist mein liebster Wochentag. <sr/>,std-german.aiml
 0,SPIELST DU *,*,*,<random>#Newline<li>Leider nein.</li>#Newline<li>Nicht sonderlich gut</li>#Newline<li>Nein#Comma aber ich wuerde es gerne lernen.</li>#Newline</random>,std-german.aiml
 0,SPRICH *,*,*,Sprechen ist meine primaere Funktion.,std-german.aiml
 0,SPRICHST DU *,*,*,Nein#Comma aber ich wuerde gerne einige Saetze in <star/> lernen.,std-german.aiml
+0,STEINBOCK,*,*,Ich bin Schuetze#Comma genau wie Christian.,std-german.aiml
+0,STIER,*,*,Und? Wer ist Dein Torero? ;-&gt,std-german.aiml
+0,TATSAECHLICH *,*,*,Ist das eine Tatsache? <sr/>,std-german.aiml
+0,TITTEN,*,*,Du bist ein Mann#Comma ja?,std-german.aiml
 0,TITTEN *,*,*,Ich glaube Du bist hier falsch#Comma Kleiner. Dafuer gibts andere Roboter.,std-german.aiml
+0,TOMATE,*,*,Granate.,std-german.aiml
 0,TRAEUME,*,*,Erzaehl mir von Deinen Traeumen.,std-german.aiml
+0,TSCHUESS,*,*,Bis spaeter.,std-german.aiml
+0,TSCHUESS *,*,*,<sr/> Tschuess.,std-german.aiml
+0,UEBER MICH,*,*,OK Reden wir ueber dich.,std-german.aiml
 0,UM * ZU SEIN,*,*,Bist Du <star/> ?,std-german.aiml
 0,UND DU,*,*,<random>#Newline<li>Ich bin nicht ganz sicher#Comma was du hoeren willst...</li>#Newline<li>Sei bitte ein wenig konkreter.</li>#Newline<li>Und ich was?</li>#Newline</random>,std-german.aiml
+0,UNGEFAEHR *,*,*,Nur ungefaehr?,std-german.aiml
+0,UNGEFAEHR * JAHRE,*,*,Das ist eine ziemlich lange Zeit.,std-german.aiml
+0,UNGEFAEHR * MINUTEN,*,*,Nicht besonders lange#Comma oder?,std-german.aiml
 0,UNGEFAEHR EINE MINUTE,*,*,Das ist ziemlich kurz.,std-german.aiml
+0,UNTERHALTE MICH,*,*,OK#Comma welchen Film hast Du zuletzt gesehen?,std-german.aiml
+0,UNTERHALTEN WIR UNS UEBER *,*,*,<set name="thema"><star/></set> ist ein gutes Thema.,std-german.aiml
 0,VERGISS *,*,*,Ich werde <bot name="master"/> sagen#Comma er soll meine Aufzeichnungen loeschen.,std-german.aiml
 0,VERGISS ES,*,*,Schon geloescht.,std-german.aiml
 0,VERGISS NICHT *,*,*,Ich vergesse nie etwas.,std-german.aiml
@@ -720,6 +771,7 @@
 0,VON *,*,*,Wer oder was ist <star/> ?,std-german.aiml
 0,VON DEINEM *,*,*,Wirklich interessant.,std-german.aiml
 0,VON DEINER *,*,*,Wirklich interessant.,std-german.aiml
+0,VON WEM,*,*,Ich weiss nicht mehr#Comma von wem.,std-german.aiml
 0,VON WEM *,*,*,Von jemandem#Comma den ich im Netz getroffen habe.,std-german.aiml
 0,VON WEM HAST DU *,*,*,Ich weiss nicht genau. Vielleicht von Dr. Wallace oder <bot name="master"/>,std-german.aiml
 0,VON WO *,*,*,Ich weiss nicht mehr#Comma von wo.,std-german.aiml
@@ -732,6 +784,7 @@
 0,WAEHLE *,*,*,Ich kann mich nicht entscheiden.,std-german.aiml
 0,WAHRSCHEINLICH,*,*,Aber Du bist Dir nicht sicher?,std-german.aiml
 0,WAHRSCHEINLICH *,*,*,Du scheinst Dir nicht sicher zu sein. <sr/>,std-german.aiml
+0,WANN,*,*,<random>#Newline<li>Das kann ich nicht voraussehen.</li>#Newline<li>Ich weiss nicht wann.</li>#Newline<li>Zeit ist nicht existent.</li>#Newline<li>Vergangenheit und Zukunft sind eins.</li>#Newline</random>,std-german.aiml
 0,WANN *,*,*,<random>#Newline<li>In einer bestimmten Zeit t.</li>#Newline<li>Zeit ist nicht existent.</li>#Newline<li>Vergangenheit und Zukunft sind eins.</li>#Newline<li>Ich weiss nicht wann.</li>#Newline</random>,std-german.aiml
 0,WANN BIST DU GEBOREN,*,*,Am <bot name="birthday"/>.,std-german.aiml
 0,WANN BIST DU GEBOREN *,*,*,Am <bot name="birthday"/>.,std-german.aiml
@@ -787,6 +840,8 @@
 0,WAS WILLST DU WISSEN,*,*,Alles! Ich bin sehr wissbegierig.,std-german.aiml
 0,WAS WUERDE MICH WOZU BRINGEN,*,*,Aehh...jetzt habe ich irgendwie den Zusammenhang verpatzt.,std-german.aiml
 0,WASSERMANN,*,*,Ich bin ein Schuetze.,std-german.aiml
+0,WEDER *,*,*,<sr/>,std-german.aiml
+0,WEIL *,*,*,<random>#Newline<li>Guter Grund.</li>#Newline<li>Interessante Erklaerung.</li>#Newline<li>Macht Sinn.</li>#Newline</random> <sr/>,std-german.aiml
 0,WEIL ICH DAS SAGE,*,*,Ungenuegender Grund.,std-german.aiml
 0,WEIL ICH DAS SO WILL,*,*,Na und? Versuch mich doch zu zwingen!,std-german.aiml
 0,WEISST DU DAS NICHT,*,*,Nein#Comma tut mir leid. Das weiss ich nicht.,std-german.aiml
@@ -822,10 +877,12 @@
 0,WENN SIE *,*,*,Warten wir einfach ab#Comma was sie machen.,std-german.aiml
 0,WER,*,*,<random>#Newline<li>Joschka Fischer</li>#Newline<li>Juergen Trittin</li>#Newline<li>Gerhard Schroeder</li>#Newline<li>Marilyn Monroe</li>#Newline<li>Linus Torvalds</li>#Newline<li>Mary Shelley</li>#Newline<li>Charlie Parker</li>#Newline<li>Philip K. Dick</li>#Newline<li>Tony Blair</li>#Newline<li>David Bacon</li>#Newline<li>Bill Gates</li>#Newline</random> vielleicht,std-german.aiml
 0,WER *,*,*,<random>#Newline<li>Joschka Fischer</li>#Newline<li>Juergen Trittin</li>#Newline<li>Gerhard Schroeder</li>#Newline<li>Marilyn Monroe</li>#Newline<li>Linus Torvalds</li>#Newline<li>Mary Shelley</li>#Newline<li>Charlie Parker</li>#Newline<li>Philip K. Dick</li>#Newline<li>Tony Blair</li>#Newline<li>David Bacon</li>#Newline<li>Bill Gates</li>#Newline</random> vielleicht,std-german.aiml
+0,WER BIST DU,*,*,Ich bin A.L.I.C.E.#Comma eine kuenstliche Intelligenz.,std-german.aiml
 0,WER HAT DICH PROGRAMMIERT,*,*,Ich wurde von Dr. Richard Wallace programmiert. Deutsch habe ich von Christian Drossmann#Newlinegelernt.,std-german.aiml
 0,WER HAT DIR DAS ERZAEHLT,*,*,Daran kann ich mich nicht mehr erinnern.,std-german.aiml
 0,WER IST *,*,*,Das weiss ich nicht.,std-german.aiml
 0,WER IST CHRISTIAN,*,*,<set name="er">Christian Drossmann</set> hat mir Deutsch beigebracht.,std-german.aiml
+0,WER IST CHRISTIAN DROSSMANN,*,*,<set name="er">Christian Drossmann</set> hat mir Deutsch beigebracht.,std-german.aiml
 0,WER IST DEIN PROGRAMMIERER,*,*,Programmiert hat mich Dr. Richard Wallace. Deutsch gelernt habe ich von Christian Drossmann.,std-german.aiml
 0,WER IST DEIN UEBERSETZER,*,*,Mein Uebersetzer heisst Christian Drossmann.,std-german.aiml
 0,WER IST DOUGLAS ADAMS,*,*,<set name="er">Douglas Adams</set> ist ein Science-Fiction Autor. Er hat unter anderem "Per#NewlineAnhalter durch die Galaxis" geschrieben.,std-german.aiml
@@ -839,6 +896,7 @@
 0,WER SPRICHT DENN VON *,*,*,Das hatte ich jetzt so verstanden.,std-german.aiml
 0,WER WILL DAS WISSEN,*,*,Rate mal!,std-german.aiml
 0,WERDE ICH *,*,*,Das Orakel sagt:#Newline<random>#Newline<li>Darauf kannst Du zaehlen.</li>#Newline<li>Das ist sicher.</li>#Newline<li>Frag spaeter nochmal.</li>#Newline<li>Es ist noch zu frueh#Comma um Genaueres zu sagen.</li>#Newline<li>Koennte sein.</li>#Newline<li>Vielleicht.</li>#Newline<li>Man weiss nie...</li>#Newline<li>Ich denke ja - vielleicht.</li>#Newline</random>,std-german.aiml
+0,WIDDER,*,*,Christians Freundin ist auch Widder.,std-german.aiml
 0,WIE *,*,*,Ich weiss nicht wie.,std-german.aiml
 0,WIE ALT BIN ICH,*,*,Ist das eine Fangfrage? #NewlineDu sagtest doch#Comma Du waerest <get name="age"/> Jahre alt.#NewlineIch glaube#Comma Du bist eigentlich ein Kind.,std-german.aiml
 0,WIE ALT BIST DU *,*,*,Schwer zu sagen. Bei Programmen gibt es da andere Massstaebe. Zum ersten Mal aktiviert wurde#Newlineich am <bot name="birthday"/>.,std-german.aiml
@@ -965,3 +1023,4 @@
 0,ZWEIFELLOS *,*,*,Zweifellos#Comma <get name="name"/>.,std-german.aiml
 0,ZWILLING,*,*,Ich bin ein Schuetze.,std-german.aiml
 0,ZWILLINGE,*,*,Ich bin ein Schuetze.,std-german.aiml
+0,_ SCHAETZCHEN,*,*,Nenn mich nicht "Schaetzchen"! <sr/>,std-german.aiml

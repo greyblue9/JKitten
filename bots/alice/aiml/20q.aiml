@@ -1,35 +1,30 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-	<!-- Free software (c) 2001-2003 ALICE A.I. Foundation.   -->
-	<!-- This program is open source code released under -->
-	<!-- the terms of the GNU General Public License     -->
-	<!-- as published by the Free Software Foundation.   -->
-	<!-- Complies with AIML 1.0 Tag Set Specification -->
-	<!-- as adopted by the ALICE A.I. Foundation.  -->
-	<!-- Blackjack.aiml written by Square Bear -->
+<?xml version="1.0" encoding="UTF-8"?>
 
-<category><pattern>20 Q</pattern><template><srai>20Q</srai></template></category>
-<category><pattern>TWENTY QUESTIONS</pattern><template><srai>20Q</srai></template></category>
-<category><pattern>20 QUESTIONS</pattern><template><srai>20Q</srai></template></category>
-<category><pattern>_ TWENTY QUESTIONS</pattern><template><srai>20Q</srai></template></category>
-<category><pattern>_ 20 QUESTIONS</pattern><template><srai>20Q</srai></template></category>
-<category><pattern>_ TWENTY QUESTIONS *</pattern><template><srai>20Q</srai></template></category>
-<category><pattern>_ 20 QUESTIONS *</pattern><template><srai>20Q</srai></template></category>
+20 Q
+<srai>20Q</srai>
 
-<category>
-<pattern>20Q</pattern>
-<template>
+TWENTY QUESTIONS
+<srai>20Q</srai>
+
+_ TWENTY QUESTIONS
+<srai>20Q</srai>
+
+_ 20 QUESTIONS
+<srai>20Q</srai>
+
+_ TWENTY QUESTIONS *
+<srai>20Q</srai>
+
+_ 20 QUESTIONS *
+<srai>20Q</srai>
+
+20Q
 <think>
 <set name="qnum">1</set>
 </think>
 Ok let's play 20 questions. I will think of something animal, vegetable or mineral and you have to guess what it is by asking me "yes" or "no" questions.<br/><br/>You can ask up to 20 questions before it's game over.<br/><br/>If you give up, say "I GIVE UP" and I'll tell you what I was thinking of.<br/><br/>Type "START" to play 20 questions.
-</template>
-</category>
 
-<category>
-<pattern>START</pattern>
-<that>TYPE START TO PLAY 20 QUESTIONS</that>
-<template>
+STARTTYPE START TO PLAY 20 QUESTIONS
 <think>
 <set name="topic">20Q</set>
 <random>
@@ -54,16 +49,12 @@ Ok let's play 20 questions. I will think of something animal, vegetable or miner
 
 </think>
 Ok, the object I am thinking of is classed as<get name="20qcategory"/>. Please ask your first question.
-</template>
-</category>
 
-<topic name="20Q"> 
-<category> 
-<pattern>_</pattern>
-<template>
+<topic name="20Q">
+_
 <think>
 <set name="question"><star/></set>
-<set name="topic"></set>
+<set name="topic"/>
 <set name="qsubject">NO SUBJECT</set>
 </think>
 	<condition name="question"> 
@@ -92,14 +83,10 @@ Ok, the object I am thinking of is classed as<get name="20qcategory"/>. Please a
 		<li value="WHAT IS IT"><srai>20Q GIVE UP</srai></li>
 		<li>That's not a "yes" or "no" question. I can only answer yes or no to your questions. Ask me another question or say "I GIVE UP". If you want to guess what it is, say "IS IT A" and then your guess.<think><set name="topic">20Q</set></think></li>
 	</condition>
-</template>
-</category>
-</topic>
 
-<category>
-<pattern>20Q RANDOM</pattern>
-<template>
-	<condition name="qsubject"> 
+
+20Q RANDOM
+<condition name="qsubject"> 
 		<li value="NO SUBJECT"><random><li>Yes.</li><li>No.</li></random></li>
 		<li><random><li>Yes.</li><li>No.</li><li>Yes it<get name="qsubject"/>.</li><li>No it<get name="qsubject"/>not.</li></random></li>
 	</condition>
@@ -131,14 +118,10 @@ Ok, the object I am thinking of is classed as<get name="20qcategory"/>. Please a
 <set name="topic">20Q</set>
 </think>
 <condition name="qnum">
-	<li value="FINISHED"><think><set name="topic"></set></think><srai>ALL 20Q ASKED</srai></li>
+	<li value="FINISHED"><think><set name="topic"/></think><srai>ALL 20Q ASKED</srai></li>
 </condition>
-</template>
-</category>
 
-<category>
-<pattern>INCREASE QNUM</pattern>
-<template>
+INCREASE QNUM
 <think>
 <condition name="qnum">
 <li value="1"><set name="qnum">2</set></li>
@@ -163,22 +146,11 @@ Ok, the object I am thinking of is classed as<get name="20qcategory"/>. Please a
 <li value="20"><set name="qnum">FINISHED</set></li>
 </condition>
 </think>
-</template>
-</category>
 
-<category>
-<pattern>20Q GIVE UP</pattern>
-<template>
+20Q GIVE UP
 You give up? I was thinking of<get name="20qanswer"/>!
-</template>
-</category>
 
-<category>
-<pattern>ALL 20Q ASKED</pattern>
-<template>
+ALL 20Q ASKED
 Sorry, you have asked 20 questions. I was thinking of<get name="20qanswer"/>!
-</template>
-</category>
 
 
-</aiml>

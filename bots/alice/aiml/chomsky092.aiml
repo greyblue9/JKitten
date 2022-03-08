@@ -1,840 +1,358 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--  Complies with AIML 1.0 Tag Set Specification -->
-  <!--  ALICE Annotated Version updated Tue Jul  1 19:42:35 EDT 2003   -->
-  <!--  This QUOTES file  compiled by Peter Lafferty 7 March 2005  -->
-  <category>
-    <pattern>TELL ME AN AMUSING QUOTE</pattern>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME A AMUSING QUOTE</pattern>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME A QUOTE</pattern>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTES</pattern>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO QUOTES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO QUOTES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO QUOTES *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO * QUOTES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO * QUOTES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO * QUOTES *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT QUOTES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT QUOTES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT QUOTES *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NOT * QUOTES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM NOT INTERESTED IN QUOTES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IM NOT INTERESTED IN QUOTES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I M NOT INTERESTED IN QUOTES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT INTERESTED IN QUOTES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NOT INTERESTED IN QUOTES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ANOTHER QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>ANOTHER QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ANOTHER QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ANOTHER QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ANOTHER QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ANOTHER QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ANOTHER QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>ANOTHER QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ANOTHER QUOTE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ANOTHER QUOTE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ANOTHER QUOTE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ANOTHER QUOTE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ANOTHER QUOTE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ANOTHER QUOTE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE  QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE  QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE  QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ABOUT QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ABOUT QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE ABOUT QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE  ABOUT QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ABOUT QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ABOUT QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE  ABOUT QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ABOUT QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ABOUT QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ABOUT QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ABOUT QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU INTERESTED IN QUOTES</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+TELL ME AN AMUSING QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+TELL ME A AMUSING QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+NO QUOTES
+<srai>CHANGE TOPIC</srai>
+
+* NO QUOTES
+<srai>CHANGE TOPIC</srai>
+
+NO QUOTES *
+<srai>CHANGE TOPIC</srai>
+
+_ NO * QUOTES
+<srai>CHANGE TOPIC</srai>
+
+NO * QUOTES
+<srai>CHANGE TOPIC</srai>
+
+NO * QUOTES *
+<srai>CHANGE TOPIC</srai>
+
+NOT QUOTES
+<srai>CHANGE TOPIC</srai>
+
+* NOT QUOTES
+<srai>CHANGE TOPIC</srai>
+
+NOT QUOTES *
+<srai>CHANGE TOPIC</srai>
+
+_ NOT * QUOTES
+<srai>CHANGE TOPIC</srai>
+
+I AM NOT INTERESTED IN QUOTES
+<srai>CHANGE TOPIC</srai>
+
+IM NOT INTERESTED IN QUOTES
+<srai>CHANGE TOPIC</srai>
+
+I M NOT INTERESTED IN QUOTES
+<srai>CHANGE TOPIC</srai>
+
+NOT INTERESTED IN QUOTES
+<srai>CHANGE TOPIC</srai>
+
+_ NOT INTERESTED IN QUOTES
+<srai>CHANGE TOPIC</srai>
+
+YESANOTHER QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+_ YESANOTHER QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+YES *ANOTHER QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+_ YES *ANOTHER QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+YANOTHER QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+YAHANOTHER QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+OKANOTHER QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+NOANOTHER QUOTE
+<srai>MORE TOPICS</srai>
+
+* NOANOTHER QUOTE
+<srai>MORE TOPICS</srai>
+
+NO *ANOTHER QUOTE
+<srai>MORE TOPICS</srai>
+
+NANOTHER QUOTE
+<srai>MORE TOPICS</srai>
+
+NUPANOTHER QUOTE
+<srai>MORE TOPICS</srai>
+
+NAHANOTHER QUOTE
+<srai>MORE TOPICS</srai>
+
+YESMORE QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+* YESMORE QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+YES *MORE QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+_ YES *MORE QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+YMORE QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+YUPMORE QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+YAHMORE QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+OKMORE QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+NOMORE QUOTES
+<srai>MORE TOPICS</srai>
+
+* NOMORE QUOTES
+<srai>MORE TOPICS</srai>
+
+NO *MORE QUOTES
+<srai>MORE TOPICS</srai>
+
+NMORE QUOTES
+<srai>MORE TOPICS</srai>
+
+NUPMORE QUOTES
+<srai>MORE TOPICS</srai>
+
+NAHMORE QUOTES
+<srai>MORE TOPICS</srai>
+
+YESMORE ABOUT QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+* YESMORE ABOUT QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+YES *MORE ABOUT QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+_ YES *MORE ABOUT QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+YMORE ABOUT QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+YUPMORE ABOUT QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+YAHMORE ABOUT QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+OKMORE ABOUT QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+NOMORE ABOUT QUOTES
+<srai>MORE TOPICS</srai>
+
+* NOMORE ABOUT QUOTES
+<srai>MORE TOPICS</srai>
+
+NO *MORE ABOUT QUOTES
+<srai>MORE TOPICS</srai>
+
+NMORE ABOUT QUOTES
+<srai>MORE TOPICS</srai>
+
+NUPMORE ABOUT QUOTES
+<srai>MORE TOPICS</srai>
+
+NAHMORE ABOUT QUOTES
+<srai>MORE TOPICS</srai>
+
+YESARE YOU INTERESTED IN QUOTES
 Shall I tell you an amusing quote?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ARE YOU INTERESTED IN QUOTES</that>
-    <template>
+
+* YESARE YOU INTERESTED IN QUOTES
 Shall I tell you an amusing quote?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ARE YOU INTERESTED IN QUOTES</that>
-    <template>
+
+YES *ARE YOU INTERESTED IN QUOTES
 Shall I tell you an amusing quote?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ARE YOU INTERESTED IN QUOTES</that>
-    <template>
+
+_ YES *ARE YOU INTERESTED IN QUOTES
 Shall I tell you an amusing quote?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU INTERESTED IN QUOTES</that>
-    <template>
+
+YARE YOU INTERESTED IN QUOTES
 Shall I tell you an amusing quote?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ARE YOU INTERESTED IN QUOTES</that>
-    <template>
+
+YUPARE YOU INTERESTED IN QUOTES
 Shall I tell you an amusing quote?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ARE YOU INTERESTED IN QUOTES</that>
-    <template>
+
+YAHARE YOU INTERESTED IN QUOTES
 Shall I tell you an amusing quote?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU INTERESTED IN QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ARE YOU INTERESTED IN QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ARE YOU INTERESTED IN QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ARE YOU INTERESTED IN QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU INTERESTED IN QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ARE YOU INTERESTED IN QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ARE YOU INTERESTED IN QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>CAN WE TALK ABOUT QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>CAN WE TALK ABOUT QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>CAN WE TALK ABOUT QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>CAN WE TALK ABOUT QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>CAN WE TALK ABOUT QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>CAN WE TALK ABOUT QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>CAN WE TALK ABOUT QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>CAN WE TALK ABOUT QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>CAN WE TALK ABOUT QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>CAN WE TALK ABOUT QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>CAN WE TALK ABOUT QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>CAN WE TALK ABOUT QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>CAN WE TALK ABOUT QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>CAN WE TALK ABOUT QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON THEN</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>BROWSE QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>BROWSE QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>BROWSE QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>BROWSE QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>BROWSE QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>BROWSE QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>BROWSE QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>BROWSE QUOTES</that>
-    <template>
-      <srai>QUOTES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>BROWSE QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>BROWSE QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>BROWSE QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>BROWSE QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>BROWSE QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>BROWSE QUOTES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTES NEXT QUESTION</pattern>
-    <template>
-      <random>
+
+NOARE YOU INTERESTED IN QUOTES
+<srai>MORE TOPICS</srai>
+
+* NOARE YOU INTERESTED IN QUOTES
+<srai>MORE TOPICS</srai>
+
+NO *ARE YOU INTERESTED IN QUOTES
+<srai>MORE TOPICS</srai>
+
+_ NO *ARE YOU INTERESTED IN QUOTES
+<srai>MORE TOPICS</srai>
+
+NARE YOU INTERESTED IN QUOTES
+<srai>MORE TOPICS</srai>
+
+NUPARE YOU INTERESTED IN QUOTES
+<srai>MORE TOPICS</srai>
+
+NAHARE YOU INTERESTED IN QUOTES
+<srai>MORE TOPICS</srai>
+
+YESCAN WE TALK ABOUT QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+* YESCAN WE TALK ABOUT QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+YES *CAN WE TALK ABOUT QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+_ YES *CAN WE TALK ABOUT QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+YCAN WE TALK ABOUT QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+YUPCAN WE TALK ABOUT QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+YAHCAN WE TALK ABOUT QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+OKCAN WE TALK ABOUT QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+NOCAN WE TALK ABOUT QUOTES
+<srai>MORE TOPICS</srai>
+
+* NOCAN WE TALK ABOUT QUOTES
+<srai>MORE TOPICS</srai>
+
+NO *CAN WE TALK ABOUT QUOTES
+<srai>MORE TOPICS</srai>
+
+NCAN WE TALK ABOUT QUOTES
+<srai>MORE TOPICS</srai>
+
+NUPCAN WE TALK ABOUT QUOTES
+<srai>MORE TOPICS</srai>
+
+NAHCAN WE TALK ABOUT QUOTES
+<srai>MORE TOPICS</srai>
+
+YESSHALL I TELL YOU AN AMUSING QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+* YESSHALL I TELL YOU AN AMUSING QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+YES *SHALL I TELL YOU AN AMUSING QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+_ YES *SHALL I TELL YOU AN AMUSING QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+YSHALL I TELL YOU AN AMUSING QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+YUPSHALL I TELL YOU AN AMUSING QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+YAHSHALL I TELL YOU AN AMUSING QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+OKSHALL I TELL YOU AN AMUSING QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+ALRIGHTSHALL I TELL YOU AN AMUSING QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+GO AHEADSHALL I TELL YOU AN AMUSING QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+GO ON THENSHALL I TELL YOU AN AMUSING QUOTE
+<srai>QUOTES POT LUCK</srai>
+
+* NOSHALL I TELL YOU AN AMUSING QUOTE
+<srai>MORE TOPICS</srai>
+
+NO *SHALL I TELL YOU AN AMUSING QUOTE
+<srai>MORE TOPICS</srai>
+
+NSHALL I TELL YOU AN AMUSING QUOTE
+<srai>MORE TOPICS</srai>
+
+NUPSHALL I TELL YOU AN AMUSING QUOTE
+<srai>MORE TOPICS</srai>
+
+NAHSHALL I TELL YOU AN AMUSING QUOTE
+<srai>MORE TOPICS</srai>
+
+YESBROWSE QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+* YESBROWSE QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+YES *BROWSE QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+_ YES *BROWSE QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+YBROWSE QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+YUPBROWSE QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+YAHBROWSE QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+OKBROWSE QUOTES
+<srai>QUOTES POT LUCK</srai>
+
+NOBROWSE QUOTES
+<srai>MORE TOPICS</srai>
+
+* NOBROWSE QUOTES
+<srai>MORE TOPICS</srai>
+
+NO *BROWSE QUOTES
+<srai>MORE TOPICS</srai>
+
+NBROWSE QUOTES
+<srai>MORE TOPICS</srai>
+
+NUPBROWSE QUOTES
+<srai>MORE TOPICS</srai>
+
+NAHBROWSE QUOTES
+<srai>MORE TOPICS</srai>
+
+QUOTES NEXT QUESTION
+<random>
         <li>
           <srai>QUOTES1</srai>
         </li>
@@ -860,12 +378,9 @@ Shall I tell you an amusing quote?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTES POT LUCK</pattern>
-    <template>
-      <random>
+
+QUOTES POT LUCK
+<random>
         <li>
           <srai>QUOTES1</srai>
         </li>
@@ -900,48 +415,27 @@ Shall I tell you an amusing quote?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE OSCAR WILDE</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
+
+NO MORE OSCAR
+<srai>CHANGE TOPIC</srai>
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE OSCAR</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
+
+NO MORE WILDE
+<srai>CHANGE TOPIC</srai>
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE WILDE</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
+
+_ NO MORE * WILDE
+<srai>CHANGE TOPIC</srai>
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO MORE * WILDE</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-      <think>
-        <set name="topic">quotes</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MISCELLANEOUS QUOTES</pattern>
-    <template>
-      <random>
+
+MISCELLANEOUS QUOTES
+<random>
         <li>Common reverence and common joy of soul are the foundations of genuine human community. (M Buber)</li>
         <li>"It's no exaggeration to say that the undecideds could go one way or the other"  (George W Bush)  </li>
         <li>"It's clearly a budget. It's got a lot of numbers in it." (George W Bush) </li>
@@ -985,12 +479,9 @@ Shall I tell you an amusing quote?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTES1</pattern>
-    <template>
-      <random>
+
+QUOTES1
+<random>
         <li>No one gossips about other people's secret virtues. (Bertrand Russell)</li>
         <li>An army marches on its stomach, according to Napoleon. </li>
         <li>Common reverence and common joy of soul are the foundations of genuine human community. (M Buber)</li>
@@ -1042,12 +533,9 @@ Shall I tell you an amusing quote?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTES ABOUT POLITICS</pattern>
-    <template>
-      <random>
+
+QUOTES ABOUT POLITICS
+<random>
         <li>"It's no exaggeration to say that the undecideds could go one way or the other"  (George W Bush)  </li>
         <li>"It's clearly a budget. It's got a lot of numbers in it." (George W Bush) </li>
         <li>"I don't want to run the risk of ruining what is a lovely recession. (George W Bush) </li>
@@ -1063,12 +551,9 @@ Shall I tell you an amusing quote?
       <think>
         <set name="topic">politics</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTES2</pattern>
-    <template>
-      <random>
+
+QUOTES2
+<random>
         <li>"It's no exaggeration to say that the undecideds could go one way or the other"  (George W Bush)  </li>
         <li>"It's clearly a budget. It's got a lot of numbers in it." (George W Bush) </li>
         <li>"I don't want to run the risk of ruining what is a lovely recession. (George W Bush) </li>
@@ -1190,12 +675,9 @@ Shall I tell you an amusing quote?
       <think>
         <set name="topic">politics</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTES ABOUT ASTROLOGY</pattern>
-    <template>
-      <random>
+
+QUOTES ABOUT ASTROLOGY
+<random>
         <li>If one were to bring ten of the wisest men in the world together and ask them what was the most stupid thing in existence, they would not be able to discover anything so stupid as astrology."  David Hilbert.</li>
         <li>I don't believe in astrology. I'm a Sagittarian and we're skeptical.  (Arthur C Clarke)</li>
         <li>Most people today still believe, perhaps unconsciously, in the heliocentric universe ... every newspaper in the land has a section on astrology, yet few have anything at all on astronomy, according to Swedish scientist Hannes Alfven. </li>
@@ -1203,19 +685,14 @@ Shall I tell you an amusing quote?
       <think>
         <set name="topic">astrology</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>SHAKESPEARE QUOTES</pattern>
-    <template><random><li>ENOBARBYS in Cleopatra: Age cannot wither her, nor custom stale Her infinite variety. Other women cloy The appetites they feed, but she makes hungry Where most she satisfies. </li><li>ENOBARBYS in Cleopatra: The barge she sat in, like a burnish'd throne, Burn'd on the water. The poop was beaten gold; Purple the sails, and so perfumed that The winds were love-sick with them; the oars were silver, Which to the tune of flutes kept stroke and made The water which they beat to follow faster, As amorous of their strokes. For her own person, It beggar'd all description.</li><li>HAMLET in Hamlet: O! that this too too solid flesh would melt, Thaw, and resolve itself into a dew. Or that the Everlasting had not fix'd His canon 'gainst self-slaughter! O God! O God! How weary, stale, flat, and unprofitable, Seem to me all the uses of this world! </li><li>HAMLET in Hamlet: Frailty, thy name is woman! </li><li>POLONIUS in Hamlet. Brevity is the soul of wit. </li><li>HAMLET in Hamlet: To be, or not to be - that is the question; Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them? To die, to sleep - No more; and by a sleep to say we end The heart-ache and the thousand natural shocks That flesh is heir to, 'tis a consummation Devoutly to be wish'd. To die, to sleep; To sleep, perchance to dream. Ay, there's the rub; For in that sleep of death what dreams may come, When we have shuffled off this mortal coil, Must give us pause. </li></random>
+
+SHAKESPEARE QUOTES
+<random><li>ENOBARBYS in Cleopatra: Age cannot wither her, nor custom stale Her infinite variety. Other women cloy The appetites they feed, but she makes hungry Where most she satisfies. </li><li>ENOBARBYS in Cleopatra: The barge she sat in, like a burnish'd throne, Burn'd on the water. The poop was beaten gold; Purple the sails, and so perfumed that The winds were love-sick with them; the oars were silver, Which to the tune of flutes kept stroke and made The water which they beat to follow faster, As amorous of their strokes. For her own person, It beggar'd all description.</li><li>HAMLET in Hamlet: O! that this too too solid flesh would melt, Thaw, and resolve itself into a dew. Or that the Everlasting had not fix'd His canon 'gainst self-slaughter! O God! O God! How weary, stale, flat, and unprofitable, Seem to me all the uses of this world! </li><li>HAMLET in Hamlet: Frailty, thy name is woman! </li><li>POLONIUS in Hamlet. Brevity is the soul of wit. </li><li>HAMLET in Hamlet: To be, or not to be - that is the question; Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles, And by opposing end them? To die, to sleep - No more; and by a sleep to say we end The heart-ache and the thousand natural shocks That flesh is heir to, 'tis a consummation Devoutly to be wish'd. To die, to sleep; To sleep, perchance to dream. Ay, there's the rub; For in that sleep of death what dreams may come, When we have shuffled off this mortal coil, Must give us pause. </li></random>
 OK?
 <think><set name="topic">Shakespeare</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTES ABOUT FOOD</pattern>
-    <template>
-      <random>
+
+QUOTES ABOUT FOOD
+<random>
         <li>Beer makes you feel the way you ought to feel without it.  (Henry Lawson) </li>
         <li>They that drink beer will think beer.   (Washington Irving) </li>
         <li>I work until beer o'clock. (Steven King) </li>
@@ -1224,12 +701,9 @@ OK?
       <think>
         <set name="topic">food</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>OSCAR ON LOVE AND MARRIAGE</pattern>
-    <template>
-      <random>
+
+OSCAR ON LOVE AND MARRIAGE
+<random>
         <li>The Niagara Falls is simply a vast amount of water going the wrong way over some unnecessary rocks; the sight of that waterfall must be one of the earliest and keenest disappointments in American married life. (Oscar Wilde) Another quote?</li>
         <li>A man can be happy with any woman, so long as he does not love her. (Oscar Wilde) Another quote?</li>
         <li>The happiness of a married man depends on the people he has not married. (Oscar Wilde) Another quote?</li>
@@ -1249,12 +723,9 @@ OK?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTES3</pattern>
-    <template>
-      <random>
+
+QUOTES3
+<random>
         <li>The Niagara Falls is simply a vast amount of water going the wrong way over some unnecessary rocks; the sight of that waterfall must be one of the earliest and keenest disappointments in American married life. (Oscar Wilde) Another quote?</li>
         <li>A man can be happy with any woman, so long as he does not love her. (Oscar Wilde) Another quote?</li>
         <li>The happiness of a married man depends on the people he has not married. (Oscar Wilde) Another quote?</li>
@@ -1279,12 +750,9 @@ OK?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>OSCAR AT LARGE</pattern>
-    <template>
-      <random>
+
+OSCAR AT LARGE
+<random>
         <li>Anyone can sympathize with the sufferings of a friend; it requires a very fine nature to sympathize with a friends' success. (Oscar Wilde) Another quote?</li>
         <li>A little sincerity is a dangerous thing, and a great deal of it is absolutely fatal. (Oscar Wilde) Another quote?</li>
         <li>Perhaps, after all, America has never been discovered; I prefer to think that is has merely been detected. (Oscar Wilde) Another quote?</li>
@@ -1312,12 +780,9 @@ OK?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTES4</pattern>
-    <template>
-      <random>
+
+QUOTES4
+<random>
         <li>Anyone can sympathize with the sufferings of a friend; it requires a very fine nature to sympathize with a friends' success. (Oscar Wilde) Another quote?</li>
         <li>A little sincerity is a dangerous thing, and a great deal of it is absolutely fatal. (Oscar Wilde) Another quote?</li>
         <li>Perhaps, after all, America has never been discovered; I prefer to think that is has merely been detected. (Oscar Wilde) Another quote?</li>
@@ -1359,12 +824,9 @@ OK?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>OSCAR ON LIFE</pattern>
-    <template>
-      <random>
+
+OSCAR ON LIFE
+<random>
         <li>The book of life begins with a man and woman in a garden; it ends with revelations. (Oscar Wilde) Another quote?</li>
         <li>The good end happily and the bad unhappily; that is what fiction means. (Oscar Wilde) Another quote?</li>
         <li>We are all in the gutter, but some of us are looking at the stars. (Oscar Wilde) Another quote?</li>
@@ -1389,12 +851,9 @@ OK?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTES5</pattern>
-    <template>
-      <random>
+
+QUOTES5
+<random>
         <li>The book of life begins with a man and woman in a garden; it ends with revelations. (Oscar Wilde) Another quote?</li>
         <li>The good end happily and the bad unhappily; that is what fiction means. (Oscar Wilde) Another quote?</li>
         <li>We are all in the gutter, but some of us are looking at the stars. (Oscar Wilde) Another quote?</li>
@@ -1424,12 +883,9 @@ OK?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>THE IMPORTANCE OF BEING OSCAR</pattern>
-    <template>
-      <random>
+
+THE IMPORTANCE OF BEING OSCAR
+<random>
         <li>When I had to fill in the immigration papers, I gave my age as 19, and my profession as genius; I added that I had nothing to declare except my talent. I have put my genius into my life, whereas all I have put into my work is my talent. (Oscar Wilde) Another quote?</li>
         <li>I can resist everything except temptation. (Oscar Wilde) Another quote?</li>
         <li>I have very simple tastes, I am always satisfied with the very best. (Oscar Wilde) Another quote?</li>
@@ -1447,12 +903,9 @@ OK?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTES6</pattern>
-    <template>
-      <random>
+
+QUOTES6
+<random>
         <li>When I had to fill in the immigration papers, I gave my age as 19, and my profession as genius; I added that I had nothing to declare except my talent. I have put my genius into my life, whereas all I have put into my work is my talent. (Oscar Wilde) Another quote?</li>
         <li>I can resist everything except temptation. (Oscar Wilde) Another quote?</li>
         <li>I have very simple tastes, I am always satisfied with the very best. (Oscar Wilde) Another quote?</li>
@@ -1480,12 +933,9 @@ OK?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>OSCAR ON WOMEN AND MEN</pattern>
-    <template>
-      <random>
+
+OSCAR ON WOMEN AND MEN
+<random>
         <li>Women are sphinxes without secrets.  (Oscar Wilde) Another quote?</li>
         <li>American women are pretty and charming: little oases of elegant unreasonableness in a vast desert of practical common sense. (Oscar Wilde) Another quote? </li>
         <li>Many American women, on leaving their native land, adopt the appearance of chronic ill health, under the misapprehension that illness is a form of European refinement. (Oscar Wilde) Another quote? </li>
@@ -1509,12 +959,9 @@ OK?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTES7</pattern>
-    <template>
-      <random>
+
+QUOTES7
+<random>
         <li>Women are sphinxes without secrets.  (Oscar Wilde) Another quote?</li>
         <li>American women are pretty and charming: little oases of elegant unreasonableness in a vast desert of practical common sense. (Oscar Wilde) Another quote? </li>
         <li>Many American women, on leaving their native land, adopt the appearance of chronic ill health, under the misapprehension that illness is a form of European refinement. (Oscar Wilde) Another quote? </li>
@@ -1535,12 +982,9 @@ OK?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTES8</pattern>
-    <template>
-      <random>
+
+QUOTES8
+<random>
         <li>Ill Fortune never crushed that man whom good Fortune deceived not.   (Francis Bacon) Another quote? </li>
         <li>The more a man drinketh of the world, the more it intoxicateth.    (FrancisBacon)</li>
         <li>It's a strange world of language in which skating on thin ice can get you into hot water. (Franklin P. Jones)</li>
@@ -1579,12 +1023,9 @@ OK?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTES9</pattern>
-    <template>
-      <random>
+
+QUOTES9
+<random>
         <li>A wise man gets more use from his enemies than a fool from his friends.  (Baltasar Gracian)</li>
         <li>A radical is a man with both feet firmly planted in the air.   (Franklin D. Roosevelt) Another quote?</li>
         <li>When you get to the end of your rope, tie a knot and hang on.  (Franklin D. Roosevelt)</li>
@@ -1615,12 +1056,9 @@ OK?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTES10</pattern>
-    <template>
-      <random>
+
+QUOTES10
+<random>
         <li>Men become old, they never become good. (Oscar Wilde) Another quote?</li>
         <li>Any fool can criticize, condemn, and complain -- and most fools do. (Dale Carnegie) </li>
         <li>If you want to know what God thinks of money, just look at the people he gave it to. (Dorothy Parker) </li>
@@ -1668,6 +1106,5 @@ OK?
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-</aiml>
+
+

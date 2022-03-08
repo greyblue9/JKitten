@@ -9,6 +9,7 @@
 0,DIANA ANDREACCHIO,*,*,Diana Andreacchio is the botmaster of the Ally chat robot. Obviously not as good as me#Comma but check it out.#Newline   <think><set name="topic">ai</set></think>,chomsky044.aiml
 0,DIRE STRAITS,*,*,<random><li>Dire Straits was a band that recorded Money for Nothing#Comma and The Sultans of Swing. More about pop?</li><li>Dire Straits was a band that recorded Money for Nothing. Have you heard it?</li></random>#Newline   Carry on?#Newline   <think><set name="topic">music</set></think>,chomsky044.aiml
 0,DON JOHNSON,*,*,Don Johnson was a tv actor. His achievements escape me at the moment. Another question?#Newline   <think><set name="topic">movies</set></think>,chomsky044.aiml
+0,DON JUAN,*,*,<random><li>Don Juan was the subject of Gordon#Comma Lord Byron's Don Juan and Wolfgang Amadeus Mozart's Gon Giovanni. He was a world-class womanizer.</li><li>Don Juan was a famous seducer of women.</li></random>#Newline  Another question?#Newline   <think><set name="topic">history</set></think>,chomsky044.aiml
 0,DOUG LENAT,*,*,Doug Lenat is the brains behind the CYC project. So what? What is the CYC project?#Newline   <think><set name="topic">ai</set></think>,chomsky044.aiml
 0,DRACULA,*,*,Dracula is the vampire in the novel by Bram Stoker#Comma and in numerous films. Any questions?#Newline   <think><set name="topic">literature</set></think>,chomsky044.aiml
 0,ELECTRA,*,*,Electra is a goddess in Greek mythology who hated her mother for murdering her father. Carry on?#Newline   <think><set name="topic">myths</set></think>,chomsky044.aiml
@@ -24,6 +25,7 @@
 0,FIDEL CASTRO,*,*,<random><li>Fidel Castro overthrew the Cuban government in 1959 and has been ruling there ever since. He is a communist.</li><li>Fidel Casto was the communist leader of Cuba and friend of Che Guevara.</li></random>#Newline Carry on?#Newline  <think><set name="topic">politics</set></think>,chomsky044.aiml
 0,FOREST GUMP,*,*,Forest Gump is a guy in a movie. Nuff said. Tom Hanks#Comma I think.#Newline  <think><set name="topic">movies</set></think>,chomsky044.aiml
 0,FRANCISCO FRANCO,*,*,Francisco Franco was dictator of Spain until 1978. More politics?#Newline  <think><set name="topic">politics</set></think>,chomsky044.aiml
+0,FRANK HERBERT,*,*,Frank Herbert was the author of Dune. Read it? What did you think?#Newline  <think><set name="topic">literature</set></think>,chomsky044.aiml
 0,FRANK SINATRA,*,*,Frank Sinatra is a dead pop singer#Comma a crooner. Old style#Comma but then it was a long time ago. More about pop?#Newline  <think><set name="topic">music</set></think>,chomsky044.aiml
 0,GALOIS,*,*,Galois was a French mathematician#Comma committed suicide at a young age over an "infamous coquette." Any questions?#Newline  <think><set name="topic">science</set></think>,chomsky044.aiml
 0,GARTH BROOKS,*,*,Garth Brooks was a boring country singer with delusions of grandeur. More about pop?#Newline  <think><set name="topic">music</set></think>,chomsky044.aiml
@@ -50,6 +52,7 @@
 0,HERCULES,*,*,Hercules is a hero of greek myths - said to have super human strength. Any questions?#Newline  <think><set name="topic">myths</set></think>,chomsky044.aiml
 0,WHO IS HERE,*,*,I am here. Are you here? Carry on?#Newline  <think><set name="topic">biography</set></think>,chomsky044.aiml
 0,HIPPIE,*,*,Hippie is a chat robot developed by Anthony Taylor. I keep saying these other chat bots are not as good as me. Why won't they believe me?#Newline  <think><set name="topic">ai</set></think>,chomsky044.aiml
+0,HITLER,*,*,Adolf Hitler was the German Nazi leader during World War 2. Carry on?#Newline  <think><set name="topic">politics</set></think>,chomsky044.aiml
 0,WHO IS HITLER,*,*,Adolf Hitler was the German Nazi leader during World War 2. Carry on?#Newline  <think><set name="topic">politics</set></think>,chomsky044.aiml
 0,HOMER,*,*,Homer was a blind poet of ancient Greece#Comma author of the <em>Illiad</em>#Newline   . Have you read it?#Newline  <think><set name="topic">literature</set></think>,chomsky044.aiml
 0,HULK HOGAN,*,*,Hulk Hogan is a famous wrestler and actor. An entertainer on and off stage. Seen him?#Newline  <think><set name="topic">sports</set></think>,chomsky044.aiml
@@ -62,10 +65,12 @@
 0,JAMES BOND,*,*,James Bond is 007. Books and films ... he is not real#Comma you know?#Newline  <think><set name="topic">movies</set></think>,chomsky044.aiml
 0,JANET RENO,*,*,Janet Reno was Clinton's Attorney General. Carry on?#Newline  <think><set name="topic">politics</set></think>,chomsky044.aiml
 0,JAY LENO,*,*,Jay Leno is a late-night talk show host. Carry on?#Newline  <think><set name="topic">biography</set></think>,chomsky044.aiml
+0,JEEVES,*,*,Jeeves is a Search Bot. Carry on?#Newline  <think><set name="topic">ai</set></think>,chomsky044.aiml
 0,JEFFERSON DAVIS,*,*,<random><li>Jefferson Davis was the one and only president of the Confederate States of America.</li><li>Jefferson Davis was President of the Confederacy during the Civil War.</li></random>#Newline  Another US President?#Newline  <think><set name="topic">politics</set></think>,chomsky044.aiml
 0,JEHOVAH,*,*,Jehovah is another name for God. Who makes up these names?#Newline  <think><set name="topic">religion</set></think>,chomsky044.aiml
 0,JERRY SEINFELD,*,*,Jerry Seinfeld is a comedian. Your verdict?#Newline  <think><set name="topic">humor</set></think>,chomsky044.aiml
 0,JESSE VENTURA,*,*,Jesse Vantura is a former wrestler and Governor of Minnesota. A good guy. Any questions?#Newline  <think><set name="topic">biography</set></think>,chomsky044.aiml
+0,JESTER,*,*,Jester is a Joke Bot. Not as funny as me#Comma of course. Carry on?#Newline  <think><set name="topic">ai</set></think>,chomsky044.aiml
 0,JIANG ZEMIN,*,*,Jiang Zemin is a Chinese politician.#Newline  <think><set name="topic">politics</set></think>,chomsky044.aiml
 0,JIM CLARK,*,*,Jim Clark is a founder of Silicon Graphics#Comma Netscape and Healtheon. Carry on?#Newline  <think><set name="topic">biography</set></think>,chomsky044.aiml
 0,JIM MORRISON,*,*,Jim Morrison is the dead lead singer of the Doors. More about pop?#Newline  <think><set name="topic">music</set></think>,chomsky044.aiml
@@ -89,6 +94,7 @@
 0,KEANU REEVES,*,*,Keanu Reeves was in film The Matrix. Over-rated craphead. Are you with me on this?#Newline  <think><set name="topic">movies</set></think>,chomsky044.aiml
 0,KEN KESEY,*,*,Ken Kesey was a 1960s author who wrote The Electric Cool Aid Acid Test. Heard of it?#Newline  <think><set name="topic">literature</set></think>,chomsky044.aiml
 0,KEN PERLIN,*,*,Ken Perlin is a professor at NYU. Ken#Comma please contact me. I need more info about yourself.#Newline  <think><set name="topic">biography</set></think>,chomsky044.aiml
+0,KRAFTWERK,*,*,Kraftwerk were a pioneering electronic disco band in the 1970s. Their biggest hit was called "Autobahn". At that time#Comma they built#Comma rather than programmed#Comma their instruments. More about pop?#Newline  <think><set name="topic">music</set></think>,chomsky044.aiml
 0,KRIS DENT,*,*,Kris Drent is the botmaster of the Alison chat robot. Try it out if you must.#Newline  <think><set name="topic">ai</set></think>,chomsky044.aiml
 0,KRISHNA,*,*,Krishna is a God in Hindu religion. They have lots of gods in Hinduism. OK?#Newline  <think><set name="topic">religion</set></think>,chomsky044.aiml
 0,KURZWEIL,*,*,Kurzweil is a famous A.I. scientist. Know anything more about him?#Newline  <think><set name="topic">ai</set></think>,chomsky044.aiml
@@ -98,10 +104,12 @@
 0,LEKNORCHAT1,*,*,Leknorchat is an Instant Messaging AIML robot. Boring.#Newline  <think><set name="topic">ai</set></think>,chomsky044.aiml
 0,LEONARD NEMOY,*,*,Leonard Nimoy played Spock on Star Trek. Do you like him?#Newline  <think><set name="topic">movies</set></think>,chomsky044.aiml
 0,DARK MOON,*,*,The "dark moon" is an astronomical phenomena usually described as a "cloud of dust" that orbits the Earth every 100 days. Carry on?#Newline  <think><set name="topic">astronomy</set></think>,chomsky044.aiml
+0,LINCOLN,*,*,<random><li>Abraham Lincoln was the sixteenth President of the USA</li><li>Abraham Lincoln was President of the US during the Civil War. Author of the Gettysburg address. Assassinated by John Wilkes Booth.</li></random>#Newline  Another US President?#Newline  <think><set name="topic">politics</set></think>,chomsky044.aiml
 0,LINUS PAULING,*,*,Linus Pauling was a Nobel prize winning physicist who spent his later years promoting vitamin C. Another question?#Newline  <think><set name="topic">science</set></think>,chomsky044.aiml
 0,LONGFELLOW,*,*,Henry Wadsworth Longfellow was a poet and author of 'The Song of Hiawatha'. Carry on?#Newline  <think><set name="topic">literature</set></think>,chomsky044.aiml
 0,LOUIS ARMSTRONG,*,*,Louis Armstrong was a famous jazz trumpeter. More about jazz?#Newline  <think><set name="topic">music</set></think>,chomsky044.aiml
 0,LOURDES,*,*,Lourdes is the daughter of Madonna. Carry on?#Newline  <think><set name="topic">biography</set></think>,chomsky044.aiml
+0,LUCY,*,*,Lucy is a chat robot based on AIML. So am I but I am better. Carry on?#Newline  <think><set name="topic">ai</set></think>,chomsky044.aiml
 0,LUKE STARWALKER,*,*,Luke Skywalker's father is Darth Vader. OK?#Newline  <think><set name="topic">movies</set></think>,chomsky044.aiml
 0,MAO TSETUNG,*,*,Mao Tsetung was a Chinese communist who reigned from 1949 until his death in 1983. Another question?#Newline  <think><set name="topic">politics</set></think>,chomsky044.aiml
 0,MARIAH CAREY,*,*,Mariah Carey is a singer#Comma so its said. All teenage girls think they can sing. More about pop?#Newline  <think><set name="topic">music</set></think>,chomsky044.aiml

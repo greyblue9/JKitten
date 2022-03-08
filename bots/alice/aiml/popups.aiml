@@ -1,234 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<aiml version="1.0">
-
-<!--Copyright 2011 David W. Newyear-->
-
- <!-- Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.-->
-
-
-<category>
-<pattern>POPUPBLOCK</pattern>
-<template>Turning off your pop-up blocker for this page is easy. If you're using Internet
+POPUPBLOCK
+Turning off your pop-up blocker for this page is easy. If you're using Internet
 Explorer, go to "Tools," then "Pop-up blocker," then "Pop-up blocker settings." Add <b>www.mentorpl.org</b> to your allowed sites.
 If you're using Firefox, go to "Tools," then "Options," then "Content." Look for "Block pop-up windows" and click the "Exceptions..." button. Now add <b>
-www.mentorpl.org</b> to your allowed sites. That's it. Doing this in other browsers is similar. </template>
-</category>
+www.mentorpl.org</b> to your allowed sites. That's it. Doing this in other browsers is similar.
 
-<category>
-<pattern>POPUPBLOCK2</pattern>
-<template>If you don't see the new tab or window, turn off your pop-up blocker. If you're using Internet
+POPUPBLOCK2
+If you don't see the new tab or window, turn off your pop-up blocker. If you're using Internet
 Explorer, go to "Tools," then "Pop-up blocker," then "Pop-up blocker settings." Add <b>www.mentorpl.org</b> to your allowed sites.
 If you're using Firefox, go to "Tools," then "Options," then "Content." Look for "Block pop-up windows" and click the "Exceptions..." button. Now add <b>
-www.mentorpl.org</b> to your allowed sites. That's it. Doing this in other browsers is similar. </template>
-</category>
+www.mentorpl.org</b> to your allowed sites. That's it. Doing this in other browsers is similar.
 
-<category>
-<pattern>POP UPS</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
+POP UPS
+<srai>POPUPBLOCK</srai>
 
-<category>
-<pattern>* POP UPS</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
+* POP UPS
+<srai>POPUPBLOCK</srai>
 
-<category>
-<pattern>POP UPS *</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
+POP UPS *
+<srai>POPUPBLOCK</srai>
 
-<category>
-<pattern>* POP UPS *</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
+* POP UPS *
+<srai>POPUPBLOCK</srai>
 
-<category>
-<pattern>POP UP</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
+POP UP
+<srai>POPUPBLOCK</srai>
 
-<category>
-<pattern>* POP UP</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
+* POP UP
+<srai>POPUPBLOCK</srai>
 
-<category>
-<pattern>POP UP *</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
+POP UP *
+<srai>POPUPBLOCK</srai>
 
-<category>
-<pattern>* POP UP *</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
+* POP UP *
+<srai>POPUPBLOCK</srai>
 
-<category>
-<pattern>POPUPS</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
+POPUPS
+<srai>POPUPBLOCK</srai>
 
-<category>
-<pattern>* POPUPS</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
+* POPUPS
+<srai>POPUPBLOCK</srai>
 
-<category>
-<pattern>POPUPS *</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
+POPUPS *
+<srai>POPUPBLOCK</srai>
 
-<category>
-<pattern>* POPUPS *</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
+* POPUPS *
+<srai>POPUPBLOCK</srai>
 
-<category>
-<pattern>POPUP</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
+POPUP
+<srai>POPUPBLOCK</srai>
 
-<category>
-<pattern>* POPUP</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
+* POPUP
+<srai>POPUPBLOCK</srai>
 
-<category>
-<pattern>POPUP *</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
+POPUP *
+<srai>POPUPBLOCK</srai>
 
-<category>
-<pattern>* POPUP *</pattern>
-<template><srai>POPUPBLOCK</srai></template>
-</category>
+* POPUP *
+<srai>POPUPBLOCK</srai>
 
-<!--POPUP OFF-->
+* POPUP * TURNED OFF
+Excellent. Please re-enter your search.
 
-<category>
-<pattern>* POPUP * TURNED OFF</pattern>
-<template>Excellent. Please re-enter your search.</template>
-</category>
+* POP UP * TURNED OFF
+Excellent. Please re-enter your search.
 
-<category>
-<pattern>* POP UP * TURNED OFF</pattern>
-<template>Excellent. Please re-enter your search.</template>
-</category>
+* TURNED OFF * POPUP *
+Excellent. Please re-enter your search.
 
-<category>
-<pattern>* TURNED OFF * POPUP *</pattern>
-<template>Excellent. Please re-enter your search.</template>
-</category>
+* TURNED OFF * POP UP *
+Excellent. Please re-enter your search.
 
-<category>
-<pattern>* TURNED OFF * POP UP *</pattern>
-<template>Excellent. Please re-enter your search.</template>
-</category>
-
-<category>
-<pattern>*</pattern>
-<that>PLEASE RE ENTER YOUR SEARCH</that>
-<template>
+*PLEASE RE ENTER YOUR SEARCH
 Let's see what's in the catalog. 
 <think>
 <set name="searcharg"><star/></set>
 <set name="search">catkey</set>
 </think>
-</template>
-</category>
 
-<!--END POPUP OFF-->
+NEW TAB
+<srai>POPUPBLOCK2</srai>
 
+_ NEW TAB
+<srai>POPUPBLOCK2</srai>
 
-<category>
-<pattern>NEW TAB</pattern>
-<template><srai>POPUPBLOCK2</srai></template>
-</category>
+_ NEW TAB *
+<srai>POPUPBLOCK2</srai>
 
-<category>
-<pattern>_ NEW TAB</pattern>
-<template><srai>POPUPBLOCK2</srai></template>
-</category>
+NEW TAB *
+<srai>POPUPBLOCK2</srai>
 
-<category>
-<pattern>_ NEW TAB *</pattern>
-<template><srai>POPUPBLOCK2</srai></template>
-</category>
+NEW TABS
+<srai>POPUPBLOCK2</srai>
 
-<category>
-<pattern>NEW TAB *</pattern>
-<template><srai>POPUPBLOCK2</srai></template>
-</category>
+_ NEW TABS
+<srai>POPUPBLOCK2</srai>
 
-<category>
-<pattern>NEW TABS</pattern>
-<template><srai>POPUPBLOCK2</srai></template>
-</category>
+_ NEW TABS *
+<srai>POPUPBLOCK2</srai>
 
-<category>
-<pattern>_ NEW TABS</pattern>
-<template><srai>POPUPBLOCK2</srai></template>
-</category>
+NEW TABS *
+<srai>POPUPBLOCK2</srai>
 
-<category>
-<pattern>_ NEW TABS *</pattern>
-<template><srai>POPUPBLOCK2</srai></template>
-</category>
+NEW WINDOW
+<srai>POPUPBLOCK2</srai>
 
-<category>
-<pattern>NEW TABS *</pattern>
-<template><srai>POPUPBLOCK2</srai></template>
-</category>
+_ NEW WINDOW
+<srai>POPUPBLOCK2</srai>
 
-<category>
-<pattern>NEW WINDOW</pattern>
-<template><srai>POPUPBLOCK2</srai></template>
-</category>
+_ NEW WINDOW *
+<srai>POPUPBLOCK2</srai>
 
-<category>
-<pattern>_ NEW WINDOW</pattern>
-<template><srai>POPUPBLOCK2</srai></template>
-</category>
+NEW WINDOW *
+<srai>POPUPBLOCK2</srai>
 
-<category>
-<pattern>_ NEW WINDOW *</pattern>
-<template><srai>POPUPBLOCK2</srai></template>
-</category>
+NEW WINDOWS
+<srai>POPUPBLOCK2</srai>
 
-<category>
-<pattern>NEW WINDOW *</pattern>
-<template><srai>POPUPBLOCK2</srai></template>
-</category>
+_ NEW WINDOWS
+<srai>POPUPBLOCK2</srai>
 
-<category>
-<pattern>NEW WINDOWS</pattern>
-<template><srai>POPUPBLOCK2</srai></template>
-</category>
+_ NEW WINDOWS *
+<srai>POPUPBLOCK2</srai>
 
-<category>
-<pattern>_ NEW WINDOWS</pattern>
-<template><srai>POPUPBLOCK2</srai></template>
-</category>
-
-<category>
-<pattern>_ NEW WINDOWS *</pattern>
-<template><srai>POPUPBLOCK2</srai></template>
-</category>
-
-<category>
-<pattern>NEW WINDOWS *</pattern>
-<template><srai>POPUPBLOCK2</srai></template>
-</category>
+NEW WINDOWS *
+<srai>POPUPBLOCK2</srai>
 
 
-</aiml>

@@ -1,15 +1,11 @@
-<?xml version="1.0"?>
-<aiml>
-  <category>
-    <pattern>aprender</pattern>
-    <template><addtriple><subj>giseldo</subj><pred>eh</pred><obj>aluno</obj></addtriple>
+<?xml version="1.0" encoding="UTF-8"?>
+
+APRENDER
+<addtriple><subj>giseldo</subj><pred>eh</pred><obj>aluno</obj></addtriple>
             Aprendido
-        </template>
-  </category>
-  <category>
-    <pattern>consultar</pattern>
-    <template>
-      <select>
+
+CONSULTAR
+<select>
         <vars>?x ?y</vars>
         <q>
           <subj>?x</subj>
@@ -22,12 +18,9 @@
           <get var="tuples"/>
         </tuple>
       </get>
-    </template>
-  </category>
-  <category>
-    <pattern>todos</pattern>
-    <template>
-      <select>
+
+TODOS
+<select>
         <vars>?x ?y ?z</vars>
         <q>
           <subj>?x</subj>
@@ -35,6 +28,5 @@
           <obj>?z</obj>
         </q>
       </select>
-    </template>
-  </category>
-</aiml>
+
+

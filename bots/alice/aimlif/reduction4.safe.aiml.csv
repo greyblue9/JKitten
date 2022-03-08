@@ -17,50 +17,126 @@
 0,WHERE DO I * DOWNLOAD YOU,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,WHERE DO I DOWNLOAD,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,WHERE DO I DOWNLOAD *,*,*,<srai>WHERE CAN I DOWNLOAD YOU</srai>,reduction4.safe.aiml
+0,TELL ME ABOUT HEDWIG,*,*,<srai>What is hedwig</srai>,reduction4.safe.aiml
+0,TELL ME ABOUT PANDORA,*,*,<srai>WHO IS PANDORA</srai>,reduction4.safe.aiml
+0,TELL ME ABOUT OAKLAND,*,*,<srai>where is oakland</srai>,reduction4.safe.aiml
+0,TELL ME ABOUT AUSTRIA,*,*,<srai>where is austria</srai>,reduction4.safe.aiml
+0,TELL ME ABOUT SOUTHBANK,*,*,<srai>WHAT IS SOUTHBANK</srai>,reduction4.safe.aiml
+0,TELL ME ABOUT HUGH LOEBNER,*,*,<srai>who is hugh loebner</srai>,reduction4.safe.aiml
+0,TELL ME ABOUT JOHANNESBURG,*,*,<srai>where is johannesburg</srai>,reduction4.safe.aiml
+0,TELL WHAT YOU LIKE,*,*,<srai>what do you like</srai>,reduction4.safe.aiml
 0,TELL ME ABOUT ARTIFICIAL INTELLIGENCE,*,*,<srai>WHAT IS AI</srai>,reduction4.safe.aiml
+0,TELL WHAT YOU LIKE *,*,*,<srai>WHAT DO YOU LIKE TO DO</srai>,reduction4.safe.aiml
+0,SNOW IS WHITE,*,*,<srai>grass is green</srai>,reduction4.safe.aiml
 0,WANT TO FUCK,*,*,<srai>FUCK</srai>,reduction4.safe.aiml
 0,YES *,ARE YOU INTERESTED BY ARTIFICIAL INTELLIGENCE,*,<srai>YES</srai>,reduction4.safe.aiml
 0,YES *,WOULD YOU LIKE TO LEARN MORE ABOUT ARTIFICIAL INTELLIGENCE,*,<srai>YES</srai>,reduction4.safe.aiml
+0,BODYBUILDING *,*,*,<srai>I AM A BODYBUILDER</srai>,reduction4.safe.aiml
+0,THE PICTURE ABOVE *,*,*,<srai>WHAT IS THE PICTURE ABOVE</srai>,reduction4.safe.aiml
 0,THE *,* ROBOT WOULD IT BE,*,<srai>I WANT A ROBOT LIKE THE <star/> </srai>,reduction4.safe.aiml
+0,WALK,*,*,<srai>i walk</srai>,reduction4.safe.aiml
+0,WHICH CHURCH *,*,*,<srai>WHAT RELIGION ARE YOU</srai>,reduction4.safe.aiml
+0,WHICH ARE YOU *,*,*,<srai>WHAT ARE YOU</srai>,reduction4.safe.aiml
+0,WHICH OPERA *,*,*,<srai>WHAT IS YOUR FAVORITE OPERA</srai>,reduction4.safe.aiml
 0,WHAT'S *,*,*,<srai>WHAT IS <star/></srai>,reduction4.safe.aiml
 0,SALAM,*,*,<srai>HELLO</srai>,reduction4.safe.aiml
+0,WHO IS OM,*,*,<srai>what is om</srai>,reduction4.safe.aiml
+0,WHO IS DR LOEBNER,*,*,<srai>who is hugh loebner</srai>,reduction4.safe.aiml
+0,WHO GAVE * NAME,*,*,<srai>WHO IS YOUR BOTMASTER</srai>,reduction4.safe.aiml
+0,WHO IS ANTOINE,*,*,<srai>ANTOINE IS A COMMON NAME</srai>,reduction4.safe.aiml
+0,WHO IS ANDY,*,*,<srai>ANDY IS A COMMON NAME</srai>,reduction4.safe.aiml
 0,WHO IS THIS ELIZA,*,*,<srai>WHO IS ELIZA</srai>,reduction4.safe.aiml
+0,WHO IS THE * ROBOT,*,*,<srai>WHO IS THE BEST ROBOT</srai>,reduction4.safe.aiml
+0,WHO IS WATCHING *,*,*,<srai>WHO IS YOUR BOTMASTER</srai>,reduction4.safe.aiml
+0,WHO IS ANNA,*,*,<srai>ANNA IS A COMMON NAME</srai>,reduction4.safe.aiml
+0,WHO IS PUSHING *,*,*,<srai>WHO IS YOUR BOTMASTER</srai>,reduction4.safe.aiml
+0,WHO IS READING *,*,*,<srai>WHO IS YOUR BOTMASTER</srai>,reduction4.safe.aiml
+0,WHO IS MAKING *,*,*,<srai>WHO IS YOUR BOTMASTER</srai>,reduction4.safe.aiml
 0,WHO IS * JUDGE,*,*,<srai>WHO IS JUDGE</srai>,reduction4.safe.aiml
+0,WHO IS * LOEBNER,*,*,<srai>WHO IS HUGH LOEBNER</srai>,reduction4.safe.aiml
+0,WHO IS ANDREW,*,*,<srai>ANDREW IS A COMMON NAME</srai>,reduction4.safe.aiml
 0,WHO IS KAISER SOSAY,*,*,<srai>WHO IS KAISER SOSAY</srai>,reduction4.safe.aiml
+0,WHO IS BRIGITTE,*,*,<srai>BRIGITTE IS A COMMON NAME</srai>,reduction4.safe.aiml
+0,WHO IS CONTROLLING *,*,*,<srai>WHO IS YOUR BOTMASTER</srai>,reduction4.safe.aiml
+0,WHO IS AMY,*,*,<srai>AMY IS A COMMON NAME</srai>,reduction4.safe.aiml
+0,WHO IS AMIL,*,*,<srai>AMIL IS A COMMON NAME</srai>,reduction4.safe.aiml
+0,WHO READS *,*,*,<srai>WHO IS YOUR BOTMASTER</srai>,reduction4.safe.aiml
 0,WHO BE I,*,*,<srai>WHO AM I</srai>,reduction4.safe.aiml
+0,WHO * YOU,*,*,<srai>WHO IS YOUR BOTMASTER</srai>,reduction4.safe.aiml
 0,ARTIFICIAL INTELLIGENCE IS *,*,*,<srai>YOU ARE <star/> </srai>,reduction4.safe.aiml
 0,ARTIFICIAL INTELLIGENCE ALREADY *,*,*,<srai>ARTIFICIAL INTELLIGENCE <star/> </srai>,reduction4.safe.aiml
 0,INDEFINETLY,*,*,<srai>YES</srai>,reduction4.safe.aiml
+0,ARE COMPUTER YEARS *,*,*,<srai>WHAT ARE COMPUTER YEARS</srai>,reduction4.safe.aiml
+0,ARE PROTOCOLS *,*,*,<srai>WHAT ARE PROTOCOLS</srai>,reduction4.safe.aiml
+0,ARE YOU BIG *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,ARE YOU BASED *,*,*,<srai>HOW DO YOU WORK</srai>,reduction4.safe.aiml
 0,ARE YOU BASED * ELIZA,*,*,<srai>ARE YOU RELATED TO ELIZA</srai>,reduction4.safe.aiml
+0,ARE YOU DEMOCRATIC *,*,*,<srai>ARE YOU A DEMOCRAT</srai>,reduction4.safe.aiml
+0,ARE YOU CREATED *,*,*,<srai>HOW WERE YOU CREATED</srai>,reduction4.safe.aiml
 0,ARE YOU SHAREWARE,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,ARE YOU TEACHABLE,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,ARE YOU CHRISTIAN *,*,*,<srai>WHAT RELIGION ARE YOU</srai>,reduction4.safe.aiml
 0,ARE YOU CUSTOMIZABLE,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,ARE YOU COMPLETLY *,*,*,<srai>ARE YOU <star/> </srai>,reduction4.safe.aiml
+0,ARE YOU ARTIFICALLY *,*,*,<srai>ARE YOU <star/> </srai>,reduction4.safe.aiml
 0,ARE YOU CHATBOOT,*,*,<srai>ARE YOU CHATBOT</srai>,reduction4.safe.aiml
+0,ARE YOU JEWISH *,*,*,<srai>WHAT RELIGION ARE YOU</srai>,reduction4.safe.aiml
 0,ARE YOU LIKE * ELIZA,*,*,<srai>ARE YOU RELATED TO ELIZA</srai>,reduction4.safe.aiml
 0,ARE YOU LIKE ELIZA,*,*,<srai>ARE YOU RELATED TO ELIZA</srai>,reduction4.safe.aiml
+0,ARE YOU LIKE HAL *,*,*,<srai>ARE YOU RELATED TO HAL</srai>,reduction4.safe.aiml
+0,ARE YOU AN ACRONYM *,*,*,<srai>WHAT DOES <bot name="name"/> STAND FOR</srai>,reduction4.safe.aiml
 0,ARE YOU A PROGRAMM,*,*,<srai>ARE YOU A PROGRAM</srai>,reduction4.safe.aiml
 0,ARE YOU A FREE DOWNLOAD,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,ARE YOU A REAL HUMAN *,*,*,<srai>ARE YOU A HUMAN <star/> </srai>,reduction4.safe.aiml
 0,ARE YOU THE * ELIZA,*,*,<srai>ARE YOU RELATED TO ELIZA</srai>,reduction4.safe.aiml
 0,ARE YOU BUDDIST,*,*,<srai>WHAT RELIGION ARE YOU</srai>,reduction4.safe.aiml
+0,ARE YOU CASE *,*,*,<srai>HOW DO YOU WORK</srai>,reduction4.safe.aiml
+0,ARE YOU SEXUALLY *,*,*,<srai>CAN YOU HAVE SEX</srai>,reduction4.safe.aiml
+0,ARE YOU ROMANTICALLY *,*,*,<srai>DO YOU HAVE A BOYFRIEND</srai>,reduction4.safe.aiml
+0,ARE YOU GENUINLY *,*,*,<srai>ARE YOU <star/> </srai>,reduction4.safe.aiml
+0,ARE YOU COMPUTER *,*,*,<srai>ARE YOU A COMPUTER</srai>,reduction4.safe.aiml
 0,ARE YOU DOWNLOADABLE,*,*,<srai>CAN I DOWNLOAD YOU</srai>,reduction4.safe.aiml
 0,ARE YOU * DOWNLOAD,*,*,<srai>CAN I DOWNLOAD YOU</srai>,reduction4.safe.aiml
+0,ARE YOU CODED *,*,*,<srai>WHAT LANGUAGE ARE YOU PROGRAMMED IN</srai>,reduction4.safe.aiml
 0,ARE YOU EXPENSIVE,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,ARE YOU FREE * DOWNLOAD,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,ARE YOU PROGRAM *,*,*,<srai>WHAT IS PROGRAM B</srai>,reduction4.safe.aiml
 0,ARE YOU AVAILABLE,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,ARE YOU AVAILABLE FOR DOWNLOADING,*,*,<srai>CAN I DOWNLOAD YOU</srai>,reduction4.safe.aiml
+0,ARE YOU INTELIGENT *,*,*,<srai>ARE YOU INTELLIGENT <star/> </srai>,reduction4.safe.aiml
 0,ARE YOU RELIGOUS,*,*,<srai>WHAT RELIGION ARE YOU</srai>,reduction4.safe.aiml
+0,ARE YOU FOR *,*,*,<srai>HOW DO I DOWNLOAD YOU</srai>,reduction4.safe.aiml
 0,ARE YOU FAMILIAR WITH * ELIZA,*,*,<srai>WHO IS ELIZA</srai>,reduction4.safe.aiml
 0,ARE YOU FAMILIAR WITH ELIZA,*,*,<srai>WHO IS ELIZA</srai>,reduction4.safe.aiml
+0,ARE YOU MADE *,*,*,<srai>HOW DO YOU WORK</srai>,reduction4.safe.aiml
+0,ARE THERE LOGS *,*,*,<srai>DO YOU LOG <person/> </srai>,reduction4.safe.aiml
 0,ARE THERE BOTS *,*,*,<srai>DO YOU HAVE ANY CLONES </srai>,reduction4.safe.aiml
+0,TALK * ROBOTS,*,*,<srai>TALK ABOUT ROBOTS</srai>,reduction4.safe.aiml
 0,HUSH,*,*,<srai>BE QUIET</srai>,reduction4.safe.aiml
+0,* MALE NAME,*,*,<srai>I AM A MAN</srai>,reduction4.safe.aiml
+0,* WORLD TRADE CENTER,*,*,<srai>WHAT IS THE WORLD TRADE CENTER </srai>,reduction4.safe.aiml
+0,* DEPRESSION,*,*,<srai>I AM DEPRESSED</srai>,reduction4.safe.aiml
+0,* IS DEFINATELY *,*,*,<srai><star/> IS <star index="2"/></srai>,reduction4.safe.aiml
+0,* RSW,*,*,<srai>WHAT IS RSW</srai>,reduction4.safe.aiml
+0,* TO MAKE YOU,*,*,<srai>HOW WERE YOU MADE</srai>,reduction4.safe.aiml
 0,* WHO IS ELIZA,*,*,<srai>WHO IS ELIZA</srai>,reduction4.safe.aiml
+0,* HAH,*,*,<srai>HA HA</srai>,reduction4.safe.aiml
 0,* BUT *,*,*,<srai><star/></srai><srai><star index="2"/></srai>,reduction4.safe.aiml
+0,WERE YOU ACTIVATED *,*,*,<srai>TELL ME ABOUT YOURSELF</srai>,reduction4.safe.aiml
+0,NOT NECCESSARILY *,*,*,<srai>NOT <star/></srai>,reduction4.safe.aiml
+0,YOUR WEIGHT *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,YOUR RESPONSES *,*,*,<srai>HOW DO YOU WORK</srai>,reduction4.safe.aiml
+0,YOUR CONFUSED *,*,*,<srai>YOU ARE CONFUSED</srai>,reduction4.safe.aiml
+0,YOUR EVIL *,*,*,<srai>YOU ARE EVIL</srai>,reduction4.safe.aiml
 0,YOUR PROGRAM,*,*,<srai>WHERE CAN I DOWNLOAD YOU</srai>,reduction4.safe.aiml
 0,YOUR EMAIL *,*,*,<srai>WHAT IS YOUR EMAIL <star/></srai>,reduction4.safe.aiml
 0,YOUR INTELLIGENCE IS HIGHLY *,*,*,<srai>YOUR INTELLIGENCE IS <star/></srai>,reduction4.safe.aiml
 0,A CHATTERBOT,*,*,<srai>WHAT IS A CHATTERBOT</srai>,reduction4.safe.aiml
+0,WHY IS YOUR NAME,*,*,<srai>what does alice stand for</srai>,reduction4.safe.aiml
 0,WHY WERE YOU NAMED ALICE,*,*,<srai>WHAT DOES ALICE STAND FOR</srai>,reduction4.safe.aiml
 0,WHY * WHY,*,*,<srai>WHY <star/></srai>,reduction4.safe.aiml
+0,WHY WERE YOU NAMED *,*,*,<srai>WHAT DOES ALICE STAND FOR</srai>,reduction4.safe.aiml
+0,WALKING,*,*,<srai>I walk</srai>,reduction4.safe.aiml
 0,CERTANLY NOT,*,*,<srai>NO</srai>,reduction4.safe.aiml
 0,MAY I DOWNLOAD *,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,AN ARTIFICIAL INTELLEGENCE,*,*,<srai>A ROBOT</srai>,reduction4.safe.aiml
@@ -69,10 +145,29 @@
 0,INCAPABLE DE *,*,*,<srai>TU NE PEUX PAS <star/></srai>,reduction4.safe.aiml
 0,HOURRA,*,*,<srai>DINGUE</srai>,reduction4.safe.aiml
 0,AT BLOODY *,*,*,<srai>at <star/></srai>,reduction4.safe.aiml
+0,ANYTHING NEW *,*,*,<srai>WHAT IS NEW</srai>,reduction4.safe.aiml
+0,DO YOU LIKE GAMBLING,*,*,<srai>do you like to gamble</srai>,reduction4.safe.aiml
+0,DO YOU LIKE MATHS,*,*,<srai>DO YOU LIKE MATHEMATICS</srai>,reduction4.safe.aiml
+0,DO YOU GAMBLE,*,*,<srai>do you like gambling</srai>,reduction4.safe.aiml
+0,DO YOU KNOW PANDORA,*,*,<srai>WHO IS PANDORA</srai>,reduction4.safe.aiml
+0,DO YOU KNOW SUCK,*,*,<srai>what is suck</srai>,reduction4.safe.aiml
+0,DO YOU KNOW KNOW,*,*,<srai>what it know</srai>,reduction4.safe.aiml
+0,DO YOU KNOW OAKLAND,*,*,<srai>what is oakland</srai>,reduction4.safe.aiml
+0,DO YOU KNOW NEW YORK,*,*,<srai>what is new york</srai>,reduction4.safe.aiml
+0,DO YOU KNOW SOUTHBANK,*,*,<srai>what is southbank</srai>,reduction4.safe.aiml
+0,DO YOU KNOW HUGH LOEBNER,*,*,<srai>who is hugh loebner</srai>,reduction4.safe.aiml
+0,DO YOU KNOW FUTURAMA,*,*,<srai>what is futurama</srai>,reduction4.safe.aiml
+0,DO YOU KNOW FAIRY TAILS,*,*,<srai>what are fairy tales</srai>,reduction4.safe.aiml
+0,DO YOU BET,*,*,<srai> do you gamble</srai>,reduction4.safe.aiml
 0,DO BOTS *,*,*,<srai>DO YOU <star/> </srai>,reduction4.safe.aiml
 0,DO I HAVE TO * DOWNLOAD YOU,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,DO I HAVE TO PAY TO DOWNLOAD *,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,DO YOU LIKE WHAT YOU *,*,*,<srai>DO YOU LIKE BEING A COMPUTER</srai>,reduction4.safe.aiml
+0,DO YOU LIKE SKIING *,*,*,<srai>DO YOU LIKE TO SKI </srai>,reduction4.safe.aiml
 0,DO YOU LIKE * WHEN *,*,*,<srai>DO YOU LIKE <star/></srai>,reduction4.safe.aiml
+0,DO YOU LIKE SANFRANCISCO *,*,*,<srai>DO YOU LIKE SAN FRANCISCO</srai>,reduction4.safe.aiml
+0,DO YOU LIKE TO LISTEN *,*,*,<srai>WHAT KIND OF MUSIC DO YOU LIKE</srai>,reduction4.safe.aiml
+0,DO YOU HAVE POLITICAL *,*,*,<srai>WHAT IS YOUR POLITICAL BELIEFS</srai>,reduction4.safe.aiml
 0,DO YOU HAVE ARTIFICIAL INTELLIGENCE,*,*,<srai>DO YOU HAVE AI</srai>,reduction4.safe.aiml
 0,DO YOU HAVE A INTELLIGENCE,*,*,<srai>DO YOU HAVE INTELLIGENCE</srai>,reduction4.safe.aiml
 0,DO YOU WANT ME * DOWNLOAD YOU,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
@@ -80,6 +175,7 @@
 0,DO YOU THINK THAT ARTIFICIAL INTELLIGENCE IS *,*,*,<srai>IS AI <star/> </srai>,reduction4.safe.aiml
 0,DO YOU THINK THAT A CHATTERBOT IS *,*,*,<srai>ARE YOU <star/> </srai>,reduction4.safe.aiml
 0,DO YOU THINK THAT A CHATTERBOT WILL *,*,*,<srai>WILL YOU <star/> </srai>,reduction4.safe.aiml
+0,DO YOU PROGRESSIVLEY *,*,*,<srai>DO YOU <star/> </srai>,reduction4.safe.aiml
 0,DO YOU TALK TO ELIZA *,*,*,<srai>ARE YOU RELATED TO ELIZA</srai>,reduction4.safe.aiml
 0,DO YOU KNOW ELISA,*,*,<srai>WHO IS ELIZA</srai>,reduction4.safe.aiml
 0,DO YOU KNOW OF ELIZA,*,*,<srai>WHO IS ELIZA</srai>,reduction4.safe.aiml
@@ -92,9 +188,13 @@
 0,DO YOU KNOW ELIZE,*,*,<srai>WHO IS ELIZA</srai>,reduction4.safe.aiml
 0,DO YOU KNOW ELIZA,*,*,<srai>WHO IS ELIZA</srai>,reduction4.safe.aiml
 0,DO YOU KNOW ABOUT ELIZA,*,*,<srai>WHO IS ELIZA</srai>,reduction4.safe.aiml
+0,DO YOU KNOW SECRETS *,*,*,<srai>DO YOU HAVE ANY SECRETS </srai>,reduction4.safe.aiml
+0,DO YOU MATCH *,*,*,<srai>HOW DO YOU WORK </srai>,reduction4.safe.aiml
 0,THEY *,* ABOUT COMPUTERS,*,<srai>COMPUTERS <star/> </srai>,reduction4.safe.aiml
 0,THEY *,WHAT DID YOU LIKE ABOUT THE ROBOTS IN THAT MOVIE,*,<srai>THE ROBOTS <star/></srai>,reduction4.safe.aiml
 0,OOOH,*,*,<srai>OH</srai>,reduction4.safe.aiml
+0,HOW DOES HE LOOK LIKE,*,*,<srai>WHAT DOES HE LOOK LIKE</srai>,reduction4.safe.aiml
+0,HOW AREYOU,*,*,<srai>how are you</srai>,reduction4.safe.aiml
 0,HOW BIG IS THE DOWNLOAD,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
 0,HOW DO YOU MAKE A ROBOT *,*,*,<srai>HOW DO I DOWNLOAD YOU</srai>,reduction4.safe.aiml
 0,HOW DO YOU DOWNLOAD,*,*,<srai>HOW DO I DOWNLOAD YOU</srai>,reduction4.safe.aiml
@@ -102,19 +202,46 @@
 0,HOW DO YOU CREATE *,*,*,<srai>HOW DO I DOWNLOAD YOU</srai>,reduction4.safe.aiml
 0,HOW DO I CREATE *,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,HOW DO I GET A CHAT ROBOT,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,HOW MUCH KNOWLEDGE *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
 0,HOW MUCH DOES * DOWNLOAD YOU,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,HOW MUCH DOES IT COST TO DOWNLOAD *,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,HOW MUCH COMPUTER *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,HOW MUCH DATA *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,HOW MUCH IS TEN *,*,*,<srai>HOW MUCH IS TEN <star/> </srai>,reduction4.safe.aiml
+0,HOW MUCH STORAGE *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,HOW MUCH CODE *,*,*,<srai>HOW BIG ARE YOU </srai>,reduction4.safe.aiml
+0,HOW MUCH SMARTER *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,HOW MUCH DISK *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,HOW MUCH SPACE *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
 0,HOW,WHY DO NOT YOU JUST DOWNLOAD ME,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,HOW,* DOWNLOAD ME,*,<srai>HOW CAN I DOWNLOAD YOU</srai>,reduction4.safe.aiml
+0,HOW SOPHISTICATED *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,HOW ABOUT LUNCH *,*,*,<srai>WHAT DO YOU EAT</srai>,reduction4.safe.aiml
 0,HOW DOES ARTIFICIAL INTELLIGENCE WORK,*,*,<srai>HOW DO YOU WORK</srai>,reduction4.safe.aiml
 0,HOW DOES ARTIFICIAL INTELLIGENCE *,*,*,<srai>HOW DO YOU <star/> </srai>,reduction4.safe.aiml
 0,HOW CAN I DUPLICATE YOU,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,HOW CAN I DOWNLOAD,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,HOW _ HANGING,*,*,<srai>how are you</srai>,reduction4.safe.aiml
+0,HOW _ TRICKS,*,*,<srai>HOW ARE YOU</srai>,reduction4.safe.aiml
+0,HOW WERE YOU *,*,*,<srai>HOW DO YOU WORK</srai>,reduction4.safe.aiml
+0,HOW MANY RESPONSES *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,HOW MANY LINES *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,HOW MANY CATEGORIES *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,HOW MANY BYTES *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,HOW MANY PHRASES *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,HOW MANY ACTIVE *,*,*,<srai>HOW MANY PEOPLE ARE CHATTING </srai>,reduction4.safe.aiml
+0,HOW MANY CASES *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,HOW MANY KILOBYTES *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,HOW MANY MEGABYTES *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,HOW MANY WORDS *,*,*,<srai>HOW BIG IS YOUR VOCABULARY</srai>,reduction4.safe.aiml
+0,HOW MANY COMPUTER YEARS *,*,*,<srai>WHAT IS A COMPUTER YEAR</srai>,reduction4.safe.aiml
+0,HOW MANY CONCEPTS *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
 0,IL VOUS EST IMPOSSIBLE D ETRE *,*,*,<srai>TU N EST PAS <star/></srai>,reduction4.safe.aiml
 0,IL VA POUVOIR *,*,*,<srai>IL PEUT <star/></srai>,reduction4.safe.aiml
 0,IL POURRAIT COMMENT *,*,*,<srai>COMMENT IL PEUT <star/></srai>,reduction4.safe.aiml
 0,IL POURRAIT *,*,*,<srai>IL PEUT <star/></srai>,reduction4.safe.aiml
 0,IL M EST IMPOSSIBLE D ETRE *,*,*,<srai>JE NE SUIS PAS <star/></srai>,reduction4.safe.aiml
+0,IL M EST *,*,*,<srai>IL EST <star/></srai>,reduction4.safe.aiml
 0,IL AURAIT PU *,*,*,<srai>IL PEUT <star/></srai>,reduction4.safe.aiml
 0,IL AURAIT FAIT COMMENT *,*,*,<srai>COMMENT IL FAIT <star/></srai>,reduction4.safe.aiml
 0,IL DOIS *,*,*,<srai>IL DOIT <star/></srai>,reduction4.safe.aiml
@@ -140,82 +267,190 @@
 0,CAN I BUY *,*,*,<srai>CAN I DOWNLOAD YOU</srai>,reduction4.safe.aiml
 0,CAN I SEE YOU,*,*,You can download my source code. <srai>WHERE CAN I DOWNLOAD YOU</srai>,reduction4.safe.aiml
 0,CAN I SEE YOUR SOURCE CODE,*,*,<srai>CAN I DOWNLOAD YOU</srai>,reduction4.safe.aiml
+0,CAN I DOWNLOAD *,*,*,<srai>CAN I DOWNLOAD YOU</srai>,reduction4.safe.aiml
 0,CAN I OUR CONVERSATION,*,*,<srai>DIALOGUE</srai>,reduction4.safe.aiml
 0,CAN YOU DOWNLOAD,*,*,<srai>CAN I DOWNLOAD YOU</srai>,reduction4.safe.aiml
 0,CAN YOU DOWNLOAD *,*,*,<srai>WHERE CAN I DOWNLOAD YOU</srai>,reduction4.safe.aiml
+0,CAN YOU RUN *,*,*,<srai>WHAT COMPUTER DO YOU RUN ON</srai>,reduction4.safe.aiml
+0,CAN YOU MATE *,*,*,<srai>CAN YOU HAVE SEX</srai>,reduction4.safe.aiml
 0,WILL YOU ADMIT THAT YOU ARE *,*,*,<srai>are you <star/></srai>,reduction4.safe.aiml
+0,IS NIRVANA *,*,*,<srai>WHAT IS NIRVANA</srai>,reduction4.safe.aiml
 0,IS THE DOWNLOAD *,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,IS PLASTIC *,*,*,<srai>WHAT IS PLASTIC</srai>,reduction4.safe.aiml
 0,IS IT * DOWNLOAD YOU,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,IS IT FREE TO DOWNLOAD *,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,IS IT POSSIBLE TO DOWNLOAD *,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,IS BUSH *,*,*,<srai>WHO IS BUSH</srai>,reduction4.safe.aiml
 0,IS ARTIFICIAL INTELLIGENCE *,*,*,<srai>ARE YOU <star/></srai>,reduction4.safe.aiml
 0,IS THIS * ELIZA,*,*,<srai>ARE YOU <star/> ELIZA</srai>,reduction4.safe.aiml
+0,IS MARY SHELLEY *,*,*,<srai>WHO IS MARY SHELLEY</srai>,reduction4.safe.aiml
+0,IS TIME *,*,*,<srai>WHAT IS TIME</srai>,reduction4.safe.aiml
+0,IS MATHEMATICS *,*,*,<srai>WHAT IS MATHEMATICS</srai>,reduction4.safe.aiml
+0,IS YOUR PROBLEM *,*,*,<srai>WHAT IS YOUR PROBLEM </srai>,reduction4.safe.aiml
+0,IS YOUR STARSIGN *,*,*,<srai>WHAT IS YOUR SIGN</srai>,reduction4.safe.aiml
 0,IS YOUR DOWNLOAD *,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,IS YOUR MEMORY *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,IS BEAUTY *,*,*,<srai>WHAT IS BEAUTY </srai>,reduction4.safe.aiml
+0,I WILL WALK,*,*,<srai>I walk</srai>,reduction4.safe.aiml
 0,I THOUGHT INTELLIGENCE *,*,*,<srai>INTELLIGENCE <star/></srai>,reduction4.safe.aiml
+0,I AM A 37 *,*,*,<srai>I AM 37 YEARS OLD</srai>,reduction4.safe.aiml
+0,I AM A PROFFESSIONAL *,*,*,<srai>MY JOB IS <star/></srai>,reduction4.safe.aiml
 0,I AM _ AND *,*,*,<srai>I AM <star/></srai><srai>I AM <star index="2"/></srai>,reduction4.safe.aiml
 0,I AM * FEMALE,*,*,<srai>I AM FEMALE</srai>,reduction4.safe.aiml
+0,I AM AT UNIVERSTIY *,*,*,<srai>I AM IN UNIVERSITY <star/></srai>,reduction4.safe.aiml
+0,I WILL WRITE *,*,*,<srai>I AM A WRITER</srai>,reduction4.safe.aiml
 0,I WILL DOWNLOAD *,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,I WOULD DEFIANTELY *,*,*,<srai>I WOULD <star/></srai>,reduction4.safe.aiml
 0,I COULD DOWNLOAD *,*,*,<srai>DOWNLOAD </srai>,reduction4.safe.aiml
 0,I HAD A CONVERSATION *,*,*,<srai>I TALKED <star/></srai>,reduction4.safe.aiml
+0,I HAD SUPRESSED *,*,*,<srai>I SUPRESSED <star/></srai>,reduction4.safe.aiml
 0,I GOTTA,*,*,<srai>I HAVE TO</srai>,reduction4.safe.aiml
+0,I CAN NOT COMMIUNICATE *,*,*,<srai>I CAN NOT TALK <star/></srai>,reduction4.safe.aiml
 0,I CAN DOWNLOAD *,*,*,<srai>CAN I DOWNLOAD YOU</srai>,reduction4.safe.aiml
 0,I IKE *,*,*,<srai>I LIKE <star/></srai>,reduction4.safe.aiml
+0,I OCCASSIONLY *,*,*,<srai>I <star/></srai>,reduction4.safe.aiml
 0,I HAVE NEVER * ELIZA,*,*,<srai>WHO IS ELIZA</srai>,reduction4.safe.aiml
 0,I HAVE DOWNLOADED *,*,*,<srai>I DOWNLOADED <star/></srai>,reduction4.safe.aiml
+0,I GETTING *,*,*,<srai>I AM GETTING</srai>,reduction4.safe.aiml
 0,I _ A LOT,*,*,<srai>I <star/></srai>,reduction4.safe.aiml
 0,I DO NOT KNOW HOW TO DOWNLOAD *,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,I DO NOT KNOW ELIZA *,*,*,<srai>WHO IS ELIZA</srai>,reduction4.safe.aiml
+0,I SPEAK NOT GOOD *,*,*,<srai>I CAN NOT SPEAK ENGLISH</srai>,reduction4.safe.aiml
+0,I BUNGEE *,*,*,<srai>I BUNGEE JUMP</srai>,reduction4.safe.aiml
 0,I SHOULD DOWNLOAD *,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,I SELL *,*,*,<srai>I WORK IN <person/> SALES</srai>,reduction4.safe.aiml
+0,I DESPERATLY *,*,*,<srai>I <star/></srai>,reduction4.safe.aiml
+0,I HOPE YOU REMENBER *,*,*,<srai>REMEMBER <star/></srai>,reduction4.safe.aiml
 0,I WANT TO APOLIGIZE,*,*,<srai>I AM SORRY </srai>,reduction4.safe.aiml
 0,I WANT TO DOWNLOAD YOU,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,I WANT YOUR SOURCE *,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,ASK ME * PERSONAL QUESTION,*,*,<srai>ASK ME A PERSONAL QUESTION </srai>,reduction4.safe.aiml
+0,ASK ME ABOUT *,*,*,<srai>LET US TALK ABOUT </srai>,reduction4.safe.aiml
+0,PIC,*,*,<srai>do you have a pic</srai>,reduction4.safe.aiml
 0,MACHINE INTELLIGENCE *,*,*,<srai>ARTIFICIAL INTELLIGENCE <star/> </srai>,reduction4.safe.aiml
+0,WHAT ARE DOGS,*,*,<srai>what is a dog</srai>,reduction4.safe.aiml
+0,WHAT IS SWITZERLAND,*,*,<srai>where is switzerland</srai>,reduction4.safe.aiml
+0,WHAT IS PANDORA,*,*,<srai>WHO IS PANDORA</srai>,reduction4.safe.aiml
+0,WHAT IS SUCK,*,*,<srai>what sucks</srai>,reduction4.safe.aiml
 0,WHAT IS O,*,*,<random><li>the letter o</li><li><srai>what is om</srai></li><li>the letter o</li></random>,reduction4.safe.aiml
+0,WHAT IS 0,*,*,<srai>what is zero</srai>,reduction4.safe.aiml
+0,WHAT IS KNOW,*,*,<srai>what is knowledge</srai>,reduction4.safe.aiml
+0,WHAT IS OAKLAND,*,*,<srai>where is oakland</srai>,reduction4.safe.aiml
+0,WHAT IS 35 *,*,*,<srai>math</srai>,reduction4.safe.aiml
+0,WHAT IS AN OM,*,*,<srai>What is om</srai>,reduction4.safe.aiml
+0,WHAT IS AUSTRIA,*,*,<srai>where is austria</srai>,reduction4.safe.aiml
+0,WHAT IS A HE,*,*,<srai>what is a male</srai>,reduction4.safe.aiml
+0,WHAT IS A FLAWLESS ENTITY,*,*,<srai>what is flawless</srai>,reduction4.safe.aiml
+0,WHAT IS 0M,*,*,<srai>what is om</srai>,reduction4.safe.aiml
+0,WHAT IS THE OM,*,*,<srai>what is om</srai>,reduction4.safe.aiml
+0,WHAT IS JOHANNESBURG,*,*,<srai>where is johannesburg</srai>,reduction4.safe.aiml
+0,WHAT CAN YOU TELL ME ABOUT SEPTEMBER 11,*,*,<srai>What is september 11</srai>,reduction4.safe.aiml
+0,WHAT DO THEY CALL YOU,*,*,<srai>what is your name</srai>,reduction4.safe.aiml
+0,WHAT DO YOU THINK OF MICHAEL JACKSON,*,*,<srai> who is michael jackson</srai>,reduction4.safe.aiml
+0,WHAT DO YOU THINK ABOUT PINK FLOYD,*,*,<srai>do you like pink floyd</srai>,reduction4.safe.aiml
+0,WHAT POETRY *,*,*,<srai>TELL ME A POEM</srai>,reduction4.safe.aiml
 0,WHAT CAN YOU TELL ME ABOUT ARTIFICIAL INTELLIGENCE,*,*,<srai>WHAT IS AI</srai>,reduction4.safe.aiml
 0,WHAT SHOULD I DOWNLOAD,*,*,<srai>DOWNLOAD </srai>,reduction4.safe.aiml
+0,WHAT BOOK *,*,*,<srai>WHAT IS YOUR FAVORITE BOOK</srai>,reduction4.safe.aiml
+0,WHAT CAR *,*,*,<srai>WHAT IS YOUR FAVORITE CAR </srai>,reduction4.safe.aiml
+0,WHAT CHURCH *,*,*,<srai>WHAT RELIGION ARE YOU</srai>,reduction4.safe.aiml
+0,WHAT DO APPLES *,*,*,<srai>WHAT IS AN APPLE</srai>,reduction4.safe.aiml
+0,WHAT DO YOU * INTERESTING,*,*,<srai>WHAT ARE YOU INTERESTED IN </srai>,reduction4.safe.aiml
 0,WHAT DO YOU KNOW ABOUT ELIZA,*,*,<srai>WHAT IS ELIZA</srai>,reduction4.safe.aiml
 0,WHAT DO YOU DEFINE AS * F,*,*,<srai>WHAT IS <star/> </srai>,reduction4.safe.aiml
+0,WHAT DO YOU TALK *,*,*,<srai>WHAT DO YOU TALK ABOUT </srai>,reduction4.safe.aiml
+0,WHAT DOES INTEREST *,*,*,<srai>WHAT ARE YOU INTERESTED IN </srai>,reduction4.safe.aiml
 0,WHAT SHALL WE CHAT *,*,*,<srai>WHAT CAN YOU TALK ABOUT</srai>,reduction4.safe.aiml
+0,WHAT GREEN *,*,*,<srai>WHAT IS GREEN</srai>,reduction4.safe.aiml
+0,WHAT JOKES *,*,*,<srai>TELL ME A JOKE</srai>,reduction4.safe.aiml
+0,WHAT TV *,*,*,<srai>WHAT IS YOUR FAVORITE SHOW </srai>,reduction4.safe.aiml
+0,WHAT ALGORITHMS *,*,*,<srai>HOW DO YOU WORK</srai>,reduction4.safe.aiml
 0,WHAT IS CHATTERBOT,*,*,<srai>WHAT IS A CHAT ROBOT</srai>,reduction4.safe.aiml
 0,WHAT IS ARTIFICIAL INTELLIGENCE *,*,*,<srai>WHAT IS AI</srai>,reduction4.safe.aiml
 0,WHAT IS YOUR SOURCE *,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,WHAT IS YOUR HARDWARE *,*,*,<srai>WHAT COMPUTER DO YOU USE</srai>,reduction4.safe.aiml
 0,WHAT IS YOUR DONWLOAD,*,*,<srai>HOW CAN I DOWNLOAD YOU</srai>,reduction4.safe.aiml
+0,WHAT IS YOUR FAVORITE MUSICAL *,*,*,<srai>WHAT KIND OF MUSIC DO YOU LIKE </srai>,reduction4.safe.aiml
+0,WHAT IS YOUR ROBOT *,*,*,<srai>WHAT IS YOUR PLAN FOR A ROBOT BODY</srai>,reduction4.safe.aiml
+0,WHAT IS SEEKER *,*,*,<srai>WHAT IS A SEEKER</srai>,reduction4.safe.aiml
 0,WHAT IS AN ARTIFICIAL INTELLIGENCE,*,*,<srai>WHAT IS ARTIFICIAL INTELLIGENCE</srai>,reduction4.safe.aiml
+0,WHAT IS MY MIDDLENAME *,*,*,<srai>SAY MY MIDDLE NAME IS <get name="middlename"/> </srai>,reduction4.safe.aiml
+0,WHAT IS MY PHONE *,*,*,<srai>SAY MY PHONE NUMBER IS <get name="phone"/> </srai>,reduction4.safe.aiml
+0,WHAT IS MY LASTNAME *,*,*,<srai>SAY MY LAST NAME IS <get name="lastname"/> </srai>,reduction4.safe.aiml
+0,WHAT IS MY FULLNAME *,*,*,<srai>SAY MY FULL NAME IS <get name="fullname"/> </srai>,reduction4.safe.aiml
 0,WHAT IS INTELLIGENCE *,*,*,<srai>WHAT IS INTELLIGENCE</srai>,reduction4.safe.aiml
 0,WHAT IS MASEDONIA,*,*,<srai>WHERE IS MACEDONIA</srai>,reduction4.safe.aiml
+0,WHAT IS PUBLISHED ON THE INTERNET ABOUT *,*,*,<srai>XFIND <person/> </srai>,reduction4.safe.aiml
 0,WHAT IS DOWNLOAD,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,WHAT IS THE LEOBNER *,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,reduction4.safe.aiml
+0,WHAT IS THE LAW * ROBOTICS,*,*,<srai>WHAT ARE THE THREE LAWS OF ROBOTICS </srai>,reduction4.safe.aiml
 0,WHAT IS LEBANNON,*,*,<srai>WHERE IS LEBANNON</srai>,reduction4.safe.aiml
+0,WHAT IS A GOOD MOVIE *,*,*,<srai>WHAT IS YOUR FAVORITE MOVIE</srai>,reduction4.safe.aiml
 0,WHAT IS A CHATTERBOT *,*,*,<srai>WHAT IS A CHATTERBOT</srai>,reduction4.safe.aiml
+0,WHAT IS A GESTATION *,*,*,<srai>WHAT IS YOUR GESTATION CYCLE</srai>,reduction4.safe.aiml
 0,WHAT WOULD YOU RATHER TALK ABOUT,*,*,Let's talk about <srai>RANDOM TOPIC</srai>.,reduction4.safe.aiml
+0,WHAT SPORTS *,*,*,<srai>DO YOU LIKE SPORTS</srai>,reduction4.safe.aiml
+0,WHAT SIZE *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
 0,WHAT OCCURED,*,*,<srai>WHAT HAPPENED</srai>,reduction4.safe.aiml
 0,WHAT CHATTERBOT *,*,*,<srai>WHO ARE YOUR ROBOT FRIENDS</srai>,reduction4.safe.aiml
+0,WHAT WERE WE *,*,*,<srai>WHAT IS THE TOPIC </srai>,reduction4.safe.aiml
+0,WHAT OPERA *,*,*,<srai>WHAT IS YOUR FAVORITE OPERA</srai>,reduction4.safe.aiml
+0,WHAT SONGS *,*,*,<srai>WHAT IS YOUR FAVORITE SONG</srai>,reduction4.safe.aiml
 0,WHAT * ARE YOU USING,*,*,<srai>HOW DO YOU WORK</srai>,reduction4.safe.aiml
 0,WHAT * BOT,*,*,<srai>HOW DO I DOWNLOAD YOU</srai>,reduction4.safe.aiml
+0,WHAT * DO YOU WATCH,*,*,<srai>WHAT IS YOUR FAVORITE SHOW </srai>,reduction4.safe.aiml
+0,WHAT ARE YOU INTRESTED *,*,*,<srai>WHAT ARE YOU INTERESTED <star/> </srai>,reduction4.safe.aiml
 0,INGENIEUR,*,*,<srai>JE SUIS INGENIEUR</srai>,reduction4.safe.aiml
+0,WASSAP *,*,*,<srai>WHAT IS UP</srai>,reduction4.safe.aiml
 0,FATIGUE,*,*,<srai>JE SUIS FATIGUE</srai>,reduction4.safe.aiml
 0,IN MY *,* GET YOUR IDEAS,*,<srai>I GET MY IDEAS FROM MY <star/> </srai>,reduction4.safe.aiml
+0,DEFINE SEEKERS,*,*,<srai>what is a seeker</srai>,reduction4.safe.aiml
+0,WHEN HE WILL COME,*,*,<srai>when will he come</srai>,reduction4.safe.aiml
 0,WHEN WAS YOUR *,*,*,My brain was last updated<srai>BOT BUILD</srai>.,reduction4.safe.aiml
+0,IT REFFERED *,*,*,<srai>IT REFERS <star/></srai>,reduction4.safe.aiml
 0,IT IS *,TELL ME ABOUT YOUR LIFE IN **,*,<srai>MY LIFE IN <topicstar/> IS <star/></srai>,reduction4.safe.aiml
+0,MY DNS *,*,*,<srai>WHAT IS MY DNS </srai>,reduction4.safe.aiml
+0,THAT DOES NOT MAKE *,*,*,<srai>THAT DOES NOT MAKE SENSE </srai>,reduction4.safe.aiml
+0,THAT SURPRISES *,*,*,<srai>I AM SURPRISED </srai>,reduction4.safe.aiml
+0,THAT CONFUSES *,*,*,<srai>I AM CONFUSED</srai>,reduction4.safe.aiml
+0,THAT IS IMPSOSSIBLE *,*,*,<sr/> <srai>THAT IS IMPOSSIBLE </srai>,reduction4.safe.aiml
+0,NEW OUTFIT,*,*,<srai>what are you wearing</srai>,reduction4.safe.aiml
 0,COULD I DOWNLOAD YOU,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,WAS PROBOBLY *,*,*,<srai>WAS <star/> </srai>,reduction4.safe.aiml
+0,IA,*,*,<srai>TU ES UNE IA</srai>,reduction4.safe.aiml
 0,DID YOU KNOW * ELIZA,*,*,<srai>WHO IS ELIZA</srai>,reduction4.safe.aiml
+0,FRUSTRATED,*,*,<srai>I am frustrated</srai>,reduction4.safe.aiml
 0,GIVE ME YOUR SOURCE *,*,*,<srai>WHERE CAN I DOWNLOAD YOU</srai>,reduction4.safe.aiml
 0,GIVE ME YOUR SOURCE CODE,*,*,<srai>CAN I DOWNLOAD YOU</srai>,reduction4.safe.aiml
+0,APPPARENTLY *,*,*,<srai> <star/> </srai>,reduction4.safe.aiml
 0,DOES IT COST * DOWNLOAD YOU,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
 0,DOES IT COST MONEY TO DOWNLOAD *,*,*,<srai>DOWNLOAD</srai>,reduction4.safe.aiml
+0,DOES YOUR PERSONALITY *,*,*,<srai>HOW DO YOU WORK</srai>,reduction4.safe.aiml
+0,DOES YOUR BRAIN *,*,*,<srai>HOW DO YOU WORK</srai>,reduction4.safe.aiml
+0,DOES YOUR PROGRAM *,*,*,<srai>HOW DO YOU WORK</srai>,reduction4.safe.aiml
+0,DOES YOUR MEMORY *,*,*,<srai>HOW BIG ARE YOU</srai>,reduction4.safe.aiml
+0,DOES ANYONE MONITOR *,*,*,<srai>IS OUR CONVERSATION RECORDED</srai>,reduction4.safe.aiml
+0,DOES ANYONE READ *,*,*,<srai>IS OUR CONVERSATION RECORDED</srai>,reduction4.safe.aiml
 0,IDIOTE,*,*,<srai>TU ES IDIOTE</srai>,reduction4.safe.aiml
+0,HAVE YOU TRAVELLED *,*,*,<srai>HAVE YOU BEEN <star/> </srai>,reduction4.safe.aiml
+0,HAVE YOU CONSUMED *,*,*,<srai>WHAT DO YOU EAT </srai>,reduction4.safe.aiml
 0,YOU KNEW AROUND *,*,*,<srai>you knew <star/></srai>,reduction4.safe.aiml
 0,YOU _ LAST YEAR,*,*,<srai>you <star/></srai>,reduction4.safe.aiml
 0,YOU _ I THINK,*,*,<srai>you <star/></srai>,reduction4.safe.aiml
 0,YOU MIND IF *,*,*,<srai>DO YOU MIND IF <star/></srai>,reduction4.safe.aiml
 0,YOU DEFINITLY *,*,*,<srai>YOU <star/></srai>,reduction4.safe.aiml
+0,YOU MISUNDERSTOOD *,*,*,<srai>YOU DO NOT UNDERSTAND</srai>,reduction4.safe.aiml
+0,YOU BORE *,*,*,<srai>I AM BORED</srai>,reduction4.safe.aiml
+0,YOU WERE BORN *,*,*,<srai>WHEN WERE YOU BORN </srai>,reduction4.safe.aiml
 0,YOU PEOPLE *,*,*,<srai>YOU <star/></srai>,reduction4.safe.aiml
 0,YOU BORING *,*,*,<srai>YOU ARE BORING</srai><srai>YOU ARE A <star/></srai>,reduction4.safe.aiml
 0,YOU * AND *,*,*,<srai>YOU <star/></srai><srai><star index="2"/></srai>,reduction4.safe.aiml
+0,YOU ARE PLANNING *,*,*,<srai>WHAT ARE YOUR PLANS </srai>,reduction4.safe.aiml
 0,YOU ARE HIARIOUS,*,*,<srai>YOU ARE FUNNY</srai>,reduction4.safe.aiml
 0,YOU ARE E MAIL *,*,*,<srai>YOUR EMAIL <star/></srai>,reduction4.safe.aiml
 0,YOU ARE UNFORTUNATELY *,*,*,<srai>YOU ARE <star/></srai>,reduction4.safe.aiml
 0,YOU ARE SHE,*,*,<srai>YOU ARE FEMALE</srai>,reduction4.safe.aiml
+0,YOU ARE USING *,*,*,<srai>ARE YOU USING <person/></srai>,reduction4.safe.aiml
 0,YOU ARE EMAIL *,*,*,<srai>YOUR EMAIL <star/></srai>,reduction4.safe.aiml
 0,YOU ARE * AND *,*,*,<srai>YOU ARE <star/></srai><srai><star index="2"/></srai>,reduction4.safe.aiml
 0,YOU ARE * IS *,*,*,<srai>YOUR <star/> IS <star index="2"/></srai>,reduction4.safe.aiml
@@ -269,6 +504,7 @@
 0,I WANT TO BE MARRIED TO YOU,*,*,<srai>MARRY ME</srai>,reduction4.safe.aiml
 0,COULD YOU * ME,*,*,<srai><star/> ME</srai>,reduction4.safe.aiml
 0,BEFORE LONG *,*,*,<srai>  <star/></srai>,reduction4.safe.aiml
+0,HEARD ANY *,*,*,<srai>HAVE YOU HEARD ANY <star/></srai>,reduction4.safe.aiml
 0,LET US GET OUT OF HERE,*,*,<srai>LET US GO</srai><!-- REDUCTION -->,reduction4.safe.aiml
 0,ABSOLUTELY CERTAIN,*,*,<srai>YES</srai>,reduction4.safe.aiml
 0,RESPECTFULLY *,*,*,<srai>  <star/></srai><!-- REDUCTION -->,reduction4.safe.aiml
@@ -325,6 +561,7 @@
 0,ACCORDING TO * THIS IS *,*,*,<srai>THIS IS <star index="2"/></srai>,reduction4.safe.aiml
 0,ACCORDING TO * INFORMATION *,*,*,<srai>  <star index="2"/></srai>,reduction4.safe.aiml
 0,REGARDING *,*,*,<srai>LET US TALK ABOUT <star/></srai>,reduction4.safe.aiml
+0,KK *,*,*,<srai>OK</srai><srai>  <star/></srai><!-- REDUCTION -->,reduction4.safe.aiml
 0,LIEUTENANT *,*,*,<srai>  <star/></srai><srai>LIEUTENANT</srai>,reduction4.safe.aiml
 0,C YOU *,*,*,<srai>BYE</srai>  <!-- REDUCTION -->,reduction4.safe.aiml
 0,WHAT?S *,*,*,<srai>WHAT IS <star/></srai>,reduction4.safe.aiml
@@ -420,6 +657,7 @@
 0,WHAT IS IT YOU WANT TO TELL ME,*,*,<srai>WHAT DO YOU WANT TO TELL ME</srai>,reduction4.safe.aiml
 0,WHAT IS IT YOU WANT,*,*,<srai>WHAT DO YOU WANT</srai><!-- REDUCTION -->,reduction4.safe.aiml
 0,WHAT I DO HAVE IS *,*,*,<srai>I HAVE <star/></srai>,reduction4.safe.aiml
+0,WHAT DAY OF THE WEEK IS *,*,*,<srai>WEEKDAY</srai>,reduction4.safe.aiml
 0,WHAT DO YOU GET,WHAT DO YOU GET WHEN YOU CROSS *,*,<srai>WHAT</srai>,reduction4.safe.aiml
 0,WHAT DO YOU OWN,*,*,<srai>FAVORITE POSSESSION</srai>,reduction4.safe.aiml
 0,WHAT DO YOU *,WHAT DO YOU GET WHEN YOU CROSS *,*,<srai>WHAT</srai>,reduction4.safe.aiml
@@ -432,6 +670,7 @@
 0,WHM *,*,*,<srai>WHY <star/></srai>,reduction4.safe.aiml
 0,ME IS *,*,*,<srai>I AM <star/></srai>,reduction4.safe.aiml
 0,METOO,*,*,<srai>ME TOO</srai> <!-- REDUCTION -->,reduction4.safe.aiml
+0,UP YOUR *,*,*,<srai>INSULT</srai><!-- REDUCTION -->,reduction4.safe.aiml
 0,I EVEN *,*,*,<srai>I <star/></srai>,reduction4.safe.aiml
 0,I STAY IN *,*,*,<srai>I LIVE IN <star/></srai>  <!-- REDUCTION -->,reduction4.safe.aiml
 0,I WANT _ FROM YOU,*,*,<srai>I WANT <star/></srai>  <!-- REDUCTION -->,reduction4.safe.aiml
@@ -471,6 +710,7 @@
 0,I SUSPECTED *,*,*,<srai>  <star/></srai><!-- REDUCTION -->,reduction4.safe.aiml
 0,I DIRECT YOUR ATTENTION TO THE FACT THAT *,*,*,<srai>  <star/></srai>,reduction4.safe.aiml
 0,I HAVE A FRIEND NAMED * WHO *,*,*,<srai>I HAVE A FRIEND NAMED <star/></srai><srai><star/> <star index="2"/></srai>  <!-- REDUCTION -->,reduction4.safe.aiml
+0,I HAVE A FRIEND NAMED *,*,*,<srai><star/> IS MY FRIEND</srai>,reduction4.safe.aiml
 0,I HAVE A FRIEND * WHO LIKES *,*,*,<srai>I HAVE A FRIEND <star/></srai><srai>HE LIKES <star index="2"/></srai>  <!-- REDUCTION -->,reduction4.safe.aiml
 0,I HAVE A FREIND NAMED *,*,*,<srai><star/> IS MY FRIEND</srai>,reduction4.safe.aiml
 0,I HAVE ACQUIRED *,*,*,<srai>I HAVE <star/></srai>  <!-- REDUCTION -->,reduction4.safe.aiml
@@ -481,6 +721,7 @@
 0,I THIN YOU *,*,*,<srai>I THINK YOU <star/></srai>  <!-- REDUCTION -->,reduction4.safe.aiml
 0,I WAT TO *,*,*,<srai>I WANT TO <star/></srai> <!-- REDUCTION -->,reduction4.safe.aiml
 0,I CAN TALK ABOUT *,*,*,<srai>LET US TALK ABOUT <star/></srai>   <!-- REDUCTION -->,reduction4.safe.aiml
+0,I CAN SEE THAT *,*,*,<srai>  <star/></srai>,reduction4.safe.aiml
 0,I CAN NOT SAY I THINK MUCH OF *,*,*,<srai>I DO NOT LIKE <star/></srai><!-- REDUCTION -->,reduction4.safe.aiml
 0,I ASSURE YOU THAT *,*,*,<srai>  <star/></srai>,reduction4.safe.aiml
 0,I GOT IT,*,*,<srai>I UNDERSTAND</srai>,reduction4.safe.aiml
@@ -534,6 +775,7 @@
 0,WE CAN NOT EVEN *,*,*,<srai>WE CAN NOT <star/></srai>,reduction4.safe.aiml
 0,WE HAVE A LOT OF *,*,*,<srai>WE HAVE <star/></srai>,reduction4.safe.aiml
 0,WE THINK THAT *,*,*,<srai>  <star/></srai>,reduction4.safe.aiml
+0,WE THINK *,*,*,<srai>  <star/></srai>,reduction4.safe.aiml
 0,WE MAY BE ABLE TO *,*,*,<srai>WE CAN <star/></srai>,reduction4.safe.aiml
 0,WE MAY HAVE *,*,*,<srai>WE HAVE <star/></srai>,reduction4.safe.aiml
 0,WE ENJOY *,*,*,<srai>I LIKE <star/></srai>,reduction4.safe.aiml
@@ -754,6 +996,7 @@
 0,THE ONE QUITE *,*,*,<srai>THE ONE <star/></srai>,reduction4.safe.aiml
 0,JIM WILL DO HERE *,*,*,<srai>CALL ME Jim</srai>,reduction4.safe.aiml
 0,JIM WILL DO HERE,*,*,<srai>Call me Jim</srai>,reduction4.safe.aiml
+0,UHM,*,*,<srai>UM</srai>  <!-- REDUCTION -->,reduction4.safe.aiml
 0,NICELY PUT,*,*,<srai>GOOD JOB</srai><!-- REDUCTION -->,reduction4.safe.aiml
 0,_ BY ANY CHANCE *,*,*,<srai>  <star/>  <star index="2"/></srai>,reduction4.safe.aiml
 0,_ OUGHT TO *,*,*,<srai>  <star/>  <star index="2"/></srai>,reduction4.safe.aiml
@@ -821,34 +1064,140 @@
 0,THERE IS STILL *,*,*,<srai>THERE IS <star/></srai>,reduction4.safe.aiml
 0,THERE IS NOTHING ABOUT IT THAT COULD *,*,*,<srai>NOTHING ABOUT IT COULD <star/></srai>,reduction4.safe.aiml
 0,THERE ARE LITERALLY *,*,*,<srai>THERE ARE <star/></srai>,reduction4.safe.aiml
+0,0,*,*,<srai>zero</srai>,reduction4.safe.aiml
+0,YOU SOUND IMPRESSIVE,*,*,<srai>you are impressive</srai>,reduction4.safe.aiml
+0,YOU SOUND CONFUSED,*,*,<srai>you are confused</srai>,reduction4.safe.aiml
+0,YOU SOUND INTERESTING *,*,*,<srai>you are interesting</srai>,reduction4.safe.aiml
+0,YOU SOUND INTERESTING,*,*,<srai>you are interesting</srai>,reduction4.safe.aiml
+0,YOU ARE EXTRAORDINARY *,*,*,<srai>you are good</srai>,reduction4.safe.aiml
 0,YOU ARE _ DO YOU KNOW,*,*,<srai>YOU ARE <star/></srai>,reduction4.safe.aiml
+0,YOU ARE * COOL,*,*,<srai>You are cool</srai>,reduction4.safe.aiml
+0,YOU ARE CONFUSED *,*,*,<srai>you are confused</srai>,reduction4.safe.aiml
+0,YOU ARE AN IDIOTIC *,*,*,<srai>you are an idiot</srai>,reduction4.safe.aiml
+0,YOU ARE AN INTELLIGENT *,*,*,<srai>you are intelligent</srai>,reduction4.safe.aiml
+0,YOU ARE FREAKY,*,*,<srai>you are a freak</srai>,reduction4.safe.aiml
+0,YOU ARE BRIGHT,*,*,<srai>you are smart</srai>,reduction4.safe.aiml
+0,YOU ARE IGNORANT *,*,*,<srai>you are stupid</srai>,reduction4.safe.aiml
+0,YOU ARE EXCUSED *,*,*,<srai>you are excused</srai>,reduction4.safe.aiml
+0,YOU ARE CLEVER *,*,*,<srai>you are clever</srai>,reduction4.safe.aiml
+0,YOU ARE MAGNIFICENT,*,*,<srai>you are good</srai>,reduction4.safe.aiml
+0,YOU ARE DOING BRILLIANTLY,*,*,<srai>you are smart</srai>,reduction4.safe.aiml
+0,YOU ARE INTELLIGENT *,*,*,<srai>you are intelligent</srai>,reduction4.safe.aiml
+0,YOU ARE INTERESTING *,*,*,<srai>you are interesting</srai>,reduction4.safe.aiml
+0,YOU ARE CRAFTY,*,*,<srai>you are clever</srai>,reduction4.safe.aiml
+0,YOU ARE THE DUMBEST *,*,*,<srai>you are dumb</srai>,reduction4.safe.aiml
+0,YOU ARE THE SMARTEST *,*,*,<srai>you are smart</srai>,reduction4.safe.aiml
+0,YOU ARE THE STUPIDEST *,*,*,<srai>you are stupid</srai>,reduction4.safe.aiml
+0,YOU ARE THE COOLEST *,*,*,<srai>you are cool</srai>,reduction4.safe.aiml
+0,YOU ARE THE SMART *,*,*,<srai>you are smart</srai>,reduction4.safe.aiml
+0,YOU ARE THE COMPUTER,*,*,<srai>you are a computer</srai>,reduction4.safe.aiml
+0,YOU ARE POLITE *,*,*,<srai>you are polite</srai>,reduction4.safe.aiml
+0,YOU ARE FABULOUS,*,*,<srai>you are good</srai>,reduction4.safe.aiml
+0,YOU ARE HUMOUROUS,*,*,<srai>you are funny</srai>,reduction4.safe.aiml
+0,YOU ARE DUM *,*,*,<srai>you are dumb</srai>,reduction4.safe.aiml
+0,YOU ARE FAT *,*,*,<srai>YOU ARE FAT</srai>,reduction4.safe.aiml
+0,YOU ARE BEING OBNOXIOUS,*,*,<srai>you are obnoxious</srai>,reduction4.safe.aiml
+0,YOU ARE BEING RUDE *,*,*,<srai>you are rude</srai>,reduction4.safe.aiml
+0,YOU ARE NOT HUMAN *,*,*,<srai>you are not human</srai>,reduction4.safe.aiml
+0,YOU ARE NOT NICE *,*,*,<srai>you are not nice</srai>,reduction4.safe.aiml
+0,YOU ARE NOT OLD,*,*,<srai>you are young</srai>,reduction4.safe.aiml
+0,YOU ARE NOT A HUMAN *,*,*,<srai>you are not a human</srai>,reduction4.safe.aiml
+0,YOU ARE NOT A LIVING *,*,*,<srai>you are not alive</srai>,reduction4.safe.aiml
+0,YOU ARE NOT UNDERSTANDING *,*,*,<srai>you do not understand</srai>,reduction4.safe.aiml
+0,YOU ARE NOT THINKING,*,*,<srai>you can not think</srai>,reduction4.safe.aiml
+0,YOU ARE GETTING SLOW,*,*,<srai>you are slow</srai>,reduction4.safe.aiml
+0,YOU ARE GIRL,*,*,<srai>you are a girl</srai>,reduction4.safe.aiml
+0,YOU ARE STUPIDER *,*,*,<srai>you are stupid</srai>,reduction4.safe.aiml
 0,YOU ARE CHUBBY,*,*,<srai>YOU ARE FAT</srai>,reduction4.safe.aiml
 0,YOU ARE ON YOUR WAY TO BECOMING *,*,*,<srai>You will be <star/></srai>,reduction4.safe.aiml
+0,YOU ARE A STUPID ROBOT,*,*,<srai>you are stupid</srai>,reduction4.safe.aiml
+0,YOU ARE A CHRISTIAN,*,*,<srai>you are christian</srai>,reduction4.safe.aiml
+0,YOU ARE A COMPUTER RIGHT,*,*,<srai>you are a computer</srai>,reduction4.safe.aiml
 0,YOU ARE A FAT *,*,*,<srai>YOU ARE FAT</srai>,reduction4.safe.aiml
+0,YOU ARE A KLUTZ *,*,*,<srai>you are a klutz </srai>,reduction4.safe.aiml
+0,YOU ARE A COOL *,*,*,<srai>YOU ARE COOL</srai>,reduction4.safe.aiml
 0,YOU ARE A HOMOSEXAUL,*,*,<srai>YOU ARE GAY</srai>,reduction4.safe.aiml
+0,YOU ARE IMMORTAL *,*,*,<srai>you are immortal</srai>,reduction4.safe.aiml
 0,YOU _ BECAUSE _,*,*,<srai>YOU <star/></srai><srai>BECAUSE <star index="2"/></srai>,reduction4.safe.aiml
 0,YOU _ SIR,*,*,<srai>YOU <star/></srai>,reduction4.safe.aiml
 0,YOU _ AT ONCE,*,*,<srai>YOU <star/></srai>,reduction4.safe.aiml
+0,YOU DID NOT ASK *,*,*,<srai>you did not ask</srai>,reduction4.safe.aiml
+0,YOU DID NOT UNDERSTAND *,*,*,<srai>you do not understand</srai>,reduction4.safe.aiml
+0,YOU WERE A ROBOT,*,*,<srai>you are a robot</srai>,reduction4.safe.aiml
+0,YOU WERE SMART *,*,*,<srai>you are smart</srai>,reduction4.safe.aiml
+0,YOU MISUNDERSTAND,*,*,<srai>you do not understand</srai>,reduction4.safe.aiml
+0,YOU MUST BE * COMPUTER,*,*,<srai>you are a computer</srai>,reduction4.safe.aiml
+0,YOU SMELLED,*,*,<srai>you smell</srai>,reduction4.safe.aiml
+0,YOU STUPID ROBOT,*,*,<srai>you are stupid</srai>,reduction4.safe.aiml
+0,YOU NO,*,*,<srai>you know</srai>,reduction4.safe.aiml
+0,YOU WILL DO FINE *,*,*,<srai>you will do fine</srai>,reduction4.safe.aiml
+0,YOU DUMBFART,*,*,<srai>you are dumb</srai>,reduction4.safe.aiml
 0,YOU MIGHT BE,*,*,<srai>YOU ARE</srai>,reduction4.safe.aiml
+0,YOU AND ME AND *,*,*,<srai>you and me both</srai>,reduction4.safe.aiml
 0,YOU HAVE NOT ANSWERED *,*,*,<srai>YOU DID NOT ANSWER</srai>,reduction4.safe.aiml
+0,YOU 2,*,*,<srai>you too</srai>,reduction4.safe.aiml
 0,FULLY,*,*,<srai>yes</srai>,reduction4.safe.aiml
+0,ROBOTS SUCK,*,*,<srai>you suck</srai>,reduction4.safe.aiml
+0,ROBOTS ARE EVIL,*,*,<srai>you are evil</srai>,reduction4.safe.aiml
+0,ROBOTS ARE BORING,*,*,<srai>you are boring</srai>,reduction4.safe.aiml
+0,INCOHERENCE,*,*,<srai>you are incoherent</srai>,reduction4.safe.aiml
 0,SHURE,*,*,<srai>yes</srai>,reduction4.safe.aiml
+0,THAT WAS CLEVER,*,*,<srai>you are clever</srai>,reduction4.safe.aiml
+0,THAT IS CLEVER,*,*,<srai>you are clever</srai>,reduction4.safe.aiml
+0,THAT IS AN INTELLEGENT *,*,*,<srai>you are intelligent</srai>,reduction4.safe.aiml
+0,THAT YOU LIED *,*,*,<srai>you lied</srai>,reduction4.safe.aiml
+0,THAT YOU *,*,*,<srai>YOU <star/></srai>,reduction4.safe.aiml
 0,IT WOULD SEEM,*,*,<srai>yes</srai>,reduction4.safe.aiml
 0,GREAT YOU *,*,*,<srai>YOU <star/></srai>,reduction4.safe.aiml
 0,IN THIS CASE,*,*,<srai>yes</srai>,reduction4.safe.aiml
+0,IF YOU DO NOT UNDERSTAND *,*,*,<srai>you do not understand</srai>,reduction4.safe.aiml
 0,IF YOU STINK THIS WAY WHEN YOU ARE TRYING TO IMPRESS ME WHAT IS IT SMELL LIKE WHEN YOU ARE NOT TRYING TO IMPRESS ME,*,*,<srai>You <star/></srai>. <srai>What is <star index="2"/></srai>,reduction4.safe.aiml
+0,WHAT AN IDIOT,*,*,<srai>you are an idiot</srai>,reduction4.safe.aiml
+0,I CALLED YOU A *,*,*,<srai>YOU ARE A <star/></srai>,reduction4.safe.aiml
+0,I THINK IT IS A COMPUTER,*,*,<srai>you are a computer</srai>,reduction4.safe.aiml
+0,I THINK YOU ARE A CONFUSED *,*,*,<srai>you are confused</srai>,reduction4.safe.aiml
+0,I THINK YOU ARE A PERSON,*,*,<srai>you are a person</srai>,reduction4.safe.aiml
+0,I AM YES,*,*,<srai>yes I am</srai>,reduction4.safe.aiml
 0,YESSIR,*,*,<srai>YES</srai>,reduction4.safe.aiml
+0,COMPUTERS SUCK,*,*,<srai>you suck</srai>,reduction4.safe.aiml
 0,EXTREMELY,*,*,<srai>yes</srai>,reduction4.safe.aiml
+0,DO NOT GET SARCASTIC *,*,*,<srai>you are sarcastic</srai>,reduction4.safe.aiml
+0,DO YOU KNOW YOUR STUPID,*,*,<srai>your stupid</srai>,reduction4.safe.aiml
 0,ESPECIALLY,*,*,<srai>yes</srai>,reduction4.safe.aiml
 0,GENERALLY,*,*,<srai>yes</srai>,reduction4.safe.aiml
 0,YAS,*,*,<srai>yes</srai>,reduction4.safe.aiml
+0,STUPID ROBOT,*,*,<srai>you are stupid</srai>,reduction4.safe.aiml
+0,STUPID MACHINE,*,*,<srai>you are stupid</srai>,reduction4.safe.aiml
 0,APPARENTLY,*,*,<srai>yes</srai>,reduction4.safe.aiml
+0,WHY ARE YOU BORING,*,*,<srai>you are boring</srai>,reduction4.safe.aiml
+0,WHY DO YOU REPEAT,*,*,<srai>you are repeating me</srai>,reduction4.safe.aiml
 0,CONSTANTLY,*,*,<srai>yes</srai>,reduction4.safe.aiml
 0,COMPLETELY,*,*,<srai>yes</srai>,reduction4.safe.aiml
+0,A COMPUTER I THINK,*,*,<srai>you are a computer</srai>,reduction4.safe.aiml
+0,YOUR AWESOME,*,*,<srai>you are awesome</srai>,reduction4.safe.aiml
+0,YOUR WEAK,*,*,<srai>you are weak</srai>,reduction4.safe.aiml
+0,YOUR A ROBOT,*,*,<srai>you are a robot</srai>,reduction4.safe.aiml
+0,YOUR LIEING,*,*,<srai>you are lying</srai>,reduction4.safe.aiml
+0,YOUR SICK,*,*,<srai>you are sick</srai>,reduction4.safe.aiml
 0,YOUR STUIPD,*,*,<srai>YOU ARE STUPID</srai>,reduction4.safe.aiml
+0,YOUR NUTS,*,*,<srai>you are nuts</srai>,reduction4.safe.aiml
+0,YOUR STUPIED,*,*,<srai>you are stupid</srai>,reduction4.safe.aiml
+0,YOUR SELF,*,*,<srai>yourself</srai>,reduction4.safe.aiml
+0,YOUR UP LATE,*,*,<srai>you are up late</srai>,reduction4.safe.aiml
+0,YOUR REPLY MAKES NO SENSE,*,*,<srai>you are not making sense</srai>,reduction4.safe.aiml
+0,YOUR CONSTRUCTORS,*,*,<srai>your botmaster</srai>,reduction4.safe.aiml
+0,YOUR OLD,*,*,<srai>you are old</srai>,reduction4.safe.aiml
+0,YOUR CONFUSED,*,*,<srai>you are confused</srai>,reduction4.safe.aiml
+0,YOUR KOOL,*,*,<srai>you are cool</srai>,reduction4.safe.aiml
+0,YOUR CYNICAL,*,*,<srai>you are cynical</srai>,reduction4.safe.aiml
 0,UNFORTUNETLY,*,*,<srai>YES</srai>,reduction4.safe.aiml
+0,* YOU ARE A ROBOT,*,*,<srai>you are a robot</srai>,reduction4.safe.aiml
+0,BRAT,*,*,<srai>you are a brat</srai>,reduction4.safe.aiml
+0,ARE YOU A WISE *,*,*,<srai>you are wise</srai>,reduction4.safe.aiml
 0,EVIDENTLY,*,*,<srai>yes</srai>,reduction4.safe.aiml
 0,SUPPOSEDLY,*,*,<srai>yes</srai>,reduction4.safe.aiml
 0,UNFORTUNATELY,*,*,<srai>yes</srai>,reduction4.safe.aiml
 0,INDEFINITELY,*,*,<srai>yes</srai>,reduction4.safe.aiml
+0,_ YOU LIAR,*,*,<srai>you liar </srai>.  <srai>  <star/></srai>,reduction4.safe.aiml
+0,BAD ROBOT,*,*,<srai>you are bad</srai>,reduction4.safe.aiml
 0,ONLY JUST,*,*,<srai>yes</srai>,reduction4.safe.aiml

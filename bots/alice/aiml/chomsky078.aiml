@@ -1,25 +1,7 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!-- Complies with AIML 1.0 Tag Set Specification -->
-  <!-- as adopted by the ALICE A.I. Foundation.  -->
-  <!-- This file GOSSIP updated July 2005 -->
-  <category>
-    <pattern>GOSSIP</pattern>
-    <template>
-      <random>
-        <li>No one gossips about other people's secret virtues. (Bertrand Russell)</li>
-        <li>Gossip is when you hear something you like about someone you don't. (Earl Wilson)  </li>
-        <li>Gossip is a cruel story that spreads like fire.</li>
-      </random>
-      <think>
-        <set name="topic">gossip</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>GOSSIP POT LUCK</pattern>
-    <template>
-      <random>
+<?xml version="1.0" encoding="UTF-8"?>
+
+GOSSIP POT LUCK
+<random>
         <li>Have you heard ... Brad Pitt has reportedly introduced his ex-wife Jennifer Aniston to his baby daughter Shiloh during a secret meeting.  They met for just over an hour. It was very emotional. Jen held the baby and called her 'adorable.'" However it is claimed that Brad's partner Angelina Jolie was extremely distressed about the meeting and threatened to end her relationship with him. </li>
         <li>Have you heard ... Paris Hilton is officially the most overrated celebrity in the world. The hotel heiress has entered the 2007 Guinness Book of World Records - not for her business ventures, singing or acting - but because the public think she is famous for no reason. </li>
         <li>Have you heard ... Kate Moss has reportedly turned to Buddhism in the wake of her cocaine scandal.  The supermodel feels drawn to the mystical religion, especially its principle of 'karma', and has been reading up on its teachings. A source revealed: "Kate feels Buddhism will get her through the dark times. "She's been reading up about karma and is fascinated by the idea that your behaviour comes back on you." </li>
@@ -35,12 +17,9 @@
       <think>
         <set name="topic">gossip</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>GOSSIP NEXT QUESTION</pattern>
-    <template>
-      <random>
+
+GOSSIP NEXT QUESTION
+<random>
         <li>You know, I think that Michael Jackson was lucky to survive his latest court case. I'm not saying that he was guilty, but the trial was such a media circus that anything could have happened. </li>
         <li>Have you heard ... Angelina Jolie's lesbian lover has confessed the pair's steamy relationship never ended and says Jolie's new man Brad Pitt will never control her.</li>
         <li>Have you heard ... Leonardo DiCaprio has reportedly been secretly dating Jude Law's on/off girlfriend Sienna Miller.</li>
@@ -51,6 +30,5 @@
       <think>
         <set name="topic">gossip</set>
       </think>
-    </template>
-  </category>
-</aiml>
+
+

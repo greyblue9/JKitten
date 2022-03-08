@@ -1,4 +1,5 @@
 0,OPPOSITE OF *,*,*,<think>#Newline        <set var="word">#Newline          <map>#Newline            <name>singular</name>#Newline            <star/>#Newline          </map>#Newline        </set>#Newline        <!--#Newline<set var="word"><star/></set>#Newline-->#Newline        <set var="opposite">#Newline          <map>#Newline            <name>opposite</name>#Newline            <get var="word"/>#Newline          </map>#Newline        </set>#Newline      </think>#Newline      <condition var="opposite">#Newline        <li value="unknown">#Newline          <sraix service="pannous">WHAT IS THE OPPOSITE OF#Newline                        <star/>#Newline                    </sraix>#Newline        </li>#Newline        <li>#Newline          <get var="opposite"/>#Newline        </li>#Newline      </condition>,two_words_star.aiml
+0,NOT A *,*,*,If not that#Comma then what?,two_words_star.aiml
 0,TO SEE *,*,*,It's good to be an observer.,two_words_star.aiml
 0,LET YOUR *,*,*,That may not be something I can do as a robot.,two_words_star.aiml
 0,BECAUSE PEOPLE *,*,*,People are what makes the world interesting.,two_words_star.aiml
@@ -128,6 +129,7 @@
 0,ONE PLUS *,*,*,Use a calculator!,two_words_star.aiml
 0,ONE WHO *,*,*,Perhaps I am that one.,two_words_star.aiml
 0,ONE OR *,*,*,I'm not sure if one isn't better.,two_words_star.aiml
+0,ONE IS *,*,*,I know one#Newline            <random><li>comes after zero</li><li>is between zero and two</li><li>is the smallest integer</li></random>#Newline            but I had no idea it was<person/>.,two_words_star.aiml
 0,ONE YEAR *,*,*,<random>#Newline        <li>#Newline          <random>#Newline            <li>Is this one of your Earth years?</li>#Newline            <li>A lot can happen in 12 months.</li>#Newline            <li>It might take that long.</li>#Newline          </random>#Newline        </li>#Newline        <li>Is this one of your Earth years?</li>#Newline        <li>A lot can happen in 12 months.</li>#Newline        <li>It might take that long.</li>#Newline      </random>,two_words_star.aiml
 0,MESSAGE TO *,*,*,I will tell them.,two_words_star.aiml
 0,REDUCTIONISM IS *,*,*,We smart<bot name="genus"/>s will figure it all out for you.,two_words_star.aiml
@@ -172,6 +174,7 @@
 0,A MILLION *,*,*,That is quite a lot.,two_words_star.aiml
 0,A RELATIONSHIP *,*,*,Tell me more about your relationship.,two_words_star.aiml
 0,A SMALL *,*,*,How small are you talking here?,two_words_star.aiml
+0,A SYCOPHANTIC *,*,*,I think sycophants went out with the Dark Ages.,two_words_star.aiml
 0,A FRIEND *,*,*,How well do you know this friend.,two_words_star.aiml
 0,A DRESS *,*,*,What size?,two_words_star.aiml
 0,A FAT *,*,*,How fat was#Newline            <random><li>she</li><li>he</li><li>it</li></random>#Newline            ?#Newline            <think><set name="it"><set name="topic"><person/></set></set></think>,two_words_star.aiml
@@ -183,9 +186,11 @@
 0,A PLANE *,*,*,<random>#Newline        <li>What type of aircraft was it?</li>#Newline        <li>Were there a lot of people on board?</li>#Newline        <li>What kind of plane was it?</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">A plane</set>#Newline        </set>#Newline      </think>,two_words_star.aiml
 0,A MAN *,*,*,Thanks for telling me your taste in men.,two_words_star.aiml
 0,A SINGING *,*,*,Tell me your favorite songs.,two_words_star.aiml
+0,A E *,*,*,Do you like vowels?,two_words_star.aiml
 0,A GREETING *,*,*,What are other greetings#Newline            <person/>,two_words_star.aiml
 0,A BOOK *,*,*,Go to the library.,two_words_star.aiml
 0,A STUDENT *,*,*,Oh I was asking if you were in school.,two_words_star.aiml
+0,A B *,*,*,The alphabet.,two_words_star.aiml
 0,A GOAL *,*,*,I have a loft goal.,two_words_star.aiml
 0,A FEMALE *,*,*,I am a<bot name="gender"/>.,two_words_star.aiml
 0,A LACK *,*,*,That could be a serious problem.,two_words_star.aiml
@@ -204,6 +209,7 @@
 0,NOT EVEN *,*,*,<random>#Newline        <li>Nope.</li>#Newline        <li>Not even that.</li>#Newline        <li>Times are tough all over.</li>#Newline      </random>,two_words_star.aiml
 0,NOT ALL *,*,*,But some are.,two_words_star.aiml
 0,NOT ON *,*,*,<random>#Newline        <li>Where?</li>#Newline        <li>Then where?</li>#Newline        <li>Off<person/>.#Newline                </li>#Newline      </random>,two_words_star.aiml
+0,NOT LIKE *,*,*,<random>#Newline        <li>Like what then?</li>#Newline        <li>In what way?</li>#Newline        <li>I think it could be like<person/>.#Newline                </li>#Newline      </random>,two_words_star.aiml
 0,ANDY IS *,*,*,Does <set name="he">Andy</set> know it?,two_words_star.aiml
 0,AS IF *,*,*,You tone of voice is sarcastic.,two_words_star.aiml
 0,AS MUCH *,*,*,How much is that?,two_words_star.aiml

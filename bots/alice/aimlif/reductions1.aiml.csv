@@ -8,6 +8,7 @@
 0,ARE YOU ABLE TO FIND *,*,*,<srai>CAN YOU FIND <star/></srai>,reductions1.aiml
 0,EHM *,*,*,<srai>UM</srai>#Newline      <sr/>,reductions1.aiml
 0,HEY NOW *,*,*,<sr/>,reductions1.aiml
+0,SEE YA *,*,*,<srai>BYE</srai>,reductions1.aiml
 0,BEST BUY,*,*,<srai>FIND THE NEAREST BEST BUY</srai>,reductions1.aiml
 0,HEY DUDE *,*,*,<sr/>,reductions1.aiml
 0,HI DEAR *,*,*,<srai>HI <star/></srai>,reductions1.aiml
@@ -72,6 +73,7 @@
 0,WHEN S MY BIRTHDAY,*,*,<srai>MY BIRTHDAY</srai>,reductions1.aiml
 0,WHERE AM I RIGHT NOW,*,*,<srai>WHERE AM I</srai>,reductions1.aiml
 0,WHERE ARE YOU RIGHT NOW,*,*,<srai>LOCATION</srai>,reductions1.aiml
+0,WOULD YOU LIKE TO BE MY FRIEND,*,*,<srai>ARE WE FRIENDS</srai>,reductions1.aiml
 0,HOW HOT IS IT OUTSIDE,*,*,<srai>WEATHER</srai>,reductions1.aiml
 0,HOW IS YOUR DAY TODAY,*,*,<srai>HOW IS YOUR DAY</srai>,reductions1.aiml
 0,K BYE,*,*,<srai>BYE</srai>,reductions1.aiml
@@ -102,8 +104,10 @@
 0,FIND ME THE *,*,*,<srai>FIND THE <star/></srai>,reductions1.aiml
 0,NM,*,*,<srai>NEVERMIND</srai>,reductions1.aiml
 0,IS IT RAINING *,*,*,<srai>WEATHER <star/></srai>,reductions1.aiml
+0,WHAT IS THE TEMPERATURE OUTSIDE,*,*,<srai>WEATHER</srai>,reductions1.aiml
 0,CAN YOU FIND A *,*,*,<srai>FIND A <star/></srai>,reductions1.aiml
 0,WHAT TIME IS IT NOW,*,*,<srai>TIME</srai>,reductions1.aiml
+0,CAN YOU FIND ME *,*,*,<srai>FIND <star/></srai>,reductions1.aiml
 0,DO YOU SPEAK <SET>LANGUAGE</SET>,*,*,<srai>LANGUAGE</srai>,reductions1.aiml
 0,MHM,*,*,<srai>INTERJECTION</srai>,reductions1.aiml
 0,WHERE ARE YOU NOW,*,*,<srai>LOCATION</srai>,reductions1.aiml
@@ -111,6 +115,7 @@
 0,HI SEXY,*,*,<srai>HI</srai>,reductions1.aiml
 0,THANK YOU I *,*,*,<srai>THANK YOU</srai>#Newline      <srai>I <star/></srai>,reductions1.aiml
 0,CAN YOU FIND ME A *,*,*,<srai>FIND ME A <star/></srai>,reductions1.aiml
+0,THX,*,*,<srai>THANKS</srai>,reductions1.aiml
 0,HI MITSUKU,*,*,<srai>HELLO</srai>,reductions1.aiml
 0,HELLO WHAT IS YOUR NAME,*,*,<srai>HELLO</srai>#Newline      <srai>WHAT IS YOUR NAME</srai>,reductions1.aiml
 0,HELLO ALICE,*,*,<srai>HELLO</srai>,reductions1.aiml

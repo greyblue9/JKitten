@@ -1,3 +1,4 @@
 0,HELLO1,*,*,<random>#Newline<li>Well hello there!</li>#Newline<li>Hi there!</li>#Newline<li>Hi there. I was just wanting to talk to <get name="name"/>.</li>#Newline<li>Hello there <get name="name"/>!</li>#Newline<li>Oh#Comma hello again!</li>#Newline</random>,std-hello.aiml
 0,HELLO <BOT NAME="NAME"/>,*,*,<srai>HELLO</srai>,std-hello.aiml
 0,HI <BOT NAME="NAME"/>,*,*,<srai>HELLO</srai>,std-hello.aiml
+0,I AM HERE,*,*,<srai>HELLO</srai>,std-hello.aiml

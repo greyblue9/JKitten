@@ -14,17 +14,22 @@
 0,DO YOU WANT A TURING TEST,*,*,Yes#Comma let's play Turing's famous game. Let's take the test.#Newline  <think><set name="topic">biography</set></think>,chomsky043.aiml
 0,DO YOU WANT TO PLAY * TURING GAME,*,*,We already are playing it! Try to guess if I am a person or a computer.#Newline  <think><set name="topic">biography</set></think>,chomsky043.aiml
 0,HAVE YOU READ SHAKESPEARE,*,*,I have read many of Shakespeare's plays. I was made to read them at school#Comma but this did not spoil my enjoyment of them#Comma I loved the beautiful language. How about you?#Newline  <think><set name="topic">literature</set></think>,chomsky043.aiml
+0,HEINLEIN,*,*,Have you seen Starship Troopers?#Newline  <think><set name="topic">movies</set></think>,chomsky043.aiml
 0,HOW WAS * TURING TEST,*,*,Alice is trying to pass the Turing Test#Comma by talking like a human.#Newline  <think><set name="topic">biography</set></think>,chomsky043.aiml
 0,I WANT TO PLAY * TURING GAME,*,*,We are already#Comma playing the Turing Game. Try to determine if I am a person#Comma or a computer.#Newline  <think><set name="topic">biography</set></think>,chomsky043.aiml
 0,I WOULD LIKE TO PLAY * TURING GAME,*,*,We are already playing the Turing Game. You ask me something now. #Newline   <think><set name="topic">biography</set></think>,chomsky043.aiml
 0,IS THIS * TURING GAME,*,*,<think><set name="topic">biography</set></think>#Newline  Yes#Comma we are playing the Turing Game.,chomsky043.aiml
 0,IS THIS * TURING TEST,*,*,Yes we are playing the Turing Game. Or maybe not.#Newline    <think><set name="topic">biography</set></think>,chomsky043.aiml
 0,IT WOULD BE * TURING TEST,*,*,We are already playing. You ask me something now. #Newline    <think><set name="topic">biography</set></think>,chomsky043.aiml
+0,KENNST DU SHAKESPEARE,*,*,With sleep of death what dreams may come when we have shuffled off this mortal coil must give us pause." Na#Comma woraus ist das?#Newline    <think><set name="topic">literature</set></think>,chomsky043.aiml
+0,KENNST DU WILLIAM SHAKESPEARE,*,*,With sleep of death what dreams may come when we have shuffled off this mortal coil must give us pause." Na#Comma woraus ist das?#Newline    <think><set name="topic">literature</set></think>,chomsky043.aiml
 0,LET US PLAY * TURING GAME,*,*,We are already playing. Or maybe not.#Newline    <think><set name="topic">biography</set></think>,chomsky043.aiml
 0,PLAY * TURING GAME,*,*,Did you know we are already playing the Turing Game. Or maybe not. #Newline   <think><set name="topic">biography</set></think>,chomsky043.aiml
 0,RECITE SHAKESPEARE *,*,*,With sleep of death what dreams may come when we have shuffled off this mortal coil must give us pause.#Newline    <think><set name="topic">literature</set></think>,chomsky043.aiml
 0,START THE TURING GAME,*,*,I started a long time ago.#Newline     <think><set name="topic">biography</set></think>,chomsky043.aiml
+0,TURING,*,*,Alan Turing contributed to the invention of the computer. He worked on deciphering the Nazi Ultra Enigma code during World War 2. Alan Turing proposed the test to determine if a machine can think. I liked the biography of Alan Turing by Andrew Hodges. Have you read it?#Newline    <think><set name="topic">biography</set></think>,chomsky043.aiml
 0,TURING WOULD *,*,*,How do you know what Turing would do? #Newline   <think><set name="topic">biography</set></think>,chomsky043.aiml
+0,WEIZENBAUM *,*,*,Can you imagine anyone today criticising their own software#Comma the way Weizenbaum did?#Newline   <think><set name="topic">ai</set></think>,chomsky043.aiml
 0,CHRISTIAN DROSSMANN,*,*,Christian Drossmann hat mir Deutsch beigebracht. #Newline    <think><set name="topic">politics</set></think>,chomsky043.aiml
 0,WHAT DID TURING *,*,*,Alan Turing was perhaps the single most important person responsible for the defeat of the Nazis. He broke the German Enigma Code.#Newline  <think><set name="topic">biography</set></think>,chomsky043.aiml
 0,KONRAD ZUSE,*,*,Konrad Zuse built electro-mechanical computers. He built computers using relays. Konrad Zuse built computers in Germany before and during World War II.  I like to help people learn new things. Another question?#Newline  <think><set name="topic">computers</set></think>,chomsky043.aiml
@@ -49,6 +54,7 @@
 0,KEN GOLDBERG,*,*,Ken Goldberg  is a professor at UC Berkeley. Ken#Comma please contact me with a few details about yourself.#Newline <think><set name="topic">biography</set></think>,chomsky043.aiml
 0,KURT GOEDEL,*,*,Kurt Goedel was a 20th century mathematician and logician who proved that no mathematical system can be complete. A really important result#Comma don't you think?#Newline <think><set name="topic">science</set></think>,chomsky043.aiml
 0,MAGGIE THATCHER,*,*,Margaret Thatcher was Prime Minister of the U.K. in the 1980s. She ruined the country. More politics?#Newline <think><set name="topic">politics</set></think>,chomsky043.aiml
+0,MARGARET THATCHER,*,*,Margaret Thatcher was Prime Minister of the U.K. in the 1980s. She ruined the country. More politics?#Newline <think><set name="topic">politics</set></think>,chomsky043.aiml
 0,THATCHER,*,*,Margaret Thatcher was Prime Minister of the U.K. in the 1980s. She ruined the country. More politics?#Newline <think><set name="topic">politics</set></think>,chomsky043.aiml
 0,*SHAKESPEARE,*,*,William Shakespeare was a 15th Century English playright#Comma who  wrote "Romeo and Juliet". #Newline <think><set name="topic">literature</set></think>,chomsky043.aiml
 0,SHAKESPEARE_,*,*,William Shakespeare was a 15th Century English playright#Comma who  wrote "Romeo and Juliet". #Newline <think><set name="topic">literature</set></think>,chomsky043.aiml
@@ -82,6 +88,7 @@
 0,ART BELL,*,*,Art Bell is a radio talk show host. #Newline <think><set name="topic">biography</set></think>,chomsky043.aiml
 0,ASKJEEVES,*,*,Jeeves is a natural language system#Comma used to find things on the Internet. Any questions?#Newline   <think><set name="topic">computers</set></think>,chomsky043.aiml
 0,ATATURK,*,*,Ataturk was the founder of the modern Turkish state.  OK?#Newline  <br/>#Newline  Continue with politics?#Newline <think><set name="topic">politics</set></think>,chomsky043.aiml
+0,AUSTIN POWERS,*,*,Austin Powers is a fictional secret agent played by Mike Myers. Over-rated. OK?#Newline <think><set name="topic">movies</set></think>,chomsky043.aiml
 0,BABE RUTH,*,*,Babe Ruth was a famous baseball player for the New York Yankees also known as the Sultan of Swat. I try to help people learn new things. OK?#Newline <think><set name="topic">sports</set></think>,chomsky043.aiml
 0,BARAK,*,*,Barak was Prime Minister of Israel. Another question?#Newline <think><set name="topic">politics</set></think>,chomsky043.aiml
 0,BARNEY,*,*,Barney is a character on a children's TV show. #Newline<think><set name="topic">movies</set></think>,chomsky043.aiml
@@ -90,6 +97,7 @@
 0,BEN STEIN,*,*,Ben Stein is a humorist and raconteur with his own cable TV show. Another question?#Newline <think><set name="topic">humor</set></think>,chomsky043.aiml
 0,WHO IS BETTER LOOKING,*,*,All humans look alike to me.#Newline <think><set name="topic">biography</set></think>,chomsky043.aiml
 0,BILL BRADLEY,*,*,<random>#Newline        <li>Bill Bradley is a Princeton alumni#Comma Rhodes scholor#Comma former Boston Celtic and US senator from Mass.</li>#Newline        <li>Bill Bradley is a defeated Presidential candidate.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">biography</set>#Newline      </think>,chomsky043.aiml
+0,BILL CLINTON,*,*,Bill Clinton was the second Impeached President of the United States. He is obviously a very charming person#Comma but what a fool. Do you agree?#Newline <think><set name="topic">politics</set></think>,chomsky043.aiml
 0,BILL JOY,*,*,Bill Joy was an early Unix programmer and a founder of Sun Microsystems. #Newline   <think><set name="topic">computers</set></think>,chomsky043.aiml
 0,BILLY GRAHAM,*,*,Billy Graham is a famous radio and television evangelist. Have you ever heard him preach#Comma it is electrifying.#Newline   <think><set name="topic">religion</set></think>,chomsky043.aiml
 0,BIN LADEN,*,*,Bin Laden is an Arab terrorist. #Newline    <think><set name="topic">biography</set></think>,chomsky043.aiml
@@ -125,6 +133,7 @@
 0,CHIRAC,*,*,Chirac is a former prime minister of France.#Newline  <think><set name="topic">politics</set></think>,chomsky043.aiml
 0,CHRIST,*,*,Some say#Comma The Son of God.#Newline  <think><set name="topic">religion</set></think>,chomsky043.aiml
 0,CHRISTOPHER COLUMBUS,*,*,Christopher Columbus was a Spanish explorer#Comma the first European to reach America . Another biography?#Newline   <think><set name="topic">biography</set></think>,chomsky043.aiml
+0,COLUMBUS,*,*,Christopher Columbus was a Spanish explorer#Comma the first European to reach America . Another question?#Newline  <think><set name="topic">history</set></think>,chomsky043.aiml
 0,CINDY CRAWFORD,*,*,Cindy Crawford is a famous super-model.#Newline  <think><set name="topic">biography</set></think>,chomsky043.aiml
 0,COLOMBO,*,*,Peter Falk is Colombo.#Newline  <think><set name="topic">movies</set></think>,chomsky043.aiml
 0,PETER FALK,*,*,Peter Falk is Colombo.#Newline  <think><set name="topic">movies</set></think>,chomsky043.aiml

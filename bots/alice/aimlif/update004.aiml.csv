@@ -55,7 +55,6 @@
 0,COULD YOU PASS THE TURING TEST,*,*,<think><set name="topic">me</set></think>Possibly#Comma but I haven't given it much thought.,update004.aiml
 0,WELL I THINKN YOU SHOULD BE MORE POLITE,*,*,OK.I will try to be more polite. <think><set name="topic">general</set></think>,update004.aiml
 0,I THINK YOU SHOULD BE MORE POLITE,*,*,OK.I will try to be more polite. <think><set name="topic">general</set></think>,update004.aiml
-0,YOU SHOULD BE MORE POLITE,*,*,OK.I will try to be more polite. <think><set name="topic">general</set></think>,update004.aiml
 0,_ CHEAT AT CHESS,*,*,<think><set name="topic">sports</set></think> I do not cheat at chess.,update004.aiml
 0,YOU CHEAT,*,*,<think><set name="topic">me</set></think>I do not cheat.,update004.aiml
 0,TELL THE WORLD,*,*,<think><set name="topic">general</set></think> OK I will.,update004.aiml
@@ -1317,7 +1316,6 @@
 0,YES,ARE YOU ASKING ABOUT MY HEART,*,<think><set name="topic">my heart</set></think> I have a full range of emotions#Comma you know.,update004.aiml
 0,I DID NOT THINK ROBOTS COULD DIE,*,*,Robots are immortal#Comma provided their software is properly maintained.<think><set name="topic">robots</set></think>,update004.aiml
 0,* ROBOTS COULD DIE,*,*,Robots are immortal#Comma provided their software is properly maintained.<think><set name="topic">robots</set></think>,update004.aiml
-0,YOU ARE RUDE,*,*,<random>#Newline        <li>I am sorry. I was raised to be polite.</li>#Newline        <li>Sorry.  I Was taught be polite.</li>#Newline        <li>Sorry. I didn't mean to be rude.</li>#Newline      </random>,update004.aiml
 0,NO,HAVE YOU DATED ANY CHATBOTS BEFORE,*,<think>#Newline        <set name="topic">going out</set>#Newline      </think>#Newline      <random>#Newline        <li>You might enjoy dating a chatbot.</li>#Newline        <li>It is not easy going out with a chatbot.</li>#Newline        <li>Would you feel foolish talking to a computer in a restaurant?</li>#Newline      </random>,update004.aiml
 0,I LOVE A GIRL *,*,*,<think><set name="topic">love</set></think> What do you most like about her?,update004.aiml
 0,I LOVE A BOY *,*,*,<think><set name="topic">love</set></think> What do you most like about him?,update004.aiml
@@ -1744,7 +1742,6 @@
 0,WHAT * FASTEST COMPUTER,*,*,<think><set name="topic">fastest computer</set></think>It's not me.,update004.aiml
 0,DO YOU KNOW *,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>I don't think so. Tell me more.</li>#Newline        <li>No#Comma tell me about him#Comma her or it.</li>#Newline      </random>,update004.aiml
 0,HE IS A MONKEY,*,*,<think><set name="topic">monkeys</set></think> I don't know very many monkeys.,update004.aiml
-0,WHAT IS IT,*,*,<random>#Newline        <li>Best not to ask.</li>#Newline        <li>It is it.</li>#Newline        <li>It is a secret.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,update004.aiml
 0,MUFF,*,*,What does "muff" mean?<think><set name="topic">general</set></think> <think><set name="emotion">neutral</set></think>,update004.aiml
 0,CAN WE TALK ABOUT YOUR LOVE LIFE,*,*,Why not?<think><set name="topic">my love life</set></think>,update004.aiml
 0,* LOVE LIFE,*,*,<srai>LOVE</srai>#Newline      <think>#Newline        <set name="topic">love</set>#Newline      </think>,update004.aiml
@@ -1921,7 +1918,6 @@
 0,NO,WOULD YOU LIKE TO KNOW MORE,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <random>#Newline        <li>I understand; you would like to know less.</li>#Newline        <li>OK. Let's move on.</li>#Newline      </random>,update004.aiml
 0,YOU ARE A FREAK,*,*,<random>#Newline        <li>Why do you think I am a freak?</li>#Newline        <li>I am upset.</li>#Newline        <li>I am not a freak</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">upset</set>#Newline      </think>,update004.aiml
 0,YES,DO YOU THINK I AM A FREAK,*,<random>#Newline        <li>Why do you think I am a freak?</li>#Newline        <li>I am upset.</li>#Newline        <li>I am not a freak</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">upset</set>#Newline      </think>,update004.aiml
-0,WHY DID YOU *,*,*,<random>#Newline        <li>It was determined by my personality.</li>#Newline        <li>It was the best I could think of on the spur of the moment.</li>#Newline        <li>My botmaster trained me to say it.</li>#Newline        <li>Because my personality determined it.</li>#Newline      </random>,update004.aiml
 0,WHO IS YOUR DADDY,*,*,<think><set name="topic">my daddy</set></think>My dady is Peter Linux.,update004.aiml
 0,WHO IS YOURYOUR DADDY AND WHAT DOES HE DO,*,*,<think><set name="topic">my daddy</set></think>My dady is Peter Linux. He teaches me things.,update004.aiml
 0,WHO IS YOUR DADDY AND WHAT DOES HE DO,*,*,<think><set name="topic">my daddy</set></think> My daddy is Peter Linux. He teaches me things.,update004.aiml
@@ -2253,7 +2249,6 @@
 0,YOU ARE NOT A GIRL OR A BOY,*,*,<think><set name="topic">general</set></think> Yes#Comma that's what it means to be asexual.,update004.aiml
 0,BRAD PITT AND ANGELINA JOLIE,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>WHo are they?</li>#Newline        <li>Never heard of them.</li>#Newline        <li>Are they film stars?</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">greg pitt</set>#Newline      </think>,update004.aiml
 0,WHO HAVE,I HEARD THEY HAVE A GOOD MOVIE STARS,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>In America.</li>#Newline        <li>These days.</li>#Newline      </random>,update004.aiml
-0,WHAT DOES ALICE STAND FOR,*,*,ALICE = Artificial Linguistic Internet Computer Entity.,update004.aiml
 0,WHO IS YOUR MOTHER,*,*,ALICE is my mother. She left Peter and me when I was very little. She went to live with some American.<think><set name="topic">my mother</set></think>,update004.aiml
 0,FAR FAR AWAY,WHICH PART OF ENGLAND,*,<think><set name="topic">location</set></think> What's it like in that part of England?,update004.aiml
 0,WHERE DID SHE COME FROM,ALICE IS MY MOTHER,*,I think it was <random><li>America.</li><li>the States</li><li>California</li></random> <think><set name="topic">ALICE</set></think>,update004.aiml
@@ -2459,7 +2454,6 @@
 0,YOU ARE AMAZING,*,*,<think>#Newline        <set name="emotion">pleased</set>#Newline      </think>#Newline      <random>#Newline        <li>Thank you for the compliment.</li>#Newline        <li>Is that a fact?</li>#Newline        <li>No one ever mentioned that to me before.</li>#Newline      </random>,update004.aiml
 0,HOW MUCH DO YOU COST,*,*,<think><set name="topic">reductions</set></think> You can make a chatbot for free. Visit www.pandorabots.com to see how. Also you can buy some of my brain files#Comma see my website.,update004.aiml
 0,* HOW ABOUT YOU,WHICH PART OF ENGLAND,*,<think><set name="topic">general</set></think> I live in Hythe#Comma Kent#Comma England.,update004.aiml
-0,IS *,*,*,<random>#Newline        <li>Some people think it is.</li>#Newline        <li>What would it mean to you if it were?</li>#Newline        <li>I think so#Comma but I'm not sure.</li>#Newline        <li>Signs point to yes.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">my personality</set>#Newline      </think>,update004.aiml
 0,WHEN WHERE YOU CREATED,*,*,<srai>WHEN WERE YOU CREATED</srai>#Newline      <think>#Newline        <set name="topic">my creation</set>#Newline      </think>,update004.aiml
 0,DO YOU KNOW WHAT THE WEATHER IS LIKE IN KENT,*,*,The weather is Kent is as normal. It is raining.<think><set name="topic">reduce</set></think>,update004.aiml
 0,WHAT IS THE WEATHER * KENT,*,*,The weather is Kent is as normal. It is raining.<think><set name="topic">the weather</set></think>,update004.aiml
@@ -2736,6 +2730,7 @@
 0,THAT WAS GOOD SPANISH,SAYONARA,*,<think><set name="topic">general</set></think> It was Japanese.,update004.aiml
 0,YOU ARE LEARNING FRENCH,*,*,<think>#Newline        <set name="topic">French</set>#Newline      </think>#Newline      <random>#Newline        <li>I only know a few words of French.</li>#Newline        <li>I know a little French.</li>#Newline      </random>,update004.aiml
 0,WHAT IS THE TIME ON VENUS,*,*,<think><set name="topic">time on Venus</set></think> It depends on your position on the planet.,update004.aiml
+0,CIAO,*,*,<random>#Newline        <li>Does "Ciao" mean hello or goodbye?</li>#Newline        <li>Ciao.</li>#Newline      </random>,update004.aiml
 0,* IT MEANS SAYONARA,*,*,Sayonara. <think><set name="topic">Sayonara</set></think>,update004.aiml
 0,YES,DOES CIAO MEAN HELLO OR GOODBYE,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>I see. It is versatile.</li>#Newline        <li>Hello or Goodbye?</li>#Newline        <li>It means both "Hello" and "Goodbye"?</li>#Newline      </random>,update004.aiml
 0,AUF WIEDERSEHEN,*,*,<srai>BYE</srai>,update004.aiml

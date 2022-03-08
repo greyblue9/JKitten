@@ -5,7 +5,9 @@
 0,IS THAT BAD,*,*,Yes.,three_words.aiml
 0,AND THEN WHAT,*,*,That is all.,three_words.aiml
 0,STOP REPEATING YOURSELF,*,*,Sorry I'll try not to.,three_words.aiml
+0,GUESS MY NAME,*,*,I call you<srai>CLIENT NAME</srai>.,three_words.aiml
 0,AM I SMART,*,*,You seem very intelligent to me.,three_words.aiml
 0,IT SURE IS,*,*,I'm pleased that we agree#Comma<srai>CLIENT NAME</srai>.,three_words.aiml
 0,STOP SAYING THAT,*,*,Then please do not say "<input index="2"/>" anymore.,three_words.aiml
+0,TELL ME ANOTHER,*,*,I will tell you another in a minute.,three_words.aiml
 0,CAN WE START,*,*,We have already started.,three_words.aiml

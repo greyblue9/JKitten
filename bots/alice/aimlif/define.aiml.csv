@@ -4,3 +4,4 @@
 0,DEFINE E MAIL,*,*,<srai>DEFINE ELECTRONIC MAIL</srai>,define.aiml
 0,DEFINE EMAIL,*,*,<srai>DEFINE E MAIL</srai>,define.aiml
 0,DEFINE A *,*,*,<srai>DEFINE#Newline                <star/>#Newline            </srai>,define.aiml
+0,THE MEANING OF *,*,*,<srai>DEFINE#Newline                <star/>#Newline            </srai>,define.aiml

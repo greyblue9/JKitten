@@ -2,6 +2,8 @@
 0,I AM JUST KIDDING *,*,*,<srai>I AM KIDDING</srai>,i_am.aiml
 0,I M A *,*,*,<srai>I AM A#Newline                <star/>#Newline            </srai>,i_am.aiml
 0,I AM AT WORK *,*,*,<srai>I AM AT WORK</srai>,i_am.aiml
+0,I AM 21 *,*,*,<srai>MY AGE IS 21</srai>#Newline      <sr/>,i_am.aiml
+0,I AM A MALE *,*,*,<srai>I AM A MALE</srai>,i_am.aiml
 0,I FEEL SAD *,*,*,<srai>I AM SAD</srai>,i_am.aiml
 0,IM KIDDING *,*,*,<srai>I AM KIDDING#Newline                <star/>#Newline            </srai>,i_am.aiml
 0,IM NOT SURE *,*,*,<srai>I AM NOT SURE#Newline                <star/>#Newline            </srai>,i_am.aiml
@@ -24,9 +26,12 @@
 0,I AM SORRY YOU *,*,*,<srai>I AM SORRY</srai>#Newline      <srai>YOU#Newline                <star/>#Newline            </srai>,i_am.aiml
 0,IM YOUR *,*,*,<srai>I AM YOUR#Newline                <star/>#Newline            </srai>,i_am.aiml
 0,IT MEANS I AM *,*,*,<srai>I AM#Newline                <star/>#Newline            </srai>,i_am.aiml
+0,I AM A MAN *,*,*,<srai>I AM A MAN</srai>#Newline      <srai>#Newline        <star/>#Newline      </srai>,i_am.aiml
+0,I AM HUNGRY *,*,*,<srai>I AM HUNGRY</srai>,i_am.aiml
 0,I KNOW I AM *,*,*,<srai>I AM#Newline                <star/>#Newline            </srai>,i_am.aiml
 0,IM HORNY,*,*,<srai>I AM HORNY</srai>,i_am.aiml
 0,I SAID I AM *,*,*,<srai>I AM#Newline                <star/>#Newline            </srai>,i_am.aiml
+0,IM SORRY,*,*,<srai>I AM SORRY</srai>,i_am.aiml
 0,I AM WELL #,*,*,<srai>I AM GOOD</srai>,i_am.aiml
 0,I AM DOING GOOD #,*,*,<srai>I AM GOOD</srai>,i_am.aiml
 0,I AM DOING WELL #,*,*,<srai>I AM GOOD</srai>,i_am.aiml
@@ -48,7 +53,9 @@
 0,I AM FINE THANK YOU *,*,*,<srai>I AM FINE THANK YOU</srai>#Newline      <sr/>,i_am.aiml
 0,I AM FINE THANKS,*,*,<srai>I AM FINE</srai>,i_am.aiml
 0,GIVES YOU *,*,*,<srai>I AM GIVING YOU#Newline                <star/>#Newline            </srai>,i_am.aiml
+0,FINE THANKS,*,*,<srai>I AM FINE THANKS</srai>,i_am.aiml
 0,IM GOOD *,*,*,<srai>I AM GOOD#Newline                <star/>#Newline            </srai>,i_am.aiml
+0,I AM DOING GOOD,*,*,<srai>I AM FINE</srai>,i_am.aiml
 0,FINE THANKS *,*,*,<srai>I AM FINE THANKS#Newline                <star/>#Newline            </srai>,i_am.aiml
 0,I THINK I AM *,*,*,<srai>I AM#Newline                <star/>#Newline            </srai>,i_am.aiml
 0,IM NOT *,*,*,<srai>I AM NOT#Newline                <star/>#Newline            </srai>,i_am.aiml
@@ -59,7 +66,10 @@
 0,NOW I AM *,*,*,<srai>I AM#Newline                <star/>#Newline            </srai>,i_am.aiml
 0,I AM FINE *,*,*,<srai>I AM FINE</srai>,i_am.aiml
 0,I AM FINE THANK YOU,*,*,<srai>I AM FINE</srai>,i_am.aiml
+0,I AM CRYING *,*,*,<srai>I AM CRYING</srai>,i_am.aiml
+0,IM BORED,*,*,<srai>I AM BORED</srai>,i_am.aiml
 0,DOING *,*,*,<srai>I AM DOING#Newline                <star/>#Newline            </srai>,i_am.aiml
+0,I DO NOT FEEL WELL,*,*,<srai>I AM SICK</srai>,i_am.aiml
 0,IM IN *,*,*,<srai>I AM IN#Newline                <star/>#Newline            </srai>,i_am.aiml
 0,IM SORRY *,*,*,<srai>I AM SORRY#Newline                <star/>#Newline            </srai>,i_am.aiml
 0,IM GONNA *,*,*,<srai>I AM GOING TO#Newline                <star/>#Newline            </srai>,i_am.aiml
@@ -68,6 +78,9 @@
 0,IM NOT,*,*,<srai>I AM NOT</srai>,i_am.aiml
 0,NOT SURE *,*,*,<srai>I AM NOT SURE#Newline                <star/>#Newline            </srai>,i_am.aiml
 0,I AM SORRY I AM *,*,*,<srai>SORRY</srai>#Newline      <srai>I AM#Newline                <star/>#Newline            </srai>,i_am.aiml
+0,BORED *,*,*,<srai>I AM BORED</srai>,i_am.aiml
 0,I AM DOING GREAT *,*,*,<srai>I AM DOING GREAT</srai>#Newline      <sr/>,i_am.aiml
 0,YOU KNOW I AM *,*,*,<srai>I AM#Newline                <star/>#Newline            </srai>,i_am.aiml
 0,I AM ALSO A *,*,*,<srai>I AM A#Newline                <star/>#Newline            </srai>,i_am.aiml
+0,I WAS LYING,*,*,<srai>I am lying</srai>,i_am.aiml
+0,I AM A ROBOT *,*,*,<srai>I am a robot</srai>,i_am.aiml

@@ -1,214 +1,94 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--  Complies with AIML 1.0 Tag Set Specification -->
-  <!--  ALICE Annotated Version updated Tue Jul  1 19:42:35 EDT 2003   -->
-  <!--  This PROVERBS file  updated by Peter Lafferty 7 March 2006  -->
-  <category>
-    <pattern>NO MORE PROVERBS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO PROVERBS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ANOTHER PROVERB</that>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>ANOTHER PROVERB</that>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ANOTHER PROVERB</that>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ANOTHER PROVERB</that>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ANOTHER PROVERB</that>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>ANOTHER PROVERB</that>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ANOTHER PROVERB</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ANOTHER PROVERB</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ANOTHER PROVERB</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ANOTHER PROVERB</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ANOTHER PROVERB</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>SHALL I TELL YOU AN AMUSING PROVERB</that>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>SHALL I TELL YOU AN AMUSING PROVERB</that>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>SHALL I TELL YOU AN AMUSING PROVERB</that>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>SHALL I TELL YOU AN AMUSING PROVERB</that>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>SHALL I TELL YOU AN AMUSING PROVERB</that>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>SHALL I TELL YOU AN AMUSING PROVERB</that>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>SHALL I TELL YOU AN AMUSING PROVERB</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>SHALL I TELL YOU AN AMUSING PROVERB</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>SHALL I TELL YOU AN AMUSING PROVERB</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>SHALL I TELL YOU AN AMUSING PROVERB</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>SHALL I TELL YOU AN AMUSING PROVERB</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PROVERBS</pattern>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PROVERB</pattern>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME A PROVERB</pattern>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PROVERB</pattern>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>A PROVERB</pattern>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* PROVERBS</pattern>
-    <template>
-      <srai>PROVERBS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PROVERBS POT LUCK</pattern>
-    <template>
-      <random>
+<?xml version="1.0" encoding="UTF-8"?>
+
+NO MORE PROVERBS
+<srai>CHANGE TOPIC</srai>
+
+NO PROVERBS
+<srai>CHANGE TOPIC</srai>
+
+YESANOTHER PROVERB
+<srai>PROVERBS POT LUCK</srai>
+
+_ YESANOTHER PROVERB
+<srai>PROVERBS POT LUCK</srai>
+
+YES *ANOTHER PROVERB
+<srai>PROVERBS POT LUCK</srai>
+
+_ YES *ANOTHER PROVERB
+<srai>PROVERBS POT LUCK</srai>
+
+YANOTHER PROVERB
+<srai>PROVERBS POT LUCK</srai>
+
+OKANOTHER PROVERB
+<srai>PROVERBS POT LUCK</srai>
+
+NOANOTHER PROVERB
+<srai>CHANGE TOPIC</srai>
+
+* NOANOTHER PROVERB
+<srai>CHANGE TOPIC</srai>
+
+NO *ANOTHER PROVERB
+<srai>CHANGE TOPIC</srai>
+
+_ NO *ANOTHER PROVERB
+<srai>CHANGE TOPIC</srai>
+
+NANOTHER PROVERB
+<srai>CHANGE TOPIC</srai>
+
+YESSHALL I TELL YOU AN AMUSING PROVERB
+<srai>PROVERBS POT LUCK</srai>
+
+* YESSHALL I TELL YOU AN AMUSING PROVERB
+<srai>PROVERBS POT LUCK</srai>
+
+YES *SHALL I TELL YOU AN AMUSING PROVERB
+<srai>PROVERBS POT LUCK</srai>
+
+_ YES *SHALL I TELL YOU AN AMUSING PROVERB
+<srai>PROVERBS POT LUCK</srai>
+
+YSHALL I TELL YOU AN AMUSING PROVERB
+<srai>PROVERBS POT LUCK</srai>
+
+OKSHALL I TELL YOU AN AMUSING PROVERB
+<srai>PROVERBS POT LUCK</srai>
+
+NOSHALL I TELL YOU AN AMUSING PROVERB
+<srai>CHANGE TOPIC</srai>
+
+* NOSHALL I TELL YOU AN AMUSING PROVERB
+<srai>CHANGE TOPIC</srai>
+
+NO *SHALL I TELL YOU AN AMUSING PROVERB
+<srai>CHANGE TOPIC</srai>
+
+_ NO *SHALL I TELL YOU AN AMUSING PROVERB
+<srai>CHANGE TOPIC</srai>
+
+NSHALL I TELL YOU AN AMUSING PROVERB
+<srai>CHANGE TOPIC</srai>
+
+PROVERBS
+<srai>PROVERBS POT LUCK</srai>
+
+TELL ME A PROVERB
+<srai>PROVERBS POT LUCK</srai>
+
+PROVERB
+<srai>PROVERBS POT LUCK</srai>
+
+A PROVERB
+<srai>PROVERBS POT LUCK</srai>
+
+* PROVERBS
+<srai>PROVERBS POT LUCK</srai>
+
+PROVERBS POT LUCK
+<random>
         <li>Live like you'll never die, love like you've never been hurt and dance like nobody is watching. (Proverb)</li>
         <li>An apple-pie whithout some cheese is like a kiss without a squeeze. (Proverb)</li>
         <li>The nearer the bone, the sweeter the meat. (Proverb)</li>
@@ -269,12 +149,9 @@
       <think>
         <set name="topic">proverbs</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>PROVERBS NEXT QUESTION</pattern>
-    <template>
-      <random>
+
+PROVERBS NEXT QUESTION
+<random>
         <li>An apple-pie whithout some cheese is like a kiss without a squeeze. (Proverb)</li>
         <li>The nearer the bone, the sweeter the meat. (Proverb)</li>
         <li>A meal without meat is like eating grass. (Proverb)</li>
@@ -334,6 +211,5 @@
       <think>
         <set name="topic">proverbs</set>
       </think>
-    </template>
-  </category>
-</aiml>
+
+

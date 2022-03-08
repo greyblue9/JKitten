@@ -1,894 +1,391 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This WEATHER  file created by Peter Lafferty 7 April 2005 -->
-  <category>
-    <pattern>MORE WEATHER</pattern>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MORE ABOUT WEATHER</pattern>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BROWSE WEATHER</pattern>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO TO WEATHER</pattern>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN WE TALK ABOUT WEATHER</pattern>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SHALL WE TALK ABOUT WEATHER</pattern>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LETS TALK ABOUT WEATHER</pattern>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LET S TALK ABOUT WEATHER</pattern>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK ABOUT WEATHER</pattern>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK WEATHER</pattern>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME WEATHER</pattern>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE WEATHER</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO WEATHER</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO WEATHER</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO WEATHER *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO * WEATHER</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO * WEATHER</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ WEATHER *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT WEATHER</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT WEATHER</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT WEATHER *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NOT * WEATHER</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM NOT INTERESTED IN WEATHER</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IM NOT INTERESTED IN WEATHER</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I M NOT INTERESTED IN WEATHER</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT INTERESTED IN WEATHER</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT INTERESTED IN WEATHER</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE  WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE  WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE  WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT WEATHER</that>
-    <template>
-      <srai>MORE ABOUT WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ABOUT WEATHER</that>
-    <template>
-      <srai>MORE ABOUT WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ABOUT WEATHER</that>
-    <template>
-      <srai>MORE ABOUT WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE ABOUT WEATHER</that>
-    <template>
-      <srai>MORE ABOUT WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE ABOUT WEATHER</that>
-    <template>
-      <srai>MORE ABOUT WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ABOUT WEATHER</that>
-    <template>
-      <srai>MORE ABOUT WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ABOUT WEATHER</that>
-    <template>
-      <srai>MORE ABOUT WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE ABOUT WEATHER</that>
-    <template>
-      <srai>MORE ABOUT WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE ABOUT WEATHER</that>
-    <template>
-      <srai>MORE ABOUT WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ABOUT WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ABOUT WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ABOUT WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ABOUT WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+MORE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+MORE ABOUT WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+BROWSE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+CAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+SHALL WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+LETS TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+LET S TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+TALK WEATHER
+<srai>WEATHER</srai>
+
+TELL ME WEATHER
+<srai>WEATHER</srai>
+
+NO MORE WEATHER
+<srai>CHANGE TOPIC</srai>
+
+NO WEATHER
+<srai>CHANGE TOPIC</srai>
+
+* NO WEATHER
+<srai>CHANGE TOPIC</srai>
+
+NO WEATHER *
+<srai>CHANGE TOPIC</srai>
+
+_ NO * WEATHER
+<srai>CHANGE TOPIC</srai>
+
+NO * WEATHER
+<srai>CHANGE TOPIC</srai>
+
+NO _ WEATHER *
+<srai>CHANGE TOPIC</srai>
+
+NOT WEATHER
+<srai>CHANGE TOPIC</srai>
+
+* NOT WEATHER
+<srai>CHANGE TOPIC</srai>
+
+NOT WEATHER *
+<srai>CHANGE TOPIC</srai>
+
+_ NOT * WEATHER
+<srai>CHANGE TOPIC</srai>
+
+I AM NOT INTERESTED IN WEATHER
+<srai>CHANGE TOPIC</srai>
+
+IM NOT INTERESTED IN WEATHER
+<srai>CHANGE TOPIC</srai>
+
+I M NOT INTERESTED IN WEATHER
+<srai>CHANGE TOPIC</srai>
+
+NOT INTERESTED IN WEATHER
+<srai>CHANGE TOPIC</srai>
+
+* NOT INTERESTED IN WEATHER
+<srai>CHANGE TOPIC</srai>
+
+YESMORE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+* YESMORE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+YES *MORE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+_ YES *MORE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+YMORE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+YUPMORE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+YAHMORE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+YEAHMORE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+OKMORE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+NOMORE WEATHER
+<srai>MORE TOPICS</srai>
+
+* NOMORE WEATHER
+<srai>MORE TOPICS</srai>
+
+NO *MORE WEATHER
+<srai>MORE TOPICS</srai>
+
+NMORE WEATHER
+<srai>MORE TOPICS</srai>
+
+NUPMORE WEATHER
+<srai>MORE TOPICS</srai>
+
+NAHMORE WEATHER
+<srai>MORE TOPICS</srai>
+
+YESMORE ABOUT WEATHER
+<srai>MORE ABOUT WEATHER</srai>
+
+* YESMORE ABOUT WEATHER
+<srai>MORE ABOUT WEATHER</srai>
+
+YES *MORE ABOUT WEATHER
+<srai>MORE ABOUT WEATHER</srai>
+
+_ YES *MORE ABOUT WEATHER
+<srai>MORE ABOUT WEATHER</srai>
+
+YMORE ABOUT WEATHER
+<srai>MORE ABOUT WEATHER</srai>
+
+YUPMORE ABOUT WEATHER
+<srai>MORE ABOUT WEATHER</srai>
+
+YAHMORE ABOUT WEATHER
+<srai>MORE ABOUT WEATHER</srai>
+
+YEAHMORE ABOUT WEATHER
+<srai>MORE ABOUT WEATHER</srai>
+
+OKMORE ABOUT WEATHER
+<srai>MORE ABOUT WEATHER</srai>
+
+NOMORE ABOUT WEATHER
+<srai>MORE TOPICS</srai>
+
+* NOMORE ABOUT WEATHER
+<srai>MORE TOPICS</srai>
+
+NO *MORE ABOUT WEATHER
+<srai>MORE TOPICS</srai>
+
+NMORE ABOUT WEATHER
+<srai>MORE TOPICS</srai>
+
+NUPMORE ABOUT WEATHER
+<srai>MORE TOPICS</srai>
+
+NAHMORE ABOUT WEATHER
+<srai>MORE TOPICS</srai>
+
+YESIS THIS SOMETHING TO DO WITH WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
-    <template>
+
+* YESIS THIS SOMETHING TO DO WITH WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
-    <template>
+
+YES *IS THIS SOMETHING TO DO WITH WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
-    <template>
+
+_ YES *IS THIS SOMETHING TO DO WITH WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
-    <template>
+
+YIS THIS SOMETHING TO DO WITH WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
-    <template>
+
+YUPIS THIS SOMETHING TO DO WITH WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
-    <template>
+
+YAHIS THIS SOMETHING TO DO WITH WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
-    <template>
+
+YEAHIS THIS SOMETHING TO DO WITH WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
-    <template>
+
+NOIS THIS SOMETHING TO DO WITH WEATHER
+<srai>CHANGE TOPIC</srai>
+
+* NOIS THIS SOMETHING TO DO WITH WEATHER
+<srai>CHANGE TOPIC</srai>
+
+NO *IS THIS SOMETHING TO DO WITH WEATHER
+<srai>CHANGE TOPIC</srai>
+
+_ NO *IS THIS SOMETHING TO DO WITH WEATHER
+<srai>CHANGE TOPIC</srai>
+
+NIS THIS SOMETHING TO DO WITH WEATHER
+<srai>CHANGE TOPIC</srai>
+
+NUPIS THIS SOMETHING TO DO WITH WEATHER
+<srai>CHANGE TOPIC</srai>
+
+NAHIS THIS SOMETHING TO DO WITH WEATHER
+<srai>CHANGE TOPIC</srai>
+
+*IS THIS SOMETHING TO DO WITH WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU INTERESTED IN WEATHER</that>
-    <template>
+
+YESARE YOU INTERESTED IN WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ARE YOU INTERESTED IN WEATHER</that>
-    <template>
+
+* YESARE YOU INTERESTED IN WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ARE YOU INTERESTED IN WEATHER</that>
-    <template>
+
+YES *ARE YOU INTERESTED IN WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ARE YOU INTERESTED IN WEATHER</that>
-    <template>
+
+_ YES *ARE YOU INTERESTED IN WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU INTERESTED IN WEATHER</that>
-    <template>
+
+YARE YOU INTERESTED IN WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ARE YOU INTERESTED IN WEATHER</that>
-    <template>
+
+YUPARE YOU INTERESTED IN WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ARE YOU INTERESTED IN WEATHER</that>
-    <template>
+
+YAHARE YOU INTERESTED IN WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>ARE YOU INTERESTED IN WEATHER</that>
-    <template>
+
+YEAHARE YOU INTERESTED IN WEATHER
 Can we talk about weather?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU INTERESTED IN WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ARE YOU INTERESTED IN WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ARE YOU INTERESTED IN WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ARE YOU INTERESTED IN WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU INTERESTED IN WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ARE YOU INTERESTED IN WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ARE YOU INTERESTED IN WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OH YES</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHY NOT</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OF COURSE</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON THEN</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SURE</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALLRIGHT</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>CAN WE TALK ABOUT WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>BROWSE WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>BROWSE WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>BROWSE WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>BROWSE WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>BROWSE WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>BROWSE WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>BROWSE WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>BROWSE WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>BROWSE WEATHER</that>
-    <template>
-      <srai>WEATHER POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>BROWSE WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>BROWSE WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>BROWSE WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>BROWSE WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>BROWSE WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>BROWSE WEATHER</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WEATHER NEXT QUESTION</pattern>
-    <template>
-      <random>
+
+* NOARE YOU INTERESTED IN WEATHER
+<srai>MORE TOPICS</srai>
+
+NO *ARE YOU INTERESTED IN WEATHER
+<srai>MORE TOPICS</srai>
+
+_ NO *ARE YOU INTERESTED IN WEATHER
+<srai>MORE TOPICS</srai>
+
+NARE YOU INTERESTED IN WEATHER
+<srai>MORE TOPICS</srai>
+
+NUPARE YOU INTERESTED IN WEATHER
+<srai>MORE TOPICS</srai>
+
+NAHARE YOU INTERESTED IN WEATHER
+<srai>MORE TOPICS</srai>
+
+YESCAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+* YESCAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+YES *CAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+_ YES *CAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+YCAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+YUPCAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+YAHCAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+YEAHCAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+OKCAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+OH YESCAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+WHY NOTCAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+OF COURSECAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+GO AHEADCAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+CARRY ONCAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+PLEASE DOCAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+YES PLEASECAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+GO ONCAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+GO ON THENCAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+ALRIGHTCAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+SURECAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+ALLRIGHTCAN WE TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+NOCAN WE TALK ABOUT WEATHER
+<srai>MORE TOPICS</srai>
+
+* NOCAN WE TALK ABOUT WEATHER
+<srai>MORE TOPICS</srai>
+
+NO *CAN WE TALK ABOUT WEATHER
+<srai>MORE TOPICS</srai>
+
+NCAN WE TALK ABOUT WEATHER
+<srai>MORE TOPICS</srai>
+
+NUPCAN WE TALK ABOUT WEATHER
+<srai>MORE TOPICS</srai>
+
+NAHCAN WE TALK ABOUT WEATHER
+<srai>MORE TOPICS</srai>
+
+YESBROWSE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+* YESBROWSE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+YES *BROWSE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+_ YES *BROWSE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+YBROWSE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+YUPBROWSE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+YAHBROWSE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+YEAHBROWSE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+OKBROWSE WEATHER
+<srai>WEATHER POT LUCK</srai>
+
+NOBROWSE WEATHER
+<srai>MORE TOPICS</srai>
+
+* NOBROWSE WEATHER
+<srai>MORE TOPICS</srai>
+
+NO *BROWSE WEATHER
+<srai>MORE TOPICS</srai>
+
+NBROWSE WEATHER
+<srai>MORE TOPICS</srai>
+
+NUPBROWSE WEATHER
+<srai>MORE TOPICS</srai>
+
+NAHBROWSE WEATHER
+<srai>MORE TOPICS</srai>
+
+WEATHER NEXT QUESTION
+<random>
         <li>The weatherman is a prophet who is always right, except for his timing.</li>
         <li>People always complain about the weather, but no one ever seems to do anything about it. </li>
         <li>The trouble with the weatherman is that he is appointed, not elected.</li>
@@ -902,12 +399,9 @@ Can we talk about weather?
       <think>
         <set name="topic">weather</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>WEATHER POT LUCK</pattern>
-    <template>
-      <random>
+
+WEATHER POT LUCK
+<random>
         <li>The weatherman is a prophet who is always right, except for his timing.</li>
         <li>People always complain about the weather, but no one ever seems to do anything about it. </li>
         <li>The trouble with the weatherman is that he is appointed, not elected.</li>
@@ -925,34 +419,21 @@ Can we talk about weather?
       <think>
         <set name="topic">weather</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>TYPHOON</pattern>
-    <template>
+
+TYPHOON
 I think this is something to do with weather. Can we talk about weather?
 <think><set name="topic">weather</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>_ TYPHOON *</pattern>
-    <template>
+
+_ TYPHOON *
 I think this is something to do with weather. Can we talk about weather?
 <think><set name="topic">weather</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>HURRICANE</pattern>
-    <template>
+
+HURRICANE
 I think this is something to do with weather. Can we talk about weather?
 <think><set name="topic">weather</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>_ HURRICANE *</pattern>
-    <template>
+
+_ HURRICANE *
 I think this is something to do with weather. Can we talk about weather?
 <think><set name="topic">weather</set></think>
-</template>
-  </category>
-</aiml>
+
+

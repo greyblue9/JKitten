@@ -16,6 +16,7 @@
 0,TEST RANDOM,*,*,<random>#Newline	<li>response #1</li>#Newline	<li>response #2</li>#Newline	<li>response #3</li>#Newline</random>,self-test.aiml
 0,TEST RANDOM EMPTY,*,*,Nothing <random/>here!,self-test.aiml
 0,TEST SENTENCE,*,*,<sentence>my first letter should be capitalized.</sentence>,self-test.aiml
+0,TEST SIZE,*,*,I've learned <size/> categories,self-test.aiml
 0,TEST SR *,*,*,srai results: <sr/>,self-test.aiml
 0,TEST NESTED SR *,*,*,<srai>test sr <star/></srai>,self-test.aiml
 0,SRAI TARGET,*,*,srai test passed,self-test.aiml
@@ -39,5 +40,5 @@
 0,TEST TOPICSTAR MULTIPLE,*,SOYLENT * AND *,Both Soylents <topicstar index="1"/> and <topicstar index="2"/> are made of people!,self-test.aiml
 0,TEST UPPERCASE,*,*,The Last Word Should Be <uppercase>Uppercase</uppercase>,self-test.aiml
 0,TEST VERSION,*,*,PyAIML is version <version/>,self-test.aiml
-0,??????,*,*,Hey#Comma you speak Chinese! ??????,self-test.aiml
+0,ÔÇÉÏºÃ,*,*,Hey#Comma you speak Chinese! ÔÇÉÏºÃ,self-test.aiml
 0,TEST WHITESPACE,*,*,<template xml:space="preserve">Extra   Spaces#Newline   Rule!   <lowercase xml:space="default">(but   not   <set name="ignored">in#Newline                                           here!</set>)#Newline   </lowercase>   But   <set name="ignored">Here   They</set>   Do!</template>,self-test.aiml

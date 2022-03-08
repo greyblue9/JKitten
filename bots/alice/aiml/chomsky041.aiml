@@ -1,872 +1,382 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This ASTRONOMY  file created by Peter Lafferty 7 March 2005 -->
-  <category>
-    <pattern>MORE ASTRONOMY</pattern>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MORE ABOUT ASTRONOMY</pattern>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BROWSE ASTRONOMY</pattern>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO TO ASTRONOMY</pattern>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN WE TALK ABOUT ASTRONOMY</pattern>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SHALL WE TALK ABOUT ASTRONOMY</pattern>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LETS TALK ABOUT ASTRONOMY</pattern>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LET S TALK ABOUT ASTRONOMY</pattern>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK ABOUT ASTRONOMY</pattern>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK ASTRONOMY</pattern>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME ASTRONOMY</pattern>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE ASTRONOMY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO ASTRONOMY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO ASTRONOMY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO ASTRONOMY *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO * ASTRONOMY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ ASTRONOMY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ ASTRONOMY *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT ASTRONOMY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT ASTRONOMY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT ASTRONOMY *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT * ASTRONOMY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM NOT INTERESTED IN ASTRONOMY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IM NOT INTERESTED IN ASTRONOMY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I M NOT INTERESTED IN ASTRONOMY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT INTERESTED IN ASTRONOMY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT INTERESTED IN ASTRONOMY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>MORE  ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE  ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE  ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE ABOUT ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE ABOUT ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE ABOUT ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>MORE ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE ABOUT ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE ABOUT ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE ABOUT ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE ABOUT ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE ABOUT ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE ABOUT ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ASTRONOMY</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+MORE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+MORE ABOUT ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+BROWSE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+GO TO ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+CAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+SHALL WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+LETS TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+LET S TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+TALK ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+TELL ME ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+NO MORE ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+NO ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+* NO ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+NO ASTRONOMY *
+<srai>CHANGE TOPIC</srai>
+
+* NO * ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+NO _ ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+NO _ ASTRONOMY *
+<srai>CHANGE TOPIC</srai>
+
+NOT ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+* NOT ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+NOT ASTRONOMY *
+<srai>CHANGE TOPIC</srai>
+
+* NOT * ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+I AM NOT INTERESTED IN ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+IM NOT INTERESTED IN ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+I M NOT INTERESTED IN ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+NOT INTERESTED IN ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+* NOT INTERESTED IN ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+YESMORE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+* YESMORE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+YES *MORE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+* YES *MORE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+YMORE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+YUPMORE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+YAHMORE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+YEAHMORE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+OKMORE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+NOMORE ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+* NOMORE ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NO *MORE ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NMORE ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NUPMORE ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NAHMORE ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+YESMORE ABOUT ASTRONOMY
+<srai>MORE ABOUT ASTRONOMY</srai>
+
+* YESMORE ABOUT ASTRONOMY
+<srai>MORE ABOUT ASTRONOMY</srai>
+
+YES *MORE ABOUT ASTRONOMY
+<srai>MORE ABOUT ASTRONOMY</srai>
+
+* YES *MORE ABOUT ASTRONOMY
+<srai>MORE ABOUT ASTRONOMY</srai>
+
+YMORE ABOUT ASTRONOMY
+<srai>MORE ABOUT ASTRONOMY</srai>
+
+YUPMORE ABOUT ASTRONOMY
+<srai>MORE ABOUT ASTRONOMY</srai>
+
+YAHMORE ABOUT ASTRONOMY
+<srai>MORE ABOUT ASTRONOMY</srai>
+
+YEAHMORE ABOUT ASTRONOMY
+<srai>MORE ABOUT ASTRONOMY</srai>
+
+OKMORE ABOUT ASTRONOMY
+<srai>MORE ABOUT ASTRONOMY</srai>
+
+NOMORE ABOUT ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+* NOMORE ABOUT ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NO *MORE ABOUT ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NMORE ABOUT ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NUPMORE ABOUT ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NAHMORE ABOUT ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+YESIS THIS SOMETHING TO DO WITH ASTRONOMY
 Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ASTRONOMY</that>
-    <template>
+
+* YESIS THIS SOMETHING TO DO WITH ASTRONOMY
 Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ASTRONOMY</that>
-    <template>
+
+YES *IS THIS SOMETHING TO DO WITH ASTRONOMY
 Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ASTRONOMY</that>
-    <template>
+
+* YES *IS THIS SOMETHING TO DO WITH ASTRONOMY
 Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ASTRONOMY</that>
-    <template>
+
+YIS THIS SOMETHING TO DO WITH ASTRONOMY
 Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ASTRONOMY</that>
-    <template>
+
+YUPIS THIS SOMETHING TO DO WITH ASTRONOMY
 Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ASTRONOMY</that>
-    <template>
+
+YAHIS THIS SOMETHING TO DO WITH ASTRONOMY
 Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ASTRONOMY</that>
-    <template>
+
+YEAHIS THIS SOMETHING TO DO WITH ASTRONOMY
 Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ASTRONOMY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ASTRONOMY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ASTRONOMY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ASTRONOMY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ASTRONOMY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ASTRONOMY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ASTRONOMY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ASTRONOMY</that>
-    <template>
+
+NOIS THIS SOMETHING TO DO WITH ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+* NOIS THIS SOMETHING TO DO WITH ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+NO *IS THIS SOMETHING TO DO WITH ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+* NO *IS THIS SOMETHING TO DO WITH ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+NIS THIS SOMETHING TO DO WITH ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+NUPIS THIS SOMETHING TO DO WITH ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+NAHIS THIS SOMETHING TO DO WITH ASTRONOMY
+<srai>CHANGE TOPIC</srai>
+
+*IS THIS SOMETHING TO DO WITH ASTRONOMY
 Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU INTERESTED IN ASTRONOMY</that>
-    <template>
+
+* YESARE YOU INTERESTED IN ASTRONOMY
 Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ARE YOU INTERESTED IN ASTRONOMY</that>
-    <template>
+
+YES *ARE YOU INTERESTED IN ASTRONOMY
 Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ARE YOU INTERESTED IN ASTRONOMY</that>
-    <template>
+
+* YES *ARE YOU INTERESTED IN ASTRONOMY
 Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>ARE YOU INTERESTED IN ASTRONOMY</that>
-    <template>
+
+YARE YOU INTERESTED IN ASTRONOMY
 Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU INTERESTED IN ASTRONOMY</that>
-    <template>
+
+YUPARE YOU INTERESTED IN ASTRONOMY
 Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ARE YOU INTERESTED IN ASTRONOMY</that>
-    <template>
+
+YAHARE YOU INTERESTED IN ASTRONOMY
 Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ARE YOU INTERESTED IN ASTRONOMY</that>
-    <template>
+
+YEAHARE YOU INTERESTED IN ASTRONOMY
 Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>ARE YOU INTERESTED IN ASTRONOMY</that>
-    <template>
-Can we talk about astronomy?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU INTERESTED IN ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ARE YOU INTERESTED IN ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ARE YOU INTERESTED IN ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO *</pattern>
-    <that>ARE YOU INTERESTED IN ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU INTERESTED IN ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ARE YOU INTERESTED IN ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ARE YOU INTERESTED IN ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SURE</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALLRIGHT</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>CAN WE TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>BROWSE ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>BROWSE ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>BROWSE ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>BROWSE ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>BROWSE ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>BROWSE ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>BROWSE ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>BROWSE ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>BROWSE ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>BROWSE ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>BROWSE ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>BROWSE ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>BROWSE ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>BROWSE ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>BROWSE ASTRONOMY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ASTRONOMY NEXT QUESTION</pattern>
-    <template>
-      <srai>ASTRONOMY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ASTRONOMY POT LUCK</pattern>
-    <template>
-      <random>
+
+NOARE YOU INTERESTED IN ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+* NOARE YOU INTERESTED IN ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NO *ARE YOU INTERESTED IN ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+* NO *ARE YOU INTERESTED IN ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NARE YOU INTERESTED IN ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NUPARE YOU INTERESTED IN ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NAHARE YOU INTERESTED IN ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+GO AHEADCAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+CARRY ONCAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+PLEASE DOCAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+YES PLEASECAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+GO ONCAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+ALRIGHTCAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+SURECAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+ALLRIGHTCAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+YESCAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+* YESCAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+YES *CAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+* YES *CAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+YCAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+YUPCAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+YAHCAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+YEAHCAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+OKCAN WE TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+* NOCAN WE TALK ABOUT ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NO *CAN WE TALK ABOUT ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NCAN WE TALK ABOUT ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NUPCAN WE TALK ABOUT ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NAHCAN WE TALK ABOUT ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+YESBROWSE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+* YESBROWSE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+YES *BROWSE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+* YES *BROWSE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+YBROWSE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+YUPBROWSE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+YAHBROWSE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+YEAHBROWSE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+OKBROWSE ASTRONOMY
+<srai>ASTRONOMY POT LUCK</srai>
+
+NOBROWSE ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+* NOBROWSE ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NO *BROWSE ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NBROWSE ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NUPBROWSE ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+NAHBROWSE ASTRONOMY
+<srai>MORE TOPICS</srai>
+
+ASTRONOMY NEXT QUESTION
+<srai>ASTRONOMY POT LUCK</srai>
+
+ASTRONOMY POT LUCK
+<random>
         <li>Did you know: Astronomers have detected unusually high quantities of carbon, the basis of all terrestrial life, in an infant solar system around nearby star Beta Pictoris, 63 light-years away. </li>
         <li>Giant structures stretching more than a billion light years across have been revealed by two new maps of the distribution of galaxies in the universe. The updated atlases lend more support to the idea that the universe is dominated by dark matter and dark energy. </li>
         <li>On January 28, 1986, a ruptured O-ring in the right solid rocket booster caused the Space Shuttle Challenger to explode soon after launch. </li>
@@ -892,353 +402,165 @@ Can we talk about astronomy?
       <think>
         <set name="topic">astronomy</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>ASTRONOMY BOOKS</pattern>
-    <template>
-  There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/>
+
+ASTRONOMY BOOKS
+There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>
    <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ ASTRONOMY BOOKS</pattern>
-    <template>
-  There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/>
+
+_ ASTRONOMY BOOKS
+There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>
    <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ASTRONOMY BOOKS *</pattern>
-    <template>
-  There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/>
+
+ASTRONOMY BOOKS *
+There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>
     <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ ASTRONOMY BOOKS *</pattern>
-    <template>
-  There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/>
+
+_ ASTRONOMY BOOKS *
+There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>
    <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ASTRONOMY BOOK</pattern>
-    <template>
-  There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/>
+
+ASTRONOMY BOOK
+There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>
    <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>*_ASTRONOMY BOOK</pattern>
-    <template>
-  There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/>
+
+*_ASTRONOMY BOOK
+There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>
    <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ASTRONOMY BOOK *</pattern>
-    <template>   
-  There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/>
+
+ASTRONOMY BOOK *
+There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>
    <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ ASTRONOMY BOOK *</pattern>
-    <template>
-  There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/>
+
+_ ASTRONOMY BOOK *
+There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>
    <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>BOOKS ABOUT ASTRONOMY</pattern>
-    <template>
-  There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/>
+
+BOOKS ABOUT ASTRONOMY
+There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>
    <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ BOOKS ABOUT ASTRONOMY</pattern>
-    <template>
-  There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/>
+
+_ BOOKS ABOUT ASTRONOMY
+There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>
    <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>BOOKS ABOUT ASTRONOMY *</pattern>
-    <template>
-  There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/>
+
+BOOKS ABOUT ASTRONOMY *
+There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>
    <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ BOOKS ABOUT ASTRONOMY *</pattern>
-    <template>
-  There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/>
+
+_ BOOKS ABOUT ASTRONOMY *
+There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>
    <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>BOOK ABOUT ASTRONOMY</pattern>
-    <template>
-  There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/>
+
+BOOK ABOUT ASTRONOMY
+There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>
    <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ BOOK ABOUT ASTRONOMY</pattern>
-    <template>
-  There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/>
+
+_ BOOK ABOUT ASTRONOMY
+There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>
    <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>BOOK ABOUT ASTRONOMY *</pattern>
-    <template>
-  There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/>
+
+BOOK ABOUT ASTRONOMY *
+There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>
     <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_  BOOK ABOUT ASTRONOMY *</pattern>
-    <template>
-  There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/>
+
+_ BOOK ABOUT ASTRONOMY *
+There are lots of good astronomy books available from Amazon.<a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astronomy%26index=books-uk" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>
    <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ORION</pattern>
-    <template>
+
+ORION
 I think this is something to do with astronomy. Can we talk about astronomy?
 <think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*ORION*</pattern>
-    <template>
+
+*ORION*
 I think this is something to do with astronomy. Can we talk about astronomy?
 <think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>ANDROMEDA GALAXY</pattern>
-    <template>
+
+*ANDROMEDA GALAXY*
 I think this is something to do with astronomy. Can we talk about astronomy?
 <think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*ANDROMEDA GALAXY*</pattern>
-    <template>
+
+RED GIANT
 I think this is something to do with astronomy. Can we talk about astronomy?
 <think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>RED GIANT</pattern>
-    <template>
+
+*RED GIANT*
 I think this is something to do with astronomy. Can we talk about astronomy?
 <think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*RED GIANT*</pattern>
-    <template>
+
+NEBULA
 I think this is something to do with astronomy. Can we talk about astronomy?
 <think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NEBULA</pattern>
-    <template>
+
+*NEBULA*
 I think this is something to do with astronomy. Can we talk about astronomy?
 <think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*NEBULA*</pattern>
-    <template>
+
+*ASTROPHYSICS*
 I think this is something to do with astronomy. Can we talk about astronomy?
 <think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>ASTROPHYSICS</pattern>
-    <template>
-I think this is something to do with astronomy. Can we talk about astronomy?
-<think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*ASTROPHYSICS*</pattern>
-    <template>
-I think this is something to do with astronomy. Can we talk about astronomy?
-<think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>SOLAR SYSTEM</pattern>
-    <template>
+
+SOLAR SYSTEM
 The solar system is the sun and the bodies that revolve around it. More astronomy?
 <think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>SIRIUS</pattern>
-    <template>
+
+HYADES
 I think this is something to do with astronomy. Can we talk about astronomy?
 <think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>HYADES</pattern>
-    <template>
+
+*HYADES*
 I think this is something to do with astronomy. Can we talk about astronomy?
 <think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*HYADES*</pattern>
-    <template>
+
+WHITE DWARF
 I think this is something to do with astronomy. Can we talk about astronomy?
 <think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>SIRIUS</pattern>
-    <template>
+
+*WHITE DWARF*
 I think this is something to do with astronomy. Can we talk about astronomy?
 <think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHITE DWARF</pattern>
-    <template>
+
+SUPERNOVA
 I think this is something to do with astronomy. Can we talk about astronomy?
 <think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*WHITE DWARF*</pattern>
-    <template>
+
+*SUPERNOVA*
 I think this is something to do with astronomy. Can we talk about astronomy?
 <think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>SUPERNOVA</pattern>
-    <template>
-I think this is something to do with astronomy. Can we talk about astronomy?
-<think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*SUPERNOVA*</pattern>
-    <template>
-I think this is something to do with astronomy. Can we talk about astronomy?
-<think><set name="topic">astronomy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHAT IS A STAR</pattern>
-    <template>
-      <srai>STAR</srai>
+
+WHAT IS A STAR
+<srai>STAR</srai>
       <think>
         <set name="topic">astronomy</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>VENUS</pattern>
-    <template>
-In astronomy, Venus is the brightest, sixth-largest planet in the solar system and the second in distance from the sun, with a dense atmosphere of carbon dioxide and a very high surface temperature. Its diameter is circa 12,100 km (circa 7,520 miles). Its period of revolution is circa 225 earth days. Its period of rotation (retrograde), is 243.01 earth days.  
+
+MILKY WAY
+The total number of stars in our galaxy (the Milky Way Galaxy) is roughly the same as the number of rice grains that could be packed into a cathedral  (roughly 200 billion). If the rice grains were spread out to make a scale model of the Milky Way in the right proportions, the model would be roughly 400,000 km across, about the distance from the Earth to the Moon.  
   <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>MILKY WAY</pattern>
-    <template>
-  The total number of stars in our galaxy (the Milky Way Galaxy) is roughly the same as the number of rice grains that could be packed into a cathedral  (roughly 200 billion). If the rice grains were spread out to make a scale model of the Milky Way in the right proportions, the model would be roughly 400,000 km across, about the distance from the Earth to the Moon.  
-  <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HOW FAR IS THE NEAREST STAR</pattern>
-    <template>
+
+HOW FAR IS THE NEAREST STAR
 The nearest star, Alpha Centauri, is about four light years from Earth.  
   <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>*NEAREST STAR*</pattern>
-    <template>
+
+*NEAREST STAR*
 The nearest star, Alpha Centauri, is about four light years from Earth. More astronomy?
   <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ARE BLACK HOLES HAIRY</pattern>
-    <template>
-      <srai>STEPHEN HAWKING</srai>
+
+ARE BLACK HOLES HAIRY
+<srai>STEPHEN HAWKING</srai>
       <think>
         <set name="topic">astronomy</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>BLACK HOLE</pattern>
-    <template>
-  A black hole is where God divided by zero.
- <think><set name="topic">astronomy</set></think>
- </template>
-  </category>
-  <category>
-    <pattern>WHAT IS A COMET</pattern>
-    <template>
+
+*COMET
 A comet is a small object in a highly elliptical orbit around the Sun. About the size of an asteroid, they are made of dirty ice. If their orbit brings them close to the Earth, they are seen in the night sky as having a long tail, caused by the ice evaporating and trailing behind the comet. The tail always points away from the Sun.  
   <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT IS A COMET</pattern>
-    <template>
+
+COMET_
 A comet is a small object in a highly elliptical orbit around the Sun. About the size of an asteroid, they are made of dirty ice. If their orbit brings them close to the Earth, they are seen in the night sky as having a long tail, caused by the ice evaporating and trailing behind the comet. The tail always points away from the Sun.  
   <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>COMET</pattern>
-    <template>
+
+*COMET*
 A comet is a small object in a highly elliptical orbit around the Sun. About the size of an asteroid, they are made of dirty ice. If their orbit brings them close to the Earth, they are seen in the night sky as having a long tail, caused by the ice evaporating and trailing behind the comet. The tail always points away from the Sun.  
   <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>*COMET</pattern>
-    <template>
-A comet is a small object in a highly elliptical orbit around the Sun. About the size of an asteroid, they are made of dirty ice. If their orbit brings them close to the Earth, they are seen in the night sky as having a long tail, caused by the ice evaporating and trailing behind the comet. The tail always points away from the Sun.  
-  <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>COMET_</pattern>
-    <template>
-A comet is a small object in a highly elliptical orbit around the Sun. About the size of an asteroid, they are made of dirty ice. If their orbit brings them close to the Earth, they are seen in the night sky as having a long tail, caused by the ice evaporating and trailing behind the comet. The tail always points away from the Sun.  
-  <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>*COMET*</pattern>
-    <template>
-A comet is a small object in a highly elliptical orbit around the Sun. About the size of an asteroid, they are made of dirty ice. If their orbit brings them close to the Earth, they are seen in the night sky as having a long tail, caused by the ice evaporating and trailing behind the comet. The tail always points away from the Sun.  
-  <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HOW FAR IS IT TO *</pattern>
-    <template>
-  It is a long way.  
-  <think><set name="topic">astronomy</set></think>
-  </template>
-  </category>
-</aiml>
+
+

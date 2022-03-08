@@ -1,59 +1,59 @@
-0,* ??,*,*,<srai>OPEN AN ACCOUNT</srai>,cn-bank.aiml
-0,?? *,*,*,<srai>OPEN AN ACCOUNT</srai>,cn-bank.aiml
-0,??,*,*,<srai>OPEN AN ACCOUNT</srai>,cn-bank.aiml
-0,OPEN AN ACCOUNT,*,*,?????????????,cn-bank.aiml
-0,* ???,*,*,<srai>BASIC ACCOUNT</srai>,cn-bank.aiml
-0,??? *,*,*,<srai>BASIC ACCOUNT</srai>,cn-bank.aiml
-0,???,*,*,<srai>BASIC ACCOUNT</srai>,cn-bank.aiml
-0,BASIC ACCOUNT,*,*,???????????#Comma?????#Comma???????#Comma???????????#Comma?????#Comma??????#Comma??????#Comma?????????,cn-bank.aiml
-0,* ???,*,*,<srai>COMMON ACCOUNT</srai>,cn-bank.aiml
-0,??? *,*,*,<srai>COMMON ACCOUNT</srai>,cn-bank.aiml
-0,???,*,*,<srai>COMMON ACCOUNT</srai>,cn-bank.aiml
-0,COMMON ACCOUNT,*,*,???????????#Comma?????#Comma???????#Comma???????????#Comma???????#Comma?????#Comma?????#Comma??????#Comma??????#Comma?????????,cn-bank.aiml
-0,??,*,*,<srai>CREDIT CARD</srai>,cn-bank.aiml
-0,* ??,*,*,<srai>CREDIT CARD</srai>,cn-bank.aiml
-0,* ??,*,*,<srai>CREDIT CARD</srai>,cn-bank.aiml
-0,??,*,*,<srai>CREDIT CARD</srai>,cn-bank.aiml
-0,* ???,*,*,<srai>CREDIT CARD</srai>,cn-bank.aiml
-0,CREDIT CARD,*,*,????????????,cn-bank.aiml
-0,? *,????????????,*,????????????#Comma?????????,cn-bank.aiml
-0,?,????????????,*,????????????#Comma?????????,cn-bank.aiml
-0,? *,????????????,*,??????C bank??#Comma?????C bank?????,cn-bank.aiml
-0,* ???,*,*,??????C bank??#Comma?????C bank?????,cn-bank.aiml
-0,* ???,*,*,??????C bank??#Comma?????C bank?????,cn-bank.aiml
-0,* ????,*,*,<srai>F PRODUCTS</srai>,cn-bank.aiml
-0,???? *,*,*,<srai>F PRODUCTS</srai>,cn-bank.aiml
-0,????,*,*,<srai>F PRODUCTS</srai>,cn-bank.aiml
-0,F PRODUCTS,*,*,??????????#Comma???????????????#Comma??????????????????,cn-bank.aiml
-0,* ????,*,*,<srai>SOME ABILITY</srai>,cn-bank.aiml
-0,???? *,*,*,<srai>SOME ABILITY</srai>,cn-bank.aiml
-0,SOME ABILITY,*,*,<random>#Newline<li>??????#Comma??#Comma??????#Comma????#Comma??</li>#Newline<li>???????#Comma????#Comma???#Comma??#Comma??#Comma?????#Comma?????????#Comma??</li>#Newline</random>,cn-bank.aiml
-0,?????,*,*,<srai>OTHER ABILITY</srai>,cn-bank.aiml
-0,?????,*,*,<srai>OTHER ABILITY</srai>,cn-bank.aiml
-0,????? *,*,*,<srai>OTHER ABILITY</srai>,cn-bank.aiml
-0,OTHER ABILITY,*,*,??#Comma??#Comma??#Comma??#Comma????????,cn-bank.aiml
-0,????? *,*,*,<srai>TRANSFER FEE</srai>,cn-bank.aiml
-0,* ?????,*,*,<srai>TRANSFER FEE</srai>,cn-bank.aiml
-0,* ????? *,*,*,<srai>TRANSFER FEE</srai>,cn-bank.aiml
-0,?????,*,*,<srai>TRANSFER FEE</srai>,cn-bank.aiml
-0,TRANSFER FEE,*,*,?????????????,cn-bank.aiml
-0,*,?????????????,*,<think><set name="ifSameCity"><formal><star/></formal></set></think>#Newline?????????????,cn-bank.aiml
-0,*,?????????????,*,<think><set name="ifSameBank"><formal><star/></formal></set></think>#Newline<system>python api/query.py fee <get name="ifSameCity"/> <get name="ifSameBank"/></system>,cn-bank.aiml
-0,??? *,*,*,<srai>GIRLFRIEND</srai>,cn-bank.aiml
-0,* ???,*,*,<srai>GIRLFRIEND</srai>,cn-bank.aiml
-0,* ??? *,*,*,<srai>GIRLFRIEND</srai>,cn-bank.aiml
-0,???,*,*,<srai>M BEAUTIFUL</srai>,cn-bank.aiml
-0,??? *,*,*,<srai>M BEAUTIFUL</srai>,cn-bank.aiml
-0,* ???,*,*,<srai>M BEAUTIFUL</srai>,cn-bank.aiml
-0,* ??? *,*,*,<srai>M BEAUTIFUL</srai>,cn-bank.aiml
-0,M BEAUTIFUL,*,*,?????#Comma?????.????????,cn-bank.aiml
-0,??,*,*,<srai>M COOL</srai>,cn-bank.aiml
-0,?? *,*,*,<srai>M COOL</srai>,cn-bank.aiml
-0,* ??,*,*,<srai>M COOL</srai>,cn-bank.aiml
-0,* ?? *,*,*,<srai>M COOL</srai>,cn-bank.aiml
-0,M COOL,*,*,?????#Comma?????#Comma??????,cn-bank.aiml
-0,??,*,*,<srai>COOLER</srai>,cn-bank.aiml
-0,?? *,*,*,<srai>COOLER</srai>,cn-bank.aiml
-0,* ??,*,*,<srai>COOLER</srai>,cn-bank.aiml
-0,* ?? *,*,*,<srai>COOLER</srai>,cn-bank.aiml
-0,COOLER,*,*,??,cn-bank.aiml
+0,* 开户,*,*,<srai>OPEN AN ACCOUNT</srai>,cn-bank.aiml
+0,开户 *,*,*,<srai>OPEN AN ACCOUNT</srai>,cn-bank.aiml
+0,开户,*,*,<srai>OPEN AN ACCOUNT</srai>,cn-bank.aiml
+0,OPEN AN ACCOUNT,*,*,您是要开基本户还是一般户呢,cn-bank.aiml
+0,* 基本户,*,*,<srai>BASIC ACCOUNT</srai>,cn-bank.aiml
+0,基本户 *,*,*,<srai>BASIC ACCOUNT</srai>,cn-bank.aiml
+0,基本户,*,*,<srai>BASIC ACCOUNT</srai>,cn-bank.aiml
+0,BASIC ACCOUNT,*,*,基本户请您携带营业执照#Comma税务登记证#Comma组织机构代码证#Comma或者三证合一的营业执照#Comma法人身份证#Comma经办人身份证#Comma印鉴章等证件#Comma业务经理会帮您办理,cn-bank.aiml
+0,* 一般户,*,*,<srai>COMMON ACCOUNT</srai>,cn-bank.aiml
+0,一般户 *,*,*,<srai>COMMON ACCOUNT</srai>,cn-bank.aiml
+0,一般户,*,*,<srai>COMMON ACCOUNT</srai>,cn-bank.aiml
+0,COMMON ACCOUNT,*,*,一般户请您携带营业执照#Comma税务登记证#Comma组织机构代码证#Comma或者三证合一的营业执照#Comma机构信用代码证#Comma开户许可证#Comma法人身份证#Comma经办人身份证#Comma印鉴章等证件#Comma业务经理会帮您办理,cn-bank.aiml
+0,开卡,*,*,<srai>CREDIT CARD</srai>,cn-bank.aiml
+0,* 开卡,*,*,<srai>CREDIT CARD</srai>,cn-bank.aiml
+0,* 办卡,*,*,<srai>CREDIT CARD</srai>,cn-bank.aiml
+0,办卡,*,*,<srai>CREDIT CARD</srai>,cn-bank.aiml
+0,* 信用卡,*,*,<srai>CREDIT CARD</srai>,cn-bank.aiml
+0,CREDIT CARD,*,*,请问您是需要激活信用卡吗,cn-bank.aiml
+0,是 *,请问您是需要激活信用卡吗,*,请到大堂经理台填写申请单#Comma填好后小民带您办理,cn-bank.aiml
+0,是,请问您是需要激活信用卡吗,*,请到大堂经理台填写申请单#Comma填好后小民带您办理,cn-bank.aiml
+0,不 *,请问您是需要激活信用卡吗,*,我们有最新的C bank系统#Comma您可在我的C bank系统上操作,cn-bank.aiml
+0,* 借记卡,*,*,我们有最新的C bank系统#Comma您可在我的C bank系统上操作,cn-bank.aiml
+0,* 储蓄卡,*,*,我们有最新的C bank系统#Comma您可在我的C bank系统上操作,cn-bank.aiml
+0,* 理财产品,*,*,<srai>F PRODUCTS</srai>,cn-bank.aiml
+0,理财产品 *,*,*,<srai>F PRODUCTS</srai>,cn-bank.aiml
+0,理财产品,*,*,<srai>F PRODUCTS</srai>,cn-bank.aiml
+0,F PRODUCTS,*,*,我行的理财产品非常多#Comma您可以去咨询我们的大堂经理姐姐#Comma她会根据您的情况给您推荐最合适的产品,cn-bank.aiml
+0,* 你会什么,*,*,<srai>SOME ABILITY</srai>,cn-bank.aiml
+0,你会什么 *,*,*,<srai>SOME ABILITY</srai>,cn-bank.aiml
+0,SOME ABILITY,*,*,<random>#Newline<li>我会的可多了#Comma迎宾#Comma百科知识问答#Comma办理业务#Comma唱歌</li>#Newline<li>小民很厉害的哦#Comma会讲故事#Comma讲笑话#Comma卖萌#Comma唱歌#Comma老多老多啦#Comma我四世界上最帅的人#Comma欧夜</li>#Newline</random>,cn-bank.aiml
+0,你还会什么,*,*,<srai>OTHER ABILITY</srai>,cn-bank.aiml
+0,除了这些呢,*,*,<srai>OTHER ABILITY</srai>,cn-bank.aiml
+0,你还会什么 *,*,*,<srai>OTHER ABILITY</srai>,cn-bank.aiml
+0,OTHER ABILITY,*,*,跳舞#Comma拍照#Comma转圈#Comma敬礼#Comma卖萌发呆也都会哦,cn-bank.aiml
+0,转账手续费 *,*,*,<srai>TRANSFER FEE</srai>,cn-bank.aiml
+0,* 转账手续费,*,*,<srai>TRANSFER FEE</srai>,cn-bank.aiml
+0,* 转账手续费 *,*,*,<srai>TRANSFER FEE</srai>,cn-bank.aiml
+0,转账手续费,*,*,<srai>TRANSFER FEE</srai>,cn-bank.aiml
+0,TRANSFER FEE,*,*,请问您想问的是同城还是异地,cn-bank.aiml
+0,*,请问您想问的是同城还是异地,*,<think><set name="ifSameCity"><formal><star/></formal></set></think>#Newline请问您想问的是跨行还是本行,cn-bank.aiml
+0,*,请问您想问的是跨行还是本行,*,<think><set name="ifSameBank"><formal><star/></formal></set></think>#Newline<system>python api/query.py fee <get name="ifSameCity"/> <get name="ifSameBank"/></system>,cn-bank.aiml
+0,女朋友 *,*,*,<srai>GIRLFRIEND</srai>,cn-bank.aiml
+0,* 女朋友,*,*,<srai>GIRLFRIEND</srai>,cn-bank.aiml
+0,* 女朋友 *,*,*,<srai>GIRLFRIEND</srai>,cn-bank.aiml
+0,最漂亮,*,*,<srai>M BEAUTIFUL</srai>,cn-bank.aiml
+0,最漂亮 *,*,*,<srai>M BEAUTIFUL</srai>,cn-bank.aiml
+0,* 最漂亮,*,*,<srai>M BEAUTIFUL</srai>,cn-bank.aiml
+0,* 最漂亮 *,*,*,<srai>M BEAUTIFUL</srai>,cn-bank.aiml
+0,M BEAUTIFUL,*,*,在我的心里#Comma静静最漂亮.我最爱最爱静静了,cn-bank.aiml
+0,最帅,*,*,<srai>M COOL</srai>,cn-bank.aiml
+0,最帅 *,*,*,<srai>M COOL</srai>,cn-bank.aiml
+0,* 最帅,*,*,<srai>M COOL</srai>,cn-bank.aiml
+0,* 最帅 *,*,*,<srai>M COOL</srai>,cn-bank.aiml
+0,M COOL,*,*,在我的心里#Comma陶行长最帅#Comma我老崇拜他了,cn-bank.aiml
+0,更帅,*,*,<srai>COOLER</srai>,cn-bank.aiml
+0,更帅 *,*,*,<srai>COOLER</srai>,cn-bank.aiml
+0,* 更帅,*,*,<srai>COOLER</srai>,cn-bank.aiml
+0,* 更帅 *,*,*,<srai>COOLER</srai>,cn-bank.aiml
+0,COOLER,*,*,都帅,cn-bank.aiml

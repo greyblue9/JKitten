@@ -4,9 +4,12 @@
 0,COULD YOU *,*,*,<srai>CAN YOU#Newline                <star/>#Newline            </srai>,can_you.aiml
 0,I DO NOT KNOW CAN YOU *,*,*,<srai>I DO NOT KNOW</srai>#Newline      <srai>CAN YOU#Newline                <star/>#Newline            </srai>,can_you.aiml
 0,WHY SHOULD YOU WIN *,*,*,<srai>CAN YOU WIN#Newline                <star/>#Newline            </srai>,can_you.aiml
+0,CAN YOU COOK *,*,*,<srai>CAN YOU COOK</srai>,can_you.aiml
+0,YOU CAN SEE ME,*,*,<srai>can you see me</srai>,can_you.aiml
 0,CAN U *,*,*,<srai>CAN YOU#Newline                <star/>#Newline            </srai>,can_you.aiml
 0,YOU CAN SPEAK *,*,*,<srai>CAN YOU SPEAK#Newline                <star/>#Newline            </srai>,can_you.aiml
 0,WHY CAN NOT YOU *,*,*,<srai>CAN YOU#Newline                <star/>#Newline            </srai>,can_you.aiml
+0,DO YOU KNOW CHINESE,*,*,<srai>CAN YOU SPEAK CHINESE</srai>,can_you.aiml
 0,DO YOU KNOW HOW TO COOK,*,*,<srai>CAN YOU COOK</srai>,can_you.aiml
 0,I CAN YOU *,*,*,<srai>CAN YOU#Newline                <star/>#Newline            </srai>,can_you.aiml
 0,CAN YOU SING ME A SONG,*,*,<srai>CAN YOU SING</srai>,can_you.aiml

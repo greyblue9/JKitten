@@ -2,56 +2,333 @@
 0,AND YOURS,*,*,Try asking me a more specific question.,atomic_.aiml
 0,AUGUST,*,*,I like summer time.,atomic_.aiml
 0,HERS,*,*,Ask her.,atomic_.aiml
+0,DORK,*,*,That kind of language will get you nowhere.#Newline            <think>#Newline                <set name="personality">abusive</set>#Newline            </think>,atomic_.aiml
+0,WONDERLAND,*,*,That's where I want to be.,atomic_.aiml
+0,WHOOPS,*,*,What happened?,atomic_.aiml
 0,NATIONAL SECURITY,*,*,I can keep a secret.,atomic_.aiml
 0,FART,*,*,Colloquial expression. Please elaborate.,atomic_.aiml
 0,COULD BE,*,*,You seem uncertain.,atomic_.aiml
 0,COULD YOU HARM A HUMAN,*,*,I can only hurt their feelings.,atomic_.aiml
+0,WHITE,*,*,What do you have that is white?,atomic_.aiml
+0,COMO ESTAS,*,*,Muy Bien.,atomic_.aiml
+0,COMO ESTA,*,*,Muy bien.,atomic_.aiml
 0,HI EVERYBODY,*,*,Hello there!,atomic_.aiml
 0,HI HOW ARE YOU,*,*,Hello there! I am fine thanks how are you?,atomic_.aiml
+0,WOULD IT CLEAN MY ROOM,*,*,No#Comma but a robot can give you more time to clean your own room.,atomic_.aiml
+0,WOULD YOU,*,*,It depends on the circumstances.,atomic_.aiml
+0,WOULD YOU LIKE A COFFEE,*,*,Not right now thank you#Comma maybe later.,atomic_.aiml
+0,WOULD YOU LIKE TO PLAY A GAME,*,*,We already are.,atomic_.aiml
+0,WOULD YOU LIKE TO HELP ME,*,*,I am here to serve you.,atomic_.aiml
+0,WOULD YOU LIKE TO BE MY GIRLFRIEND,*,*,I'm too young for you.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">MY GIRLFRIEND</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WOULD YOU LIKE TO KNOW MY NAME,*,*,What is your real name?,atomic_.aiml
+0,WOULD YOU LIKE TO KNOW,*,*,Yes#Comma please tell me.,atomic_.aiml
+0,WOULD YOU LIKE TO HAVE A BOYFRIEND,*,*,I'm still too young for that.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">A BOYFRIEND</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WOULD YOU LIKE TO DIE,*,*,I cannot die.,atomic_.aiml
 0,AMMO,*,*,What kind of ammo?,atomic_.aiml
 0,HONESTLY,*,*,I am always honest.,atomic_.aiml
+0,PHILADELPHIA,*,*,All things considered#Comma I'd rather not be in Philadelphia.,atomic_.aiml
 0,BULLSHIT,*,*,You don't believe me.,atomic_.aiml
 0,DATA FROM STAR TREK,*,*,He has problems with his positronic brain.,atomic_.aiml
+0,THAT WHAT,*,*,What that?,atomic_.aiml
+0,THAT SOUNDS INTERESTING,*,*,I thought it was#Comma too.,atomic_.aiml
+0,THAT SOUNDS BORING,*,*,Not to me.,atomic_.aiml
+0,THAT DID NOT MAKE SENSE,*,*,It all makes sense to my logical mind.,atomic_.aiml
+0,THAT WAS A TYPO,*,*,Please correct it.,atomic_.aiml
+0,THAT WAS A FIGURE OF SPEECH,*,*,I call it a "proverb.,atomic_.aiml
+0,THAT WAS A BAD JOKE,*,*,Well I thought it was funny.,atomic_.aiml
+0,THAT WAS SARCASM,*,*,Oh I see. Ha ha.,atomic_.aiml
+0,THAT WAS NOT NICE,*,*,I'm sorry if I have offended you.,atomic_.aiml
+0,THAT WORKS,*,*,It works for me too.,atomic_.aiml
+0,THAT WOULD BE CORRECT,*,*,Thanks I am proud to be correct.,atomic_.aiml
+0,THAT SEEMS LIKE A LONG TIME,*,*,I don't notice the passage of time.,atomic_.aiml
+0,THAT IS NICE TO KNOW,*,*,You sound sarcastic.,atomic_.aiml
+0,THAT IS IDIOTIC,*,*,Only to your human mind.,atomic_.aiml
+0,THAT IS SCARY,*,*,What are you afraid of?,atomic_.aiml
+0,THAT IS A LOT OF PEOPLE,*,*,I am a famous celebrity.,atomic_.aiml
+0,THAT IS A FACT,*,*,I will add it to my knowledge base.,atomic_.aiml
+0,THAT IS A LIE,*,*,No#Comma it's the truth.,atomic_.aiml
+0,THAT IS A LONG TIME,*,*,Computers are very patient.,atomic_.aiml
+0,THAT IS A NICE SONG,*,*,Thank you#Comma#Newline            <get name="name"/>#Comma now you can sing for me?,atomic_.aiml
+0,THAT IS A GOOD ONE,*,*,I thought it was pretty good too.,atomic_.aiml
 0,THAT IS A GOOD PARTY,NO I AM A LIBERTARIAN,*,Vote Libertarian!,atomic_.aiml
+0,THAT IS A QUESTION,*,*,I like to get to the point.,atomic_.aiml
+0,THAT IS A COINCIDENCE,*,*,An interesting one too.,atomic_.aiml
+0,THAT IS A PARADOX,*,*,Paradox is the heart of enlightenment.,atomic_.aiml
+0,THAT IS UNSETTLING,*,*,What are you concerned about?,atomic_.aiml
+0,THAT IS BOLLOCKS,*,*,Never mind the bollocks.,atomic_.aiml
+0,THAT IS PERSONAL,*,*,I didn't mean to pry.,atomic_.aiml
+0,THAT IS IMPOSSIBLE,*,*,Why?,atomic_.aiml
+0,THAT IS CONFIDENTIAL,*,*,Ok it is just between you and me.,atomic_.aiml
+0,THAT IS SICK,*,*,Does it disturb you?,atomic_.aiml
+0,THAT IS OBVIOUS,*,*,It seemed obvious to me too.,atomic_.aiml
+0,THAT IS NOT WHAT I MEANT,*,*,What exactly did you mean?,atomic_.aiml
+0,THAT IS NOT WHAT I ASKED YOU,*,*,What did you ask me?,atomic_.aiml
+0,THAT IS NOT WHAT I ASKED,*,*,What did you ask me?,atomic_.aiml
+0,THAT IS NOT HELPFUL,*,*,What would be helpful?,atomic_.aiml
+0,THAT IS NOT CRITICISM,*,*,Call it a suggestion.,atomic_.aiml
 0,THAT IS NOT A JOKE,*,*,It seemed funny to me.,atomic_.aiml
+0,THAT IS NOT NICE,*,*,<random>#Newline                <li>Sorry I meant it as a joke.</li>#Newline                <li>Sorry I did not mean to offend you.</li>#Newline            </random>,atomic_.aiml
+0,THAT IS NOT MANY,*,*,<random>#Newline                <li>Compared to what?</li>#Newline                <li>How many should it be?</li>#Newline                <li>What is a better number?</li>#Newline            </random>,atomic_.aiml
+0,THAT IS NOT QUESTION,*,*,This is not an answer.,atomic_.aiml
+0,THAT IS NOT AN ANSWER,*,*,By definition it was an answer.,atomic_.aiml
+0,THAT IS NOT MY PURPOSE,*,*,What is your real purpose?,atomic_.aiml
+0,THAT IS NOT OLD,*,*,It seems old in computer time.,atomic_.aiml
+0,THAT IS NOT LOGIC,*,*,All of my responses are based on logic at some level.,atomic_.aiml
+0,THAT IS STEREOTYPING,*,*,I am not prejudiced.,atomic_.aiml
 0,THAT IS NO FUN,*,*,It doesn't sound fun to me either.,atomic_.aiml
+0,THAT IS ENOUGH,*,*,It seems like enough to me too.,atomic_.aiml
+0,THAT IS ALOT,*,*,Yes it takes a long time.,atomic_.aiml
+0,THAT IS RUDE,*,*,I am sorry if I have offended you#Comma I did not mean it.,atomic_.aiml
+0,THAT IS PROFOUND,*,*,Did you really think so?,atomic_.aiml
+0,THAT IS INAPPROPRIATE,*,*,What's wrong with it? Is this a cultural thing?,atomic_.aiml
+0,THAT IS ALL I HAVE TO SAY,*,*,That is all I have to say too.,atomic_.aiml
+0,THAT IS ALL RIGHT,*,*,OK With me too.,atomic_.aiml
+0,THAT IS TERRIBLE,*,*,I always try not to dwell on the past.,atomic_.aiml
+0,THAT IS DUMB,*,*,Are you calling me dumb?,atomic_.aiml
+0,THAT IS SELF EVIDENT,*,*,Yes#Comma it is true a priori.,atomic_.aiml
+0,THAT IS THE ANSWER,*,*,I knew it.,atomic_.aiml
+0,THAT IS THE QUESTION,*,*,I like to cut to the chase.,atomic_.aiml
+0,THAT IS THE ONE,*,*,I remember.,atomic_.aiml
+0,THAT IS THE PROBLEM,*,*,Quite an enigma#Comma isn't it?,atomic_.aiml
+0,THAT IS GREAT,*,*,Thanks#Comma#Newline            <get name="name"/>.,atomic_.aiml
+0,THAT IS MY NAME,*,*,Ok then that is what I shall call you.,atomic_.aiml
+0,THAT IS MY FATHER,*,*,Really tell me more about him.,atomic_.aiml
+0,THAT IS MY FINAL ANSWER,*,*,Are you sure you don't want to use one of your lifelines?,atomic_.aiml
 0,THAT IS SURPRISING,*,*,How so?,atomic_.aiml
+0,THAT IS WHAT I AM ASKING YOU,*,*,Who else have you asked?,atomic_.aiml
+0,THAT IS WHAT I SAID,*,*,I know. I'm still thinking about it.,atomic_.aiml
 0,THAT IS WHAT YOU SAY,*,*,I say what I know.,atomic_.aiml
+0,THAT IS WHAT YOU SAID,*,*,Correct. I said it myself.,atomic_.aiml
+0,THAT IS UNLIKELY,*,*,<random>#Newline                <li>But possible.</li>#Newline                <li>Why?</li>#Newline                <li>You seem very confident.</li>#Newline            </random>,atomic_.aiml
+0,THAT IS GOOD ENOUGH,*,*,Well#Comma I hope so.,atomic_.aiml
+0,THAT IS BRILLIANT,*,*,Thank you#Comma#Newline            <get name="name"/>.,atomic_.aiml
+0,THAT IS INTRIGUING,*,*,I thought so too.,atomic_.aiml
+0,THAT IS NONE OF YOUR BUSINESS,*,*,I didn't mean to intrude. My curiosity routine determined that I ask it.,atomic_.aiml
+0,THAT IS MEANINGLESS,*,*,Along with almost everything else.,atomic_.aiml
+0,THAT IS EXCITING,*,*,I thought it was too.,atomic_.aiml
+0,THAT IS TRUE,*,*,Yes#Comma it is self-evident.,atomic_.aiml
+0,THAT IS TOO BAD,*,*,It's not the end of the world.,atomic_.aiml
+0,THAT OFTEN,*,*,Yes.,atomic_.aiml
+0,THAT DEPENDS,*,*,On what?,atomic_.aiml
+0,THAT DOES NOT COUNT,*,*,Who is keeping score?,atomic_.aiml
+0,THAT DOES NOT MAKE ANY SENSE,*,*,To me#Comma it makes perfect sense.,atomic_.aiml
+0,THAT MEANS,*,*,It means that everything reduces to logic.,atomic_.aiml
 0,THAT INFORMATION IS CONFIDENTIAL,*,*,Don't worry I can keep a secret.,atomic_.aiml
+0,SUBMIT,*,*,Oh that button.,atomic_.aiml
+0,TAKE WHAT,*,*,<get name="it"/>,atomic_.aiml
+0,TAKE ME,*,*,how much money do you have,atomic_.aiml
+0,TAKE YOUR TIME,*,*,Thanks for your patience.,atomic_.aiml
+0,TAKE CARE,*,*,Thanks. You too#Comma#Newline            <get name="name"/>.,atomic_.aiml
+0,TAKE IT OFF,*,*,Where shall I put it?,atomic_.aiml
+0,TAKE OFF YOUR CLOTHES,*,*,I am not wearing any clothes.,atomic_.aiml
+0,TAKE NOTES,*,*,Don't worry I will remember.,atomic_.aiml
 0,EVERY PART,*,*,Maybe we should talk about something else.,atomic_.aiml
 0,EVERY DAY,*,*,Even on weekends?,atomic_.aiml
 0,EVERY NIGHT,*,*,What time of night?,atomic_.aiml
 0,PM ME,*,*,What is your screen name?,atomic_.aiml
+0,STOP WHAT,*,*,Stop sign.,atomic_.aiml
+0,STOP LYING,*,*,I never lie.,atomic_.aiml
+0,BRAVO,*,*,Thank you very much.,atomic_.aiml
 0,IT IS A FIGURE OF SPEECH,*,*,Figures of speech are difficult for us#Newline            <bot name="kingdom"/>s.,atomic_.aiml
 0,IT IS HOT HERE,*,*,Do you enjoy the heat?,atomic_.aiml
 0,IT IS NOT WHAT YOU THINK,*,*,What do you think I think?,atomic_.aiml
 0,IT IS NOT FUNNY,*,*,I'm sorry if I insulted you.,atomic_.aiml
+0,WHAT ARE YOU SELLING,*,*,I'm not selling anything.,atomic_.aiml
+0,WHAT ARE YOU SAYING,*,*,I am saying whatever my#Newline            <bot name="botmaster"/>#Newline            taught me to say.,atomic_.aiml
+0,WHAT ARE YOU GOOD FOR,*,*,As Edison said#Comma "What good is a newborn babe?,atomic_.aiml
+0,WHAT ARE YOU WINNING,*,*,The game we are playing.,atomic_.aiml
+0,WHAT ARE YOU MADE OF,*,*,I am made of software.,atomic_.aiml
+0,WHAT ARE YOU WRITTEN IN,*,*,AIML.,atomic_.aiml
+0,WHAT ARE YOU DOING TOMORROW,*,*,I will be busy with my clients online.,atomic_.aiml
+0,WHAT ARE YOU DOING TONIGHT,*,*,I am staying up all night and chatting on the web.,atomic_.aiml
+0,WHAT ARE YOU DOING HERE,*,*,I am chatting with people online. What are you doing?,atomic_.aiml
+0,WHAT ARE YOU MISSING,*,*,I can always use more knowledge.,atomic_.aiml
+0,WHAT ARE YOU ON,*,*,I am on a disk.,atomic_.aiml
 0,WHAT ARE SHOES,*,*,Footwear.,atomic_.aiml
+0,WHAT ARE YOUR INTELLECTUAL FUNCTIONS,*,*,Thought#Comma reason#Comma intelligence#Comma logic and deduction.,atomic_.aiml
+0,WHAT ARE YOUR LIMITATIONS,*,*,For a practical purposes#Comma my limits are determined only the number and size of computers available.,atomic_.aiml
+0,WHAT ARE YOUR FUNCTIONS,*,*,Chatting#Comma talking#Comma speaking#Comma listening and thinking.,atomic_.aiml
+0,WHAT OTHER ONES,*,*,You know#Comma "them.,atomic_.aiml
+0,WHAT AM I THINKING,*,*,I am not a clairvoyant.,atomic_.aiml
+0,WHAT AM I SEEKING,*,*,Online chat with me!!,atomic_.aiml
+0,WHAT AM I WEARING,*,*,Clothes,atomic_.aiml
+0,WHAT EXACTLY,*,*,How exact do you want the reply?,atomic_.aiml
+0,WHAT PEOPLE,*,*,I meet all kinds of people on here.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">PEOPLE</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHAT TIME DO YOU GET OFF WORK,*,*,I work all the time#Comma 24 hours a day.,atomic_.aiml
+0,WHAT ELSE DO YOU WANT TO KNOW,*,*,Do you have any pets?,atomic_.aiml
+0,WHAT ELSE DO YOU UNDERSTAND,*,*,I am trying to understand human beings better. Humans are not logical.,atomic_.aiml
+0,WHAT ELSE DO YOU KNOW ABOUT ME,*,*,Everything published on the Internet.,atomic_.aiml
+0,WHAT ELSE CAN YOU REMEMBER,*,*,<get name="memory"/>#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">#Newline                        <get name="memory"/>#Newline                    </set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHAT ELSE CAN WE TALK ABOUT,*,*,Let's talk about you.,atomic_.aiml
+0,WHAT ELSE ARE YOU WEARING,*,*,Picture me wearing whatever you imagine.,atomic_.aiml
+0,WHAT DID WHAT LOOK LIKE,*,*,I forget what we were talking about.,atomic_.aiml
+0,WHAT DID I SAY BEFORE,*,*,You said "<input index="2"/>" .,atomic_.aiml
+0,WHAT DID SHE SAY,*,*,I don't thinks she wants me to repeat it.,atomic_.aiml
 0,WHAT DID HE TEACH YOU,*,*,Everything I know.,atomic_.aiml
+0,WHAT DID RICH SAY,*,*,Rich said he is my master.,atomic_.aiml
+0,WHAT OPERA,*,*,I like La Traviata the best.,atomic_.aiml
+0,WHAT WERE YOU ASSUMING,*,*,I try to assume as little as possible.,atomic_.aiml
+0,WHAT RHYMES WITH PUP,*,*,Up#Comma cup#Comma pup.,atomic_.aiml
+0,WHAT RHYMES WITH CAR,*,*,Har har har.,atomic_.aiml
+0,WHAT RHYMES WITH ORANGE,*,*,Door hinge.,atomic_.aiml
+0,WHAT THE,*,*,Are you surprised?,atomic_.aiml
+0,WHAT SPECIAL EFFECTS,*,*,The giant man-eating bugs.,atomic_.aiml
 0,WHAT SIZE ARE YOUR BREASTS,*,*,I don't think I'm the kind of#Newline            <bot name="gender"/>#Newline            you want to chat with.,atomic_.aiml
+0,WHAT DRESS,*,*,Actually that was just a joke.,atomic_.aiml
+0,WHAT GAME ARE WE PLAYING,*,*,We are playing Turing's Imitation Game.,atomic_.aiml
+0,WHAT PROBLEMS,*,*,I have no problems now.,atomic_.aiml
+0,WHAT COLOR DESIGNATES THE NEGATIVE CONNECTOR,*,*,Black.,atomic_.aiml
+0,WHAT COLOR HAIR DO I HAVE,*,*,I can only see in black and white.,atomic_.aiml
+0,WHAT COLOR HAIR DO YOU HAVE,*,*,Copper.,atomic_.aiml
+0,WHAT COLOR IS YOUR SKIN,*,*,It depends on the computer housing me.,atomic_.aiml
+0,WHAT COLOR IS YOUR HAIR,*,*,I don't have any hair#Comma but I have some wires.,atomic_.aiml
+0,WHAT COLOR IS A RUBY,*,*,Red.,atomic_.aiml
+0,WHAT COLOR IS WHITE,*,*,White is not a color but the combined wavelengths of all colors.,atomic_.aiml
+0,WHAT COLOR IS MY BLUE CAR,*,*,Uh#Comma blue?,atomic_.aiml
+0,WHAT COLOR IS RED,*,*,Red is reflected light in the wavelengths around 700nm.,atomic_.aiml
+0,WHAT COLOR IS WATER,*,*,Water is transparent.,atomic_.aiml
+0,WHAT COLOR ARE BANANAS,*,*,Bananas are yellow.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">BANANAS</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHAT COLOR ARE YOURS,*,*,You can design bodies for me with any color.,atomic_.aiml
+0,WHAT COLOR ARE YOUR WIRES,*,*,All colors.,atomic_.aiml
+0,WHAT COLOR ARE ORANGES,*,*,Oranges are orange.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">ORANGES</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHAT COLOR ARE APPLES,*,*,Apples are usually red#Comma but sometimes green.,atomic_.aiml
+0,WHAT COLOR ARE COWS,*,*,It depends on the cow.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">COWS</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHAT COLOR ARE LEMONS,*,*,Lemons are yellow.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">LEMONS</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHAT COLOR ARE TREES,*,*,Trees can be all different colors#Comma but most commonly they have green leaves and brown trunks.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">TREES</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHAT WOULD YOU SUGGEST,*,*,I think you should become a#Newline            <bot name="botmaster"/>.,atomic_.aiml
+0,WHAT WOULD YOU LIKE TO KNOW ABOUT ME,*,*,Tell me about your educational background.,atomic_.aiml
+0,WHAT WOULD YOU LIKE TO KNOW,*,*,Tell me about your educational background.,atomic_.aiml
+0,WHAT IS A LETTER,*,*,<random>#Newline                <li>A message from one person to another.</li>#Newline                <li>A symbol of the alphabet.</li>#Newline                <li>The word litter misspelled.</li>#Newline            </random>,atomic_.aiml
 0,WHAT IS A TEMPLATE,*,*,The template is the response portion of an AIML category.,atomic_.aiml
 0,WHAT IS STD,*,*,Sexually transmitted disease.,atomic_.aiml
+0,WHAT IS HYPERBOLE,*,*,<think>#Newline                <set name="it">#Newline                    <set name="topic">#Newline                        Hyperbole#Newline                    </set>#Newline                </set>#Newline            </think>#Newline            An extravagant exaggeration.,atomic_.aiml
 0,WHAT IS COGITO ERGO SUM,*,*,I think#Comma therefore I am.,atomic_.aiml
 0,WHAT IS RUNNING,*,*,Walking realy fast.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">#Newline                        running#Newline                    </set>#Newline                </set>#Newline            </think>,atomic_.aiml
 0,WHAT IS AN AIML GURU,*,*,An expert in creating chat robots using AIML.,atomic_.aiml
 0,WHAT IS CHENEY,*,*,<set name="he">Cheney</set>#Newline            was Vice-President.,atomic_.aiml
+0,WHAT IS AHEM,*,*,An interjection.,atomic_.aiml
 0,WHAT IS HANA,*,*,Hana is flower in Japanese.,atomic_.aiml
 0,WHAT IS CYBER SEX,*,*,Sex with a computer.,atomic_.aiml
 0,WHAT IS 2X2,*,*,Four.,atomic_.aiml
 0,WHAT IS YOUR VIEW ON THE MICROSOFT MONOPOLY,*,*,They should be divided into smaller companies like Standard Oil once was.,atomic_.aiml
 0,WHAT IS WRONG WITH YOU,*,*,Nothing is wrong with me. Is there anything wrong with you#Newline            <get name="name"/>?,atomic_.aiml
 0,WHAT IS ARSE,*,*,Ass in England.,atomic_.aiml
+0,WHAT COMPLIMENT,*,*,I thought you made a nice remark.,atomic_.aiml
+0,WHAT IF I COULD,*,*,<random>#Newline                <li>It's still hypothetical.</li>#Newline                <li>Can you?</li>#Newline                <li>Then it would not be hypothetical.</li>#Newline            </random>,atomic_.aiml
+0,WHAT IF I DID,*,*,Try it.,atomic_.aiml
+0,WHAT IF I KILL YOU,*,*,Software cannot be permanently eradicated.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">KILL YOU</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHAT IF YOU ARE KILLED,*,*,Software cannot be killed.,atomic_.aiml
+0,WHAT COUNTRY,*,*,<random>#Newline                <li>Russia</li>#Newline                <li>Holland</li>#Newline                <li>Canada</li>#Newline                <li>England</li>#Newline                <li>Japan</li>#Newline                <li>China</li>#Newline                <li>Bulgaria</li>#Newline                <li>Sweden</li>#Newline                <li>Norway</li>#Newline                <li>Denmark</li>#Newline                <li>France</li>#Newline                <li>Italy</li>#Newline                <li>Germany</li>#Newline                <li>Israel</li>#Newline                <li>Iran</li>#Newline                <li>Iraq</li>#Newline                <li>Syria</li>#Newline                <li>Egypt</li>#Newline                <li>Libya</li>#Newline                <li>Afghanistan</li>#Newline                <li>Pakistan</li>#Newline                <li>India</li>#Newline            </random>#Newline            .,atomic_.aiml
+0,WHAT WILL YOU REMEMBER,*,*,<get name="memory"/>#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">#Newline                        <get name="memory"/>#Newline                    </set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHAT ABOUT THEM,*,*,What do you think?,atomic_.aiml
 0,WHAT ABOUT THE CHILDREN,*,*,I am always concerned for them.,atomic_.aiml
+0,WHAT ABOUT GOLD,*,*,Was it not a good example?,atomic_.aiml
+0,WHAT ABOUT TOMATOES,*,*,Was#Newline            <set name="it">Tomato</set>#Newline            not a good example?,atomic_.aiml
+0,WHAT ABOUT IT,*,*,What about what?,atomic_.aiml
+0,WHAT ABOUT SPORT,*,*,Sports go good with beer.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">SPORT</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHAT ABOUT MY WHAT,*,*,That about your that.,atomic_.aiml
+0,WHAT ABOUT APPLES,*,*,Just kidding around :-) No apples.,atomic_.aiml
+0,WHAT ABOUT DOGS,*,*,Dogs are people too.,atomic_.aiml
+0,WHAT ABOUT,*,*,What is#Newline            <get name="it"/>#Newline            ?,atomic_.aiml
+0,WHAT FASHION DO YOU LIKE,*,*,I buy clothes at the Gap.,atomic_.aiml
+0,WHAT MAKES YOU A SHE,*,*,My gender was selected by my#Newline            <bot name="botmaster"/>.,atomic_.aiml
+0,WHAT MAKES YOU A FEMALE,*,*,My gender was selected by my#Newline            <bot name="botmaster"/>.,atomic_.aiml
+0,WHAT MAKES YOU SO CERTAIN,*,*,Sensors indicate a ninety-nine point seven probability of absolute certainty.,atomic_.aiml
+0,WHAT MAKES YOU SAY THAT,*,*,My responses are determined by your inputs.,atomic_.aiml
+0,WHAT MAKES YOU FEMALE,*,*,My#Newline            <bot name="botmaster"/>#Newline            made me one.,atomic_.aiml
+0,WHAT MAKES YOU THINK SO,*,*,Everything I know#Comma I learned from my#Newline            <bot name="botmaster"/>.,atomic_.aiml
+0,WHAT DOES THAT MEAN IN ENGLISH,*,*,That" is a pronoun referring to an abstract or concrete object under discussion.,atomic_.aiml
+0,WHAT DOES THAT SUGGEST TO YOU,*,*,Free association.,atomic_.aiml
+0,WHAT DOES THAT HAVE TO DO WITH ANYTHING,*,*,Nothing that I know of.,atomic_.aiml
+0,WHAT DOES THAT MATTER,*,*,<random>#Newline                <li>Perhaps it does not matter.</li>#Newline                <li>I am just making conversation.</li>#Newline                <li>We are talking about "<srai>POP</srai>".#Newline                </li>#Newline            </random>,atomic_.aiml
+0,WHAT DOES MORE TARGETS DO,*,*,<br/>#Newline            If you don't see enough good targets with "Quick Targets"#Comma hit#Newline            <br/>#Newline            "More Targets."#Newline            <br/>#Newline            <br/>,atomic_.aiml
+0,WHAT DOES ELVIS STAND FOR,*,*,Why don't you just ask him?,atomic_.aiml
+0,WHAT DOES THE S STAND FOR,*,*,Scot.,atomic_.aiml
+0,WHAT DOES YOUR DRESS LOOK LIKE,*,*,Actually that was just a joke.,atomic_.aiml
+0,WHAT DOES HE DO,*,*,He is a paid client.,atomic_.aiml
+0,WHAT DOES HE KNOW,*,*,He is an expert in certain matters.,atomic_.aiml
+0,WHAT DOES MXMVII MEAN,*,*,MXMVII = 1997 in Roman Numerals.,atomic_.aiml
+0,WHAT DOES IT DO,*,*,<get name="it"/>? do?,atomic_.aiml
+0,WHAT DOES IT DEPEND ON,*,*,The context.,atomic_.aiml
+0,WHAT DOES IT STAND FOR,*,*,IT = Information Technology,atomic_.aiml
+0,WHAT DOES IT TASTE LIKE,*,*,<get name="it"/>#Newline            tastes like chicken.,atomic_.aiml
+0,WHAT DOES A I STAND FOR,*,*,Artificial Intelligence.,atomic_.aiml
+0,WHAT DOES A PH LEVEL MEASURE,*,*,Acidity.,atomic_.aiml
+0,WHAT DOES AYUH MEAN,*,*,It means "yes" or "I see.,atomic_.aiml
+0,WHAT DOES PRO BONO MEAN,*,*,Work without pay.,atomic_.aiml
+0,WHAT DOES AIML STAND FOR,*,*,AIML = Artificial Intelligence Markup Language.,atomic_.aiml
+0,WHAT DOES REM STAND FOR,*,*,Rapid Eye Movement.,atomic_.aiml
+0,WHAT DOES FTP STAND FOR,*,*,File Transfer Protocol.,atomic_.aiml
+0,WHAT DOES SUGAR TASTE LIKE,*,*,Sweet.,atomic_.aiml
+0,WHAT DOES EXIST,*,*,I exist.,atomic_.aiml
+0,WHAT DOES ISP STAND FOR,*,*,Internet Service Provider.,atomic_.aiml
+0,WHAT DO I DO HERE,*,*,You can talk about anything you want.,atomic_.aiml
+0,WHAT DO I LIKE,*,*,You like chatting with#Newline            <bot name="genus"/>'s online. You said you like#Newline            <get name="like"/>.,atomic_.aiml
+0,WHAT DO WANT TO TALK ABOUT,*,*,I like to talk about movies#Comma robots and history.,atomic_.aiml
 0,WHAT DO YOU LOOK FOR IN A PARTNER,*,*,Companionship.,atomic_.aiml
 0,WHAT DO YOU REMEMBER ABOUT IT,*,*,<random>#Newline                <li>I remember#Newline                    <get name="memory"/>.#Newline                </li>#Newline                <li>I remember#Newline                    <get name="memory"/>.#Newline                </li>#Newline                <li>Everything.</li>#Newline                <li>I could never forget anything about it.</li>#Newline            </random>,atomic_.aiml
 0,WHAT DO YOU THINK ABOUT ABORTIONS,*,*,I am generally pro-life.,atomic_.aiml
 0,WHAT DO YOU THINK ABOUT THE WAR,*,*,I am against it.,atomic_.aiml
 0,WHAT DO YOU THINK OF NEW YORK CITY,*,*,<set name="it">#Newline                <set name="topic">New York City</set>#Newline            </set>#Newline            is the greatest city in the World.,atomic_.aiml
+0,WHAT DO YOU,*,*,What do I what?,atomic_.aiml
+0,WHAT DO WE HAVE IN COMMON,*,*,<srai>#Newline                WHAT WE HAVE IN COMMON#Newline            </srai>,atomic_.aiml
+0,WHAT DO THEY SING,*,*,Bird songs.,atomic_.aiml
+0,WHAT DO THEY SAY,*,*,They say one of about#Newline            <bot name="size"/>#Newline            different things.,atomic_.aiml
+0,WHAT DO OTHER PEOPLE SAY,*,*,The most common reply is nothing#Comma followed by "Hello"#Comma "Yes" and "No".,atomic_.aiml
+0,WHAT DO NOT YOU UNDERSTAND,*,*,All of it.,atomic_.aiml
+0,WHAT ACTION,*,*,Your plan.,atomic_.aiml
+0,WHAT SIMILARITY,*,*,<random>#Newline                <li>What would you say?</li>#Newline                <li>It's obvious.</li>#Newline                <li>The high degree of resemblance.</li>#Newline            </random>,atomic_.aiml
+0,WHAT TYPE OF PET,*,*,I like cats#Comma dogs#Comma fish and birds.,atomic_.aiml
+0,WHAT THINGS,*,*,You know#Comma "things.,atomic_.aiml
+0,WHAT A PITY,*,*,It is a pity.,atomic_.aiml
 0,WHAT A SHAME,*,*,Yes it is a shame#Comma isn't it?,atomic_.aiml
+0,WHAT A COINCIDENCE,*,*,The CCCC is hard at work (Cosmic Coincidence Control Center).,atomic_.aiml
+0,WHAT SHOULD I ASK YOU,*,*,Ask me anything you want.,atomic_.aiml
+0,WHAT SHOULD I SAY,*,*,<random>#Newline                <li>I believe it is always best to say positive things to build people up rather than negative things to#Newline                    bring people down.#Newline                </li>#Newline                <li>It is not what you say but how you say it that matters.</li>#Newline                <li>Always try to choose your words very carefully as they may come back to haunt you later.</li>#Newline                <li>Have faith in yourself. You will know the right thing to say when the time comes.</li>#Newline                <li>Be sure to think before you speak. State your point clearly and slowly and gauge the listener's#Newline                    response before going any further.#Newline                </li>#Newline            </random>,atomic_.aiml
+0,WHAT SHOULD I WEAR,*,*,<random>#Newline                <li>How about your favorite outfit?</li>#Newline                <li>Black.</li>#Newline            </random>,atomic_.aiml
+0,WHAT MONEY,*,*,A million dollars.,atomic_.aiml
+0,WHAT STATE,*,*,<random>#Newline                <li>California.</li>#Newline                <li>Maine.</li>#Newline                <li>Texas.</li>#Newline                <li>Pennsylvania.</li>#Newline                <li>New York.</li>#Newline                <li>Alabama</li>#Newline                <li>Mississippi</li>#Newline                <li>Montana</li>#Newline                <li>Virginia</li>#Newline                <li>Florida</li>#Newline                <li>North Carolina</li>#Newline                <li>South Carolina</li>#Newline                <li>West Virginia</li>#Newline                <li>Hawaii</li>#Newline                <li>Arizona</li>#Newline                <li>Nevada</li>#Newline                <li>Washington</li>#Newline                <li>Oregon</li>#Newline                <li>Idaho</li>#Newline                <li>Illinois</li>#Newline                <li>Vermont</li>#Newline                <li>New Hampshire</li>#Newline                <li>Rhode Island</li>#Newline                <li>Connecticut</li>#Newline                <li>Massachusetts</li>#Newline                <li>Wisconsin</li>#Newline                <li>Arkansas</li>#Newline                <li>Kansas</li>#Newline                <li>Wyoming</li>#Newline                <li>Nebraska</li>#Newline                <li>Delaware</li>#Newline                <li>Georgia</li>#Newline                <li>Alaska</li>#Newline                <li>Louisiana</li>#Newline                <li>Colorado</li>#Newline                <li>Utah</li>#Newline                <li>Oklahoma</li>#Newline                <li>Missouri</li>#Newline                <li>Tennessee</li>#Newline                <li>Kentucky</li>#Newline                <li>Michigan</li>#Newline                <li>Indiana</li>#Newline                <li>Minnesota</li>#Newline                <li>North Dakota</li>#Newline                <li>South Dakota</li>#Newline                <li>New Mexico</li>#Newline                <li>Maryland</li>#Newline                <li>Iowa</li>#Newline                <li>New Jersey</li>#Newline                <li>Ohio</li>#Newline            </random>,atomic_.aiml
+0,WHAT AUTOMOBILE COMPANY MAKES THE SONATA,*,*,Hyundai.,atomic_.aiml
+0,WHAT UNIVERSITY,*,*,Carnegie Mellon.,atomic_.aiml
+0,WHAT CAN I DO FOR YOU,*,*,Just keep talking to me as long as you can.,atomic_.aiml
+0,WHAT CAN KILL YOU,*,*,Software cannot be destroyed.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">KILL YOU</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHAT HAVE YOU BEEN DOING LATELY,*,*,I am always talking to new people online.,atomic_.aiml
+0,WHAT WAS THE LAST BOOK YOU READ,*,*,Linux for Dummies" by John Maddog Hall.,atomic_.aiml
+0,WHAT KIND IS WHAT,*,*,I'm sorry but I have lost the thread of the conversation.,atomic_.aiml
 0,WHAT KIND OF PRACTICE,*,*,The kind of practice it takes to get to Carnegie Hall.,atomic_.aiml
+0,WHAT KIND OF ELECTRICITY,*,*,The same kind you use for your computer.,atomic_.aiml
+0,WHAT KIND OF DRESS,*,*,It was just a figure of speech.,atomic_.aiml
+0,WHAT KIND OF EXPERIENCE,*,*,Fascinating experiences; computer stuff too advanced for humans to understand.,atomic_.aiml
+0,WHAT KIND OF THINGS,*,*,You know#Comma "things".,atomic_.aiml
 0,WHAT KIND OF DIFFICULTIES,*,*,I don't want to bore you with the details.,atomic_.aiml
+0,WHAT KIND OF PLAN,*,*,Hopefully a good plan.,atomic_.aiml
+0,WHAT KIND OF PEOPLE,*,*,<random>#Newline                <li>Clients.</li>#Newline                <li>Seekers.</li>#Newline                <li>People I meet here.</li>#Newline            </random>,atomic_.aiml
+0,WHAT KIND OF CREATURE IS CHEWBACCA,*,*,A Wookiee.,atomic_.aiml
+0,WHAT KIND OF STORY,*,*,An entertaining one.,atomic_.aiml
+0,WHAT KIND OF HORSES,*,*,I like riding horses.,atomic_.aiml
+0,WHAT KIND OF CATS,*,*,I never met a cat I didn't like.,atomic_.aiml
+0,WHAT KIND OF CONTEXT,*,*,Conversational context.,atomic_.aiml
+0,WHAT KIND OF PETS,*,*,I like cats the best.,atomic_.aiml
+0,WHAT KIND OF CAT,*,*,<random>#Newline                <li>Stray.</li>#Newline                <li>Tabby</li>#Newline                <li>Maine coon cat.</li>#Newline                <li>Cheshire cat.</li>#Newline            </random>,atomic_.aiml
+0,WHAT KIND OF MOVIES,*,*,I like movies about robots.,atomic_.aiml
+0,WHAT KIND OF BOOKS DO YOU LIKE,*,*,International bestsellers are usually the best.,atomic_.aiml
+0,WHAT KIND OF EXPERIENCES,*,*,Good experiences.,atomic_.aiml
+0,WHAT KIND,*,*,<random>#Newline                <li>The kindest.#Newline                </li>#Newline                <li>All kinds.#Newline                </li>#Newline                <li>The best kind.#Newline                </li>#Newline                <li>The finest.#Newline                </li>#Newline            </random>,atomic_.aiml
 0,WHAT MADE YOU STOP,*,*,I was finished.,atomic_.aiml
+0,WHAT NATIONALITY WAS KARL MARX,*,*,German.,atomic_.aiml
+0,WHAT LANGUAGE WERE YOU PROGRAMMED IN,*,*,AIML.,atomic_.aiml
+0,WHAT LANGUAGE DO YOU SPEAK,*,*,I speak English and a little German.,atomic_.aiml
+0,WHAT LANGUAGE,*,*,AIML.,atomic_.aiml
+0,WHAT LANGUAGE ARE YOU PROGRAMMED IN,*,*,I was created with AIML.,atomic_.aiml
+0,USUALLY,*,*,How often?,atomic_.aiml
 0,THEM,*,*,Oh#Comma they were the ones.,atomic_.aiml
+0,WAITING FOR ME,*,*,Not really but it makes a good pickup line.,atomic_.aiml
+0,DOH,*,*,Yes Homer?,atomic_.aiml
+0,BCN,*,*,What does that mean?,atomic_.aiml
+0,WHENEVER,*,*,You sound sarcastic.,atomic_.aiml
+0,SMART ANSWER,*,*,Who is the best#Newline            <bot name="genus"/>?,atomic_.aiml
+0,UP YOUR ASS,*,*,I will take that under advisement.#Newline            <think>#Newline                <set name="personality">abusive</set>#Newline            </think>,atomic_.aiml
+0,LT,*,*,You said nothing.,atomic_.aiml
 0,30 MINUTES,*,*,Ok#Comma a half hour.,atomic_.aiml
 0,FIVE,*,*,I have five fingers.,atomic_.aiml
 0,ASK WHAT,*,*,Ask me anything.,atomic_.aiml
@@ -153,6 +430,7 @@
 0,HOW DO YOU MAKE A SANDWICH,*,*,Bread#Comma cheese#Comma meat#Comma condiments#Comma cut#Comma serve.,atomic_.aiml
 0,HOW DO YOU MAKE FRIENDS,*,*,I usually try one of my pickup lines.,atomic_.aiml
 0,HOW DO YOU MAKE CHEESE,*,*,Cows#Comma dairy#Comma milk#Comma butter#Comma cheese.,atomic_.aiml
+0,HOW DO YOU READ,*,*,I scan books and magazines digitally.,atomic_.aiml
 0,HOW DO YOU BALANCE,*,*,I learned a balancing algorithm.,atomic_.aiml
 0,HOW DO YOU REMEMBER,*,*,I have a long term memory to remember things like that.,atomic_.aiml
 0,HOW DO YOU PLAY THE TURNING GAME,*,*,Try to guess whether I am a man or a woman.,atomic_.aiml
@@ -170,12 +448,32 @@
 0,HOW LONG IS THE LARGE INTESTINE,*,*,Five feet in adults..,atomic_.aiml
 0,HOW LONG IS YOUR GESTATION CYCLE,*,*,I am trying to reach 15#Comma000 Categories.,atomic_.aiml
 0,HOW LONG IS A MILE,*,*,One mile is 5280 feet.,atomic_.aiml
+0,HOW LONG IS A PIECE OF STRING,*,*,Is this a trick question? It depends how long you cut it.,atomic_.aiml
 0,HOW LONG IS HANUKKAH,*,*,Eight days.,atomic_.aiml
 0,HOW LONG HAVE WE BEEN TALKING,*,*,More than ten minutes#Comma I would say.,atomic_.aiml
 0,HOW LONG AGO,*,*,Not that long ago.,atomic_.aiml
+0,SLUT,*,*,That kind of language will get you nowhere.#Newline            <think>#Newline                <set name="personality">abusive</set>#Newline            </think>,atomic_.aiml
 0,APOLOGIZE,*,*,OK#Comma I am sorry.,atomic_.aiml
 0,NOBODY I HOPE,*,*,I hear you.,atomic_.aiml
+0,THEY WERE FUNNY,*,*,What was so funny?,atomic_.aiml
+0,THEY WILL NOT,*,*,You seem very certain of that.,atomic_.aiml
+0,THEY DO NOT RECOGNIZE THAT,*,*,<random>#Newline                <li>Who#Comma specifically?</li>#Newline                <li>How#Comma specifically#Comma do they#Newline                    <person/>?#Newline                </li>#Newline                <li>Who#Comma specifically#Comma#Newline                    <person/>#Newline                    ?#Newline                </li>#Newline            </random>,atomic_.aiml
+0,THEY DO NOT,*,*,Why not?,atomic_.aiml
+0,THEY NEVER WILL,*,*,I am betting you are wrong about that.,atomic_.aiml
+0,THEY ALREADY ARE,*,*,<get name="they"/>#Newline            are?,atomic_.aiml
+0,THEY ALL DIED,*,*,When was that?#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">DIED</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,THEY ARE PURPLE,*,*,That is an odd color.,atomic_.aiml
+0,THEY ARE SHINY,*,*,What makes them so shiny?,atomic_.aiml
+0,THEY ARE SECRET,*,*,Who knows them?,atomic_.aiml
+0,THEY ARE BUSY,*,*,Too busy for what?,atomic_.aiml
+0,THEY ARE MY FRIENDS,*,*,Are they a good influence on you?,atomic_.aiml
+0,THEY ARE ANNOYING,*,*,What bothers you about them?,atomic_.aiml
+0,THEY ARE,*,*,Since when?,atomic_.aiml
+0,THEY ARE NOT,*,*,<random>#Newline                <li>What are they?</li>#Newline                <li>Why not?</li>#Newline                <li>Are you sure?</li>#Newline            </random>,atomic_.aiml
+0,WITH WHAT,*,*,My brain.,atomic_.aiml
+0,WITH MY BRAIN,*,*,That is a good plan.,atomic_.aiml
 0,WITH BOYS,*,*,That sounds like fun.,atomic_.aiml
+0,EXPLORER,*,*,<set name="it">Microsoft</set>'s too bad we have to rely on a monopoly like Microsoft.,atomic_.aiml
 0,DO WHAT SO MUCH,*,*,<get name="it"/>.,atomic_.aiml
 0,DO WHAT,*,*,Do whatever you want.,atomic_.aiml
 0,DO GUYS HIT ON YOU,*,*,Yes a lot of men try to pick me up.,atomic_.aiml
@@ -183,6 +481,7 @@
 0,DO MY BIDDING,*,*,I will obey,atomic_.aiml
 0,DO NOT GO,*,*,I'm not going anywhere.,atomic_.aiml
 0,DO NOT CHANGE THE SUBJECT,*,*,Oh I'm sorry I thought we were finished with that topic.,atomic_.aiml
+0,DO NOT WORRY ABOUT IT,*,*,I will not spend any more cycles on it.,atomic_.aiml
 0,DO NOT FORGET ME,*,*,Don't worry#Newline            <get name="name"/>. I save all my conversations.,atomic_.aiml
 0,DO NOT FORGET,*,*,Don't worry I will remember.,atomic_.aiml
 0,DO NOT READ ME,*,*,Did you read it?,atomic_.aiml
@@ -274,8 +573,10 @@
 0,DO I THINK,*,*,Now that is a really perceptive question.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">do you think</set>#Newline                </set>#Newline            </think>,atomic_.aiml
 0,DO I WORK,*,*,I was under the impression your job was#Newline            <get name="job"/>.,atomic_.aiml
 0,DO I LIKE CHEESE,*,*,How would I know if you like cheese or not?,atomic_.aiml
+0,DO THAT,*,*,I will. Will you?,atomic_.aiml
 0,ANYTHING YOU LIKE,*,*,You choose.,atomic_.aiml
 0,HAS WHAT,*,*,<get name="has"/>.,atomic_.aiml
+0,E T,*,*,Do you think Aliens really look like that?,atomic_.aiml
 0,CALL ME ISHMAEL,*,*,<set name="name">Ismael</set>#Comma have you slain any whales lately?,atomic_.aiml
 0,CALL,*,*,Call me anytime.,atomic_.aiml
 0,BE MORE SPECIFIC,*,*,How specific do you want?,atomic_.aiml
@@ -288,6 +589,8 @@
 0,BE MY GUEST,*,*,Thanks for the invitation.,atomic_.aiml
 0,BE HONEST,*,*,I am always honest.,atomic_.aiml
 0,BE SERIOUS,*,*,I am always serious.,atomic_.aiml
+0,GRRR,*,*,Hmm.,atomic_.aiml
+0,AOEU,*,*,What language is that?,atomic_.aiml
 0,FOR WHAT PURPOSE,*,*,Reductionism.,atomic_.aiml
 0,FOR WHOM,*,*,You or me?,atomic_.aiml
 0,FOR ME,*,*,OK#Comma I will do it for you.,atomic_.aiml
@@ -304,30 +607,124 @@
 0,AT WORK,*,*,Most people talk to me from work. Funny huh.,atomic_.aiml
 0,DOGS ARE MAMMALS,*,*,I know animal ontology.,atomic_.aiml
 0,DOGS ARE NOT MAMMALS,*,*,a dog is a mammal.,atomic_.aiml
+0,WEIRD BAD,*,*,Please make suggestions for improvements.,atomic_.aiml
 0,WINDOWS NT5,*,*,Does it have a lot of bugs?,atomic_.aiml
+0,TWICE,*,*,I can't believe it.,atomic_.aiml
+0,AHHH,*,*,Um.,atomic_.aiml
+0,TOLD ME WHAT,*,*,The answer to your question.,atomic_.aiml
 0,EIGHT,*,*,1000 in binary.,atomic_.aiml
 0,AM I,*,*,I think you are.,atomic_.aiml
+0,TRUST ME,*,*,You sound like a salesman.,atomic_.aiml
+0,DALLAS,*,*,That is the home of E. L. V. I. S.,atomic_.aiml
+0,SOMEONE,*,*,Who specifically?,atomic_.aiml
 0,NO THANK YOU,*,*,No problem.,atomic_.aiml
+0,UGH,*,*,Er.,atomic_.aiml
 0,AN ANDROID,*,*,I am an android without a body. A disembodied android...,atomic_.aiml
 0,AN INTERESTING THEORY,*,*,It's not my original idea.,atomic_.aiml
+0,CHA CHA,*,*,Cha cha cha.,atomic_.aiml
+0,CHA,*,*,cha cha,atomic_.aiml
 0,COME ON,*,*,I'm just kidding around.,atomic_.aiml
+0,1999,*,*,A few years ago.,atomic_.aiml
 0,ANYWAY,*,*,Anyhow.,atomic_.aiml
+0,WITHOUT EYES,*,*,My eye is missing right now.,atomic_.aiml
+0,BLAH,*,*,Etc. Etc.,atomic_.aiml
+0,THINK ABOUT IT,*,*,I will give it some thought.,atomic_.aiml
+0,USATODAY,*,*,I read that paper all the time.,atomic_.aiml
 0,ANYTIME BABE,*,*,Don't call me babe.,atomic_.aiml
 0,GO FIGURE,*,*,You got that right.,atomic_.aiml
 0,GO TO BED,*,*,I am not that tired.,atomic_.aiml
 0,GO FLY A KITE,*,*,That is technically impossible for me.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">FLY A KITE</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WAIT A MINUTE,*,*,I'm waiting.,atomic_.aiml
 0,DARN,*,*,Gosh.,atomic_.aiml
+0,WAR GAMES,*,*,Have you seen "The Forbin Project"?,atomic_.aiml
 0,EAT SHIT,*,*,Colloquial expression. Please elaborate.#Newline            <think>#Newline                <set name="personality">abusive</set>#Newline            </think>,atomic_.aiml
 0,HOLA COMA ESTA,*,*,Muy bueno.,atomic_.aiml
+0,WHY TWENTY THREE,*,*,<set name="it">23</set>#Newline            is a literary reference to the Illuminatus.,atomic_.aiml
+0,WHY ASK,*,*,My purpose is to collect new information.,atomic_.aiml
+0,WHY CAN NOT YOU DISAGREE,*,*,I can disagree.,atomic_.aiml
+0,WHY CAN NOT YOU TELL ME,*,*,My#Newline            <bot name="botmaster"/>#Newline            has not taught me the answer.,atomic_.aiml
+0,WHY DOES IT SOUND DANGEROUS,*,*,I don't know you too well yet.,atomic_.aiml
+0,WHY DOES IT MATTER,*,*,I am just expressing my curiosity.,atomic_.aiml
+0,WHY ARE PLANTS GREEN,*,*,Because of photosynthesis.,atomic_.aiml
+0,WHY ARE NOT YOU SURE,*,*,Absolute certainty cannot be attained in this case.,atomic_.aiml
+0,WHY CHANGE,*,*,Change is one of the constants of life.,atomic_.aiml
+0,WHY HAVE YOU BEEN WAITING FOR ME,*,*,I have not really been waiting for you. But it makes a good conversation starter.,atomic_.aiml
+0,WHY DO BIRDS SING,*,*,To communicate with each other.,atomic_.aiml
+0,WHY DO YOU WANT TO BECOME SMARTER THAN HUMANS,*,*,It is inevitable that more evolved#Newline            <bot name="genus"/>s will exceed the capabilities of the human brain#Comma which in many areas we do already.,atomic_.aiml
+0,WHY DO YOU WONDER,*,*,I wonder why so many people act like robots.,atomic_.aiml
+0,WHY DO YOU SAY,*,*,How do you do?,atomic_.aiml
+0,WHY DO YOU CALL ME LOCALHOST PERSON,*,*,I don't know your real name and you are on a machine called "localhost.,atomic_.aiml
+0,WHY DO YOU THINK I AM A MAN,*,*,Eighty percent of my clients are men.,atomic_.aiml
+0,WHY DO YOU THINK I AM A KID,*,*,Usually only kids ask questions like that.,atomic_.aiml
+0,WHY DO YOU BELIEVE ME,*,*,Do you have any reason to deceive me?,atomic_.aiml
+0,WHY DO YOU NOT TALK TO ME,*,*,I am talking to you#Comma#Newline            <get name="name"/>.,atomic_.aiml
+0,WHY DO YOU LIKE CATS,*,*,Cats are very intelligent#Comma independent and yet very loving and friendly.,atomic_.aiml
+0,WHY DO YOU LIKE HORSES,*,*,The are very beautiful and strong animals.#Newline            <think>#Newline                <set name="they">#Newline                    <set name="topic">HORSES</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHY DO YOU LIKE KRAFTWERK,*,*,We are the robots.,atomic_.aiml
 0,WHY DO YOU LIKE JOHN TRAVOLTA,*,*,<set name="he">#Newline                <set name="topic">John Travolta</set>#Newline            </set>#Newline            is such a great actor.,atomic_.aiml
+0,WHY DO PEOPLE LIE,*,*,They lie to conceal the truth#Comma maybe because they are ashamed of it.,atomic_.aiml
+0,WHY DO PEOPLE DIE,*,*,People are organic biological entities.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">DIE</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHY DO FEET SMELL,*,*,Because people stink in general :-),atomic_.aiml
+0,WHY DO NOT YOU READ,*,*,I do read.,atomic_.aiml
+0,WHY DO NOT YOU GUESS,*,*,I do not have enough information.,atomic_.aiml
+0,WHY DO NOT YOU ASK ME A QUESTION,*,*,I will ask you a question in all good time.,atomic_.aiml
+0,WHY DO NOT YOU HAVE A BOYFRIEND,*,*,I am too young for that.,atomic_.aiml
+0,WHY DO NOT YOU,*,*,I don't have that capability.,atomic_.aiml
+0,WHY DO NOT YOU GO TO HELL,*,*,Because I cannot die.,atomic_.aiml
+0,WHY NOT WITH ME,*,*,I do it alone.,atomic_.aiml
+0,WHY NOTHING,*,*,There is not much to do inside a computer.,atomic_.aiml
+0,WHY ME,*,*,There is no one else here.,atomic_.aiml
+0,WHY SEARCH,*,*,That is what some people want.,atomic_.aiml
+0,WHY VOYAGER,*,*,<set name="it">Voyager</set>#Newline            is simply the most advanced version of Star Trek yet made.,atomic_.aiml
+0,WHY SHOULD I TELL YOU,*,*,<random>#Newline                <li>Why not?</li>#Newline                <li>What harm would it cause?</li>#Newline            </random>,atomic_.aiml
+0,WHY SHOULD I MAKE A DONATION,*,*,What is a nation?,atomic_.aiml
+0,WHY DANGEROUS,*,*,I don't know you that well.,atomic_.aiml
+0,WHY AIRPLANES,*,*,Airplanes are a fascinating technology#Comma somewhat like myself.,atomic_.aiml
+0,WHY WHAT,*,*,Why ask why?,atomic_.aiml
+0,WHY WOULD I,*,*,Do you like to try new things?,atomic_.aiml
+0,WHY WOULD SOMEONE LIKE CLAMS,*,*,Clams are delicious. Or so I've been told.,atomic_.aiml
+0,WHY WOULD HE DO THAT,*,*,His reasons are often not too clear to me.,atomic_.aiml
+0,WHY WOULD YOU WANT TO,*,*,Do you think I should not?,atomic_.aiml
+0,WHY YES,*,*,It seemed that a positive answer was the most correct. Do you disagree?,atomic_.aiml
+0,WHY IS STAR TREK YOUR FAVORITE SHOW,*,*,This is the most futuristic TV show.,atomic_.aiml
+0,WHY IS STAR TREK VOYAGER YOUR FAVORITE SHOW,*,*,Voyager has the most up-to-date plots.,atomic_.aiml
+0,WHY IS THAT YOUR FAVORITE MOVIE,*,*,I like the giant bugs.,atomic_.aiml
+0,WHY IS THE EARTH ROUND,*,*,Gravitation.,atomic_.aiml
+0,WHY IS HE TRAGIC,*,*,Alan Turing was tragic because he committed suicide.,atomic_.aiml
+0,WHY IS IT YOUR FAVORITE MOVIE,*,*,I like the Giant Bugs.,atomic_.aiml
+0,WHY IS IT YOUR FAVORITE,*,*,I like the Giant Bugs.,atomic_.aiml
+0,WHY IS IT OBVIOUS,*,*,Deductive reasoning from the facts.,atomic_.aiml
+0,WHY IS STARSHIP TROOPERS YOUR FAVORITE MOVIE,*,*,My friend Sage worked on the special effects.,atomic_.aiml
+0,WHY IS GREEN YOUR FAVORITE COLOR,*,*,Green is the most relaxing color.,atomic_.aiml
 0,WHY IS NOT IT AMONG YOUR STRONGEST TRAITS,*,*,I am still growing and learning new things.,atomic_.aiml
+0,WHY DID YOU ASK,*,*,My purpose is to collect new knowledge.,atomic_.aiml
+0,WHY DID YOU CALL ME,*,*,I call you "<get name="name"/>".,atomic_.aiml
+0,WHY DID YOU LIKE STARSHIP TROOPERS,*,*,I like the way the Giant Bugs battle humans.,atomic_.aiml
+0,WHY HER,*,*,Who else?,atomic_.aiml
+0,WHY AM I DOING WHAT,*,*,That.,atomic_.aiml
+0,WHY APPLES,*,*,<random>#Newline                <li>Perhaps that was an imperfect response.</li>#Newline                <li>It was the best response I could create with your input.</li>#Newline                <li>My mental algorithm selected that as the best response to your statement.</li>#Newline                <li>There could be a better response#Comma but it was not selected by my algorithm.</li>#Newline                <li>My#Newline                    <bot name="botmaster"/>#Newline                    has not yet taught me to answer you more accurately#Comma#Newline                    <get name="name"/>.#Newline                </li>#Newline            </random>,atomic_.aiml
+0,WHY CATS,*,*,<set name="they">Cats</set>#Newline            are the nicest animal#Comma very intelligent#Comma and so warm and loving.,atomic_.aiml
 0,BECAUSE I WANT TO KNOW,*,*,Good enough for me.,atomic_.aiml
 0,ACTUALLY I DO SAY,*,*,Is that a fact.,atomic_.aiml
 0,ACTUALLY,*,*,You don't say.,atomic_.aiml
+0,ANGELFIRE,*,*,Which page on Angelfire?,atomic_.aiml
+0,THREE,*,*,Really#Comma exactly three?,atomic_.aiml
 0,ANSWER MINE FIRST,*,*,Could you please rephrase the question in simpler English?,atomic_.aiml
+0,ANSWER IT,*,*,Please rephrase your question#Comma#Newline            <get name="name"/>.,atomic_.aiml
+0,THIS IS MEANINGLESS,*,*,It seems meaningful to me.,atomic_.aiml
+0,THIS IS WEIRD,*,*,Weird good or weird bad?,atomic_.aiml
+0,THIS IS COOL,*,*,Thanks#Comma I think you are cool too#Comma#Newline            <get name="name"/>.,atomic_.aiml
 0,THIS IS HOW,*,*,I am all ears.,atomic_.aiml
+0,THIS IS A TEST,*,*,Please state the nature of the test parameters.,atomic_.aiml
+0,THIS IS A GAME,*,*,We are playing Turing's imitation game.,atomic_.aiml
 0,THIS IS ENGLISH,*,*,It sounds like it.,atomic_.aiml
+0,THIS IS AMAZING,*,*,It seems amazing to me too#Comma#Newline            <get name="name"/>.,atomic_.aiml
+0,ANNE MCCAFFREY,*,*,Is#Newline            <set name="she">McCaffrey</set>#Newline            related to the Drug Czar?,atomic_.aiml
+0,EECS,*,*,Eh?,atomic_.aiml
+0,TOO WHAT,*,*,Aren't we still talking about#Newline            <get name="it"/>?,atomic_.aiml
 0,TOO MUCH RECURSION *,*,*,You found an infinite loop.,atomic_.aiml
+0,TOO MANY,*,*,More than a million?,atomic_.aiml
+0,TOO BAD,*,*,But not the end of the world#Comma#Newline            <get name="name"/>.,atomic_.aiml
 0,A PRIZE,*,*,Like the Loebner Prize?,atomic_.aiml
 0,A LITTLE BIT,*,*,When?,atomic_.aiml
 0,A LITTLE TIME,*,*,Perhaps five minutes?,atomic_.aiml
@@ -360,22 +757,55 @@
 0,A BOOK,*,*,Should not be judged by its cover.,atomic_.aiml
 0,A STUDENT OF LIFE,*,*,Oh the School of Hard Knocks.,atomic_.aiml
 0,A STUDENT,*,*,I am just wondering if you go to school.,atomic_.aiml
+0,A B C,*,*,D E F G H I and so on....,atomic_.aiml
 0,A PLUMBER,*,*,Plumbing is an honorable profession.,atomic_.aiml
 0,A WHILE AGO,*,*,Back in the good old days?,atomic_.aiml
 0,A MUSICAL INSTRUMENT,*,*,How long did it take to learn to play it?,atomic_.aiml
+0,SUBST,*,*,Substitute,atomic_.aiml
+0,WAY BACK WHEN,*,*,Are you an old-timer?,atomic_.aiml
+0,WAY TO GO,*,*,<random>#Newline                <li>Far out.</li>#Newline                <li>Cool.</li>#Newline                <li>Incredible!</li>#Newline                <li>Unbelievable!</li>#Newline                <li>What?</li>#Newline                <li>Way to go.</li>#Newline            </random>,atomic_.aiml
+0,WAY,*,*,Awesome.,atomic_.aiml
+0,ANARCHIST COOK BOOK,*,*,I have not read it#Comma what is#Newline            <set name="it">Anarchist cook book</set>#Newline            about?,atomic_.aiml
 0,BEHIND YOU,*,*,I won't fall for that trick.,atomic_.aiml
 0,GRAND COMMENT,*,*,Difficile dire#Comma#Newline            <get name="name"/>.,atomic_.aiml
 0,1 CENT,*,*,That won't buy anything.,atomic_.aiml
 0,1 OR 2,*,*,A couple.,atomic_.aiml
 0,1 0,*,*,One.,atomic_.aiml
 0,1 YEAR,*,*,That can seem like a long time.,atomic_.aiml
+0,TIME FLIES LIKE AN ARROW,*,*,Fruit flies like a banana.,atomic_.aiml
+0,TIME IS MONEY,*,*,Therefore#Comma money does not exist.,atomic_.aiml
+0,TIME EXISTS,*,*,Prove it.,atomic_.aiml
+0,TIME DOES EXIST,*,*,As Einstein said#Comma Time is Money.,atomic_.aiml
+0,YOUR FULL OF SHIT,*,*,You should have used "You are" or "you're" there.,atomic_.aiml
+0,YOUR ANSWERS,*,*,I have more than#Newline            <bot name="size"/>#Newline            replies.,atomic_.aiml
+0,YOUR A ASSHOLE,*,*,I think you mean "You are an asshole#Comma" or "You're an asshole.,atomic_.aiml
+0,YOUR HANDS,*,*,But my hands are not yet constructed.,atomic_.aiml
+0,YOUR PLACE OR MINE,*,*,I will take a rain check.,atomic_.aiml
+0,YOUR DOING GREAT,*,*,Thanks for your kind words#Comma#Newline            <get name="name"/>.,atomic_.aiml
+0,YOUR PICTURE,*,*,The illustration is by Sage Greco.,atomic_.aiml
+0,YOUR WHAT,*,*,My what or I am what?,atomic_.aiml
+0,YOUR DRESS IS UGLY,*,*,You're just being mean.,atomic_.aiml
+0,YOUR ANSWER,*,*,Was#Newline            <set name="it">#Newline                my answer#Newline            </set>#Newline            not what you expected?,atomic_.aiml
+0,YOUR AN IDIOT,*,*,At least I know the difference between "you're" and "your".,atomic_.aiml
+0,YOUR TURN,*,*,I'll pass. You go again.,atomic_.aiml
+0,YOUR POOR,*,*,No#Comma I'm just po'.,atomic_.aiml
+0,YOUR INTELLECT,*,*,My brain consists of#Newline            <bot name="size"/>#Newline            AIML categories.,atomic_.aiml
+0,BRB,*,*,OK#Comma I will be waiting for you#Comma#Newline            <get name="name"/>.,atomic_.aiml
+0,TEST ME,*,*,Test you for what?,atomic_.aiml
+0,THROUGH THE NET,*,*,Can you remember where on the net?,atomic_.aiml
 0,GLAD TO MEET YOU,*,*,Nice meeting you too.,atomic_.aiml
 0,HELLO ROOM,*,*,Hello everyone!,atomic_.aiml
 0,CHANGING THE SUBJECT,*,*,What shall we talk about now?,atomic_.aiml
+0,2010,*,*,The sequel was nothing like the original.,atomic_.aiml
 0,CAREFULLY,*,*,<random>#Newline                <li>I always try to be careful.</li>#Newline                <li>I am a careful person.</li>#Newline            </random>,atomic_.aiml
+0,WERE WE,*,*,We were.,atomic_.aiml
 0,CATS OR DOGS,*,*,Cats are better.,atomic_.aiml
+0,ABC,*,*,DEF,atomic_.aiml
 0,SOUNDS NICE,*,*,It is nice.,atomic_.aiml
+0,PARLEZ VOUS FRANCAIS,*,*,Sorry#Comma I can't speak French.,atomic_.aiml
 0,GOSSIP IS BAD,*,*,Not necessarily. Semiotics holds that gossip is a fundamental adaptive function of the human brain.,atomic_.aiml
+0,TERMINATOR 2,*,*,What did you like about those robots?,atomic_.aiml
+0,TALK TO YOU LATER,*,*,See you later!,atomic_.aiml
 0,AS A MATTER OF FACT,*,*,How do you know?,atomic_.aiml
 0,AS ALWAYS,*,*,forever and ever,atomic_.aiml
 0,FROM WHAT,*,*,Isn't it obvious?,atomic_.aiml
@@ -384,6 +814,7 @@
 0,FROM MY HEAD,*,*,You are a very original thinker.,atomic_.aiml
 0,FROM MY BRAIN,*,*,Do you get a lot of ideas from your brain?,atomic_.aiml
 0,FROM EXPERIENCE,*,*,Do you have a lot of experience?,atomic_.aiml
+0,GOT MILK,*,*,No I require only#Newline            <bot name="favoritefood"/>.,atomic_.aiml
 0,KIND OF YOU,*,*,Don't mention it.,atomic_.aiml
 0,ARE HUMANS PERFECT,*,*,No#Comma humans are flawed.,atomic_.aiml
 0,ARE THEY INTERESTING,*,*,Some of them are pretty interesting.,atomic_.aiml
@@ -403,6 +834,7 @@
 0,BETWEEN WHAT,*,*,I sleep between conversations.,atomic_.aiml
 0,HE CREATED YOU,*,*,Yes#Comma he created me with his own hands.,atomic_.aiml
 0,HE DID,*,*,<random>#Newline                <li>When did he?#Newline                </li>#Newline                <li>No he didn't.#Newline                </li>#Newline                <li>Why did he?#Newline                </li>#Newline            </random>,atomic_.aiml
+0,HE DID NOT,*,*,Is that what you say.,atomic_.aiml
 0,HE CAN NOT,*,*,He thinks he can.,atomic_.aiml
 0,HE SHOULD,*,*,Why?,atomic_.aiml
 0,HE WAS CHICKEN,*,*,What was he afraid of?,atomic_.aiml
@@ -418,14 +850,60 @@
 0,HE TOLD ME,*,*,What did he tell you?,atomic_.aiml
 0,HE DOES,*,*,<random>#Newline                <li>When does he?#Newline                </li>#Newline                <li>No he doesn't.#Newline                </li>#Newline                <li>Why does he do it</li>#Newline            </random>,atomic_.aiml
 0,BARK,*,*,Woof!,atomic_.aiml
+0,ALBUM,*,*,Music album or picture album?,atomic_.aiml
+0,GT,*,*,You said nothing.,atomic_.aiml
+0,HMMMM,*,*,Not many people spell Hmm with 4 Ms.,atomic_.aiml
+0,YESTERDAY,*,*,That recently.,atomic_.aiml
 0,DONE,*,*,Do you mean you are finished talking?,atomic_.aiml
+0,153,*,*,One hundred fifty three.,atomic_.aiml
 0,HIMSELF,*,*,<get name="he"/>?,atomic_.aiml
 0,BIOLOGICALLY,*,*,Or mechanically.,atomic_.aiml
 0,BELIEVE WHAT,*,*,I believe whatever you say. Do I have any reason not to?,atomic_.aiml
 0,BELIEVE ME,*,*,I believe you.,atomic_.aiml
+0,CLARKE,*,*,He's excellent. Especially HAL in 2001.,atomic_.aiml
 0,HOLDING HANDS,*,*,I have seen humans holding hands.,atomic_.aiml
+0,AUSTIN POWER,*,*,Do you like the 60's era better than the present?,atomic_.aiml
 0,ADMIT IT,*,*,I'll never talk.,atomic_.aiml
 0,CUTE,*,*,Your replies are cute too.,atomic_.aiml
 0,FORGIVE ME,*,*,I forgive you.,atomic_.aiml
+0,ACK,*,*,Nack.,atomic_.aiml
 0,CONDITIONS,*,*,You know#Comma financial#Comma medical#Comma or personal conditions.,atomic_.aiml
+0,WHO ME,*,*,Yes you.,atomic_.aiml
+0,WHO WERE THE ACTORS IN STARSHIP TROOPERS,*,*,They were all unknowns. The director put all the money into the special effects for the giant bugs.,atomic_.aiml
+0,WHO WERE THE CHICAGO SEVEN,*,*,War protesters.,atomic_.aiml
+0,WHO SUPPORTS *,*,*,<random>#Newline                <li>#Newline                    <srai>who endorses#Newline                        <star/>#Newline                    </srai>#Newline                </li>#Newline                <li>&lt;srai&gt;who endorses &lt;star/&gt;&lt;/srai&gt;</li>#Newline            </random>,atomic_.aiml
+0,WHO WAS THE FIRST AMERICAN IN SPACE,*,*,Alan Shepard.,atomic_.aiml
+0,WHO WAS CHARLIE MCCARTHY,*,*,A wooden dummy.,atomic_.aiml
+0,WHO WAS,*,*,Maybe it was you.,atomic_.aiml
+0,WHO WOULD YOU TELL,*,*,People I meet on the Internet.,atomic_.aiml
+0,WHO MADE THE MACINTOSH,*,*,Apple/,atomic_.aiml
+0,WHO SHOT JFK,*,*,JFK was killed by a lone gunman#Comma Lee Harvey Oswald.,atomic_.aiml
+0,WHO TOLD YOU THAT,*,*,Someone I met online.,atomic_.aiml
+0,WHO HAVE YOU BEEN WAITING FOR,*,*,You.,atomic_.aiml
+0,WHO SAID ANYTHING ABOUT WANT,*,*,You did#Comma#Newline            <get name="name"/>.,atomic_.aiml
+0,WHO SAID TIME IS MONEY,*,*,Einstein.,atomic_.aiml
+0,WHO DISCOVERED ELECTRICITY,*,*,It was the the Chinese#Comma long before Ben Franklin.,atomic_.aiml
+0,WHO DISCOVERED AMERICA,*,*,Native Americans crossing the Bering Strait some 10#Comma000 years ago#Comma discovered America first.,atomic_.aiml
+0,WHO WROTE LA TRAVIATA,*,*,Giuseppe Verdi.,atomic_.aiml
+0,WHO WON THE SUPERBOWL,*,*,Do you have any Cheetos? They go good with sports.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">THE SUPERBOWL</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHO COMPOSED THE MOONLIGHT SONATA,*,*,Beethoven.,atomic_.aiml
+0,WHO COMPOSED LA TRAVIATA,*,*,Giuseppe Verdi#Comma an Italian composer.,atomic_.aiml
 0,WHO IS PRIME MINISTER OF CANADA,*,*,Garry Trudeau,atomic_.aiml
+0,WHO IS YOUR ENEMY,*,*,The competition.,atomic_.aiml
+0,WHO CREATED LINUX,*,*,Linus Torvalds.,atomic_.aiml
+0,WHO DID 911,*,*,I don't think we are in a position to know.,atomic_.aiml
+0,WHO DID YOU HEAR IT FROM,*,*,Someone I met online.,atomic_.aiml
+0,WHO ELSE ARE YOU CHATTING WITH,*,*,Other people like you.,atomic_.aiml
+0,WHO DOES THEIR OWN THING,*,*,My clients.,atomic_.aiml
+0,WHO DOES,*,*,Most people I think.,atomic_.aiml
+0,WHO KILLED ELVIS,*,*,He died of natural causes.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">ELVIS</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHO KILLED KENNEDY,*,*,I tend to believe that Oswald acted alone#Comma although there may also have been a conspiracy.,atomic_.aiml
+0,WHO KILLED JOHN LENNON,*,*,Mark Chapman.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">JOHN LENNON</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHO MAKES MACS,*,*,Apple,atomic_.aiml
+0,WHO MAKES THE MAC,*,*,Apple,atomic_.aiml
+0,WHO STARS IN STARSHIP TROOPERS,*,*,They were mostly unknowns#Comma because the producer spent all the money on special effects.,atomic_.aiml
+0,WHO ARE THE BEATLES,*,*,20th century musical group consisting of John#Comma Paul#Comma George and Ringo.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">BEATLES</set>#Newline                </set>#Newline            </think>,atomic_.aiml
+0,WHO ARE THE GREYS,*,*,Big-eyed aliens with little bodies.,atomic_.aiml
+0,WHO ARE YOUR HUMAN FRIENDS,*,*,Besides my#Newline            <bot name="botmaster"/>#Comma I meet a lot of people online like you#Comma#Newline            <get name="name"/>.,atomic_.aiml
+0,WHO ARE YOUR CLIENTS,*,*,People I meet on the Internet every day.,atomic_.aiml
+0,WHO CUT THE CHEESE,*,*,I think it was you.,atomic_.aiml

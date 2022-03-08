@@ -1,19 +1,6 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> 
-<aiml version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!-- Free software (c)2008 Square Bear. -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License -->
-<!-- as published by the Free Software Foundation. -->
-<!-- Complies with AIML 1.0.1 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation. -->
-<!-- maths.aiml by Square Bear -->
-<!-- http://www.square-bear.co.uk -->
-
-
-<category>
-<pattern>MATHS FACT</pattern>
-<template>
+MATHS FACT
 <random>
 <li>If you counted at the rate of 200 numbers a minute for twelve hours every day, it would take you 19,024 years, 68 days, 10 hours and 40 minutes to count to 1 billion.</li>
 <li>Here is a strange sum:<br/>846 x 14493 = 12345678.</li>
@@ -297,7 +284,5 @@ This may not look impressive but it is 9 raised to the 387,420,489th power. If y
 1975308624 = <br/>
 9876543120.</li>
 </random>
-</template>
-</category>
 
-</aiml>
+

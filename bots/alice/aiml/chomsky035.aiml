@@ -1,1623 +1,1063 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!-- Complies with AIML 1.01 Tag Set Specification -->
-  <!-- as adopted by the ALICE A.I. Foundation.  -->
-  <!-- GIBBERISH file Last Modified  Aug 06 2004 -->
-  <category>
-    <pattern>75LT</pattern>
-    <template>
-      <think>
+<?xml version="1.0" encoding="UTF-8"?>
+
+75LT
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AIK *</pattern>
-    <template>
-      <think>
+
+AIK *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AIKIT</pattern>
-    <template>
-      <think>
+
+AIKIT
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AIKSTELIAI *</pattern>
-    <template>
-      <think>
+
+AIKSTELIAI *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AIKTU *</pattern>
-    <template>
-      <think>
+
+AIKTU *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AIKTU</pattern>
-    <template>
-      <think>
+
+AIKTU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AINA *</pattern>
-    <template>
-      <think>
+
+AINA *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AINU *</pattern>
-    <template>
-      <think>
+
+AINU *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AIT</pattern>
-    <template>
-      <think>
+
+AIT
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AIZAWLCHAT *</pattern>
-    <template>
-      <think>
+
+AIZAWLCHAT *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AIZAWLCHAT</pattern>
-    <template>
-      <think>
+
+AIZAWLCHAT
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AMLORD *</pattern>
-    <template>
-      <think>
+
+AMLORD *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ANE</pattern>
-    <template>
-      <think>
+
+ANE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ANT *</pattern>
-    <template>
-      <think>
+
+ANT *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>APIE *</pattern>
-    <template>
-      <think>
+
+APIE *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>APIPIS *</pattern>
-    <template>
-      <think>
+
+APIPIS *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AR  *</pattern>
-    <template>
-      <think>
+
+ATSIEMIMA *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ATSIEMIMA *</pattern>
-    <template>
-      <think>
+
+ATSILIEPE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ATSILIEPE</pattern>
-    <template>
-      <think>
+
+AU *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AU *</pattern>
-    <template>
-      <think>
+
+AUTH *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AUTH  *</pattern>
-    <template>
-      <think>
+
+AVINE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AVINE</pattern>
-    <template>
-      <think>
+
+AZURE *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>AZURE *</pattern>
-    <template>
-      <think>
+
+B *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>B *</pattern>
-    <template>
-      <think>
+
+BAIK *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BAIK *</pattern>
-    <template>
-      <think>
+
+BBD
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BBD</pattern>
-    <template>
-      <think>
+
+BBZ
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BBZ</pattern>
-    <template>
-      <think>
+
+BIJAU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BIJAU</pattern>
-    <template>
-      <think>
+
+BLE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BLE</pattern>
-    <template>
-      <think>
+
+BLED
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BLED</pattern>
-    <template>
-      <think>
+
+BOKALAS
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BOKALAS</pattern>
-    <template>
-      <think>
+
+BOOME
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BOOME</pattern>
-    <template>
-      <think>
+
+BUNA
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BUNA</pattern>
-    <template>
-      <think>
+
+BUS *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BUS *</pattern>
-    <template>
-      <think>
+
+CHATSTATS *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CHATSTATS *</pattern>
-    <template>
-      <think>
+
+CUBE *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CUBE *</pattern>
-    <template>
-      <think>
+
+CYAN
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CYAN</pattern>
-    <template>
-      <think>
+
+DABA
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>D</pattern>
-    <template>
-      <think>
+
+DAINA
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DABA</pattern>
-    <template>
-      <think>
+
+DAR *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DAINA</pattern>
-    <template>
-      <think>
+
+DEDASI *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DAR  *</pattern>
-    <template>
-      <think>
+
+DEVOICE *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DEDASI *</pattern>
-    <template>
-      <think>
+
+DIRBAT *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DEVOICE *</pattern>
-    <template>
-      <think>
+
+DMN *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DIRBAT *</pattern>
-    <template>
-      <think>
+
+DRAUGISKAI *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DMN *</pattern>
-    <template>
-      <think>
+
+DU *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DRAUGISKAI *</pattern>
-    <template>
-      <think>
+
+DUODI
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DU *</pattern>
-    <template>
-      <think>
+
+E *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DUODI</pattern>
-    <template>
-      <think>
+
+ESRT
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>E *</pattern>
-    <template>
-      <think>
+
+EST
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ESRT</pattern>
-    <template>
-      <think>
+
+FORA *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>EST</pattern>
-    <template>
-      <think>
+
+FOTO
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>FORA *</pattern>
-    <template>
-      <think>
+
+FUXAI *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>FOTO</pattern>
-    <template>
-      <think>
+
+FUXES
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>FUXAI *</pattern>
-    <template>
-      <think>
+
+GAH
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>FUXES</pattern>
-    <template>
-      <think>
+
+GALES *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GAH</pattern>
-    <template>
-      <think>
+
+GALES
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GALES *</pattern>
-    <template>
-      <think>
+
+GAUSIU *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GALES</pattern>
-    <template>
-      <think>
+
+GAVAI
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GAUSIU *</pattern>
-    <template>
-      <think>
+
+GAVAU *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GAVAI</pattern>
-    <template>
-      <think>
+
+GEDA *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GAVAU *</pattern>
-    <template>
-      <think>
+
+GEILE *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GEDA *</pattern>
-    <template>
-      <think>
+
+GERA
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GEILE *</pattern>
-    <template>
-      <think>
+
+GERI
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GERA</pattern>
-    <template>
-      <think>
+
+GERIAU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GERI</pattern>
-    <template>
-      <think>
+
+GERSNE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GERIAU</pattern>
-    <template>
-      <think>
+
+GLO *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GERSNE</pattern>
-    <template>
-      <think>
+
+GUEST8
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GLO *</pattern>
-    <template>
-      <think>
+
+GUEST
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GUEST8</pattern>
-    <template>
-      <think>
+
+HEEFT
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GUEST</pattern>
-    <template>
-      <think>
+
+HOMEPAFE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HEEFT</pattern>
-    <template>
-      <think>
+
+IDOMU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HOMEPAFE</pattern>
-    <template>
-      <think>
+
+ILGI *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IDOMU</pattern>
-    <template>
-      <think>
+
+IR *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ILGI  *</pattern>
-    <template>
-      <think>
+
+IR
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IR  *</pattern>
-    <template>
-      <think>
+
+ISLAIKIAU *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IR</pattern>
-    <template>
-      <think>
+
+ISTIKRUJU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ISLAIKIAU *</pattern>
-    <template>
-      <think>
+
+JAIME *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ISTIKRUJU</pattern>
-    <template>
-      <think>
+
+JAU *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>JAIME *</pattern>
-    <template>
-      <think>
+
+JAUCIU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>JAU *</pattern>
-    <template>
-      <think>
+
+JAUCIUOSI
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>JAUCIU</pattern>
-    <template>
-      <think>
+
+JEIGU *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>JAUCIUOSI</pattern>
-    <template>
-      <think>
+
+JIE *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>JEIGU *</pattern>
-    <template>
-      <think>
+
+JIS *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>JIE *</pattern>
-    <template>
-      <think>
+
+JOBTVAIMAT
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>JIS *</pattern>
-    <template>
-      <think>
+
+KA *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>JOBTVAIMAT</pattern>
-    <template>
-      <think>
+
+KAD *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KA  *</pattern>
-    <template>
-      <think>
+
+KAI *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KAD  *</pattern>
-    <template>
-      <think>
+
+KAIP *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KAI  *</pattern>
-    <template>
-      <think>
+
+KAM *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KAIP  *</pattern>
-    <template>
-      <think>
+
+KAROCE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KAM *</pattern>
-    <template>
-      <think>
+
+KAS *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KAROCE</pattern>
-    <template>
-      <think>
+
+KEURYME *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KAS *</pattern>
-    <template>
-      <think>
+
+KIEK
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KEURYME *</pattern>
-    <template>
-      <think>
+
+KITAIP *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KIEK</pattern>
-    <template>
-      <think>
+
+KNOWIN
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KITAIP *</pattern>
-    <template>
-      <think>
+
+KNYGAS *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KNOWIN</pattern>
-    <template>
-      <think>
+
+KO *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KNYGAS *</pattern>
-    <template>
-      <think>
+
+KOKI *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KO *</pattern>
-    <template>
-      <think>
+
+KOKIO *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KOKI *</pattern>
-    <template>
-      <think>
+
+KOKS *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KOKIO *</pattern>
-    <template>
-      <think>
+
+KUR *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KOKS *</pattern>
-    <template>
-      <think>
+
+LABAI
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KUR *</pattern>
-    <template>
-      <think>
+
+LABUTE *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LABAI</pattern>
-    <template>
-      <think>
+
+LABUTLABUTLEAVES *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LABUTE *</pattern>
-    <template>
-      <think>
+
+LIETUVOS
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LABUTLABUTLEAVES *</pattern>
-    <template>
-      <think>
+
+MAFKEES *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LIETUVOS</pattern>
-    <template>
-      <think>
+
+MAJAKINA *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MAFKEES *</pattern>
-    <template>
-      <think>
+
+MANO *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MAJAKINA *</pattern>
-    <template>
-      <think>
+
+MAREX
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MANO *</pattern>
-    <template>
-      <think>
+
+MATEI
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MAREX</pattern>
-    <template>
-      <think>
+
+MES
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MATEI</pattern>
-    <template>
-      <think>
+
+MIN *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MES</pattern>
-    <template>
-      <think>
+
+MODE *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MIN *</pattern>
-    <template>
-      <think>
+
+MOKYKIS
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MODE *</pattern>
-    <template>
-      <think>
+
+MPFEIF101 *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MOKYKIS</pattern>
-    <template>
-      <think>
+
+MUILO *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MPFEIF101 *</pattern>
-    <template>
-      <think>
+
+MUILUS
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MUILO *</pattern>
-    <template>
-      <think>
+
+MYLINTYS *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MUILUS</pattern>
-    <template>
-      <think>
+
+NAGU *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MYLINTYS *</pattern>
-    <template>
-      <think>
+
+NE *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAGU *</pattern>
-    <template>
-      <think>
+
+NEA
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NE  *</pattern>
-    <template>
-      <think>
+
+NEBUNA
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NEA</pattern>
-    <template>
-      <think>
+
+NEBUVO *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NEBUNA</pattern>
-    <template>
-      <think>
+
+NEISIZEISK
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NEBUVO *</pattern>
-    <template>
-      <think>
+
+NELENDA *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NEISIZEISK</pattern>
-    <template>
-      <think>
+
+NEMOKU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NELENDA *</pattern>
-    <template>
-      <think>
+
+NEMUS *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NEMOKU</pattern>
-    <template>
-      <think>
+
+NEMYLI
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NEMUS *</pattern>
-    <template>
-      <think>
+
+NENORI *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NEMYLI</pattern>
-    <template>
-      <think>
+
+NEPRISISEGES
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NENORI *</pattern>
-    <template>
-      <think>
+
+NER *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NEPRISISEGES</pattern>
-    <template>
-      <think>
+
+NERANDU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NER *</pattern>
-    <template>
-      <think>
+
+NESTABDYS *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NERANDU</pattern>
-    <template>
-      <think>
+
+NETURIU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NESTABDYS *</pattern>
-    <template>
-      <think>
+
+NIEKAD *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NETURIU</pattern>
-    <template>
-      <think>
+
+NIEKO
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NIEKAD *</pattern>
-    <template>
-      <think>
+
+NIET *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NIEKO</pattern>
-    <template>
-      <think>
+
+NIHUJA
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NIET *</pattern>
-    <template>
-      <think>
+
+NORIU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NIHUJA</pattern>
-    <template>
-      <think>
+
+NU *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NORIU</pattern>
-    <template>
-      <think>
+
+OI
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NU  *</pattern>
-    <template>
-      <think>
+
+OOOOOK
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OI</pattern>
-    <template>
-      <think>
+
+OOOOOOOOOOOOOOOOOOOOOOK
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OOOOOK</pattern>
-    <template>
-      <think>
+
+ORAI
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OOOOOOOOOOOOOOOOOOOOOOK</pattern>
-    <template>
-      <think>
+
+ORE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ORAI</pattern>
-    <template>
-      <think>
+
+PABUCIUOTUM *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ORE</pattern>
-    <template>
-      <think>
+
+PAGLOSCIAU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PABUCIUOTUM *</pattern>
-    <template>
-      <think>
+
+PARASIAU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PAGLOSCIAU</pattern>
-    <template>
-      <think>
+
+PARASYT *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PARASIAU</pattern>
-    <template>
-      <think>
+
+PASKELBTA *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PARASYT *</pattern>
-    <template>
-      <think>
+
+PASS *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PASKELBTA *</pattern>
-    <template>
-      <think>
+
+PAZISTAMAS
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PASS  *</pattern>
-    <template>
-      <think>
+
+PAZYSTAMAS
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PAZISTAMAS</pattern>
-    <template>
-      <think>
+
+PIGIAU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PAZYSTAMAS</pattern>
-    <template>
-      <think>
+
+PIRMA *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PIGIAU</pattern>
-    <template>
-      <think>
+
+PIRMAS *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PIRMA *</pattern>
-    <template>
-      <think>
+
+PISK
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PIRMAS *</pattern>
-    <template>
-      <think>
+
+PIZDA
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PISK</pattern>
-    <template>
-      <think>
+
+PIZE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PIZDA</pattern>
-    <template>
-      <think>
+
+PRAEITA *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PIZE</pattern>
-    <template>
-      <think>
+
+PRIEDE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PRAEITA *</pattern>
-    <template>
-      <think>
+
+PURIUS
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PRIEDE</pattern>
-    <template>
-      <think>
+
+PUSH
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PURIUS</pattern>
-    <template>
-      <think>
+
+PYKINA
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PUSH</pattern>
-    <template>
-      <think>
+
+PYZDAVOTI
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PYKINA</pattern>
-    <template>
-      <think>
+
+REIK
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PYZDAVOTI</pattern>
-    <template>
-      <think>
+
+REIKS *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>REIK</pattern>
-    <template>
-      <think>
+
+RELLEN
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>REIKS *</pattern>
-    <template>
-      <think>
+
+RESP
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>RELLEN</pattern>
-    <template>
-      <think>
+
+RURINS *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>RESP</pattern>
-    <template>
-      <think>
+
+RYTE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>RESP</pattern>
-    <template>
-      <think>
+
+SAKEI
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>RURINS *</pattern>
-    <template>
-      <think>
+
+SERIALA
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>RYTE</pattern>
-    <template>
-      <think>
+
+SIXTYNINE *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SAKEI</pattern>
-    <template>
-      <think>
+
+SKAMBINT
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SERIALA</pattern>
-    <template>
-      <think>
+
+SNEKEJO *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SIXTYNINE *</pattern>
-    <template>
-      <think>
-        <set name="topic">gibberish</set>
-      </think>
-      <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SKAMBINT</pattern>
-    <template>
-      <think>
-        <set name="topic">gibberish</set>
-      </think>
-      <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SNEKEJO *</pattern>
-    <template>
-      <think>
-        <set name="topic">gibberish</set>
-      </think>
-      <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GIBBERISH</pattern>
-    <template>
-      <think>
+
+GIBBERISH
+<think>
         <set name="topic">gibberish</set>
       </think>
       <random>
@@ -1626,670 +1066,426 @@
         <li>What language is that?</li>
         <li>Don't be silly. </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>STRANG</pattern>
-    <template>
-      <think>
+
+STRANG
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SUGADINAU</pattern>
-    <template>
-      <think>
+
+SUGADINAU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SUVESI *</pattern>
-    <template>
-      <think>
+
+SUVESI *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SVYTURIO</pattern>
-    <template>
-      <think>
+
+SVYTURIO
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TA</pattern>
-    <template>
-      <think>
+
+TADA
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TADA</pattern>
-    <template>
-      <think>
+
+TAI *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TAI  *</pattern>
-    <template>
-      <think>
+
+TAI
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TAI</pattern>
-    <template>
-      <think>
+
+TAS
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TAS</pattern>
-    <template>
-      <think>
+
+TAVE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TAVE</pattern>
-    <template>
-      <think>
+
+TAVO *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TAVO *</pattern>
-    <template>
-      <think>
+
+TE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TE</pattern>
-    <template>
-      <think>
+
+TENNLEFTWING *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TENNLEFTWING *</pattern>
-    <template>
-      <think>
+
+TEP
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TEP</pattern>
-    <template>
-      <think>
+
+THIANPA *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>THIANPA *</pattern>
-    <template>
-      <think>
+
+TIE *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TIE *</pattern>
-    <template>
-      <think>
+
+TIK *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TIK *</pattern>
-    <template>
-      <think>
+
+TIPD *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TIPD *</pattern>
-    <template>
-      <think>
+
+TIPO
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TIPO</pattern>
-    <template>
-      <think>
+
+TOJ
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TOJ</pattern>
-    <template>
-      <think>
+
+TOKI
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TOKI</pattern>
-    <template>
-      <think>
+
+TOPIKE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TOPIKE</pattern>
-    <template>
-      <think>
+
+TRAUMAVAI
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TRAUMAVAI</pattern>
-    <template>
-      <think>
+
+TRAUMUOTAS
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TRAUMUOTAS</pattern>
-    <template>
-      <think>
+
+TRECIAM *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TRECIAM *</pattern>
-    <template>
-      <think>
+
+TRYS *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TRYS *</pattern>
-    <template>
-      <think>
+
+TU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TU  *</pattern>
-    <template>
-      <think>
+
+TURET
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TU</pattern>
-    <template>
-      <think>
+
+TURI *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TURET</pattern>
-    <template>
-      <think>
+
+TURIU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TURI *</pattern>
-    <template>
-      <think>
+
+UNBAN *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TURIU</pattern>
-    <template>
-      <think>
+
+UNDERNETE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>UNBAN *</pattern>
-    <template>
-      <think>
+
+UOSTYK
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>UNDERNETE</pattern>
-    <template>
-      <think>
+
+USERDEL *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>UOSTYK</pattern>
-    <template>
-      <think>
+
+UZ *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>USERDEL *</pattern>
-    <template>
-      <think>
+
+UZDUCHINO
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>UZ *</pattern>
-    <template>
-      <think>
+
+VAIDAS
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>UZDUCHINO</pattern>
-    <template>
-      <think>
+
+VAREM
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>VAIDAS</pattern>
-    <template>
-      <think>
+
+VEIKE *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>VAREM</pattern>
-    <template>
-      <think>
+
+VIENA *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>VEIKE *</pattern>
-    <template>
-      <think>
+
+VINAUSINIO
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>VIENA *</pattern>
-    <template>
-      <think>
+
+VISAI *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>VINAUSINIO</pattern>
-    <template>
-      <think>
+
+VISAS *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>VISAI *</pattern>
-    <template>
-      <think>
+
+VOICE *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>VISAS *</pattern>
-    <template>
-      <think>
+
+WACHT *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>VOICE  *</pattern>
-    <template>
-      <think>
+
+WERTZ *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WACHT *</pattern>
-    <template>
-      <think>
+
+WHAHAHAH *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WERTZ *</pattern>
-    <template>
-      <think>
+
+WHEHEH *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAHAHAH *</pattern>
-    <template>
-      <think>
+
+WHOEIIIIII *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHEHEH *</pattern>
-    <template>
-      <think>
+
+WZ *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHOEIIIIII *</pattern>
-    <template>
-      <think>
+
+WZC *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WZ *</pattern>
-    <template>
-      <think>
+
+WZF *
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WZC *</pattern>
-    <template>
-      <think>
+
+XEBRAI
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WZF *</pattern>
-    <template>
-      <think>
+
+YTARIU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>XEBRAI</pattern>
-    <template>
-      <think>
+
+ZAVUTE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YTARIU</pattern>
-    <template>
-      <think>
+
+ZEURU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ZAVUTE</pattern>
-    <template>
-      <think>
+
+ZIAURU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ZEURU</pattern>
-    <template>
-      <think>
+
+ZIAURUS
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ZIAURU</pattern>
-    <template>
-      <think>
+
+ZJBZ
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ZIAURUS</pattern>
-    <template>
-      <think>
+
+ZOLE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ZJBZ</pattern>
-    <template>
-      <think>
+
+ZOPUTE
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ZOLE</pattern>
-    <template>
-      <think>
+
+MNHYB
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ZOPUTE</pattern>
-    <template>
-      <think>
+
+CFTG B
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MNHYB</pattern>
-    <template>
-      <think>
+
+QWERT
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CFTG B</pattern>
-    <template>
-      <think>
+
+ASDFHB
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>QWERT</pattern>
-    <template>
-      <think>
+
+ZXCV
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ASDFHB</pattern>
-    <template>
-      <think>
+
+MNBH
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ZXCV</pattern>
-    <template>
-      <think>
+
+POIU
+<think>
         <set name="topic">gibberish</set>
       </think>
       <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MNBH</pattern>
-    <template>
-      <think>
-        <set name="topic">gibberish</set>
-      </think>
-      <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>POIU</pattern>
-    <template>
-      <think>
-        <set name="topic">gibberish</set>
-      </think>
-      <srai>GIBBERISH</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>COMPLICATED QUESTION</pattern>
-    <template>
+
+COMPLICATED QUESTION
 Wow! That's a long and complicated question. Please keep thing simple.
 <think><set name="emotion">upset</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>_ AND * AND * AND *</pattern>
-    <template>
-      <srai>COMPLICATED QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ OR * OR * AND *</pattern>
-    <template>
-      <srai>COMPLICATED QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ AND * OR * OR *</pattern>
-    <template>
-      <srai>COMPLICATED QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ AND * OR * OR *</pattern>
-    <template>
-      <srai>COMPLICATED QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ AND * OR * IF *</pattern>
-    <template>
-      <srai>COMPLICATED QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ IF * WHEN * AND *</pattern>
-    <template>
-      <srai>COMPLICATED QUESTION</srai>
-    </template>
-  </category>
-</aiml>
+
+_ AND * AND * AND *
+<srai>COMPLICATED QUESTION</srai>
+
+_ OR * OR * AND *
+<srai>COMPLICATED QUESTION</srai>
+
+_ AND * OR * OR *
+<srai>COMPLICATED QUESTION</srai>
+
+_ AND * OR * IF *
+<srai>COMPLICATED QUESTION</srai>
+
+_ IF * WHEN * AND *
+<srai>COMPLICATED QUESTION</srai>
+
+

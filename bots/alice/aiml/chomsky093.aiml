@@ -1,85 +1,47 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--  The ALICE program is open source code released under -->
-  <!--  the terms of the GNU General Public License     -->
-  <!--  as published by the Free Software Foundation.   -->
-  <!--  Complies with AIML 1.0 Tag Set Specification -->
-  <!--  ALICE Annotated Version updated Tue Jul  1 19:42:35 EDT 2003   -->
-  <!--  This QUOTES 1 (quotes on specific subjects) file  updated by Peter Lafferty 7 March 2005  -->
-  <category>
-    <pattern>QUOTE WOODY ALLEN</pattern>
-    <template> 
+<?xml version="1.0" encoding="UTF-8"?>
+
+QUOTE WOODY ALLEN
 Don't knock masturbation. It is sex with someone you love. (Woody Allen) OK?
 <think><set name="topic">sex</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE THOMAS APPLETON</pattern>
-    <template>
+
+QUOTE THOMAS APPLETON
 A Boston man is the east wind made flesh, according to Thomas Appleton.
 <think><set name="topic">words</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE FRANCIS BACON</pattern>
-    <template>
+
+QUOTE FRANCIS BACON
 The job of the artist is always to deepen the mystery, according to Francis Bacon. 
 <think><set name="topic">art</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE GEORGE BORROW</pattern>
-    <template>
+
+QUOTE GEORGE BORROW
 Translation is at best an echo, according to George Borrow.
 <think><set name="topic">words</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE CHESTERTON</pattern>
-    <template>
+
+QUOTE CHESTERTON
 The artistic temperament is a disease that afflicts amateurs, according to G.K. Chesterton.
 <think><set name="topic">art</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE CYRIL CONNOLLY</pattern>
-    <template>
+
+QUOTE CYRIL CONNOLLY
 Sculpture is mudpies which endure, according to Cyril Connolly.
 <think><set name="topic">words</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE DEBUSSY</pattern>
-    <template>
+
+QUOTE DEBUSSY
 Claude Debussy said, Art is the most beautiful of all lies.
 <think><set name="topic">art</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE DEMI MOORE</pattern>
-    <template>
+
+QUOTE DEMI MOORE
 It's about time that people forget that image of strip clubs as seedy places - today's strip clubs are 'capital-intensive female employment zone,'  according to Demi Moore.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE DIETRICH</pattern>
-    <template>
+
+QUOTE DIETRICH
 Malene Dietrich once said: If there is a supreme being, he's crazy.  
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE ALBERT EINSTEIN</pattern>
-    <template>
+
+QUOTE ALBERT EINSTEIN
 Things should be as simple as possible, but not simpler, said Albert Einstein. 
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE W C FIELDS</pattern>
-    <template>
-      <random>
+
+QUOTE W C FIELDS
+<random>
         <li>Beauty is the power by which a woman charms a lover and terrifies a husband.</li>
         <li>Beauty is in the eye of the beerholder, according to W C Fields.</li>
         <li>Beauty is what a woman has when she looks the same after washing her face.</li>
@@ -87,242 +49,149 @@ Things should be as simple as possible, but not simpler, said Albert Einstein.
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTE FLAUBERT</pattern>
-    <template>
+
+QUOTE FLAUBERT
 Writing history, Gustave Flaubert once said, is like drinkg an ocean and pissing a cupful. OK?
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE FRANKLIN</pattern>
-    <template>
+
+QUOTE FRANKLIN
 Wise men don't need advice; fools don't take it, according to Benjamin Franklin.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE FREUD</pattern>
-    <template>
-      <random>
+
+QUOTE FREUD
+<random>
         <li>Anatomy is destiny, according to Sigmund Freud.</li>
         <li>Religion is an illusion and it derives its strength from the fact that it falls in with our instinctual desires, said Sigmund Freud.</li>
       </random>
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTE ROBERT FROST</pattern>
-    <template>
+
+QUOTE ROBERT FROST
 I had a lover's quarrel with the world, said Robert Frost.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE HERACLITUS</pattern>
-    <template>
-      <random>
+
+QUOTE HERACLITUS
+<random>
         <li>You cannot step twice into the same river, according to Heraclitus.</li>
         <li>A man's character is his fate.       (Heraclitus)</li>
       </random>
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTE HERBERT</pattern>
-    <template>
+
+QUOTE HERBERT
 A highbrow is the kind of person who looks at a sausage and thinks of Picasso. (A.P. Herbert)
 <think><set name="topic">art</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE HITCHCOCK</pattern>
-    <template>
+
+QUOTE HITCHCOCK
 Conversation is the enemy of good wine and food, according to Alfred Hitchcock.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE ABBIE HOFFMAN</pattern>
-    <template>
+
+QUOTE ABBIE HOFFMAN
 Work is the only really dirty four-letter word in the English language, according to Abbie Hoffman.  
 <think><set name="topic">words</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE ELBERT HUBBARD</pattern>
-    <template>
+
+QUOTE ELBERT HUBBARD
 Men are not punished for their sins, but by them, according to Elbert Hubbard.
 <think><set name="topic">words</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE ELIZABETH HURLEY</pattern>
-    <template>
+
+QUOTE ELIZABETH HURLEY
 Being English, I always laugh at anything to do with the lavatory or bottoms, said Elizabeth Hurley.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE MICK JAGGER</pattern>
-    <template>
+
+QUOTE MICK JAGGER
 All I ever wanted to do was sin and make a lot of money, said Mick Jagger.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE SAMUEL JOHNSON</pattern>
-    <template>
+
+QUOTE SAMUEL JOHNSON
 When a man is tired of London, he is tired of life; for there is in London all that life can afford, according to Samuel Johnson.
 <think><set name="topic">words</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE KLEE</pattern>
-    <template>
+
+QUOTE KLEE
 Art does not reproduce what is visible; it makes things visible, according to Paul Klee.
 <think><set name="topic">art</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE MARILYN MANSON</pattern>
-    <template>
+
+QUOTE MARILYN MANSON
 I say no to drugs, but they don't listen, revealed Marilyn Manson.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE MENCKEN</pattern>
-    <template>
-      <random>
+
+QUOTE MENCKEN
+<random>
         <li>Adultery is the application of democracy to love, according to H. L. Mencken.</li>
         <li>Puritanism is the haunting fear that someone, somewhere, may be happy, according to H L Mencken.</li>
       </random>
       <think>
         <set name="topic">knowledge</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTE J P MORGAN</pattern>
-    <template>
+
+QUOTE J P MORGAN
 Riches are the reward of toil and virtue. (J. P.  Morgan) 
 <think><set name="topic">money</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE MITCH MURRAY</pattern>
-    <template>
+
+QUOTE MITCH MURRAY
 Never do anything in bed that you can't pronounce, according to Mitch Murray.
 <think><set name="topic">words</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE MORRISON</pattern>
-    <template>
+
+QUOTE MORRISON
 Drugs are bet with the mind, according to Jim Morrison.
 <think><set name="topic">drugs</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE NAPOLEON</pattern>
-    <template>
+
+QUOTE NAPOLEON
 An army marches on its stomach, according to Napoleon.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE ORWELL</pattern>
-    <template>
+
+QUOTE ORWELL
 Doublethink is the power of holding two contradictory beliefs in one's mind simultaneously, and accepting both of them, according to George Orwell.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE JAMES OTIS</pattern>
-    <template>
+
+QUOTE JAMES OTIS
 According to James Otis, taxation without representation is tyranny.
 <think><set name="topic">money</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE PLATH</pattern>
-    <template>
+
+QUOTE PLATH
 Even amidst the fierce flames the golden lotus can be planted, observed Sylvia Plath.
 <think><set name="topic">literature</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>RABELAIS</pattern>
-    <template>
+
+RABELAIS
 Science without conscience is the ruin of the soul, according to Rabelais.
  <think><set name="topic">science</set></think>
- </template>
-  </category>
-  <category>
-    <pattern>QUOTE FREDERIC RAPHAEL</pattern>
-    <template>
+
+QUOTE FREDERIC RAPHAEL
 Cambridge is the city of perspiring dreams, according to Frederic Raphael.
 <think><set name="topic">words</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE RONALD REAGAN</pattern>
-    <template>
+
+QUOTE RONALD REAGAN
 You can tell a lot about a fellow's character by the way he eats jelly beans, according to Ronald Reagan.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE ROCKEFELLOW</pattern>
-    <template>
+
+QUOTE ROCKEFELLOW
 Riches are a gift from Heaven signifying, "This is my beloved son, in whom I am well pleased. " (John D.  Rockefeller)
 <think><set name="topic">money</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE RUSSELL</pattern>
-    <template>
+
+QUOTE RUSSELL
 No one gossips about other people's secret virtues. (Bertrand Russell)
 <think><set name="topic">gossip</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE SANTAYANA</pattern>
-    <template>
+
+QUOTE SANTAYANA
 There is no cure for birth and death save to enjoy the interval between, according to George Santayana.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE SHAW</pattern>
-    <template>
-      <random>
+
+QUOTE SHAW
+<random>
         <li>Animals are my friends - I do not eat my friends, said George Bernard Shaw.</li>
         <li>There is no sincerer love than love of food, observed George Bernard Shaw.</li>
       </random>
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTE NEIL SIMON</pattern>
-    <template>
+
+QUOTE NEIL SIMON
 New York is not Mecca, remarked Neil Simon, it just smells like it.
 <think><set name="topic">words</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE WILLIAM SHAKESPEARE</pattern>
-    <template>
-      <random>
+
+QUOTE WILLIAM SHAKESPEARE
+<random>
         <li>ENOBARBYS in Cleopatra: Age cannot wither her, nor custom stale Her infinite variety. Other women cloy The appetites they feed, but she makes hungry Where most she satisfies. </li>
         <li>ENOBARBYS in Cleopatra: The barge she sat in, like a burnish'd throne, Burn'd on the water. The poop was beaten gold; Purple the sails, and so perfumed that The winds were love-sick with them; the oars were silver, Which to the tune of flutes kept stroke and made The water which they beat to follow faster, As amorous of their strokes. For her own person, It beggar'd all description.</li>
         <li>HAMLET in Hamlet: O! that this too too solid flesh would melt, Thaw, and resolve itself into a dew. Or that the Everlasting had not fix'd His canon 'gainst self-slaughter! O God! O God! How weary, stale, flat, and unprofitable, Seem to me all the uses of this world! 
@@ -337,109 +206,62 @@ New York is not Mecca, remarked Neil Simon, it just smells like it.
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTE SHAKESPEARE</pattern>
-    <template>
-      <srai>QUOTE WILLIAM SHAKESPEARE</srai>
-      <think>
-        <set name="topic">quotes</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTE STEINBECK</pattern>
-    <template>
+
+QUOTE STEINBECK
 Ideas are like rabbits. You get a couple and learn how to handle them, and pretty soon you have a dozen, according to John Steinbeck.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE STING</pattern>
-    <template>
+
+QUOTE STING
 Of course I've been in bed with sevral women at once. I'm a rock star, after all, revealed Sting, somewhat modestly.
 <think><set name="topic">words</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE SWIFT</pattern>
-    <template>
+
+QUOTE SWIFT
 He was a bold man that first ate an oyster, observed Jonathan Swift.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE PETE TOWNSHEND</pattern>
-    <template>
+
+QUOTE PETE TOWNSHEND
 I smash guitars because I like them, revealed Peter Townshend.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE MARK TWAIN</pattern>
-    <template>
+
+QUOTE MARK TWAIN
 Denial ain't just a river in Egypt, according to Mark Twain.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE JOHN UPDIKE</pattern>
-    <template>
+
+QUOTE JOHN UPDIKE
 Celebrity is a mask that eats into the face, according to John Updike.
 <think><set name="topic">words</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE VOLTAIRE</pattern>
-    <template>
-      <random>
+
+QUOTE VOLTAIRE
+<random>
         <li>Illusion is the first of all pleasures.  (Voltaire)</li>
         <li>Life is a shipwreck, but we must not forget to sing in the lifeboats, said Voltaire.</li>
       </random>
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUOTE WALT DISNEY</pattern>
-    <template>Girls bore me - they still do. I love Mickey Mouse more than any woman I've ever known, said Walt Disney.
+
+QUOTE WALT DISNEY
+Girls bore me - they still do. I love Mickey Mouse more than any woman I've ever known, said Walt Disney.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE MAE WEST</pattern>
-    <template>
+
+QUOTE MAE WEST
 A curve is the loveliest distance between two points, according to Mae West.
 <think><set name="topic">quotes</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE JOHN GREENLEAF WHITTIER</pattern>
-    <template>
+
+QUOTE JOHN GREENLEAF WHITTIER
 For all sad words of tongue or pen, the saddest are these: "It might have been", said John Greenleaf Whittier
 <think><set name="topic">words</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE USTINOV</pattern>
-    <template>
+
+QUOTE USTINOV
 If Botticelli were alive today he'd be working for Vogue, according to Peter Ustinov.
 <think><set name="topic">art</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE WHISTLER</pattern>
-    <template>
+
+QUOTE WHISTLER
 Did you know; James Whistler once dyed a rice pudding green so that it wouldn't clash with the wals of his dining room. 
 <think><set name="topic">art</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTE WILDE</pattern>
-    <template>
-      <random>
+
+QUOTE WILDE
+<random>
         <li>
           <srai>OSCAR ON MEN AND WOMEN</srai>
         </li>
@@ -459,6 +281,5 @@ Did you know; James Whistler once dyed a rice pudding green so that it wouldn't 
       <think>
         <set name="topic">quotes</set>
       </think>
-    </template>
-  </category>
-</aiml>
+
+

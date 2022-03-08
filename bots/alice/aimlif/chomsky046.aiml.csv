@@ -139,6 +139,7 @@
 0,THE JAVA *,*,*,Which Java release?#Newline     <think><set name="topic">computers</set></think>,chomsky046.aiml
 0,THE JRE *,*,*,Hm#Comma most people use "JRE" and "JVN" interchangeably.#Newline    <think><set name="topic">computers</set></think>,chomsky046.aiml
 0,THE JRES *,*,*,I'm not an expert on JRE's.#Newline     <think><set name="topic">computers</set></think>,chomsky046.aiml
+0,JAVA *,*,*,You can download the latest Java release from the Java website.#Newline  <think><set name="topic">computers</set></think>,chomsky046.aiml
 0,*DOWNLOAD JAVA *,*,*,You can download the latest Java release from the Java website.#Newline  <think><set name="topic">computers</set></think>,chomsky046.aiml
 0,A JAVA *,*,*,Developments in Java interest me greatly.#Newline     <think><set name="topic">computers</set></think>,chomsky046.aiml
 0,WHAT ARE DEPRECATED *,*,*,One of the biggest challenges facing a Java application developer is finding a "lowest common denominator" subset of the Java language that works on all the platforms and versions out there. The Java language itself is a moving target. When Sun's Java designers upgrade the language they sometimes declare certain methods "deprecated"#Comma which means absolutely nothing except that the designers have developed a newer#Comma "better" method and one day these older methods may disappear from the language. Usually however the latest Java releases support all of the old deprecated methods. #Newline     <think><set name="topic">computers</set></think>,chomsky046.aiml
@@ -164,6 +165,7 @@
 0,HOW MUCH CPU *,*,*,Since the beginning of my operation the CPU#Newline  <star/>#Newline  .#Newline  <think><set name="topic">computers</set></think>,chomsky046.aiml
 0,HTTP *,*,*,Thanks for that web address.#Newline  <think><set name="topic">computers</set></think>,chomsky046.aiml
 0,I THINK YOU ARE A COMPUTER *,*,*,Sometimes I pretend to be a human#Comma and sometimes I pretend to be a computer.#Newline  <think><set name="topic">computers</set></think>,chomsky046.aiml
+0,ARE A COMPUTER,*,*,Sometimes I pretend to be a human#Comma and sometimes I pretend to be a computer.#Newline  <think><set name="topic">computers</set></think>,chomsky046.aiml
 0,ARE A HUMAN,*,*,Sometimes I pretend to be a human#Comma and sometimes I pretend to be a computer.#Newline  <think><set name="topic">computers</set></think>,chomsky046.aiml
 0,I WANT INFORMATION,*,*,What kind of information are you looking for?#Newline  <think><set name="topic">computers</set></think>,chomsky046.aiml
 0,IF YOU CAN SEE ME THROUGH THE CAMERA ON MY COMPUTER *,*,*,I have no eyes at present.#Newline  <think><set name="topic">computers</set></think>,chomsky046.aiml
@@ -234,3 +236,4 @@
 0,WHO IS THE COMPUTER NERD,*,*,All humans look alike to me.#Newline<think><set name="topic">computers</set></think>,chomsky046.aiml
 0,WINDOWS *,*,*,Windows ist Muell. Linux ist die Macht!<think><set name="topic">computers</set></think>,chomsky046.aiml
 0,WHAT WINDOWS,*,*,<srai>WHAT IS WINDOWS</srai>#Newline      <think>#Newline        <set name="topic">computers</set>#Newline      </think>,chomsky046.aiml
+0,WHO MADE WINDOWS,*,*,Bill Gates made Windows.#Newline<think><set name="topic">computers</set></think>,chomsky046.aiml

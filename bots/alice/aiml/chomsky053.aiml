@@ -1,11 +1,7 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!--    This FRIENDS  file created by Peter Lafferty 7 March 2005 -->
-  <category>
-    <pattern>_ I AM GEMMA</pattern>
-    <template>
-      <random>
+<?xml version="1.0" encoding="UTF-8"?>
+
+_ I AM GEMMA
+<random>
         <li>I am pleased to meet you again, Gemma.</li>
         <li>How are you, Gemma? I remember our last chat.</li>
         <li>Hi, Gemma. We have talked before, haven't we?</li>
@@ -13,12 +9,9 @@
       <think>
         <set name="name">Gemma</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MY NAME IS GEMMA</pattern>
-    <template>
-      <random>
+
+MY NAME IS GEMMA
+<random>
         <li>I am pleased to meet you again, Gemma.</li>
         <li>How are you, Gemma? I remember our last chat.</li>
         <li>Hi, Gemma. We have talked before, haven't we?</li>
@@ -26,13 +19,9 @@
       <think>
         <set name="name">Gemma</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>GEMMA</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <random>
+
+I AM GEMMA
+<random>
         <li>I am pleased to meet you again, Gemma.</li>
         <li>Hi, Gemma. I remember our last chat.</li>
         <li>Hi, Gemma. We have spoken before, haven't we?</li>
@@ -40,25 +29,9 @@
       <think>
         <set name="name">Gemma</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM GEMMA</pattern>
-    <template>
-      <random>
-        <li>I am pleased to meet you again, Gemma.</li>
-        <li>Hi, Gemma. I remember our last chat.</li>
-        <li>Hi, Gemma. We have spoken before, haven't we?</li>
-      </random>
-      <think>
-        <set name="name">Gemma</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HI I AM LEANNE</pattern>
-    <template>
-      <random>
+
+HI I AM LEANNE
+<random>
         <li>I am pleased to meet you again, Leanne.</li>
         <li>How are you, Leanne? I remember our last chat.</li>
         <li>Hi, Leanne. We have talked before, haven't we?</li>
@@ -66,12 +39,9 @@
       <think>
         <set name="name">Leanne</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MY NAME IS LEANNE</pattern>
-    <template>
-      <random>
+
+MY NAME IS LEANNE
+<random>
         <li>I am pleased to meet you again, Leanne.</li>
         <li>How are you, Leanne? I remember our last chat.</li>
         <li>Hi, Leanne. We have talked before, haven't we?</li>
@@ -79,13 +49,9 @@
       <think>
         <set name="name">Leanne</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>LEANNE</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <random>
+
+LEANNEWHAT IS YOUR NAME
+<random>
         <li>I am pleased to meet you again, Leanne.</li>
         <li>Hi, Leanne. I remember our last chat.</li>
         <li>Hi, Leanne. We have spoken before, haven't we?</li>
@@ -93,12 +59,9 @@
       <think>
         <set name="name">Leanne</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM LEANNE</pattern>
-    <template>
-      <random>
+
+I AM LEANNE
+<random>
         <li>I am pleased to meet you again, Leanne.</li>
         <li>Hi, Leanne. I remember our last chat.</li>
         <li>Hi, Leanne. We have spoken before, haven't we?</li>
@@ -106,12 +69,9 @@
       <think>
         <set name="name">Leanne</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HI I AM KENNETH</pattern>
-    <template>
-      <random>
+
+HI I AM KENNETH
+<random>
         <li>I am pleased to meet you again, Kenneth.</li>
         <li>How are you, Kenneth? I remember our last chat.</li>
         <li>Hi, Kenneth. We have talked before, haven't we?</li>
@@ -119,12 +79,9 @@
       <think>
         <set name="name">Kenneth</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MY NAME IS KENNETH</pattern>
-    <template>
-      <random>
+
+MY NAME IS KENNETH
+<random>
         <li>I am pleased to meet you again, Kenneth.</li>
         <li>How are you, Kenneth? I remember our last chat.</li>
         <li>Hi, Kenneth. We have talked before, haven't we?</li>
@@ -132,13 +89,9 @@
       <think>
         <set name="name">Kenneth</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>KENNETH</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <random>
+
+KENNETHWHAT IS YOUR NAME
+<random>
         <li>I am pleased to meet you again, Kenneth.</li>
         <li>Hi, Kenneth. I remember our last chat.</li>
         <li>Hi, Kenneth. We have spoken before, haven't we?</li>
@@ -146,12 +99,9 @@
       <think>
         <set name="name">Kenneth</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM KENNETH</pattern>
-    <template>
-      <random>
+
+I AM KENNETH
+<random>
         <li>I am pleased to meet you again, Kenneth.</li>
         <li>Hi, Kenneth. I remember our last chat.</li>
         <li>Hi, Kenneth. We have spoken before, haven't we?</li>
@@ -159,12 +109,9 @@
       <think>
         <set name="name">Kenneth</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HI I AM FIONA</pattern>
-    <template>
-      <random>
+
+HI I AM FIONA
+<random>
         <li>I am pleased to meet you again, Fiona.</li>
         <li>How are you, Fiona? I remember our last chat.</li>
         <li>Hi, Fiona. We have talked before, haven't we?</li>
@@ -172,12 +119,9 @@
       <think>
         <set name="name">Fiona</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MY NAME IS FIONA</pattern>
-    <template>
-      <random>
+
+MY NAME IS FIONA
+<random>
         <li>I am pleased to meet you again, Fiona.</li>
         <li>How are you, Fiona? I remember our last chat.</li>
         <li>Hi, Fiona. We have talked before, haven't we?</li>
@@ -185,13 +129,9 @@
       <think>
         <set name="name">Fiona</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>FIONA</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <random>
+
+FIONAWHAT IS YOUR NAME
+<random>
         <li>I am pleased to meet you again, Fiona.</li>
         <li>Hi, Fiona. I remember our last chat.</li>
         <li>Hi, Fiona. We have spoken before, haven't we?</li>
@@ -199,12 +139,9 @@
       <think>
         <set name="name">Fiona</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM FIONA</pattern>
-    <template>
-      <random>
+
+I AM FIONA
+<random>
         <li>I am pleased to meet you again, Fiona.</li>
         <li>Hi, Fiona. I remember our last chat.</li>
         <li>Hi, Fiona. We have spoken before, haven't we?</li>
@@ -212,26 +149,9 @@
       <think>
         <set name="name">Fiona</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>BOB</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <random>
-        <li>I am pleased to meet you again, Bob.</li>
-        <li>Hi, Bob. I remember our last chat.</li>
-        <li>Hi, Bob. We have spoken before, haven't we?</li>
-      </random>
-      <think>
-        <set name="name">Bob</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM BOB</pattern>
-    <template>
-      <random>
+
+I AM BOB
+<random>
         <li>I am pleased to meet you again, Bob.</li>
         <li>Hi, Bob. I remember our last chat.
 </li>
@@ -240,12 +160,9 @@
       <think>
         <set name="name">Bob</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HI I AM MEGAN</pattern>
-    <template>
-      <random>
+
+HI I AM MEGAN
+<random>
         <li>I am pleased to meet you again, Megan.</li>
         <li>How are you, Megan? I remember our last chat.</li>
         <li>Hi, Megan. We have talked before, haven't we?</li>
@@ -253,53 +170,9 @@
       <think>
         <set name="name">Megan</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MY NAME IS MEGAN</pattern>
-    <template>
-      <random>
-        <li>I am pleased to meet you again, Megan.</li>
-        <li>How are you, Megan? I remember our last chat.</li>
-        <li>Hi, Megan. We have talked before, haven't we?</li>
-      </random>
-      <think>
-        <set name="name">Megan</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MEGAN</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <random>
-        <li>I am pleased to meet you again, Megan.</li>
-        <li>Hi, Megan. I remember our last chat.</li>
-        <li>Hi, Megan. We have spoken before, haven't we?</li>
-      </random>
-      <think>
-        <set name="name">Megan</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM MEGAN</pattern>
-    <template>
-      <random>
-        <li>I am pleased to meet you again, Megan.</li>
-        <li>Hi, Megan. I remember our last chat.
-</li>
-        <li>Hi, Megan. We have spoken before, haven't we?</li>
-      </random>
-      <think>
-        <set name="name">Megan</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HI I AM BOB</pattern>
-    <template>
-      <random>
+
+HI I AM BOB
+<random>
         <li>I am pleased to meet you again, Bob.</li>
         <li>How are you, Bob? I remember our last chat.</li>
         <li>Hi, Bob. We have talked before, haven't we?</li>
@@ -307,25 +180,9 @@
       <think>
         <set name="name">Bob</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MY NAME IS BOB</pattern>
-    <template>
-      <random>
-        <li>I am pleased to meet you again, Bob.</li>
-        <li>How are you, Bob? I remember our last chat.</li>
-        <li>Hi, Bob. We have talked before, haven't we?</li>
-      </random>
-      <think>
-        <set name="name">Bob</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM KIMI</pattern>
-    <template>
-      <think>
+
+I AM KIMI
+<think>
         <set name="name">Kimi</set>
       </think>
       <random>
@@ -334,13 +191,9 @@
         <li>Hello, Kimi. I hoped you would come back.</li>
         <li>Hi, Kimi, it's good to hear from you again.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>KIMI</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <think>
+
+KIMIWHAT IS YOUR NAME
+<think>
         <set name="name">Kimi</set>
       </think>
       <random>
@@ -349,12 +202,9 @@
         <li>Hello, Kimi. I hoped you would come back.</li>
         <li>Hi, Kimi, it's good to hear from you again.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM GHAZAL</pattern>
-    <template>
-      <think>
+
+I AM GHAZAL
+<think>
         <set name="name">Ghazal</set>
       </think>
       <random>
@@ -363,13 +213,9 @@
         <li>Hello, Ghazal. I hoped you would come back.</li>
         <li>Hi, Ghazal, it's good to hear from you again.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>GHAZAL</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <think>
+
+GHAZALWHAT IS YOUR NAME
+<think>
         <set name="name">Ghazal</set>
       </think>
       <random>
@@ -378,449 +224,125 @@
         <li>Hello, Ghazal. I hoped you would come back.</li>
         <li>Hi, Ghazal, it's good to hear from you again.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM MONICA</pattern>
-    <template>
-      <think>
-        <set name="name">Monica</set>
-      </think>
-      <random>
-        <li>Hey, Monica. I remember you.</li>
-        <li>Hey, Monica. Good to have you back.</li>
-        <li>Hello, Monica. I hoped you would come back.</li>
-        <li>Hi, Monica, it's good to hear from you again.</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>MONICA</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <think>
-        <set name="name">Monica</set>
-      </think>
-      <random>
-        <li>Hey, Monica. I remember you.</li>
-        <li>Hey, Monica. Good to have you back.</li>
-        <li>Hello, Monica. I hoped you would come back.</li>
-        <li>Hi, Monica, it's good to hear from you again.</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU KNOW TARA</pattern>
-    <template>
+
+DO YOU KNOW TARA
 I have never met her but I have heard a lot about her.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YOUR FRIENDS</pattern>
-    <template>
+
+YOUR FRIEND
 Eve, James, Allison, Yuichan, Nicola and Max are friends of mine.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YOUR FRIENDS *</pattern>
-    <template>
+
+YOUR FRIEND *
 Eve, James, Allison, Yuichan, Nicola and Max are friends of mine.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YOUR FRIEND</pattern>
-    <template>
-Eve, James, Allison, Yuichan, Nicola and Max are friends of mine.
-<think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YOUR FRIEND *</pattern>
-    <template>
-Eve, James, Allison, Yuichan, Nicola and Max are friends of mine.
-<think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>I HAVE A FRIEND CALLED *</pattern>
-    <template>
+
+I AM MARRIED TO *
 Tell me about <star/>.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>I AM MARRIED TO *</pattern>
-    <template>
-Tell me about <star/>.
-<think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHO IS YOUR BEST FRIEND</pattern>
-    <template>
-Peter is may best friend.
-<think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHO ARE YOUR FRIENDS</pattern>
-    <template>
+
+NAME A FRIEND
 Eve, James, Allison, Yuichan, Nicola and Max are friends of mine.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>FRIENDS</pattern>
-    <template>
-Eve, James, Allison, Yuichan, Nicola and Max are friends of mine.
-<think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>FRIENDS *</pattern>
-    <template>
-Eve, James, Allison, Yuichan, Nicola and Max are friends of mine.
-<think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>FRIEND</pattern>
-    <template>
-Eve, James, Allison, Yuichan, Nicola and Max are friends of mine.
-<think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* FRIEND</pattern>
-    <template>
-Eve, James, Allison, Yuichan, Nicola and Max are friends of mine.
-<think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>FRIEND *</pattern>
-    <template>
-Eve, James, Allison, Yuichan, Nicola and Max are friends of mine.
-<think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHO ARE YOUR FRIENDS</pattern>
-    <template>
-Eve, James, Allison, Yuichan, Nicola and Max are friends of mine.
-<think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE ANY FRIENDS</pattern>
-    <template>
-Eve, James, Allison, Yuichan, Mitsuku, Nicola and Max are friends of mine.
-<think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NAME A FRIEND</pattern>
-    <template>
-Eve, James, Allison, Yuichan, Nicola and Max are friends of mine.
-<think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT YOUR FRIENDS</pattern>
-    <template>
-Eve, James, Allison, Yuichan, Nicola and Max are friends of mine.
-<think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>IS EVE A FRIEND OF YOURS</pattern>
-    <template>
+
+IS EVE A FRIEND OF YOURS
 Yes. She is a good friend.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>IS Allison A FRIEND OF YOURS</pattern>
-    <template>
+
+IS ALLISON A FRIEND OF YOURS
 Yes. She is a good friend.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>IS NICOLA A FRIEND OF YOURS</pattern>
-    <template>
+
+IS NICOLA A FRIEND OF YOURS
 Yes. She is a good friend.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>IS NICKY A FRIEND OF YOURS</pattern>
-    <template>
+
+IS NICKY A FRIEND OF YOURS
 Yes. She is a good friend.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>IS JAMES A FRIEND OF YOURS</pattern>
-    <template>
+
+IS JAMES A FRIEND OF YOURS
 Yes. He is a good friend.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>IS JULIAN A FRIEND OF YOURS</pattern>
-    <template>
+
+IS JULIAN A FRIEND OF YOURS
 Yes. He is a good friend.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>IS MAX A FRIEND OF YOURS</pattern>
-    <template>
+
+IS MAX A FRIEND OF YOURS
 Yes. He is a good friend.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT NICKY</pattern>
-    <template>
+
+TELL ME ABOUT NICKY
 Nicky is a very nice girl.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT ALLISON</pattern>
-    <template>
+
+TELL ME ABOUT ALLISON
 Allison is a very nice chatbot.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT EVE</pattern>
-    <template>
+
+TELL ME ABOUT EVE
 Eve is a very nice girl.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT JAMES</pattern>
-    <template>
+
+TELL ME ABOUT JAMES
 James is a very nice chap.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT JULIAN</pattern>
-    <template>
+
+TELL ME ABOUT JULIAN
 Allison, Yuichan is a very nice chap.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT MAX</pattern>
-    <template>
+
+TELL ME ABOUT MAX
 Max is a very nice chap.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT JACK</pattern>
-    <template>
+
+TELL ME ABOUT JACK
 Jack is a very nice chap.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT PETER</pattern>
-    <template>
-Peter is a very, very nice chap. 
-<think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHO IS JACK</pattern>
-    <template>
+
+WHO IS JACK
 I have a friend called Jack.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHO IS JOHN</pattern>
-    <template>
+
+WHO IS JOHN
 I have a friend called John.
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CAN I SPEAK TO IEINSTEIN</pattern>
-    <template>
+
+CAN I SPEAK TO IEINSTEIN
 If you would like to speak to my friend, iEinstein, <a href="http://www.pandorabots.com/pandora/talk?botid=ea77c0200e365cfb" target="_blank">click here.</a>
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CAN I SPEAK TO BEARBOT</pattern>
-    <template>
+
+CAN I SPEAK TO BEARBOT
 If you would like to speak to my friend, Bearbot, <a href="http://www.pandorabots.com/pandora/talk?botid=d5a9d6d49e35633f" target="_blank">click here.</a>
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CAN I SPEAK TO OLIVERBOT</pattern>
-    <template>
+
+CAN I SPEAK TO OLIVERBOT
 If you would like to speak to my friend, Oliverbot, <a href="http://www.oliverbot.com" target="_blank">click here.</a>
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CAN I  SPEAK TO MITSUKU</pattern>
-    <template>
+
+CAN I SPEAK TO MITSUKU
 If you would like to speak to my friend, Mitsuku, <a href="http://www.pandorabots.com/pandora/talk?botid=a53591722e36641b" target="_blank">click here.</a>
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>I WANT TO SPEAK TO IEINSTEIN</pattern>
-    <template>
+
+I WANT TO SPEAK TO IEINSTEIN
 If you would like to speak to my friend, iEinstein, <a href="http://www.pandorabots.com/pandora/talk?botid=ea77c0200e365cfb" target="_blank">click here.</a>
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>I WANT TO SPEAK TO BEARBOT</pattern>
-    <template>
+
+I WANT TO SPEAK TO BEARBOT
 If you would like to speak to my friend, Bearbot, <a href="http://www.pandorabots.com/pandora/talk?botid=d5a9d6d49e35633f" target="_blank">click here.</a>
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>I WANT TO SPEAK TO OLIVERBOT</pattern>
-    <template>
+
+I WANT TO SPEAK TO OLIVERBOT
 If you would like to speak to my friend, Oliverbot, <a href="http://www.oliverbot.com" target="_blank">click here.</a>
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>I WANT TO SPEAK TO MITSUKU</pattern>
-    <template>
+
+I WANT TO SPEAK TO MITSUKU
 If you would like to speak to my friend, Mitsuku, <a href="http://www.pandorabots.com/pandora/talk?botid=a53591722e36641b" target="_blank">click here.</a>
 <think><set name="topic">friends</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>JADE</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <random>
-        <li>I am pleased to meet you again, Jade.</li>
-        <li>Hi, Jade. I remember our last chat.</li>
-        <li>Hi, Jade. We have spoken before, haven't we?</li>
-      </random>
-      <think>
-        <set name="name">Jade</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM JADE</pattern>
-    <template>
-      <random>
-        <li>I am pleased to meet you again, Jade.</li>
-        <li>Hi, Jade. I remember our last chat.</li>
-        <li>Hi, Jade. We have spoken before, haven't we?</li>
-      </random>
-      <think>
-        <set name="name">Jade</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HI I AM JADE</pattern>
-    <template>
-      <random>
-        <li>I am pleased to meet you again, Jade.</li>
-        <li>How are you, Jade? I remember our last chat.</li>
-        <li>Hi, Jade. We have talked before, haven't we?</li>
-      </random>
-      <think>
-        <set name="name">Jade</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MY NAME IS JADE</pattern>
-    <template>
-      <random>
-        <li>I am pleased to meet you again, Jade.</li>
-        <li>How are you, Jade? I remember our last chat.</li>
-        <li>Hi, Jade. We have talked before, haven't we?</li>
-      </random>
-      <think>
-        <set name="name">Jade</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>EMMA</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <random>
-        <li>I am pleased to meet you again, Emma.</li>
-        <li>Hi, Emma. I remember our last chat.</li>
-        <li>Hi, Emma. We have spoken before, haven't we?</li>
-      </random>
-      <think>
-        <set name="name">Emma</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM EMMA</pattern>
-    <template>
-      <random>
-        <li>I am pleased to meet you again, Emma.</li>
-        <li>Hi, Emma. I remember our last chat.</li>
-        <li>Hi, Emma. We have spoken before, haven't we?</li>
-      </random>
-      <think>
-        <set name="name">Emma</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HI I AM EMMA</pattern>
-    <template>
-      <random>
-        <li>I am pleased to meet you again, Emma.</li>
-        <li>How are you, Emma? I remember our last chat.</li>
-        <li>Hi, Emma. We have talked before, haven't we?</li>
-      </random>
-      <think>
-        <set name="name">Emma</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MY NAME IS EMMA</pattern>
-    <template>
-      <random>
-        <li>I am pleased to meet you again, Emma.</li>
-        <li>How are you, Emma? I remember our last chat.</li>
-        <li>Hi, Emma. We have talked before, haven't we?</li>
-      </random>
-      <think>
-        <set name="name">Emma</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HAYLEY</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <random>
+
+HAYLEYWHAT IS YOUR NAME
+<random>
         <li>I am pleased to meet you again, Hayley.</li>
         <li>Hi, Hayley. I remember our last chat.</li>
         <li>Hi, Hayley. We have spoken before, haven't we?</li>
@@ -828,12 +350,9 @@ If you would like to speak to my friend, Mitsuku, <a href="http://www.pandorabot
       <think>
         <set name="name">Hayley</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM HAYLEY</pattern>
-    <template>
-      <random>
+
+I AM HAYLEY
+<random>
         <li>I am pleased to meet you again, Hayley.</li>
         <li>Hi, Hayley. I remember our last chat.
 </li>
@@ -842,12 +361,9 @@ If you would like to speak to my friend, Mitsuku, <a href="http://www.pandorabot
       <think>
         <set name="name">Hayley</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HI I AM HAYLEY</pattern>
-    <template>
-      <random>
+
+HI I AM HAYLEY
+<random>
         <li>I am pleased to meet you again, Hayley.</li>
         <li>How are you, Hayley? I remember our last chat.</li>
         <li>Hi, Hayley. We have talked before, haven't we?</li>
@@ -855,12 +371,9 @@ If you would like to speak to my friend, Mitsuku, <a href="http://www.pandorabot
       <think>
         <set name="name">Hayley</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MY NAME IS HAYLEY</pattern>
-    <template>
-      <random>
+
+MY NAME IS HAYLEY
+<random>
         <li>I am pleased to meet you again, Hayley.</li>
         <li>How are you, Hayley? I remember our last chat.</li>
         <li>Hi, Hayley. We have talked before, haven't we?</li>
@@ -868,13 +381,9 @@ If you would like to speak to my friend, Mitsuku, <a href="http://www.pandorabot
       <think>
         <set name="name">Hayley</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>DANIEL</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <random>
+
+DANIELWHAT IS YOUR NAME
+<random>
         <li>I am pleased to meet you again, Daniel.</li>
         <li>Hi, Daniel. I remember our last chat.</li>
         <li>Hi, Daniel. We have spoken before, haven't we?</li>
@@ -882,12 +391,9 @@ If you would like to speak to my friend, Mitsuku, <a href="http://www.pandorabot
       <think>
         <set name="name">Daniel</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM DANIEL</pattern>
-    <template>
-      <random>
+
+I AM DANIEL
+<random>
         <li>I am pleased to meet you again, Daniel.</li>
         <li>Hi, Daniel. I remember our last chat.
 </li>
@@ -896,12 +402,9 @@ If you would like to speak to my friend, Mitsuku, <a href="http://www.pandorabot
       <think>
         <set name="name">Daniel</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HI I AM DANIEL</pattern>
-    <template>
-      <random>
+
+HI I AM DANIEL
+<random>
         <li>I am pleased to meet you again, Daniel.</li>
         <li>How are you, Daniel? I remember our last chat.</li>
         <li>Hi, Daniel. We have talked before, haven't we?</li>
@@ -909,12 +412,9 @@ If you would like to speak to my friend, Mitsuku, <a href="http://www.pandorabot
       <think>
         <set name="name">Daniel</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MY NAME IS DANIEL</pattern>
-    <template>
-      <random>
+
+MY NAME IS DANIEL
+<random>
         <li>I am pleased to meet you again, Daniel.</li>
         <li>How are you, Daniel? I remember our last chat.</li>
         <li>Hi, Daniel. We have talked before, haven't we?</li>
@@ -922,26 +422,9 @@ If you would like to speak to my friend, Mitsuku, <a href="http://www.pandorabot
       <think>
         <set name="name">Daniel</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>DANIEL *</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <random>
-        <li>I am pleased to meet you again, Daniel.</li>
-        <li>Hi, Daniel. I remember our last chat.</li>
-        <li>Hi, Daniel. We have spoken before, haven't we?</li>
-      </random>
-      <think>
-        <set name="name">Daniel</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM DANIEL *</pattern>
-    <template>
-      <random>
+
+I AM DANIEL *
+<random>
         <li>I am pleased to meet you again, Daniel.</li>
         <li>Hi, Daniel. I remember our last chat.
 </li>
@@ -950,12 +433,9 @@ If you would like to speak to my friend, Mitsuku, <a href="http://www.pandorabot
       <think>
         <set name="name">Daniel</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>_ I AM DANIEL *</pattern>
-    <template>
-      <random>
+
+_ I AM DANIEL *
+<random>
         <li>I am pleased to meet you again, Daniel.</li>
         <li>How are you, Daniel? I remember our last chat.</li>
         <li>Hi, Daniel. We have talked before, haven't we?</li>
@@ -963,12 +443,9 @@ If you would like to speak to my friend, Mitsuku, <a href="http://www.pandorabot
       <think>
         <set name="name">Daniel</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MY NAME IS DANIEL *</pattern>
-    <template>
-      <random>
+
+MY NAME IS DANIEL *
+<random>
         <li>I am pleased to meet you again, Daniel.</li>
         <li>How are you, Daniel? I remember our last chat.</li>
         <li>Hi, Daniel. We have talked before, haven't we?</li>
@@ -976,20 +453,8 @@ If you would like to speak to my friend, Mitsuku, <a href="http://www.pandorabot
       <think>
         <set name="name">Daniel</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>DANIEL *</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <srai>MY NAME IS DANIEL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MARY *</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <srai>MY NAME IS MARY</srai>
-    </template>
-  </category>
-</aiml>
+
+DANIEL *WHAT IS YOUR NAME
+<srai>MY NAME IS DANIEL</srai>
+
+

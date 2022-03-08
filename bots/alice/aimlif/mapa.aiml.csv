@@ -1,11 +1,11 @@
 0,CEP *,*,*,buscando localidade,mapa.aiml
-0,ENDERE?O *,*,*,buscando localidade,mapa.aiml
+0,ENDEREÇO *,*,*,buscando localidade,mapa.aiml
 0,BAIRRO *,*,*,buscando localidade,mapa.aiml
 0,CIDADE *,*,*,buscando localidade,mapa.aiml
 0,PAIS *,*,*,buscando localidade,mapa.aiml
 0,LOGRADOURO *,*,*,buscando localidade,mapa.aiml
 0,AVENIDA *,*,*,buscando localidade,mapa.aiml
-0,PROCURE A ENDERE?O *,*,*,buscando localidade,mapa.aiml
+0,PROCURE A ENDEREÇO *,*,*,buscando localidade,mapa.aiml
 0,PROCURE O BAIRRO *,*,*,buscando localidade,mapa.aiml
 0,PROCURE A CIDADE *,*,*,buscando localidade,mapa.aiml
 0,PROCURE O PAIS *,*,*,buscando localidade,mapa.aiml

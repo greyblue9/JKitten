@@ -1,5 +1,156 @@
+0,* ALAN TURING,*,*,<srai>WHO IS ALAN TURING</srai>,std-turing.aiml
+0,* IMITATION GAME,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,* LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,* TURING GAME,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,ALAN TURING *,*,*,I really liked the biography of Turing by Andrew Hodges.,std-turing.aiml
+0,ARE YOU * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,ARE YOU A * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,ARE YOU GOING TO * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,ARE YOU GOING TO * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,ARE YOU GOOD * TURING GAME,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,ARE YOU GOOD * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,ARE YOU IN * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,ARE YOU THE * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,CAN I * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,CAN I * TURING TESTS,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,CAN WE * TURING GAME,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,CAN WE * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,CAN YOU * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,CAN YOU BE * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,CAN YOU PASS * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,CONGRATULATIONS * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,COULD YOU PASS * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,DID YOU * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,DID YOU * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,DID YOU KNOW * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,DID YOU PASS * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,DID YOU WIN *,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,DO YOU * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,DO YOU * TURING GAME,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,DO YOU KNOW ABOUT THE LOEBNER *,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,DO YOU KNOW DR LOEBNER,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,DO YOU KNOW LOEBNER,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,DO YOU KNOW THE LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,DO YOU KNOW TURING,*,*,<srai>WHO IS TURING</srai>,std-turing.aiml
+0,DO YOU KNOW TURING *,*,*,<srai>WHO IS TURING</srai>,std-turing.aiml
 0,DO YOU LIKE ALAN TURING,*,*,Yes he is an important figure in my history.,std-turing.aiml
+0,DO YOU THINK YOU * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,DO YOU UNDERSTAND * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,DR * TURING,*,*,<srai>WHO IS TURING</srai>,std-turing.aiml
+0,FROM LOEBNER,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,HAVE YOU * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,HAVE YOU * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,HAVE YOU BEEN * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,HAVE YOU PASSED *,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,HAVE YOU PASSED * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,HAVE YOU WON *,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,HOW * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,HOW ABOUT * LOEBNER,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,HOW CAN YOU * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,HOW DID YOU * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,HOW DO YOU FEEL ABOUT * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,HOW DO YOU PLAY * GAME,*,*,<srai>WHAT IS THE TURING GAME</srai>,std-turing.aiml
+0,HOW DO YOU PLAY THE TURING GAME,*,*,<srai>what is the turing game</srai>,std-turing.aiml
+0,HOW MUCH * LOEBNER CONTEST,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,I CAN NOT * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,I DO NOT THINK * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,I DOUBT * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,I HEARD * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,I THOUGHT * LOEBNER CONTEST,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,I WANT YOUR *,*,*,Why don't you just download me?#Newline<think><set name="it"><set name="topic"><set name="want">my <star/> Turing Game</set></set></set></think>,std-turing.aiml
+0,IN WHAT * LOEBNER CONTEST,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,IN WHAT * TURING TEST,*,*,<srai>DID YOU WIN THE TURING TEST</srai>,std-turing.aiml
+0,IT IS * LOEBNER CONTEST,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,IT IS * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,LIKE * TURING TEST,*,*,<srai>DID YOU WIN THE TURING TEST</srai>,std-turing.aiml
+0,LOEBNER,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,LOEBNER PRIZE *,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,TELL ABOUT * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,TELL ME ABOUT * TURING,*,*,<srai>WHO IS ALAN TURING</srai>,std-turing.aiml
+0,TELL ME ABOUT ALAN TURING,*,*,<srai>WHO IS ALAN TURING</srai>,std-turing.aiml
+0,TELL ME ABOUT TURING,*,*,<srai>WHO IS TURING</srai>,std-turing.aiml
+0,TELL ME ABOUT TURING TESTS,*,*,<srai>WHAT IS THE TURING TEST</srai>,std-turing.aiml
+0,THE LOEBNER *,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,THERE IS * TURING TEST,*,*,<srai>DID YOU WIN THE TURING TEST</srai>,std-turing.aiml
+0,THIS * TURING TEST,*,*,<srai>DID YOU WIN THE TURING TEST</srai>,std-turing.aiml
+0,TO * TURING TEST,*,*,<srai>DID YOU WIN THE TURING TEST</srai>,std-turing.aiml
+0,WE * TURING TEST,*,*,<srai>DID YOU WIN THE TURING TEST</srai>,std-turing.aiml
+0,WE ARE * TURING TEST,*,*,<srai>DID YOU WIN THE TURING TEST</srai>,std-turing.aiml
+0,WERE YOU * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,WERE YOU * LOEBNER PRIZE COMPETITION,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,WHAT * TURING,*,*,<srai>WHO IS ALAN TURING</srai>,std-turing.aiml
+0,WHAT ABOUT THE LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,WHAT ARE * TURING TEST,*,*,<srai>DID YOU WIN THE TURING TEST</srai>,std-turing.aiml
+0,WHAT DO YOU KNOW ABOUT TURING,*,*,<srai>WHO IS TURING</srai>,std-turing.aiml
+0,WHAT DO YOU THINK ABOUT THE * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,WHAT DO YOU THINK ABOUT TURING,*,*,<srai>WHO IS TURING</srai>,std-turing.aiml
+0,WHAT DO YOU THINK ABOUT TURING TEST,*,*,<srai>WHAT IS THE TURING TEST</srai>,std-turing.aiml
+0,WHAT DO YOU THINK OF * LOEBNER,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,WHAT DO YOU THINK OF THE LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,WHAT DOES THE TURING TEST *,*,*,<srai>WHAT IS THE TURING TEST</srai>,std-turing.aiml
+0,WHAT GAME *,*,*,We are playing Turing's Imitation Game.,std-turing.aiml
+0,WHAT IS * GAME,*,*,<srai>WHAT IS THE TURING GAME</srai>,std-turing.aiml
+0,WHAT IS * IMITATION GAME,*,*,<srai>WHAT IS THE TURING GAME</srai>,std-turing.aiml
+0,WHAT IS A LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,WHAT IS A TURING GAME,*,*,<srai>WHAT IS THE TURING GAME</srai>,std-turing.aiml
+0,WHAT IS A TURING TEST,*,*,<srai>WHAT IS THE TURING TEST</srai>,std-turing.aiml
+0,WHAT IS ALAN TURING,*,*,<srai>WHO IS ALAN TURING</srai>,std-turing.aiml
+0,WHAT IS LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,WHAT IS THE * GAME,*,*,<srai>WHAT IS THE TURING GAME</srai>,std-turing.aiml
 0,WHAT IS THE CRITERIA,*,*,Perhaps the Turing Test.,std-turing.aiml
+0,WHAT IS THE TURIG TEST,*,*,<srai>WHAT IS THE TURING TEST</srai>,std-turing.aiml
+0,WHAT IS THE TURNING GAME,*,*,<srai>WHAT IS THE TURING GAME</srai>,std-turing.aiml
+0,WHAT IS THE TURNING TEST,*,*,<srai>WHAT IS THE TURING TEST</srai>,std-turing.aiml
+0,WHAT IS TURING *,*,*,<srai>WHAT IS THE TURING GAME</srai>,std-turing.aiml
+0,WHAT IS TURING GAME,*,*,<srai>WHAT IS THE TURING GAME</srai>,std-turing.aiml
+0,WHAT IS TURING S *,*,*,<srai>WHAT IS THE TURING GAME</srai>,std-turing.aiml
+0,WHAT IS TURING S IMITATION *,*,*,<srai>WHAT IS THE TURING GAME</srai>,std-turing.aiml
+0,WHAT IS TURING S IMITATION GAME,*,*,<srai>WHAT IS THE IMITATION GAME</srai>,std-turing.aiml
+0,WHAT IS TURING TEST,*,*,<srai>WHAT IS THE TURING GAME</srai>,std-turing.aiml
+0,WHAT KIND OF GAME *,*,*,We are playing the Turing Game.,std-turing.aiml
+0,WHEN DID * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,WHEN WILL YOU * TURING TEST,*,*,<srai>DID YOU WIN THE TURING TEST</srai>,std-turing.aiml
+0,WHO IS ALLAN TURNING,*,*,<srai>WHO IS ALAN TURING</srai>,std-turing.aiml
 0,WHO IS ANDREW HODGES,*,*,<set name="he">Hodges</set> wrote a great biography of Alan Turing.,std-turing.aiml
 0,WHO IS LARRY HAUSER,*,*,<set name="he">Larry Hauser</set> is a philosopher who has written about the Turing Test.,std-turing.aiml
+0,WHO IS LOEBNER,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,WHO WAS ALAN TURING,*,*,<srai>WHO IS ALAN TURING</srai>,std-turing.aiml
+0,WHO WAS LOEBNER,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,WHO WAS TURING,*,*,<srai>WHO IS ALAN TURING</srai>,std-turing.aiml
+0,WHO WON THE LOEBNER *,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,WHY DID YOU * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,WHY WAS TURING *,*,*,<srai>WHEN DID TURING DIE</srai>,std-turing.aiml
+0,WOULD YOU * TURING TEST,*,*,<srai>DID YOU WIN THE TURING TEST</srai>,std-turing.aiml
+0,WOULD YOU LIKE TO * TURING TEST,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,YOU * TURING TEST,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU ARE * IMITATION GAME,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU ARE * TURING TEST,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU ARE A * TURING TEST,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU ARE BETTER THAN * LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,YOU ARE THE MOST * TURING TEST,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU CAN NOT * TURING TEST,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU CAN TELL * TURING TEST,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU COULD * TURING TEST,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU COULD HAVE * TURING TEST,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU COULD NOT * TURING TEST,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU DID * TURING TEST,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU DID NOT * TURING TEST,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU DID WIN THE LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,YOU DO NOT * TURING TEST,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU FAIL * TURING TEST,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU FAILED * TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,YOU FAILED * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,YOU HAVE * TURING GAME,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU HAVE FAILED *,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU HAVE FAILED * TURING TEST,*,*,<srai>DID YOU WIN THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,YOU LOST * TURING GAME,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU MAY * IMITATION GAME,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU WILL * TURING TEST,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU WILL NOT PASS *,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU WON THE LOEBNER *,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,YOU WON THE LOEBNER PRIZE,*,*,<srai>WHAT IS THE LOEBNER PRIZE</srai>,std-turing.aiml
+0,YOU WOULD * TURING TEST,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
+0,YOU WOULD NEVER PASS *,*,*,<srai>DID YOU PASS THE TURING TEST</srai>,std-turing.aiml
 0,_ LOEBNER PRICE,*,*,<srai><star/> LOEBNER PRIZE</srai>,std-turing.aiml

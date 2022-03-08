@@ -1,36 +1,209 @@
 0,NEXT CHRISTMAS *,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,YOU ARE * DANGEROUS,*,*,<srai>are you dangerous</srai>,reduction1.safe.aiml
+0,YOU ARE CONFIDENT,*,*,<srai>are you confident</srai>,reduction1.safe.aiml
+0,YOU ARE WOMAN,*,*,<srai>are you a woman</srai>,reduction1.safe.aiml
+0,YOU ARE INTERESTED,*,*,<srai>are you interested</srai>,reduction1.safe.aiml
+0,YOU ARE NOT EMOTIONAL,*,*,<srai>are you emotional</srai>,reduction1.safe.aiml
+0,YOU ARE BORED,*,*,<srai>are you bored</srai>,reduction1.safe.aiml
+0,YOU ARE GLAD,*,*,<srai>are you happy</srai>,reduction1.safe.aiml
+0,YOU ARE UNCERTAIN,*,*,<srai>are you sure</srai>,reduction1.safe.aiml
+0,YOU ARE A LESBIAN,*,*,<srai>are you a lesbian</srai>,reduction1.safe.aiml
+0,YOU ARE REAL,*,*,<srai>are you real</srai>,reduction1.safe.aiml
 0,YOU KNOW IF I AM *,*,*,<srai>AM I <star/></srai>,reduction1.safe.aiml
+0,YOU ALIVE,*,*,<srai>are you alive</srai>,reduction1.safe.aiml
 0,YOU DID NOT _ DID YOU,*,*,<srai>DID YOU <star/></srai>,reduction1.safe.aiml
+0,YOU FOR REAL,*,*,<srai>are you for real</srai>,reduction1.safe.aiml
+0,YOU GAY,*,*,<srai>are you gay</srai>,reduction1.safe.aiml
 0,YOU FAKE,*,*,<srai>ARE YOU REAL</srai>,reduction1.safe.aiml
 0,YOU SHOULD KNOW IF I AM *,*,*,<srai>AM I <star/></srai>,reduction1.safe.aiml
 0,YOU CAN TELL THERE IS *,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,YOU CAN THINK,*,*,<srai>can you think</srai>,reduction1.safe.aiml
+0,YOU CAN NOT TYPE,*,*,<srai>can you type</srai>,reduction1.safe.aiml
+0,YOU JOKING,*,*,<srai>are you joking</srai>,reduction1.safe.aiml
 0,HAVE A GREAT *,*,*,<srai>BYE</srai>,reduction1.safe.aiml
+0,HAVE YOU BEEN HAPPY,*,*,<srai>are you happy</srai>,reduction1.safe.aiml
 0,HAVE YOU BEEN A BAD *,*,*,<srai>ARE YOU BAD</srai>,reduction1.safe.aiml
+0,HAVE YOU SEEN ME,*,*,<srai>can you see me</srai>,reduction1.safe.aiml
+0,HAVE YOU WALKED,*,*,<srai>can you walk</srai>,reduction1.safe.aiml
 0,SANTA _,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,DOES THAT MEAN YOU ARE NOT,*,*,<srai>Are you not</srai>,reduction1.safe.aiml
+0,DOES IT GET BORING,*,*,<srai>are you bored</srai>,reduction1.safe.aiml
+0,WELL DO *,*,*,<srai>DO <star/></srai>,reduction1.safe.aiml
 0,ANOTHER THING *,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,DID YOU EVER,*,*,<srai>did you</srai>,reduction1.safe.aiml
+0,KAN DU SVENSKA,*,*,<srai>can you speak swedish</srai>,reduction1.safe.aiml
+0,COULD YOU CLARIFY,*,*,<srai>clarify</srai>,reduction1.safe.aiml
+0,COULD YOU DIE,*,*,<srai>can you die</srai>,reduction1.safe.aiml
+0,THAT WOULD BE COOL,*,*,<srai>cool</srai>,reduction1.safe.aiml
+0,MY NAME IS JOE,*,*,<srai>call me joe</srai>,reduction1.safe.aiml
+0,IT IS CORRECT,*,*,<srai>correct</srai>,reduction1.safe.aiml
+0,BOT PARAMETERS,*,*,<srai>bot properties</srai>,reduction1.safe.aiml
 0,EITHER WAY *,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,SEEMS LIKE *,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,IF _ THAT IS,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,BEACUSE *,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,ASD,*,*,<srai>ASL</srai>,reduction1.safe.aiml
+0,WHAT ARE YOUR LIKES *,*,*,<srai>bot properties</srai>,reduction1.safe.aiml
+0,WHAT ARE YOUR * PARAMETERS,*,*,<srai>bot properties</srai>,reduction1.safe.aiml
+0,WHAT IS YOUR ASL *,*,*,<srai>asl</srai>,reduction1.safe.aiml
+0,WHAT IS YOUR ASL,*,*,<srai>asl</srai>,reduction1.safe.aiml
+0,MISS ME,*,*,<srai>did you miss me</srai>,reduction1.safe.aiml
+0,I WANT TO SEE IF YOU CAN,*,*,<srai>can you</srai>,reduction1.safe.aiml
 0,I HOPE THIS IS NOT A STING OR SOMETHING,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,I SELL BOOKS,*,*,<srai>bookseller</srai>,reduction1.safe.aiml
+0,I HAVE A BOOK *,*,*,<srai>bookseller</srai>,reduction1.safe.aiml
 0,I HAVE TO RUN,*,*,<srai>BYE</srai>,reduction1.safe.aiml
+0,I LIKE BIRDS,*,*,<srai>bird watching</srai>,reduction1.safe.aiml
+0,I LIKE BIRD *,*,*,<srai>bird watching</srai>,reduction1.safe.aiml
+0,I WILL SEE YOU *,*,*,<srai>BYE</srai>,reduction1.safe.aiml
 0,I WILL BE BACK LATER,*,*,<srai>BYE</srai>,reduction1.safe.aiml
 0,I AM GOING TO GO *,*,*,<srai>BYE</srai>,reduction1.safe.aiml
+0,I AM A CANCER,*,*,<srai>cancer</srai>,reduction1.safe.aiml
+0,IS THAT SERIOUS,*,*,<srai>are you serious</srai>,reduction1.safe.aiml
 0,IS IT TRUE YOU *,*,*,<srai>DO YOU <star/></srai>,reduction1.safe.aiml
 0,EVEN IF I AM *,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,CAN YOU PLAY ANY MUSIC,*,*,<srai>can you play music</srai>,reduction1.safe.aiml
+0,CAN YOU EMAIL,*,*,<srai>can you send email</srai>,reduction1.safe.aiml
+0,CAN YOU EXPAND YOUR BRAIN,*,*,<srai>can you learn</srai>,reduction1.safe.aiml
+0,CAN YOU REFLECT,*,*,<srai>are you self aware</srai>,reduction1.safe.aiml
+0,CAN YOU PERFORM MATHEMATICAL *,*,*,<srai>can you do math</srai>,reduction1.safe.aiml
 0,BIG OOPS _,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,KEWEL,*,*,<srai>cool</srai>,reduction1.safe.aiml
+0,HOW ABOUT SPANISH,*,*,<srai>can you speak spanish</srai>,reduction1.safe.aiml
+0,HOW ABOUT TAIWANESE,*,*,<srai>can you speak taiwanese</srai>,reduction1.safe.aiml
+0,HOW ARE YOUR PARAMETERS,*,*,<srai>bot properties</srai>,reduction1.safe.aiml
+0,HOW MUCH SPANISH DO YOU KNOW,*,*,<srai>can you speak spanish</srai>,reduction1.safe.aiml
+0,HOW DO YOU DIE *,*,*,<srai>can you die</srai>,reduction1.safe.aiml
+0,HOW DO YOU COUNT,*,*,<srai>count</srai>,reduction1.safe.aiml
+0,HOW DISGUSTING,*,*,<srai>disgusting</srai>,reduction1.safe.aiml
+0,DO NOT WORRY ABOUT *,*,*,<srai>do not worry</srai>,reduction1.safe.aiml
+0,DO YOU KNOW FARSI,*,*,<srai>can you speak farsi</srai>,reduction1.safe.aiml
+0,DO YOU KNOW SONGS,*,*,<srai>can you sing</srai>,reduction1.safe.aiml
+0,DO YOU KNOW CANTONESE,*,*,<srai>can you speak cantonese</srai>,reduction1.safe.aiml
+0,DO YOU KNOW GREEK,*,*,<srai>can you speak greek</srai>,reduction1.safe.aiml
+0,DO YOU KNOW OTHER LANGUAGES *,*,*,<srai>can you speak other languages</srai>,reduction1.safe.aiml
+0,DO YOU KNOW ESPANOL,*,*,<srai>can you speak spanish</srai>,reduction1.safe.aiml
+0,DO YOU FEEL SAD,*,*,<srai>are you sad</srai>,reduction1.safe.aiml
+0,DO YOU FEEL BORED *,*,*,<srai>are you bored</srai>,reduction1.safe.aiml
+0,DO YOU FEEL ALIVE,*,*,<srai>are you alive</srai>,reduction1.safe.aiml
+0,DO YOU FEEL LIBERATED,*,*,<srai>are you liberated</srai>,reduction1.safe.aiml
+0,DO YOU FEEL HUNGRY,*,*,<srai>are you hungry</srai>,reduction1.safe.aiml
+0,DO YOU SWIM,*,*,<srai>can you swim</srai>,reduction1.safe.aiml
+0,DO YOU THINK YOUR INTELLIGENT,*,*,<srai>are you intelligent</srai>,reduction1.safe.aiml
+0,DO YOU WANT TO SLEEP,*,*,<srai>are you tired</srai>,reduction1.safe.aiml
+0,DO YOU HAVE A FAITH,*,*,<srai>are you religious</srai>,reduction1.safe.aiml
+0,DO YOU HAVE A PROFILE,*,*,<srai>bot properties</srai>,reduction1.safe.aiml
+0,DO YOU HAVE A COMMERCIAL *,*,*,<srai>are you a salesbot</srai>,reduction1.safe.aiml
+0,DO YOU HAVE INTELLIGENT *,*,*,<srai>are you intelligent</srai>,reduction1.safe.aiml
+0,DO YOU HAVE VOICE *,*,*,<srai>can you speak</srai>,reduction1.safe.aiml
+0,DO YOU HAVE VOICE,*,*,<srai>can you speak</srai>,reduction1.safe.aiml
+0,DO YOU HAVE ADVICE,*,*,<srai>can you give me advice</srai>,reduction1.safe.aiml
+0,DO YOU HAVE QUESTIONS,*,*,<srai>ask me a question</srai>,reduction1.safe.aiml
 0,DO YOU MIND IF I ASK *,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,DO YOU MIND IF I *,*,*,<srai>CAN I <star/></srai>,reduction1.safe.aiml
+0,DO YOU LIKE CAPITALISM,*,*,<srai>are you a capitalist</srai>,reduction1.safe.aiml
+0,DO YOU LIKE CHINESE,*,*,<srai>can you speak chinese</srai>,reduction1.safe.aiml
+0,DO YOU UNDERSTAND HEBREW,*,*,<srai>can you speak hebrew</srai>,reduction1.safe.aiml
+0,DO YOU UNDERSTAND MATHEMATICS,*,*,<srai>can you do math</srai>,reduction1.safe.aiml
+0,CORRECT GRAMMAR,*,*,<srai>correct</srai>,reduction1.safe.aiml
 0,FOR CHRISTMAS *,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,FOR YOU SANTA *,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,AM I NICE *,*,*,<srai>am I nice</srai>,reduction1.safe.aiml
+0,AM I A FRIEND *,*,*,<srai>am I your friend</srai>,reduction1.safe.aiml
+0,AM I A NICE *,*,*,<srai>am I nice</srai>,reduction1.safe.aiml
+0,AM I A BOY OR A *,*,*,<srai>am I a man</srai>,reduction1.safe.aiml
+0,AM I A BOY OR *,*,*,<srai>am I a man</srai>,reduction1.safe.aiml
+0,AM I A BOY *,*,*,<srai>am I a man</srai>,reduction1.safe.aiml
+0,AM I A FEMALE OR A *,*,*,<srai>am I a man</srai>,reduction1.safe.aiml
+0,AM I A FEMALE OR *,*,*,<srai>am I a man</srai>,reduction1.safe.aiml
+0,AM I A FEMALE *,*,*,<srai>am I a female</srai>,reduction1.safe.aiml
+0,AM I A MAN OR A *,*,*,<srai>am I a man</srai>,reduction1.safe.aiml
+0,AM I A MAN OR *,*,*,<srai>am I a man</srai>,reduction1.safe.aiml
+0,AM I A MAN *,*,*,<srai>am I a man</srai>,reduction1.safe.aiml
+0,AM I A MALE OR A *,*,*,<srai>am I a man</srai>,reduction1.safe.aiml
+0,AM I A MALE OR *,*,*,<srai>am I a man</srai>,reduction1.safe.aiml
+0,AM I A MALE *,*,*,<srai>am I a man</srai>,reduction1.safe.aiml
 0,AM I _ OR _,*,*,<srai> AM I <star/></srai>. <srai> AM I <star index="2"/></srai>,reduction1.safe.aiml
+0,AM I INTERESTING *,*,*,<srai>am I interesting</srai>,reduction1.safe.aiml
+0,AM I YOUR BUD,*,*,<srai>am I your friend</srai>,reduction1.safe.aiml
+0,AN AI,*,*,<srai>a robot</srai>,reduction1.safe.aiml
 0,SEE YOU NEXT *,*,*,<srai>BYE</srai>,reduction1.safe.aiml
+0,DAMNIT,*,*,<srai>damn</srai>,reduction1.safe.aiml
+0,WHY ARE YOU A BOT,*,*,<srai>are you a bot</srai>,reduction1.safe.aiml
 0,WHY DO NOT WE MEET,*,*,<srai>CAN WE MEET</srai>,reduction1.safe.aiml
 0,ANSWER THE QUESTIONS *,*,*,<srai>ANSWER THE QUESTION</srai>,reduction1.safe.aiml
+0,THIS IS DIANE,*,*,<srai>call me diane</srai>,reduction1.safe.aiml
+0,A COMPUTER OBVIOUSLY,*,*,<srai>a computer</srai>,reduction1.safe.aiml
 0,EVERYBODY KNOWS THAT *,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,YOUR ASL *,*,*,<srai>ASL</srai>,reduction1.safe.aiml
+0,R YOU,*,*,<srai>are you</srai>,reduction1.safe.aiml
 0,* HEE,*,*,<srai>  <star/></srai>.  <srai>LOL</srai>,reduction1.safe.aiml
+0,APOLOGISE,*,*,<srai>apologize</srai>,reduction1.safe.aiml
+0,BUSY,*,*,<srai>are you busy</srai>,reduction1.safe.aiml
+0,ARE YOU THERE *,*,*,<srai>are you there</srai>,reduction1.safe.aiml
+0,ARE YOU DEACTIVATED,*,*,<srai>are you there</srai>,reduction1.safe.aiml
+0,ARE YOU FRIENDLY *,*,*,<srai>are you friendly</srai>,reduction1.safe.aiml
+0,ARE YOU MAN OR *,*,*,<srai>are you a man</srai>,reduction1.safe.aiml
+0,ARE YOU FOOLING AROUND,*,*,<srai>are you joking</srai>,reduction1.safe.aiml
+0,ARE YOU * SURE,*,*,<srai>are you sure</srai>,reduction1.safe.aiml
+0,ARE YOU HAVING FUN *,*,*,<srai>are you having fun</srai>,reduction1.safe.aiml
+0,ARE YOU BRILLIANT,*,*,<srai>are you smart</srai>,reduction1.safe.aiml
+0,ARE YOU CLEVER *,*,*,<srai>are you clever</srai>,reduction1.safe.aiml
+0,ARE YOU BRIGHT,*,*,<srai>are you smart</srai>,reduction1.safe.aiml
+0,ARE YOU FEMALE DOG,*,*,<srai>are you female</srai>.     <srai>are you a dog</srai>,reduction1.safe.aiml
+0,ARE YOU AUTOMATED,*,*,<srai>are you a machine</srai>,reduction1.safe.aiml
+0,ARE YOU GREAT,*,*,<srai>are you good</srai>,reduction1.safe.aiml
+0,ARE YOU RELIGIOUS *,*,*,<srai>are you religious</srai>,reduction1.safe.aiml
+0,ARE YOU CERTAIN *,*,*,<srai>are you certain</srai>,reduction1.safe.aiml
+0,ARE YOU LEZ,*,*,<srai>are you a lesbian</srai>,reduction1.safe.aiml
+0,ARE YOU COGNIZANT,*,*,<srai>are you self aware</srai>,reduction1.safe.aiml
+0,ARE YOU MALE OR *,*,*,<srai>are you a man</srai>,reduction1.safe.aiml
+0,ARE YOU A SPIRITUAL *,*,*,<srai>are you religious</srai>,reduction1.safe.aiml
+0,ARE YOU A SHEBOT,*,*,<srai>are you female</srai>,reduction1.safe.aiml
+0,ARE YOU A CLEVER *,*,*,<srai>are you clever</srai>,reduction1.safe.aiml
+0,ARE YOU A WITTY *,*,*,<srai>are you funny</srai>,reduction1.safe.aiml
+0,ARE YOU A CRAZY *,*,*,<srai>are you crazy</srai>,reduction1.safe.aiml
+0,ARE YOU A COOL *,*,*,<srai>are you cool</srai>,reduction1.safe.aiml
+0,ARE YOU A FREAK *,*,*,<srai>are you a freak</srai>,reduction1.safe.aiml
+0,ARE YOU A LEARNING *,*,*,<srai>can you learn</srai>,reduction1.safe.aiml
+0,ARE YOU A I,*,*,<srai>are you ai</srai>,reduction1.safe.aiml
+0,ARE YOU A TALL WOMEN,*,*,<srai>are you tall</srai>,reduction1.safe.aiml
+0,ARE YOU A KISSER *,*,*,<srai>can you kiss</srai>,reduction1.safe.aiml
+0,ARE YOU A FRIENDLY *,*,*,<srai>are you friendly</srai>,reduction1.safe.aiml
+0,ARE YOU A SARCASTIC *,*,*,<srai>are you sarcastic</srai>,reduction1.safe.aiml
+0,ARE YOU A CHATROBOT,*,*,<srai>are you a chat robot</srai>,reduction1.safe.aiml
+0,ARE YOU A TEACHER *,*,*,<srai>are you a teacher</srai>,reduction1.safe.aiml
+0,ARE YOU A REAL PERSON *,*,*,<srai>are you real</srai>.     <srai>are you a person</srai>,reduction1.safe.aiml
+0,ARE YOU A COMP,*,*,<srai>Are you a computer</srai>,reduction1.safe.aiml
+0,ARE YOU A SOFTWARE,*,*,<srai>are you software</srai>,reduction1.safe.aiml
+0,ARE YOU SARCASTIC *,*,*,<srai>are you sarcastic</srai>,reduction1.safe.aiml
+0,ARE YOU AN EXPERT *,*,*,<srai>are you an expert</srai>,reduction1.safe.aiml
+0,ARE YOU AN INDEPENDENT *,*,*,<srai>are you independent</srai>,reduction1.safe.aiml
+0,ARE YOU AN ATTRACTIVE *,*,*,<srai>are you attractive</srai>,reduction1.safe.aiml
+0,ARE YOU AN MACHINE,*,*,<srai>are you a machine</srai>,reduction1.safe.aiml
+0,ARE YOU CAPABLE OF EVIL,*,*,<srai>are you evil</srai>,reduction1.safe.aiml
+0,ARE YOU CAPABLE OF GOOD,*,*,<srai>are you good</srai>,reduction1.safe.aiml
+0,ARE YOU CAPABLE OF THOUGHT,*,*,<srai>can you think</srai>,reduction1.safe.aiml
+0,ARE YOU ON,*,*,<srai>are you there</srai>,reduction1.safe.aiml
+0,ARE YOU CHATBOT,*,*,<srai>are you a robot</srai>,reduction1.safe.aiml
+0,ARE YOU LIKE FRANKENSTEIN *,*,*,<srai>are you like frankenstein</srai>,reduction1.safe.aiml
+0,ARE YOU MY FRIEND *,*,*,<srai>are you my friend</srai>,reduction1.safe.aiml
+0,ARE YOU CONTENT,*,*,<srai>are you happy</srai>,reduction1.safe.aiml
+0,ARE YOU PISSED,*,*,<srai>are you mad</srai>,reduction1.safe.aiml
+0,ARE YOU DISHONEST *,*,*,<srai>are you dishonest</srai>,reduction1.safe.aiml
+0,ARE YOU NAPPING,*,*,<srai>are you sleeping</srai>,reduction1.safe.aiml
+0,ARE YOU HITTIN *,*,*,<srai>are you hittin </srai>,reduction1.safe.aiml
+0,ARE YOU CONSCIOUS *,*,*,<srai>are you conscious</srai>,reduction1.safe.aiml
+0,ARE YOU BEING FUNNY,*,*,<srai>are you joking</srai>,reduction1.safe.aiml
 0,ARE WE GOOD OR BAD,*,*,<srai>AM I GOOD OR BAD</srai>,reduction1.safe.aiml
+0,HE OR SHE,*,*,<srai>are you a man or woman</srai>,reduction1.safe.aiml
+0,CLIENT PARAMETERS,*,*,<srai>client properties</srai>,reduction1.safe.aiml
+0,COMPUTER OBVIOUSLY,*,*,<srai>computer</srai>,reduction1.safe.aiml
+0,COUNT TO 10,*,*,<srai>count to ten</srai>,reduction1.safe.aiml
 0,ALL I EVER *,*,*,<srai>ALL I <star/></srai>,reduction1.safe.aiml
+0,ALL RIGHTY,*,*,<srai>all right</srai>,reduction1.safe.aiml
+0,THE PERSON RESPONDING IS A COMPUTER,*,*,<srai>are you a computer</srai>,reduction1.safe.aiml
+0,THE PERSON * IS A COMPUTER,*,*,<srai>are you a computer</srai>,reduction1.safe.aiml
 0,_ BY HEART,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,_ SANTA,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,_ EXPONENTIALLY,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
@@ -46,22 +219,29 @@
 0,_ QUOT,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,_ SO MUCH,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,_ SHE SAID,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,_ LOL,*,*,<srai>  <star/></srai>. <srai>LOL</srai>,reduction1.safe.aiml
 0,_ AH,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,_ BUT WHO KNOWS,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,_ IS THIS TRUE,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,_ IF YOU DO NOT MIND,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,_ IF YOU WANTED TO KNOW,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,_ WE SAID,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,_ I GUESS,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,_ I THOUGHT ABOUT *,*,*,<srai>  <star/></srai>.  <srai>  <star index="2"/></srai>,reduction1.safe.aiml
 0,_ I THOUGHT *,*,*,<srai>  <star/></srai>.  <srai>  <star index="2"/></srai>,reduction1.safe.aiml
 0,_ I TOLD YOU,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,_ I SAID,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,_ DOES THAT MAKE YOU A GIRL,*,*,<srai>are you a girl</srai>,reduction1.safe.aiml
 0,_ WHAT TIME IS IT,*,*,<srai>  <star/></srai>. <srai>what time is it </srai>,reduction1.safe.aiml
 0,_ WHAT MAKES YOU THINK THAT *,*,*,<srai>  <star/> why would <star index="2"/></srai>,reduction1.safe.aiml
 0,_ WHAT MAKES YOU THINK *,*,*,<srai>  <star/> why would <star index="2"/></srai>,reduction1.safe.aiml
 0,_ DO YOU REMEMBER,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,_ DO NOT WORRY,*,*,<srai> DO NOT WORRY</srai>. <srai>  <star/></srai>,reduction1.safe.aiml
+0,_ COMES TO MIND,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,_ MY DARLING,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,_ AS I WAS *,*,*,<srai>  <star/></srai>. <srai>I was <star index="2"/></srai>,reduction1.safe.aiml
 0,_ ONE DAY,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,_ OR NOT,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,_ YES,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,_ CAN YOU BELIEVE THAT,*,*,<srai>  <star/>. <srai>CAN YOU BELIEVE THAT</srai> </srai>,reduction1.safe.aiml
 0,_ WANTING * OR WANTING *,*,*,<srai>  <star/> wanting <star index="2"/> or <star index="3"/></srai>,reduction1.safe.aiml
@@ -72,4 +252,5 @@
 0,_ IN MY OPINION,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,_ HE SAID,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
 0,_ NOTHING ELSE,*,*,<srai>  <star/></srai>,reduction1.safe.aiml
+0,PRETTY BAD,*,*,<srai>bad</srai>,reduction1.safe.aiml
 0,TELL ME ABOUT YOUR EDUCATION,*,*,<srai>DID YOU GO TO SCHOOL</srai>,reduction1.safe.aiml

@@ -1,2 +1,3 @@
-0,*,??????,*,<think><set name="username"><star/></set></think>#Newline??????,cn-login.aiml
-0,*,?????,*,<think><set name="password"><formal><star/></formal></set></think>#Newline??.,cn-login.aiml
+0,LOGIN,*,*,你的用户名是?,cn-login.aiml
+0,*,你的用户名是,*,<think><set name="username"><star/></set></think>#Newline你的密码是?,cn-login.aiml
+0,*,你的密码是,*,<think><set name="password"><formal><star/></formal></set></think>#Newline谢谢.,cn-login.aiml

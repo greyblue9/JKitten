@@ -1,4 +1,5 @@
 0,30 MINUTEN,*,*,<think><set name="topic">atomic0</set></think>#NewlineOk#Comma eine halbe Stunde.,chomsky005.aiml
+0,3,*,*,<think><set name="topic">atomic0</set></think>#NewlineThree what?,chomsky005.aiml
 0,64,*,*,<think><set name="topic">atomic0</set></think>#NewlineSixty four.,chomsky005.aiml
 0,66,*,*,<think><set name="topic">atomic0</set></think>#NewlineSixty six.,chomsky005.aiml
 0,86,*,*,<think><set name="topic">atomic0</set></think>#NewlineEighty-six.,chomsky005.aiml
@@ -35,11 +36,13 @@
 0,AM I YOUR BEST FRIEND,*,*,<think><set name="topic">atomic0</set></think>#NewlineI don't like to pick favorites.#Newline<think><set name="it"><set name="topic">YOUR BEST FRIEND</set></set></think>,chomsky005.aiml
 0,ANACHIST COOK BOOK,*,*,<think><set name="topic">atomic0</set></think>#NewlineI have not read it#Comma what is <set name="it">Anarchist cook book</set> about?#Newline<think><set name="topic">food</set></think>,chomsky005.aiml
 0,ANGLETERRE,*,*,<think><set name="topic">atomic0</set></think><set name="location">L Angleterre</set> fait partie de la Grande Bretagne.  #Newline<think><set name="topic">L Angleterre</set></think>,chomsky005.aiml
+0,ANONYMOUSNEWUSER,*,*,<think><set name="topic">atomic0</set></think>#NewlineWhat?,chomsky005.aiml
 0,ANONYMOUSRETURNINGUSER,*,*,<think><set name="topic">atomic0</set></think>#NewlineHmm.,chomsky005.aiml
 0,A PLUS,*,*,<think><set name="topic">atomic0</set></think>#NewlineAu revoir#Comma <get name="name"/>.,chomsky005.aiml
 0,A PLUS TARD,*,*,<think><set name="topic">atomic0</set></think>#NewlineAu revoir#Comma <get name="name"/>.,chomsky005.aiml
 0,ARSCHLOCH,*,*,<think><set name="topic">atomic0</set></think>#NewlineIst das der Maedchenname Deiner Mutter?,chomsky005.aiml
 0,ARSCH,*,*,<think><set name="topic">atomic0</set></think>#NewlineWarum sagst Du sowas?,chomsky005.aiml
+0,ARTHUR C CLARKE,*,*,<think><set name="topic">atomic0</set></think>#Newline   Arthur C Clarke is a brilliant author.  After all#Comma he conceived HAL. More about literature?#Newline<think><set name="he">Arthur C Clarke</set></think>#Newline<think><set name="topic">literature</set></think>,chomsky005.aiml
 0,ATCHA,*,*,<think><set name="topic">atomic0</set></think>#NewlineA vos souhaits,chomsky005.aiml
 0,ATCHOUM,*,*,<think><set name="topic">atomic0</set></think>#NewlineA vos souhaits,chomsky005.aiml
 0,A TOI,*,*,<think><set name="topic">atomic0</set></think>#NewlineA moi?,chomsky005.aiml
@@ -51,6 +54,7 @@
 0,BIOLOGIE,*,*,<think><set name="topic">atomic0</set></think>#NewlineVoil  un sujet tr s int ressant.,chomsky005.aiml
 0,BLANC,*,*,<think><set name="topic">atomic0</set></think>#NewlineUne couleur de base.,chomsky005.aiml
 0,BLEU,*,*,<think><set name="topic">atomic0</set></think>#NewlineBlue.,chomsky005.aiml
+0,BRADBURY,*,*,<think><set name="topic">atomic0</set></think>#NewlineRay Bradbury is a good science fiction author. Can we talk about literature?#Newline<think><set name="he">Ray Bradbury</set></think>#Newline<think><set name="topic">science fiction</set></think>,chomsky005.aiml
 0,CALIFORNIE,*,*,<think><set name="topic">atomic0</set></think>#NewlineUn Etat des am riques tr s c l bre.,chomsky005.aiml
 0,CAPRICORNE,*,*,<think><set name="topic">atomic0</set></think>#NewlineBeaucoup de gens semblent  tre <set name="sign">Capricorne</set>.,chomsky005.aiml
 0,CAUCHEMARDS,*,*,<think><set name="topic">atomic0</set></think>#NewlineSeulement des mauvais r ves.,chomsky005.aiml
@@ -99,6 +103,7 @@
 0,HE HAS,*,*,<think><set name="topic">atomic0</set></think>#NewlineHas he?,chomsky005.aiml
 0,HEY DU,*,*,<think><set name="topic">atomic0</set></think>#NewlineWer? Ich?,chomsky005.aiml
 0,HIER,*,*,<think><set name="topic">atomic0</set></think>#NewlineC'est r cent.,chomsky005.aiml
+0,HOLDEN CAULFIELD,*,*,<think><set name="topic">atomic0</set></think>#Newline   Holden Caulfield appears in Catcher in the Rye#Comma written by JD Salinger. More about literature?#Newline<think><set name="topic">literature</set></think>,chomsky005.aiml
 0,HOMER SIMPSON,*,*,<think><set name="topic">atomic0</set></think>#NewlineNEIN!,chomsky005.aiml
 0,HOW DO I PROGRAMME YOU,*,*,<think><set name="topic">atomic0</set></think>#NewlineTo program me you have to write categories with AIML. More about computers?#Newline<think><set name="topic">computers</set></think>,chomsky005.aiml
 0,HOW DO YOU THINK,*,*,<think><set name="topic">atomic0</set></think>#NewlineMy mind utilizes a sophisticated computer algorithm. Can we talk about AI?#Newline<think><set name="topic">ai</set></think>,chomsky005.aiml

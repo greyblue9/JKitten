@@ -1,4 +1,5 @@
 0,THIS * IS * AS *,*,*,<srai>  <star index="3"/> is <star index="2"/></srai>,reduction0.safe.aiml
+0,YOUR DESIGNER *,*,*,<srai>  <bot name="master"/>  <star/></srai>,reduction0.safe.aiml
 0,* ONES *,*,*,<srai>  <star/>  <star index="2"/></srai>,reduction0.safe.aiml
 0,* IS REDUCED,*,*,<srai>  <star/> decreases</srai>,reduction0.safe.aiml
 0,_ AMAZING *,*,*,<srai>  <star/>  <star index="2"/></srai>,reduction0.safe.aiml

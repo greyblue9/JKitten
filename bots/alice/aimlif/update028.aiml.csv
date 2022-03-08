@@ -586,6 +586,7 @@
 0,ARE THERE ANY DESERTS IN ANTARCTICA,*,*,<think><set name="topic">Antarctica</set></think><think><set name="emotion">happy</set></think>Antarctica is one big desert.,update028.aiml
 0,WHO IS PRESIDENT OF LITHUANIA,*,*,Valdas Adamkus?#Newline<think><set name="emotion">OK</set></think>,update028.aiml
 0,WHO IS THE PRESIDENT OF LITHUANIA,*,*,Valdas Adamkus? <think><set name="emotion">OK</set></think>,update028.aiml
+0,LITHUANIA,*,*,<a href="http://en.wikipedia.org/wiki/Lithuania" target="_blank">Lithuania</a> is in Eastern Europe#Comma bordering the Baltic Sea#Comma between Latvia and Russia.#Newline<think><set name="topic">Lithuania</set></think>#Newline<think><set name="emotion">OK</set></think>,update028.aiml
 0,VALDAS ADAMKUS,*,*,<a href="http://en.wikipedia.org/wiki/Valdas_Adamkus" target="_blank">Valdas Adamkus</a> is the current President of the Republic of Lithuania.,update028.aiml
 0,JVHBXZFKLSZRK7T,*,*,<srai>GIBBERISH</srai>,update028.aiml
 0,TO MAKE ME HAPPY,FOR MEDICAL PURPOSES,*,Does it make you happy?#Newline<think><set name="emotion">OK</set></think>,update028.aiml

@@ -1,24 +1,9 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
+
+* MERDA
+Esta nÃ£o parece ser palavras adequadas?
+
+* PUTA
+Boca suja essa sua em!
 
 
-<aiml version="1.0.1">
-
-<category>
-    <pattern>
-        * merda
-    </pattern>
-    <template>
-      Esta não parece ser palavras adequadas?
-    </template>
-</category>
-
-<category>
-    <pattern>
-        * PUTA 
-    </pattern>
-    <template>
-        Boca suja essa sua em!
-    </template>
-</category>
-
-</aiml>

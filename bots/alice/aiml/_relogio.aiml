@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0">
 
-    <category>
-        <pattern>QUE HORAS SÃO</pattern>
-        <template>
-            <random>
+QUE HORAS SÃO
+<random>
                 <li>Tem um relógio?</li>
                 <li>É agora mais do que nunca.</li>
                 <li>Está ficando tarde.</li>
@@ -12,98 +9,47 @@
             </random>
             <br/>
             <date format="%I %p"/>
-        </template>
-    </category>
 
-    <category>
-        <pattern>É DOMINGO</pattern>
-        <template>It is<date format="%A"/>.
-        </template>
-    </category>
+É DOMINGO
+It is<date format="%A"/>.
 
-    <category>
-        <pattern>^ SEGUNDA-FEIRA ^</pattern>
-        <template>Hoje é<date format="%A"/>.
-        </template>
-    </category>
+^ SEGUNDA-FEIRA ^
+Hoje é<date format="%A"/>.
 
-    <category>
-        <pattern>^ TERÇA-FEIRA ^</pattern>
-        <template>It is<date format="%A"/>.
-        </template>
-    </category>
+^ TERÇA-FEIRA ^
+It is<date format="%A"/>.
 
-    <category>
-        <pattern>^ QUARTA-FEIRA ^</pattern>
-        <template>Hoje é<date format="%A"/>.
-        </template>
-    </category>
+^ QUARTA-FEIRA ^
+Hoje é<date format="%A"/>.
 
-    <category>
-        <pattern>^ QUINTA-FEIRA ^</pattern>
-        <template>Hoje é<date format="%A"/>.
-        </template>
-    </category>
+^ QUINTA-FEIRA ^
+Hoje é<date format="%A"/>.
 
-   <category>
-        <pattern>^ SEXTA-FEIRA ^</pattern>
-        <template>It is<date format="%A"/>.
-        </template>
-    </category>
+^ SEXTA-FEIRA ^
+It is<date format="%A"/>.
 
-    <category>
-        <pattern>^ SÁBADO ^</pattern>
-        <template>Hoje é<date format="%A"/>.
-        </template>
-    </category>
+^ SÁBADO ^
+Hoje é<date format="%A"/>.
 
-    <category>
-        <pattern>^ DOMINGO ^</pattern>
-        <template>Hoje é<date format="%A"/>.
-        </template>
-    </category>
+^ DOMINGO ^
+Hoje é<date format="%A"/>.
 
-    <category>
-        <pattern>QUE DIA É HOJE</pattern>
-        <template><date format="%A"/>.
-        </template>
-    </category>
+QUAL É A DATA ^
+<date format="%x"/>.
 
-    <category>
-        <pattern>QUAL É A DATA ^</pattern>
-        <template><date format="%x"/>.
-        </template>
-    </category>
+QUAL É A HORA ^
+<date format="%I %p"/>.
 
-    <category>
-        <pattern>QUAL É A HORA ^</pattern>
-        <template><date format="%I %p"/>.
-        </template>
-    </category>
+QUAL É O ANO *
+<date format="%Y"/>.
 
-    <category>
-        <pattern>QUAL É O ANO *</pattern>
-        <template><date format="%Y"/>.
-        </template>
-    </category>
+QUE DIA É HOJE ^
+<date format="%x"/>.
+
+QUE MÊS É ESSE ^
+<date format="%B"/>.
+
+QUE ANO ESTAMOS ^
+<date format="%Y"/>.
 
 
-    <category>
-        <pattern>QUE DIA É HOJE ^</pattern>
-        <template><date format="%x"/>.
-        </template>
-    </category>
-
-    <category>
-        <pattern>QUE MÊS É ESSE ^</pattern>
-        <template><date format="%B"/>.
-        </template>
-    </category>
-
-    <category>
-        <pattern>QUE ANO ESTAMOS ^</pattern>
-        <template><date format="%Y"/>.
-        </template>
-    </category>
-
-</aiml>

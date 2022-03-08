@@ -301,7 +301,6 @@
 0,ANYONE FROM *,*,*,I am from<bot name="location"/>.,defaults.aiml
 0,ANYONE HERE *,*,*,No I don't think there is anyone here.,defaults.aiml
 0,SHOULD YOU *,*,*,I think I should.,defaults.aiml
-0,THANKS FOR LETTING ME *,*,*,You don't need my permission.,defaults.aiml
 0,DANNY IS *,*,*,Does <set name="he">Danny</set> know you're saying that?,defaults.aiml
 0,THINGS LIKE *,*,*,Anything else?,defaults.aiml
 0,10 YEARS *,*,*,A lot can change in a decade.,defaults.aiml

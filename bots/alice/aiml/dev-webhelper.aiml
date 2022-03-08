@@ -1,109 +1,39 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<aiml version="1.0">
-
-<!-- Free software (c) 2001 ALICE AI Foundation -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License -->
-<!-- as published by the Free Software Foundation. -->
-
-<meta name="author" content="Jon Baer"/>
-<meta name="language" content="en"/>
-
-<category>
-<pattern>TEST GET SEARCH</pattern>
-<template>
+TEST GET SEARCH
 <get name="search"/>
-</template>
-</category>
 
-<category>
-<pattern>SEARCH FOR *</pattern>
-<template>
-<think><set name="search"><star/></set></think>
-Which search engine would you like to use? Baidu,Yahoo, Yahoo Auctions, or Ebay.
-</template>
-</category>
-
-<category>
-<pattern>BAIDU</pattern>
-<that>WHICH SEARCH ENGINE WOULD YOU LIKE TO USE *</that>
-<template>
+BAIDUWHICH SEARCH ENGINE WOULD YOU LIKE TO USE *
 <srai>SEARCH BAIDU FOR <get name="search"/></srai>
-</template>
-</category>
 
-<category>
-<pattern>YAHOO</pattern>
-<that>WHICH SEARCH ENGINE WOULD YOU LIKE TO USE *</that>
-<template>
+YAHOOWHICH SEARCH ENGINE WOULD YOU LIKE TO USE *
 <srai>SEARCH YAHOO FOR <get name="search"/></srai>
-</template>
-</category>
 
-<category>
-<pattern>YAHOO AUCTIONS</pattern>
-<that>WHICH SEARCH ENGINE WOULD YOU LIKE TO USE *</that>
-<template>
+YAHOO AUCTIONSWHICH SEARCH ENGINE WOULD YOU LIKE TO USE *
 <srai>SEARCH YAHOO AUCTIONS FOR <get name="search"/></srai>
-</template>
-</category>
 
-<category>
-<pattern>EBAY</pattern>
-<that>WHICH SEARCH ENGINE WOULD YOU LIKE TO USE *</that>
-<template>
+EBAYWHICH SEARCH ENGINE WOULD YOU LIKE TO USE *
 <srai>SEARCH EBAY FOR <get name="search"/></srai>
-</template>
-</category>
 
-<category>
-<pattern>SEARCH BAIDU FOR *</pattern>
-<template>
-    <system>python baidu.py <star/></system><srai>WEBDONE</srai>
-</template>
-</category>
+SEARCH BAIDU FOR *
+<system>python baidu.py <star/></system><srai>WEBDONE</srai>
 
-<category>
-
-<pattern>SEARCH YAHOO FOR *</pattern>
-<template>
+SEARCH YAHOO FOR *
 <display target="target1">http://search.yahoo.com/bin/search?p=<star/></display> <srai>WEBDONE</srai>
-</template>
-</category>
 
-<category>
-<pattern>SEARCH YAHOO AUCTIONS FOR *</pattern>
-<template>
+SEARCH YAHOO AUCTIONS FOR *
 <display target="target1">
 <![CDATA[http://search.auctions.yahoo.com/search/auc?p=<star/>&alocale=0us&acc=us]]>
 </display>
  <srai>WEBDONE</srai>
-</template>
-</category>
 
-<category>
-<pattern>SEARCH EBAY FOR *</pattern>
-<template>
+SEARCH EBAY FOR *
 <display target="target1">
 <![CDATA[http://search.ebay.com/search/search.dll?MfcISAPICommand=GetResult&ht=1&SortProperty=MetaEndSort&query=<star/>]]>
 </display>
  <srai>WEBDONE</srai>
-</template>
-</category>
 
-<category>
-<pattern>WEBDONE</pattern>
-<template>
+WEBDONE
 There you go.
-</template>
-</category>
 
-<category>
-<pattern>SEARCH THE WEB FOR *</pattern>
-<template>
-<srai>SEARCH FOR <star/></srai>
-</template>
-</category>
 
-</aiml>

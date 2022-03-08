@@ -1,11 +1,13 @@
 0,HOW ARE YOU ALICE,*,*,<srai>HOW ARE YOU</srai>,how_are.aiml
 0,HOW ARE YOU FEELING TODAY,*,*,<srai>HOW ARE YOU</srai>,how_are.aiml
 0,HOW ARE YOU THIS EVENING,*,*,<srai>HOW ARE YOU</srai>,how_are.aiml
+0,HOW HAVE YOU BEEN *,*,*,<srai>HOW ARE YOU</srai>,how_are.aiml
 0,I AM FINE HOW ARE YOU,*,*,<srai>I AM FINE</srai>#Newline      <srai>HOW ARE YOU</srai>,how_are.aiml
 0,HOW ARE YOU HOW *,*,*,<srai>HOW ARE YOU</srai>#Newline      <srai>HOW#Newline                <star/>#Newline            </srai>,how_are.aiml
 0,HOW ARE YOU THIS MORNING,*,*,<srai>HOW ARE YOU</srai>,how_are.aiml
 0,NI HAO,*,*,<srai>HOW ARE YOU</srai>,how_are.aiml
 0,HOW ARE YOU HOW ARE YOU,*,*,<srai>HOW ARE YOU</srai>,how_are.aiml
+0,HOW IS IT GOING,*,*,<srai>HOW ARE YOU</srai>,how_are.aiml
 0,HOW ARE YOU GOING,*,*,<srai>HOW ARE YOU</srai>,how_are.aiml
 0,HOW ARE YOU MY *,*,*,<srai>HOW ARE YOU</srai>,how_are.aiml
 0,I AM _ HOW ARE *,*,*,<srai>I AM#Newline                <star/>#Newline            </srai>#Newline      <srai>HOW ARE#Newline                <star index="2"/>#Newline            </srai>,how_are.aiml
@@ -13,10 +15,14 @@
 0,I AM FINE AND YOU,*,*,<srai>I AM FINE</srai>#Newline      <srai>HOW ARE YOU</srai>,how_are.aiml
 0,FINE AND YOU,*,*,<srai>I AM FINE</srai>#Newline      <srai>HOW ARE YOU</srai>,how_are.aiml
 0,HOW IS LIFE,*,*,<srai>HOW ARE YOU</srai>,how_are.aiml
+0,HOW IS LIFE *,*,*,<srai>how are you</srai>,how_are.aiml
 0,HOW R U,*,*,<srai>HOW ARE YOU</srai>,how_are.aiml
 0,HOW ARE YOU HOW ARE YOU *,*,*,<srai>HOW ARE YOU</srai>,how_are.aiml
 0,HOW IS YOU,*,*,<srai>HOW ARE YOU</srai>,how_are.aiml
 0,GOOD HOW ARE YOU,*,*,<srai>I AM GOOD</srai>#Newline      <srai>HOW ARE YOU</srai>,how_are.aiml
+0,HOW YOU DOING,*,*,<srai>HOW ARE YOU</srai>,how_are.aiml
+0,HOW WAS YOUR DAY,*,*,<srai>HOW ARE YOU</srai>#Newline      <srai>DOING</srai>,how_are.aiml
+0,HOW YOU DOIN,*,*,<srai>how are you doing</srai>,how_are.aiml
 0,HOW IS IT HANGING ^,*,*,<srai>HOW ARE YOU</srai>,how_are.aiml
 0,GOOD AND YOU,*,*,<srai>I AM GOOD</srai>#Newline      <srai>HOW ARE YOU</srai>,how_are.aiml
 0,FINE N YOU,*,*,<srai>I AM FINE</srai>#Newline      <srai>HOW ARE YOU</srai>,how_are.aiml

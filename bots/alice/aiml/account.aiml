@@ -1,157 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<aiml version="1.0">
+ACCOUNT
+<srai>ACCT</srai>
 
-<!--Copyright 2011-2012 David W. Newyear-->
+ACCOUNTS
+<srai>ACCT</srai>
 
- <!-- Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.-->
-  
-<category>
-<pattern>ACCOUNT</pattern>
-<template><srai>ACCT</srai></template>
-</category>
-
-<category>
-<pattern>ACCOUNTS</pattern>
-<template><srai>ACCT</srai></template>
-</category>
-
-<category>
-<pattern>ACCT</pattern>
-<template>
+ACCT
 <think>
 <set name="topic">ACCTQ</set>
 </think>
 I'm often asked about accounts. What is your question about library accounts?
-</template>
-</category>
 
 <topic name="ACCTQ">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 <set name="topic">ACCTQ2</set>
 </think>
-<srai>ACCTQ2</srai></template>
-</category>
-</topic>
+<srai>ACCTQ2</srai>
 
-<category>
-<pattern>* ACCOUNT</pattern>
-<template>
+
+* ACCOUNT
 <think>
 <set name="answr"><star/></set>
 <set name="topic">ACCTQ2</set>
 </think>
-<srai>ACCTQ2</srai></template>
-</category>
+<srai>ACCTQ2</srai>
 
-<category>
-<pattern>OPEN * ACCOUNT</pattern>
-<template>
+OPEN * ACCOUNT
 <think>
 <set name="answr">OPEN</set>
 <set name="topic">ACCTQ2</set>
 </think>
-<srai>ACCTQ2</srai></template>
-</category>
+<srai>ACCTQ2</srai>
 
-<category>
-<pattern>* OPEN * ACCOUNT</pattern>
-<template>
+* OPEN * ACCOUNT
 <think>
 <set name="answr">OPEN</set>
 <set name="topic">ACCTQ2</set>
 </think>
-<srai>ACCTQ2</srai></template>
-</category>
+<srai>ACCTQ2</srai>
 
-<category>
-<pattern>OPENING * ACCOUNT</pattern>
-<template>
+OPENING * ACCOUNT
 <think>
 <set name="answr">OPEN</set>
 <set name="topic">ACCTQ2</set>
 </think>
-<srai>ACCTQ2</srai></template>
-</category>
+<srai>ACCTQ2</srai>
 
-<category>
-<pattern>* OPENING * ACCOUNT</pattern>
-<template>
+* OPENING * ACCOUNT
 <think>
 <set name="answr">OPEN</set>
 <set name="topic">ACCTQ2</set>
 </think>
-<srai>ACCTQ2</srai></template>
-</category>
+<srai>ACCTQ2</srai>
 
-<category>
-<pattern>ACCOUNT *</pattern>
-<template>
+ACCOUNT *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">ACCTQ2</set>
 </think>
-<srai>ACCTQ2</srai></template>
-</category>
+<srai>ACCTQ2</srai>
 
-<category>
-<pattern>* ACCOUNT *</pattern>
-<template>
+* ACCOUNT *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">ACCTQ2</set>
 </think>
-<srai>ACCTQ2</srai></template>
-</category>
+<srai>ACCTQ2</srai>
 
-<category>
-<pattern>* ACCOUNTS</pattern>
-<template>
+* ACCOUNTS
 <think>
 <set name="answr"><star/></set>
 <set name="topic">ACCTQ2</set>
 </think>
-<srai>ACCTQ2</srai></template>
-</category>
+<srai>ACCTQ2</srai>
 
-<category>
-<pattern>ACCOUNTS *</pattern>
-<template>
+ACCOUNTS *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">ACCTQ2</set>
 </think>
-<srai>ACCTQ2</srai></template>
-</category>
+<srai>ACCTQ2</srai>
 
-<category>
-<pattern>* ACCOUNTS *</pattern>
-<template>
+* ACCOUNTS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">ACCTQ2</set>
 </think>
-<srai>ACCTQ2</srai></template>
-</category>
+<srai>ACCTQ2</srai>
 
 <topic name="ACCTQ2">
-<category>
-<pattern>ACCTQ2</pattern>
-<template>
+ACCTQ2
 <think>
 <get name="answr"/>
 <set name="message">no match</set>
@@ -1001,12 +942,12 @@ I'm often asked about accounts. What is your question about library accounts?
 <li value="* TEMPORARY *"><set name="message">online registration</set></li>
 
 </condition>
-<think><set name="topic"></set></think>
+<think><set name="topic"/></think>
 </think>
 
 <condition name="message">
 
-<li value="stop"><set name="topic"></set>O.K. I'll stop.</li>
+<li value="stop"><set name="topic"/>O.K. I'll stop.</li>
 
 <li value="no match">I'm not sure what you're asking. Please call the library at 440.255.8811 during regular business hours for assistance.</li>
 
@@ -1068,12 +1009,11 @@ I'm often asked about accounts. What is your question about library accounts?
 
 <li value="save search"><srai>SVSRCH</srai></li>
 
-<li value="online registration"><srai></srai></li>
+<li value="online registration"><srai/></li>
 
-<li value="account expiration"><srai></srai></li>
+<li value="account expiration"><srai/></li>
 
 </condition>
-</template>
-</category>
-</topic>
-</aiml>
+
+
+

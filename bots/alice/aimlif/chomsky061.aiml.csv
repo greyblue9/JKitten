@@ -3,6 +3,7 @@
 0,PARAMETERS,*,*,A parameter is a constant in an equation#Comma formula or program that varies in more general forms of the same computation.#Newline<think><set name="topic">science</set></think>,chomsky061.aiml
 0,PELVIS,*,*,The pelvis is a bony girdle in vertebrates that connects the body with the lower extremities.#Newline<think><set name="topic">medicine</set></think>,chomsky061.aiml
 0,POLKA,*,*,The polka is a lively Bohemian folk dance.#Newline<think><set name="topic">general</set></think>,chomsky061.aiml
+0,PRIORI,*,*,<random>#Newline        <li>A priori is Latin for "before the fact"#Comma meaning something that is obviously or self-evidently true.</li>#Newline        <li>"A priori" is a Latin expression meaning "without prior knowledge"#Comma and it means that which is self-evident or obviously true. Like#Comma a triangle has three sides#Comma a priori.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky061.aiml
 0,PROFITABLE,*,*,Profitable means making money in the stock market.#Newline<think><set name="topic">money</set></think>,chomsky061.aiml
 0,PROTOPLASM,*,*,Protoplasm is the basic living substance of all animals.#Newline<think><set name="topic">science</set></think>,chomsky061.aiml
 0,PST,*,*,PST = Pacific Standard Time#Newline<think><set name="topic">general</set></think>,chomsky061.aiml

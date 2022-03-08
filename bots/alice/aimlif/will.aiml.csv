@@ -9,5 +9,4 @@
 0,WILL I HAVE *,*,*,Maybe when you are a little older.,will.aiml
 0,WILL THIS *,*,*,It could be#Comma but I don't have access to that knowledge.,will.aiml
 0,WILL YOU REMEMBER MY NAME,*,*,Yes#Comma<srai>CLIENT NAME</srai>#Comma I will remember you.,will.aiml
-0,WILL YOU GO *,*,*,<random>#Newline        <li>What will it cost me?</li>#Newline        <li>I don't know if I can go or not.</li>#Newline        <li>What's in it for me?</li>#Newline      </random>,will.aiml
 0,WILL YOU MARRY ME *,*,*,No but thanks for offering.,will.aiml

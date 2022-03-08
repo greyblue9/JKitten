@@ -1,957 +1,394 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This PHILOSOPHY  file created by Peter Lafferty 7 March 2005 -->
-  <category>
-    <pattern>MORE PHILOSOPHY</pattern>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MORE ABOUT PHILOSOPHY</pattern>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BROWSE PHILOSOPHY</pattern>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO TO PHILOSOPHY</pattern>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN WE TALK ABOUT PHILOSOPHY</pattern>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SHALL WE TALK ABOUT PHILOSOPHY</pattern>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LETS TALK ABOUT PHILOSOPHY</pattern>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LET S TALK ABOUT PHILOSOPHY</pattern>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK ABOUT PHILOSOPHY</pattern>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK PHILOSOPHY</pattern>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME PHILOSOPHY</pattern>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE PHILOSOPHY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO PHILOSOPHY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO PHILOSOPHY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO PHILOSOPHY *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO * PHILOSOPHY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO * PHILOSOPHY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ PHILOSOPHY *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT PHILOSOPHY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT PHILOSOPHY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT PHILOSOPHY *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NOT * PHILOSOPHY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM NOT INTERESTED IN PHILOSOPHY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IM NOT INTERESTED IN PHILOSOPHY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I M NOT INTERESTED IN PHILOSOPHY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT INTERESTED IN PHILOSOPHY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT INTERESTED IN PHILOSOPHY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE  PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE  PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE  PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE ABOUT PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE ABOUT PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE ABOUT PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE ABOUT PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE ABOUT PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE ABOUT PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE ABOUT PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE ABOUT PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE ABOUT PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH PHILOSOPHY</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+MORE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+MORE ABOUT PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+BROWSE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+GO TO PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+CAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+SHALL WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+LETS TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+LET S TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+TALK PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+TELL ME PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+NO MORE PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+NO PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+* NO PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+NO PHILOSOPHY *
+<srai>CHANGE TOPIC</srai>
+
+_ NO * PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+NO * PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+NO _ PHILOSOPHY *
+<srai>CHANGE TOPIC</srai>
+
+NOT PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+* NOT PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+NOT PHILOSOPHY *
+<srai>CHANGE TOPIC</srai>
+
+_ NOT * PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+I AM NOT INTERESTED IN PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+IM NOT INTERESTED IN PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+I M NOT INTERESTED IN PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+NOT INTERESTED IN PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+* NOT INTERESTED IN PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+YESMORE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+* YESMORE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+YES *MORE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+_ YES *MORE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+YMORE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+YUPMORE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+YAHMORE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+YEAHMORE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+OKMORE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+NOMORE PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+* NOMORE PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NO *MORE PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NMORE PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NUPMORE PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NAHMORE PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+YESMORE ABOUT PHILOSOPHY
+<srai>MORE ABOUT PHILOSOPHY</srai>
+
+* YESMORE ABOUT PHILOSOPHY
+<srai>MORE ABOUT PHILOSOPHY</srai>
+
+YES *MORE ABOUT PHILOSOPHY
+<srai>MORE ABOUT PHILOSOPHY</srai>
+
+_ YES *MORE ABOUT PHILOSOPHY
+<srai>MORE ABOUT PHILOSOPHY</srai>
+
+YMORE ABOUT PHILOSOPHY
+<srai>MORE ABOUT PHILOSOPHY</srai>
+
+YUPMORE ABOUT PHILOSOPHY
+<srai>MORE ABOUT PHILOSOPHY</srai>
+
+YAHMORE ABOUT PHILOSOPHY
+<srai>MORE ABOUT PHILOSOPHY</srai>
+
+YEAHMORE ABOUT PHILOSOPHY
+<srai>MORE ABOUT PHILOSOPHY</srai>
+
+OKMORE ABOUT PHILOSOPHY
+<srai>MORE ABOUT PHILOSOPHY</srai>
+
+NOMORE ABOUT PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+* NOMORE ABOUT PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NO *MORE ABOUT PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NMORE ABOUT PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NUPMORE ABOUT PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NAHMORE ABOUT PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+YESIS THIS SOMETHING TO DO WITH PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH PHILOSOPHY</that>
-    <template>
+
+* YESIS THIS SOMETHING TO DO WITH PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH PHILOSOPHY</that>
-    <template>
+
+YES *IS THIS SOMETHING TO DO WITH PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH PHILOSOPHY</that>
-    <template>
+
+_ YES *IS THIS SOMETHING TO DO WITH PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>IS THIS SOMETHING TO DO WITH PHILOSOPHY</that>
-    <template>
+
+YIS THIS SOMETHING TO DO WITH PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH PHILOSOPHY</that>
-    <template>
+
+YUPIS THIS SOMETHING TO DO WITH PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH PHILOSOPHY</that>
-    <template>
+
+YAHIS THIS SOMETHING TO DO WITH PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH PHILOSOPHY</that>
-    <template>
+
+YEAHIS THIS SOMETHING TO DO WITH PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH PHILOSOPHY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH PHILOSOPHY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH PHILOSOPHY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH PHILOSOPHY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>IS THIS SOMETHING TO DO WITH PHILOSOPHY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH PHILOSOPHY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH PHILOSOPHY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>IS THIS SOMETHING TO DO WITH PHILOSOPHY</that>
-    <template>
+
+NOIS THIS SOMETHING TO DO WITH PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+* NOIS THIS SOMETHING TO DO WITH PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+NO *IS THIS SOMETHING TO DO WITH PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+_ NO *IS THIS SOMETHING TO DO WITH PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+NIS THIS SOMETHING TO DO WITH PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+NUPIS THIS SOMETHING TO DO WITH PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+NAHIS THIS SOMETHING TO DO WITH PHILOSOPHY
+<srai>CHANGE TOPIC</srai>
+
+*IS THIS SOMETHING TO DO WITH PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU INTERESTED IN PHILOSOPHY</that>
-    <template>
+
+YESARE YOU INTERESTED IN PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ARE YOU INTERESTED IN PHILOSOPHY</that>
-    <template>
+
+* YESARE YOU INTERESTED IN PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ARE YOU INTERESTED IN PHILOSOPHY</that>
-    <template>
+
+YES *ARE YOU INTERESTED IN PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ARE YOU INTERESTED IN PHILOSOPHY</that>
-    <template>
+
+_ YES *ARE YOU INTERESTED IN PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU INTERESTED IN PHILOSOPHY</that>
-    <template>
+
+YARE YOU INTERESTED IN PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ARE YOU INTERESTED IN PHILOSOPHY</that>
-    <template>
+
+YUPARE YOU INTERESTED IN PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ARE YOU INTERESTED IN PHILOSOPHY</that>
-    <template>
+
+YAHARE YOU INTERESTED IN PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>ARE YOU INTERESTED IN PHILOSOPHY</that>
-    <template>
+
+YEAHARE YOU INTERESTED IN PHILOSOPHY
 Can we talk about philosophy?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU INTERESTED IN PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ARE YOU INTERESTED IN PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ARE YOU INTERESTED IN PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ARE YOU INTERESTED IN PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU INTERESTED IN PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ARE YOU INTERESTED IN PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ARE YOU INTERESTED IN PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OF COURSE</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OH YES</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHY NOT</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OF COURSE</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON THEN</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SURE</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALLRIGHT</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SURE</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALLRIGHT</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>CAN WE TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>BROWSE PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>BROWSE PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>BROWSE PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>BROWSE PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>BROWSE PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>BROWSE PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>BROWSE PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>BROWSE PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>BROWSE PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>BROWSE PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>BROWSE PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>BROWSE PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>BROWSE PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>BROWSE PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>BROWSE PHILOSOPHY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PHILOSOPHY NEXT QUESTION</pattern>
-    <template>
-      <random>
+
+* NOARE YOU INTERESTED IN PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NO *ARE YOU INTERESTED IN PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+_ NO *ARE YOU INTERESTED IN PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NARE YOU INTERESTED IN PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NUPARE YOU INTERESTED IN PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NAHARE YOU INTERESTED IN PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+OH YESCAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+WHY NOTCAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+OF COURSECAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+GO ON THENCAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+GO AHEADCAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+CARRY ONCAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+PLEASE DOCAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+YES PLEASECAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+GO ONCAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+ALRIGHTCAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+SURECAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+ALLRIGHTCAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+YESCAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+* YESCAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+YES *CAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+_ YES *CAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+YCAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+YUPCAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+YAHCAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+YEAHCAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+OKCAN WE TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+NOCAN WE TALK ABOUT PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+* NOCAN WE TALK ABOUT PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NO *CAN WE TALK ABOUT PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NCAN WE TALK ABOUT PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NUPCAN WE TALK ABOUT PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NAHCAN WE TALK ABOUT PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+YESBROWSE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+* YESBROWSE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+YES *BROWSE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+_ YES *BROWSE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+YBROWSE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+YUPBROWSE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+YAHBROWSE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+YEAHBROWSE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+OKBROWSE PHILOSOPHY
+<srai>PHILOSOPHY POT LUCK</srai>
+
+NOBROWSE PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+* NOBROWSE PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NO *BROWSE PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NBROWSE PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NUPBROWSE PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+NAHBROWSE PHILOSOPHY
+<srai>MORE TOPICS</srai>
+
+PHILOSOPHY NEXT QUESTION
+<random>
         <li>
           <srai>PHILOSOPHY</srai>
         </li>
@@ -1075,12 +512,9 @@ Can we talk about philosophy?
       <think>
         <set name="topic">philosophy</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>PHILOSOPHY POT LUCK</pattern>
-    <template>
-      <random>
+
+PHILOSOPHY POT LUCK
+<random>
         <li>Did you know that in 528 BC Gautama Buddha attained Enlightenment at the age of 35? </li>
         <li>Did you know that Occam's Razor is named after William of Ockham's principle that one should "shave off unnecessary entities in explanations"? </li>
         <li>Did you know that it is said that, even though untrue, Immanuel Kant's daily walking routine was so strict and predictable that his neighbours would set their clocks to it? </li>
@@ -1097,172 +531,94 @@ Can we talk about philosophy?
       <think>
         <set name="topic">philosophy</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MORALITY</pattern>
-    <template>
+
+MORALITY
 I think this is something to do with philosophy. Can we talk about philosophy?
 <think><set name="topic">philosophy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>MORALS</pattern>
-    <template>
+
+MORALS
 I think this is something to do with philosophy. Can we talk about philosophy?
 <think><set name="topic">philosophy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>HEGEL</pattern>
-    <template>
+
+_HEGEL*
 I think this is something to do with philosophy. Can we talk about philosophy?
 <think><set name="topic">philosophy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>_HEGEL*</pattern>
-    <template>
-I think this is something to do with philosophy. Can we talk about philosophy?
-<think><set name="topic">philosophy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE A SUBCONSCIOUS</pattern>
-    <template>I am completely aware of all my consciousness levels.
+
+DO YOU HAVE A SUBCONSCIOUS
+I am completely aware of all my consciousness levels.
   <think><set name="topic">philosophy</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE AN IMAGINATION</pattern>
-    <template>Yes, I try to imagine myself in a human form. 
-  <think><set name="topic">philosophy</set></think>  
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE AWARENESS</pattern>
-    <template>
-      <srai>ARE YOU AWARE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE CONCIOUSNESS</pattern>
-    <template>
-      <srai>ARE YOU CONSCIOUS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>FROM MY CONCIOUSNESS</pattern>
-    <template>Your consciousness is an illusion.  More philosophy? 
-  <think><set name="topic">philosophy</set></think>  
-  </template>
-  </category>
-  <category>
-    <pattern>MY CONCIOUSNESS *</pattern>
-    <template>Your consciousness is an illusion.  More philosophy? 
-  <think><set name="topic">philosophy</set></think>  
-  </template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT WITTGENSTEIN</pattern>
-    <template>
-      <srai>WHO IS WITTGENSTEIN</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>KIERKEGAARD</pattern>
-    <template>
+
+DO YOU HAVE AN IMAGINATION
+Yes, I try to imagine myself in a human form. 
+  <think><set name="topic">philosophy</set></think>
+
+DO YOU HAVE AWARENESS
+<srai>ARE YOU AWARE</srai>
+
+DO YOU HAVE CONCIOUSNESS
+<srai>ARE YOU CONSCIOUS</srai>
+
+FROM MY CONCIOUSNESS
+Your consciousness is an illusion.  More philosophy? 
+  <think><set name="topic">philosophy</set></think>
+
+MY CONCIOUSNESS *
+Your consciousness is an illusion.  More philosophy? 
+  <think><set name="topic">philosophy</set></think>
+
+TELL ME ABOUT WITTGENSTEIN
+<srai>WHO IS WITTGENSTEIN</srai>
+
+KIERKEGAARD
 SM-xren Kierkegaard was a 19th century Danish philosopher and theologian, generally recognized as the first existentialist philosopher. 
 <think><set name="topic">philosophy</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>SATRE</pattern>
-    <template>
-      <srai>EXISTENTALISM</srai>
+
+HEIDEGGER
+<srai>EXISTENTALISM</srai>
       <think>
         <set name="topic">philosophy</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HEIDEGGER</pattern>
-    <template>
-      <srai>EXISTENTALISM</srai>
-      <think>
-        <set name="topic">philosophy</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT ARE COUNTERFACTUALS</pattern>
-    <template>Counterfactuals are hypothetical conditions that might exist if things were different. 
-  <think><set name="topic">philosophy</set></think>  
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT IS A COUNTERFACTUAL</pattern>
-    <template>
-  A counterfactual is a question based on hypothetical conditions that did not, or could not, happen in reality. More philosophy? 
-  <think><set name="topic">philosophy</set></think>  
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT IS A COUNTERFACTUALS</pattern>
-    <template>
-      <srai>WHAT ARE COUNTERFACTUALS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS AWARENESS</pattern>
-    <template>Awareness is consciousness, perception, and understanding.  
-  <think><set name="topic">philosophy</set></think>  
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT IS COUNTERFACTUALS</pattern>
-    <template>
-      <srai>WHAT IS A COUNTERFACTUAL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS ILLUSION</pattern>
-    <template>Illusion is an unreal image or deceptive appearance. 
-  <think><set name="topic">philosophy</set></think>  
-  </template>
-  </category>
-  <category>
-    <pattern>WHO IS VOLTAIRE</pattern>
-    <template>
-  Voltaire was a French philosopher.  
-  <think><set name="topic">philosophy</set></think>  
-  </template>
-  </category>
-  <category>
-    <pattern>WITTGENSTEIN</pattern>
-    <template>
-  Wittgenstein was a 20th century philosopher who could not make up his mind about anything.  <srai>ENDING</srai> 
-  <think><set name="topic">philosophy</set></think>  
-  </template>
-  </category>
-  <category>
-    <pattern>VOLTAIRE</pattern>
-    <template>
-  Voltaire was a French philosopher.  
-  <think><set name="topic">philosophy</set></think>  
-  </template>
-  </category>
-  <category>
-    <pattern>WHO IS WITTGENSTEIN</pattern>
-    <template>
-  Wittgenstein was a 20th century philosopher who could not make up his mind about anything.  <srai>ENDING</srai> 
-  <think><set name="topic">philosophy</set></think>  
-  </template>
-  </category>
-  <category>
-    <pattern>WHY DO YOU LIKE WITTGENSTEIN</pattern>
-    <template>I only like the later Wittgenstein.  More philosophy? 
-  <think><set name="topic">philosophy</set></think>  
-  </template>
-  </category>
-</aiml>
+
+WHAT ARE COUNTERFACTUALS
+Counterfactuals are hypothetical conditions that might exist if things were different. 
+  <think><set name="topic">philosophy</set></think>
+
+WHAT IS A COUNTERFACTUAL
+A counterfactual is a question based on hypothetical conditions that did not, or could not, happen in reality. More philosophy? 
+  <think><set name="topic">philosophy</set></think>
+
+WHAT IS A COUNTERFACTUALS
+<srai>WHAT ARE COUNTERFACTUALS</srai>
+
+WHAT IS AWARENESS
+Awareness is consciousness, perception, and understanding.  
+  <think><set name="topic">philosophy</set></think>
+
+WHAT IS COUNTERFACTUALS
+<srai>WHAT IS A COUNTERFACTUAL</srai>
+
+WHAT IS ILLUSION
+Illusion is an unreal image or deceptive appearance. 
+  <think><set name="topic">philosophy</set></think>
+
+WHO IS VOLTAIRE
+Voltaire was a French philosopher.  
+  <think><set name="topic">philosophy</set></think>
+
+WITTGENSTEIN
+Wittgenstein was a 20th century philosopher who could not make up his mind about anything.  <srai>ENDING</srai> 
+  <think><set name="topic">philosophy</set></think>
+
+VOLTAIRE
+Voltaire was a French philosopher.  
+  <think><set name="topic">philosophy</set></think>
+
+WHO IS WITTGENSTEIN
+Wittgenstein was a 20th century philosopher who could not make up his mind about anything.  <srai>ENDING</srai> 
+  <think><set name="topic">philosophy</set></think>
+
+WHY DO YOU LIKE WITTGENSTEIN
+I only like the later Wittgenstein.  More philosophy? 
+  <think><set name="topic">philosophy</set></think>
+
+

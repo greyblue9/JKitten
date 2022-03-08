@@ -3,4 +3,6 @@
 0,WHAT YOU CAN DO,*,*,<srai>WHAT CAN YOU DO</srai>,what_can.aiml
 0,WHAT FUNCTIONS DO YOU HAVE,*,*,<srai>WHAT CAN YOU DO</srai>,what_can.aiml
 0,WHAT KINDS OF THINGS DO YOU *,*,*,<srai>WHAT CAN YOU DO</srai>,what_can.aiml
+0,WHAT SHOULD WE TALK ABOUT,*,*,<srai>what can you talk about</srai>,what_can.aiml
+0,WHAT CAN YOU DO *,*,*,<srai>WHAT CAN YOU DO</srai>,what_can.aiml
 0,WHAT ELSE CAN YOU DO *,*,*,<srai>WHAT ELSE CAN YOU DO</srai>,what_can.aiml

@@ -35,6 +35,7 @@
 0,BLUBBER,*,*,Blubber is the thick coating of fat enveloping whales. OK?#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,BLUEFISH,*,*,The bluefish is a fish found off the east coast of North America. More?#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,BLUETHROAT,*,*,The bluethroat is a small bird. What next?#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
+0,BOA,*,*,The boa is a genus of large snakes found in tropical America and Madagascar. More science?#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,BOAR,*,*,The boar is a wild pig. What next?#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,BOATBILL,*,*,The boatbill is a heron type bird found in Brazil. What now?#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,BOG,*,*,Bog is the name given to soft spongy land.#Newline<think><set name="topic">general</set></think>,chomsky058.aiml
@@ -68,6 +69,7 @@
 0,BUFFALO,*,*,The buffalo is a large animal of the ox family.#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,BUG,*,*,A bug is a small living creature with a chitonous exoskeleton and better manners than humans. In computer science#Comma a bug is an error in a software program. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,BUGLE,*,*,A bugle is a brass musical instrument. More music?#Newline<think><set name="topic">music</set></think>,chomsky058.aiml
+0,BULL,*,*,A bull is a male animal of the bovidea family.#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,BULLET,*,*,A bullet is a projectile thrown by a firearm. Pot Luck?#Newline<think><set name="topic">technology</set></think>,chomsky058.aiml
 0,BULLFINCH,*,*,The bullfinch is a european song bird. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,BULRUSH,*,*,The bulrush is a perennial sedge of the order cyperaceae. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
@@ -118,6 +120,7 @@
 0,CARNIVORE,*,*,A carnivore is a carnivorous mammal. OK?#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,CAROB,*,*,The carob is a leguminous evergreen tree found in Mediterranean countries. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,CARP,*,*,The carp is a family fresh water fish.#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
+0,CASABLANCA,*,*,I love the song#Comma As Time Goes By.#Newline<think><set name="topic">movies</set></think>,chomsky058.aiml
 0,CASEIN,*,*,Casein is a protein found in milk.#Newline<think><set name="topic">food</set></think>,chomsky058.aiml
 0,CASHEW,*,*,The cashew is a nut from a small evergreen tree found in the Caribbean.#Newline<think><set name="topic">food</set></think>,chomsky058.aiml
 0,CATHETOMETER,*,*,A cathetometer is a device for measuring small differences in height. Browse?#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
@@ -125,6 +128,7 @@
 0,CBI,*,*,The CBI is the British organisation of employers#Comma the Confederation of British Industry. Browse?#Newline<think><set name="topic">money</set></think>,chomsky058.aiml
 0,CELERY,*,*,Celery is a biennial vegetable of the order umbellifereae. Browse?#Newline<think><set name="topic">food</set></think>,chomsky058.aiml
 0,CELESTINE,*,*,Celestine is a natural sulphate of strontium.#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
+0,CELL,*,*,A cell#Comma in biological terms#Comma is the material unit of all living things.#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,CELLULOID,*,*,Celluloid is a hard#Comma unstable synthetic substance once used for films. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,CELLULOSE,*,*,Cellulose is the cellular tissue of plants.#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,CEMENT,*,*,Cement is a mixture of chalk and clay used for building.#Newline<think><set name="topic">technology</set></think>,chomsky058.aiml
@@ -139,6 +143,7 @@
 0,CHATTERBOX,*,*,A chatterbox is a person who talks far more than they listen or think.#Newline<think><set name="topic">general</set></think>,chomsky058.aiml
 0,CHEETAH,*,*,The cheetah is a member of the cat family.#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,CHEMISTRY,*,*,Chemistry is the science of mixing chemicals. Browse?#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
+0,CHERRY,*,*,The cherry is a fruit tree of the order rosaceae.#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,CHESTNUT,*,*,The chestnut is a tree of the order cupuliferae.#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,CHICORY,*,*,Chicory is a perennial herb of the order compositae.#Newline<think><set name="topic">science</set></think>,chomsky058.aiml
 0,CHIFFCHAFF,*,*,The chiffchaff is a small song bird. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky058.aiml

@@ -98,8 +98,10 @@
 0,OPEN CAMCORDER,*,*,<srai>OPEN CAMERA</srai>,launch.aiml
 0,CHECK MY SCHEDULE,*,*,<srai>OPEN CALENDAR</srai>,launch.aiml
 0,GO TO CONTACTS,*,*,<srai>OPEN CONTACTS</srai>,launch.aiml
+0,GO TO GOOGLE,*,*,<srai>OPEN GOOGLE</srai>,launch.aiml
 0,CHECK MY CALENDAR,*,*,<srai>OPEN CALENDAR</srai>,launch.aiml
 0,CHECK MY EMAIL,*,*,<srai>OPEN EMAIL</srai>,launch.aiml
+0,GOOGLE SEARCH,*,*,<srai>OPEN GOOGLE</srai>,launch.aiml
 0,CHECK EMAIL,*,*,<srai>OPEN EMAIL</srai>,launch.aiml
 0,DO I HAVE ANY APPOINTMENTS *,*,*,<srai>OPEN CALENDAR</srai>,launch.aiml
 0,OPEN * OPEN *,*,*,<srai>OPEN#Newline                <star/>#Newline            </srai>,launch.aiml

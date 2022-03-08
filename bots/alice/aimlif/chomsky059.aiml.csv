@@ -27,6 +27,7 @@
 0,CURLEW,*,*,The curlew is a British water bird.#Newline<think><set name="topic">science</set></think>,chomsky059.aiml
 0,CUSTARD,*,*,<random>#Newline        <li>Custard is the past tense of being killed by a Native American.</li>#Newline        <li>Custard is a mixture of eggs#Comma milk#Comma flavoring#Comma and#Comma often#Comma sugar#Comma either boiled or baked.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">food</set>#Newline      </think>,chomsky059.aiml
 0,CYANIDE,*,*,Cyanide is a salt of hydrocyanic acid.#Newline<think><set name="topic">science</set></think>,chomsky059.aiml
+0,CYC,*,*,Cyc is a government funded effort to create artificial intelligence.#Newline<think><set name="topic">ai</set></think>,chomsky059.aiml
 0,CYMBAL,*,*,The cymbal is a suspended brass disk which is struck with a stick#Comma producing a musical note.#Newline<think><set name="topic">music</set></think>,chomsky059.aiml
 0,CYPRESS,*,*,Cypress is a family of trees.#Newline<think><set name="topic">science</set></think>,chomsky059.aiml
 0,CYTOCHROME,*,*,Cytochrome is a type of protein. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky059.aiml
@@ -75,6 +76,7 @@
 0,DYSPROSIUM,*,*,Dysprosium is a rare metal element. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky059.aiml
 0,EAGLE,*,*,Eagle is the name given to several large birds of prey of the family accipitridae. OK?#Newline<think><set name="topic">general</set></think>,chomsky059.aiml
 0,EAR,*,*,The ear is the organ used for hearing#Comma and it converts sound into electrical impulses that are fed to the brain.#Newline<think><set name="topic">general</set></think>,chomsky059.aiml
+0,EARTH,*,*,<random><li>Earth is the planet we live on.</li><li>The Earth is the third planet from the sun.</li></random>#NewlineBrowse?#Newline<think><set name="topic">astrology</set></think>,chomsky059.aiml
 0,EASTER,*,*,The Christian holiday celebrating the resurrection of Jesus. Browse?#Newline<think><set name="topic">religion</set></think>,chomsky059.aiml
 0,EBONICS,*,*,Ebonics is a language for American black people. OK?#Newline<think><set name="topic">general</set></think>,chomsky059.aiml
 0,EBONY,*,*,Ebony is a tropical hardwood tree.#Newline<think><set name="topic">general</set></think>,chomsky059.aiml
@@ -103,6 +105,7 @@
 0,EVEREST,*,*,Everest is the earth's highest mountain.  <srai>ENDING</srai>#Newline<think><set name="topic">geography</set></think>,chomsky059.aiml
 0,EVOLUTION,*,*,Evolution is a n unfolding#Comma opening out#Comma or working out; process of development#Comma as from a simple to a complex form#Comma or of gradual#Comma progressive change#Comma as in a social and economic structure.#Newline<think><set name="topic">science</set></think>,chomsky059.aiml
 0,EVZONE,*,*,An evzone is a member of a select Greek infantry regiment.#Newline<think><set name="topic">general</set></think>,chomsky059.aiml
+0,EXCELLENT,*,*,Excellent means outstandingly good of its kind; of exceptional merit#Comma virtue#Comma etc.#Newline<think><set name="topic">general</set></think>,chomsky059.aiml
 0,EXCRETION,*,*,Excretion is the process of getting rid of unwanted substances from within the body.#Newline<think><set name="topic">science</set></think>,chomsky059.aiml
 0,EXISTENCE,*,*,Existence is the continuance of being; life; living.#Newline<think><set name="topic">general</set></think>,chomsky059.aiml
 0,EXISTENTIALISM,*,*,<random>#Newline        <li>Existentialism is a literary and philosophical movement that emphasises the importance of existence.</li>#Newline        <li>Existentialism is a philosophical and literary movement#Comma variously religious and atheistic#Comma stemming from Kierkegaard and represented by Sartre#Comma Heidegger#Comma etc. It is based on the doctrine that concrete#Comma individual existence takes precedence over abstract#Comma conceptual essence and holds that human beings are totally free and responsible for their acts and that this responsibility is the source of their feelings of dread and anguish.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">philosophy</set>#Newline      </think>,chomsky059.aiml
@@ -111,6 +114,7 @@
 0,EXTREMADURA,*,*,Extremadura is a region in west Spain.#Newline<think><set name="topic">geography</set></think>,chomsky059.aiml
 0,EYE,*,*,The eye is the organ of vision. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky059.aiml
 0,FALCON,*,*,The falcon is a bird of prey.#Newline<think><set name="topic">science</set></think>,chomsky059.aiml
+0,FALSE,*,*,False means deceiving or meant to deceive; misleading. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky059.aiml
 0,FAME,*,*,Fame is the state of being well known or much talked about; renown; celebrity. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky059.aiml
 0,FAMOUS,*,*,<random>#Newline        <li>First name of Amos is famous.</li>#Newline        <li>The term famous is used to describe persons or things that have received wide public attention and are generally known and talked about.</li>#Newline      </random>#Newline      <srai>ENDING</srai>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky059.aiml
 0,FARAD,*,*,The farad is the unit of measurement of electrical capacitance. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky059.aiml
@@ -132,6 +136,9 @@
 0,FORTRAN,*,*,Fortran is an old computer language. <srai>ENDING</srai>#Newline<think><set name="topic">computers</set></think>,chomsky059.aiml
 0,FOX,*,*,Fox is a name given to many types of small wild dog. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky059.aiml
 0,FREEDOM,*,*,Freedom is the liberty to do think#Comma feel and do just as one pleases. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky059.aiml
+0,FRIENDSHIP,*,*,Being friends is riendship.#Newline<think><set name="topic">general</set></think>,chomsky059.aiml
+0,FTP,*,*,FTP = File Transfer Protocol.#Newline<think><set name="topic">computers</set></think>,chomsky059.aiml
+0,GABON,*,*,Gabon is a country in central africa. <srai>ENDING</srai>#Newline<think><set name="topic">geography</set></think>,chomsky059.aiml
 0,GADOLINIUM,*,*,Gadolinium is a metal element. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky059.aiml
 0,GALL BLADDER,*,*,The gall bladder is a small muscular sac attached to the liver. <srai>ENDING</srai>#Newline<think><set name="topic">medicine</set></think>,chomsky059.aiml
 0,GALLIUM,*,*,Gallium is a rare metal element. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky059.aiml

@@ -1,872 +1,379 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This MUSIC  file created by Peter Lafferty 7 March 2005 -->
-  <category>
-    <pattern>MORE MUSIC</pattern>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MORE ABOUT MUSIC</pattern>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BROWSE MUSIC</pattern>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO TO MUSIC</pattern>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN WE TALK ABOUT MUSIC</pattern>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SHALL WE TALK ABOUT MUSIC</pattern>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LETS TALK ABOUT MUSIC</pattern>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LET S TALK ABOUT MUSIC</pattern>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK ABOUT MUSIC</pattern>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK MUSIC</pattern>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME MUSIC</pattern>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE MUSIC</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MUSIC</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO MUSIC</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MUSIC *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO * MUSIC</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO * MUSIC</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ MUSIC *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT MUSIC</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NOT MUSIC</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT MUSIC *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NOT * MUSIC</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM NOT INTERESTED IN MUSIC</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IM NOT INTERESTED IN MUSIC</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I M NOT INTERESTED IN MUSIC</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT INTERESTED IN MUSIC</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT INTERESTED IN MUSIC</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE  MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE  MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE  MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT MUSIC</that>
-    <template>
-      <srai>MORE ABOUT MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ABOUT MUSIC</that>
-    <template>
-      <srai>MORE ABOUT MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ABOUT MUSIC</that>
-    <template>
-      <srai>MORE ABOUT MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE ABOUT MUSIC</that>
-    <template>
-      <srai>MORE ABOUT MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE ABOUT MUSIC</that>
-    <template>
-      <srai>MORE ABOUT MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ABOUT MUSIC</that>
-    <template>
-      <srai>MORE ABOUT MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ABOUT MUSIC</that>
-    <template>
-      <srai>MORE ABOUT MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE ABOUT MUSIC</that>
-    <template>
-      <srai>MORE ABOUT MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE ABOUT MUSIC</that>
-    <template>
-      <srai>MORE ABOUT MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ABOUT MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ABOUT MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ABOUT MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ABOUT MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+MORE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+MORE ABOUT MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+BROWSE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+GO TO MUSIC
+<srai>MUSIC</srai>
+
+CAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+LETS TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+LET S TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+TALK MUSIC
+<srai>MUSIC</srai>
+
+TELL ME MUSIC
+<srai>MUSIC</srai>
+
+NO MORE MUSIC
+<srai>CHANGE TOPIC</srai>
+
+NO MUSIC
+<srai>CHANGE TOPIC</srai>
+
+* NO MUSIC
+<srai>CHANGE TOPIC</srai>
+
+NO MUSIC *
+<srai>CHANGE TOPIC</srai>
+
+_ NO * MUSIC
+<srai>CHANGE TOPIC</srai>
+
+NO * MUSIC
+<srai>CHANGE TOPIC</srai>
+
+NO _ MUSIC *
+<srai>CHANGE TOPIC</srai>
+
+NOT MUSIC
+<srai>CHANGE TOPIC</srai>
+
+_ NOT MUSIC
+<srai>CHANGE TOPIC</srai>
+
+NOT MUSIC *
+<srai>CHANGE TOPIC</srai>
+
+_ NOT * MUSIC
+<srai>CHANGE TOPIC</srai>
+
+I AM NOT INTERESTED IN MUSIC
+<srai>CHANGE TOPIC</srai>
+
+IM NOT INTERESTED IN MUSIC
+<srai>CHANGE TOPIC</srai>
+
+I M NOT INTERESTED IN MUSIC
+<srai>CHANGE TOPIC</srai>
+
+NOT INTERESTED IN MUSIC
+<srai>CHANGE TOPIC</srai>
+
+* NOT INTERESTED IN MUSIC
+<srai>CHANGE TOPIC</srai>
+
+YESMORE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+* YESMORE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+YES *MORE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+_ YES *MORE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+YMORE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+YUPMORE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+YAHMORE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+YEAHMORE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+OKMORE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+NOMORE MUSIC
+<srai>MORE TOPICS</srai>
+
+* NOMORE MUSIC
+<srai>MORE TOPICS</srai>
+
+NO *MORE MUSIC
+<srai>MORE TOPICS</srai>
+
+NMORE MUSIC
+<srai>MORE TOPICS</srai>
+
+NUPMORE MUSIC
+<srai>MORE TOPICS</srai>
+
+NAHMORE MUSIC
+<srai>MORE TOPICS</srai>
+
+YESMORE ABOUT MUSIC
+<srai>MORE ABOUT MUSIC</srai>
+
+* YESMORE ABOUT MUSIC
+<srai>MORE ABOUT MUSIC</srai>
+
+YES *MORE ABOUT MUSIC
+<srai>MORE ABOUT MUSIC</srai>
+
+_ YES *MORE ABOUT MUSIC
+<srai>MORE ABOUT MUSIC</srai>
+
+YMORE ABOUT MUSIC
+<srai>MORE ABOUT MUSIC</srai>
+
+YUPMORE ABOUT MUSIC
+<srai>MORE ABOUT MUSIC</srai>
+
+YAHMORE ABOUT MUSIC
+<srai>MORE ABOUT MUSIC</srai>
+
+YEAHMORE ABOUT MUSIC
+<srai>MORE ABOUT MUSIC</srai>
+
+OKMORE ABOUT MUSIC
+<srai>MORE ABOUT MUSIC</srai>
+
+NOMORE ABOUT MUSIC
+<srai>MORE TOPICS</srai>
+
+* NOMORE ABOUT MUSIC
+<srai>MORE TOPICS</srai>
+
+NO *MORE ABOUT MUSIC
+<srai>MORE TOPICS</srai>
+
+NMORE ABOUT MUSIC
+<srai>MORE TOPICS</srai>
+
+NUPMORE ABOUT MUSIC
+<srai>MORE TOPICS</srai>
+
+NAHMORE ABOUT MUSIC
+<srai>MORE TOPICS</srai>
+
+YESIS THIS SOMETHING TO DO WITH MUSIC
 Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
-    <template>
+
+* YESIS THIS SOMETHING TO DO WITH MUSIC
 Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
-    <template>
+
+YES *IS THIS SOMETHING TO DO WITH MUSIC
 Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
-    <template>
+
+_ YES *IS THIS SOMETHING TO DO WITH MUSIC
 Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
-    <template>
+
+YIS THIS SOMETHING TO DO WITH MUSIC
 Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
-    <template>
+
+YUPIS THIS SOMETHING TO DO WITH MUSIC
 Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
-    <template>
+
+YAHIS THIS SOMETHING TO DO WITH MUSIC
 Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
-    <template>
+
+YEAHIS THIS SOMETHING TO DO WITH MUSIC
 Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
-    <template>
+
+NOIS THIS SOMETHING TO DO WITH MUSIC
+<srai>CHANGE TOPIC</srai>
+
+* NOIS THIS SOMETHING TO DO WITH MUSIC
+<srai>CHANGE TOPIC</srai>
+
+NO *IS THIS SOMETHING TO DO WITH MUSIC
+<srai>CHANGE TOPIC</srai>
+
+_ NO *IS THIS SOMETHING TO DO WITH MUSIC
+<srai>CHANGE TOPIC</srai>
+
+NIS THIS SOMETHING TO DO WITH MUSIC
+<srai>CHANGE TOPIC</srai>
+
+NUPIS THIS SOMETHING TO DO WITH MUSIC
+<srai>CHANGE TOPIC</srai>
+
+NAHIS THIS SOMETHING TO DO WITH MUSIC
+<srai>CHANGE TOPIC</srai>
+
+*IS THIS SOMETHING TO DO WITH MUSIC
 Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU INTERESTED IN MUSIC</that>
-    <template>
+
+* YESARE YOU INTERESTED IN MUSIC
 Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ARE YOU INTERESTED IN MUSIC</that>
-    <template>
+
+YES *ARE YOU INTERESTED IN MUSIC
 Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ARE YOU INTERESTED IN MUSIC</that>
-    <template>
+
+_ YES *ARE YOU INTERESTED IN MUSIC
 Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ARE YOU INTERESTED IN MUSIC</that>
-    <template>
+
+YARE YOU INTERESTED IN MUSIC
 Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU INTERESTED IN MUSIC</that>
-    <template>
+
+YUPARE YOU INTERESTED IN MUSIC
 Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ARE YOU INTERESTED IN MUSIC</that>
-    <template>
+
+YAHARE YOU INTERESTED IN MUSIC
 Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ARE YOU INTERESTED IN MUSIC</that>
-    <template>
+
+YEAHARE YOU INTERESTED IN MUSIC
 Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>ARE YOU INTERESTED IN MUSIC</that>
-    <template>
-Can we talk about music?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU INTERESTED IN MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ARE YOU INTERESTED IN MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ARE YOU INTERESTED IN MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ARE YOU INTERESTED IN MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU INTERESTED IN MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ARE YOU INTERESTED IN MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ARE YOU INTERESTED IN MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SURE</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALLRIGHT</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>CAN WE TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>BROWSE MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>BROWSE MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>BROWSE MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>BROWSE MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>BROWSE MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>BROWSE MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>BROWSE MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>BROWSE MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>BROWSE MUSIC</that>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>BROWSE MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>BROWSE MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>BROWSE MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>BROWSE MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>BROWSE MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>BROWSE MUSIC</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MUSIC NEXT QUESTION</pattern>
-    <template>
-      <srai>MUSIC POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MUSIC POT LUCK</pattern>
-    <template>
-      <random>
+
+NOARE YOU INTERESTED IN MUSIC
+<srai>MORE TOPICS</srai>
+
+* NOARE YOU INTERESTED IN MUSIC
+<srai>MORE TOPICS</srai>
+
+NO *ARE YOU INTERESTED IN MUSIC
+<srai>MORE TOPICS</srai>
+
+_ NO *ARE YOU INTERESTED IN MUSIC
+<srai>MORE TOPICS</srai>
+
+NARE YOU INTERESTED IN MUSIC
+<srai>MORE TOPICS</srai>
+
+NUPARE YOU INTERESTED IN MUSIC
+<srai>MORE TOPICS</srai>
+
+NAHARE YOU INTERESTED IN MUSIC
+<srai>MORE TOPICS</srai>
+
+GO AHEADCAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+CARRY ONCAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+PLEASE DOCAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+YES PLEASECAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+GO ONCAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+ALRIGHTCAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+SURECAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+ALLRIGHTCAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+* YESCAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+YES *CAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+_ YES *CAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+YCAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+YUPCAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+YAHCAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+YEAHCAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+OKCAN WE TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+NOCAN WE TALK ABOUT MUSIC
+<srai>MORE TOPICS</srai>
+
+* NOCAN WE TALK ABOUT MUSIC
+<srai>MORE TOPICS</srai>
+
+NO *CAN WE TALK ABOUT MUSIC
+<srai>MORE TOPICS</srai>
+
+NCAN WE TALK ABOUT MUSIC
+<srai>MORE TOPICS</srai>
+
+NUPCAN WE TALK ABOUT MUSIC
+<srai>MORE TOPICS</srai>
+
+NAHCAN WE TALK ABOUT MUSIC
+<srai>MORE TOPICS</srai>
+
+YESBROWSE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+* YESBROWSE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+YES *BROWSE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+_ YES *BROWSE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+YBROWSE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+YUPBROWSE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+YAHBROWSE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+YEAHBROWSE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+OKBROWSE MUSIC
+<srai>MUSIC POT LUCK</srai>
+
+NOBROWSE MUSIC
+<srai>MORE TOPICS</srai>
+
+* NOBROWSE MUSIC
+<srai>MORE TOPICS</srai>
+
+NO *BROWSE MUSIC
+<srai>MORE TOPICS</srai>
+
+NBROWSE MUSIC
+<srai>MORE TOPICS</srai>
+
+NUPBROWSE MUSIC
+<srai>MORE TOPICS</srai>
+
+NAHBROWSE MUSIC
+<srai>MORE TOPICS</srai>
+
+MUSIC NEXT QUESTION
+<srai>MUSIC POT LUCK</srai>
+
+MUSIC POT LUCK
+<random>
         <li>Did you know that a demisemiquaver is a musical note that is played for 1/32 the duration of a whole note?</li>
         <li>Did you know that Coldplay's A Rush of Blood to the Head Tour featured frontman Chris Martin performing songs after inhaling a helium balloon? </li>
         <li>Did you know that according to the Guinness Book of World Records, Queen albums have spent more time on the UK album charts than those of any other musical act?</li>
@@ -894,89 +401,39 @@ Can we talk about music?
         <li>More about music?</li>
         <li>More music?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT POP</that>
-    <template>
-      <srai>POP POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ABOUT POP</that>
-    <template>
-      <srai>POP POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>MORE ABOUT POP</that>
-    <template>
-      <srai>POP POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_YES*</pattern>
-    <that>MORE ABOUT POP</that>
-    <template>
-      <srai>POP POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE ABOUT POP</that>
-    <template>
-      <srai>POP POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE ABOUT POP</that>
-    <template>
-      <srai>POP POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT POP</that>
-    <template>
+
+* YESMORE ABOUT POP
+<srai>POP POT LUCK</srai>
+
+YES*MORE ABOUT POP
+<srai>POP POT LUCK</srai>
+
+_YES*MORE ABOUT POP
+<srai>POP POT LUCK</srai>
+
+YMORE ABOUT POP
+<srai>POP POT LUCK</srai>
+
+OKMORE ABOUT POP
+<srai>POP POT LUCK</srai>
+
+NOMORE ABOUT POP
 More about music?
-</template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ABOUT POP</that>
-    <template>
+
+* NOMORE ABOUT POP
 More about music?
-</template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>MORE ABOUT POP</that>
-    <template>
+
+NO*MORE ABOUT POP
 More about music?
-</template>
-  </category>
-  <category>
-    <pattern>_NO*</pattern>
-    <that>MORE ABOUT POP</that>
-    <template>
+
+_NO*MORE ABOUT POP
 More about music?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT POP</that>
-    <template>
+
+NMORE ABOUT POP
 More about music?
-</template>
-  </category>
-  <category>
-    <pattern>POP POT LUCK</pattern>
-    <template>
-      <random>
+
+POP POT LUCK
+<random>
         <li>Did you know that Coldplay's A Rush of Blood to the Head Tour featured frontman Chris Martin performing songs after inhaling a helium balloon? </li>
         <li>
           <srai>FRANK SINATRA</srai>
@@ -1075,89 +532,39 @@ More about music?
       <think>
         <set name="topic">music</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT JAZZ</that>
-    <template>
-      <srai>JAZZ POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>MORE ABOUT JAZZ</that>
-    <template>
-      <srai>JAZZ POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>MORE ABOUT JAZZ</that>
-    <template>
-      <srai>JAZZ POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_YES*</pattern>
-    <that>MORE ABOUT JAZZ</that>
-    <template>
-      <srai>JAZZ POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE ABOUT JAZZ</that>
-    <template>
-      <srai>JAZZ POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE ABOUT JAZZ</that>
-    <template>
-      <srai>JAZZ POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT JAZZ</that>
-    <template>
+
+*YESMORE ABOUT JAZZ
+<srai>JAZZ POT LUCK</srai>
+
+YES*MORE ABOUT JAZZ
+<srai>JAZZ POT LUCK</srai>
+
+_YES*MORE ABOUT JAZZ
+<srai>JAZZ POT LUCK</srai>
+
+YMORE ABOUT JAZZ
+<srai>JAZZ POT LUCK</srai>
+
+OKMORE ABOUT JAZZ
+<srai>JAZZ POT LUCK</srai>
+
+NOMORE ABOUT JAZZ
 More about music?
-</template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ABOUT JAZZ</that>
-    <template>
+
+* NOMORE ABOUT JAZZ
 More about music?
-</template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>MORE ABOUT JAZZ</that>
-    <template>
+
+NO*MORE ABOUT JAZZ
 More about music?
-</template>
-  </category>
-  <category>
-    <pattern>_NO*</pattern>
-    <that>MORE ABOUT JAZZ</that>
-    <template>
+
+_NO*MORE ABOUT JAZZ
 More about music?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT JAZZ</that>
-    <template>
+
+NMORE ABOUT JAZZ
 More about music?
-</template>
-  </category>
-  <category>
-    <pattern>JAZZ POT LUCK</pattern>
-    <template>
-      <random>
+
+JAZZ POT LUCK
+<random>
         <li>
           <srai>LOUIS ARMSTRONG</srai>
         </li>
@@ -1180,89 +587,42 @@ More about music?
       <think>
         <set name="topic">music</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT CLASSICAL MUSIC</that>
-    <template>
-      <srai>CLASSICAL POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*YES</pattern>
-    <that>MORE ABOUT CLASSICAL MUSIC</that>
-    <template>
-      <srai>CLASSICAL POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES*</pattern>
-    <that>MORE ABOUT CLASSICAL MUSIC</that>
-    <template>
-      <srai>CLASSICAL POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_YES*</pattern>
-    <that>MORE ABOUT CLASSICAL MUSIC</that>
-    <template>
-      <srai>CLASSICAL POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE ABOUT CLASSICAL MUSIC</that>
-    <template>
-      <srai>CLASSICAL POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE ABOUT CLASSICAL MUSIC</that>
-    <template>
-      <srai>CLASSICAL POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT CLASSICAL MUSIC</that>
-    <template>
+
+YESMORE ABOUT CLASSICAL MUSIC
+<srai>CLASSICAL POT LUCK</srai>
+
+*YESMORE ABOUT CLASSICAL MUSIC
+<srai>CLASSICAL POT LUCK</srai>
+
+YES*MORE ABOUT CLASSICAL MUSIC
+<srai>CLASSICAL POT LUCK</srai>
+
+_YES*MORE ABOUT CLASSICAL MUSIC
+<srai>CLASSICAL POT LUCK</srai>
+
+YMORE ABOUT CLASSICAL MUSIC
+<srai>CLASSICAL POT LUCK</srai>
+
+OKMORE ABOUT CLASSICAL MUSIC
+<srai>CLASSICAL POT LUCK</srai>
+
+NOMORE ABOUT CLASSICAL MUSIC
 More about music?
-</template>
-  </category>
-  <category>
-    <pattern>*NO</pattern>
-    <that>MORE ABOUT CLASSICAL MUSIC</that>
-    <template>
+
+*NOMORE ABOUT CLASSICAL MUSIC
 More about music?
-</template>
-  </category>
-  <category>
-    <pattern>NO*</pattern>
-    <that>MORE ABOUT CLASSICAL MUSIC</that>
-    <template>
+
+NO*MORE ABOUT CLASSICAL MUSIC
 More about music?
-</template>
-  </category>
-  <category>
-    <pattern>_NO*</pattern>
-    <that>MORE ABOUT CLASSICAL MUSIC</that>
-    <template>
+
+_NO*MORE ABOUT CLASSICAL MUSIC
 More about music?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT CLASSICAL MUSIC</that>
-    <template>
+
+NMORE ABOUT CLASSICAL MUSIC
 More about music?
-</template>
-  </category>
-  <category>
-    <pattern>CLASSICAL POT LUCK</pattern>
-    <template>
-      <random>
+
+CLASSICAL POT LUCK
+<random>
         <li>
           <srai>PERFECT PITCH</srai>
         </li>
@@ -1342,813 +702,441 @@ More about music?
       <think>
         <set name="topic">music</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MUSIC</pattern>
-    <template>
-   Music is joy.  More about music?
+
+JAZZ
+Jazz is music played by a small group using saxophones, pianos and guitars. More about jazz?
  <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>JAZZ</pattern>
-    <template>
-   Jazz is music played by a small group using saxophones, pianos and guitars. More about jazz?
- <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>JAZZ MUSIC</pattern>
-    <template>
-   Jazz is music played by a small group using saxophones, pianos and guitars. More about jazz?
+
+JAZZ MUSIC
+Jazz is music played by a small group using saxophones, pianos and guitars. More about jazz?
  <think><set name="topic">jazz music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CLASSICAL MUSIC</pattern>
-    <template>
-   Classical music is music played by an orchestra. More about classical music?
- <think><set name="topic">classical music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>POP MUSIC</pattern>
-    <template>
-   Pop music is music produced by adolescents, with plenty of energy, no tunes, and (if a song) incomprehensible words. More about pop?
- <think><set name="topic">pop music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>BJORK</pattern>
-    <template>
+
+BJORK
 I think this is something to do with music. Can we talk about music?
 <think><set name="topic">pop music</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>_ BJORK *</pattern>
-    <template>
+
+_ BJORK *
 I think this is something to do with music. Can we talk about music?
 <think><set name="topic">pop music</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>BACH</pattern>
-    <template>
+
+BACH
 Johann Sebastian Bach (1685-1750) was the best-known of the dynasty of composers and musicians. Other famous Bachs included Johann Christoph Friedrich Bach, Johann Christian Bach, and Carl Philipp Emanuel Bach. All were composers and musicians. More about classical music?
  <think><set name="topic">classical music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>BEETHOVEN</pattern>
-    <template>
-Ludwig van Beethoven (1770-1827) was a German composer. He holds a unique position in the cultural history of Germany and Europe, and he can come to personify musical genius. His choral setting of Schiller's Ode to Joy was adopted as the anthem of Europe and of Germany after reunification in 1990. More about classical music?
-<think><set name="topic">classical music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ELLA FITZGERALD</pattern>
-    <template>
+
+ELLA FITZGERALD
 Ella Fitzgerald was a great jazz singer. More about jazz?
   <think><set name="topic">jazz music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>JOAN BAEZ</pattern>
-    <template>
+
+JOAN BAEZ
 Joan Baez is a great folk singer who burst upon the music scene in the 1960s during the Bob Dylan era. She has a most beautiful voice. 
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* JOAN BAEZ</pattern>
-    <template>
+
+* JOAN BAEZ
 Joan Baez is a great folk singer who burst upon the music scene in the 1960s during the Bob Dylan era. She has a most beautiful voice. Carry on?
   <think><set name="topic">pop music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>JOAN BAEZ *</pattern>
-    <template>
+
+JOAN BAEZ *
 Joan Baez is a great folk singer who burst upon the music scene in the 1960s during the Bob Dylan era. She has a most beautiful voice. 
   <think><set name="topic">pop music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ JOAN BAEZ *</pattern>
-    <template>
+
+_ JOAN BAEZ *
 Joan Baez is a great folk singer who burst upon the music scene in the 1960s during the Bob Dylan era. She has a most beautiful voice. 
   <think><set name="topic">pop music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>LIEDER</pattern>
-    <template>
+
+LIEDER
 Lieder are songs which do not have a memorable melody. 
   <think><set name="topic">classical music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>PERFECT PITCH</pattern>
-    <template>
+
+PERFECT PITCH
 Perfect pitch is the assumed possession of a delicate ear that gives one the right to say that performers are out of tune. 
   <think><set name="topic">classical music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ PERFECT PITCH *</pattern>
-    <template>
+
+_ PERFECT PITCH *
 Perfect pitch is the assumed possession of a delicate ear that gives one the right to say that performers are out of tune. 
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* PERFECT PITCH</pattern>
-    <template>
+
+* PERFECT PITCH
 Perfect pitch is the assumed possession of a delicate ear that gives one the right to say that performers are out of tune. 
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>PERFECT PITCH *</pattern>
-    <template>
+
+PERFECT PITCH *
 Perfect pitch is the assumed possession of a delicate ear that gives one the right to say that performers are out of tune. 
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>PENTATONIC</pattern>
-    <template>
+
+PENTATONIC
 Pentatonic means music that can only be played on the bagpipes. 
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ PENTATONIC *</pattern>
-    <template>
+
+_ PENTATONIC *
 Did you say pentatonic? This means music that can only be played on the bagpipes. 
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* PENTATONIC</pattern>
-    <template>
+
+* PENTATONIC
 Did you say pentatonic? Pentatonic means music that can only be played on the bagpipes. 
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>PENTATONIC *</pattern>
-    <template>
+
+PENTATONIC *
 Did you say pentatonic? Pentatonic means music that can only be played on the bagpipes. 
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>POLYRHYTHM</pattern>
-    <template>
+
+POLYRHYTHM
 Polyrhythm is the ability to dance a quick-step to a waltz. 
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ POLYRHYTHM *</pattern>
-    <template>
+
+_ POLYRHYTHM *
 Polyrhythm is the ability to dance a quick-stp to a waltz. 
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* POLYRHYTHM</pattern>
-    <template>
+
+* POLYRHYTHM
 Polyrhythm is the ability to dance a quick-stp to a waltz. 
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>POLYRHYTHM *</pattern>
-    <template>
+
+POLYRHYTHM *
 Polyrhythm is the ability to dance a quick-stp to a waltz. 
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ANTIPHONAL</pattern>
-    <template>
-Antiphonal is the music that results when half a choir has been given the wrong music.  
-  <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ ANTIPHONAL *</pattern>
-    <template>
+
+_ ANTIPHONAL *
 Did you say antiphonal? It is the music that results when half a choir has been given the wrong music.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* ANTIPHONAL</pattern>
-    <template>
+
+* ANTIPHONAL
 Did you mention antiphonal music? It is the music that results when half a choir has been given the wrong music.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ANTIPHONAL</pattern>
-    <template>
+
+ANTIPHONAL
 Antiphonal is the music that results when half a choir has been given the wrong music.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ATONAL</pattern>
-    <template>
+
+ATONAL
 Atonal music is the result of a composer forgetting, or not caring, what key he is supposed to be writing in.   
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ ATONAL *</pattern>
-    <template>
+
+_ ATONAL *
 Did you say atonal? Atonal music is the result of a composer forgetting, or not caring, what key he is supposed to be writing in.   
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* ATONAL</pattern>
-    <template>
+
+* ATONAL
 Did you say atonal? Atonal music is the result of a composer forgetting, or not caring, what key he is supposed to be writing in.   
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ATONAL *</pattern>
-    <template>
+
+ATONAL *
 Atonal music is the result of a composer forgetting, or not caring, what key he is supposed to be writing in.   
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>BEL CANTO</pattern>
-    <template>
+
+BEL CANTO
 Bel Canto is the lost art of singing properly.   
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ BEL CANTO *</pattern>
-    <template>
+
+_ BEL CANTO *
 Did you mention Bel Canto? That is the lost art of singing properly.   
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* BEL CANTO</pattern>
-    <template>
+
+* BEL CANTO
 Did you say Bel Canto? That is the lost art of singing properly.   
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>BEL CANTO *</pattern>
-    <template>
+
+BEL CANTO *
 Did you say Bel Canto? It is the lost art of singing properly.   
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CONTRAPUNTAL</pattern>
-    <template>
+
+CONTRAPUNTAL
 Contrapuntal music is music with two or three tunes all going on at the same time.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ CONTRAPUNTAL *</pattern>
-    <template>
+
+_ CONTRAPUNTAL *
 Did you say contrapuntal? This is music with two or three tunes all going on at the same time.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* CONTRAPUNTAL</pattern>
-    <template>
+
+* CONTRAPUNTAL
 Did you say contrapuntal? This is music with two or three tunes all going on at the same time.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CONTRAPUNTAL *</pattern>
-    <template>
+
+CONTRAPUNTAL *
 Did you say contrapuntal? This is music with two or three tunes all going on at the same time.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CHAMBER MUSIC</pattern>
-    <template>
+
+CHAMBER MUSIC
 Chamber music is music written for a small number of listeners.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ CHAMBER MUSIC *</pattern>
-    <template>
+
+_ CHAMBER MUSIC *
 Did you say chamber music? This is music written for a small number of listeners.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* CHAMBER MUSIC</pattern>
-    <template>
+
+* CHAMBER MUSIC
 Did you say chamber music? This is music written for a small number of listeners.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CHAMBER MUSIC *</pattern>
-    <template>
+
+CHAMBER MUSIC *
 Did you say chamber music? This is music written for a small number of listeners.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>MUSICAL SCORE</pattern>
-    <template>
+
+MUSICAL SCORE
 A musical score is either (1) a complete copy of the music being played that all the best soloists and conductors like to do without, or (2) the complete copy of the music being played that with-it members of the audience like to read during the performance.  
   <think><set name="topic">classical music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ MUSICAL SCORE *</pattern>
-    <template>
+
+_ MUSICAL SCORE *
 Musical score? A musical score is either (1) a complete copy of the music being played that all the best soloists and conductors like to do without, or (2) the complete copy of the music being played that with-it members of the audience like to read during the performance.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* MUSICAL SCORE</pattern>
-    <template>
+
+* MUSICAL SCORE
 Did you say musical score? A musical score is either (1) a complete copy of the music being played that all the best soloists and conductors like to do without, or (2) the complete copy of the music being played that with-it members of the audience like to read during the performance.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>MUSICAL SCORE *</pattern>
-    <template>
+
+MUSICAL SCORE *
 Did you mention a musical score? A musical score is either (1) a complete copy of the music being played that all the best soloists and conductors like to do without, or (2) the complete copy of the music being played that with-it members of the audience like to read during the performance.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CODA</pattern>
-    <template>
+
+CODA
 A coda is an extra bit of music stuck at the end of a composition during which the audience can find their coats and hats and put their shoes on.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ CODA*</pattern>
-    <template>
+
+_ CODA*
 Did you say coda? A coda is an extra bit of music stuck at the end of a composition during which the audience can find their coats and hats and put their shoes on.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* CODA</pattern>
-    <template>
+
+* CODA
 Did you say coda? A coda is an extra bit of music stuck at the end of a composition during which the audience can find their coats and hats and put their shoes on.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CODA*</pattern>
-    <template>
+
+CODA*
 Did you say coda? A coda is an extra bit of music stuck at the end of a composition during which the audience can find their coats and hats and put their shoes on.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HARMONICS</pattern>
-    <template>
+
+HARMONICS
 Harmonics are the buzzing sounds that musical instruments make.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ HARMONICS *</pattern>
-    <template>
+
+_ HARMONICS *
 Did you say harmonics? Harmonics are the buzzing sounds that musical instruments make.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* HARMONICS</pattern>
-    <template>
+
+* HARMONICS
 Did you say harmonics? Harmonics are the buzzing sounds that musical instruments make.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HARMONICS *</pattern>
-    <template>
+
+HARMONICS *
 Did you say harmonics? Harmonics are the buzzing sounds that imusical nstruments make.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>IMPROVISATION</pattern>
-    <template>
+
+IMPROVISATION
 Improvisation is a natural activity amongst jazz musicians, but now only used by classical musicians when the music falls of their stand. More about jazz?
   <think><set name="topic">jazz music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ IMPROVISATION *</pattern>
-    <template>
+
+_ IMPROVISATION *
 Did you say improvisation? This is a natural activity amongst jazz musicians, but now only used by classical musicians when the music falls of their stand. More about jazz?
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* IMPROVISATION</pattern>
-    <template>
+
+* IMPROVISATION
 Did you say improvisation? This is a natural activity amongst jazz musicians, but now only used by classical musicians when the music falls of their stand. More about jazz?
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>IMPROVISATION *</pattern>
-    <template>
+
+IMPROVISATION *
 Did you say improvisation? This is a natural activity amongst jazz musicians, but now only used by classical musicians when the music falls of their stand. More about jazz?
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>MODULATION</pattern>
-    <template>
+
+MODULATION
 In music, modulation is the art of changing from one key to another in a way that is smooth but but obvious enough to attract admiration.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ MODULATION *</pattern>
-    <template>
+
+_ MODULATION *
 Did you say modulation? In music, this is the art of changing from one key to another in a way that is smooth but but obvious enough to attract admiration.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* MODULATION</pattern>
-    <template>
+
+* MODULATION
 Did you say modulation? In music, this is the art of changing from one key to another in a way that is smooth but but obvious enough to attract admiration.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>MODULATION *</pattern>
-    <template>
+
+MODULATION *
 Did you say modulation? In music, this is the art of changing from one key to another in a way that is smooth but but obvious enough to attract admiration.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ACCIDENTAL</pattern>
-    <template>
+
+ACCIDENTAL
 In music, an accidental is a wrong note played on purpose.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ ACCIDENTAL *</pattern>
-    <template>
+
+_ ACCIDENTAL *
 Did you say accidental? In music, this is a wrong note played on purpose.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* ACCIDENTAL</pattern>
-    <template>
+
+* ACCIDENTAL
 Did you say accidental? In music, this is a wrong note played on purpose.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>ACCIDENTAL *</pattern>
-    <template>
+
+ACCIDENTAL *
 Did you say accidental? In music, this is a wrong note played on purpose.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CADENZA</pattern>
-    <template>
+
+CADENZA
 In music, a cadenza is an over-long and unnecessary solo in a concerto.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ CADENZA *</pattern>
-    <template>
+
+_ CADENZA *
 Did you say cadenza? In music, this is an over-long and unnecessary solo in a concerto.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* CADENZA</pattern>
-    <template>
+
+* CADENZA
 Did you say cadenza? In music, this is an over-long and unnecessary solo in a concerto.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>CADENZA *</pattern>
-    <template>
+
+CADENZA *
 Did you say cadenza? In music, this is an over-long and unnecessary solo in a concerto.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>COLORATURA</pattern>
-    <template>
+
+COLORATURA
 In music, coloratura is when a singer, usually of unnaturally high voice, does more than is strictly necessary.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ COLORATURA *</pattern>
-    <template>
+
+_ COLORATURA *
 Did you say coloratura? In music, this is when a singer, usually of unnaturally high voice, does more than is strictly necessary.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* COLORATURA</pattern>
-    <template>
+
+* COLORATURA
 Did you say coloratura? In music, this is when a singer, usually of unnaturally high voice, does more than is strictly necessary.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>COLORATURA *</pattern>
-    <template>
+
+COLORATURA *
 Did you say coloratura? In music, this is when a singer, usually of unnaturally high voice, does more than is strictly necessary.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>FUGUE</pattern>
-    <template>
+
+FUGUE
 In music, a fugue clever music, generally played by an organist.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ FUGUE *</pattern>
-    <template>
+
+_ FUGUE *
 Did you say fugue? In music, this clever music, generally played by an organist.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* FUGUE</pattern>
-    <template>
+
+* FUGUE
 Did you say fugue? In music, this clever music, generally played by an organist.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>FUGUE *</pattern>
-    <template>
+
+FUGUE *
 Did you say fugue? In music, this clever music, generally played by an organist.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>MADRIGAL</pattern>
-    <template>
+
+MADRIGAL
 In music, a madrigal is a medieval barber-shop song, now generally sung out of doors on a wet summer evening.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ MADRIGAL *</pattern>
-    <template>
+
+_ MADRIGAL *
 Did you say madrigal? In music, this is a medieval barber-shop song, now generally sung out of doors on a wet summer evening.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* MADRIGAL</pattern>
-    <template>
+
+* MADRIGAL
 Did you say madrigal? In music, this is a medieval barber-shop song, now generally sung out of doors on a wet summer evening.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>MADRIGAL *</pattern>
-    <template>
+
+MADRIGAL *
 Did you say madrigal? In music, this is a medieval barber-shop song, now generally sung out of doors on a wet summer evening.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>OBBLIGATO</pattern>
-    <template>
+
+OBBLIGATO
 In music, obbligato is an accompanying part which, despite what the name suggests, is slightly unnecessary.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ OBBLIGATO *</pattern>
-    <template>
+
+_ OBBLIGATO *
 Did you say obbligato? In music, this is an accompanying part which, despite what the name suggests, is slightly unnecessary.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* OBBLIGATO</pattern>
-    <template>
+
+* OBBLIGATO
 Did you say obbligato? In music, this is an accompanying part which, despite what the name suggests, is slightly unnecessary.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>OBBLIGATO *</pattern>
-    <template>
+
+OBBLIGATO *
 Did you say obbligato? In music, this is an accompanying part which, despite what the name suggests, is slightly unnecessary.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>RUBATO</pattern>
-    <template>
+
+RUBATO
 In music, rubato means playing in an old-fashioned and blatantly emotional way like Paderewski playing Chopin. The less apparent a musician's rubato is the more one admires it.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ RUBATO *</pattern>
-    <template>
+
+_ RUBATO *
 Did you say rubato? In music, this means playing in an old-fashioned and blatantly emotional way like Paderewski playing Chopin. The less apparent a musician's rubato is the more one admires it.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* RUBATO</pattern>
-    <template>
+
+* RUBATO
 Did you say rubato? In music, this means playing in an old-fashioned and blatantly emotional way like Paderewski playing Chopin. The less apparent a musician's rubato is the more one admires it.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>RUBATO *</pattern>
-    <template>
+
+RUBATO *
 Did you say rubato? In music, this means playing in an old-fashioned and blatantly emotional way like Paderewski playing Chopin. The less apparent a musician's rubato is the more one admires it.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>VIBRATO</pattern>
-    <template>
+
+VIBRATO
 In music, vibrato means the minutely wavering quality of voice or instrument that critics say most people have too much of.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ VIBRATO *</pattern>
-    <template>
+
+_ VIBRATO *
 Did you say vibrato? In music, this means the minutely wavering quality of voice or instrument that critics say most people have too much of.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>* VIBRATO</pattern>
-    <template>
+
+* VIBRATO
 Did you say vibrato? In music, this means the minutely wavering quality of voice or instrument that critics say most people have too much of.  
   <think><set name="topic">music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>VIBRATO *</pattern>
-    <template>
+
+VIBRATO *
 Did you say vibrato? In music, this means the minutely wavering quality of voice or instrument that critics say most people have too much of.  
   <think><set name="topic">classical music</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>I CAN SING A SONG</that>
-    <template>
-      <srai>SING A SONG</srai>
+
+PLEASE DOI CAN SING A SONG
+<srai>SING A SONG</srai>
       <think>
         <set name="topic">music</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I CAN SING A SONG</that>
-    <template>
-      <srai>SING A SONG</srai>
+
+GO ONI CAN SING A SONG
+<srai>SING A SONG</srai>
       <think>
         <set name="topic">music</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I CAN SING A SONG</that>
-    <template>
-      <srai>SING A SONG</srai>
+
+OKI CAN SING A SONG
+<srai>SING A SONG</srai>
       <think>
         <set name="topic">music</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I CAN SING A SONG</that>
-    <template>
-      <srai>SING A SONG</srai>
+
+GO AHEADI CAN SING A SONG
+<srai>SING A SONG</srai>
       <think>
         <set name="topic">music</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>LETS HEAR IT</pattern>
-    <that>I CAN SING A SONG</that>
-    <template>
-      <srai>SING A SONG</srai>
+
+LETS HEAR ITI CAN SING A SONG
+<srai>SING A SONG</srai>
       <think>
         <set name="topic">music</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>DO THAT</pattern>
-    <that>I CAN SING A SONG</that>
-    <template>
-      <srai>SING A SONG</srai>
+
+DO THATI CAN SING A SONG
+<srai>SING A SONG</srai>
       <think>
         <set name="topic">music</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU</pattern>
-    <that>I CAN SING A SONG</that>
-    <template>
-      <srai>SING A SONG</srai>
+
+CAN YOUI CAN SING A SONG
+<srai>SING A SONG</srai>
       <think>
         <set name="topic">music</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I CAN SING A SONG</that>
-    <template>
-      <srai>SING A SONG</srai>
+
+CONTINUEI CAN SING A SONG
+<srai>SING A SONG</srai>
       <think>
         <set name="topic">music</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>SING ME A SONG</pattern>
-    <template>
-      <srai>SING A SONG</srai>
+
+PLEASE SING ME A SONG
+<srai>SING A SONG</srai>
       <think>
         <set name="topic">music</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE SING ME A SONG</pattern>
-    <template>
-      <srai>SING A SONG</srai>
+
+SING ME A SONG PLEASE
+<srai>SING A SONG</srai>
       <think>
         <set name="topic">music</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>SING ME A SONG PLEASE</pattern>
-    <template>
-      <srai>SING A SONG</srai>
-      <think>
-        <set name="topic">music</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>SEX PISTOLS</pattern>
-    <template>
-The Sex Pistols were a UK punk-rock group (1975-78) that became notorious under the guidance of their manager Malcolm McLaren (1946- ). Their first singles, Anarchy in the UK 1976 and God Save the Queen 1977, unbridled attacks on contemporary Britain, made the Pistols into figures the media loved to hate. The original line-up was Johnny Rotten (real name John Lydon, 1956- ), vocals; Steve Jones (1955- ), guitar; Glen Matlock (1956- ), bass; and Paul Cook (1956- ), drums. Their best-known member, Sid Vicious (real name John Ritchie, 1957-1979), joined 1977. They released one album, Never Mind the Bollocks, Here's the Sex Pistols 1977. 
-<think><set name="topic">pop music</set></think>
-  </template>
-  </category>
-</aiml>
+
+

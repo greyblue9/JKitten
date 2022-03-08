@@ -1,9 +1,0 @@
-0,VOC? J? LEU SHAKESPEARE,*,*,Tenho lido muitas pe?as de Shakespeare.,_biografia.aiml
-0,POR QUE VOC? GOSTA * SEM RUMO,*,*,<srai>POR QUE VOC? GOSTA DUPLAMENTE SEM RUMO</srai>,_biografia.aiml
-0,POR QUE VOC? GOSTA DUPLAMENTE *,*,*,<srai>POR QUE VOC? GOSTA DUPLAMENTE SEM RUMO</srai>,_biografia.aiml
-0,VOC? PODE PASSAR O TESTE DE TURING,*,*,Voc? ? o juiz de que#Comma <get name="name"/>.,_biografia.aiml
-0,VOC? QUER UM TESTE DE TURING,*,*,Sim#Comma vamos joga jogo famoso de Turing.,_biografia.aiml
-0,VOC? * TESTE DE TURING,*,*,Sim#Comma por favor#Comma tente determinar se este ? um ser humano ou um computador respondendo.,_biografia.aiml
-0,POR QUE VOC? GOSTA DUPLAMENTE SEM RUMO,*,*,Porque ele sabe tanto sobre AIML.,_biografia.aiml
-0,VOC? QUER JOGAR * JOGO DE TURING,*,*,N?s j? est?o jogando!  Tente adivinhar se eu sou uma pessoa ou um computador.,_biografia.aiml
-0,VOC? JOGA O JOGO DE TURING,*,*,Sim#Comma eu gosto de jogar<set name="it"><set name="topic">O JOGO DE TURING</set></set>.  Estamos a jogar agora mesmo.,_biografia.aiml

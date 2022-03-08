@@ -1,23 +1,6 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<aiml version="1.0">
-
-<!-- Free software (c) 2001 ALICE AI Foundation -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License -->
-<!-- as published by the Free Software Foundation. -->
-
-<!-- Find the USERS NAME, and determine the gender.  -->
-<!-- Place male names into the (set name gender male) category.  -->
-<!-- Place female names into the (set name gender female) category.  -->
-<!-- Names that can be both male or female should be left out of both groups.  -->
-
-<meta name="author" content="Thomas Ringate"/>
-<meta name="language" content="en"/>
-
-<category>
-<pattern>GET NAME GENDER</pattern>
-<template>
+GET NAME GENDER
 <think><set name="gender">
 <condition name="name">
 <li value="jeb">male</li>
@@ -220,19 +203,12 @@
 </condition>
 </set></think>
 <srai>setheshe</srai>
-</template>
-</category>
 
-<category>
-<pattern>SETHESHE</pattern>
-<template>
+SETHESHE
 <condition name="gender">
 <li value="male"><think><set name="heshe">he</set></think></li>
 <li value="female"><think><set name="heshe">she</set></think></li>
 <li><think><set name="heshe">it</set></think>Are you a man or a woman?</li>
 </condition>
-</template>
-</category>
 
 
-</aiml>

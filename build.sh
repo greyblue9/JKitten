@@ -1,4 +1,4 @@
-#!/usr/local/bin/mksh-static-printf
+#!/bin/bash
 
 classpath="${CLASSPATH}${CLASSPATH:+:}$( find "$( pwd )/lib" -name "*.jar" | tr '\n' ":"
 )$( pwd )/out:$( pwd  )"

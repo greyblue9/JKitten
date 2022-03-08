@@ -1,652 +1,394 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<aiml version="1.0">
+EBOOKS
+<srai>EBKS</srai>
 
-<!--Copyright 2011-2012 David W. Newyear-->
+E BOOKS
+<srai>EBKS</srai>
 
- <!-- Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
+ELECTRONIC BOOKS
+<srai>EBKS</srai>
 
-      http://www.apache.org/licenses/LICENSE-2.0
+EMEDIA
+<srai>EBKS</srai>
 
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.-->
-  
-<category>
-<pattern>EBOOK</pattern>
-<template><srai>EBKS</srai></template>
-</category>  
- 
-<category>
-<pattern>EBOOKS</pattern>
-<template><srai>EBKS</srai></template>
-</category>
+E MEDIA
+<srai>EBKS</srai>
 
-<category>
-<pattern>E BOOK</pattern>
-<template><srai>EBKS</srai></template>
-</category>
+DIGITAL EDITION
+<srai>EBKS</srai>
 
-<category>
-<pattern>E BOOKS</pattern>
-<template><srai>EBKS</srai></template>
-</category>
+* DIGITAL EDITION
+<srai>EBKS</srai>
 
-<category>
-<pattern>ELECTRONIC BOOKS</pattern>
-<template><srai>EBKS</srai></template>
-</category>
+DIGITAL EDITION *
+<srai>EBKS</srai>
 
-<category>
-<pattern>EMEDIA</pattern>
-<template><srai>EBKS</srai></template>
-</category>
+* DIGITAL EDITION *
+<srai>EBKS</srai>
 
-<category>
-<pattern>E MEDIA</pattern>
-<template><srai>EBKS</srai></template>
-</category>
+DIGITAL EDITIONS
+<srai>EBKS</srai>
 
-<!--DIGITAL EDS-->
+DIGITAL EDITIONS *
+<srai>EBKS</srai>
 
-<category>
-<pattern>DIGITAL EDITION</pattern>
-<template><srai>EBKS</srai></template>
-</category>
+E READER BOOKS
+<srai>EBKS</srai>
 
-<category>
-<pattern>* DIGITAL EDITION</pattern>
-<template><srai>EBKS</srai></template>
-</category>
+EREADER BOOKS
+<srai>EBKS</srai>
 
-<category>
-<pattern>DIGITAL EDITION *</pattern>
-<template><srai>EBKS</srai></template>
-</category>
+NOOKBOOKS
+<srai>EBKS</srai>
 
-<category>
-<pattern>* DIGITAL EDITION *</pattern>
-<template><srai>EBKS</srai></template>
-</category>
+NOOK BOOKS
+<srai>EBKS</srai>
 
-<category>
-<pattern>DIGITAL EDITIONS</pattern>
-<template><srai>EBKS</srai></template>
-</category>
+ONLINE BOOK
+<srai>EBKS</srai>
 
-<category>
-<pattern>DIGITAL EDITIONS *</pattern>
-<template><srai>EBKS</srai></template>
-</category>
+ONLINE BOOKS
+<srai>EBKS</srai>
 
-<!--E READER-->
+* BOOKS * DOWNLOAD * E READER
+<srai>EBKS</srai>
 
-<category>
-<pattern>E READER BOOKS</pattern>
-<template><srai>EBKS</srai></template>
-</category>
+* BOOKS * DOWNLOAD * E READERS
+<srai>EBKS</srai>
 
-<category>
-<pattern>EREADER BOOKS</pattern>
-<template><srai>EBKS</srai></template>
-</category>
+OVERDRIVE
+<srai>EBKS</srai>
 
-<category>
-<pattern>NOOKBOOKS</pattern>
-<template><srai>EBKS</srai></template>
-</category>
-
-<category>
-<pattern>NOOK BOOKS</pattern>
-<template><srai>EBKS</srai></template>
-</category>
-
-<category>
-<pattern>ONLINE BOOK</pattern>
-<template><srai>EBKS</srai></template>
-</category>
-
-<category>
-<pattern>ONLINE BOOKS</pattern>
-<template><srai>EBKS</srai></template>
-</category>
-
-<category>
-<pattern>* BOOKS * DOWNLOAD * E READER</pattern>
-<template><srai>EBKS</srai></template>
-</category>
-
-<category>
-<pattern>* BOOKS * DOWNLOAD * E READERS</pattern>
-<template><srai>EBKS</srai></template>
-</category>  
-  
-<category>
-<pattern>OVERDRIVE</pattern>
-<template><srai>EBKS</srai></template>
-</category>
-
-<category>
-<pattern>OVER DRIVE</pattern>
-<template><srai>EBKS</srai></template>
-</category>
+OVER DRIVE
+<srai>EBKS</srai>
 
 <topic name="EBKS">
-<category>
-<pattern>_</pattern>
-<template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic">EBKS2</set>
-</think>
-<srai>EBKS2</srai></template>
-</category>
-</topic>
-
-<category>
-<pattern>* EBOOK</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* EBOOK *</pattern>
-<template>
+
+* EBOOK
+<think>
+<set name="answr"><star/></set>
+<set name="topic">EBKS2</set>
+</think>
+<srai>EBKS2</srai>
+
+* EBOOK *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>EBOOK *</pattern>
-<template>
+EBOOK *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>EBOOKS *</pattern>
-<template>
+EBOOKS *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* EBOOKS</pattern>
-<template>
+* EBOOKS
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* EBOOKS *</pattern>
-<template>
+* EBOOKS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* E BOOK</pattern>
-<template>
+* E BOOK
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>E BOOK *</pattern>
-<template>
+E BOOK *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* E BOOK *</pattern>
-<template>
+* E BOOK *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* E BOOKS</pattern>
-<template>
+* E BOOKS
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>E BOOKS *</pattern>
-<template>
+E BOOKS *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* E BOOKS *</pattern>
-<template>
+* E BOOKS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* ELECTRONIC BOOKS</pattern>
-<template>
+* ELECTRONIC BOOKS
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>ELECTRONIC BOOKS *</pattern>
-<template>
+ELECTRONIC BOOKS *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* ELECTRONIC BOOKS *</pattern>
-<template>
+* ELECTRONIC BOOKS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* EMEDIA</pattern>
-<template>
+* EMEDIA
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>EMEDIA *</pattern>
-<template>
+EMEDIA *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* EMEDIA *</pattern>
-<template>
+* EMEDIA *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* E MEDIA</pattern>
-<template>
+* E MEDIA
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>E MEDIA *</pattern>
-<template>
+E MEDIA *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* E MEDIA *</pattern>
-<template>
+* E MEDIA *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* E READER BOOKS</pattern>
-<template>
+* E READER BOOKS
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>E READER BOOKS *</pattern>
-<template>
+E READER BOOKS *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* E READER BOOKS *</pattern>
-<template>
+* E READER BOOKS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-
-<category>
-<pattern>* EREADER BOOKS</pattern>
-<template>
+* EREADER BOOKS
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>EREADER BOOKS *</pattern>
-<template>
+EREADER BOOKS *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* EREADER BOOKS *</pattern>
-<template>
+* EREADER BOOKS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* NOOKBOOKS</pattern>
-<template>
+* NOOKBOOKS
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>NOOKBOOKS *</pattern>
-<template>
+NOOKBOOKS *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* NOOKBOOKS *</pattern>
-<template>
+* NOOKBOOKS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* NOOK BOOKS</pattern>
-<template>
+* NOOK BOOKS
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>NOOK BOOKS *</pattern>
-<template>
+NOOK BOOKS *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* NOOK BOOKS *</pattern>
-<template>
+* NOOK BOOKS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* ONLINE BOOK</pattern>
-<template>
+* ONLINE BOOK
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>ONLINE BOOK *</pattern>
-<template>
+ONLINE BOOK *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* ONLINE BOOK *</pattern>
-<template>
+* ONLINE BOOK *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* ONLINE BOOKS</pattern>
-<template>
+* ONLINE BOOKS
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>ONLINE BOOKS *</pattern>
-<template>
+ONLINE BOOKS *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* ONLINE BOOKS *</pattern>
-<template>
+* ONLINE BOOKS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* OVERDRIVE</pattern>
-<template>
+* OVERDRIVE
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>OVERDRIVE *</pattern>
-<template>
+OVERDRIVE *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* OVERDRIVE *</pattern>
-<template>
+* OVERDRIVE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* OVER DRIVE</pattern>
-<template>
+* OVER DRIVE
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>OVER DRIVE *</pattern>
-<template>
+OVER DRIVE *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* OVER DRIVE *</pattern>
-<template>
+* OVER DRIVE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">EBKS2</set>
 </think>
 <srai>EBKS2</srai>
-</template>
-</category>
 
 <topic name="EBKS2">
-<category>
-<pattern>EBKS2</pattern>
-<template>
+EBKS2
 <think>
 <get name="answr"/>
 <set name="message">no match</set>
@@ -1322,12 +1064,12 @@
 
 
 </condition>
-<think><set name="topic"></set></think>
+<think><set name="topic"/></think>
 </think>
 
 <condition name="message">
 
-<li value="stop"><set name="topic"></set>O.K. I'll stop.</li>
+<li value="stop"><set name="topic"/>O.K. I'll stop.</li>
 
 <li value="no match">O.K. If you need any further assistance, please call the library at 440.255.8811 during regular business hours.</li>
 <li value="general"><srai>EBKS</srai></li>
@@ -1375,8 +1117,6 @@
 
 
 </condition>
-</template>
-</category>
-</topic>
 
-</aiml>  
+
+

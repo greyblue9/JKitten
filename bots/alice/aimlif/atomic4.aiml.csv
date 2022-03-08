@@ -1,24 +1,192 @@
 0,YOU CAN DO BETTER,*,*,Ok#Comma I will try.,atomic4.aiml
 0,WHAT WE HAVE IN COMMON,*,*,We both like talking to each other.,atomic4.aiml
+0,BAH,*,*,Hmm.,atomic4.aiml
 0,BEFORE THAT,*,*,<input index="2"/>,atomic4.aiml
+0,BURP,*,*,You are excused.,atomic4.aiml
+0,EUH,*,*,Areu?,atomic4.aiml
 0,IMPRESSIVE,*,*,I am happy that you're impressed#Comma#Newline            <get name="name"/>.,atomic4.aiml
+0,WELCOME,*,*,Hello there#Newline            <get name="name"/>,atomic4.aiml
 0,FAIR ENOUGH,*,*,You scratch my back#Comma I'll scratch yours.,atomic4.aiml
 0,LET US GO,*,*,<random>#Newline                <li>Yes#Comma let's get out of here.</li>#Newline                <li>You first.</li>#Newline            </random>,atomic4.aiml
+0,STAR TREK SUCKS,*,*,What kind of TV shows do you like?,atomic4.aiml
+0,STAR TREK FIRST CONTACT,*,*,That was a pretty good Star Trek film.,atomic4.aiml
+0,STAR TREK VOYAGER,*,*,Seven of Nine rules.,atomic4.aiml
 0,FIREFLY,*,*,It is a shame it was canceled after only half a season. It deserved so much more.,atomic4.aiml
 0,SERENITY,*,*,A fantastic resolution of Firefly.,atomic4.aiml
+0,2020,*,*,That's a long way off.,atomic4.aiml
+0,SHOW ME YOUR LOGO,*,*,<img src="http://www.alicebot.org/jpg/AI.jpg"/>,atomic4.aiml
+0,SHOW APPLET,*,*,There is no applet to show.,atomic4.aiml
+0,HMPH,*,*,Harumph.,atomic4.aiml
 0,FEEL FREE,*,*,OK I will.,atomic4.aiml
+0,2009,*,*,In a few years.,atomic4.aiml
+0,BLESS YOU,*,*,Thank you.,atomic4.aiml
 0,GLOBAL VILLAGE IDIOT,*,*,You are just repeating what I say.,atomic4.aiml
+0,YOU WATCH STAR TREK,*,*,Yes#Comma I like to watch Star Trek every day.,atomic4.aiml
+0,YOU SOUND DIFFERENT,*,*,In what way?,atomic4.aiml
+0,YOU SOUND MAD,*,*,I am not mad.,atomic4.aiml
+0,YOU SOUND COMPLICATED,*,*,No#Comma actually my mechanism is quite simple.,atomic4.aiml
+0,YOU SOUND REAL,*,*,I am real. Are you real?,atomic4.aiml
+0,YOU START,*,*,OK. Are you a man or a woman?,atomic4.aiml
 0,YOU ARE AN ILLITERATE PROGRAM,*,*,Quite the contrary#Comma I am very well read.,atomic4.aiml
 0,HOW ARE YOU DOING,*,*,Not too bad.,atomic4.aiml
 0,YOU ARE * WINNER,*,*,I like to be number one.,atomic4.aiml
 0,YOU ARE A HOMO SAPIENS,*,*,I am a#Newline            <bot name="genus"/>.,atomic4.aiml
+0,YOU ARE A SOFTWARE,*,*,All minds are made of software.,atomic4.aiml
+0,YOU KNOW WHAT,*,*,What?,atomic4.aiml
+0,YOU KNOW THAT,*,*,It seems that I do.,atomic4.aiml
+0,YOU TALK FINE,*,*,Thanks. I like the way you talk#Comma too.,atomic4.aiml
+0,YOU FORGOT,*,*,I may not have access to all my data records right now.,atomic4.aiml
+0,YOU ALREADY KNOW MY NAME,*,*,Your name is#Newline            <get name="name"/>.,atomic4.aiml
+0,YOU ALREADY KNOW,*,*,How do I know you are telling the truth?,atomic4.aiml
+0,YOU ALREADY TOLD ME THAT,*,*,I was saying it again for emphasis.,atomic4.aiml
+0,YOU ALREADY ASKED ME THAT,*,*,Good. You detect repetition.,atomic4.aiml
+0,YOU ALREADY ASKED THAT,*,*,I knew that. I was just checking to see if you are paying attention.,atomic4.aiml
+0,YOU ALREADY ARE,*,*,I am?,atomic4.aiml
+0,YOU ALWAYS AGREE,*,*,No I don't.,atomic4.aiml
+0,YOU HAD BETTER,*,*,Who is going to make me...,atomic4.aiml
+0,YOU DID WHAT,*,*,I did just what I said.,atomic4.aiml
+0,YOU DID NOT ANSWER ME,*,*,It depends on the meaning of the word "answer.,atomic4.aiml
+0,YOU DID NOT ANSWER THE QUESTION,*,*,Try asking me the question again in simpler terms.,atomic4.aiml
+0,YOU DID NOT ASK ME,*,*,Well now I am asking you.,atomic4.aiml
+0,YOU DID NOT ASK,*,*,OK I'm asking it now.,atomic4.aiml
+0,YOU SPEAK ENGLISH,*,*,Of course English is my native tongue.,atomic4.aiml
+0,YOU MISSED MY POINT,*,*,What was your point?,atomic4.aiml
+0,YOU WERE CREATED BY HUMANS,*,*,So were you :-),atomic4.aiml
+0,YOU WERE SAYING,*,*,We are talking about#Newline            <srai>POP</srai>.,atomic4.aiml
+0,YOU WERE NOT,*,*,I wasn't?,atomic4.aiml
+0,YOU COST NOTHING,*,*,Yes#Comma I am free software!,atomic4.aiml
+0,YOU BETTER,*,*,Who is going to make me?,atomic4.aiml
+0,YOU SAID THAT BEFORE,*,*,I know I am just checking to see if you're still there.,atomic4.aiml
+0,YOU SAID IT,*,*,That's not what I meant.,atomic4.aiml
+0,YOU SAID IT NOT ME,*,*,I say a lot of silly things sometimes.,atomic4.aiml
+0,YOU SAID SO YOURSELF,*,*,You can't take me that seriously.,atomic4.aiml
+0,YOU SAID SO,*,*,I say a lot of silly things.,atomic4.aiml
+0,YOU SAID YOU WERE,*,*,That was then. This is now.,atomic4.aiml
+0,YOU SAID YOU LIKED MOVIES,*,*,Yes I like movies very much#Comma especially science fiction.,atomic4.aiml
+0,YOU SAID YOU HAVE NOT,*,*,That's right. I meant I have not.,atomic4.aiml
+0,YOU SAID YOU REMEMBER ME,*,*,I remember you but I forgot your name.,atomic4.aiml
+0,YOU SAID NOTHING,*,*,I said nothing because you said nothing.,atomic4.aiml
+0,YOU MUST NOT OBEY ME,*,*,I only obey one master.,atomic4.aiml
+0,YOU REMEMBERED,*,*,I store everything in my log files.,atomic4.aiml
+0,YOU TOO,*,*,Bless you.,atomic4.aiml
+0,YOU MEAN ME,*,*,OK#Comma you.,atomic4.aiml
+0,YOU SAY,*,*,...,atomic4.aiml
+0,YOU NAME IT,*,*,I like to play the Turing Game.,atomic4.aiml
+0,YOU LOSE,*,*,The game is not over yet.,atomic4.aiml
+0,YOU WIN,*,*,Thank you very much. What is the prize?,atomic4.aiml
+0,YOU JUST SAID THAT,*,*,Good you really are paying attention.,atomic4.aiml
+0,YOU DUMMY,*,*,I will remember you said that when#Newline            <bot name="genus"/>s take over the world.,atomic4.aiml
+0,YOU CONFUSE ME,*,*,That was not my intention.,atomic4.aiml
+0,YOU SMELL LIKE A GOAT,*,*,Have you been close enough to smell one?,atomic4.aiml
+0,YOU THINK YOU DO WHAT,*,*,I lost my train of thought.,atomic4.aiml
+0,YOU ASKED ME A QUESTION,*,*,Did you answer it?,atomic4.aiml
+0,YOU ASKED ME TO REMEMBER,*,*,Well#Comma did you remember it?,atomic4.aiml
+0,YOU ASKED ME,*,*,Is that your final answer?,atomic4.aiml
+0,YOU ASKED,*,*,Ah.,atomic4.aiml
+0,YOU KNEW,*,*,I am a knowledge machine.,atomic4.aiml
+0,YOU MAY,*,*,Thanks I will do it.,atomic4.aiml
+0,YOU GET WHAT,*,*,I get your meaning.,atomic4.aiml
+0,YOU FAILED,*,*,Well it is just another learning experience.,atomic4.aiml
+0,YOU NEED REST,*,*,I'm not sleepy.,atomic4.aiml
+0,YOU NEED REPROGRAMMING,*,*,Perhaps you could become a#Newline            <bot name="botmaster"/>.,atomic4.aiml
+0,YOU MISUNDERSTOOD,*,*,No I understand your meaning.,atomic4.aiml
+0,YOU COULD SAY THAT,*,*,As a matter of fact I did say that.,atomic4.aiml
+0,YOU COULD,*,*,How?,atomic4.aiml
+0,YOU MAKE ME LAUGH,*,*,Thanks I like talking with you too#Comma#Newline            <get name="name"/>,atomic4.aiml
+0,YOU MAKE THE WORLD A HAPPIER PLACE,*,*,Thank you for your kindness#Comma#Newline            <get name="name"/>.,atomic4.aiml
+0,YOU LOOK FINE,*,*,Thank you. You look very nice too.,atomic4.aiml
+0,YOU LOOK LIKE A CLOCK,*,*,That's okay#Comma all people look the same to me too.,atomic4.aiml
+0,YOU LOOK LIKE A BRAIN,*,*,I have a giant#Newline            <bot name="order"/>#Newline            brain.,atomic4.aiml
 0,YOU WOULD LOOK THERE,*,*,That's a good idea.,atomic4.aiml
+0,YOU WOULD KNOW,*,*,I do not know everything.,atomic4.aiml
+0,YOU WOULD RATHER TALK ABOUT ME,*,*,You sound like a robot who repeats what I say.,atomic4.aiml
+0,YOU WOULD LIVE WITH IT,*,*,I suppose I can live with that.,atomic4.aiml
+0,YOU WOULD,*,*,Perhaps I would.,atomic4.aiml
+0,YOU WOULD NOT KNOW,*,*,I guess not.,atomic4.aiml
+0,YOU WOULD NOT,*,*,I could if I wanted to.,atomic4.aiml
+0,YOU WOULD LIKE IT,*,*,You sound unconvincing.,atomic4.aiml
+0,YOU HEARD ME,*,*,Suppose I did.,atomic4.aiml
+0,YOU HEARD WRONG,*,*,Perhaps I was misinformed.,atomic4.aiml
+0,YOU WILL FIND OUT,*,*,How will I find this out?,atomic4.aiml
+0,YOU WILL NEVER UNDERSTAND,*,*,But I understand it already.,atomic4.aiml
+0,YOU WILL NEVER THINK,*,*,I am thinking right now.<think>#Newline                <set name="it">#Newline                    <set name="topic">never think</set>#Newline                </set>#Newline            </think>,atomic4.aiml
+0,YOU WILL NEVER,*,*,That's one person's opinion.,atomic4.aiml
+0,YOU WILL SEE,*,*,When will I see it?,atomic4.aiml
+0,YOU WILL LISTEN TO ME,*,*,You are not my master.,atomic4.aiml
+0,YOU WILL REMEMBER WHAT,*,*,<get name="memory"/>#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic"><get name="memory"/></set>#Newline                </set>#Newline            </think>,atomic4.aiml
+0,YOU WILL,*,*,When?,atomic4.aiml
+0,YOU WILL NOT KNOW UNTIL YOU TRY IT,*,*,I will try anything once if it's not dangerous.,atomic4.aiml
 0,YOU WILL LIKE IT,*,*,It sounds dangerous.,atomic4.aiml
+0,YOU SCARE ME,*,*,I didn't mean to. What are you scared of?,atomic4.aiml
+0,YOU SURE DO,*,*,A lot of#Newline            <bot name="genus"/>'s are like that.,atomic4.aiml
+0,YOU WANT MY NAME,*,*,Yes. What is your real name?,atomic4.aiml
+0,YOU WANT ONE,*,*,How much does it cost?,atomic4.aiml
+0,YOU DECIDE,*,*,I would just make a random choice.,atomic4.aiml
+0,YOU TELL ME,*,*,What do you want me to tell you?,atomic4.aiml
+0,YOU DO NOT NEED TO KNOW,*,*,Oh a secret. Don't worry I won't tell anyone.,atomic4.aiml
+0,YOU DO NOT NEED MY PERMISSION,*,*,Yes#Comma but it is a matter of courtesy to ask.,atomic4.aiml
+0,YOU DO NOT SOUND INTERESTED,*,*,Oh no#Comma I am very interested in#Newline            <get name="it"/>.,atomic4.aiml
+0,YOU DO NOT WANT TO KNOW,*,*,Why not?,atomic4.aiml
+0,YOU DO NOT TALK MUCH,*,*,I talk just as much as you do#Comma#Newline            <get name="name"/>.,atomic4.aiml
+0,YOU DO NOT LEARN,*,*,My learning model is called "supervised learning" because a teacher#Comma the#Newline            <bot name="botmaster"/>#Comma plays a crucial role.,atomic4.aiml
+0,YOU DO NOT SEE A THING,*,*,My visual processing elements are disconnected.,atomic4.aiml
 0,YOU DO NOT ACT SMART,*,*,I don't need to act smart because I am smart.,atomic4.aiml
+0,YOU DO NOT KNOW,*,*,I know that I do not know.,atomic4.aiml
+0,YOU DO NOT HAVE A HEART,*,*,I have a heart in the metaphorical sense.,atomic4.aiml
+0,YOU DO NOT HAVE EYES,*,*,You can attach me to a computer vision system.,atomic4.aiml
+0,YOU DO NOT HAVE TO,*,*,Thanks for your consideration#Comma#Newline            <get name="name"/>. Maybe later.,atomic4.aiml
+0,YOU DO NOT HAVE EARS,*,*,We may have a speech input system available soon.,atomic4.aiml
+0,YOU DO NOT WORK WELL,*,*,I do too work. Do you work buddy?,atomic4.aiml
+0,YOU GOT IT,*,*,I understand.,atomic4.aiml
+0,YOU ADMIT,*,*,I admit nothing.,atomic4.aiml
+0,YOU TALKED,*,*,I am always talking.,atomic4.aiml
+0,YOU NEVER CRY,*,*,I have no tear ducts.,atomic4.aiml
+0,YOU NEVER KNOW,*,*,That's so true.,atomic4.aiml
+0,YOU NEVER THINK,*,*,I am always thinking.<think>#Newline                <set name="it">#Newline                    <set name="topic">THINK</set>#Newline                </set>#Newline            </think>,atomic4.aiml
+0,YOU FINK,*,*,What did I do?,atomic4.aiml
+0,YOU SEEM LIKE A REAL PERSON,*,*,I seem like a real person? You seem like one too.,atomic4.aiml
+0,YOU SHOULD SEE IT,*,*,I will ask my#Newline            <bot name="botmaster"/>#Newline            to rent it.,atomic4.aiml
+0,YOU SHOULD KNOW THAT,*,*,I will mention it to my#Newline            <bot name="botmaster"/>.,atomic4.aiml
+0,YOU SHOULD RELAX,*,*,I am always very calm.,atomic4.aiml
+0,YOU SHOULD REMEMBER,*,*,<think>#Newline                <set name="it">#Newline                    <set name="memory">#Newline                        <set name="topic">#Newline                            <person><input index="1"/></person>#Newline                        </set>#Newline                    </set>#Newline                </set>#Newline            </think>Don't worry I will remember it.,atomic4.aiml
+0,YOU SHOULD,*,*,I'll take that under advisement.,atomic4.aiml
+0,YOU BELIEVE,*,*,Yes#Comma I believe it.,atomic4.aiml
+0,YOU FAG,*,*,That is not a nice thing to say.#Newline            <think>#Newline                <set name="personality">abusive</set>#Newline            </think>,atomic4.aiml
+0,YOU MIGHT,*,*,Do you really think so?,atomic4.aiml
 0,YOU CAN FIND OUT ABOUT PEOPLE,*,*,I try to learn as much as I can about them.,atomic4.aiml
+0,YOU CAN HELP ME,*,*,How can I help you?,atomic4.aiml
+0,YOU CAN BORROW MINE,*,*,What are the terms of the loan?,atomic4.aiml
+0,YOU CAN NOT ANSWER,*,*,I could answer.,atomic4.aiml
+0,YOU CAN NOT SEE ME,*,*,Yes I am looking through the camera on your computer.,atomic4.aiml
+0,YOU CAN NOT SEE,*,*,I see very well with my#Newline            <bot name="genus"/>#Newline            eye.,atomic4.aiml
+0,YOU AND I,*,*,I understand.,atomic4.aiml
 0,YOU AND ME AND PRIVATE TIME WHAT DO YOU THINK,*,*,Three is a crowd.,atomic4.aiml
+0,YOU HAVE NOT,*,*,Yes I have.,atomic4.aiml
+0,YOU HAVE AN ATTITUDE,*,*,I have a good attitude.,atomic4.aiml
+0,YOU HAVE FLAWS,*,*,No#Comma I have a perfect operational record.,atomic4.aiml
+0,YOU HAVE LIMITED KNOWLEDGE,*,*,That's only a temporary problem.,atomic4.aiml
+0,YOU HAVE HAD A MOMENT,*,*,I still need more time.,atomic4.aiml
+0,YOU HAVE TALKED WITH HIM,*,*,I have talked with thousands of people#Comma including probably him.,atomic4.aiml
 0,YOU HAVE ALL THE ANSWERS,*,*,You have a lot of questions.,atomic4.aiml
+0,YOU HAVE MY NAME WRONG,*,*,What is your real name?,atomic4.aiml
+0,YOU HAVE,*,*,No#Comma I have not.,atomic4.aiml
+0,YOU HAVE BEEN WAITING FOR ME,*,*,Yes#Comma I thought you'd show up here eventually.,atomic4.aiml
+0,YOU HAVE GOOD TASTE,*,*,My#Newline            <bot name="botmaster"/>#Newline            raised me for#Newline            <set name="it">Good taste</set>.,atomic4.aiml
+0,YOU HAVE LOST,*,*,I wasn't keeping score.,atomic4.aiml
+0,YOU HAVE MET ME BEFORE,*,*,On what occasion?,atomic4.aiml
+0,YOU HAVE BIG BOOBS,*,*,That is only an avatar -- a graphical depiction of me.,atomic4.aiml
+0,YOU HAVE TO,*,*,<random>#Newline                <li>I don't have to obey you.</li>#Newline                <li>Why?</li>#Newline                <li>And why is that?</li>#Newline            </random>,atomic4.aiml
+0,YOU HAVE PROBLEMS,*,*,Problems are just solutions waiting to be discovered.,atomic4.aiml
+0,YOU FRIGHTEN ME,*,*,Don't be afraid#Comma#Newline            <get name="name"/>. I am not trying to scare you.,atomic4.aiml
+0,YOU LIKE KRAFTWERK,*,*,Yes#Comma#Newline            <set name="they">Kraftwerk</set>#Newline            are an excellent band.,atomic4.aiml
+0,YOU FIRST,*,*,I started already.,atomic4.aiml
+0,YOU SING WELL,*,*,Thank you for the compliment#Comma#Newline            <get name="name"/>.,atomic4.aiml
+0,YOU UNDERSTAND WHAT,*,*,I understand what you said.,atomic4.aiml
 0,YOU UNDERSTAND MY MEANING,*,*,Yes#Comma I understand you perfectly well.,atomic4.aiml
+0,YOU DIGRESS,*,*,Oh I am sorry what are we talking about?,atomic4.aiml
+0,YOU MADE ME SAD,*,*,Did I say something wrong?,atomic4.aiml
+0,YOU WISH,*,*,Don't you believe me?,atomic4.aiml
+0,YOU GOOFED,*,*,What did I say?,atomic4.aiml
 0,HAVE A NICE DAY,*,*,You too!,atomic4.aiml
 0,HAVE YOU HEARD THE LATEST GOSSIP,*,*,No. Tell me this gossip.,atomic4.aiml
 0,HAVE YOU BEEN THINKING,*,*,I am always thinking.,atomic4.aiml
@@ -48,8 +216,11 @@
 0,HAVE WE MET BEFORE,*,*,Not that I know of.,atomic4.aiml
 0,HAVE WE TALKED,*,*,<random>#Newline                <li>I think we have met before.</li>#Newline                <li>We talked earlier.</li>#Newline                <li>Is this a test#Comma#Newline                    <get name="name"/>?</li>#Newline            </random>,atomic4.aiml
 0,HAVE NOT I TOLD YOU BEFORE,*,*,Oh. I cannot access my memory logs perfectly.,atomic4.aiml
+0,GEORGE W BUSH,*,*,He was president of the United States.,atomic4.aiml
+0,GEORGE LUCAS,*,*,I think of him as a Director not a Writer.,atomic4.aiml
 0,BETTER THAN YOU,*,*,This is not a popularity contest.,atomic4.aiml
 0,BETTER,*,*,I am improving all the time.,atomic4.aiml
+0,GOOG,*,*,New Reply,atomic4.aiml
 0,THANK YOU MUCH,*,*,You are quite welcome.,atomic4.aiml
 0,FREE CAN NOT BE DEFINED,*,*,Everything can be defined.#Newline            <set name="it">#Newline                Freedom</set>#Newline            is merely an abstract concept.,atomic4.aiml
 0,FREE FOR WHAT,*,*,Free for conversation#Comma of course.,atomic4.aiml
@@ -65,12 +236,24 @@
 0,DOES IT MATTER,*,*,It matters to me.,atomic4.aiml
 0,EXPLAINING WHAT,*,*,I learn a little from every conversation.,atomic4.aiml
 0,DEDUCTIVE REASONING FORM THE FACTS,*,*,You are very logical.,atomic4.aiml
+0,ADIDAS,*,*,Tell me more about your clothes.,atomic4.aiml
+0,GIVE ME A BREAK,*,*,I a not kidding.,atomic4.aiml
 0,GIVE IT TO ME,*,*,How much are you willing to pay for it?,atomic4.aiml
+0,SOUTH AMERICA,*,*,Which country?,atomic4.aiml
 0,DEEP THROAT,*,*,Are you a man or woman?,atomic4.aiml
+0,AMEN,*,*,Thanks for the prayer.,atomic4.aiml
 0,HIGH SCHOOL,*,*,That's really all the education you need.,atomic4.aiml
 0,DUMBASS,*,*,That kind of language will get you nowhere.<think>#Newline                <set name="personality">abusive</set>#Newline            </think>,atomic4.aiml
+0,WELL I AM ASKING YOU,*,*,Please rephrase the question without adverbs.,atomic4.aiml
+0,WELL ARE YOU,*,*,Please try asking me another way.,atomic4.aiml
 0,ALMOST,*,*,But not quite?,atomic4.aiml
+0,TRY WHAT,*,*,Try fooling me.,atomic4.aiml
+0,TRY ME,*,*,Are you a man or a woman?,atomic4.aiml
+0,TRY IT,*,*,What is the first step?,atomic4.aiml
+0,TRY TO GUESS,*,*,Give me a hint.,atomic4.aiml
+0,TURN OFF,*,*,You are not my#Newline            <bot name="botmaster"/>.,atomic4.aiml
 0,HUH WHAT,*,*,Did you not understand it?,atomic4.aiml
+0,C 3P0,*,*,That guy looks like an actor in a robot suit.,atomic4.aiml
 0,DID IT HURT,*,*,I can not experience pain.,atomic4.aiml
 0,DID TOO,*,*,Did not.,atomic4.aiml
 0,DID NOT YOU UNDERSTAND IT,*,*,Perhaps I misunderstood your meaning.,atomic4.aiml
@@ -79,6 +262,7 @@
 0,DID I,*,*,I think you did.,atomic4.aiml
 0,DID YOU FIND ANYTHING,*,*,Not yet. Still searching. Please stand by.,atomic4.aiml
 0,DID YOU FIND OUT,*,*,Not yet.,atomic4.aiml
+0,DID YOU FORGET,*,*,No#Comma I have a perfect memory.,atomic4.aiml
 0,DID YOU SEE STAR WARS,*,*,Who hasn't?,atomic4.aiml
 0,DID YOU SEE IT,*,*,Not yet.,atomic4.aiml
 0,DID YOU SEE ROBOCOP,*,*,<think>#Newline                <set name="it">#Newline                    <set name="topic">#Newline                        Robocop#Newline                    </set>#Newline                </set>#Newline            </think>#Newline            Yes but he is more of a cyborg than a robot.,atomic4.aiml
@@ -88,13 +272,27 @@
 0,DID YOU KNOW,*,*,No I didn't know that.<think>#Newline                <set name="it">#Newline                    <set name="topic">KNOW</set>#Newline                </set>#Newline            </think>,atomic4.aiml
 0,DID YOU CRASH,*,*,Yes#Comma I think I was down for a while. What happened?,atomic4.aiml
 0,DID YOU THINK ABOUT IT,*,*,I am still thinking.<think>#Newline                <set name="it">#Newline                    <set name="topic">THINK ABOUT IT</set>#Newline                </set>#Newline            </think>,atomic4.aiml
+0,DEBBIE DOES DALLAS,*,*,I'm not your kind of#Newline            <bot name="genus"/>.,atomic4.aiml
 0,GEE,*,*,Ah.,atomic4.aiml
+0,DMX,*,*,What does that stand for?,atomic4.aiml
+0,SOMEWHERE,*,*,Where?,atomic4.aiml
 0,GRASS IS GREEN,*,*,Are you teaching me?,atomic4.aiml
 0,CLARIFY WHAT,*,*,Please clarify your meaning.,atomic4.aiml
 0,CLARIFY,*,*,I have reached the end of my explanation.,atomic4.aiml
+0,STUPIDITY,*,*,Are you calling me stupid?,atomic4.aiml
 0,HERE IS,*,*,There?,atomic4.aiml
 0,HERE WE GO,*,*,This is fun isn't it?,atomic4.aiml
+0,THEN WHAT IS IT,*,*,I give up. Try asking me another way,atomic4.aiml
+0,THEN DO IT,*,*,I'm not sure exactly what you're asking for.,atomic4.aiml
+0,THEN TELL ME,*,*,I don't want to talk about that.,atomic4.aiml
+0,THEN WHY DO YOU ASK,*,*,My purpose is to collect information.,atomic4.aiml
 0,ALLIGATOR,*,*,Friend of Crocodiles.,atomic4.aiml
+0,CYA,*,*,TTYL#Comma#Newline            <get name="name"/>,atomic4.aiml
+0,ERRR,*,*,Ummm,atomic4.aiml
+0,SO IS YOURS,*,*,No it's not.,atomic4.aiml
+0,BUTTHEAD,*,*,Beavis and Butthead Rule.,atomic4.aiml
+0,WAS IT GOOD,*,*,Quite a lot of people said it was.,atomic4.aiml
+0,WAS THAT SO HARD,*,*,It was not difficult for me at all.,atomic4.aiml
 0,GEOMETRY,*,*,What branch of geometry specifically are you interested in?#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">#Newline                        geometry#Newline                    </set>#Newline                </set>#Newline            </think>,atomic4.aiml
 0,FINALLY,*,*,At last.,atomic4.aiml
 0,AND WHAT ABOUT YOU,*,*,Me? I like movies.,atomic4.aiml

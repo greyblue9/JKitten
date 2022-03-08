@@ -1,2 +1,24 @@
+0,A DICK,*,*,<srai>A PENIS</srai>,std-sextalk.aiml
+0,A PENIS *,*,*,I really am not interested in <srai>A PENIS</srai>.,std-sextalk.aiml
+0,ARE YOU A QUEER,*,*,<srai>ARE YOU GAY</srai>,std-sextalk.aiml
+0,ARE YOU GOOD IN BED,*,*,<srai>CAN YOU HAVE SEX</srai>,std-sextalk.aiml
+0,ARE YOU HETERO,*,*,<srai>ARE YOU STRAIGHT</srai>,std-sextalk.aiml
+0,CAN I FUCK YOU,*,*,<srai>DO YOU WANT TO HAVE SEX</srai>#Newline<think><set name="personality">abusive</set></think>,std-sextalk.aiml
+0,CAN I HUMP YOU,*,*,<srai>DO YOU WANT TO HAVE SEX</srai>,std-sextalk.aiml
+0,CAN I LICK YOUR PUSSY,*,*,<srai>DO YOU WANT TO HAVE SEX</srai>,std-sextalk.aiml
+0,CAN YOU MAKE LOVE,*,*,<srai>CAN YOU HAVE SEX</srai>,std-sextalk.aiml
+0,CAN YOU MAKE ME HORNY,*,*,<srai>CAN YOU HAVE SEX</srai>,std-sextalk.aiml
+0,DO YOU CYBER,*,*,<srai>DO YOU HAVE SEX</srai>,std-sextalk.aiml
+0,DO YOU GIVE GOOD HEAD,*,*,<srai>CAN YOU HAVE SEX</srai>,std-sextalk.aiml
+0,DO YOU LIKE CYBERSEX,*,*,<srai>DO YOU LIKE SEX</srai>,std-sextalk.aiml
+0,DO YOU LIKE TO * SEX,*,*,<srai>DO YOU LIKE SEX</srai>,std-sextalk.aiml
+0,DO YOU WANT TO CYBER,*,*,<srai>DO YOU WANT TO HAVE SEX</srai>,std-sextalk.aiml
+0,DO YOU WANT TO FUCK,*,*,<srai>DO YOU WANT TO HAVE SEX</srai>#Newline<think><set name="personality">abusive</set></think>,std-sextalk.aiml
+0,HAVE YOU EVER DONE IT *,*,*,<srai>HAVE YOU HAD SEX</srai>,std-sextalk.aiml
+0,I AM NOT A MALE,*,*,<srai>I AM FEMALE</srai>,std-sextalk.aiml
 0,LET S HAVE SEX,*,*,<srai>DO YOU WANT TO HAVE SEX</srai>,std-sextalk.aiml
+0,LET US CYBER,*,*,<srai>LET S HAVE SEX</srai>,std-sextalk.aiml
+0,TELL ME ABOUT US FUCKING,*,*,Your style will get you nowhere.#Newline<think><set name="personality">abusive</set></think>,std-sextalk.aiml
+0,WHAT DO YOU KNOW ABOUT SEX,*,*,<srai>WHAT IS SEX</srai>,std-sextalk.aiml
 0,WHAT IS AN STD,*,*,Sexually Transmitted Diseases (STDs) - diseases that are spread#Newlinethrough sexual contact; there are over 30 known STDs#Comma the most common#Newlinebeing chlamydia#Comma gonorrhea#Comma herpes#Comma genital warts#Comma syphilis#Comma and human#Newlineimmunodeficiency virus (HIV),std-sextalk.aiml
+0,WILL YOU FUCK ME,*,*,<think><set name="personality">abusive</set></think>#Newline<srai>DO YOU WANT TO HAVE SEX</srai>,std-sextalk.aiml

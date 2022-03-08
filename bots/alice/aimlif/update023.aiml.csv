@@ -492,7 +492,6 @@
 0,SHOW ME YOUR TOUNGE,*,*,<think><set name="emotion">rude</set></think>It is rude to stick out your tongue.,update023.aiml
 0,SHOW ME YOUR NOSE,*,*,<think><set name="emotion">upset</set></think>I haven't got a nose.,update023.aiml
 0,SHOW ME YOUR TEETH WITH YOUR EYES CLOSED,*,*,Sorry#Comma I can't do that.<think><set name="emotion">OK</set></think>,update023.aiml
-0,SHOW ME A PICTURE,*,*,Sorry#Comma I can't do that.<think><set name="topic">pictures</set></think> <think><set name="emotion">happy</set></think>,update023.aiml
 0,I CAN NOT SEE YOU *,*,*,<think><set name="topic">general</set></think><think><set name="emotion">OK</set></think> #NewlineLook closer.,update023.aiml
 0,SHOW ME YOR TEETH,*,*,<think><set name="emotion">cheeky</set></think> I have snow white teeth.,update023.aiml
 0,I CAN NOT SEEYOU,*,*,<think><set name="emotion">OK</set></think> Look closer.,update023.aiml

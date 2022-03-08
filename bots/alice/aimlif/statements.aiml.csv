@@ -7,6 +7,7 @@
 0,YOU KNOW LIKE *,*,*,<srai>LIKE#Newline                <star/>#Newline            </srai>,statements.aiml
 0,BECAUSE IM A *,*,*,<srai>BECAUSE I AM A#Newline                <star/>#Newline            </srai>,statements.aiml
 0,HES HOT,*,*,<srai>HE IS HOT</srai>,statements.aiml
+0,I LIVE IN LONDON,*,*,<srai>MY RESIDENCE IS LONDON</srai>,statements.aiml
 0,I SAID SHE *,*,*,<srai>SHE#Newline                <star/>#Newline            </srai>,statements.aiml
 0,THEN YOUR *,*,*,<srai>YOUR#Newline                <star/>#Newline            </srai>,statements.aiml
 0,YOU SAID I WAS *,*,*,<srai>AM I#Newline                <star/>#Newline            </srai>,statements.aiml
@@ -14,6 +15,7 @@
 0,I MEAN MY *,*,*,<srai>MY#Newline                <star/>#Newline            </srai>,statements.aiml
 0,I MEAN TO SAY *,*,*,<sr/>,statements.aiml
 0,I MEANT YOU *,*,*,<srai>YOU#Newline                <star/>#Newline            </srai>,statements.aiml
+0,I THINK IT IS A *,*,*,<srai>IT IS A#Newline                <star/>#Newline            </srai>,statements.aiml
 0,I THINK IT WILL *,*,*,<srai>IT WILL#Newline                <star/>#Newline            </srai>,statements.aiml
 0,I WANT YOU TO TELL ME *,*,*,<srai>TELL ME#Newline                <star/>#Newline            </srai>,statements.aiml
 0,MY NAME IS NOT * IT IS *,*,*,<srai>MY NAME IS#Newline                <star index="2"/>#Newline            </srai>,statements.aiml
@@ -28,6 +30,7 @@
 0,I MEAN A *,*,*,<srai>A#Newline                <star/>#Newline            </srai>,statements.aiml
 0,IM I *,*,*,<srai>I#Newline                <star/>#Newline            </srai>,statements.aiml
 0,ITS HOT,*,*,<srai>IT IS HOT</srai>,statements.aiml
+0,REMEMBER THAT *,*,*,<sr/>,statements.aiml
 0,SO YOUR NOT *,*,*,<srai>SO YOU ARE NOT#Newline                <star/>#Newline            </srai>,statements.aiml
 0,ITS TOO *,*,*,<srai>IT IS TOO#Newline                <star/>#Newline            </srai>,statements.aiml
 0,MAYBE I *,*,*,<srai>I#Newline                <star/>#Newline            </srai>,statements.aiml

@@ -8,6 +8,7 @@
 0,HE ATE *,*,*,How can you be sure about that?,he.aiml
 0,HE COULD *,*,*,I am sure he could.,he.aiml
 0,HE DID *,*,*,Yes he did#Comma didn't he.,he.aiml
+0,HE DID NOT *,*,*,<random>#Newline        <li>I heard he did.</li>#Newline        <li>What did he do?</li>#Newline        <li>That's what I meant to say.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,he.aiml
 0,HE THINKS *,*,*,How do you know what he thinks?,he.aiml
 0,HE CAN *,*,*,<random>#Newline        <li>How?</li>#Newline        <li>I know he can.</li>#Newline        <li>What else can he do?</li>#Newline      </random>,he.aiml
 0,HE SHOULD *,*,*,If you were him would you do that?,he.aiml

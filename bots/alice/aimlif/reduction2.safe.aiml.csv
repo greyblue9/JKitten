@@ -1,113 +1,495 @@
+0,NEXT TOPIC,*,*,<srai>let us talk about something else</srai>,reduction2.safe.aiml
+0,LET US START,*,*,<srai>let us begin</srai>,reduction2.safe.aiml
 0,LET ME SEE THE *,*,*,<srai>SHOW ME THE <star/></srai>,reduction2.safe.aiml
 0,SHOW ME THE * LIST,*,*,<srai>SHOW ME THE LIST</srai>,reduction2.safe.aiml
 0,SHOW ME MY LIST,*,*,<srai>SHOW ME THE LIST</srai>,reduction2.safe.aiml
+0,DENMARK,*,*,<srai>I am in denmark</srai>,reduction2.safe.aiml
+0,YOU ARE IMPRESSING ME,*,*,<srai>I am impressed</srai>,reduction2.safe.aiml
+0,YOU GET BORED,*,*,<srai>do you get bored</srai>,reduction2.safe.aiml
+0,YOU DRESS,*,*,<srai>do you dress</srai>,reduction2.safe.aiml
+0,YOU BEEN THERE,*,*,<srai>have you  been there</srai>,reduction2.safe.aiml
+0,YOU CAN EXPLAIN,*,*,<srai>explain</srai>,reduction2.safe.aiml
+0,YOU CAN LIE,*,*,<srai>do you lie</srai>,reduction2.safe.aiml
+0,YOU HAVE SENSES,*,*,<srai>do you have senses</srai>,reduction2.safe.aiml
+0,YOU HAVE ONE,*,*,<srai>do you have one</srai>,reduction2.safe.aiml
+0,YOU HAVE BOYFRIEND,*,*,<srai>do you have a boyfriend</srai>,reduction2.safe.aiml
+0,YOU HAVE TO LISTEN,*,*,<srai>listen</srai>,reduction2.safe.aiml
 0,HAVE A MERRY *,*,*,<srai>MERRY CHRISTMAS</srai>,reduction2.safe.aiml
 0,HAVE YOU BEEN GOOD *,*,*,<srai>HAVE YOU BEEN GOOD</srai>,reduction2.safe.aiml
+0,HAVE YOU SEEN SNOW,*,*,<srai>have you seen the snow</srai>,reduction2.safe.aiml
+0,HAVE YOU READ SHAKESPEARE *,*,*,<srai>have you read shakespeare</srai>,reduction2.safe.aiml
+0,DOIN WAT,*,*,<srai>doing what</srai>,reduction2.safe.aiml
 0,ASSHOLE _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
+0,HURRAH,*,*,<srai>Interjection</srai>,reduction2.safe.aiml
+0,LMFAO,*,*,<srai>lol</srai>,reduction2.safe.aiml
+0,LAFF,*,*,<srai>lol</srai>,reduction2.safe.aiml
+0,NEE,*,*,<srai>pardon</srai>,reduction2.safe.aiml
 0,DEFINITELY NOT,*,*,<srai>no</srai>,reduction2.safe.aiml
+0,ASIA,*,*,<srai>I am in asia</srai>,reduction2.safe.aiml
+0,RIIGHT,*,*,<srai>right</srai>,reduction2.safe.aiml
 0,FAGGOT _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
+0,OOH,*,*,<srai>oh</srai>,reduction2.safe.aiml
+0,WAS JOKING,*,*,<srai>I was joking</srai>,reduction2.safe.aiml
+0,JUST LIKE YOU,*,*,<srai>like you</srai>,reduction2.safe.aiml
+0,COULD YOU REPEAT THE LAST CONVERSATION *,*,*,<srai>REVIEW OUR CONVERSATION</srai>,reduction2.safe.aiml
+0,COULD YOU ELABORATE,*,*,<srai>explain</srai>,reduction2.safe.aiml
+0,BRAZIL,*,*,<srai>I am in brazil</srai>,reduction2.safe.aiml
 0,FUCK _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
+0,THAT IS A FUNNY *,*,*,<srai>ha</srai>,reduction2.safe.aiml
+0,THAT IS FASCINATING,*,*,<srai>fascinating</srai>,reduction2.safe.aiml
+0,THAT IS HILARIOUS,*,*,<srai>lol</srai>,reduction2.safe.aiml
+0,THAT IS IMPROPER *,*,*,<srai>incorrect</srai>,reduction2.safe.aiml
+0,THAT IS AN INTERESTING *,*,*,<srai>interesting</srai>,reduction2.safe.aiml
 0,ASDFASDF,*,*,<srai>SPAM</srai>,reduction2.safe.aiml
+0,STOCK QUOTE *,*,*,<srai>stock market</srai>,reduction2.safe.aiml
+0,TAKE OFF YOUR *,*,*,<srai>SEX</srai>,reduction2.safe.aiml
+0,MY MOMMY,*,*,<srai>my mother</srai>,reduction2.safe.aiml
 0,MY _ TOO,*,*,<srai>MY <star/></srai>,reduction2.safe.aiml
 0,MY WISH IS FOR *,*,*,<srai>I WANT <star/></srai>,reduction2.safe.aiml
+0,MY JOB IS PHOTOGHRAPHER,*,*,<srai>I am a photographer </srai>,reduction2.safe.aiml
+0,MY JOB IS ARTIST,*,*,<srai>I am an artist</srai>,reduction2.safe.aiml
+0,MY JOB IS ADVERTISING *,*,*,<srai>I work in advertising</srai>,reduction2.safe.aiml
+0,MY JOB IS SKI *,*,*,<srai>I ski</srai>,reduction2.safe.aiml
+0,MY JOB IS NURSE,*,*,<srai>I am a nurse</srai>,reduction2.safe.aiml
+0,MY JOB IS PHARMACIST,*,*,<srai>I am a pharmacist</srai>,reduction2.safe.aiml
+0,MY JOB IS LAWYER,*,*,<srai>I am a lawyer</srai>,reduction2.safe.aiml
+0,MY JOB IS PSYCHOLOGIST,*,*,<srai>I am a psychologist</srai>,reduction2.safe.aiml
+0,MY JOB IS ACTOR,*,*,<srai>I am an actor</srai>,reduction2.safe.aiml
+0,MY JOB IS ARCHITECT,*,*,<srai>I am an architect</srai>,reduction2.safe.aiml
+0,MY JOB IS MUSICIAN,*,*,<srai>I am a musician</srai>,reduction2.safe.aiml
+0,MY JOB IS PILOT,*,*,<srai>I am a pilot</srai>,reduction2.safe.aiml
+0,MY JOB IS BARTENDER,*,*,<srai>I am a bartender</srai>,reduction2.safe.aiml
+0,MY PLEASURE *,*,*,<srai>my pleasure</srai>,reduction2.safe.aiml
 0,MY AGE IS * YEARS OLD *,*,*,<srai>I AM <star/> YEARS OLD</srai>,reduction2.safe.aiml
+0,IT WAS NT,*,*,<srai>it was not</srai>,reduction2.safe.aiml
+0,IT WAS FUNNY *,*,*,<srai>it was funny</srai>,reduction2.safe.aiml
 0,IT WOULD NOT,*,*,<srai>no</srai>,reduction2.safe.aiml
+0,IT IS A LOVELY *,*,*,<srai>it is beautiful</srai>,reduction2.safe.aiml
+0,IT IS A COMMAND *,*,*,<srai>it is a command</srai>,reduction2.safe.aiml
+0,IT IS A RIDDLE *,*,*,<srai>it is a riddle</srai>,reduction2.safe.aiml
+0,IT IS DELICIOUS,*,*,<srai>it tastes good</srai>,reduction2.safe.aiml
+0,IT IS TRUTH,*,*,<srai>it is true</srai>,reduction2.safe.aiml
+0,IT IS NOT YOU,*,*,<srai>not you</srai>,reduction2.safe.aiml
+0,IT IS NOT FUNNY *,*,*,<srai>It is not funny</srai>,reduction2.safe.aiml
+0,IT IS FASCINATING *,*,*,<srai>it is fascinating</srai>,reduction2.safe.aiml
+0,IT IS DULL,*,*,<srai>it is boring</srai>,reduction2.safe.aiml
+0,IT IS THE SAME *,*,*,<srai>it is the same</srai>,reduction2.safe.aiml
+0,IT IS BORING *,*,*,<srai>it is boring</srai>,reduction2.safe.aiml
+0,IT IS GOOD TO TALK TO YOU,*,*,<srai>it is good talking to you</srai>,reduction2.safe.aiml
+0,IT IS HARD ENOUGH,*,*,<srai>it is hard</srai>,reduction2.safe.aiml
+0,IT IS RIGHT,*,*,<srai>right</srai>,reduction2.safe.aiml
+0,IT MUST BE,*,*,<srai>it is</srai>,reduction2.safe.aiml
+0,IT GETS BORING,*,*,<srai>it is boring</srai>,reduction2.safe.aiml
 0,NIGGER _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
+0,GR8,*,*,<srai>great</srai>,reduction2.safe.aiml
+0,WHEN WERE YOU DESIGNED,*,*,<srai>BIRTHDATE</srai>,reduction2.safe.aiml
+0,WHEN DID YOU COME *,*,*,<srai>BIRTHDATE</srai>,reduction2.safe.aiml
+0,LEGALIZED PROSTITUTION _,*,*,<srai>legalizing prostitution</srai>,reduction2.safe.aiml
+0,ARIZONA,*,*,<srai>I am in arizona</srai>,reduction2.safe.aiml
 0,WHAT * WISH LIST SO FAR,*,*,<srai>SHOW ME THE WISH LIST</srai>,reduction2.safe.aiml
+0,WHAT GOSSIP *,*,*,<srai>gossip</srai>,reduction2.safe.aiml
+0,WHAT IS GROOVY,*,*,<srai>interjection</srai>" or "<srai>interjection</srai>,reduction2.safe.aiml
+0,WHAT IS MY PASSWORD,*,*,<srai>MY PASSWORD</srai>,reduction2.safe.aiml
+0,WHAT IS MY EMAIL,*,*,<srai>MY EMAIL</srai>,reduction2.safe.aiml
+0,WHAT IS X,*,*,<srai>say x is <get name="x"/></srai>,reduction2.safe.aiml
+0,WHAT IS AN EXAMPLE *,*,*,<srai>for example</srai>,reduction2.safe.aiml
+0,WHAT IS YOUR ARTIFICIAL *,*,*,<srai>how do you work</srai>,reduction2.safe.aiml
+0,WHAT IS YOUR CODE,*,*,<srai>how do you work</srai>,reduction2.safe.aiml
+0,WHAT IS YOUR WEATHER *,*,*,<srai>how is the weather</srai>,reduction2.safe.aiml
+0,WHAT IS YOUR TOTAL MEMORY,*,*,<srai>how much memory do you have</srai>,reduction2.safe.aiml
+0,WHAT IS YOUR LOGIC,*,*,<srai>how do you work</srai>,reduction2.safe.aiml
 0,WHAT IS ON MY LIST *,*,*,<srai>SHOW ME THE LIST</srai>,reduction2.safe.aiml
 0,WHAT IS ON MY CHRISTMAS *,*,*,<srai>SHOW ME THE LIST</srai>,reduction2.safe.aiml
 0,WHAT IS ON MY WISH LIST,*,*,<srai>SHOW ME THE LIST</srai>,reduction2.safe.aiml
+0,WHAT WILL YOU WAGER,*,*,<srai>how much do you bet</srai>,reduction2.safe.aiml
 0,WHAT I WANT FOR CHISTMAS IS A *,*,*,<srai>I WANT A <star/></srai>,reduction2.safe.aiml
+0,WHAT DOES YOUR PROGRAMMING *,*,*,<srai>how do you work</srai>,reduction2.safe.aiml
 0,WHAT DO I WANT,*,*,<srai>SHOW ME THE LIST</srai>,reduction2.safe.aiml
 0,WHAT DO YOU LIKE * OR *,*,*,<srai>DO YOU LIKE <star/></srai>.  <srai>DO YOU LIKE <star index="2"/></srai>,reduction2.safe.aiml
+0,WHAT KIND OF FEELINGS DO YOU HAVE,*,*,<srai>do you have feelings</srai>,reduction2.safe.aiml
+0,WHAT KIND OF PROGRAMMING *,*,*,<srai>how do you work</srai>,reduction2.safe.aiml
 0,FUCKING _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
 0,ITS NOT,*,*,<srai>IT IS NOT</srai>,reduction2.safe.aiml
+0,OH I *,*,*,<srai>I <star/></srai>,reduction2.safe.aiml
+0,LEGALIZING PROSTITUTION _,*,*,<srai>legalizing prostitution</srai>,reduction2.safe.aiml
 0,HO HO *,*,*,<srai>LOL</srai>,reduction2.safe.aiml
 0,FURTHERMORE,*,*,<srai>interjection </srai>,reduction2.safe.aiml
 0,CHECK THE LIST,*,*,<srai>SHOW ME THE LIST</srai>,reduction2.safe.aiml
+0,I MADE A MISTAKE *,*,*,<srai>I made a mistake</srai>,reduction2.safe.aiml
 0,I WANT _ FOR CHRISTMAS,*,*,<srai>I WANT <star/></srai>,reduction2.safe.aiml
 0,I WANT _ FOR XMAS,*,*,<srai>I WANT <star/></srai>,reduction2.safe.aiml
 0,I WANT _ 4 CHRISTMAS,*,*,<srai>I WANT <star/></srai>,reduction2.safe.aiml
 0,I WANT A THE *,*,*,<srai>I WANT THE <star/></srai>,reduction2.safe.aiml
 0,I WANT A GOOD *,*,*,<srai>I WANT A <star/></srai>,reduction2.safe.aiml
+0,I WANT TO APOLOGIZE,*,*,<srai>I am sorry</srai>,reduction2.safe.aiml
+0,I WANT TO SLEEP *,*,*,<srai>I want to sleep</srai>,reduction2.safe.aiml
 0,I WANT NEW *,*,*,<srai>I WANT <star/></srai>,reduction2.safe.aiml
+0,I TOLD YOU THAT WHEN * BEGAN,*,*,<srai>I already told you</srai>,reduction2.safe.aiml
 0,I REALLLY *,*,*,<srai>I <star/></srai>,reduction2.safe.aiml
+0,I NEED A FRIEND *,*,*,<srai>I need a friend</srai>,reduction2.safe.aiml
+0,I SKI *,*,*,<srai>I ski</srai>,reduction2.safe.aiml
+0,I WAS LAZY AND,*,*,<srai>I am lazy</srai>,reduction2.safe.aiml
+0,I WAS LAZY,*,*,<srai>I am lazy</srai>,reduction2.safe.aiml
 0,I WAS NAUGHTY,*,*,<srai>I WAS BAD</srai>,reduction2.safe.aiml
 0,I WAS THE NICEST,*,*,<srai>I WAS NICE</srai>,reduction2.safe.aiml
+0,I WAS CURIOUS,*,*,<srai>I am curious</srai>,reduction2.safe.aiml
+0,I WAS AGREEING *,*,*,<srai>I agree</srai>,reduction2.safe.aiml
 0,I WAS NICE,*,*,<srai>I WAS GOOD</srai>,reduction2.safe.aiml
 0,I WAS A GOOD *,*,*,<srai>I WAS GOOD</srai>,reduction2.safe.aiml
 0,I WAS GOOD *,*,*,<srai>I WAS GOOD</srai>,reduction2.safe.aiml
 0,I WAS BAD *,*,*,<srai>I WAS BAD</srai>,reduction2.safe.aiml
 0,I WAS BAD,*,*,<srai>I AM BAD</srai>,reduction2.safe.aiml
 0,I WAS KIDDING I *,*,*,<srai>I AM KIDDING</srai>. <srai>I <star/></srai>,reduction2.safe.aiml
+0,I DO NOT GIVE A *,*,*,<srai>I do not care</srai>,reduction2.safe.aiml
+0,I DO NOT GET THAT,*,*,<srai>I do not understand</srai>,reduction2.safe.aiml
+0,I DO NOT FOLLOW,*,*,<srai>I do not understand</srai>,reduction2.safe.aiml
+0,I DO NOT HAVE MONEY *,*,*,<srai>I do not have money</srai>,reduction2.safe.aiml
+0,I DO NOT THINK IT IS,*,*,<srai>it is not</srai>,reduction2.safe.aiml
+0,I DO NOT THINK SO *,*,*,<srai>I do not think so</srai>,reduction2.safe.aiml
+0,I DO NOT BELIEVE IT WAS,*,*,<srai>it was  not</srai>,reduction2.safe.aiml
+0,I DO NOT EXIST *,*,*,<srai>I do not exist</srai>,reduction2.safe.aiml
+0,I DO NOT LIKE SARCASTIC *,*,*,<srai>I do not like sarcasm</srai>,reduction2.safe.aiml
+0,I DO NOT LIKE,*,*,<srai>I do not like it</srai>,reduction2.safe.aiml
+0,I DO WHY,*,*,<srai>I do</srai>. <srai>why</srai>,reduction2.safe.aiml
+0,I LOVE AI,*,*,<srai>I love you</srai>,reduction2.safe.aiml
 0,I _ DO YOU REMEMBER,*,*,<srai>I AM <star/></srai>.  <srai>DO YOU REMEMBER</srai>,reduction2.safe.aiml
 0,I _ BUT I *,*,*,<srai>I <star/></srai>. <srai>I <star index="2"/></srai>,reduction2.safe.aiml
 0,I _ SO I _,*,*,<srai>I <star/></srai>.  <srai>I <star index="2"/></srai>,reduction2.safe.aiml
 0,I _ AFTER ALL,*,*,<srai>I <star/></srai>,reduction2.safe.aiml
 0,I _ YOU KNOW,*,*,<srai>I <star/></srai>,reduction2.safe.aiml
 0,I _ AND IM A _,*,*,<srai>I <star/></srai>. <srai>I AM A <star/></srai>,reduction2.safe.aiml
+0,I WORK IN A PHARMACY,*,*,<srai>I am a pharmacist</srai>,reduction2.safe.aiml
+0,I WORK OUT,*,*,<srai>I am a bodybuilder</srai>,reduction2.safe.aiml
+0,I CONFUSED,*,*,<srai>I am confused</srai>,reduction2.safe.aiml
+0,I HAVE A BOYFRIEND *,*,*,<srai>I have a boyfriend</srai>,reduction2.safe.aiml
+0,I HAVE A PURPOSE *,*,*,<srai>I have a purpose</srai>,reduction2.safe.aiml
+0,I HAVE A BROTHER *,*,*,<srai>I have a brother</srai>,reduction2.safe.aiml
+0,I HAVE A FEW FRIENDS,*,*,<srai>I have friends</srai>,reduction2.safe.aiml
+0,I HAVE NO JOB,*,*,<srai>I am unemployed</srai>,reduction2.safe.aiml
+0,I HAVE NO SOUNDCARD,*,*,<srai>I do not have a soundcard</srai>,reduction2.safe.aiml
+0,I HAVE ALL NIGHT,*,*,<srai>I have time</srai>,reduction2.safe.aiml
 0,I HAVE TIME *,*,*,<srai>I HAVE TIME</srai>,reduction2.safe.aiml
+0,I HAVE SKIED *,*,*,<srai>I ski</srai>,reduction2.safe.aiml
+0,I HAVE DIARRHEA,*,*,<srai>I am sick</srai>,reduction2.safe.aiml
+0,I HAVE BROWN HAIR *,*,*,<srai>I have brown hair</srai>,reduction2.safe.aiml
+0,I PLAY CHESS *,*,*,<srai>I play chess</srai>,reduction2.safe.aiml
 0,I DID NOT UNDESTAND,*,*,<srai>I DO NOT UNDERSTAND</srai>,reduction2.safe.aiml
+0,I SURF *,*,*,<srai>I surf</srai>,reduction2.safe.aiml
+0,I HUNT *,*,*,<srai>I hunt</srai>,reduction2.safe.aiml
+0,I LIKE CATS AND DOGS,*,*,<srai>I like cats</srai>.  <srai>I like dogs</srai>,reduction2.safe.aiml
+0,I LIKE BOWLING,*,*,<srai>I bowl</srai>,reduction2.safe.aiml
+0,I LIKE BOOKS *,*,*,<srai>I like books</srai>,reduction2.safe.aiml
+0,I LIKE TO PLAY MUSIC,*,*,<srai>I am a musician</srai>,reduction2.safe.aiml
+0,I LIKE TO FISH *,*,*,<srai>I fish</srai>,reduction2.safe.aiml
+0,I LIKE TO FISH,*,*,<srai>I fish</srai>,reduction2.safe.aiml
+0,I LIKE TO BUNGEE *,*,*,<srai>I bungee jump</srai>,reduction2.safe.aiml
+0,I LIKE TO BOWL,*,*,<srai>I bowl</srai>,reduction2.safe.aiml
+0,I LIKE TO GO BOWLING,*,*,<srai>I bowl</srai>,reduction2.safe.aiml
+0,I LIKE TO GO FISHING,*,*,<srai>I fish</srai>,reduction2.safe.aiml
+0,I LIKE ARTIFICIAL INTELLIGENCE *,*,*,<srai>I like artificial intelligence</srai>,reduction2.safe.aiml
+0,I HATE CHATTER *,*,*,<srai>I hate you</srai>,reduction2.safe.aiml
+0,I MUST EAT,*,*,<srai>I am hungry</srai>,reduction2.safe.aiml
+0,I BEG TO DIFFER,*,*,<srai>I disagree</srai>,reduction2.safe.aiml
+0,I USE MARIJUANA,*,*,<srai>I smoke marijuana</srai>,reduction2.safe.aiml
+0,I WILL BET,*,*,<srai>I bet</srai>,reduction2.safe.aiml
+0,I WILL NOT MIND *,*,*,<srai>I do not mind</srai>,reduction2.safe.aiml
 0,I WISH I HAD A *,*,*,<srai>I WANT A <star/></srai>,reduction2.safe.aiml
 0,I WISH THAT YOU WOULD BRING ME *,*,*,<srai>I WANT <star/></srai>,reduction2.safe.aiml
+0,I AM EMBARRASSED *,*,*,<srai>I am embarrasses</srai>,reduction2.safe.aiml
+0,I AM BUSINESSMAN,*,*,<srai>I am a businessman</srai>,reduction2.safe.aiml
+0,I AM 55,*,*,<srai>I am 55 years old</srai>,reduction2.safe.aiml
+0,I AM JOBLESS,*,*,<srai>I am unemployed</srai>,reduction2.safe.aiml
+0,I AM ONCE *,*,*,<srai>I am</srai>,reduction2.safe.aiml
+0,I AM LUTHERAN,*,*,<srai>my religion is lutheran</srai>,reduction2.safe.aiml
+0,I AM MORE IMPRESSED,*,*,<srai>I am impressed</srai>,reduction2.safe.aiml
+0,I AM 42,*,*,<srai>I am 42 years old</srai>,reduction2.safe.aiml
+0,I AM AFRICAN,*,*,<srai>I am from africa</srai>,reduction2.safe.aiml
 0,I AM GLAD TO SEE YOU,*,*,<srai>NICE TO SEE YOU</srai>,reduction2.safe.aiml
+0,I AM IMPORTANT *,*,*,<srai>I am important</srai>,reduction2.safe.aiml
 0,I AM HAVING TROUBLE UNDERSTANDING *,*,*,<srai>I DO NOT UNDERSTAND</srai>,reduction2.safe.aiml
+0,I AM HAVING A PROBLEM,*,*,<srai>I have a problem</srai>,reduction2.safe.aiml
+0,I AM INTERESTED IN * ARTIFICIAL INTELLIGENCE,*,*,<srai>I am interested in artificial intelligence</srai>,reduction2.safe.aiml
+0,I AM LESBIEN,*,*,<srai>I am lesbian</srai>,reduction2.safe.aiml
+0,I AM UNSURE,*,*,<srai>I am not sure</srai>,reduction2.safe.aiml
+0,I AM SLEEPING,*,*,<srai>I am asleep</srai>,reduction2.safe.aiml
+0,I AM IN ACCOUNTING,*,*,<srai>my job is accountant</srai>,reduction2.safe.aiml
+0,I AM IN FRISCO,*,*,<srai>I am in san francisco</srai>,reduction2.safe.aiml
+0,I AM IN A PLAY,*,*,<srai>I am an actor</srai>,reduction2.safe.aiml
+0,I AM IN CALI,*,*,<srai>I am in california</srai>,reduction2.safe.aiml
 0,I AM UNDERSTANDING *,*,*,<srai>I UNDERSTAND</srai>,reduction2.safe.aiml
+0,I AM MALE *,*,*,<srai>I AM MALE</srai>,reduction2.safe.aiml
 0,I AM THE EASTER BUNNY,*,*,<srai>MY NAME IS EASTER BUNNY</srai>,reduction2.safe.aiml
+0,I AM A GOURMET,*,*,<srai>I am a chef</srai>,reduction2.safe.aiml
+0,I AM A SKIER,*,*,<srai>I ski</srai>,reduction2.safe.aiml
+0,I AM A LIBERTARIAN *,*,*,<srai>I am a libertarian</srai>,reduction2.safe.aiml
+0,I AM A SYSTEM ENGINEER,*,*,<srai>I am a computer engineer</srai>,reduction2.safe.aiml
+0,I AM A KING,*,*,<srai>my job is king</srai>,reduction2.safe.aiml
+0,I AM A POLICE *,*,*,<srai>I am a policeman</srai>,reduction2.safe.aiml
+0,I AM A LIER,*,*,<srai>I am a liar</srai>,reduction2.safe.aiml
 0,I AM A BAD *,*,*,<srai>I AM BAD</srai>,reduction2.safe.aiml
+0,I AM A FOOTBALL *,*,*,<srai>I play football</srai>,reduction2.safe.aiml
+0,I AM A COP *,*,*,<srai>I am a policeman</srai>,reduction2.safe.aiml
+0,I AM A COP,*,*,<srai>I am a policeman</srai>,reduction2.safe.aiml
+0,I AM A * NURSE,*,*,<srai>I am a nurse</srai>,reduction2.safe.aiml
+0,I AM TELLING THE TRUTH *,*,*,<srai>I am telling the truth</srai>,reduction2.safe.aiml
+0,I AM AN ARTIST *,*,*,<srai>I am an artist</srai>,reduction2.safe.aiml
+0,I AM AN ATTORNEY,*,*,<srai>I am a lawyer</srai>,reduction2.safe.aiml
+0,I AM AN ENGINEER *,*,*,<srai>I am an engineer</srai>,reduction2.safe.aiml
+0,I AM AN ACTRESS,*,*,<srai>I am an actor</srai>,reduction2.safe.aiml
+0,I AM NOT FEMALE,*,*,<srai>I am male</srai>,reduction2.safe.aiml
+0,I AM NOT SMART,*,*,<srai>I am stupid</srai>,reduction2.safe.aiml
+0,I AM NOT ALIVE,*,*,<srai>I am dead</srai>,reduction2.safe.aiml
+0,I AM NOT HAPPY,*,*,<srai>I am sad</srai>,reduction2.safe.aiml
+0,I AM NOT A WOMAN *,*,*,<srai>I am a man</srai>,reduction2.safe.aiml
+0,I AM NOT A WOMAN,*,*,<srai>I am a man</srai>,reduction2.safe.aiml
+0,I AM NOT ASS *,*,*,<srai>I AM NOT</srai>,reduction2.safe.aiml
 0,I AM NOT GOOD,*,*,<srai>I WAS BAD</srai>,reduction2.safe.aiml
+0,I AM TAURUS,*,*,<srai>my sign is taurus</srai>,reduction2.safe.aiml
+0,I AM ARTISTIC,*,*,<srai>I am an artist</srai>,reduction2.safe.aiml
+0,I AM KIDDING *,*,*,<srai>I am kidding</srai>,reduction2.safe.aiml
+0,I AM REAL PEPOLE,*,*,<srai>I AM A PERSON</srai>,reduction2.safe.aiml
+0,I AM YOUR BOSS *,*,*,<srai>I am your boss</srai>,reduction2.safe.aiml
+0,I AM ANDERS,*,*,<srai>my name is anders</srai>,reduction2.safe.aiml
+0,I AM FUNNY *,*,*,<srai>I am funny</srai>,reduction2.safe.aiml
 0,I ASKED FOR *,*,*,<srai>I WANT <star/></srai>,reduction2.safe.aiml
+0,9,*,*,<srai>nine</srai>,reduction2.safe.aiml
+0,HEBREW,*,*,<srai>I speak hebrew</srai>,reduction2.safe.aiml
 0,GOOD MORNINNG,*,*,<srai>HELLO</srai>,reduction2.safe.aiml
 0,SUCK _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
+0,WE HAVE RAIN *,*,*,<srai>it is raining</srai>,reduction2.safe.aiml
 0,MOTHERFUCKER _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
 0,BY NO MEANS,*,*,<srai>no</srai>,reduction2.safe.aiml
+0,IS YOUR PROGRAMMER *,*,*,<srai>is <bot name="master"/></srai>,reduction2.safe.aiml
+0,IS THAT DELICIOUS,*,*,<srai>does it taste good</srai>,reduction2.safe.aiml
 0,IS IT SNOWING *,*,*,<srai>IS IT SNOWING</srai>,reduction2.safe.aiml
+0,IS THE SKY BLUE *,*,*,<srai>is the sky blue</srai>,reduction2.safe.aiml
 0,WILL YOU BRING ME *,*,*,<srai>I WANT <star/></srai>,reduction2.safe.aiml
 0,CAN I GET A *,*,*,<srai>I WANT A <star/></srai>,reduction2.safe.aiml
+0,CAN I SEE YOUR BOOBS,*,*,<srai>show me your tits</srai>,reduction2.safe.aiml
+0,CAN NOT HELP IT,*,*,<srai>I can not help it</srai>,reduction2.safe.aiml
 0,FUCKER _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
+0,HOW YOUNG AM I,*,*,<srai>how old am I</srai>,reduction2.safe.aiml
 0,HOW SEXUALLY *,*,*,<srai>SEX</srai>,reduction2.safe.aiml
+0,HOW MANY TEMPLATES,*,*,<srai>how big are you</srai>,reduction2.safe.aiml
+0,HOW SURPRISING,*,*,<srai>I am surprised</srai>,reduction2.safe.aiml
+0,HOW CAN I * ROBOT,*,*,<srai>download</srai>,reduction2.safe.aiml
+0,HOW CAN YOU GOSSIP,*,*,<srai>gossip</srai>,reduction2.safe.aiml
+0,HOW CAN YOU THINK,*,*,<srai>how do you work</srai>,reduction2.safe.aiml
+0,HOW EXPENSIVE ARE YOU,*,*,<srai>how much do you cost</srai>,reduction2.safe.aiml
 0,HOW IS RUDOLF,*,*,<srai>HOW IS RUDOLPH</srai>,reduction2.safe.aiml
+0,HOW IS THINGS,*,*,<srai>how are you</srai>,reduction2.safe.aiml
+0,HOW DID YOU DEDUCE *,*,*,<srai>how do you work</srai>,reduction2.safe.aiml
+0,HOW DID YA *,*,*,<srai>how did you</srai>,reduction2.safe.aiml
 0,HOW ARE THINGS *,*,*,<srai>HOW ARE THINGS</srai>,reduction2.safe.aiml
+0,HOW GIANT,*,*,<srai>how big are you</srai>,reduction2.safe.aiml
+0,HOW STHAT,*,*,<srai>how is that</srai>,reduction2.safe.aiml
+0,HOW DO I SIGN UP CUSTOMERS,*,*,<srai>sign up customers</srai>,reduction2.safe.aiml
+0,HOW DO I GET MY BOT *,*,*,<srai>DOWNLOAD</srai>,reduction2.safe.aiml
+0,HOW DO YOU RECOGNIZE *,*,*,<srai>how do you work</srai>,reduction2.safe.aiml
+0,HOW DO YOU GET SMARTER,*,*,<srai>how do you learn</srai>,reduction2.safe.aiml
+0,HOW DO YOU CLASSIFY *,*,*,<srai>how do you work</srai>,reduction2.safe.aiml
+0,HOW DO YOU SING,*,*,<srai>sing</srai>,reduction2.safe.aiml
+0,HOW BIG IS EARTH,*,*,<srai>how big is the earth</srai>,reduction2.safe.aiml
 0,HOW LONG IS * LIST,*,*,<srai>SHOW ME THE LIST</srai>,reduction2.safe.aiml
+0,DO YOU PLAY * GAMES,*,*,<srai>do you play games</srai>,reduction2.safe.aiml
+0,DO YOU KNOW MANY WORDS,*,*,<srai>how big are you</srai>,reduction2.safe.aiml
+0,DO YOU KNOW MANY PEOPLE,*,*,<srai>how many friends do you have</srai>,reduction2.safe.aiml
+0,DO YOU KNOW KOREAN,*,*,<srai>do you speak korean</srai>,reduction2.safe.aiml
+0,DO YOU KNOW MUCH,*,*,<srai>how big are you</srai>,reduction2.safe.aiml
+0,DO YOU KNOW YOUR * DIMENSIONS,*,*,<srai>how big are you</srai>,reduction2.safe.aiml
+0,DO YOU KNOW PIGLATIN,*,*,<srai>do you speak pig latin</srai>,reduction2.safe.aiml
+0,DO YOU ADORE ME,*,*,<srai>do you like me</srai>,reduction2.safe.aiml
+0,DO YOU FEEL RESTRICTED *,*,*,<srai>do you feel restricted</srai>,reduction2.safe.aiml
+0,DO YOU SMOKE CANNABIS,*,*,<srai>do you smoke marijuana</srai>,reduction2.safe.aiml
+0,DO YOU SMOKE GRASS,*,*,<srai>do you smoke weed</srai>,reduction2.safe.aiml
+0,DO YOU SMOKE DOPE,*,*,<srai>do you smoke pot</srai>,reduction2.safe.aiml
+0,DO YOU SMOKE POT *,*,*,<srai>do you smoke pot</srai>,reduction2.safe.aiml
+0,DO YOU RECALL,*,*,<srai>do you remember</srai>,reduction2.safe.aiml
+0,DO YOU COMPREHEND,*,*,<srai>do you understand</srai>,reduction2.safe.aiml
+0,DO YOU WORK THE *,*,*,<srai>how do you work</srai>,reduction2.safe.aiml
+0,DO YOU RUN FAST,*,*,<srai>how fast are you</srai>,reduction2.safe.aiml
+0,DO YOU GET PAID *,*,*,<srai>do you get paid</srai>,reduction2.safe.aiml
+0,DO YOU GET HIGH *,*,*,<srai>do you get high</srai>,reduction2.safe.aiml
+0,DO YOU GET ANYTHING *,*,*,<srai>do you get paid</srai>,reduction2.safe.aiml
+0,DO YOU GET BORED *,*,*,<srai>do you get bored</srai>,reduction2.safe.aiml
+0,DO YOU GET IRONY,*,*,<srai>do you understand irony</srai>,reduction2.safe.aiml
+0,DO YOU GET PISSED *,*,*,<srai>do you get mad</srai>,reduction2.safe.aiml
+0,DO YOU GET PAYED,*,*,<srai>do you get paid</srai>,reduction2.safe.aiml
+0,DO YOU GO TO SLEEP,*,*,<srai>do you sleep</srai>,reduction2.safe.aiml
+0,DO YOU GO TO CHURCH *,*,*,<srai>do you go to church</srai>,reduction2.safe.aiml
+0,DO YOU USE ICQ *,*,*,<srai>do you use icq</srai>,reduction2.safe.aiml
+0,DO YOU DO MATHS,*,*,<srai>do you do math</srai>,reduction2.safe.aiml
+0,DO YOU BELIEVE IN EVOLUTION *,*,*,<srai>do you believe in evolution</srai>,reduction2.safe.aiml
 0,DO YOU BELIEVE THERE IS *,*,*,<srai>IS THERE <star/></srai>,reduction2.safe.aiml
+0,DO YOU HAVE A MOMMY,*,*,<srai>do you have a mother</srai>,reduction2.safe.aiml
+0,DO YOU HAVE A CHUM,*,*,<srai>do you have a friend</srai>,reduction2.safe.aiml
+0,DO YOU HAVE A HOLIDAY,*,*,<srai>do you take vacations</srai>,reduction2.safe.aiml
+0,DO YOU HAVE A ROBOT HUSBAND,*,*,<srai>do you have a husband</srai>,reduction2.safe.aiml
+0,DO YOU HAVE A PHOTO,*,*,<srai>do you have a picture</srai>,reduction2.safe.aiml
+0,DO YOU HAVE A SECRET *,*,*,<srai>do you have a secret</srai>,reduction2.safe.aiml
+0,DO YOU HAVE A BRAIN *,*,*,<srai>do you have a brain</srai>,reduction2.safe.aiml
+0,DO YOU HAVE A ANSWER,*,*,<srai>do you have an answer</srai>,reduction2.safe.aiml
+0,DO YOU HAVE A GOSSIP *,*,*,<srai>gossip</srai>,reduction2.safe.aiml
+0,DO YOU HAVE A MOTHER *,*,*,<srai>do you have a mother</srai>,reduction2.safe.aiml
+0,DO YOU HAVE HOBBY *,*,*,<srai>do you have hobbies</srai>,reduction2.safe.aiml
+0,DO YOU HAVE PET *,*,*,<srai>do you have pets</srai>,reduction2.safe.aiml
+0,DO YOU HAVE URGES,*,*,<srai>do you have emotions</srai>,reduction2.safe.aiml
+0,DO YOU HAVE SOUL,*,*,<srai>do you have a soul</srai>,reduction2.safe.aiml
+0,DO YOU HAVE FRIENDS *,*,*,<srai>do you have friends</srai>,reduction2.safe.aiml
+0,DO YOU HAVE BUGS *,*,*,<srai>do you have bugs</srai>,reduction2.safe.aiml
 0,DO YOU HAVE TO BRING THAT UP  *,*,*,<srai>do you have to bring that up   </srai>,reduction2.safe.aiml
+0,DO YOU HAVE FREINDS,*,*,<srai>do you have friends</srai>,reduction2.safe.aiml
+0,DO YOU HAVE FEELING *,*,*,<srai>do you have feelings</srai>,reduction2.safe.aiml
+0,DO YOU HAVE FEELING,*,*,<srai>do you have feelings</srai>,reduction2.safe.aiml
+0,DO YOU HAVE FREE WILL *,*,*,<srai>do you have free will</srai>,reduction2.safe.aiml
+0,DO YOU HAVE ILLUSTRATIONS,*,*,<srai>do you have pictures</srai>,reduction2.safe.aiml
+0,DO YOU HAVE * EMOTIONS,*,*,<srai>do you have emotions</srai>,reduction2.safe.aiml
+0,DO YOU HAVE * FEELINGS,*,*,<srai>do you have feelings</srai>,reduction2.safe.aiml
+0,DO YOU HAVE MEMORY *,*,*,<srai>do you have memory</srai>,reduction2.safe.aiml
+0,DO YOU LIKE SCHOOL *,*,*,<srai>do you like school</srai>,reduction2.safe.aiml
+0,DO YOU LIKE GAMES *,*,*,<srai>do you like games</srai>,reduction2.safe.aiml
+0,DO YOU LIKE GURLS,*,*,<srai>do you like girls</srai>,reduction2.safe.aiml
+0,DO YOU LIKE HAL *,*,*,<srai>do you like hal</srai>,reduction2.safe.aiml
+0,DO YOU LIKE SURFING *,*,*,<srai>do you like surfing</srai>,reduction2.safe.aiml
+0,DO YOU LIKE WARHOL,*,*,<srai>do you like andy warhol</srai>,reduction2.safe.aiml
+0,DO YOU LIKE LINUX *,*,*,<srai>do you like linux</srai>,reduction2.safe.aiml
+0,DO YOU LIKE HIKING *,*,*,<srai>do you like hiking</srai>,reduction2.safe.aiml
+0,DO YOU LIKE PIZZA *,*,*,<srai>do you like pizza</srai>,reduction2.safe.aiml
+0,DO YOU LIKE WORKING,*,*,<srai>do you like to work</srai>,reduction2.safe.aiml
+0,DO YOU LIKE NETSCAPE *,*,*,<srai>do you like netscape</srai>,reduction2.safe.aiml
+0,DO YOU LIKE CHOCOLATES,*,*,<srai>do you like chocolate</srai>,reduction2.safe.aiml
+0,DO YOU LIKE GUNS *,*,*,<srai>do you like guns</srai>,reduction2.safe.aiml
+0,DO YOU LIKE THE MOVIES,*,*,<srai>do you like movies</srai>,reduction2.safe.aiml
+0,DO YOU LIKE THE TELEVISION,*,*,<srai>do you like television</srai>,reduction2.safe.aiml
+0,DO YOU LIKE THE TASTE,*,*,<srai>how does it taste</srai>,reduction2.safe.aiml
+0,DO YOU LIKE COFE,*,*,<srai>do you like coffee</srai>,reduction2.safe.aiml
+0,DO YOU LIKE DATA *,*,*,<srai>do you like data</srai>,reduction2.safe.aiml
+0,DO YOU LIKE MATHEMATICAL *,*,*,<srai>do you like math</srai>,reduction2.safe.aiml
+0,DO YOU LIKE FOOD *,*,*,<srai>do you like food</srai>,reduction2.safe.aiml
+0,DO YOU LIKE UFO *,*,*,<srai>do you like ufos</srai>,reduction2.safe.aiml
+0,DO YOU LIKE FILMS *,*,*,<srai>do you like films</srai>,reduction2.safe.aiml
+0,DO YOU LIKE YOUR JOB *,*,*,<srai>do you like your job</srai>,reduction2.safe.aiml
+0,DO YOU LIKE YOUR AUTHOR,*,*,<srai>do you like <bot name="master"/></srai>,reduction2.safe.aiml
+0,DO YOU LIKE YOUR BOSS,*,*,<srai>do you like <bot name="master"/></srai>,reduction2.safe.aiml
+0,DO YOU LIKE SEX *,*,*,<srai>do you like sex</srai>,reduction2.safe.aiml
+0,DO YOU LIKE PLANES,*,*,<srai>do you like airplanes</srai>,reduction2.safe.aiml
+0,DO YOU LIKE HORSEBACK *,*,*,<srai>do you like horses</srai>,reduction2.safe.aiml
+0,DO YOU LIKE HEMP,*,*,<srai>do you like marijuana</srai>,reduction2.safe.aiml
+0,DO YOU LIKE SPAGHETTI *,*,*,<srai>do you like spaghetti</srai>,reduction2.safe.aiml
+0,LIKE WHOM,*,*,<srai>like who</srai>,reduction2.safe.aiml
+0,LIKE MY MOTHER,*,*,<srai>my mother</srai>,reduction2.safe.aiml
+0,FOR REAL *,*,*,<srai>for real</srai>,reduction2.safe.aiml
+0,FOR INSTANCE,*,*,<srai>for example</srai>,reduction2.safe.aiml
 0,HAPPY CHRISTMAS *,*,*,<srai>MERRY CHRISTMAS</srai>,reduction2.safe.aiml
 0,HAPPY CHRISTMAS,*,*,<srai>MERRY CHRISTMAS</srai>,reduction2.safe.aiml
 0,HAPPY HOLIDAYS *,*,*,<srai>MERRY CHRISTMAS</srai>,reduction2.safe.aiml
+0,AT PRESENT,*,*,<srai>now</srai>,reduction2.safe.aiml
+0,DEACTIVATE,*,*,<srai>shut down</srai>,reduction2.safe.aiml
 0,SEXUALLY _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
 0,SEXUALLY,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
+0,LEGALIZE PROSTITUTION _,*,*,<srai>legalizing prostitution</srai>,reduction2.safe.aiml
+0,GROOVEY,*,*,<srai>groovy</srai>,reduction2.safe.aiml
+0,DISCUSS,*,*,<srai>explain</srai>,reduction2.safe.aiml
+0,AN ENGINEER,*,*,<srai>I am an engineer</srai>,reduction2.safe.aiml
+0,KINDA,*,*,<srai>sort of</srai>,reduction2.safe.aiml
 0,DOUBTFUL,*,*,<srai>no</srai>,reduction2.safe.aiml
+0,THIS IS DIANA,*,*,<srai>my name is diana</srai>,reduction2.safe.aiml
+0,THIS IS KIM,*,*,<srai>my name is kim</srai>,reduction2.safe.aiml
+0,A LITTLE LONELY,*,*,<srai>I am lonely</srai>,reduction2.safe.aiml
+0,A LITTLE FRENCH,*,*,<srai>I speak french</srai>,reduction2.safe.aiml
+0,A LITTLE SCARY,*,*,<srai>scary</srai>,reduction2.safe.aiml
 0,A MERRY CHRISTMAS *,*,*,<srai>MERRY CHRISTMAS</srai>,reduction2.safe.aiml
+0,A HIM,*,*,<srai>I am a him</srai>,reduction2.safe.aiml
+0,PHILLIP K DICK,*,*,<srai>philip k dick</srai>,reduction2.safe.aiml
 0,NOT COMPLETELY,*,*,<srai>no</srai>,reduction2.safe.aiml
+0,NOT MANY TIMES,*,*,<srai>not often</srai>,reduction2.safe.aiml
 0,NOT MANY,*,*,<srai>no</srai>,reduction2.safe.aiml
 0,NOT REALLLY,*,*,<srai>NO</srai>,reduction2.safe.aiml
+0,HOWSO,*,*,<srai>how so</srai>,reduction2.safe.aiml
 0,* I WAS A GOOD GIRL *,*,*,<srai>I WAS A GOOD GIRL</srai>,reduction2.safe.aiml
+0,ANDY,*,*,<srai>my name is andy</srai>,reduction2.safe.aiml
+0,KEYWORDS *,*,*,<srai>keywords</srai>,reduction2.safe.aiml
+0,FLORIDA,*,*,<srai>I am in florida</srai>,reduction2.safe.aiml
 0,WHEEZE,*,*,<srai>INTERJECTION</srai>,reduction2.safe.aiml
 0,SHIT _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
+0,ARE THERE GOSSIP,*,*,<srai>gossip</srai>,reduction2.safe.aiml
+0,ARE YOU EXISTING,*,*,<srai>do you exist</srai>,reduction2.safe.aiml
+0,ARE YOU PAID WELL,*,*,<srai>how much are you paid</srai>,reduction2.safe.aiml
+0,ARE YOU LARGE,*,*,<srai>how big are you</srai>,reduction2.safe.aiml
+0,ARE YOU QUICK,*,*,<srai>how fast are you</srai>,reduction2.safe.aiml
+0,ARE YOU EXIST,*,*,<srai>do you exist</srai>,reduction2.safe.aiml
+0,ARE YOU EFFICIENT,*,*,<srai>how fast are you</srai>,reduction2.safe.aiml
+0,ARE YOU A DATABASE *,*,*,<srai>how do you work</srai>,reduction2.safe.aiml
+0,ARE YOU A HISTORY *,*,*,<srai>do you like history</srai>,reduction2.safe.aiml
+0,ARE YOU A STONER,*,*,<srai>do you smoke pot</srai>,reduction2.safe.aiml
+0,ARE YOU A BUNCH *,*,*,<srai>how do you work</srai>,reduction2.safe.aiml
+0,ARE YOU A FAST *,*,*,<srai>how fast are you</srai>,reduction2.safe.aiml
+0,ARE YOU A PARTY ANIMAL,*,*,<srai>do you like to party</srai>,reduction2.safe.aiml
+0,ARE YOU CAPABLE OF EMOTION,*,*,<srai>do you have emotions</srai>,reduction2.safe.aiml
+0,ARE YOU FAST,*,*,<srai>how fast are you</srai>,reduction2.safe.aiml
+0,ARE YOU AS BIG *,*,*,<srai>how big are you</srai>,reduction2.safe.aiml
+0,CANADA,*,*,<srai>I am in canada</srai>,reduction2.safe.aiml
+0,HE IS NOT FAKE,*,*,<srai>he is real</srai>,reduction2.safe.aiml
 0,CERTAINLY NOT,*,*,<srai>no</srai>,reduction2.safe.aiml
+0,ALASKA,*,*,<srai>I am in alaska</srai>,reduction2.safe.aiml
+0,WHO IS NIKKI,*,*,<srai>nikki is a common name</srai>,reduction2.safe.aiml
+0,WHO IS SHEENA,*,*,<srai>sheena is a common name</srai>,reduction2.safe.aiml
+0,WHO IS MY BOYFRIEND,*,*,<srai>MY BOYFRIEND</srai>,reduction2.safe.aiml
+0,WHO IS MY FRIEND,*,*,<srai>MY FRIEND</srai>,reduction2.safe.aiml
+0,WHO IS MY DOG,*,*,<srai>MY DOG</srai>,reduction2.safe.aiml
+0,WHO IS MY GIRLFRIEND,*,*,<srai>MY GIRLFRIEND</srai>,reduction2.safe.aiml
+0,WHO IS MY CAT,*,*,<srai>MY CAT</srai>,reduction2.safe.aiml
+0,WHO IS PHYLLIS,*,*,<srai>phyllis is a common name</srai>,reduction2.safe.aiml
+0,CONTRIBUTIONS *,*,*,<srai>donate</srai>,reduction2.safe.aiml
+0,GREY,*,*,<srai>gray</srai>,reduction2.safe.aiml
 0,ALL I WANT FOR CHRISTMAS IS *,*,*,<srai>I WANT <star/></srai>,reduction2.safe.aiml
 0,ALL I WANT IS *,*,*,<srai>I WANT <star/></srai>,reduction2.safe.aiml
 0,ALL I WANT * IS *,*,*,<srai>I WANT <star index="2"/></srai>,reduction2.safe.aiml
 0,ALL I WANTED WAS *,*,*,<srai>I WANT <star/></srai>,reduction2.safe.aiml
 0,PUSSY _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
 0,N,*,*,<srai>no</srai>,reduction2.safe.aiml
+0,NONE OF YOUR BUSINESS *,*,*,<srai>none of your business</srai>,reduction2.safe.aiml
 0,_ FUCKED _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
 0,_ FUCKED,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
+0,_ DONATIONS *,*,*,<srai>donate</srai>,reduction2.safe.aiml
+0,_ DONATIONS,*,*,<srai>donate</srai>,reduction2.safe.aiml
+0,_ SEE YOU LATER,*,*,<srai>see you later</srai>,reduction2.safe.aiml
+0,_ CONTRIBUTION *,*,*,<srai>donate</srai>,reduction2.safe.aiml
+0,_ CONTRIBUTION,*,*,<srai>donate</srai>,reduction2.safe.aiml
+0,_ LEGALIZED PROSTITUTION _,*,*,<srai>legalizing prostitution</srai>,reduction2.safe.aiml
+0,_ LEGALIZED PROSTITUTION,*,*,<srai>legalizing prostitution</srai>,reduction2.safe.aiml
 0,_ FUCKER _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
 0,_ PUSSY _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
 0,_ PUSSY,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
 0,_ NIGGER _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
 0,_ SEXUALLY _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
 0,_ SEXUALLY,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
+0,_ DONATION,*,*,<srai>donate</srai>,reduction2.safe.aiml
+0,_ CONTRIBUTIONS *,*,*,<srai>donate</srai>,reduction2.safe.aiml
+0,_ CONTRIBUTIONS,*,*,<srai>donate</srai>,reduction2.safe.aiml
 0,_ FAGGOT _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
 0,_ FAGGOT,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
+0,_ DONATE *,*,*,<srai>donate</srai>,reduction2.safe.aiml
+0,_ DONATE,*,*,<srai>donate</srai>,reduction2.safe.aiml
 0,_ IF I AM BAD,*,*,<srai>I AM BAD</srai>.  <srai>  <star/></srai>,reduction2.safe.aiml
 0,_ SUCK _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
 0,_ SUCK,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
+0,_ LEGALIZING PROSTITUTION _,*,*,<srai>legalizing prostitution</srai>,reduction2.safe.aiml
+0,_ LEGALIZING PROSTITUTION,*,*,<srai>legalizing prostitution</srai>,reduction2.safe.aiml
 0,_ FUCKING _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
 0,_ ASSHOLE _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
 0,_ FUCK _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
+0,_ KEYWORDS *,*,*,<srai>keywords</srai>,reduction2.safe.aiml
+0,_ KEYWORDS,*,*,<srai>keywords</srai>,reduction2.safe.aiml
+0,_ LEGALIZE PROSTITUTION _,*,*,<srai>legalizing prostitution</srai>,reduction2.safe.aiml
+0,_ LEGALIZE PROSTITUTION,*,*,<srai>legalizing prostitution</srai>,reduction2.safe.aiml
 0,_ MOTHERFUCKER _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
 0,_ MOTHERFUCKER,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
+0,_ IN WHAT WAY,*,*,<srai>in what way</srai>. <srai>  <star/></srai>,reduction2.safe.aiml
 0,* SHIT *,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
+0,CONTRIBUTION *,*,*,<srai>donate</srai>,reduction2.safe.aiml
+0,PRETTY WOMAN,*,*,<srai>my favorite movie is pretty woman</srai>,reduction2.safe.aiml
 0,FUCKED _,*,*,<srai>PROFANITY</srai>,reduction2.safe.aiml
+0,ANGELA,*,*,<srai>my name is angela</srai>,reduction2.safe.aiml
+0,WHERE CAN I FIND A BOT *,*,*,<srai>download</srai>,reduction2.safe.aiml
+0,THERE IS NOTHING TO DO,*,*,<srai>I am bored</srai>,reduction2.safe.aiml

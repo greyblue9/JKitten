@@ -7,6 +7,7 @@
 0,SHOW ME THE NEWS,*,*,<sraix service="pannous">WHAT IS THE LATEST NEWS</sraix>,sraix.aiml
 0,SHOW ME THE FLAG OF *,*,*,<sraix service="pannous">SHOW ME THE FLAG OF <star/></sraix>,sraix.aiml
 0,I WANT TO LEARN HOW *,*,*,<sraix service="pannous">HOW <star/></sraix>,sraix.aiml
+0,TRANSLATE *,*,*,<sraix service="pannous">TRANSLATE <star/></sraix>,sraix.aiml
 0,SEARCH ON *,*,*,<sraix service="pannous">SEARCH ON <star/></sraix>,sraix.aiml
 0,SEARCH WEATHER PORTLAND MAINE,*,*,<sraix service="pannous">SEARCH WEATHER PORTLAND MAINE</sraix>,sraix.aiml
 0,SEARCH THE *,*,*,<sraix service="pannous">SEARCH THE <star/></sraix>,sraix.aiml
@@ -33,6 +34,7 @@
 0,WHO WILL WIN THE *,*,*,<sraix service="pannous">WHO WILL WIN THE <star/></sraix>,sraix.aiml
 0,WHO MAKES *,*,*,<sraix service="pannous">WHO MAKES <star/></sraix>,sraix.aiml
 0,WHO IS STEVEN SEAGAL,*,*,<sraix service="pannous">WHO IS STEVEN SEAGAL</sraix>,sraix.aiml
+0,WHO IS STEVEN *,*,*,<sraix service="pannous">WHO IS STEVEN <star/></sraix>,sraix.aiml
 0,WHO IS DOCTOR *,*,*,<sraix service="pannous">WHO IS DOCTOR <star/></sraix>,sraix.aiml
 0,WHO IS OBAMA,*,*,<sraix service="pannous">WHO IS OBAMA</sraix>,sraix.aiml
 0,WHO IS BARACK OBAMA,*,*,<sraix service="pannous">WHO IS BARACK OBAMA</sraix>,sraix.aiml
@@ -43,6 +45,8 @@
 0,WHO IS THE FRENCH PRESIDENT,*,*,<sraix service="pannous">WHO IS THE CURRENT PRESIDENT OF FRANCE</sraix>,sraix.aiml
 0,WHO IS THE LEAD SINGER OF *,*,*,<sraix service="pannous">WHO IS THE LEAD SINGER OF <star/></sraix>,sraix.aiml
 0,WHO IS THE MOST *,*,*,<sraix service="pannous">WHO IS THE MOST <star/></sraix>,sraix.aiml
+0,WHO IS TONY *,*,*,<sraix service="pannous">WHO IS TONY <star/></sraix>,sraix.aiml
+0,WHO IS ROBERT *,*,*,<sraix service="pannous">WHO IS ROBERT <star/></sraix>,sraix.aiml
 0,WHO IS MICHAEL *,*,*,<sraix service="pannous">WHO IS MICHAEL <star/></sraix>,sraix.aiml
 0,WHO IS JUSTIN BIEBER,*,*,<sraix service="pannous">WHO IS JUSTIN BIEBER</sraix>,sraix.aiml
 0,WHO IS CHRIS *,*,*,<sraix service="pannous">WHO IS CHRIS <star/></sraix>,sraix.aiml
@@ -50,6 +54,8 @@
 0,WHO IS IN THE *,*,*,<sraix service="pannous">WHO IS IN THE <star/></sraix>,sraix.aiml
 0,WHO IS WINNING *,*,*,<sraix service="pannous">WHO IS WINNING <star/></sraix>,sraix.aiml
 0,WHO IS SQUARE BEAR,*,*,<sraix service="pannous">WHO IS SQUARE BEAR</sraix>,sraix.aiml
+0,WHO IS BEN *,*,*,<sraix service="pannous">WHO IS BEN <star/></sraix>,sraix.aiml
+0,WHO IS TOM *,*,*,<sraix service="pannous">WHO IS TOM <star/></sraix>,sraix.aiml
 0,WHO WAS JESUS,*,*,<sraix service="pannous">WHO WAS JESUS</sraix>,sraix.aiml
 0,WHO PLAYS *,*,*,<sraix service="pannous">WHO PLAYS <star/></sraix>,sraix.aiml
 0,ISANAME <SET>NAME</SET>,*,*,true,sraix.aiml
@@ -151,13 +157,17 @@
 0,WHAT IS THE FULL FORM OF *,*,*,<sraix service="pannous">WHAT IS THE FULL FORM OF <star/></sraix>,sraix.aiml
 0,WHAT IS THE PERFECT *,*,*,<sraix service="pannous">WHAT IS THE PERFECT <star/></sraix>,sraix.aiml
 0,WHAT IS THE LARGEST COMPANY,*,*,<sraix service="pannous">WHAT IS THE LARGEST COMPANY</sraix>,sraix.aiml
+0,WHAT IS THE TALLEST BUILDING IN THE WORLD,*,*,<sraix service="pannous">WHAT IS THE TALLEST BUILDING IN THE WORLD</sraix>,sraix.aiml
+0,WHAT IS THE HIGHEST MOUNTAIN IN THE WORLD,*,*,<sraix service="pannous">WHAT IS THE HIGHEST MOUNTAIN IN THE WORLD</sraix>,sraix.aiml
 0,WHAT IS THE SOFTEST *,*,*,<sraix service="pannous">WHAT IS THE SOFTEST <star/></sraix>,sraix.aiml
+0,WHAT IS THE NEXT *,*,*,<sraix service="pannous">WHAT IS THE NEXT <star/></sraix>,sraix.aiml
 0,WHAT IS THE CURRENCY OF *,*,*,<sraix service="pannous">WHAT IS THE CURRENCY OF <star/></sraix>,sraix.aiml
 0,WHAT IS THE FASTEST CAR IN THE WORLD,*,*,<sraix service="pannous">WHAT IS THE FASTEST CAR IN THE WORLD</sraix>,sraix.aiml
 0,WHAT IS THE TOP *,*,*,<sraix service="pannous">WHAT IS THE TOP <star/></sraix>,sraix.aiml
 0,WHAT IS THE SQUARE BEAR,*,*,<sraix service="pannous">WHAT IS THE SQUARE BEAR</sraix>,sraix.aiml
 0,WHAT IS THE POPULATION OF FRANCE,*,*,<sraix service="pannous">WHAT IS THE POPULATION OF FRANCE</sraix>,sraix.aiml
 0,WHAT IS THE POPULATION OF UNITED STATES,*,*,<sraix service="pannous">WHAT IS THE POPULATION OF UNITED STATES</sraix>,sraix.aiml
+0,WHAT IS THE MOST COMMON *,*,*,<sraix service="pannous">WHAT IS THE MOST COMMON <star/></sraix>,sraix.aiml
 0,WHAT IS THE MOST IMPORTANT *,*,*,<sraix service="pannous">WHAT IS THE MOST IMPORTANT <star/></sraix>,sraix.aiml
 0,WHAT IS THE <SET>ORDINAL</SET> *,*,*,<sraix service="pannous">WHAT IS THE <star/> <star index="2"/></sraix>,sraix.aiml
 0,WHAT IS ANDROID,*,*,<sraix service="pannous">WHAT IS ANDROID</sraix>,sraix.aiml
@@ -180,6 +190,7 @@
 0,WHAT COUNTRY IS *,*,*,<sraix service="pannous">WHAT COUNTRY IS <star/></sraix>,sraix.aiml
 0,WHAT PRESIDENT *,*,*,<sraix service="pannous">WHAT PRESIDENT <star/></sraix>,sraix.aiml
 0,WHAT DATE *,*,*,<sraix service="pannous">WHAT DATE <star/></sraix>,sraix.aiml
+0,NAME THE *,*,*,<sraix service="pannous">NAME THE <star/></sraix>,sraix.aiml
 0,NAME OF *,*,*,<sraix service="pannous">NAME OF <star/></sraix>,sraix.aiml
 0,NAME OF THE *,*,*,<sraix service="pannous">NAME OF THE <star/></sraix>,sraix.aiml
 0,HOW LATE *,*,*,<sraix service="pannous">HOW LATE <star/></sraix>,sraix.aiml
@@ -208,6 +219,7 @@
 0,HOW MANY CALORIES *,*,*,<sraix service="pannous">HOW MANY CALORIES <star/></sraix>,sraix.aiml
 0,HOW CAN A *,*,*,<sraix service="pannous">HOW CAN A <star/></sraix>,sraix.aiml
 0,HOW CAN WE *,*,*,<sraix service="pannous">HOW CAN WE <star/></sraix>,sraix.aiml
+0,HOW CAN I DO *,*,*,<sraix service="pannous">HOW CAN I DO <star/></sraix>,sraix.aiml
 0,HOW CAN I IMPROVE MY ENGLISH,*,*,<sraix service="pannous">HOW CAN I IMPROVE MY ENGLISH</sraix>,sraix.aiml
 0,HOW CAN I IMPROVE MY *,*,*,<sraix service="pannous">HOW CAN I IMPROVE MY <star/></sraix>,sraix.aiml
 0,HOW CAN I GET MY *,*,*,<sraix service="pannous">HOW CAN I GET MY <star/></sraix>,sraix.aiml
@@ -224,9 +236,11 @@
 0,HOW LONG DOES IT TAKE TO *,*,*,<sraix service="pannous">HOW LONG DOES IT TAKE TO <star/></sraix>,sraix.aiml
 0,HOW MUCH ARE *,*,*,<sraix service="pannous">HOW MUCH ARE <star/></sraix>,sraix.aiml
 0,HOW MUCH MONEY DOES *,*,*,<sraix service="pannous">HOW MUCH MONEY DOES <star/></sraix>,sraix.aiml
+0,HOW MUCH IS THE *,*,*,<sraix service="pannous">HOW MUCH IS THE <star/></sraix>,sraix.aiml
 0,HOW MUCH DOES A *,*,*,<sraix service="pannous">HOW MUCH DOES A <star/></sraix>,sraix.aiml
 0,HOW BIG ARE *,*,*,<sraix service="pannous">HOW BIG ARE <star/></sraix>,sraix.aiml
 0,HOW BIG IS *,*,*,<sraix service="pannous">HOW BIG IS <star/></sraix>,sraix.aiml
+0,HOW BIG IS THE *,*,*,<sraix service="pannous">HOW BIG IS THE <star/></sraix>,sraix.aiml
 0,WHAT WORD *,*,*,<sraix service="pannous">WHAT WORD <star/></sraix>,sraix.aiml
 0,SET * ALARM *,*,*,<sraix service="pannous">SET <star/> ALARM <star index="2"/></sraix>,sraix.aiml
 0,WHAT IS THE WEATHER FORECAST,*,*,<sraix service="pannous">WHAT IS THE WEATHER FORECAST</sraix>,sraix.aiml
@@ -241,6 +255,7 @@
 0,HOW MANY CALORIES ARE IN A *,*,*,<sraix service="pannous">HOW MANY CALORIES ARE IN A <star/></sraix>,sraix.aiml
 0,WHY DID THEY *,*,*,<sraix service="pannous">WHY DID THEY <star/></sraix>,sraix.aiml
 0,WHEN DOES THE *,*,*,<sraix service="pannous">WHEN DOES THE <star/></sraix>,sraix.aiml
+0,HOW OLD ARE *,*,*,<sraix service="pannous">HOW OLD ARE <star/></sraix>,sraix.aiml
 0,CONVERT *,*,*,<sraix service="pannous">CONVERT <star/></sraix>,sraix.aiml
 0,WHAT MOVIES ARE *,*,*,<sraix service="pannous">WHAT MOVIES ARE <star/></sraix>,sraix.aiml
 0,WHAT DO THE *,*,*,<sraix service="pannous">WHAT DO THE <star/></sraix>,sraix.aiml
@@ -254,6 +269,7 @@
 0,WHAT IS THE RECIPE FOR *,*,*,<sraix service="pannous">WHAT IS THE RECIPE FOR <star/></sraix>,sraix.aiml
 0,HOW OLD IS BARACK OBAMA,*,*,<sraix service="pannous">HOW OLD IS BARACK OBAMA</sraix>,sraix.aiml
 0,IS THERE AN *,*,*,<sraix service="pannous">IS THERE AN <star/></sraix>,sraix.aiml
+0,WHAT COLOR IS A *,*,*,<sraix service="pannous">WHAT COLOR IS A <star/></sraix>,sraix.aiml
 0,HOW MUCH CAFFEINE IS IN *,*,*,<sraix service="pannous">HOW MUCH CAFFEINE IS IN <star/></sraix>,sraix.aiml
 0,WHO IS THE PRIME MINISTER OF INDIA,*,*,<sraix service="pannous">WHO IS THE PRIME MINISTER OF INDIA</sraix>,sraix.aiml
 0,WHY DO WE *,*,*,<sraix service="pannous">WHY DO WE <star/></sraix>,sraix.aiml

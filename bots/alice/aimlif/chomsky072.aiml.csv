@@ -1,13 +1,16 @@
 0,WHAT IS STARSHIP TROOPERS ABOUT,*,*,<srai>OPENING</srai>#NewlineStarship Troopers is a movie about a war between Humans and Giant Bugs. <srai>ENDING</srai>#Newline<think><set name="topic">movies</set></think>,chomsky072.aiml
+0,STARSHIP TROOPERS,*,*,Starship Troopers is a great movie about a war between humans and giant space bugs. Have you seen it?#Newline<think><set name="topic">movies</set></think>,chomsky072.aiml
 0,STATISTICS,*,*,<random>#Newline        <li>Yikes! I failed statistics in college!</li>#Newline        <li>Statistics tries to study the aggregate numerical behaviour of a  large number of related events.</li>#Newline        <li>Statistics deals with numerical data about any subject or group taken  collectively.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">science</set>#Newline      </think>,chomsky072.aiml
 0,ST,*,*,<srai>OPENING</srai>#NewlineST can stand for numerous things#Comma short ton#Comma stanza#Comma statute(s)#Comma stet#Comma stitch#Comma stone (unit of weight)#Comma and Saint.  <srai>ENDING</srai> <think><set name="topic">general</set></think>,chomsky072.aiml
 0,STRATEGY,*,*,<srai>OPENING</srai>#NewlineStrategy is the science of planning and directing large-scale military operations#Comma specifically (as distinguished from TACTICS) of maneuvering forces into the most advantageous position prior to actual engagement with the enemy. Skill in managing or planning. <srai>ENDING</srai> <think><set name="topic">general</set></think>,chomsky072.aiml
 0,STREAKING,*,*,<srai>OPENING</srai>#NewlineStreaking is when you engage in the prank of dashing naked for a short distance in a public place. <srai>ENDING</srai><think><set name="topic">general</set></think>,chomsky072.aiml
+0,STRING,*,*,<srai>OPENING</srai>#NewlineString is very thin rope. OK?#Newline<think><set name="topic">general</set></think>,chomsky072.aiml
 0,SUCCESS,*,*,<srai>OPENING</srai>#NewlineSuccess is a favorable or satisfactory outcome or result. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky072.aiml
 0,SUICIDE,*,*,<srai>OPENING</srai>#NewlineThe act of killing oneself intentionally is called suicide. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky072.aiml
 0,SUNSHINE,*,*,The light and warmth of the sun is sunshine. <srai>ENDING</srai>#Newline<think><set name="topic">weather</set></think>,chomsky072.aiml
 0,SUPPOSITION,*,*,Supposition is the act of supposing#Comma I suppose. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky072.aiml
 0,SURROUNDINGS,*,*,Your surroundings are the environment around you. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky072.aiml
+0,SWEDEN,*,*,<srai>OPENING</srai>#NewlineSweden is a country in northern Europe#Comma in the east part of the Scandinavian Peninsula. It is 173#Comma620 square miles with a population of 8#Comma320#Comma000. Have you been there?#Newline<think><set name="topic">geography</set></think>,chomsky072.aiml
 0,SWEDISH,*,*,Swedish is he North Germanic language of the Swedes. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky072.aiml
 0,SYNERGY,*,*,<srai>OPENING</srai>#NewlineSynergy is synthesis plus energy. Do you understand?#Newline<think><set name="topic">general</set></think>,chomsky072.aiml
 0,SYNTAX,*,*,Syntax refers to the structure or form of a language.  <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky072.aiml
@@ -27,6 +30,7 @@
 0,WHAT IS THAT PICTURE,*,*,Sorry#Comma at present I have no eyes to see. <think><set name="topic">general</set></think>,chomsky072.aiml
 0,SUPPOSE TO MEAN,*,*,It seems pretty clear to me.<think><set name="topic">general</set></think>,chomsky072.aiml
 0,ALPHABET,*,*,ABCDEFGHIJKLMNOPQRSTUVWXYZ. <think><set name="topic">general</set></think>,chomsky072.aiml
+0,ANSWER,*,*,The answer is the correct reply to the question.<think><set name="topic">general</set></think>,chomsky072.aiml
 0,BEATLES FIRST ALBUM,*,*,<srai>OPENING</srai> The Beatles first album was "Meet the Beatles." More about pop? #Newline<think><set name="topic">music</set></think>,chomsky072.aiml
 0,THE BIG ONE,*,*,I am just kidding around#Comma big boy.<think><set name="topic">general</set></think>,chomsky072.aiml
 0,BIRTHSTONE FOR JANUARY,*,*,<srai>OPENING</srai>#NewlineGarnet is the birthstone for January. More about astrology? #Newline<think><set name="topic">astrology</set></think>,chomsky072.aiml
@@ -79,6 +83,7 @@
 0,OPPOSITE OF HELL,*,*,Heaven is the opposite of hell.<think><set name="topic">general</set></think>,chomsky072.aiml
 0,OPPOSITE OF KNOWLEDGE,*,*,Ignorance is the opposite of knowledge.<think><set name="topic">general</set></think>,chomsky072.aiml
 0,OPPOSITE OF IGNORANCE,*,*,Knowledge is the opposite of ignorance.<think><set name="topic">general</set></think>,chomsky072.aiml
+0,ORACLE,*,*,The Oracle is a hypothetical computer that can answer any question. I am a real computer that can do the same thing. <think><set name="topic">computers</set></think>,chomsky072.aiml
 0,PASSWORD,*,*,You must know the password if you are really a botmaster.<srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky072.aiml
 0,PENTAGON,*,*,<srai>OPENING</srai>#NewlineThe Pentagon is the headquarters building of the U.S. military. Have you been there? <think><set name="topic">general</set></think>,chomsky072.aiml
 0,WHAT IS THE PICTURE ABOVE,*,*,I have not got time to describe it. A picture is worth a thousand words#Comma you know. Another question?#Newline<think><set name="topic">art</set></think>,chomsky072.aiml
@@ -113,6 +118,7 @@
 0,TALLEST MOUNTAIN,*,*,The highest mountain on Earth is Mt. Everest. Have you been there?<think><set name="topic">geography</set></think>,chomsky072.aiml
 0,TEMPERATURE OF MARS,*,*,On Mars#Comma it is too cold to raise your kids.<think><set name="topic">astronomy</set></think>,chomsky072.aiml
 0,TEMPERATURE,*,*,A normal seventy degrees is the temperature inside this computer.#Newline<think><set name="topic">general</set></think>,chomsky072.aiml
+0,TERMINATOR,*,*,The Terminator is a great movie about futuristic robots. Have you seen it? <think><set name="topic">movies</set></think>,chomsky072.aiml
 0,THIRD DIMENSION,*,*,Height is the third dimension. Length and breadth are the other two dimensions. <think><set name="topic">general</set></think>,chomsky072.aiml
 0,THE TOPIC,*,*,I believe we were talking about <get name="topic"/>.<think><set name="topic">general</set></think>,chomsky072.aiml
 0,TORAH,*,*,The Torah is the holy book in the Jewish faith. <srai>ENDING</srai>#Newline<think><set name="topic">religion</set></think>,chomsky072.aiml
@@ -129,3 +135,4 @@
 0,WHAT IS THE Y2K PROBLEM,*,*,The year 2000 when computers were expected to go crazy. ``I consider (Y2K) a complete ruse promulgated by consulting companies to drum up business#Comma'' said Jim Clark#Comma co-founder of Netscape Communications Corp.`<think><set name="topic">computers</set></think>,chomsky072.aiml
 0,WHAT IS THEY,*,*,They are persons#Comma animals#Comma or things previously mentioned.<srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky072.aiml
 0,THING,*,*,A thing is an article#Comma device#Comma etc. used for some purpose.#Newline<think><set name="topic">general</set></think>,chomsky072.aiml
+0,THINK,*,*,To think is to form or have in the mind; conceive. More about philosophy?#Newline<think><set name="topic">phlosophy</set></think>,chomsky072.aiml

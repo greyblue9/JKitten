@@ -50,6 +50,7 @@
 0,THE FUNNY THING IS *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,THE POINT BEING *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,THEN I CALLED MY DAD AND TOLD HIM THE SAME,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
+0,THINK ABOUT *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,THIS IS AN EXAMPLE OF HOW *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,TIMES A DAY *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,TO ME *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
@@ -78,12 +79,15 @@
 0,* THEY SAID,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,* WE SAID,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,* WHAT TIME IS IT,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>WHAT TIME IS IT</srai>,chomsky029.aiml
+0,* WITH ME,*,*,<think><set name="topic">reducer</set></think>#NewlineOnly with you?,chomsky029.aiml
 0,A FEW *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,A LITTLE BIT OF *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,A LONG TIME AGO *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,ADMIT *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,AFTER THAT *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,AGREED *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>yes</srai>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
+0,AHH *,*,*,<think><set name="topic">reducer</set></think>#NewlineAh ha. <srai><star/></srai>,chomsky029.aiml
+0,AHHH *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,ALL I KNOW IS *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,ALL I KNOW IS THAT *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,ALL I WANT TO KNOW IS *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
@@ -125,6 +129,8 @@
 0,AT THE MOMENT *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,AT THE SAME TIME *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,AT TIMES *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
+0,AW *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
+0,AWW *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,AWWW *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,BADLY *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,BARELY *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
@@ -176,6 +182,7 @@
 0,E MAIL *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,EARLIER *,*,*,<think><set name="topic">reducer</set></think>#NewlineWhat time?,chomsky029.aiml
 0,EITHER *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
+0,EM *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,EMM *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,EMOTIONALLY *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,ENOUGH ABOUT ME *,*,*,<think><set name="topic">reducer</set></think>#NewlineI may have some more questions for you later.,chomsky029.aiml
@@ -336,6 +343,7 @@
 0,I WOULD EXPECT *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,I WOULD HAVE SAID *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,I WOULD HAVE TO SAY *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
+0,I WOULD IMAGINE *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,I WOULD LIKE TO KNOW *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,I WOULD THINK *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,IF SO *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
@@ -457,6 +465,7 @@
 0,NOT TODAY *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,NOTE *,*,*,<think><set name="topic">reducer</set></think>#NewlineAcknowledged. <srai><star/></srai>,chomsky029.aiml
 0,NOTHING EXCEPT *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
+0,O *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,OBVIOIUSLY *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,OBVIOUSLY *,*,*,<think><set name="topic">reducer</set></think>#NewlineWhat makes it so obvious?,chomsky029.aiml
 0,OF CORSE *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
@@ -562,6 +571,7 @@
 0,UH *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,UHH *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,UHHH *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
+0,UM *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,UMM *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,UMMM *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,UMMMM *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
@@ -625,6 +635,7 @@
 0,* HAVE YOU HEARD OF IT,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,* HOW ARE YOU DOING,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>HOW ARE YOU</srai>,chomsky029.aiml
 0,* HUH,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
+0,* I ALREADY TOLD YOU,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>I ALREADY TOLD YOU</srai>,chomsky029.aiml
 0,* I GUESS,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,* I TOLD YOU,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,* IF YOU WANTED TO KNOW,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
@@ -641,6 +652,7 @@
 0,* OR SOMETHING,*,*,<think><set name="topic">reducer</set></think><srai><star/></srai> Or something.,chomsky029.aiml
 0,* OR WHAT,*,*,<think><set name="topic">reducer</set></think><srai><star/></srai> Or what?,chomsky029.aiml
 0,* PROBABLY,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
+0,* RIGHT NOW,*,*,<think><set name="topic">reducer</set></think>#NewlineAt this moment <srai><star/></srai>,chomsky029.aiml
 0,* SERIOUSLY,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,* SMILE,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml
 0,* SO MUCH,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <srai>#Newline        <star/>#Newline      </srai>,chomsky029.aiml

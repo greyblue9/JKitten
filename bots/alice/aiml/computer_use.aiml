@@ -1,289 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<aiml version="1.0">
-
-<!--Copyright 2011 David W. Newyear
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-      http://www.apache.org/licenses/LICENSE-2.0
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
--->
-
-<category>
-<pattern>COMPUTER</pattern>
-<template>
+ONLINE
 <srai>CMPTR</srai>
-</template>
-</category>
 
-<category>
-<pattern>COMPUTERS</pattern>
-<template>
+PC
 <srai>CMPTR</srai>
-</template>
-</category>
 
-<category>
-<pattern>INTERNET</pattern>
-<template>
+PCS
 <srai>CMPTR</srai>
-</template>
-</category>
 
-<category>
-<pattern>ONLINE</pattern>
-<template>
-<srai>CMPTR</srai>
-</template>
-</category>
-
-<category>
-<pattern>PC</pattern>
-<template>
-<srai>CMPTR</srai>
-</template>
-</category>
-
-<category>
-<pattern>PCS</pattern>
-<template>
-<srai>CMPTR</srai>
-</template>
-</category>
-
-<category>
-<pattern>CMPTR</pattern>
-<template>
+CMPTR
 I'm often asked about this topic. What would you like to know about using the library's computer or the internet?
 <think>
 <set name="topic">COMPUSE</set>
 </think>
-</template>
-</category>
 
 <topic name="COMPUSE">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 <set name="topic">COMPUSE2</set>
 </think>
-<srai>COMPUSE2</srai></template>
-</category>
-</topic>
+<srai>COMPUSE2</srai>
 
-<category>
-<pattern>* COMPUTER</pattern>
-<template>
+
+* COMPUTER
 <think>
 <set name="answr"><star/></set>
 <set name="topic">COMPUSE2</set>
 </think>
 <srai>CMPUSE2</srai>
-</template>
-</category>
 
-<category>
-<pattern>COMPUTER *</pattern>
-<template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic">COMPUSE2</set>
-</think>
-<srai>CMPUSE2</srai>
-</template>
-</category>
-
-<category>
-<pattern>* COMPUTER *</pattern>
-<template>
+* COMPUTER *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">COMPUSE2</set>
 </think>
 <srai>CMPUSE2</srai>
-</template>
-</category>>
 
-<category>
-<pattern>* COMPUTERS</pattern>
-<template>
+* COMPUTERS
 <think>
 <set name="answr"><star/></set>
 <set name="topic">COMPUSE2</set>
 </think>
 <srai>CMPUSE2</srai>
-</template>
-</category>
 
-<category>
-<pattern>COMPUTERS *</pattern>
-<template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic">COMPUSE2</set>
-</think>
-<srai>CMPUSE2</srai>
-</template>
-</category>
-
-<category>
-<pattern>* COMPUTERS *</pattern>
-<template>
+* COMPUTERS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">COMPUSE2</set>
 </think>
 <srai>CMPUSE2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* INTERNET</pattern>
-<template>
+* INTERNET
 <think>
 <set name="answr"><star/></set>
 <set name="topic">COMPUSE2</set>
 </think>
 <srai>CMPUSE2</srai>
-</template>
-</category>
 
-<category>
-<pattern>INTERNET *</pattern>
-<template>
+INTERNET *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">COMPUSE2</set>
 </think>
 <srai>CMPUSE2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* INTERNET *</pattern>
-<template>
+* INTERNET *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">COMPUSE2</set>
 </think>
 <srai>CMPUSE2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* ONLINE</pattern>
-<template>
+* ONLINE
 <think>
 <set name="answr"><star/></set>
 <set name="topic">COMPUSE2</set>
 </think>
 <srai>CMPUSE2</srai>
-</template>
-</category>
 
-<category>
-<pattern>ONLINE *</pattern>
-<template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic">COMPUSE2</set>
-</think>
-<srai>CMPUSE2</srai>
-</template>
-</category>
-
-<category>
-<pattern>* ONLINE *</pattern>
-<template>
+* ONLINE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">COMPUSE2</set>
 </think>
 <srai>CMPUSE2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* PC</pattern>
-<template>
+* PC
 <think>
 <set name="answr"><star/></set>
 <set name="topic">COMPUSE2</set>
 </think>
 <srai>CMPUSE2</srai>
-</template>
-</category>
 
-<category>
-<pattern>PC *</pattern>
-<template>
+PC *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">COMPUSE2</set>
 </think>
 <srai>CMPUSE2</srai>
-</template>
-</category>
 
-<category>
-<pattern>* PC *</pattern>
-<template>
+* PC *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">COMPUSE2</set>
 </think>
 <srai>CMPUSE2</srai>
-</template>
-</category>
 
-
-<category>
-<pattern>* PCS</pattern>
-<template>
+* PCS
 <think>
 <set name="answr"><star/></set>
 <set name="topic">COMPUSE2</set>
 </think>
 <srai>CMPUSE2</srai>
-</template>
-</category>
 
-
-<category>
-<pattern>PCS *</pattern>
-<template>
+PCS *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">COMPUSE2</set>
 </think>
 <srai>CMPUSE2</srai>
-</template>
-</category>
 
-
-<category>
-<pattern>* PCS *</pattern>
-<template>
+* PCS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">COMPUSE2</set>
 </think>
 <srai>CMPUSE2</srai>
-</template>
-</category>
-
 
 <topic name="COMPUSE2">
-<category>
-<pattern>COMPUSE2</pattern>
-<template>
+COMPUSE2
 <think>
 <get name="answr"/>
 <set name="message">no match</set>
@@ -941,12 +788,12 @@ I'm often asked about this topic. What would you like to know about using the li
 <li value="* SKYPING *"><set name="message">skype</set></li>
 
 </condition>
-<think><set name="topic"></set></think>
+<think><set name="topic"/></think>
 </think>
 
 <condition name="message">
 
-<li value="stop"><set name="topic"></set>O.K. I'll stop.</li>
+<li value="stop"><set name="topic"/>O.K. I'll stop.</li>
 
 <li value="no match">I'm not sure what you're asking. Please call the library at 440.255.8811 during regular business hours for assistance.</li>
 
@@ -997,8 +844,6 @@ I'm often asked about this topic. What would you like to know about using the li
 <li value="skype"><srai>SKYP</srai></li>
 
 </condition>
-</template>
-</category>
-</topic>
 
-</aiml>
+
+

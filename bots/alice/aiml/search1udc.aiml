@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<aiml version="1.0">
-
-<!--Copyright 2011-2012 David W. Newyear-->
-
- <!-- Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.-->
-  
-
-
-<category>
-<pattern>STOP</pattern>
-<template>O.K. I'll stop.
-<think>
-<set name="topic"></set>
-</think>
-</template>
-</category>
-
-
-<!--UDC INTAKE-->
- 
-<category>
-<pattern>*</pattern>
-<template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic">UDCSORT2</set>
-</think>
-<srai>UDCSORT2</srai>
-</template>
-</category>
-
 <topic name="UDCSORT2">
-<category>
-<pattern>UDCSORT2</pattern>
-<template>
+UDCSORT2
 <think>
 <get name="answr"/>
 <set name="message">no match</set>
@@ -92,7 +49,7 @@
 <li value="OBITUARY *"><set name="message">article search</set></li>
 <li value="* OBITUARY *"><set name="message">article search</set></li>
 
-<li value="OBITUARIES"><set name="message"></set></li>
+<li value="OBITUARIES"><set name="message"/></li>
 <li value="* OBITUARIES"><set name="message">article search</set></li>
 <li value="OBITUARIES *"><set name="message">article search</set></li>
 <li value="* OBITUARIES *"><set name="message">article search</set></li>
@@ -3420,7 +3377,7 @@
 <li value="BANKRUPT"><set name="message">bankruptcy</set></li>
 <li value="* BANKRUPT"><set name="message">bankruptcy</set></li>
 <li value="BANKRUPT *"><set name="message">bankruptcy</set></li>
-<li value="* BANKRUPT *"><set name="message">>bankruptcy</set></li>
+<li value="* BANKRUPT *"><set name="message">&gt;bankruptcy</set></li>
 <li value="BANKRUPTCY"><set name="message">bankruptcy</set></li>
 <li value="* BANKRUPTCY"><set name="message">bankruptcy</set></li>
 <li value="BANKRUPTCY *"><set name="message">bankruptcy</set></li>
@@ -3912,12 +3869,12 @@
 <li value="* CALDECOTT *"><set name="message">caldecott</set></li>
 
 </condition>
-<think><set name="topic"></set></think>
+<think><set name="topic"/></think>
 </think>
  
 <condition name="message">
 
-<li value="stop"><set name="topic"></set>OK. I'll stop.</li>
+<li value="stop"><set name="topic"/>OK. I'll stop.</li>
 
 <li value="no match"><srai>UDCPOSTSORT</srai></li>
 
@@ -4134,30 +4091,20 @@
 <li value="check out without card"><srai>COWOCRD</srai></li>
 <li value="2 hot 2 hold"><srai>2HOT</srai></li>
 <li value="renew too hots"><srai>RNW2HOT</srai></li>
-<li value="caldecott"><srai></srai>CALDCTT</li>
+<li value="caldecott"><srai/>CALDCTT</li>
 
 </condition>
-</template>
-</category>
-</topic> 
 
 
-
-<category>
-<pattern>UDCPOSTSORT</pattern>
-<template>
+UDCPOSTSORT
 <random>
 <li><srai>0HMMM</srai></li>
 <li><srai>BSYCAT</srai></li>
 <li><srai>HMMM</srai></li>
 </random>
 <srai>UDCN</srai>
-</template>
-</category>
 
-<category>
-<pattern>0HMMM</pattern>
-<template>
+0HMMM
 <random>
 <li>We'll need to clarify your inquiry.</li>
 <li>I don't recognize what you typed. I'll need to ask a few questions to understand what you're asking.</li>
@@ -4166,12 +4113,8 @@
 <li>Your input is ambiguous. Don't be offended, it just means it doesn't match any of the patterns in my brain.</li>
 <li>I'll need to ask a few questions to understand what you entered.</li>
 </random>
-</template>
-</category>
 
-<category>
-<pattern>BSYCAT</pattern>
-<template>
+BSYCAT
 <random>
 <li>Just a minute while I scratch the couch.</li>
 <li>I'm sorry. I was looking for a something under the fridge.</li>
@@ -4226,32 +4169,8 @@
 <li>Pardon me, I'm processing another question.</li>
 <li>Just a moment. I have a question on another line. O.K.</li>
 </random>
-</template>
-</category>
 
-<category>
-<pattern>HMMM</pattern>
-<template>
-<random>
-<li>O.K. I don't have any response.</li>
-<li>I don't recognize what you typed.</li>
-<li>I don't understand, but I can still try to help you.</li>
-<li>I can try to help.</li>
-<li>I have no response for that right now.</li>
-<li>I don't recognize your input.</li>
-<li>Hmm...I don't have a response.</li>
-<li>I'm not sure what you're asking.</li>
-<li>I don't recognize that input.</li>
-<li>I don't have a response at this time, but I can still try to help you.</li>
-<li>There's no response to that input in my database.</li>
-<li>My creator will add a response to this input. In the meantime....</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>UDCN</pattern>
-<template>
+UDCN
 <random>
 <li>Tell me in a few words what you are looking for.</li>
 <li>Tell me again what you're looking for.</li>
@@ -4259,26 +4178,18 @@
 <think>
 <set name="topic">UDCSRCH</set>
 </think>
-</template>
-</category>
 
 <topic name="UDCSRCH">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 <set name="topic">UDCSRCH2</set>
 </think>
 <srai>UDCSRCH2</srai>
-</template>
-</category>
-</topic>
+
 
 <topic name="UDCSRCH2">
-<category>
-<pattern>UDCSRCH2</pattern>
-<template>
+UDCSRCH2
 <think>
 <get name="answr"/>
 <set name="message">no match</set>
@@ -7228,7 +7139,7 @@
 <li value="* STOP *"><set name="message">stop</set></li>
 
 </condition>
-<think><set name="topic"></set></think>
+<think><set name="topic"/></think>
 </think>
 
 <condition name="message">
@@ -7337,14 +7248,9 @@
 
 
 </condition>
-</template>
-</category>
-</topic>
 
 
-<category>
-<pattern>CATNOCAT</pattern>
-<template>
+CATNOCAT
 <think>
 <set name="searcharg"><get name="answr"/></set>
 </think>
@@ -7356,12 +7262,8 @@
 <li>Now I'm going to ask you just a few questions in order to find this. And when I say "a few," I mean one. <srai>1FUN</srai> 
 </li>
 </random>
-</template>
-</category>
 
-<category>
-<pattern>1FUN</pattern>
-<template>
+1FUN
 <random>
 <li>It's easy, I promise.</li>
 <li>It's fun, like a game.</li>
@@ -7375,7 +7277,5 @@
 <br/><br/>
 We'll proceed, unless you tell me to stop.
 <srai>Q1</srai>
-</template>
-</category>
 
-</aiml>  
+

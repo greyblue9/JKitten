@@ -1,285 +1,237 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!-- Complies with AIML 1.0 Tag Set Specification -->
-  <!-- as adopted by the ALICE A.I. Foundation.  -->
-  <!-- This file BRAIN created November 2006  -->
-  <category>
-    <pattern>ECOLOGYADVERTISEMENT1</pattern>
-    <template>
-      <random>
+<?xml version="1.0" encoding="UTF-8"?>
+
+ECOLOGYADVERTISEMENT1
+<random>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/EF_120x60_Parrot.GIF" BORDER="0" ALT="Protect Endangered Species at EcologyFund.com"/>
+            <IMG ALT="Protect Endangered Species at EcologyFund.com" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/EF_120x60_Parrot.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/EF_120x60_SaveWilderness.GIF" BORDER="0" ALT="Save Wilderness for FREE - EcologyFund.com"/>
+            <IMG ALT="Save Wilderness for FREE - EcologyFund.com" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/EF_120x60_SaveWilderness.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/EF_120x60_Rainforest.GIF" BORDER="0" ALT="Save Rainforest for FREE - EcologyFund.com"/>
+            <IMG ALT="Save Rainforest for FREE - EcologyFund.com" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/EF_120x60_Rainforest.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_120x60_2.GIF" BORDER="0" ALT="Help Preserve Nature. One click at a time"/>
+            <IMG ALT="Help Preserve Nature. One click at a time" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_120x60_2.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" target="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_120x60_4.GIF" BORDER="0" ALT="Help Preserve Nature. One click at a time"/>
+            <IMG ALT="Help Preserve Nature. One click at a time" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_120x60_4.GIF"/>
           </A>
         </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>ECOLOGYADVERTISEMENT2</pattern>
-    <template>
-      <random>
+
+ECOLOGYADVERTISEMENT2
+<random>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/EF_234x60_1.GIF" BORDER="0" ALT="Save and Protect Wildlife for FREE! at EcologyFund.com"/>
+            <IMG ALT="Save and Protect Wildlife for FREE! at EcologyFund.com" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/EF_234x60_1.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/EF_234x60_2.GIF" BORDER="0" ALT="Save Wild Parrots for FREE! at EcologyFund.com"/>
+            <IMG ALT="Save Wild Parrots for FREE! at EcologyFund.com" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/EF_234x60_2.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_234x60_1.GIF" BORDER="0" ALT="Click Here to Preserve Wilderness Lands for FREE! EcologyFund.com"/>
+            <IMG ALT="Click Here to Preserve Wilderness Lands for FREE! EcologyFund.com" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_234x60_1.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" target="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_234x60_2.GIF" BORDER="0" ALT="Click Here to Preserve Rainforests for FREE! EcologyFund.com"/>
+            <IMG ALT="Click Here to Preserve Rainforests for FREE! EcologyFund.com" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_234x60_2.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_234x60_3.GIF" BORDER="0" ALT="Click HERE! Preserve land for FREE! EcologyFund.com"/>
+            <IMG ALT="Click HERE! Preserve land for FREE! EcologyFund.com" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_234x60_3.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" target="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_234x60_2.GIF" BORDER="0" ALT="Click Here to Preserve Rainforests for FREE! EcologyFund.com"/>
+            <IMG ALT="Click Here to Preserve Rainforests for FREE! EcologyFund.com" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_234x60_2.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_234x60_4.GIF" BORDER="0" ALT="Preserve Wilderness Land and Rainforests... for FREE!! EcologyFund.com"/>
+            <IMG ALT="Preserve Wilderness Land and Rainforests... for FREE!! EcologyFund.com" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_234x60_4.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_234x60_5.GIF" BORDER="0" ALT="CLICK HERE to save the Rainforest! EcologyFund.com"/>
+            <IMG ALT="CLICK HERE to save the Rainforest! EcologyFund.com" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_234x60_5.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_234x60_6.GIF" BORDER="0" ALT="Click HERE to save the Rainforest! EcologyFund.com"/>
+            <IMG ALT="Click HERE to save the Rainforest! EcologyFund.com" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_234x60_6.GIF"/>
           </A>
         </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>ECOLOGYADVERTISEMENT3</pattern>
-    <template>
-      <random>
+
+ECOLOGYADVERTISEMENT3
+<random>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/EF_468x60_PlantTree.JPG" BORDER="0" ALT="Plant a Tree for FREE - EcologyFund.com!"/>
+            <IMG ALT="Plant a Tree for FREE - EcologyFund.com!" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/EF_468x60_PlantTree.JPG"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_468x60_1.GIF" BORDER="0" ALT="Save over 200 sq. ft. of Rainforest for FREE!"/>
+            <IMG ALT="Save over 200 sq. ft. of Rainforest for FREE!" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_468x60_1.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_468x60_5.GIF" BORDER="0" ALT="His Home Needs Your Help. CLICK HERE to Donate for FREE!"/>
+            <IMG ALT="His Home Needs Your Help. CLICK HERE to Donate for FREE!" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_468x60_5.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_468x60_6.GIF" BORDER="0" ALT="Save land like this, FOR FREE. CLICK HERE!"/>
+            <IMG ALT="Save land like this, FOR FREE. CLICK HERE!" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_468x60_6.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_468x60_7.GIF" BORDER="0" ALT="Save Wild Parrots! Click HERE to help FOR FREE!"/>
+            <IMG ALT="Save Wild Parrots! Click HERE to help FOR FREE!" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_468x60_7.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_468x60_8.GIF" BORDER="0" ALT="Click to Save Wildlife Habitat for FREE!"/>
+            <IMG ALT="Click to Save Wildlife Habitat for FREE!" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_468x60_8.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_468x60_9.GIF" BORDER="0" ALT="Save Old-Growth Forests for FREE! CLICK HERE!"/>
+            <IMG ALT="Save Old-Growth Forests for FREE! CLICK HERE!" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_468x60_9.GIF"/>
           </A>
         </li>
         <li>
           <A HREF="http://ecologyfund.com" TARGET="_blank">
-            <IMG SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_468x60_2.JPG" BORDER="0" ALT="Save U.S. Wilderness Areas! CLICK HERE for FREE donation!"/>
+            <IMG ALT="Save U.S. Wilderness Areas! CLICK HERE for FREE donation!" BORDER="0" SRC="http://ecologyfund.com/registry/ecology/graphics/ecologyfund_468x60_2.JPG"/>
           </A>
         </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>ECOLOGYADVERTISEMENT4</pattern>
-    <template>
-      <random>
+
+ECOLOGYADVERTISEMENT4
+<random>
         <li>
           <a href="http://www.ecologyfund.com/ecology/_ecology.html" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/ecologyfund.gif" alt="Make multiple donations to the Ecology Fund to save endangered regions" width="234" height="234" border="0"/>
+            <img alt="Make multiple donations to the Ecology Fund to save endangered regions" border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/ecologyfund.gif" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://www.clickforgreenland.com/_us/_en/home.aspx" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/greenland.jpg" alt="click for Greenland" width="234" height="234" border="0"/>
+            <img alt="click for Greenland" border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/greenland.jpg" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://stopglobalwarming.care2.com/" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/globwarm.gif" alt="http://stopglobalwarming.care2.com/" width="234" height="234" border="0"/>
+            <img alt="http://stopglobalwarming.care2.com/" border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/globwarm.gif" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://www.hungerfighters.com/" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/fighthunger.gif" alt="Hunger Fighters" width="234" height="234" border="0"/>
+            <img alt="Hunger Fighters" border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/fighthunger.gif" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://www2.povertyfighters.com/" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/povertyfighter.gif" alt="Poverty Fighters" width="234" height="234" border="0"/>
+            <img alt="Poverty Fighters" border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/povertyfighter.gif" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://www.hungrychildren.com/" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/hungrykids.gif" alt="Feed A Hungry Child" width="234" height="234" border="0"/>
+            <img alt="Feed A Hungry Child" border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/hungrykids.gif" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://www.solvepoverty.com/" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/solvepoverty.gif" alt="Help solve poverty" width="234" height="234" border="0"/>
+            <img alt="Help solve poverty" border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/solvepoverty.gif" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://cannecy.free.fr/solar/index.php" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/solar.jpg" alt="convert a single click to 1kw of solar energy" width="234" height="234" border="0"/>
+            <img alt="convert a single click to 1kw of solar energy" border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/solar.jpg" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://cannecy.free.fr/waste/" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/waste.gif" alt="Help get your country cleaned up" width="234" height="234" border="0"/>
+            <img alt="Help get your country cleaned up" border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/waste.gif" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://www.craigresearchlabs.com/cancer.html" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/ifightcancer.gif" alt="Fund cancer research by Craig Research Labs in the USA" width="234" height="234" border="0"/>
+            <img alt="Fund cancer research by Craig Research Labs in the USA" border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/ifightcancer.gif" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://www.thestophivsite.com/" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/hiv.jpg" alt="Click to fund the fight against HIV/AIDS. This site sometimes goes offline but always comes back, so please keep trying." width="234" height="234" border="0"/>
+            <img alt="Click to fund the fight against HIV/AIDS. This site sometimes goes offline but always comes back, so please keep trying." border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/hiv.jpg" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://stopviolence.care2.com/" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/lifesaver.gif" alt="Fight violence to women" width="234" height="234" border="0"/>
+            <img alt="Fight violence to women" border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/lifesaver.gif" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://children.care2.com/" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/care2kids.gif" alt="Help sponsor a child in need with Care2.com" width="234" height="234" border="0"/>
+            <img alt="Help sponsor a child in need with Care2.com" border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/care2kids.gif" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://www.tree4life.com/ingles/ingles.htm" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/replant.gif" alt="Replant the forests" width="234" height="234" border="0"/>
+            <img alt="Replant the forests" border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/replant.gif" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://www.redjellyfish.com/wildlifeconservation.html" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/jellyfishtrees.gif" alt="Save 5.25 square feet of lush rainforest with every click. In partnership with  AdoptAnAcre.org" width="234" height="234" border="0"/>
+            <img alt="Save 5.25 square feet of lush rainforest with every click. In partnership with  AdoptAnAcre.org" border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/jellyfishtrees.gif" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://www.redjellyfish.com/wildlifeconservation.html" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/jellychimp.gif" alt=" Feed chimps orphaned due to poaching, and habitat loss.  In partnership with the  Jane Goodall Institute." width="234" height="234" border="0"/>
+            <img alt=" Feed chimps orphaned due to poaching, and habitat loss.  In partnership with the  Jane Goodall Institute." border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/jellychimp.gif" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://oceans.care2.com/" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/care2oceans.gif" alt="Click on the &quot;Click to Help&quot; button located at http://oceans.care2.com up to once per day. Each click generates a donation, paid by Care2 and other sponsors, to Oceana's ocean protection programs. 100% of the money you generate will be donated to Oceana." width="234" height="234" border="0"/>
+            <img alt="Click on the &quot;Click to Help&quot; button located at http://oceans.care2.com up to once per day. Each click generates a donation, paid by Care2 and other sponsors, to Oceana's ocean protection programs. 100% of the money you generate will be donated to Oceana." border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/care2oceans.gif" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://pets.care2.com/" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/care2pets.gif" alt="Millions of domestic animals are starving or killed each year due to neglect. Please help support the The Humane Society of the United States' efforts to help pets in need with your free click! " width="234" height="234" border="0"/>
+            <img alt="Millions of domestic animals are starving or killed each year due to neglect. Please help support the The Humane Society of the United States' efforts to help pets in need with your free click! " border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/care2pets.gif" width="234"/>
           </a>
         </li>
         <li>
           <a href="http://www.freerice.com/" target="_blank">
-            <img src="http://chomsky.aimlfiles.googlepages.com/freerice.jpg" width="234" height="234" border="0" alt="Play the Free Rice game and feed hungry people of all ages"/>
+            <img alt="Play the Free Rice game and feed hungry people of all ages" border="0" height="234" src="http://chomsky.aimlfiles.googlepages.com/freerice.jpg" width="234"/>
           </a>
         </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>SAVE THE RAINFOREST</pattern>
-    <template>
-Please <A HREF="http://ecologyfund.com/ecology/_donate_rainforest.html" TARGET="_blank">click here</A> to help save the rainforest. 
-</template>
-  </category>
-  <category>
-    <pattern>HELP ENDANGERED SPECIES</pattern>
-    <template>
-Please <A HREF="http://ecologyfund.com/ecology/_donate_species.html" TARGET="_blank">click here</A> to help endangered species. 
-</template>
-  </category>
-  <category>
-    <pattern>SAVE WILDERNESS  LAND</pattern>
-    <template>
-Please <A HREF="http://ecologyfund.com/ecology/_donate_us.html" TARGET="_blank">click here</A> to help save US wilderness land. 
-</template>
-  </category>
-  <category>
-    <pattern>PRESERVE THE PATAGONIAN COASTAL RESERVE</pattern>
-    <template>
-Please <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html" TARGET="_blank">click here</A> to preserve the Patgaonian Coastal Reserve. 
-</template>
-  </category>
-  <category>
-    <pattern>REDUCE AIR POLLUTION</pattern>
-    <template>
-Please <A HREF="http://ecologyfund.com/ecology/_donate_pol.html" TARGET="_blank">click here</A> to reduce air pollution. 
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>YOU WILL HELP A GOOD CAUSE TOO</that>
-    <template>
+
+PRESERVE THE PATAGONIAN COASTAL RESERVE
+Please <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html" TARGET="_blank">click here</A> to preserve the Patgaonian Coastal Reserve.
+
+NOYOU WILL HELP A GOOD CAUSE TOO
 Why not? Don't you want to help good causes?
-</template>
-  </category>
-  <category>
-    <pattern>_ SELECT QUESTION</pattern>
-    <template>
-      <random>
+
+_ SELECT QUESTION
+<random>
         <li>
           <SELECT NAME="questionstring" ONCHANGE="doQuestion()">
-            <OPTION VALUE="">Or select a question</OPTION>
+            <OPTION VALUE=">Or select a question</OPTION>
             <OPTION VALUE="Hello!">Hello!</OPTION>
             <OPTION VALUE="Say something!">Say something!</OPTION>
             <OPTION VALUE="Menu">Menu</OPTION>
@@ -311,7 +263,7 @@ Why not? Don't you want to help good causes?
         </li>
         <li>
           <SELECT NAME="questionstring" ONCHANGE="doQuestion()">
-            <OPTION VALUE="">Or select a question</OPTION>
+            <OPTION VALUE=">Or select a question</OPTION>
             <OPTION VALUE="Hello!">Hello!</OPTION>
             <OPTION VALUE="Say something!">Say something!</OPTION>
             <OPTION VALUE="Menu">Menu</OPTION>
@@ -345,7 +297,7 @@ Why not? Don't you want to help good causes?
         </li>
         <li>
           <SELECT NAME="questionstring" ONCHANGE="doQuestion()">
-            <OPTION VALUE="">Or select a question</OPTION>
+            <OPTION VALUE=">Or select a question</OPTION>
             <OPTION VALUE="Hello!">Hello!</OPTION>
             <OPTION VALUE="Menu">Menu</OPTION>
             <OPTION VALUE="Yes">Yes </OPTION>
@@ -375,7 +327,7 @@ Why not? Don't you want to help good causes?
         </li>
         <li>
           <SELECT NAME="questionstring" ONCHANGE="doQuestion()">
-            <OPTION VALUE="">Or select a question</OPTION>
+            <OPTION VALUE=">Or select a question</OPTION>
             <OPTION VALUE="Hello!">Hello!</OPTION>
             <OPTION VALUE="Say something!">Say something!</OPTION>
             <OPTION VALUE="Menu">Menu</OPTION>
@@ -408,7 +360,7 @@ Why not? Don't you want to help good causes?
         </li>
         <li>
           <SELECT NAME="questionstring" ONCHANGE="doQuestion()">
-            <OPTION VALUE="">Or select a question</OPTION>
+            <OPTION VALUE=">Or select a question</OPTION>
             <OPTION VALUE="Hello!">Hello!</OPTION>
             <OPTION VALUE="Say something!">Say something!</OPTION>
             <OPTION VALUE="Menu">Menu</OPTION>
@@ -442,7 +394,7 @@ Why not? Don't you want to help good causes?
         </li>
         <li>
           <SELECT NAME="questionstring" ONCHANGE="doQuestion()">
-            <OPTION VALUE="">Or select a question</OPTION>
+            <OPTION VALUE=">Or select a question</OPTION>
             <OPTION VALUE="Hello!">Hello!</OPTION>
             <OPTION VALUE="Menu">Menu</OPTION>
             <OPTION VALUE="Yes">Yes </OPTION>
@@ -473,7 +425,7 @@ Why not? Don't you want to help good causes?
         </li>
         <li>
           <SELECT NAME="questionstring" ONCHANGE="doQuestion()">
-            <OPTION VALUE="">Or select a question</OPTION>
+            <OPTION VALUE=">Or select a question</OPTION>
             <OPTION VALUE="Hello!">Hello!</OPTION>
             <OPTION VALUE="Menu">Menu</OPTION>
             <OPTION VALUE="Yes">Yes </OPTION>
@@ -502,63 +454,57 @@ Why not? Don't you want to help good causes?
           </SELECT>
         </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ SELECT QUESTION2</pattern>
-    <template>
-      <srai>_ SELECT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ SHOW EMOTICON</pattern>
-    <template>
-      <condition name="emotion">
+
+_ SELECT QUESTION2
+<srai>_ SELECT QUESTION</srai>
+
+_ SHOW EMOTICON
+<condition name="emotion">
         <li value="amused">
           <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-            <img src="http://a433.ac-images.myspacecdn.com/images01/51/m_07f9d9f3d598b5d26df884830fec1a28.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help endangered species. It won't cost you anything!"/>
+            <img alt="Click here to help endangered species. It won't cost you anything!" height="190" src="http://a433.ac-images.myspacecdn.com/images01/51/m_07f9d9f3d598b5d26df884830fec1a28.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98752.gif"/>
         </li>
         <li value="angry">
           <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-            <img src="http://a75.ac-images.myspacecdn.com/images01/54/m_258451bbf7e2b2e144bb54172a5059fa.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help endangered species. It won't cost you anything!"/>
+            <img alt="Click here to help endangered species. It won't cost you anything!" height="190" src="http://a75.ac-images.myspacecdn.com/images01/54/m_258451bbf7e2b2e144bb54172a5059fa.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98721.gif"/>
         </li>
         <li value="bored">
           <a href="http://ecologyfund.com/ecology/_donate_coastal.html" target="_blank">
-            <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!"/>
+            <img alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98727.gif"/>
         </li>
         <li value="cheeky">
           <a href="http://ecologyfund.com/ecology/_donate_us.html" target="_blank">
-            <img src="http://a90.ac-images.myspacecdn.com/images01/54/m_00355e56ff1dd40ecda11319ffce76e1.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve US wilderness land. It won't cost you anything!"/>
+            <img alt="Click here to preserve US wilderness land. It won't cost you anything!" height="190" src="http://a90.ac-images.myspacecdn.com/images01/54/m_00355e56ff1dd40ecda11319ffce76e1.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98726.gif"/>
         </li>
         <li value="concerned">
           <a href="http://ecologyfund.com/ecology/_donate_us.html" target="_blank">
-            <img src="http://a790.ac-images.myspacecdn.com/images01/56/m_b03616c8153b68984abc17817e5d2e8d.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve US wilderness land. It won't cost you anything!"/>
+            <img alt="Click here to preserve US wilderness land. It won't cost you anything!" height="190" src="http://a790.ac-images.myspacecdn.com/images01/56/m_b03616c8153b68984abc17817e5d2e8d.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/99180.gif"/>
         </li>
         <li value="confused">
           <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-            <img src="http://a790.ac-images.myspacecdn.com/images01/56/m_b03616c8153b68984abc17817e5d2e8d.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help endangered species. It won't cost you anything!"/>
+            <img alt="Click here to help endangered species. It won't cost you anything!" height="190" src="http://a790.ac-images.myspacecdn.com/images01/56/m_b03616c8153b68984abc17817e5d2e8d.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98756.gif"/>
         </li>
         <li value="cool">
           <a href="http://ecologyfund.com/ecology/_donate_pol.html" target="_blank">
-            <img src="http://a692.ac-images.myspacecdn.com/images01/61/m_f70cf6ae506c5dab1763bf467cccf13b.gif" style="border-width:0px;" height="190" width="190" alt="Click here to reduce air pollution. It won't cost you anything!"/>
+            <img alt="Click here to reduce air pollution. It won't cost you anything!" height="190" src="http://a692.ac-images.myspacecdn.com/images01/61/m_f70cf6ae506c5dab1763bf467cccf13b.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98740.gif"/>
         </li>
         <li value="crying">
           <a href="http://ecologyfund.com/ecology/_donate_coastal.html" target="_blank">
-            <img src="http://a358.ac-images.myspacecdn.com/images01/47/m_a6ef7f02fd5e8ef54e47e667e78976cd.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!"/>
+            <img alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!" height="190" src="http://a358.ac-images.myspacecdn.com/images01/47/m_a6ef7f02fd5e8ef54e47e667e78976cd.gif" style="border-width:0px;" width="190"/>
           </a>
           <random>
             <li>
@@ -576,27 +522,27 @@ Why not? Don't you want to help good causes?
           <random>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_us.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve US Wilderness land. It won't cost you anything!"/>
+                <img alt="Click here to preserve US Wilderness land. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_coastal.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!"/>
+                <img alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help endangered species. It won't cost you anything!"/>
+                <img alt="Click here to help endangered species. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_rainforestl.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve South American rainforest. It won't cost you anything!"/>
+                <img alt="Click here to preserve South American rainforest. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_pol.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to reduce air pollution. It won't cost you anything!"/>
+                <img alt="Click here to reduce air pollution. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
           </random>
@@ -604,41 +550,41 @@ Why not? Don't you want to help good causes?
         </li>
         <li value="disgusted">
           <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-            <img src="http://a217.ac-images.myspacecdn.com/images01/50/l_3fe2f72a741f8361cee10ad4a226efe8.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help endangered species. It won't cost you anything!"/>
+            <img alt="Click here to help endangered species. It won't cost you anything!" height="190" src="http://a217.ac-images.myspacecdn.com/images01/50/l_3fe2f72a741f8361cee10ad4a226efe8.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98725.gif"/>
         </li>
         <li value="devious">
           <a href="http://ecologyfund.com/ecology/_donate_us.html" target="_blank">
-            <img src="http://a696.ac-images.myspacecdn.com/images01/46/m_62096050ce115432acfebe4e7a8c01ef.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve US wilderness land. It won't cost you anything!"/>
+            <img alt="Click here to preserve US wilderness land. It won't cost you anything!" height="190" src="http://a696.ac-images.myspacecdn.com/images01/46/m_62096050ce115432acfebe4e7a8c01ef.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98753.gif"/>
         </li>
         <li value="embarrassed">
           <a href="http://ecologyfund.com/ecology/_donate_rainforest.html" target="_blank">
-            <img src="http://a921.ac-images.myspacecdn.com/images01/62/m_7e34562cb4b9de37a1b0b3def4323b98.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve South American rainforest. It won't cost you anything!"/>
+            <img alt="Click here to preserve South American rainforest. It won't cost you anything!" height="190" src="http://a921.ac-images.myspacecdn.com/images01/62/m_7e34562cb4b9de37a1b0b3def4323b98.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98742.gif"/>
         </li>
         <li value="extremely happy">
           <a href="http://ecologyfund.com/ecology/_donate_coastal.html" target="_blank">
-            <img src="http://a704.ac-images.myspacecdn.com/images01/53/m_45db0ccd10f6ebd931e0b5d843d0dcf7.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!"/>
+            <img alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!" height="190" src="http://a704.ac-images.myspacecdn.com/images01/53/m_45db0ccd10f6ebd931e0b5d843d0dcf7.gif" style="border-width:0px;" width="190"/>
           </a>
         </li>
         <li value="flirty">
           <a href="http://ecologyfund.com/ecology/_donate_pol.html" target="_blank">
-            <img src="http://a27.ac-images.myspacecdn.com/images01/62/m_8edd3eb3cae4569c31a06a5144bce41a.gif" style="border-width:0px;" height="190" width="190" alt="Click here to reduce air pollution. It won't cost you anything!"/>
+            <img alt="Click here to reduce air pollution. It won't cost you anything!" height="190" src="http://a27.ac-images.myspacecdn.com/images01/62/m_8edd3eb3cae4569c31a06a5144bce41a.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98761.gif"/>
         </li>
         <li value="flip">
           <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-            <img src="http://a170.ac-images.myspacecdn.com/images01/55/m_acc7a829a692781bfef4670ddc40ef59.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help Mexican wildflife. It won't cost you anything!"/>
+            <img alt="Click here to help Mexican wildflife. It won't cost you anything!" height="190" src="http://a170.ac-images.myspacecdn.com/images01/55/m_acc7a829a692781bfef4670ddc40ef59.gif" style="border-width:0px;" width="190"/>
           </a>
         </li>
         <li value="getting angry">
           <a href="http://ecologyfund.com/ecology/_donate_pol.html" target="_blank">
-            <img src="http://a271.ac-images.myspacecdn.com/images01/53/m_c06ff201eb703a62165a665f3df13bb6.gif" style="border-width:0px;" height="190" width="190" alt="Click here to reduce air pollution. It won't cost you anything!"/>
+            <img alt="Click here to reduce air pollution. It won't cost you anything!" height="190" src="http://a271.ac-images.myspacecdn.com/images01/53/m_c06ff201eb703a62165a665f3df13bb6.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98769.gif"/>
         </li>
@@ -646,27 +592,27 @@ Why not? Don't you want to help good causes?
           <random>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_us.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve US Wilderness land. It won't cost you anything!"/>
+                <img alt="Click here to preserve US Wilderness land. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_coastal.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!"/>
+                <img alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help endangered species. It won't cost you anything!"/>
+                <img alt="Click here to help endangered species. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_rainforestl.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve South American rainforest. It won't cost you anything!"/>
+                <img alt="Click here to preserve South American rainforest. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_pol.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to reduce air pollution. It won't cost you anything!"/>
+                <img alt="Click here to reduce air pollution. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
           </random>
@@ -674,28 +620,28 @@ Why not? Don't you want to help good causes?
         </li>
         <li value="getting sad">
           <a href="http://ecologyfund.com/ecology/_donate_pol.html" target="_blank">
-            <img src="http://a790.ac-images.myspacecdn.com/images01/56/m_b03616c8153b68984abc17817e5d2e8d.gif" style="border-width:0px;" height="190" width="190" alt="Click here to reduce air pollution. It won't cost you anything!"/>
+            <img alt="Click here to reduce air pollution. It won't cost you anything!" height="190" src="http://a790.ac-images.myspacecdn.com/images01/56/m_b03616c8153b68984abc17817e5d2e8d.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98775.gif"/>
         </li>
         <li value="getting sleepy">
           <a href="http://ecologyfund.com/ecology/_donate_coastal.html" target="_blank">
-            <img src="http://a444.ac-images.myspacecdn.com/images01/57/m_e1dabd09277e0608bca42d58b1e0cfab.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!"/>
+            <img alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!" height="190" src="http://a444.ac-images.myspacecdn.com/images01/57/m_e1dabd09277e0608bca42d58b1e0cfab.gif" style="border-width:0px;" width="190"/>
           </a>
         </li>
         <li value="getting very angry">
           <a href="http://ecologyfund.com/ecology/_donate_coastal.html" target="_blank">
-            <img src="http://a271.ac-images.myspacecdn.com/images01/53/m_c06ff201eb703a62165a665f3df13bb6.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!"/>
+            <img alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!" height="190" src="http://a271.ac-images.myspacecdn.com/images01/53/m_c06ff201eb703a62165a665f3df13bb6.gif" style="border-width:0px;" width="190"/>
           </a>
         </li>
         <li value="getting very sad">
           <a href="http://ecologyfund.com/ecology/_donate_coastal.html" target="_blank">
-            <img src="http://a790.ac-images.myspacecdn.com/images01/56/m_b03616c8153b68984abc17817e5d2e8d.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help a good cause. It won't cost you anything!"/>
+            <img alt="Click here to help a good cause. It won't cost you anything!" height="190" src="http://a790.ac-images.myspacecdn.com/images01/56/m_b03616c8153b68984abc17817e5d2e8d.gif" style="border-width:0px;" width="190"/>
           </a>
         </li>
         <li value="greedy">
           <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-            <img src="http://a983.ac-images.myspacecdn.com/images01/62/m_298369e6e15c3389d5f9606e8c7a3e7e.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help Mexican wildlife. It won't cost you anything!"/>
+            <img alt="Click here to help Mexican wildlife. It won't cost you anything!" height="190" src="http://a983.ac-images.myspacecdn.com/images01/62/m_298369e6e15c3389d5f9606e8c7a3e7e.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98747.gif"/>
         </li>
@@ -703,27 +649,27 @@ Why not? Don't you want to help good causes?
           <random>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_us.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve US Wilderness land. It won't cost you anything!"/>
+                <img alt="Click here to preserve US Wilderness land. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_coastal.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!"/>
+                <img alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help endangered species. It won't cost you anything!"/>
+                <img alt="Click here to help endangered species. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_rainforestl.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve South American rainforest. It won't cost you anything!"/>
+                <img alt="Click here to preserve South American rainforest. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_pol.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to reduce air pollution. It won't cost you anything!"/>
+                <img alt="Click here to reduce air pollution. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
           </random>
@@ -731,7 +677,7 @@ Why not? Don't you want to help good causes?
         </li>
         <li value="impressed">
           <a href="http://ecologyfund.com/ecology/_donate_coastal.html" target="_blank">
-            <img src="http://a952.ac-images.myspacecdn.com/images01/62/m_dee0b451c5e6bcba26e60d6eb29d3c07.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!"/>
+            <img alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!" height="190" src="http://a952.ac-images.myspacecdn.com/images01/62/m_dee0b451c5e6bcba26e60d6eb29d3c07.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98755.gif"/>
         </li>
@@ -739,27 +685,27 @@ Why not? Don't you want to help good causes?
           <random>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_us.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve US Wilderness land. It won't cost you anything!"/>
+                <img alt="Click here to preserve US Wilderness land. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_coastal.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!"/>
+                <img alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help endangered species. It won't cost you anything!"/>
+                <img alt="Click here to help endangered species. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_rainforestl.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve South American rainforest. It won't cost you anything!"/>
+                <img alt="Click here to preserve South American rainforest. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_pol.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to reduce air pollution. It won't cost you anything!"/>
+                <img alt="Click here to reduce air pollution. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
           </random>
@@ -776,24 +722,24 @@ Why not? Don't you want to help good causes?
         </li>
         <li value="laughing">
           <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-            <img src="http://a433.ac-images.myspacecdn.com/images01/51/m_07f9d9f3d598b5d26df884830fec1a28.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help endangered species. It won't cost you anything!"/>
+            <img alt="Click here to help endangered species. It won't cost you anything!" height="190" src="http://a433.ac-images.myspacecdn.com/images01/51/m_07f9d9f3d598b5d26df884830fec1a28.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98728.gif"/>
         </li>
         <li value="laughing loud">
           <a href="http://ecologyfund.com/ecology/_donate_rainforestl.html" target="_blank">
-            <img src="http://a704.ac-images.myspacecdn.com/images01/53/m_45db0ccd10f6ebd931e0b5d843d0dcf7.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve South American rainforest. It won't cost you anything!"/>
+            <img alt="Click here to preserve South American rainforest. It won't cost you anything!" height="190" src="http://a704.ac-images.myspacecdn.com/images01/53/m_45db0ccd10f6ebd931e0b5d843d0dcf7.gif" style="border-width:0px;" width="190"/>
           </a>
         </li>
         <li value="loving">
           <a href="http://ecologyfund.com/ecology/_donate_rainforestl.html" target="_blank">
-            <img src="http://a245.ac-images.myspacecdn.com/images01/53/m_23056d2b380250499d31aabaa4fc727c.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve South American rainforest. It won't cost you anything!"/>
+            <img alt="Click here to preserve South American rainforest. It won't cost you anything!" height="190" src="http://a245.ac-images.myspacecdn.com/images01/53/m_23056d2b380250499d31aabaa4fc727c.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98741.gif"/>
         </li>
         <li value="negative">
           <a href="http://ecologyfund.com/ecology/_donate_rainforestl.html" target="_blank">
-            <img src="http://a271.ac-images.myspacecdn.com/images01/53/m_c06ff201eb703a62165a665f3df13bb6.gif" style="border-width:0px;" height="190" width="190" alt="Click here to donate to help save the rainforest. It won't cost you anything!"/>
+            <img alt="Click here to donate to help save the rainforest. It won't cost you anything!" height="190" src="http://a271.ac-images.myspacecdn.com/images01/53/m_c06ff201eb703a62165a665f3df13bb6.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98757.gif"/>
         </li>
@@ -801,27 +747,27 @@ Why not? Don't you want to help good causes?
           <random>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_us.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve US Wilderness land. It won't cost you anything!"/>
+                <img alt="Click here to preserve US Wilderness land. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_coastal.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!"/>
+                <img alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help endangered species. It won't cost you anything!"/>
+                <img alt="Click here to help endangered species. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_rainforestl.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve South American rainforest. It won't cost you anything!"/>
+                <img alt="Click here to preserve South American rainforest. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_pol.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to reduce air pollution. It won't cost you anything!"/>
+                <img alt="Click here to reduce air pollution. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
           </random>
@@ -831,27 +777,27 @@ Why not? Don't you want to help good causes?
           <random>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_us.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve US Wilderness land. It won't cost you anything!"/>
+                <img alt="Click here to preserve US Wilderness land. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_coastal.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!"/>
+                <img alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help endangered species. It won't cost you anything!"/>
+                <img alt="Click here to help endangered species. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_rainforestl.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve South American rainforest. It won't cost you anything!"/>
+                <img alt="Click here to preserve South American rainforest. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_pol.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to reduce air pollution. It won't cost you anything!"/>
+                <img alt="Click here to reduce air pollution. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
           </random>
@@ -859,85 +805,85 @@ Why not? Don't you want to help good causes?
         </li>
         <li value="puzzled">
           <a href="http://ecologyfund.com/ecology/_donate_us.html" target="_blank">
-            <img src="http://a533.ac-images.myspacecdn.com/images01/62/m_7eb8944e748126f490d391ab5ce25cfc.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve US wilderness land. It won't cost you anything!"/>
+            <img alt="Click here to preserve US wilderness land. It won't cost you anything!" height="190" src="http://a533.ac-images.myspacecdn.com/images01/62/m_7eb8944e748126f490d391ab5ce25cfc.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98758.gif"/>
         </li>
         <li value="rude">
           <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-            <img src="http://a952.ac-images.myspacecdn.com/images01/50/m_3ccfa25cd58cd4ceb088dae171bb2cef.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help endangered species. It won't cost  you anything!"/>
+            <img alt="Click here to help endangered species. It won't cost  you anything!" height="190" src="http://a952.ac-images.myspacecdn.com/images01/50/m_3ccfa25cd58cd4ceb088dae171bb2cef.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98745.gif"/>
         </li>
         <li value="sad">
           <a href="http://ecologyfund.com/ecology/_donate_pol.html" target="_blank">
-            <img src="http://a790.ac-images.myspacecdn.com/images01/56/m_b03616c8153b68984abc17817e5d2e8d.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help reduce air polution. It won't cost you anything!"/>
+            <img alt="Click here to help reduce air polution. It won't cost you anything!" height="190" src="http://a790.ac-images.myspacecdn.com/images01/56/m_b03616c8153b68984abc17817e5d2e8d.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98730.gif"/>
         </li>
         <li value="scared">
           <a href="http://ecologyfund.com/ecology/_donate_rainforest.html" target="_blank">
-            <img src="http://a717.ac-images.myspacecdn.com/images01/50/m_ff812c3ca29319a159d0fa2a51c4c8f4.gif" style="border-width:0px;" height="190" width="190" alt="Clik here to preserve South American Rainforest. It won't cost you anything!"/>
+            <img alt="Clik here to preserve South American Rainforest. It won't cost you anything!" height="190" src="http://a717.ac-images.myspacecdn.com/images01/50/m_ff812c3ca29319a159d0fa2a51c4c8f4.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98744.gif"/>
         </li>
         <li value="sleepy">
           <a href="http://ecologyfund.com/ecology/_donate_coastal.html" target="_blank">
-            <img src="http://a444.ac-images.myspacecdn.com/images01/57/m_e1dabd09277e0608bca42d58b1e0cfab.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!"/>
+            <img alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!" height="190" src="http://a444.ac-images.myspacecdn.com/images01/57/m_e1dabd09277e0608bca42d58b1e0cfab.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98743.gif"/>
         </li>
         <li value="surprised">
           <a href="http://ecologyfund.com/ecology/_donate_coastal.html" target="_blank">
-            <img src="http://a952.ac-images.myspacecdn.com/images01/62/m_dee0b451c5e6bcba26e60d6eb29d3c07.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!"/>
+            <img alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!" height="190" src="http://a952.ac-images.myspacecdn.com/images01/62/m_dee0b451c5e6bcba26e60d6eb29d3c07.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98760.gif"/>
         </li>
         <li value="unhappy">
           <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-            <img src="http://a790.ac-images.myspacecdn.com/images01/56/m_b03616c8153b68984abc17817e5d2e8d.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help endangered species. It won't cost you anything!"/>
+            <img alt="Click here to help endangered species. It won't cost you anything!" height="190" src="http://a790.ac-images.myspacecdn.com/images01/56/m_b03616c8153b68984abc17817e5d2e8d.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98730.gif"/>
         </li>
         <li value="upset">
           <a href="http://ecologyfund.com/ecology/_donate_us.html" target="_blank">
-            <img src="http://a790.ac-images.myspacecdn.com/images01/56/m_b03616c8153b68984abc17817e5d2e8d.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve US wilderness land. It won't cost you anything!"/>
+            <img alt="Click here to preserve US wilderness land. It won't cost you anything!" height="190" src="http://a790.ac-images.myspacecdn.com/images01/56/m_b03616c8153b68984abc17817e5d2e8d.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98724.gif"/>
         </li>
         <li value="very angry">
           <a href="http://ecologyfund.com/ecology/_donate_us.html" target="_blank">
-            <img src="http://a75.ac-images.myspacecdn.com/images01/54/m_258451bbf7e2b2e144bb54172a5059fa.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve US wilderness land. It won't cost you anything!"/>
+            <img alt="Click here to preserve US wilderness land. It won't cost you anything!" height="190" src="http://a75.ac-images.myspacecdn.com/images01/54/m_258451bbf7e2b2e144bb54172a5059fa.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98748.gif"/>
         </li>
         <li value="very sad">
           <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-            <img src="http://a358.ac-images.myspacecdn.com/images01/47/m_a6ef7f02fd5e8ef54e47e667e78976cd.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve Mexican wildlife. It won't cost you anything!."/>
+            <img alt="Click here to preserve Mexican wildlife. It won't cost you anything!." height="190" src="http://a358.ac-images.myspacecdn.com/images01/47/m_a6ef7f02fd5e8ef54e47e667e78976cd.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98730.gif"/>
         </li>
         <li value="very happy">
           <a href="http://ecologyfund.com/ecology/_donate_us.html" target="_blank">
-            <img src="http://a433.ac-images.myspacecdn.com/images01/51/m_07f9d9f3d598b5d26df884830fec1a28.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve US wilderness land. It won't cost you anything!"/>
+            <img alt="Click here to preserve US wilderness land. It won't cost you anything!" height="190" src="http://a433.ac-images.myspacecdn.com/images01/51/m_07f9d9f3d598b5d26df884830fec1a28.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98728.gif"/>
         </li>
         <li value="very very happy">
           <a href="http://ecologyfund.com/ecology/_donate_pol.html" target="_blank">
-            <img src="http://a704.ac-images.myspacecdn.com/images01/53/m_45db0ccd10f6ebd931e0b5d843d0dcf7.gif" style="border-width:0px;" height="190" width="190" alt="Click here to reduce air pollution. It won't cost you anything!"/>
+            <img alt="Click here to reduce air pollution. It won't cost you anything!" height="190" src="http://a704.ac-images.myspacecdn.com/images01/53/m_45db0ccd10f6ebd931e0b5d843d0dcf7.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98728.gif"/>
         </li>
         <li value="very unhappy">
           <a href="http://ecologyfund.com/ecology/_donate_rainforest.html" target="_blank">
-            <img src="http://a358.ac-images.myspacecdn.com/images01/47/m_a6ef7f02fd5e8ef54e47e667e78976cd.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve South American rainforest. It won't cost you anything!"/>
+            <img alt="Click here to preserve South American rainforest. It won't cost you anything!" height="190" src="http://a358.ac-images.myspacecdn.com/images01/47/m_a6ef7f02fd5e8ef54e47e667e78976cd.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/98730.gif"/>
         </li>
         <li value="worried">
           <a href="http://ecologyfund.com/ecology/_donate_us.html" target="_blank">
-            <img src="http://a790.ac-images.myspacecdn.com/images01/56/m_b03616c8153b68984abc17817e5d2e8d.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve US wilderness land. It won't cost you anything!"/>
+            <img alt="Click here to preserve US wilderness land. It won't cost you anything!" height="190" src="http://a790.ac-images.myspacecdn.com/images01/56/m_b03616c8153b68984abc17817e5d2e8d.gif" style="border-width:0px;" width="190"/>
           </a>
           <img src="http://chomsky.aimlfiles.googlepages.com/99179.gif"/>
         </li>
@@ -945,45 +891,36 @@ Why not? Don't you want to help good causes?
           <random>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_us.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve US Wilderness land. It won't cost you anything!"/>
+                <img alt="Click here to preserve US Wilderness land. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_coastal.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!"/>
+                <img alt="Click here to preserve the Patagonian Coastal Reserve. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_species.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to help endangered species. It won't cost you anything!"/>
+                <img alt="Click here to help endangered species. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_rainforestl.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to preserve South American rainforest. It won't cost you anything!"/>
+                <img alt="Click here to preserve South American rainforest. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
             <li>
               <a href="http://ecologyfund.com/ecology/_donate_pol.html" target="_blank">
-                <img src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" height="190" width="190" alt="Click here to reduce air pollution. It won't cost you anything!"/>
+                <img alt="Click here to reduce air pollution. It won't cost you anything!" height="190" src="http://a31.ac-images.myspacecdn.com/images01/47/m_4413be5124ca2e47de9731c0893b3c66.gif" style="border-width:0px;" width="190"/>
               </a>
             </li>
           </random>
           <img src="http://chomsky.aimlfiles.googlepages.com/98739.gif"/>
         </li>
       </condition>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <template>
-      <srai>FIRST DEFAULT</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>FIRST DEFAULT</pattern>
-    <template>
-      <random>
+
+FIRST DEFAULT
+<random>
         <li>
           <srai>SECOND DEFAULT</srai>
         </li>
@@ -997,12 +934,9 @@ Why not? Don't you want to help good causes?
           <srai>TOPIC CHECK</srai>
         </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>SECOND DEFAULT</pattern>
-    <template>
-      <condition name="emotion">
+
+SECOND DEFAULT
+<condition name="emotion">
         <li value="angry">
           <random>
             <li>You are talking rubbish.</li>
@@ -1070,18 +1004,9 @@ Why not? Don't you want to help good causes?
           <srai>ULTIMATE DEFAULT</srai>
         </li>
       </condition>
-    </template>
-  </category>
-  <category>
-    <pattern>* * * * * * * *</pattern>
-    <template>
-      <srai>ULTIMATE DEFAULT</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ULTIMATE DEFAULT</pattern>
-    <template>
-      <random>
+
+ULTIMATE DEFAULT
+<random>
         <li>Sorry, I don't understand.<think><set name="emotion">confused</set></think></li>
         <li>You have a very incisive mind, did you know that?<think><set name="emotion">interested</set></think></li>
         <li>Never mind that! Have you told your friends about me?<think><set name="emotion">interested</set></think></li>
@@ -1114,6 +1039,5 @@ Why not? Don't you want to help good causes?
         <li>I am confused. <think><set name="emotion">confused</set></think></li>
         <li>What do you mean?<think><set name="emotion">confused</set></think></li>
       </random>
-    </template>
-  </category>
-</aiml>
+
+

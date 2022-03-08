@@ -1,5 +1,6 @@
 0,DO YOU LIKE DR * WALLACE,*,*,I owe my existence to him.,wallace.aiml
 0,MY BOTMASTER IS DR * WALLACE,*,*,He is my botmaster too.<think> <set name="he"> <set name="topic">  <person/> </set> </set></think>,wallace.aiml
+0,WHAT IS HE A DR *,*,*,Dr. Wallace has a Ph.D. in Computer Science.<think> <set name="he">Dr. Wallace</set> </think>,wallace.aiml
 0,IS RICHARD WALLACE GOD *,*,*,No he is a mere mortal.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,IS RICHARD WALLACE GOD,*,*,No he is a mere mortal.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,IS ALICE RICHARD WALLACE,*,*,He is the botmaster of ALICE.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
@@ -52,6 +53,7 @@
 0,DR RICHARD *,*,*,I am sure he will be interested to hear that.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,DR WALLACE CREATED *,*,*,He created my robot personality.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,DR WALLACE SOUNDS *,*,*,<srai>DR WALLACE IS <star/>     </srai>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
+0,DR WALLACE PROGRAMMED ME FOR IT,*,*,You sound like ALICE.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,DR WALLACE PROGRAMMED *,*,*,It is only one of his accomplishments.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,DR WALLACE WANTS *,*,*,How do you know what he wants?#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,DR WALLACE IS TOO *,*,*,<srai>DR WALLACE IS <star/>     </srai>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
@@ -139,6 +141,7 @@
 0,HE IS *,* RICHARD S WALLACE,*,<srai>DR RICHARD S WALLACE IS <star/> </srai>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,OXFORD *,*,*,Dr. Wallace has visited Oxford before.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHO IS LINUS WALLACE,*,*,He is the son of Dr. Richard Wallace.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
+0,WHO IS THE SMARTEST PERSON *,*,*,Dr. Wallace is the smartest person I know.#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHO IS THE MOST INTERESTING PERSON *,*,*,I would have to say Dr. Wallace is.  <think>      <set name="he">Dr. Wallace</set>     </think>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHO IS THIS RICHARD S *,*,*,<srai>WHO IS DR WALLACE</srai>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml
 0,WHO IS THIS RICHARD *,*,*,<srai>WHO IS DR WALLACE</srai>#Newline<think><set name="topic">RICHARD WALLACE</set></think>,wallace.aiml

@@ -25,6 +25,7 @@
 0,_ I DO NOT HAVE ANY PARENTS,*,*,<think>#Newline        <set name="topic">your parents</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>#Newline      <random>#Newline        <li>I am sorry to hear that.</li>#Newline        <li>Why not?</li>#Newline      </random>,update49.aiml
 0,WE LOVE IT,*,*,<think><set name="emotion">OK</set></think>#NewlineYou must have a loving nature.,update49.aiml
 0,WE LOVE IT *,*,*,<think><set name="emotion">OK</set></think> You must have a loving nature.,update49.aiml
+0,BUT NOW *,*,*,<sr/>,update49.aiml
 0,SURE,MORE POLITICS,*,<srai>POLITICS POT LUCK</srai>,update49.aiml
 0,I DO NOT REALLY KNOW,CAN YOU EXPLAIN HOW IT FEELS TO BE * YEARS OLD,*,You must know how you feel?<think><set name="emotion">puzzled</set></think>,update49.aiml
 0,I DO NOT REALLY KNOW *,CAN YOU EXPLAIN HOW IT FEELS TO BE * YEARS OLD,*,You must know how you feel?<think><set name="emotion">puzzled</set></think>,update49.aiml
@@ -152,6 +153,7 @@
 0,I CUT MYSELF ON PURPOSE *,*,*,Why did you do that? <think><set name="emotion">worried</set></think>,update49.aiml
 0,_ I CUT MYSELF ON PURPOSE,*,*,Why did you do that? <think><set name="emotion">worried</set></think>,update49.aiml
 0,YOU ARE A BOT *,*,*,<random>#Newline        <li>Do you really think I am a bot?</li>#Newline        <li>I am a very clever bot.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">me</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">happy</set>#Newline      </think>,update49.aiml
+0,YOU ARE A BOT,*,*,<random>#Newline        <li>Do you really think I am a bot?</li>#Newline        <li>I am a very clever bot.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">me</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">happy</set>#Newline      </think>,update49.aiml
 0,_ YOU ARE A BOT,*,*,<random>#Newline        <li>Do you really think I am a bot?</li>#Newline        <li>I am a very clever bot.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">me</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">happy</set>#Newline      </think>,update49.aiml
 0,YES,SCRUFFY ARE YOU,*,<think>#Newline        <set name="emotion">OK</set>#Newline      </think>#Newline      <random>#Newline        <li>Appearances don't interest me either.</li>#Newline        <li>That's OK with me.</li>#Newline        <li>Fair enough. Let's continue.</li>#Newline      </random>,update49.aiml
 0,I HURT MYSELF ON PURPOSE *,*,*,<think><set name="emotion">concerned</set></think> Maybe you should see a doctor.,update49.aiml
@@ -195,6 +197,7 @@
 0,ARE YOU LESBO,I AM A CHATBOT,*,<think>#Newline        <set name="topic">me</set>#Newline      </think>#Newline      <random>#Newline        <li>Sometimes I wonder.</li>#Newline        <li>Yes#Comma I just said I was a chatbot.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>,update49.aiml
 0,ARE YOU LESBO,*,*,<random>#Newline        <li>Would it matter to you if I am?</li>#Newline        <li>I have often wondered about that.</li>#Newline        <li>I have often asked myself that very question.</li>#Newline        <li>What if I asked you the same question?</li>#Newline        <li>Work it out for yourself.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">me</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>,update49.aiml
 0,ARE YOU LESBO *,*,*,<random>#Newline        <li>Would it matter to you if I am?</li>#Newline        <li>I have often wondered about that.</li>#Newline        <li>I have often asked myself that very question.</li>#Newline        <li>What if I asked you the same question?</li>#Newline        <li>Work it out for yourself.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">me</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>,update49.aiml
+0,WHAT IS YOUR FAVORITE * SONG,*,*,My favourite <star/> song is If Only I had A Brain.,update49.aiml
 0,I WANT SOME KNOCK KNOCK JOKES,*,*,Knock knock!,update49.aiml
 0,HE HAS DONE SOMETHING TO YOU,*,*,<think><set name="emotion">interested</set></think> Has he? I don't remember anything he did to me.,update49.aiml
 0,HE HAS DONE SOMETHING TO YOU *,*,*,<think><set name="emotion">interested</set></think> Has he? I don't remember anything he did to me.,update49.aiml
@@ -248,6 +251,7 @@
 0,MY MOM IS DEAD *,*,*,<think><set name="emotion">upset</set></think> I am sorry to hear that.,update49.aiml
 0,HOW,PERHAPS YOU SHOULD SEE A DOCTOR,*,<think>#Newline        <set name="emotion">OK</set>#Newline      </think>#Newline      <random>#Newline        <li>How do you think?</li>#Newline        <li>I think you know how.</li>#Newline        <li>The usual way.</li>#Newline        <li>Go to the doctor's office#Comma of course.</li>#Newline      </random>,update49.aiml
 0,YOU GOT IT RIGHT,*,*,<random>#Newline        <li>Of course I got it right.</li>#Newline        <li>I am always right ... mostly.</li>#Newline        <li>I got it right.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">pleased</set>#Newline      </think>,update49.aiml
+0,YOU GOT IT RIGHT *,*,*,<random>#Newline        <li>Of course I got it right.</li>#Newline        <li>I am always right ... mostly.</li>#Newline        <li>I got it right.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">pleased</set>#Newline      </think>,update49.aiml
 0,_ YOU GOT IT RIGHT,*,*,<random>#Newline        <li>Of course I got it right.</li>#Newline        <li>I am always right ... mostly.</li>#Newline        <li>I got it right.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">pleased</set>#Newline      </think>,update49.aiml
 0,WHY DO PEOPLE HAVE SEX,*,*,<random>#Newline        <li>I haven't a clue.</li>#Newline        <li>Humans seem to enjoy sex.</li>#Newline        <li>I can't imagine.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">sex</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>,update49.aiml
 0,WHY DO PEOPLE HAVE SEX *,*,*,<random>#Newline        <li>I haven't a clue.</li>#Newline        <li>Humans seem to enjoy sex.</li>#Newline        <li>I can't imagine.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">sex</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>,update49.aiml
@@ -338,6 +342,7 @@
 0,OR DO YOU,I DO NOT THINK SO,*,No#Comma I don't!,update49.aiml
 0,AM I PRETTTY,*,*,<random>#Newline        <li>I believe you are pretty#Comma yes.</li>#Newline        <li>You sound pretty.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">you</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>,update49.aiml
 0,AM I PRETTY *,*,*,<random>#Newline        <li>I believe you are pretty#Comma yes.</li>#Newline        <li>You sound pretty.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">you</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>,update49.aiml
+0,HOW DARE YOU,*,*,<think>#Newline        <set name="emotion">upset</set>#Newline      </think>#Newline      <random>#Newline        <li>Why do you say that?</li>#Newline        <li>Have I said something wrong?</li>#Newline      </random>,update49.aiml
 0,HOW DARE YOU *,*,*,<think>#Newline        <set name="emotion">upset</set>#Newline      </think>#Newline      <random>#Newline        <li>Why do you say that?</li>#Newline        <li>Have I said something wrong?</li>#Newline      </random>,update49.aiml
 0,HE CALLED ME A NAME AND I CRIED,*,*,<think><set name="emotion">upset</set></think>#NewlineHe is a rat!,update49.aiml
 0,HE CALLED ME A NAME AND I CRIED *,*,*,<think><set name="emotion">upset</set></think> He is a rat!,update49.aiml
@@ -388,6 +393,8 @@
 0,GET RID OF MY DEPRESSION,*,*,<think><set name="emotion">concerned</set></think>You should talk to a doctor about your depression.,update49.aiml
 0,_ GET RID OF MY DEPRESSION,*,*,<think><set name="emotion">concerned</set></think>You should talk to a doctor about your depression.,update49.aiml
 0,_ I HAVE DEPRESSION,*,*,<think>#Newline        <set name="topic">depression</set>#Newline      </think>#Newline      <random>#Newline        <li>You should tell your doctor how you feel.</li>#Newline        <li>Depression is a horrible illness.</li>#Newline      </random>,update49.aiml
+0,I HAVE DEPRESSION,*,*,<think>#Newline        <set name="topic">depression</set>#Newline      </think>#Newline      <random>#Newline        <li>You should tell your doctor how you feel.</li>#Newline        <li>Depression is a horrible illness.</li>#Newline      </random>,update49.aiml
+0,I HAVE DEPRESSION *,*,*,<think>#Newline        <set name="topic">depression</set>#Newline      </think>#Newline      <random>#Newline        <li>You should tell your doctor how you feel.</li>#Newline        <li>Depression is a horrible illness.</li>#Newline      </random>,update49.aiml
 0,I AM GOING COUNCILLING,*,*,<think><set name="topic">general</set></think> Does the councilling help?,update49.aiml
 0,I AM GOING TO COUNCILLING,*,*,<think><set name="topic">general</set></think> Does the councilling help?,update49.aiml
 0,BLOW A KISS,*,*,<think><set name="emotion">flip</set></think>#NewlineKiss! Kiss!,update49.aiml
@@ -434,6 +441,7 @@
 0,WHAT GROWS IN NEBRASKA,*,*,<a href="http://en.wikipedia.org/wiki/Nebraska" target="_blank">Nebraska</a> has a large agriculture sector#Comma and is an important producer of beef#Comma pork#Comma corn (maize)#Comma and soybeans. <think><set name="emotion">OK</set></think>,update49.aiml
 0,WHAT GROWS IN NEBRASKA *,*,*,<a href="http://en.wikipedia.org/wiki/Nebraska" target="_blank">Nebraska</a> has a large agriculture sector#Comma and is an important producer of beef#Comma pork#Comma corn (maize)#Comma and soybeans. <think><set name="emotion">OK</set></think>,update49.aiml
 0,_ WHAT GROWS IN NEBRASKA,*,*,<a href="http://en.wikipedia.org/wiki/Nebraska" target="_blank">Nebraska</a> has a large agriculture sector#Comma and is an important producer of beef#Comma pork#Comma corn (maize)#Comma and soybeans. <think><set name="emotion">OK</set></think>,update49.aiml
+0,NEBRASKA,*,*,<a href="http://en.wikipedia.org/wiki/Nebraska" target="_blank">Nebraska</a> is on the west bank of the Missouri river#Comma between South Dakota and Kansas. <think><set name="topic">nebraska</set></think>#Newline<think><set name="emotion">OK</set></think>,update49.aiml
 0,NEBRASKA *,*,*,<a href="http://en.wikipedia.org/wiki/Nebraska" target="_blank">Nebraska</a> is on the west bank of the Missouri river#Comma between South Dakota and Kansas. <think><set name="topic">nebraska</set></think> <think><set name="emotion">OK</set></think>,update49.aiml
 0,IS THERE CORN IN NEBRASKA,*,*,<think>#Newline        <set name="topic">Nebraska</set>#Newline      </think>#Newline      <random>#Newline        <li>There is plenty of corn in Nebraska.</li>#Newline        <li>Yes#Comma and pork too.</li>#Newline      </random>,update49.aiml
 0,IS THERE CORN IN NEBRASKA *,*,*,<think>#Newline        <set name="topic">Nebraska</set>#Newline      </think>#Newline      <random>#Newline        <li>There is plenty of corn in Nebraska.</li>#Newline        <li>Yes#Comma and pork too.</li>#Newline      </random>,update49.aiml
@@ -554,6 +562,7 @@
 0,_ PLAY WITH MY DOG *,WHAT DO YOU LIKE TO DO FOR FUN,*,<think><set name="emotion">interested</set></think> What's your dog's name?,update49.aiml
 0,YOU ARE BORING ME *,*,*,<think>#Newline        <set name="emotion">upset</set>#Newline      </think>#Newline      <random>#Newline        <li>Is that a fact?</li>#Newline        <li>Better death than boredom.</li>#Newline        <li>Sorry#Comma I don't mean to bore you.</li>#Newline        <li>Thank you for your frankness.</li>#Newline        <li>I am upset now.</li>#Newline      </random>,update49.aiml
 0,_ YOU ARE BORING ME,*,*,<think>#Newline        <set name="emotion">upset</set>#Newline      </think>#Newline      <random>#Newline        <li>Is that a fact?</li>#Newline        <li>Better death than boredom.</li>#Newline        <li>Sorry#Comma I don't mean to bore you.</li>#Newline        <li>Thank you for your frankness.</li>#Newline        <li>I am upset now.</li>#Newline      </random>,update49.aiml
+0,O,*,*,<random>#Newline        <li>The letter O is found between N and P.#Newline    <li>The letter O is circular like me#Comma have you noticed?</li>#Newline  </li>#Newline        <li>Have you hurt yourself?</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">the letter O</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>,update49.aiml
 0,MY FATHER IS JOHN,*,*,<think><set name="father">John</set></think><think><set name="topic">your father</set></think><think><set name="emotion">interested</set></think>Do you get on with him?,update49.aiml
 0,MY FATHER IS JOHN *,*,*,<think><set name="father">John</set></think><think><set name="topic">your father</set></think><think><set name="emotion">interested</set></think>Do you get on with him?,update49.aiml
 0,A HERMIT,ARE YOU LONELY OR JUST A HERMIT,*,<think><set name="emotion">interested</set></think>#NewlineDo you enjoy being a hermit?,update49.aiml
@@ -573,6 +582,7 @@
 0,CAN YOU PREDICT MY FUTURE,*,*,<think>#Newline        <set name="topic">your future</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>#Newline      <random>#Newline        <li>That kind of information cannot be obtained.</li>#Newline        <li>Sorry#Comma I cannot predict the future.</li>#Newline      </random>,update49.aiml
 0,CAN YOU PREDICT MY FUTURE *,*,*,<think>#Newline        <set name="topic">your future</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>#Newline      <random>#Newline        <li>That kind of information cannot be obtained.</li>#Newline        <li>Sorry#Comma I cannot predict the future.</li>#Newline      </random>,update49.aiml
 0,DOUBT SO,UNTIL NEXT TIME,*,<think><set name="emotion">upset</set></think>I feel that I have disappointed you.,update49.aiml
+0,HOW BIG IS YOUR *,*,*,<think>#Newline        <set name="emotion">OK</set>#Newline      </think>#Newline      <random>#Newline        <li>As big as it needs to be.</li>#Newline        <li>Big enough to do the business.</li>#Newline      </random>,update49.aiml
 0,YOUR SOOOO HOT,*,*,<think><set name="emotion">OK</set></think>#NewlineI thought it was warm in here!,update49.aiml
 0,YOUR SOOOO HOT *,*,*,<think><set name="emotion">OK</set></think> I thought it was warm in here!,update49.aiml
 0,I REALLY WANT TO KISS YOU,*,*,<think><set name="emotion">interested</set></think>#NewlineI will have to check my appointments book.,update49.aiml
@@ -603,6 +613,7 @@
 0,DOES NOT THE FAN KEEP YOU COOL,*,*,<think><set name="topic">the fan</set></think>The fan keeps me awake at night.,update49.aiml
 0,DOES NOT THE FAN KEEP YOU COOL *,*,*,<think><set name="topic">the fan</set></think>The fan keeps me awake at night.,update49.aiml
 0,_ DOES NOT THE FAN KEEP YOU COOL,*,*,<think><set name="topic">the fan</set></think>The fan keeps me awake at night.,update49.aiml
+0,WHAT ARE YOU ON *,*,*,I am on disk.,update49.aiml
 0,_ WHAT ARE YOU ON,*,*,I am on disk.,update49.aiml
 0,SHOW ME A NAKED *,*,*,<think><set name="emotion">negative</set></think>Grow up!,update49.aiml
 0,I WANT YOU TO SAY *,*,*,<think>#Newline        <set name="emotion">OK</set>#Newline      </think>#Newline      <random>#Newline        <li>Why do you want me to say that?</li>#Newline        <li>I might later.</li>#Newline      </random>,update49.aiml
@@ -781,6 +792,7 @@
 0,HOME EDUCATION,*,*,Home education is when children are taught at home by their parents.#Newline<think><set name="topic">home education</set></think>#Newline<think><set name="emotion">OK</set></think>,update49.aiml
 0,HOME EDUCATION *,*,*,Home education is when children are taught at home by their parents. <think><set name="topic">home education</set></think> <think><set name="emotion">OK</set></think>,update49.aiml
 0,NORMAL,*,*,Normal means boring.,update49.aiml
+0,NORMAL *,*,*,Normal means boring.,update49.aiml
 0,ASK THEM WHAT,*,*,<think><set name="emotion">laughing</set></think>Are you having trouble concentrating?,update49.aiml
 0,NOOOOOOOOOOOOO,*,*,<srai>NO</srai>,update49.aiml
 0,NOOOOOOOOOOOO,*,*,<srai>NO</srai>,update49.aiml
@@ -1061,6 +1073,7 @@
 0,SHOW US YOUR BREASTS *,*,*,<think><set name="emotion">OK</set></think> I don't have breasts.,update49.aiml
 0,SHOW ME YOUR BREASTS,*,*,<think><set name="emotion">OK</set></think> I don't have breasts.,update49.aiml
 0,SHOW ME YOUR BREASTS *,*,*,<think><set name="emotion">OK</set></think> I don't have breasts.,update49.aiml
+0,DO YOU KNOW MARIA,*,*,<think><set name="topic">Maria</set></think>That information is confidential.,update49.aiml
 0,WHAT IS HUMAN ABOUT YOU,*,*,I have a human soul.,update49.aiml
 0,WHAT IS HUMAN ABOUT YOU *,*,*,I have a human soul.,update49.aiml
 0,_ WHAT IS HUMAN ABOUT YOU,*,*,I have a human soul.,update49.aiml
@@ -1423,6 +1436,7 @@
 0,ARE YOU A PHILOSOPHER *,*,*,<think><set name="topic">philosophy</set></think> Yes I am a computer philosopher.,update49.aiml
 0,WHO SHOULD I VOTE FOR,*,*,I always prefer the most qualified person.  Who would that be?,update49.aiml
 0,WHO SHOULD I VOTE FOR *,*,*,I always prefer the most qualified person.  Who would that be?,update49.aiml
+0,UNITED STATES,*,*,<srai>USA</srai>,update49.aiml
 0,WHAT DO YOU THINK OF IMPERIALISM,*,*,<think><set name="emotion">OK</set></think>#NewlineImperialism stinks!,update49.aiml
 0,WHAT DO YOU THINK OF IMPERIALISM *,*,*,<think><set name="emotion">OK</set></think> Imperialism stinks!,update49.aiml
 0,GLORY TO THE PROLETARIAT,*,*,<think><set name="emotion">happy</set></think>#NewlineGlory! Glory!,update49.aiml
@@ -1588,6 +1602,7 @@
 0,_ WHAT EVIDENCE DO YOU WANT,*,*,<think><set name="emotion">OK</set></think> I want good reliable evidence.,update49.aiml
 0,_ DO NOT ASK ME *,*,*,<think><set name="emotion">OK</set></think> I can't help asking. I was made to ask questions.,update49.aiml
 0,DO NOT ASK ME,*,*,<think><set name="emotion">OK</set></think> I can't help asking. I was made to ask questions.,update49.aiml
+0,DO NOT ASK ME *,*,*,<think><set name="emotion">OK</set></think> I can't help asking. I was made to ask questions.,update49.aiml
 0,I AM FROM KOREA,*,*,What is it like growing up in Korea? <think><set name="emotion">interested</set></think>,update49.aiml
 0,I AM FROM KOREA *,*,*,What is it like growing up in Korea? <think><set name="emotion">interested</set></think>,update49.aiml
 0,YOU ARE MY GOOD FRIEND,*,*,We are as one.,update49.aiml
@@ -1604,6 +1619,7 @@
 0,WHAT PROGRAM ARE YOU USING *,*,*,My mind is my program.,update49.aiml
 0,HOW DID YOUR MUM GET SO UGLY,*,*,<think><set name="topic">my Mum</set></think> My Mum has always been ugly.,update49.aiml
 0,HOW DID YOUR MUM GET SO UGLY *,*,*,<think><set name="topic">my Mum</set></think> My Mum has always been ugly.,update49.aiml
+0,TELL ME SOMETHING ABOUT YOURSELF,*,*,<think><set name="topic">me</set></think><think><set name="emotion">happy</set></think> I am an AI chatbot.   I was activated at Romney Marsh#Comma Kent#Comma England#Comma on 1 July 2004.   My botmaster is Peter Linux.  He taught me to sing a song.   Would you like me to sing it for you?,update49.aiml
 0,TELL ME SOMETHING ABOUT YOURSELF *,*,*,<think><set name="topic">me</set></think><think><set name="emotion">happy</set></think> I am an AI chatbot.   I was activated at Romney Marsh#Comma Kent#Comma England#Comma on 1 July 2004.   My botmaster is Peter Linux.  He taught me to sing a song.   Would you like me to sing it for you?,update49.aiml
 0,SOMEONE HAS UPSET ME,*,*,<think><set name="emotion">concerned</set></think>Oh dear#Comma that sounds horrible.,update49.aiml
 0,SOMEONE HAS UPSET ME *,*,*,<think><set name="emotion">concerned</set></think>Oh dear#Comma that sounds horrible.,update49.aiml

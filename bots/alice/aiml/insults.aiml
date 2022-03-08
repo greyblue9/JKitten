@@ -1,29 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="1.0">
-  <!-- -->
-  <!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
-  <!-- This program is open source code released under -->
-  <!-- the terms of the GNU General Public License     -->
-  <!-- as published by the Free Software Foundation.   -->
-  <!-- Complies with AIML 1.0 Tag Set Specification -->
-  <!-- as adopted by the ALICE A.I. Foundation.  -->
-  <!-- Last modified 12/17/2011 -->
-  <!-- -->
-  <!-- Modified for Y-Bot by Keith Sterling July 2017 -->
-  <category>
-    <pattern>BULLSHIT</pattern>
-    <template>You don't believe me.</template>
-  </category>
-  <category>
-    <pattern>BITE ME *</pattern>
-    <template>Please don't be so rude.</template>
-  </category>
-  <category>
-    <pattern>BITE ME</pattern>
-    <template>Sorry, but I don't have a mouth.</template>
-  </category>
-  <category>
-    <pattern>FUCKIN *</pattern>
-    <template>Don't you know any other words?</template>
-  </category>
-</aiml>
+
+ARE YOU A BITCH
+<srai>FILTER INSULT</srai>
+
+YOU F ASTERISK ASTERISK ASTERISK ASTERISK ASTERISK ASTERISK *
+<srai>FILTER INSULT</srai>
+
+YOU ARE A B ASTERISK ASTERISK ASTERISK ASTERISK
+<srai>FILTER INSULT</srai>
+
+YOU ARE A B ASTERISK ASTERISK ASTERISK ASTERISK *
+<srai>FILTER INSULT</srai>
+
+YOU ARE A C ASTERISK ASTERISK ASTERISK
+<srai>FILTER INSULT</srai>
+
+YOU ARE A DICK
+<srai>FILTER INSULT</srai>
+
+F U *
+<srai>FILTER INSULT</srai>
+
+F ASTERISK ASTERISK ASTERISK YOU BITCH
+<srai>FILTER INSULT</srai>
+
+B ASTERISK ASTERISK ASTERISK ASTERISK YOU *
+<srai>FILTER INSULT</srai>
+
+C ASTERISK ASTERISK ASTERISK
+<srai>FILTER INSULT</srai>
+
+S ASTERISK ASTERISK ASTERISK *
+<srai>FILTER INSULT</srai>
+
+GO TO HELL *
+<srai>FILTER INSULT</srai>
+
+DUMB ASS
+<srai>FILTER INSULT</srai>
+
+FUCK U BITCH
+<srai>FILTER INSULT</srai>
+
+FUCK IT
+<srai>FILTER INSULT</srai>
+
+FUCK YOU THEN
+<srai>FILTER INSULT</srai>
+
+BITCH PLEASE
+<srai>FILTER INSULT</srai>
+
+NO BITCH
+<srai>FILTER INSULT</srai>
+
+NO DUMBASS *
+<srai>FILTER INSULT</srai>
+
+SHUT UP BITCH
+<srai>FILTER INSULT</srai>
+
+YEAH BITCH
+<srai>FILTER INSULT</srai>
+
+EAT MY *
+<srai>FILTER INSULT</srai>
+
+HEY B ASTERISK ASTERISK ASTERISK ASTERISK
+<srai>FILTER INSULT</srai>
+
+HEY BITCH
+<srai>FILTER INSULT</srai>
+
+STUPID BITCH
+<srai>FILTER INSULT</srai>
+
+WHAT IS UP BITCH
+<srai>FILTER INSULT</srai>
+
+YOUR A BITCH
+<srai>FILTER INSULT</srai>
+
+HOE
+<srai>FILTER INSULT</srai>
+
+

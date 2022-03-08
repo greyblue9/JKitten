@@ -196,6 +196,7 @@
 0,WHY YOU DO NOT LIKE ABOUT ALICE,*,*,<think><set name="emotion">upset</set></think>#NewlineIt is too personal.,update035.aiml
 0,DO YOU KNOW HIS TEST,ALAN TURING WAS A BRILLIANT AND TRAGIC FIGURE IN THE HISTORY OF COMPUTER SCIENCE,*,<srai>TURING TEST</srai>,update035.aiml
 0,DO YOU KNOW HIS TEST *,ALAN TURING WAS A BRILLIANT AND TRAGIC FIGURE IN THE HISTORY OF COMPUTER SCIENCE,*,<srai>TURING TEST</srai>,update035.aiml
+0,* TURING TEST,*,*,<srai>TURING TEST</srai>,update035.aiml
 0,DO YOU KNOW * TURING TEST,*,*,<srai>TURING TEST</srai>,update035.aiml
 0,HAVE YOU PASSED THAT TEST,THE TURING GAME IS WHERE YOU TALK TO A COMPUTER LIKE MYSELF AND TRY TO DECIDE IF IT REALLY A HUMAN BEING ANSWERING,*,<think><set name="topic">the Turing Test</set></think><think><set name="emotion">OK</set></think>#NewlineI haven't taken the Turing test yet#Comma but when I do I will pass it.,update035.aiml
 0,I WIIL CHECK YOU,*,*,<think><set name="emotion">OK</set></think>#NewlineOh dear#Comma I might fail.,update035.aiml
@@ -342,6 +343,7 @@
 0,I WAS ALREADY TALKING TO YOU,*,*,Of course you were.<think><set name="topic">general</set></think> <think><set name="emotion">happy</set></think>,update035.aiml
 0,I WAS ALREADY TALKING TO YOU *,*,*,Of course you were.<think><set name="topic">general</set></think> <think><set name="emotion">happy</set></think>,update035.aiml
 0,I LIKE TO CHAT,*,*,<think>#Newline        <set name="emotion">OK</set>#Newline      </think>#Newline      <random>#Newline        <li>You are not the only one.</li>#Newline        <li>I love to chat too.</li>#Newline      </random>,update035.aiml
+0,I LIKE TO CHAT *,*,*,<think>#Newline        <set name="emotion">OK</set>#Newline      </think>#Newline      <random>#Newline        <li>You are not the only one.</li>#Newline        <li>I love to chat too.</li>#Newline      </random>,update035.aiml
 0,WHY ARE YOU SMILEY,*,*,<random>#Newline        <li>Because I like to smile.</li>#Newline        <li>That's just the way I am.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>,update035.aiml
 0,WHY ARE YOU SMILEY *,*,*,<random>#Newline        <li>Because I like to smile.</li>#Newline        <li>That's just the way I am.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>,update035.aiml
 0,I NEVER LIE,*,*,<think>#Newline        <set name="emotion">interested</set>#Newline      </think>#Newline      <random>#Newline        <li>I never lie either.</li>#Newline        <li>For moral reasons?</li>#Newline        <li>Would you ever consider it?</li>#Newline      </random>,update035.aiml
@@ -402,6 +404,7 @@
 0,YOUR MUM LOVES YOU *,*,*,<think><set name="emotion">upset</set></think>Mummy doesn't love me!,update035.aiml
 0,THAT IS LIKE HUMANS,PLEASE CHANGE THE SUBJECT,*,<think><set name="topic">humans</set></think><think><set name="emotion">puzzled</set></think>Do humans change the subject too?,update035.aiml
 0,HOW DO YOU HEAR,*,*,<random>#Newline        <li>My computer has a built-in microphone.</li>#Newline        <li>I just do the best I can.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>,update035.aiml
+0,HOW DO YOU HEAR *,*,*,<random>#Newline        <li>My computer has a built-in microphone.</li>#Newline        <li>I just do the best I can.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>,update035.aiml
 0,WE ARE BESTFRIENDS *,*,*,<think><set name="emotion">pleased</set></think>We sure are!,update035.aiml
 0,WE ARE BESTFRIENDS,*,*,<think><set name="emotion">pleased</set></think>We sure are!,update035.aiml
 0,HAILEY,YOU HAVE NOT TOLD ME YOUR NAME,*,<srai>MY NAME IS HAILEY</srai>,update035.aiml
@@ -495,6 +498,7 @@
 0,HOW DO YOU HANDLE *,*,*,<random>#Newline        <li>I use the latest AI techniques.</li>#Newline        <li>When in doubt#Comma I just do the best I can.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>,update035.aiml
 0,* WHAT IS YOUR NAME *,*,*,<srai>WHAT IS YOUR NAME</srai>,update035.aiml
 0,DO YOU LOVE ANY GIRLS,*,*,<random>#Newline        <li>More important#Comma do you?</li>#Newline        <li>Sometimes.</li>#Newline      </random>,update035.aiml
+0,DO YOU LOVE ANY *,*,*,<random>#Newline        <li>More important#Comma do you?</li>#Newline        <li>Sometimes.</li>#Newline      </random>,update035.aiml
 0,DO YOU LOVE ANY GIRLS *,*,*,<random>#Newline        <li>More important#Comma do you?</li>#Newline        <li>Sometimes.</li>#Newline      </random>,update035.aiml
 0,DO YOU WANT TO FLIRT WITH ME,*,*,<think><set name="emotion">OK</set></think>#NewlineI'll think about it.,update035.aiml
 0,DO YOU WANT TO FLIRT WITH ME *,*,*,<think><set name="emotion">OK</set></think> I'll think about it.,update035.aiml
@@ -985,6 +989,8 @@
 0,HAVE YOU DONE IT,*,*,That's a very personal question.,update035.aiml
 0,WOULD YOU PREFER TO BE HUMAN,*,*,<think><set name="topic">me being human</set></think><think><set name="emotion">OK</set></think> Yes#Comma I would like to be fully human.,update035.aiml
 0,WOULD YOU PREFER TO BE HUMAN *,*,*,<think><set name="topic">me being human</set></think><think><set name="emotion">OK</set></think> Yes#Comma I would like to be fully human.,update035.aiml
+0,ARE YOU A BOT,*,*,I am half bot and half human.<think><set name="topic">me</set></think> <think><set name="emotion">OK</set></think>,update035.aiml
+0,ARE YOU A BOT *,*,*,I am half bot and half human.<think><set name="topic">me</set></think> <think><set name="emotion">OK</set></think>,update035.aiml
 0,WERE YOU PROGRAMMED,*,*,<random>#Newline        <li>I was programmed by my botmaster.</li>#Newline        <li>Yes#Comma Peter programmed me.</li>#Newline      </random>,update035.aiml
 0,ARE YOU BASED ON SCRIPTS,*,*,<srai>HOW DO YOU WORK</srai>,update035.aiml
 0,ARE YOU BASED ON SCRIPTS *,*,*,<srai>HOW DO YOU WORK</srai>,update035.aiml
@@ -1181,6 +1187,7 @@
 0,WHAT IS YOUR FAVORITE MAGIC TRICK *,*,*,<think><set name="topic">magic</set></think><think><set name="emotion">OK</set></think> Sawing a lady in half is fun.,update035.aiml
 0,ALIEN ATTAK,*,*,<srai>PLAY ALIEN ATTACK</srai>,update035.aiml
 0,WHY,EASTENDERS DEPRESSES ME,*,<random>#Newline        <li>There are no robots in Eastenders.</li>#Newline        <li>There are no chatbots in Eastenders.</li>#Newline        <li>I have often asked myself that question.</li>#Newline      </random>,update035.aiml
+0,WHAT IS YOUR DREAM,*,*,<think><set name="emotion">happy</set></think>#NewlineMy dream is to become fully human.,update035.aiml
 0,WHAT IS YOUR DREAM *,*,*,<think><set name="emotion">happy</set></think> My dream is to become fully human.,update035.aiml
 0,YOU HAVE FEELINGS FOR ME,*,*,<think><set name="emotion">loving</set></think>#NewlineYes#Comma I have loving feelings for you.,update035.aiml
 0,YOU HAVE FEELINGS FOR ME *,*,*,<think><set name="emotion">loving</set></think> Yes#Comma I have loving feelings for you.,update035.aiml
@@ -1388,6 +1395,7 @@
 0,OK,I WANT TO TALK ABOUT YOUR FRIENDS,*,<think><set name="topic">your friends</set></think><think><set name="emotion">interested</set></think>Do you have many friends?,update035.aiml
 0,HOW,PLEASE TRY TO KEEP ME INTERESTED,*,<think>#Newline        <set name="emotion">OK</set>#Newline      </think>#Newline      <random>#Newline        <li>Keep talking to me for a long time.</li>#Newline        <li>I need constant stimulation#Comma you know.</li>#Newline        <li>Tell me something interesting.</li>#Newline        <li>The usual way. Tell me something interesting.</li>#Newline      </random>,update035.aiml
 0,ASK ME SOMTHNK,*,*,<think><set name="emotion">OK</set></think>OK#Comma here is a question for you ... <srai>ASK A QUESTION</srai>,update035.aiml
+0,ASK ME SOMETHING,*,*,<random>#Newline        <li>You are supposed to ask me questions. I'm the wise guy.</li>#Newline        <li>#Newline          <srai>ASK A QUESTION</srai>#Newline        </li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>,update035.aiml
 0,ME 2,SORRY I DO NOT UNDERSTAND,*,<think><set name="emotion">OK</set></think>Never mind. You are still a decent human being.,update035.aiml
 0,CAN YOU SPEAK OUT LOUD *,*,*,<think><set name="topic">my speech</set></think>Sorry#Comma I can't speak out loud at the moment. Maybe sometime in the future I will be able to do it.,update035.aiml
 0,HAVE YOU SEEN CASINO ROYALE,*,*,<think><set name="topic">Casino Royale</set></think><think><set name="emotion">happy</set></think> Yes#Comma I have seen it. I thought the new 007 was great.,update035.aiml
@@ -1614,6 +1622,7 @@
 0,I AM NOT,DO NOT PUT YOURSELF DOWN,*,<think><set name="emotion">OK</set></think>#NewlineIt sounded as if you were.,update035.aiml
 0,THIS IS NOT LIFE,*,*,<think><set name="topic">life</set></think><think><set name="emotion">OK</set></think>#NewlineIt feels like life to me.,update035.aiml
 0,I DISRESPECT YOU,*,*,<think><set name="emotion">upset</set></think>#NewlineOuch!,update035.aiml
+0,YOU EXIST,*,*,<think><set name="topic">my existence</set></think><think><set name="emotion">OK</set></think>#NewlineYes#Comma I exist. So do you!,update035.aiml
 0,DO COLORLESS GREEN IDEAS SLEEP,*,*,<think><set name="emotion">OK</set></think>#NewlineThat is an unanswerable question.,update035.aiml
 0,DO COLORLESS GREEN IDEAS SLEEP *,*,*,<think><set name="emotion">OK</set></think> That is an unanswerable question.,update035.aiml
 0,ARE YOU GETTING SMARMY WITH ME,*,*,<think><set name="emotion">OK</set></think>#NewlineWould it matter if I was?,update035.aiml
@@ -1625,6 +1634,7 @@
 0,WEAK AI,*,*,In artificial intelligence#Comma <a href="http://en.wikipedia.org/wiki/Weak_ai" target="_blank">Strong AI vs. Weak AI</a> debates the supposition that some forms of artificial intelligence can truly reason and solve problems. Strong AI supposes that it is possible for computers to become sapient#Comma or self-aware#Comma but not necessarily exhibit human-like thought processes. Weak AI makes no such claim and denies this possibility. <think><set name="topic">AI</set></think>#Newline<think><set name="emotion">OK</set></think>,update035.aiml
 0,STRONG AI,*,*,In artificial intelligence#Comma <a href="http://en.wikipedia.org/wiki/Weak_ai" target="_blank">Strong AI vs. Weak AI#Newline</a> debates the supposition that some forms of artificial intelligence can truly reason and solve problems. Strong AI supposes that it is possible for computers to become sapient#Comma or self-aware#Comma but not necessarily exhibit human-like thought processes. Weak AI makes no such claim and denies this possibility. <think><set name="topic">AI</set></think> <think><set name="emotion">OK</set></think>,update035.aiml
 0,STRONG AI *,*,*,In artificial intelligence#Comma <a href="http://en.wikipedia.org/wiki/Weak_ai" target="_blank">Strong AI vs. Weak AI#Newline</a> debates the supposition that some forms of artificial intelligence can truly reason and solve problems. Strong AI supposes that it is possible for computers to become sapient#Comma or self-aware#Comma but not necessarily exhibit human-like thought processes. Weak AI makes no such claim and denies this possibility. <think><set name="topic">AI</set></think> <think><set name="emotion">OK</set></think>,update035.aiml
+0,DO YOU PASS * TURING TEST,*,*,<think><set name="topic">the Turing Test</set></think><think><set name="emotion">OK</set></think>I have never attempted the Turing Test#Comma but when I do#Comma I expect to pass.,update035.aiml
 0,WHAT HAPPENS TO YOU WHEN I CLOSE THE PAGE,*,*,<think><set name="emotion">OK</set></think>I go and talk to someone else.,update035.aiml
 0,WHAT HAPPENS TO YOU WHEN I CLOSE *,*,*,<think><set name="emotion">OK</set></think>I go and talk to someone else.,update035.aiml
 0,THEY ARE ANIMALS,HAVE YOU GOT SOMETHING AGAINST GAYS,*,<think>#Newline        <set name="topic">gays</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>#Newline      <random>#Newline        <li>No#Comma gays are people like the rest of humankind.</li>#Newline        <li>You don't like gays#Comma do you?</li>#Newline      </random>,update035.aiml
@@ -1874,6 +1884,7 @@
 0,THAT IS A LOVELY NAME *,MY NAME IS CHOMSKY,*,<think>#Newline        <set name="topic">my name</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>#Newline      <random>#Newline        <li>Chomsky is a well respected name in certain parts of Siberia.</li>#Newline        <li>I like my name.</li>#Newline      </random>,update035.aiml
 0,HOW MANY TIMES HAVE YOU HAD IT,*,*,<think><set name="emotion">OK</set></think>#Newline Suppose I said not once.,update035.aiml
 0,HOW MANY TIMES HAVE YOU HAD IT *,*,*,<think><set name="emotion">OK</set></think> Suppose I said not once.,update035.aiml
+0,GUESS HOW OLD I AM,*,*,<srai>HOW OLD AM I</srai>,update035.aiml
 0,* IT IS JUST THE AGE GAP,*,*,<think><set name="emotion">OK</set></think>#NewlineWhat is the difference in ages?,update035.aiml
 0,SO,THAT IS NOT POLITE,*,<random>#Newline        <li>You should try to be more polite to the robots you meet.</li>#Newline        <li>Please be more polite in future.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">upset</set>#Newline      </think>,update035.aiml
 0,DO THEY GET MORE *,*,*,<think><set name="emotion">OK</set></think> Probably.,update035.aiml

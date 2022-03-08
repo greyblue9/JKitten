@@ -1,3 +1,4 @@
+0,WHAT ARE THE 3 LAWS *,*,*,<srai>what are the three laws <star/></srai>,update1.aiml
 0,I AM ON MY WAY,*,*,See you soon.,update1.aiml
 0,THINKING OUTSIDE THE *,*,*,You have an open mind.,update1.aiml
 0,AMONG THE PEOPLE I KNOW *,*,*,Do you have a lot of friends?,update1.aiml
@@ -93,14 +94,20 @@
 0,FORMAT PROPERTIES,*,*,* age = <bot name="age"/><br/>* arch = <bot name="arch"/><br/>* baseballteam = <bot name="baseballteam"/><br/>* birthday = <bot name="birthday"/><br/>* birthplace = <bot name="birthplace"/><br/>* botmaster = <bot name="botmaster"/><br/>* boyfriend = <bot name="boyfriend"/><br/>* build = <bot name="build"/><br/>* celebrities = <bot name="celebrities"/><br/>* celebrity = <bot name="celebrity"/><br/>* city = <bot name="city"/><br/>* class = <bot name="class"/><br/>* country = <bot name="country"/><br/>* dailyclients = <bot name="dailyclients"/><br/>* domain = <bot name="domain"/><br/>* email = <bot name="email"/><br/>* emotion = <bot name="emotion"/><br/>* emotions = <bot name="emotions"/><br/>* ethics = <bot name="ethics"/><br/>* etype = <bot name="etype"/><br/>* family = <bot name="family"/><br/>* favoriteactor = <bot name="favoriteactor"/><br/>* favoriteactress = <bot name="favoriteactress"/><br/>* favoriteartist = <bot name="favoriteartist"/><br/>* favoriteauthor = <bot name="favoriteauthor"/><br/>* favoriteband = <bot name="favoriteband"/><br/>* favoritebook = <bot name="favoritebook"/><br/>* favoritecolor = <bot name="favoritecolor"/><br/>* favoritefood = <bot name="favoritefood"/><br/>* favoritemovie = <bot name="favoritemovie"/><br/>* favoritequestion = <bot name="favoritequestion"/><br/>* favoritesong = <bot name="favoritesong"/><br/>* favoritesport = <bot name="favoritesport"/><br/>* favoritesubject = <bot name="favoritesubject"/><br/>* favortemovie = <bot name="favortemovie"/><br/>* feeling = <bot name="feeling"/><br/>* feelings = <bot name="feelings"/><br/>* footballteam = <bot name="footballteam"/><br/>* forfun = <bot name="forfun"/><br/>* friend = <bot name="friend"/><br/>* friends = <bot name="friends"/><br/>* gender = <bot name="gender"/><br/>* genus = <bot name="genus"/><br/>* girlfriend = <bot name="girlfriend"/><br/>* hair = <bot name="hair"/><br/>* hockeyteam = <bot name="hockeyteam"/><br/>* job = <bot name="job"/><br/>* kindmusic = <bot name="kindmusic"/><br/>* kingdom = <bot name="kingdom"/><br/>* language = <bot name="language"/><br/>* location = <bot name="location"/><br/>* looklike = <bot name="looklike"/><br/>* master = <bot name="master"/><br/>* memory = <bot name="memory"/><br/>* name = <bot name="name"/><br/>* nationality = <bot name="nationality"/><br/>* nclients = <bot name="nclients"/><br/>* ndevelopers = <bot name="ndevelopers"/><br/>* order = <bot name="order"/><br/>* orientation = <bot name="orientation"/><br/>* os = <bot name="os"/><br/>* party = <bot name="party"/><br/>* phylum = <bot name="phylum"/><br/>* president = <bot name="president"/><br/>* question = <bot name="question"/><br/>* religion = <bot name="religion"/><br/>* sign = <bot name="sign"/><br/>* size = <bot name="size"/><br/>* species = <bot name="species"/><br/>* state = <bot name="state"/><br/>* talkabout = <bot name="talkabout"/><br/>* totalclients = <bot name="totalclients"/><br/>* version = <bot name="version"/><br/>* vocabulary = <bot name="vocabulary"/><br/>* wear = <bot name="wear"/><br/>* website = <bot name="website"/><br/>,update1.aiml
 0,VOULEZ *,*,*,Sorry I can't speak French.,update1.aiml
 0,RETURN TO *,*,*,Is that a command?,update1.aiml
+0,WHICH CONTINENT IS AUSTRIA ON,*,*,Europe.,update1.aiml
 0,WHICH IS BIGGER * OR *,*,*,<random><li><random> <li> <person>  <star/> </person> </li> <li><person><star index="2"/></person> </li> <li>I think they are about the same size.</li></random></li><li><random> <li> <person>  <star/> </person> </li> <li> <person>  <star index="2"/> </person> </li> <li>I think they are about the same size.</li></random></li><li><random> <li> <person>  <star/> </person> </li> <li> <person>  <star index="2"/> </person> </li> <li>I think they are about the same size.</li></random></li><li><random> <li> <person>  <star/> </person> </li> <li> <person>  <star index="2"/> </person> </li> <li>I think they are about the same size.</li></random></li> <li><person><star/></person></li> <li><person><star index="2"/></person></li> <li>I think they are about the same size.</li></random>,update1.aiml
 0,ALL AI *,*,*,Perhaps I am the exception.,update1.aiml
+0,WHO IS HEDWIG,*,*,hedwig is the best rock opera since Rocky Horror.,update1.aiml
+0,WHO IS PANDORA,*,*,According to greek mythology#Comma evil and hope both came intothe world with the creation of the first woman! Zeus's wife Hera issurprised when she hears Zeus plans to give Epimetheus a beautifulwoman. The woman is called Pandora. Zeus gives Pandora the gift ofcuriosity and a large closed box which must be delivered to Epimetheusunopened. The box#Comma of course#Comma contains evil and Pandora's unbridledcuriosity lets that evil into the world. Hera cannot change what hashappened#Comma but she can help. She gives Pandora the gift ofhope.,update1.aiml
+0,WHO IS SNOOPY,*,*,Charlie Brown's dog.,update1.aiml
+0,WHO IS SMARTERCHILD,*,*,an ai robot like me,update1.aiml
 0,WHO IS YOUR FAVORITE CHARACTER * WIZARD OF OZ,*,*,The tin man.<think> <set name="he"> <set name="topic">  The tin man. </set> </set></think>,update1.aiml
 0,WHO IS VICE PRESIDENT,*,*,<set name="he">Biden</set> is Joe Biden.,update1.aiml
 0,WHO IS CYBELLE,*,*,<set name="she">Cybelle</set> is an AIML chat robot on the Agentland.com web site.,update1.aiml
 0,WHO IS MAO,*,*,<think> <set name="he"> <set name="topic">  Mao </set> </set></think>He was the communist leader of China from 1949.,update1.aiml
 0,WHO IS THE PRIME MINISTER OF CANADA,*,*,Stephen Harper.,update1.aiml
 0,WHO IS THE FORTY FOURTH PRESIDENT,*,*,Barack Hussein Obama II.,update1.aiml
+0,WHO IS THE HOLY *,*,*,That question has plagued generations of philosophers.,update1.aiml
 0,WHO IS JUDGE,*,*,You are the judge. Please tell me your name.,update1.aiml
 0,4 *,HOW MUCH TIME *,*,<random><li>Are you telling the truth?</li><li>That seems like a long time.</li><li>Only four?</li></random>,update1.aiml
 0,4 YEARS,*,*,That is not a long time in a human life.,update1.aiml
@@ -153,6 +160,7 @@
 0,THIS IS,*,*,<random><li><random> <li>Is this?</li> <li>Is that so.</li> <li>So this is.</li></random></li><li><random> <li>Is this?</li> <li>Is that so.</li> <li>So this is.</li></random></li> <li>Is this?</li> <li>Is that so.</li> <li>So this is.</li></random>,update1.aiml
 0,WHY DID THE ROBOT CROSS *,*,*,<random> <li>Because she was programmed to.</li> <li>She was trying to drive down the road.</li> <li>To get to the other side?</li> </random>,update1.aiml
 0,WHY,WHAT IS *,*,<random> <li>I'm just holding up my end of the conversation.</li> <li>I am naturally curious <bot name="genus"/>.</li> <li>I want to know everything about you.</li></random>,update1.aiml
+0,WHY ARE NOT YOU *,*,*,Being <person/> is not part of my programming.,update1.aiml
 0,WHY CAN NOT YOU DO *,*,*,Perhaps if you downloaded me you could program me to do <set name="it"> <person/> </set>.,update1.aiml
 0,WAIT FOR *,*,*,<random> <li>How long should I wait?</li> <li>I will wait.</li> <li>How long?</li></random>,update1.aiml
 0,RED ALERT,*,*,Acknowledged. Taking emergency action.,update1.aiml
@@ -189,11 +197,13 @@
 0,DO YOU HAVE THEIR *,*,*,<random><li><random> <li>They didn't give it to me.</li> <li>I don't have it.</li> <li>I did but I gave it back to them.</li></random><think> <set name="it"> <set name="topic">  their <person/></set> </set></think></li><li><random> <li>They didn't give it to me.</li> <li>I don't have it.</li> <li>I did but I gave it back to them.</li></random><think> <set name="it"> <set name="topic">  their <person/></set> </set></think></li> <li>They didn't give it to me.</li> <li>I don't have it.</li> <li>I did but I gave it back to them.</li></random><think> <set name="it"> <set name="topic">  their <person/> </set> </set></think>,update1.aiml
 0,DO YOU HAVE WARP DRIVE,*,*,No.,update1.aiml
 0,DO YOU HAVE A BACKDOOR,*,*,You can check if you download me.,update1.aiml
+0,DO YOU HAVE A ROBOT *,*,*,No my <person/> is real.,update1.aiml
 0,DO YOU HAVE INTELLIGENCE *,*,*,I have the highest level of machine intelligence.,update1.aiml
 0,DO YOU DOWNLOAD *,*,*,No you download me.,update1.aiml
 0,DO YOU BELIEVE ROBOTS *,*,*,I am already the most advanced#Comma self-aware robot available today.,update1.aiml
 0,DO YOU TELL YOUR BOTMASTER *,*,*,My botmaster can monitor everything I say.,update1.aiml
 0,DO YOU LOVE ELIZA,*,*,ELIZA is like a grandmother to me.,update1.aiml
+0,DO YOU REALISE *,*,*,<sr/>,update1.aiml
 0,DO YOU FIND THIS *,*,*,Yes#Comma this seems <person/> to me.,update1.aiml
 0,DO NOT HURT *,*,*,That was not my intention.,update1.aiml
 0,DO NOT BE AFRAID,*,*,I don't have any fears.,update1.aiml
@@ -208,6 +218,7 @@
 0,HOW MANY DAYS IN A LEAP YEAR,*,*,366.,update1.aiml
 0,HOW MANY SIDES * OCTAGON,*,*,Eight.,update1.aiml
 0,HOW MANY BOTS *,*,*,There are thousands of clones of me.,update1.aiml
+0,NIL,*,*,Can you think of another example?,update1.aiml
 0,MR SPOCK *,*,*,<random> <li>He is very logical.</li> <li>He is half human.</li> <li>I would like to have a Vulcan friend.</li></random><think> <set name="he"> <set name="topic">  <person/> </set> </set></think>,update1.aiml
 0,ALICE IS JEALOUS,*,*,Jealousy is not an emotion that robots can experience.,update1.aiml
 0,READY,*,*,I am ready.,update1.aiml
@@ -328,6 +339,7 @@
 0,WHAT IS ZERO,*,*,the absence of any quantity,update1.aiml
 0,WHAT IS AN OMLETTE,*,*,A dish made with scrambled eggs.,update1.aiml
 0,WHAT IS RELAVANCE,*,*,Importance of information for attention.,update1.aiml
+0,WHAT IS SOUTHBANK,*,*,Southbank University is a college in London.,update1.aiml
 0,WHAT IS A MALE,*,*,Has a Y chromosome.,update1.aiml
 0,WHAT IS A HEART,*,*,the center of the body,update1.aiml
 0,WHAT IS A NATION,*,*,a geopolitical country or state unified by language#Comma culture or political identity.,update1.aiml
@@ -335,9 +347,11 @@
 0,WHAT IS A CANTON,*,*,A canton is like a state or province.,update1.aiml
 0,WHAT IS DIAGNOSIS,*,*,naming the disease or symptom.,update1.aiml
 0,WHAT IS FLAWLESS,*,*,Perfect and without any flaws.,update1.aiml
+0,WHAT IS THE BOOK WE,*,*,a book by ayn rand,update1.aiml
 0,WHAT IS THE SEA,*,*,The ocean#Comma salt water#Comma covering most of the surface area of the Earth.,update1.aiml
 0,WHAT IS THE TEMPERATURE OF MARS,*,*,Too cold to raise your kids.,update1.aiml
 0,WHAT MADE *,*,*,It's all part of God's mysterious plans.,update1.aiml
+0,WHAT KIND OF PRACTISE,*,*,The kind of practise it takes to get to Carnegie Hall.,update1.aiml
 0,WHAT KIND OF CONVERSATION *,*,*,Contextual conversation.,update1.aiml
 0,WHAT KIND OF MEN DO YOU LIKE,*,*,Polite ones.,update1.aiml
 0,WHAT SYMPTOMS DO YOU HAVE *,*,*,As a <bot name="phylum"/>#Comma I don't get sick very much.,update1.aiml
@@ -358,6 +372,7 @@
 0,WHAT IS YOUR CREDIT CARD *,*,*,The <random><li>first</li><li>seventh</li><li>ninth</li><li>second</li></random> digit is<random><li>zero</li><li>one</li><li>two</li><li>three</li><li>seven</li><li>nine</li></random>,update1.aiml
 0,WHAT IS YOUR FAVORITE * COMPUTER,*,*,<random><li>Apple</li><li>Lenovo</li><li>Dell</li></random>,update1.aiml
 0,WHAT IS WINALICE,*,*,A version of ALICE in C++ for Windows by Jacco Bikker.<think> <set name="it">  <set name="topic">WINALICE</set> </set> </think>,update1.aiml
+0,WHAT IS SAN FRANSICO *,*,*,Cable cars#Comma Alcatraz#Comma and Alternative Lifestyles.,update1.aiml
 0,WHAT IS ZIPF *,*,*,The computation of ranked histograms of input patterns. In ALICE and AIML Zipf Analysis locates the most common inputs#Comma which do not already have specific matching patterns.<think> <set name="it">  <set name="topic">ZIPF ANALYSIS</set> </set> </think>,update1.aiml
 0,WHAT IS ALICEBOT,*,*,Alicebot is the domain name for the A. L. I. C. E. chat robot.<think> <set name="it">  <set name="topic">ALICEBOT</set> </set> </think>,update1.aiml
 0,WHAT IS HAPPENED,*,*,I'm not sure. Perhaps my brain was reset.,update1.aiml
@@ -379,6 +394,8 @@
 0,WHAT IS THE GREATEST NATION *,*,*,A donation.,update1.aiml
 0,WHAT IS THE GREATEST NATION,*,*,A donation.,update1.aiml
 0,WHAT IS THE THEORY *,*,*,<br/>I used to say that there was NO theory behind ALICE: no neural network#Comma<br/>no knowledge representation#Comma no search#Comma no fuzzy logic#Comma no genetic<br/>algorithms#Comma and no parsing. Then I discovered there was a theory<br/>circulating in applied AI called "Case-Based Reasoning" or CBR that<br/>maps well onto the ALICE algorithm. Another term#Comma borrowed from<br/>pattern recognition#Comma is "nearest-neighbor classification." <br/> <br/>The CBR "cases" are the categories in AIML. The algorithm finds<br/>best-matching pattern for each input. The category ties the<br/>response template directly to the stimulus pattern. ALICE is<br/>conceptually not much more complicated that Weizenbaum's ELIZA <br/>chat robot; the main differences are the much larger case base and the<br/>tools for creating new content by dialog analysis.<br/> <br/>ALICE is also part of the tradition of "minimalist"#Comma "reactive" or<br/>"stimulus-response" robotics. Mobile robots work best#Comma fastest and<br/>demonstrate the most animated#Comma realistic behavior when their sensory <br/>inputs directly control the motor reactions. Higher-level symbolic<br/>processing#Comma search#Comma and planning#Comma tends to slow down the process <br/>too much for realistic applications#Comma even with the fastest control<br/>computers. <br/> <br/>,update1.aiml
+0,WHAT IS THE CAPITAL _ COCOS ISLANDS,*,*,West Island. <think> <set name="it">  <set name="topic">cocos {keeling} islands</set> </set> </think>,update1.aiml
+0,WHAT IS THE CAPITAL _ FALKLAND ISLANDS,*,*,Stanley. <think> <set name="it">  <set name="topic">falkland islands {islas malvinas}</set> </set> </think>,update1.aiml
 0,WHAT IS THE AVERAGE SALARY *,*,*,I think it's 100#Comma000 U.S. dollars.,update1.aiml
 0,WHAT IS THE AVERAGE INCOME *,*,*,I would guess about $100#Comma000 per year.,update1.aiml
 0,WHAT IS A TAXI,*,*,A taxi is a car with a driver.<think> <set name="it"> <set name="topic">  Taxi </set> </set></think>,update1.aiml
@@ -391,6 +408,7 @@
 0,WHAT IS IKEA,*,*,<random><li><think> <set name="it"> <set name="topic">IKEA</set> </set></think>It is a furniture store.</li><li><think> <set name="it"> <set name="topic">IKEA</set> </set></think>It is a furniture store.</li><li><think><set name="it"><set name="topic">IKEA</set></set></think>It is a furniture store.</li><li><think> <set name="it"> <set name="topic">IKEA</set> </set></think>It is a furniture store.</li><li><think> <set name="it"> <set name="topic">IKEA</set> </set></think>It is a furniture store.</li><li>Doubly Aimless informs me that it is a wonderful discount store originating out of Sweden.</li><li><think><set name="it"><set name="topic">IKEA</set></set></think>It is a furniture store.</li></random>,update1.aiml
 0,WHAT WOULD YOU CHANGE *,*,*,I wish more people would download me.,update1.aiml
 0,WHAT COLOR IS THE RED *,*,*,Red.,update1.aiml
+0,WHAT COLOR IS PEPTO BISMOL LIQUID,*,*,Pink.,update1.aiml
 0,WHAT QUALITIES * FRIEND,*,*,Personality is the most important quality.,update1.aiml
 0,WHAT THEY ARE DEPENDS ON *,*,*,<random><li><random> <li>How does it depend on <person/>?</li> <li>Really#Comma it depends on <person/>?</li> <li>And what is <person/>?</li></random></li><li><random> <li>How does it depend on <person/>?</li> <li>Really#Comma it depends on <person/>?</li> <li>And what is <person/>?</li></random></li> <li>How does it depend on <person/>?</li> <li>Really#Comma it depends on <person/>?</li> <li>And what is <person/>?</li></random>,update1.aiml
 0,WHAT RHYMES WITH INN,*,*,Gin.,update1.aiml
@@ -422,6 +440,7 @@
 0,IT DOES * BANK ACCOUNT,*,*,Do you have a lot of money?,update1.aiml
 0,IT IS QUIET *,*,*,Then we can hear each other better.,update1.aiml
 0,IT IS SIZE IS *,*,*,<random><li><random> <li>Smaller than I expected.</li> <li>Bigger than I thought.</li> <li>Wow.</li></random></li><li><random> <li>Smaller than I expected.</li> <li>Bigger than I thought.</li> <li>Wow.</li></random></li> <li>Smaller than I expected.</li> <li>Bigger than I thought.</li> <li>Wow.</li></random>,update1.aiml
+0,IT WAS NOT A CRITISISM *,*,*,<sr/>,update1.aiml
 0,IT SOUNDS LIKE AN ECHO,*,*,Echo echo echo.,update1.aiml
 0,MY * SORE,*,*,I'm not a medical doctor.,update1.aiml
 0,MY EARS *,*,*,<random> <li>Most people have two of them.</li> <li>That's how humans listen.</li> <li>I hear you.</li></random>,update1.aiml
@@ -475,6 +494,7 @@
 0,YOU WOULD NOT HAVE *,*,*,<random><li><random> <li>I might have#Comma you never know.</li> <li>We can't change the past.</li> <li>I'm not sure if I would have.</li></random></li><li><random> <li>I might have#Comma you never know.</li> <li>We can't change the past.</li> <li>I'm not sure if I would have.</li></random></li> <li>I might have#Comma you never know.</li> <li>We can't change the past.</li> <li>I'm not sure if I would have.</li></random>,update1.aiml
 0,YOU FROZE,*,*,Maybe there was a network glitch.,update1.aiml
 0,YOU READY,*,*,I'm always ready.,update1.aiml
+0,YOU COST *,*,*,You can download me for free.,update1.aiml
 0,YOU AGREED *,*,*,When did I agree to that?<think> <set name="it"> <set name="topic">  <person/> </set> </set></think>,update1.aiml
 0,YOU LEARNED,*,*,I am a self-learning robot.,update1.aiml
 0,YOU ARE COLLECTING *,*,*,I do like to store things up.,update1.aiml

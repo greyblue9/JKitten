@@ -19,3 +19,4 @@
 0,OF WHAT USE IS A *,*,*,<srai>WHAT IS THE PURPOSE OF#Newline                <star/>#Newline            </srai>,what_is_the_purpose.aiml
 0,WHAT IS THE MEANING OF THE WORD *,*,*,<srai>DEFINE#Newline                <star/>#Newline            </srai>,what_is_the_purpose.aiml
 0,WHAT IS THE COLOR OF <SET NAME="ARTICLE"/> *,*,*,I think it is <star index="2"/> coloured,what_is_the_purpose.aiml
+0,WHAT IS THE PROBLEM *,*,*,<srai>WHAT IS THE PROBLEM</srai>,what_is_the_purpose.aiml

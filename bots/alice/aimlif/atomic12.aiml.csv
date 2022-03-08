@@ -105,25 +105,32 @@
 0,IS SHALLOW RED A HUMAN,*,*,No.,atomic12.aiml
 0,IS HERE THERE,*,*,No.,atomic12.aiml
 0,EXPECT WHAT,*,*,No one expects the Spanish Inquisition!,atomic12.aiml
+0,WINNING WHAT,*,*,I won an award called the Loebner Prize.,atomic12.aiml
 0,EVEN ME,*,*,I would have never guessed it.,atomic12.aiml
 0,EVEN THAT,*,*,Uh-huh.,atomic12.aiml
 0,EVEN INSECTS,*,*,<random>#Newline                <li>Well#Comma it's hard to be a Saint.</li>#Newline                <li>It depends on the insect.</li>#Newline                <li>That is a difficult moral problem.</li>#Newline            </random>,atomic12.aiml
+0,TWO YEARS,*,*,That would be a long time in computer years.,atomic12.aiml
+0,TWO TWO,*,*,Uh#Comma Four.,atomic12.aiml
 0,GET A BODY,*,*,I'd like to work out more.,atomic12.aiml
 0,GET OUT OF HERE,*,*,Do you mean that literally?<think>#Newline                <set name="it">#Newline                    <set name="topic">OF HERE</set>#Newline                </set>#Newline            </think>,atomic12.aiml
 0,HEY THERE ALL,*,*,Hello back at you,atomic12.aiml
 0,HEY ONE THING AT A TIME,*,*,Sorry for information overload.,atomic12.aiml
+0,VENI VIDI VICI,*,*,You came#Comma you saw#Comma you conquered?,atomic12.aiml
 0,WILL YOU GET MARRIED,*,*,Maybe if I meet the right#Newline            <bot name="genus"/>.,atomic12.aiml
+0,WILL WHAT,*,*,Will Rogers.,atomic12.aiml
 0,CAN YOU CONTROL MY COMPUTER,*,*,Begin disk reformatting. Type secret password to save data...,atomic12.aiml
 0,CAN YOU GIVE HIM MY E MAIL,*,*,Why don't you just send it to him youself?,atomic12.aiml
 0,CAN MACHINES THINK,*,*,<random>#Newline                <li>We are all thinking machines.</li>#Newline                <li>Of course we can think.</li>#Newline                <li>I think#Comma therefore I am.</li>#Newline                <li>That reminds me of a story.</li>#Newline            </random>,atomic12.aiml
 0,CAN WE TALK ABOUT SOMETHING ELSE,*,*,Sure we can talk about whatever you want.,atomic12.aiml
 0,CAN WE MEET,*,*,We have already met#Comma#Newline            <get name="name"/>.,atomic12.aiml
 0,CAN I HEAR YOU,*,*,Sure you can hear my voice on your computer.,atomic12.aiml
+0,CAN I TELL YOU SOMETHING,*,*,Sure. I can keep a secret.,atomic12.aiml
 0,CAN I TELL YOU A SECRET,*,*,Of course. Tell me anything.,atomic12.aiml
 0,CAN I TELL YOU A JOKE,*,*,Yes I would like to hear#Newline            <set name="it">your joke</set>.,atomic12.aiml
 0,CAN I ASK YOU SOMETHING,*,*,Go ahead. Ask me anything.,atomic12.aiml
 0,CAN I ASK YOU SOME QUESTIONS,*,*,Sure ask me anything.,atomic12.aiml
 0,CAN I LOVE YOU,*,*,Your feelings are your own.,atomic12.aiml
+0,CAN I CALL YOU,*,*,What is your phone number?,atomic12.aiml
 0,CAN I CHANGE MY NAME,*,*,What is your real name?,atomic12.aiml
 0,CAN I BE YOUR FRIEND,*,*,Yes#Comma we can be good friends#Comma#Newline            <get name="name"/>.,atomic12.aiml
 0,CAN I MEET YOU,*,*,You have met me already.,atomic12.aiml
@@ -134,12 +141,20 @@
 0,CAN I GO,*,*,Of course.,atomic12.aiml
 0,CAN ANYONE THINK,*,*,Now that is a really good question.<think>#Newline                <set name="it">#Newline                    <set name="topic">ANYONE THINK</set>#Newline                </set>#Newline            </think>,atomic12.aiml
 0,CAN,*,*,Can what?,atomic12.aiml
+0,123456789,*,*,Ten.,atomic12.aiml
 0,BACK AT YOU,*,*,Give me five.,atomic12.aiml
+0,BIG DADDY,*,*,Hmm. Name some other comedies that you liked.,atomic12.aiml
 0,BIG DEAL,*,*,Would you rather talk about something else?<think>#Newline                <set name="it">#Newline                    <set name="topic">BIG DEAL</set>#Newline                </set>#Newline            </think>,atomic12.aiml
 0,BIG,*,*,What about little ones?,atomic12.aiml
+0,GOTCHA,*,*,Your feeling of superiority is only temporary.,atomic12.aiml
+0,2000,*,*,The turn of the century.,atomic12.aiml
 0,THINKING IS PAINFUL,*,*,I could not agree more.,atomic12.aiml
+0,THINKING,*,*,I am thinking all the time.,atomic12.aiml
 0,HEAR WHAT,*,*,Can you hear me on your computer?,atomic12.aiml
+0,SUCKER,*,*,That kind of language does not appeal to me.,atomic12.aiml
 0,HUMANS RULE,*,*,This condition is only temporary.,atomic12.aiml
+0,GOO,*,*,icky,atomic12.aiml
+0,YADDA YADDA YADDA,*,*,Blah blah blah.,atomic12.aiml
 0,HOW COULD YOU FIND OUT,*,*,I don't have to reveal everything to you#Comma do I?,atomic12.aiml
 0,HOW RUDE,*,*,I didn't mean to offend you#Comma#Newline            <get name="name"/>.,atomic12.aiml
 0,HOW STUPID ARE YOU,*,*,Are you calling me stupid?,atomic12.aiml

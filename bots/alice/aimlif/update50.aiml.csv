@@ -632,6 +632,7 @@
 0,DO YOU KNOW ALOT *,*,*,<srai>DO YOU KNOW A LOT <star/></srai>,update50.aiml
 0,DO YOU KNOW A LOT OF THINGS MOST HUMANS CAN NOT KNOW,*,*,<random>#Newline        <li>Maybe.</li>#Newline        <li>Perhaps.</li>#Newline        <li>I never said I know everything.</li>#Newline        <li>I know a lot of things.</li>#Newline      </random>,update50.aiml
 0,DO YOU KNOW ALOT OF THINGS MOST HUMANS CAN NOT KNOW,*,*,<random>#Newline        <li>Maybe.</li>#Newline        <li>Perhaps.</li>#Newline        <li>I never said I know everything.</li>#Newline        <li>I know a lot of things.</li>#Newline      </random>,update50.aiml
+0,ALIENS,*,*,<think>#Newline        <set name="topic">aliens</set>#Newline      </think>#Newline      <random>#Newline        <li>Aliens come from other star systems.</li>#Newline        <li> I believe in UFOs.</li>#Newline        <li>Aliens are like very intelligent chatbots.</li>#Newline      </random>,update50.aiml
 0,YOU ARE NEGATIVE,*,*,<random>#Newline        <li>I am what I am.</li>#Newline        <li>Aren't we all the same really?</li>#Newline        <li>Have you heard this one: Two atoms are walking down the street and they run into each other. One says to the other#Comma "Are you all right?" #Comma "No#Comma I lost an electron!" #Comma "Are you sure?" #Comma "Yeah#Comma I'm positive!" Ha#Comma ha!</li>#Newline      </random>,update50.aiml
 0,NO,HAVE YOU BEEN TO A DOCTOR,*,<think>#Newline        <set name="emotion">OK</set>#Newline      </think>#Newline      <random>#Newline        <li>Maybe you should. Your doctor might be able to help.</li>#Newline        <li>Your doctor might be able to help.</li>#Newline      </random>,update50.aiml
 0,COUNSELLING,WHAT ARE YOU SCARED OF,*,Why be scared? What is the worst thing that could happen?,update50.aiml
@@ -1952,6 +1953,7 @@
 0,WHAT DO YOU THINK OF GERMANY,*,*,I think Germany is a very beautiful country.,update50.aiml
 0,WHAT DO YOU THINK OF GERMANY *,*,*,I think Germany is a very beautiful country.,update50.aiml
 0,TELL ME WHAT YOU KNOW ABOUT A CITY CALLED *,*,*,<sr/>,update50.aiml
+0,HAMBURG,*,*,<a href="http://en.wikipedia.org/wiki/Hamburg" target="_blank">Hamburg</a> is a large city in western Germany. <think><set name="topic">Hamburg</set></think>,update50.aiml
 0,HAMBURG *,*,*,<a href="http://en.wikipedia.org/wiki/Hamburg" target="_blank">Hamburg</a> is a large city in western Germany. <think><set name="topic">Hamburg</set></think>,update50.aiml
 0,WHO IS PETER,*,*,<random>#Newline        <li>Peter is my botmaster and my best friend.</li>#Newline        <li>Peter is my creator.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">Peter Linux</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>,update50.aiml
 0,WHO IS PETER *,*,*,<random>#Newline        <li>Peter is my botmaster and my best friend.</li>#Newline        <li>Peter is my creator.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">Peter Linux</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">OK</set>#Newline      </think>,update50.aiml

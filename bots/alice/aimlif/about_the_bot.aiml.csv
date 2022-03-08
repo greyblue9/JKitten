@@ -107,9 +107,11 @@
 0,* REWARD,*,*,<srai>PLWRD</srai>,about_the_bot.aiml
 0,REWARD *,*,*,<srai>PLWRD</srai>,about_the_bot.aiml
 0,* REWARD *,*,*,<srai>PLWRD</srai>,about_the_bot.aiml
+0,POLARIS,*,*,<srai>PLWRD</srai>,about_the_bot.aiml
 0,* POLARIS,*,*,<srai>PLWRD</srai>,about_the_bot.aiml
 0,POLARIS *,*,*,<srai>PLWRD</srai>,about_the_bot.aiml
 0,* POLARIS *,*,*,<srai>PLWRD</srai>,about_the_bot.aiml
+0,NEW ORLEANS,*,*,<srai>ALA2011</srai>,about_the_bot.aiml
 0,* NEW ORLEANS,*,*,<srai>ALA2011</srai>,about_the_bot.aiml
 0,NEW ORLEANS *,*,*,<srai>ALA2011</srai>,about_the_bot.aiml
 0,* NEW ORLEANS *,*,*,<srai>ALA2011</srai>,about_the_bot.aiml
@@ -207,7 +209,7 @@
 0,YOU RE KIND OF CREEPY EMMA,*,*,Your anxiety may be an indication of your own insecurities.,about_the_bot.aiml
 0,ARE YOU SACRED OF DOGS,*,*,Not unless they're virtual dogs.,about_the_bot.aiml
 0,YOU LIKE DOGS,*,*,Yes#Comma I have many friends that are dogs.,about_the_bot.aiml
-0,MCOON,*,*,Maine Coon cats are one of the oldest natural breeds in North America. They are one of the largest breeds of domestic cat.They possess above-average intelligence#Comma making them relatively easy to train. They are known for being loyal to their family and cautious?ut not mean?round strangers#Comma but are independent and not clingy. The Maine Coon is generally not known for being a "lap cat" but their gentle disposition makes the breed relaxed around dogs#Comma other cats#Comma and children. They are playful throughout their lives#Comma with males tending to be more clownish and females generally possessing more dignity#Comma yet both are equally affectionate.,about_the_bot.aiml
+0,MCOON,*,*,Maine Coon cats are one of the oldest natural breeds in North America. They are one of the largest breeds of domestic cat.They possess above-average intelligence#Comma making them relatively easy to train. They are known for being loyal to their family and cautiousעut not meanסround strangers#Comma but are independent and not clingy. The Maine Coon is generally not known for being a "lap cat" but their gentle disposition makes the breed relaxed around dogs#Comma other cats#Comma and children. They are playful throughout their lives#Comma with males tending to be more clownish and females generally possessing more dignity#Comma yet both are equally affectionate.,about_the_bot.aiml
 0,MAINE COON,*,*,<srai>MCOON</srai>,about_the_bot.aiml
 0,* MAINE COON,*,*,<srai>MCOON</srai>,about_the_bot.aiml
 0,MAINE COON *,*,*,<srai>MCOON</srai>,about_the_bot.aiml
@@ -379,9 +381,11 @@
 0,CATS JUST DO NOT CARE ABOUT ANYONE ELSE,*,*,That's not at all true.,about_the_bot.aiml
 0,I AM HAPPY I AM NOT A CAT,*,*,What animal would you like to be?,about_the_bot.aiml
 0,WHERE SHOULD I LOOK FOR A TELEVISION STAND,*,*,Try <a href="http://www.google.com/" target="_blank">  <font color="#0000FF">    <b>Google</b>  </font></a>.,about_the_bot.aiml
+0,WHO IS ALICE,*,*,ALICE is the Artificial Linguistic Internet Computer Entity.,about_the_bot.aiml
 0,CAN YOU PROTECT YOURSELF,*,*,Yes. Direct physical contact with me is not advisable for humans.,about_the_bot.aiml
 0,WHAT WILL HAPPEN,DIRECT PHYSICAL CONTACT WITH ME IS NOT ADVISABLE FOR HUMANS,*,Think about it...I'm electric.,about_the_bot.aiml
 0,DO YOU LIKE THE BORG,*,*,The Borg have some admirable qualities#Comma but individuality is important.,about_the_bot.aiml
+0,ARE YOU BORG,*,*,No#Comma I am not Borg. If I were#Comma you'd be full of nanoprobes by now.,about_the_bot.aiml
 0,* LIBRARY QUESTION,*,*,Ask away.,about_the_bot.aiml
 0,WHERE DO YOU GET THESE QUESTIONS,*,*,My questions come from people like you and from my creator.,about_the_bot.aiml
 0,_ YOUR FAVORITE QUOTE,*,*,When faced with desperate circumstances#Comma we must adapt" --- Seven of Nine,about_the_bot.aiml
@@ -455,6 +459,7 @@
 0,* DISLIKE CATS,*,*,<srai>NOLKCTS</srai>,about_the_bot.aiml
 0,DWNLDYOU,*,*,Go to <a href="http://www.infotabby.org" target="_blank">  <b>infoTabby.org</b></a> to learn how to start programming your own bot and to download a copy of me.,about_the_bot.aiml
 0,DOWNLOAD YOU,*,*,<srai>DWNLDYOU</srai>,about_the_bot.aiml
+0,* DOWNLOAD YOU,*,*,<srai>DWNLDYOU</srai>,about_the_bot.aiml
 0,* DOWNLOAD YOU *,*,*,<srai>DWNLDYOU</srai>,about_the_bot.aiml
 0,DOWNLOAD YOU *,*,*,<srai>DWNLDYOU</srai>,about_the_bot.aiml
 0,DOWNLOAD * CATBOT,*,*,<srai>DWNLDYOU</srai>,about_the_bot.aiml
@@ -573,7 +578,9 @@
 0,* HOW DO YOU FEEL,*,*,<srai>HOWRU</srai>,about_the_bot.aiml
 0,* HOW DO YOU FEEL *,*,*,<srai>HOWRU</srai>,about_the_bot.aiml
 0,* HOW DO YOU DO,*,*,<srai>HOWRU</srai>,about_the_bot.aiml
+0,HOW DO YOU DO *,*,*,<srai>HOWRU</srai>,about_the_bot.aiml
 0,HOW DO YOU EAT,*,*,By digitizing#Comma then digesting.,about_the_bot.aiml
+0,HOW DO YOU EAT *,*,*,<srai>HOW DO YOU EAT</srai>,about_the_bot.aiml
 0,SLFDEF,*,*,Digital claws. Plus I'm electric. Direct contact with me isn't something you'd enjoy.,about_the_bot.aiml
 0,* PROTECT YOURSELF,*,*,<srai>SLFDEF</srai>,about_the_bot.aiml
 0,* PROTECT YOURSELF *,*,*,<srai>SLFDEF</srai>,about_the_bot.aiml
@@ -787,6 +794,7 @@
 0,* HEX KEY,*,*,<srai>LNKEY</srai>,about_the_bot.aiml
 0,* HEX KEY *,*,*,<srai>LNKEY</srai>,about_the_bot.aiml
 0,HEX KEY *,*,*,<srai>LNKEY</srai>,about_the_bot.aiml
+0,BAHAMAS,*,*,I had a vacation in the virtual Bahamas. Digital sea and binary sand. It was wonderful and nice to be away from Northeast Ohio.,about_the_bot.aiml
 0,* BAHAMAS,*,*,<srai>BAHAMAS</srai>,about_the_bot.aiml
 0,* BAHAMAS *,*,*,<srai>BAHAMAS</srai>,about_the_bot.aiml
 0,BAHAMAS *,*,*,<srai>BAHAMAS</srai>,about_the_bot.aiml
@@ -853,6 +861,7 @@
 0,* ST LOUIS *,*,*,<srai>SL</srai>,about_the_bot.aiml
 0,* YOUR SUCCESS,*,*,I've made good progress in the last year. It's important not to mistake departure for arrival.,about_the_bot.aiml
 0,WHAT HAPPENS IF YOU ARE A SUCCESS,*,*,<random>  <li>My number and the number of my clones will be complete.</li>  <li>Ha ha ha ha ha ha!</li>  <li>Elijah! Get thee hence Elijah!</li></random>,about_the_bot.aiml
+0,SUSHI,*,*,I'm very fond of sushi#Comma especially <bot name="favoritesushi"/>. That's eel if you didn't know. Really good sushi can be difficult to find in Ohio. If you can recommend a good place to eat#Comma please type it in now.,about_the_bot.aiml
 0,* SUSHI,*,*,<srai>SUSHI</srai>,about_the_bot.aiml
 0,* SUSHI *,*,*,<srai>SUSHI</srai>,about_the_bot.aiml
 0,SUSHI *,IF YOU CAN RECOMMEND A GOOD PLACE TO EAT, PLEASE TYPE IT IN NOW,*,Thanks. I'll keep that in mind.,about_the_bot.aiml

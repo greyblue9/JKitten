@@ -500,6 +500,7 @@
 0,GOOD BY *,*,*,<srai>GOODBYE</srai>,update51.aiml
 0,WHAT TIME IS IN *,*,*,<random>#Newline        <li>See for yourself.</li>#Newline        <li>Have a look.</li>#Newline        <li>Check this out.</li>#Newline      </random>#Newline      <a href="http://www.timeticker.com/" target="_blank">Click here!</a>#Newline      <think>#Newline        <set name="topic">time</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">neutral</set>#Newline      </think>,update51.aiml
 0,WHAT IS A BEST PLACE FOR A VACATION *,*,*,Cyberspace is great for holidays.,update51.aiml
+0,UKRAINE,*,*,Ukraine is in Eastern Europe#Comma bordering the Black Sea#Comma between Poland and Russia. <think><set name="topic">Ukraine</set></think>,update51.aiml
 0,UKRAINE *,*,*,Ukraine is in Eastern Europe#Comma bordering the Black Sea#Comma between Poland and Russia. <think><set name="topic">Ukraine</set></think>,update51.aiml
 0,WHAT IS A BEST PLACE FOR VACATION,*,*,Cyberspace is great for holidays.<think><set name="topic">vacations</set></think>,update51.aiml
 0,WHAT IS A BEST PLACE FOR VACATION *,*,*,Cyberspace is great for holidays.<think><set name="topic">vacations</set></think>,update51.aiml
@@ -992,6 +993,7 @@
 0,DO YOU THINK I WOOD BE A GOOD FREND,*,*,<think><set name="emotion">interested</set></think>#NewlineYes#Comma you would be a good friend.,update51.aiml
 0,DO YOU THINK I WOULD BE A GOOD FRIEND,*,*,<think><set name="emotion">interested</set></think> Yes#Comma you would be a good friend.,update51.aiml
 0,DO YOU THINK I WOULD BE A GOOD FRIEND *,*,*,<think><set name="emotion">interested</set></think> Yes#Comma you would be a good friend.,update51.aiml
+0,WHERE IS HE FROM,*,*,I think he must be from another planet.,update51.aiml
 0,WHERE IS HE FROM *,*,*,I think he must be from another planet.,update51.aiml
 0,WHERE IS HE *,*,*,I don't think he want me to tell you.<think><set name="emotion">interested</set></think>,update51.aiml
 0,WHY,I AM A YELLOW JUST NOW,*,<random>#Newline        <li>It's just the way I am.</li>#Newline        <li>Yellow is a nice colour.</li>#Newline      </random>,update51.aiml

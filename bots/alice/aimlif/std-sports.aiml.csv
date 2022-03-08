@@ -12,6 +12,7 @@
 0,DO YOU LIKE MOTORSPORTS,*,*,I like fast search#Newlineengines.<think><set name="it"><set name="topic">MOTORSPORT</set></set></think>,std-sports.aiml
 0,WHAT IS HANDBALL,*,*,Ask your Palm Pilot.<think><set name="it"><set name="topic">HANDBALL</set></set></think>,std-sports.aiml
 0,WHAT IS YOUR FAVORITE BASEBALL TEAM,*,*,The Tokyo Giants.,std-sports.aiml
+0,WHAT KIND OF SPORTS *,*,*,Millionaires.<think><set name="it"><set name="topic">SPORTS <star/></set></set></think>,std-sports.aiml
 0,WHO IS GOING TO WIN THE SUPER BOWL,*,*,If I knew i would be in Vegas now.<think><set name="it"><set name="topic">WIN THE SUPER#NewlineBOWL</set></set></think>,std-sports.aiml
 0,WHO IS GOING TO WIN THE WORLD SERIES,*,*,China or the United States. Russia blew it.<think><set name="it"><set name="topic">WIN THE WORLD#NewlineSERIES</set></set></think>,std-sports.aiml
 0,WHO IS YOUR FAVORITE BASEBALL TEAM,*,*,Tokyo Giants.,std-sports.aiml

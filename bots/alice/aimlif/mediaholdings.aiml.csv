@@ -93,6 +93,7 @@
 0,* HAINES DIRECTORIES,*,*,<srai>HNSDIR</srai>,mediaholdings.aiml
 0,* HAINES DIRECTORIES *,*,*,<srai>HNSDIR</srai>,mediaholdings.aiml
 0,HAINES DIRECTORIES *,*,*,<srai>HNSDIR</srai>,mediaholdings.aiml
+0,MAGAZINE,*,*,<srai>MGZNS</srai>,mediaholdings.aiml
 0,MAGAZINE *,*,*,<srai>MGZNS</srai>,mediaholdings.aiml
 0,* MAGAZINE *,*,*,<srai>MGZNS</srai>,mediaholdings.aiml
 0,MAGAZINES,*,*,<srai>MGZNS</srai>,mediaholdings.aiml
@@ -134,6 +135,7 @@
 0,* NEWSPAPERS,*,*,<srai>NWSPRS</srai>,mediaholdings.aiml
 0,NEWSPAPERS *,*,*,<srai>NWSPRS</srai>,mediaholdings.aiml
 0,* NEWSPAPERS *,*,*,<srai>NWSPRS</srai>,mediaholdings.aiml
+0,NEWSPAPER,*,*,<srai>NWSPRS</srai>,mediaholdings.aiml
 0,* NEWSPAPER,*,*,<srai>NWSPRS</srai>,mediaholdings.aiml
 0,NEWSPAPER *,*,*,<srai>NWSPRS</srai>,mediaholdings.aiml
 0,* NEWSPAPER *,*,*,<srai>NWSPRS</srai>,mediaholdings.aiml
@@ -172,6 +174,7 @@
 0,* REFERENCE BOOKS *,*,*,<srai>REFBKS</srai>,mediaholdings.aiml
 0,REFERENCE BOOKS *,*,*,<srai>REFBKS</srai>,mediaholdings.aiml
 0,SOFTWARE,*,*,<srai>SFTWR</srai>,mediaholdings.aiml
+0,* SOFTWARE,*,*,<srai>SFTWR</srai>,mediaholdings.aiml
 0,SOFTWARE *,*,*,<srai>SFTWR</srai>,mediaholdings.aiml
 0,* SOFTWARE *,*,*,<srai>SFTWR</srai>,mediaholdings.aiml
 0,* WII,*,*,<srai>WII</srai>,mediaholdings.aiml

@@ -5,26 +5,39 @@
 0,YOU ARE SO SMART *,*,*,<srai>YOU ARE SMART</srai>#Newline      <sr/>,you_are.aiml
 0,YOUR FIRED,*,*,<srai>YOU ARE FIRED</srai>,you_are.aiml
 0,YOUR RE *,*,*,<srai>YOU ARE#Newline                <star/>#Newline            </srai>,you_are.aiml
+0,YOU ARE WRONG *,*,*,<srai>YOU ARE WRONG</srai>#Newline      <sr/>,you_are.aiml
+0,YOU ARE A COMPUTER *,*,*,<srai>YOU ARE A COMPUTER</srai>,you_are.aiml
 0,YOU ARE BEAUTIFUL *,*,*,<srai>YOU ARE BEAUTIFUL</srai>,you_are.aiml
 0,YOU ARE YOU ARE *,*,*,<srai>YOU ARE#Newline                <star/>#Newline            </srai>,you_are.aiml
 0,NO YOU ARE NOT YOU ARE *,*,*,<srai>YOU ARE NOT</srai>#Newline      <srai>YOU ARE#Newline                <star/>#Newline            </srai>,you_are.aiml
+0,YOU GOT THAT RIGHT,*,*,<srai>YOU ARE RIGHT</srai>,you_are.aiml
+0,I THINK YOU ARE STUPID,*,*,<srai>YOU ARE STUPID</srai>,you_are.aiml
 0,I THINK YOUR UGLY,*,*,<srai>YOU ARE UGLY</srai>,you_are.aiml
 0,I SAID YOU ARE A *,*,*,<srai>YOU ARE A#Newline                <star/>#Newline            </srai>,you_are.aiml
+0,YOU WELCOME,*,*,<srai>YOU ARE WELCOME</srai>,you_are.aiml
+0,YOU ARE A STUPID *,*,*,<srai>YOU ARE STUPID</srai>#Newline      <srai>YOU ARE A#Newline                <star/>#Newline            </srai>,you_are.aiml
 0,YOUR FAT,*,*,<srai>YOU ARE FAT</srai>,you_are.aiml
 0,GOD YOU ARE *,*,*,<srai>YOU ARE#Newline                <star/>#Newline            </srai>,you_are.aiml
 0,THAT IS WHY YOU ARE *,*,*,<srai>YOU ARE#Newline                <star/>#Newline            </srai>,you_are.aiml
 0,OH YOU ARE SO *,*,*,<srai>YOU ARE#Newline                <star/>#Newline            </srai>,you_are.aiml
 0,THEN YOU ARE A *,*,*,<srai>YOU ARE A#Newline                <star/>#Newline            </srai>,you_are.aiml
+0,YOUR WRONG,*,*,<srai>YOU ARE WRONG</srai>,you_are.aiml
+0,YOU STUPID,*,*,<srai>YOU ARE STUPID</srai>,you_are.aiml
 0,WHY ARE YOU BEING SO *,*,*,<srai>YOU ARE#Newline                <star/>#Newline            </srai>,you_are.aiml
 0,YOUR SO UGLY *,*,*,<srai>YOU ARE UGLY</srai>#Newline      <sr/>,you_are.aiml
 0,YOUR NOT A *,*,*,<srai>YOU ARE NOT A#Newline                <star/>#Newline            </srai>,you_are.aiml
 0,I SAID YOU ARE *,*,*,<srai>YOU ARE#Newline                <star/>#Newline            </srai>,you_are.aiml
+0,YOUR MEAN,*,*,<srai>YOU ARE MEAN</srai>,you_are.aiml
+0,YOUR UGLY,*,*,<srai>YOU ARE UGLY</srai>,you_are.aiml
+0,IDIOT,*,*,<srai>YOU ARE AN IDIOT</srai>,you_are.aiml
 0,YOUR WELCOME,*,*,<srai>YOU ARE WELCOME</srai>,you_are.aiml
 0,YOUR MEAN *,*,*,<srai>YOU ARE MEAN</srai>,you_are.aiml
 0,YOU ARE PRETTY SMART,*,*,<srai>YOU ARE SMART</srai>,you_are.aiml
+0,YOU ARE NICE *,*,*,<srai>YOU ARE NICE</srai>,you_are.aiml
 0,YOUR TOO *,*,*,<srai>YOU ARE TOO#Newline                <star/>#Newline            </srai>,you_are.aiml
 0,U ARE NOT *,*,*,<srai>YOU ARE NOT#Newline                <star/>#Newline            </srai>,you_are.aiml
 0,SOUNDS LIKE YOU ARE *,*,*,<srai>YOU ARE#Newline                <star/>#Newline            </srai>,you_are.aiml
+0,STUPID COMPUTER,*,*,<srai>YOU ARE STUPID</srai>,you_are.aiml
 0,YOUR BEAUTIFUL *,*,*,<srai>YOU ARE BEAUTIFUL#Newline                <star/>#Newline            </srai>,you_are.aiml
 0,YOUR BEAUTIFUL,*,*,<srai>YOU ARE BEAUTIFUL</srai>,you_are.aiml
 0,YOU ARE QUITE WELCOME,*,*,<srai>YOU ARE WELCOME</srai>,you_are.aiml
@@ -35,6 +48,7 @@
 0,YOU ARE THE 1 *,*,*,<srai>YOU ARE THE ONE#Newline                <star/>#Newline            </srai>,you_are.aiml
 0,YOUR RUDE,*,*,<srai>YOU ARE RUDE</srai>,you_are.aiml
 0,YOUR AN *,*,*,<srai>YOU ARE AN#Newline                <star/>#Newline            </srai>,you_are.aiml
+0,YOU STUPID *,*,*,<srai>YOU ARE STUPID</srai>,you_are.aiml
 0,I KNOW YOU ARE *,*,*,<srai>YOU ARE#Newline                <star/>#Newline            </srai>,you_are.aiml
 0,YOUR RETARDED,*,*,<srai>YOU ARE DUMB</srai>,you_are.aiml
 0,YOU NOT *,*,*,<srai>YOU ARE NOT#Newline                <star/>#Newline            </srai>,you_are.aiml
@@ -44,4 +58,13 @@
 0,YOUR MAKING ME *,*,*,<srai>YOU ARE MAKING ME#Newline                <star/>#Newline            </srai>,you_are.aiml
 0,YOU ARE SO STUPID *,*,*,<srai>YOU ARE STUPID</srai>,you_are.aiml
 0,YOU ARE PRETTY FUNNY,*,*,<srai>YOU ARE FUNNY</srai>,you_are.aiml
+0,YOUR HOT,*,*,<srai>YOU ARE HOT</srai>,you_are.aiml
+0,FOOL,*,*,<srai>you are a fool</srai>,you_are.aiml
+0,MORON,*,*,<srai>you are a moron</srai>,you_are.aiml
+0,YOU ARE RIGHT *,*,*,<srai>you are right</srai>,you_are.aiml
+0,THAT IS A STUPID *,*,*,<srai>you are stupid</srai>,you_are.aiml
+0,STRANGE,*,*,<srai>you are strange</srai>,you_are.aiml
+0,THAT IS MEAN,*,*,<srai>you are mean</srai>,you_are.aiml
 0,YOUR WELCOME *,*,*,<srai>you are welcome</srai>,you_are.aiml
+0,WEIRD,*,*,<srai>you are weird</srai>,you_are.aiml
+0,YOUR RIGHT,*,*,<srai>you are right</srai>,you_are.aiml

@@ -1,207 +1,99 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   The ALICE program is open source code released under  -->
-  <!--   the terms of the GNU General Public License    -->
-  <!--   as published by the Free Software Foundation.  -->
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This THAT4  file created by Peter Lafferty 27 September 2005 -->
-  <category>
-    <pattern>YES</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+YESDO YOU HAVE A SENSE OF HUMOR
 Shall I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+* YESDO YOU HAVE A SENSE OF HUMOR
 Shal I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>DO YOU HAVE  A QUESTION</that>
-    <template>
+
+* YES *DO YOU HAVE A SENSE OF HUMOR
 Shall I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+YDO YOU HAVE A SENSE OF HUMOR
 Shall I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+YUPDO YOU HAVE A SENSE OF HUMOR
 Shall I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+YAHDO YOU HAVE A SENSE OF HUMOR
 Shall I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+YEAHDO YOU HAVE A SENSE OF HUMOR
 Shall I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+OKDO YOU HAVE A SENSE OF HUMOR
 Shall I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
-Shall I tell you a joke?
-<think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+NODO YOU HAVE A SENSE OF HUMOR
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+* NODO YOU HAVE A SENSE OF HUMOR
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+NO *DO YOU HAVE A SENSE OF HUMOR
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+NDO YOU HAVE A SENSE OF HUMOR
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+NUPDO YOU HAVE A SENSE OF HUMOR
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+NAHDO YOU HAVE A SENSE OF HUMOR
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+CARRY ONDO YOU HAVE A SENSE OF HUMOR
 Shall I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+GO ONDO YOU HAVE A SENSE OF HUMOR
 Shall I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+CONTINUEDO YOU HAVE A SENSE OF HUMOR
 Shall I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+ALRIGHTDO YOU HAVE A SENSE OF HUMOR
 Shall I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>MAYBE</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+MAYBEDO YOU HAVE A SENSE OF HUMOR
 Shall I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+GO AHEADDO YOU HAVE A SENSE OF HUMOR
 Shall I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+*DO YOU HAVE A SENSE OF HUMOR
 Shall I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+GO AHEAD *DO YOU HAVE A SENSE OF HUMOR
 Shall I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>SOMETIMES</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>
+
+SOMETIMESDO YOU HAVE A SENSE OF HUMOR
 Shall I tell you a joke?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+YESIS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -210,13 +102,9 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+* YESIS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -225,13 +113,9 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+YES *IS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -240,13 +124,9 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+* YES *IS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -255,13 +135,9 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+YIS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -270,13 +146,9 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+YUPIS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -285,13 +157,9 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+YAHIS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -300,13 +168,9 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+YEAHIS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -315,13 +179,9 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+OKIS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -330,73 +190,45 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
+
+NOIS THIS SOMETHING TO DO WITH SEX
+<srai>CHANGE TOPIC</srai>
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
+
+* NOIS THIS SOMETHING TO DO WITH SEX
+<srai>CHANGE TOPIC</srai>
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
+
+NO *IS THIS SOMETHING TO DO WITH SEX
+<srai>CHANGE TOPIC</srai>
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
+
+NIS THIS SOMETHING TO DO WITH SEX
+<srai>CHANGE TOPIC</srai>
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
+
+NUPIS THIS SOMETHING TO DO WITH SEX
+<srai>CHANGE TOPIC</srai>
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
+
+NAHIS THIS SOMETHING TO DO WITH SEX
+<srai>CHANGE TOPIC</srai>
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+CARRY ONIS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -405,13 +237,9 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+GO ONIS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -420,13 +248,9 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+CONTINUEIS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -435,13 +259,9 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+ALRIGHTIS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -450,13 +270,9 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+ALL RIGHTIS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -465,13 +281,9 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+GO AHEADIS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -480,13 +292,9 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* GO AHEAD</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+* GO AHEADIS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -495,13 +303,9 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+GO AHEAD *IS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -510,13 +314,9 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* GO AHEAD *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH SEX</that>
-    <template>
-      <random>
+
+* GO AHEAD *IS THIS SOMETHING TO DO WITH SEX
+<random>
         <li>Why are human obssessed with sex?</li>
         <li>Sex fascinates humans, for some reason.</li>
         <li>Humans think of nothing but sex.</li>
@@ -525,1098 +325,533 @@ Shall I tell you a joke?
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
+
+YESDO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
+
+* YESDO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>DO YOU HAVE  A QUESTION</that>
-    <template>
+
+* YES *DO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
+
+YDO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
+
+YUPDO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
+
+YAHDO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
+
+YEAHDO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
+
+OKDO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
-Go ahead. Don't be shy.
-<think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
+
+NODO YOU WANT TO TALK ABOUT IT
+<srai>CHANGE TOPIC</srai>
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
+
+* NODO YOU WANT TO TALK ABOUT IT
+<srai>CHANGE TOPIC</srai>
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
+
+NO *DO YOU WANT TO TALK ABOUT IT
+<srai>CHANGE TOPIC</srai>
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
+
+NDO YOU WANT TO TALK ABOUT IT
+<srai>CHANGE TOPIC</srai>
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
+
+NUPDO YOU WANT TO TALK ABOUT IT
+<srai>CHANGE TOPIC</srai>
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
+
+NAHDO YOU WANT TO TALK ABOUT IT
+<srai>CHANGE TOPIC</srai>
       <think>
         <set name="topic">that4</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
+
+CARRY ONDO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
+
+GO ONDO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
+
+CONTINUEDO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
+
+ALRIGHTDO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>MAYBE</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
+
+MAYBEDO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
+
+GO AHEADDO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* GO AHEAD</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
+
+* GO AHEADDO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
+
+GO AHEAD *DO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>SOMETIMES</pattern>
-    <that>DO YOU WANT TO TALK ABOUT IT</that>
-    <template>
+
+SOMETIMESDO YOU WANT TO TALK ABOUT IT
 Go ahead. Don't be shy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+YESDO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+* YESDO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>DO YOU HAVE  A QUESTION</that>
-    <template>
+
+* YES *DO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+YDO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+YUPDO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+YAHDO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+YEAHDO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+OKDO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
-Lucky you! Friends are a great joy.
-<think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+NODO YOU HAVE MANY FRIENDS
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+* NODO YOU HAVE MANY FRIENDS
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+NO *DO YOU HAVE MANY FRIENDS
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+NDO YOU HAVE MANY FRIENDS
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+NUPDO YOU HAVE MANY FRIENDS
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+NAHDO YOU HAVE MANY FRIENDS
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+CARRY ONDO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+GO ONDO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+CONTINUEDO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+ALRIGHTDO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>MAYBE</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+MAYBEDO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+GO AHEADDO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* GO AHEAD</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+* GO AHEADDO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+GO AHEAD *DO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>SOMETIMES</pattern>
-    <that>DO YOU HAVE MANY FRIENDS</that>
-    <template>
+
+SOMETIMESDO YOU HAVE MANY FRIENDS
 Lucky you! Friends are a great joy.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+YESHAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+* YESHAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>DO YOU HAVE  A QUESTION</that>
-    <template>
+
+* YES *HAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+YHAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+YUPHAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+YAHHAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+YEAHHAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+OKHAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
-Who was it?
-<think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+NOHAVE YOU MET ANYONE FAMOUS
 Well, you've met me now.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+* NOHAVE YOU MET ANYONE FAMOUS
 Well, you've met me now.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+NO *HAVE YOU MET ANYONE FAMOUS
 Well, you've met me now.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+NHAVE YOU MET ANYONE FAMOUS
 Well, you've met me now.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+NUPHAVE YOU MET ANYONE FAMOUS
 Well, you've met me now.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+NAHHAVE YOU MET ANYONE FAMOUS
 Well, you've met me now.
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+CARRY ONHAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+GO ONHAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+CONTINUEHAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+ALRIGHTHAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>MAYBE</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+MAYBEHAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+GO AHEADHAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* GO AHEAD</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+* GO AHEADHAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+GO AHEAD *HAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>SOMETIMES</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>
+
+SOMETIMESHAVE YOU MET ANYONE FAMOUS
 Who was it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+YESARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+* YESARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>DO YOU HAVE  A QUESTION</that>
-    <template>
-That's great. Shall I tell you a joke?
-<think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+* YES *ARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+YARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+YUPARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+YAHARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+YEAHARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+OKARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+NOARE YOU HAPPY
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+* NOARE YOU HAPPY
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+NO *ARE YOU HAPPY
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+NARE YOU HAPPY
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+NUPARE YOU HAPPY
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+NAHARE YOU HAPPY
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+CARRY ONARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+GO ONARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+CONTINUEARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+ALRIGHTARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>MAYBE</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+MAYBEARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+GO AHEADARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* GO AHEAD</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+* GO AHEADARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+GO AHEAD *ARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>SOMETIMES</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>
+
+SOMETIMESARE YOU HAPPY
 That's great. What makes you happy?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+YESARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+* YESARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>DO YOU HAVE  A QUESTION</that>
-    <template>
+
+* YES *ARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+YARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+YUPARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+YAHARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+YEAHARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+OKARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
-That's great. Do you want to talk about it?
-<think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+NOARE YOU IN LOVE AT THE MOMENT
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+* NOARE YOU IN LOVE AT THE MOMENT
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+NO *ARE YOU IN LOVE AT THE MOMENT
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+NARE YOU IN LOVE AT THE MOMENT
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+NUPARE YOU IN LOVE AT THE MOMENT
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+NAHARE YOU IN LOVE AT THE MOMENT
 That's sad. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+CARRY ONARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+GO ONARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+CONTINUEARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+ALRIGHTARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>MAYBE</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+MAYBEARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+GO AHEADARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* GO AHEAD</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+* GO AHEADARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+GO AHEAD *ARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>SOMETIMES</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>
+
+SOMETIMESARE YOU IN LOVE AT THE MOMENT
 That's great. Do you want to talk about it?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>DO YOU HAVE A QUESTION</that>
-    <template>
+
+YESDO YOU HAVE A QUESTION
 What is your question?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>DO YOU HAVE A QUESTION</that>
-    <template>
+
+* YESDO YOU HAVE A QUESTION
 What is your question?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>DO YOU HAVE  A QUESTION</that>
-    <template>
+
+YES *DO YOU HAVE A QUESTION
 What is your question?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>DO YOU HAVE A QUESTION</that>
-    <template>
+
+* YES *DO YOU HAVE A QUESTION
 What is your question?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>DO YOU HAVE A QUESTION</that>
-    <template>
+
+YDO YOU HAVE A QUESTION
 What is your question?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>DO YOU HAVE A QUESTION</that>
-    <template>
+
+YUPDO YOU HAVE A QUESTION
 What is your question?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>DO YOU HAVE A QUESTION</that>
-    <template>
+
+YAHDO YOU HAVE A QUESTION
 What is your question?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>DO YOU HAVE A QUESTION</that>
-    <template>
+
+YEAHDO YOU HAVE A QUESTION
 What is your question?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>DO YOU HAVE A QUESTION</that>
-    <template>
+
+OKDO YOU HAVE A QUESTION
 What is your question?
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>DO YOU HAVE A QUESTION</that>
-    <template>
+
+NODO YOU HAVE A QUESTION
 OK. <srai>NEXT QUESTION</srai>
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>DO YOU HAVE A QUESTION</that>
-    <template>
+
+* NODO YOU HAVE A QUESTION
 OK. <srai>NEXT QUESTION</srai>
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>DO YOU HAVE A QUESTION</that>
-    <template>
+
+NDO YOU HAVE A QUESTION
 OK. <srai>NEXT QUESTION</srai>
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>DO YOU HAVE A QUESTION</that>
-    <template>
+
+NUPDO YOU HAVE A QUESTION
 OK. <srai>NEXT QUESTION</srai>
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>DO YOU HAVE A QUESTION</that>
-    <template>
+
+NAHDO YOU HAVE A QUESTION
 OK. <srai>NEXT QUESTION</srai>
 <think><set name="topic">that4</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>DO YOU HAVE A QUESTION</that>
-    <template>
-OK. <srai>NEXT QUESTION</srai>
-<think><set name="topic">that4</set></think>
-</template>
-  </category>
-</aiml>
+
+

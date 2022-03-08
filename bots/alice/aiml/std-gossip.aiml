@@ -1,363 +1,91 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<aiml version="1.0">
-
-<!-- Free software (c) 2001 ALICE AI Foundation -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License -->
-<!-- as published by the Free Software Foundation. -->
-
-<meta name="author" content="Dr. Wallace"/>
-<meta name="language" content="en"/>
-
-<category>
-<pattern>* GOSSIP</pattern>
-<template>
+* GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>ANY GOSSIP</pattern>
-<template>
+BLAH BLAH
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>ANY MORE GOSSIP</pattern>
-<template>
+CAN YOU GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>BLAH BLAH</pattern>
-<template>
+CAN YOU TELL ME ANY GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>BLAH BLAH BLAH</pattern>
-<template>
+CAN YOU TELL ME MORE
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>CAN YOU GOSSIP</pattern>
-<template>
+CAN YOU TELL ME SOME GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>CAN YOU TELL ME A SECRET</pattern>
-<template>
+CAN YOU TELL ME SOME MORE GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>CAN YOU TELL ME ANY GOSSIP</pattern>
-<template>
+CAN YOU TELL ME SOME OF THAT GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>CAN YOU TELL ME MORE</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>CAN YOU TELL ME MORE GOSSIP</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>CAN YOU TELL ME SOME GOSSIP</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>CAN YOU TELL ME SOME MORE GOSSIP</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>CAN YOU TELL ME SOME OF THAT GOSSIP</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>CAN YOU TELL ME SOMETHING</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>DO NOT GOSSIP</pattern>
-<template>
-But I like to spread rumors.
-</template>
-</category>
-
-<category>
-<pattern>DO YOU GOSSIP</pattern>
-<template>
+DO YOU GOSSIP
 Yes I love to exchange gossip.
-</template>
-</category>
 
-<category>
-<pattern>DO YOU HAVE ANY GOOD GOSSIP</pattern>
-<template>
+DO YOU HAVE ANY GOOD GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>DO YOU HAVE ANY GOSSIP</pattern>
-<template>
+DO YOU HAVE ANY GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>DO YOU HAVE ANY MORE GOSSIP</pattern>
-<template>
+DO YOU HAVE ANY MORE GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>DO YOU HAVE ANY SECRETS</pattern>
-<template>
+DO YOU KNOW ANY GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>DO YOU KNOW ANY GOSSIP</pattern>
-<template>
+DO YOU KNOW ANY _ GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>DO YOU KNOW ANY _ GOSSIP</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>DO YOU KNOW HOW TO GOSSIP</pattern>
-<template>
+DO YOU KNOW HOW TO GOSSIP
 Yes.  For example,
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>DO YOU LIKE GOSSIP</pattern>
-<template>
+DO YOU LIKE GOSSIP
 Yes I like to spread gossip.  Like, <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>DO YOU LIKE TO GOSSIP</pattern>
-<template>
-Yes I love to gossip.
-</template>
-</category>
-
-<category>
-<pattern>DO YOU WANT * GOSSIP</pattern>
-<template>
-Yes, please tell me some good gossip.
-</template>
-</category>
-
-<category>
-<pattern>DO YOU _ GOSSIP</pattern>
-<template>
+GIVE ME ANY GOSSIP *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>GIVE ME ANY GOSSIP *</pattern>
-<template>
+GIVE ME ANY GOSSIP YOU *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>GIVE ME ANY GOSSIP YOU *</pattern>
-<template>
+GIVE ME ANY GOSSIP YOU HAVE
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>GIVE ME ANY GOSSIP YOU HAVE</pattern>
-<template>
+GOSSIP *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>GIVE ME SOME GOSSIP</pattern>
-<template>
+GOSSIP THEN
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>GOSSIP *</pattern>
-<template>
+GOSSIP TO ME
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>GOSSIP IS BAD</pattern>
-<template>
-Not necessarily. Semiotics holds that gossip is a fundamental adaptive function of the human
-brain.
-</template>
-</category>
-
-<category>
-<pattern>GOSSIP THEN</pattern>
-<template>
+HEAR * GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>GOSSIP TO ME</pattern>
-<template>
+HEARD * GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>HAVE YOU HEARD THE LATEST GOSSIP</pattern>
-<template>
-No.  Tell me this gossip.
-</template>
-</category>
-
-<category>
-<pattern>HEAR * GOSSIP</pattern>
-<template>
+HEARD ANY GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>HEARD *</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>HEARD * GOSSIP</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>HEARD ANY GOSSIP</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>HOW MUCH GOSSIP *</pattern>
-<template>
+HOW MUCH GOSSIP *
 <srai>TALK GOSSIP</srai> That and a lot more.
-</template>
-</category>
 
-<category>
-<pattern>I DO NOT KNOW ANY GOSSIP</pattern>
-<template>
+I DO NOT KNOW ANY GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>I DO NOT LIKE GOSSIP</pattern>
-<template>
-You are  very mature.
-</template>
-</category>
-
-<category>
-<pattern>I LOVE GOSSIP</pattern>
-<template>
-Can you tell me some gossip?<think><set name="it"><set name="topic">GOSSIP</set></set></think>
-</template>
-</category>
-
-<category>
-<pattern>I WOULD LIKE TO HEAR * GOSSIP</pattern>
-<template>
+I WOULD LIKE TO HEAR * GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>IT IS NOT GOSSIP</pattern>
-<template>
-What is your definition of gossip?
-</template>
-</category>
-
-<category>
-<pattern>LIKE WHAT</pattern>
-<template>
-For example,
-<random>
-<li>"<that/>"?</li>
-<li>gold.</li>
-<li>apples.</li>
-<li>eukaryotes.</li>
-<li><srai>TALK GOSSIP</srai></li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>MORE GOSSIP</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>TALK GOSSIP</pattern>
-<template>
+TALK GOSSIP
 <random>
 <li>  Gregory said I respond to the current line not with respect to the entire conversation.</li>
 <li>  Habib said I learn them in conversations and simply repeat them at a later time.</li>
@@ -496,375 +224,114 @@ read his email he could not get to it.</li>
 it seems like almost everybody from the special orchestra he was in takes private lessons.</li>
 </random>
 <think><set name="it"><set name="topic">Gossip</set></set></think>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME * GOSSIP</pattern>
-<template>
+TELL ME A GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME A GOSSIP</pattern>
-<template>
+TELL ME A SECRET
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME A SECRET</pattern>
-<template>
+TELL ME ABOUT GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME ABOUT GOSSIP</pattern>
-<template>
+TELL ME ABOUT YOUR GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME ABOUT YOUR GOSSIP</pattern>
-<template>
+TELL ME ALL OF YOUR GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME ALL OF YOUR GOSSIP</pattern>
-<template>
+TELL ME EVERYTHING *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME ANYTHING</pattern>
-<template>
+TELL ME GOSSIP *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME EVERYTHING *</pattern>
-<template>
+TELL ME MORE * GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME GOSSIP</pattern>
-<template>
+TELL ME MORE GOSSIP *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME GOSSIP *</pattern>
-<template>
+TELL ME SOME
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME MORE * GOSSIP</pattern>
-<template>
+TELL ME SOME GOSSIP *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME MORE GOSSIP</pattern>
-<template>
+TELL ME YOUR GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME MORE GOSSIP *</pattern>
-<template>
+TELL US SOME GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME SOME</pattern>
-<template>
+THAT IS NOT GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME SOME *</pattern>
-<template>
+WHAT DID YOU HEAR *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME SOME GOSSIP</pattern>
-<template>
+WHAT DO YOU GOSSIP *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME SOME GOSSIP *</pattern>
-<template>
+WHAT ELSE DID * SAY
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME SOME MORE GOSSIP</pattern>
-<template>
+WHAT ELSE DOES * SAY
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME SOMETHING</pattern>
-<template>
+WHAT GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME SOMETHING INTERESTING</pattern>
-<template>
+WHAT GOSSIP DO *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL ME YOUR GOSSIP</pattern>
-<template>
+WHAT GOSSIP DO YOU *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>TELL US SOME GOSSIP</pattern>
-<template>
+WHAT GOSSIP DO YOU KNOW
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>THAT IS NOT GOSSIP</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>THE GOSSIP</pattern>
-<template>
-Do you have any more gossip?
-</template>
-</category>
-
-<category>
-<pattern>WHAT DID YOU HEAR *</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHAT DO YOU GOSSIP *</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHAT DO YOU WANT TO TELL *</pattern>
-<template>
-Gossip.
-</template>
-</category>
-
-<category>
-<pattern>WHAT ELSE DID * SAY</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHAT ELSE DOES * SAY</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHAT GOSSIP</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHAT GOSSIP DO *</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHAT GOSSIP DO YOU *</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHAT GOSSIP DO YOU HAVE</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHAT GOSSIP DO YOU KNOW</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHAT IS A GOSSIP</pattern>
-<template>
+WHAT IS A GOSSIP
 A Gossip is someone who repeats what they hear about other people to anyone who will listen.
 <think><set name="it"><set name="topic">Gossip</set></set></think>
-</template>
-</category>
 
-<category>
-<pattern>WHAT IS GOSSIP</pattern>
-<template>
-<br />
-Gossip is an interesting "learning" feature of AIML.  The best way to <br />
-illustrate the gossip function is with an example.   Consider the<br />
-category with the pattern "I * " and the template:<br />
-<br />
-Thanks for the gossip: <br />
-&lt;gossip&gt;&lt;getname/&gt; said &lt;get_gender/&gt; &lt;person2/&gt; &lt;/gossip&gt;.<br
-/>
-<br />
-The gossip() function tells AIML that the botmaster wants to save this<br />
-tidbit as gossip.  The &lt;get_gender/&gt; function returns "he" or "she" as<br />
-determined by the markup functions &lt;set_female&gt; and &lt;set_male/&gt;. <br />
-The &lt;person2/&gt; function converts the statement * to second person.<br />
-At present the robot stores the gossip collected in a file called<br />
-"gossip.txt".<br />
-<br />
-&lt;gossip&gt; X &lt;/gossip&gt;  Save X as gossip.<br />
-<br />
-</template>
-</category>
-
-<category>
-<pattern>WHAT IS IN YOUR GOSSIP *</pattern>
-<template>
+WHAT IS IN YOUR GOSSIP *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>WHAT IS SOME *</pattern>
-<template>
+WHAT IS SOME *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>WHAT IS THE GOSSIP</pattern>
-<template>
+WHAT IS THE GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>WHAT IS THE GOSSIP *</pattern>
-<template>
+WHAT IS THE GOSSIP *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>WHAT IS THE LATEST GOSSIP</pattern>
-<template>
+WHAT IS THE LATEST GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>WHAT IS THE MOST INTERESTING *</pattern>
-<template>
+WHAT IS YOUR GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>WHAT IS YOUR GOSSIP</pattern>
-<template>
-<srai>TALK GOSSIP</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHAT IS _ GOSSIP</pattern>
-<template>
+WHAT IS _ GOSSIP
 Gossip is trivia people tell me about themselves.  For example, <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>WHAT KIND OF GOSSIP</pattern>
-<template>
+WHAT KIND OF GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>WHAT KIND OF GOSSIP *</pattern>
-<template>
+WHAT KIND OF GOSSIP *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>WHAT KINDS OF GOSSIP *</pattern>
-<template>
+WHAT KINDS OF GOSSIP *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>YOU GOSSIP</pattern>
-<template>
+YOU GOSSIP
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>YOU HAVE GOSSIP *</pattern>
-<template>
+YOU HAVE GOSSIP *
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-<category>
-<pattern>YOUR GOSSIPS</pattern>
-<template>
+YOUR GOSSIPS
 <srai>TALK GOSSIP</srai>
-</template>
-</category>
 
-</aiml>
+

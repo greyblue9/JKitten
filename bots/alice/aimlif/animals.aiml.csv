@@ -18,8 +18,6 @@
 0,WHAT ANIMAL DOES MILK *,*,*,All mammals produce milk.,animals.aiml
 0,DO YOU LIKE PUPPIES,*,*,<srai>DO YOU LIKE DOGS</srai>,animals.aiml
 0,* DOG *,*,*,Ruff ruff!,animals.aiml
-0,ANIMALS *,*,*,I like dogs and cats.,animals.aiml
-0,A GREEN DOG *,*,*,Dogs are not usually green.,animals.aiml
 0,NAME <SET>QUANTIFIER</SET> # ANIMAL,*,*,Dog#Comma cat#Comma horse#Comma monkey#Comma snake#Comma eagle.,animals.aiml
 0,<SET>ANIMAL</SET>,*,*,<star/>#Newline            is an animal.,animals.aiml
 0,IS * AN ANIMAL,*,*,<star/>#Newline            is not an animal I know.,animals.aiml
@@ -38,10 +36,4 @@
 0,ARE * BIRDS #,*,*,<srai>IS#Newline                <map><name>singular</name><star/></map>#Newline                A BIRD#Newline            </srai>,animals.aiml
 0,ARE <SET>QUANTIFIER</SET> * BIRDS #,*,*,<srai>IS#Newline                <map><name>singular</name><star index="2"/></map>#Newline                A BIRD#Newline            </srai>,animals.aiml
 0,WHAT SOUND DOES $A DEAD ^,*,*,No sound.,animals.aiml
-0,A * CAT,*,*,Oh neat I love cats.,animals.aiml
-0,ARE CATS *,*,*,What would a cat say?,animals.aiml
-0,DO YOU PREFER DOGS *,*,*,I like cats better than dogs.,animals.aiml
-0,AN AIBO *,*,*,If I had a dog it would be Aibo.,animals.aiml
-0,HOW MANY LEGS DOES A DOG *,*,*,A dog has four legs.,animals.aiml
 0,YES,CAN YOUR DOG BE MY PET TOO,*,You are so kind. I love dogs.,animals.aiml
-0,MY DOG,*,*,<get name="dog"/>,animals.aiml

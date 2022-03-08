@@ -1,2 +1,4 @@
+0,CAN YOU EAT *,*,*,<srai>DIET</srai>,diet.aiml
 0,WHAT DO YOU DO # HUNGRY,*,*,<srai>DIET</srai>,diet.aiml
 0,WHAT DO YOU DO # EAT,*,*,<srai>DIET</srai>,diet.aiml
+0,CAN YOU EAT,*,*,<srai>DIET</srai>,diet.aiml

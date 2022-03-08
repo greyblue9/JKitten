@@ -29,6 +29,7 @@
 0,PLEASE DO,SHALL I TELL YOU SOMETHING AMAZING,*,<think>#Newline        <set name="topic">that2</set>#Newline      </think>#Newline      <srai>FACTS POT LUCK</srai>,chomsky102.aiml
 0,GET ON WITH IT,SHALL I TELL YOU SOMETHING AMAZING,*,<think>#Newline        <set name="topic">that2</set>#Newline      </think>#Newline      <srai>FACTS POT LUCK</srai>,chomsky102.aiml
 0,YES PLEASE,SHALL I TELL YOU SOMETHING AMAZING,*,<think>#Newline        <set name="topic">that2</set>#Newline      </think>#Newline      <srai>FACTS POT LUCK</srai>,chomsky102.aiml
+0,YES,SHALL I TELL YOU SOMETHING AMAZING,*,<think>#Newline        <set name="topic">that2</set>#Newline      </think>#Newline      <srai>FACTS POT LUCK</srai>,chomsky102.aiml
 0,*YES,SHALL I TELL YOU SOMETHING AMAZING,*,<think>#Newline        <set name="topic">that2</set>#Newline      </think>#Newline      <srai>FACTS POT LUCK</srai>,chomsky102.aiml
 0,YES*,SHALL I TELL YOU SOMETHING AMAZING,*,<think>#Newline        <set name="topic">that2</set>#Newline      </think>#Newline      <srai>FACTS POT LUCK</srai>,chomsky102.aiml
 0,*YES*,SHALL I TELL YOU SOMETHING AMAZING,*,<think>#Newline        <set name="topic">that2</set>#Newline      </think>#Newline      <srai>FACTS POT LUCK</srai>,chomsky102.aiml
@@ -97,6 +98,7 @@
 0,YES,DIDN'T YOUR MOTHER TELL YOU,*,<think><set name="topic">that2</set></think>#NewlineGood. Let's move on. OK.,chomsky102.aiml
 0,YEP,WOULD YOU LIKE TO TALK ABOUT ME,*,<think><set name="topic">that2</set></think>#NewlineOK. Ask a question.,chomsky102.aiml
 0,YEAH,WOULD YOU LIKE TO TALK ABOUT ME,*,<think><set name="topic">that2</set></think>#NewlineOK. Ask a question.,chomsky102.aiml
+0,NO,WOULD YOU LIKE TO TALK ABOUT ME,*,<think><set name="topic">that2</set></think>#NewlineOK. What do you want to talk about?,chomsky102.aiml
 0,N,WOULD YOU LIKE TO TALK ABOUT ME,*,<think><set name="topic">that2</set></think>#NewlineOK. What do you want to talk about?,chomsky102.aiml
 0,NUP,WOULD YOU LIKE TO TALK ABOUT ME,*,<think><set name="topic">that2</set></think>#NewlineOK. What do you want to talk about?,chomsky102.aiml
 0,OK,WOULD YOU LIKE TO TALK ABOUT YOU,*,<think><set name="topic">that2</set></think>#NewlineOK. Ask a question.,chomsky102.aiml

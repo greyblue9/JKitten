@@ -24,6 +24,7 @@
 0,$EMAIL * TO SAY *,*,*,<srai>EMAIL <star/> MESSAGEBODY <star index="2"/></srai>,reductions2.aiml
 0,$EMAIL MY *,*,*,<srai>EMAIL <star/></srai>,reductions2.aiml
 0,HOW MUCH SHOULD I TIP FOR * DOLLARS,*,*,<srai>WHAT IS 15 PERCENT OF <star/></srai>,reductions2.aiml
+0,I AM A CAPRICORN,*,*,<srai>MY SIGN IS CAPRICORN</srai>,reductions2.aiml
 0,I AM A SAGGITARIUS,*,*,<srai>MY SIGN IS SAGGITARIUS</srai>,reductions2.aiml
 0,I AM AN AQUARIUS,*,*,<srai>MY SIGN IS AQUARIUS</srai>,reductions2.aiml
 0,I AM AN ARIES,*,*,<srai>MY SIGN IS ARIES</srai>,reductions2.aiml
@@ -42,11 +43,13 @@
 0,CAN YOU READ MY EMAIL *,*,*,<srai>READ EMAIL</srai>,reductions2.aiml
 0,DO I NEED A JACKET TODAY,*,*,<srai>WHAT IS THE WEATHER FORECAST</srai>,reductions2.aiml
 0,DO YOU HAVE AN EMAIL ADDRESS,*,*,<srai>EMAIL ADDRESS</srai>,reductions2.aiml
+0,DO YOU KNOW MY EMAIL,*,*,<srai>MY EMAIL</srai>,reductions2.aiml
 0,$EMAIL * I *,*,*,<srai>EMAIL <star/> SAYING <star index="2"/></srai>,reductions2.aiml
 0,$EMAIL * THE *,*,*,<srai>EMAIL <star/> MESSAGEBODY The <star index="2"/></srai>,reductions2.aiml
 0,EMAIL FROM MY PHONE,*,*,<srai>SEND EMAIL</srai>,reductions2.aiml
 0,GIVE ME HER EMAIL,*,*,<condition name="she">#Newline        <li value="who">Who is she?</li>#Newline        <li>#Newline          <srai>GIVE ME <get name="she"/> EMAIL</srai>#Newline        </li>#Newline      </condition>,reductions2.aiml
 0,HOW CAN I SEND EMAIL,*,*,<srai>SEND EMAIL</srai>,reductions2.aiml
+0,I AM A TAURUS,*,*,<srai>MY SIGN IS TAURUS</srai>,reductions2.aiml
 0,IS YOUR EMAIL *,*,*,<srai>EMAIL ADDRESS</srai>,reductions2.aiml
 0,MY BESTFRIENDS NAME IS *,*,*,<srai>MY bestfriend S NAME IS <star/></srai>,reductions2.aiml
 0,MY EMAIL ADRESS *,*,*,<srai>MY EMAIL ADDRESS <star/></srai>,reductions2.aiml
@@ -110,6 +113,7 @@
 0,HELLO I *,*,*,<srai>HELLO</srai>#Newline      <srai>I <star/></srai>,reductions2.aiml
 0,WHAT IS THE FORECAST FOR *,*,*,<srai>WHAT IS THE WEATHER FORECAST FOR <star/></srai>,reductions2.aiml
 0,THANK YOU FOR YOUR *,*,*,<srai>THANK YOU</srai>,reductions2.aiml
+0,CAN YOU HELP ME WITH MY *,*,*,<srai>I NEED HELP WITH MY <star/></srai>,reductions2.aiml
 0,SEND EMAIL TO *,*,*,<srai>EMAIL <star/></srai>,reductions2.aiml
 0,CHANGE YOUR VOICE,*,*,<srai>HELP VOICE</srai>,reductions2.aiml
 0,OMG *,*,*,<srai>OH MY GOD</srai>#Newline      <sr/>,reductions2.aiml

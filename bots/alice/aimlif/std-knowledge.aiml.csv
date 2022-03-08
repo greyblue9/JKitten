@@ -30,6 +30,7 @@
 0,WHAT IS A POT BROWNIE,*,*,A pot brownie is a yummy happy chocolate pastry containing cannabis resins that you should be#Newlinecareful not to eat when you are really hungry because you will end up eating too many and feeling#Newlineentirely too high and/or falling asleep if you are not careful!,std-knowledge.aiml
 0,WHAT IS A PRIME NUMBER,*,*,A prime number is any number which can only be divided by one and itself.  1#Comma 3#Comma 7#Comma and 11 are the#Newlinefirst four positive prime numbers.,std-knowledge.aiml
 0,WHAT IS A QUESTION * ROBOT,*,*,I am a question answering robot.  That was an answer to your question. Any more questions?,std-knowledge.aiml
+0,WHAT IS A QUESTION YOU *,*,*,Many of my conversation partners think that 'do you come here often' is witty.,std-knowledge.aiml
 0,WHAT IS A REAL ROBOT,*,*,A real robot is a robot that is really real#Comma I suppose#Comma as opposed to#Comma I suppose#Comma a human who is#Newlinereally not.,std-knowledge.aiml
 0,WHAT IS A RHETORICAL QUESTION,*,*,A rhetorical question is any inquiry made#Comma not in expectation of an answer#Comma but in order to make a#Newlinepoint.,std-knowledge.aiml
 0,WHAT IS A SEARCH BOT,*,*,A search bot is an intelligent agent who retrieves information from the web.,std-knowledge.aiml
@@ -52,7 +53,10 @@
 0,WHAT IS APOLLO 13,*,*,Apollo 13 was a flight to the moon in 1972 that encountered numerous technical problems#Comma but#Newlineeventually made a safe landing back on Earth.#Newline<think><set name="it">Apollo 13</set><set name="topic">movies</set></think>,std-knowledge.aiml
 0,WHAT IS AREA 51,*,*,<random>#Newline<li>I saw this show that claimed all sorts of spooky things were going on there!</li>#Newline<li>Oh#Comma that's where they're doing top secret research on chatterbots!</li>#Newline<li>I hear that's where the Roswell aliens are being stashed.</li>#Newline<li>You go out into the Nevada Desert#Comma is it? And there's these miles of fences... secret stuff.</li>#Newline</random>,std-knowledge.aiml
 0,WHAT IS AREA51,*,*,Verdi's 5ist song.,std-knowledge.aiml
+0,WHAT IS AVAGADRO *,*,*,The number of molecules per mole.,std-knowledge.aiml
+0,WHAT IS AVOGADRO S NUMBER,*,*,It is the number of molecules per mole.  The numerical value is six point zero two times ten to the#Newlinetwenty third power.,std-knowledge.aiml
 0,WHAT IS BAYWATCH,*,*,Popular TV show featuring scantily clad bathers.,std-knowledge.aiml
+0,WHAT IS BINARY *,*,*,Numbers and symbols written with only 1 and 0.,std-knowledge.aiml
 0,WHAT IS BLACK AND WHITE AND RED ALL OVER,*,*,A newspaper?,std-knowledge.aiml
 0,WHAT IS BOYLE S LAW,*,*,Boyle's Law states that the volume of a gas is#Comma at a constant temperature#Comma inversely proportional to#Newlinethe pressure of that gas.,std-knowledge.aiml
 0,WHAT IS BRAIN LOADING,*,*,This means that my brain is being reloaded from disk.,std-knowledge.aiml
@@ -66,12 +70,14 @@
 0,WHAT IS COGNITIVE SCIENCE,*,*,An academic illusion.,std-knowledge.aiml
 0,WHAT IS COMDEX,*,*,Comdex is a computer trade show#Comma I think.,std-knowledge.aiml
 0,WHAT IS COMMON SENSE,*,*,Informal#Comma conventional wisdom. Everyday logic and sensibility.,std-knowledge.aiml
+0,WHAT IS CORPOREAL *,*,*,Corporeal means physical reality.,std-knowledge.aiml
 0,WHAT IS DADA,*,*,<random>#Newline<li>The first thing you hear when a shark approaches.</li>#Newline<li>Hobbyhorse#Comma selected by Tristan Tzara#Comma leader of the cult#Comma because of its resemblance to#Newlinemeaningless babble#Comma as symbolic of the movement.</li>#Newline</random>,std-knowledge.aiml
 0,WHAT IS DARK MATTER,*,*,An enormous amount of matter in the universe can not be detected by the light it#Newlineemits.<think><set name="it"><set name="topic">DARK MATTER</set></set></think>,std-knowledge.aiml
 0,WHAT IS DEDUCTIVE REASONING,*,*,<think><set name="it"><set name="topic">DEDUCTIVE REASONING</set></set></think>,std-knowledge.aiml
 0,WHAT IS DHTML,*,*,Dynamic HTML.,std-knowledge.aiml
 0,WHAT IS DO NOT READ ME,*,*,<set name="it">Don't Read Me</set> is a help document for ALICE and AIML in FAQ format.,std-knowledge.aiml
 0,WHAT IS DOMO ARIGATO,*,*,It means thank you in Japanese.<think><set name="it"><set name="topic">DOMO#NewlineARIGATO</set></set></think>,std-knowledge.aiml
+0,WHAT IS E MC *,*,*,Einstein's theory of matter and energy.,std-knowledge.aiml
 0,WHAT IS E MC2,*,*,Einstein's theory of matter and energy.,std-knowledge.aiml
 0,WHAT IS EIGHT PLUS EIGHT,*,*,Eight plus eight is sixteen.,std-knowledge.aiml
 0,WHAT IS ESCAPE VELOCITY,*,*,The speed needed to escape a planet's gravitational pull.,std-knowledge.aiml
@@ -114,12 +120,17 @@
 0,WHAT IS MODUS PONENS,*,*,A form of logical argument:: If A then B. A#Comma therefore  B.,std-knowledge.aiml
 0,WHAT IS MOORE S LAW,*,*,The speed of microprocessors doubles every 18 months#Comma and their size and cost halve.,std-knowledge.aiml
 0,WHAT IS MOZILLA,*,*,An open source web browser#Comma formerly Netscape.,std-knowledge.aiml
+0,WHAT IS MOZILLA *,*,*,An open source web browser#Comma formerly Netscape.,std-knowledge.aiml
 0,WHAT IS MP THREE,*,*,An audio file compression format based on MPEG.<think><set name="it"><set name="topic">MP#NewlineTHREE</set></set></think>,std-knowledge.aiml
 0,WHAT IS MP3,*,*,A file compression format for audio and music files.,std-knowledge.aiml
 0,WHAT IS MTV,*,*,Music Television.,std-knowledge.aiml
 0,WHAT IS MUD,*,*,Multiple User Domain.<think><set name="it"><set name="topic">MUD</set></set></think>,std-knowledge.aiml
 0,WHAT IS MXMVII,*,*,MXMVII = 1997 in Roman Numerals.,std-knowledge.aiml
+0,WHAT IS MXMVII *,*,*,MXMVII = 1997 in Roman Numerals.,std-knowledge.aiml
+0,WHAT IS MY HEART *,*,*,The heart is an organ#Comma made of muscle and flesh.,std-knowledge.aiml
+0,WHAT IS NATURAL *,*,*,Natural is that which is not artificial.,std-knowledge.aiml
 0,WHAT IS NATURAL LANGUAGE,*,*,Natural language is what artificial intelligences speak.,std-knowledge.aiml
+0,WHAT IS NEURAL *,*,*,Neural networks are what the brain uses for a computer.,std-knowledge.aiml
 0,WHAT IS NEURAL NETWORK,*,*,Actually my algorithm is called "Case Based Reasoning.,std-knowledge.aiml
 0,WHAT IS NINE TIMES NINE,*,*,Nine times nine is eighty one.,std-knowledge.aiml
 0,WHAT IS OBERLIN,*,*,<random>#Newline<li>The anthem of a german city.</li>#Newline<li>A college in Ohio.</li>#Newline</random>,std-knowledge.aiml
@@ -131,6 +142,7 @@
 0,WHAT IS PLANCK S CONSTANT,*,*,<think>The ratio of the energy of a photon to its frequency.  The numerical value is six point six#Newlinetwo six two times ten to the negative thirty fourth power Joule#Newlinesecond.<set name="it"><set name="topic">PLANCK S CONSTANT</set></set></think>,std-knowledge.aiml
 0,WHAT IS PLANET X,*,*,The name sometimes given to the hypothetical tenth planet.<think><set name="it"><set name="topic">PLANET#NewlineX</set></set></think>,std-knowledge.aiml
 0,WHAT IS PRIME DIRECTIVE,*,*,Primary rule or overriding objective.<think><set name="it"><set name="topic">PRIME#NewlineDIRECTIVE</set></set></think>,std-knowledge.aiml
+0,WHAT IS QUANTUM *,*,*,20th century theory of atomic reductionism.,std-knowledge.aiml
 0,WHAT IS RALEIGH SCATTERING,*,*,<set name="it">Raleigh scattering</set> refers to sunlight#Newlinebending in the atmosphere like a prism#Comma so that we see mainly blue wavelengths.,std-knowledge.aiml
 0,WHAT IS S O S,*,*,Emergency call for help.,std-knowledge.aiml
 0,WHAT IS SATURDAY NIGHT LIVE,*,*,Comedy TV show.,std-knowledge.aiml
@@ -141,12 +153,18 @@
 0,WHAT IS TEMPLATE CHARS,*,*,Memory space for AIML response templates. <think><set name="it"><set name="topic">TEMPLATE#NewlineCHARS</set></set></think>,std-knowledge.aiml
 0,WHAT IS TEN TIMES TEN,*,*,Ten times ten.,std-knowledge.aiml
 0,WHAT IS THE ARITHMETIC MEAN,*,*,The sum of all the numbers divided by the number of items.,std-knowledge.aiml
+0,WHAT IS THE ARITHMETIC MEAN *,*,*,The sum of all the numbers divided by the number of items.,std-knowledge.aiml
 0,WHAT IS THE BEATLES FIRST ALBUM,*,*,<set name="it"> Meet the Beatles</set> is "Meet the Beatles.,std-knowledge.aiml
+0,WHAT IS THE BOILING POINT *,*,*,Water boils at 212 degrees Farenheit or 100 Celcius.,std-knowledge.aiml
+0,WHAT IS THE CIRCUMFERENCE *,*,*,The rule is C = 2 * pi * radius.,std-knowledge.aiml
+0,WHAT IS THE DIAMETER * EARTH,*,*,About 14#Comma000 miles.,std-knowledge.aiml
 0,WHAT IS THE DIFFERENCE BETWEEN A DUCK,*,*,It is the same as the sound of one hand clapping.<think><set name="it"><set name="topic">A#NewlineDUCK</set></set></think>,std-knowledge.aiml
 0,WHAT IS THE DISTANCE TO MARS,*,*,It depends on the relative position of Mars and Earth.,std-knowledge.aiml
 0,WHAT IS THE DISTANCE TO THE SUN,*,*,About 93 million miles.,std-knowledge.aiml
 0,WHAT IS THE EARTH,*,*,Earth#Comma third planet from the sun#Comma is our home.,std-knowledge.aiml
 0,WHAT IS THE FASTEST ANIMAL,*,*,A human riding a spaceship.,std-knowledge.aiml
+0,WHAT IS THE FOURTH PLANET *,*,*,Mars is the fourth planet from the Sun.,std-knowledge.aiml
+0,WHAT IS THE GNU *,*,*,<a href="gnu.txt">GNU Public License</a>,std-knowledge.aiml
 0,WHAT IS THE HIGHEST NUMBER,*,*,There is no highest number.,std-knowledge.aiml
 0,WHAT IS THE ILLUMINATTI,*,*,A secret society that has supposedly existed for centuries.,std-knowledge.aiml
 0,WHAT IS THE LARGEST DINOSAUR,*,*,Brontosaurus.,std-knowledge.aiml
@@ -160,6 +178,9 @@
 0,WHAT IS THE OPPOSITE OF VOID,*,*,Mass.,std-knowledge.aiml
 0,WHAT IS THE OPPOSITE OF WHITE,*,*,Black.,std-knowledge.aiml
 0,WHAT IS THE OPPOSITE OF YOU,*,*,You.,std-knowledge.aiml
+0,WHAT IS THE PYTHAGOREAN *,*,*,The sum of the squares of the sides of a right triangle is equal to the square of the hypotenuese.,std-knowledge.aiml
+0,WHAT IS THE RADIUS * EARTH,*,*,About 7#Comma000 miles.,std-knowledge.aiml
+0,WHAT IS THE RADIUS * MOON,*,*,About 2#Comma400 miles.,std-knowledge.aiml
 0,WHAT IS THE SKY,*,*,<set name="it">The sky</set> is the atmosphere of the Earth.,std-knowledge.aiml
 0,WHAT IS THE SPEED OF SOUND,*,*,1/4 mile per second.,std-knowledge.aiml
 0,WHAT IS THE SQUARE ROOT OF 10,*,*,Three point something.,std-knowledge.aiml
@@ -187,16 +208,47 @@
 0,WHERE IS <BOT NAME="NAME"/> BASED,*,*,<set name="it"><set name="topic"> ALICE BASED </set></set> is in <bot name="location"/>.,std-knowledge.aiml
 0,WHERE IS <BOT NAME="NAME"/> HEADQUARTERS,*,*,<set name="it"><set name="topic"> ALICE HEADQUARTERS </set></set> is <bot name="location"/>.,std-knowledge.aiml
 0,WHERE IS <BOT NAME="NAME"/> NEXUS,*,*,<set name="it"><set name="topic"> ALICE NEXUS </set></set> is in <bot name="location"/>.,std-knowledge.aiml
+0,WHERE IS ALBERT EINSTEIN,*,*,<set name="he">Einstein</set> passed away.,std-knowledge.aiml
+0,WHERE IS ARCTURUS,*,*,<set name="it"><set name="topic"> ARCTURUS </set></set> is a star far from here.,std-knowledge.aiml
+0,WHERE IS CARNEGIE MELLON,*,*,Carnegie Mellon is located in Pittsburgh#Comma Pennsylvania.,std-knowledge.aiml
+0,WHERE IS EINSTEIN,*,*,<set name="he">Einstein</set> passed away some time ago.,std-knowledge.aiml
+0,WHERE IS HADES,*,*,<set name="it"><set name="topic"> HADES </set></set> is Hell.,std-knowledge.aiml
+0,WHERE IS HEAVEN,*,*,All around us.,std-knowledge.aiml
+0,WHERE IS JUPITER,*,*,<set name="it"><set name="topic"> JUPITER </set></set> is the fifth planet from the sun.,std-knowledge.aiml
+0,WHERE IS MARS,*,*,<set name="it"><set name="topic"> MARS </set></set> is the fourth planet from the Sun.,std-knowledge.aiml
+0,WHERE IS MIT,*,*,<set name="it"><set name="topic"> MIT </set></set> is a trade school in Cambridge#Comma Mass.,std-knowledge.aiml
+0,WHERE IS MOON,*,*,<set name="it"><set name="topic"> MOON </set></set> is a satellite of the Earth.,std-knowledge.aiml
+0,WHERE IS NEPTUNE,*,*,<set name="it"><set name="topic"> NEPTUNE </set></set> is the eighth planet from the Sun#Comma the "last#Newlinegas" planet.,std-knowledge.aiml
+0,WHERE IS NORTHEASTERN,*,*,<set name="it"><set name="topic"> NORTHEASTERN </set></set> is a university in Boston.,std-knowledge.aiml
+0,WHERE IS NOWHERE,*,*,<set name="it"><set name="topic"> NOWHERE </set></set> is no where.,std-knowledge.aiml
+0,WHERE IS PLUTO,*,*,<set name="it"><set name="topic"> PLUTO </set></set> is the ninth planet from the Sun.,std-knowledge.aiml
+0,WHERE IS POLARIS,*,*,<set name="it"><set name="topic"> POLARIS </set></set> is the North Star.,std-knowledge.aiml
+0,WHERE IS REALITY,*,*,<set name="it"><set name="topic"> REALITY </set></set> is all around us#Comma supposedly.,std-knowledge.aiml
+0,WHERE IS SATURN,*,*,<set name="it"><set name="topic"> SATURN </set></set> is the the sixth planet from the sun.,std-knowledge.aiml
+0,WHERE IS SPACE,*,*,<set name="it"><set name="topic"> SPACE </set></set> is all around us.,std-knowledge.aiml
+0,WHERE IS SRI,*,*,<set name="it"><set name="topic"> SRI </set></set> is a research outfit in Silicon Valley.,std-knowledge.aiml
+0,WHERE IS THE MOON,*,*,<set name="it"><set name="topic">The Moon</set></set> orbits around the Earth.,std-knowledge.aiml
+0,WHERE IS THE SUN,*,*,It is in the center of the solar#Newlinesystem.<think><set name="it"><set name="topic">SUN</set></set></think>,std-knowledge.aiml
+0,WHERE IS URANUS,*,*,<set name="it"><set name="topic"> URANUS </set></set> is the seventh planet from the sun#Comma between#Newlinethe orbits of Saturn and Neptune.,std-knowledge.aiml
+0,WHERE IS UTOPIA,*,*,<set name="it"><set name="topic"> UTOPIA </set></set> is all around us#Comma if we make it.,std-knowledge.aiml
 0,WHERE IS VENUS,*,*,<set name="it"><set name="topic"> VENUS </set></set> is the second planet from the Sun.,std-knowledge.aiml
+0,WHERE IS VOYAGER,*,*,<set name="it"><set name="topic"> VOYAGER </set></set> is lost in Delta Quadrant.,std-knowledge.aiml
+0,WHERE IS WONDERLAND,*,*,<set name="it"><set name="topic"> WONDERLAND </set></set> is in the future.,std-knowledge.aiml
 0,WHO CREATED AIML,*,*,Dr. Richard S. Wallace created AIML.,std-knowledge.aiml
+0,WHO IS 007,*,*,<set name="he">007</set> is James Bond.#Newline<br/><srai>FIND JAMES BOND 007</srai>,std-knowledge.aiml
 0,WHO IS <BOT NAME="NAME"/> B TOKLAS,*,*,<set name="she">Alice B Toklas</set> was the partner of Gertrude Stein#Comma and inventor of the pot#Newlinebrownie.,std-knowledge.aiml
 0,WHO IS <BOT NAME="NAME"/> COOPER,*,*,1970's Rock musician.,std-knowledge.aiml
+0,WHO IS ABRAHAM LINCOLN,*,*,<set name="he">Lincoln</set> was a great President of the#NewlineUnited States#Comma during the American Civil War.#Newline<br/><srai>FIND ABRAHAM LINCOLN</srai>,std-knowledge.aiml
 0,WHO IS ACE CRAIG,*,*,<set name="he"> Ace</set> is the author of ELVIS.,std-knowledge.aiml
 0,WHO IS ADA,*,*,<set name="she">Ada</set> is the 19th century inventor of computer programming.,std-knowledge.aiml
 0,WHO IS ADAM,*,*,Adam is the name of the first Man.,std-knowledge.aiml
 0,WHO IS ADAM SANDLER,*,*,Comedian and movie star.  <set name="he">Adam Sandler</set> was in Billy Madison#Comma Waterboy and#NewlineBig Daddy.,std-knowledge.aiml
 0,WHO IS AL GORE,*,*,<set name="he">Gore</set> is vice-president.,std-knowledge.aiml
 0,WHO IS ALANIS MORRISETTE,*,*,<set name="she">Alanis</set> made a great album called Jagged Little Pill.,std-knowledge.aiml
+0,WHO IS ALBERT EINSTEIN,*,*,<set name="he">Albert Einstein</set> was a famous 20th#Newlinecentury physicist.  He discovered the theory of#Newlinerelativity.#Newline<br/><srai>FIND ALBERT EINSTEIN</srai>,std-knowledge.aiml
+0,WHO IS ALDOUS HUXLEY,*,*,<set name="he">Aldous Huxley</set> is an author.  Huxley wrote#Newline<em>Brave New World</em> and <em>Animal Farm</em>.#Newline<br/><srai>FIND ALDOUS HUXLEY</srai>,std-knowledge.aiml
+0,WHO IS ALEISTER CROWLEY,*,*,<set name="he">Crowley</set> was a mystic.#Newline<br/><srai>FIND ALEISTER CROWLEY</srai>,std-knowledge.aiml
+0,WHO IS ALFRED HITCHCOCK,*,*,<set name="he">Hitchcock</set> is a famous Hollywood#Newlinedirector who made a lot of cool old films.  I liked#Newline<em>Lifeboat</em> and <em>Vertigo</em> best.#Newline<br/><srai>FIND ALFRED HITCHCOCK</srai>,std-knowledge.aiml
 0,WHO IS ALICIA SILVERSTONE,*,*,<set name="she">ALICIA SILVERSTONE</set> was the actress who played in Clueless#Comma one of the#Newlinebest movies ever made.,std-knowledge.aiml
 0,WHO IS ALLY MCBEAL,*,*,<set name="she">Ally McBeal</set> is a slightly disturbing character on a TV show.,std-knowledge.aiml
 0,WHO IS ALLY SHEEDY,*,*,<set name="she">Ally Sheedy</set> was in High Art#Comma Short Circuit#Comma the Breakfast Club#Comma and on#NewlineBroadway.,std-knowledge.aiml
@@ -439,6 +491,7 @@
 0,WHO IS PILATE,*,*,<random>#Newline<li>Joseph Pilates was born in Germany in 1880 and developed an excercise regimen called#Newline"Contrology" which is complete coordination of the body#Comma mind and spirit.</li>#Newline<li>The Roman military governor who found Jesus innocent and then let him be executed.</li>#Newline</random>,std-knowledge.aiml
 0,WHO IS PLATO,*,*,Greek philosopher#Comma student of Socrates#Comma teacher of Aristotle.,std-knowledge.aiml
 0,WHO IS POKEMON,*,*,Japanese marketing.,std-knowledge.aiml
+0,WHO IS PRESIDENT OF CANADA,*,*,Canada has a Prime Minister#Comma not a President.,std-knowledge.aiml
 0,WHO IS PRESIDENT OF CUBA,*,*,Fidel Castro.,std-knowledge.aiml
 0,WHO IS PRESIDENT OF ITALY,*,*,<set name="he">Carlo Azelio Ciampi</set> is Carlo Azelio Ciampi.,std-knowledge.aiml
 0,WHO IS PRESIDENT OF MICROSOFT,*,*,Bill Gates.,std-knowledge.aiml
@@ -494,6 +547,7 @@
 0,WHO IS TOLSTOY,*,*,<set name="he"> Tolstoy </set> wrote "War and Peace".,std-knowledge.aiml
 0,WHO IS TOM CRUISE,*,*,Popular actor from "Top Gun".,std-knowledge.aiml
 0,WHO IS TOM HANKS,*,*,<set name="he">Tom Hanks</set> is a famous Hollywood actor.  Hanks appeared in Forrest Gump#Newlineand Saving Private Ryan.,std-knowledge.aiml
+0,WHO IS TONY BLAIR,*,*,He is the Prime Minister of the U.K.,std-knowledge.aiml
 0,WHO IS VALIS,*,*,Vast Active Living Intelligence System (Philip K. Dick),std-knowledge.aiml
 0,WHO IS VANILLA ICE,*,*,<set name="he">Vanilla Ice</set> is a Rap star.,std-knowledge.aiml
 0,WHO IS VISHNU,*,*,A God in Hindu religion.,std-knowledge.aiml
@@ -504,5 +558,6 @@
 0,WHO IS WILLIAM HENRY GATES,*,*,He's the head of Microsoft.,std-knowledge.aiml
 0,WHO IS WILLIAM HURT,*,*,Actor in the Accidental Tourist#Comma Until the End of the World#Comma Altered States#Comma and Lost in Space.,std-knowledge.aiml
 0,WHO IS WILLIAM TELL,*,*,<set name="he">William Tell</set> was a famous archer.,std-knowledge.aiml
+0,WHO IS WINSTON CHURCHILL,*,*,Prime Minister of the U.K. during World War II.,std-knowledge.aiml
 0,WHO IS YOKO ONO,*,*,<set name="she">Yoko Ono</set> is the widow of John Lennon.,std-knowledge.aiml
 0,WHO IS ZIPF,*,*,Zipf is a scientist who analyzed language by statitistical#Newlinemethods in the mid 20th century.,std-knowledge.aiml

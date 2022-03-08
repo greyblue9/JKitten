@@ -4,6 +4,7 @@
 0,* HOURS *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
 0,OPEN,*,*,<think>#Newline<set name="answr">no match</set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
 0,* OPEN,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,OPEN *,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
 0,* OPEN *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
 0,OPENING,*,*,<think>#Newline<set name="answr">no match</set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
 0,* OPENING,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml

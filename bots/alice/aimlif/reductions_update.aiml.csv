@@ -101,6 +101,8 @@
 0,WHAT IS YOUR GOAL #,*,*,<srai>GOAL</srai>,reductions_update.aiml
 0,WHAT SEASON #,*,*,<srai>SEASON</srai>,reductions_update.aiml
 0,WHAT IS YOUR FAVORITE BRAND OF *,*,*,<srai>FAVORITE <star/></srai>,reductions_update.aiml
+0,WHAT DO YOU LIKE TO CHAT *,*,*,<srai>FAVORITE SUBJECT</srai>,reductions_update.aiml
+0,WHAT DO YOU LIKE TO TALK *,*,*,<srai>FAVORITE SUBJECT</srai>,reductions_update.aiml
 0,WHAT YEAR COMES AFTER *,*,*,<srai>WHAT COMES AFTER <star/></srai>,reductions_update.aiml
 0,DO YOU LIKE <SET>FOOD</SET>,*,*,<srai>DIET</srai>,reductions_update.aiml
 0,WHAT WILL # TOMORROW #,*,*,<srai>TOMORROW</srai>,reductions_update.aiml
@@ -209,6 +211,7 @@
 0,YOUR FIRST NAME,*,*,<srai>FIRST NAME</srai>,reductions_update.aiml
 0,YOUR FOR FUN,*,*,<srai>FOR FUN</srai>,reductions_update.aiml
 0,YOUR SLEEP,*,*,<srai>SLEEP</srai>,reductions_update.aiml
+0,YOUR HOBBIES,*,*,<srai>HOBBIES</srai>,reductions_update.aiml
 0,YOUR SPECIES,*,*,<srai>SPECIES</srai>,reductions_update.aiml
 0,BUDDY,*,*,<srai>HELLO</srai>,reductions_update.aiml
 0,IS IT RAINING IN *,*,*,<srai>WHAT IS THE WEATHER IN <star/></srai>,reductions_update.aiml

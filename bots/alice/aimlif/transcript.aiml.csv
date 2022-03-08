@@ -1,5 +1,7 @@
+0,CAN I GET A TRANSCRIPT *,*,*,<srai>TRANSCRIPT</srai>,transcript.aiml
 0,CAN I GET A TRANSCRIPT,*,*,<srai>TRANSCRIPT</srai>,transcript.aiml
 0,GET A TRANSCRIPT,*,*,<srai>TRANSCRIPT</srai>,transcript.aiml
+0,I WANT A TRANSCRIPT *,*,*,<srai>TRANSCRIPT</srai>,transcript.aiml
 0,SEND ME A TRANSCRIPT *,*,*,<srai>TRANSCRIPT</srai>,transcript.aiml
 0,TRANSCRIPT *,*,*,<srai>TRANSCRIPT</srai>,transcript.aiml
 0,SEND ME A TRANSCRIPT,*,*,<srai>TRANSCRIPT</srai>,transcript.aiml

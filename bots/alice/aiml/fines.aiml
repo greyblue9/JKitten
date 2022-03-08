@@ -1,76 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<aiml version="1.0">
+FINES
+<srai>FNS</srai>
 
-<!--Copyright 2011-2012 David W. Newyear-->
+FEE
+<srai>FNS</srai>
 
- <!-- Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
+FEES
+<srai>FNS</srai>
 
-      http://www.apache.org/licenses/LICENSE-2.0
+CHARGE
+<srai>FNS</srai>
 
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.-->
-  
-  <!--FINES-->
+CHARGES
+<srai>FNS</srai>
 
-<category>
-<pattern>FINES</pattern>
-<template><srai>FNS</srai></template>
-</category>
+OVER DUE
+<srai>FNS</srai>
 
-<category>
-<pattern>FINE</pattern>
-<template><srai>FNS</srai></template>
-</category>
+OVER DUES
+<srai>FNS</srai>
 
-<category>
-<pattern>FEE</pattern>
-<template><srai>FNS</srai></template>
-</category>
+OVERDUE
+<srai>FNS</srai>
 
-<category>
-<pattern>FEES</pattern>
-<template><srai>FNS</srai></template>
-</category>
+OVERDUES
+<srai>FNS</srai>
 
-<category>
-<pattern>CHARGE</pattern>
-<template><srai>FNS</srai></template>
-</category>
-
-<category>
-<pattern>CHARGES</pattern>
-<template><srai>FNS</srai></template>
-</category>
-
-<category>
-<pattern>OVER DUE</pattern>
-<template><srai>FNS</srai></template>
-</category>
-
-<category>
-<pattern>OVER DUES</pattern>
-<template><srai>FNS</srai></template>
-</category>
-
-<category>
-<pattern>OVERDUE</pattern>
-<template><srai>FNS</srai></template>
-</category>
-
-<category>
-<pattern>OVERDUES</pattern>
-<template><srai>FNS</srai></template>
-</category>
-
-<category>
-<pattern>FNS</pattern>
-<template>I'm often asked about fines. 
+FNS
+I'm often asked about fines. 
 <random>
 <li>What would you like to know about fines?</li>
 <li>What is your question about overdue charges?</li>
@@ -79,563 +37,378 @@
 <think>
 <set name="topic">0FEES</set>
 </think>
-</template>
-</category>
 
 <topic name="0FEES">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
 <srai>FEES2</srai>
-</template>
-</category>
-</topic>
 
 
-<category>
-<pattern>FINES *</pattern>
-<template>
+FINES *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FINES </pattern>
-<template>
+* FINES
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FINES * </pattern>
-<template>
+* FINES *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FINES * LATE *</pattern>
-<template>
+* FINES * LATE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FINES * OVERDUE</pattern>
-<template>
+* FINES * OVERDUE
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FINES * OVERDUE *</pattern>
-<template>
+* FINES * OVERDUE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FINE</pattern>
-<template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic">FEES2</set>
-</think>
-<srai>FEES2</srai></template>
-</category>
-
-<category>
-<pattern>FINE *</pattern>
-<template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic">FEES2</set>
-</think>
-<srai>FEES2</srai></template>
-</category>
-
-<category>
-<pattern>* FINE *</pattern>
-<template>
+* FINE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FINE * LATE</pattern>
-<template>
+* FINE * LATE
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FINE * LATE *</pattern>
-<template><srai>FNS</srai></template>
-</category>
+* FINE * LATE *
+<srai>FNS</srai>
 
-<category>
-<pattern>* FINE * OVERDUE</pattern>
-<template>
+* FINE * OVERDUE
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FINE * OVERDUE *</pattern>
-<template>
+* FINE * OVERDUE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FINE</pattern>
-<template>
+* FINE
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>FEE *</pattern>
-<template>
+FEE *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FEE</pattern>
-<template>
+* FEE
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FEE *</pattern>
-<template>
+* FEE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FEE * LATE</pattern>
-<template>
+* FEE * LATE
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FEE * LATE *</pattern>
-<template>
+* FEE * LATE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FEE * OVERDUE</pattern>
-<template>
+* FEE * OVERDUE
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FEE * OVERDUE *</pattern>
-<template>
+* FEE * OVERDUE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>FEES *</pattern>
-<template>
+FEES *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FEES</pattern>
-<template>
+* FEES
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FEES *</pattern>
-<template>
+* FEES *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FEES * LATE</pattern>
-<template>
+* FEES * LATE
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FEES * LATE *</pattern>
-<template>
+* FEES * LATE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FEES * OVERDUE</pattern>
-<template>
+* FEES * OVERDUE
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* FEES * OVERDUE *</pattern>
-<template>
+* FEES * OVERDUE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* CHARGE</pattern>
-<template>
+* CHARGE
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>CHARGE *</pattern>
-<template>
+CHARGE *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* CHARGE *</pattern>
-<template>
+* CHARGE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* CHARGE * LATE</pattern>
-<template>
+* CHARGE * LATE
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* CHARGE * LATE *</pattern>
-<template>
+* CHARGE * LATE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* CHARGE * OVERDUE</pattern>
-<template>
+* CHARGE * OVERDUE
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* CHARGE * OVERDUE *</pattern>
-<template>
+* CHARGE * OVERDUE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>CHARGES *</pattern>
-<template>
+CHARGES *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* CHARGES</pattern>
-<template>
+* CHARGES
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* CHARGES *</pattern>
-<template>
+* CHARGES *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* CHARGES * LATE</pattern>
-<template>
+* CHARGES * LATE
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* CHARGES * LATE *</pattern>
-<template>
+* CHARGES * LATE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* CHARGES * OVERDUE</pattern>
-<template>
+* CHARGES * OVERDUE
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* CHARGES * OVERDUE *</pattern>
-<template>
+* CHARGES * OVERDUE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* OVER DUE</pattern>
-<template>
+* OVER DUE
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>OVER DUE *</pattern>
-<template>
+OVER DUE *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* OVER DUE *</pattern>
-<template>
+* OVER DUE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* OVER DUES</pattern>
-<template>
+* OVER DUES
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>OVER DUES *</pattern>
-<template>
+OVER DUES *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* OVER DUES *</pattern>
-<template>
+* OVER DUES *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-
-<category>
-<pattern>* OVERDUE</pattern>
-<template>
+* OVERDUE
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>OVERDUE *</pattern>
-<template>
+OVERDUE *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* OVERDUE *</pattern>
-<template>
+* OVERDUE *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* OVERDUES</pattern>
-<template>
+* OVERDUES
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>OVERDUES *</pattern>
-<template>
+OVERDUES *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
-<category>
-<pattern>* OVERDUES *</pattern>
-<template>
+* OVERDUES *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">FEES2</set>
 </think>
-<srai>FEES2</srai></template>
-</category>
+<srai>FEES2</srai>
 
 <topic name="FEES2">
-<category>
-<pattern>FEES2</pattern>
-<template>
+FEES2
 <think>
 <get name="answr"/>
 <set name="message">no match</set>
@@ -1202,14 +975,14 @@
 <li value="* LAPTOPS *"><set name="message">laptop</set></li> 
 
 </condition>
-<think><set name="topic"></set></think>
+<think><set name="topic"/></think>
 </think>
 
 <condition name="message">
 
-<li value="stop"><set name="topic"></set>O.K. I'll stop.</li>
+<li value="stop"><set name="topic"/>O.K. I'll stop.</li>
 
-<li value="no match"><set name="topic"></set><srai><get name="answr"/></srai></li>
+<li value="no match"><set name="topic"/><srai><get name="answr"/></srai></li>
 
 <li value="bankruptcy"><srai>BNKRPT</srai></li>
 <li value="senior fines"><srai>SNFNS</srai></li>
@@ -1232,7 +1005,7 @@
 <li value="ohiolink"><think><set name="topic">OL ATTRIBUTES</set><set name="attr1">fine</set></think><srai>ATTROL</srai></li>  
 <li value="ohiolink media"><think><set name="topic">OLM ATTRIBUTES</set><set name="attr1">fine</set></think><srai>ATTROLM</srai></li>  
 <li value="searchohio"><think><set name="topic">SO ATTRIBUTES</set><set name="attr1">fine</set></think><srai>ATTRSO</srai></li>
-<li value="searchohio media"><think><set name="topic">SODVD ATTRIBUTES</set><set name="attr1">fine</set></think>ATTRSODVDS<srai></srai></li>  
+<li value="searchohio media"><think><set name="topic">SODVD ATTRIBUTES</set><set name="attr1">fine</set></think>ATTRSODVDS<srai/></li>  
 <li value="laptop"><think><set name="topic">LPTP ATTRIBUTES</set><set name="attr1">fine</set></think><srai>ATTRLPTPS</srai></li>
 <li value="check fines"><srai>CHKFNS</srai></li>
 
@@ -1243,8 +1016,6 @@
 <li value="jail"><srai>XPAY JAIL</srai></li>
 
 </condition>
-</template>
-</category>
-</topic>
 
-</aiml>
+
+

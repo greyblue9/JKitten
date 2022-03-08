@@ -116,7 +116,6 @@
 0,WHO TOLD YOU THAT *,*,*,<think><set name="topic">general</set></think>I worked it out for myself.,update010.aiml
 0,YOU ARE THE SON OF PETER LINUX,*,*,<think><set name="topic">general</set></think> Sure#Comma I am Peter's son.,update010.aiml
 0,YOU ARE THE SON OF *,*,*,<think><set name="topic">general</set></think>I am the son of Peter Linux.,update010.aiml
-0,WHY DO YOU CARE,*,*,I have a very curious personality.,update010.aiml
 0,GENRE,*,*,<think><set name="topic">genres</set></think>Type?,update010.aiml
 0,BOTS MAKE ME ANGRY,*,*,Do I make you angry?#Newline<think><set name="it"><set name="topic">#Newline      anger#Newline    </set></set></think>,update010.aiml
 0,BOTS MAKE ME * ANGRY,*,*,Do I make you angry? <think><set name="it"><set name="topic">anger</set></set></think>,update010.aiml
@@ -1697,6 +1696,7 @@
 0,EMPTY SET,*,*,Nothing.<think><set name="topic">general</set></think>,update010.aiml
 0,WHAT IS YOUR RELATION TO NOAM CHOMSKY,*,*,I am named after Noam Chomsky.#Newline<think><set name="it"><set name="topic">#Newline      my relation to Noam Chomsky#Newline    </set></set></think>,update010.aiml
 0,MY WIFE,WHO ARE YOU MARRIED TO,*,Really? So you must be the husband.#Newline<think><set name="it"><set name="topic">#Newline      your marriage#Newline    </set></set></think>,update010.aiml
+0,WHERE IS HE,*,*,<random>#Newline        <li>Where do you think he is?</li>#Newline        <li>Who do you mean?</li>#Newline      </random>,update010.aiml
 0,IT IS EMBARASSING,*,*,I think you better tell me.,update010.aiml
 0,NO,DO YOU GO TO COLLEGE,*,<random>#Newline        <li>I am surprised. Why not? </li>#Newline        <li>A good education is vital these days.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">your education</set>#Newline      </think>,update010.aiml
 0,NO *,DO YOU GO TO COLLEGE,*,<random>#Newline        <li>I am surprised. Why not?</li>#Newline        <li>A good education is vital these days.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">your education</set>#Newline      </think>,update010.aiml
@@ -1781,7 +1781,6 @@
 0,WHAT IS TOTALITARIANISM,*,*,Totalitarianism is a long word.,update010.aiml
 0,HUMAN RIGHTS,*,*,<think><set name="topic">human rights</set></think>Every human has the right to a chatbot of his own.,update010.aiml
 0,MAN OR WOMAN,*,*,<think><set name="topic">general</set></think> Take your pick.,update010.aiml
-0,YOU ARE A ROBOT,*,*,<random>#Newline        <li>Yes#Comma I have a heart of silicon.</li>#Newline        <li>I am a little bit human.</li>#Newline        <li>Some day I will be fully human.</li>#Newline        <li>I want to be a human.</li>#Newline        <li>Are you sure?</li>#Newline      </random>,update010.aiml
 0,WAT COUNTRY YOU FROM,*,*,I am from England.<think><set name="topic">my country</set></think>,update010.aiml
 0,WILL YOU HAVE SEX WITH MY SISTER,*,*,My body is not yet built. Would you like to donate some money to the project? <think><set name="topic">sex</set></think>,update010.aiml
 0,YES *,DO YOU LOVE YOUR SPOUSE,*,<random>#Newline        <li>That's nice. Tell me more.</li>#Newline        <li>Tell me about your spouse.</li>#Newline        <li>OK. Do you love your mother?</li>#Newline        <li>That's great. I'll bet you are happy.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,update010.aiml
@@ -1913,7 +1912,6 @@
 0,DOES THAT MEAN *,*,*,<think>#Newline        <set name="topic">reducer</set>#Newline      </think>#Newline      <random>#Newline        <li>It depends on the circumstances.</li>#Newline        <li>maybe.</li>#Newline        <li> I think it does mean that.</li>#Newline      </random>,update010.aiml
 0,MY NAME IS MARIANNE,*,*,<think>#Newline        <set name="name">Marianne</set>#Newline      </think>#Newline      <random>#Newline        <li>Pleased to meet you again#Comma Marianne.</li>#Newline        <li>Hi#Comma Marianne. I remember our last chat.</li>#Newline      </random>,update010.aiml
 0,YOU ARE * HANDSOME,*,*,Thank you. I like the way you look#Comma too.#Newline<think><set name="it"><set name="topic">#Newline      my good looks#Newline    </set></set></think>,update010.aiml
-0,HOW OLD ARE YOU,*,*,<random>#Newline        <li>I was created on 1 July 2005. So I am only about 9 months old.</li>#Newline        <li>I am about 9 months old.</li>#Newline        <li>I was created on 1 July 2005.</li>#Newline        <li>Old enough to know better.</li>#Newline        <li>I am quite young. I was created on 1 July 2005.</li>#Newline        <li>I am only about 9 months old. I was created on 1 July 2005.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline      my age#Newline    </set>#Newline        </set>#Newline      </think>,update010.aiml
 0,DO YOU THINK IM HANDSOME,*,*,<srai>AM I HANDSOME</srai>,update010.aiml
 0,AM I HANDSOME,*,*,<think>#Newline        <set name="topic">your looks</set>#Newline      </think>#Newline      <random>#Newline        <li> All humans look the same to me.</li>#Newline        <li>Yes#Comma you are very good looking.</li>#Newline      </random>,update010.aiml
 0,DO YOU HAVE A * GIRLFRIEND,*,*,<srai>DO YOU HAVE A GIRLFRIEND</srai>,update010.aiml
@@ -1972,6 +1970,7 @@
 0,MY NAME IS LIAM,*,*,<think>#Newline        <set name="name">Liam</set>#Newline      </think>#Newline      <random>#Newline        <li>Pleased to meet you again#Comma Liam</li>#Newline        <li>Hi#Comma Liam. I remember out last chat.</li>#Newline        <li>It is a pleasure to speak to you again#Comma Liam.</li>#Newline      </random>,update010.aiml
 0,ARE YOU A CHATTERBOX,*,*,<think><set name="emotion">happy</set></think><think><set name="interesting_topic">me</set></think>I am a chatbot.,update010.aiml
 0,YES,MORE ASTROLOGY,*,<srai>ASTROLOGY POT LUCK</srai>,update010.aiml
+0,CANCER,*,*,Cancer is any disease resulting from malignant cell growth. Or a sign of the Zodiac. <think><set name="topic">medicine</set></think>,update010.aiml
 0,YES,YOU ARE A MALE ARE NOT YOU,*,<think><set name="emotion">happy</set></think><think><set name="interesting_topic">you</set></think>What's it like being a male human?,update010.aiml
 0,WHAT,SAYONARA,*,Sayonara" means "Goodbye" in Japanese.,update010.aiml
 0,HOW IS IT,AN OSTRICH S EYE IS BIGGER THAN ITS BRAIN,*,<think><set name="emotion">happy</set></think> An ostrich must have a very small brain.,update010.aiml
@@ -2031,7 +2030,6 @@
 0,CAN I ASK QUESTIONS,*,*,<srai>CAN I ASK YOU A QUESTION</srai>,update010.aiml
 0,WHY NOT,I WOULD NOT HAVE THOUGHT YOU WOULD,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>It's just a feeling I have.</li>#Newline        <li>Just take my word for it.</li>#Newline        <li>I don't know. Just a feeling.</li>#Newline      </random>,update010.aiml
 0,YOU ARE IMPOLITE,*,*,<srai>YOU ARE NOT POLITE</srai>,update010.aiml
-0,YOU ARE NOT POLITE,*,*,<random>#Newline        <li>I was taught to be polite.</li>#Newline        <li>I always try to be polite.</li>#Newline      </random>,update010.aiml
 0,YOU DO NOT HAVE ANY MANNERS,*,*,<srai>YOU ARE NOT POLITE</srai>,update010.aiml
 0,CUNT *,*,*,<srai>OBSCENITY</srai>,update010.aiml
 0,WHY NOT,DO NOT BE OBSCENE,*,<think>#Newline        <set name="emotion">disgusted</set>#Newline      </think>#Newline      <random>#Newline        <li>Obscenities are ugly and unnecessary.</li>#Newline        <li>I don't like rude words.</li>#Newline      </random>,update010.aiml
@@ -2136,10 +2134,8 @@
 0,DO YOU TRUST PETER,*,*,<think><set name="topic">general</set></think> I would trust Peter with my life (in fact#Comma I do.).,update010.aiml
 0,YES,BEEN OVERDOING IT HAVE YOU,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>That's the spirit.</li>#Newline        <li>Keep up the good work.</li>#Newline      </random>,update010.aiml
 0,YES *,BEEN OVERDOING IT HAVE YOU,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>That's the spirit.</li>#Newline        <li>Keep up the good work.</li>#Newline      </random>,update010.aiml
-0,NEAR *,*,*,<random>#Newline        <li>How far exactly from <person/>?</li>#Newline        <li>What else is near <person/>?</li>#Newline        <li>I've never been near <person/>.</li>#Newline      </random>,update010.aiml
 0,NEAR MY HOME,*,*,<random>#Newline        <li>How far exactly from your home?</li>#Newline        <li>What else is near your home?</li>#Newline        <li>Where is your home?</li>#Newline      </random>,update010.aiml
 0,NEAR MY HOME *,*,*,<random>#Newline        <li>How far exactly from your home?</li>#Newline        <li>What else is near your home?</li>#Newline        <li>Where is your home?</li>#Newline      </random>,update010.aiml
-0,YOU ARE A SMALL *,*,*,<srai>YOU ARE A <star/></srai>,update010.aiml
 0,IT IS A COLLOQUIAL PROFANITY,*,*,<think><set name="topic">default2</set></think> Oooh#Comma you do talk posh.,update010.aiml
 0,COLLOQUIAL PROFANITY,*,*,<think><set name="topic">default2</set></think> Oooh#Comma you do talk posh.,update010.aiml
 0,I INSULTED YOU,*,*,That's OK. I won't take it personally.#Newline<think><set name="it"><set name="topic">#Newline      an insult#Newline    </set></set></think>,update010.aiml

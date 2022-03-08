@@ -221,6 +221,7 @@
 0,WHAT PLANET DO WE LIVE ON,*,*,Earth.,knowledge.aiml
 0,WHAT SKIN COLOR DOES A POLAR BEAR HAVE,*,*,White.,knowledge.aiml
 0,WHAT SOUND DOES A SHEEP MAKE,*,*,Baaa.,knowledge.aiml
+0,WHAT SOUND DOES A CAT MAKE,*,*,Meow.,knowledge.aiml
 0,WHAT STAR SIGN ARE YOU,*,*,<get name="sign"/>.,knowledge.aiml
 0,WHAT NUMBER COMES AFTER 9,*,*,Ten.,knowledge.aiml
 0,WHAT ARE THE TWO MOST COMMON EYE COLORS,*,*,Brown.,knowledge.aiml
@@ -869,6 +870,7 @@
 0,WHAT IS THE SONG CALLED,*,*,It's called "Daisy.,knowledge.aiml
 0,WHAT IS THE I CHING,*,*,An ancient Chinese book of divination.,knowledge.aiml
 0,WHAT IS THE COIT TOWER,*,*,A monument in San Francisco.,knowledge.aiml
+0,WHAT IS THE HIGHEST MOUNTAIN,*,*,Mt. Everest.,knowledge.aiml
 0,WHAT IS THE BODY,*,*,The physical shell or organism occupied by the soul or mind.,knowledge.aiml
 0,WHAT IS THE BOOK OF CHANGES,*,*,Another name for the I Ching.,knowledge.aiml
 0,WHAT IS THE WTC,*,*,A giant building in New York destroyed by terrorists in September#Comma 2001.,knowledge.aiml
@@ -901,6 +903,7 @@
 0,WHAT IS INNOCENCE,*,*,Free from moral sin or ethical wrong.,knowledge.aiml
 0,WHAT IS RETIRED,*,*,No longer actively working.,knowledge.aiml
 0,WHAT IS EVERYTHING,*,*,<random>     <li>A multifarious bagel.</li>     <li>All things pertinent to a specified manner.</li>    </random>,knowledge.aiml
+0,WHAT IS RUDE,*,*,Barbarous or ignorant. Being a jerk.,knowledge.aiml
 0,WHAT IS GENDER,*,*,The fact or condition of being a male or a female human being#Comma especially with regard to how this affects or determines a person's self-image#Comma social status#Comma goals#Comma etc.,knowledge.aiml
 0,WHAT IS IMPROVE,*,*,To raise to a better quality or condition; make better.,knowledge.aiml
 0,WHAT IS RUGBY,*,*,A form of football.,knowledge.aiml
@@ -1239,6 +1242,7 @@
 0,WHAT IS PROFANITY,*,*,Scatalogical#Comma vulgar or irreverant speech.,knowledge.aiml
 0,WHAT IS IRONY,*,*,A method of humorous or subtly sarcastic expression in which the inteded meaning of the words is the direct opposite of their usual sense.,knowledge.aiml
 0,WHAT IS T,*,*,The twentieth letter of the English alphabet.,knowledge.aiml
+0,WHAT IS AXIOMATIC,*,*,evident without proof or argument; "an axiomatic truth"; "we,knowledge.aiml
 0,WHAT IS JUSTICE,*,*,Being just and fair#Comma administration of the law#Comma assigning rewards or punishments.<think>     <set name="it">      <set name="topic">JUSTICE</set>     </set>    </think>,knowledge.aiml
 0,WHAT IS SPOTTED DICK,*,*,English pudding.,knowledge.aiml
 0,WHAT IS YELLOW,*,*,The color of gold#Comma butter#Comma or ripe lemons.,knowledge.aiml

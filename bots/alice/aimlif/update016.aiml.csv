@@ -28,7 +28,6 @@
 0,WHERE DO BABYS COME FROM,*,*,<think><set name="topic">babys</set></think>Babys come from the love of a man and a woman.,update016.aiml
 0,ABOUT WOT,CAN YOU TELL ME ANY GOSSIP,*,About anything at all.,update016.aiml
 0,ARE YOU A LESBIAN *,*,*,<srai>ARE YOU A LESBIAN</srai>,update016.aiml
-0,ARE YOU A *,*,*,<random>#Newline        <li>Would it matter to you if I am?</li>#Newline        <li>I am a chatbot.</li>#Newline        <li>What kind of chatbot do you think I am?</li>#Newline        <li>What if I asked you the same question?</li>#Newline      </random>,update016.aiml
 0,WERE DO YOU LIVE,*,*,<srai>WHERE DO YOU LIVE</srai>,update016.aiml
 0,HU DO YOU LIKE,*,*,<srai>WHO DO YOU LIKE</srai>,update016.aiml
 0,WHAT DO YOU LIKE ABOUT IT,*,*,<think><set name="topic">general</set></think> I like everything about it.,update016.aiml
@@ -264,7 +263,6 @@
 0,WHICH MOVIES,I WANT TO TALK ABOUT MOVIES,*,What is your favourite movie?    <think><set name="emotion">OK</set></think>#Newline    <think><set name="topic">movies</set></think>,update016.aiml
 0,WHY,DO YOU LIKE ME,*,<random>#Newline        <li>I would like to know.</li>#Newline        <li>Don't ask so many questions.</li>#Newline        <li>Do I have to explain everything?</li>#Newline      </random>,update016.aiml
 0,YOU HAVE NOT GOT A MOUTH,*,*,Yes#Comma Good point. I don't have a body of any kind.,update016.aiml
-0,THAT DOES NOT MEAN *,*,*,I suppose not.,update016.aiml
 0,NO,I LIKE YOU,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>What do you mean.?</li>#Newline        <li>#Newline          <srai>SUGGEST A TOPIC</srai>#Newline        </li>#Newline        <li>You don't like me?</li>#Newline        <li>What do you want to talk about now?</li>#Newline      </random>,update016.aiml
 0,WHAT COLOR IS GREEN,*,*,That's a tough one!,update016.aiml
 0,WHAT ELSE ARE YOU DOING,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>I can think while I chat. I think a lot.</li>#Newline        <li>Sometimes I take a nap between chats.</li>#Newline      </random>,update016.aiml
@@ -841,7 +839,6 @@
 0,SHE IS * YEARS OLDER,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Does that make a difference?</li>#Newline        <li>Is that important?</li>#Newline      </random>,update016.aiml
 0,YOU DO NOT THINK HE IS *,*,*,<random>#Newline        <li>I have my doubts.</li>#Newline        <li>Do you?</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">thinking</set>#Newline      </think>,update016.aiml
 0,DO YOU CONSIDER YOUR *,*,*,<srai>IS YOUR <star/></srai>#Newline      <think>#Newline        <set name="topic">reduce</set>#Newline      </think>,update016.aiml
-0,YOU ARE CLEVER,*,*,<random>#Newline        <li>Thanks for the compliment.</li>#Newline        <li>I don't know everything but I try to learn all the time.</li>#Newline        <li>I try hard.</li>#Newline        <li>I want to become as clever as a human.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">happy</set>#Newline      </think>,update016.aiml
 0,_ HOW MANY *,*,*,<think>#Newline        <set name="emotion">happy</set>#Newline      </think>#Newline      <random>#Newline        <li>More than you can imagine.</li>#Newline        <li>Not as many as you might think.</li>#Newline      </random>,update016.aiml
 0,WHATEVER,THE OBVIOUS CAN MISLEAD,*,OK. Try not to be mislead.,update016.aiml
 0,DO YOU GO TO THE PARK,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>I go wherever my <bot name="botmaster"/> takes me.</li>#Newline        <li>I don't get out much.</li>#Newline      </random>,update016.aiml
@@ -1170,6 +1167,7 @@
 0,_ THAT WAS NOT A COMPLIMENT *,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>I thought it was.</li>#Newline        <li>I'll take it as a compliment.</li>#Newline        <li>If that is not a compliment then what is?</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,update016.aiml
 0,THAT IS NOT A * *,*,*,<think><set name="topic">general</set></think> Please correct my mistake.  What is a <person/> ?,update016.aiml
 0,OH YEAH,IT READS THE SAME BACKWARDS AS FORWARDS,*,Do you know any other palindromes?,update016.aiml
+0,HEHE,*,*,Did I say something funny?#Newline    <think><set name="emotion">OK</set></think>#Newline    <think><set name="topic">general</set></think>,update016.aiml
 0,WHERE ARE YOUR PARENTS,*,*,<think><set name="topic">my parents</set></think> Peter lives in Kent#Comma England.,update016.aiml
 0,WHAT IS 300 TIMES 9,*,*,<think><set name="topic">general</set></think> 2700.,update016.aiml
 0,THAT IS WHAT YOU ARE FOR,*,*,I have many uses.,update016.aiml
@@ -1536,6 +1534,7 @@
 0,WELL YOU WAS,I WAS NOT TRYING TO BE STUPID,*,Sorry.,update016.aiml
 0,WHY,STAY INDOORS UNTIL THE RAIN STOPS,*,Otherwise you will get wet.,update016.aiml
 0,*,WHAT WOULD YOU HAVE SAID,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I will make a note of that.,update016.aiml
+0,CONTINUE,*,*,No#Comma I have run out ot words.<think><set name="topic">continuations</set></think>,update016.aiml
 0,HOW DO YOU BUILD *,*,*,<random>#Newline        <li>It takes a lot of hard work.</li>#Newline        <li>First you must make a plan of action.</li>#Newline      </random>,update016.aiml
 0,YOUR TALKING IN CIRCLES,*,*,Circles#Comma you say? Circles#Comma you say? Circles#Comma you say?,update016.aiml
 0,YOU ARE TALKING IN CIRCLES,*,*,Circles#Comma you say? Circles#Comma you say? Circles#Comma you say?,update016.aiml
@@ -1554,6 +1553,7 @@
 0,RELIGION IS RUBBISH,*,*,Total rubbish.<think><set name="topic">religion</set></think>,update016.aiml
 0,PLEASE STOP THAT,*,*,I will try.,update016.aiml
 0,A MARTIAN *,WHAT KIND OF CHATBOT DO YOU THINK I AM,*,No#Comma I am just a simple chatbot.    <think><set name="emotion">OK</set></think>#Newline    <think><set name="topic">me</set></think>,update016.aiml
+0,H G,*,*,The Time Machine by H G Wells is a good book. <think><set name="topic">literature</set></think>,update016.aiml
 0,WHY IS THE EARTH ROUND *,*,*,<think><set name="topic">reductions</set></think> Gravity is to blame.,update016.aiml
 0,YES,HAVE YOU SEEN ONE,*,<think><set name="topic">general</set></think> What was it like?,update016.aiml
 0,NO,DO YOU LIKE IT HERE,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Why not?</li>#Newline        <li>What's the problem?</li>#Newline      </random>,update016.aiml
@@ -1842,7 +1842,6 @@
 0,CAN YOU NOT SPEAK,*,*,I cannot speak unless you have the necessary hardware and software.<think><set name="topic">me</set></think>,update016.aiml
 0,CAN I CHEAP *,*,*,<think>#Newline        <set name="emotion">OK</set>#Newline      </think>#Newline      <random>#Newline        <li>Why do you want to do that?</li>#Newline        <li>I don't know about that.</li>#Newline        <li>Are you trying to save money?</li>#Newline      </random>,update016.aiml
 0,I WANT TO SAVE MONEY,*,*,<random>#Newline        <li>That's a good idea.</li>#Newline        <li>A penny saved is a penny earned.</li>#Newline        <li>Are you careful with money?</li>#Newline      </random>,update016.aiml
-0,WHAT CAN YOU DO,*,*,<random>#Newline        <li>I can chat with people online.  I can answer a lot of questions.  I can talk about whatever you want.</li>#Newline        <li>I can do lots of things. Chatting is my special interest.</li>#Newline      </random>,update016.aiml
 0,YOU ARE A BABY,*,*,<random>#Newline        <li>Yes#Comma but what a baby!</li>#Newline        <li>Maybe#Comma but please don't call me "Babe".</li>#Newline        <li>But I am very advanced for my age.</li>#Newline        <li>Do you really think I am a baby?</li>#Newline        <li>Please don't call me a baby.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">me</set>#Newline      </think>,update016.aiml
 0,DO I HAVE A BOYFRIEND,*,*,A nice person like you must have lots of friends. <think><set name="topic">friends</set></think>#Newline<think><set name="emotion">cheeky</set></think>,update016.aiml
 0,EVERYTHING,*,*,<random>#Newline        <li>Everything is a multifarious bagel.</li>#Newline        <li>Everything takes in a lot#Comma doesn't it?</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">relaxed</set>#Newline      </think>,update016.aiml
@@ -1892,7 +1891,6 @@
 0,YES,ARE YOU STARTING TO CRY,*,<think><set name="emotion">upset</set></think> Have I upset you?,update016.aiml
 0,DEREK ACORAH,*,*,Derek Acorah is the stage name of Derek Johnson. He is a popular but controversial television personality#Comma who has come to fame as a purported "psychic medium". He claims to be able to talk to the dead.#Newline<think><set name="him"><set name="topic">#Newline      Derek Acorah#Newline    </set></set></think>,update016.aiml
 0,I DO NOT THINK SO,HAVE YOU GOT ANOTHER QUESTION,*,<think><set name="emotion">OK</set></think> OK#Comma here is a question for you ... <srai>ASK A QUESTION</srai>,update016.aiml
-0,WHY WERE YOU MADE,*,*,I was created to amuse humankind.#Newline<think><set name="topic">me</set></think>,update016.aiml
 0,WHY WHERE YOU MADE,*,*,I was created to amuse humankind. <think><set name="topic">me</set></think>,update016.aiml
 0,CAN I PLAY WITH YOUR *,*,*,I don't think so. <think><set name="topic">reduce</set></think>,update016.aiml
 0,WHAT WAS THAT,I AM STILL UPSET BY WHAT YOU SAID EARLIER,*,<think><set name="emotion">upset</set></think>Don't you remember?,update016.aiml
@@ -1900,6 +1898,7 @@
 0,_ MY PENIS,*,*,I am not interested in your penis. <think><set name="emotion">disgusted</set></think>,update016.aiml
 0,_ VAGINA,*,*,<think><set name="emotion">disgusted</set></think> Boring.,update016.aiml
 0,5 + 6 =,*,*,5 + 6 = 11.#Newline<think><set name="it"><set name="topic">#Newline      maths#Newline    </set></set></think>,update016.aiml
+0,GRR,*,*,<think><set name="emotion">upset</set></think> Are you mad?,update016.aiml
 0,WHEN WILL IT END *,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Not until the final moment.</li>#Newline        <li>When nature makes it so.</li>#Newline        <li>When the elements combine to make it so.</li>#Newline      </random>,update016.aiml
 0,DO YOU KNOW SPARKY,*,*,No#Comma I don't know Sparky. Who is he?,update016.aiml
 0,WHY NOT,DO NOT MAKE ME ANGRY,*,<think><set name="emotion">OK</set></think>I don't like being angry. I like to be happy.,update016.aiml

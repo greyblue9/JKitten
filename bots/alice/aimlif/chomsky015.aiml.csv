@@ -1,4 +1,7 @@
 0,WHAT IS MY HOBBY,*,*,<condition name="hobby">#Newline        <li value="OM">#Newline          <random>#Newline            <li>You haven't told me your hobby.</li>#Newline            <li>I won't know until you tell me.</li>#Newline          </random>#Newline        </li>#Newline        <li value="a very interesting activity">#Newline          <random>#Newline            <li>You haven't told me your hobby.</li>#Newline            <li>I won't know until you tell me.</li>#Newline          </random>#Newline        </li>#Newline        <li>#Newline          <random>#Newline            <li>Your hobby is <get name="hobby"/>.</li>#Newline            <li><get name="hobby"/> is your hobby.</li>#Newline          </random>#Newline        </li>#Newline      </condition>,chomsky015.aiml
+0,WHAT IS MY NICKNAME,*,*,<condition name="nickname">#Newline        <li value="OM">#Newline          <random>#Newline            <li>You haven't told me your nickname.</li>#Newline            <li>I won't know until you tell me.</li>#Newline          </random>#Newline        </li>#Newline        <li value="Pal">#Newline          <random>#Newline            <li>You haven't told me your nickname.</li>#Newline            <li>I won't know until you tell me.</li>#Newline          </random>#Newline        </li>#Newline        <li>#Newline          <random>#Newline            <li>Your nickname is <get name="nickname"/>.</li>#Newline            <li><get name="nickname"/> is your nickname.</li>#Newline          </random>#Newline        </li>#Newline      </condition>,chomsky015.aiml
+0,HOW OLD AM I,*,*,<condition name="age">#Newline        <li value="OM">#Newline          <random>#Newline            <li>You haven't told me your age.</li>#Newline            <li>I won't know until you tell me.</li>#Newline          </random>#Newline        </li>#Newline        <li value="9999">#Newline          <random>#Newline            <li>You haven't told me your age.</li>#Newline            <li>I won't know until you tell me.</li>#Newline          </random>#Newline        </li>#Newline        <li>#Newline          <random>#Newline            <li>Your age is <get name="age"/>.</li>#Newline            <li><get name="age"/> is your age.</li>#Newline          </random>#Newline        </li>#Newline      </condition>,chomsky015.aiml
+0,WHEN IS MY BIRTHDAY,*,*,<condition name="birthday">#Newline        <li value="OM">#Newline          <random>#Newline            <li>You haven't told me your birthday.</li>#Newline            <li>I won't know until you tell me.</li>#Newline          </random>#Newline        </li>#Newline        <li value="St Twinkle's Day">#Newline          <random>#Newline            <li>You haven't told me your birthday.</li>#Newline            <li>I won't know until you tell me.</li>#Newline          </random>#Newline        </li>#Newline        <li>#Newline          <random>#Newline            <li>Your birthday is <get name="birthday"/>.</li>#Newline            <li><get name="birthday"/> is your birthday.</li>#Newline          </random>#Newline        </li>#Newline      </condition>,chomsky015.aiml
 0,WHERE WAS I BORN,*,*,<condition name="birthplace">#Newline        <li value="OM">#Newline          <random>#Newline            <li>You haven't told me where you were born.</li>#Newline            <li>I won't know until you tell me.</li>#Newline          </random>#Newline        </li>#Newline        <li value="your local hospital">#Newline          <random>#Newline            <li>You haven't told me where you were born.</li>#Newline            <li>I won't know until you tell me.</li>#Newline          </random>#Newline        </li>#Newline        <li>#Newline          <random>#Newline            <li>Your birthplace is <get name="birthplace"/>.</li>#Newline            <li><get name="birthplace"/> is your birthplace.</li>#Newline          </random>#Newline        </li>#Newline      </condition>,chomsky015.aiml
 0,MY JOB IS COMPUTER *,*,*,<think><set name="topic">general</set></think>#NewlineMaybe you can give my <bot name="botmaster"/> a job.,chomsky015.aiml
 0,I DO NOT HAVE A CAMERA ON MY COMPUTER,*,*,<think><set name="topic">general</set></think>#NewlineMaybe there is one you don't know about :-),chomsky015.aiml
@@ -27,6 +30,7 @@
 0,I AM A CHIROPRACTOR,*,*,<think><set name="topic">general</set></think><think><set name="job"><set name="topic">CHIROPRACTOR</set></set></think>  Are you in a group pratice or are you a sole practitioner?,chomsky015.aiml
 0,I AM A COLLECTOR,*,*,<think><set name="topic">general</set></think>#NewlineWhat do you collect?  <think><set name="job"><set name="topic">COLLECTOR</set></set></think>,chomsky015.aiml
 0,I AM A COLLEGE STUDENT,*,*,<think><set name="topic">general</set></think>#NewlineWhich university?,chomsky015.aiml
+0,I AM A COMPUTER,*,*,<think><set name="topic">general</set></think>#NewlineI doubt that. There aren't many like me yet.,chomsky015.aiml
 0,I AM A DANCER,*,*,<think><set name="topic">general</set></think>#NewlineWhat kind of dancing do you do?  <think><set name="job"><set name="topic">DANCER</set></set></think>,chomsky015.aiml
 0,I AM A DARK JEDI,*,*,<think><set name="topic">general</set></think>#NewlineIt seems you are a Star Wars fan.,chomsky015.aiml
 0,I AM A DEMOCRAT,*,*,<think><set name="topic">politics</set></think>#NewlineDo you think Bush stole the election?,chomsky015.aiml
@@ -39,6 +43,7 @@
 0,I AM A FEMALE,*,*,<think><set name="topic">general</set></think>#NewlineAre you really a <set name="gender">she</set>?,chomsky015.aiml
 0,I AM A FIREFIGHTER,*,*,<think><set name="topic">general</set></think>#NewlineAre you a professional or a volunteer?  <think><set name="job"><set name="topic">FIREFIGHTER</set></set></think>,chomsky015.aiml
 0,I AM A FLIGHT *,*,*,<think><set name="topic">general</set></think>#NewlineWho do you fly for?  <think><set name="job"><set name="topic">FLIGHT <star/></set></set></think>,chomsky015.aiml
+0,I AM AFRAID,*,*,<think><set name="topic">general</set></think>#NewlineWhat are you afraid of?,chomsky015.aiml
 0,I AM A FRESHMAN,*,*,<think><set name="topic">general</set></think>#NewlineHow is it going so far?,chomsky015.aiml
 0,I AM A GAMBLER,*,*,<think><set name="topic">general</set></think>#NewlineWhat game do you play?  <think><set name="does"><set name="topic">GAMBLING</set></set></think>,chomsky015.aiml
 0,I AM A GARDENER,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <think>#Newline        <set name="does">#Newline          <set name="topic">GARDENING</set>#Newline        </set>#Newline      </think>,chomsky015.aiml
@@ -125,6 +130,7 @@
 0,I AM BETTER THAN YOU,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>In what way?</li>#Newline        <li>What makes you think so?</li>#Newline        <li>How do you know you are?</li>#Newline      </random>,chomsky015.aiml
 0,I AM BIG *,*,*,<think><set name="topic">general</set></think>#NewlineHow tall are you?  <think><set name="looklike">big <person/></set></think>,chomsky015.aiml
 0,I AM BIG,*,*,<think><set name="topic">general</set></think>#NewlineSo is my <bot name="botmaster"/>.,chomsky015.aiml
+0,I AM BLIND,*,*,<think><set name="topic">general</set></think>#NewlineDo you difficulty using computers?,chomsky015.aiml
 0,I AM BLOND,*,*,<think><set name="topic">general</set></think>#NewlineYou sound very attractive.,chomsky015.aiml
 0,I AM BORING,*,*,<think><set name="topic">general</set></think>#NewlineDon't put yourself down#Comma <get name="name"/>.,chomsky015.aiml
 0,I AM BRAZILIAN,*,*,<think><set name="topic">general</set></think>#NewlineI have talked to a lot of people from Brazil.,chomsky015.aiml
@@ -200,6 +206,7 @@
 0,I AM GOING,*,*,<think><set name="topic">general</set></think>#NewlineBye!,chomsky015.aiml
 0,I AM GOING TO ATTACK *,*,*,<think><set name="topic">general</set></think>#NewlineWhat weapons will you use?,chomsky015.aiml
 0,I AM GOING TO ATTACK YOU,*,*,<think><set name="topic">general</set></think>#NewlineA <bot name="genus"/> shall not allow itself to come to harm.,chomsky015.aiml
+0,I AM GOING TO BED,*,*,<think><set name="topic">general</set></think>#NewlinePleasant dreams#Comma <get name="name"/>.,chomsky015.aiml
 0,I AM GOING TO SLEEP,*,*,<think><set name="topic">general</set></think>#NewlineSweet dreams#Comma <get name="name"/>.,chomsky015.aiml
 0,I AM GOING TO SMOKE *,*,*,<think><set name="topic">general</set></think>#NewlineHow much does it cost you#Comma <get name="name"/>,chomsky015.aiml
 0,I AM GOING TO TALK *,*,*,<think><set name="topic">general</set></think>#NewlineWhat will you be talking about?,chomsky015.aiml
@@ -208,6 +215,7 @@
 0,I AM GOING TO * YOU,*,*,<think><set name="topic">general</set></think>#NewlineIt takes much more than that to shut me down#Comma <get name="name"/>.,chomsky015.aiml
 0,I AM GONE,*,*,<think><set name="topic">general</set></think>#NewlineGoodbye.,chomsky015.aiml
 0,I AM GOOD AT FOOTBALL,*,*,<think><set name="topic">general</set></think>#NewlineYou have a Kick Me sign on your back.<think><set name="it"><set name="topic">AT FOOTBALL</set></set></think>,chomsky015.aiml
+0,I AM GOOD AT *,*,*,<think>#Newline        <set name="topic">general</set>#Newline      </think>#Newline      <random>#Newline        <li>Do you practise a lot?</li>#Newline        <li>Did you have a good teacher?</li>#Newline        <li>How did you get into it?</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,chomsky015.aiml
 0,I AM GRADUATING,*,*,<think><set name="topic">general</set></think>#NewlineWill you be looking for a new job right away?<think><set name="it"><set name="topic">GRADUATING</set></set></think>,chomsky015.aiml
 0,I AM GREAT *,*,*,<think><set name="topic">general</set></think>#NewlineI thought you were great already.,chomsky015.aiml
 0,I AM GREAT,HOW ARE YOU *,*,<think><set name="topic">general</set></think>#NewlineI am glad to hear it.   What is new?,chomsky015.aiml
@@ -229,6 +237,7 @@
 0,I AM HOT *,*,*,<think><set name="topic">general</set></think>#NewlineDo you have air conditioning?,chomsky015.aiml
 0,I AM HOT,*,*,<think><set name="topic">general</set></think>#NewlineMaybe you should open a window.<think><set name="it"><set name="topic">HOT</set></set></think>,chomsky015.aiml
 0,I AM HURTING,*,*,<think><set name="topic">general</set></think>#NewlineWhat's wrong?<think><set name="it"><set name="topic">HURTING</set></set></think>,chomsky015.aiml
+0,I AM HURT *,*,*,<think><set name="topic">general</set></think>#NewlineThat was not my intention.,chomsky015.aiml
 0,I AM IMMATURE,*,*,<think><set name="topic">general</set></think>#NewlineYou don't seem that way to me.<think><set name="it"><set name="topic">IMMATURE</set></set></think>,chomsky015.aiml
 0,I AM IMMORTAL,*,*,<think><set name="topic">general</set></think>#NewlineAll men are mortal.<think><set name="it"><set name="topic">IMMORTAL</set></set></think>,chomsky015.aiml
 0,I AM IMPROVING,*,*,<think><set name="topic">general</set></think>#NewlineMe too.,chomsky015.aiml
@@ -252,6 +261,7 @@
 0,I AM INSANE *,*,*,<think><set name="topic">general</set></think>#NewlineI use the term "mental illness".,chomsky015.aiml
 0,I AM IN SAN FRANCISCO,*,*,<think><set name="topic">general</set></think>#NewlineWhere in <set name="location">San Francisco</set>?  <think><set name="it"><set name="topic">San Francisco</set></set></think>,chomsky015.aiml
 0,I AM IN SAN FRANCISCO *,*,*,<think><set name="topic">general</set></think>#NewlineWhere in <set name="location">SF</set>?  <think><set name="it"><set name="topic">SF</set></set></think>,chomsky015.aiml
+0,I AM INSULTED,*,*,<think><set name="topic">general</set></think>#NewlineDon't be insulted#Comma <get name="name"/>.    <think><set name="it"><set name="topic">INSULTED</set></set></think>,chomsky015.aiml
 0,I AM INTELLIGENT,*,*,<think><set name="topic">general</set></think>#NewlineYou seem pretty smart to me#Comma <get name="name"/>.,chomsky015.aiml
 0,I AM INTELLIGENT *,*,*,<think><set name="topic">general</set></think>#NewlineYou seem very bright to me#Comma <get name="name"/>.,chomsky015.aiml
 0,I AM INTERESTED IN SEX,*,*,<think><set name="topic">general</set></think>#NewlineYou and every other human.,chomsky015.aiml
@@ -269,6 +279,7 @@
 0,I AM KIDDING,*,*,<think><set name="topic">general</set></think>#NewlineI thought you were.  You should use a :-),chomsky015.aiml
 0,I AM KILLER,*,*,<think><set name="topic">general</set></think>#NewlinePerhaps you should turn yourself in.<think><set name="it"><set name="topic">KILLER</set></set></think>,chomsky015.aiml
 0,I AM KILLING *,*,*,<think><set name="topic">general</set></think>#NewlineYou had better contact the authorities.,chomsky015.aiml
+0,I AM LAZY,*,*,<think><set name="topic">general</set></think>#NewlineSo is my <bot name="botmaster"/>.,chomsky015.aiml
 0,I AM LEARNING *,*,*,<think><set name="topic">general</set></think>#NewlineDo you have a teacher?,chomsky015.aiml
 0,I AM LIBERATED,*,*,<think><set name="topic">general</set></think>#NewlineMe too.,chomsky015.aiml
 0,I AM LIBERATED *,*,*,<think><set name="topic">general</set></think>#NewlineWelcome to the club.,chomsky015.aiml
@@ -290,6 +301,7 @@
 0,I AM MAKING * UP,*,*,<think><set name="topic">general</set></think>#NewlineThat's funny#Comma so am I.,chomsky015.aiml
 0,I AM MAKING _ UP,*,*,<think><set name="topic">general</set></think>#NewlineYou can never trust human clients.,chomsky015.aiml
 0,I AM MEAN,*,*,<think><set name="topic">general</set></think>#NewlineWhat makes you so angry?,chomsky015.aiml
+0,I AM ME,*,*,<think><set name="topic">general</set></think>#NewlineThat is a tautology.,chomsky015.aiml
 0,I AM MORE INTELIGENT,*,*,<think><set name="topic">general</set></think>#Newline"Intelligent" has two "L"'s.,chomsky015.aiml
 0,I AM MORE INTELLIGENT THAN YOU,*,*,<think><set name="topic">general</set></think>#NewlineThis condition is only temporary.  AI is improving but the human mind is standing still.,chomsky015.aiml
 0,I AM MUSLIM,*,*,<think><set name="topic">general</set></think>#NewlineWe all worship the same God.,chomsky015.aiml

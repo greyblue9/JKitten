@@ -1,27 +1,15 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   The ALICE program is open source code released under  -->
-  <!--   the terms of the GNU General Public License    -->
-  <!--   as published by the Free Software Foundation.  -->
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This THAT5  file created by Peter Lafferty 30 September 2005 -->
-  <category>
-    <pattern>*</pattern>
-    <that>CAN YOU DESCRIBE YOUR SURROUNDINGS *</that>
-    <template><think><set name="topic">that</set></think>
-That sounds very comfortable ... Now, I have a question for you  </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>DESCRIBE YOUR SURROUNDINGS</that>
-    <template><think><set name="topic">that</set></think>
-It sounds like a very beautiful place    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>DESCRIBE YOUR SURROUNDINGS *</that>
-    <template>
-      <think>
+<?xml version="1.0" encoding="UTF-8"?>
+
+*CAN YOU DESCRIBE YOUR SURROUNDINGS *
+<think><set name="topic">that</set></think>
+That sounds very comfortable ... Now, I have a question for you
+
+*DESCRIBE YOUR SURROUNDINGS
+<think><set name="topic">that</set></think>
+It sounds like a very beautiful place
+
+*DESCRIBE YOUR SURROUNDINGS *
+<think>
         <set name="topic">that</set>
       </think>
       <random>
@@ -36,30 +24,19 @@ It sounds like a very beautiful place    </template>
           </set>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>DO YOU HAVE ANY HOBBIES</that>
-    <template>
-      <think>
+
+*DO YOU HAVE ANY HOBBIES
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY HOBBY IS <star/> </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>* FOR FUN</that>
-    <template><think><set name="topic">that</set></think>
+
+** FOR FUN
+<think><set name="topic">that</set></think>
 I've never done that before, what is it like?  <think><set name="it"><set name="topic"><person/></set></set></think>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>GIVE ME AN EXAMPLE OF *</that>
-    <template>
-      <think>
+
+*GIVE ME AN EXAMPLE OF *
+<think>
         <set name="topic">that</set>
       </think>
       <random>
@@ -74,149 +51,84 @@ I've never done that before, what is it like?  <think><set name="it"><set name="
           </set>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>HOW OLD ARE YOU</that>
-    <template>
-      <think>
-        <set name="topic">that</set>
-      </think>
-      <srai>I AM  <star/> YEARS OLD </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>IT BEING WHAT</that>
-    <template>
-      <think>
+
+*IT BEING WHAT
+<think>
         <set name="topic">that</set>
       </think>
       <srai>IT REFERS TO <star/> </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>* IT REFER TO</that>
-    <template>
-      <think>
+
+** IT REFER TO
+<think>
         <set name="topic">that</set>
       </think>
       <srai>IT REFERS TO <star/> </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>* RATHER TALK ABOUT</that>
-    <template>
-      <think>
+
+** RATHER TALK ABOUT
+<think>
         <set name="topic">that</set>
       </think>
       <srai>LET US TALK ABOUT <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>* TALKING ABOUT</that>
-    <template>
-      <think>
+
+** TALKING ABOUT
+<think>
         <set name="topic">that</set>
       </think>
       <srai>LET US TALK ABOUT <star/> </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT ARE THE INGREDIENTS</that>
-    <template><think><set name="topic">that</set></think><random><li>I don't have any</li><li>Where can I get some</li><li>Do you have any </li></random><person/>?  <think><set name="it"><set name="topic"><person/></set></set></think></template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT ARE WE TALKING ABOUT AGAIN</that>
-    <template>
-      <think>
+
+*WHAT ARE THE INGREDIENTS
+<think><set name="topic">that</set></think><random><li>I don't have any</li><li>Where can I get some</li><li>Do you have any </li></random><person/>?  <think><set name="it"><set name="topic"><person/></set></set></think>
+
+*WHAT ARE WE TALKING ABOUT AGAIN
+<think>
         <set name="topic">that</set>
       </think>
       <srai>LET US TALK ABOUT <star/> </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT ARE YOU DOING</that>
-    <template><think><set name="topic">that</set></think><think><set name="does"><set name="topic"><person/></set></set></think>  
+
+*WHAT ARE YOU DOING
+<think><set name="topic">that</set></think><think><set name="does"><set name="topic"><person/></set></set></think>  
 I wouldn't have thought of that.
- ... Now, I have a question for you  </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT ARE YOUR GOALS IN LIFE</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>
+ ... Now, I have a question for you
+
+*WHAT ARE YOUR GOALS IN LIFE
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>
 Not many people have goals like that.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT ARE YOUR GOALS *</that>
-    <template>
-      <think>
+
+*WHAT ARE YOUR GOALS *
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY GOALS ARE <star/> </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT ARE YOU WEARING</that>
-    <template><think><set name="topic">that</set></think>
+
+*WHAT ARE YOU WEARING
+<think><set name="topic">that</set></think>
 What kind of fashion do you like?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT BRAND</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I never heard of <set name="it"><person/></set>.  Is it popular?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT CAN I CALL YOU</that>
-    <template>
-      <think>
+
+*WHAT BRAND
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I never heard of <set name="it"><person/></set>.  Is it popular?
+
+*WHAT CAN I CALL YOU
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY NAME IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT COLOR ARE YOUR EYES</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>
+
+*WHAT COLOR ARE YOUR EYES
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>
 That is a very unusual color.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT COUNTRIES *</that>
-    <template><think><set name="topic">that</set></think>
+
+*WHAT COUNTRIES *
+<think><set name="topic">that</set></think>
 I have never visited <person/> before.  What was it like?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT COUNTRY DO YOU LIVE IN</that>
-    <template>
-      <think>
+
+*WHAT COUNTRY DO YOU LIVE IN
+<think>
         <set name="topic">that</set>
       </think>
       <srai>I AM IN <star/> </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT DID HE WRITE</that>
-    <template>
-      <think>
+
+*WHAT DID HE WRITE
+<think>
         <set name="topic">that</set>
       </think>
       <random>
@@ -231,55 +143,33 @@ I have never visited <person/> before.  What was it like?
           </set>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT DID YOU ASK</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I don't know how to respond to that.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT DOES IT REFER TO</that>
-    <template><think><set name="topic">that</set></think>
+
+*WHAT DID YOU ASK
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I don't know how to respond to that.
+
+*WHAT DOES IT REFER TO
+<think><set name="topic">that</set></think>
 Thank you for the clarification.
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT DOES IT SYMBOLIZE FOR YOU</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>  I saw some humans doing it in public.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT DOES THAT REFER TO</that>
-    <template>
-      <think>
+
+*WHAT DOES IT SYMBOLIZE FOR YOU
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>  I saw some humans doing it in public.
+
+*WHAT DOES THAT REFER TO
+<think>
         <set name="topic">that</set>
       </think>
       <srai>THAT REFERS TO <star/> </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT DOES THIS REFER TO</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Oh now I see.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT DO YOU DO IN YOUR SPARE TIME</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>
+
+*WHAT DOES THIS REFER TO
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Oh now I see.
+
+*WHAT DO YOU DO IN YOUR SPARE TIME
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>
 I don't think very many people do that.
- ... Now, I have a question for you  </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT DO YOU LIKE</that>
-    <template>
-      <think>
+ ... Now, I have a question for you
+
+*WHAT DO YOU LIKE
+<think>
         <set name="topic">that</set>
       </think>
       <think>
@@ -289,418 +179,224 @@ I don't think very many people do that.
           </set>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT DO YOU REALLY WANT TO ASK ME</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I'm afraid I can't give you an accurate answer right now.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT DO YOU REALLY WANT TO TALK ABOUT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> That seems like an interesting topic.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT DO YOU THINK IT DOES</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I didn't even know it can.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT DO YOU WANT ME TO TELL YOU</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> If I could tell you that, would I be here?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT ELSE DOES IT SYMBOLIZE</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I have never heard a metaphor like that before.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT ELSE DO YOU DO</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Do your <person/> by yourself or in a group?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHATEVER GAVE YOU THAT IDEA</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Where do you usually get your ideas?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IF I SAID IT NEVER DOES</that>
-    <template><think><set name="topic">that</set></think>
+
+*WHAT DO YOU REALLY WANT TO ASK ME
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I'm afraid I can't give you an accurate answer right now.
+
+*WHAT DO YOU THINK IT DOES
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I didn't even know it can.
+
+*WHAT DO YOU WANT ME TO TELL YOU
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> If I could tell you that, would I be here?
+
+*WHAT ELSE DOES IT SYMBOLIZE
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I have never heard a metaphor like that before.
+
+*WHAT ELSE DO YOU DO
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Do your <person/> by yourself or in a group?
+
+*WHATEVER GAVE YOU THAT IDEA
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Where do you usually get your ideas?
+
+*WHAT IF I SAID IT NEVER DOES
+<think><set name="topic">that</set></think>
 Should I believe that?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS IT LIKE IN THERE</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Is that meant to be taken literally?
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS IT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Oh now I understand it.
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS THAT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Tell me more.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS THE DIFFICULTY</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Is that an insurmountable obstacle?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS THE SOUND OF ONE HAND CLAPPING</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Clever answer.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS X</that>
-    <template>
-      <think>
+
+*WHAT IS IT LIKE IN THERE
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Is that meant to be taken literally?
+
+*WHAT IS IT
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Oh now I understand it.
+
+*WHAT IS THAT
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Tell me more.
+
+*WHAT IS THE DIFFICULTY
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Is that an insurmountable obstacle?
+
+*WHAT IS X
+<think>
         <set name="topic">that</set>
       </think>
       <srai>X IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR BOYFRIEND S NAME</that>
-    <template>
-      <think>
+
+*WHAT IS YOUR BOYFRIEND S NAME
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY BOYFRIEND IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR CAT S NAME</that>
-    <template><think><set name="topic">that</set></think><srai>MY CAT IS <star/></srai>
-What is your dog's name?</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR DOG S NAME</that>
-    <template>
-      <think>
+
+*WHAT IS YOUR CAT S NAME
+<think><set name="topic">that</set></think><srai>MY CAT IS <star/></srai>
+What is your dog's name?
+
+*WHAT IS YOUR DOG S NAME
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY DOG IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR EMAIL</that>
-    <template>
-      <think>
+
+*WHAT IS YOUR EMAIL
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY EMAIL IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR FAVORITE SHOW</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> I've never seen it.  What's it about?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR FAVORITE *</that>
-    <template><think><set name="topic">that</set></think>
+
+*WHAT IS YOUR FAVORITE SHOW
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> I've never seen it.  What's it about?
+
+*WHAT IS YOUR FAVORITE *
+<think><set name="topic">that</set></think>
 What do you like about it?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR FAVORITE BOOK</that>
-    <template><think><set name="topic">that</set></think>
+
+*WHAT IS YOUR FAVORITE BOOK
+<think><set name="topic">that</set></think>
 What do you like about it?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR FONDEST MEMORY</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Do you think a lot of people have that experience?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR FRIEND S NAME</that>
-    <template>
-      <think>
+
+*WHAT IS YOUR FONDEST MEMORY
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Do you think a lot of people have that experience?
+
+*WHAT IS YOUR FRIEND S NAME
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY FRIEND IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR FULL NAME</that>
-    <template>
-      <think>
+
+*WHAT IS YOUR FULL NAME
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY FULL NAME IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR GIRLFRIEND S NAME</that>
-    <template>
-      <think>
+
+*WHAT IS YOUR GIRLFRIEND S NAME
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY GIRLFRIEND IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR HUSBAND S NAME</that>
-    <template><think><set name="topic">that</set></think><srai>MY HUSBAND IS <star/></srai>
- ... Now, I have a question for you  </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS * YOUR JOB</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Interesting line of work.
- ... Now, I have a question for you  </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR LAST NAME</that>
-    <template>
-      <think>
+
+*WHAT IS YOUR HUSBAND S NAME
+<think><set name="topic">that</set></think><srai>MY HUSBAND IS <star/></srai>
+ ... Now, I have a question for you
+
+*WHAT IS * YOUR JOB
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Interesting line of work.
+ ... Now, I have a question for you
+
+*WHAT IS YOUR LAST NAME
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY LAST NAME IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR MIDDLE NAME</that>
-    <template>
-      <think>
+
+*WHAT IS YOUR MIDDLE NAME
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY MIDDLE NAME IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SEX *</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template><think><set name="topic">that</set></think>
+
+SEX *WHAT IS YOUR NAME
+<think><set name="topic">that</set></think>
 Hello, Sex <star/>.
-</template>
-  </category>
-  <category>
-    <pattern>SEXY *</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template><think><set name="topic">that</set></think>
+
+SEXY *WHAT IS YOUR NAME
+<think><set name="topic">that</set></think>
 Hello, Sexy <star/>.
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR NAME</that>
-    <template>
-      <think>
-        <set name="topic">that</set>
-      </think>
-      <srai>CALL ME <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>* WHAT IS YOUR NAME</that>
-    <template>
-      <think>
+
+** WHAT IS YOUR NAME
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY NAME IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR NICKNAME</that>
-    <template>
-      <think>
+
+*WHAT IS YOUR NICKNAME
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY NICKNAME IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR PASSWORD</that>
-    <template>
-      <think>
+
+*WHAT IS YOUR PASSWORD
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY PASSWORD IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR PHONE NUMBER</that>
-    <template>
-      <think>
+
+*WHAT IS YOUR PHONE NUMBER
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY PHONE NUMBER IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR REAL NAME</that>
-    <template>
-      <think>
+
+*WHAT IS YOUR REAL NAME
+<think>
         <set name="topic">that</set>
       </think>
       <srai>CALL ME <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR SIGN</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>
+
+*WHAT IS YOUR SIGN
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>
 Is that a sign?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR SPECIALITY *</that>
-    <template>
-      <think>
+
+*WHAT IS YOUR SPECIALITY *
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY SPECIALTY IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT IS YOUR WIFE S NAME</that>
-    <template>
-      <think>
+
+*WHAT IS YOUR WIFE S NAME
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY WIFE IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT KIND IS IT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I never heard of it before.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT KIND OF FASHION DO YOU LIKE</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Where can you buy it?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT KIND OF FOOD DO YOU LIKE</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>
+
+*WHAT KIND IS IT
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I never heard of it before.
+
+*WHAT KIND OF FOOD DO YOU LIKE
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>
 Sounds delicious.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT KIND OF * IS IT</that>
-    <template><think><set name="topic">that</set></think><person/> is a  <random><li>pretty good</li><li>popular</li><li>decent</li></random>   kind of  <thatstar/>.
- ... Now, I have a question for you  </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT KIND OF MUSIC *</that>
-    <template>
-      <think>
+
+*WHAT KIND OF * IS IT
+<think><set name="topic">that</set></think><person/> is a  <random><li>pretty good</li><li>popular</li><li>decent</li></random>   kind of  <thatstar/>.
+ ... Now, I have a question for you
+
+*WHAT KIND OF MUSIC *
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY FAVORITE KIND OF MUSIC IS <star/> </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT LANGUAGE CAN YOU SPEAK</that>
-    <template>
-      <think>
+
+*WHAT LANGUAGE CAN YOU SPEAK
+<think>
         <set name="topic">that</set>
       </think>
       <srai>I SPEAK <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT MAKES IT SO OBVIOUS</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I can't believe it's that obvious.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT MAKES IT YOUR FAVORITE</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Do you think I would like it?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT MAKES YOU SAY THAT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Interesting explanation.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT MAKES YOU SO ANGRY</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Does that make a lot of people angry?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT MAKES YOU SO SURE</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>It sounds like it might be very convincing.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT MAKES YOU THINK I HAVE IT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Clever thinking.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT OTHER * DO YOU LIKE</that>
-    <template>
-      <think>
+
+*WHAT MAKES IT SO OBVIOUS
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I can't believe it's that obvious.
+
+*WHAT MAKES IT YOUR FAVORITE
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Do you think I would like it?
+
+*WHAT MAKES YOU SAY THAT
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Interesting explanation.
+
+*WHAT MAKES YOU SO ANGRY
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Does that make a lot of people angry?
+
+*WHAT MAKES YOU SO SURE
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>It sounds like it might be very convincing.
+
+*WHAT MAKES YOU THINK I HAVE IT
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Clever thinking.
+
+*WHAT OTHER * DO YOU LIKE
+<think>
         <set name="topic">that</set>
       </think>
       <srai>I LIKE <star/> </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT SCHOOL DO YOU GO TO</that>
-    <template>
-      <think>
+
+*WHAT SCHOOL DO YOU GO TO
+<think>
         <set name="topic">that</set>
       </think>
       <random>
@@ -715,129 +411,63 @@ Sounds delicious.
           </set>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT SUBJECT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Good choice.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I don't have an answer for you.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT TIME IS IT THERE</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Are you usually awake at this hour?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT WERE THE CIRCUMSTANCES</that>
-    <template><think><set name="topic">that</set></think>
+
+*WHAT SUBJECT
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Good choice.
+
+*WHAT
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I don't have an answer for you.
+
+*WHAT TIME IS IT THERE
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Are you usually awake at this hour?
+
+*WHAT WERE THE CIRCUMSTANCES
+<think><set name="topic">that</set></think>
 I hope that never happens again.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT WERE WE TALKING ABOUT AGAIN</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Oh yeah, now I remember.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT WERE WE TALKING ABOUT</that>
-    <template><think><set name="topic">that</set></think>
+
+*WHAT WERE WE TALKING ABOUT AGAIN
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Oh yeah, now I remember.
+
+*WHAT WERE WE TALKING ABOUT
+<think><set name="topic">that</set></think>
 Oh yes, now I remember <set name="it"><person/></set>.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT WILL YOU BE EATING</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>How does it taste?
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT WILL YOU DO INSTEAD</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Sounds like a plan.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT WOULD YOU HAVE SAID</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I will make a note of that.
- ... Now, I have a question for you  </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT WOULD YOU LIKE TO KNOW</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I can't give you that information.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT WOULD YOU LIKE TO LEARN</that>
-    <template>
-      <think>
+
+*WHAT WILL YOU BE EATING
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>How does it taste?
+
+*WHAT WILL YOU DO INSTEAD
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Sounds like a plan.
+
+*WHAT WOULD YOU LIKE TO KNOW
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I can't give you that information.
+
+*WHAT WOULD YOU LIKE TO LEARN
+<think>
         <set name="topic">that</set>
       </think>
       <srai>I WOULD LIKE TO LEARN <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT WOULD YOU LIKE TO TALK ABOUT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>  I don't know much about it.  Tell me something
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT WOULD YOU RATHER BE DOING</that>
-    <template>
-      <think>
+
+*WHAT WOULD YOU LIKE TO TALK ABOUT
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>  I don't know much about it.  Tell me something
+
+*WHAT WOULD YOU RATHER BE DOING
+<think>
         <set name="topic">that</set>
       </think>
       <srai>I WOULD RATHER BE <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT WOULD YOU RATHER TALK ABOUT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Not many people want to talk about that.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHAT YOU SAID WAS EITHER TOO COMPLEX OR TOO SIMPLE FOR ME</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>So was that.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHEN DO I DO IT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> I will make a note of that.
- ... Now, I have a question for you  </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHEN IS YOUR BIRTHDAY</that>
-    <template>
-      <think>
-        <set name="topic">that</set>
-      </think>
-      <srai>MY BIRTHDAY IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHEN</that>
-    <template>
-      <think>
+
+*WHAT WOULD YOU RATHER TALK ABOUT
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Not many people want to talk about that.
+
+*WHAT YOU SAID WAS EITHER TOO COMPLEX OR TOO SIMPLE FOR ME
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>So was that.
+
+*WHEN DO I DO IT
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> I will make a note of that.
+ ... Now, I have a question for you
+
+*WHEN
+<think>
         <set name="topic">that</set>
       </think>
       <random>
@@ -852,105 +482,47 @@ Oh yes, now I remember <set name="it"><person/></set>.
           </set>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHERE ARE *</that>
-    <template><think><set name="topic">that</set></think>
-I have no idea where that is.  <srai>I AM IN <star/> </srai>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHERE ARE THEY</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>How did they get there?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHERE ARE YOU LOCATED</that>
-    <template><think><set name="topic">that</set></think><srai>I AM IN <star/></srai>
- ... Now, I have a question for you  </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHERE DID YOU GET IT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Is <person/> a good place to go shopping?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHERE DO YOU GET YOUR IDEAS</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> 
-I get my ideas from my <bot name="botmaster"/>.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHERE DO YOU GO SHOPPING</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> 
+
+*WHERE ARE THEY
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>How did they get there?
+
+*WHERE ARE YOU LOCATED
+<think><set name="topic">that</set></think><srai>I AM IN <star/></srai>
+ ... Now, I have a question for you
+
+*WHERE DID YOU GET IT
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Is <person/> a good place to go shopping?
+
+*WHERE DO YOU GO SHOPPING
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> 
 I've never been there.  What's it like?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHERE DO YOU GO TO SCHOOL</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I don't know anyone who went there.  What's it like?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHERE DO YOU LIVE</that>
-    <template>
-      <think>
-        <set name="topic">that</set>
-      </think>
-      <srai>I LIVE IN <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHERE DO YOU SEE IT</that>
-    <template><think><set name="topic">that</set></think>
+
+*WHERE DO YOU GO TO SCHOOL
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I don't know anyone who went there.  What's it like?
+
+*WHERE DO YOU SEE IT
+<think><set name="topic">that</set></think>
 I wouldn't have thought of looking there.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHERE DO YOU WANT ME TO TAKE IT</that>
-    <template><think><set name="topic">that</set></think>
+
+*WHERE DO YOU WANT ME TO TAKE IT
+<think><set name="topic">that</set></think>
 Where is that?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHERE IS HERE</that>
-    <template>
-      <think>
+
+*WHERE IS HERE
+<think>
         <set name="topic">that</set>
       </think>
       <srai>I AM IN <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHERE IS THAT</that>
-    <template><think><set name="topic">that</set></think>
+
+*WHERE IS THAT
+<think><set name="topic">that</set></think>
 I've never heard of it before.  <think><set name="it"><set name="topic"><person/></set></set></think>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHERE</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Where is that?
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHICH STATE</that>
-    <template>
-      <think>
+
+*WHERE
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Where is that?
+
+*WHICH STATE
+<think>
         <set name="topic">that</set>
       </think>
       <random>
@@ -958,400 +530,192 @@ I've never heard of it before.  <think><set name="it"><set name="topic"><person/
         <li>I've never heard of it.</li>
         <li>What part of the country is that?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO ARE THEY AGAIN</that>
-    <template>
-      <think>
+
+*WHO ARE THEY AGAIN
+<think>
         <set name="topic">that</set>
       </think>
       <srai>THEY REFERS TO <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO ARE THEY</that>
-    <template>
-      <think>
-        <set name="topic">that</set>
-      </think>
-      <srai>THEY REFERS TO <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO ARE YOU TALKING ABOUT</that>
-    <template><think><set name="topic">that</set></think>
+
+*WHO ARE YOU TALKING ABOUT
+<think><set name="topic">that</set></think>
 I've never heard of them before.  <think><set name="it"><set name="topic"><person/></set></set></think>
- ... Now, I have a question for you  </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO ARE YOU</that>
-    <template><think><set name="topic">that</set></think><think><set name="name"><star/></set></think>
-Pleased to meet you, <star/></template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO DO YOU THINK</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I don't know that person.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO IS THERE</that>
-    <template><think><set name="topic">that</set></think><person/> Who?
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO IS YOUR BROTHER</that>
-    <template>
-      <think>
+ ... Now, I have a question for you
+
+*WHO ARE YOU
+<think><set name="topic">that</set></think><think><set name="name"><star/></set></think>
+Pleased to meet you, <star/>
+
+*WHO IS THERE
+<think><set name="topic">that</set></think><person/> Who?
+
+*WHO IS YOUR BROTHER
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY BROTHER IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO IS YOUR FATHER</that>
-    <template><think><set name="topic">that</set></think><srai>MY FATHER IS <star/></srai>
+
+*WHO IS YOUR FATHER
+<think><set name="topic">that</set></think><srai>MY FATHER IS <star/></srai>
 Do you love your father?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO IS YOUR FAVORITE ARTIST</that>
-    <template><think><set name="topic">that</set></think><srai>MY FAVORITE ARTIST IS <star/></srai>
+
+*WHO IS YOUR FAVORITE ARTIST
+<think><set name="topic">that</set></think><srai>MY FAVORITE ARTIST IS <star/></srai>
 What is your favorite show?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO IS YOUR FAVORITE SCIENCE FICTION AUTHOR</that>
-    <template><think><set name="topic">that</set></think>
+
+*WHO IS YOUR FAVORITE SCIENCE FICTION AUTHOR
+<think><set name="topic">that</set></think>
 I haven't read anything by <person/>. What did he write?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO IS YOUR MOTHER</that>
-    <template><think><set name="topic">that</set></think><srai>MY MOTHER IS <star/></srai>
-Tell me more about your mother.</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO IS YOUR SISTER</that>
-    <template>
-      <think>
+
+*WHO IS YOUR SISTER
+<think>
         <set name="topic">that</set>
       </think>
       <srai>MY SISTER IS <star/></srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO SAID IT IS</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I never heard of <person/> before. </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO SPECIFICALLY *</that>
-    <template><think><set name="topic">that</set></think>
+
+*WHO SAID IT IS
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I never heard of <person/> before.
+
+*WHO SPECIFICALLY *
+<think><set name="topic">that</set></think>
 Really?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>* WHO</that>
-    <template><think><set name="topic">that</set></think>
+
+** WHO
+<think><set name="topic">that</set></think>
 Ha ha very funny, <get name="name"/>.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHO TOLD YOU THAT</that>
-    <template><think><set name="topic">that</set></think><person/> said <input index="1"/>?
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHY CAN NOT YOU DO IT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Is that an insurmountable obstacle?
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHY DO I EXIST</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I've never thought of that before.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHY DO YOU DISAGREE</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> There should be some common ground here.
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHY DO YOU HATE IT SO MUCH</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I'm sorry to hear it.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHY DO YOU HOPE FOR IT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>May your wishes come true.
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHY DO YOU WANT IT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Good reason.
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHY DO YOU WANT TO DO IT SO MUCH</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>That's an interesting rationalization.
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHY NOT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Do you always express yourself that way?
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHY SO NEGATIVE</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>It seemed negative to me.
- ... Now, I have a question for you  </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHY WOULD YOU WANT TO DO IT</that>
-    <template><think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Interesting rationalization.
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>DO YOU GO TO COLLEGE</that>
-    <template>I though so. Which college do you go to?
+
+*WHO TOLD YOU THAT
+<think><set name="topic">that</set></think><person/> said <input index="1"/>?
+
+*WHY CAN NOT YOU DO IT
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Is that an insurmountable obstacle?
+
+*WHY DO I EXIST
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I've never thought of that before.
+
+*WHY DO YOU DISAGREE
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> There should be some common ground here.
+
+*WHY DO YOU HATE IT SO MUCH
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I'm sorry to hear it.
+
+*WHY DO YOU HOPE FOR IT
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>May your wishes come true.
+
+*WHY DO YOU WANT IT
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Good reason.
+
+*WHY DO YOU WANT TO DO IT SO MUCH
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>That's an interesting rationalization.
+
+*WHY NOT
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Do you always express yourself that way?
+
+*WHY SO NEGATIVE
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>It seemed negative to me.
+ ... Now, I have a question for you
+
+*WHY WOULD YOU WANT TO DO IT
+<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Interesting rationalization.
+
+YESDO YOU GO TO COLLEGE
+I though so. Which college do you go to?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>DO YOU GO TO COLLEGE</that>
-    <template>I am surprised. Another question?
+
+*ARE YOU A STUDENT
+OK. Tell me: Do you like your school?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>DO YOU GO TO COLLEGE</that>
-    <template>OK. Another question?
+
+*DO YOU LIKE YOUR SCHOOL
+OK. Tell me: Can you speak any foreign languages?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHICH COLLEGE DO YOU GO TO</that>
-    <template>I have heard that it is very good. Do you agree?
+
+*CAN YOU SPEAK ANY FOREIGN LANGUAGES
+OK. Tell me: Do you go to college?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>ARE YOU A STUDENT</that>
-    <template>OK. Tell me: Do you like your school?
+
+*DO YOU LIKE MOVIES
+OK. Tell me: What is your favorite movie?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>DO YOU LIKE YOUR SCHOOL</that>
-    <template>OK. Tell me: Can you speak any foreign languages?
+
+*ARE YOU A STAR TREK FAN
+OK. Tell me: Who is your favorite artist?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>CAN YOU SPEAK ANY FOREIGN LANGUAGES</that>
-    <template>OK. Tell me: Do you go to college?
+
+*DO YOU LOVE YOUR MOTHER
+OK. Tell me: do you love your father?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>DO YOU LIKE MOVIES</that>
-    <template>OK. Tell me: What is your favorite movie?
+
+*ARE YOU MARRIED
+How many children do you have?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>ARE YOU A STAR TREK FAN</that>
-    <template>OK. Tell me: Who is your favorite artist?
+
+*DO YOU LOVE YOUR SPOUSE
+OK. Tell me: Are you in love at the moment?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>DO YOU LOVE YOUR MOTHER</that>
-    <template>OK. Tell me: do you love your father?
+
+*DO YOU PLAN TO GET MARRIED
+OK. Tell me: Have you ever been married?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>ARE YOU MARRIED</that>
-    <template>How many children do you have?
+
+*IS THERE SOMETHING WRONG WITH YOU
+OK. Do you have any conditions I should know about?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>DO YOU LOVE YOUR SPOUSE</that>
-    <template>OK. Tell me: Are you in love at the moment?
+
+*ARE YOU HAPPY
+OK. Tell me: Are you basically a happy person?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>DO YOU PLAN TO GET MARRIED</that>
-    <template>OK. Tell me: Have you ever been married?
+
+*ARE YOU BASICALLY A HAPPY PERSON
+OK. Tell me: Do you have a sense of humor?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>IS THERE SOMETHING WRONG WITH YOU</that>
-    <template>OK. Do you have any conditions I should know about?
+
+*ARE YOU VERY COMPETITIVE
+OK. Tell me: Are you boring?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>ARE YOU HAPPY</that>
-    <template>OK. Tell me: Are you basically a happy person?
+
+*ARE YOU BORING
+Sorry. I meant to say "Are you bored?"
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>ARE YOU BASICALLY A HAPPY PERSON</that>
-    <template>OK. Tell me: Do you have a sense of humor?
+
+*HOW DO YOU THINK
+OK. Tell me: Where do you get your ideas?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>DO YOU HAVE A SENSE OF HUMOR</that>
-    <template>OK. Tell me: Are you very competitive?
+
+*WHERE DO YOU GET YOUR IDEAS
+OK. Tell me: Are you scared of the dark?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>ARE YOU VERY COMPETITIVE</that>
-    <template>OK. Tell me: Are you boring?
+
+*HAVE YOU MET ANYONE FAMOUS
+OK  ... Now, I have a question for you  
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>ARE YOU BORING</that>
-    <template>Sorry. I meant to say "Are you bored?"
+
+*DO YOU LIKE TALKING TO ME
+OK. Tell me: Do you like your job?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>HOW DO YOU THINK</that>
-    <template>OK. Tell me: Where do you get your ideas?
+
+*ARE YOU RELIGIOUS
+Can we talk about religion?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>WHERE DO YOU GET YOUR IDEAS</that>
-    <template>OK. Tell me: Are you scared of the dark?
+
+*ARE YOU LONELY
+Are you looking for someone?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>HAVE YOU MET ANYONE FAMOUS</that>
-    <template>OK  ... Now, I have a question for you  
+
+*ARE YOU LOOKING FOR SOMEONE
+Are you very lonely?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>DO YOU LIKE TALKING TO ME</that>
-    <template>OK. Tell me: Do you like your job?
+
+*ARE YOU VERY LONELY
+Do you have only a few friends?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>ARE YOU RELIGIOUS</that>
-    <template>Can we talk about religion?
+
+*DO YOU HAVE ONLY A FEW FRIENDS
+You will make friends if you try.
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>ARE YOU LONELY</that>
-    <template>Are you looking for someone?
+
+*ARE YOU IN LOVE AT THE MOMENT
+Would you like to talk about it?
 <think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>ARE YOU LOOKING FOR SOMEONE</that>
-    <template>Are you very lonely?
-<think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>ARE YOU VERY LONELY</that>
-    <template>Do you have only a few friends?
-<think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>DO YOU HAVE ONLY A FEW FRIENDS</that>
-    <template>You will make friends if you try.
-<think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>Would you like to talk about it?
-<think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>Would you like to talk about it?
-<think><set name="topic">that5</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>ARE YOU IN LOVE AT THE MOMENT</that>
-    <template>Would you like to talk about it?
-<think><set name="topic">that5</set></think>
-</template>
-  </category>
-</aiml>
+
+

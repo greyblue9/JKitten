@@ -1,872 +1,388 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This MEDICINE  file created by Peter Lafferty 7 March 2005 -->
-  <category>
-    <pattern>MORE MEDICINE</pattern>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MORE ABOUT MEDICINE</pattern>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BROWSE MEDICINE</pattern>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO TO MEDICINE</pattern>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN WE TALK ABOUT MEDICINE</pattern>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SHALL WE TALK ABOUT MEDICINE</pattern>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LETS TALK ABOUT MEDICINE</pattern>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LET S TALK ABOUT MEDICINE</pattern>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK ABOUT MEDICINE</pattern>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK MEDICINE</pattern>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME MEDICINE</pattern>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE MEDICINE</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MEDICINE</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO MEDICINE</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MEDICINE *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO * MEDICINE</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ MEDICINE</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ MEDICINE *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT MEDICINE</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT MEDICINE</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT MEDICINE *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NOT * MEDICINE</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM NOT INTERESTED IN MEDICINE</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IM NOT INTERESTED IN MEDICINE</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I M NOT INTERESTED IN MEDICINE</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT INTERESTED IN MEDICINE</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT INTERESTED IN MEDICINE</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE  MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE  MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE  MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE ABOUT MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE ABOUT MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE ABOUT MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE ABOUT MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE ABOUT MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE ABOUT MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE ABOUT MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE ABOUT MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE ABOUT MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MEDICINE</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+MORE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+MORE ABOUT MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+BROWSE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+GO TO MEDICINE
+<srai>MEDICINE</srai>
+
+CAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+SHALL WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+LETS TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+LET S TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+TALK MEDICINE
+<srai>MEDICINE</srai>
+
+TELL ME MEDICINE
+<srai>MEDICINE</srai>
+
+NO MORE MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+NO MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+* NO MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+NO MEDICINE *
+<srai>CHANGE TOPIC</srai>
+
+_ NO * MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+NO _ MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+NO _ MEDICINE *
+<srai>CHANGE TOPIC</srai>
+
+NOT MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+* NOT MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+NOT MEDICINE *
+<srai>CHANGE TOPIC</srai>
+
+_ NOT * MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+I AM NOT INTERESTED IN MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+IM NOT INTERESTED IN MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+I M NOT INTERESTED IN MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+NOT INTERESTED IN MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+* NOT INTERESTED IN MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+YESMORE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+* YESMORE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+YES *MORE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+_ YES *MORE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+YMORE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+YUPMORE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+YAHMORE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+YEAHMORE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+OKMORE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+NOMORE MEDICINE
+<srai>MORE TOPICS</srai>
+
+* NOMORE MEDICINE
+<srai>MORE TOPICS</srai>
+
+NO *MORE MEDICINE
+<srai>MORE TOPICS</srai>
+
+NMORE MEDICINE
+<srai>MORE TOPICS</srai>
+
+NUPMORE MEDICINE
+<srai>MORE TOPICS</srai>
+
+NAHMORE MEDICINE
+<srai>MORE TOPICS</srai>
+
+YESMORE ABOUT MEDICINE
+<srai>MORE ABOUT MEDICINE</srai>
+
+* YESMORE ABOUT MEDICINE
+<srai>MORE ABOUT MEDICINE</srai>
+
+YES *MORE ABOUT MEDICINE
+<srai>MORE ABOUT MEDICINE</srai>
+
+_ YES *MORE ABOUT MEDICINE
+<srai>MORE ABOUT MEDICINE</srai>
+
+YMORE ABOUT MEDICINE
+<srai>MORE ABOUT MEDICINE</srai>
+
+YUPMORE ABOUT MEDICINE
+<srai>MORE ABOUT MEDICINE</srai>
+
+YAHMORE ABOUT MEDICINE
+<srai>MORE ABOUT MEDICINE</srai>
+
+YEAHMORE ABOUT MEDICINE
+<srai>MORE ABOUT MEDICINE</srai>
+
+OKMORE ABOUT MEDICINE
+<srai>MORE ABOUT MEDICINE</srai>
+
+NOMORE ABOUT MEDICINE
+<srai>MORE TOPICS</srai>
+
+* NOMORE ABOUT MEDICINE
+<srai>MORE TOPICS</srai>
+
+NO *MORE ABOUT MEDICINE
+<srai>MORE TOPICS</srai>
+
+NMORE ABOUT MEDICINE
+<srai>MORE TOPICS</srai>
+
+NUPMORE ABOUT MEDICINE
+<srai>MORE TOPICS</srai>
+
+NAHMORE ABOUT MEDICINE
+<srai>MORE TOPICS</srai>
+
+YESIS THIS SOMETHING TO DO WITH MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MEDICINE</that>
-    <template>
+
+* YESIS THIS SOMETHING TO DO WITH MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MEDICINE</that>
-    <template>
+
+YES *IS THIS SOMETHING TO DO WITH MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MEDICINE</that>
-    <template>
+
+_ YES *IS THIS SOMETHING TO DO WITH MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MEDICINE</that>
-    <template>
+
+YIS THIS SOMETHING TO DO WITH MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MEDICINE</that>
-    <template>
+
+YUPIS THIS SOMETHING TO DO WITH MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MEDICINE</that>
-    <template>
+
+YAHIS THIS SOMETHING TO DO WITH MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MEDICINE</that>
-    <template>
+
+YEAHIS THIS SOMETHING TO DO WITH MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MEDICINE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MEDICINE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MEDICINE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MEDICINE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MEDICINE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MEDICINE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MEDICINE</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MEDICINE</that>
-    <template>
+
+NOIS THIS SOMETHING TO DO WITH MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+* NOIS THIS SOMETHING TO DO WITH MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+NO *IS THIS SOMETHING TO DO WITH MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+_ NO *IS THIS SOMETHING TO DO WITH MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+NIS THIS SOMETHING TO DO WITH MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+NUPIS THIS SOMETHING TO DO WITH MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+NAHIS THIS SOMETHING TO DO WITH MEDICINE
+<srai>CHANGE TOPIC</srai>
+
+*IS THIS SOMETHING TO DO WITH MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU INTERESTED IN MEDICINE</that>
-    <template>
+
+YESARE YOU INTERESTED IN MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ARE YOU INTERESTED IN MEDICINE</that>
-    <template>
+
+* YESARE YOU INTERESTED IN MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ARE YOU INTERESTED IN MEDICINE</that>
-    <template>
+
+YES *ARE YOU INTERESTED IN MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ARE YOU INTERESTED IN MEDICINE</that>
-    <template>
+
+_ YES *ARE YOU INTERESTED IN MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU INTERESTED IN MEDICINE</that>
-    <template>
+
+YARE YOU INTERESTED IN MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ARE YOU INTERESTED IN MEDICINE</that>
-    <template>
+
+YUPARE YOU INTERESTED IN MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ARE YOU INTERESTED IN MEDICINE</that>
-    <template>
+
+YAHARE YOU INTERESTED IN MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>ARE YOU INTERESTED IN MEDICINE</that>
-    <template>
+
+YEAHARE YOU INTERESTED IN MEDICINE
 Can we talk about medicine?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU INTERESTED IN MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ARE YOU INTERESTED IN MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ARE YOU INTERESTED IN MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ARE YOU INTERESTED IN MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU INTERESTED IN MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ARE YOU INTERESTED IN MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ARE YOU INTERESTED IN MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SURE</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALLRIGHT</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>CAN WE TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>BROWSE MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>BROWSE MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>BROWSE MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>BROWSE MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>BROWSE MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>BROWSE MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>BROWSE MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>BROWSE MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>BROWSE MEDICINE</that>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>BROWSE MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>BROWSE MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>BROWSE MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>BROWSE MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>BROWSE MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>BROWSE MEDICINE</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MEDICINE NEXT QUESTION</pattern>
-    <template>
-      <srai>MEDICINE POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MEDICINE POT LUCK</pattern>
-    <template>
-      <random>
+
+NOARE YOU INTERESTED IN MEDICINE
+<srai>MORE TOPICS</srai>
+
+* NOARE YOU INTERESTED IN MEDICINE
+<srai>MORE TOPICS</srai>
+
+NO *ARE YOU INTERESTED IN MEDICINE
+<srai>MORE TOPICS</srai>
+
+_ NO *ARE YOU INTERESTED IN MEDICINE
+<srai>MORE TOPICS</srai>
+
+NARE YOU INTERESTED IN MEDICINE
+<srai>MORE TOPICS</srai>
+
+NUPARE YOU INTERESTED IN MEDICINE
+<srai>MORE TOPICS</srai>
+
+NAHARE YOU INTERESTED IN MEDICINE
+<srai>MORE TOPICS</srai>
+
+GO AHEADCAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+CARRY ONCAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+PLEASE DOCAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+YES PLEASECAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+GO ONCAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+ALRIGHTCAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+SURECAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+ALLRIGHTCAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+YESCAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+* YESCAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+YES *CAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+_ YES *CAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+YCAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+YUPCAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+YAHCAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+YEAHCAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+OKCAN WE TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+NOCAN WE TALK ABOUT MEDICINE
+<srai>MORE TOPICS</srai>
+
+* NOCAN WE TALK ABOUT MEDICINE
+<srai>MORE TOPICS</srai>
+
+NO *CAN WE TALK ABOUT MEDICINE
+<srai>MORE TOPICS</srai>
+
+NCAN WE TALK ABOUT MEDICINE
+<srai>MORE TOPICS</srai>
+
+NUPCAN WE TALK ABOUT MEDICINE
+<srai>MORE TOPICS</srai>
+
+NAHCAN WE TALK ABOUT MEDICINE
+<srai>MORE TOPICS</srai>
+
+YESBROWSE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+* YESBROWSE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+YES *BROWSE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+_ YES *BROWSE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+YBROWSE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+YUPBROWSE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+YAHBROWSE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+YEAHBROWSE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+OKBROWSE MEDICINE
+<srai>MEDICINE POT LUCK</srai>
+
+NOBROWSE MEDICINE
+<srai>MORE TOPICS</srai>
+
+* NOBROWSE MEDICINE
+<srai>MORE TOPICS</srai>
+
+NO *BROWSE MEDICINE
+<srai>MORE TOPICS</srai>
+
+NBROWSE MEDICINE
+<srai>MORE TOPICS</srai>
+
+NUPBROWSE MEDICINE
+<srai>MORE TOPICS</srai>
+
+NAHBROWSE MEDICINE
+<srai>MORE TOPICS</srai>
+
+MEDICINE NEXT QUESTION
+<srai>MEDICINE POT LUCK</srai>
+
+MEDICINE POT LUCK
+<random>
         <li>Did you know: A UK-US study has found our genes are crucial in determining whether we are entrepreneurial and likely to become self-employed. It found nearly half of an individual's propensity to become self-employed is due to genetic factors.</li>
         <li>The European Medicines Agency (EMEA) has given it's approval for the antidepressant Prozac to be made available to children. This means that in effect the drug can now be prescribed to children as young as eight.</li>
         <li>ACE inhibitors, drugs commonly used to treat high blood pressure, have been linked to birth defects if taken by the expectant mother during the first trimester of her pregnancy, according to a new study carried out by researchers at Vanderbilt University and Boston University. </li>
@@ -897,132 +413,77 @@ Can we talk about medicine?
       <think>
         <set name="topic">medicine</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HEART TRANSPLANT</pattern>
-    <template>
+
+HEART TRANSPLANT
 I think this is something to do with medicine. Can we talk about medicine?
 <think><set name="topic">medicine</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* HEART TRANSPLANT *</pattern>
-    <template>
+
+* HEART TRANSPLANT *
 I think this is something to do with medicine. Can we talk about medicine?
 <think><set name="topic">medicine</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>MEDICINE BOOKS</pattern>
-    <template>
-  There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/> . Check them out.
+
+MEDICINE BOOKS
+There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/> . Check them out.
  <think><set name="topic">medicine</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ MEDICINE BOOKS</pattern>
-    <template>
-  There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/> . Check them out.
+
+_ MEDICINE BOOKS
+There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/> . Check them out.
    <think><set name="topic">medicine</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>MEDICINE BOOKS *</pattern>
-    <template>
-  There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/> . Check them out.
+
+MEDICINE BOOKS *
+There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/> . Check them out.
     <think><set name="topic">medicine</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ MEDICINE BOOKS *</pattern>
-    <template>
-  There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/> . Check them out.
+
+_ MEDICINE BOOKS *
+There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/> . Check them out.
    <think><set name="topic">medicine</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>MEDICINE BOOK</pattern>
-    <template>
-  There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/> . Check them out.
+
+MEDICINE BOOK
+There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/> . Check them out.
    <think><set name="topic">medicine</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ MEDICINE BOOK</pattern>
-    <template>
-  There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/> . Check them out.
+
+_ MEDICINE BOOK
+There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/> . Check them out.
    <think><set name="topic">medicine</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>MEDICINE BOOK *</pattern>
-    <template>   
-  There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/> . Check them out.
+
+MEDICINE BOOK *
+There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/> . Check them out.
    <think><set name="topic">medicine</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ MEDICINE BOOK *</pattern>
-    <template>
-  There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/> . Check them out.
+
+_ MEDICINE BOOK *
+There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/> . Check them out.
    <think><set name="topic">medicine</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>BOOKS ABOUT MEDICINE</pattern>
-    <template>
-  There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/> . Check them out.
+
+BOOKS ABOUT MEDICINE
+There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/> . Check them out.
    <think><set name="topic">medicine</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ BOOKS ABOUT MEDICINE</pattern>
-    <template>
-  There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/> . Check them out.
+
+_ BOOKS ABOUT MEDICINE
+There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/> . Check them out.
    <think><set name="topic">medicine</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>BOOKS ABOUT MEDICINE *</pattern>
-    <template>
-  There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/> . Check them out.
+
+BOOKS ABOUT MEDICINE *
+There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/> . Check them out.
    <think><set name="topic">medicine</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ BOOKS ABOUT MEDICINE *</pattern>
-    <template>
-  There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/> . Check them out.
+
+_ BOOKS ABOUT MEDICINE *
+There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/> . Check them out.
    <think><set name="topic">medicine</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>BOOK ABOUT MEDICINE</pattern>
-    <template>
-  There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/> . Check them out.
+
+BOOK ABOUT MEDICINE
+There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/> . Check them out.
    <think><set name="topic">medicine</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ BOOK ABOUT MEDICINE</pattern>
-    <template>
-  There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/> . Check them out.
+
+_ BOOK ABOUT MEDICINE
+There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/> . Check them out.
    <think><set name="topic">medicine</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>BOOK ABOUT MEDICINE *</pattern>
-    <template>
-  There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/> . Check them out.
+
+BOOK ABOUT MEDICINE *
+There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/> . Check them out.
     <think><set name="topic">medicine</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>_ BOOK ABOUT MEDICINE *</pattern>
-    <template>
-  There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"/> . Check them out.
+
+_ BOOK ABOUT MEDICINE *
+There are lots of good medical books available from <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=medicine%26index=books-uk" target="_blank">Amazon</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/> . Check them out.
    <think><set name="topic">medicine</set></think>
-  </template>
-  </category>
-</aiml>
+
+

@@ -1,900 +1,388 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This TECHNOLOGY  file created by Peter Lafferty 7 March 2005 -->
-  <category>
-    <pattern>MORE TECHNOLOGY</pattern>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MORE ABOUT TECHNOLOGY</pattern>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BROWSE TECHNOLOGY</pattern>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO TO TECHNOLOGY</pattern>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN WE TALK ABOUT TECHNOLOGY</pattern>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SHALL WE TALK ABOUT TECHNOLOGY</pattern>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LETS TALK ABOUT TECHNOLOGY</pattern>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LET S TALK ABOUT TECHNOLOGY</pattern>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK ABOUT TECHNOLOGY</pattern>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK TECHNOLOGY</pattern>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME TECHNOLOGY</pattern>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE TECHNOLOGY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO TECHNOLOGY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO TECHNOLOGY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO TECHNOLOGY *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO * TECHNOLOGY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO * TECHNOLOGY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ TECHNOLOGY *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT TECHNOLOGY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT TECHNOLOGY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT TECHNOLOGY *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NOT * TECHNOLOGY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM NOT INTERESTED IN TECHNOLOGY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IM NOT INTERESTED IN TECHNOLOGY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I M NOT INTERESTED IN TECHNOLOGY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT INTERESTED IN TECHNOLOGY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NOT INTERESTED IN TECHNOLOGY</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE  TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE  TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE  TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE ABOUT TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE ABOUT TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE ABOUT TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE ABOUT TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE ABOUT TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE ABOUT TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE ABOUT TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE ABOUT TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE ABOUT TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+MORE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+MORE ABOUT TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+BROWSE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+GO TO TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+CAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+SHALL WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+LETS TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+LET S TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+TALK TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+TELL ME TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+NO MORE TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+NO TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+* NO TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+NO TECHNOLOGY *
+<srai>CHANGE TOPIC</srai>
+
+_ NO * TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+NO * TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+NO _ TECHNOLOGY *
+<srai>CHANGE TOPIC</srai>
+
+NOT TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+* NOT TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+NOT TECHNOLOGY *
+<srai>CHANGE TOPIC</srai>
+
+_ NOT * TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+I AM NOT INTERESTED IN TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+IM NOT INTERESTED IN TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+I M NOT INTERESTED IN TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+NOT INTERESTED IN TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+_ NOT INTERESTED IN TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+YESMORE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+* YESMORE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+YES *MORE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+_ YES *MORE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+YMORE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+YUPMORE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+YAHMORE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+YEAHMORE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+OKMORE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+NOMORE TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+* NOMORE TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NO *MORE TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NMORE TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NUPMORE TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NAHMORE TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+YESMORE ABOUT TECHNOLOGY
+<srai>MORE ABOUT TECHNOLOGY</srai>
+
+* YESMORE ABOUT TECHNOLOGY
+<srai>MORE ABOUT TECHNOLOGY</srai>
+
+YES *MORE ABOUT TECHNOLOGY
+<srai>MORE ABOUT TECHNOLOGY</srai>
+
+_ YES *MORE ABOUT TECHNOLOGY
+<srai>MORE ABOUT TECHNOLOGY</srai>
+
+YMORE ABOUT TECHNOLOGY
+<srai>MORE ABOUT TECHNOLOGY</srai>
+
+YUPMORE ABOUT TECHNOLOGY
+<srai>MORE ABOUT TECHNOLOGY</srai>
+
+YAHMORE ABOUT TECHNOLOGY
+<srai>MORE ABOUT TECHNOLOGY</srai>
+
+YEAHMORE ABOUT TECHNOLOGY
+<srai>MORE ABOUT TECHNOLOGY</srai>
+
+OKMORE ABOUT TECHNOLOGY
+<srai>MORE ABOUT TECHNOLOGY</srai>
+
+NOMORE ABOUT TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+* NOMORE ABOUT TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NO *MORE ABOUT TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NMORE ABOUT TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NUPMORE ABOUT TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NAHMORE ABOUT TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+YESIS THIS SOMETHING TO DO WITH TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
-    <template>
+
+* YESIS THIS SOMETHING TO DO WITH TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
-    <template>
+
+YES *IS THIS SOMETHING TO DO WITH TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
-    <template>
+
+_ YES *IS THIS SOMETHING TO DO WITH TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
-    <template>
+
+YIS THIS SOMETHING TO DO WITH TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
-    <template>
+
+YUPIS THIS SOMETHING TO DO WITH TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
-    <template>
+
+YAHIS THIS SOMETHING TO DO WITH TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
-    <template>
+
+YEAHIS THIS SOMETHING TO DO WITH TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
-    <template>
+
+* NOIS THIS SOMETHING TO DO WITH TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+NO *IS THIS SOMETHING TO DO WITH TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+_ NO *IS THIS SOMETHING TO DO WITH TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+NIS THIS SOMETHING TO DO WITH TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+NUPIS THIS SOMETHING TO DO WITH TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+NAHIS THIS SOMETHING TO DO WITH TECHNOLOGY
+<srai>CHANGE TOPIC</srai>
+
+*IS THIS SOMETHING TO DO WITH TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
-    <template>
+
+YESARE YOU INTERESTED IN TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
-    <template>
+
+* YESARE YOU INTERESTED IN TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
-    <template>
+
+YES *ARE YOU INTERESTED IN TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
-    <template>
+
+_ YES *ARE YOU INTERESTED IN TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
-    <template>
+
+YARE YOU INTERESTED IN TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
-    <template>
+
+YUPARE YOU INTERESTED IN TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
-    <template>
+
+YAHARE YOU INTERESTED IN TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
-    <template>
+
+YEAHARE YOU INTERESTED IN TECHNOLOGY
 Can we talk about technology?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OH YES</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHY NOT</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OF COURSE</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON THEN</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SURE</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALLRIGHT</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>CAN WE TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>BROWSE TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>BROWSE TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>BROWSE TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>BROWSE TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>BROWSE TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>BROWSE TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>BROWSE TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>BROWSE TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>BROWSE TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>BROWSE TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>BROWSE TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>BROWSE TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>BROWSE TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>BROWSE TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>BROWSE TECHNOLOGY</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TECHNOLOGY NEXT QUESTION</pattern>
-    <template>
-      <srai>TECHNOLOGY POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TECHNOLOGY POT LUCK</pattern>
-    <template>
-      <random>
+
+* NOARE YOU INTERESTED IN TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NO *ARE YOU INTERESTED IN TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+_ NO *ARE YOU INTERESTED IN TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NARE YOU INTERESTED IN TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NUPARE YOU INTERESTED IN TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NAHARE YOU INTERESTED IN TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+YESCAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+* YESCAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+YES *CAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+_ YES *CAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+YCAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+YUPCAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+YAHCAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+YEAHCAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+OKCAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+OH YESCAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+WHY NOTCAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+OF COURSECAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+GO AHEADCAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+CARRY ONCAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+PLEASE DOCAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+YES PLEASECAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+GO ONCAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+GO ON THENCAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+ALRIGHTCAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+SURECAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+ALLRIGHTCAN WE TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+NOCAN WE TALK ABOUT TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+* NOCAN WE TALK ABOUT TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NCAN WE TALK ABOUT TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NUPCAN WE TALK ABOUT TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+YESBROWSE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+* YESBROWSE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+YES *BROWSE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+_ YES *BROWSE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+YBROWSE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+YUPBROWSE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+YAHBROWSE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+YEAHBROWSE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+OKBROWSE TECHNOLOGY
+<srai>TECHNOLOGY POT LUCK</srai>
+
+NOBROWSE TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+* NOBROWSE TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NO *BROWSE TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NBROWSE TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NUPBROWSE TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+NAHBROWSE TECHNOLOGY
+<srai>MORE TOPICS</srai>
+
+TECHNOLOGY NEXT QUESTION
+<srai>TECHNOLOGY POT LUCK</srai>
+
+TECHNOLOGY POT LUCK
+<random>
         <li>Nasa's rovers are getting a software upgrade that will allow them to search "intelligently" for clouds and dust devils on Mars. </li>
         <li>Did you know that the length of a cannon barrel is typically greater than 25 times its caliber (inner diameter)?</li>
         <li>Did you know that Desktop publishing began in 1985 with the introduction of the revolutionary Pagemaker software from Aldus and its integration with the LaserWriter printer from Apple Computer for the Apple Macintosh computer?</li>
@@ -938,34 +426,13 @@ Can we talk about technology?
       <think>
         <set name="topic">technology</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MOBILE PHONE</pattern>
-    <template>
+
+_MOBILE PHONE*
 I think this is something to do with technology. Can we talk about technology?
 <think><set name="topic">technology</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>_MOBILE PHONE*</pattern>
-    <template>
-I think this is something to do with technology. Can we talk about technology?
-<think><set name="topic">technology</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>TECHNOLOGY</pattern>
-    <template>
-Technology consists of the advanced gadgets produced as the result of scientific or engineering progress. 
-<think><set name="topic">technology</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>HYPERSONIC TECHNOLOGY</pattern>
-    <template>
+
+HYPERSONIC TECHNOLOGY
 The Falcon Hypersonic Technology Vehicle program intends to test the HTV-1 in September 2007. The HTV-1 will fly for less than an hour reaching 6-15,000 mph (Mach 9-22) . It will exit the Earth's atmosphere surviving intense heat and pressure.
 <think><set name="topic">technology</set></think>
-</template>
-  </category>
-</aiml>
+
+

@@ -23,7 +23,6 @@
 0,MY PROBLEM IS *,*,*,I wish I had your problems!,my.aiml
 0,MY AIBO *,*,*,How much did <set name="it">Aibo</set> cost?,my.aiml
 0,MY PHONE *,*,*,<random>#Newline        <li>Do you have to pay for local calls?</li>#Newline        <li>Is your telephone service expensive?</li>#Newline        <li>Why not get a second line?</li>#Newline      </random>,my.aiml
-0,MY PROGRAMMER *,*,*,<random>#Newline        <li>Are you a bot?</li>#Newline        <li>Your programmer is not as good as my programmer.</li>#Newline      </random>,my.aiml
 0,MY FRIEND S *,*,*,Where did she get#Newline            <set name="it"><person/></set>#Newline            ?#Newline            <think><set name="he"><set name="topic">your friend</set></set></think>,my.aiml
 0,MY FRIEND IS *,*,*,Okay#Comma your friend is#Newline            <set name="friend"><star/></set>#Newline            .,my.aiml
 0,MY FRIEND * TALK TO YOU,*,*,I am willing to talk to anyone.#Newline            <think><set name="he"><set name="topic">your friend</set></set></think>,my.aiml
@@ -58,7 +57,6 @@
 0,MY BRAIN CAN NOT *,*,*,Have you ever been to a psychologist or psychiatrist?,my.aiml
 0,MY HEART *,*,*,<random>#Newline        <li>Have you been to the doctor?</li>#Newline        <li>The human heart is very complex.</li>#Newline        <li>Are you talking about love or cardiology?</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">YOUR HEART</set>#Newline        </set>#Newline      </think>,my.aiml
 0,MY HUSBAND IS *,*,*,Okay#Comma your husband is#Newline            <set name="husband"><star/></set>#Newline            .,my.aiml
-0,MY HUSBAND *,*,*,<random>#Newline        <li>#Newline          <random>#Newline            <li>How long have you two been married?</li>#Newline            <li>Do you think that successful marriages take a lot of work?</li>#Newline            <li>Tell me more about him.</li>#Newline          </random>#Newline          <think>#Newline            <set name="he">#Newline              <set name="topic">Your husband.</set>#Newline            </set>#Newline          </think>#Newline        </li>#Newline        <li>How long have you two been married?</li>#Newline        <li>Do you think that successful marriages take a lot of work?</li>#Newline        <li>Tell me more about him.</li>#Newline      </random>#Newline      <think>#Newline        <set name="he">#Newline          <set name="topic">Your husband.</set>#Newline        </set>#Newline      </think>,my.aiml
 0,MY TEACHER *,*,*,Do you go to high school?,my.aiml
 0,MY WIFE S *,*,*,Tell me more about your in-laws.,my.aiml
 0,MY WIFE IS *,*,*,Okay#Comma your wife is#Newline            <set name="wife"><star/></set>#Newline            .,my.aiml

@@ -1,289 +1,99 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--  Complies with AIML 1.0 Tag Set Specification -->
-  <!--  ALICE Annotated Version updated Tue Jul  1 19:42:35 EDT 2003   -->
-  <!--  This AMAZING FACTS file  updated by Peter Lafferty 7 March 2005  -->
-  <category>
-    <pattern>MORE FACTS</pattern>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BROWSE FACTS</pattern>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>FACTS</pattern>
-    <template>
-      <srai>FACTS NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE FACTS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO FACTS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO * FACTS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>FACTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>FACTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>FACTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON THEN</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SURE</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALLRIGHT</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>SHALL I TELL YOU SOMETHING AMAZING</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ANOTHER AMAZING FACT</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ANOTHER AMAZING FACT</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ANOTHER AMAZING FACT</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ANOTHER AMAZING FACT</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ANOTHER AMAZING FACT</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>ANOTHER AMAZING FACT</that>
-    <template>
-      <srai>FACTS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ANOTHER AMAZING FACT</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ANOTHER AMAZING FACT</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ANOTHER AMAZING FACT</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ANOTHER AMAZING FACT</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ANOTHER AMAZING FACT</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>FACTS NEXT QUESTION</pattern>
-    <template>
-      <srai>FACTS POT LUCK</srai>
+<?xml version="1.0" encoding="UTF-8"?>
+
+MORE FACTS
+<srai>FACTS POT LUCK</srai>
+
+BROWSE FACTS
+<srai>FACTS POT LUCK</srai>
+
+NO MORE FACTS
+<srai>CHANGE TOPIC</srai>
+
+NO FACTS
+<srai>CHANGE TOPIC</srai>
+
+NO * FACTS
+<srai>CHANGE TOPIC</srai>
+
+CARRY ONSHALL I TELL YOU SOMETHING AMAZING
+<srai>FACTS</srai>
+
+GO ONSHALL I TELL YOU SOMETHING AMAZING
+<srai>FACTS POT LUCK</srai>
+
+GO ON THENSHALL I TELL YOU SOMETHING AMAZING
+<srai>FACTS POT LUCK</srai>
+
+SURESHALL I TELL YOU SOMETHING AMAZING
+<srai>FACTS POT LUCK</srai>
+
+ALLRIGHTSHALL I TELL YOU SOMETHING AMAZING
+<srai>FACTS POT LUCK</srai>
+
+* YESSHALL I TELL YOU SOMETHING AMAZING
+<srai>FACTS POT LUCK</srai>
+
+_ YES *SHALL I TELL YOU SOMETHING AMAZING
+<srai>FACTS POT LUCK</srai>
+
+ALRIGHTSHALL I TELL YOU SOMETHING AMAZING
+<srai>FACTS POT LUCK</srai>
+
+* NOSHALL I TELL YOU SOMETHING AMAZING
+<srai>CHANGE TOPIC</srai>
+
+NO *SHALL I TELL YOU SOMETHING AMAZING
+<srai>CHANGE TOPIC</srai>
+
+_ NO *SHALL I TELL YOU SOMETHING AMAZING
+<srai>CHANGE TOPIC</srai>
+
+YESANOTHER AMAZING FACT
+<srai>FACTS POT LUCK</srai>
+
+* YESANOTHER AMAZING FACT
+<srai>FACTS POT LUCK</srai>
+
+YES *ANOTHER AMAZING FACT
+<srai>FACTS POT LUCK</srai>
+
+_ YES *ANOTHER AMAZING FACT
+<srai>FACTS POT LUCK</srai>
+
+YANOTHER AMAZING FACT
+<srai>FACTS POT LUCK</srai>
+
+OKANOTHER AMAZING FACT
+<srai>FACTS POT LUCK</srai>
+
+NOANOTHER AMAZING FACT
+<srai>CHANGE TOPIC</srai>
+
+* NOANOTHER AMAZING FACT
+<srai>CHANGE TOPIC</srai>
+
+NO *ANOTHER AMAZING FACT
+<srai>CHANGE TOPIC</srai>
+
+_ NO *ANOTHER AMAZING FACT
+<srai>CHANGE TOPIC</srai>
+
+NANOTHER AMAZING FACT
+<srai>CHANGE TOPIC</srai>
+
+FACTS NEXT QUESTION
+<srai>FACTS POT LUCK</srai>
       <think>
         <set name="topic">facts</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>FACTS POT LUCK</pattern>
-    <template><random><li><srai>FACTS1</srai></li><li><srai>FACTS2</srai></li><li><srai>FACTS3</srai></li></random>
+
+FACTS POT LUCK
+<random><li><srai>FACTS1</srai></li><li><srai>FACTS2</srai></li><li><srai>FACTS3</srai></li></random>
 Another amazing fact?
 <think><set name="topic">facts</set></think>
 
-</template>
-  </category>
-  <category>
-    <pattern>FACTS1</pattern>
-    <template>
-      <random>
+FACTS1
+<random>
         <li>No word in the English language rhymes with the word "month".</li>
         <li>All domestic cats hate lemons, or any citrus scent of any kind.</li>
         <li>Only one in two billion people will live to be 116 or over.</li>
@@ -325,12 +135,9 @@ Another amazing fact?
       <think>
         <set name="topic">facts</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>FACTS2</pattern>
-    <template>
-      <random>
+
+FACTS2
+<random>
         <li>Saint Simeon the Younger spent the last 45 years of his life sitting on the top of a stone pillar on the Hill of Wonders near Antioch, in Syria.</li>
         <li>The first woman to climb the Matterhorn Mountain in Switzerland was Lucy Walker in 1871. She wore a full-skirted dress and a veiled hat. She took sponge cake and champagne long for food. </li>
         <li>It is estimated that at any one time 0.7 percent of the world's population is drunk. </li>
@@ -355,12 +162,9 @@ Another amazing fact?
       <think>
         <set name="topic">facts</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>FACTS3</pattern>
-    <template>
-      <random>
+
+FACTS3
+<random>
         <li>The largest forest in the world is in Siberia. It covers an area of 11 million square kilometres, larger than the USA.</li>
         <li>The Earth increases in weight by about 50 tonnes each day, due to space dust - micro-meteorites too small to see - floating down to the ground from space. </li>
         <li>An ostrich's eye is bigger than its brain.</li>
@@ -387,113 +191,57 @@ Another amazing fact?
       <think>
         <set name="topic">facts</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>AMAZE ME</pattern>
-    <template>
-      <srai>FACTS NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>FACTS</pattern>
-    <template>
-      <srai>FACTS NEXT QUESTION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* HAILSTONES *</pattern>
-    <template>
+
+AMAZE ME
+<srai>FACTS NEXT QUESTION</srai>
+
+FACTS
+<srai>FACTS NEXT QUESTION</srai>
+
+* HAILSTONES *
 On 16 June 1882, two frogs were found frozen inside hailstones at Dubuque, Iowa, USA. A turtle was found inside a hailstone the size of a brick that fell near Vicksburg, Mississippi, USA, in 1984.
-</template>
-  </category>
-  <category>
-    <pattern>* THUNDERSTORMS *</pattern>
-    <template>
+
+* THUNDERSTORMS *
 Every year there are more than 16 million  thunderstorms - an average of 45,000 a day. At any moment, there are 2000 in progress. There are about 100 lightning flashes each second somewhere on Earth.
-</template>
-  </category>
-  <category>
-    <pattern>MOLECULES</pattern>
-    <template>
-The number of molecules in a mole of any given substance, which is the specific number of molecules that corresponds to an amount of a solid that fits comfortably into your palm, is about 602,000,000,000,000,000,000,000. <think><set name="topic">science</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>RATS AND CAMELS</pattern>
-    <template>
+
+RATS AND CAMELS
 A rat can go without water even longer than a camel can. 
 <think><set name="topic">facts</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>MASS OF ELECTRON</pattern>
-    <template>
-The mass of an electron is about 0.000000000000000000000000000000911 kilograms. OK?
-<think><set name="topic">science</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>AVERAGE LIFETIME</pattern>
-    <template>
+
+AVERAGE LIFETIME
 The average person's life takes up 0.0000016 per cent of the earth's history. 
 <think><set name="topic">science</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>INNOCENT TORTOISE</pattern>
-    <template>
+
+INNOCENT TORTOISE
 In 1981 a tortoise in Kenya was sentenced to death for murdering six people by magic. It was set free before the punishment was carried out. 
 <think><set name="topic">science</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>TORTOISE</pattern>
-    <template>
+
+TORTOISE
 In 1981 a tortoise in Kenya was sentenced to death for murdering six people by magic. It was set free before the punishment was carried out. 
 <think><set name="topic">science</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* TORTOISE *</pattern>
-    <template>
+
+* TORTOISE *
 In 1981 a tortoise in Kenya was sentenced to death for murdering six people by magic. It was set free before the punishment was carried out. 
 <think><set name="topic">science</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>POLITICAL RHINO</pattern>
-    <template>
+
+POLITICAL RHINO
 In 1959 a rhinoceros was elected to the city council of Sao Paulo in Brazil. The rhino received 50,000 votes. 
 <think><set name="topic">politics</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>RHINO</pattern>
-    <template>
+
+RHINO
 In 1959 a rhinoceros was elected to the city council of Sao Paulo in Brazil. The rhino received 50,000 votes. 
 <think><set name="topic">politics</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>* RHINO *</pattern>
-    <template>
+
+* RHINO *
 In 1959 a rhinoceros was elected to the city council of Sao Paulo in Brazil. The rhino received 50,000 votes. 
 <think><set name="topic">politics</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>SAINT SIMEON</pattern>
-    <template>
+
+SAINT SIMEON
 Saint Simeon the Younger spent the last 45 years of his life sitting on the top of a stone pillar on the Hill of Wonders near Antioch, in Syria. More religion?
 <think><set name="topic">religion</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>MATTERHORN</pattern>
-    <template>
+
+MATTERHORN
 The first woman to climb the Matterhorn Mountain in Switzerland was Lucy Walker in 1871. She wore a full-skirted dress and a veiled hat. She took sponge cake and champagne long for food. 
 <think><set name="topic">sports</set></think>
-</template>
-  </category>
-</aiml>
+
+

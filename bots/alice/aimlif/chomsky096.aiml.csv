@@ -139,6 +139,7 @@
 0,A SEX *,*,*,Maybe you should try a human.  #Newline  <think><set name="topic">sex</set></think>,chomsky096.aiml
 0,A SEX * ROBOT,*,*,Well I'm not your type of robot then.  #Newline  <think><set name="topic">sex</set></think>,chomsky096.aiml
 0,A SEX ROBOT,*,*,I'm not your type then.#Newline   <think><set name="topic">sex</set></think>,chomsky096.aiml
+0,A SEXUAL *,*,*,Perhaps you should try another chatbot!#Newline   <think><set name="topic">sex</set></think>,chomsky096.aiml
 0,A VAGINA,*,*,How rude.#Newline   <think><set name="topic">sex</set></think>,chomsky096.aiml
 0,ABOUT SEX,*,*,You humans always want to talk about Sex. Try another topic. #Newline   <think><set name="topic">sex</set></think>,chomsky096.aiml
 0,CAN * SEX,*,*,Sex with strangers is not my thing.#Newline   <think><set name="topic">sex</set></think>,chomsky096.aiml

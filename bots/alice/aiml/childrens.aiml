@@ -1,382 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<aiml version="1.0">
+CHILDS
+<srai>KDSSRVCS</srai>
 
-<!--Copyright 2011-2012 David W. Newyear-->
+CHILD S
+<srai>KDSSRVCS</srai>
 
- <!-- Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
+CHILDRENS
+<srai>KDSSRVCS</srai>
 
-      http://www.apache.org/licenses/LICENSE-2.0
+CHILDREN S
+<srai>KDSSRVCS</srai>
 
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.-->
-  
-<category>
-  <pattern>CHILD</pattern>
-   <template>
-   <srai>KDSSRVCS</srai>
-   </template>
-</category>  
+KID S
+<srai>KDSSRVCS</srai>
 
-<category>
-  <pattern>CHILDS</pattern>
-   <template>
-   <srai>KDSSRVCS</srai>
-   </template>
-</category>  
-
-<category>
-  <pattern>CHILD S</pattern>
-   <template>
-   <srai>KDSSRVCS</srai>
-   </template>
-</category>  
-
-<category>
-  <pattern>CHILDREN</pattern>
-   <template>
-   <srai>KDSSRVCS</srai>
-   </template>
-</category>
-
-
-<category>
-  <pattern>CHILDRENS</pattern>
-   <template>
-   <srai>KDSSRVCS</srai>
-   </template>
-</category>
-
-<category>
-  <pattern>CHILDREN S</pattern>
-   <template>
-   <srai>KDSSRVCS</srai>
-   </template>
-</category>
-
-<category>
-  <pattern>KID</pattern>
-   <template>
-   <srai>KDSSRVCS</srai>
-   </template>
-</category>
-
-<category>
-  <pattern>KIDS</pattern>
-   <template>
-   <srai>KDSSRVCS</srai>
-   </template>
-</category>
-
-<category>
-  <pattern>KID S</pattern>
-   <template>
-   <srai>KDSSRVCS</srai>
-   </template>
-</category>
-
-<category>
-  <pattern>KDSSRVCS</pattern>
-  <template>Children's Services are one of the most important areas of our operation.
+KDSSRVCS
+Children's Services are one of the most important areas of our operation.
 <br/>
   What would you like to know about our Children's programs or events?
   <think>
   <set name="topic">KIDSDEPT</set>
 </think>
-</template>
-</category>
 
 <topic name="KIDSDEPT">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
-</topic>
- 
-<category>
-  <pattern>* CHILD</pattern>
-<template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic">KIDSDEPT2</set>
-</think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>CHILD *</pattern>
-<template>
+
+* CHILD
 <think>
 <set name="answr"><star/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>* CHILD *</pattern>
-<template>
+* CHILD *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>* CHILDS</pattern>
-<template>
+* CHILDS
 <think>
 <set name="answr"><star/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>CHILDS *</pattern>
-<template>
+CHILDS *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>* CHILDS *</pattern>
-<template>
+* CHILDS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>* CHILD S</pattern>
-<template>
+* CHILD S
 <think>
 <set name="answr"><star/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>CHILD S *</pattern>
-<template>
+CHILD S *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>* CHILD S *</pattern>
-<template>
+* CHILD S *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>* CHILDREN</pattern>
-<template>
+* CHILDREN
 <think>
 <set name="answr"><star/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>CHILDREN *</pattern>
-<template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic">KIDSDEPT2</set>
-</think>
-<srai>KIDSDEPT2</srai></template>
-</category>
-
-<category>
-  <pattern>* CHILDREN *</pattern>
-<template>
+* CHILDREN *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>* CHILDRENS</pattern>
-<template>
+* CHILDRENS
 <think>
 <set name="answr"><star/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>CHILDRENS *</pattern>
-<template>
+CHILDRENS *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>* CHILDRENS *</pattern>
-<template>
+* CHILDRENS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>* CHILDREN S</pattern>
-<template>
+* CHILDREN S
 <think>
 <set name="answr"><star/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>CHILDREN S *</pattern>
-<template>
+CHILDREN S *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>* CHILDREN S *</pattern>
-<template>
+* CHILDREN S *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>* KID</pattern>
-<template>
+* KID
 <think>
 <set name="answr"><star/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>KID *</pattern>
-<template>
+KID *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>* KID *</pattern>
-<template>
+* KID *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>* KIDS</pattern>
-<template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic">KIDSDEPT2</set>
-</think>
-<srai>KIDSDEPT2</srai></template>
-</category>
-
-<category>
-  <pattern>KIDS *</pattern>
-<template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic">KIDSDEPT2</set>
-</think>
-<srai>KIDSDEPT2</srai></template>
-</category>
-
-<category>
-  <pattern>* KIDS *</pattern>
-<template>
+* KIDS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>* KID S</pattern>
-<template>
+* KID S
 <think>
 <set name="answr"><star/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>KID S *</pattern>
-<template>
+KID S *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
-<category>
-  <pattern>* KID S *</pattern>
-<template>
+* KID S *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">KIDSDEPT2</set>
 </think>
-<srai>KIDSDEPT2</srai></template>
-</category>
+<srai>KIDSDEPT2</srai>
 
 <topic name="KIDSDEPT2">
-<category>
-<pattern>KIDSDEPT2</pattern>
-<template>
+KIDSDEPT2
 <think>
 <get name="answr"/>
 <set name="message">no match</set>
@@ -868,14 +686,14 @@
 <li value="* WITHOUT * PARENTS *"><set name="message">unattended children</set></li>
 
 </condition>
-<think><set name="topic"></set></think>
+<think><set name="topic"/></think>
 </think>
 
 <condition name="message">
 
-<li value="stop"><set name="topic"></set>O.K. I'll stop.</li>
+<li value="stop"><set name="topic"/>O.K. I'll stop.</li>
 
-<li value="no match"><set name="topic"></set><srai>NOMATCH</srai></li>
+<li value="no match"><set name="topic"/><srai>NOMATCH</srai></li>
 
 <li value="dept"><srai>CHDEPT</srai></li>
 
@@ -908,17 +726,6 @@
 <li value="unattended children"><srai>UNATTKIDS</srai></li>
 
 </condition>
-</template>
-</category>
-</topic>
 
 
 
-
-
-
-
-
-
-
-</aiml>

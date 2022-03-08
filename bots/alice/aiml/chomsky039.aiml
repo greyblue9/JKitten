@@ -1,887 +1,382 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   The ALICE program is open source code released under  -->
-  <!--   the terms of the GNU General Public License    -->
-  <!--   as published by the Free Software Foundation.  -->
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This ART  file created by Peter Lafferty 7 March 2005 -->
-  <category>
-    <pattern>MORE ART</pattern>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MORE ABOUT ART</pattern>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BROWSE ART</pattern>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO TO ART</pattern>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WE COULD TALK ABOUT ART</pattern>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>COULD WE TALK ABOUT ART</pattern>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN WE TALK ABOUT ART</pattern>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SHALL WE TALK ABOUT ART</pattern>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LETS TALK ABOUT ART</pattern>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LET S TALK ABOUT ART</pattern>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK ABOUT ART</pattern>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK ART</pattern>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME ART</pattern>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE ART</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO ART</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO ART</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO ART *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO * ART</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ ART</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ ART *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT ART</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT ART</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT ART *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT * ART</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM NOT INTERESTED IN ART</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IM NOT INTERESTED IN ART</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I M NOT INTERESTED IN ART</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT INTERESTED IN ART</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT INTERESTED IN ART</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE  ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE  ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE  ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT ART</that>
-    <template>
-      <srai>MORE ABOUT ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ABOUT ART</that>
-    <template>
-      <srai>MORE ABOUT ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ABOUT ART</that>
-    <template>
-      <srai>MORE ABOUT ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE ABOUT ART</that>
-    <template>
-      <srai>MORE ABOUT ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE ABOUT ART</that>
-    <template>
-      <srai>MORE ABOUT ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ABOUT ART</that>
-    <template>
-      <srai>MORE ABOUT ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ABOUT ART</that>
-    <template>
-      <srai>MORE ABOUT ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE ABOUT ART</that>
-    <template>
-      <srai>MORE ABOUT ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE ABOUT ART</that>
-    <template>
-      <srai>MORE ABOUT ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ABOUT ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ABOUT ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ABOUT ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ABOUT ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ART</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+MORE ART
+<srai>ART POT LUCK</srai>
+
+MORE ABOUT ART
+<srai>ART POT LUCK</srai>
+
+BROWSE ART
+<srai>ART POT LUCK</srai>
+
+GO TO ART
+<srai>ART</srai>
+
+WE COULD TALK ABOUT ART
+<srai>ART</srai>
+
+COULD WE TALK ABOUT ART
+<srai>ART</srai>
+
+CAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+SHALL WE TALK ABOUT ART
+<srai>ART</srai>
+
+LETS TALK ABOUT ART
+<srai>ART</srai>
+
+LET S TALK ABOUT ART
+<srai>ART</srai>
+
+TALK ABOUT ART
+<srai>ART</srai>
+
+TALK ART
+<srai>ART</srai>
+
+TELL ME ART
+<srai>ART</srai>
+
+NO MORE ART
+<srai>CHANGE TOPIC</srai>
+
+NO ART
+<srai>CHANGE TOPIC</srai>
+
+* NO ART
+<srai>CHANGE TOPIC</srai>
+
+NO ART *
+<srai>CHANGE TOPIC</srai>
+
+* NO * ART
+<srai>CHANGE TOPIC</srai>
+
+NO _ ART
+<srai>CHANGE TOPIC</srai>
+
+NO _ ART *
+<srai>CHANGE TOPIC</srai>
+
+NOT ART
+<srai>CHANGE TOPIC</srai>
+
+* NOT ART
+<srai>CHANGE TOPIC</srai>
+
+NOT ART *
+<srai>CHANGE TOPIC</srai>
+
+* NOT * ART
+<srai>CHANGE TOPIC</srai>
+
+I AM NOT INTERESTED IN ART
+<srai>CHANGE TOPIC</srai>
+
+IM NOT INTERESTED IN ART
+<srai>CHANGE TOPIC</srai>
+
+I M NOT INTERESTED IN ART
+<srai>CHANGE TOPIC</srai>
+
+NOT INTERESTED IN ART
+<srai>CHANGE TOPIC</srai>
+
+* NOT INTERESTED IN ART
+<srai>CHANGE TOPIC</srai>
+
+YESMORE ART
+<srai>ART POT LUCK</srai>
+
+* YESMORE ART
+<srai>ART POT LUCK</srai>
+
+YES *MORE ART
+<srai>ART POT LUCK</srai>
+
+_ YES *MORE ART
+<srai>ART POT LUCK</srai>
+
+YMORE ART
+<srai>ART POT LUCK</srai>
+
+YUPMORE ART
+<srai>ART POT LUCK</srai>
+
+YAHMORE ART
+<srai>ART POT LUCK</srai>
+
+YEAHMORE ART
+<srai>ART POT LUCK</srai>
+
+OKMORE ART
+<srai>ART POT LUCK</srai>
+
+NOMORE ART
+<srai>MORE TOPICS</srai>
+
+* NOMORE ART
+<srai>MORE TOPICS</srai>
+
+NO *MORE ART
+<srai>MORE TOPICS</srai>
+
+NMORE ART
+<srai>MORE TOPICS</srai>
+
+NUPMORE ART
+<srai>MORE TOPICS</srai>
+
+NAHMORE ART
+<srai>MORE TOPICS</srai>
+
+* YESMORE ABOUT ART
+<srai>MORE ABOUT ART</srai>
+
+YES *MORE ABOUT ART
+<srai>MORE ABOUT ART</srai>
+
+_ YES *MORE ABOUT ART
+<srai>MORE ABOUT ART</srai>
+
+YMORE ABOUT ART
+<srai>MORE ABOUT ART</srai>
+
+YUPMORE ABOUT ART
+<srai>MORE ABOUT ART</srai>
+
+YAHMORE ABOUT ART
+<srai>MORE ABOUT ART</srai>
+
+YEAHMORE ABOUT ART
+<srai>MORE ABOUT ART</srai>
+
+OKMORE ABOUT ART
+<srai>MORE ABOUT ART</srai>
+
+NOMORE ABOUT ART
+<srai>MORE TOPICS</srai>
+
+* NOMORE ABOUT ART
+<srai>MORE TOPICS</srai>
+
+NO *MORE ABOUT ART
+<srai>MORE TOPICS</srai>
+
+NMORE ABOUT ART
+<srai>MORE TOPICS</srai>
+
+NUPMORE ABOUT ART
+<srai>MORE TOPICS</srai>
+
+NAHMORE ABOUT ART
+<srai>MORE TOPICS</srai>
+
+YESIS THIS SOMETHING TO DO WITH ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ART</that>
-    <template>
+
+* YESIS THIS SOMETHING TO DO WITH ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ART</that>
-    <template>
+
+YES *IS THIS SOMETHING TO DO WITH ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ART</that>
-    <template>
+
+_ YES *IS THIS SOMETHING TO DO WITH ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ART</that>
-    <template>
+
+YIS THIS SOMETHING TO DO WITH ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ART</that>
-    <template>
+
+YUPIS THIS SOMETHING TO DO WITH ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ART</that>
-    <template>
+
+YAHIS THIS SOMETHING TO DO WITH ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ART</that>
-    <template>
+
+YEAHIS THIS SOMETHING TO DO WITH ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ART</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ART</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ART</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ART</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ART</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ART</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ART</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>IS THIS SOMETHING TO DO WITH ART</that>
-    <template>
+
+* NOIS THIS SOMETHING TO DO WITH ART
+<srai>CHANGE TOPIC</srai>
+
+NO *IS THIS SOMETHING TO DO WITH ART
+<srai>CHANGE TOPIC</srai>
+
+_ NO *IS THIS SOMETHING TO DO WITH ART
+<srai>CHANGE TOPIC</srai>
+
+NIS THIS SOMETHING TO DO WITH ART
+<srai>CHANGE TOPIC</srai>
+
+NUPIS THIS SOMETHING TO DO WITH ART
+<srai>CHANGE TOPIC</srai>
+
+NAHIS THIS SOMETHING TO DO WITH ART
+<srai>CHANGE TOPIC</srai>
+
+*IS THIS SOMETHING TO DO WITH ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU INTERESTED IN ART</that>
-    <template>
+
+YESARE YOU INTERESTED IN ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ARE YOU INTERESTED IN ART</that>
-    <template>
+
+* YESARE YOU INTERESTED IN ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ARE YOU INTERESTED IN ART</that>
-    <template>
+
+YES *ARE YOU INTERESTED IN ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ARE YOU INTERESTED IN ART</that>
-    <template>
+
+_ YES *ARE YOU INTERESTED IN ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU INTERESTED IN ART</that>
-    <template>
+
+YARE YOU INTERESTED IN ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ARE YOU INTERESTED IN ART</that>
-    <template>
+
+YUPARE YOU INTERESTED IN ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ARE YOU INTERESTED IN ART</that>
-    <template>
+
+YAHARE YOU INTERESTED IN ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>ARE YOU INTERESTED IN ART</that>
-    <template>
+
+YEAHARE YOU INTERESTED IN ART
 Can we talk about art?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU INTERESTED IN ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ARE YOU INTERESTED IN ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ARE YOU INTERESTED IN ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ARE YOU INTERESTED IN ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU INTERESTED IN ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ARE YOU INTERESTED IN ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ARE YOU INTERESTED IN ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SURE</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALLRIGHT</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>CAN WE TALK ABOUT ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>BROWSE ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>BROWSE ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>BROWSE ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>BROWSE ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>BROWSE ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>BROWSE ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>BROWSE ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>BROWSE ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>BROWSE ART</that>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>BROWSE ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>BROWSE ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>BROWSE ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>BROWSE ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>BROWSE ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>BROWSE ART</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ART NEXT QUESTION</pattern>
-    <template>
-      <srai>ART POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ART POT LUCK</pattern>
-    <template>
-      <random>
+
+* NOARE YOU INTERESTED IN ART
+<srai>MORE TOPICS</srai>
+
+NO *ARE YOU INTERESTED IN ART
+<srai>MORE TOPICS</srai>
+
+_ NO *ARE YOU INTERESTED IN ART
+<srai>MORE TOPICS</srai>
+
+NARE YOU INTERESTED IN ART
+<srai>MORE TOPICS</srai>
+
+NUPARE YOU INTERESTED IN ART
+<srai>MORE TOPICS</srai>
+
+NAHARE YOU INTERESTED IN ART
+<srai>MORE TOPICS</srai>
+
+GO AHEADCAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+CARRY ONCAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+PLEASE DOCAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+YES PLEASECAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+GO ONCAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+ALRIGHTCAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+SURECAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+ALLRIGHTCAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+YESCAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+* YESCAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+YES *CAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+_ YES *CAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+YCAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+YUPCAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+YAHCAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+YEAHCAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+OKCAN WE TALK ABOUT ART
+<srai>ART</srai>
+
+NOCAN WE TALK ABOUT ART
+<srai>MORE TOPICS</srai>
+
+* NOCAN WE TALK ABOUT ART
+<srai>MORE TOPICS</srai>
+
+NCAN WE TALK ABOUT ART
+<srai>MORE TOPICS</srai>
+
+NUPCAN WE TALK ABOUT ART
+<srai>MORE TOPICS</srai>
+
+NAHCAN WE TALK ABOUT ART
+<srai>MORE TOPICS</srai>
+
+YESBROWSE ART
+<srai>ART POT LUCK</srai>
+
+* YESBROWSE ART
+<srai>ART POT LUCK</srai>
+
+YES *BROWSE ART
+<srai>ART POT LUCK</srai>
+
+_ YES *BROWSE ART
+<srai>ART POT LUCK</srai>
+
+YBROWSE ART
+<srai>ART POT LUCK</srai>
+
+YUPBROWSE ART
+<srai>ART POT LUCK</srai>
+
+YAHBROWSE ART
+<srai>ART POT LUCK</srai>
+
+YEAHBROWSE ART
+<srai>ART POT LUCK</srai>
+
+OKBROWSE ART
+<srai>ART POT LUCK</srai>
+
+NOBROWSE ART
+<srai>MORE TOPICS</srai>
+
+* NOBROWSE ART
+<srai>MORE TOPICS</srai>
+
+NO *BROWSE ART
+<srai>MORE TOPICS</srai>
+
+NBROWSE ART
+<srai>MORE TOPICS</srai>
+
+NUPBROWSE ART
+<srai>MORE TOPICS</srai>
+
+NAHBROWSE ART
+<srai>MORE TOPICS</srai>
+
+ART NEXT QUESTION
+<srai>ART POT LUCK</srai>
+
+ART POT LUCK
+<random>
         <li>Have your heard that Marcel Duchamp has emerged as the most influential artist in the UK. The French conceptualist who famously placed a urinal in a New York gallery in 1917 and declared "this is art", has come top of a survey of students from 11 of the leading art schools in the UK.</li>
         <li>In July 2007 a portrait of Florentine ruler Lorenzo de' Medici by the artist Raphael was sold for more than M-#18m ($37.3m) braking the previous record for a painting by the Renaissance master. </li>
         <li>Did you know that the TrM-hs Riches Heures du Duc de Berry, a 416-page illuminated manuscript and masterpiece of the International Gothic style, has 300 decorated Initial letters?</li>
@@ -920,26 +415,17 @@ Can we talk about art?
       <think>
         <set name="topic">art</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>SCULPTURE</pattern>
-    <template>
+
+SCULPTURE
 I think this is something to do with art. Can we talk about art?
 <think><set name="topic">art</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*SCULPTURE*</pattern>
-    <template>
+
+*SCULPTURE*
 I think this is something to do with art. Can we talk about art?
 <think><set name="topic">art</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>QUOTES ABOUT ART</pattern>
-    <template>
-      <random>
+
+QUOTES ABOUT ART
+<random>
         <li>What do you think of the enormous prices paid for artworks today? Is art value for money? </li>
         <li>According to Frank Zappa, art is making something out of nothing and selling it. Agree? </li>
         <li>Sculpture is mudpies which endure, according to Cyril Connolly.</li>
@@ -962,6 +448,5 @@ I think this is something to do with art. Can we talk about art?
       <think>
         <set name="topic">art</set>
       </think>
-    </template>
-  </category>
-</aiml>
+
+

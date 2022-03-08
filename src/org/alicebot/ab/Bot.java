@@ -30,11 +30,12 @@ public class Bot {
   public final PreProcessor preProcessor;
 
   public final Graphmaster brain;
-
+  
   public Graphmaster learnfGraph;
 
   public Graphmaster learnGraph;
-
+  public Graphmaster deletedGraph;
+        
     // public Graphmaster unfinishedGraph;
     // public final ArrayList<Category> categories;
   public String name = MagicStrings.default_bot_name;
@@ -45,7 +46,7 @@ public class Bot {
 
   public HashSet<String> pronounSet = new HashSet<String>();
 
-  public String root_path = "c:/ab";
+  public String root_path = ".";
 
   public String bot_path = root_path + "/bots";
 
@@ -140,7 +141,7 @@ public class Bot {
     addProperties();
     cnt = addAIMLSets();
     if (MagicBooleans.trace_mode) System.out.println("Loaded " + cnt + " set elements.");
-    cnt = addAIMLMaps();
+    cnt += addAIMLMaps();
     if (MagicBooleans.trace_mode) System.out.println("Loaded " + cnt + " map elements");
     this.pronounSet = getPronouns();
     AIMLSet number = new AIMLSet(MagicStrings.natural_number_set_name, this);
@@ -157,23 +158,32 @@ public class Bot {
     Date aimlDate = new Date(new File(aiml_path).lastModified());
     Date aimlIFDate = new Date(new File(aimlif_path).lastModified());
     if (MagicBooleans.trace_mode) System.out.println("AIML modified " + aimlDate + " AIMLIF modified " + aimlIFDate);
-        //readUnfinishedIFCategories();
     MagicStrings.pannous_api_key = Utilities.getPannousAPIKey(this);
     MagicStrings.pannous_login = Utilities.getPannousLogin(this);
-    if (action.equals("aiml2csv")) addCategoriesFromAIML(); else if (action.equals("csv2aiml")) addCategoriesFromAIMLIF(); else if (action.equals("chat-app")) {
-      if (MagicBooleans.trace_mode) System.out.println("Loading only AIMLIF files");
-      cnt = addCategoriesFromAIMLIF();
-    } else if (aimlDate.after(aimlIFDate)) {
-      if (MagicBooleans.trace_mode) System.out.println("AIML modified after AIMLIF");
-      cnt = addCategoriesFromAIML();
+
+    
+    if (action.equals("aiml2csv")) {
+      cnt += addCategoriesFromAIMLIF();
+      cnt += addCategoriesFromAIML();
       writeAIMLIFFiles();
+    } else if (action.equals("csv2aiml")) {
+      cnt += addCategoriesFromAIML();
+      cnt += addCategoriesFromAIMLIF();
+      writeAIMLFiles();
     } else {
-      addCategoriesFromAIMLIF();
-      if (brain.getCategories().size() == 0) {
-        System.out.println("No AIMLIF Files found. Looking for AIML");
-        cnt = addCategoriesFromAIML();
+        if (aimlDate.after(aimlIFDate)) {
+        cnt += addCategoriesFromAIMLIF();
+        cnt += addCategoriesFromAIML();
+        writeAIMLFiles();
+        writeAIMLIFFiles();
+      } else {
+        cnt += addCategoriesFromAIML();
+        cnt += addCategoriesFromAIMLIF();
+        writeAIMLIFFiles();
+        writeAIMLFiles();
       }
     }
+    
     Category b = new Category(0, "PROGRAM VERSION", "*", "*", MagicStrings.program_name_version, "update.aiml");
     brain.addCategory(b);
     brain.nodeStats();
@@ -199,11 +209,16 @@ public class Bot {
      * @param moreCategories ist of categories
      */
   void addMoreCategories(String file, ArrayList<Category> moreCategories) {
+    if (moreCategories == null) {
+      moreCategories = new ArrayList<>();
+    }
     if (file.contains(MagicStrings.deleted_aiml_file)) {
-            /* for (Category c : moreCategories) {
-             //System.out.println("Delete "+c.getPattern());
-             deletedGraph.addCategory(c);
-             }*/
+      if (this.deletedGraph != null) {
+        for (Category c : moreCategories) {
+          System.out.println("Delete "+c.getPattern());
+          deletedGraph.addCategory(c);
+        }
+      }
     } else if (file.contains(MagicStrings.learnf_aiml_file)) {
       if (MagicBooleans.trace_mode) System.out.println("Reading Learnf file");
       for (Category c : moreCategories) {
@@ -453,7 +468,7 @@ public class Bot {
           bw = new BufferedWriter(new FileWriter(aiml_path + "/" + fileName));
           fileMap.put(fileName, bw);
           bw.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>" + "\n" + "\n");
-          bw.write(copyright);
+          //bw.write(copyright);
         }
         bw.write(Category.categoryToAIML(c) + "\n");
       } catch (Exception ex) {

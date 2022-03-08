@@ -1,53 +1,18 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> 
-<aiml version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!-- Free software (c)2008 Square Bear. -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License -->
-<!-- as published by the Free Software Foundation. -->
-<!-- Complies with AIML 1.0.1 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation. -->
-<!-- drphil.aiml by Square Bear -->
-<!-- http://www.square-bear.co.uk -->
-<!-- A personality test I got in the mail and converted to AIML. -->
-
-
-<!-- Two categories to get thh etest underway -->
-
-<category>
-<pattern>PERSONALITY TEST</pattern>
-<template>
+PERSONALITY TEST
 <think>
 	<set name="score">0</set>
 </think>
 This is a test made up of 10 simple multiple choice questions that will help you see what sort of personality you have.<br/><br/>Type START to begin the test.
-</template>
-</category>
 
-<category>
-<pattern>START</pattern>
-<that>TYPE START TO BEGIN THE TEST</that>
-<template>
+STARTTYPE START TO BEGIN THE TEST
 <srai>ptquestion1</srai>
-</template>
-</category>
 
-
-<!-- This is called if the user enters a bad option or just types in nonsense -->
-
-<category>
-<pattern>PTBADCHOICE</pattern>
-<template>
+PTBADCHOICE
 There is no option "<get name="choice"/>" for this question. Please try again or type QUIT to finish the test.<br/><br/>
-</template>
-</category>
 
-
-<!-- Question 1 -->
-
-<category>
-<pattern>PTQUESTION1</pattern>
-<template>
+PTQUESTION1
 <think>
 	<set name="topic">perstest</set>
 </think>
@@ -56,16 +21,11 @@ A) In the morning.<br/>
 B) During the afternoon and early evening.<br/>
 C) Late at night.<br/><br/>
 Please answer either A, B or C for question 1 or QUIT to finish the test.
-</template>
-</category>
 
-<topic name="perstest"> 
-<category> 
-<pattern>_</pattern>
-<that>_ ANSWER * FOR QUESTION 1 OR QUIT TO FINISH THE TEST</that>
-<template>
+<topic name="PERSTEST">
+__ ANSWER * FOR QUESTION 1 OR QUIT TO FINISH THE TEST
 <think>
-	<set name="topic"></set>
+	<set name="topic"/>
 	<set name="choice"><star/></set>
 </think>
 	<condition name="choice">
@@ -75,16 +35,9 @@ Please answer either A, B or C for question 1 or QUIT to finish the test.
 		<li value="QUIT">Ok. What would you like to do now?</li>
 		<li><srai>ptbadchoice</srai><srai>ptquestion1</srai></li>
 	</condition>
-</template>
-</category>
-</topic>
 
 
-<!-- Question 2 -->
-
-<category>
-<pattern>PTQUESTION2</pattern>
-<template>
+PTQUESTION2
 <think>
 	<set name="topic">perstest</set>
 </think>
@@ -95,16 +48,11 @@ C) less fast, head up, looking the world in the face.<br/>
 D) less fast, head down.<br/>
 E) Very slowly.<br/><br/>
 Please answer either A, B, C, D or E for question 2 or QUIT to finish the test.
-</template>
-</category>
 
-<topic name="perstest"> 
-<category> 
-<pattern>_</pattern>
-<that>_ ANSWER * FOR QUESTION 2 OR QUIT TO FINISH THE TEST</that>
-<template>
+<topic name="PERSTEST">
+__ ANSWER * FOR QUESTION 2 OR QUIT TO FINISH THE TEST
 <think>
-	<set name="topic"></set>
+	<set name="topic"/>
 	<set name="choice"><star/></set>
 </think>
 	<condition name="choice">
@@ -116,16 +64,9 @@ Please answer either A, B, C, D or E for question 2 or QUIT to finish the test.
 		<li value="QUIT">Ok. What would you like to do now?</li>
 		<li><srai>ptbadchoice</srai><srai>ptquestion2</srai></li>
 	</condition>
-</template>
-</category>
-</topic>
 
 
-<!-- Question 3 -->
-
-<category>
-<pattern>PTQUESTION3</pattern>
-<template>
+PTQUESTION3
 <think>
 	<set name="topic">perstest</set>
 </think>
@@ -136,16 +77,11 @@ C) have one or both your hands on your hips or in pockets.<br/>
 D) touch or push the person to whom you are talking.<br/>
 E) play with your ear, touch your chin or smooth your hair.<br/><br/>
 Please answer either A, B, C, D or E for question 3 or QUIT to finish the test.
-</template>
-</category>
 
-<topic name="perstest"> 
-<category> 
-<pattern>_</pattern>
-<that>_ ANSWER * FOR QUESTION 3 OR QUIT TO FINISH THE TEST</that>
-<template>
+<topic name="PERSTEST">
+__ ANSWER * FOR QUESTION 3 OR QUIT TO FINISH THE TEST
 <think>
-	<set name="topic"></set>
+	<set name="topic"/>
 	<set name="choice"><star/></set>
 </think>
 	<condition name="choice">
@@ -157,16 +93,9 @@ Please answer either A, B, C, D or E for question 3 or QUIT to finish the test.
 		<li value="QUIT">Ok. What would you like to do now?</li>
 		<li><srai>ptbadchoice</srai><srai>ptquestion3</srai></li>
 	</condition>
-</template>
-</category>
-</topic>
 
 
-<!-- Question 4 -->
-
-<category>
-<pattern>PTQUESTION4</pattern>
-<template>
+PTQUESTION4
 <think>
 	<set name="topic">perstest</set>
 </think>
@@ -176,16 +105,11 @@ B) Your legs crossed.<br/>
 C) your legs stretched out or straight.<br/>
 D) one leg curled under you.<br/><br/>
 Please answer either A, B, C or D for question 4 or QUIT to finish the test.
-</template>
-</category>
 
-<topic name="perstest"> 
-<category> 
-<pattern>_</pattern>
-<that>_ ANSWER * FOR QUESTION 4 OR QUIT TO FINISH THE TEST</that>
-<template>
+<topic name="PERSTEST">
+__ ANSWER * FOR QUESTION 4 OR QUIT TO FINISH THE TEST
 <think>
-	<set name="topic"></set>
+	<set name="topic"/>
 	<set name="choice"><star/></set>
 </think>
 	<condition name="choice">
@@ -196,16 +120,9 @@ Please answer either A, B, C or D for question 4 or QUIT to finish the test.
 		<li value="QUIT">Ok. What would you like to do now?</li>
 		<li><srai>ptbadchoice</srai><srai>ptquestion4</srai></li>
 	</condition>
-</template>
-</category>
-</topic>
 
 
-<!-- Question 5 -->
-
-<category>
-<pattern>PTQUESTION5</pattern>
-<template>
+PTQUESTION5
 <think>
 	<set name="topic">perstest</set>
 </think>
@@ -215,16 +132,11 @@ B) a laugh, but not a loud one.<br/>
 C) a quiet chuckle.<br/>
 D) a sheepish smile.<br/><br/>
 Please answer either A, B, C or D for question 5 or QUIT to finish the test.
-</template>
-</category>
 
-<topic name="perstest"> 
-<category> 
-<pattern>_</pattern>
-<that>_ ANSWER * FOR QUESTION 5 OR QUIT TO FINISH THE TEST</that>
-<template>
+<topic name="PERSTEST">
+__ ANSWER * FOR QUESTION 5 OR QUIT TO FINISH THE TEST
 <think>
-	<set name="topic"></set>
+	<set name="topic"/>
 	<set name="choice"><star/></set>
 </think>
 	<condition name="choice">
@@ -235,16 +147,9 @@ Please answer either A, B, C or D for question 5 or QUIT to finish the test.
 		<li value="QUIT">Ok. What would you like to do now?</li>
 		<li><srai>ptbadchoice</srai><srai>ptquestion5</srai></li>
 	</condition>
-</template>
-</category>
-</topic>
 
 
-<!-- Question 6 -->
-
-<category>
-<pattern>PTQUESTION6</pattern>
-<template>
+PTQUESTION6
 <think>
 	<set name="topic">perstest</set>
 </think>
@@ -253,16 +158,11 @@ A) make a loud entrance so everyone notices you.<br/>
 B) make a quiet entrance, looking around for someone you know.<br/>
 C) make the quietest entrance, trying to stay unnoticed.<br/><br/>
 Please answer either A, B or C for question 6 or QUIT to finish the test.
-</template>
-</category>
 
-<topic name="perstest"> 
-<category> 
-<pattern>_</pattern>
-<that>_ ANSWER * FOR QUESTION 6 OR QUIT TO FINISH THE TEST</that>
-<template>
+<topic name="PERSTEST">
+__ ANSWER * FOR QUESTION 6 OR QUIT TO FINISH THE TEST
 <think>
-	<set name="topic"></set>
+	<set name="topic"/>
 	<set name="choice"><star/></set>
 </think>
 	<condition name="choice">
@@ -272,16 +172,9 @@ Please answer either A, B or C for question 6 or QUIT to finish the test.
 		<li value="QUIT">Ok. What would you like to do now?</li>
 		<li><srai>ptbadchoice</srai><srai>ptquestion6</srai></li>
 	</condition>
-</template>
-</category>
-</topic>
 
 
-<!-- Question 7 -->
-
-<category>
-<pattern>PTQUESTION7</pattern>
-<template>
+PTQUESTION7
 <think>
 	<set name="topic">perstest</set>
 </think>
@@ -290,16 +183,11 @@ A) welcome the break.<br/>
 B) feel extremely irritated.<br/>
 C) vary between these two extremes.<br/><br/>
 Please answer either A, B or C for question 7 or QUIT to finish the test.
-</template>
-</category>
 
-<topic name="perstest"> 
-<category> 
-<pattern>_</pattern>
-<that>_ ANSWER * FOR QUESTION 7 OR QUIT TO FINISH THE TEST</that>
-<template>
+<topic name="PERSTEST">
+__ ANSWER * FOR QUESTION 7 OR QUIT TO FINISH THE TEST
 <think>
-	<set name="topic"></set>
+	<set name="topic"/>
 	<set name="choice"><star/></set>
 </think>
 	<condition name="choice">
@@ -309,16 +197,9 @@ Please answer either A, B or C for question 7 or QUIT to finish the test.
 		<li value="QUIT">Ok. What would you like to do now?</li>
 		<li><srai>ptbadchoice</srai><srai>ptquestion7</srai></li>
 	</condition>
-</template>
-</category>
-</topic>
 
 
-<!-- Question 8 -->
-
-<category>
-<pattern>PTQUESTION8</pattern>
-<template>
+PTQUESTION8
 <think>
 	<set name="topic">perstest</set>
 </think>
@@ -331,16 +212,11 @@ E) dark blue or purple.<br/>
 F) white.<br/>
 G) Brown or grey.<br/><br/>
 Please answer either A, B, C, D, E, F or G for question 8 or QUIT to finish the test.
-</template>
-</category>
 
-<topic name="perstest"> 
-<category> 
-<pattern>_</pattern>
-<that>_ ANSWER * FOR QUESTION 8 OR QUIT TO FINISH THE TEST</that>
-<template>
+<topic name="PERSTEST">
+__ ANSWER * FOR QUESTION 8 OR QUIT TO FINISH THE TEST
 <think>
-	<set name="topic"></set>
+	<set name="topic"/>
 	<set name="choice"><star/></set>
 </think>
 	<condition name="choice">
@@ -354,16 +230,9 @@ Please answer either A, B, C, D, E, F or G for question 8 or QUIT to finish the 
 		<li value="QUIT">Ok. What would you like to do now?</li>
 		<li><srai>ptbadchoice</srai><srai>ptquestion8</srai></li>
 	</condition>
-</template>
-</category>
-</topic>
 
 
-<!-- Question 9 -->
-
-<category>
-<pattern>PTQUESTION9</pattern>
-<template>
+PTQUESTION9
 <think>
 	<set name="topic">perstest</set>
 </think>
@@ -374,16 +243,11 @@ C) on your side, slightly curled.<br/>
 D) with your head on one arm.<br/>
 E) with your head under the covers.<br/><br/>
 Please answer either A, B, C, D or E for question 9 or QUIT to finish the test.
-</template>
-</category>
 
-<topic name="perstest"> 
-<category> 
-<pattern>_</pattern>
-<that>_ ANSWER * FOR QUESTION 9 OR QUIT TO FINISH THE TEST</that>
-<template>
+<topic name="PERSTEST">
+__ ANSWER * FOR QUESTION 9 OR QUIT TO FINISH THE TEST
 <think>
-	<set name="topic"></set>
+	<set name="topic"/>
 	<set name="choice"><star/></set>
 </think>
 	<condition name="choice">
@@ -395,16 +259,9 @@ Please answer either A, B, C, D or E for question 9 or QUIT to finish the test.
 		<li value="QUIT">Ok. What would you like to do now?</li>
 		<li><srai>ptbadchoice</srai><srai>ptquestion9</srai></li>
 	</condition>
-</template>
-</category>
-</topic>
 
 
-<!-- Question 10 -->
-
-<category>
-<pattern>PTQUESTION10</pattern>
-<template>
+PTQUESTION10
 <think>
 	<set name="topic">perstest</set>
 </think>
@@ -416,16 +273,11 @@ D) flying or floating<br/>
 E) you usually have dreamless sleep<br/>
 F) your dreams are always pleasant<br/><br/>
 Please answer either A, B, C, D, E or F for question 10 or QUIT to finish the test.
-</template>
-</category>
 
-<topic name="perstest"> 
-<category> 
-<pattern>_</pattern>
-<that>_ ANSWER * FOR QUESTION 10 OR QUIT TO FINISH THE TEST</that>
-<template>
+<topic name="PERSTEST">
+__ ANSWER * FOR QUESTION 10 OR QUIT TO FINISH THE TEST
 <think>
-	<set name="topic"></set>
+	<set name="topic"/>
 	<set name="choice"><star/></set>
 </think>
 	<condition name="choice">
@@ -438,17 +290,10 @@ Please answer either A, B, C, D, E or F for question 10 or QUIT to finish the te
 		<li value="QUIT">Ok. What would you like to do now?</li>
 		<li><srai>ptbadchoice</srai><srai>ptquestion10</srai></li>
 	</condition>
-</template>
-</category>
-</topic>
 
 
-<!-- Check score to determine outcome -->
-
-<category>
-<pattern>PTWORKOUTSCORE</pattern>
-<template>
-	<condition name="score">
+PTWORKOUTSCORE
+<condition name="score">
 		<li value="15"><srai>ptunder21</srai></li>
 		<li value="16"><srai>ptunder21</srai></li>
 		<li value="17"><srai>ptunder21</srai></li>
@@ -501,80 +346,37 @@ Please answer either A, B, C, D, E or F for question 10 or QUIT to finish the te
 		<li value="64"><srai>ptover60</srai></li>
 		<li value="65"><srai>ptover60</srai></li>
 	</condition>
-</template>
-</category>
 
-
-<!-- Different outcomes of the test -->
-
-<category>
-<pattern>PTOVER60</pattern>
-<template>
+PTOVER60
 You scored:<get name="score"/><br/><br/>
 Others see you as someone they should "handle with care". You're seen as vain, self-centered and one who is extremely domineering.<br/><br/>Others may admire you, wishing they could be more like you but don't always trust you, hesitating to become too deeply involved with you.
-</template>
-</category>
 
-<category>
-<pattern>PT51TO60</pattern>
-<template>
+PT51TO60
 You scored:<get name="score"/><br/><br/>
 Others see you as an exciting, highly volatile, rather impulsive personality; a natural leader, one who's quick to make decisions (though not always the right ones). They see you as bold and adventuresome, someone who will try anything once; someone who takes chances and enjoys an adventure.<br/><br/>They enjoy being in your company because of the excitement you radiate.
-</template>
-</category>
 
-<category>
-<pattern>PT41TO50</pattern>
-<template>
+PT41TO50
 You scored:<get name="score"/><br/><br/>
 Others see you as fresh, lively, charming, amusing, practical and always interesting; someone who's constantly in the centre of attention, but sufficiently well-balanced not to let it go to their head.<br/><br/>They also see you as kind, considerate, and understanding; someone who'll always cheer them up and help them out.
-</template>
-</category>
 
-<category>
-<pattern>PT31TO40</pattern>
-<template>
+PT31TO40
 You scored:<get name="score"/><br/><br/>
 Others see you as sensible, cautious, careful and practical.  They see you as clever, gifted, or talented, but modest. Not a person who makes friends too quickly or easily, but someone who's extremely loyal to friends you do make and who expect the same loyalty in return.<br/><br/>Those who really get to know you realise it  takes a lot to shake your trust in your friends, but equally that it takes you a long time to get over it if that trust is ever broken.
-</template>
-</category>
 
-<category>
-<pattern>PT21TO30</pattern>
-<template>
+PT21TO30
 You scored:<get name="score"/><br/><br/>
 Your friends see you as painstaking and fussy. They see you as very cautious, extremely careful, a slow and steady plodder. It would really surprise them if you ever did something impulsively or on the spur of the moment, expecting you to examine everything carefully from every angle and then usually decide against it.<br/><br/>They think this reaction is caused partly by your careful nature.
-</template>
-</category>
 
-
-<category>
-<pattern>PTUNDER21</pattern>
-<template>
+PTUNDER21
 You scored:<get name="score"/><br/><br/>
-People think you are shy, nervous, and indecisive, someone who needs looking after, who always wants someone else to make the decisions and who doesn't want to get involved with anyone or anything!  They see you as a worrier who always sees problems that don't exist. Some people think you're boring. Only those who know you well know that you aren't. 
-</template>
-</category>
+People think you are shy, nervous, and indecisive, someone who needs looking after, who always wants someone else to make the decisions and who doesn't want to get involved with anyone or anything!  They see you as a worrier who always sees problems that don't exist. Some people think you're boring. Only those who know you well know that you aren't.
 
-
-
-
-<!-- Functions to increase score -->
-	
-<category>
-<pattern>PTADD3</pattern>
-<template>
+PTADD3
+<srai>PTADD1</srai>
 	<srai>PTADD1</srai>
 	<srai>PTADD1</srai>
-	<srai>PTADD1</srai>
-</template>
-</category>
 
-<!-- Increase the score by one -->
-
-<category>
-<pattern>PTADD1</pattern> 
-<template>
+PTADD1
 <think>
 	<condition name="score"> 
 		<li value="0"><set name="score">1</set></li>
@@ -644,9 +446,6 @@ People think you are shy, nervous, and indecisive, someone who needs looking aft
 		<li value="64"><set name="score">65</set></li> 
 		<li value="65"><set name="score">66</set></li> 
 	</condition>
-</think> 
-</template>
-</category>
+</think>
 
 
-</aiml>

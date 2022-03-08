@@ -1,35 +1,13 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> 
-<aiml version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!-- Free software (c)2008 Square Bear. -->
-<!-- This program is open source code released under -->
-<!-- the terms of the GNU General Public License -->
-<!-- as published by the Free Software Foundation. -->
-<!-- Complies with AIML 1.0.1 Tag Set Specification -->
-<!-- as adopted by the ALICE A.I. Foundation. -->
-<!-- luckyslots.aiml by Square Bear -->
-<!-- http://www.square-bear.co.uk -->
-
-
-
-<category>
-<pattern>LUCKYSLOTS</pattern>
-<template>
+LUCKYSLOTS
 <think>
 	<set name="coins">50</set>
 </think>
 Welcome to my slot machine.<br/>You start with<get name="coins"/>coins and each spin of the machine costs you 1 coin.<br/>The game is over when you have either lost all your money or made 250 coins.<br/>Good luck!<br/><br/>Type START to load the machine.
-</template>
-</category>
 
-
-<!-- First spin -->
-
-<category>
-<pattern>START</pattern>
-<that>TYPE START TO LOAD THE MACHINE</that>
-<template>
-	Reels: -&gt; ? ? ? &lt;-<br/><br/>
+STARTTYPE START TO LOAD THE MACHINE
+Reels: -&gt; ? ? ? &lt;-<br/><br/>
 	A A A pays 100<br/>
 	K K K pays 50<br/>
 	Q Q Q pays 25<br/>
@@ -37,29 +15,17 @@ Welcome to my slot machine.<br/>You start with<get name="coins"/>coins and each 
 	7 7 7 pays 7<br/>
 	A A - pays 2<br/><br/>
 	You have<get name="coins"/>coins in the bank.<br/><br/>
-	<set name="slotsmessage">Type S to spin the reels</set>  
-</template>
-</category>
+	<set name="slotsmessage">Type S to spin the reels</set>
 
-
-<!-- Main loop -->
-
-<category>
-<pattern>S</pattern>
-<that>TYPE S TO SPIN THE REELS</that>
-<template>
-	<srai>XSUB1</srai>
+STYPE S TO SPIN THE REELS
+<srai>XSUB1</srai>
 	<srai>XSPIN1</srai>
 	<srai>XSPIN2</srai>
 	<srai>XSPIN3</srai>
 	<srai>XSLOTSLOOP</srai>
-</template>
-</category>
 
-<category>
-<pattern>XSLOTSLOOP</pattern>
-<template>
-	Reels: -&gt;<set name="reels"><get name="reel1"/><get name="reel2"/><get name="reel3"/></set> &lt;-<br/>
+XSLOTSLOOP
+Reels: -&gt;<set name="reels"><get name="reel1"/><get name="reel2"/><get name="reel3"/></set> &lt;-<br/>
 	<srai>XSLOTHOLD</srai><br/>
 	A A A pays 100<br/>
 	K K K pays 50<br/>
@@ -75,187 +41,85 @@ Welcome to my slot machine.<br/>You start with<get name="coins"/>coins and each 
 				</condition>
 			</think>		
 		<get name="bank"/><br/><br/>
-	<srai>XCHECKGAMEOVER</srai><get name="slotsmessage"/> 
-</template>
-</category>
+	<srai>XCHECKGAMEOVER</srai><get name="slotsmessage"/>
 
-
-<!-- Possible HOLD? -->
-<!-- The default is 1 in 3 chance of a hold -->
-<!-- You can increase/decrease it by adding/deleting more of the blank li statements  -->
-
-<category>
-<pattern>XSLOTHOLD</pattern>
-<template>
-	<random>
+XSLOTHOLD
+<random>
 		<li><think><set name="slotsmessage">Type S to spin the reels</set></think></li>
 		<li><think><set name="slotsmessage">Type S to spin the reels</set></think></li>
 		<li>HOLD: -&gt; 1 2 3 &lt;-<think><set name="slotsmessage">HOLD AVAILABLE - Enter the reels you wish to hold. E.g. 12 will hold reels 1 and 2 and spin reel 3.<br/>Type S to spin all three.</set>
 		</think></li>
 	</random>
-</template>
-</category>
 
-
-<!-- Which reels do you want to hold? -->
-
-<category>
-<pattern>S</pattern>
-<that>TYPE S TO SPIN ALL THREE</that>
-<template>
-	<srai>XSUB1</srai>
+STYPE S TO SPIN ALL THREE
+<srai>XSUB1</srai>
 	<srai>XSPIN1</srai>
 	<srai>XSPIN2</srai>
 	<srai>XSPIN3</srai>
 	<srai>XSLOTSLOOP</srai>
-</template>
-</category>
 
-<category>
-<pattern>1</pattern>
-<that>TYPE S TO SPIN ALL THREE</that>
-<template>
-	<srai>XSUB1</srai>
+1TYPE S TO SPIN ALL THREE
+<srai>XSUB1</srai>
 	<srai>XSPIN2</srai>
 	<srai>XSPIN3</srai>
 	<srai>XSLOTSLOOP</srai>
-</template>
-</category>
 
-<category>
-<pattern>2</pattern>
-<that>TYPE S TO SPIN ALL THREE</that>
-<template>
-	<srai>XSUB1</srai>
+2TYPE S TO SPIN ALL THREE
+<srai>XSUB1</srai>
 	<srai>XSPIN1</srai>
 	<srai>XSPIN3</srai>
 	<srai>XSLOTSLOOP</srai>
-</template>
-</category>
 
-<category>
-<pattern>3</pattern>
-<that>TYPE S TO SPIN ALL THREE</that>
-<template>
-	<srai>XSUB1</srai>
+3TYPE S TO SPIN ALL THREE
+<srai>XSUB1</srai>
 	<srai>XSPIN1</srai>
 	<srai>XSPIN2</srai>
 	<srai>XSLOTSLOOP</srai>
-</template>
-</category>
 
-<category>
-<pattern>12</pattern>
-<that>TYPE S TO SPIN ALL THREE</that>
-<template>
-	<srai>XSUB1</srai>
+12TYPE S TO SPIN ALL THREE
+<srai>XSUB1</srai>
 	<srai>XSPIN3</srai>
 	<srai>XSLOTSLOOP</srai>
-</template>
-</category>
 
-<category>
-<pattern>13</pattern>
-<that>TYPE S TO SPIN ALL THREE</that>
-<template>
-	<srai>XSUB1</srai>
+13TYPE S TO SPIN ALL THREE
+<srai>XSUB1</srai>
 	<srai>XSPIN2</srai>
 	<srai>XSLOTSLOOP</srai>
-</template>
-</category>
 
-<category>
-<pattern>23</pattern>
-<that>TYPE S TO SPIN ALL THREE</that>
-<template>
-	<srai>XSUB1</srai>
+23TYPE S TO SPIN ALL THREE
+<srai>XSUB1</srai>
 	<srai>XSPIN1</srai>
 	<srai>XSLOTSLOOP</srai>
-</template>
-</category>
 
-<category>
-<pattern>123</pattern>
-<that>TYPE S TO SPIN ALL THREE</that>
-<template>
-	<srai>XSUB1</srai>
+123TYPE S TO SPIN ALL THREE
+<srai>XSUB1</srai>
 	<srai>XSLOTSLOOP</srai>
-</template>
-</category>
 
+21TYPE S TO SPIN ALL THREE
+<srai>12</srai>
 
-<!-- SRAIs in case the user doesn't enter the holds in reel order -->
+31TYPE S TO SPIN ALL THREE
+<srai>13</srai>
 
-<category>
-<pattern>21</pattern>
-<that>TYPE S TO SPIN ALL THREE</that>
-<template>
-	<srai>12</srai>
-</template>
-</category>
+32TYPE S TO SPIN ALL THREE
+<srai>23</srai>
 
-<category>
-<pattern>31</pattern>
-<that>TYPE S TO SPIN ALL THREE</that>
-<template>
-	<srai>13</srai>
-</template>
-</category>
+132TYPE S TO SPIN ALL THREE
+<srai>123</srai>
 
-<category>
-<pattern>32</pattern>
-<that>TYPE S TO SPIN ALL THREE</that>
-<template>
-	<srai>23</srai>
-</template>
-</category>
+213TYPE S TO SPIN ALL THREE
+<srai>123</srai>
 
-<category>
-<pattern>132</pattern>
-<that>TYPE S TO SPIN ALL THREE</that>
-<template>
-	<srai>123</srai>
-</template>
-</category>
+231TYPE S TO SPIN ALL THREE
+<srai>123</srai>
 
-<category>
-<pattern>213</pattern>
-<that>TYPE S TO SPIN ALL THREE</that>
-<template>
-	<srai>123</srai>
-</template>
-</category>
+312TYPE S TO SPIN ALL THREE
+<srai>123</srai>
 
-<category>
-<pattern>231</pattern>
-<that>TYPE S TO SPIN ALL THREE</that>
-<template>
-	<srai>123</srai>
-</template>
-</category>
+321TYPE S TO SPIN ALL THREE
+<srai>123</srai>
 
-<category>
-<pattern>312</pattern>
-<that>TYPE S TO SPIN ALL THREE</that>
-<template>
-	<srai>123</srai>
-</template>
-</category>
-
-<category>
-<pattern>321</pattern>
-<that>TYPE S TO SPIN ALL THREE</that>
-<template>
-	<srai>123</srai>
-</template>
-</category>
-
-
-<!-- Spin the reels -->
-
-<category>
-<pattern>XSPIN1</pattern>
-<template>
+XSPIN1
 <think>
 	<random>
 		<li><set name="reel1">A</set></li>
@@ -270,12 +134,8 @@ Welcome to my slot machine.<br/>You start with<get name="coins"/>coins and each 
 		<li><set name="reel1">J</set></li>
 	</random>
 </think>
-</template>
-</category>
 
-<category>
-<pattern>XSPIN2</pattern>
-<template>
+XSPIN2
 <think>
 	<random>
 		<li><set name="reel2">K</set></li>
@@ -286,12 +146,8 @@ Welcome to my slot machine.<br/>You start with<get name="coins"/>coins and each 
 		<li><set name="reel2">7</set></li>
 	</random>
 </think>
-</template>
-</category>
 
-<category>
-<pattern>XSPIN3</pattern>
-<template>
+XSPIN3
 <think>
 	<random>
 		<li><set name="reel3">K</set></li>
@@ -305,15 +161,8 @@ Welcome to my slot machine.<br/>You start with<get name="coins"/>coins and each 
 		<li><set name="reel3">J</set></li>
 	</random>
 </think>
-</template>
-</category>
 
-
-<!-- Check for a win -->
-
-<category>
-<pattern>XCHECKWIN</pattern>
-<template>
+XCHECKWIN
 <think>
 <set name="payout">0</set>
 	<condition name="reels">
@@ -329,15 +178,8 @@ Welcome to my slot machine.<br/>You start with<get name="coins"/>coins and each 
 	</condition>
 </think> 
 <srai>XADDWIN</srai>
-</template>
-</category>
 
-
-<!-- Add any money won to the bank and produce a congratulations message -->
-
-<category>
-<pattern>XADDWIN</pattern>
-<template>
+XADDWIN
 <think>
 	<condition name="payout">
 		<li value="100"><srai>XADD25</srai><srai>XADD25</srai><srai>XADD25</srai><srai>XADD25</srai></li>
@@ -357,55 +199,30 @@ Welcome to my slot machine.<br/>You start with<get name="coins"/>coins and each 
 		<li value="2">2 Aces! You win 2 coins.</li>
 		<li value="0">No win.</li>
 	</condition>
-</template>
-</category>
 
-
-<!-- Check for 0 or 250 in the bank -->
-
-<category>
-<pattern>XCHECKGAMEOVER</pattern>
-<template>
+XCHECKGAMEOVER
 <think>
 	<condition name="coins"> 
 		<li value="0"><set name="slotsmessage">B A N K R U P T ! ! !<br/>GAME OVER</set></li>
 		<li value="250"><set name="slotsmessage">CONGRATULATIONS! YOU HAVE BROKEN THE BANK!!!!<br/>GAME OVER</set></li> 
 	</condition>
-</think> 
-</template>
-</category>
+</think>
 
-
-<!-- Functions to add money to the bank -->
-	
-<category>
-<pattern>XADD5</pattern>
-<template>
+XADD5
+<srai>XADD1</srai>
 	<srai>XADD1</srai>
 	<srai>XADD1</srai>
 	<srai>XADD1</srai>
 	<srai>XADD1</srai>
-	<srai>XADD1</srai>
-</template>
-</category>
 
-<category>
-<pattern>XADD25</pattern>
-<template>
+XADD25
+<srai>XADD5</srai>
 	<srai>XADD5</srai>
 	<srai>XADD5</srai>
 	<srai>XADD5</srai>
 	<srai>XADD5</srai>
-	<srai>XADD5</srai>
-</template>
-</category>
 
-
-<!-- The dirty job! Add the win to the bank -->
-
-<category>
-<pattern>XADD1</pattern> 
-<template>
+XADD1
 <think>
 	<condition name="coins"> 
 		<li value="0"><set name="coins">1</set></li>
@@ -659,16 +476,9 @@ Welcome to my slot machine.<br/>You start with<get name="coins"/>coins and each 
 		<li value="248"><set name="coins">249</set></li> 
 		<li value="249"><set name="coins">250</set></li> 
 	</condition>
-</think> 
-</template>
-</category>
+</think>
 
-
-<!-- Take 1 coin for each spin -->
-
-<category>
-<pattern>XSUB1</pattern> 
-<template>
+XSUB1
 <think>
 	<condition name="coins">
 		<li value="249"><set name="coins">248</set></li>
@@ -921,8 +731,6 @@ Welcome to my slot machine.<br/>You start with<get name="coins"/>coins and each 
 		<li value="2"><set name="coins">1</set></li> 
 		<li value="1"><set name="coins">0</set></li>
 	</condition>
-</think> 
-</template>
-</category>
+</think>
 
-</aiml>
+

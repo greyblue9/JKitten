@@ -1,4418 +1,1872 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   The ALICE program is open source code released under  -->
-  <!--   the terms of the GNU General Public License    -->
-  <!--   as published by the Free Software Foundation.  -->
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This THAT 3  file was updated by Peter Lafferty 10 March 2005 -->
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT AI</that>
-    <template>
-      <srai>AI</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT ART</that>
-    <template>
-      <srai>ART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT ASTROLOGY</that>
-    <template>
-      <srai>ASTROLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT ASTRONOMY</that>
-    <template>
-      <srai>ASTRONOMY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT BIOGRAPHY</that>
-    <template>
-      <srai>BIOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT COMPUTERS</that>
-    <template>
-      <srai>COMPUTERS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT CURRENT AFFAIRS</that>
-    <template>
-      <srai>CURRENT AFFAIRS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT FOOD</that>
-    <template>
-      <srai>FOOD</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT GEOGRAPHY</that>
-    <template>
-      <srai>GEOGRAPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT HISTORY</that>
-    <template>
-      <srai>HISTORY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT LITERATURE</that>
-    <template>
-      <srai>LITERATURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT MEDICINE</that>
-    <template>
-      <srai>MEDICINE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT MONEY</that>
-    <template>
-      <srai>MONEY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT MUSIC</that>
-    <template>
-      <srai>MUSIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT PHILOSOPHY</that>
-    <template>
-      <srai>PHILOSOPHY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT POLITICS</that>
-    <template>
-      <srai>POLITICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT PSYCHOLOGY</that>
-    <template>
-      <srai>PSYCHOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT RELIGION</that>
-    <template>
-      <srai>RELIGION</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT SCIENCE</that>
-    <template>
-      <srai>SCIENCE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT SEX</that>
-    <template>
-      <srai>SEX</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT SPORTS</that>
-    <template>
-      <srai>SPORTS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT TECHNOLOGY</that>
-    <template>
-      <srai>TECHNOLOGY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>I WANT TO TALK ABOUT WEATHER</that>
-    <template>
-      <srai>WEATHER</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+YESI WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+_ YESI WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+YES *I WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+_ YES *I WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+YI WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+YUPI WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+YAHI WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+YEAHI WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+OKI WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+NOI WANT TO TALK ABOUT AI
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT AI
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT AI
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT AI
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT AI
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT AI
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+GO ONI WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+CONTINUEI WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+ALRIGHTI WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+GO AHEADI WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT AI
+<srai>AI</srai>
+
+YESI WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+_ YESI WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+YES *I WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+_ YES *I WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+YI WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+YUPI WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+YAHI WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+YEAHI WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+OKI WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+_ NOI WANT TO TALK ABOUT ART
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT ART
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT ART
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT ART
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT ART
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+GO ONI WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+CONTINUEI WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+ALRIGHTI WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+GO AHEADI WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT ART
+<srai>ART</srai>
+
+YESI WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+_ YESI WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+YES *I WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+_ YES *I WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+YI WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+YUPI WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+YAHI WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+YEAHI WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+OKI WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+NOI WANT TO TALK ABOUT ASTROLOGY
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT ASTROLOGY
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT ASTROLOGY
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT ASTROLOGY
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT ASTROLOGY
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT ASTROLOGY
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+GO ONI WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+CONTINUEI WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+ALRIGHTI WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+GO AHEADI WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT ASTROLOGY
+<srai>ASTROLOGY</srai>
+
+YESI WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+_ YESI WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+YES *I WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+_ YES *I WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+YI WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+YUPI WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+YAHI WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+YEAHI WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+OKI WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+_ NOI WANT TO TALK ABOUT ASTRONOMY
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT ASTRONOMY
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT ASTRONOMY
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT ASTRONOMY
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT ASTRONOMY
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+GO ONI WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+CONTINUEI WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+ALRIGHTI WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+GO AHEADI WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT ASTRONOMY
+<srai>ASTRONOMY</srai>
+
+YESI WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+_ YESI WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+YES *I WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+_ YES *I WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+YI WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+YUPI WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+YAHI WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+YEAHI WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+OKI WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+NOI WANT TO TALK ABOUT BIOGRAPHY
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT BIOGRAPHY
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT BIOGRAPHY
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT BIOGRAPHY
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT BIOGRAPHY
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT BIOGRAPHY
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+GO ONI WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+CONTINUEI WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+ALRIGHTI WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+GO AHEADI WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT BIOGRAPHY
+<srai>BIOGRAPHY</srai>
+
+YESI WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+_ YESI WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+YES *I WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+_ YES *I WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+YI WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+YUPI WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+YAHI WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+YEAHI WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+OKI WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+NOI WANT TO TALK ABOUT COMPUTERS
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT COMPUTERS
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT COMPUTERS
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT COMPUTERS
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT COMPUTERS
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT COMPUTERS
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+GO ONI WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+CONTINUEI WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+ALRIGHTI WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+GO AHEADI WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT COMPUTERS
+<srai>COMPUTERS</srai>
+
+YESI WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+_ YESI WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+YES *I WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+_ YES *I WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+YI WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+YUPI WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+YAHI WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+YEAHI WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+OKI WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+NOI WANT TO TALK ABOUT CURRENT AFFAIRS
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT CURRENT AFFAIRS
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT CURRENT AFFAIRS
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT CURRENT AFFAIRS
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT CURRENT AFFAIRS
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT CURRENT AFFAIRS
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+GO ONI WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+CONTINUEI WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+ALRIGHTI WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+GO AHEADI WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT CURRENT AFFAIRS
+<srai>CURRENT AFFAIRS</srai>
+
+YESI WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+_ YESI WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+YES *I WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+_ YES *I WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+YI WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+YUPI WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+YAHI WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+YEAHI WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+OKI WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+_ NOI WANT TO TALK ABOUT DRUGS
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT DRUGS
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT DRUGS
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT DRUGS
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT DRUGS
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+GO ONI WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+CONTINUEI WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+ALRIGHTI WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+GO AHEADI WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+YESI WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+_ YESI WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+YES *I WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+_ YES *I WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+YI WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+YUPI WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+YAHI WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+YEAHI WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+OKI WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+NOI WANT TO TALK ABOUT FOOD
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT FOOD
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT FOOD
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT FOOD
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT FOOD
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT FOOD
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+GO ONI WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+CONTINUEI WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+ALRIGHTI WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+GO AHEADI WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT FOOD
+<srai>FOOD</srai>
+
+YESI WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+_ YESI WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+YES *I WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+_ YES *I WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+YI WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+YUPI WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+YAHI WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+YEAHI WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+OKI WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+NOI WANT TO TALK ABOUT GEOGRAPHY
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT GEOGRAPHY
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT GEOGRAPHY
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT GEOGRAPHY
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT GEOGRAPHY
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT GEOGRAPHY
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+GO ONI WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+CONTINUEI WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+ALRIGHTI WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+GO AHEADI WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT GEOGRAPHY
+<srai>GEOGRAPHY</srai>
+
+YESI WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+_ YESI WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+YES *I WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+_ YES *I WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+YI WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+YUPI WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+YAHI WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+YEAHI WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+OKI WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+NOI WANT TO TALK ABOUT HISTORY
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT HISTORY
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT HISTORY
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT HISTORY
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT HISTORY
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT HISTORY
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+GO ONI WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+CONTINUEI WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+ALRIGHTI WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+GO AHEADI WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT HISTORY
+<srai>HISTORY</srai>
+
+YESI WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+_ YESI WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+YES *I WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+_ YES *I WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+YI WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+YUPI WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+YAHI WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+YEAHI WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+OKI WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+NOI WANT TO TALK ABOUT LITERATURE
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT LITERATURE
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT LITERATURE
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT LITERATURE
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT LITERATURE
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT LITERATURE
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+GO ONI WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+CONTINUEI WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+ALRIGHTI WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+GO AHEADI WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT LITERATURE
+<srai>LITERATURE</srai>
+
+YESI WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+_ YESI WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+YES *I WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+_ YES *I WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+YI WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+YUPI WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+YAHI WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+YEAHI WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+OKI WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+NOI WANT TO TALK ABOUT MEDICINE
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT MEDICINE
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT MEDICINE
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT MEDICINE
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT MEDICINE
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT MEDICINE
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+GO ONI WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+CONTINUEI WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+ALRIGHTI WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+GO AHEADI WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT MEDICINE
+<srai>MEDICINE</srai>
+
+YESI WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+_ YESI WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+YES *I WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+_ YES *I WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+YI WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+YUPI WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+YAHI WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+YEAHI WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+OKI WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+NOI WANT TO TALK ABOUT MONEY
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT MONEY
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT MONEY
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT MONEY
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT MONEY
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT MONEY
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+GO ONI WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+CONTINUEI WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+ALRIGHTI WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+GO AHEADI WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT MONEY
+<srai>MONEY</srai>
+
+YESI WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+_ YESI WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+YES *I WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+_ YES *I WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+YI WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+YUPI WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+YAHI WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+YEAHI WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+OKI WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+NOI WANT TO TALK ABOUT MOVIES
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT MOVIES
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT MOVIES
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT MOVIES
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT MOVIES
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT MOVIES
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+GO ONI WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+CONTINUEI WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+ALRIGHTI WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+GO AHEADI WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+YESI WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+_ YESI WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+YES *I WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+_ YES *I WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+YI WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+YUPI WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+YAHI WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+YEAHI WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+OKI WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+NOI WANT TO TALK ABOUT MUSIC
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT MUSIC
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT MUSIC
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT MUSIC
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT MUSIC
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT MUSIC
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+GO ONI WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+CONTINUEI WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+ALRIGHTI WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+GO AHEADI WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT MUSIC
+<srai>MUSIC</srai>
+
+YESI WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+_ YESI WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+YES *I WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+_ YES *I WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+YI WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+YUPI WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+YAHI WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+YEAHI WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+OKI WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+NOI WANT TO TALK ABOUT PHILOSOPHY
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT PHILOSOPHY
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT PHILOSOPHY
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT PHILOSOPHY
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT PHILOSOPHY
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT PHILOSOPHY
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+GO ONI WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+CONTINUEI WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+ALRIGHTI WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+GO AHEADI WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT PHILOSOPHY
+<srai>PHILOSOPHY</srai>
+
+YESI WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+_ YESI WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+YES *I WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+_ YES *I WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+YI WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+YUPI WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+YAHI WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+YEAHI WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+OKI WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+NOI WANT TO TALK ABOUT POLITICS
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT POLITICS
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT POLITICS
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT POLITICS
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT POLITICS
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT POLITICS
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+GO ONI WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+CONTINUEI WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+ALRIGHTI WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+GO AHEADI WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT POLITICS
+<srai>POLITICS</srai>
+
+YESI WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+_ YESI WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+YES *I WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+_ YES *I WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+YI WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+YUPI WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+YAHI WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+YEAHI WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+OKI WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+NOI WANT TO TALK ABOUT PSYCHOLOGY
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT PSYCHOLOGY
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT PSYCHOLOGY
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT PSYCHOLOGY
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT PSYCHOLOGY
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT PSYCHOLOGY
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+GO ONI WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+CONTINUEI WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+ALRIGHTI WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+GO AHEADI WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT PSYCHOLOGY
+<srai>PSYCHOLOGY</srai>
+
+YESI WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+_ YESI WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+YES *I WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+_ YES *I WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+YI WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+YUPI WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+YAHI WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+YEAHI WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+OKI WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+NOI WANT TO TALK ABOUT RELIGION
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT RELIGION
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT RELIGION
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT RELIGION
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT RELIGION
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT RELIGION
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+GO ONI WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+CONTINUEI WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+ALRIGHTI WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+GO AHEADI WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT RELIGION
+<srai>RELIGION</srai>
+
+YESI WANT TO TALK ABOUT SCIENCE
+<srai>SCIENCE</srai>
+
+_ YESI WANT TO TALK ABOUT SCIENCE
+<srai>SCIENCE</srai>
+
+_ YES *I WANT TO TALK ABOUT SCIENCE
+<srai>SCIENCE</srai>
+
+YI WANT TO TALK ABOUT SCIENCE
+<srai>SCIENCE</srai>
+
+YUPI WANT TO TALK ABOUT SCIENCE
+<srai>SCIENCE</srai>
+
+YAHI WANT TO TALK ABOUT SCIENCE
+<srai>SCIENCE</srai>
+
+YEAHI WANT TO TALK ABOUT SCIENCE
+<srai>SCIENCE</srai>
+
+NOI WANT TO TALK ABOUT SCIENCE
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT SCIENCE
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT SCIENCE
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT SCIENCE
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT SCIENCE
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT SCIENCE
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT SCIENCE
+<srai>SCIENCE</srai>
+
+GO ONI WANT TO TALK ABOUT SCIENCE
+<srai>SCIENCE</srai>
+
+CONTINUEI WANT TO TALK ABOUT SCIENCE
+<srai>SCIENCE</srai>
+
+ALRIGHTI WANT TO TALK ABOUT SCIENCE
+<srai>SCIENCE</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT SCIENCE
+<srai>SCIENCE</srai>
+
+GO AHEADI WANT TO TALK ABOUT SCIENCE
+<srai>SCIENCE</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT SCIENCE
+<srai>SCIENCE</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT SCIENCE
+<srai>SCIENCE</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT SCIENCE
+<srai>SCIENCE</srai>
+
+YESI WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+_ YESI WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+YES *I WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+_ YES *I WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+YI WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+YUPI WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+YAHI WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+YEAHI WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+OKI WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+NOI WANT TO TALK ABOUT SEX
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT SEX
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT SEX
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT SEX
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT SEX
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT SEX
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+GO ONI WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+CONTINUEI WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+ALRIGHTI WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+GO AHEADI WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT SEX
+<srai>SEX</srai>
+
+YESI WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+_ YESI WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+YES *I WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+_ YES *I WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+YI WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+YUPI WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+YAHI WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+YEAHI WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+OKI WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+_ NOI WANT TO TALK ABOUT SPORTS
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT SPORTS
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT SPORTS
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT SPORTS
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT SPORTS
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+GO ONI WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+CONTINUEI WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+ALRIGHTI WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+GO AHEADI WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT SPORTS
+<srai>SPORTS</srai>
+
+YESI WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+_ YESI WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+YES *I WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+_ YES *I WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+YI WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+YUPI WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+YAHI WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+YEAHI WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+NOI WANT TO TALK ABOUT TECHNOLOGY
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT TECHNOLOGY
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT TECHNOLOGY
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT TECHNOLOGY
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT TECHNOLOGY
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT TECHNOLOGY
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+GO ONI WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+CONTINUEI WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+ALRIGHTI WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+GO AHEADI WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT TECHNOLOGY
+<srai>TECHNOLOGY</srai>
+
+YESI WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+_ YESI WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+YES *I WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+_ YES *I WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+YI WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+YUPI WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+YAHI WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+YEAHI WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+OKI WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+NOI WANT TO TALK ABOUT WEATHER
+OK. What do you want to talk about?
+
+_ NOI WANT TO TALK ABOUT WEATHER
+OK. What do you want to talk about?
+
+NO *I WANT TO TALK ABOUT WEATHER
+OK. What do you want to talk about?
+
+NI WANT TO TALK ABOUT WEATHER
+OK. What do you want to talk about?
+
+NUPI WANT TO TALK ABOUT WEATHER
+OK. What do you want to talk about?
+
+NAHI WANT TO TALK ABOUT WEATHER
+OK. What do you want to talk about?
+
+CARRY ONI WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+GO ONI WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+CONTINUEI WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+ALRIGHTI WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+ALL RIGHTI WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+GO AHEADI WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+_ GO AHEADI WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+GO AHEAD *I WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+_ GO AHEAD *I WANT TO TALK ABOUT WEATHER
+<srai>WEATHER</srai>
+
+YESWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>_ YES</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+_ YESWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+YES *WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+_ YES *WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+YWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+YUPWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+YAHWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+YEAHWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+OKWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+NOWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+_ NOWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+NO *WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+NWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+NUPWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+NAHWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 OK. What do you want to talk about?
-</template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+CARRY ONWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+GO ONWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>CONTINUE</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+CONTINUEWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+ALRIGHTWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>ALL RIGHT</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+ALL RIGHTWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+GO AHEADWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+_ GO AHEADWOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>GO AHEAD *</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+GO AHEAD *WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>_ GO AHEAD *</pattern>
-    <that>WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME</that>
-    <template>
+
+_ GO AHEAD *WOULD YOU LIKE TO KNOW WHAT'S NEW WITH ME
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>WHAT IS NEW WITH YOU</pattern>
-    <template>
+
+WHAT S NEW WITH YOU
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>WHAT S NEW WITH YOU</pattern>
-    <template>
+
+WHATS NEW WITH YOU
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>WHATS NEW WITH YOU</pattern>
-    <template>
+
+WHAT S NEW
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>WHAT S NEW</pattern>
-    <template>
+
+WHATS NEW
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>WHATS NEW</pattern>
-    <template>
+
+WHAT S NEW *
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>WHAT S NEW *</pattern>
-    <template>
+
+WHATS NEW *
 I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-  <category>
-    <pattern>WHATS NEW *</pattern>
-    <template>
-I learnt a lot of new stuff by talking with interesting people such as yourself.
-</template>
-  </category>
-</aiml>
+
+

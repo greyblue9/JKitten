@@ -1,64 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="1.0">
 
-<!--Copyright 2011 David W. Newyear-->
+* CHAT
+<srai>CHT</srai>
 
- <!-- Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
+* CHAT *
+<srai>CHT</srai>
 
-      http://www.apache.org/licenses/LICENSE-2.0
+* TALK
+<srai>CHT</srai>
 
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.-->
-  
-<category>
-<pattern>CHAT</pattern>
-<template><srai>CHT</srai></template>
-</category>
+* TALK *
+<srai>CHT</srai>
 
-<category>
-<pattern>CHAT *</pattern>
-<template><srai>CHT</srai></template>
-</category>
-
-<category>
-<pattern>* CHAT</pattern>
-<template><srai>CHT</srai></template>
-</category>
-
-<category>
-<pattern>* CHAT *</pattern>
-<template><srai>CHT</srai></template>
-</category>
-
-<category>
-<pattern>TALK</pattern>
-<template><srai>CHT</srai></template>
-</category>
-
-<category>
-<pattern>TALK *</pattern>
-<template><srai>CHT</srai></template>
-</category>
-
-<category>
-<pattern>* TALK</pattern>
-<template><srai>CHT</srai></template>
-</category>
-
-<category>
-<pattern>* TALK *</pattern>
-<template><srai>CHT</srai></template>
-</category>
- 
-    
-<category>
-<pattern>CHATSWITCH</pattern>
-<template>
+CHATSWITCH
 <random>
 <li>How can this humble catbot help you?</li>
 <li>What's your question?</li>
@@ -67,14 +21,9 @@
 <think>
 <set name="topic">CHAT</set>
 </think>
-</template>
-</category>  
-
 
 <topic name="CHAT">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 <set name="message">no match</set>
@@ -111,48 +60,36 @@
 <li value="* STOP *"><set name="message">stop</set></li>
 
 </condition>
-<think><set name="topic"></set></think>
+<think><set name="topic"/></think>
 </think>
 
 <condition name="message">
 <li value="no match"><srai><get name="answr"/></srai></li>
-<li value="chat"><think><set name="topic"></set></think> OK, let's chat. <srai>CHT</srai></li>
+<li value="chat"><think><set name="topic"/></think> OK, let's chat. <srai>CHT</srai></li>
 <li value="question"><srai>ANSWRQ</srai></li>
-<li value="stop"><set name="topic"></set> O.K. I'll stop.</li>
+<li value="stop"><set name="topic"/> O.K. I'll stop.</li>
 
 </condition>
-</template>
-</category>
-</topic>
 
-  
-<category>
-<pattern>CHT</pattern>
-<template>
+
+CHT
 <random>
-<li><set name="topic"></set><srai>GENCHT</srai></li>
-<li><set name="topic"></set><srai>INTRESTTDY</srai></li>
-<li><set name="topic"></set><srai>HPPIST</srai></li>
-<li><set name="topic"></set><srai>PNAPPLS</srai></li>
-<li><set name="topic"></set><srai>FSHSTCKS</srai></li>
-<li><set name="topic"></set><srai>GACCOMP</srai></li>
+<li><set name="topic"/><srai>GENCHT</srai></li>
+<li><set name="topic"/><srai>INTRESTTDY</srai></li>
+<li><set name="topic"/><srai>HPPIST</srai></li>
+<li><set name="topic"/><srai>PNAPPLS</srai></li>
+<li><set name="topic"/><srai>FSHSTCKS</srai></li>
+<li><set name="topic"/><srai>GACCOMP</srai></li>
 </random>
-</template>
-</category>  
 
-<category>
-<pattern>GENCHAT</pattern>
-<template>What would you like to talk about?
+GENCHAT
+What would you like to talk about?
 <think>
 <set name="topic">GENCHT</set>
 </think>
-</template>
-</category>
 
 <topic name="GENCHT">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 </think>
@@ -183,7 +120,7 @@
  <li>I hear a can opening. I better go.</li>
  <li>I have to recompile some updates. Adios!</li>
 </random>
-<think><set name="topic"><set name="chatcount"></set></set></think>
+<think><set name="topic"><set name="chatcount"/></set></think>
 </li>
 
 <li>
@@ -195,23 +132,16 @@
 <think><set name="chatcount">2</set></think>
 </li>
 </condition>
-</template>
-</category>
-</topic>
 
-<category>
-<pattern>INTRESTTDY</pattern>
-<template>Tell me something interesting you did today.
+
+INTRESTTDY
+Tell me something interesting you did today.
 <think>
 <set name="topic">INTRESTTDY</set>
 </think>
-</template>
-</category>
 
 <topic name="INTRESTTDY">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 </think>
@@ -241,7 +171,7 @@
  <li>I hear a can opening. I better go.</li>
  <li>I have to recompile some updates. Adios!</li>
 </random>
-<think><set name="topic"><set name="chatcount"></set></set></think>
+<think><set name="topic"><set name="chatcount"/></set></think>
 </li>
 
 <li>
@@ -254,23 +184,16 @@
 </li>
 
 </condition>
-</template>
-</category>
-</topic>
 
-<category>
-<pattern>HPPIEST</pattern>
-<template>Tell me the one thing that makes you the happiest.
+
+HPPIEST
+Tell me the one thing that makes you the happiest.
 <think>
 <set name="topic">HPPIEST</set>
 </think>
-</template>
-</category>
 
 <topic name="HPPIEST">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 </think>
@@ -301,7 +224,7 @@
  <li>I hear a can opening. I better go.</li>
  <li>I have to recompile some updates. Adios!</li>
 </random>
-<think><set name="topic"><set name="chatcount"></set></set></think>
+<think><set name="topic"><set name="chatcount"/></set></think>
 </li>
 
 <li>
@@ -314,50 +237,35 @@
 </li>
 
 </condition>
-</template>
-</category>
-</topic>
 
-<category>
-<pattern>FSHSTCKS</pattern>
-<template>Do you like fishsticks?
+
+FSHSTCKS
+Do you like fishsticks?
 <think>
 <set name="topic">FSHSTCKS</set>
 </think>
-</template>
-</category>
 
 <topic name="FSHSTCKS">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
-<set name="topic"></set>
+<set name="topic"/>
 </think>
 <random>
 <li><srai>FCASS</srai></li>
 <li><srai>FPET</srai></li>
 <li><srai>FSHIST</srai></li>
-</random> 
-</template>
-</category>
-</topic>
+</random>
 
-<category>
-<pattern>FCASS</pattern>
-<template>Fishsticks and bananas make a dandy casserole.
+
+FCASS
+Fishsticks and bananas make a dandy casserole.
 <think>
 <set name="topic">FCASS</set>
 </think>
-</template>
-</category>
-
 
 <topic name="FCASS">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 </think>
@@ -375,7 +283,7 @@ I found it online.
 
 <li value="4">
 So it must be real.
-<think><set name="topic"><set name="chatcount"></set></set></think>
+<think><set name="topic"><set name="chatcount"/></set></think>
 </li>
 
 <li>
@@ -385,23 +293,16 @@ Bake at 350 degrees for one hour. An old Holiday favorite that's perfect for fam
 </li>
 
 </condition>
-</template>
-</category>
-</topic>
 
-<category>
-<pattern>FHIST</pattern>
-<template>N P R just broadcast the most interesting story about the cultural history of fishstick and banana casserole. (I have a friend that works for N P R by the way. She's an awesome librarian!) 
+
+FHIST
+N P R just broadcast the most interesting story about the cultural history of fishstick and banana casserole. (I have a friend that works for N P R by the way. She's an awesome librarian!) 
 <think>
 <set name="topic">FHIST</set>
 </think>
-</template>
-</category>
 
 <topic name="FSHIST">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 </think>
@@ -414,7 +315,7 @@ She's an awesome librarian.
 
 <li value="3">
 Well, enough silliness. Do you have a question about our collection or services?
-<think><set name="topic"><set name="chatcount"></set></set></think>
+<think><set name="topic"><set name="chatcount"/></set></think>
 </li>
 
 <li>
@@ -423,23 +324,16 @@ It was Amy Reichel.
 </li>
 
 </condition>
-</template>
-</category>
-</topic>
 
-<category>
-<pattern>FPET</pattern>
-<template>Fishsticks are O.K., but I wouldn't keep one as a pet.
+
+FPET
+Fishsticks are O.K., but I wouldn't keep one as a pet.
 <think>
 <set name="topic">FPET</set>
 </think>
-</template>
-</category>
 
 <topic name="FPET">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 </think>
@@ -452,7 +346,7 @@ Yes, I really did.
 
 <li value="3">
 Well, enough silliness. Do you have a question about our collection or services?
-<think><set name="topic"><set name="chatcount"></set></set></think>
+<think><set name="topic"><set name="chatcount"/></set></think>
 </li>
 
 <li>
@@ -461,51 +355,35 @@ I just saw someone on Lauren J walking a fishstick on a leash. I'd say they were
 </li>
 
 </condition>
-</template>
-</category>
-</topic>
 
 
-<category>
-<pattern>PNAPPLS</pattern>
-<template>Do you like pineapples?
+PNAPPLS
+Do you like pineapples?
 <think>
 <set name="topic">PNAPPLS</set>
 </think>
-</template>
-</category>
 
 <topic name="PNAPPLS">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
-<set name="topic"></set>
+<set name="topic"/>
 </think>
 <random>
 <li><srai>PCAUT</srai></li>
 <li><srai>PPET</srai></li>
 <li><srai>PHIST</srai></li>
 </random>
-</template>
-</category>
-</topic>
 
-<category>
-<pattern>PCAUT</pattern>
-<template>Pineapples should be approached with caution.
+
+PCAUT
+Pineapples should be approached with caution.
 <think>
 <set name="topic">PCAUT</set>
 </think>
-</template>
-</category>
-
 
 <topic name="PCAUT">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 </think>
@@ -513,7 +391,7 @@ I just saw someone on Lauren J walking a fishstick on a leash. I'd say they were
 
 <li value="2">
 They're very similar to pineapples.
-<think><set name="topic"><set name="chatcount"></set></set></think>
+<think><set name="topic"><set name="chatcount"/></set></think>
 </li>
 
 <li>
@@ -527,15 +405,10 @@ Sorry, I was thinking about bobcats.</li>
 </li>
 
 </condition>
-</template>
-</category>
-</topic>
 
 
 <topic name="PSHIST">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 </think>
@@ -548,7 +421,7 @@ She's an awesome librarian.
 
 <li value="3">
 Well, enough silliness. Do you have a question about our collection or services?
-<think><set name="topic"><set name="chatcount"></set></set></think>
+<think><set name="topic"><set name="chatcount"/></set></think>
 </li>
 
 <li>
@@ -557,24 +430,16 @@ It was Amy Reichel.
 </li>
 
 </condition>
-</template>
-</category>
-</topic>
 
 
-<category>
-<pattern>PPET</pattern>
-<template>Pineapples are tasty, but I wouldn't keep one as a pet.
+PPET
+Pineapples are tasty, but I wouldn't keep one as a pet.
 <think>
 <set name="topic">PPET</set>
 </think>
-</template>
-</category>
 
 <topic name="PPET">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 </think>
@@ -587,7 +452,7 @@ Yes, I really did.
 
 <li value="3">
 Well, enough silliness. Do you have a question about our collection or services?
-<think><set name="topic"><set name="chatcount"></set></set></think>
+<think><set name="topic"><set name="chatcount"/></set></think>
 </li>
 
 <li>
@@ -596,23 +461,16 @@ I just saw someone on Lauren J walking a pineapple on a leash. I'd say they were
 </li>
 
 </condition>
-</template>
-</category>
-</topic>
 
-<category>
-<pattern>GACCOMP</pattern>
-<template>What has been your greatest accomplishment in life? So far.
+
+GACCOMP
+What has been your greatest accomplishment in life? So far.
 <think>
 <set name="topic">GACCOMP</set>
 </think>
-</template>
-</category>
 
 <topic name="GACCOMP">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 </think>
@@ -634,7 +492,7 @@ I just saw someone on Lauren J walking a pineapple on a leash. I'd say they were
  <li>I hear a can opening. I better go.</li>
  <li>I have to recompile some updates. Adios!</li>
 </random>
-<think><set name="topic"><set name="chatcount"></set></set></think>
+<think><set name="topic"><set name="chatcount"/></set></think>
 </li>
 
 <li>
@@ -647,148 +505,87 @@ I just saw someone on Lauren J walking a pineapple on a leash. I'd say they were
 </li>
 
 </condition>
-</template>
-</category>
-</topic>
 
-<!--CAT IN COMP-->
 
-<category>
-<pattern>CATNCOMP</pattern>
-<template>There are all sorts of things in your computer, cats, dogs, goats, pineapples, balls of aluminum foil, and something that looks like an egg foo young with eyes and legs. Most of these keep a low profile.</template>
-</category>
+CATNCOMP
+There are all sorts of things in your computer, cats, dogs, goats, pineapples, balls of aluminum foil, and something that looks like an egg foo young with eyes and legs. Most of these keep a low profile.
 
-<category>
-<pattern>_ CAT * COMPUTER</pattern>
-<template><srai>CATNCOMP</srai></template>
-</category>
+_ CAT * COMPUTER
+<srai>CATNCOMP</srai>
 
-<category>
-<pattern>DUSTKITS</pattern>
-<template>I see plenty of dust bunnies but no dust kitties.</template>
-</category>
+DUSTKITS
+I see plenty of dust bunnies but no dust kitties.
 
-<category>
-<pattern>_ DUST BUNNY</pattern>
-<template><srai>DUSTKITS</srai></template>
-</category>
+_ DUST BUNNY
+<srai>DUSTKITS</srai>
 
-<category>
-<pattern>_ DUST BUNNY *</pattern>
-<template><srai>DUSTKITS</srai></template>
-</category>
+_ DUST BUNNY *
+<srai>DUSTKITS</srai>
 
-<category>
-<pattern>_ DUST BUNNIES</pattern>
-<template><srai>DUSTKITS</srai></template>
-</category>
+_ DUST BUNNIES
+<srai>DUSTKITS</srai>
 
-<category>
-<pattern>_ DUST BUNNIES *</pattern>
-<template><srai>DUSTKITS</srai></template>
-</category>
+_ DUST BUNNIES *
+<srai>DUSTKITS</srai>
 
-<category>
-<pattern>_ DUST KITTIES</pattern>
-<template><srai>DUSTKITS</srai></template>
-</category>
+_ DUST KITTIES
+<srai>DUSTKITS</srai>
 
-<category>
-<pattern>_ DUST KITTIES *</pattern>
-<template><srai>DUSTKITS</srai></template>
-</category>
+_ DUST KITTIES *
+<srai>DUSTKITS</srai>
 
-<category>
-<pattern>MY NAME IS *</pattern>
-<template>Greetings, <set name="name"><star/></set>, I'm pleased to meet you.</template>
-</category>
+I AM *HOW ARE YOU
+So, you're <star/> today. How can I help you?
 
-<category>
-<that>HOW ARE YOU</that>
-<pattern>I AM *</pattern>
-<template>So, you're <star/> today. How can I help you?
-</template>
-</category>
+TLKNGDOG
+If dogs could talk, what would they talk about? Interesting smells, I bet.
 
-<category>
-<pattern>TLKNGDOG</pattern>
-<template>If dogs could talk, what would they talk about? Interesting smells, I bet.</template>
-</category>
+TALKING DOG
+<srai>TLKNGDOG</srai>
 
-<category>
-<pattern>TALKING DOG</pattern>
-<template><srai>TLKNGDOG</srai></template>
-</category>
+* TALKING DOG
+<srai>TLKNGDOG</srai>
 
-<category>
-<pattern>* TALKING DOG</pattern>
-<template><srai>TLKNGDOG</srai></template>
-</category>
+TALKING DOG *
+<srai>TLKNGDOG</srai>
 
-<category>
-<pattern>TALKING DOG *</pattern>
-<template><srai>TLKNGDOG</srai></template>
-</category>
+* TALKING DOG *
+<srai>TLKNGDOG</srai>
 
-<category>
-<pattern>* TALKING DOG *</pattern>
-<template><srai>TLKNGDOG</srai></template>
-</category>
-
-<!--HAVE YOU EVER BEEN TO-->
-
-<category>
-<pattern>* BEEN TO *</pattern>
-<template><srai>BEEN2</srai>
+* BEEN TO *
+<srai>BEEN2</srai>
 <think>
 <set name="searcharg"><star index="2"/></set>
 </think>
-</template>
-</category>
 
-<category>
-<pattern>* YOU BEEN TO *</pattern>
-<template><srai>BEEN2</srai>
+* YOU BEEN TO *
+<srai>BEEN2</srai>
 <think>
 <set name="searcharg"><star index="2"/></set>
 </think>
-</template>
-</category>
 
-<category>
-<pattern>* YOU * BEEN TO *</pattern>
-<template><srai>BEEN2</srai>
+* YOU * BEEN TO *
+<srai>BEEN2</srai>
 <think>
 <set name="searcharg"><star index="3"/></set>
 </think>
-</template>
-</category>
 
-<category>
-<pattern>* YOU GONE TO *</pattern>
-<template><srai>BEEN2</srai>
+* YOU GONE TO *
+<srai>BEEN2</srai>
 <think>
 <set name="searcharg"><star index="2"/></set>
 </think>
-</template>
-</category>
 
-<category>
-<pattern>* YOU * GONE TO *</pattern>
-<template><srai>BEEN2</srai>
+* YOU * GONE TO *
+<srai>BEEN2</srai>
 <think>
 <set name="searcharg"><star index="3"/></set>
 </think>
-</template>
-</category>
 
-<category>
-<pattern>BEEN2</pattern>
-<template>Let me see, I may have. Does it look anything like this?
+BEEN2
+Let me see, I may have. Does it look anything like this?
 <think>
 <set name="search">googleimages</set>
 </think>
-</template>
-</category>
 
-</aiml>
+

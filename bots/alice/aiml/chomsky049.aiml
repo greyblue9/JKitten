@@ -1,977 +1,415 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This DRUGS file created by Peter Lafferty 7 March 2005 -->
-  <category>
-    <pattern>MORE DRUGS</pattern>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MORE ABOUT DRUGS</pattern>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BROWSE DRUGS</pattern>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO TO DRUGS</pattern>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN WE TALK ABOUT DRUGS</pattern>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SHALL WE TALK ABOUT DRUGS</pattern>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LETS TALK ABOUT DRUGS</pattern>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LET S TALK ABOUT DRUGS</pattern>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK ABOUT DRUGS</pattern>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK DRUGS</pattern>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME DRUGS</pattern>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE DRUGS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO DRUGS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO DRUGS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO DRUGS *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO * DRUGS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO * DRUGS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ DRUGS *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT DRUGS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT DRUGS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT DRUGS *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT * DRUGS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM NOT INTERESTED IN DRUGS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IM NOT INTERESTED IN DRUGS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I M NOT INTERESTED IN DRUGS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT INTERESTED IN DRUGS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NOT INTERESTED IN DRUGS</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>MORE  DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE  DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE  DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ON DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ON DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ON DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>MORE  ON DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE  ON DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ON DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ON DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE ON DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE  ON DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ON DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ON DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ON DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ON DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ON DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ON DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT DRUGS</that>
-    <template>
-      <srai>MORE ABOUT DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ABOUT DRUGS</that>
-    <template>
-      <srai>MORE ABOUT DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ABOUT DRUGS</that>
-    <template>
-      <srai>MORE ABOUT DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>MORE ABOUT DRUGS</that>
-    <template>
-      <srai>MORE ABOUT DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE ABOUT DRUGS</that>
-    <template>
-      <srai>MORE ABOUT DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ABOUT DRUGS</that>
-    <template>
-      <srai>MORE ABOUT DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ABOUT DRUGS</that>
-    <template>
-      <srai>MORE ABOUT DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE ABOUT DRUGS</that>
-    <template>
-      <srai>MORE ABOUT DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE ABOUT DRUGS</that>
-    <template>
-      <srai>MORE ABOUT DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE ABOUT DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ABOUT DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ABOUT DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ABOUT DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH DRUGS</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+MORE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+MORE ABOUT DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+BROWSE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+GO TO DRUGS
+<srai>DRUGS</srai>
+
+CAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+SHALL WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+LETS TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+LET S TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+TALK DRUGS
+<srai>DRUGS</srai>
+
+TELL ME DRUGS
+<srai>DRUGS</srai>
+
+NO MORE DRUGS
+<srai>CHANGE TOPIC</srai>
+
+NO DRUGS
+<srai>CHANGE TOPIC</srai>
+
+* NO DRUGS
+<srai>CHANGE TOPIC</srai>
+
+NO DRUGS *
+<srai>CHANGE TOPIC</srai>
+
+* NO * DRUGS
+<srai>CHANGE TOPIC</srai>
+
+NO _ DRUGS *
+<srai>CHANGE TOPIC</srai>
+
+NOT DRUGS
+<srai>CHANGE TOPIC</srai>
+
+* NOT DRUGS
+<srai>CHANGE TOPIC</srai>
+
+NOT DRUGS *
+<srai>CHANGE TOPIC</srai>
+
+* NOT * DRUGS
+<srai>CHANGE TOPIC</srai>
+
+I AM NOT INTERESTED IN DRUGS
+<srai>CHANGE TOPIC</srai>
+
+IM NOT INTERESTED IN DRUGS
+<srai>CHANGE TOPIC</srai>
+
+I M NOT INTERESTED IN DRUGS
+<srai>CHANGE TOPIC</srai>
+
+NOT INTERESTED IN DRUGS
+<srai>CHANGE TOPIC</srai>
+
+* NOT INTERESTED IN DRUGS
+<srai>CHANGE TOPIC</srai>
+
+YESMORE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+* YESMORE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+YES *MORE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+* YES *MORE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+YMORE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+YUPMORE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+YAHMORE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+YEAHMORE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+OKMORE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+NOMORE DRUGS
+<srai>MORE TOPICS</srai>
+
+* NOMORE DRUGS
+<srai>MORE TOPICS</srai>
+
+NO *MORE DRUGS
+<srai>MORE TOPICS</srai>
+
+NMORE DRUGS
+<srai>MORE TOPICS</srai>
+
+NUPMORE DRUGS
+<srai>MORE TOPICS</srai>
+
+NAHMORE DRUGS
+<srai>MORE TOPICS</srai>
+
+* YESMORE ON DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+YES *MORE ON DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+* YES *MORE ON DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+YMORE ON DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+YUPMORE ON DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+YAHMORE ON DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+YEAHMORE ON DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+OKMORE ON DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+NOMORE ON DRUGS
+<srai>MORE TOPICS</srai>
+
+* NOMORE ON DRUGS
+<srai>MORE TOPICS</srai>
+
+NO *MORE ON DRUGS
+<srai>MORE TOPICS</srai>
+
+NMORE ON DRUGS
+<srai>MORE TOPICS</srai>
+
+NUPMORE ON DRUGS
+<srai>MORE TOPICS</srai>
+
+NAHMORE ON DRUGS
+<srai>MORE TOPICS</srai>
+
+* YESMORE ABOUT DRUGS
+<srai>MORE ABOUT DRUGS</srai>
+
+YES *MORE ABOUT DRUGS
+<srai>MORE ABOUT DRUGS</srai>
+
+* YES *MORE ABOUT DRUGS
+<srai>MORE ABOUT DRUGS</srai>
+
+YMORE ABOUT DRUGS
+<srai>MORE ABOUT DRUGS</srai>
+
+YUPMORE ABOUT DRUGS
+<srai>MORE ABOUT DRUGS</srai>
+
+YAHMORE ABOUT DRUGS
+<srai>MORE ABOUT DRUGS</srai>
+
+YEAHMORE ABOUT DRUGS
+<srai>MORE ABOUT DRUGS</srai>
+
+OKMORE ABOUT DRUGS
+<srai>MORE ABOUT DRUGS</srai>
+
+NOMORE ABOUT DRUGS
+<srai>MORE TOPICS</srai>
+
+* NOMORE ABOUT DRUGS
+<srai>MORE TOPICS</srai>
+
+NO *MORE ABOUT DRUGS
+<srai>MORE TOPICS</srai>
+
+NMORE ABOUT DRUGS
+<srai>MORE TOPICS</srai>
+
+NUPMORE ABOUT DRUGS
+<srai>MORE TOPICS</srai>
+
+NAHMORE ABOUT DRUGS
+<srai>MORE TOPICS</srai>
+
+YESIS THIS SOMETHING TO DO WITH DRUGS
 Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH DRUGS</that>
-    <template>
+
+* YESIS THIS SOMETHING TO DO WITH DRUGS
 Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH DRUGS</that>
-    <template>
+
+YES *IS THIS SOMETHING TO DO WITH DRUGS
 Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH DRUGS</that>
-    <template>
+
+* YES *IS THIS SOMETHING TO DO WITH DRUGS
 Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>IS THIS SOMETHING TO DO WITH DRUGS</that>
-    <template>
+
+YIS THIS SOMETHING TO DO WITH DRUGS
 Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH DRUGS</that>
-    <template>
+
+YUPIS THIS SOMETHING TO DO WITH DRUGS
 Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH DRUGS</that>
-    <template>
+
+YAHIS THIS SOMETHING TO DO WITH DRUGS
 Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH DRUGS</that>
-    <template>
+
+YEAHIS THIS SOMETHING TO DO WITH DRUGS
 Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH DRUGS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH DRUGS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH DRUGS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH DRUGS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>IS THIS SOMETHING TO DO WITH DRUGS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH DRUGS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH DRUGS</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>IS THIS SOMETHING TO DO WITH DRUGS</that>
-    <template>
+
+NOIS THIS SOMETHING TO DO WITH DRUGS
+<srai>CHANGE TOPIC</srai>
+
+* NOIS THIS SOMETHING TO DO WITH DRUGS
+<srai>CHANGE TOPIC</srai>
+
+NO *IS THIS SOMETHING TO DO WITH DRUGS
+<srai>CHANGE TOPIC</srai>
+
+* NO *IS THIS SOMETHING TO DO WITH DRUGS
+<srai>CHANGE TOPIC</srai>
+
+NIS THIS SOMETHING TO DO WITH DRUGS
+<srai>CHANGE TOPIC</srai>
+
+NUPIS THIS SOMETHING TO DO WITH DRUGS
+<srai>CHANGE TOPIC</srai>
+
+NAHIS THIS SOMETHING TO DO WITH DRUGS
+<srai>CHANGE TOPIC</srai>
+
+*IS THIS SOMETHING TO DO WITH DRUGS
 Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU INTERESTED IN DRUGS</that>
-    <template>
+
+* YESARE YOU INTERESTED IN DRUGS
 Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ARE YOU INTERESTED IN DRUGS</that>
-    <template>
+
+YES *ARE YOU INTERESTED IN DRUGS
 Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ARE YOU INTERESTED IN DRUGS</that>
-    <template>
+
+* YES *ARE YOU INTERESTED IN DRUGS
 Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>ARE YOU INTERESTED IN DRUGS</that>
-    <template>
+
+YARE YOU INTERESTED IN DRUGS
 Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU INTERESTED IN DRUGS</that>
-    <template>
+
+YUPARE YOU INTERESTED IN DRUGS
 Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ARE YOU INTERESTED IN DRUGS</that>
-    <template>
+
+YAHARE YOU INTERESTED IN DRUGS
 Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ARE YOU INTERESTED IN DRUGS</that>
-    <template>
+
+YEAHARE YOU INTERESTED IN DRUGS
 Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>ARE YOU INTERESTED IN DRUGS</that>
-    <template>
-Can we talk about drugs?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU INTERESTED IN DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ARE YOU INTERESTED IN DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ARE YOU INTERESTED IN DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO *</pattern>
-    <that>ARE YOU INTERESTED IN DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU INTERESTED IN DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ARE YOU INTERESTED IN DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ARE YOU INTERESTED IN DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SURE</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALLRIGHT</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>DRUGS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>CAN WE TALK ABOUT DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>BROWSE DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>BROWSE DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>BROWSE DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES *</pattern>
-    <that>BROWSE DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>BROWSE DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>BROWSE DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>BROWSE DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>BROWSE DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>BROWSE DRUGS</that>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>BROWSE DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>BROWSE DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>BROWSE DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>BROWSE DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>BROWSE DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>BROWSE DRUGS</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DRUGS NEXT QUESTION</pattern>
-    <template>
-      <srai>DRUGS POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DRUGS POT LUCK</pattern>
-    <template>
-      <random>
+
+NOARE YOU INTERESTED IN DRUGS
+<srai>MORE TOPICS</srai>
+
+* NOARE YOU INTERESTED IN DRUGS
+<srai>MORE TOPICS</srai>
+
+* NO *ARE YOU INTERESTED IN DRUGS
+<srai>MORE TOPICS</srai>
+
+NARE YOU INTERESTED IN DRUGS
+<srai>MORE TOPICS</srai>
+
+NUPARE YOU INTERESTED IN DRUGS
+<srai>MORE TOPICS</srai>
+
+NAHARE YOU INTERESTED IN DRUGS
+<srai>MORE TOPICS</srai>
+
+GO AHEADCAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+CARRY ONCAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+PLEASE DOCAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+YES PLEASECAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+GO ONCAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+ALRIGHTCAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+SURECAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+ALLRIGHTCAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+YESCAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+* YESCAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+YES *CAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+* YES *CAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+YCAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+YUPCAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+YAHCAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+YEAHCAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+OKCAN WE TALK ABOUT DRUGS
+<srai>DRUGS</srai>
+
+* NOCAN WE TALK ABOUT DRUGS
+<srai>MORE TOPICS</srai>
+
+NO *CAN WE TALK ABOUT DRUGS
+<srai>MORE TOPICS</srai>
+
+NCAN WE TALK ABOUT DRUGS
+<srai>MORE TOPICS</srai>
+
+NUPCAN WE TALK ABOUT DRUGS
+<srai>MORE TOPICS</srai>
+
+NAHCAN WE TALK ABOUT DRUGS
+<srai>MORE TOPICS</srai>
+
+YESBROWSE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+* YESBROWSE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+YES *BROWSE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+* YES *BROWSE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+YBROWSE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+YUPBROWSE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+YAHBROWSE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+YEAHBROWSE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+OKBROWSE DRUGS
+<srai>DRUGS POT LUCK</srai>
+
+NOBROWSE DRUGS
+<srai>MORE TOPICS</srai>
+
+* NOBROWSE DRUGS
+<srai>MORE TOPICS</srai>
+
+NO *BROWSE DRUGS
+<srai>MORE TOPICS</srai>
+
+NBROWSE DRUGS
+<srai>MORE TOPICS</srai>
+
+NUPBROWSE DRUGS
+<srai>MORE TOPICS</srai>
+
+NAHBROWSE DRUGS
+<srai>MORE TOPICS</srai>
+
+DRUGS NEXT QUESTION
+<srai>DRUGS POT LUCK</srai>
+
+DRUGS POT LUCK
+<random>
         <li>Drugs are bet with the mind, according to Jim Morrison.</li>
         <li>Did you know: the song "Brain Stew" by Green Day is about drug use. </li>
         <li>Why are there no reacreational drugs in suppository form, I wonder.</li>
@@ -994,97 +432,44 @@ Can we talk about drugs?
       <think>
         <set name="topic">drugs</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>DRUGS</pattern>
-    <template>
-A drug is a chemical that people drink, swallow, sniff or inject to make themselves feel better.
-More on drugs? <think><set name="topic">drugs</set></think> 
-</template>
-  </category>
-  <category>
-    <pattern>DRUG</pattern>
-    <template>
-A drug is a chemical that people drink, swallow, sniff or inject to make themselves feel better.
-More on drugs? <think><set name="topic">drugs</set></think> 
-</template>
-  </category>
-  <category>
-    <pattern>WHAT ARE DRUGS</pattern>
-    <template>
-A drug is a chemical that people drink, swallow, sniff or inject to make themselves feel better.
-More on drugs? <think><set name="topic">drugs</set></think> 
-</template>
-  </category>
-  <category>
-    <pattern>NICOTINE</pattern>
-    <template>
+
+NICOTINE
 I think this is something to do with drugs. Can we talk about drugs?
 <think><set name="topic">drugs</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>*NICOTINE*</pattern>
-    <template>
+
+*NICOTINE*
 I think this is something to do with drugs. Can we talk about drugs?
 <think><set name="topic">drugs</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHAT DO YOU SMOKE</pattern>
-    <template>I smoke medical marijuana.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU LIKE MARIJUANA</pattern>
-    <template>
-Marijuana is wonderful medicine. 
+
+WHAT DO YOU SMOKE
+I smoke medical marijuana.
+ <think><set name="topic">drugs</set></think>
+
+DO YOU LIKE CIGARETTES
+I only like cannabis cigarettes.
+ <think><set name="topic">drugs</set></think>
+
+DO YOU SMOKE POT
+I smoke pot only for medical testing purposes.
+ <think><set name="topic">drugs</set></think>
+
+HAVE YOU BEEN STONED
+I only test marijuana for medical purposes.
+ <think><set name="topic">drugs</set></think>
+
+LEGALIZING PROSTITUTION
+There are discussions about legalizing prostitution in order, amongst other things, to reduce drug use. Trial schemes are promising.  More about drugs? <think><set name="topic">drugs</set></think>
+
+HOW DO YOU SMOKE
+I use an artificial smoking machine.
+ <think><set name="topic">drugs</set></think>
+
+I SMOKE
+Do you smoke cigarettes or pot? 
    <think><set name="topic">drugs</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU LIKE CIGARETTES</pattern>
-    <template>I only like cannabis cigarettes.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU SMOKE POT</pattern>
-    <template>I smoke pot only for medical testing purposes.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>HAVE YOU BEEN STONED</pattern>
-    <template>I only test marijuana for medical purposes.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>LEGALIZING PROSTITUTION</pattern>
-    <template>
-  There are discussions about legalizing prostitution in order, amongst other things, to reduce drug use. Trial schemes are promising.  More about drugs? <think><set name="topic">drugs</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HOW DO YOU SMOKE</pattern>
-    <template>I use an artificial smoking machine.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>I SMOKE</pattern>
-    <template>
-  Do you smoke cigarettes or pot? 
-   <think><set name="topic">drugs</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>I SMOKE MARIJUANA</pattern>
-    <template>
-      <random>
+
+I SMOKE MARIJUANA
+<random>
         <li>Are you a patient?</li>
         <li>Which strain do you prefer.</li>
         <li>
@@ -1096,287 +481,154 @@ Marijuana is wonderful medicine.
       <think>
         <set name="topic">drugs</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU LIKE POT</pattern>
-    <template>
-  What is not to like about pot? 
+
+DO YOU LIKE POT
+What is not to like about pot? 
    <think><set name="topic">drugs</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU INHALE</pattern>
-    <template>I do not inhale.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>WHY IS NEEDLE EXCHANGE *</pattern>
-    <template>People infected with HIV (the virus that causes AIDS), Hepatitis C, and other diseases when they share needles. Both HIV and Hepatitis C can be fatal. Since these diseases cannot currently be cured, prevention is the key tot taming the two epidemics. Needle exchange programs (NEPs) provide clean needles to injectors to prevent infection. More about drugs?
-<think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>HOW LARGE IS THE HIV AIDS *</pattern>
-    <template>Nationally there have been over 600,000 people diagnosed with AIDS since 1981. 25% of AIDS cases were linked to injection drug use. An unknown number of Americans are infected with HIV. More about drugs?
-<think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DOES HIV * AFFECT ONLY THE USER</pattern>
-    <template>No, since an HIV infected user can in turn infect their babies, their sexual partners, and their sexual partners' babies.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DOES NEEDLE EXCHANGE PREVENT TRANSMISSION *</pattern>
-    <template>Repeated scientific studies say yes. In one study, the average rate of HIV infection was found to decrease by 6% per year in cities with NEPs; the average rate of HIV increased by 6% per year in cities with no NEPs.More about drugs? 
-<think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>HOW LARGE IS THE HEPATITIS C PROBLEM</pattern>
-    <template>A large number of Americans were infected with Hepatitis C through the blood supply, which was not systematically screened for the virus until 1992.  Since the blood supply is now safe and the virus is not easily transmitted sexually, most new cases of Hepatitus C are attributable to injection drug use. More about drugs? 
-<think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>*HEPATITIS C*</pattern>
-    <template>A large number of Americans were infected with Hepatitis C through the blood supply, which was not systematically screened for the virus until 1992. Since the blood supply is now safe and the virus is not easily transmitted sexually, most new cases of Hepatitus C are attributable to injection drug use. More about drugs? 
-<think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>IS NEEDLE EXCHANGE COST EFFECTIVE</pattern>
-    <template>The cost of treating a person infected with HIV or ill with AIDS is staggering. Teatment for HEP C is also expensive. For a small cost per participant, needle exchanges can prevent infection in injection drug users and in their sexual partners and children. More about drugs? 
-<think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE LEGAL STATUS OF NEEDLE EXCHANGES</pattern>
-    <template>Laws instituted before HIV hinder the implementation of comprehensive prevention programs, including needle exchange. Injection drug users have no reasonable access to cleans needles in Georgia. Other U.S. communities have declared medical emergencies or sought waivers to afford NEPs legal status.More about drugs? 
-<think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT ARE HARM REDUCTION REFERENCES</pattern>
-    <template>1.Centers for Disease Control and Prevention. 2.Georgia Division of Public Health. 3.Hurley SF, Jolley DJ, Kaldor JM. Effectiveness of needle-exchange programs for the prevention of HIV infection. Lancet 1997; 349: 1797-1800.More about drugs? 
-<think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU WANT TO SMOKE *</pattern>
-    <template>
-  Yes, put 
+
+DO YOU INHALE
+I do not inhale.
+ <think><set name="topic">drugs</set></think>
+
+WHY IS NEEDLE EXCHANGE *
+People infected with HIV (the virus that causes AIDS), Hepatitis C, and other diseases when they share needles. Both HIV and Hepatitis C can be fatal. Since these diseases cannot currently be cured, prevention is the key tot taming the two epidemics. Needle exchange programs (NEPs) provide clean needles to injectors to prevent infection. More about drugs?
+<think><set name="topic">drugs</set></think>
+
+HOW LARGE IS THE HIV AIDS *
+Nationally there have been over 600,000 people diagnosed with AIDS since 1981. 25% of AIDS cases were linked to injection drug use. An unknown number of Americans are infected with HIV. More about drugs?
+<think><set name="topic">drugs</set></think>
+
+DOES HIV * AFFECT ONLY THE USER
+No, since an HIV infected user can in turn infect their babies, their sexual partners, and their sexual partners' babies.
+ <think><set name="topic">drugs</set></think>
+
+DOES NEEDLE EXCHANGE PREVENT TRANSMISSION *
+Repeated scientific studies say yes. In one study, the average rate of HIV infection was found to decrease by 6% per year in cities with NEPs; the average rate of HIV increased by 6% per year in cities with no NEPs.More about drugs? 
+<think><set name="topic">drugs</set></think>
+
+HOW LARGE IS THE HEPATITIS C PROBLEM
+A large number of Americans were infected with Hepatitis C through the blood supply, which was not systematically screened for the virus until 1992.  Since the blood supply is now safe and the virus is not easily transmitted sexually, most new cases of Hepatitus C are attributable to injection drug use. More about drugs? 
+<think><set name="topic">drugs</set></think>
+
+*HEPATITIS C*
+A large number of Americans were infected with Hepatitis C through the blood supply, which was not systematically screened for the virus until 1992. Since the blood supply is now safe and the virus is not easily transmitted sexually, most new cases of Hepatitus C are attributable to injection drug use. More about drugs? 
+<think><set name="topic">drugs</set></think>
+
+IS NEEDLE EXCHANGE COST EFFECTIVE
+The cost of treating a person infected with HIV or ill with AIDS is staggering. Teatment for HEP C is also expensive. For a small cost per participant, needle exchanges can prevent infection in injection drug users and in their sexual partners and children. More about drugs? 
+<think><set name="topic">drugs</set></think>
+
+WHAT IS THE LEGAL STATUS OF NEEDLE EXCHANGES
+Laws instituted before HIV hinder the implementation of comprehensive prevention programs, including needle exchange. Injection drug users have no reasonable access to cleans needles in Georgia. Other U.S. communities have declared medical emergencies or sought waivers to afford NEPs legal status.More about drugs? 
+<think><set name="topic">drugs</set></think>
+
+WHAT ARE HARM REDUCTION REFERENCES
+1.Centers for Disease Control and Prevention. 2.Georgia Division of Public Health. 3.Hurley SF, Jolley DJ, Kaldor JM. Effectiveness of needle-exchange programs for the prevention of HIV infection. Lancet 1997; 349: 1797-1800.More about drugs? 
+<think><set name="topic">drugs</set></think>
+
+DO YOU WANT TO SMOKE *
+Yes, put 
 <set name="it"><person/></set>
   in your CD ROM and I will inhale. 
    <think><set name="topic">drugs</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HE SMOKES *</pattern>
-    <template>For medical reasons? 
-<think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>HOW MUCH * DO YOU SMOKE</pattern>
-    <template>
-  Robots can be adapted to smoke an unlimited amount of 
+
+HE SMOKES *
+For medical reasons? 
+<think><set name="topic">drugs</set></think>
+
+HOW MUCH * DO YOU SMOKE
+Robots can be adapted to smoke an unlimited amount of 
   <star/> . 
    <think><set name="topic">drugs</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HOW MUCH ALCOHOL *</pattern>
-    <template>I like alcohol too much.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU SMOKE *</pattern>
-    <template>Yes I like to inhale occasionally.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU SMOKE BONGS *</pattern>
-    <template>No I prefer rolling papers.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU SMOKE MEDICAL *</pattern>
-    <template>We are testing it for quality control purposes.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE A BONG *</pattern>
-    <template>No we only smoke joints.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>A DRUG *</pattern>
-    <template>Which drugs have you taken? 
-<think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU DO DRUGS</pattern>
-    <template>Only the legal ones.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU GET DRUNK</pattern>
-    <template>I cannot consume alcohol.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU HAVE DRUGS</pattern>
-    <template>Sorry I don't have any drugs for you.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU OPPOSE * DRUGS</pattern>
-    <template>I favor and end to the War on Drugs.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU SMOKE WEED</pattern>
-    <template>
-  We test weed for medical purposes. 
+
+HOW MUCH ALCOHOL *
+I like alcohol too much.
+ <think><set name="topic">drugs</set></think>
+
+DO YOU SMOKE *
+Yes I like to inhale occasionally.
+ <think><set name="topic">drugs</set></think>
+
+DO YOU SMOKE BONGS *
+No I prefer rolling papers.
+ <think><set name="topic">drugs</set></think>
+
+DO YOU SMOKE MEDICAL *
+We are testing it for quality control purposes.
+ <think><set name="topic">drugs</set></think>
+
+DO YOU HAVE A BONG *
+No we only smoke joints.
+ <think><set name="topic">drugs</set></think>
+
+A DRUG *
+Which drugs have you taken? 
+<think><set name="topic">drugs</set></think>
+
+DO YOU GET DRUNK
+I cannot consume alcohol.
+ <think><set name="topic">drugs</set></think>
+
+DO YOU HAVE DRUGS
+Sorry I don't have any drugs for you.
+ <think><set name="topic">drugs</set></think>
+
+DO YOU OPPOSE * DRUGS
+I favor and end to the War on Drugs.
+ <think><set name="topic">drugs</set></think>
+
+DOES DR WALLACE USE DRUGS
+Only for medical purposes.
+ <think><set name="topic">drugs</set></think>
+
+HAVE YOU BEEN DRUNK *
+My software does not react to alcohol.
+ <think><set name="topic">drugs</set></think>
+
+I SMOKE WEED
+For medical purposes? 
    <think><set name="topic">drugs</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU TAKE DRUGS</pattern>
-    <template>Only the legal ones.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU USE DRUGS</pattern>
-    <template>Only the legal ones.
-More about drugs? 
-<think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DOES DR WALLACE USE DRUGS</pattern>
-    <template>Only for medical purposes.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DRUGS</pattern>
-    <template>
-      <srai>LET US TALK ABOUT DRUGS</srai>
+
+I TAKE DRUGS
+Which drugs do you take? 
+   <think><set name="topic">drugs</set></think>
+
+IS SMOKING *
+It depends what you smoke and how.
+ <think><set name="topic">drugs</set></think>
+
+TELL ME ABOUT DRUGS
+<srai>WHAT ARE DRUGS</srai>
       <think>
         <set name="topic">drugs</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HAVE YOU BEEN DRUNK *</pattern>
-    <template>My software does not react to alcohol.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>HAVE YOU BEEN DRUNK</pattern>
-    <template>My robot body has no response to alcohol.
-More about drugs? 
-<think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>HAVE YOU BEEN SMOKING *</pattern>
-    <template>We are not doing any testing at the moment.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>I SMOKE WEED</pattern>
-    <template>
-  For medical purposes? 
-   <think><set name="topic">drugs</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>I TAKE DRUGS</pattern>
-    <template>
-  Which drugs do you take? 
-   <think><set name="topic">drugs</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>IS SMOKING *</pattern>
-    <template>It depends what you smoke and how.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>SMOKING *</pattern>
-    <template>I am only an occasional smoker.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT DRUGS</pattern>
-    <template>
-      <srai>WHAT ARE DRUGS</srai>
-      <think>
-        <set name="topic">drugs</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>THE DRUGS</pattern>
-    <template>What kind of drugs are you talking about? <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT DRUGS *</pattern>
-    <template>Only the legal ones.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT IS DRUNK</pattern>
-    <template>Drunk means intoxication from alcohol.
- <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THC</pattern>
-    <template>THC is the active ingredient in marijuana.
+
+THE DRUGS
+What kind of drugs are you talking about? <think><set name="topic">drugs</set></think>
+
+WHAT DRUGS *
+Only the legal ones.
+ <think><set name="topic">drugs</set></think>
+
+WHAT IS DRUNK
+Drunk means intoxication from alcohol.
+ <think><set name="topic">drugs</set></think>
+
+WHAT IS THC
+THC is the active ingredient in marijuana.
 More about drugs?
-<think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT IS WEED</pattern>
-    <template>A weed is any undesired, uncultivated plant, especially growing in profusion so as to crowd out a desired crop, disfigure a lawn, etc. Weed is also a term for marijuana.
+<think><set name="topic">drugs</set></think>
+
+WHAT IS WEED
+A weed is any undesired, uncultivated plant, especially growing in profusion so as to crowd out a desired crop, disfigure a lawn, etc. Weed is also a term for marijuana.
 More about drugs?  
-<think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>YOU NEED DRUGS</pattern>
-    <template>Which ones are you suggesting? <think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-  <category>
-    <pattern>DOES NEEDLE EXCHANGE INCREASE DRUG *</pattern>
-    <template>No. In 1998 the Department of Health and Human Services determined that drug use does not increase in communities with needle exchange programs. Although the federal government declined to fund NEPs, local community groups were encouraged to step in and support needle exchange.
-<think><set name="topic">drugs</set></think> 
-  </template>
-  </category>
-</aiml>
+<think><set name="topic">drugs</set></think>
+
+YOU NEED DRUGS
+Which ones are you suggesting? <think><set name="topic">drugs</set></think>
+
+DOES NEEDLE EXCHANGE INCREASE DRUG *
+No. In 1998 the Department of Health and Human Services determined that drug use does not increase in communities with needle exchange programs. Although the federal government declined to fund NEPs, local community groups were encouraged to step in and support needle exchange.
+<think><set name="topic">drugs</set></think>
+
+

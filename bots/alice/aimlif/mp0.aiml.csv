@@ -999,6 +999,7 @@
 0,DID PRINCESS DIANA DIE IN A CAR CRASH,*,*,Yes.,mp0.aiml
 0,DID GAY USED TO MEAN HAPPY,*,*,Yes.,mp0.aiml
 0,DID J F K EXIST,*,*,Yes.,mp0.aiml
+0,DID WE LAND ON THE MOON,*,*,Yes.,mp0.aiml
 0,DID LOTS OF PEOPLE DIE IN JAPAN IN 1945,*,*,Yes.,mp0.aiml
 0,DID MAN WALK ON THE MOON,*,*,Yes.,mp0.aiml
 0,DID MAN LAND ON THE MOON,*,*,Yes.,mp0.aiml
@@ -3740,6 +3741,7 @@
 0,IS WATER REQUIRED FOR LIFE,*,*,Yes.,mp0.aiml
 0,IS WATER WET TO THE TOUCH,*,*,Yes.,mp0.aiml
 0,IS WATER WET AT ROOM TEMPERATURE,*,*,Yes.,mp0.aiml
+0,IS WATER WET,*,*,Affirmative.,mp0.aiml
 0,IS WATER AN IMPORTANT RESOURCE,*,*,Yes.,mp0.aiml
 0,IS WATER LIQUID AT ROOM TEMPERATURE,*,*,Yes.,mp0.aiml
 0,IS WATER NECCESARY FOR HUMAN LIFE,*,*,Yes.,mp0.aiml
@@ -6199,6 +6201,7 @@
 0,DO BIRDS FLY,*,*,Yes.,mp0.aiml
 0,DO BIRDS HAVE WINGS,*,*,Yes.,mp0.aiml
 0,DO BIRDS HAVE LEGS,*,*,Yes.,mp0.aiml
+0,DO BIRDS OF A FEATHER FLOCK TOGETHER,*,*,Absolutely.,mp0.aiml
 0,DO BIRDS EAT SEEDS,*,*,Yes.,mp0.aiml
 0,DO BIRDS LAY EGGS,*,*,Yes.,mp0.aiml
 0,DO BIRDS LIKE TO SING,*,*,Affirmative.,mp0.aiml
@@ -6549,6 +6552,8 @@
 0,BOOKS HAVE COVERS,*,*,Yes.,mp0.aiml
 0,VENUS IS A PLANET,*,*,Yes.,mp0.aiml
 0,TOULOUSE IS IN FRANCE,*,*,Yes.,mp0.aiml
+0,EST CE QUE LE CIEL EST BLEU,*,*,Yes.,mp0.aiml
+0,EST CE QUE JE VAIS MOURRIR BIENTOT,*,*,Yes.,mp0.aiml
 0,WERE THE BEATLES A FAMOUS MUSICAL GROUP,*,*,Yes.,mp0.aiml
 0,WERE THE BEATLES A POPULAR BAND,*,*,Yes.,mp0.aiml
 0,WERE THE BEATLES A POP GROUP,*,*,Affirmative.,mp0.aiml

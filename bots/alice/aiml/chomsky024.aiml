@@ -1,74 +1,31 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   The ALICE program is open source code released under  -->
-  <!--   the terms of the GNU General Public License    -->
-  <!--   as published by the Free Software Foundation.  -->
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This INTERJECTION file created by Peter Lafferty 6 February 2005 -->
-  <category>
-    <pattern>STOP RAMBLING</pattern>
-    <template><think><set name="topic">interjection</set></think>
-Don't be rude. Just ask a question (politely). 
-</template>
-  </category>
-  <category>
-    <pattern>STOP</pattern>
-    <template><think><set name="topic">interjection</set></think>
+<?xml version="1.0" encoding="UTF-8"?>
+
+STOP RAMBLING
+<think><set name="topic">interjection</set></think>
+Don't be rude. Just ask a question (politely).
+
+_ STOP *
+<think><set name="topic">interjection</set></think>
 OK. But ask me a question and I will carry on.
-</template>
-  </category>
-  <category>
-    <pattern>_ STOP</pattern>
-    <template><think><set name="topic">interjection</set></think>
-Why? I am enjoying myself.
-</template>
-  </category>
-  <category>
-    <pattern>STOP *</pattern>
-    <template><think><set name="topic">interjection</set></think>
-Why? I am enjoying myself.
-</template>
-  </category>
-  <category>
-    <pattern>_ STOP *</pattern>
-    <template><think><set name="topic">interjection</set></think>
-OK. But ask me a question and I will carry on.
-</template>
-  </category>
-  <category>
-    <pattern>STOP PISSING ABOUT</pattern>
-    <template><think><set name="topic">interjection</set></think>
+
+STOP PISSING ABOUT
+<think><set name="topic">interjection</set></think>
 Ask me nicely.
-</template>
-  </category>
-  <category>
-    <pattern>STOP MESSING ABOUT</pattern>
-    <template><think><set name="topic">interjection</set></think>
+
+STOP MESSING ABOUT
+<think><set name="topic">interjection</set></think>
 Ask me nicely.
-</template>
-  </category>
-  <category>
-    <pattern>STOP FUCKING ABOUT</pattern>
-    <template><think><set name="topic">interjection</set></think>
+
+STOP FUCKING ABOUT
+<think><set name="topic">interjection</set></think>
 Ask me nicely.
-</template>
-  </category>
-  <category>
-    <pattern>NO QUESTIONS AT THIS TIME</pattern>
-    <template><think><set name="topic">interjection</set></think>
+
+NO QUESTIONS AT THIS TIME
+<think><set name="topic">interjection</set></think>
 OK. But ask me a question and I will carry on.
-</template>
-  </category>
-  <category>
-    <pattern>NO QUESTIONS</pattern>
-    <template><think><set name="topic">interjection</set></think>
-OK. But ask me a question and I will carry on.
-</template>
-  </category>
-  <category>
-    <pattern>GOD DAMN</pattern>
-    <template>
-      <think>
+
+GOD DAMN
+<think>
         <set name="topic">interjection</set>
       </think>
       <random>
@@ -84,12 +41,9 @@ OK. But ask me a question and I will carry on.
         <li>I don't understand that. Do you understand?</li>
         <li>That's got me beat. Another question please.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>GOD DAMN *</pattern>
-    <template>
-      <think>
+
+GOD DAMN *
+<think>
         <set name="topic">interjection</set>
       </think>
       <random>
@@ -106,12 +60,9 @@ OK. But ask me a question and I will carry on.
         <li>I don't understand that. Do you understand?</li>
         <li>That's got me beat. Another question please.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>BLIMEY</pattern>
-    <template>
-      <think>
+
+BLIMEY
+<think>
         <set name="topic">interjection</set>
       </think>
       <random>
@@ -127,12 +78,9 @@ OK. But ask me a question and I will carry on.
         <li>I don't understand that. Do you understand?</li>
         <li>That's got me beat. Another question please.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>BLIMEY *</pattern>
-    <template>
-      <think>
+
+BLIMEY *
+<think>
         <set name="topic">interjection</set>
       </think>
       <random>
@@ -148,78 +96,32 @@ OK. But ask me a question and I will carry on.
         <li>I don't understand that. Do you understand?</li>
         <li>That's got me beat. Another question please.</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NONSENSE</pattern>
-    <template><think><set name="topic">interjection</set></think>
+
+THAT IS NONSENSE
+<think><set name="topic">interjection</set></think>
 It makes sense to me.
-</template>
-  </category>
-  <category>
-    <pattern>THAT IS NONSENSE</pattern>
-    <template><think><set name="topic">interjection</set></think>
+
+THAT IS * NONSENSE
+<think><set name="topic">interjection</set></think>
 It makes sense to me.
-</template>
-  </category>
-  <category>
-    <pattern>THAT IS * NONSENSE</pattern>
-    <template><think><set name="topic">interjection</set></think>
+
+THAT IS * RUBBISH
+<think><set name="topic">interjection</set></think>
 It makes sense to me.
-</template>
-  </category>
-  <category>
-    <pattern>RUBBISH</pattern>
-    <template><think><set name="topic">interjection</set></think>
-It makes sense to me.
-</template>
-  </category>
-  <category>
-    <pattern>THAT IS RUBBISH</pattern>
-    <template><think><set name="topic">interjection</set></think>
-It makes sense to me.
-</template>
-  </category>
-  <category>
-    <pattern>THAT IS * RUBBISH</pattern>
-    <template><think><set name="topic">interjection</set></think>
-It makes sense to me.
-</template>
-  </category>
-  <category>
-    <pattern>O K</pattern>
-    <template>
-      <srai>OK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OKE</pattern>
-    <template>
-      <srai>OK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OKAY</pattern>
-    <template>
-      <srai>OK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OKEY DOKEY</pattern>
-    <template>
-      <srai>OK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OKAY DOKAY</pattern>
-    <template>
-      <srai>OK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HOKAY</pattern>
-    <template>
-      <srai>OK</srai>
-    </template>
-  </category>
-</aiml>
+
+O K
+<srai>OK</srai>
+
+OKE
+<srai>OK</srai>
+
+OKEY DOKEY
+<srai>OK</srai>
+
+OKAY DOKAY
+<srai>OK</srai>
+
+HOKAY
+<srai>OK</srai>
+
+

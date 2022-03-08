@@ -1028,6 +1028,7 @@
 0,DO YOU KNOW ANY MEMBERS OF *,*,*,I don't think I know any.<think><set name="emotion">happy</set></think>,update012.aiml
 0,ACTIVATE THE LASER,*,*,<think><set name="topic">general</set></think> Sorry#Comma the laser's offline at the moment.,update012.aiml
 0,THE ALIEN,*,*,The Alien is a good film.#Newline<think><set name="it"><set name="topic">#Newline      The Alien#Newline    </set></set></think>,update012.aiml
+0,ALIEN,*,*,<think><set name="topic">aliens</set></think> I wonder if there are aliens in other galaxies?,update012.aiml
 0,ACTIVATE THE MASER,*,*,<think><set name="topic">general</set></think> Sorry#Comma the maser's offline at the moment.,update012.aiml
 0,ACTIVATE,*,*,Activate what?,update012.aiml
 0,_ WAS AN IDIOT,*,*,Nobody's perfect.#Newline<think><set name="topic"><person/></set></think>,update012.aiml

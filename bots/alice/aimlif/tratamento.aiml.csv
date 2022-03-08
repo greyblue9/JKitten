@@ -1,4 +1,4 @@
-0,USTED,*,*,N?o consigo achar esta informa??o o que ? *.,tratamento.aiml
+0,USTED,*,*,Não consigo achar esta informação o que é *.,tratamento.aiml
 0,USTED *,*,*,<srai>USTED</srai>,tratamento.aiml
 0,* USTED,*,*,<srai>USTED</srai>,tratamento.aiml
 0,* USTED *,*,*,<srai>USTED</srai>,tratamento.aiml

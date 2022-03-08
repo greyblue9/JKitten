@@ -1,759 +1,459 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="1.0">
 
-<!--Copyright 2011 David W. Newyear-->
+WHERE * CHILDRENS BOOKS
+<srai>LOCKIDSITMS</srai>
 
- <!-- Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
+WHERE * CHILDRENS BOOKS *
+<srai>LOCKIDSITMS</srai>
 
-      http://www.apache.org/licenses/LICENSE-2.0
+LOCATION CHILDRENS BOOKS
+<srai>LOCKIDSITMS</srai>
 
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.-->
+* LOCATION CHILDRENS BOOKS
+<srai>LOCKIDSITMS</srai>
 
-<!--CHILDREN"S STUFF-->
+* LOCATION * CHILDRENS BOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>WHERE * CHILDRENS BOOKS </pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+WHERE * PICTURE BOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>WHERE * CHILDRENS BOOKS *</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+WHERE * PICTURE BOOKS *
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>LOCATION CHILDRENS BOOKS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+LOCATION PICTURE BOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* LOCATION CHILDRENS BOOKS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+* LOCATION PICTURE BOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* LOCATION * CHILDRENS BOOKS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+* LOCATION * PICTURE BOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>WHERE * PICTURE BOOKS </pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+WHERE * PICTUREBOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>WHERE * PICTURE BOOKS *</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+WHERE * PICTUREBOOKS *
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>LOCATION PICTURE BOOKS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+LOCATION PICTUREBOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* LOCATION PICTURE BOOKS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+* LOCATION PICTUREBOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* LOCATION * PICTURE BOOKS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+* LOCATION * PICTUREBOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>WHERE * PICTUREBOOKS </pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+WHERE * KIDS BOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>WHERE * PICTUREBOOKS *</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+WHERE * KIDS BOOKS *
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>LOCATION PICTUREBOOKS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+LOCATION KIDS BOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* LOCATION PICTUREBOOKS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+* LOCATION KIDS BOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* LOCATION * PICTUREBOOKS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+* LOCATION * KIDS BOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>WHERE * KIDS BOOKS </pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+WHERE * KID S BOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>WHERE * KIDS BOOKS *</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+WHERE * KID S BOOKS *
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>LOCATION KIDS BOOKS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+LOCATION KID S BOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* LOCATION KIDS BOOKS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+* LOCATION KID S BOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* LOCATION * KIDS BOOKS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+* LOCATION * KID S BOOKS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>WHERE * KID S BOOKS </pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+WHERE * CHILDRENS DVDS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>WHERE * KID S BOOKS *</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+WHERE * CHILDRENS DVDS *
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>LOCATION KID S BOOKS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+LOCATION CHILDRENS DVDS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* LOCATION KID S BOOKS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+* LOCATION CHILDRENS DVDS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* LOCATION * KID S BOOKS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+* LOCATION * CHILDRENS DVDS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>WHERE * CHILDRENS DVDS </pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+WHERE * FAMILY DVDS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>WHERE * CHILDRENS DVDS *</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
-
-<category>
-<pattern>LOCATION CHILDRENS DVDS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
-
-<category>
-<pattern>* LOCATION CHILDRENS DVDS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
-
-<category>
-<pattern>* LOCATION * CHILDRENS DVDS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
-
-<category>
-<pattern>WHERE * FAMILY DVDS </pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
-
-<category>
-<pattern>WHERE * FAMILY DVDS *</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
-
-<category>
-<pattern>LOCATION FAMILY DVDS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
-
-<category>
-<pattern>* LOCATION FAMILY DVDS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
-
-<category>
-<pattern>* LOCATION * FAMILY DVDS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
-
-
-<category>
-<pattern>WHERE * KIDS DVDS </pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
-
-<category>
-<pattern>WHERE * KIDS DVDS *</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+WHERE * FAMILY DVDS *
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>LOCATION KIDS DVDS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+LOCATION FAMILY DVDS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* LOCATION KIDS DVDS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+* LOCATION FAMILY DVDS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* LOCATION * KIDS DVDS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+* LOCATION * FAMILY DVDS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>WHERE * KID S DVDS </pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+WHERE * KIDS DVDS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>WHERE * KID S DVDS *</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+WHERE * KIDS DVDS *
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>LOCATION KID S DVDS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+LOCATION KIDS DVDS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* LOCATION KID S DVDS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+* LOCATION KIDS DVDS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* LOCATION * KID S DVDS</pattern>
-<template><srai>LOCKIDSITMS</srai></template></category>
+* LOCATION * KIDS DVDS
+<srai>LOCKIDSITMS</srai>
 
-<!--WHERE IS X LOCATED-->
+WHERE * KID S DVDS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* FICTION BOOK</pattern>
-<template><srai>MAFICLOC</srai></template>
-</category>
+WHERE * KID S DVDS *
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* FICTION BOOKS</pattern>
-<template><srai>MAFICLOC</srai></template>
-</category>
+LOCATION KID S DVDS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* FICTION LOCATED</pattern>
-<template><srai>MAFICLOC</srai></template>
-</category>
+* LOCATION KID S DVDS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* FICTION LOCATION</pattern>
-<template><srai>MAFICLOC</srai></template>
-</category>
+* LOCATION * KID S DVDS
+<srai>LOCKIDSITMS</srai>
 
-<category>
-<pattern>* FICTION SECTION</pattern>
-<template><srai>MAFICLOC</srai></template>
-</category>
+* FICTION BOOK
+<srai>MAFICLOC</srai>
 
-<category>
-<pattern>* NONFICTION BOOK</pattern>
-<template><srai>MANONFICLOC</srai></template>
-</category>
+* FICTION BOOKS
+<srai>MAFICLOC</srai>
 
-<category>
-<pattern>* NONFICTION BOOKS</pattern>
-<template><srai>MANONFICLOC</srai></template>
-</category>
+* FICTION LOCATED
+<srai>MAFICLOC</srai>
 
-<category>
-<pattern>* NONFICTION LOCATED</pattern>
-<template><srai>MANONFICLOC</srai></template>
-</category>
+* FICTION LOCATION
+<srai>MAFICLOC</srai>
 
-<category>
-<pattern>* NONFICTION LOCATION</pattern>
-<template><srai>MANONFICLOC</srai></template>
-</category>
+* FICTION SECTION
+<srai>MAFICLOC</srai>
 
-<category>
-<pattern>* NONFICTION SECTION</pattern>
-<template><srai>MANONFICLOC</srai></template>
-</category>
+* NONFICTION BOOK
+<srai>MANONFICLOC</srai>
 
-<!--SF LOCATION-->
+* NONFICTION BOOKS
+<srai>MANONFICLOC</srai>
 
-<category>
-<pattern>* MAIN SCIENCE FICTION</pattern>
-<template><srai>MASCIFILOC</srai></template>
-</category>
+* NONFICTION LOCATED
+<srai>MANONFICLOC</srai>
 
-<category>
-<pattern>* SCIENCE FICTION BOOKS</pattern>
-<template><srai>MASCIFILOC</srai></template>
-</category>
+* NONFICTION LOCATION
+<srai>MANONFICLOC</srai>
 
+* NONFICTION SECTION
+<srai>MANONFICLOC</srai>
 
+* MAIN SCIENCE FICTION
+<srai>MASCIFILOC</srai>
 
-<category>
-<pattern>* SCIENCE FICTION LOCATED</pattern>
-<template><srai>MASCIFILOC</srai></template>
-</category>
-
-
-<category>
-<pattern>* SCIENCE FICTION LOCATION</pattern>
-<template><srai>MASCIFILOC</srai></template>
-</category>
-
-<category>
-<pattern>* SCIENCE FICTION SECTION</pattern>
-<template><srai>MASCIFILOC</srai></template>
-</category>
-
-
-<category>
-<pattern>* MAIN BIOGRAPHY</pattern>
-<template><srai>MABIOGLOC</srai></template>
-</category>
-
-<category>
-<pattern>* BIOGRAPHY LOCATED</pattern>
-<template><srai>MABIOGLOC</srai></template>
-</category>
+* SCIENCE FICTION BOOKS
+<srai>MASCIFILOC</srai>
 
+* SCIENCE FICTION LOCATED
+<srai>MASCIFILOC</srai>
 
-<category>
-<pattern>* BIOGRAPHY SECTION</pattern>
-<template><srai>MABIOGLOC</srai></template>
-</category>
-
-<category>
-<pattern>* MAIN BIOGRAPHIES</pattern>
-<template><srai>MABIOGLOC</srai></template>
-</category>
-
-<category>
-<pattern>* BIOGRAPHIES LOCATED</pattern>
-<template><srai>MABIOGLOC</srai></template>
-</category>
-
-<category>
-<pattern>* MYSTERIES</pattern>
-<template><srai>MMYSTLOC</srai></template>
-</category>
-
-
-<category>
-<pattern>* MYSTERY *</pattern>
-<template><srai>MMYSTLOC</srai></template>
-</category>
-
-
-
-<category>
-<pattern>* BIOGRAPHIES LOCATION</pattern>
-<template><srai>MABIOGLOC</srai></template>
-</category>
-
-<category>
-<pattern>LOCATION * FICTION</pattern>
-<template><srai>MFICLOC</srai></template>
-</category>
-
-<category>
-<pattern>LOCATION * NONFICTION</pattern>
-<template><srai>MNONFICLOC</srai></template>
-</category>
-
-<category>
-<pattern>LOCATION * BIOGRAPHIES</pattern>
-<template><srai>MABIOGLOC</srai></template>
-</category>
-
-<category>
-<pattern>LOCATION * FICTION *</pattern>
-<template><srai>MFICLOC</srai></template>
-</category>
-
-<category>
-<pattern>LOCATION * NONFICTION *</pattern>
-<template><srai>MNONFICLOC</srai></template>
-</category>
-
-<category>
-<pattern>LOCATION * BIOGRAPHIES *</pattern>
-<template><srai>MABIOGLOC</srai></template>
-</category>
-
-<category>
-<pattern>* LOCATION * FICTION</pattern>
-<template><srai>MFICLOC</srai></template>
-</category>
-
-<category>
-<pattern>* LOCATION * NONFICTION</pattern>
-<template><srai>MNONFICLOC</srai></template>
-</category>
-
-<category>
-<pattern>* LOCATION * BIOGRAPHIES</pattern>
-<template><srai>MABIOGLOC</srai></template>
-</category>
-
-<category>
-<pattern>* LOCATION * FICTION *</pattern>
-<template><srai>MFICLOC</srai></template>
-</category>
-
-<category>
-<pattern>* LOCATION * NONFICTION *</pattern>
-<template><srai>MNONFICLOC</srai></template>
-</category>
-
-<category>
-<pattern>* LOCATION * BIOGRAPHIES *</pattern>
-<template><srai>MABIOGLOC</srai></template>
-</category>
-
-
-<!--WHERE X LOC PATTERNS-->
-
-<category>
-<pattern>WHERE * AUTOBIOGRAPHY</pattern>
-<template><srai>MABIOGLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * AUTOBIOGRAPHY *</pattern>
-<template><srai>MABIOGLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * AUTOBIOGRAPHIES</pattern>
-<template><srai>MABIOGLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * AUTOBIOGRAPHIES *</pattern>
-<template><srai>MABIOGLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * BIOGRAPHY</pattern>
-<template><srai>MBIOGLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * BIOGRAPHY *</pattern>
-<template><srai>MBIOGLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * BIOGRAPHIES</pattern>
-<template><srai>MBIOGLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * BIOGRAPHIES *</pattern>
-<template><srai>MBIOGLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * FANTASY</pattern>
-<template><srai>MFANLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * FANTASY *</pattern>
-<template><srai>MFANLOC</srai></template>
-</category>
-
-
-<category>
-<pattern>WHERE * FICTION</pattern>
-<template><srai>MFICLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * FICTION *</pattern>
-<template><srai>MFICLOC</srai></template>
-</category>
-
-<category>
-<pattern>LARGE PRINT</pattern>
-<template><srai>MLTLOC</srai></template>
-</category>
-
-<category>
-<pattern>LARGE PRINT *</pattern>
-<template><srai>MLTLOC</srai></template>
-</category>
-
-<category>
-<pattern>* LARGE PRINT</pattern>
-<template><srai>MLTLOC</srai></template>
-</category>
-
-<category>
-<pattern>* LARGE PRINT *</pattern>
-<template><srai>MLTLOC</srai></template>
-</category>
-
-<category>
-<pattern>* LARGE TYPE</pattern>
-<template><srai>MLTLOC</srai></template>
-</category>
-
-<category>
-<pattern>* LARGE TYPE *</pattern>
-<template><srai>MLTLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * MYSTERY</pattern>
-<template><srai>MMYSTLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * MYSTERY *</pattern>
-<template><srai>MMYSTLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * MYSTERIES</pattern>
-<template><srai>MMYSTLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * MYSTERIES *</pattern>
-<template><srai>MMYSTLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * NONFICTION</pattern>
-<template><srai>MNONFICLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * NONFICTION *</pattern>
-<template><srai>MNONFICLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * NON FICTION</pattern>
-<template><srai>MNONFICLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * NON FICTION *</pattern>
-<template><srai>MNONFICLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * NON-FICTION</pattern>
-<template><srai>MNONFICLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * NON-FICTION *</pattern>
-<template><srai>MNONFICLOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * SCIENCE FICTION</pattern>
-<template><srai>MSCIFILOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * SCIENCE FICTION *</pattern>
-<template><srai>MSCIFILOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * SCI FI</pattern>
-<template><srai>MSCIFILOC</srai></template>
-</category>
-
-<category>
-<pattern>WHERE * SCI FI *</pattern>
-<template><srai>MSCIFILOC</srai></template>
-</category>
-
-<!--MORE STUFF-->
-
-<category>
-<pattern>FLOOR PLAN</pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>FLOOR PLAN MAIN</pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>FIRST FLOOR PLAN</pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>FIRST FLOOR PLAN MAIN</pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>SECOND FLOOR PLAN</pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>SECOND FLOOR PLAN MAIN</pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>CHILDREN S DEPT MAP</pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>CHILDREN S DEPARTMENT MAP</pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>KID S DEPT MAP</pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>KID S DEPARTMENT MAP</pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>MAP OF THE LIBRARY</pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>* MAP OF THE LIBRARY</pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>MAPS OF THE LIBRARY</pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>* MAPS OF THE LIBRARY</pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>MAPS OF THE LIBRARY</pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>* FLOOR PLAN * </pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>* FLOOR PLANS * </pattern>
-<template><srai>MFLPLAN</srai></template>
-</category>
-
-<category>
-<pattern>HOLD SHELF</pattern>
-<template><srai>HLDSHLF</srai></template>
-</category>
-
-<category>
-<pattern>* HOLD SHELF</pattern>
-<template><srai>HLDSHLF</srai></template>
-</category>
-
-<category>
-<pattern>HOLD SHELF *</pattern>
-<template><srai>HLDSHLF</srai></template>
-</category>
-
-<category>
-<pattern>* HOLD SHELF *</pattern>
-<template><srai>HLDSHLF</srai></template>
-</category>
-
-<category>
-<pattern>HOLDS SHELF</pattern>
-<template><srai>HLDSHLF</srai></template>
-</category>
-
-<category>
-<pattern>* HOLDS SHELF</pattern>
-<template><srai>HLDSHLF</srai></template>
-</category>
-
-<category>
-<pattern>HOLDS SHELF *</pattern>
-<template><srai>HLDSHLF</srai></template>
-</category>
-
-<category>
-<pattern>* HOLDS SHELF *</pattern>
-<template><srai>HLDSHLF</srai></template>
-</category>
-
-<category>
-<pattern>HOLD SHELVES</pattern>
-<template><srai>HLDSHLF</srai></template>
-</category>
-
-<category>
-<pattern>* HOLD SHELVES</pattern>
-<template><srai>HLDSHLF</srai></template>
-</category>
-
-<category>
-<pattern>HOLD SHELVES *</pattern>
-<template><srai>HLDSHLF</srai></template>
-</category>
-
-<category>
-<pattern>* HOLD SHELVES *</pattern>
-<template><srai>HLDSHLF</srai></template>
-</category>
-
-<category>
-<pattern>HOLDS SHELVES</pattern>
-<template><srai>HLDSHLF</srai></template>
-</category>
-
-<category>
-<pattern>* HOLDS SHELVES</pattern>
-<template><srai>HLDSHLF</srai></template>
-</category>
-
-<category>
-<pattern>HOLDS SHELVES *</pattern>
-<template><srai>HLDSHLF</srai></template>
-</category>
-
-<category>
-<pattern>* HOLDS SHELVES *</pattern>
-<template><srai>HLDSHLF</srai></template>
-</category>
-
-<category>
-<pattern>HEADLANDS YA</pattern>
-<template><srai>HDLSYA</srai></template>
-</category>
-
-<category>
-<pattern>* HEADLANDS YA</pattern>
-<template><srai>HDLSYA</srai></template>
-</category>
-
-<category>
-<pattern>HEADLANDS YA *</pattern>
-<template><srai>HDLSYA</srai></template>
-</category>
-
-<category>
-<pattern>* HEADLANDS YA *</pattern>
-<template><srai>HDLSYA</srai></template>
-</category>
-
-<category>
-<pattern>LAKE YA</pattern>
-<template><srai>LKYA</srai></template>
-</category>
-
-<category>
-<pattern>* LAKE YA</pattern>
-<template><srai>LKYA</srai></template>
-</category>
-
-<category>
-<pattern>LAKE YA *</pattern>
-<template><srai>LKYA</srai></template>
-</category>
-
-<category>
-<pattern>* LAKE YA *</pattern>
-<template><srai>LKYA</srai></template>
-</category>
-
-</aiml>
+* SCIENCE FICTION LOCATION
+<srai>MASCIFILOC</srai>
+
+* SCIENCE FICTION SECTION
+<srai>MASCIFILOC</srai>
+
+* MAIN BIOGRAPHY
+<srai>MABIOGLOC</srai>
+
+* BIOGRAPHY LOCATED
+<srai>MABIOGLOC</srai>
+
+* BIOGRAPHY SECTION
+<srai>MABIOGLOC</srai>
+
+* MAIN BIOGRAPHIES
+<srai>MABIOGLOC</srai>
+
+* BIOGRAPHIES LOCATED
+<srai>MABIOGLOC</srai>
+
+* MYSTERIES
+<srai>MMYSTLOC</srai>
+
+* MYSTERY *
+<srai>MMYSTLOC</srai>
+
+* BIOGRAPHIES LOCATION
+<srai>MABIOGLOC</srai>
+
+LOCATION * FICTION
+<srai>MFICLOC</srai>
+
+LOCATION * NONFICTION
+<srai>MNONFICLOC</srai>
+
+LOCATION * BIOGRAPHIES
+<srai>MABIOGLOC</srai>
+
+LOCATION * FICTION *
+<srai>MFICLOC</srai>
+
+LOCATION * NONFICTION *
+<srai>MNONFICLOC</srai>
+
+LOCATION * BIOGRAPHIES *
+<srai>MABIOGLOC</srai>
+
+* LOCATION * FICTION
+<srai>MFICLOC</srai>
+
+* LOCATION * NONFICTION
+<srai>MNONFICLOC</srai>
+
+* LOCATION * BIOGRAPHIES
+<srai>MABIOGLOC</srai>
+
+* LOCATION * FICTION *
+<srai>MFICLOC</srai>
+
+* LOCATION * NONFICTION *
+<srai>MNONFICLOC</srai>
+
+* LOCATION * BIOGRAPHIES *
+<srai>MABIOGLOC</srai>
+
+WHERE * AUTOBIOGRAPHY
+<srai>MABIOGLOC</srai>
+
+WHERE * AUTOBIOGRAPHY *
+<srai>MABIOGLOC</srai>
+
+WHERE * AUTOBIOGRAPHIES
+<srai>MABIOGLOC</srai>
+
+WHERE * AUTOBIOGRAPHIES *
+<srai>MABIOGLOC</srai>
+
+WHERE * BIOGRAPHY
+<srai>MBIOGLOC</srai>
+
+WHERE * BIOGRAPHY *
+<srai>MBIOGLOC</srai>
+
+WHERE * BIOGRAPHIES
+<srai>MBIOGLOC</srai>
+
+WHERE * BIOGRAPHIES *
+<srai>MBIOGLOC</srai>
+
+WHERE * FANTASY
+<srai>MFANLOC</srai>
+
+WHERE * FANTASY *
+<srai>MFANLOC</srai>
+
+WHERE * FICTION
+<srai>MFICLOC</srai>
+
+WHERE * FICTION *
+<srai>MFICLOC</srai>
+
+LARGE PRINT
+<srai>MLTLOC</srai>
+
+LARGE PRINT *
+<srai>MLTLOC</srai>
+
+* LARGE PRINT
+<srai>MLTLOC</srai>
+
+* LARGE PRINT *
+<srai>MLTLOC</srai>
+
+* LARGE TYPE
+<srai>MLTLOC</srai>
+
+* LARGE TYPE *
+<srai>MLTLOC</srai>
+
+WHERE * MYSTERY
+<srai>MMYSTLOC</srai>
+
+WHERE * MYSTERY *
+<srai>MMYSTLOC</srai>
+
+WHERE * MYSTERIES
+<srai>MMYSTLOC</srai>
+
+WHERE * MYSTERIES *
+<srai>MMYSTLOC</srai>
+
+WHERE * NONFICTION
+<srai>MNONFICLOC</srai>
+
+WHERE * NONFICTION *
+<srai>MNONFICLOC</srai>
+
+WHERE * NON FICTION
+<srai>MNONFICLOC</srai>
+
+WHERE * NON FICTION *
+<srai>MNONFICLOC</srai>
+
+WHERE * NON-FICTION
+<srai>MNONFICLOC</srai>
+
+WHERE * NON-FICTION *
+<srai>MNONFICLOC</srai>
+
+WHERE * SCIENCE FICTION
+<srai>MSCIFILOC</srai>
+
+WHERE * SCIENCE FICTION *
+<srai>MSCIFILOC</srai>
+
+WHERE * SCI FI
+<srai>MSCIFILOC</srai>
+
+WHERE * SCI FI *
+<srai>MSCIFILOC</srai>
+
+FLOOR PLAN
+<srai>MFLPLAN</srai>
+
+FLOOR PLAN MAIN
+<srai>MFLPLAN</srai>
+
+FIRST FLOOR PLAN
+<srai>MFLPLAN</srai>
+
+FIRST FLOOR PLAN MAIN
+<srai>MFLPLAN</srai>
+
+SECOND FLOOR PLAN
+<srai>MFLPLAN</srai>
+
+SECOND FLOOR PLAN MAIN
+<srai>MFLPLAN</srai>
+
+CHILDREN S DEPT MAP
+<srai>MFLPLAN</srai>
+
+CHILDREN S DEPARTMENT MAP
+<srai>MFLPLAN</srai>
+
+KID S DEPT MAP
+<srai>MFLPLAN</srai>
+
+KID S DEPARTMENT MAP
+<srai>MFLPLAN</srai>
+
+MAP OF THE LIBRARY
+<srai>MFLPLAN</srai>
+
+* MAP OF THE LIBRARY
+<srai>MFLPLAN</srai>
+
+* MAPS OF THE LIBRARY
+<srai>MFLPLAN</srai>
+
+MAPS OF THE LIBRARY
+<srai>MFLPLAN</srai>
+
+* FLOOR PLAN *
+<srai>MFLPLAN</srai>
+
+* FLOOR PLANS *
+<srai>MFLPLAN</srai>
+
+HOLD SHELF
+<srai>HLDSHLF</srai>
+
+* HOLD SHELF
+<srai>HLDSHLF</srai>
+
+HOLD SHELF *
+<srai>HLDSHLF</srai>
+
+* HOLD SHELF *
+<srai>HLDSHLF</srai>
+
+HOLDS SHELF
+<srai>HLDSHLF</srai>
+
+* HOLDS SHELF
+<srai>HLDSHLF</srai>
+
+HOLDS SHELF *
+<srai>HLDSHLF</srai>
+
+* HOLDS SHELF *
+<srai>HLDSHLF</srai>
+
+HOLD SHELVES
+<srai>HLDSHLF</srai>
+
+* HOLD SHELVES
+<srai>HLDSHLF</srai>
+
+HOLD SHELVES *
+<srai>HLDSHLF</srai>
+
+* HOLD SHELVES *
+<srai>HLDSHLF</srai>
+
+HOLDS SHELVES
+<srai>HLDSHLF</srai>
+
+* HOLDS SHELVES
+<srai>HLDSHLF</srai>
+
+HOLDS SHELVES *
+<srai>HLDSHLF</srai>
+
+* HOLDS SHELVES *
+<srai>HLDSHLF</srai>
+
+HEADLANDS YA
+<srai>HDLSYA</srai>
+
+* HEADLANDS YA
+<srai>HDLSYA</srai>
+
+HEADLANDS YA *
+<srai>HDLSYA</srai>
+
+* HEADLANDS YA *
+<srai>HDLSYA</srai>
+
+LAKE YA
+<srai>LKYA</srai>
+
+* LAKE YA
+<srai>LKYA</srai>
+
+LAKE YA *
+<srai>LKYA</srai>
+
+* LAKE YA *
+<srai>LKYA</srai>
+
+

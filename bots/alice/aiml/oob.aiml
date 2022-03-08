@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0">
-  <category>
-    <pattern>OOB ALARM *</pattern>
-    <template>
-      <oob>
+
+OOB ALARM *
+<oob>
         <alarm>
           <message>
             <star/>
@@ -11,125 +9,85 @@
           <get name="sraix"/>
         </alarm>
       </oob>
-    </template>
-  </category>
-  <category>
-    <pattern>OOB CAMERA ON</pattern>
-    <template>
-      <oob>
+
+OOB CAMERA ON
+<oob>
         <camera>on</camera>
       </oob>
-    </template>
-  </category>
-  <category>
-    <pattern>OOB CAMERA OFF</pattern>
-    <template>
-      <oob>
+
+OOB CAMERA OFF
+<oob>
         <camera>off</camera>
       </oob>
-    </template>
-  </category>
-  <category>
-    <pattern>OOB CLEAR</pattern>
-    <template>
-      <oob>
+
+OOB CLEAR
+<oob>
         <clear>log</clear>
       </oob>
-    </template>
-  </category>
-  <category>
-    <pattern>OOB DIAL *</pattern>
-    <template>
-      <oob>
+
+OOB DIAL *
+<oob>
         <dial>
           <star/>
         </dial>
       </oob>
-    </template>
-  </category>
-  <category>
-    <pattern>OOB DIALOG</pattern>
-    <template>
-      <oob>
+
+OOB DIALOG
+<oob>
         <dialog>
           <title>Which item?</title>
           <list>item1,item2,item3</list>
         </dialog>
       </oob>
-    </template>
-  </category>
-  <category>
-    <pattern>OOB EMAIL</pattern>
-    <template>
-      <oob>
+
+OOB EMAIL
+<oob>
         <email>
           <to>recipient</to>
           <subject>subject text</subject>
           <body>body text</body>
         </email>
       </oob>
-    </template>
-  </category>
-  <category>
-    <pattern>OOB MAP</pattern>
-    <template>
-      <oob>
+
+OOB MAP
+<oob>
         <geomap>Kinghorn</geomap>
       </oob>
-    </template>
-  </category>
-  <category>
-    <pattern>OOB SCHEDULE</pattern>
-    <template>
-      <oob>
+
+OOB SCHEDULE
+<oob>
         <schedule>
           <title>Meeting</title>
           <description>Lets meet tomorrow</description>
         </schedule>
       </oob>
-    </template>
-  </category>
-  <category>
-    <pattern>OOB SEARCH</pattern>
-    <template>
-      <oob>
+
+OOB SEARCH
+<oob>
         <search>keith sterling</search>
       </oob>
-    </template>
-  </category>
-  <category>
-    <pattern>OOB SMS</pattern>
-    <template>
-      <oob>
+
+OOB SMS
+<oob>
         <sms>
           <recipient>0777777777</recipient>
           <message>Hello ;-)</message>
         </sms>
       </oob>
-    </template>
-  </category>
-  <category>
-    <pattern>OOB URL</pattern>
-    <template>
-      <oob>
+
+OOB URL
+<oob>
         <url>http://keithsterling.com.com</url>
       </oob>
-    </template>
-  </category>
-  <category>
-    <pattern>OOB WIFI</pattern>
-    <template>
-      <oob>
+
+OOB WIFI
+<oob>
         <wifi>on</wifi>
       </oob>
-    </template>
-  </category>
-  <category>
-    <pattern>OOB DEFAULT</pattern>
-    <template>
-      <oob>
+
+OOB DEFAULT
+<oob>
         <helpdesk>Help Me!</helpdesk>
       </oob>
-    </template>
-  </category>
-</aiml>
+
+

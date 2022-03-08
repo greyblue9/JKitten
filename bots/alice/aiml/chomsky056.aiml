@@ -1,58 +1,19 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--  Complies with AIML 1.0 Tag Set Specification -->
-  <!--  This GAMES  file  updated by Peter Lafferty 7 Jan 2006   -->
-  <category>
-    <pattern>PLAY GAMES</pattern>
-    <template><think><set name="topic">games</set></think><think><set name="emotion">happy</set></think> The games I can play at the moment are Chess, Pacman, Alien Attack, Batman and Battleships. If you would like a game, just say "Play chess", or "Play Pacman", etc. 
-</template>
-  </category>
-  <category>
-    <pattern>CAN YOU PLAY GAMES</pattern>
-    <template>
-      <srai>PLAY GAMES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN YOU PLAY * GAMES</pattern>
-    <template>
-      <srai>PLAY GAMES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT GAMES CAN YOU PLAY</pattern>
-    <template><think><set name="topic">games</set></think><think><set name="emotion">happy</set></think> 
-The games I can play at the moment are Chess, Pacman, Alien Attack, Batman, Asteroids and Battleships. If you would like a game, just say "Play chess", or "Play Pacman", etc.
-</template>
-  </category>
-  <category>
-    <pattern>PLAY CHESS</pattern>
-    <template>
-To play chess, <a href="http://www.seekcodes.com/games/chess.swf" target="_blank">click here!</a>
-</template>
-  </category>
-  <category>
-    <pattern>PLAY ASTEROIDS</pattern>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+PLAY ASTEROIDS
 To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target="_blank">click here!</a>
-</template>
-  </category>
-  <category>
-    <pattern>WORDPLAY</pattern>
-    <template>
-  Welcome to my anagram game. 
+
+WORDPLAY
+Welcome to my anagram game. 
   <br/> 
   I am going to jumble a nine letter word up and you have to guess what it is. 
   <br/> 
   You must solve each anagram correctly to continue. 
   <br/> 
-  Type START to begin the anagram game. 
-  </template>
-  </category>
-  <category>
-    <pattern>START</pattern>
-    <that>TYPE START TO BEGIN THE ANAGRAM GAME</that>
-    <template><think><set name="anagramscore">0</set><set name="topic">WORDPLAY</set></think>
+  Type START to begin the anagram game.
+
+STARTTYPE START TO BEGIN THE ANAGRAM GAME
+<think><set name="anagramscore">0</set><set name="topic">WORDPLAY</set></think>
   Here comes the first anagram. 
   <br/> 
   I've jumbled a word up, but which word is it? 
@@ -60,13 +21,10 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   (Type QUITGAME if you give up). 
   <br/> 
   <br/> 
-  <srai>XANAGRAM</srai> 
-  </template>
-  </category>
-  <category>
-    <pattern>QUITGAME</pattern>
-    <template>
-  The answer was 
+  <srai>XANAGRAM</srai>
+
+QUITGAME
+The answer was 
   <get name="anagramanswer"/> 
   ! 
   <br/> 
@@ -75,14 +33,10 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   . 
   <br/> 
   <br/> 
-  Type START to begin the anagram game. 
-  </template>
-  </category>
-  <!--  Give a congratulation message and add 1 to the score 
-  -->
-  <category>
-    <pattern>XANAGRAMYES</pattern>
-    <template><srai>XANAGRAMSCORE</srai><random><li>Yes. Well done.</li><li>That's correct.</li><li>Excellent.</li><li>Very good.</li><li>That is the correct answer.</li><li>Well done! You are good at these.</li></random><br/> 
+  Type START to begin the anagram game.
+
+XANAGRAMYES
+<srai>XANAGRAMSCORE</srai><random><li>Yes. Well done.</li><li>That's correct.</li><li>Excellent.</li><li>Very good.</li><li>That is the correct answer.</li><li>Well done! You are good at these.</li></random><br/> 
   Your score is : 
   <get name="anagramscore"/> 
   <br/> 
@@ -91,15 +45,10 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   (Type QUITGAME if you give up). 
   <br/> 
   <br/> 
-  <srai>XANAGRAM</srai> 
-  </template>
-  </category>
-  <!--  Place the jumbled up words and the answers in here 
-  -->
-  <category>
-    <pattern>XANAGRAM</pattern>
-    <template>
-      <random>
+  <srai>XANAGRAM</srai>
+
+XANAGRAM
+<random>
         <li>
   Clue: Stars 
   <br/> 
@@ -413,15 +362,10 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
  <think><set name="anagramanswer">ZOOKEEPER</set></think>
   </li>
       </random>
-    </template>
-  </category>
-  <!--  Place the correct answers here 
-  -->
-  <topic name="NOMSTORAY">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+<topic name="NOMSTORAY">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -441,14 +385,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="AFLUTUBEI">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="AFLUTUBEI">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -468,14 +409,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="SELCATION">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="SELCATION">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -495,14 +433,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="UPILACTED">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="UPILACTED">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -522,14 +457,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="TRAMWOREH">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="TRAMWOREH">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -549,14 +481,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="WILOGNOLF">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="WILOGNOLF">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -576,14 +505,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="NEEENTGML">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="NEEENTGML">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -603,14 +529,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="LIIGGHHHT">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="LIIGGHHHT">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -630,14 +553,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="LIBELIGEL">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="LIBELIGEL">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -657,14 +577,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="IJKLARABE">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="IJKLARABE">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -684,14 +601,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="BREAKYDOS">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="BREAKYDOS">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -711,14 +625,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="BUCALRITE">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="BUCALRITE">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -738,14 +649,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="DEMAUTING">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="DEMAUTING">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -765,14 +673,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="SWEETNANG">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="SWEETNANG">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -792,14 +697,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="FEFEVSION">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="FEFEVSION">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -819,14 +721,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="UTRAPACHE">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="UTRAPACHE">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -846,14 +745,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="OESQUINTS">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="OESQUINTS">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -873,14 +769,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="SPRAINDOR">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="SPRAINDOR">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -900,14 +793,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="STRANGEIU">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="STRANGEIU">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -927,14 +817,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="RANTINGEE">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="RANTINGEE">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -954,14 +841,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="TUMTUMAIL">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="TUMTUMAIL">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -981,14 +865,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="GEBLEVATE">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="GEBLEVATE">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1008,14 +889,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="FLOUNDERW">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="FLOUNDERW">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1035,14 +913,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="PHONEBEXO">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="PHONEBEXO">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1062,14 +937,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="STRONGEYU">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="STRONGEYU">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1089,14 +961,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="GLISTOOZO">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="GLISTOOZO">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1116,14 +985,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="IANMOTIAN">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="IANMOTIAN">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1143,14 +1009,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="FLOBINDDL">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="FLOBINDDL">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1170,14 +1033,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="ARETRACKE">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="ARETRACKE">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1197,14 +1057,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="PEERVOLED">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="PEERVOLED">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1224,14 +1081,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="NONETRUCE">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="NONETRUCE">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1251,14 +1105,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="OSCOURIFE">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="OSCOURIFE">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1278,14 +1129,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="HARPGALIC">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="HARPGALIC">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1305,14 +1153,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="HESKANDAH">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="HESKANDAH">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1332,14 +1177,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="TROMPAINT">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="TROMPAINT">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1359,14 +1201,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="JIFYSHELL">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="JIFYSHELL">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1386,14 +1225,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="DEPADPINK">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="DEPADPINK">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1413,14 +1249,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="SILLYFEET">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="SILLYFEET">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1440,14 +1273,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="ISCAMINUS">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="ISCAMINUS">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1467,14 +1297,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="YUNTRALAL">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="YUNTRALAL">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1494,14 +1321,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="UNSIXBOOO">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="UNSIXBOOO">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1521,14 +1345,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="TRAPETEEN">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="TRAPETEEN">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1548,14 +1369,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="DECKNIQUE">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="DECKNIQUE">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1575,14 +1393,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="STARELION">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="STARELION">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1602,14 +1417,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="FEASTIDIS">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="FEASTIDIS">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1629,14 +1441,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="HEEPLONET">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="HEEPLONET">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1656,14 +1465,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="SCRAPEUPE">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="SCRAPEUPE">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1683,14 +1489,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="CACAVINES">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="CACAVINES">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1710,14 +1513,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="LAPPERLAW">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="LAPPERLAW">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1737,14 +1537,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="HEXPLOONY">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="HEXPLOONY">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1764,14 +1561,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="STRAYEDEY">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="STRAYEDEY">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1791,14 +1585,11 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <topic name="OKEPEROZE">
-    <category>
-      <pattern>_</pattern>
-      <template>
-        <think>
+
+
+<topic name="OKEPEROZE">
+_
+<think>
           <set name="topic"/>
           <set name="inp">
             <star/>
@@ -1818,15 +1609,10 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
   <srai>QUITGAME</srai> 
   </li>
         </condition>
-      </template>
-    </category>
-  </topic>
-  <!--  This part keeps score up to fifty correct answers 
-  -->
-  <category>
-    <pattern>XANAGRAMSCORE</pattern>
-    <template>
-      <think>
+
+
+XANAGRAMSCORE
+<think>
         <condition name="anagramscore">
           <li value="0">
             <set name="anagramscore">1</set>
@@ -1980,6 +1766,5 @@ To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf" target
           </li>
         </condition>
       </think>
-    </template>
-  </category>
-</aiml>
+
+

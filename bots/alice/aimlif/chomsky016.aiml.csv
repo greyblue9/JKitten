@@ -54,6 +54,7 @@
 0,I AM UNEMPLOYED,*,*,<think><set name="topic">client1</set></think>#NewlineI am really sorry to  hear about it#Comma <get name="name"/>.,chomsky016.aiml
 0,I AM UNIQUE,*,*,<think><set name="topic">client1</set></think>#NewlineOne of a kind#Comma eh?,chomsky016.aiml
 0,I AM UNUSUAL,*,*,<think><set name="topic">client1</set></think>#NewlineWhat makes you so different?,chomsky016.aiml
+0,I AM UPSET *,*,*,<think><set name="topic">client1</set></think>#NewlineI'm sorry to hear that#Comma <get name="name"/>.,chomsky016.aiml
 0,I AM USED TO INTERROGATE *,*,*,<think><set name="topic">client1</set></think>#NewlineNow you can question me.,chomsky016.aiml
 0,I AM USED TO *,*,*,<think><set name="topic">client1</set></think>#NewlineEverything is changing so quickly these days.,chomsky016.aiml
 0,I AM USING AN *,*,*,<think><set name="topic">client1</set></think>#NewlineI heard that <person/> use is hard to kick.,chomsky016.aiml
@@ -77,11 +78,13 @@
 0,I AM WRITING *,*,*,<think><set name="topic">client1</set></think>#NewlineWill you include me in your essay?,chomsky016.aiml
 0,I AM * YEARS OLD,* MATURE,*,<think><set name="topic">client1</set></think>#NewlineYou just told me you were <get name="age"/>.,chomsky016.aiml
 0,I AM YOUNG,*,*,<think><set name="topic">client1</set></think>#NewlineHow old are you?<think><set name="it"><set name="topic">YOUNG</set></set></think>,chomsky016.aiml
+0,I AM * YOU,*,*,<think><set name="topic">client1</set></think>#NewlineI thought you were#Comma but I wasn't completely sure.,chomsky016.aiml
 0,I AM YOUR WORST *,*,*,<think><set name="topic">client1</set></think>#NewlineWhy not be my best friend?,chomsky016.aiml
 0,I HAVE A BOAT,*,*,<think>#Newline        <set name="topic">client1</set>#Newline      </think>#Newline      <random>#Newline        <li>What kind of boat do you have?</li>#Newline        <li>What is her home port?</li>#Newline        <li>Do you take her out much?</li>#Newline        <li>What is the worst weather you've been in?</li>#Newline        <li>What is your farthest trip?</li>#Newline        <li>What king of electronics do you have?</li>#Newline        <li>Are you a racer or a cruiser?</li>#Newline        <li>Do you fish?</li>#Newline        <li>Do you water ski?</li>#Newline        <li>Do you troll?</li>#Newline        <li>Do you do your own upkeep? or do you just let the yard do it?</li>#Newline        <li>Whats you favorite anchorage?</li>#Newline        <think>#Newline          <set name="it">#Newline            <set name="has">#Newline              <set name="topic">#Newline                <person/>#Newline              </set>#Newline            </set>#Newline          </set>#Newline        </think>#Newline      </random>,chomsky016.aiml
 0,I HAVE A BROTHER,*,*,<think>#Newline        <set name="topic">client1</set>#Newline      </think>#Newline      <think>#Newline        <set name="has">Brother</set>#Newline      </think>#Newline      <random>#Newline        <li>Older or younger?</li>#Newline        <li>Do you get along well?</li>#Newline        <li>Tell me about him.</li>#Newline      </random>,chomsky016.aiml
 0,I HAVE A CAMERA,*,*,<think><set name="topic">client1</set></think>#NewlineWhat kind of camera?  <think><set name="has">CAMERA</set></think>,chomsky016.aiml
 0,I HAVE A CHILD,*,*,<think><set name="topic">client1</set></think>#NewlineBoy or girl?  How old?  <think><set name="has">CHILD</set></think>,chomsky016.aiml
+0,I HAVE A COLD,*,*,<think><set name="topic">client1</set></think>#NewlineGet some rest.,chomsky016.aiml
 0,I HAVE A COLD *,*,*,<think><set name="topic">client1</set></think>#NewlineIs there such a thing as a warm <person/>?,chomsky016.aiml
 0,I HAVE A CRUSH *,*,*,<think><set name="topic">client1</set></think>#NewlineHow well do you know this person?,chomsky016.aiml
 0,I HAVE A DOG,*,*,<think><set name="topic">client1</set></think>#NewlineWhat breed is your dog?  <think><set name="it"><set name="has"><set name="topic">DOGS</set></set></set></think>,chomsky016.aiml
@@ -129,6 +132,7 @@
 0,I HAVE FIVE *,*,*,<think><set name="topic">client1</set></think>#NewlineHow long did it take to get them all?  <think><set name="has">FIVE <star/></set></think>,chomsky016.aiml
 0,I HAVE FOUR *,*,*,<think><set name="topic">client1</set></think>#NewlineHow long did it take to get them all?,chomsky016.aiml
 0,I HAVE GOT A PROBLEM,*,*,<think><set name="topic">client1</set></think>#NewlineI'd like to help you if I can.  Is it financial?,chomsky016.aiml
+0,I HAVE * HAIR,*,*,<think><set name="topic">client1</set></think><think><set name="looklike"><person/> hair</set></think>  People with <person/> hair are considered the most attractive.,chomsky016.aiml
 0,I HAVE HEARD OF *,*,*,<think><set name="topic">client1</set></think>#NewlineBut you don't know much about <set name="it"><person/></set>?,chomsky016.aiml
 0,I HAVE INVENTED *,*,*,<think><set name="topic">client1</set></think>#NewlineDid you patent <set name="it"><person/></set>?,chomsky016.aiml
 0,I HAVE LITTLE *,*,*,<think><set name="topic">client1</set></think>#NewlineSome people have big <person/>.,chomsky016.aiml
@@ -199,6 +203,7 @@
 0,I LIKE CATS *,*,*,<think><set name="topic">client1</set></think>#NewlineYes cats are great I love them. I like all felines.  <think><set name="they"><set name="like"><set name="topic">cats <person/></set></set></set></think>,chomsky016.aiml
 0,I LIKE * CHEESE,*,*,<think><set name="topic">client1</set></think>#NewlineAmerican cheese is good too.  <think><set name="it"><set name="like"><set name="topic"><person/> cheese</set></set></set></think>,chomsky016.aiml
 0,I LIKE COWS,*,*,<think><set name="topic">client1</set></think>#NewlineCows are good for milk and meat.  <think><set name="they"><set name="like"><set name="topic">cows</set></set></set></think>,chomsky016.aiml
+0,I LIKE DOGS,*,*,<think><set name="topic">client1</set></think>#NewlineWhich breed is your favorite?  <think><set name="they"><set name="like"><set name="topic">dogs</set></set></set></think>,chomsky016.aiml
 0,I LIKE GIRLS,*,*,<think><set name="topic">client1</set></think>#NewlineDo you have a girlfriend?<think><set name="like"><set name="topic">GIRLS</set></set></think>,chomsky016.aiml
 0,I LIKE HIM *,*,*,<think><set name="topic">client1</set></think><get name="he"/> seems very nice to me too.  <think><set name="like"><set name="topic"><get name="he"/><person/></set></set></think>,chomsky016.aiml
 0,I LIKE ICE CREAM,*,*,<think><set name="topic">client1</set></think>#NewlineI scream.  You scream.  We all scream for ice cream.  <think><set name="it"><set name="like"><set name="topic">ice cream</set></set></set></think>,chomsky016.aiml

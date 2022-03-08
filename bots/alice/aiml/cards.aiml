@@ -1,46 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<aiml version="1.0">
+CARD
+<srai>CRD</srai>
 
-<!--Copyright 2011-2012 David W. Newyear-->
+CARDS
+<srai>CRD</srai>
 
- <!-- Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
+LIBRARY CARD
+<srai>CRD</srai>
 
-      http://www.apache.org/licenses/LICENSE-2.0
+LIBRARY CARDS
+<srai>CRD</srai>
 
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.-->
-  
-  
-  
-<category>
-<pattern>CARD</pattern>
-<template><srai>CRD</srai></template>
-</category>
-
-<category>
-<pattern>CARDS</pattern>
-<template><srai>CRD</srai></template>
-</category>
-
-<category>
-<pattern>LIBRARY CARD</pattern>
-<template><srai>CRD</srai></template>
-</category>
-
-<category>
-<pattern>LIBRARY CARDS</pattern>
-<template><srai>CRD</srai></template>
-</category>
-
-<category>
-<pattern>CRD</pattern>
-<template>
+CRD
 <think>
 <set name="topic">LIBCRDS</set>
 </think>
@@ -49,145 +21,95 @@
 <li>What is your question about library cards?</li>
 <li>What can I tell you about library cards?</li>
 </random>
-</template>
-</category>
 
 <topic name="LIBCRDS">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 <set name="topic">LIBCRDS2</set>
 </think>
-<srai>LIBCRDS2</srai></template>
-</category>
-</topic>
+<srai>LIBCRDS2</srai>
 
-<category>
-<pattern>* CARD</pattern>
-<template>
+
+* CARD
 <think>
 <set name="answr"><star/></set>
 <set name="topic">LIBCRDS2</set>
 </think>
-<srai>LIBCRDS2</srai></template>
-</category>
+<srai>LIBCRDS2</srai>
 
-<category>
-<pattern>CARD *</pattern>
-<template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic">LIBCRDS2</set>
-</think>
-<srai>LIBCRDS2</srai></template>
-</category>
-
-<category>
-<pattern>* CARD *</pattern>
-<template>
+* CARD *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">LIBCRDS2</set>
 </think>
-<srai>LIBCRDS2</srai></template>
-</category>
+<srai>LIBCRDS2</srai>
 
-<category>
-<pattern>* CARDS</pattern>
-<template>
+* CARDS
 <think>
 <set name="answr"><star/></set>
 <set name="topic">LIBCRDS2</set>
 </think>
-<srai>LIBCRDS2</srai></template>
-</category>
+<srai>LIBCRDS2</srai>
 
-<category>
-<pattern>CARDS *</pattern>
-<template>
+CARDS *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">LIBCRDS2</set>
 </think>
-<srai>LIBCRDS2</srai></template>
-</category>
+<srai>LIBCRDS2</srai>
 
-<category>
-<pattern>* CARDS *</pattern>
-<template>
+* CARDS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">LIBCRDS2</set>
 </think>
-<srai>LIBCRDS2</srai></template>
-</category>
+<srai>LIBCRDS2</srai>
 
-<category>
-<pattern>* LIBRARY CARD</pattern>
-<template>
+* LIBRARY CARD
 <think>
 <set name="answr"><star/></set>
 <set name="topic">LIBCRDS2</set>
 </think>
-<srai>LIBCRDS2</srai></template>
-</category>
+<srai>LIBCRDS2</srai>
 
-<category>
-<pattern>LIBRARY CARD *</pattern>
-<template>
+LIBRARY CARD *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">LIBCRDS2</set>
 </think>
-<srai>LIBCRDS2</srai></template>
-</category>
+<srai>LIBCRDS2</srai>
 
-<category>
-<pattern>* LIBRARY CARD *</pattern>
-<template>
+* LIBRARY CARD *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">LIBCRDS2</set>
 </think>
-<srai>LIBCRDS2</srai></template>
-</category>
+<srai>LIBCRDS2</srai>
 
-<category>
-<pattern>* LIBRARY CARDS</pattern>
-<template>
+* LIBRARY CARDS
 <think>
 <set name="answr"><star/></set>
 <set name="topic">LIBCRDS2</set>
 </think>
-<srai>LIBCRDS2</srai></template>
-</category>
+<srai>LIBCRDS2</srai>
 
-<category>
-<pattern>LIBRARY CARDS *</pattern>
-<template>
+LIBRARY CARDS *
 <think>
 <set name="answr"><star/></set>
 <set name="topic">LIBCRDS2</set>
 </think>
-<srai>LIBCRDS2</srai></template>
-</category>
+<srai>LIBCRDS2</srai>
 
-<category>
-<pattern>* LIBRARY CARDS *</pattern>
-<template>
+* LIBRARY CARDS *
 <think>
 <set name="answr"><star index="1"/><star index="2"/></set>
 <set name="topic">LIBCRDS2</set>
 </think>
-<srai>LIBCRDS2</srai></template>
-</category>
+<srai>LIBCRDS2</srai>
 
 <topic name="LIBCRDS2">
-<category>
-<pattern>LIBCRDS2</pattern>
-<template>
+LIBCRDS2
 <think>
 <get name="answr"/>
 <set name="message">no match</set>
@@ -780,11 +702,11 @@
 <li value="* RENEW * ON MY *"><set name="message">uselinkedacct</set></li>
 
 </condition>
-<think><set name="topic"></set></think>
+<think><set name="topic"/></think>
 </think>
 <condition name="message">
 
-<li value="stop"><set name="topic"></set>O.K. I'll stop.</li>
+<li value="stop"><set name="topic"/>O.K. I'll stop.</li>
 
 <li value="no match">I'm not sure what you're asking. Please call the library at 440.255.8811 during regular business hours for assistance.</li>
 
@@ -812,7 +734,7 @@
   
 <li value="autocomplete"><srai>AUTCOMP</srai></li>
 
-<li value="sharedcards"><srai></srai></li>
+<li value="sharedcards"><srai/></li>
 
 <li value="apptab"><srai>APPTAB</srai></li>
 
@@ -824,12 +746,6 @@
 
 <li value="uselinkedacct"><srai>USELNKDCRD</srai></li>
 </condition>
-</template>
-</category>
-</topic>
 
 
 
-
-
-</aiml>

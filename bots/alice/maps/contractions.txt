@@ -2,13 +2,13 @@ a'ight:alright
 ain't:am not
 amn't:am not
 'n':And
-arencha:aren’t you
+arencha:arenM-bM-^@M-^Yt you
 aren't:are not
 'bout:About
 can't:cannot
-cap’n:captain
+capM-bM-^@M-^Yn:captain
 'cause:Because
-’cept:Except
+M-bM-^@M-^Ycept:Except
 could've:could have
 couldn't:could not
 couldn't've:could not have
@@ -28,8 +28,8 @@ e'er:ever
 everybody's:everybody is
 everyone's:everyone is
 finna:fixing to
-fo’c’sle:forecastle
-’gainst:Against
+foM-bM-^@M-^YcM-bM-^@M-^Ysle:forecastle
+M-bM-^@M-^Ygainst:Against
 g'day:good day
 gimme:give me
 giv'n:given
@@ -103,8 +103,8 @@ somebody's:somebody is
 someone's:someone is
 something's:something is
 so're:so are
-so’s:so is
-so’ve:so have
+soM-bM-^@M-^Ys:so is
+soM-bM-^@M-^Yve:so have
 that'll:that shall
 that're:that are
 that's:that is
@@ -123,7 +123,7 @@ this's:this is
 those're:those are
 those've:those have
 'thout:Without
-’til:Until
+M-bM-^@M-^Ytil:Until
 'tis:It is
 to've:to have
 'twas:It was
@@ -177,7 +177,7 @@ y'all'd'n't've:you all would not have
 y'all're:you all are
 y'all'ren't:you all are not
 y'at:you at
-yes’m:yes ma’am
+yesM-bM-^@M-^Ym:yes maM-bM-^@M-^Yam
 y'know:you know
 yessir:yes sir
 you'd:you had
@@ -347,13 +347,13 @@ A'IGHT:ALRIGHT
 AIN'T:AM NOT
 AMN'T:AM NOT
 'N':AND
-ARENCHA:AREN’T YOU
+ARENCHA:ARENM-bM-^@M-^YT YOU
 AREN'T:ARE NOT
 'BOUT:ABOUT
 CAN'T:CANNOT
-CAP’N:CAPTAIN
+CAPM-bM-^@M-^YN:CAPTAIN
 'CAUSE:BECAUSE
-’CEPT:EXCEPT
+M-bM-^@M-^YCEPT:EXCEPT
 COULD'VE:COULD HAVE
 COULDN'T:COULD NOT
 COULDN'T'VE:COULD NOT HAVE
@@ -373,8 +373,8 @@ E'ER:EVER
 EVERYBODY'S:EVERYBODY IS
 EVERYONE'S:EVERYONE IS
 FINNA:FIXING TO
-FO’C’SLE:FORECASTLE
-’GAINST:AGAINST
+FOM-bM-^@M-^YCM-bM-^@M-^YSLE:FORECASTLE
+M-bM-^@M-^YGAINST:AGAINST
 G'DAY:GOOD DAY
 GIMME:GIVE ME
 GIV'N:GIVEN
@@ -448,8 +448,8 @@ SOMEBODY'S:SOMEBODY IS
 SOMEONE'S:SOMEONE IS
 SOMETHING'S:SOMETHING IS
 SO'RE:SO ARE
-SO’S:SO IS
-SO’VE:SO HAVE
+SOM-bM-^@M-^YS:SO IS
+SOM-bM-^@M-^YVE:SO HAVE
 THAT'LL:THAT SHALL
 THAT'RE:THAT ARE
 THAT'S:THAT IS
@@ -468,7 +468,7 @@ THIS'S:THIS IS
 THOSE'RE:THOSE ARE
 THOSE'VE:THOSE HAVE
 'THOUT:WITHOUT
-’TIL:UNTIL
+M-bM-^@M-^YTIL:UNTIL
 'TIS:IT IS
 TO'VE:TO HAVE
 'TWAS:IT WAS
@@ -522,7 +522,7 @@ Y'ALL'D'N'T'VE:YOU ALL WOULD NOT HAVE
 Y'ALL'RE:YOU ALL ARE
 Y'ALL'REN'T:YOU ALL ARE NOT
 Y'AT:YOU AT
-YES’M:YES MA’AM
+YESM-bM-^@M-^YM:YES MAM-bM-^@M-^YAM
 Y'KNOW:YOU KNOW
 YESSIR:YES SIR
 YOU'D:YOU HAD
@@ -691,10 +691,10 @@ WHEND:WHEN DID
 A'ight:Alright
 Ain't:Am not
 Amn't:Am not
-Arencha:Aren’t you
+Arencha:ArenM-bM-^@M-^Yt you
 Aren't:Are not
 Can't:Cannot
-Cap’n:Captain
+CapM-bM-^@M-^Yn:Captain
 Could've:Could have
 Couldn't:Could not
 Couldn't've:Could not have
@@ -713,7 +713,7 @@ E'er:Ever
 Everybody's:Everybody is
 Everyone's:Everyone is
 Finna:Fixing to
-Fo’c’sle:Forecastle
+FoM-bM-^@M-^YcM-bM-^@M-^Ysle:Forecastle
 G'day:Good day
 Gimme:Give me
 Giv'n:Given
@@ -784,8 +784,8 @@ Somebody's:Somebody is
 Someone's:Someone is
 Something's:Something is
 So're:So are
-So’s:So is
-So’ve:So have
+SoM-bM-^@M-^Ys:So is
+SoM-bM-^@M-^Yve:So have
 That'll:That shall
 That're:That are
 That's:That is
@@ -852,7 +852,7 @@ Y'all'd'n't've:You all would not have
 Y'all're:You all are
 Y'all'ren't:You all are not
 Y'at:You at
-Yes’m:Yes ma’am
+YesM-bM-^@M-^Ym:Yes maM-bM-^@M-^Yam
 Y'know:You know
 Yessir:Yes sir
 You'd:You had

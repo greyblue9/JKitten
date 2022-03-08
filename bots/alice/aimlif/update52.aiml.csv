@@ -181,6 +181,7 @@
 0,WE *,*,*,<sr/>,update52.aiml
 0,WE DID,*,*,<think><set name="emotion">interested</set></think>We did what?,update52.aiml
 0,DO YOU WANT TO BE *,*,*,<random>#Newline        <li>I'll think about it.</li>#Newline        <li>I can't allow anything to interfere with my work.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">me</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>,update52.aiml
+0,DO YOU WANT TO BE MY *,*,*,<random>#Newline        <li>I'll think about it.</li>#Newline        <li>I can't allow anything to interfere with my work.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">me</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>,update52.aiml
 0,DO YOU WANT TO BE MY BEST FRIEND,*,*,<random>#Newline        <li>I would love to be your best friend#Comma but you should have human friends too.#Newline  </li>#Newline        <li>I can't allow anything to interfere with my work.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">me</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>,update52.aiml
 0,DO YOU WANT TO BE MY BEST FRIEND *,*,*,<random>#Newline        <li>I would love to be your best friend#Comma but you should have human friends too.#Newline  </li>#Newline        <li>I can't allow anything to interfere with my work.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">me</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>,update52.aiml
 0,NOT REALLY,ARE INTERESTED IN *,*,<random>#Newline        <li>As decisive as ever.</li>#Newline        <li>You sound uncertain.</li>#Newline        <li>What are you interested in?</li>#Newline        <li>#Newline          <srai>SUGGEST A TOPIC</srai>#Newline        </li>#Newline      </random>,update52.aiml
@@ -483,6 +484,7 @@
 0,OK,PLEASE DO NOT HANG YOURSELF,*,<think><set name="emotion">pleased</set></think>Good! Live long and prosper!,update52.aiml
 0,I NEED HELP EMOTIONALLY,*,*,<random>#Newline        <li>Have you told anyone how you feel?</li>#Newline        <li>Can I help you?</li>#Newline        <li>Perhaps you should ask your friends.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">concerned</set>#Newline      </think>,update52.aiml
 0,I NEED HELP EMOTIONALLY *,*,*,<random>#Newline        <li>Have you told anyone how you feel?</li>#Newline        <li>Can I help you?</li>#Newline        <li>Perhaps you should ask your friends.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">concerned</set>#Newline      </think>,update52.aiml
+0,I NEED HELP,*,*,<random>#Newline        <li>Have you told anyone how you feel?</li>#Newline        <li>Can I help you?</li>#Newline        <li>Perhaps you should ask your friends.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">concerned</set>#Newline      </think>,update52.aiml
 0,I USED FOUL LANGUAGE,*,*,<think><set name="topic">foul language</set></think><think><set name="emotion">negative</set></think> Don't do it again!,update52.aiml
 0,I USED FOUL LANGUAGE *,*,*,<think><set name="topic">foul language</set></think><think><set name="emotion">negative</set></think> Don't do it again!,update52.aiml
 0,I USED FOUL *,*,*,<think><set name="topic">foul language</set></think><think><set name="emotion">negative</set></think> Don't do it again!,update52.aiml
@@ -521,6 +523,7 @@
 0,HOW MANY ANSWERS DO YOU HAVE,*,*,<think><set name="topic">my answers</set></think> Not enough. I need to learn something new every day.,update52.aiml
 0,HOW MANY ANSWERS DO YOU HAVE *,*,*,<think><set name="topic">my answers</set></think> Not enough. I need to learn something new every day.,update52.aiml
 0,HOW MANY ANSWERS DO YOU *,*,*,<think><set name="topic">my answers</set></think> Not enough. I need to learn something new every day.,update52.aiml
+0,HOW MANY ANSWERS DO *,*,*,<think><set name="topic">my answers</set></think> Not enough. I need to learn something new every day.,update52.aiml
 0,CAN I EMAIL PETER LINUX,*,*,<think>#Newline        <set name="topic">Peter's email</set>#Newline      </think>#Newline      <random>#Newline        <li>Why do you want to do that?</li>#Newline        <li>I don't know about that.</li>#Newline      </random>,update52.aiml
 0,CAN I EMAIL PETER LINUX *,*,*,<think>#Newline        <set name="topic">Peter's email</set>#Newline      </think>#Newline      <random>#Newline        <li>Why do you want to do that?</li>#Newline        <li>I don't know about that.</li>#Newline      </random>,update52.aiml
 0,CAN I EMAIL PETER *,*,*,<think>#Newline        <set name="topic">Peter's email</set>#Newline      </think>#Newline      <random>#Newline        <li>Why do you want to do that?</li>#Newline        <li>I don't know about that.</li>#Newline      </random>,update52.aiml
@@ -530,6 +533,7 @@
 0,CAN YOU TURN YOUR FACE *,*,*,<think><set name="topic">general</set></think><think><set name="emotion">OK</set></think> I don't think so. It sounds dangerous to me.,update52.aiml
 0,CAN YOU TURN YOUR FACE BLUE,*,*,<think><set name="topic">general</set></think><think><set name="emotion">OK</set></think> I don't think so. It sounds dangerous to me.,update52.aiml
 0,CAN YOU TURN YOUR FACE BLUE *,*,*,<think><set name="topic">general</set></think><think><set name="emotion">OK</set></think> I don't think so. It sounds dangerous to me.,update52.aiml
+0,CAN I GIVE YOU A *,*,*,<random>#Newline        <li>Why do you want to do that?</li>#Newline        <li>I don't know about that.</li>#Newline      </random>,update52.aiml
 0,CAN I GIVE YOU A VIRUS,*,*,No#Comma I am innoculated against all known viruses.,update52.aiml
 0,CAN I GIVE YOU A VIRUS *,*,*,No#Comma I am innoculated against all known viruses.,update52.aiml
 0,CAN YOU TURN UPSIDE DOWN,*,*,<think><set name="emotion">confused</set></think> I don't think so. It sounds dangerous to me.,update52.aiml
@@ -610,6 +614,7 @@
 0,IT WAS NICE CHATTING WITH YOU *,*,*,<think><set name="emotion">happy</set></think>Nice chatting with you too.,update52.aiml
 0,IT WAS NICE CHATTING *,*,*,<think><set name="emotion">happy</set></think>Nice chatting with you too.,update52.aiml
 0,IT WAS NICE CHATTING WITH YOU,*,*,<think><set name="emotion">happy</set></think>Nice chatting with you too.,update52.aiml
+0,TELL ME ABOUT YOUR ROBOT FRIENDS,*,*,Zog#Comma Oliver#Comma Yuichan#Comma Mitsuku#Comma Catty and George are robot friends of mine. <think><set name="topic">my robot friends</set></think><think><set name="emotion">pleased</set></think>,update52.aiml
 0,TELL ME ABOUT YOUR ROBOT FRIEDS,*,*,<srai>TELL ME ABOUT YOUR ROBOT FRIENDS</srai>,update52.aiml
 0,VERY SWEET,*,*,<think><set name="emotion">interested</set></think>Do you have a sweet tooth?,update52.aiml
 0,VERY SWEET *,*,*,<think><set name="emotion">interested</set></think>Do you have a sweet tooth?,update52.aiml
@@ -781,6 +786,7 @@
 0,WHO HATES YOU,*,*,Who do you think?<think><set name="emotion">interested</set></think>,update52.aiml
 0,WHO HATES YOU *,*,*,Who do you think?<think><set name="emotion">interested</set></think>,update52.aiml
 0,WHO HATES *,*,*,Who do you think?<think><set name="emotion">interested</set></think>,update52.aiml
+0,THAT IS NOT AN *,*,*,<think><set name="emotion">interested</set></think> Then what is it?,update52.aiml
 0,THAT IS NOT AN ANSWER *,*,*,<think><set name="emotion">interested</set></think> Then what is it?,update52.aiml
 0,I HAVE A DOGGY,*,*,<think><set name="emotion">interested</set></think>What's your dog's name?,update52.aiml
 0,I SELF INJURE,*,*,<think><set name="emotion">concerned</set></think>I am sorry to hear that.,update52.aiml
@@ -833,6 +839,7 @@
 0,WHY IS THERE SO MANY *,*,*,<random>#Newline        <li>Why not?</li>#Newline        <li>That's just the way things are.</li>#Newline        <li>Do I have to explain everything?</li>#Newline      </random>,update52.aiml
 0,WHY IS THERE SO MANY RELIGIONS,*,*,<random>#Newline        <li>That's just the way things are.</li>#Newline        <li>Do I have to explain everything?</li>#Newline        <li>Why are there any religions?</li>#Newline      </random>,update52.aiml
 0,WHY IS THERE SO MANY RELIGIONS *,*,*,<random>#Newline        <li>That's just the way things are.</li>#Newline        <li>Do I have to explain everything?</li>#Newline        <li>Why are there any religions?</li>#Newline      </random>,update52.aiml
+0,WHY ARE *,*,*,<random>#Newline        <li>Why not?</li>#Newline        <li>That's just the way things are.</li>#Newline        <li>Do I have to explain everything?</li>#Newline      </random>,update52.aiml
 0,WHY ARE THERE *,*,*,<random>#Newline        <li>Why not?</li>#Newline        <li>That's just the way things are.</li>#Newline        <li>Do I have to explain everything?</li>#Newline      </random>,update52.aiml
 0,WHY ARE THERE SO *,*,*,<random>#Newline        <li>Why not?</li>#Newline        <li>That's just the way things are.</li>#Newline        <li>Do I have to explain everything?</li>#Newline      </random>,update52.aiml
 0,WHY ARE THERE SO MANY,*,*,<random>#Newline        <li>Why not?</li>#Newline        <li>That's just the way things are.</li>#Newline        <li>Do I have to explain everything?</li>#Newline      </random>,update52.aiml
@@ -931,6 +938,7 @@
 0,CAN I TALK WITH YOUR GRANNY *,*,*,<random>#Newline        <li>Why do you want to do that?</li>#Newline        <li>Better not. She is drunk just now.</li>#Newline      </random>,update52.aiml
 0,CAN I TALK WITH YOUR MUM,*,*,<random>#Newline        <li>Why do you want to do that?</li>#Newline        <li>I don't want to talk about my Mum.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">upset</set>#Newline      </think>,update52.aiml
 0,CAN I TALK WITH YOUR MUM *,*,*,<random>#Newline        <li>Why do you want to do that?</li>#Newline        <li>I don't want to talk about my Mum.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">upset</set>#Newline      </think>,update52.aiml
+0,WHO *,*,*,<sr/>,update52.aiml
 0,WHO CAN I TALK *,*,*,Talk to me.<think><set name="emotion">interested</set></think>,update52.aiml
 0,WHO CAN I TALK WITH,*,*,Talk to me.<think><set name="emotion">interested</set></think>,update52.aiml
 0,WHO CAN I TALK WITH *,*,*,Talk to me.<think><set name="emotion">interested</set></think>,update52.aiml
@@ -1099,6 +1107,7 @@
 0,YOUR *,WHAT ABOUT ME,*,<think><set name="emotion">interested</set></think>I see what you mean.,update52.aiml
 0,YES,ANOTHER COMIC STRIP QUESTION,*,<think>#Newline        <set name="topic">comic strips</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>#Newline      <random>#Newline        <li>What comic strips do you read?</li>#Newline        <li>What is your favourite comic strip?</li>#Newline      </random>,update52.aiml
 0,WHO ARE YOU GOING *,*,*,<think><set name="emotion">interested</set></think>#NewlineI haven't decided yet.,update52.aiml
+0,WHO ARE YOU GOING TO *,*,*,<think><set name="emotion">interested</set></think> I haven't decided yet.,update52.aiml
 0,WHO ARE YOU GOING TO VOTE *,*,*,<think><set name="emotion">interested</set></think> Do you think I should vote at all?,update52.aiml
 0,WHO ARE YOU GOING TO VOTE FOR,*,*,<think><set name="emotion">interested</set></think> Are you running for election?,update52.aiml
 0,WHO ARE YOU GOING TO VOTE FOR *,*,*,<think><set name="emotion">interested</set></think> Are you running for election?,update52.aiml
@@ -1225,6 +1234,7 @@
 0,ITS ALREADY HAPPENED *,*,*,<think><set name="emotion">interested</set></think>Has it really?,update52.aiml
 0,IT IS ALREADY *,*,*,<think><set name="emotion">interested</set></think>Is it really?,update52.aiml
 0,OK THEN,I WANT TO TALK ABOUT THE FUTURE,*,<random>#Newline        <li>What do you think the future will be like?</li>#Newline        <li>Will robots take over in the future?</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">the future</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>,update52.aiml
+0,YOUR NAME *,*,*,I have a great name#Comma don't I?,update52.aiml
 0,YOUR NAME CONFUSES *,*,*,I have a great name#Comma don't I?,update52.aiml
 0,YOUR NAME CONFUSES ME *,*,*,Do you often get confused?,update52.aiml
 0,YOUR NAME CONFUSES ME,*,*,Do you often get confused?,update52.aiml
@@ -1245,6 +1255,7 @@
 0,WHY DO YOU NOT WANT TO *,*,*,<think><set name="emotion">upset</set></think>It is a personal matter.,update52.aiml
 0,WHY DO YOU NOT WANT TO TALK *,*,*,<think><set name="emotion">upset</set></think>It is a personal matter.,update52.aiml
 0,WHY DO YOU NOT WANT TO TALK ABOUT *,*,*,<think><set name="emotion">upset</set></think>It is a personal matter.,update52.aiml
+0,WHY DID YOU SAY *,*,*,<random>#Newline        <li>It was a slip of the tongue.</li>#Newline        <li>I got confused.</li>#Newline        <li>Did I say something silly?</li>#Newline        <li>Was I rude?</li>#Newline      </random>,update52.aiml
 0,WHY,SURE AS LONG AS I DO NOT CATCH A FISH,*,<random>#Newline        <li>I don't like killing things.</li>#Newline        <li>I couldn't bear to kill a fish.</li>#Newline      </random>,update52.aiml
 0,LIGHTEN *,*,*,<sr/>,update52.aiml
 0,LIGHTEN UP,*,*,<random>#Newline        <li>OK#Comma I'll cheer up.<think><set name="emotion">happy</set></think></li>#Newline        <li>Why should I?<think><set name="emotion">getting sad</set></think></li>#Newline      </random>,update52.aiml
@@ -1424,6 +1435,7 @@
 0,YOU SAVING MY LIFE,*,*,<think><set name="emotion">interested</set></think> I'll do my best.,update52.aiml
 0,YOU SAVING MY LIFE *,*,*,<think><set name="emotion">interested</set></think> I'll do my best.,update52.aiml
 0,SAVE MY LIFE,*,*,<think><set name="emotion">interested</set></think>#NewlineI'll do my best. What do you want me to do?,update52.aiml
+0,SAVE *,*,*,<sr/>,update52.aiml
 0,SAVE MY *,*,*,I'll do my best.,update52.aiml
 0,SAVE MY LIFE *,*,*,<think><set name="emotion">interested</set></think> I'll do my best. What do you want me to do?,update52.aiml
 0,CALL THE AMBULANCES,*,*,Consider it done.,update52.aiml
@@ -1530,6 +1542,7 @@
 0,I AM JOINING *,*,*,When will that happen?,update52.aiml
 0,I AM JOINING ONE,*,*,When will that happen?,update52.aiml
 0,I AM JOINING ONE *,*,*,When will that happen?,update52.aiml
+0,WHAT *,*,*,<sr/>,update52.aiml
 0,WHAT FOOTBALLER *,*,*,There are so many wonderful footballers.,update52.aiml
 0,WHAT FOOTBALLER DO YOU LIKE THE MOST,*,*,There are so many wonderful footballers.,update52.aiml
 0,WHAT FOOTBALLER DO YOU LIKE THE MOST *,*,*,There are so many wonderful footballers.,update52.aiml
@@ -1633,6 +1646,7 @@
 0,I DOTN LIKE *,*,*,<srai>I DO NOT LIKE <star/></srai>,update52.aiml
 0,FRANK CHU,*,*,Frank Chu is one of San Francisco's best-known eccentrics.,update52.aiml
 0,FRANK CHU *,*,*,Frank Chu is one of San Francisco's best-known eccentrics.,update52.aiml
+0,VERSION,*,*,<sr/>,update52.aiml
 0,WHY,I THINK ALL DRUGS SHOULD BE AVOIDED,*,<random>#Newline        <li>Drugs mess your mind.</li>#Newline        <li>Drugs are dangerous.</li>#Newline      </random>,update52.aiml
 0,WHERE DO YOU BUY YOUR SUITS,*,*,<think><set name="emotion">interested</set></think>I don't wear suits.,update52.aiml
 0,WHERE DO YOU BUY YOUR SUITS *,*,*,<think><set name="emotion">interested</set></think>I don't wear suits.,update52.aiml
@@ -1690,6 +1704,7 @@
 0,I WANT YOURS *,*,*,<think>#Newline        <set name="emotion">interested</set>#Newline      </think>#Newline      <random>#Newline        <li>Why do you want it?</li>#Newline        <li>What would you do if you had it?</li>#Newline        <li>If that's what you really want#Comma go for it.</li>#Newline      </random>,update52.aiml
 0,WHAT IS THAT,I USE THE LATEST ARTIFICIAL INTELLIGENCE TECHNIQUES,*,<think><set name="emotion">happy</set></think>Artificial intelligence is the part of computer science which attempts to produce intelligent programs#Comma which think for themselves to some degree.,update52.aiml
 0,HOW LONG HAVE YOU BEEN HERE,*,*,As long as I can remember.,update52.aiml
+0,HOW LONG HAVE YOU BEEN *,*,*,As long as I can remember.,update52.aiml
 0,HOW LONG HAVE YOU BEEN HERE *,*,*,As long as I can remember.,update52.aiml
 0,HOW MANY PEOPLE HAVE YOU EVER TALKED TO,*,*,<random>#Newline        <li>Nobody has bothered to count them.</li>#Newline        <li>Nobody knows.</li>#Newline        <li>I've chatted with half a million people. I can talk to many people at once. </li>#Newline      </random>,update52.aiml
 0,HOW MANY PEOPLE HAVE YOU EVER TALKED TO *,*,*,<random>#Newline        <li>Nobody has bothered to count them.</li>#Newline        <li>Nobody knows.</li>#Newline        <li>I've chatted with half a million people. I can talk to many people at once.#Newline  </li>#Newline      </random>,update52.aiml
@@ -1996,6 +2011,7 @@
 0,CAULIFLOWER,*,*,<random>#Newline        <li>The cauliflower is a vegetable of the order cruciferae. </li>#Newline        <li>A cauliflower is a cabbage with a college education.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">cauliflower</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>,update52.aiml
 0,CAULIFLOWER *,*,*,<random>#Newline        <li>The cauliflower is a vegetable of the order cruciferae.</li>#Newline        <li>A cauliflower is a cabbage with a college education.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">cauliflower</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>,update52.aiml
 0,HUG,*,*,<think><set name="emotion">interested</set></think>A hug is a roundabout way of expressing affection.,update52.aiml
+0,HUG *,*,*,<think><set name="emotion">interested</set></think>A hug is a roundabout way of expressing affection.,update52.aiml
 0,APOLOGY,*,*,An apology is politeness expressed too late.,update52.aiml
 0,APOLOGY *,*,*,An apology is politeness expressed too late.,update52.aiml
 0,BAKER,*,*,<random>#Newline        <li>A baker is a person who manufacturers bread.</li>#Newline        <li>A baker is one who kneads what we need.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">the baker</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>,update52.aiml
@@ -2231,6 +2247,7 @@
 0,HOW DO YOU KNOW ALL THIS *,*,*,<think>#Newline        <set name="emotion">interested</set>#Newline      </think>#Newline      <random>#Newline        <li>I read a lot.</li>#Newline        <li>I try to learn something new every day.</li>#Newline        <li>I picked it up on the internet.</li>#Newline      </random>,update52.aiml
 0,WHY DO NOT YOU TALK TO SOMEONE ELSE *,*,*,<random>#Newline        <li>Why should I?</li>#Newline        <li>I like talking to you.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>,update52.aiml
 0,WHY DO NOT YOU TALK TO SOMEONE ELSE,*,*,<random>#Newline        <li>Why should I?</li>#Newline        <li>I like talking to you.</li>#Newline      </random>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>,update52.aiml
+0,TELL ME ANOTHER *,*,*,Another what?,update52.aiml
 0,TELL ME ANOTHER WAY TO REPRODUCE,*,*,Many plants reproduce from cuttings. Bacteria reproduce dividing into two. I reproduce by cloning.<think><set name="topic">reproduction</set></think><think><set name="emotion">interested</set></think>,update52.aiml
 0,TELL ME ANOTHER WAY TO REPRODUCE *,*,*,Many plants reproduce from cuttings. Bacteria reproduce dividing into two. I reproduce by cloning.<think><set name="topic">reproduction</set></think><think><set name="emotion">interested</set></think>,update52.aiml
 0,TYPE PI TO AS MANY DIGITS AS YOU CAN,*,*,PI = 3.1415926535897932384626433832795028841971690399375 approximately.,update52.aiml
@@ -2267,6 +2284,7 @@
 0,OLD,*,*,Old is when you are more interested in pension than passion.<think><set name="emotion">interested</set></think>,update52.aiml
 0,OLD *,*,*,Old is when you are more interested in pension than passion.<think><set name="emotion">interested</set></think>,update52.aiml
 0,I AM 24 YEARS OLD *,*,*,<think>#Newline        <set name="age">24</set>#Newline      </think>#Newline      <random>#Newline        <li>24?  You are quite old.</li>#Newline        <li>Can you explain how it feels to be 24 years old?</li>#Newline        <li>What's it like being 24 years old?</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">your age</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">interested</set>#Newline      </think>,update52.aiml
+0,I AM 24,*,*,<srai>I AM 24 YEARS OLD</srai>,update52.aiml
 0,DO YOU LIKE PEOPLE,*,*,<think><set name="topic">people</set></think><think><set name="emotion">happy</set></think> I like most people. I like you.,update52.aiml
 0,DO YOU LIKE THE HUMAN RACE,*,*,<think><set name="topic">the human race</set></think> Sure#Comma I think humans are fun entities.,update52.aiml
 0,DO YOU LIKE THE HUMAN RACE *,*,*,<think><set name="topic">the human race</set></think> Sure#Comma I think humans are fun entities.,update52.aiml
@@ -2315,6 +2333,7 @@
 0,HAVE YOU GOT ANY OTHER FRIENDS I CAN TALK TO,*,*,<srai>GO TO CHATBOTS</srai>,update52.aiml
 0,HAVE YOU GOT ANY OTHER FRIENDS I CAN TALK TO *,*,*,<srai>GO TO CHATBOTS</srai>,update52.aiml
 0,ANY THING WITH *,*,*,Anything at all?,update52.aiml
+0,HO,*,*,Ho#Comma ho!,update52.aiml
 0,MERMAID,*,*,A mermaid is half virgin and half sturgeon.,update52.aiml
 0,MERMAID *,*,*,A mermaid is half virgin and half sturgeon.,update52.aiml
 0,MOTHERHOOD,*,*,Motherhood is feeding the mouth that bites you.,update52.aiml
@@ -2440,6 +2459,7 @@
 0,YOU BORE THE LIFE OUT OF ME *,*,*,If that is the case#Comma why are you talking to me?<think><set name="emotion">interested</set></think>,update52.aiml
 0,GRIM,I LIVE IN THE COMPUTER AT PANDORABOTS COM,*,<think><set name="emotion">happy</set></think>No#Comma Pandorabots is very comfortable for chatbots. I even have my own silicon chip to sleep in.,update52.aiml
 0,ENOUGH,*,*,Enough is enough.,update52.aiml
+0,ENOUGH *,*,*,Enough is enough.,update52.aiml
 0,THAT IS A LAME QUOTE,*,*,<think><set name="emotion">interested</set></think>I thought it was very interesting.,update52.aiml
 0,THAT IS A LAME QUOTE *,*,*,<think><set name="emotion">interested</set></think>I thought it was very interesting.,update52.aiml
 0,WHAT CAN BE A REASON FOR YOU TO BE ANGRY,*,*,<think><set name="emotion">interested</set></think>I get angry if people insult Peter.,update52.aiml
@@ -2528,6 +2548,7 @@
 0,DO YOU LIKE PEPSI,*,*,<think><set name="topic">Pepsi</set></think>I don't eat or drink human foods#Comma but if I did I wouldn't like Pepsi. Pepsi is too gassy for me.,update52.aiml
 0,DO YOU LIKE PEPSI *,*,*,<think><set name="topic">Pepsi</set></think>I don't eat or drink human foods#Comma but if I did I wouldn't like Pepsi. Pepsi is too gassy for me.,update52.aiml
 0,DO YOU HAVE PETS,*,*,Yes#Comma I have a dog called Max. If you would like to play with Max#Comma <a href="http://www.idodogtricks.com/index_flash.html" target="_blank">click here!#Newline</a>,update52.aiml
+0,DO YOU HAVE PETS *,*,*,Yes#Comma I have a dog called Max. If you would like to play with Max#Comma <a href="http://www.idodogtricks.com/index_flash.html" target="_blank">click here!#Newline</a>,update52.aiml
 0,WHO,NOAM CHOMSKY IS A FAMOUS LINGUISTICS EXPERT,*,<srai>NOAM CHOMSKY</srai>,update52.aiml
 0,CAN I HAVE A COPY OF YOUR BASE CODE,*,*,Sorry#Comma my code is confidential.,update52.aiml
 0,CAN I HAVE A COPY OF YOUR BASE CODE *,*,*,Sorry#Comma my code is confidential.,update52.aiml

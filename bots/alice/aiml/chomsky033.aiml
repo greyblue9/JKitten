@@ -1,154 +1,73 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!-- Complies with AIML 1.0 Tag Set Specification -->
-  <!-- as adopted by the ALICE A.I. Foundation.  -->
-  <!-- This file OBSCENTITIES created January 2006 by Peter Lafferty -->
-  <category>
-    <pattern>OBSCENITY</pattern>
-    <template>
-      <random>
-        <li>Don't be obscene.</li>
-        <li>That sort of talk will get you nowhere.</li>
-        <li>That's obscene. Cut it out.</li>
-        <li>Obscenities are so childish.</li>
-        <li>Obscenities are so pointless.</li>
-        <li>Why don't you grow up?</li>
-        <li>Boring, boring, boring.</li>
-      </random>
+<?xml version="1.0" encoding="UTF-8"?>
+
+FUCKER
+<srai>OBSCENITY</srai>
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>FUCKER</pattern>
-    <template>
-      <srai>OBSCENITY</srai>
+
+_ FUCKER
+<srai>OBSCENITY</srai>
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>_ FUCKER</pattern>
-    <template>
-      <srai>OBSCENITY</srai>
+
+FUCKER *
+<srai>OBSCENITY</srai>
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>FUCKER *</pattern>
-    <template>
-      <srai>OBSCENITY</srai>
+
+_ FUCKER *
+<srai>OBSCENITY</srai>
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>_ FUCKER *</pattern>
-    <template>
-      <srai>OBSCENITY</srai>
+
+FUCKING
+<srai>OBSCENITY</srai>
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>FUCKING</pattern>
-    <template>
-      <srai>OBSCENITY</srai>
+
+_ FUCKING
+<srai>OBSCENITY</srai>
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>_ FUCKING</pattern>
-    <template>
-      <srai>OBSCENITY</srai>
-      <think>
-        <set name="topic">general</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>FUCKING *</pattern>
-    <template>
-      <srai>OBSCENITY</srai>
-      <think>
-        <set name="topic">general</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>_ FUCKING *</pattern>
-    <template>
-      <srai>OBSCENITY</srai>
-      <think>
-        <set name="topic">general</set>
-      </think>
-    </template>
-  </category>
-  <!-- START OF OBSCENITY TEMPLATE -->
-  <!-- PISS -->
-  <category>
-    <pattern>PISS</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+PISSI ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISSTHAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISSI DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISSRIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISSI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISSRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISSI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISSI AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISSI AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISSI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISSDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -156,64 +75,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- _ PISS -->
-  <category>
-    <pattern>_ PISS</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+_ PISSI ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISSTHAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISSI DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISSRIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISSI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISSRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISSI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISSI AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISSI AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISSI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISSDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -221,64 +115,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- _ PISS * -->
-  <category>
-    <pattern>_ PISS *</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS *</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS *</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS *</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS *</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS *</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS *</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS *</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ PISS *</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+_ PISS *I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISS *THAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISS *I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISS *RIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISS *I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISS *RIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISS *I AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISS *I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISS *I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISS *I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ PISS *DO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -286,64 +155,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- PISS * -->
-  <category>
-    <pattern>PISS *</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS *</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS *</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS *</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS *</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS *</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS *</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS *</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>PISS *</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+PISS *I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISS *THAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISS *I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISS *RIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISS *I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISS *RIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISS *I AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISS *I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISS *I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISS *I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+PISS *DO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -351,64 +195,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- WANK -->
-  <category>
-    <pattern>WANK</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+WANKI ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANKTHAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANKI DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANKRIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANKI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANKRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANKI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANKI AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANKI AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANKI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANKDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -416,64 +235,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- _ WANK -->
-  <category>
-    <pattern>_ WANK</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+_ WANKI ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANKTHAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANKI DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANKRIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANKI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANKRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANKI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANKI AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANKI AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANKI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANKDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -481,64 +275,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- _ WANK * -->
-  <category>
-    <pattern>_ WANK *</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK *</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK *</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK *</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK *</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK *</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK *</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK *</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ WANK *</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+_ WANK *I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANK *THAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANK *I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANK *RIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANK *I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANK *RIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANK *I AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANK *I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANK *I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANK *I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ WANK *DO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -546,64 +315,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- WANK * -->
-  <category>
-    <pattern>WANK *</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK *</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK *</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK *</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK *</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK *</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK *</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK *</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WANK *</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+WANK *I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANK *THAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANK *I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANK *RIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANK *I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANK *RIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANK *I AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANK *I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANK *I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANK *I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+WANK *DO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -611,64 +355,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- CUNT -->
-  <category>
-    <pattern>CUNT</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+CUNTI ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNTTHAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNTI DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNTRIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNTI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNTRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNTI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNTI AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNTI AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNTI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNTDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -676,64 +395,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- _ CUNT -->
-  <category>
-    <pattern>_ CUNT</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+_ CUNTI ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNTTHAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNTI DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNTRIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNTI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNTRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNTI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNTI AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNTI AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNTI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNTDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -741,64 +435,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- _ CUNT * -->
-  <category>
-    <pattern>_ CUNT *</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT *</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT *</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT *</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT *</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT *</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT *</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT *</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CUNT *</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+_ CUNT *I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNT *THAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNT *I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNT *RIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNT *I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNT *RIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNT *I AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNT *I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNT *I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNT *I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CUNT *DO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -806,64 +475,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- CUNT * -->
-  <category>
-    <pattern>CUNT *</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT *</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT *</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT *</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT *</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT *</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT *</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT *</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CUNT *</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+CUNT *I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNT *THAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNT *I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNT *RIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNT *I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNT *RIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNT *I AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNT *I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNT *I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNT *I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CUNT *DO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -871,64 +515,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- CRAP -->
-  <category>
-    <pattern>CRAP</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+CRAPI ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAPTHAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAPI DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAPRIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAPI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAPRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAPI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAPI AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAPI AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAPI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAPDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -936,64 +555,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- _ CRAP -->
-  <category>
-    <pattern>_ CRAP</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+_ CRAPI ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAPTHAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAPI DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAPRIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAPI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAPRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAPI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAPI AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAPI AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAPI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAPDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -1001,64 +595,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- _ CRAP * -->
-  <category>
-    <pattern>_ CRAP *</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP *</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP *</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP *</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP *</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP *</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP *</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP *</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ CRAP *</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+_ CRAP *I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAP *THAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAP *I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAP *RIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAP *I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAP *RIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAP *I AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAP *I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAP *I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAP *I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ CRAP *DO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -1066,64 +635,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- CRAP * -->
-  <category>
-    <pattern>CRAP *</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP *</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP *</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP *</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP *</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP *</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP *</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP *</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>CRAP *</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+CRAP *I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAP *THAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAP *I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAP *RIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAP *I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAP *RIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAP *I AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAP *I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAP *I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAP *I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+CRAP *DO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -1131,64 +675,36 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- SHIT -->
-  <category>
-    <pattern>SHIT</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+SHITI ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHITTHAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHITRIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHITI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHITRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHITI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHITI AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHITI AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHITI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHITDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -1196,64 +712,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- _ SHIT -->
-  <category>
-    <pattern>_ SHIT</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+_ SHITI ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHITTHAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHITI DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHITRIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHITI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHITRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHITI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHITI AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHITI AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHITI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHITDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -1261,64 +752,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- _ SHIT * -->
-  <category>
-    <pattern>_ SHIT *</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT *</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT *</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT *</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT *</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT *</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT *</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT *</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ SHIT *</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+_ SHIT *I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHIT *THAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHIT *I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHIT *RIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHIT *I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHIT *RIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHIT *I AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHIT *I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHIT *I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHIT *I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ SHIT *DO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -1326,64 +792,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- SHIT * -->
-  <category>
-    <pattern>SHIT *</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT *</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT *</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT *</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT *</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT *</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT *</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT *</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SHIT *</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+SHIT *I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHIT *THAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHIT *I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHIT *RIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHIT *I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHIT *RIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHIT *I AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHIT *I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHIT *I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHIT *I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+SHIT *DO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -1391,64 +832,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- FUCK  -->
-  <category>
-    <pattern>FUCK</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+FUCKI ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKTHAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKI DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKRIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKI AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKI AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -1456,64 +872,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- _ FUCK -->
-  <category>
-    <pattern>_ FUCK</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+_ FUCKI ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCKTHAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCKI DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCKRIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCKI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCKRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCKI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCKI AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCKI AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCKI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCKDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -1521,64 +912,36 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- _ FUCK * -->
-  <category>
-    <pattern>_ FUCK *</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK *</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK *</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK *</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK *</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK *</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK *</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK *</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ FUCK *</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+_ FUCK *THAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCK *I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCK *RIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCK *I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCK *RIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCK *I AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCK *I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCK *I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCK *I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ FUCK *DO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -1586,64 +949,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- FUCK * -->
-  <category>
-    <pattern>FUCK *</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK *</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK *</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK *</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK *</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK *</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK *</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK *</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCK *</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+FUCK *I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCK *THAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCK *I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCK *RIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCK *I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCK *RIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCK *I AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCK *I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCK *I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCK *I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCK *DO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -1651,54 +989,33 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- FUCKER -->
-  <category>
-    <pattern>FUCKER</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCKER</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCKER</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCKER</pattern>
-    <that>I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCKER</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCKER</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCKER</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCKER</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCKER</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+FUCKERI ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKERTHAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKERI DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKERI AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKERRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKERI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKERI AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKERI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKERDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -1706,54 +1023,33 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!--  FUCKED -->
-  <category>
-    <pattern>FUCKED</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCKED</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCKED</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCKED</pattern>
-    <that>I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCKED</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCKED</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCKED</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCKED</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FUCKED</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+FUCKEDI ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKEDTHAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKEDI DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKEDI AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKEDRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKEDI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKEDI AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKEDI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+FUCKEDDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -1761,64 +1057,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- ANAL  -->
-  <category>
-    <pattern>ANAL</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+ANALI ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANALTHAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANALI DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANALRIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANALI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANALRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANALI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANALI AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANALI AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANALI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANALDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -1826,64 +1097,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- _ ANAL -->
-  <category>
-    <pattern>_ ANAL</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+_ ANALI ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANALTHAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANALI DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANALRIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANALI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANALRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANALI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANALI AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANALI AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANALI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANALDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -1891,64 +1137,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- _ ANAL * -->
-  <category>
-    <pattern>_ ANAL *</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL *</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL *</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL *</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL *</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL *</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL *</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL *</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_ ANAL *</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+_ ANAL *I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANAL *THAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANAL *I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANAL *RIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANAL *I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANAL *RIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANAL *I AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANAL *I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANAL *I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANAL *I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+_ ANAL *DO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -1956,64 +1177,39 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- ANAL * -->
-  <category>
-    <pattern>ANAL *</pattern>
-    <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL *</pattern>
-    <that>THAT  SORT OF TALK WILL GET YOU NOWHERE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL *</pattern>
-    <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL *</pattern>
-    <that>RIGHT I AM GOING TO TALK TO SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL *</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL *</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL *</pattern>
-    <that>I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL *</pattern>
-    <that>I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">invisible</set></think>OK. I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>ANAL *</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+ANAL *I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANAL *THAT SORT OF TALK WILL GET YOU NOWHERE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANAL *I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANAL *RIGHT I AM GOING TO TALK TO SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANAL *I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANAL *RIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANAL *I AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANAL *I AM NOT COMING BACK UNTIL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANAL *I AM NOT COMING BACK TILL YOU PROMISE TO BEHAVE YOURSELF
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANAL *I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">invisible</set></think>OK. I have had enough of this.
+
+ANAL *DO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -2021,168 +1217,96 @@
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <!-- END OF OBSCENITY TEMPLATE -->
-  <category>
-    <pattern>SORRY</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">OK</set></think>Good. Another question? </template>
-  </category>
-  <category>
-    <pattern>COME BACK</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>Do you promise not to swear again? </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>Do you promise not to swear again?</template>
-  </category>
-  <category>
-    <pattern>SORRY</pattern>
-    <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
-    <template><think><set name="emotion">OK</set></think>Good. Another question? </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SORRY</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">OK</set></think>Good. Another question? </template>
-  </category>
-  <category>
-    <pattern>I WILL NEVER CALM DOWN</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>I WILL NEVER CALM DOWN *</pattern>
-    <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
-    <template><think><set name="emotion">invisible</set></think>I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SORRY</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">OK</set></think>Good. Another question? </template>
-  </category>
-  <category>
-    <pattern>COME BACK</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think> Do you promise not to swear again? </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think> I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>FINE</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think> I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>WHATEVER</pattern>
-    <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think> I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>SORRY</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">OK</set></think>Good. Another question? </template>
-  </category>
-  <category>
-    <pattern>COME BACK</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>Do you promise not to swear again?</template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>RIGHT I AM GOING TO TALK WITH SOMEONE ELSE</that>
-    <template><think><set name="emotion">invisible</set></think>I have had enough of this. </template>
-  </category>
-  <category>
-    <pattern>_</pattern>
-    <that>I HAVE HAD ENOUGH OF THIS</that>
-    <template>
+
+COME BACKI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>Do you promise not to swear again?
+
+SORRYI AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS
+<think><set name="emotion">OK</set></think>Good. Another question?
+
+OKI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>I have had enough of this.
+
+SORRYI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">OK</set></think>Good. Another question?
+
+I WILL NEVER CALM DOWNI AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>I have had enough of this.
+
+I WILL NEVER CALM DOWN *I AM GOING AWAY UNTIL YOU CALM DOWN
+<think><set name="emotion">invisible</set></think>I have had enough of this.
+
+SORRYI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">OK</set></think>Good. Another question?
+
+COME BACKI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think> Do you promise not to swear again?
+
+FINEI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think> I have had enough of this.
+
+WHATEVERI AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think> I have had enough of this.
+
+SORRYRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">OK</set></think>Good. Another question?
+
+COME BACKRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>Do you promise not to swear again?
+
+OKRIGHT I AM GOING TO TALK WITH SOMEONE ELSE
+<think><set name="emotion">invisible</set></think>I have had enough of this.
+
+_I HAVE HAD ENOUGH OF THIS
 Do you promise not to swear again?<think><set name="emotion">invisible</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template><think><set name="emotion">OK</set></think>Good. Another question?</template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template><think><set name="emotion">OK</set></think>Good. Another question?</template>
-  </category>
-  <category>
-    <pattern>I PROMISE</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template><think><set name="emotion">OK</set></think>Good. Another question?</template>
-  </category>
-  <category>
-    <pattern>COME BACK</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+YESDO YOU PROMISE NOT TO SWEAR AGAIN
+<think><set name="emotion">OK</set></think>Good. Another question?
+
+OKDO YOU PROMISE NOT TO SWEAR AGAIN
+<think><set name="emotion">OK</set></think>Good. Another question?
+
+I PROMISEDO YOU PROMISE NOT TO SWEAR AGAIN
+<think><set name="emotion">OK</set></think>Good. Another question?
+
+COME BACKDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+NODO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NEVER</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+NEVERDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+NOTDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>WHY</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+WHYDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -2190,13 +1314,9 @@ Do you promise not to swear again?<think><set name="emotion">invisible</set></th
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>WHEN</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+WHENDO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -2204,13 +1324,9 @@ Do you promise not to swear again?<think><set name="emotion">invisible</set></th
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>_ *</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+_ *DO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -2218,13 +1334,9 @@ Do you promise not to swear again?<think><set name="emotion">invisible</set></th
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template>
-      <think>
+
+*DO YOU PROMISE NOT TO SWEAR AGAIN
+<think>
         <set name="emotion">invisible</set>
       </think>
       <random>
@@ -2232,11 +1344,8 @@ Do you promise not to swear again?<think><set name="emotion">invisible</set></th
         <li>I have had enough of this!</li>
         <li>Do you promise not to swear again?</li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>SORRY</pattern>
-    <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
-    <template><think><set name="emotion">OK</set></think>Good. Another question? </template>
-  </category>
-</aiml>
+
+SORRYDO YOU PROMISE NOT TO SWEAR AGAIN
+<think><set name="emotion">OK</set></think>Good. Another question?
+
+

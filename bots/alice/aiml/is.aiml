@@ -1,100 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0">
-  <!-- File: reductions1.aiml -->
-  <!-- Last modified: September 5, 2014 -->
-  <!--  -->
-  <!-- This AIML file is part of the Rosie knowledge base. -->
-  <!--  -->
-  <!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
-  <!--  -->
-  <!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
-  <!--  -->
-  <!-- The Rosie brain is released under the terms of the GNU Lesser General -->
-  <!-- Public License, as published by the Free Software Foundation. -->
-  <!--  -->
-  <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
-  <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
-  <!--  -->
-  <!-- For more information: -->
-  <!-- http://www.pandorabots.com -->
-  <!--  http://www.alicebot.org -->
-  <!--  -->
-  <!-- Modified for Y-Bot by Keith Sterling July 2017 -->
-  <category>
-    <pattern>IT IS IT *</pattern>
-    <template>
-      <srai>IS IT
+
+IT IS IT *
+<srai>IS IT
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU THINK THAT * IS *</pattern>
-    <template>
-      <srai>IS
+
+DO YOU THINK THAT * IS *
+<srai>IS
                 <star/>
                 <star index="2"/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU THINK HE IS *</pattern>
-    <template>
-      <srai>IS HE
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* MALE OR *</pattern>
-    <template>
-      <srai>IS
+
+* MALE OR *
+<srai>IS
                 <star/>
                 MALE OR
                 <star index="2"/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>COOL IS *</pattern>
-    <template>
-      <srai>COOL</srai>
+
+COOL IS *
+<srai>COOL</srai>
       <srai>IS
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU THINK IT WOULD BE *</pattern>
-    <template>
-      <srai>IS IT
+
+DO YOU THINK IT WOULD BE *
+<srai>IS IT
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHY DO PEOPLE THINK * IS *</pattern>
-    <template>
-      <srai>IS
+
+WHY DO PEOPLE THINK * IS *
+<srai>IS
                 <star/>
                 <star index="2"/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU THINK <set>article</set> * IS *
-        </pattern>
-    <template>
-      <srai>IS
+
+DO YOU THINK <set>article</set> * IS *
+<srai>IS
                 <star/>
                 <star index="2"/>
                 <star index="3"/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IS _ * OR *</pattern>
-    <template>Is
+
+IS _ * OR *
+Is
             <star/>
             <star index="2"/>?
             <srai>IS
@@ -108,12 +57,9 @@
                 <star/>
                 <star index="3"/>
             </srai>
-        </template>
-  </category>
-  <category>
-    <pattern>IS _ <set>article</set> * OR *
-        </pattern>
-    <template>Is
+
+IS _ <set>article</set> * OR *
+Is
             <star/>
             <star index="2"/>
             <star index="3"/>?
@@ -129,93 +75,44 @@
                 <star/>
                 <star index="4"/>
             </srai>
-        </template>
-  </category>
-  <category>
-    <pattern>IS ANYBODY HERE #</pattern>
-    <template>
-      <srai>IS ANYBODY THERE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IS ANYONE HERE #</pattern>
-    <template>
-      <srai>IS ANYBODY THERE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IS ANYONE THERE #</pattern>
-    <template>
-      <srai>IS ANYBODY THERE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU THINK THAT IS *</pattern>
-    <template>
-      <srai>IS THAT
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU THINK MY * IS *</pattern>
-    <template>
-      <srai>IS MY
+
+IS ANYBODY HERE #
+<srai>IS ANYBODY THERE</srai>
+
+IS ANYONE HERE #
+<srai>IS ANYBODY THERE</srai>
+
+IS ANYONE THERE #
+<srai>IS ANYBODY THERE</srai>
+
+DO YOU THINK MY * IS *
+<srai>IS MY
                 <star/>
                 <star index="2"/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* A BOY OR *</pattern>
-    <template>
-      <srai>IS
+
+* A BOY OR *
+<srai>IS
                 <star/>
                 A BOY OR
                 <star index="2"/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHY DO PEOPLE THINK * IS SO *</pattern>
-    <template>
-      <srai>IS
+
+WHY DO PEOPLE THINK * IS SO *
+<srai>IS
                 <star/>
                 <star index="2"/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WAS IT *</pattern>
-    <template>
-      <srai>IS IT
+
+WELL IS *
+<srai>IS
                 <star/>
             </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WELL IS *</pattern>
-    <template>
-      <srai>IS
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU THINK IT IS *</pattern>
-    <template>
-      <srai>IS IT
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU THINK * IS *</pattern>
-    <template>
-      <srai>IS
+
+DO YOU THINK * IS *
+<srai>IS
                 <star/>
                 <star index="2"/>
             </srai>
-    </template>
-  </category>
-</aiml>
+
+

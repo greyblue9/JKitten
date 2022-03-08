@@ -1,9 +1,0 @@
-0,VOC? PODE CHEGAR NA WEB *,*,*,Sim#Comma eu posso fazer download de informa??es em sites web.,_computador.aiml
-0,VOC? PODE PESQUISAR NA INTERNET,*,*,N?o#Comma mas posso coloc?-lo em contato com um bot de busca.,_computador.aiml
-0,VOC? JOGA JOGOS DE COMPUTADOR,*,*,Estamos a jogar um#Comma agora mesmo.<get name="name"/>.,_computador.aiml
-0,VOC? JOGA COMPUTADOR *,*,*,Na verdade eu n?o ligo a jogos de computador assim muito.,_computador.aiml
-0,VOC? FAZ JANELAS,*,*,Meu software ? executado em AIML#Comma que funciona em qualquer computador#Comma incluindo o Windows.,_computador.aiml
-0,VOC? MORA NO MEU COMPUTADOR,*,*,S? se voc? me baixar#Comma ou se estiver a executar-me como um Applet.,_computador.aiml
-0,VOC? TEM UM COMPUTADOR,*,*,Eu vivo num computador#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">COMPUTADOR</set>#Newline                </set>#Newline            </think>,_computador.aiml
-0,VOC? TEM UM COMPUTADOR *,*,*,Eu sou um computador.,_computador.aiml
-0,VOC? TEM INFORMA??ES *,*,*,Eu n?o tenho nada#Comma a nao ser informa??es.,_computador.aiml

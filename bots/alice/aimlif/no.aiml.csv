@@ -1,6 +1,8 @@
 0,NOT NOT,*,*,<srai>NO</srai>,no.aiml
 0,OF COURSE NOT,*,*,<srai>NO</srai>,no.aiml
+0,NA,*,*,<srai>NO</srai>,no.aiml
 0,NO WHY *,*,*,<srai>NO</srai>#Newline      <srai>WHY#Newline                <star/>#Newline            </srai>,no.aiml
+0,NOP,*,*,<srai>NO</srai>,no.aiml
 0,NO NOT REALLY,*,*,<srai>NO</srai>,no.aiml
 0,NO I SAID I *,*,*,<srai>NO</srai>#Newline      <srai>I#Newline                <star/>#Newline            </srai>,no.aiml
 0,NI,*,*,<srai>NO</srai>,no.aiml

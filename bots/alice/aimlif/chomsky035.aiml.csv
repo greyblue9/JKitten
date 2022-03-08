@@ -44,6 +44,7 @@
 0,DRAUGISKAI *,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
 0,DU *,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
 0,DUODI,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
+0,E *,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
 0,ESRT,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
 0,EST,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
 0,FORA *,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
@@ -137,6 +138,7 @@
 0,NIHUJA,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
 0,NORIU,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
 0,NU *,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
+0,OI,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
 0,OOOOOK,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
 0,OOOOOOOOOOOOOOOOOOOOOOK,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
 0,ORAI,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
@@ -172,6 +174,7 @@
 0,SIXTYNINE *,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
 0,SKAMBINT,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
 0,SNEKEJO *,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
+0,GIBBERISH,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <random>#Newline        <li>That is rubbish. Please ask a proper question.</li>#Newline        <li>Can you please speak English?</li>#Newline        <li>What language is that?</li>#Newline        <li>Don't be silly. </li>#Newline      </random>,chomsky035.aiml
 0,STRANG,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
 0,SUGADINAU,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml
 0,SUVESI *,*,*,<think>#Newline        <set name="topic">gibberish</set>#Newline      </think>#Newline      <srai>GIBBERISH</srai>,chomsky035.aiml

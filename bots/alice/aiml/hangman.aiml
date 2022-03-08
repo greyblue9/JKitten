@@ -1,37 +1,13 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<aiml>
-
-	<!-- Free software (c) 2013 Square Bear.   -->
-	<!-- This program is open source code released under -->
-	<!-- the terms of the GNU General Public License     -->
-	<!-- as published by the Free Software Foundation.   -->
-	<!-- Complies with AIML 1.0 Tag Set Specification -->
-	<!-- as adopted by the ALICE A.I. Foundation.  -->
-	<!-- Hangman written by Square Bear -->
-	<!-- This still needs some work on it. -->
-	<!-- Feel free to complete it -->
-	<!-- Say TEXTHANGMAN to start the game -->
-
-
-<!-- Intro screen -->
-
-<category>
-<pattern>TEXTHANGMAN</pattern>
-<template>
+TEXTHANGMAN
 <think>
 	<set name="lives">10 lives</set>
 </think>
 It's something to do with today.
 <srai>XCHOOSEHANGMANWORD</srai>
-</template>
-</category>
 
-
-
-<category>
-<pattern>XCHOOSEHANGMANWORD</pattern>
-<template>
+XCHOOSEHANGMANWORD
 <think>
 <random>
 <li><set name="puzzgrid">CHATBOTS</set><set name="puzzanswer">CHATBOTS</set></li>
@@ -94,39 +70,83 @@ It's something to do with today.
 </think>
 <srai>XDISPLAYHANGMANGRID</srai>
 <srai>XUSERGUESSLETTER</srai>
-</template>
-</category>
 
+XCREATEHANGMANPUZZLE *
+<set name="puzzlength">1</set><set name="puzzlett1"><star index="1"/></set>
 
-<category><pattern>XCREATEHANGMANPUZZLE *</pattern><template><set name="puzzlength">1</set><set name="puzzlett1"><star index="1"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * *</pattern><template><set name="puzzlength">2</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * *</pattern><template><set name="puzzlength">3</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * *</pattern><template><set name="puzzlength">4</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * *</pattern><template><set name="puzzlength">5</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * *</pattern><template><set name="puzzlength">6</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * *</pattern><template><set name="puzzlength">7</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * *</pattern><template><set name="puzzlength">8</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * *</pattern><template><set name="puzzlength">9</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * * *</pattern><template><set name="puzzlength">10</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * * * *</pattern><template><set name="puzzlength">11</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * * * * *</pattern><template><set name="puzzlength">12</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * * * * * *</pattern><template><set name="puzzlength">13</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * * * * * * *</pattern><template><set name="puzzlength">14</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett13"><star index="14"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * *</pattern><template><set name="puzzlength">15</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * *</pattern><template><set name="puzzlength">16</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * *</pattern><template><set name="puzzlength">17</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * * *</pattern><template><set name="puzzlength">18</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set><set name="puzzlett18"><star index="18"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * * * *</pattern><template><set name="puzzlength">19</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set><set name="puzzlett18"><star index="18"/></set><set name="puzzlett19"><star index="19"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * * * * *</pattern><template><set name="puzzlength">20</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set><set name="puzzlett18"><star index="18"/></set><set name="puzzlett19"><star index="19"/></set><set name="puzzlett20"><star index="20"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * * * * * *</pattern><template><set name="puzzlength">21</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set><set name="puzzlett18"><star index="18"/></set><set name="puzzlett19"><star index="19"/></set><set name="puzzlett20"><star index="20"/></set><set name="puzzlett21"><star index="21"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * * * * * * *</pattern><template><set name="puzzlength">22</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set><set name="puzzlett18"><star index="18"/></set><set name="puzzlett19"><star index="19"/></set><set name="puzzlett20"><star index="20"/></set><set name="puzzlett21"><star index="21"/></set><set name="puzzlett22"><star index="22"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * * * * * * * *</pattern><template><set name="puzzlength">23</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set><set name="puzzlett18"><star index="18"/></set><set name="puzzlett19"><star index="19"/></set><set name="puzzlett20"><star index="20"/></set><set name="puzzlett21"><star index="21"/></set><set name="puzzlett22"><star index="22"/></set><set name="puzzlett23"><star index="23"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * * * * * * * * *</pattern><template><set name="puzzlength">24</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set><set name="puzzlett18"><star index="18"/></set><set name="puzzlett19"><star index="19"/></set><set name="puzzlett20"><star index="20"/></set><set name="puzzlett21"><star index="21"/></set><set name="puzzlett22"><star index="22"/></set><set name="puzzlett23"><star index="23"/></set><set name="puzzlett24"><star index="24"/></set></template></category>
-<category><pattern>XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * * * * * * * * * *</pattern><template><set name="puzzlength">25</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set><set name="puzzlett18"><star index="18"/></set><set name="puzzlett19"><star index="19"/></set><set name="puzzlett20"><star index="20"/></set><set name="puzzlett21"><star index="21"/></set><set name="puzzlett22"><star index="22"/></set><set name="puzzlett23"><star index="23"/></set><set name="puzzlett24"><star index="24"/></set><set name="puzzlett25"><star index="25"/></set></template></category>
+XCREATEHANGMANPUZZLE * *
+<set name="puzzlength">2</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set>
 
-<category>
-<pattern>XDELETEWEIRDLETTERS</pattern>
-<template>
+XCREATEHANGMANPUZZLE * * *
+<set name="puzzlength">3</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set>
+
+XCREATEHANGMANPUZZLE * * * *
+<set name="puzzlength">4</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set>
+
+XCREATEHANGMANPUZZLE * * * * *
+<set name="puzzlength">5</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * *
+<set name="puzzlength">6</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * *
+<set name="puzzlength">7</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * *
+<set name="puzzlength">8</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * *
+<set name="puzzlength">9</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * * *
+<set name="puzzlength">10</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * * * *
+<set name="puzzlength">11</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * * * * *
+<set name="puzzlength">12</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * * * * * *
+<set name="puzzlength">13</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * * * * * * *
+<set name="puzzlength">14</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett13"><star index="14"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * *
+<set name="puzzlength">15</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * *
+<set name="puzzlength">16</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * *
+<set name="puzzlength">17</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * * *
+<set name="puzzlength">18</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set><set name="puzzlett18"><star index="18"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * * * *
+<set name="puzzlength">19</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set><set name="puzzlett18"><star index="18"/></set><set name="puzzlett19"><star index="19"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * * * * *
+<set name="puzzlength">20</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set><set name="puzzlett18"><star index="18"/></set><set name="puzzlett19"><star index="19"/></set><set name="puzzlett20"><star index="20"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * * * * * *
+<set name="puzzlength">21</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set><set name="puzzlett18"><star index="18"/></set><set name="puzzlett19"><star index="19"/></set><set name="puzzlett20"><star index="20"/></set><set name="puzzlett21"><star index="21"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * * * * * * *
+<set name="puzzlength">22</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set><set name="puzzlett18"><star index="18"/></set><set name="puzzlett19"><star index="19"/></set><set name="puzzlett20"><star index="20"/></set><set name="puzzlett21"><star index="21"/></set><set name="puzzlett22"><star index="22"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * * * * * * * *
+<set name="puzzlength">23</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set><set name="puzzlett18"><star index="18"/></set><set name="puzzlett19"><star index="19"/></set><set name="puzzlett20"><star index="20"/></set><set name="puzzlett21"><star index="21"/></set><set name="puzzlett22"><star index="22"/></set><set name="puzzlett23"><star index="23"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * * * * * * * * *
+<set name="puzzlength">24</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set><set name="puzzlett18"><star index="18"/></set><set name="puzzlett19"><star index="19"/></set><set name="puzzlett20"><star index="20"/></set><set name="puzzlett21"><star index="21"/></set><set name="puzzlett22"><star index="22"/></set><set name="puzzlett23"><star index="23"/></set><set name="puzzlett24"><star index="24"/></set>
+
+XCREATEHANGMANPUZZLE * * * * * * * * * * * * * * * * * * * * * * * * *
+<set name="puzzlength">25</set><set name="puzzlett1"><star index="1"/></set><set name="puzzlett2"><star index="2"/></set><set name="puzzlett3"><star index="3"/></set><set name="puzzlett4"><star index="4"/></set><set name="puzzlett5"><star index="5"/></set><set name="puzzlett6"><star index="6"/></set><set name="puzzlett7"><star index="7"/></set><set name="puzzlett8"><star index="8"/></set><set name="puzzlett9"><star index="9"/></set><set name="puzzlett10"><star index="10"/></set><set name="puzzlett11"><star index="11"/></set><set name="puzzlett12"><star index="12"/></set><set name="puzzlett13"><star index="13"/></set><set name="puzzlett14"><star index="14"/></set><set name="puzzlett15"><star index="15"/></set><set name="puzzlett16"><star index="16"/></set><set name="puzzlett17"><star index="17"/></set><set name="puzzlett18"><star index="18"/></set><set name="puzzlett19"><star index="19"/></set><set name="puzzlett20"><star index="20"/></set><set name="puzzlett21"><star index="21"/></set><set name="puzzlett22"><star index="22"/></set><set name="puzzlett23"><star index="23"/></set><set name="puzzlett24"><star index="24"/></set><set name="puzzlett25"><star index="25"/></set>
+
+XDELETEWEIRDLETTERS
 <condition name="puzzlett1"><li value="BE"><set name="puzzlett1">B</set></li><li value="ARE"><set name="puzzlett1">R</set></li><li value="YOU"><set name="puzzlett1">U</set></li><li value="WHY"><set name="puzzlett1">Y</set></li></condition>
 <condition name="puzzlett2"><li value="BE"><set name="puzzlett2">B</set></li><li value="ARE"><set name="puzzlett2">R</set></li><li value="YOU"><set name="puzzlett2">U</set></li><li value="WHY"><set name="puzzlett2">Y</set></li></condition>
 <condition name="puzzlett3"><li value="BE"><set name="puzzlett3">B</set></li><li value="ARE"><set name="puzzlett3">R</set></li><li value="YOU"><set name="puzzlett3">U</set></li><li value="WHY"><set name="puzzlett3">Y</set></li></condition>
@@ -152,13 +172,8 @@ It's something to do with today.
 <condition name="puzzlett23"><li value="BE"><set name="puzzlett23">B</set></li><li value="ARE"><set name="puzzlett23">R</set></li><li value="YOU"><set name="puzzlett23">U</set></li><li value="WHY"><set name="puzzlett23">Y</set></li></condition>
 <condition name="puzzlett24"><li value="BE"><set name="puzzlett24">B</set></li><li value="ARE"><set name="puzzlett24">R</set></li><li value="YOU"><set name="puzzlett24">U</set></li><li value="WHY"><set name="puzzlett24">Y</set></li></condition>
 <condition name="puzzlett25"><li value="BE"><set name="puzzlett25">B</set></li><li value="ARE"><set name="puzzlett25">R</set></li><li value="YOU"><set name="puzzlett25">U</set></li><li value="WHY"><set name="puzzlett25">Y</set></li></condition>
-</template>
-</category>
 
-
-<category>
-<pattern>XADDDASHESTOGRID</pattern>
-<template>
+XADDDASHESTOGRID
 <condition name="puzzlett1"><li value="1"><set name="puzzgrid1">/</set></li></condition>
 <condition name="puzzlett2"><li value="1"><set name="puzzgrid2">/</set></li></condition>
 <condition name="puzzlett3"><li value="1"><set name="puzzgrid3">/</set></li></condition>
@@ -184,12 +199,8 @@ It's something to do with today.
 <condition name="puzzlett23"><li value="1"><set name="puzzgrid23">/</set></li></condition>
 <condition name="puzzlett24"><li value="1"><set name="puzzgrid24">/</set></li></condition>
 <condition name="puzzlett25"><li value="1"><set name="puzzgrid25">/</set></li></condition>
-</template>
-</category>
 
-<category>
-<pattern>XDISPLAYHANGMANGRID</pattern>
-<template>
+XDISPLAYHANGMANGRID
 <condition name="puzzlength">
 <li value="1"><get name="puzzgrid1"/></li>
 <li value="2"><get name="puzzgrid1"/><get name="puzzgrid2"/></li>
@@ -217,20 +228,12 @@ It's something to do with today.
 <li value="24"><get name="puzzgrid1"/><get name="puzzgrid2"/><get name="puzzgrid3"/><get name="puzzgrid4"/><get name="puzzgrid5"/><get name="puzzgrid6"/><get name="puzzgrid7"/><get name="puzzgrid8"/><get name="puzzgrid9"/><get name="puzzgrid10"/><get name="puzzgrid11"/><get name="puzzgrid12"/><get name="puzzgrid13"/><get name="puzzgrid14"/><get name="puzzgrid15"/><get name="puzzgrid16"/><get name="puzzgrid17"/><get name="puzzgrid18"/><get name="puzzgrid19"/><get name="puzzgrid20"/><get name="puzzgrid21"/><get name="puzzgrid22"/><get name="puzzgrid23"/><get name="puzzgrid24"/></li>
 <li value="25"><get name="puzzgrid1"/><get name="puzzgrid2"/><get name="puzzgrid3"/><get name="puzzgrid4"/><get name="puzzgrid5"/><get name="puzzgrid6"/><get name="puzzgrid7"/><get name="puzzgrid8"/><get name="puzzgrid9"/><get name="puzzgrid10"/><get name="puzzgrid11"/><get name="puzzgrid12"/><get name="puzzgrid13"/><get name="puzzgrid14"/><get name="puzzgrid15"/><get name="puzzgrid16"/><get name="puzzgrid17"/><get name="puzzgrid18"/><get name="puzzgrid19"/><get name="puzzgrid20"/><get name="puzzgrid21"/><get name="puzzgrid22"/><get name="puzzgrid23"/><get name="puzzgrid24"/><get name="puzzgrid25"/></li>
 </condition>
-</template>
-</category>
 
-<category>
-<pattern>XUSERGUESSLETTER</pattern>
-<template>
+XUSERGUESSLETTER
 <think><set name="topic">HANGMANGAME</set></think>
 Guess a letter.
-</template>
-</category>
 
-<category>
-<pattern>XHANGMANMAINLOOP</pattern>
-<template>
+XHANGMANMAINLOOP
 <condition name="kount">
 <li value="0">No <get name="letterguess"/>. <srai>XTAKELIFE</srai><get name="lives"/> left</li>
 <li value="1">1 <get name="letterguess"/></li>
@@ -238,43 +241,143 @@ Guess a letter.
 </condition>
 <br/>
 <srai>XDISPLAYHANGMANGRID</srai>
-</template>
-</category>
+
+<topic name="HANGMANGAME">
+*
+Is that your guess? The answer was <get name="puzzanswer"/><think><set name="topic">nothing</set></think>
 
 
 <topic name="HANGMANGAME">
-<category><pattern>*</pattern><template>Is that your guess? The answer was <get name="puzzanswer"/><think><set name="topic">nothing</set></think></template></category>
-<category><pattern>A</pattern><template><think><set name="letterguess">A</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>B</pattern><template><think><set name="letterguess">B</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>C</pattern><template><think><set name="letterguess">C</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>D</pattern><template><think><set name="letterguess">D</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>E</pattern><template><think><set name="letterguess">E</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>F</pattern><template><think><set name="letterguess">F</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>G</pattern><template><think><set name="letterguess">G</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>H</pattern><template><think><set name="letterguess">H</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>I</pattern><template><think><set name="letterguess">I</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>J</pattern><template><think><set name="letterguess">J</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>K</pattern><template><think><set name="letterguess">K</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>L</pattern><template><think><set name="letterguess">L</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>M</pattern><template><think><set name="letterguess">M</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>N</pattern><template><think><set name="letterguess">N</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>O</pattern><template><think><set name="letterguess">O</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>P</pattern><template><think><set name="letterguess">P</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>Q</pattern><template><think><set name="letterguess">Q</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>R</pattern><template><think><set name="letterguess">R</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>S</pattern><template><think><set name="letterguess">S</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>T</pattern><template><think><set name="letterguess">T</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>YOU</pattern><template><think><set name="letterguess">U</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>V</pattern><template><think><set name="letterguess">V</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>W</pattern><template><think><set name="letterguess">W</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>X</pattern><template><think><set name="letterguess">X</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>Y</pattern><template><think><set name="letterguess">Y</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-<category><pattern>Z</pattern><template><think><set name="letterguess">Z</set></think><srai>XCHECKGRIDFORLETTER</srai></template></category>
-</topic>
+A
+<think><set name="letterguess">A</set></think><srai>XCHECKGRIDFORLETTER</srai>
 
-<category>
-<pattern>XCHECKGRIDFORLETTER</pattern>
-<template>
+
+<topic name="HANGMANGAME">
+B
+<think><set name="letterguess">B</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+C
+<think><set name="letterguess">C</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+D
+<think><set name="letterguess">D</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+E
+<think><set name="letterguess">E</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+F
+<think><set name="letterguess">F</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+G
+<think><set name="letterguess">G</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+H
+<think><set name="letterguess">H</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+I
+<think><set name="letterguess">I</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+J
+<think><set name="letterguess">J</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+K
+<think><set name="letterguess">K</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+L
+<think><set name="letterguess">L</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+M
+<think><set name="letterguess">M</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+N
+<think><set name="letterguess">N</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+O
+<think><set name="letterguess">O</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+P
+<think><set name="letterguess">P</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+Q
+<think><set name="letterguess">Q</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+R
+<think><set name="letterguess">R</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+S
+<think><set name="letterguess">S</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+T
+<think><set name="letterguess">T</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+YOU
+<think><set name="letterguess">U</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+V
+<think><set name="letterguess">V</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+W
+<think><set name="letterguess">W</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+X
+<think><set name="letterguess">X</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+Y
+<think><set name="letterguess">Y</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+<topic name="HANGMANGAME">
+Z
+<think><set name="letterguess">Z</set></think><srai>XCHECKGRIDFORLETTER</srai>
+
+
+XCHECKGRIDFORLETTER
 <think>
 <set name="kount">0</set>
 <srai>botcompare <get name="letterguess"/> XSPLIT <get name="puzzlett1"/></srai><condition name="match"><li value="YES"><set name="puzzgrid1"><get name="puzzlett1"/></set><srai>XCOUNTLETTERS</srai></li></condition>
@@ -304,13 +407,8 @@ Guess a letter.
 <srai>botcompare <get name="letterguess"/> XSPLIT <get name="puzzlett25"/></srai><condition name="match"><li value="YES"><set name="puzzgrid25"><get name="puzzlett25"/></set><srai>XCOUNTLETTERS</srai></li></condition>
 </think>
 <srai>XHANGMANMAINLOOP</srai>
-</template>
-</category>
 
-
-<category>
-<pattern>XTAKELIFE</pattern> 
-<template>
+XTAKELIFE
 <think>
 	<condition name="lives"> 
 		<li value="10 lives"><set name="lives">9 lives</set></li>
@@ -324,13 +422,9 @@ Guess a letter.
 		<li value="2 lives"><set name="lives">1 life</set></li> 
 		<li value="1 life"><set name="lives">0 lives</set></li> 
 	</condition>
-</think> 
-</template>
-</category>
+</think>
 
-<category>
-<pattern>XCOUNTLETTERS</pattern> 
-<template>
+XCOUNTLETTERS
 <think>
 	<condition name="kount"> 
 		<li value="0"><set name="kount">1</set></li>
@@ -355,14 +449,6 @@ Guess a letter.
 		<li value="19"><set name="kount">20</set></li>
 		<li value="20"><set name="kount">21</set></li>
 	</condition>
-</think> 
-</template>
-</category>
+</think>
 
 
-
-
-
-
-
-</aiml>

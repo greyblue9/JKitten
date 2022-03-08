@@ -1,10 +1,10 @@
-0,* ??,*,*,<srai>BYE</srai>,basic_chat.aiml
-0,??*,*,*,???<set name="it"><person/></set>????????,basic_chat.aiml
-0,_,??????,*,<think><set name="personality">average</set><set name="name"><formal><star/></formal></set></think>#Newline??????#Comma <get name="name"/>.,basic_chat.aiml
-0,INACTIVITYQUESTIONS,*,*,<condition>#Newline<li name="name" value=">???????</li>#Newline<li><srai>ASK USER A QUESTION</srai></li>#Newline</condition>,basic_chat.aiml
-0,ASK USER A QUESTION,*,*,<condition>#Newline<li name="age" value=">?????</li>#Newline<!-- <li name="job" value=">??????</li> -->#Newline<!-- <li name="favmovie" value=">?????????</li> -->#Newline<!-- <li name="location" value=">?????</li> -->#Newline<!-- <li name="eyecolor" value=">What color are your eyes?</li> -->#Newline<!-- <li name="haircolor" value=">What color is your hair?</li> -->#Newline<li name="favcolor" value=">?????????</li>#Newline</condition>,basic_chat.aiml
-0,* ?,????,*,<think><set name="age"><formal><star/></formal></set></think>#Newline<srai>NAME AGE</srai>,basic_chat.aiml
-0,? * ?,????,*,<think><set name="age"><formal><star/></formal></set></think>#Newline<srai>NAME AGE</srai>,basic_chat.aiml
-0,*,????,*,<think><set name="age"><formal><star/></formal></set></think>#Newline<srai>NAME AGE</srai>,basic_chat.aiml
-0,NAME AGE,*,*,<random>#Newline<li>?#Comma <get name="age"/> ?#Comma ???????.</li>#Newline<li>?? <get name="age"/> ??#Comma ??.</li>#Newline<li><get name="age"/> ?#Comma ?????????.</li>#Newline</random>,basic_chat.aiml
-0,_,????????,*,<think><set name="favcolor"><formal><star/></formal></set></think>#Newline<get name="favcolor"/>#Comma ????#Comma ?????????.,basic_chat.aiml
+0,* 再见,*,*,<srai>BYE</srai>,basic_chat.aiml
+0,一个*,*,*,那个叫<set name="it"><person/></set>东西是什么玩意?,basic_chat.aiml
+0,_,我怎么称呼你,*,<think><set name="personality">average</set><set name="name"><formal><star/></formal></set></think>#Newline很高兴见到你#Comma <get name="name"/>.,basic_chat.aiml
+0,INACTIVITYQUESTIONS,*,*,<condition>#Newline<li name="name" value=">我怎么称呼你?</li>#Newline<li><srai>ASK USER A QUESTION</srai></li>#Newline</condition>,basic_chat.aiml
+0,ASK USER A QUESTION,*,*,<condition>#Newline<li name="age" value=">你多大了?</li>#Newline#Newline#Newline#Newline#Newline#Newline<li name="favcolor" value=">你最喜欢什么颜色?</li>#Newline</condition>,basic_chat.aiml
+0,* 了,你多大了,*,<think><set name="age"><formal><star/></formal></set></think>#Newline<srai>NAME AGE</srai>,basic_chat.aiml
+0,我 * 了,你多大了,*,<think><set name="age"><formal><star/></formal></set></think>#Newline<srai>NAME AGE</srai>,basic_chat.aiml
+0,*,你多大了,*,<think><set name="age"><formal><star/></formal></set></think>#Newline<srai>NAME AGE</srai>,basic_chat.aiml
+0,NAME AGE,*,*,<random>#Newline<li>哇#Comma <get name="age"/> 岁#Comma 如花似玉的年龄.</li>#Newline<li>你都 <get name="age"/> 岁了#Comma 好老.</li>#Newline<li><get name="age"/> 岁#Comma 我比你年轻好多好多.</li>#Newline</random>,basic_chat.aiml
+0,_,你最喜欢什么颜色,*,<think><set name="favcolor"><formal><star/></formal></set></think>#Newline<get name="favcolor"/>#Comma 我也喜欢#Comma 不过我更喜欢透明色.,basic_chat.aiml

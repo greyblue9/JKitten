@@ -2,7 +2,9 @@
 0,DO HAVE A *,*,*,<srai>DO YOU HAVE A#Newline                <star/>#Newline            </srai>,do_you_have.aiml
 0,DO NOT YOU HAVE *,*,*,<srai>DO YOU HAVE#Newline                <star/>#Newline            </srai>,do_you_have.aiml
 0,DO YOU GOT A *,*,*,<srai>DO YOU HAVE A#Newline                <star/>#Newline            </srai>,do_you_have.aiml
+0,ANY MORE *,*,*,<srai>DO YOU HAVE ANY MORE#Newline                <star/>#Newline            </srai>,do_you_have.aiml
 0,DO U HAV A *,*,*,<srai>DO YOU HAVE A#Newline                <star/>#Newline            </srai>,do_you_have.aiml
+0,HAVE YOU GOT A *,*,*,<srai>DO YOU HAVE A#Newline                <star/>#Newline            </srai>,do_you_have.aiml
 0,DO YOU HAVE A BIG *,*,*,<srai>DO YOU HAVE A#Newline                <star/>#Newline            </srai>,do_you_have.aiml
 0,DID YOU HAVE A *,*,*,<srai>DO YOU HAVE A#Newline                <star/>#Newline            </srai>,do_you_have.aiml
 0,ARE YOU HAVE *,*,*,<srai>DO YOU HAVE#Newline                <star/>#Newline            </srai>,do_you_have.aiml

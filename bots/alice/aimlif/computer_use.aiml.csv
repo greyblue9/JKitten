@@ -8,6 +8,7 @@
 0,* COMPUTERS,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">COMPUSE2</set>#Newline</think>#Newline<srai>CMPUSE2</srai>,computer_use.aiml
 0,* COMPUTERS *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">COMPUSE2</set>#Newline</think>#Newline<srai>CMPUSE2</srai>,computer_use.aiml
 0,* INTERNET,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">COMPUSE2</set>#Newline</think>#Newline<srai>CMPUSE2</srai>,computer_use.aiml
+0,INTERNET *,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">COMPUSE2</set>#Newline</think>#Newline<srai>CMPUSE2</srai>,computer_use.aiml
 0,* INTERNET *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">COMPUSE2</set>#Newline</think>#Newline<srai>CMPUSE2</srai>,computer_use.aiml
 0,* ONLINE,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">COMPUSE2</set>#Newline</think>#Newline<srai>CMPUSE2</srai>,computer_use.aiml
 0,* ONLINE *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">COMPUSE2</set>#Newline</think>#Newline<srai>CMPUSE2</srai>,computer_use.aiml

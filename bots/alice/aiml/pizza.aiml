@@ -1,24 +1,19 @@
-<?xml version="1.0"?>
-<aiml>
-  <category>
-    <pattern>QUERO PIZZA</pattern>
-    <template>
-      <think>
+<?xml version="1.0" encoding="UTF-8"?>
+
+QUERO PIZZA
+<think>
         <set name="topic">MYPROCESS_1</set>
       </think>
       <srai>STEP_QUERO PIZZA</srai>
-    </template>
-  </category>
-  <topic name="MYPROCESS_1">
-    <category>
-      <pattern>STEP_QUERO PIZZA</pattern>
-      <template>ola tudo bem quer uma pizza com mussarela</template>
-    </category>
-    <category>
-      <pattern>*</pattern>
-      <that>ola tudo bem quer uma pizza com mussarela</that>
-      <template>
-        <think>
+
+<topic name="MYPROCESS_1">
+STEP_QUERO PIZZA
+ola tudo bem quer uma pizza com mussarela
+
+
+<topic name="MYPROCESS_1">
+*OLA TUDO BEM QUER UMA PIZZA COM MUSSARELA
+<think>
           <set name="resultado">
             <star/>
           </set>
@@ -31,15 +26,16 @@
             <srai>STEP_NAO</srai>
           </li>
         </condition>
-      </template>
-    </category>
-    <category>
-      <pattern>STEP_SIM</pattern>
-      <template>que legal sua pizza tera mussarela</template>
-    </category>
-    <category>
-      <pattern>STEP_NAO</pattern>
-      <template>que chato sem queijo</template>
-    </category>
-  </topic>
-</aiml>
+
+
+<topic name="MYPROCESS_1">
+STEP_SIM
+que legal sua pizza tera mussarela
+
+
+<topic name="MYPROCESS_1">
+STEP_NAO
+que chato sem queijo
+
+
+

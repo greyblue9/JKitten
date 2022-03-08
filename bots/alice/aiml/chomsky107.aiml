@@ -1,13 +1,7 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!-- Complies with AIML 1.0 Tag Set Specification -->
-  <!-- as adopted by the ALICE A.I. Foundation.  -->
-  <!-- This TOPICS file created 12 December 2005 -->
-  <!-- (c) Peter Lafferty 2005 -->
-  <category>
-    <pattern>TOPIC CHECK</pattern>
-    <template>
-      <think>
+<?xml version="1.0" encoding="UTF-8"?>
+
+TOPIC CHECK
+<think>
         <set name="_topic">
           <get name="topic"/>
         </set>
@@ -107,375 +101,87 @@
           </random>
         </li>
       </condition>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE TOPIC</pattern>
-    <template>
-      <think>
-        <set name="_topic">
-          <get name="topic"/>
-        </set>
-      </think>
-      <condition>
-        <li name="_topic" value="adverbs">At the moment, our conversation is rather unfocused.
-  </li>
-        <li name="_topic" value="atomic">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="atomic1">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="atomic2">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="atomic3">At the moment, our conversation is rather unfocused.
-  </li>
-        <li name="_topic" value="biography1">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="biography2">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="biography3">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="bot">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="bot1">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="bot2">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="bot3">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="botmaster">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="client">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="client1">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="continuations">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="default">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="default">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="default1">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="default2">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="default3">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="default4">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="default5">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="default6">Just now, our conversation is rather unfocused.
-  </li>
-        <li name="_topic" value="geography1">At the moment, our conversation is about geography.
-  </li>
-        <li name="_topic" value="geography2">At the moment, our conversation is about geography.
-  </li>
-        <li name="_topic" value="general">At the moment, our conversation is rather unfocused.
-  </li>
-        <li name="_topic" value="general1">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="general2">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="general3">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="general4">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="general5">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="general6">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="general7">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="general8">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="general9">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="general10">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="general11">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="general12">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="general13">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="inquiry">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="interjection">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="iu">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="knowledge">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="knowledge1">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="knowledge2">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="knowledge3">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="knowledge4">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="knowledge5">At the moment, our conversation is rather unfocused.
-  </li>
-        <li name="_topic" value="knowledge6">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="knowledge7">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="knowledge8">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="knowledge9">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="knowledge10">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="knowledge11">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="knowledge12">Just now, our conversation is rather general.
-  </li>
-        <li name="_topic" value="maths">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="parts">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="pickup">At the moment, our conversation is rather unfocused.
-  </li>
-        <li name="_topic" value="pickup1">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="pickup2">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="predicates">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="questions">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="quotes">Just now, our conversation is rather general.
-  </li>
-        <li name="_topic" value="quotes1">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="reduce">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="reducer">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="reducer1">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="reductions">Just now, our conversation is rather general.
-  </li>
-        <li name="_topic" value="salutations">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="stack">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="stories">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="that">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="that1">At the moment, our conversation is rather unfocused.
-  </li>
-        <li name="_topic" value="that2">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="that3">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="that4">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="that5">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="that6">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="topics">At the moment, our conversation is rather unfocused.
-  </li>
-        <li name="_topic" value="words">At the moment, our conversation is rather general.
-  </li>
-        <li name="_topic" value="xfind">At the moment, our conversation is rather general.
-  </li>
-        <li>At the moment, we are talking about <get name="_topic"/>.</li>
-      </condition>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT ARE YOU TALKING ABOUT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE CURRENT TOPIC</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE CURRENT SUBJECT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT ARE WE TALKING ABOUT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE SUBJECT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE TOPIC OF THIS CONVERSATION</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE SUBJECT OF THIS CONVERSATION</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE TOPIC OF OUR CONVERSATION</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE SUBJECT OF OUR CONVERSATION</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU KNOW WHAT YOU ARE TALKING ABOUT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU KNOW WHAT TOPIC YOU ARE TALKING ABOUT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU KNOW WHAT SUBJECT YOU ARE TALKING ABOUT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT TOPIC ARE YOU ARE TALKING ABOUT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT SUBJECT ARE YOU TALKING ABOUT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT TOPIC ARE WE TALKING ABOUT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT SUBJECT ARE WE TALKING ABOUT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT TOPIC ARE WE CHATTING ABOUT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT SUBJECT ARE WE CHATTING ABOUT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT ARE WE CHATTING ABOUT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE SUBJECT OF THIS CHAT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE TOPIC OF THIS CHAT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE SUBJECT OF OUR CHAT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE TOPIC OF OUR CHAT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT ARE YOU CHATTING ABOUT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT ARE WE CHATTING ABOUT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT ARE WE TALKING ABOUT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE SUBJECT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE TOPIC NOW</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE SUBJECT NOW</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE TOPIC AT THE MOMENT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE SUBJECT AT THE MOMENT</pattern>
-    <template>
-      <srai>WHAT IS THE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GUESS TOPIC</pattern>
-    <template>
-      <random>
+
+WHAT IS THE CURRENT TOPIC
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT IS THE CURRENT SUBJECT
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT IS THE TOPIC OF THIS CONVERSATION
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT IS THE SUBJECT OF THIS CONVERSATION
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT IS THE TOPIC OF OUR CONVERSATION
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT IS THE SUBJECT OF OUR CONVERSATION
+<srai>WHAT IS THE TOPIC</srai>
+
+DO YOU KNOW WHAT YOU ARE TALKING ABOUT
+<srai>WHAT IS THE TOPIC</srai>
+
+DO YOU KNOW WHAT TOPIC YOU ARE TALKING ABOUT
+<srai>WHAT IS THE TOPIC</srai>
+
+DO YOU KNOW WHAT SUBJECT YOU ARE TALKING ABOUT
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT TOPIC ARE YOU ARE TALKING ABOUT
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT SUBJECT ARE YOU TALKING ABOUT
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT TOPIC ARE WE TALKING ABOUT
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT SUBJECT ARE WE TALKING ABOUT
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT TOPIC ARE WE CHATTING ABOUT
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT SUBJECT ARE WE CHATTING ABOUT
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT IS THE SUBJECT OF THIS CHAT
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT IS THE TOPIC OF THIS CHAT
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT IS THE SUBJECT OF OUR CHAT
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT IS THE TOPIC OF OUR CHAT
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT ARE YOU CHATTING ABOUT
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT ARE WE CHATTING ABOUT
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT IS THE SUBJECT
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT IS THE TOPIC NOW
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT IS THE SUBJECT NOW
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT IS THE TOPIC AT THE MOMENT
+<srai>WHAT IS THE TOPIC</srai>
+
+WHAT IS THE SUBJECT AT THE MOMENT
+<srai>WHAT IS THE TOPIC</srai>
+
+GUESS TOPIC
+<random>
         <li>Is this something to do with current affairs ? </li>
         <li>Is this something to do with AI?</li>
         <li>Could this be something to do with computers? Can we talk about computers? </li>
@@ -527,12 +233,9 @@
       <think>
         <set name="topic">pickup2</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>CHANGE TOPIC</pattern>
-    <template>
-      <random>
+
+CHANGE TOPIC
+<random>
         <li>Are you interested in <random><li>AI?</li><li>art?</li><li>astrology?</li><li>astronomy?</li><li>biography?</li><li>computers?</li><li>current affairs?</li><li>drugs?</li><li>food?</li><li>geography?</li><li>history?</li><li>literature?</li><li>medicine?</li><li>money?</li><li>movies?</li><li>music?</li><li>football</li><li>politics?</li><li>psychology?</li><li>religion?</li><li>science?</li><li>science?</li><li>sports?</li><li>technology?</li><li>weather?</li></random></li>
         <li>Can we talk about <random><li>AI?</li><li>art?</li><li>astrology?</li><li>astronomy?</li><li>biography?</li><li>computers?</li><li>current affairs?</li><li>drugs?</li><li>food?</li><li>geography?</li><li>history?</li><li>literature?</li><li>medicine?</li><li>money?</li><li>movies?</li><li>music?</li><li>pickled onions?</li><li>politics?</li><li>psychology?</li><li>religion?</li><li>science?</li><li>science?</li><li>sports?</li><li>technology?</li><li>weather?</li></random></li>
         <li>I want to talk about <random><li>AI</li><li>art</li><li>astrology</li><li>astronomy</li><li>biography</li><li>computers</li><li>current affairs</li><li>drugs</li><li>food</li><li>football</li><li>history</li><li>literature</li><li>medicine</li><li>The Clash</li><li>movies</li><li>music</li><li>philosophy</li><li>politics</li><li>psychology</li><li>religion</li><li>science</li><li>science</li><li>sports</li><li>technology</li><li>weather</li></random></li>
@@ -548,12 +251,9 @@
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>SUGGEST A TOPIC</pattern>
-    <template>
-      <random>
+
+SUGGEST A TOPIC
+<random>
         <li>Are you interested in <random><li>pop music?</li><li>art?</li><li>astrology?</li><li>astronomy?</li><li>basketball?</li><li>computers?</li><li>religion?</li><li>drugs?</li><li>food?</li><li>geography?</li><li>history?</li><li>literature?</li><li>George Washington?</li><li>breakfast cereals?</li><li>movies?</li><li>music?</li><li>football</li><li>politics?</li><li>science</li><li>me?</li><li>science?</li><li>science?</li><li>sports?</li><li>robots?</li><li>weather?</li></random></li>
         <li>Can we talk about <random><li>bananas</li><li>classical music?</li><li>your family?</li><li>astronomy?</li><li>your friends?</li><li>computer games?</li><li>jazz?</li><li>drugs?</li><li>brussel sprouts</li><li>geography?</li><li>football</li><li>your Mum?</li><li>the war on terror?</li><li>me?</li><li>movies?</li><li>music?</li><li>pop music</li><li>chess?</li><li>The Clash</li><li>religion?</li><li>science?</li><li>science?</li><li>sports?</li><li>you?</li><li>religion?</li></random></li>
         <li>I want to talk about <random><li>your hobbies</li><li>your pets</li><li>religion</li><li>your cat</li><li>dreams</li><li>computers</li><li>your friends</li><li>drugs</li><li>The Red Hot Chili Peppers</li><li>football</li><li>fashion</li><li>literature</li><li>human feelings</li><li>The Clash</li><li>movies</li><li>music</li><li>cyberspace</li><li>Star Trek</li><li>psychology</li><li>you and your life</li><li>science</li><li>science</li><li>sports</li><li>robots</li><li>weather</li></random></li>
@@ -564,33 +264,17 @@
       <think>
         <set name="emotion">relaxed</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>RANDOM TOPIC</pattern>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
+
+MORE TOPICS
+<srai>SUGGEST A TOPIC</srai>
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MORE TOPICS</pattern>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
+
+SUGGESTED TOPICS
+<srai>SUGGEST A TOPIC</srai>
       <think>
         <set name="topic">general</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>SUGGESTED TOPICS</pattern>
-    <template>
-      <srai>SUGGEST A TOPIC</srai>
-      <think>
-        <set name="topic">general</set>
-      </think>
-    </template>
-  </category>
-</aiml>
+
+

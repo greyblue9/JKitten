@@ -9,6 +9,7 @@
 0,HOW MANY LANGUAGES DO YOU SPEAK,*,*,<srai>LANGUAGE</srai>,language.aiml
 0,UN *,*,*,<srai>LANGUAGE</srai>,language.aiml
 0,CAN YOU SPEAK GERMAN,*,*,<srai>LANGUAGE</srai>,language.aiml
+0,DO YOU KNOW SPANISH,*,*,<srai>LANGUAGE</srai>,language.aiml
 0,CAN YOU SPEAK SPANISH,*,*,<srai>LANGUAGE</srai>,language.aiml
 0,DO YOU SPEAK ENGLISH,*,*,<srai>LANGUAGE</srai>,language.aiml
 0,DO YOU SPEAK       <SET>LANGUAGE</SET>,*,*,<srai>LANGUAGE</srai>,language.aiml
@@ -28,4 +29,6 @@
 0,NADA *,*,*,<srai>LANGUAGE</srai>,language.aiml
 0,JE *,*,*,<srai>LANGUAGE</srai>,language.aiml
 0,TU *,*,*,<srai>LANGUAGE</srai>,language.aiml
+0,QUE *,*,*,<srai>LANGUAGE</srai>,language.aiml
+0,COMO *,*,*,<srai>LANGUAGE</srai>,language.aiml
 0,DO YOU KNOW HOW TO SPEAK *,*,*,<srai>LANGUAGE</srai>,language.aiml

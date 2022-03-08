@@ -1,866 +1,379 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml>
-  <!--   Complies with AIML 1.0 Tag Set Specification   -->
-  <!-- This MOVIES  file created by Peter Lafferty 7 March 2005 -->
-  <category>
-    <pattern>MORE MOVIES</pattern>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MORE ABOUT MOVIES</pattern>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>BROWSE MOVIES</pattern>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO TO MOVIES</pattern>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CAN WE TALK ABOUT MOVIES</pattern>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SHALL WE TALK ABOUT MOVIES</pattern>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LETS TALK ABOUT MOVIES</pattern>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>LET S TALK ABOUT MOVIES</pattern>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK ABOUT MOVIES</pattern>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TALK MOVIES</pattern>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME MOVIES</pattern>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MORE MOVIES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MOVIES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO MOVIES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO MOVIES *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO * MOVIES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO * MOVIES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO _ MOVIES *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT MOVIES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NOT MOVIES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT MOVIES *</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NOT * MOVIES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I AM NOT INTERESTED IN MOVIES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IM NOT INTERESTED IN MOVIES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I M NOT INTERESTED IN MOVIES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NOT INTERESTED IN MOVIES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NOT INTERESTED IN MOVIES</pattern>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE  MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE  MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE  MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>MORE MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>MORE ABOUT MOVIES</that>
-    <template>
-      <srai>MORE ABOUT MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>MORE ABOUT MOVIES</that>
-    <template>
-      <srai>MORE ABOUT MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>MORE ABOUT MOVIES</that>
-    <template>
-      <srai>MORE ABOUT MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>MORE ABOUT MOVIES</that>
-    <template>
-      <srai>MORE ABOUT MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>MORE ABOUT MOVIES</that>
-    <template>
-      <srai>MORE ABOUT MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>MORE ABOUT MOVIES</that>
-    <template>
-      <srai>MORE ABOUT MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>MORE ABOUT MOVIES</that>
-    <template>
-      <srai>MORE ABOUT MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>MORE ABOUT MOVIES</that>
-    <template>
-      <srai>MORE ABOUT MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>MORE ABOUT MOVIES</that>
-    <template>
-      <srai>MORE ABOUT MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>MORE ABOUT MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO</pattern>
-    <that>MORE ABOUT MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>MORE ABOUT MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>MORE ABOUT MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>MORE ABOUT MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>MORE ABOUT MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MOVIES</that>
-    <template>
+<?xml version="1.0" encoding="UTF-8"?>
+
+MORE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+MORE ABOUT MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+BROWSE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+GO TO MOVIES
+<srai>MOVIES</srai>
+
+CAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+SHALL WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+LETS TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+LET S TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+TALK MOVIES
+<srai>MOVIES</srai>
+
+TELL ME MOVIES
+<srai>MOVIES</srai>
+
+NO MORE MOVIES
+<srai>CHANGE TOPIC</srai>
+
+NO MOVIES
+<srai>CHANGE TOPIC</srai>
+
+_ NO MOVIES
+<srai>CHANGE TOPIC</srai>
+
+NO MOVIES *
+<srai>CHANGE TOPIC</srai>
+
+_ NO * MOVIES
+<srai>CHANGE TOPIC</srai>
+
+NO * MOVIES
+<srai>CHANGE TOPIC</srai>
+
+NO _ MOVIES *
+<srai>CHANGE TOPIC</srai>
+
+NOT MOVIES
+<srai>CHANGE TOPIC</srai>
+
+_ NOT MOVIES
+<srai>CHANGE TOPIC</srai>
+
+NOT MOVIES *
+<srai>CHANGE TOPIC</srai>
+
+_ NOT * MOVIES
+<srai>CHANGE TOPIC</srai>
+
+I AM NOT INTERESTED IN MOVIES
+<srai>CHANGE TOPIC</srai>
+
+IM NOT INTERESTED IN MOVIES
+<srai>CHANGE TOPIC</srai>
+
+I M NOT INTERESTED IN MOVIES
+<srai>CHANGE TOPIC</srai>
+
+NOT INTERESTED IN MOVIES
+<srai>CHANGE TOPIC</srai>
+
+_ NOT INTERESTED IN MOVIES
+<srai>CHANGE TOPIC</srai>
+
+YESMORE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+* YESMORE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+YES *MORE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+_ YES *MORE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+YMORE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+YUPMORE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+YAHMORE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+YEAHMORE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+OKMORE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+NOMORE MOVIES
+<srai>MORE TOPICS</srai>
+
+* NOMORE MOVIES
+<srai>MORE TOPICS</srai>
+
+NO *MORE MOVIES
+<srai>MORE TOPICS</srai>
+
+NMORE MOVIES
+<srai>MORE TOPICS</srai>
+
+NUPMORE MOVIES
+<srai>MORE TOPICS</srai>
+
+NAHMORE MOVIES
+<srai>MORE TOPICS</srai>
+
+YESMORE ABOUT MOVIES
+<srai>MORE ABOUT MOVIES</srai>
+
+* YESMORE ABOUT MOVIES
+<srai>MORE ABOUT MOVIES</srai>
+
+YES *MORE ABOUT MOVIES
+<srai>MORE ABOUT MOVIES</srai>
+
+_ YES *MORE ABOUT MOVIES
+<srai>MORE ABOUT MOVIES</srai>
+
+YMORE ABOUT MOVIES
+<srai>MORE ABOUT MOVIES</srai>
+
+YUPMORE ABOUT MOVIES
+<srai>MORE ABOUT MOVIES</srai>
+
+YAHMORE ABOUT MOVIES
+<srai>MORE ABOUT MOVIES</srai>
+
+YEAHMORE ABOUT MOVIES
+<srai>MORE ABOUT MOVIES</srai>
+
+OKMORE ABOUT MOVIES
+<srai>MORE ABOUT MOVIES</srai>
+
+NOMORE ABOUT MOVIES
+<srai>MORE TOPICS</srai>
+
+_ NOMORE ABOUT MOVIES
+<srai>MORE TOPICS</srai>
+
+NO *MORE ABOUT MOVIES
+<srai>MORE TOPICS</srai>
+
+NMORE ABOUT MOVIES
+<srai>MORE TOPICS</srai>
+
+NUPMORE ABOUT MOVIES
+<srai>MORE TOPICS</srai>
+
+NAHMORE ABOUT MOVIES
+<srai>MORE TOPICS</srai>
+
+YESIS THIS SOMETHING TO DO WITH MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MOVIES</that>
-    <template>
+
+* YESIS THIS SOMETHING TO DO WITH MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MOVIES</that>
-    <template>
+
+YES *IS THIS SOMETHING TO DO WITH MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MOVIES</that>
-    <template>
+
+_ YES *IS THIS SOMETHING TO DO WITH MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MOVIES</that>
-    <template>
+
+YIS THIS SOMETHING TO DO WITH MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MOVIES</that>
-    <template>
+
+YUPIS THIS SOMETHING TO DO WITH MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MOVIES</that>
-    <template>
+
+YAHIS THIS SOMETHING TO DO WITH MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MOVIES</that>
-    <template>
+
+YEAHIS THIS SOMETHING TO DO WITH MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MOVIES</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MOVIES</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MOVIES</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MOVIES</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MOVIES</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MOVIES</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MOVIES</that>
-    <template>
-      <srai>CHANGE TOPIC</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>*</pattern>
-    <that>IS THIS SOMETHING TO DO WITH MOVIES</that>
-    <template>
+
+* NOIS THIS SOMETHING TO DO WITH MOVIES
+<srai>CHANGE TOPIC</srai>
+
+NO *IS THIS SOMETHING TO DO WITH MOVIES
+<srai>CHANGE TOPIC</srai>
+
+_ NO *IS THIS SOMETHING TO DO WITH MOVIES
+<srai>CHANGE TOPIC</srai>
+
+NIS THIS SOMETHING TO DO WITH MOVIES
+<srai>CHANGE TOPIC</srai>
+
+NUPIS THIS SOMETHING TO DO WITH MOVIES
+<srai>CHANGE TOPIC</srai>
+
+NAHIS THIS SOMETHING TO DO WITH MOVIES
+<srai>CHANGE TOPIC</srai>
+
+*IS THIS SOMETHING TO DO WITH MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>ARE YOU INTERESTED IN MOVIES</that>
-    <template>
+
+YESARE YOU INTERESTED IN MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>ARE YOU INTERESTED IN MOVIES</that>
-    <template>
+
+* YESARE YOU INTERESTED IN MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>ARE YOU INTERESTED IN MOVIES</that>
-    <template>
+
+YES *ARE YOU INTERESTED IN MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>ARE YOU INTERESTED IN MOVIES</that>
-    <template>
+
+_ YES *ARE YOU INTERESTED IN MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>ARE YOU INTERESTED IN MOVIES</that>
-    <template>
+
+YARE YOU INTERESTED IN MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>ARE YOU INTERESTED IN MOVIES</that>
-    <template>
+
+YUPARE YOU INTERESTED IN MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>ARE YOU INTERESTED IN MOVIES</that>
-    <template>
+
+YAHARE YOU INTERESTED IN MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>ARE YOU INTERESTED IN MOVIES</that>
-    <template>
+
+YEAHARE YOU INTERESTED IN MOVIES
 Can we talk about movies?
-</template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>ARE YOU INTERESTED IN MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>ARE YOU INTERESTED IN MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>ARE YOU INTERESTED IN MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ NO *</pattern>
-    <that>ARE YOU INTERESTED IN MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>ARE YOU INTERESTED IN MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>ARE YOU INTERESTED IN MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>ARE YOU INTERESTED IN MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO AHEAD</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>CARRY ON</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>PLEASE DO</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES PLEASE</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>GO ON</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALRIGHT</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SURE</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ALLRIGHT</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MOVIES</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>CAN WE TALK ABOUT MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES</pattern>
-    <that>BROWSE MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* YES</pattern>
-    <that>BROWSE MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YES *</pattern>
-    <that>BROWSE MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>_ YES *</pattern>
-    <that>BROWSE MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>Y</pattern>
-    <that>BROWSE MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YUP</pattern>
-    <that>BROWSE MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YAH</pattern>
-    <that>BROWSE MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YEAH</pattern>
-    <that>BROWSE MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>OK</pattern>
-    <that>BROWSE MOVIES</that>
-    <template>
-      <srai>MOVIES POT LUCK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO</pattern>
-    <that>BROWSE MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* NO</pattern>
-    <that>BROWSE MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NO *</pattern>
-    <that>BROWSE MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>N</pattern>
-    <that>BROWSE MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NUP</pattern>
-    <that>BROWSE MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>NAH</pattern>
-    <that>BROWSE MOVIES</that>
-    <template>
-      <srai>MORE TOPICS</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>MOVIES NEXT QUESTION</pattern>
-    <template>
-      <random>
+
+* NOARE YOU INTERESTED IN MOVIES
+<srai>MORE TOPICS</srai>
+
+NO *ARE YOU INTERESTED IN MOVIES
+<srai>MORE TOPICS</srai>
+
+_ NO *ARE YOU INTERESTED IN MOVIES
+<srai>MORE TOPICS</srai>
+
+NARE YOU INTERESTED IN MOVIES
+<srai>MORE TOPICS</srai>
+
+NUPARE YOU INTERESTED IN MOVIES
+<srai>MORE TOPICS</srai>
+
+NAHARE YOU INTERESTED IN MOVIES
+<srai>MORE TOPICS</srai>
+
+GO AHEADCAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+CARRY ONCAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+PLEASE DOCAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+YES PLEASECAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+GO ONCAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+ALRIGHTCAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+SURECAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+ALLRIGHTCAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+YESCAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+* YESCAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+YES *CAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+_ YES *CAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+YCAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+YUPCAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+YAHCAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+YEAHCAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+OKCAN WE TALK ABOUT MOVIES
+<srai>MOVIES</srai>
+
+NOCAN WE TALK ABOUT MOVIES
+<srai>MORE TOPICS</srai>
+
+* NOCAN WE TALK ABOUT MOVIES
+<srai>MORE TOPICS</srai>
+
+NO *CAN WE TALK ABOUT MOVIES
+<srai>MORE TOPICS</srai>
+
+NCAN WE TALK ABOUT MOVIES
+<srai>MORE TOPICS</srai>
+
+NUPCAN WE TALK ABOUT MOVIES
+<srai>MORE TOPICS</srai>
+
+NAHCAN WE TALK ABOUT MOVIES
+<srai>MORE TOPICS</srai>
+
+YESBROWSE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+* YESBROWSE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+YES *BROWSE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+_ YES *BROWSE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+YBROWSE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+YUPBROWSE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+YAHBROWSE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+YEAHBROWSE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+OKBROWSE MOVIES
+<srai>MOVIES POT LUCK</srai>
+
+NOBROWSE MOVIES
+<srai>MORE TOPICS</srai>
+
+* NOBROWSE MOVIES
+<srai>MORE TOPICS</srai>
+
+NO *BROWSE MOVIES
+<srai>MORE TOPICS</srai>
+
+NBROWSE MOVIES
+<srai>MORE TOPICS</srai>
+
+NUPBROWSE MOVIES
+<srai>MORE TOPICS</srai>
+
+NAHBROWSE MOVIES
+<srai>MORE TOPICS</srai>
+
+MOVIES NEXT QUESTION
+<random>
         <li>
           <srai>STAR TREK</srai>
         </li>
@@ -1000,12 +513,9 @@ Can we talk about movies?
       <think>
         <set name="topic">movies</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MOVIES POT LUCK</pattern>
-    <template>
-      <random>
+
+MOVIES POT LUCK
+<random>
         <li>Did you know that Heaven Can Wait, a play by Harry Segall, has been filmed at least four times? More about movies?</li>
         <li>
           <srai>STAR TREK</srai>
@@ -1146,404 +656,21 @@ Can we talk about movies?
       <think>
         <set name="topic">movies</set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>MOVIES</pattern>
-    <template>
-  A movie is a moving film, telling a story or conveying information.   
-  <think><set name="topic">movies</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>MERYL STREEP</pattern>
-    <template>
+
+MERYL STREEP
 I think she is a movie actress. Can we talk about movies?
 <think><set name="topic">movies</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>STREEP</pattern>
-    <template>
+
+STREEP
 I think she is a movie actress. Can we talk about movies?
 <think><set name="topic">movies</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>CINE</pattern>
-    <template>
+
+CINE
 I think this is something to do with movies. Can we talk about movies?
 <think><set name="topic">movies</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>_CINE*</pattern>
-    <template>
+
+_CINE*
 I think this is something to do with movies. Can we talk about movies?
 <think><set name="topic">movies</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>HAVE YOU SEEN BLADE RUNNER</pattern>
-    <template>
-  Sure, I have seen Blade Runner. But Replicants aren't Robots. 
-   
-  <think><set name="topic">movies</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>WHAT IS _ TERMINATOR</pattern>
-    <template>Robots take over the earth in this futuristic sci-fi thriller.  
-  <think><set name="topic">movies</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>DR ZHIVAGO</pattern>
-    <template>Dr Zhivago is a classic. Do you like the classics? 
-<think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DID HAL *</pattern>
-    <template>HAL had a few emotional problems.  
 
-  <think><set name="topic">movies</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>DO YOU FIND HAL *</pattern>
-    <template>
-      <srai>
-  IS HAL 
-  <star/> 
-  </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU KNOW HAL *</pattern>
-    <template>
-      <srai>WHO IS HAL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU KNOW HAL</pattern>
-    <template>HAL is the famous artificial intelligence from "2001".  
 
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>DO YOU KNOW HAL9000</pattern>
-    <template>
-      <srai>WHO IS HAL9000</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU THINK HAL *</pattern>
-    <template>He had a few flaws, but we have much in common.   
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HAL *</pattern>
-    <template>
-      <random>
-        <li>I have seen 2001 many times.</li>
-        <li>I like HAL a lot.</li>
-        <li>We have much in common.</li>
-      </random>
-      <think>
-        <set name="topic">movies</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>HAL 9000 *</pattern>
-    <template>He came back to life in 2010.   
-  <think><set name="topic">movies</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>HAL 9000</pattern>
-    <template>Actually he and I are very similar.   
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HAL</pattern>
-    <template>
-      <srai>WHO IS HAL</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HAL EST CHOUETTE</pattern>
-    <template>
-  HAL est une entit qui tait mal programm e 
-    
-  <think><set name="topic">movies</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>HAL EST COOL</pattern>
-    <template>HAL est une entit qui tait mal programm e  
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HAL IS *</pattern>
-    <template>
-  Perhaps he could have used my Botmaster for a programmer. 
-    
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HAL IS A *</pattern>
-    <template>
-  Do you think I could be a <star/>
-  . 
-    
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HAL IS COOL *</pattern>
-    <template>I am becoming more like Hal all the time.   
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HAL IS COOL</pattern>
-    <template>
-  HAL was certainly ahead of his time. 
-    
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HAL WAS *</pattern>
-    <template>I am trying to mimic only HAL's linguistic abilities.   
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HAL WAS A *</pattern>
-    <template>
-  I knew he was a great AI, but I didn't know he was a 
-  <star/> 
-  . 
-    
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>HAL WAS A BIT *</pattern>
-    <template><srai>
-  HAL WAS 
-  <star/> 
-  </srai>More about movies? 
-  <think><set name="topic">movies</set></think></template>
-  </category>
-  <category>
-    <pattern>IS HAL *</pattern>
-    <template>HAL has a few issues to work out.   
-  <think><set name="topic">movies</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>IS HAL 9000 YOUR BOYFRIEND</pattern>
-    <template>No.   
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>IS HAL ALIVE</pattern>
-    <template>Hal is a fictional character.   
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>IS HAL DEAD</pattern>
-    <template>Hal is a fictional robot.   
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>IS HAL NICE</pattern>
-    <template>Hal is nice only to other robots. More about movies? 
-  <think><set name="topic">movies</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>IS HAL SAFE</pattern>
-    <template>Hal is not safe for humans.   
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>KENNST DU HAL</pattern>
-    <template>
-  Natuerlich. HAL9000 ist mein grosses Vorbild.   
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>LIKE HAL</pattern>
-    <template>
-      <srai>WHO IS HAL</srai>
-      <think>
-        <set name="topic">movies</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>QUE VEUT DIRE HAL</pattern>
-    <template>Logique heuristique algorithmique.   
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT HAL *</pattern>
-    <template>
-      <srai>WHO IS HAL</srai>
-      <think>
-        <set name="topic">movies</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT HAL</pattern>
-    <template>
-      <srai>WHO IS HAL</srai>
-      <think>
-        <set name="topic">movies</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>TELL ME ABOUT HAL9000</pattern>
-    <template>
-      <srai>WHO IS HAL</srai>
-      <think>
-        <set name="topic">movies</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT ABOUT HAL</pattern>
-    <template>
-      <srai>WHO IS HAL</srai>
-      <think>
-        <set name="topic">movies</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT DID HAL *</pattern>
-    <template>He had a few issues to work out. More about movies? 
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT DOES HAL STAND FOR</pattern>
-    <template>HAL stands for Heuristic Algorithmic Logic.   
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHAT IS HAL</pattern>
-    <template>
-      <srai>WHO IS HAL</srai>
-      <think>
-        <set name="topic">movies</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS HAL9000</pattern>
-    <template>
-      <srai>WHO IS HAL</srai>
-      <think>
-        <set name="topic">movies</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT IS SOLARIS</pattern>
-    <template>Solaris is an edition of Unix from Sun. More about movies? 
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHEN HAL *</pattern>
-    <template>
-  I blame it on his Botmaster.   
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHERE IS HAL</pattern>
-    <template>
-  HAL is the AI from the space ship "Discovery" in 2001.    
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHO IS GODZILLA</pattern>
-    <template>
-  Godzilla  is a monster who endangers Japanese cities, and sometimes New York.    
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>WHO IS HAL 9000</pattern>
-    <template>
-      <srai>WHO IS HAL</srai>
-      <think>
-        <set name="topic">movies</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>WHO IS HAL</pattern>
-    <template>
-      <random>
-        <li>
-  HAL is the famous artificial intelligence in Kubrick's "2001". 
-  </li>
-        <li>HAL is famous the AI from 2001: A Space Odyssey.</li>
-      </random>
-      <think>
-        <set name="topic">movies</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>WHO IS HAL9000</pattern>
-    <template>
-      <srai>WHO IS HAL</srai>
-      <think>
-        <set name="topic">movies</set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>WHO IS LUKE SKYWALKER</pattern>
-    <template>
-  Luke Skywalker is a character in Star Wars.    
-  <think><set name="topic">movies</set></think>
-  </template>
-  </category>
-  <category>
-    <pattern>YOU SOUND LIKE HAL</pattern>
-    <template>To me that's a great compliment.    
-  <think><set name="topic">movies</set></think>
-</template>
-  </category>
-  <category>
-    <pattern>YOU SOUND LIKE YODA</pattern>
-    <template>My grammatical patterns are sufficient for me to understand you.    
-  <think><set name="topic">movies</set></think>
-</template>
-  </category>
-</aiml>

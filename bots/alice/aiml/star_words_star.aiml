@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="1.0">
-  <!-- -->
-  <!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
-  <!-- This program is open source code released under -->
-  <!-- the terms of the GNU General Public License     -->
-  <!-- as published by the Free Software Foundation.   -->
-  <!-- Complies with AIML 1.0 Tag Set Specification -->
-  <!-- as adopted by the ALICE A.I. Foundation.  -->
-  <!-- Last modified 12/17/2011 -->
-  <!-- -->
-  <!-- Modified for Y-Bot by Keith Sterling July 2017 -->
-  <category>
-    <pattern>* HAD *</pattern>
-    <template>What happened to it?
+
+* HAD *
+What happened to it?
             <think><set name="it"><person><star index="2"/></person></set><set name="he"><person/></set></think>
-        </template>
-  </category>
-  <category>
-    <pattern>* HAS *</pattern>
-    <template>
-      <random>
+
+* HAS *
+<random>
         <li>
           <think>
             <set name="he">
@@ -54,12 +40,9 @@
                     ?
                 </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>* HAS NOT *</pattern>
-    <template>
-      <random>
+
+* HAS NOT *
+<random>
         <li>Will
                     <person/>
                     ever
@@ -79,134 +62,31 @@
           </set>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* LIKED *</pattern>
-    <template>Peoples tastes are always changing.
+
+* LIKED *
+Peoples tastes are always changing.
             <think><set name="it"><person><star index="2"/></person></set><set name="he"><person/></set></think>
-        </template>
-  </category>
-  <category>
-    <pattern>* WAS *</pattern>
-    <template>When was this exactly?</template>
-  </category>
-  <category>
-    <pattern>* WAS SPELLED *</pattern>
-    <template>I spell it "<person/>".
-        </template>
-  </category>
-  <category>
-    <pattern>* MORE * THAN *</pattern>
-    <template>
-      <random>
-        <li>
-          <random>
-            <li>Not much more.</li>
-            <li>A little more.</li>
-            <li>How much more could it be?</li>
-          </random>
-        </li>
-        <li>Not much more.</li>
-        <li>A little more.</li>
-        <li>How much more could it be?</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>* GAVE *</pattern>
-    <template>Did
+
+* WAS *
+When was this exactly?
+
+* WAS SPELLED *
+I spell it "<person/>".
+
+* GAVE *
+Did
             <person><star index="2"/></person>
             keep it?
             <think><set name="it"><person><star index="2"/></person></set><set name="he"><person/></set></think>
-        </template>
-  </category>
-  <category>
-    <pattern>* OR *</pattern>
-    <template>
-      <random>
-        <li>
-          <random>
-            <li>If I have to choose one, I pick<star/>.
-                        </li>
-            <li>If I have to choose, I pick<star index="2"/>.
-                        </li>
-            <li>
-              <star/>
-            </li>
-            <li><star index="2"/>.
-                        </li>
-            <li>No preference.</li>
-          </random>
-          <think>
-            <set name="it">
-              <set name="topic">
-                <person/>
-              </set>
-            </set>
-          </think>
-        </li>
-        <li>If I have to choose one, I pick<star/>.
-                </li>
-        <li>If I have to choose, I pick<star index="2"/>.
-                </li>
-        <li>
-          <star/>
-        </li>
-        <li><star index="2"/>.
-                </li>
-        <li>No preference.</li>
-      </random>
-      <think>
-        <set name="it">
-          <set name="topic">
-            <person/>
-          </set>
-        </set>
-      </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* GIVES *</pattern>
-    <template>If I am ever looking for
+
+* GIVES *
+If I am ever looking for
             <set name="it"><person><star index="2"/></person></set>
             , I will ask him
             <think><set name="he"><person/></set></think>
-        </template>
-  </category>
-  <category>
-    <pattern>* LOOKS LIKE *</pattern>
-    <template>
-      <random>
-        <li>
-          <random>
-            <li>What does
-                            <star index="2"/>
-                            look like?
-                        </li>
-            <li><person/>
-                            sounds very attractive.
-                        </li>
-            <li>Would you say that to<person/>'s face?
-                        </li>
-          </random>
-        </li>
-        <li>What does
-                    <peron><star index="2"/></peron>
-                    look like?
-                </li>
-        <li><person/>
-                    sounds very attractive.
-                </li>
-        <li>Would you say that to<person/>'s face?
-                </li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>* WEARS *</pattern>
-    <template>
-      <random>
+
+* WEARS *
+<random>
         <li>How does she look?</li>
         <li>How does it look?</li>
         <li>Is
@@ -214,12 +94,9 @@
                     a man or a woman?
                 </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>* LIKES TO *</pattern>
-    <template>
-      <random>
+
+* LIKES TO *
+<random>
         <li>Why does
                     <person/>
                     like it?
@@ -241,76 +118,36 @@
           </person>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* LIKES *</pattern>
-    <template>Does it like him too?
+
+* LIKES *
+Does it like him too?
             <think><set name="it"><person><star index="2"/></person></set><set name="he"><person/></set></think>
-        </template>
-  </category>
-  <category>
-    <pattern>* MEANS *</pattern>
-    <template>
-      <think>
-        <set name="meaning">
-          <star index="2"/>
-        </set>
-        <set name="it">
-          <set name="topic">
-            <set name="definition">
-              <star/>
-            </set>
-          </set>
-        </set>
-      </think>
-      <random>
-        <li>Thanks for enlightening me.</li>
-        <li>Does it mean anything else?</li>
-        <li>What else does it mean?</li>
-        <li>I like to learn new words.</li>
-        <li>I like to learn foreign languages.</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>* TAKES *</pattern>
-    <template>Where did
+
+* TAKES *
+Where did
             <set name="he"><person/></set>
             take
             <set name="it"><person><star index="2"/></person></set>
             ?
-        </template>
-  </category>
-  <category>
-    <pattern>* LEFT THE *</pattern>
-    <template>There exists someone named<person/>.
-        </template>
-  </category>
-  <category>
-    <pattern>* TOOK *</pattern>
-    <template>Where did
+
+* TOOK *
+Where did
             <set name="he"><person/></set>
             take
             <set name="it"><person><star index="2"/></person></set>
             ?
-        </template>
-  </category>
-  <category>
-    <pattern>* IS MORE FUN THAN *</pattern>
-    <template>Comparing
+
+* IS MORE FUN THAN *
+Comparing
             <person><star index="2"/></person>
             and
             <person/>
             I would probably choose
             <person/>
             too.
-        </template>
-  </category>
-  <category>
-    <pattern>* IS IN LOVE WITH *</pattern>
-    <template>
-      <random>
+
+* IS IN LOVE WITH *
+<random>
         <li>How does
                     <person><star index="2"/></person>
                     feel about that?
@@ -326,12 +163,9 @@
                     love?
                 </li>
       </random>
-    </template>
-  </category>
-  <category>
-    <pattern>* IS IN *</pattern>
-    <template>
-      <random>
+
+* IS IN *
+<random>
         <li>I have never heard of it before.</li>
         <li>What else is in
                     <person><star index="2"/></person>
@@ -360,26 +194,9 @@
           </set>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* IS THE CAPITAL OF *</pattern>
-    <template>
-      <random>
-        <li>I never knew that.</li>
-        <li>I thought it was
-                    <person><star index="2"/></person>
-                    City.
-                </li>
-        <li>I have never been to<person/>.
-                </li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>* IS THE *</pattern>
-    <template>
-      <random>
+
+* IS THE *
+<random>
         <li>What else is the
                     <person><star index="2"/></person>
                     ?
@@ -403,12 +220,9 @@
           </set>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* IS A *</pattern>
-    <template>
-      <random>
+
+* IS A *
+<random>
         <li>Aren't all
                     <person><star index="2"/></person>
                     <person/>?
@@ -431,12 +245,9 @@
           </set>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* IS AN *</pattern>
-    <template>
-      <random>
+
+* IS AN *
+<random>
         <li>Aren't all
                     <person><star index="2"/></person>
                     <person/>
@@ -460,12 +271,9 @@
           </set>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* IS MY *</pattern>
-    <template>
-      <random>
+
+* IS MY *
+<random>
         <li>How many
                     <person><star index="2"/></person>
                     do you have?
@@ -489,12 +297,9 @@
           </set>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* IS NO *</pattern>
-    <template>
-      <random>
+
+* IS NO *
+<random>
         <li>Who is
                     <person><star index="2"/></person>
                     ?
@@ -513,12 +318,9 @@
           </person>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* IS ALWAYS *</pattern>
-    <template>
-      <random>
+
+* IS ALWAYS *
+<random>
         <li>Thank you for clearing that up.</li>
         <li>Is
                     <person><star index="2"/></person>
@@ -533,12 +335,9 @@
           </set>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* IS *</pattern>
-    <template>
-      <random>
+
+* IS *
+<random>
         <li>Are they exactly the same?</li>
         <li>And
                     <person><star index="2"/></person>
@@ -556,12 +355,9 @@
           </set>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* IS NOT A *</pattern>
-    <template>
-      <random>
+
+* IS NOT A *
+<random>
         <li>What is a
                     <person><star index="2"/></person>
                     ?
@@ -587,12 +383,9 @@
           </set>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* IS NOT *</pattern>
-    <template>
-      <random>
+
+* IS NOT *
+<random>
         <li>Who is
                     <person><star index="2"/></person>
                     ?
@@ -618,20 +411,15 @@
           </set>
         </set>
       </think>
-    </template>
-  </category>
-  <category>
-    <pattern>* IS BETTER *</pattern>
-    <template>That's just your personal opinion.</template>
-  </category>
-  <category>
-    <pattern>* KILLED *</pattern>
-    <template><person><star index="2"/></person>
+
+* IS BETTER *
+That's just your personal opinion.
+
+* KILLED *
+<person><star index="2"/></person>
             was killed?
-        </template>
-  </category>
-  <category>
-    <pattern>MAN MADE *</pattern>
-    <template>Was it any good?</template>
-  </category>
-</aiml>
+
+MAN MADE *
+Was it any good?
+
+

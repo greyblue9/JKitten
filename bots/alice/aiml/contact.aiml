@@ -1,93 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<aiml version="1.0">
-
-<!--Copyright 2011-2012 David W. Newyear-->
-
- <!-- Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.-->
-  
-<category>
-<pattern>CONTACT</pattern>
-<template><srai>CNTCT1</srai></template>
-</category>  
-
-<category>
-<pattern>EMAIL</pattern>
-<template><srai>EMAIL1</srai></template>
-</category>  
-
-<category>
-<pattern>PHONE NUMBER</pattern>
-<template><srai>PHONE1</srai></template>
-</category>  
-
-<category>
-<pattern>CNTCT1</pattern>
-<template>
+CNTCT1
 <think>
 <set name="topic">CNTCT1</set>
 </think>
 I'm often asked about this. Which department or person do you wish to contact?
-</template>
-</category>
 
 <topic name="CNTCT1">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 <set name="topic">CNTCT2</set>
 </think>
-<srai>CNTCT2</srai></template>
-</category>
-</topic>
-  
-<category>
-<pattern>CONTACT *</pattern>
-<template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic">CNTCT2</set>
-</think>
-<srai>CNTCT2</srai></template>
-</category>  
-  
-<category>
-<pattern>* CONTACT</pattern>
-<template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic">CNTCT2</set>
-</think>
-<srai>CNTCT2</srai></template>
-</category>   
+<srai>CNTCT2</srai>
 
-<category>
-<pattern>* CONTACT *</pattern>
-<template>
-<think>
-<set name="answr"><star index="1"/><star index="2"/></set>
-<set name="topic">CNTCT2</set>
-</think>
-<srai>CNTCT2</srai></template>
-</category> 
- 
-  
+
 <topic name="CNTCT2">
-<category>
-<pattern>CNTCT2</pattern>
-<template>
+CNTCT2
 <think>
 <get name="answr"/>
 <set name="message">no match</set>
@@ -195,7 +124,7 @@ I'm often asked about this. Which department or person do you wish to contact?
        
   
 </condition>
-<think><set name="topic"></set></think>
+<think><set name="topic"/></think>
 </think>
 
 <condition name="message">
@@ -214,76 +143,25 @@ I'm often asked about this. Which department or person do you wish to contact?
 <li value="reflibs"><srai>REFLIB CONTACT</srai></li>
   
 </condition>
-</template>
-</category>
-</topic>
 
 
-
-
-<category>
-<pattern>EMAIL</pattern>
-<template><srai>EMAIL1</srai></template>
-</category>  
-
-<category>
-<pattern>EMAIL1</pattern>
-<template>
+EMAIL1
 <think>
 <set name="topic">EMAIL1</set>
 </think>
 I'm often asked about this. Which department or person do you wish to contact?
-</template>
-</category>
 
 <topic name="EMAIL1">
-<category>
-<pattern>_</pattern>
-<template>
+_
 <think>
 <set name="answr"><star/></set>
 <set name="topic">EMAIL2</set>
 </think>
-<srai>EMAIL2</srai></template>
-</category>
-</topic>
+<srai>EMAIL2</srai>
 
 
-<category>
-<pattern>EMAIL *</pattern>
-<template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic">EMAIL2</set>
-</think>
-<srai>EMAIL2</srai></template>
-</category>  
-  
-<category>
-<pattern>* EMAIL</pattern>
-<template>
-<think>
-<set name="answr"><star/></set>
-<set name="topic">EMAIL2</set>
-</think>
-<srai>EMAIL2</srai></template>
-</category> 
-
-<category>
-<pattern>* EMAIL *</pattern>
-<template>
-<think>
-<set name="answr"><star index="1"/><star index="2"/></set>
-<set name="topic">EMAIL2</set>
-</think>
-<srai>EMAIL2</srai></template>
-</category> 
- 
-  
 <topic name="EMAIL2">
-<category>
-<pattern>EMAIL2</pattern>
-<template>
+EMAIL2
 <think>
 <get name="answr"/>
 <set name="message">no match</set>
@@ -322,7 +200,7 @@ I'm often asked about this. Which department or person do you wish to contact?
 
 
 </condition>
-<think><set name="topic"></set></think>
+<think><set name="topic"/></think>
 </think>
 
 <condition name="message">
@@ -335,9 +213,6 @@ I'm often asked about this. Which department or person do you wish to contact?
 <li value="fiona f">Foina's email address is . </li>
   
 </condition>
-</template>
-</category>
-</topic>
 
- 
-</aiml>  
+
+

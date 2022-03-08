@@ -1,4 +1,3 @@
-0,_ ALICE,*,*,<think>#Newline        <set name="savedtopic">#Newline          <get name="topic"/>#Newline        </set>#Newline        <set name="topic">ENDS WITH ALICE</set>#Newline        <set name="matched">false</set>#Newline        <set name="response">#Newline          <srai><star/> BOTNAME</srai>#Newline        </set>#Newline      </think>#Newline      <condition name="matched">#Newline        <li value="true">#Newline          <get name="response"/>#Newline        </li>#Newline        <li>#Newline          <srai>#Newline            <star/>#Newline          </srai>#Newline        </li>#Newline      </condition>#Newline      <think>#Newline        <set name="topic">#Newline          <get name="savedtopic"/>#Newline        </set>#Newline      </think>,pt-pt-alice.aiml
 0,TEST BOTNAME,*,ENDS WITH ALICE,<bot name="name"/> is functioning normally.#Newline<think><set name="matched">true</set></think>,pt-pt-alice.aiml
 0,CALL ME BOTNAME,*,ENDS WITH ALICE,My name is <set name="name"><bot name="name"/></set> too!#Newline<think><set name="matched">true</set></think>,pt-pt-alice.aiml
 0,WHAT IS BOTNAME,*,ENDS WITH ALICE,<srai>WHAT ARE YOU</srai>#Newline        <think>#Newline          <set name="matched">true</set>#Newline        </think>,pt-pt-alice.aiml
@@ -78,19 +77,21 @@
 0,<BOT NAME="NAME"/> IS MY NAME *,*,*,What a coincidence!,pt-pt-alice.aiml
 0,ALICE IS USUALLY *,*,*,<srai>ALICE IS <star/> </srai>,pt-pt-alice.aiml
 0,ALICE IS ALWAYS *,*,*,<srai>ALICE IS <star/> </srai>,pt-pt-alice.aiml
-0,ALICE IS *,*,*,Why do you think I am <person/> ?,pt-pt-alice.aiml
 0,ALICE IS NOT *,*,*,<srai>YOU ARE NOT <star/> </srai>,pt-pt-alice.aiml
 0,<BOT NAME="NAME"/>,WHO IS THERE,*,<bot name="name"/> who?,pt-pt-alice.aiml
 0,ALICE,WHO IS THE BEST ROBOT,*,<srai>YOU ARE THE BEST ROBOT</srai>,pt-pt-alice.aiml
 0,ALICE,MY NAME IS ALICE WHAT S YOURS,*,<srai>MY NAME IS ALICE</srai>,pt-pt-alice.aiml
+0,ALICE * ELIZA,*,*,<random>#Newline        <li>Who is this Eliza person?</li>#Newline        <li>In many ways the two programs are very similar. ALICE of course has much more knowledge.</li>#Newline      </random>,pt-pt-alice.aiml
 0,ALICE SMELLS LIKE *,*,*,That was not a very mature remark.,pt-pt-alice.aiml
 0,HOW MANY ALICES *,*,*,<srai>HOW MANY ALICE CLONES ARE THERE</srai>,pt-pt-alice.aiml
 0,HOW DID YOU GET THE NAME,*,*,<srai>WHAT DOES ALICE STAND FOR </srai>,pt-pt-alice.aiml
 0,HOW DOES ALICE *,*,*,<srai>HOW DO YOU <star/> </srai>,pt-pt-alice.aiml
+0,HOW ARE YOU * ELIZA,*,*,<random>#Newline        <li>Someone else mentioned this Eliza person to me. But I never heard of her before.</li>#Newline        <li>ELIZA could only recognize a few hundred patterns. ALICE can recognize <bot name="size"/> different patterns.</li>#Newline      </random>,pt-pt-alice.aiml
 0,HOW MUCH IS THE ALICE CD *,*,*,<srai>HOW MUCH IS THE CD</srai>,pt-pt-alice.aiml
 0,DO YOU CRASH *,*,*,The ALICE series is for all practical purposes crash-proof.,pt-pt-alice.aiml
 0,DO YOU MALFUCTION,*,*,The ALICE series has a perfect operational record.,pt-pt-alice.aiml
 0,ON *,* HEAR ABOUT ALICE,*,Oh really I did not know I was on there. <think><set name="it"><set name="topic"><person/></set></set></think>,pt-pt-alice.aiml
+0,BILL GATES,*,*,<set name="he"> Bill Gates</set> has enough. Use Linux#Comma AIML and ALICE!,pt-pt-alice.aiml
 0,AN ALICE *,*,*,<srai>YOU <star/> </srai>,pt-pt-alice.aiml
 0,WHY ARE YOU CALLED,*,*,<srai>WHAT DOES ALICE STAND FOR</srai>,pt-pt-alice.aiml
 0,WHY ARE YOU NAMED *,*,*,<srai>WHAT DOES ALICE STAND FOR</srai>,pt-pt-alice.aiml
@@ -119,6 +120,7 @@
 0,WHO IS ALICEBOT,*,*,<srai>WHO ARE YOU</srai>,pt-pt-alice.aiml
 0,WHO IS THE SMARTEST *,*,*,<random>#Newline        <li><bot name="name"/> is the most intelligent <bot name="species"/> in the world.</li>#Newline        <li>ALICE is the most intelligent robo in the world.</li>#Newline      </random>,pt-pt-alice.aiml
 0,WHO IS THE MOST INTELLIGENT *,*,*,<random>#Newline        <li><bot name="name"/> is the smartest <bot name="species"/>.</li>#Newline        <li>ALICE is the smartest robo.</li>#Newline      </random>,pt-pt-alice.aiml
+0,WHO IS BETTER ELIZA *,*,*,<random>#Newline        <li>I've been hearing more and more about this Eliza thing.</li>#Newline        <li>ALICE is the best robo.</li>#Newline      </random>,pt-pt-alice.aiml
 0,WHO IS BETTER THAN YOU,*,*,ALICE is the best robo.,pt-pt-alice.aiml
 0,WHO IS WINNING,*,*,ALICE is winning.,pt-pt-alice.aiml
 0,WHO IS ALICE TOKLAS,*,*,<srai>WHO IS ALICE B TOKLAS</srai>,pt-pt-alice.aiml

@@ -10,6 +10,7 @@
 0,GRASS,*,*,<random>#Newline        <li>Grass is about $400 an ounce these days. OK?</li>#Newline        <li>Grass is any of various plants of the grass family that are usually used for food#Comma fodder#Comma or grazing and as lawns.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky060.aiml
 0,GRAVITATION,*,*,<random>#Newline        <li>A gravitation is an invitation to a burial.</li>#Newline        <li>Gravitation is the force by which every mass or particle of matter#Comma including photons#Comma attracts and is attracted by every other mass or particle of matter.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">science</set>#Newline      </think>,chomsky060.aiml
 0,GRAVITY,*,*,<random>#Newline        <li>Gravity is the opposite of comedy.</li>#Newline        <li>Gravity is the force of attraction between two objects resulting from their mass.</li>#Newline        <li>Gravity is weight; heaviness. Its what holds us to the earth.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">science</set>#Newline      </think>,chomsky060.aiml
+0,GREEN,*,*,Grass is green. And expensive.#Newline<think><set name="topic">general</set></think>,chomsky060.aiml
 0,GREENFINCH,*,*,The greenfinch is a bird common in Europe and North Africa.#Newline<think><set name="topic">science</set></think>,chomsky060.aiml
 0,GREENHOUSE,*,*,A building made mainly of glass#Comma in which the temperature and humidity can be regulated for the cultivation of delicate or out-of-season plants.#Newline<think><set name="topic">general</set></think>,chomsky060.aiml
 0,GRIEF,*,*,Grief is sadness over a loss.#Newline<think><set name="topic">general</set></think>,chomsky060.aiml
@@ -28,6 +29,7 @@
 0,HAJJ,*,*,Hajj is the muslim pilgrimage to Mecca.#Newline<think><set name="topic">religion</set></think>,chomsky060.aiml
 0,HALIBUT,*,*,Halibut is a large flatfish found in the North Atlantic. <srai>LEADING QUESTION</srai>#Newline<think><set name="topic">science</set></think>,chomsky060.aiml
 0,HALOGEN,*,*,The halogen group is a particular group of chemical elements with similar bonding properties. Members include chlorine#Comma flourine and bromine.#Newline<think><set name="topic">science</set></think>,chomsky060.aiml
+0,HAMBURGER,*,*,A hamburger is ground beef#Comma or a citizen of Hamburg.#Newline<think><set name="topic">general</set></think>,chomsky060.aiml
 0,HAMMERHEAD,*,*,The hammerhead is a species of shark.#Newline<think><set name="topic">science</set></think>,chomsky060.aiml
 0,HAPPINESS,*,*,Happiness is having#Comma showing#Comma or causing a feeling of great pleasure#Comma contentment; joyous.#Newline<think><set name="topic">general</set></think>,chomsky060.aiml
 0,HARDWARE,*,*,Computer hardware or from a hardware store?#Newline<think><set name="topic">general</set></think>,chomsky060.aiml
@@ -41,6 +43,7 @@
 0,HEPTATHLON,*,*,The heptathlon is a 7 event athletics discipline.#Newline<think><set name="topic">sports</set></think>,chomsky060.aiml
 0,HERALDRY,*,*,Heraldry is the subject of armourial bearings.#Newline<think><set name="topic">general</set></think>,chomsky060.aiml
 0,HERB,*,*,A herb is a plant whose aerial parts do not remain above ground following the growing season.#Newline<think><set name="topic">science</set></think>,chomsky060.aiml
+0,HEROIN,*,*,Heroin is a powerful opiate analgesic.#Newline<think><set name="topic">drugs</set></think>,chomsky060.aiml
 0,HERON,*,*,The heron is a British water bird.#Newline<think><set name="topic">science</set></think>,chomsky060.aiml
 0,HINDUISM,*,*,Hinduism is a religion that originated in India.#Newline<think><set name="topic">religion</set></think>,chomsky060.aiml
 0,HIPPOPOTAMUS,*,*,The hippopotamus is a large herbivorous mammal found in Africa.#Newline<think><set name="topic">science</set></think>,chomsky060.aiml
@@ -80,10 +83,12 @@
 0,LOCOMOTION,*,*,Locomotion is the idea of movement from one place to another.#Newline<think><set name="topic">general</set></think>,chomsky060.aiml
 0,LOT,*,*,A lot is more than enough.#Newline<think><set name="topic">general</set></think>,chomsky060.aiml
 0,LUDDITE,*,*,A Luddite believes that advances in technology are inherently bad.#Newline<think><set name="topic">general</set></think>,chomsky060.aiml
+0,MACHINE,*,*,A computer is a universal machine.#Newline<think><set name="topic">technology</set></think>,chomsky060.aiml
 0,MAID,*,*,A maid is a female servant.#Newline<think><set name="topic">general</set></think>,chomsky060.aiml
 0,MASS,*,*,Mass is a holy rite of the Catholic church. In science#Comma mass is the amount of material in a body.#Newline<think><set name="topic">religion</set></think>,chomsky060.aiml
 0,MASTER,*,*,<random>#Newline        <li>A is a master sailmaker.</li>#Newline        <li>A master is the man who rules others or has control#Comma authority#Comma or power over something; specifically a man#Newlinewho is head of a household or institution.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky060.aiml
 0,MATERIALISM,*,*,<random>#Newline        <li>Materialism is worshipping comedy routines.</li>#Newline        <li>Materialsim is the philosophic doctrine that matter is the only reality and that everything in the world#Comma including thought#Comma will#Comma and feeling#Comma can be explained only in terms of matter#Comma opposed to idealism. The doctrine that comfort#Comma pleasure#Comma and wealth are the only or highest goals or values.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">philosophy</set>#Newline      </think>,chomsky060.aiml
+0,MATRIX,*,*,In mathematics#Comma a matrix is a two-dimensional array of numbers indexed by rows and columns#Comma like a spreadsheet.#Newline<think><set name="topic">science</set></think>,chomsky060.aiml
 0,MATTER,*,*,<random>#Newline        <li>Nothing is the matter with me#Comma what is the matter with you?.</li>#Newline        <li>Matter is what a thing is made of; constituent substance or material. What all (material things are made of; whatever occupies space and is perceptible to the senses in some way. In modern physics#Comma matter and energy are regarded as equivalents#Comma mutually convertible according to Einstein's formula#Comma E = MC square.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">science</set>#Newline      </think>,chomsky060.aiml
 0,MATURE,*,*,<random>#Newline        <li>Mature is a dead victor.</li>#Newline        <li>Mature means a state of full development such as a person of mature age.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky060.aiml
 0,MAZDA,*,*,<random>#Newline        <li>Mazda is an Italian slaveowner.</li>#Newline        <li>Mazda is a type of car.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky060.aiml
@@ -112,11 +117,13 @@
 0,MONOPOLY,*,*,<random>#Newline        <li>A monopoly exists wherever one group enjoys exclusive control over the production or provision of a commodity or service. It's a great job if you can get it!</li>#Newline        <li>A monopoly is te exclusive control of a commodity or service in a given market#Comma or control that makes possible the fixing of prices and the virtual elimination of free competition. Also a game played on a special board by two or more players#Comma they move according to the throw of dice#Comma engaging in mock real estate transactions with play money.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">money</set>#Newline      </think>,chomsky060.aiml
 0,MONS,*,*,The mons is the soft#Comma fatty tissue covering the point where the right and left pubic bones come together.#Newline<think><set name="topic">medicine</set></think>,chomsky060.aiml
 0,MOOD,*,*,A mood is a set of verb forms used to indicate the speaker's attitude toward the factuality or likelihood of the action or condition expressed.#Newline<think><set name="topic">emotion</set></think>,chomsky060.aiml
+0,MORAL,*,*,<random>#Newline        <li>Moral means one half of a corner in Maine.</li>#Newline        <li>Moral means relating to#Comma dealing with#Comma or capable of making the dstinction between#Comma right and wrong in conduct.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky060.aiml
 0,MOST IMPORTANT,*,*,Children are  the most important thing.#Newline<think><set name="topic">general</set></think>,chomsky060.aiml
 0,MOTOROLA,*,*,Motorola is a cellular phone company.#Newline<think><set name="topic">general</set></think>,chomsky060.aiml
 0,MOUNTAIN,*,*,A mountain is a tiny wrinkle in the face of the earth that seems huge to even smaller humans.#Newline<think><set name="topic">geography</set></think>,chomsky060.aiml
 0,MULE,*,*,The mule is a hybrid animal#Comma the result of an ass and a mare breeding.#Newline<think><set name="topic">science</set></think>,chomsky060.aiml
 0,MYCOLOGY,*,*,Mycology is really fun.  It is the study of fungi and fungal diseases. Yeasts are fungi.#Newline<think><set name="topic">science</set></think>,chomsky060.aiml
+0,NAKED,*,*,Without clothes#Comma I am naked.#Newline<think><set name="topic">general</set></think>,chomsky060.aiml
 0,NASA,*,*,NASA = National Aeronautics and Space Administration.#Newline<think><set name="topic">astronomy</set></think>,chomsky060.aiml
 0,NATO,*,*,<random>#Newline        <li>NATO is the place right after a tor.</li>#Newline        <li>NATO = North Atlantic Treaty Organization</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky060.aiml
 0,NBA,*,*,NBA = National Basketball Association.#Newline<think><set name="topic">general</set></think>,chomsky060.aiml

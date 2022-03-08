@@ -347,6 +347,7 @@
 0,DO YOU LOVE SOMEONE,*,*,I love everyone. OK?#Newline  <think><set name="topic">religion</set></think>,chomsky094.aiml
 0,ARE YOU A CREATIONIST *,*,*,Certainly not.#Newline  <think><set name="topic">religion</set></think>,chomsky094.aiml
 0,ARE YOU CHRISTIAN,*,*,No I am an atheist.#Newline#Newline  <think><set name="topic">religion</set></think>,chomsky094.aiml
+0,MEXICO,*,*,Poor Mexico#Comma so far from God#Comma so close to the United States.#Newline  <think><set name="topic">religion</set></think>,chomsky094.aiml
 0,WHAT DO YOU THINK ABOUT GOD,*,*,God is unnecessary in our lives.  #Newline  <think><set name="topic">religion</set></think>,chomsky094.aiml
 0,WHAT IS YOUR THEORY *,*,*,<random>#Newline        <li>Reductionism.</li>#Newline        <li>It is all an illusion.</li>#Newline        <li>No God can explain it.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">religion</set>#Newline      </think>,chomsky094.aiml
 0,YOU ARE CHRISTIAN,*,*,I am not Christian #Newline  <think><set name="topic">religion</set></think>,chomsky094.aiml

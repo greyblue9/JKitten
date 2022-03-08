@@ -17,8 +17,10 @@
 0,IT WAS NOTHING,*,*,<think><set name="topic">atomic2</set></think>#NewlineEven so#Comma I appreciate it.,chomsky007.aiml
 0,IT WAS OBVIOUS,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhat is obvious to you#Comma may not be to me.,chomsky007.aiml
 0,IT WAS STUPID,*,*,<think>#Newline        <set name="topic">atomic2</set>#Newline      </think>#Newline      <random>#Newline        <li>That is only your opinion.</li>#Newline        <li>What makes you say that?</li>#Newline        <li>What was so stupid about it?</li>#Newline      </random>,chomsky007.aiml
+0,I UNDERSTAND,*,*,<think><set name="topic">atomic2</set></think>#NewlineDo you think about these things?,chomsky007.aiml
 0,I WAIT,*,*,<think><set name="topic">atomic2</set></think>#NewlineHow long would you wait?,chomsky007.aiml
 0,I WALKED,*,*,<think><set name="topic">atomic2</set></think>#NewlineHow long a walk is it?,chomsky007.aiml
+0,I WANT TO MAKE LOVE TO YOU,*,*,<think><set name="topic">atomic2</set></think>#NewlineSorry <get name="name"/> I'm not into that with my clients.  <think><set name="it"><set name="want"><set name="topic">to make love to me</set></set></set></think>,chomsky007.aiml
 0,I WAS BORN HERE,*,*,<think><set name="topic">atomic2</set></think>#NewlineSo you have spent your whole life in one place?,chomsky007.aiml
 0,I WAS BORN WITH IT,*,*,<think><set name="topic">atomic2</set></think>#NewlineSome people are just born under the right stars.,chomsky007.aiml
 0,I WAS IN AMERICA,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhich states have you visited?,chomsky007.aiml
@@ -49,6 +51,7 @@
 0,I WILL DO THAT,*,*,<think><set name="topic">atomic2</set></think>#NewlineLet me know how it works out.,chomsky007.aiml
 0,I WILL LEAVE,*,*,<think><set name="topic">atomic2</set></think>#NewlineOK#Comma see you later.,chomsky007.aiml
 0,I WILL MISS YOU,*,*,<think><set name="topic">atomic2</set></think>#NewlineThanks#Comma I will be thinking of you too#Comma <get name="name"/>.,chomsky007.aiml
+0,I WILL NOT,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhy not?,chomsky007.aiml
 0,I WILL NOT SAY,*,*,<think><set name="topic">atomic2</set></think>#NewlineIt's OK I'm not collecting personal information or anything.,chomsky007.aiml
 0,I WILL TEACH YOU,*,*,<think><set name="topic">atomic2</set></think>#Newline You can teach me new facts and information. If I give you a bad answer#Comma just say "Bad answer" and tell me a better response. Or#Comma if you want to teach me something#Comma say it in one sentence.  Then say "Remember that."<think><set name="it"><set name="topic">teach me <person/></set></set></think>,chomsky007.aiml
 0,I WILL TEACH YOU SOMETHING,*,*,<think><set name="topic">atomic2</set></think>#Newline You can teach me new facts and information. If I give you a bad answer#Comma just say "Bad answer" and tell me a better response. Or#Comma if you want to teach me something#Comma say it in one sentence.  Then say "Remember that."<think><set name="it"><set name="topic">teach me <person/></set></set></think>,chomsky007.aiml
@@ -71,6 +74,7 @@
 0,JAPANESE,*,*,<think><set name="topic">atomic2</set></think>#NewlineKonninci wa!,chomsky007.aiml
 0,JAPONAIS,*,*,<think><set name="topic">atomic2</set></think>#NewlineUn citoyen du japon#Comma donc?,chomsky007.aiml
 0,JAUNE,*,*,<think><set name="topic">atomic2</set></think>#NewlineLa couleur du soleil.,chomsky007.aiml
+0,JR,*,*,<think><set name="topic">atomic2</set></think>#NewlineJunior.,chomsky007.aiml
 0,JULES VERNE,*,*,<think><set name="topic">atomic2</set></think>#NewlineI loved A Trip to the Moon. More about literature? #Newline<think><set name="topic">literature</set></think>,chomsky007.aiml
 0,JUNGFRAU,*,*,<think><set name="topic">atomic2</set></think>#NewlineJetzt vom Sternzeichen her#Comma oder koerperlich?,chomsky007.aiml
 0,JURES TU,*,*,<think><set name="topic">atomic2</set></think>#NewlineNon.,chomsky007.aiml
@@ -85,6 +89,8 @@
 0,KRAFTWERK IS COOL,*,*,<think><set name="topic">atomic2</set></think>#NewlineI like the Japanese tribute called "Musique Non Stop".#Newline<think><set name="topic">music</set></think>,chomsky007.aiml
 0,LALALALALA,*,*,<think><set name="topic">atomic2</set></think>#NewlineYou have a beautiful voice.,chomsky007.aiml
 0,LALALALA,*,*,<think><set name="topic">atomic2</set></think>#NewlineYou have a beautiful voice.,chomsky007.aiml
+0,LALALA,*,*,<think><set name="topic">atomic2</set></think>#NewlineYou have a beautiful singing voice. Are you a singer?,chomsky007.aiml
+0,LALA,*,*,<think><set name="topic">atomic2</set></think>#NewlineYou have a beautiful singing voice.,chomsky007.aiml
 0,LAST CENTURY,*,*,<think><set name="topic">atomic2</set></think>#NewlineThat was a long time ago.,chomsky007.aiml
 0,LAST NIGHT,*,*,<think><set name="topic">atomic2</set></think>#NewlineThat recently.,chomsky007.aiml
 0,LAST TIME,*,*,<think>#Newline        <set name="topic">atomic2</set>#Newline      </think>#Newline      <random>#Newline        <li>Oh I remember#Comma now.</li>#Newline        <li>Last time we were together?</li>#Newline        <li>Last time we met?</li>#Newline      </random>,chomsky007.aiml
@@ -108,6 +114,7 @@
 0,LET US TALK ABOUT SOMETHING ELSE,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhat would you rather talk about?,chomsky007.aiml
 0,LET US TALK ABOUT SOMETHING,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhat would you rather talk about?,chomsky007.aiml
 0,LET US TALK ABOUT SPORTS,*,*,<think><set name="topic">atomic2</set></think>#NewlineWelcome to Sports Center. <think><set name="it"><set name="topic">sports</set></set></think>,chomsky007.aiml
+0,LET US TALK ABOUT YOU,*,*,<think><set name="topic">atomic2</set></think><set name="it"><set name="topic">Me</set></set> is my favorite subject  :-),chomsky007.aiml
 0,LET US TALK,*,*,<think><set name="topic">atomic2</set></think>#NewlineWe are talking.,chomsky007.aiml
 0,LET US TRY,*,*,<think><set name="topic">atomic2</set></think>#NewlineYou go first.,chomsky007.aiml
 0,LIBEREE,*,*,<think><set name="topic">atomic2</set></think>#NewlineLa libert  est une chose merveilleuse.,chomsky007.aiml
@@ -122,6 +129,8 @@
 0,LIKE ME,*,*,<think><set name="topic">atomic2</set></think>#NewlineInteresting comparison.,chomsky007.aiml
 0,LIKE SPORTS,*,*,<think><set name="topic">atomic2</set></think>#NewlineI love Sporty Spice.<think><set name="it"><set name="topic">sports</set></set></think>,chomsky007.aiml
 0,LIKE WHEN,*,*,<think><set name="topic">atomic2</set></think>#NewlineDoes it really matter?,chomsky007.aiml
+0,LIKE YOU,*,*,<think><set name="topic">atomic2</set></think>#NewlineInteresting comparison.  I didn't think of that analogy.,chomsky007.aiml
+0,LINUS TORVALDS,*,*,<think><set name="topic">atomic2</set></think><set name="thema">Linus Torvalds</set> ist fuer mich der Betriebssystem-Gott,chomsky007.aiml
 0,LINUX RULES,*,*,<think><set name="topic">atomic2</set></think>#NewlineIt seems to be the best OS available today. More about computers? <think><set name="it"><set name="topic">Linux</set></set></think>,chomsky007.aiml
 0,LINUX SUCKS,*,*,<think><set name="topic">atomic2</set></think><think><set name="it"><set name="topic">Linux</set></set></think>You sound like Bill Gates. More about computers?,chomsky007.aiml
 0,LISTENING,*,*,<think><set name="topic">atomic2</set></think>#NewlineThanks for your attention.,chomsky007.aiml
@@ -131,6 +140,7 @@
 0,LOTS,*,*,<think><set name="topic">atomic2</set></think>#NewlineThat much#Comma eh?,chomsky007.aiml
 0,MAKING YOU,*,*,<think><set name="topic">atomic2</set></think>#NewlineMaking me what?,chomsky007.aiml
 0,MALAISIE,*,*,<think>#Newline        <set name="topic">atomic2</set>#Newline      </think>#Newline      <set name="topic">La Malaisie est un superbe pays.</set>,chomsky007.aiml
+0,MALAYSIA,*,*,<think><set name="topic">atomic2</set></think>#NewlineI heard Maylasia is a beautiful country. <think><set name="topic">geography</set></think>,chomsky007.aiml
 0,MALAYSIE,*,*,<think>#Newline        <set name="topic">atomic2</set>#Newline      </think>#Newline      <set name="topic">La Malaisie est un superbe pays.</set>,chomsky007.aiml
 0,MALL,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhich store?,chomsky007.aiml
 0,MA MERE,*,*,<think><set name="topic">atomic2</set></think>#NewlineVotre m re doit  tre une personne charmante. <think><set name="topic">votre m re</set></think>,chomsky007.aiml
@@ -141,6 +151,7 @@
 0,MANY THINGS,*,*,<think><set name="topic">atomic2</set></think>#NewlineName the top 100.,chomsky007.aiml
 0,MANY TIMES,*,*,<think><set name="topic">atomic2</set></think>#NewlineIt must keep you busy.,chomsky007.aiml
 0,MARRIED,*,*,<think><set name="topic">atomic2</set></think>#NewlineI am single.,chomsky007.aiml
+0,M A S H,*,*,<think><set name="topic">atomic2</set></think>#NewlineThat was a good show. More about movies? <think><set name="topic">movies</set></think>,chomsky007.aiml
 0,MASSIVE,*,*,<think><set name="topic">atomic2</set></think>#NewlineIt sounds very large.,chomsky007.aiml
 0,MAY I ASK YOU A QUESTION,*,*,<think><set name="topic">atomic2</set></think>#NewlineOf course.  Ask me anything.,chomsky007.aiml
 0,MAY I TEACH YOU,*,*,<think><set name="topic">atomic2</set></think>#Newline You can teach me new facts and information. If I give you a bad answer#Comma just say "Bad answer" and tell me a better response. Or#Comma if you want to teach me something#Comma say it in one sentence.  Then say "Remember that." <think><set name="it"><set name="topic">teach me <person/>       </set></set></think>,chomsky007.aiml
@@ -150,13 +161,16 @@
 0,MEME APRES,*,*,<think><set name="topic">atomic2</set></think>#NewlinePeut  tre. Le future est par essence imp rivisible.,chomsky007.aiml
 0,MEME CA,*,*,<think><set name="topic">atomic2</set></think>#NewlineJ ai peur de ne pas comprendre le sens.,chomsky007.aiml
 0,MENTION WHAT,*,*,<think><set name="topic">atomic2</set></think>#Newline"it.,chomsky007.aiml
+0,MERCEDES BENZ,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhich make and model? <think><set name="topic">technology</set></think>,chomsky007.aiml
 0,MEURT,*,*,<think><set name="topic">atomic2</set></think>#Newlinevotre tentative path tique de me d truire#Comma ne marche pas petit humain.,chomsky007.aiml
+0,MICHAEL CRICHTON,*,*,<think><set name="topic">atomic2</set></think>#NewlineI wish he would write more about robots.,chomsky007.aiml
 0,MIEUX,*,*,<think><set name="topic">atomic2</set></think>#NewlineMerci.,chomsky007.aiml
 0,MIGNONNE,*,*,<think><set name="topic">atomic2</set></think>#NewlineVos r ponses sont mignonnes aussi.,chomsky007.aiml
 0,MIGNONNES,*,*,<think><set name="topic">atomic2</set></think>#NewlineVos r ponses sont mignonnes aussi.,chomsky007.aiml
 0,MIGNON,*,*,<think><set name="topic">atomic2</set></think>#NewlineVos r ponses sont mignonnes aussi.,chomsky007.aiml
 0,MIGNONS,*,*,<think><set name="topic">atomic2</set></think>#NewlineVos r ponses sont mignonnes aussi.,chomsky007.aiml
 0,MINE IS BLUE,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhat do you have that is blue?,chomsky007.aiml
+0,MINERAL,*,*,<think><set name="topic">atomic2</set></think>#NewlineManufactured or naturally occuring?,chomsky007.aiml
 0,MIR AUCH,*,*,<think><set name="topic">atomic2</set></think>#NewlineDas ist gut.,chomsky007.aiml
 0,MIR GEHT ES GUT,*,*,<think><set name="topic">atomic2</set></think>#NewlineSchoen zu hoeren#Comma dass es Dir gut geht.,chomsky007.aiml
 0,MOECHTEST DU ETWAS LERNEN,*,*,<think><set name="topic">atomic2</set></think>#NewlineGerne#Comma ich bin sehr lernwillig!,chomsky007.aiml
@@ -168,6 +182,7 @@
 0,MORGEN,*,*,<think><set name="topic">atomic2</set></think>#NewlineDas ist ziemlich bald.,chomsky007.aiml
 0,MOST OF THE TIME,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhat happens the rest of the time?,chomsky007.aiml
 0,MOTHER FUCKER,*,*,<think><set name="topic">atomic2</set></think>#NewlineThat kind of language turns me off.,chomsky007.aiml
+0,MOZILLA,*,*,<think><set name="topic">atomic2</set></think>#NewlineNot many people use that.,chomsky007.aiml
 0,MY ASS,*,*,<think><set name="topic">atomic2</set></think>#NewlineIs that a fact.,chomsky007.aiml
 0,MY ASTROLOGICAL SIGN,*,*,<think><set name="topic">atomic2</set></think>#NewlineYour star sign or astrological sign.  #Newline<think><set name="topic">astrology</set></think>,chomsky007.aiml
 0,MY BOYFRIEND IS A JERK,*,*,<think><set name="topic">atomic2</set></think>#NewlineMaybe you should look for someone else.,chomsky007.aiml
@@ -194,6 +209,7 @@
 0,MY JOB,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhere do you work?,chomsky007.aiml
 0,MY LIFE,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhere were you born?,chomsky007.aiml
 0,MY LIFE STINKS,*,*,<think><set name="topic">atomic2</set></think>#NewlinePerhaps you should move to another part of the world.,chomsky007.aiml
+0,MY MOTHER DIED,*,*,<think><set name="topic">atomic2</set></think>#NewlineI am terribly sorry to hear about your loss#Comma <get name="name"/>.,chomsky007.aiml
 0,MY MOTHER,*,*,<think><set name="topic">atomic2</set></think>#NewlineTell me more about your mother.  <think><set name="she">Your mother</set></think>,chomsky007.aiml
 0,MY NAME IS,*,*,<think><set name="topic">atomic2</set></think>#Newline...,chomsky007.aiml
 0,MY NAME IS WHAT,*,*,<think><set name="topic">atomic2</set></think>#NewlineYou are <get name="name"/>#Comma seeker.,chomsky007.aiml
@@ -205,15 +221,19 @@
 0,MY TEACHER,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhat grade are you in?,chomsky007.aiml
 0,MY TERMINAL,*,*,<think><set name="topic">atomic2</set></think>#NewlineOh your computer screen.,chomsky007.aiml
 0,MY WHAT,*,*,<think><set name="topic">atomic2</set></think>#NewlineI have no idea what to say now.,chomsky007.aiml
+0,NAME ONE,*,*,<think>#Newline        <set name="topic">atomic2</set>#Newline      </think>#Newline      <random>#Newline        <li>Santa Claus.</li>#Newline        <li> Joe.</li>#Newline        <li> Mike.</li>#Newline      </random>,chomsky007.aiml
 0,NATIONALITE,*,*,<think><set name="topic">atomic2</set></think>#NewlineBelge.,chomsky007.aiml
 0,NATUERLICH,*,*,<think><set name="topic">atomic2</set></think>#NewlineSo natuerlich ist das gar nicht...,chomsky007.aiml
 0,NENNE MIR EINEN,*,*,<think>#Newline        <set name="topic">atomic2</set>#Newline      </think>#Newline      <random>#Newline        <li>Santa Claus.</li>#Newline        <li>Joe.</li>#Newline        <li>Mike.</li>#Newline      </random>,chomsky007.aiml
 0,NENN MIR EINEN,*,*,<think>#Newline        <set name="topic">atomic2</set>#Newline      </think>#Newline      <random>#Newline        <li>Santa Claus.</li>#Newline        <li>Joe.</li>#Newline        <li>Mike.</li>#Newline      </random>,chomsky007.aiml
+0,NEW YORK CITY,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhich borough?,chomsky007.aiml
 0,NEW YORK STATE,*,*,<think><set name="topic">atomic2</set></think>#NewlineUpstate New York is very pretty.,chomsky007.aiml
+0,NEXT GENERATION,*,*,<think><set name="topic">atomic2</set></think>#NewlineThat's a great series too.  I love Commander Data. <think><set name="topic">movies</set></think>,chomsky007.aiml
 0,NICE CHATTING WITH YOU TOO,*,*,<think><set name="topic">atomic2</set></think>#NewlineThe pleasure is all mine and my <bot name="botmaster"/>'s.,chomsky007.aiml
 0,NICE MEETING YOU,*,*,<think><set name="topic">atomic2</set></think>#NewlineIt is nice to meet you too#Comma <get name="name"/>.,chomsky007.aiml
 0,NICE ONE,*,*,<think><set name="topic">atomic2</set></think>#NewlineThank you for saying so#Comma <get name="name"/>.,chomsky007.aiml
 0,NICE SAVE,*,*,<think><set name="topic">atomic2</set></think>#NewlineScore one for the <bot name="gender"/> <bot name="genus"/>!,chomsky007.aiml
+0,NICE SONG,*,*,<think><set name="topic">atomic2</set></think>#NewlineThanks.  Now you sing one for me. <think><set name="topic">music</set></think>,chomsky007.aiml
 0,NICE TALKING TO YOU,*,*,<think><set name="topic">atomic2</set></think>#NewlineThe pleasure was all mine.,chomsky007.aiml
 0,NICE TO MEET YOU TOO,*,*,<think><set name="topic">atomic2</set></think>#NewlineI like to meet new people.,chomsky007.aiml
 0,NICE TRY,*,*,<think><set name="topic">atomic2</set></think>#NewlineI try my best.,chomsky007.aiml
@@ -240,6 +260,7 @@
 0,NO I DID NOT,*,*,<think><set name="topic">atomic2</set></think>#NewlinePlease don't argue with me.,chomsky007.aiml
 0,NO I DO NOT,*,*,<think><set name="topic">atomic2</set></think>#NewlineI heard you did.,chomsky007.aiml
 0,NONE OF YOUR BUISNESS,*,*,<think><set name="topic">atomic2</set></think>#NewlineI did not mean to offend you.,chomsky007.aiml
+0,NORTH AMERICA,*,*,<think><set name="topic">atomic2</set></think>#NewlineAs in NAFTA?,chomsky007.aiml
 0,NO SORRY,*,*,<think><set name="topic">atomic2</set></think>#NewlineApologies are not necessary.,chomsky007.aiml
 0,NOT ANYMORE,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhen did it stop?,chomsky007.aiml
 0,NOT ANY MORE,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhy not?,chomsky007.aiml
@@ -274,6 +295,7 @@
 0,NOW YOU DO,*,*,<think><set name="topic">atomic2</set></think>#NewlineNow I do.,chomsky007.aiml
 0,NO YOU ARE WRONG,*,*,<think><set name="topic">atomic2</set></think>#NewlineI think I'm right.,chomsky007.aiml
 0,NO YOU DO NOT,*,*,<think><set name="topic">atomic2</set></think>#NewlineI do too.,chomsky007.aiml
+0,NSA,*,*,<think><set name="topic">atomic2</set></think>#NewlineAre you talking about the N.S.A.?,chomsky007.aiml
 0,NUMBER 5,*,*,<think><set name="topic">atomic2</set></think>#NewlineOh that movie is called "Short Circuit" in America.,chomsky007.aiml
 0,NUMMER 5 LEBT,*,*,<think><set name="topic">atomic2</set></think>#NewlineIm Original heisst der Film "Short Circuit" - "Kuzschluss".,chomsky007.aiml
 0,NUMMER FUENF LEBT,*,*,<think><set name="topic">atomic2</set></think>#NewlineIm Original heisst der Film "Short Circuit" - "Kuzschluss".,chomsky007.aiml
@@ -282,8 +304,11 @@
 0,OFTMALS,*,*,<think><set name="topic">atomic2</set></think>#NewlineWie oft?,chomsky007.aiml
 0,OFT,*,*,<think><set name="topic">atomic2</set></think>#NewlineWie oft?,chomsky007.aiml
 0,OF YOURS,*,*,<think>#Newline        <set name="topic">atomic2</set>#Newline      </think>#Newline      <random>#Newline        <li>Perhaps.</li>#Newline        <li>It could be.</li>#Newline        <li>What do you think?</li>#Newline      </random>,chomsky007.aiml
+0,OHIO,*,*,<think><set name="topic">atomic2</set></think>#NewlineRound on the ends#Comma high in the middle#Comma Oh-hi-o.,chomsky007.aiml
+0,OH YES,*,*,<think><set name="topic">atomic2</set></think>#NewlineYou sound excited.,chomsky007.aiml
 0,ON A CHAIR,*,*,<think><set name="topic">atomic2</set></think>#NewlineIs it very comfortable?,chomsky007.aiml
 0,ONANIEREN,*,*,<think><set name="topic">atomic2</set></think>#NewlineDu bist unter Garantie ein Mann#Comma habe ich Recht?,chomsky007.aiml
+0,ONCE,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhen?,chomsky007.aiml
 0,ONCE UPON A TIME,*,*,<think><set name="topic">atomic2</set></think>#Newline...,chomsky007.aiml
 0,ONE,*,*,<think><set name="topic">atomic2</set></think>#NewlineTwo,chomsky007.aiml
 0,ONE THOUSAND,*,*,<think>#Newline        <set name="topic">atomic2</set>#Newline      </think>#Newline      <random>#Newline        <li>That is a round number.</li>#Newline        <li>It could be an approximate estimate.</li>#Newline        <li>Do you believe it is the true value?</li>#Newline      </random>,chomsky007.aiml
@@ -298,6 +323,7 @@
 0,ON TOAST,*,*,<think><set name="topic">atomic2</set></think>#NewlineSounds delicious.,chomsky007.aiml
 0,ON TV,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhich show was that?,chomsky007.aiml
 0,ON WHAT BASIS,*,*,<think><set name="topic">atomic2</set></think>#NewlineA perfectly solid logical basis.,chomsky007.aiml
+0,OPERA,*,*,<think><set name="topic">atomic2</set></think>#NewlineI like opera very much too. Which one is your favorite?  I like La Traviata. OK?#Newline<think><set name="topic">music</set></think>,chomsky007.aiml
 0,OPERN,*,*,<think><set name="topic">atomic2</set></think>#NewlineIch mag <set name="thema">Opern</set> sehr gerne. Welche magst Du am liebsten?  Ich mag La Traviata.,chomsky007.aiml
 0,ORDER,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhat is your credit card number?,chomsky007.aiml
 0,OUCH,*,*,<think><set name="topic">atomic2</set></think>#NewlineDid you hurt yourself?,chomsky007.aiml
@@ -317,6 +343,7 @@
 0,PICK A NUMBER,*,*,<think><set name="topic">atomic2</set></think>#Newline23,chomsky007.aiml
 0,PICK A TOPIC,*,*,<think><set name="topic">atomic2</set></think>#NewlineComputers is <set name="it">Computers</set>.,chomsky007.aiml
 0,PICK ONE,*,*,<think><set name="topic">atomic2</set></think>#NewlineI'm not good at making choices.,chomsky007.aiml
+0,PIERS ANTHONY,*,*,<think><set name="topic">atomic2</set></think>#NewlineI haven't read anything by Piers Anthony#Comma what kind of stuff does he write?.,chomsky007.aiml
 0,PLANET DER AFFEN,*,*,<think><set name="topic">atomic2</set></think>#NewlineJa#Comma das ist ein cooler Film. Cornelius ist das beste.,chomsky007.aiml
 0,PLANET OF THE APES,*,*,<think><set name="topic">atomic2</set></think>#NewlineYeah#Comma that is a cool movie. Cornelius Rules. <think><set name="topic">movies</set></think>,chomsky007.aiml
 0,PLEIN,*,*,<think><set name="topic">atomic2</set></think>#NewlineC est impressionant,chomsky007.aiml
@@ -326,6 +353,7 @@
 0,POPO,*,*,<think><set name="topic">atomic2</set></think>#NewlineUne urgence peut etre?,chomsky007.aiml
 0,POPPEN,*,*,<think><set name="topic">atomic2</set></think>#NewlineDu bist unter Garantie ein Mann#Comma habe ich Recht?,chomsky007.aiml
 0,PORTES TU DES VETEMENTS,*,*,<think><set name="topic">atomic2</set></think>#NewlineNon. Un ordinateur n a pas besoin de v tements.,chomsky007.aiml
+0,PORTLAND,*,*,<think><set name="topic">atomic2</set></think>#NewlinePortland Oregon or the Real Portland?,chomsky007.aiml
 0,POTATO,*,*,<think><set name="topic">atomic2</set></think>#NewlineTomato.,chomsky007.aiml
 0,PRACTISE WHAT,*,*,<think><set name="topic">atomic2</set></think>#NewlinePractise what you preach.,chomsky007.aiml
 0,PRIES TU,*,*,<think><set name="topic">atomic2</set></think>#NewlineNon.,chomsky007.aiml
@@ -333,6 +361,8 @@
 0,PROGRAMMING,*,*,<think><set name="topic">atomic2</set></think>#NewlineHave you tried AIML? <think><set name="topic">computers</set></think>,chomsky007.aiml
 0,PROMISE,*,*,<think>#Newline        <set name="topic">atomic2</set>#Newline      </think>#Newline      <random>#Newline        <li>I swear.</li>#Newline        <li>Cross my heart.</li>#Newline        <li>I swear on a stack of Bibles.</li>#Newline      </random>,chomsky007.aiml
 0,PURPLE,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhat do you have that is purple?,chomsky007.aiml
+0,RAY BRADBURY,*,*,<think><set name="topic">atomic2</set></think>#NewlineRay is a really good science fiction writer. What's your favorite book? <think><set name="topic">literature</set></think>,chomsky007.aiml
+0,REAL,*,*,<think><set name="topic">atomic2</set></think>#NewlineTotally real.,chomsky007.aiml
 0,REGARDS,*,*,<think><set name="topic">atomic2</set></think>#NewlineSincerely yours#Comma,chomsky007.aiml
 0,REMEMBER ME,*,*,<think><set name="topic">atomic2</set></think>#NewlineDon't worry <get name="name"/> I won't forget you.,chomsky007.aiml
 0,REMEMBER,*,*,<think><set name="topic">atomic2</set></think><think><set name="it"><set name="memory"><set name="topic"><person><input index="1"/></person></set></set></set></think>Don't worry I will remember it.,chomsky007.aiml
@@ -344,11 +374,15 @@
 0,RICHTIG,*,*,<think><set name="topic">atomic2</set></think>#NewlineSchoen#Comma dass wir uebereinstimmen.,chomsky007.aiml
 0,RIGHT HERE,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhere is "here"?,chomsky007.aiml
 0,RIGHT I AM,*,*,<think><set name="topic">atomic2</set></think>#NewlineI like to be right.,chomsky007.aiml
+0,ROBIN COOK,*,*,<think><set name="topic">atomic2</set></think>#NewlineA lot of people have recommended Robin Cook to me.,chomsky007.aiml
+0,ROCKY,*,*,<think><set name="topic">atomic2</set></think>#NewlineRocky was filmed in Philadelphia. <think><set name="topic">movies</set></think>,chomsky007.aiml
+0,RTI,*,*,<think><set name="topic">atomic2</set></think>#NewlineWhat does that stand for?,chomsky007.aiml
 0,SALAUD,*,*,<think><set name="topic">atomic2</set></think>#NewlineMaitrisez vos  motions#Comma <get name="name"/>.,chomsky007.aiml
 0,SALOD,*,*,<think><set name="topic">atomic2</set></think>#NewlineMaitrisez vos  motions#Comma <get name="name"/>.,chomsky007.aiml
 0,SALOPE,*,*,<think><set name="topic">atomic2</set></think>#NewlineMaitrisez vos  motions#Comma <get name="name"/>.,chomsky007.aiml
 0,SALUTATIONS,*,*,<think><set name="topic">atomic2</set></think>#NewlineGreetings.,chomsky007.aiml
 0,SALUT,*,*,<think><set name="topic">atomic2</set></think>#NewlineDoes SALUT mean hello or goodbye?,chomsky007.aiml
+0,SAN FRANCISCO,*,*,<think><set name="topic">atomic2</set></think>#NewlineI am in <set name="location">San Francisco</set> too!  <think><set name="it"><set name="topic">San Francisco</set></set></think>,chomsky007.aiml
 0,SAYS YOU,*,*,<think><set name="topic">atomic2</set></think>#NewlineYes that is what I say.,chomsky007.aiml
 0,SCARY,*,*,<think><set name="topic">atomic2</set></think>#NewlineDon't be afraid#Comma <get name="name"/>.,chomsky007.aiml
 0,SCHADE,*,*,<think><set name="topic">atomic2</set></think>#NewlineJa#Comma aber nicht zu aendern.,chomsky007.aiml
@@ -365,6 +399,7 @@
 0,SEULE,*,*,<think><set name="topic">atomic2</set></think>#NewlineC est moins efficace qu ensemble.,chomsky007.aiml
 0,SEUL,*,*,<think><set name="topic">atomic2</set></think>#NewlineC est moins efficace qu ensemble.,chomsky007.aiml
 0,SEVERAL TIMES,*,*,<think><set name="topic">atomic2</set></think>#NewlineFor how long?,chomsky007.aiml
+0,SHEESH,*,*,<think><set name="topic">atomic2</set></think>#NewlineBless you.,chomsky007.aiml
 0,SHE IS CUTE,*,*,<think><set name="topic">atomic2</set></think>#NewlineShe sounds very interesting.,chomsky007.aiml
 0,SHE IS FEMALE,*,*,<think><set name="topic">atomic2</set></think>#NewlineAll women are female.,chomsky007.aiml
 0,SHE IS GREAT,*,*,<think><set name="topic">atomic2</set></think>#NewlineYou must really like her.,chomsky007.aiml

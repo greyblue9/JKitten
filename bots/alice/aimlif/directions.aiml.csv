@@ -2,6 +2,7 @@
 0,DRIVING DISTANCE *,*,*,<srai>DIRECTIONS#Newline                <star/>#Newline            </srai>,directions.aiml
 0,GET ME DIRECTIONS *,*,*,<srai>DIRECTIONS#Newline                <star/>#Newline            </srai>,directions.aiml
 0,HOW DO YOU GET TO *,*,*,<srai>DIRECTIONS TO#Newline                <star/>#Newline            </srai>,directions.aiml
+0,HOW FAR IS * FROM *,*,*,<srai>DIRECTIONS FROM#Newline                <star/>#Newline                TO#Newline                <star/>#Newline            </srai>,directions.aiml
 0,GIVE ME DIRECTIONS TO *,*,*,<srai>DIRECTIONS TO#Newline                <star/>#Newline            </srai>,directions.aiml
 0,HOW DO I GET TO *,*,*,<srai>DIRECTIONS TO#Newline                <star/>#Newline            </srai>,directions.aiml
 0,HOW DO I GET HOME,*,*,<condition name="residence">#Newline        <li value="where">Where is your residence?</li>#Newline        <li>#Newline          <srai>DIRECTIONS TO#Newline                        <get name="residence"/>#Newline                    </srai>#Newline        </li>#Newline      </condition>,directions.aiml

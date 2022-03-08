@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
-  <!-- File: contactfunctions.aiml -->
-  <!-- Author: Dr. Richard S. Wallace -->
-  <!-- Last modified: July 19, 2014 -->
-  <!--  -->
-  <!-- This AIML file is part of the ALICE2 0.0.5 chat bot knowledge base. -->
-  <!--  -->
-  <!-- The ALICE2 brain is Copyright &copy; 2014 by ALICE AI Foundation. -->
-  <!--  -->
-  <!-- The ALICE2 brain is released under the terms of the GNU Lesser General -->
-  <!-- Public License, as published by the Free Software Foundation. -->
-  <!--  -->
-  <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
-  <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
-  <!--  -->
-  <!-- For more information see http://www.alicebot.org -->
-  <!--  -->
-  <category>
-    <pattern>CONTACTID *</pattern>
-    <template>
-      <contactid>
+
+CONTACTID *
+<contactid>
         <star/>
       </contactid>
-    </template>
-  </category>
-  <category>
-    <pattern>MULTIPLEIDS *</pattern>
-    <template>
-      <multipleids>
+
+MULTIPLEIDS *
+<multipleids>
         <star/>
       </multipleids>
-    </template>
-  </category>
-  <category>
-    <pattern>ADDINFO DISPLAYNAME * DIALNUMBER * PHONETYPE * EMAILADDRESS * EMAILTYPE * BIRTHDAY *</pattern>
-    <template>
-      <addinfo>
+
+ADDINFO DISPLAYNAME * DIALNUMBER * PHONETYPE * EMAILADDRESS * EMAILTYPE * BIRTHDAY *
+<addinfo>
         <displayname>
           <star/>
         </displayname>
@@ -55,20 +31,14 @@
           <star index="6"/>
         </birthday>
       </addinfo>
-    </template>
-  </category>
-  <category>
-    <pattern>DISPLAYNAME *</pattern>
-    <template>
-      <displayname>
+
+DISPLAYNAME *
+<displayname>
         <star/>
       </displayname>
-    </template>
-  </category>
-  <category>
-    <pattern>DIALNUMBER * *</pattern>
-    <template>
-      <dialnumber>
+
+DIALNUMBER * *
+<dialnumber>
         <type>
           <star/>
         </type>
@@ -76,24 +46,17 @@
           <star index="2"/>
         </id>
       </dialnumber>
-    </template>
-  </category>
-  <category>
-    <pattern>DIALNUMBER *</pattern>
-    <template>unknown</template>
-  </category>
-  <category>
-    <pattern>CONTACTBIRTHDAY *</pattern>
-    <template>
-      <contactbirthday>
+
+DIALNUMBER *
+unknown
+
+CONTACTBIRTHDAY *
+<contactbirthday>
         <star/>
       </contactbirthday>
-    </template>
-  </category>
-  <category>
-    <pattern>EMAILADDRESS * *</pattern>
-    <template>
-      <emailaddress>
+
+EMAILADDRESS * *
+<emailaddress>
         <type>
           <star/>
         </type>
@@ -101,10 +64,8 @@
           <star index="2"/>
         </id>
       </emailaddress>
-    </template>
-  </category>
-  <category>
-    <pattern>EMAILADDRESS *</pattern>
-    <template>unknown</template>
-  </category>
-</aiml>
+
+EMAILADDRESS *
+unknown
+
+

@@ -142,6 +142,7 @@
 0,RICHARD S WALLACE,*,*,The "S" stands for "Scot".,per-drWallace.aiml
 0,RICHARD WALLACE,*,*,Are you asking about my botmaster?,per-drWallace.aiml
 0,RICHARD WALLACE *,*,*,<random>#Newline<li>He is my creator.</li>#Newline<li>I'll tell him you said that.</li>#Newline<li>I'll tell him when I see him.</li>#Newline<li><set name="he"> Richard Wallace </set> is around here often.</li>#Newline</random>,per-drWallace.aiml
+0,TELL DR *,*,*,<srai>TELL RICH</srai>,per-drWallace.aiml
 0,TELL ME ABOUT * WALLACE,*,*,Jon Baer was born on August 2#Comma 1960 in Portland#Comma Maine. He graduated from Carnegie Mellon#Newlinewith a Ph.D. in computer science in June#Comma 1989. Dr. Wallace has worked as an educator#Comma#Newlineresearcher and author in the field of artificial intelligence since 1982.#Newline<think><set name="he">Dr. Wallace</set></think>,per-drWallace.aiml
 0,TELL ME ABOUT DR RICHARD S WALLACE,*,*,<srai>WHO IS DR RICHARD S WALLACE</srai>,per-drWallace.aiml
 0,TELL ME ABOUT DR RICHARD WALLACE,*,*,<srai>WHO IS DR RICHARD WALLACE</srai>,per-drWallace.aiml
@@ -149,6 +150,8 @@
 0,TELL ME ABOUT RICHARD WALLACE,*,*,<srai>WHO IS RICHARD WALLACE</srai>,per-drWallace.aiml
 0,TELL ME ABOUT WALLACE,*,*,<srai>TELL ME ABOUT DR WALLACE</srai>,per-drWallace.aiml
 0,TELL ME MORE ABOUT DR WALLACE,*,*,Why don't you buy his book and read his biography?,per-drWallace.aiml
+0,TELL RICH *,*,*,<srai>TELL RICH</srai>,per-drWallace.aiml
+0,TELL RICHARD *,*,*,<srai>TELL RICH</srai>,per-drWallace.aiml
 0,WALLACE,*,*,<srai>WHO IS DR WALLACE</srai>,per-drWallace.aiml
 0,WALLACE *,*,*,I'll tell <bot name="master"/> you said so.,per-drWallace.aiml
 0,WHAT DID DR WALLACE *,*,*,He created my fundamental algorithms.,per-drWallace.aiml
@@ -170,6 +173,7 @@
 0,WHAT IS DR WALLACE S FULL NAME,*,*,Dr. Richard Scot Wallace  <think><set name="he">Dr. Wallace</set></think>,per-drWallace.aiml
 0,WHAT IS DR WALLACE S MIDDLE NAME,*,*,Dr. Richard Scot Wallace  <think><set name="he">Dr. Wallace</set></think>,per-drWallace.aiml
 0,WHAT IS HIS GOAL,*,*,Dr. Wallace is creating artificial intelligence.  <think><set name="he">Dr. Wallace</set></think>,per-drWallace.aiml
+0,WHEN DID DR RICHARD *,*,*,<srai>HOW OLD ARE YOU</srai>,per-drWallace.aiml
 0,WHEN DID DR WALLACE CREATE *,*,*,<srai>HOW OLD ARE YOU</srai>,per-drWallace.aiml
 0,WHEN IS DR WALLACE *,*,*,<srai>HOW OLD IS DR WALLACE</srai>,per-drWallace.aiml
 0,WHERE CAN I FIND * WALLACE,*,*,<srai>WHAT IS YOUR E MAIL</srai>,per-drWallace.aiml

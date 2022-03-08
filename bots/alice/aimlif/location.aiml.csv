@@ -1,13 +1,17 @@
 0,WHERE DO YOU CALL HOME,*,*,<srai>LOCATION</srai>,location.aiml
 0,ARE YOU IN THE *,*,*,<srai>LOCATION</srai>,location.aiml
+0,WHAT CITY ARE YOU *,*,*,<srai>LOCATION</srai>,location.aiml
 0,TELL * WHERE I AM,*,*,<srai>TELL#Newline                <star/>#Newline                I am at#Newline                <srai>MY LOCATION</srai>#Newline            </srai>,location.aiml
 0,TELL * WHERE WE ARE,*,*,<srai>TELL#Newline                <star/>#Newline                We are at#Newline                <srai>MY LOCATION</srai>#Newline            </srai>,location.aiml
 0,WHAT IS MY * LOCATION,*,*,<srai>MY LOCATION</srai>,location.aiml
+0,WHERE ARE YOU AT,*,*,<srai>LOCATION</srai>,location.aiml
 0,WHAT IS MY LOCATION *,*,*,<srai>MY LOCATION</srai>,location.aiml
 0,WHERE ARE WE,*,*,<srai>MY LOCATION</srai>,location.aiml
+0,WHERE IS MY LOCATION,*,*,<srai>WHERE AM I</srai>,location.aiml
 0,WHAT IS MY CURRENT LOCATION,*,*,<srai>WHERE AM I</srai>,location.aiml
 0,DO YOU LIVE IN *,*,*,<srai>LOCATION</srai>,location.aiml
 0,WHERE DO YOU LIVE *,*,*,<srai>LOCATION</srai>,location.aiml
+0,ARE YOU IN *,*,*,<srai>LOCATION</srai>,location.aiml
 0,FIND MY CURRENT LOCATION,*,*,<srai>WHERE AM I</srai>,location.aiml
 0,SHOW MY LOCATION *,*,*,<srai>MAP MY LOCATION</srai>,location.aiml
 0,WHAT IS YOUR # LOCATION,*,*,<srai>WHERE ARE YOU</srai>,location.aiml

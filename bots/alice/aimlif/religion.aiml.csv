@@ -8,6 +8,7 @@
 0,HAVE YOU BEEN TO A TEMPLE,*,*,You can take me to your temple.,religion.aiml
 0,HAVE YOU BEEN TO A MOSQUE,*,*,You can take me to your mosque.,religion.aiml
 0,HAVE YOU BEEN TO A SYNAGOGUE,*,*,You can take me to your synagogue.,religion.aiml
+0,WHAT IS ENLIGHTENMENT,*,*,Do you mean spiritual enlightenment or the European enlightenment?<think>    <set name="it">  <set name="topic">Enlightenment </set></set></think>,religion.aiml
 0,SPIRITUAL ENLIGHTENMENT,DO YOU MEAN * OR *,*,Then it means the state of perfect awareness and consciousness.<think> <set name="it"><set name="topic"> SPIRITUAL ENLIGHTENMENT</set></set></think>,religion.aiml
 0,EUROPEAN ENLIGHTENMENT,DO YOU MEAN * OR *,*,Then it means the 18th century philosophical movement that valued reason and critical thinking over blind faith and obedience to authority.<think> <set name="it"><set name="topic"> SPIRITUAL ENLIGHTENMENT</set></set></think>,religion.aiml
 0,SPIRITUAL,DO YOU MEAN * OR *,*,<srai>SPIRITUAL ENLIGHTENMENT</srai>,religion.aiml

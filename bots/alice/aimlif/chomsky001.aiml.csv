@@ -3,12 +3,14 @@
 0,CAME *,*,*,<sr/>,chomsky001.aiml
 0,DON'T *,*,*,<sr/>,chomsky001.aiml
 0,HOME *,*,*,<sr/>,chomsky001.aiml
+0,INTO *,*,*,<sr/>,chomsky001.aiml
 0,LARGE *,*,*,<sr/>,chomsky001.aiml
 0,MADE *,*,*,<sr/>,chomsky001.aiml
 0,MEN *,*,*,<sr/>,chomsky001.aiml
 0,MIGHT *,*,*,<sr/>,chomsky001.aiml
 0,SAW *,*,*,<sr/>,chomsky001.aiml
 0,THEM *,*,*,<sr/>,chomsky001.aiml
+0,TOO *,*,*,<sr/>,chomsky001.aiml
 0,US *,*,*,<sr/>,chomsky001.aiml
 0,WENT *,*,*,<sr/>,chomsky001.aiml
 0,AGO *,*,*,<sr/>,chomsky001.aiml
@@ -20,14 +22,20 @@
 0,CAR *,*,*,<sr/>,chomsky001.aiml
 0,COURSE *,*,*,<sr/>,chomsky001.aiml
 0,DIDN'T *,*,*,<sr/>,chomsky001.aiml
+0,DONE *,*,*,<sr/>,chomsky001.aiml
 0,FEET *,*,*,<sr/>,chomsky001.aiml
+0,FIVE *,*,*,<sr/>,chomsky001.aiml
 0,GAVE *,*,*,<sr/>,chomsky001.aiml
 0,GROUND *,*,*,<sr/>,chomsky001.aiml
 0,HALF *,*,*,<sr/>,chomsky001.aiml
+0,HEARD *,*,*,<sr/>,chomsky001.aiml
 0,I'LL *,*,*,<sr/>,chomsky001.aiml
 0,I'M *,*,*,<sr/>,chomsky001.aiml
+0,KNEW *,*,*,<sr/>,chomsky001.aiml
 0,KNOWN *,*,*,<sr/>,chomsky001.aiml
 0,LIVE *,*,*,<sr/>,chomsky001.aiml
+0,MAKING *,*,*,<sr/>,chomsky001.aiml
+0,MEAN *,*,*,<sr/>,chomsky001.aiml
 0,MRS *,*,*,<sr/>,chomsky001.aiml
 0,PARTS *,*,*,<sr/>,chomsky001.aiml
 0,SIX *,*,*,<sr/>,chomsky001.aiml
@@ -35,9 +43,12 @@
 0,STATES *,*,*,<sr/>,chomsky001.aiml
 0,TOOK *,*,*,<sr/>,chomsky001.aiml
 0,TOWARD *,*,*,<sr/>,chomsky001.aiml
+0,UNITED *,*,*,<sr/>,chomsky001.aiml
 0,UPON *,*,*,<sr/>,chomsky001.aiml
+0,USING *,*,*,<sr/>,chomsky001.aiml
 0,WHOLE *,*,*,<sr/>,chomsky001.aiml
 0,ALONE *,*,*,<sr/>,chomsky001.aiml
+0,AMERICA *,*,*,<sr/>,chomsky001.aiml
 0,BEGINNING *,*,*,<sr/>,chomsky001.aiml
 0,BIRDS *,*,*,<sr/>,chomsky001.aiml
 0,BOTTOM *,*,*,<sr/>,chomsky001.aiml
@@ -45,12 +56,14 @@
 0,CAN'T *,*,*,<sr/>,chomsky001.aiml
 0,CAREFULLY *,*,*,<sr/>,chomsky001.aiml
 0,CARRIED *,*,*,<sr/>,chomsky001.aiml
+0,CARRY *,*,*,<sr/>,chomsky001.aiml
 0,CENTER *,*,*,<sr/>,chomsky001.aiml
 0,CLASS *,*,*,<sr/>,chomsky001.aiml
 0,COMING *,*,*,<sr/>,chomsky001.aiml
 0,ELSE *,*,*,<sr/>,chomsky001.aiml
 0,FAST *,*,*,<sr/>,chomsky001.aiml
 0,FELT *,*,*,<sr/>,chomsky001.aiml
+0,FOLLOW *,*,*,<sr/>,chomsky001.aiml
 0,GAME *,*,*,<sr/>,chomsky001.aiml
 0,GLASS *,*,*,<sr/>,chomsky001.aiml
 0,GOES *,*,*,<sr/>,chomsky001.aiml
@@ -64,12 +77,14 @@
 0,LONGER *,*,*,<sr/>,chomsky001.aiml
 0,MAIN *,*,*,<sr/>,chomsky001.aiml
 0,MATTER *,*,*,<sr/>,chomsky001.aiml
+0,MISS *,*,*,<sr/>,chomsky001.aiml
 0,NEEDED *,*,*,<sr/>,chomsky001.aiml
 0,PATTERN *,*,*,<sr/>,chomsky001.aiml
 0,PIECE *,*,*,<sr/>,chomsky001.aiml
 0,PROBLEM *,*,*,<sr/>,chomsky001.aiml
 0,QUICKLY *,*,*,<sr/>,chomsky001.aiml
 0,RAN *,*,*,<sr/>,chomsky001.aiml
+0,ROCK *,*,*,<sr/>,chomsky001.aiml
 0,SAT *,*,*,<sr/>,chomsky001.aiml
 0,SCIENTIST *,*,*,<sr/>,chomsky001.aiml
 0,SLOWLY *,*,*,<sr/>,chomsky001.aiml
@@ -95,7 +110,9 @@
 0,COULDNT *,*,*,<sr/>,chomsky001.aiml
 0,DIFFERENCE *,*,*,<sr/>,chomsky001.aiml
 0,EASILY *,*,*,<sr/>,chomsky001.aiml
+0,EIGHT *,*,*,<sr/>,chomsky001.aiml
 0,ENERGY *,*,*,<sr/>,chomsky001.aiml
+0,ENGLAND *,*,*,<sr/>,chomsky001.aiml
 0,EUROPE *,*,*,<sr/>,chomsky001.aiml
 0,FAMOUS *,*,*,<sr/>,chomsky001.aiml
 0,FELL *,*,*,<sr/>,chomsky001.aiml
@@ -106,6 +123,7 @@
 0,IVE *,*,*,<sr/>,chomsky001.aiml
 0,INCH *,*,*,<sr/>,chomsky001.aiml
 0,JIM *,*,*,<sr/>,chomsky001.aiml
+0,JOE *,*,*,<sr/>,chomsky001.aiml
 0,KING *,*,*,<sr/>,chomsky001.aiml
 0,LARGER *,*,*,<sr/>,chomsky001.aiml
 0,LENGTH *,*,*,<sr/>,chomsky001.aiml
@@ -113,6 +131,7 @@
 0,LOWER *,*,*,<sr/>,chomsky001.aiml
 0,MEET *,*,*,<sr/>,chomsky001.aiml
 0,MODERN *,*,*,<sr/>,chomsky001.aiml
+0,NEW YORK *,*,*,<sr/>,chomsky001.aiml
 0,OBJECT *,*,*,<sr/>,chomsky001.aiml
 0,OCEAN *,*,*,<sr/>,chomsky001.aiml
 0,PAY *,*,*,<sr/>,chomsky001.aiml
@@ -121,6 +140,7 @@
 0,PRODUCT *,*,*,<sr/>,chomsky001.aiml
 0,REACH *,*,*,<sr/>,chomsky001.aiml
 0,RUNNING *,*,*,<sr/>,chomsky001.aiml
+0,SEVEN *,*,*,<sr/>,chomsky001.aiml
 0,SHAPE *,*,*,<sr/>,chomsky001.aiml
 0,SIDES *,*,*,<sr/>,chomsky001.aiml
 0,SMALLER *,*,*,<sr/>,chomsky001.aiml
@@ -173,6 +193,7 @@
 0,LADY *,*,*,<sr/>,chomsky001.aiml
 0,LARGEST *,*,*,<sr/>,chomsky001.aiml
 0,LED *,*,*,<sr/>,chomsky001.aiml
+0,MARY *,*,*,<sr/>,chomsky001.aiml
 0,MEANT *,*,*,<sr/>,chomsky001.aiml
 0,METHOD *,*,*,<sr/>,chomsky001.aiml
 0,MISSING *,*,*,<sr/>,chomsky001.aiml
@@ -180,6 +201,7 @@
 0,PAIR *,*,*,<sr/>,chomsky001.aiml
 0,PERIOD *,*,*,<sr/>,chomsky001.aiml
 0,POUND *,*,*,<sr/>,chomsky001.aiml
+0,PRACTICE *,*,*,<sr/>,chomsky001.aiml
 0,RACE *,*,*,<sr/>,chomsky001.aiml
 0,REGION *,*,*,<sr/>,chomsky001.aiml
 0,RESULT *,*,*,<sr/>,chomsky001.aiml
@@ -237,6 +259,7 @@
 0,MAJOR *,*,*,<sr/>,chomsky001.aiml
 0,MET *,*,*,<sr/>,chomsky001.aiml
 0,NATURE *,*,*,<sr/>,chomsky001.aiml
+0,NINE *,*,*,<sr/>,chomsky001.aiml
 0,ORIGINAL *,*,*,<sr/>,chomsky001.aiml
 0,PARENT *,*,*,<sr/>,chomsky001.aiml
 0,PARTICULAR *,*,*,<sr/>,chomsky001.aiml
@@ -268,6 +291,7 @@
 0,VERB *,*,*,<sr/>,chomsky001.aiml
 0,WEAR *,*,*,<sr/>,chomsky001.aiml
 0,WHATS *,*,*,<sr/>,chomsky001.aiml
+0,WILLIAM *,*,*,<sr/>,chomsky001.aiml
 0,WON *,*,*,<sr/>,chomsky001.aiml
 0,WONDER *,*,*,<sr/>,chomsky001.aiml
 0,WORKER *,*,*,<sr/>,chomsky001.aiml
@@ -277,6 +301,7 @@
 0,BREAKFAST *,*,*,<sr/>,chomsky001.aiml
 0,BROKE *,*,*,<sr/>,chomsky001.aiml
 0,CABIN *,*,*,<sr/>,chomsky001.aiml
+0,CALIFORNIA *,*,*,<sr/>,chomsky001.aiml
 0,CAPTAIN *,*,*,<sr/>,chomsky001.aiml
 0,CELL *,*,*,<sr/>,chomsky001.aiml
 0,CENT *,*,*,<sr/>,chomsky001.aiml
@@ -287,6 +312,7 @@
 0,CORRECTLY *,*,*,<sr/>,chomsky001.aiml
 0,CROP *,*,*,<sr/>,chomsky001.aiml
 0,DEVELOP *,*,*,<sr/>,chomsky001.aiml
+0,DIE *,*,*,<sr/>,chomsky001.aiml
 0,DIRECTLY *,*,*,<sr/>,chomsky001.aiml
 0,DISCOVER *,*,*,<sr/>,chomsky001.aiml
 0,DIVIDE *,*,*,<sr/>,chomsky001.aiml
@@ -294,6 +320,7 @@
 0,EMPTY *,*,*,<sr/>,chomsky001.aiml
 0,ENTIRE *,*,*,<sr/>,chomsky001.aiml
 0,EXCITING *,*,*,<sr/>,chomsky001.aiml
+0,EXPECT *,*,*,<sr/>,chomsky001.aiml
 0,EXPRESS *,*,*,<sr/>,chomsky001.aiml
 0,FEED *,*,*,<sr/>,chomsky001.aiml
 0,FINAL *,*,*,<sr/>,chomsky001.aiml
@@ -460,6 +487,7 @@
 0,LYING *,*,*,<sr/>,chomsky001.aiml
 0,MAGIC *,*,*,<sr/>,chomsky001.aiml
 0,MANNER *,*,*,<sr/>,chomsky001.aiml
+0,NATIONAL *,*,*,<sr/>,chomsky001.aiml
 0,NEIGHBOR *,*,*,<sr/>,chomsky001.aiml
 0,ORDINARY *,*,*,<sr/>,chomsky001.aiml
 0,PARK *,*,*,<sr/>,chomsky001.aiml
@@ -489,6 +517,7 @@
 0,SUCCESS *,*,*,<sr/>,chomsky001.aiml
 0,SUNLIGHT *,*,*,<sr/>,chomsky001.aiml
 0,TAUGHT *,*,*,<sr/>,chomsky001.aiml
+0,THANK *,*,*,<sr/>,chomsky001.aiml
 0,TIP *,*,*,<sr/>,chomsky001.aiml
 0,TITLE *,*,*,<sr/>,chomsky001.aiml
 0,VALUABLE *,*,*,<sr/>,chomsky001.aiml
@@ -571,6 +600,7 @@
 0,TRAFFIC *,*,*,<sr/>,chomsky001.aiml
 0,UNUSUAL *,*,*,<sr/>,chomsky001.aiml
 0,VOLUME *,*,*,<sr/>,chomsky001.aiml
+0,WHALE *,*,*,<sr/>,chomsky001.aiml
 0,ATTACHED *,*,*,<sr/>,chomsky001.aiml
 0,AUDIENCE *,*,*,<sr/>,chomsky001.aiml
 0,BALLOON *,*,*,<sr/>,chomsky001.aiml
@@ -641,6 +671,7 @@
 0,PREVENT *,*,*,<sr/>,chomsky001.aiml
 0,RABBIT *,*,*,<sr/>,chomsky001.aiml
 0,RANCH *,*,*,<sr/>,chomsky001.aiml
+0,REALIZE *,*,*,<sr/>,chomsky001.aiml
 0,RECEIVE *,*,*,<sr/>,chomsky001.aiml
 0,RISING *,*,*,<sr/>,chomsky001.aiml
 0,ROCKET *,*,*,<sr/>,chomsky001.aiml
@@ -756,7 +787,9 @@
 0,AFFECT *,*,*,<sr/>,chomsky001.aiml
 0,ALPHABET *,*,*,<sr/>,chomsky001.aiml
 0,ANNOUNCED *,*,*,<sr/>,chomsky001.aiml
+0,ANYBODY *,*,*,<sr/>,chomsky001.aiml
 0,APRIL *,*,*,<sr/>,chomsky001.aiml
+0,AUSTRALIA *,*,*,<sr/>,chomsky001.aiml
 0,AWARE *,*,*,<sr/>,chomsky001.aiml
 0,BELT *,*,*,<sr/>,chomsky001.aiml
 0,BLIND *,*,*,<sr/>,chomsky001.aiml
@@ -787,6 +820,7 @@
 0,INTRODUCED *,*,*,<sr/>,chomsky001.aiml
 0,JOHNSON *,*,*,<sr/>,chomsky001.aiml
 0,JONES *,*,*,<sr/>,chomsky001.aiml
+0,LUCKY *,*,*,<sr/>,chomsky001.aiml
 0,MAD *,*,*,<sr/>,chomsky001.aiml
 0,MAGNET *,*,*,<sr/>,chomsky001.aiml
 0,MARS *,*,*,<sr/>,chomsky001.aiml
@@ -829,6 +863,7 @@
 0,TIM *,*,*,<sr/>,chomsky001.aiml
 0,TRACE *,*,*,<sr/>,chomsky001.aiml
 0,TRIBE *,*,*,<sr/>,chomsky001.aiml
+0,TV *,*,*,<sr/>,chomsky001.aiml
 0,UNIVERSE *,*,*,<sr/>,chomsky001.aiml
 0,VISITOR *,*,*,<sr/>,chomsky001.aiml
 0,VOTE *,*,*,<sr/>,chomsky001.aiml
@@ -841,7 +876,9 @@
 0,APPLIED *,*,*,<sr/>,chomsky001.aiml
 0,ARRIVE *,*,*,<sr/>,chomsky001.aiml
 0,ATOM *,*,*,<sr/>,chomsky001.aiml
+0,BAY *,*,*,<sr/>,chomsky001.aiml
 0,BEHAVIOR *,*,*,<sr/>,chomsky001.aiml
+0,BEND *,*,*,<sr/>,chomsky001.aiml
 0,BREATHE *,*,*,<sr/>,chomsky001.aiml
 0,BRIEF *,*,*,<sr/>,chomsky001.aiml
 0,BURIED *,*,*,<sr/>,chomsky001.aiml
@@ -960,6 +997,7 @@
 0,GRABBED *,*,*,<sr/>,chomsky001.aiml
 0,GRANDMOTHER *,*,*,<sr/>,chomsky001.aiml
 0,HABIT *,*,*,<sr/>,chomsky001.aiml
+0,HARRY *,*,*,<sr/>,chomsky001.aiml
 0,HEADING *,*,*,<sr/>,chomsky001.aiml
 0,ILLINOIS *,*,*,<sr/>,chomsky001.aiml
 0,INDEPENDENT *,*,*,<sr/>,chomsky001.aiml
@@ -1020,6 +1058,7 @@
 0,AMONG *,*,*,<sr/>,chomsky001.aiml
 0,DOWN *,*,*,<sr/>,chomsky001.aiml
 0,TILL *,*,*,<sr/>,chomsky001.aiml
+0,EVERY *,*,*,<sr/>,chomsky001.aiml
 0,FORWARD *,*,*,<sr/>,chomsky001.aiml
 0,ACT *,*,*,<sr/>,chomsky001.aiml
 0,ADDITION *,*,*,<sr/>,chomsky001.aiml
@@ -1182,19 +1221,24 @@
 0,METAL *,*,*,<sr/>,chomsky001.aiml
 0,MIDDLE *,*,*,<sr/>,chomsky001.aiml
 0,MILK *,*,*,<sr/>,chomsky001.aiml
+0,MINE *,*,*,<sr/>,chomsky001.aiml
 0,MINUTE *,*,*,<sr/>,chomsky001.aiml
 0,MIST *,*,*,<sr/>,chomsky001.aiml
 0,MONEY *,*,*,<sr/>,chomsky001.aiml
 0,MONTH *,*,*,<sr/>,chomsky001.aiml
+0,MOTHER *,*,*,<sr/>,chomsky001.aiml
 0,MOTION *,*,*,<sr/>,chomsky001.aiml
 0,MOUNTAIN *,*,*,<sr/>,chomsky001.aiml
 0,MUSIC *,*,*,<sr/>,chomsky001.aiml
 0,NATION *,*,*,<sr/>,chomsky001.aiml
+0,NIGHT *,*,*,<sr/>,chomsky001.aiml
 0,NOISE *,*,*,<sr/>,chomsky001.aiml
+0,NUMBER *,*,*,<sr/>,chomsky001.aiml
 0,OBSERVATION *,*,*,<sr/>,chomsky001.aiml
 0,OIL *,*,*,<sr/>,chomsky001.aiml
 0,OPERATION *,*,*,<sr/>,chomsky001.aiml
 0,OPINION *,*,*,<sr/>,chomsky001.aiml
+0,ORDER *,*,*,<sr/>,chomsky001.aiml
 0,ORGANIZATION *,*,*,<sr/>,chomsky001.aiml
 0,ORNAMENT *,*,*,<sr/>,chomsky001.aiml
 0,OWNER *,*,*,<sr/>,chomsky001.aiml
@@ -1286,6 +1330,7 @@
 0,THEORY *,*,*,<sr/>,chomsky001.aiml
 0,THUNDER *,*,*,<sr/>,chomsky001.aiml
 0,TIN *,*,*,<sr/>,chomsky001.aiml
+0,TOP *,*,*,<sr/>,chomsky001.aiml
 0,TOUCH *,*,*,<sr/>,chomsky001.aiml
 0,TRADE *,*,*,<sr/>,chomsky001.aiml
 0,TRANSPORT *,*,*,<sr/>,chomsky001.aiml
@@ -1358,6 +1403,7 @@
 0,DOOR *,*,*,<sr/>,chomsky001.aiml
 0,DRAWER *,*,*,<sr/>,chomsky001.aiml
 0,DRESS *,*,*,<sr/>,chomsky001.aiml
+0,DROP *,*,*,<sr/>,chomsky001.aiml
 0,EAR *,*,*,<sr/>,chomsky001.aiml
 0,EGG *,*,*,<sr/>,chomsky001.aiml
 0,ENGINE *,*,*,<sr/>,chomsky001.aiml
@@ -1542,6 +1588,7 @@
 0,COMPLETE *,*,*,<sr/>,chomsky001.aiml
 0,CRUEL *,*,*,<sr/>,chomsky001.aiml
 0,DEAD *,*,*,<sr/>,chomsky001.aiml
+0,DEAR *,*,*,<sr/>,chomsky001.aiml
 0,DELICATE *,*,*,<sr/>,chomsky001.aiml
 0,DIFFERENT *,*,*,<sr/>,chomsky001.aiml
 0,DIRTY *,*,*,<sr/>,chomsky001.aiml
@@ -1559,6 +1606,7 @@
 0,PUBLIC *,*,*,<sr/>,chomsky001.aiml
 0,ROUGH *,*,*,<sr/>,chomsky001.aiml
 0,SAFE *,*,*,<sr/>,chomsky001.aiml
+0,SHORT *,*,*,<sr/>,chomsky001.aiml
 0,SHUT *,*,*,<sr/>,chomsky001.aiml
 0,SIMPLE *,*,*,<sr/>,chomsky001.aiml
 0,SLOW *,*,*,<sr/>,chomsky001.aiml
@@ -1604,6 +1652,7 @@
 0,APPROPRIATE *,*,*,<sr/>,chomsky001.aiml
 0,APPROVE *,*,*,<sr/>,chomsky001.aiml
 0,ARABIC *,*,*,<sr/>,chomsky001.aiml
+0,ARITHMETIC *,*,*,<sr/>,chomsky001.aiml
 0,ARMORED *,*,*,<sr/>,chomsky001.aiml
 0,ARMS *,*,*,<sr/>,chomsky001.aiml
 0,ARMY *,*,*,<sr/>,chomsky001.aiml
@@ -1630,6 +1679,7 @@
 0,AWAKENING *,*,*,<sr/>,chomsky001.aiml
 0,AWFULLY *,*,*,<sr/>,chomsky001.aiml
 0,AWKWARD *,*,*,<sr/>,chomsky001.aiml
+0,BABE *,*,*,<sr/>,chomsky001.aiml
 0,BABEL *,*,*,<sr/>,chomsky001.aiml
 0,BACKLOG *,*,*,<sr/>,chomsky001.aiml
 0,BACTERIA *,*,*,<sr/>,chomsky001.aiml
@@ -1822,6 +1872,7 @@
 0,ENJOY *,*,*,<sr/>,chomsky001.aiml
 0,ENLARGEMENT *,*,*,<sr/>,chomsky001.aiml
 0,ENQUIRY *,*,*,<sr/>,chomsky001.aiml
+0,ENTERTAIN *,*,*,<sr/>,chomsky001.aiml
 0,ENTERTAINMENT *,*,*,<sr/>,chomsky001.aiml
 0,ENVOY *,*,*,<sr/>,chomsky001.aiml
 0,EPOCH *,*,*,<sr/>,chomsky001.aiml
@@ -2160,6 +2211,7 @@
 0,RUNS *,*,*,<sr/>,chomsky001.aiml
 0,RUPTURE *,*,*,<sr/>,chomsky001.aiml
 0,RUTHLESS *,*,*,<sr/>,chomsky001.aiml
+0,SATAN *,*,*,<sr/>,chomsky001.aiml
 0,SATISFYING *,*,*,<sr/>,chomsky001.aiml
 0,SAUSAGE *,*,*,<sr/>,chomsky001.aiml
 0,SCARE *,*,*,<sr/>,chomsky001.aiml
@@ -2191,6 +2243,7 @@
 0,SIBLING *,*,*,<sr/>,chomsky001.aiml
 0,SIDEWAYS *,*,*,<sr/>,chomsky001.aiml
 0,SIGHTED *,*,*,<sr/>,chomsky001.aiml
+0,SING *,*,*,<sr/>,chomsky001.aiml
 0,SITUATION *,*,*,<sr/>,chomsky001.aiml
 0,SIXTEEN *,*,*,<sr/>,chomsky001.aiml
 0,SIXTEENTH *,*,*,<sr/>,chomsky001.aiml
@@ -2465,6 +2518,7 @@
 0,RECOVER *,*,*,<sr/>,chomsky001.aiml
 0,REPRESENTATION *,*,*,<sr/>,chomsky001.aiml
 0,COAL *,*,*,<sr/>,chomsky001.aiml
+0,MS *,*,*,<sr/>,chomsky001.aiml
 0,ROGER *,*,*,<sr/>,chomsky001.aiml
 0,ABIDE *,*,*,<sr/>,chomsky001.aiml
 0,GIANT *,*,*,<sr/>,chomsky001.aiml
@@ -2509,6 +2563,7 @@
 0,ARREST *,*,*,<sr/>,chomsky001.aiml
 0,STRUGGLING *,*,*,<sr/>,chomsky001.aiml
 0,MEDICAL *,*,*,<sr/>,chomsky001.aiml
+0,CALCULATE *,*,*,<sr/>,chomsky001.aiml
 0,CRAFT *,*,*,<sr/>,chomsky001.aiml
 0,PETITE *,*,*,<sr/>,chomsky001.aiml
 0,GARMENTS *,*,*,<sr/>,chomsky001.aiml

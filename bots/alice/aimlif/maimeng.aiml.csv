@@ -1,18 +1,18 @@
-0,? ? *,*,*,<srai>??</srai>,maimeng.aiml
-0,* ? ? *,*,*,<srai>??</srai>,maimeng.aiml
-0,? *,*,*,<srai>??</srai>,maimeng.aiml
-0,?,*,*,<srai>??</srai>,maimeng.aiml
-0,? ? ?,*,*,<srai>??</srai>,maimeng.aiml
-0,? ?,*,*,<random>#Newline        <li>?.?.?.?!</li>#Newline        <li>?.?.?.?!</li>#Newline        <li>????????????!</li>#Newline        <li>? . . .</li>#Newline        <li>???!</li>#Newline      </random>,maimeng.aiml
-0,? ? *,*,*,<srai>??</srai>,maimeng.aiml
-0,* ? ? *,*,*,<srai>??</srai>,maimeng.aiml
-0,? ?,*,*,<random>#Newline        <li>????</li>#Newline        <li>??</li>#Newline        <li>???</li>#Newline        <li>\(???)/ ?????(???????  </li>#Newline      </random>,maimeng.aiml
-0,?? *,*,*,????????<get name="star"/>~ ?(???)?  (?,maimeng.aiml
-0,? ? ? ? ?,*,*,<random>#Newline        <li>#Newline          ????????????#Newline        </li>#Newline      </random>,maimeng.aiml
-0,? ? ? ? ?,*,*,<random>#Newline        <li>#Newline            ??????????!#Newline        </li>#Newline      </random>,maimeng.aiml
-0,* ? ? ? _,*,*,<srai><star/>???</srai>,maimeng.aiml
-0,* ? ? ? _,*,*,<srai><star/>???</srai>,maimeng.aiml
-0,* ? ? ? _,*,*,<srai><star/>???</srai>,maimeng.aiml
-0,* ? ? ?,*,*,<srai><star/>???</srai>,maimeng.aiml
-0,* ???,*,*,<think><set name="star"><star index="1"/></set></think>#Newline      <condition name="star">#Newline        <li value="???"><srai>??????</srai></li>#Newline        <li value="hh"><srai>?????</srai></li>#Newline        <li value="????"><srai>?????</srai></li>#Newline        <li><star index="1"/>?????????</li>#Newline      </condition>,maimeng.aiml
-0,* ???,*,*,<think><set name="star"><star index="1"/></set></think>#Newline      <condition name="star">#Newline        <li value="???"><srai>??</srai></li>#Newline        <li value="???"><srai>??</srai></li>#Newline        <li>#Newline          <random>#Newline            <li>???<get name="star"/></li>#Newline            <li>????<get name="star"/></li>#Newline          </random>#Newline        </li>#Newline        </condition>,maimeng.aiml
+0,调 戏 *,*,*,<srai>调戏</srai>,maimeng.aiml
+0,* 调 戏 *,*,*,<srai>调戏</srai>,maimeng.aiml
+0,喵 *,*,*,<srai>调戏</srai>,maimeng.aiml
+0,喵,*,*,<srai>调戏</srai>,maimeng.aiml
+0,笑 一 个,*,*,<srai>调戏</srai>,maimeng.aiml
+0,调 戏,*,*,<random>#Newline        <li>卖.萌.禁.止!</li>#Newline        <li>调.戏.禁.止!</li>#Newline        <li>我是正经机器人，请勿调戏!</li>#Newline        <li>唔 . . .</li>#Newline        <li>求调教!</li>#Newline      </random>,maimeng.aiml
+0,调 教 *,*,*,<srai>调教</srai>,maimeng.aiml
+0,* 调 教 *,*,*,<srai>调教</srai>,maimeng.aiml
+0,调 教,*,*,<random>#Newline        <li>求调教！</li>#Newline        <li>喵～</li>#Newline        <li>喵唔～</li>#Newline        <li>\(‵▽′)/ 好开心啊～(追着尾巴转圈圈  </li>#Newline      </random>,maimeng.aiml
+0,夸奖 *,*,*,嗨嗨，他们都说我<get name="star"/>~ ʅ(‾◡◝)ʃ  (骄,maimeng.aiml
+0,西 电 好 不 好,*,*,<random>#Newline        <li>#Newline          西电强攻啊！伦家好爽的！#Newline        </li>#Newline      </random>,maimeng.aiml
+0,微 软 好 不 好,*,*,<random>#Newline        <li>#Newline            微软神马的，最讨厌了!#Newline        </li>#Newline      </random>,maimeng.aiml
+0,* 好 不 好 _,*,*,<srai><star/>好不好</srai>,maimeng.aiml
+0,* 行 不 行 _,*,*,<srai><star/>好不好</srai>,maimeng.aiml
+0,* 怎 么 样 _,*,*,<srai><star/>好不好</srai>,maimeng.aiml
+0,* 怎 么 样,*,*,<srai><star/>好不好</srai>,maimeng.aiml
+0,* 好不好,*,*,<think><set name="star"><star index="1"/></set></think>#Newline      <condition name="star">#Newline        <li value="亲一下"><srai>亲一下行不行</srai></li>#Newline        <li value="hh"><srai>西电好不好</srai></li>#Newline        <li value="西电科大"><srai>西电好不好</srai></li>#Newline        <li><star index="1"/>是神马？可以吃么？</li>#Newline      </condition>,maimeng.aiml
+0,* 行不行,*,*,<think><set name="star"><star index="1"/></set></think>#Newline      <condition name="star">#Newline        <li value="亲一个"><srai>亲亲</srai></li>#Newline        <li value="亲一下"><srai>亲亲</srai></li>#Newline        <li>#Newline          <random>#Newline            <li>不要！<get name="star"/></li>#Newline            <li>雅蠛蝶！<get name="star"/></li>#Newline          </random>#Newline        </li>#Newline        </condition>,maimeng.aiml

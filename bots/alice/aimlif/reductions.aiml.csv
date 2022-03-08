@@ -1,3 +1,4 @@
+0,ITS FUN,*,*,<srai>IT IS FUN</srai>,reductions.aiml
 0,MY NAME IS SPELLED *,*,*,<srai>MY NAME IS#Newline                <srai>IMPLODE#Newline                    <star/>#Newline                </srai>#Newline            </srai>,reductions.aiml
 0,OF COURSE YOU *,*,*,<srai>YOU#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,USUALLY *,*,*,<srai>#Newline        <star/>#Newline      </srai>,reductions.aiml
@@ -12,11 +13,14 @@
 0,I SAID THAT *,*,*,<sr/>,reductions.aiml
 0,I THINK MY *,*,*,<srai>MY#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,PLEASE I *,*,*,<srai>I#Newline                <star/>#Newline            </srai>,reductions.aiml
+0,I SAID IT *,*,*,<srai>IT#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,YOU KNOW YOU *,*,*,<srai>YOU#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,I AM SURE *,*,*,<sr/>,reductions.aiml
 0,LEARN I *,*,*,<srai>I#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,BECAUSE IM *,*,*,<srai>BECAUSE I AM#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,BECAUSE ITS *,*,*,<srai>BECAUSE IT IS#Newline                <star/>#Newline            </srai>,reductions.aiml
+0,I APOLOGIZE,*,*,<srai>SORRY</srai>,reductions.aiml
+0,WHY WHY,*,*,<srai>WHY</srai>,reductions.aiml
 0,YOU KNOW I *,*,*,<srai>I#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,LEARN MY *,*,*,<srai>MY#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,I THINK IT IS *,*,*,<srai>IT IS#Newline                <star/>#Newline            </srai>,reductions.aiml
@@ -30,8 +34,11 @@
 0,SO I *,*,*,<srai>I#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,I _ RIGHT NOW,*,*,<srai>I#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,AND I *,*,*,<srai>I#Newline                <star/>#Newline            </srai>,reductions.aiml
+0,COOL *,*,*,<srai>COOL</srai>#Newline      <sr/>,reductions.aiml
 0,WELL I *,*,*,<srai>I#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,HOWEVER *,*,*,<sr/>,reductions.aiml
+0,I AM SORRY,*,*,<srai>SORRY</srai>,reductions.aiml
+0,QUITE *,*,*,<sr/>,reductions.aiml
 0,_ VERY *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,reductions.aiml
 0,_ UR *,*,*,<srai><star/>#Newline                YOUR#Newline                <star index="2"/>#Newline            </srai>,reductions.aiml
 0,UR *,*,*,<srai>YOUR#Newline                <star/>#Newline            </srai>,reductions.aiml
@@ -45,9 +52,14 @@
 0,UNFORTUNATELY *,*,*,<srai>#Newline        <star/>#Newline      </srai>,reductions.aiml
 0,BRO *,*,*,<sr/>,reductions.aiml
 0,BECAUSE I SAID *,*,*,<srai>#Newline        <star/>#Newline      </srai>,reductions.aiml
+0,NOTHIN,*,*,<srai>nothing</srai>,reductions.aiml
+0,SAME HERE,*,*,<srai>me too</srai>,reductions.aiml
 0,OOO *,*,*,<srai>#Newline        <star/>#Newline      </srai>,reductions.aiml
+0,NOT BAD *,*,*,<srai>not bad</srai>.#Newline            <srai><star/></srai>,reductions.aiml
 0,ER *,*,*,<srai>ER</srai>.#Newline            <srai><star/></srai>,reductions.aiml
+0,I WAS KIDDING,*,*,<srai>just kidding</srai>,reductions.aiml
 0,<BOT NAME="NAME"/>       *,*,*,<sr/>,reductions.aiml
+0,I AM ALSO,*,*,<srai>ME TOO</srai>,reductions.aiml
 0,I JUS *,*,*,<srai>I#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,THAT IS RIGHT,*,*,<srai>CORRECT</srai>,reductions.aiml
 0,U *,*,*,<srai>YOU#Newline                <star/>#Newline            </srai>,reductions.aiml
@@ -57,8 +69,13 @@
 0,SOMETIMES YOU *,*,*,<srai>YOU#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,SOMEDAY *,*,*,<srai>#Newline        <star/>#Newline      </srai>,reductions.aiml
 0,BECAUSE U R *,*,*,<srai>BECAUSE YOU ARE#Newline                <star/>#Newline            </srai>,reductions.aiml
+0,DEPENDS ON *,*,*,<srai>IT DEPENDS ON#Newline                <star/>#Newline            </srai>,reductions.aiml
+0,SOUNDS GOOD *,*,*,<srai>sounds good</srai>,reductions.aiml
 0,PEOPLE SAY _ ALL THE TIME,*,*,<srai>PEOPLE SAY#Newline                <star/>#Newline            </srai>,reductions.aiml
+0,SWEET,*,*,<srai>nice</srai>,reductions.aiml
+0,CA,*,*,<srai>california</srai>,reductions.aiml
 0,MY NAME EAST *,*,*,<srai>MY NAME IS#Newline                <star/>#Newline            </srai>,reductions.aiml
+0,NADA,*,*,<srai>NOTHING</srai>,reductions.aiml
 0,I _ HA,*,*,<srai>I#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,_ AS WELL,*,*,<srai><star/>#Newline                TOO#Newline            </srai>,reductions.aiml
 0,IDIOT *,*,*,<srai>IDIOT</srai>#Newline      <sr/>,reductions.aiml
@@ -66,6 +83,7 @@
 0,A LITTLE BIT *,*,*,<srai>#Newline        <star/>#Newline      </srai>,reductions.aiml
 0,OH GOD *,*,*,<sr/>,reductions.aiml
 0,1 MORE *,*,*,<srai>ONE MORE#Newline                <star/>#Newline            </srai>,reductions.aiml
+0,NICE TO MEET YOU *,*,*,<srai>NICE TO MEET YOU</srai>,reductions.aiml
 0,YR *,*,*,<srai>YOUR#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,YH *,*,*,<srai>YES#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,NOTE I *,*,*,<srai>I#Newline                <star/>#Newline            </srai>,reductions.aiml
@@ -101,22 +119,27 @@
 0,NOTHING NEVERMIND,*,*,<srai>NEVERMIND</srai>,reductions.aiml
 0,REMEMBER THIS *,*,*,<sr/>,reductions.aiml
 0,AH AH AH *,*,*,<srai>AH#Newline                <star/>#Newline            </srai>,reductions.aiml
+0,NOTHING NOTHING,*,*,<srai>NOTHING</srai>,reductions.aiml
 0,I THINK THE *,*,*,<srai>THE#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,NICE TO MEET YOU TOO *,*,*,<srai>NICE TO MEET YOU TOO</srai>,reductions.aiml
 0,TODAY I *,*,*,<srai>I#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,GIVE ME ANOTHER *,*,*,<srai>GIVE ME A#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,ITS GOOD,*,*,<srai>IT IS GOOD</srai>,reductions.aiml
+0,GROOVY,*,*,<srai>COOL</srai>,reductions.aiml
 0,I WORK FOR *,*,*,<srai>MY EMPLOYER IS#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,ME TO *,*,*,<srai>ME TOO#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,WHAT ABOUT YOU *,*,*,<sr/>,reductions.aiml
 0,I GUESS I *,*,*,<srai>I#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,I SAID YOU *,*,*,<srai>YOU#Newline                <star/>#Newline            </srai>,reductions.aiml
+0,* MY NAME IS *,*,*,<sr/>#Newline      <srai>MY NAME IS#Newline                <star index="2"/>#Newline            </srai>,reductions.aiml
+0,SO DO I,*,*,<srai>ME TOO</srai>,reductions.aiml
 0,EXACTLY *,*,*,<sr/>,reductions.aiml
 0,ACTUALLY *,*,*,<srai>#Newline        <star/>#Newline      </srai>,reductions.aiml
 0,WELL THEN *,*,*,<sr/>,reductions.aiml
 0,THEN YOU *,*,*,<srai>YOU#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,BECAUSE YOUR *,*,*,<srai>BECAUSE YOU ARE#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,I MEANT TO SAY *,*,*,<sr/>,reductions.aiml
+0,COME ON *,*,*,<sr/>,reductions.aiml
 0,ASTERISK * ASTERISK,*,*,<sr/>,reductions.aiml
 0,I SAY *,*,*,<sr/>,reductions.aiml
 0,NEVERMIND *,*,*,<srai>NEVERMIND</srai>#Newline      <sr/>,reductions.aiml
@@ -127,16 +150,21 @@
 0,NO 1 *,*,*,<srai>NO ONE#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,AT LEAST *,*,*,<sr/>,reductions.aiml
 0,SWEET *,*,*,<srai>SWEET</srai>#Newline      <sr/>,reductions.aiml
+0,WHAT EVER,*,*,<srai>WHATEVER</srai>,reductions.aiml
+0,YOU BETTER *,*,*,<sr/>,reductions.aiml
 0,ALSO *,*,*,<sr/>,reductions.aiml
+0,AM I CUTE,*,*,<srai>AM I PRETTY</srai>,reductions.aiml
 0,AM A *,*,*,<srai>AM I A#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,I _ TOO,*,*,<srai>I#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,YOURSELF,*,*,<srai>YOU</srai>,reductions.aiml
+0,IT IS COOL *,*,*,<srai>IT IS COOL</srai>,reductions.aiml
 0,FORGET IT YOU *,*,*,<srai>FORGET IT</srai>#Newline      <srai>YOU#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,KISSES *,*,*,<srai>KISS</srai>,reductions.aiml
 0,ITS CALLED *,*,*,<srai>IT IS CALLED#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,PERHAPS,*,*,<srai>MAYBE</srai>,reductions.aiml
 0,POSSIBLY,*,*,<srai>MAYBE</srai>,reductions.aiml
 0,CAUSE YOU *,*,*,<srai>BECAUSE YOU#Newline                <star/>#Newline            </srai>,reductions.aiml
+0,NO PROBLEM *,*,*,<srai>NO PROBLEM</srai>,reductions.aiml
 0,HONEY *,*,*,<sr/>,reductions.aiml
 0,QUIT *,*,*,<srai>STOP#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,ACTUALLY I *,*,*,<srai>I#Newline                <star/>#Newline            </srai>,reductions.aiml
@@ -151,6 +179,8 @@
 0,I WAS SAYING *,*,*,<srai>#Newline        <star/>#Newline      </srai>,reductions.aiml
 0,BABY I *,*,*,<srai>I#Newline                <star/>#Newline            </srai>,reductions.aiml
 0,MAY BE *,*,*,<srai>maybe#Newline                <star/>#Newline            </srai>,reductions.aiml
+0,MAY BE,*,*,<srai>MAYBE</srai>,reductions.aiml
 0,I HEARD YOU <SET>WAS</SET> *,*,*,<srai><star/>#Newline                YOU#Newline                <star index="2"/>#Newline            </srai>,reductions.aiml
 0,THEY HAVE TO *,*,*,<srai>THEY MUST#Newline                <star/>#Newline            </srai>,reductions.aiml
+0,ALOT,*,*,<srai>a lot</srai>,reductions.aiml
 0,I ALSO,*,*,<srai>ME TOO</srai>,reductions.aiml

@@ -1,8 +1,6 @@
-<aiml>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<category>
-	<pattern>para onde voce quer *</pattern>
-	<template>Meus roteiros sao Sao Miguel, Jericoacara</template>
-</category>
+PARA ONDE VOCE QUER *
+Meus roteiros sao Sao Miguel, Jericoacara
 
-</aiml>
+

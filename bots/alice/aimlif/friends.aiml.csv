@@ -29,11 +29,14 @@
 0,DONATE,*,*,<srai>DN8</srai>,friends.aiml
 0,* DONATE,*,*,<srai>DN8</srai>,friends.aiml
 0,* DONATE *,*,*,<srai>DN8</srai>,friends.aiml
+0,DONATE *,*,*,<srai>DN8</srai>,friends.aiml
 0,* DONATION,*,*,<srai>DN8</srai>,friends.aiml
 0,* DONATION *,*,*,<srai>DN8</srai>,friends.aiml
+0,DONATION *,*,*,<srai>DN8</srai>,friends.aiml
 0,DONATIONS,*,*,<srai>DN8</srai>,friends.aiml
 0,* DONATIONS,*,*,<srai>DN8</srai>,friends.aiml
 0,* DONATIONS *,*,*,<srai>DN8</srai>,friends.aiml
+0,DONATIONS *,*,*,<srai>DN8</srai>,friends.aiml
 0,* BRING IN * FOR * LIBRARY,*,*,<srai>DN8</srai>,friends.aiml
 0,* BRING IN * FOR * LIBRARY *,*,*,<srai>DN8</srai>,friends.aiml
 0,* GIVE * LIBRARY *,*,*,<srai>DN8</srai>,friends.aiml

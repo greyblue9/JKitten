@@ -1,3 +1,4 @@
+0,I AM SHABAZ,*,*,<srai>call me shabaz</srai>,reduction.names.aiml
 0,I AM LINDA,*,*,<srai>CALL ME LINDA</srai>,reduction.names.aiml
 0,I AM ELIZABETH,*,*,<srai>CALL ME ELIZABETH</srai>,reduction.names.aiml
 0,I AM JENNIFER,*,*,<srai>CALL ME JENNIFER</srai>,reduction.names.aiml
@@ -173,15 +174,18 @@
 0,I AM TONI,*,*,<srai>CALL ME TONI</srai>,reduction.names.aiml
 0,I AM MAE,*,*,<srai>CALL ME MAE</srai>,reduction.names.aiml
 0,I AM SHELLY,*,*,<srai>CALL ME SHELLY</srai>,reduction.names.aiml
+0,I AM RAMONA,*,*,<srai>CALL ME RAMONA</srai>,reduction.names.aiml
 0,I AM SHERRI,*,*,<srai>CALL ME SHERRI</srai>,reduction.names.aiml
 0,I AM ERIKA,*,*,<srai>CALL ME ERIKA</srai>,reduction.names.aiml
 0,I AM KATRINA,*,*,<srai>CALL ME KATRINA</srai>,reduction.names.aiml
+0,I AM CLAIRE,*,*,<srai>CALL ME CLAIRE</srai>,reduction.names.aiml
 0,I AM GENEVA,*,*,<srai>CALL ME GENEVA</srai>,reduction.names.aiml
 0,I AM BELINDA,*,*,<srai>CALL ME BELINDA</srai>,reduction.names.aiml
 0,I AM MARGARITA,*,*,<srai>CALL ME MARGARITA</srai>,reduction.names.aiml
 0,I AM SHERYL,*,*,<srai>CALL ME SHERYL</srai>,reduction.names.aiml
 0,I AM CORA,*,*,<srai>CALL ME CORA</srai>,reduction.names.aiml
 0,I AM ADA,*,*,<srai>CALL ME ADA</srai>,reduction.names.aiml
+0,I AM SABRINA,*,*,<srai>CALL ME SABRINA</srai>,reduction.names.aiml
 0,I AM ISABEL,*,*,<srai>CALL ME ISABEL</srai>,reduction.names.aiml
 0,I AM MARGUERITE,*,*,<srai>CALL ME MARGUERITE</srai>,reduction.names.aiml
 0,I AM HATTIE,*,*,<srai>CALL ME HATTIE</srai>,reduction.names.aiml
@@ -201,6 +205,7 @@
 0,I AM JODI,*,*,<srai>CALL ME JODI</srai>,reduction.names.aiml
 0,I AM JANIE,*,*,<srai>CALL ME JANIE</srai>,reduction.names.aiml
 0,I AM MAGGIE,*,*,<srai>CALL ME MAGGIE</srai>,reduction.names.aiml
+0,I AM KAYLA,*,*,<srai>CALL ME KAYLA</srai>,reduction.names.aiml
 0,I AM SONYA,*,*,<srai>CALL ME SONYA</srai>,reduction.names.aiml
 0,I AM KRISTINE,*,*,<srai>CALL ME KRISTINE</srai>,reduction.names.aiml
 0,I AM CANDACE,*,*,<srai>CALL ME CANDACE</srai>,reduction.names.aiml
@@ -1040,6 +1045,7 @@
 0,I AM STACIA,*,*,<srai>CALL ME STACIA</srai>,reduction.names.aiml
 0,I AM ROXANN,*,*,<srai>CALL ME ROXANN</srai>,reduction.names.aiml
 0,I AM MICAELA,*,*,<srai>CALL ME MICAELA</srai>,reduction.names.aiml
+0,I AM NIKITA,*,*,<srai>CALL ME NIKITA</srai>,reduction.names.aiml
 0,I AM MEI,*,*,<srai>CALL ME MEI</srai>,reduction.names.aiml
 0,I AM VELDA,*,*,<srai>CALL ME VELDA</srai>,reduction.names.aiml
 0,I AM MARLYS,*,*,<srai>CALL ME MARLYS</srai>,reduction.names.aiml
@@ -1049,6 +1055,7 @@
 0,I AM NICKI,*,*,<srai>CALL ME NICKI</srai>,reduction.names.aiml
 0,I AM MAJORIE,*,*,<srai>CALL ME MAJORIE</srai>,reduction.names.aiml
 0,I AM HERLINDA,*,*,<srai>CALL ME HERLINDA</srai>,reduction.names.aiml
+0,I AM ALPHA,*,*,<srai>CALL ME ALPHA</srai>,reduction.names.aiml
 0,I AM YADIRA,*,*,<srai>CALL ME YADIRA</srai>,reduction.names.aiml
 0,I AM PERLA,*,*,<srai>CALL ME PERLA</srai>,reduction.names.aiml
 0,I AM GREGORIA,*,*,<srai>CALL ME GREGORIA</srai>,reduction.names.aiml
@@ -1070,6 +1077,7 @@
 0,I AM STEPHANY,*,*,<srai>CALL ME STEPHANY</srai>,reduction.names.aiml
 0,I AM MAGDA,*,*,<srai>CALL ME MAGDA</srai>,reduction.names.aiml
 0,I AM KAROL,*,*,<srai>CALL ME KAROL</srai>,reduction.names.aiml
+0,I AM GABRIELLA,*,*,<srai>CALL ME GABRIELLA</srai>,reduction.names.aiml
 0,I AM TIANA,*,*,<srai>CALL ME TIANA</srai>,reduction.names.aiml
 0,I AM ROMA,*,*,<srai>CALL ME ROMA</srai>,reduction.names.aiml
 0,I AM RICHELLE,*,*,<srai>CALL ME RICHELLE</srai>,reduction.names.aiml
@@ -3762,8 +3770,11 @@
 0,I AM ANGILA,*,*,<srai>CALL ME ANGILA</srai>,reduction.names.aiml
 0,I AM ALONA,*,*,<srai>CALL ME ALONA</srai>,reduction.names.aiml
 0,I AM ALLYN,*,*,<srai>CALL ME ALLYN</srai>,reduction.names.aiml
+0,I AM ROBERT,*,*,<srai>CALL ME ROBERT</srai>,reduction.names.aiml
 0,I AM CHARLES,*,*,<srai>CALL ME CHARLES</srai>,reduction.names.aiml
 0,I AM DONALD,*,*,<srai>CALL ME DONALD</srai>,reduction.names.aiml
+0,I AM GEORGE,*,*,<srai>CALL ME GEORGE</srai>,reduction.names.aiml
+0,I AM BRIAN,*,*,<srai>CALL ME BRIAN</srai>,reduction.names.aiml
 0,I AM RONALD,*,*,<srai>CALL ME RONALD</srai>,reduction.names.aiml
 0,I AM ANTHONY,*,*,<srai>CALL ME ANTHONY</srai>,reduction.names.aiml
 0,I AM TIMOTHY,*,*,<srai>CALL ME TIMOTHY</srai>,reduction.names.aiml
@@ -3809,6 +3820,7 @@
 0,I AM EARL,*,*,<srai>CALL ME EARL</srai>,reduction.names.aiml
 0,I AM JIMMY,*,*,<srai>CALL ME JIMMY</srai>,reduction.names.aiml
 0,I AM ANTONIO,*,*,<srai>CALL ME ANTONIO</srai>,reduction.names.aiml
+0,I AM DANNY,*,*,<srai>CALL ME DANNY</srai>,reduction.names.aiml
 0,I AM BRYAN,*,*,<srai>CALL ME BRYAN</srai>,reduction.names.aiml
 0,I AM LUIS,*,*,<srai>CALL ME LUIS</srai>,reduction.names.aiml
 0,I AM STANLEY,*,*,<srai>CALL ME STANLEY</srai>,reduction.names.aiml
@@ -3930,6 +3942,7 @@
 0,I AM JORDAN,*,*,<srai>CALL ME JORDAN</srai>,reduction.names.aiml
 0,I AM WALLACE,*,*,<srai>CALL ME WALLACE</srai>,reduction.names.aiml
 0,I AM JAIME,*,*,<srai>CALL ME JAIME</srai>,reduction.names.aiml
+0,I AM CASEY,*,*,<srai>CALL ME CASEY</srai>,reduction.names.aiml
 0,I AM ALFREDO,*,*,<srai>CALL ME ALFREDO</srai>,reduction.names.aiml
 0,I AM ALBERTO,*,*,<srai>CALL ME ALBERTO</srai>,reduction.names.aiml
 0,I AM IVAN,*,*,<srai>CALL ME IVAN</srai>,reduction.names.aiml
@@ -3942,6 +3955,7 @@
 0,I AM CLIFTON,*,*,<srai>CALL ME CLIFTON</srai>,reduction.names.aiml
 0,I AM WILLARD,*,*,<srai>CALL ME WILLARD</srai>,reduction.names.aiml
 0,I AM DARYL,*,*,<srai>CALL ME DARYL</srai>,reduction.names.aiml
+0,I AM ROSS,*,*,<srai>CALL ME ROSS</srai>,reduction.names.aiml
 0,I AM VIRGIL,*,*,<srai>CALL ME VIRGIL</srai>,reduction.names.aiml
 0,I AM MARSHALL,*,*,<srai>CALL ME MARSHALL</srai>,reduction.names.aiml
 0,I AM SALVADOR,*,*,<srai>CALL ME SALVADOR</srai>,reduction.names.aiml

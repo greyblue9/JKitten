@@ -27,6 +27,7 @@
 0,WHO READS THESE CONVERSATIONS,*,*,<think><set name="topic">botmaster</set></think><bot name="master"/> reads them.,chomsky014.aiml
 0,YOUR BOTMASTER,*,*,<think><set name="topic">botmaster</set></think><bot name="master"/>?,chomsky014.aiml
 0,YOUR BOTMASTER *,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>#Newline        <bot name="master"/>#Newline        <star/>#Newline      </srai>,chomsky014.aiml
+0,PETER LINUX,*,*,<think><set name="topic">botmaster</set></think>Peter Linux is my botmaster.,chomsky014.aiml
 0,* PETER LINUX,*,*,<think><set name="topic">botmaster</set></think>Peter Linux is my botmaster.,chomsky014.aiml
 0,* PETER LINUX *,*,*,<think><set name="topic">botmaster</set></think>Peter Linux is my botmaster.,chomsky014.aiml
 0,WHERE DOES PETER LIVE,*,*,<think><set name="topic">botmaster</set></think>Peter Linux lives in England. Where do you live?,chomsky014.aiml

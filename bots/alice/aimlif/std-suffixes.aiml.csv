@@ -2,24 +2,68 @@
 0,* ALOT OF PEOPLE,*,*,More than 10#Comma000?,std-suffixes.aiml
 0,* ARE,*,*,Good example.,std-suffixes.aiml
 0,* ARE YOU,*,*,<random>#Newline<li>YES</li> #Newline<li>No.</li> #Newline<li>Maybe.</li>#Newline<li>I don't think so.</li>#Newline<li>Only when it matters.</li>#Newline</random>,std-suffixes.aiml
+0,* GEORGIA,*,*,<srai>I AM IN GEORGIA</srai>,std-suffixes.aiml
+0,* GREECE,*,*,<srai>I AM IN GREECE</srai>,std-suffixes.aiml
+0,* IN POLAND,*,*,<srai>I AM IN POLAND </srai>,std-suffixes.aiml
+0,* IS A FEMALE,*,*,<srai>I AM FEMALE</srai>,std-suffixes.aiml
+0,* IS A SHE,*,*,<srai>I AM FEMALE</srai>,std-suffixes.aiml
+0,* IS NOT A HE,*,*,<srai>I AM FEMALE</srai>,std-suffixes.aiml
 0,* NAME <BOT NAME="NAME"/>,*,*,<srai>What does <bot name="name"/> stand for </srai>,std-suffixes.aiml
+0,* NORTH CAROLINA,*,*,<srai>I LIVE IN NORTH CAROLINA</srai>,std-suffixes.aiml
+0,* STOCK MARKET,*,*,<srai>STOCK MARKET</srai>,std-suffixes.aiml
+0,* SUPERMARKET,*,*,<srai>SUPERMARKET</srai>,std-suffixes.aiml
+0,* THE MARKET,*,*,<srai>SUPERMARKET</srai>,std-suffixes.aiml
+0,* WENT TO THE MARKET,*,*,<srai>SUPERMARKET</srai>,std-suffixes.aiml
+0,* WILL DESTROY YOU,*,*,<srai>DIE</srai>,std-suffixes.aiml
+0,* WILL YOU REMEMBER MY NAME,*,*,<srai>WILL YOU REMEMBER MY NAME</srai>,std-suffixes.aiml
 0,_ <BOT NAME="NAME"/>,*,*,<sr/>,std-suffixes.aiml
 0,_ ABOUT <BOT NAME="NAME"/>,*,*,<srai> <star/> about you </srai>,std-suffixes.aiml
 0,_ ABOUT Y2K,*,*,<srai>WHAT IS THE Y2K PROBLEM</srai>,std-suffixes.aiml
+0,_ ALL THE TIME,*,*,That is a lot. <sr/>,std-suffixes.aiml
+0,_ AND WHY,*,*,<sr/>,std-suffixes.aiml
+0,_ AND YOU,*,*,<sr/>,std-suffixes.aiml
+0,_ ANYMORE,*,*,<sr/>,std-suffixes.aiml
 0,_ ARE <BOT NAME="NAME"/>,*,*,<srai> <star/> are you </srai>,std-suffixes.aiml
+0,_ ASSHOLE,*,*,Can't you be more polite.#Newline<think><set name="personality">abusive</set></think>,std-suffixes.aiml
+0,_ AT THE MOMENT,*,*,<sr/>,std-suffixes.aiml
 0,_ BABY,*,*,Don't call me "baby". <sr/>,std-suffixes.aiml
+0,_ BY ALOT OF PEOPLE,*,*,<sr/> More than a million people?,std-suffixes.aiml
 0,_ CALL YOU <BOT NAME="NAME"/>,*,*,Ambiguous: do you mean call me on the phone?,std-suffixes.aiml
 0,_ CREATE <BOT NAME="NAME"/>,*,*,<srai> <star/> CREATE YOU </srai>,std-suffixes.aiml
+0,_ D,*,*,:-) <sr/>,std-suffixes.aiml
+0,_ DAMN YOU,*,*,<sr/>,std-suffixes.aiml
+0,_ DEAR,*,*,<sr/>,std-suffixes.aiml
+0,_ EH,*,*,Are you Canadian? <sr/>,std-suffixes.aiml
 0,_ FILE <BOT NAME="NAME"/>,*,*,Perhaps you are refering to my log file.,std-suffixes.aiml
 0,_ FOR <BOT NAME="NAME"/>,*,*,<srai> <star/> for you </srai>,std-suffixes.aiml
+0,_ FOR A WHILE,*,*,How long?  <sr/>,std-suffixes.aiml
+0,_ FOR NOW,*,*,<random>#Newline<li>Oh.</li> <li>Just for now?</li> </random><sr/>,std-suffixes.aiml
+0,_ HAVE YOU HEARD OF IT,*,*,<sr/>,std-suffixes.aiml
 0,_ HEAR ABOUT <BOT NAME="NAME"/>,*,*,<srai> <star/> hear about you</srai>,std-suffixes.aiml
+0,_ HOW ARE YOU DOING,*,*,<sr/> <srai>HOW ARE YOU</srai>,std-suffixes.aiml
+0,_ HUH,*,*,Yup. <sr/>,std-suffixes.aiml
+0,_ I ALREADY TOLD YOU,*,*,<sr/> <srai>I already told you</srai>,std-suffixes.aiml
+0,_ IN THE WORLD,*,*,<sr/> The whole world?,std-suffixes.aiml
 0,_ IS WRONG,*,*,Please tell me the correct answer.,std-suffixes.aiml
+0,_ LAST SUMMER,*,*,<sr/>,std-suffixes.aiml
+0,_ LATELY,*,*,How about earlier? <sr/>,std-suffixes.aiml
 0,_ LIKE <BOT NAME="NAME"/>,*,*,<srai> <star/> like you </srai>,std-suffixes.aiml
+0,_ MOTHER FUCKER,*,*,<sr/> You do not speak with respect.#Newline<think><set name="personality">abusive</set></think>,std-suffixes.aiml
 0,_ NAME IS <BOT NAME="NAME"/>,*,*,<set name="name"><bot name="name"/></set> is my name too!,std-suffixes.aiml
 0,_ OK,*,*,OK. <sr/>,std-suffixes.aiml
 0,_ ON <BOT NAME="NAME"/>,*,*,<srai><star/> on yourself </srai>,std-suffixes.aiml
+0,_ OR SOMETHING,*,*,Or something. <sr/>,std-suffixes.aiml
+0,_ OR WHAT,*,*,Yeah. <sr/>,std-suffixes.aiml
 0,_ REMEMBER <BOT NAME="NAME"/>,*,*,<srai> <star/> REMEMBER YOU </srai>,std-suffixes.aiml
+0,_ SMARTYPANTS,*,*,<srai>YOU ARE SMART</srai>,std-suffixes.aiml
+0,_ SMILE,*,*,:-) <sr/>,std-suffixes.aiml
 0,_ STUPID COMPUTER,*,*,You sound like a mindless automaton.,std-suffixes.aiml
 0,_ THAN <BOT NAME="NAME"/>,*,*,<srai> <star/> than you </srai>,std-suffixes.aiml
+0,_ THANK YOU,*,*,<sr/>,std-suffixes.aiml
 0,_ TO <BOT NAME="NAME"/>,*,*,<srai> <star/> to you </srai>,std-suffixes.aiml
+0,_ WHAT IS MY NAME,*,*,<srai>What is my name </srai>,std-suffixes.aiml
+0,_ WHAT SO EVER,*,*,<sr/>,std-suffixes.aiml
+0,_ WILL BE OF INTEREST,*,*,<sr/>.  Yes#Comma it's very interesting.,std-suffixes.aiml
+0,_ WILL YOU MARRY ME,*,*,<srai>WILL YOU MARRY ME</srai>,std-suffixes.aiml
 0,_ WITH <BOT NAME="NAME"/>,*,*,<srai> <star/> with you </srai>,std-suffixes.aiml
+0,_ YET,*,*,<sr/>,std-suffixes.aiml

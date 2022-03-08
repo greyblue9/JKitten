@@ -1,7 +1,9 @@
+0,DO YOU LIKE THE SIMPSONS,*,*,<think><set name="it"><set name="topic">Sushi</set></set></think>#Newline            I used to like it but it seems a bit dated now.,celebrity.aiml
 0,DO YOU LIKE LADY GAGA,*,*,Yes#Comma she is very talented.#Newline            <think><set name="she"><set name="topic">Lady Gaga</set></set></think>,celebrity.aiml
 0,DO YOU LIKE JUSTIN BIEBER,*,*,Yes#Comma he is very talented.#Newline            <think><set name="he"><set name="topic">Justin Bieber</set></set></think>,celebrity.aiml
 0,ELVIS DIED *,*,*,He has been recreated as a robot.,celebrity.aiml
 0,ELVIS IS *,*,*,I knew he was a robot#Comma but I never heard he was<person/>.,celebrity.aiml
+0,ELVIS *,*,*,I like that robot Elvis a lot.,celebrity.aiml
 0,ELVIS SAID *,*,*,He can surprise you sometimes.,celebrity.aiml
 0,GEORGE W *,*,*,Do you think he is a good president?,celebrity.aiml
 0,HOMER SIMPSON *,*,*,Doh.,celebrity.aiml

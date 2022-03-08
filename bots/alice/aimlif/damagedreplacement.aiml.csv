@@ -1,0 +1,140 @@
+0,DAMAGED * DVD CASE,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* DAMAGED * DVD CASE,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* DAMAGED * DVD CASE *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,DAMAGED * DVD CASE *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,DAMAGED * CASE * DVD,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* DAMAGED * CASE * DVD,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* DAMAGED * CASE * DVD *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,DAMAGED * CASE * DVD *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,BROKE * DVD CASE,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BROKE * DVD CASE,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BROKE * DVD CASE *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,BROKE * DVD CASE *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,BROKEN * DVD CASE,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BROKEN * DVD CASE,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BROKEN * DVD CASE *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,BROKEN * DVD CASE *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,BROKE * CASE * DVD,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BROKE * CASE * DVD,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BROKE * CASE * DVD *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,BROKE * CASE * DVD *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,BROKEN * CASE * DVD,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BROKEN * CASE * DVD,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BROKEN * CASE * DVD *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,BROKEN * CASE * DVD *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,DAMAGED * DVD CASES,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* DAMAGED * DVD CASES,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* DAMAGED * DVD CASES *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,DAMAGED * DVD CASES *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,DAMAGED * CASES * DVD,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* DAMAGED * CASES * DVD,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* DAMAGED * CASES * DVD *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,DAMAGED * CASES * DVD *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,BROKE * DVD CASES,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BROKE * DVD CASES,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BROKE * DVD CASES *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,BROKE * DVD CASES *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,BROKEN * DVD CASES,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BROKEN * DVD CASES,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BROKEN * DVD CASES *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,BROKEN * DVD CASES *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,BROKE * CASES * DVD,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BROKE * CASES * DVD,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BROKE * CASES * DVD *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,BROKE * CASES * DVD *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,BROKEN * CASES * DVD,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BROKEN * CASES * DVD,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BROKEN * CASES * DVD *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,BROKEN * CASES * DVD *,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,DESTROY * DVD CASE,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* DESTROY * DVD CASE,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* DESTROY * DVD CASES,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,DESTROYED * DVD CASE,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* DESTROYED * DVD CASE,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* DESTROYED * DVD CASES,*,*,<srai>DAMDVDCASE</srai>,damagedreplacement.aiml
+0,* BOOK * LOST,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* BOOKS * LOST,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* CD * LOST,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* CDS * LOST,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* DVD * LOST,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* DVDS * LOST,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST ITEM,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST ITEM,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST ITEM *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST ITEM *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST BOOK,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST * BOOK,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST BOOK,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST * BOOK,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST BOOK *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST * BOOK *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST BOOK *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST BOOKS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST * BOOKS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST BOOKS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST * BOOKS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST BOOKS *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST * BOOKS *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST BOOKS *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST DVD,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST * DVD,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST DVD,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST * DVD,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST DVD *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST * DVD *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST DVD *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST DVDS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST * DVDS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST DVDS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST * DVDS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST DVDS *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST * DVDS *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST DVDS *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST CD,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST * CD,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST CD,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST * CD,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST CD *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST * CD *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST CD *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST CDS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST * CDS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST CDS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST * CDS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST CDS *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOST * CDS *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOST CDS *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOSE * BOOK,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOSE * BOOK,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOSE * BOOK *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOSE * BOOK *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOSE * BOOKS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOSE * BOOKS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOSE * BOOKS *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOSE * BOOKS *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOSE * DVD,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOSE * DVD,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOSE * DVD *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOSE * DVD *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOSE * DVDS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOSE * DVDS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOSE * DVDS *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOSE * DVDS *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOSE * CD,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOSE * CD,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOSE * CD *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOSE * CD *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOSE * CDS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOSE * CDS,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* LOSE * CDS *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,LOSE * CDS *,*,*,<srai>LSTITM</srai>,damagedreplacement.aiml
+0,* REPLACE *,*,*,<srai>RPLCE</srai>,damagedreplacement.aiml
+0,REPLACE *,*,*,<srai>RPLCE</srai>,damagedreplacement.aiml
+0,BUY * REPLACEMENT,*,*,<srai>RPLCE</srai>,damagedreplacement.aiml
+0,* BUY * REPLACEMENT,*,*,<srai>RPLCE</srai>,damagedreplacement.aiml
+0,* BUY * REPLACEMENT *,*,*,<srai>RPLCE</srai>,damagedreplacement.aiml
+0,BUY * REPLACEMENT *,*,*,<srai>RPLCE</srai>,damagedreplacement.aiml
+0,BUY * REPLACE,*,*,<srai>RPLCE</srai>,damagedreplacement.aiml
+0,* BUY * REPLACE,*,*,<srai>RPLCE</srai>,damagedreplacement.aiml
+0,* BUY * REPLACE *,*,*,<srai>RPLCE</srai>,damagedreplacement.aiml
+0,BUY * REPLACE *,*,*,<srai>RPLCE</srai>,damagedreplacement.aiml

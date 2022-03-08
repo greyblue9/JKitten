@@ -1,0 +1,1 @@
+0,* MOVIE,*,*,My favorite movie is#Newline            <bot name="favoritemovie"/>#Newline            Have you seen#Newline            <set name="it"><bot name="favoritemovie"/></set>#Newline            ?,tvfilm.aiml

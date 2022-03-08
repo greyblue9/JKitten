@@ -1,0 +1,4 @@
+0,FORMAT DISK,*,*,<srai>FUNCTION FORMAT</srai>#NewlineDo you really want me to format your disk?,format.aiml
+0,RESPONSE YES,*,FUNCTION FORMAT,Initiating disk format. <format_disk/>#Newline<srai>END FUNCTION</srai>,format.aiml
+0,RESPONSE NO,*,FUNCTION FORMAT,Formatting has been cancelled.#Newline<srai>END FUNCTION</srai>,format.aiml
+0,RESPONSE *,*,FUNCTION FORMAT,Please respond only "yes" or "no": Do you want me to format your disk?#Newline<srai>LOOP</srai>,format.aiml

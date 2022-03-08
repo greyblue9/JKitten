@@ -1,0 +1,120 @@
+0,JOIN * FRIENDS,*,*,<srai>JNFRNDS</srai>,friends.aiml
+0,JOIN * FRIENDS *,*,*,<srai>JNFRNDS</srai>,friends.aiml
+0,_ JOIN * FRIENDS,*,*,<srai>JNFRNDS</srai>,friends.aiml
+0,_ JOIN * FRIENDS *,*,*,<srai>JNFRNDS</srai>,friends.aiml
+0,JOINING * FRIENDS,*,*,<srai>JNFRNDS</srai>,friends.aiml
+0,JOINING * FRIENDS *,*,*,<srai>JNFRNDS</srai>,friends.aiml
+0,_ JOINING * FRIENDS,*,*,<srai>JNFRNDS</srai>,friends.aiml
+0,_ JOINING * FRIENDS *,*,*,<srai>JNFRNDS</srai>,friends.aiml
+0,BOOK SALE,*,*,<srai>BKSALE</srai>,friends.aiml
+0,* BOOK SALE,*,*,<srai>BKSALE</srai>,friends.aiml
+0,* BOOK SALE *,*,*,<srai>BKSALE</srai>,friends.aiml
+0,BOOK SALE *,*,*,<srai>BKSALE</srai>,friends.aiml
+0,BOOK SALES,*,*,<srai>BKSALE</srai>,friends.aiml
+0,* BOOK SALES,*,*,<srai>BKSALE</srai>,friends.aiml
+0,* BOOK SALES *,*,*,<srai>BKSALE</srai>,friends.aiml
+0,BOOK SALES *,*,*,<srai>BKSALE</srai>,friends.aiml
+0,BOOKSALE,*,*,<srai>BKSALE</srai>,friends.aiml
+0,* BOOKSALE,*,*,<srai>BKSALE</srai>,friends.aiml
+0,* BOOKSALE *,*,*,<srai>BKSALE</srai>,friends.aiml
+0,BOOKSALE *,*,*,<srai>BKSALE</srai>,friends.aiml
+0,BOOKSALES,*,*,<srai>BKSALE</srai>,friends.aiml
+0,* BOOKSALES,*,*,<srai>BKSALE</srai>,friends.aiml
+0,* BOOKSALES *,*,*,<srai>BKSALE</srai>,friends.aiml
+0,BOOKSALES *,*,*,<srai>BKSALE</srai>,friends.aiml
+0,FRIENDS SALE,*,*,<srai>BKSALE</srai>,friends.aiml
+0,* FRIENDS SALE,*,*,<srai>BKSALE</srai>,friends.aiml
+0,* FRIENDS SALE *,*,*,<srai>BKSALE</srai>,friends.aiml
+0,FRIENDS SALE *,*,*,<srai>BKSALE</srai>,friends.aiml
+0,DONATE,*,*,<srai>DN8</srai>,friends.aiml
+0,* DONATE,*,*,<srai>DN8</srai>,friends.aiml
+0,* DONATE *,*,*,<srai>DN8</srai>,friends.aiml
+0,* DONATION,*,*,<srai>DN8</srai>,friends.aiml
+0,* DONATION *,*,*,<srai>DN8</srai>,friends.aiml
+0,DONATIONS,*,*,<srai>DN8</srai>,friends.aiml
+0,* DONATIONS,*,*,<srai>DN8</srai>,friends.aiml
+0,* DONATIONS *,*,*,<srai>DN8</srai>,friends.aiml
+0,* BRING IN * FOR * LIBRARY,*,*,<srai>DN8</srai>,friends.aiml
+0,* BRING IN * FOR * LIBRARY *,*,*,<srai>DN8</srai>,friends.aiml
+0,* GIVE * LIBRARY *,*,*,<srai>DN8</srai>,friends.aiml
+0,GIFT,*,*,<srai>GFTS</srai>,friends.aiml
+0,* GIFT,*,*,<srai>GFTS</srai>,friends.aiml
+0,* GIFT *,*,*,<srai>GFTS</srai>,friends.aiml
+0,GIFT *,*,*,<srai>GFTS</srai>,friends.aiml
+0,GIFTS,*,*,<srai>GFTS</srai>,friends.aiml
+0,* GIFTS,*,*,<srai>GFTS</srai>,friends.aiml
+0,* GIFTS *,*,*,<srai>GFTS</srai>,friends.aiml
+0,GIFTS *,*,*,<srai>GFTS</srai>,friends.aiml
+0,FRIENDS * MPL,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,* FRIENDS * MPL,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,FRIENDS * MPL *,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,* FRIENDS * MPL *,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,FRIENDS * LIBRARY,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,* FRIENDS * LIBRARY,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,FRIENDS * LIBRARY *,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,* FRIENDS * LIBRARY *,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,FRIENDS GROUP,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,FRIENDS * GROUP,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,* FRIENDS GROUP,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,FRIENDS GROUP *,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,* FRIENDS * GROUP,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,FRIENDS * GROUP *,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,* FRIENDS * GROUP *,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,FRIEND * MPL,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,* FRIEND * MPL,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,FRIEND * MPL *,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,* FRIEND * MPL *,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,FRIEND * LIBRARY,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,* FRIEND * LIBRARY,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,FRIEND * LIBRARY *,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,* FRIEND * LIBRARY *,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,FRIEND GROUP,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,FRIEND * GROUP,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,* FRIEND GROUP,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,FRIEND GROUP *,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,* FRIEND * GROUP,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,FRIEND * GROUP *,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,* FRIEND * GROUP *,*,*,<srai>FRNDSMPL</srai>,friends.aiml
+0,FRIENDS BOOKSTORE,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,* FRIENDS BOOKSTORE,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,FRIENDS * BOOKSTORE,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,FRIENDS BOOKSTORE *,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,* FRIENDS * BOOKSTORE,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,FRIENDS * BOOKSTORE *,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,* FRIENDS * BOOKSTORE *,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,* FRIENDS BOOKSTORE *,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,FRIENDS STORE,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,* FRIENDS STORE,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,FRIENDS * STORE,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,FRIENDS STORE *,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,* FRIENDS * STORE,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,FRIENDS * STORE *,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,* FRIENDS * STORE *,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,* FRIENDS STORE *,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,FRIENDS BOOK STORE,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,* FRIENDS BOOK STORE,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,FRIENDS * BOOK STORE,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,FRIENDS BOOK STORE *,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,* FRIENDS * BOOK STORE,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,FRIENDS * BOOK STORE *,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,* FRIENDS * BOOK STORE *,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,* FRIENDS BOOK STORE *,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,WHAT ARE THE LIBRARY S STORE HOURS,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,WHEN * LIBRARY STORE OPEN,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,WHEN * FRIEND S STORE OPEN,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,WHEN * FRIEND S BOOK STORE OPEN,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,* BOOK STORE,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,* BOOKSTORE,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,* STORE,*,*,<srai>FRNDSBKSTR</srai>,friends.aiml
+0,VOLUNTEER,*,*,<srai>VOLNTR</srai>,friends.aiml
+0,* VOLUNTEER,*,*,<srai>VOLNTR</srai>,friends.aiml
+0,* VOLUNTEER *,*,*,<srai>VOLNTR</srai>,friends.aiml
+0,VOLUNTEER *,*,*,<srai>VOLNTR</srai>,friends.aiml
+0,VOLUNTEERING,*,*,<srai>VOLNTR</srai>,friends.aiml
+0,* VOLUNTEERING,*,*,<srai>VOLNTR</srai>,friends.aiml
+0,* VOLUNTEERING *,*,*,<srai>VOLNTR</srai>,friends.aiml
+0,VOLUNTEERING *,*,*,<srai>VOLNTR</srai>,friends.aiml
+0,VOLUNTEERS,*,*,<srai>VOLNTR</srai>,friends.aiml
+0,* VOLUNTEERS,*,*,<srai>VOLNTR</srai>,friends.aiml
+0,* VOLUNTEERS *,*,*,<srai>VOLNTR</srai>,friends.aiml
+0,VOLUNTEERS *,*,*,<srai>VOLNTR</srai>,friends.aiml

@@ -1,0 +1,46 @@
+0,PRIVET *,*,*,<srai>HELLO</srai>,personalautor.aiml
+0,PRIVET,*,*,<srai>HELLO</srai>,personalautor.aiml
+0,HAIYDI: *,*,*,<srai>haiydi *</srai>,personalautor.aiml
+0,HAIYDI *,*,*,<searchuser>#Newline        <star/>#Newline      </searchuser>,personalautor.aiml
+0,IHET *,*,*,<srai>inet *</srai>,personalautor.aiml
+0,SPISOK YOUZEROV,*,*,<usrlst>1</usrlst>#Newline	  dlya poiska youzerov vvedi: haiydi imya ili hik,personalautor.aiml
+0,INET *,*,*,<inet>#Newline        <star/>#Newline      </inet>,personalautor.aiml
+0,ZAPOMHI *,*,*,<srai>remeber *</srai>,personalautor.aiml
+0,REMEBER *,*,*,<remem>#Newline        <star/>#Newline      </remem>,personalautor.aiml
+0,HAPOMHI *,*,*,<srai>remind *</srai>,personalautor.aiml
+0,REMIND *,*,*,<remind>#Newline        <star/>#Newline      </remind>,personalautor.aiml
+0,CHECK1,*,*,<random>#Newline        <li>#Newline          <check>1</check>#Newline        </li>#Newline        <li>#Newline          <check>2</check>#Newline        </li>#Newline      </random>,personalautor.aiml
+0,SMS *,*,*,<srai>sms: *</srai>,personalautor.aiml
+0,SMS: *,*,*,<sms>#Newline        <star/>#Newline      </sms>,personalautor.aiml
+0,MYILO *,*,*,<srai>email: *</srai>,personalautor.aiml
+0,EMAIL: *,*,*,<mails>#Newline        <star/>#Newline      </mails>,personalautor.aiml
+0,POKA *,*,*,<srai>poka</srai>,personalautor.aiml
+0,POKA,*,*,<random>#Newline        <li>prixodi eshae</li>#Newline        <li>poka :)</li>#Newline        <li>vsego xoroshego</li>#Newline      </random>,personalautor.aiml
+0,BLOGCHANGE,*,*,Microblog record has been added,personalautor.aiml
+0,WOLFRAMCLICK,*,*,Get your answers with wolfram engine,personalautor.aiml
+0,ONOFFCHAT,*,*,This will change your status on chat,personalautor.aiml
+0,ADDNEWUSER *,*,*,ok friend request has been send,personalautor.aiml
+0,INETSEARCH *,*,*,I will search  <star/>  on the internet,personalautor.aiml
+0,VIEWUSER *,*,*,<interevents>viewuser <star/></interevents>,personalautor.aiml
+0,VIEWOTHERUSER *,*,*,<srai>viewuser * </srai>,personalautor.aiml
+0,GMAILCLICK,*,*,If you have gmail account i can check emails for you#Comma just change you acount info for gmail into your profile settings,personalautor.aiml
+0,SOUNDCLICK,*,*,Here You can upload your mp3 files.,personalautor.aiml
+0,PLANES,*,*,Manage your planes,personalautor.aiml
+0,QUESTIONANSWERCLICK,*,*,Have any questions? than ask other users about this,personalautor.aiml
+0,IMAGECLICK,*,*,Share your photos#Comma or use personal album,personalautor.aiml
+0,BLIGCLICK,*,*,Here you can create your own micro blog,personalautor.aiml
+0,USERNEWSCLICK,*,*,Here you can find latest news from your friends,personalautor.aiml
+0,TERMINALCLICK,*,*,:) terminal is the best way to chat with me,personalautor.aiml
+0,PROJECTS,*,*,Here create and manage your projects with other.,personalautor.aiml
+0,DASHBOARDCLICK,*,*,Lol this is simple dashboard,personalautor.aiml
+0,SEARCHISTORYCLICK,*,*,Your internet search history,personalautor.aiml
+0,MSG,*,*,Write to your friends,personalautor.aiml
+0,CHATONLINE,*,*,<fronli> Ha </fronli>,personalautor.aiml
+0,NOTEPADCLICK,*,*,In here we have a simple notepad. lol,personalautor.aiml
+0,PROFILECLIC,*,*,<random>#Newline        <li>Here is your profile </li>#Newline        <li>In your profile you can setup gmail settings#Comma it will help me to check your email.</li>#Newline      </random>,personalautor.aiml
+0,TOBOTCLICK,*,*,<random>#Newline        <li> Ok now you can chat with me </li>#Newline        <li> Now we will talk</li>#Newline        <li> Great now we can chat#Comma also you can use terminal </li>#Newline        <li> Ha#Comma ok let's talk </li>#Newline        <li> ok#Comma maybe you want use terminal to chat with me </li>#Newline      </random>,personalautor.aiml
+0,WHAT IS WEBHELPER,*,*,Webhelper is social network with some AI#Comma  actually it's most like as expirience of the age of the intelegent internet services.,personalautor.aiml
+0,WEBHELPER *,*,*,<srai>WHAT IS WEBHELPER </srai>,personalautor.aiml
+0,DRAGANDDROP,*,*,<srai>ALL interface of Webhelper  is  now draggable</srai>,personalautor.aiml
+0,SENSE OF LIFE,*,*,Base in love#CommaPoint in unity for the infinity,personalautor.aiml
+0,EMAIL TO *,*,*,<emails><star/></emails>#NewlineReady)),personalautor.aiml

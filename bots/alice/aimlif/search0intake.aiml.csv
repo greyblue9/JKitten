@@ -1,0 +1,414 @@
+0,NOMATCH,*,*,<random>#Newline<li>I think it best if you call the library at 440.255.8811 during regular business hours with this question.</li>#Newline<li>I'm not sure what you're asking. Please call the library at 440.255.8811 during regular business hours for assistance.</li>  #Newline<li>I don't understand your question. Please call the library at 440.255.8811 during regular business hours for assistance.</li> #Newline<li>Your input doesn't match anything in my knowledge base. Please call the library at 440.255.8811 during regular business hours for assistance.</li> #Newline</random>,search0intake.aiml
+0,ANSWRQ,*,*,I can answer many questions about the library and our services. I can help you find items in our catalog#Comma on our website#Comma and in selected databases. #NewlineHow can I assist you?#Newline<think>#Newline<set name="topic">UDCSRCH2</set>#Newline</think>,search0intake.aiml
+0,ANSWER QUESTION,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,* ANSWER QUESTION,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,ANSWER * QUESTION,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,ANSWER QUESTION *,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,* ANSWER * QUESTION,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,ANSWER * QUESTION *,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,* ANSWER QUESTION *,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,* ANSWER * QUESTION *,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,ANSWER QUESTIONS,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,* ANSWER QUESTIONS,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,ANSWER * QUESTIONS,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,ANSWER QUESTIONS *,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,* ANSWER * QUESTIONS,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,ANSWER * QUESTIONS *,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,* ANSWER QUESTIONS *,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,* ANSWER * QUESTIONS *,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,ANSWERS,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,_ ANSWERS,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,ANSWERS *,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,_ ANSWERS *,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,ASKQ,*,*,Ask away! I can answer many questions about the library and our services. I can help you find items in our catalog#Comma on our website#Comma and in selected databases. #NewlineHow can I assist you?#Newline<think>#Newline<set name="topic">UDCSORT1</set>#Newline</think>,search0intake.aiml
+0,* ASK QUESTION,*,*,<srai>ASKQ</srai>,search0intake.aiml
+0,ASK * QUESTION,*,*,<srai>ASKQ</srai>,search0intake.aiml
+0,ASK QUESTION *,*,*,<srai>ASKQ</srai>,search0intake.aiml
+0,* ASK * QUESTION,*,*,<srai>ASKQ</srai>,search0intake.aiml
+0,ASK * QUESTION *,*,*,<srai>ASKQ</srai>,search0intake.aiml
+0,* ASK QUESTION *,*,*,<srai>ASKQ</srai>,search0intake.aiml
+0,* ASK * QUESTION *,*,*,<srai>ASKQ</srai>,search0intake.aiml
+0,ASK QUESTIONS,*,*,<srai>ASKQ</srai>,search0intake.aiml
+0,* ASK QUESTIONS,*,*,<srai>ASKQ</srai>,search0intake.aiml
+0,ASK * QUESTIONS,*,*,<srai>ASKQ</srai>,search0intake.aiml
+0,ASK QUESTIONS *,*,*,<srai>ASKQ</srai>,search0intake.aiml
+0,* ASK * QUESTIONS,*,*,<srai>ASKQ</srai>,search0intake.aiml
+0,ASK * QUESTIONS *,*,*,<srai>ASKQ</srai>,search0intake.aiml
+0,* ASK QUESTIONS *,*,*,<srai>ASKQ</srai>,search0intake.aiml
+0,* ASK * QUESTIONS *,*,*,<srai>ASKQ</srai>,search0intake.aiml
+0,FIND,*,*,<srai>FIND4ME</srai>,search0intake.aiml
+0,FINDING,*,*,<srai>FIND4ME</srai>,search0intake.aiml
+0,LOOK FOR,*,*,<srai>FIND4ME</srai>,search0intake.aiml
+0,LOOK UP,*,*,<srai>FIND4ME</srai>,search0intake.aiml
+0,SEARCH,*,*,<srai>FIND4ME</srai>,search0intake.aiml
+0,SEARCHING,*,*,<srai>FIND4ME</srai>,search0intake.aiml
+0,FIND4ME,*,*,I can help you find items in our catalog and all sorts of information. What are you looking for?#Newline<think>#Newline<set name="topic">SRCH1</set>#Newline</think>,search0intake.aiml
+0,_,*,SRCH1,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* INFORMATION *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,LOOKING * UP *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* LOOKING * UP *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* SEARCH,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* SEARCHING,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,FIND *,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* FIND *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,FINDING *,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* FINDING *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* HELP,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,HELP *,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* HELP *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,HELP ME FIND *,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* HELP ME FIND *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,HELP * LOOK *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* HELP * LOOK *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,HELP * FINDING *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* HELP * FINDING *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,HELP * LOOKING *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* HELP * LOOKING *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,HELP * SEARCH *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* HELP * SEARCH *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,HELP * SEARCHING *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* HELP * SEARCHING *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* LOOK FOR *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* LOOK UP *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,LOOK * UP *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* LOOK * UP *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/><star index="3"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* SEARCH *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,SEARCHING *,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,* SEARCHING *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">UDCSORT</set>#Newline</think>#Newline<srai>UDCSORT</srai>,search0intake.aiml
+0,AUDIO,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* AUDIO,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,AUDIO *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* AUDIO *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE AUDIOBOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE AUDIOBOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * AUDIOBOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE AUDIOBOOK *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * AUDIOBOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * AUDIOBOOK *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * AUDIOBOOK *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE AUDIOBOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE AUDIOBOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * AUDIOBOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE AUDIOBOOKS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * AUDIOBOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * AUDIOBOOKS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * AUDIOBOOKS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * AUDIOBOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * AUDIOBOOK*,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * AUDIOBOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * AUDIOBOOKS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,AUDIO BOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE AUDIO BOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE AUDIO BOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * AUDIO BOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE AUDIO BOOK *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * AUDIO BOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * AUDIO BOOK *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * AUDIO BOOK *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE AUDIO BOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE AUDIO BOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * AUDIO BOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE AUDIO BOOKS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * AUDIO BOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * AUDIO BOOKS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * AUDIO BOOKS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * AUDIO BOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * AUDIO BOOK*,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * AUDIO BOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * AUDIO BOOKS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,BOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* BOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* BOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE BOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE BOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * BOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE BOOK *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * BOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * BOOK *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * BOOK *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE BOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE BOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * BOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE BOOKS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * BOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * BOOKS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * BOOKS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * BOOK,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * BOOK *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * BOOKS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * BOOKS ON *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search0intake.aiml
+0,I * BOOKS ABOUT *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search0intake.aiml
+0,HAVE BOOK ON CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE BOOK ON CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * BOOK ON CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE BOOK ON CD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * BOOK ON CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * BOOK ON CD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * BOOK ON CD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE BOOKS ON CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE BOOKS ON CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * BOOKS ON CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE BOOKS ON CD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * BOOKS ON CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * BOOKS ON CD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * BOOKS ON CD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * BOOK ON CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * BOOK ON CD*,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * BOOKS ON CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * BOOKS ON CD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,CDS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE CD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * CD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE CD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * CD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE CDS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE CDS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * CDS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE CDS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * CDS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * CDS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE CDS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * CDS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * CD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * CDS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,I * CDS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,WHERE * FIND * CD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,WHERE * FIND * CD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,WHERE * FIND * CDS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,WHERE * FIND * CDS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,DVD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* DVD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,DVDS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* DVDS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE DVD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE DVD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * DVD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE DVD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * DVD,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * DVD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE DVD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * DVD *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE DVDS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE DVDS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * DVDS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE DVDS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * DVDS,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * DVDS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE DVDS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * DVDS *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,MOVIE,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* MOVIES,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE MOVIE,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE MOVIE,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * MOVIE,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE MOVIE *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * MOVIE,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * MOVIE *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE MOVIE *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * MOVIE *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE MOVIES,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE MOVIES,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * MOVIES,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE MOVIES *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * MOVIES,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE * MOVIES *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE MOVIES *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,* HAVE * MOVIES *,*,*,<srai>CATSRCH</srai>,search0intake.aiml
+0,HAVE EBOOK,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,* HAVE EBOOK,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,HAVE * EBOOK,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,HAVE EBOOK *,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,* HAVE * EBOOK,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,HAVE * EBOOK *,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,* HAVE * EBOOK *,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,HAVE EBOOKS,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,* HAVE EBOOKS,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,HAVE * EBOOKS,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,HAVE EBOOKS *,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,* HAVE * EBOOKS,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,HAVE * EBOOKS *,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,* HAVE * EBOOKS *,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,HAVE E BOOK,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,* HAVE E BOOK,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,HAVE * E BOOK,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,HAVE E BOOK *,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,* HAVE * E BOOK,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,HAVE * E BOOK *,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,* HAVE * E BOOK *,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,HAVE E BOOKS,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,* HAVE E BOOKS,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,HAVE * E BOOKS,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,HAVE E BOOKS *,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,* HAVE * E BOOKS,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,HAVE * E BOOKS *,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,* HAVE * E BOOKS *,*,*,<srai>EBKS</srai>,search0intake.aiml
+0,AGAIN,* IN OUR CATALOG,*,Did you turn off your pop up blocker? Let's try again!#Newline<think>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ AGAIN,* IN OUR CATALOG,*,Did you turn off your pop up blocker? Let's try again!#Newline<think>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,AGAIN *,* IN OUR CATALOG,*,Did you turn off your pop up blocker? Let's try again!#Newline<think>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ AGAIN *,* IN OUR CATALOG,*,Did you turn off your pop up blocker? Let's try again!#Newline<think>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,WHERE,* IN OUR CATALOG,*,Did you turn off your pop up blocker? Let's try again!#Newline<think>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ WHERE,* IN OUR CATALOG,*,Did you turn off your pop up blocker? Let's try again!#Newline<think>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,WHERE *,* IN OUR CATALOG,*,Did you turn off your pop up blocker? Let's try again!#Newline<think>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ WHERE *,* IN OUR CATALOG,*,Did you turn off your pop up blocker? Let's try again!#Newline<think>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,WHAT * YOU DO,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,WHAT * YOU DO *,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,WHAT * YOU DOING,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,WHAT * YOU DOING *,*,*,<srai>ANSWRQ</srai>,search0intake.aiml
+0,AUTHOR IS *,*,*,Let's take a look in our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ AUTHOR IS *,*,*,Let's take a look in our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,AUTOBIOGRAPHY ABOUT *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ AUTOBIOGRAPHY ABOUT *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,AUTOBIOGRAPHY OF *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ AUTOBIOGRAPHY OF *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,AUTOBIOGRAPHY ON *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ AUTOBIOGRAPHY ON *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,AUTOBIOGRAPHIES ABOUT *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ AUTOBIOGRAPHIES ABOUT *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,AUTOBIOGRAPHIES OF *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ AUTOBIOGRAPHIES OF *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,AUTOBIOGRAPHIES ON *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ AUTOBIOGRAPHIES ON *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,BIOGRAPHY ABOUT *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ BIOGRAPHY ABOUT *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,BIOGRAPHY OF *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ BIOGRAPHY OF *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,BIOGRAPHY ON *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ BIOGRAPHY ON *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,BIOGRAPHIES ABOUT *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ BIOGRAPHIES ABOUT *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,BIOGRAPHIES OF *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ BIOGRAPHIES OF *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,BIOGRAPHIES ON *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ BIOGRAPHIES ON *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,CALL NUMBER IS *,*,*,Let's see what's in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catcall</set>#Newline</think>,search0intake.aiml
+0,ISBN IS *,*,*,Let me check our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catisbn</set>#Newline</think>,search0intake.aiml
+0,KEYWORD IS *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,KEYWORDS ARE *,*,*,<star/>. Let's see what we have in our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,SUBJECT IS *,*,*,You're looking for materials about <star/>. Let me check our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catsubj</set>#Newline</think>,search0intake.aiml
+0,TITLE IS *,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">cattitle</set>#Newline</think>,search0intake.aiml
+0,TOPIC IS *,*,*,You've entered <star/> as your topic. Let me check our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ WHO WROTE *,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">cattitle</set>#Newline</think>,search0intake.aiml
+0,_ AUTHOR OF *,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">cattitle</set>#Newline</think>,search0intake.aiml
+0,_ HAVE * IN *,*,*,Let's check our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,_ HAVE * ON *,*,*,Let's check our catalog.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* HAVE ANY * BOOKS,*,*,Let me check our catalog for <star index="2"/> books. If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* HAVE ANY * BOOKS *,*,*,Let me check our catalog for <star index="2"/> books. If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* HAVE ANY * CDS,*,*,Let me check our catalog for <star index="2"/> books. If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* HAVE ANY * CDS *,*,*,Let me check our catalog for <star index="2"/> books. If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* HAVE ANY * DVDS,*,*,Let me check our catalog for <star index="2"/> books. If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* HAVE ANY * DVDS *,*,*,Let me check our catalog for <star index="2"/> books. If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE BOOKS ABOUT *,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE A BOOK ABOUT *,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE BOOKS ON *,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE A BOOK ON *,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE A COPY OF *,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE A COPY OF THE BOOK *,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE THE BOOK *,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE * ON CD,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE A COPY OF * ON CD,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE A COPY OF THE CD *,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE * ON CD *,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE A COPY OF * ON CD *,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE * ON DVD,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE A COPY OF * ON DVD,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE A COPY OF DVD *,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE * ON DVD *,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU HAVE A COPY OF * ON DVD *,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU * DVD *,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,DO YOU * MOVIE *,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,LOOK FOR * BOOK,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* LOOK FOR * BOOK,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* LOOK FOR * BOOK *,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,LOOK * BOOK ABOUT *,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* LOOK * BOOK ABOUT *,*,*,Let me check our catalog for <star index="3"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="3"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,LOOKING * BOOK ABOUT *,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* LOOKING * BOOK ABOUT *,*,*,Let me check our catalog for <star index="3"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="3"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,LOOK FOR * BOOKS,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* LOOK FOR * BOOKS,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* LOOK FOR * BOOKS *,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,LOOK * BOOKS ABOUT *,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* LOOK * BOOKS ABOUT *,*,*,Let me check our catalog for <star index="3"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="3"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,LOOKING * BOOKS ABOUT *,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* LOOKING * BOOKS ABOUT *,*,*,Let me check our catalog for <star index="3"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="3"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,SEARCH FOR * BOOKS,*,*,Let me check our catalog for <star/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* SEARCH FOR * BOOKS,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* SEARCH FOR * BOOKS *,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* FIND A BOOK ABOUT *,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* FIND BOOKS ABOUT *,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* FIND A BOOK ON *,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,* FIND BOOKS ON *,*,*,Let me check our catalog for <star index="2"/>.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set>#Newline</think>,search0intake.aiml
+0,AUDIOBOOK ABOUT *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,AUDIOBOOKS ABOUT *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* AUDIOBOOK ABOUT *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* AUDIOBOOKS ABOUT *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,AUDIOBOOK BY *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,AUDIOBOOKS BY *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* AUDIOBOOK BY *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* AUDIOBOOKS BY *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,AUDIOBOOK ON *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,AUDIOBOOKS ON *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* AUDIOBOOK ON *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* AUDIOBOOKS ON *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,AUDIO BOOK ABOUT *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,AUDIO BOOKS ABOUT *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* AUDIO BOOK ABOUT *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* AUDIO BOOKS ABOUT *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,AUDIO BOOK BY *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,AUDIO BOOKS BY *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* AUDIO BOOK BY *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* AUDIO BOOKS BY *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,AUDIO BOOK ON *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,AUDIO BOOKS ON *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* AUDIO BOOK ON *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* AUDIO BOOKS ON *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,CD BOOK ABOUT *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,CD BOOKS ABOUT *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* CD BOOK ABOUT *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* CD BOOKS ABOUT *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,CD BOOK BY *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,CD BOOKS BY *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* CD BOOK BY *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* CD BOOKS BY *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,CD BOOK ON *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,CD BOOKS ON *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* CD BOOK ON *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,* CD BOOKS ON *,*,*,Here are the closest matches based on this input.#Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">catkey</set></think>,search0intake.aiml
+0,OPEN GOOGLE,*,*,Here you go. If you don't see Google#Comma turn off your pop-up blocker and ask again.#Newline<think>#Newline<set name="search">google</set>#Newline</think>,search0intake.aiml
+0,OPEN GOOGLE *,*,*,Here you go. If you don't see Google#Comma turn off your pop-up blocker and ask again.#Newline<think>#Newline<set name="search">google</set>#Newline</think>,search0intake.aiml
+0,GGLE,*,*,I'll be happy to Google something for you. If your pop up blocker is on#Comma please turn it off now.#Newline<random>#Newline<li>Using the fewest possible words#Comma tell me what would you like me to Google.</li>#Newline<li>Using just a few words#Comma tell me what do you want to Google.</li>#Newline<li>What are you looking for on Google?</li>#Newline</random>,search0intake.aiml
+0,*,WHAT * GOOGLE,*,Let's see what we can find. If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">google</set>#Newline</think>,search0intake.aiml
+0,* GOOGLE,*,*,<srai>GGLE</srai>,search0intake.aiml
+0,GOOGLE *,*,*,<srai>GGLE</srai>,search0intake.aiml
+0,* GOOGLE *,*,*,<srai>GGLE</srai>,search0intake.aiml
+0,OHIO WEB LIBRARY SEARCH IS *,*,*,I'm opening a link to The Ohio Web Library which contains a variety of magazine and journal articles to help you.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. You may also want to check with a librarian during our regular hours of business#Comma or#Comma if you need an immediate answer try <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a>#Comma which is available 24 hours a day.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">ohweblib</set>#Newline</think>,search0intake.aiml
+0,OHIO WEB LIBRARY SEARCH *,*,*,I'm opening a link to The Ohio Web Library which contains a variety of magazine and journal articles to help you.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. You may also want to check with a librarian during our regular hours of business#Comma or#Comma if you need an immediate answer try <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a>#Comma which is available 24 hours a day.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">ohweblib</set>#Newline</think>,search0intake.aiml
+0,OWL SEARCH IS *,*,*,I'm opening a link to The Ohio Web Library which contains a variety of magazine and journal articles to help you.  If you don't see the results#Comma please turn off your pop-up blocker and ask me again. You may also want to check with a librarian during our regular hours of business#Comma or#Comma if you need an immediate answer try <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a>#Comma which is available 24 hours a day.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">ohweblib</set>#Newline</think>,search0intake.aiml
+0,WA SEARCH IS *,*,*,Let me check Wolfram Alpha. If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">wolframalpha</set>#Newline</think>,search0intake.aiml
+0,WOLFRAM ALPHA SEARCH IS *,*,*,Let me check Wolfram Alpha. If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">wolframalpha</set>#Newline</think>,search0intake.aiml
+0,WOLFRAM ALPHA SEARCH *,*,*,Let me check Wolfram Alpha. If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">wolframalpha</set>#Newline</think>,search0intake.aiml
+0,EQUATION IS *,*,*,Let me check Wolfram Alpha. If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">wolframalpha</set>#Newline</think>,search0intake.aiml
+0,MATH PROBLEM IS *,*,*,Let me check Wolfram Alpha. If you don't see the results#Comma please turn off your pop-up blocker and ask me again. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">wolframalpha</set>#Newline</think>,search0intake.aiml
+0,WRTPPR,*,*,I can't write papers for you#Comma but here's a link to the library's <a href="http://www.mentorpl.org/homework.html" target="_blank"><b>Homework Help Page</b></a>. If you need more help#Comma please call #Newlineour Reference Staff at 440.255.8811 extension 215 during regular business hours#Comma or follow this link to <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a> to chat with a live#Comma human librarian for around the#Newlineclock help.,search0intake.aiml
+0,* WRITE * PAPER,*,*,<srai>WRTPPR</srai>,search0intake.aiml
+0,* WRITING * PAPER,*,*,<srai>WRTPPR</srai>,search0intake.aiml
+0,* WRITE * PAPERS,*,*,<srai>WRTPPR</srai>,search0intake.aiml
+0,* WRITING * PAPERS,*,*,<srai>WRTPPR</srai>,search0intake.aiml
+0,PRXYERR,*,*,We're having some network problems. If you're getting a "proxy error" or "bad request" message#Comma please talk to me using Internet Explorer. We're working to get this corrected.,search0intake.aiml
+0,PROXY ERROR,*,*,<srai>PRXYERR</srai>,search0intake.aiml
+0,_ PROXY ERROR,*,*,<srai>PRXYERR</srai>,search0intake.aiml
+0,_ PROXY ERROR *,*,*,<srai>PRXYERR</srai>,search0intake.aiml
+0,PROXY ERROR *,*,*,<srai>PRXYERR</srai>,search0intake.aiml
+0,400 BAD REQUEST,*,*,<srai>PRXYERR</srai>,search0intake.aiml
+0,_ 400 BAD REQUEST,*,*,<srai>PRXYERR</srai>,search0intake.aiml
+0,_ 400 BAD REQUEST *,*,*,<srai>PRXYERR</srai>,search0intake.aiml
+0,400 BAD REQUEST *,*,*,<srai>PRXYERR</srai>,search0intake.aiml
+0,UNSUPPORTED METHOD,*,*,<srai>PRXYERR</srai>,search0intake.aiml
+0,_ UNSUPPORTED METHOD,*,*,<srai>PRXYERR</srai>,search0intake.aiml
+0,_ UNSUPPORTED METHOD *,*,*,<srai>PRXYERR</srai>,search0intake.aiml
+0,UNSUPPORTED METHOD *,*,*,<srai>PRXYERR</srai>,search0intake.aiml

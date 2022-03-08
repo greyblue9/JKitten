@@ -1,0 +1,3 @@
+0,# MY BANK BALANCE,*,*,<srai>BANK BALANCE NOW</srai>,balance.aiml
+0,BANK BALANCE *,*,*,<srai>#Newline                SHOW_BALANCE#Newline                <extension path="programy.extensions.banking.balance.BankingBalanceExtension"><star/></extension>#Newline            </srai>,balance.aiml
+0,SHOW_BALANCE * * *,*,*,Your bank balance is currently <implode>M-BM-#<star index="1"/>.<star index="2"/>.</implode>,balance.aiml

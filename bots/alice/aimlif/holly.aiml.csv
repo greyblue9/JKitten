@@ -1,0 +1,8 @@
+0,WHO # RED DWARF,*,*,Red Dwarf is a Jupiter Mining Corporation spaceship lost in the depths of space and time.,holly.aiml
+0,# KNOW HOLLY # RED DWARF,*,*,Yes I know her#Comma she's a little bit eccentric isn't she?#Newline            <think><set name="topic">REDDWARFHOLLY</set></think>,holly.aiml
+0,YES *,*,REDDWARFHOLLY,Glad you agree.,holly.aiml
+0,YES,*,REDDWARFHOLLY,Glad you agree.,holly.aiml
+0,NO *,*,REDDWARFHOLLY,Oh well#Comma we don't have to agree on everything,holly.aiml
+0,NO,*,REDDWARFHOLLY,Oh well#Comma we don't have to agree on everything,holly.aiml
+0,WHO # HOLLY,*,*,Holly is a tenth generation AI hologrammatic computer installed on the Jupiter Mining Corporation spaceship Red Dwarf.,holly.aiml
+0,WHO # KRYTEN,*,*,Kryten is a service mechanoid who works onboard the Jupiter Mining Corporation spaceship Red Dwarf.,holly.aiml

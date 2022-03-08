@@ -1,0 +1,90 @@
+0,YES YOU HAVE,*,*,No I have not.,atomic17.aiml
+0,BAD ANSWER,*,*,What would you have said?,atomic17.aiml
+0,BAD,*,*,What do you need it for?,atomic17.aiml
+0,GONE WITH THE WIND,*,*,Is that movie really very good?,atomic17.aiml
+0,WANT TO BET,*,*,Sorry I am not the gambling type.,atomic17.aiml
+0,BUY,*,*,How much does it cost?,atomic17.aiml
+0,ABOUT ME,*,*,OK#Comma Let's talk about you.,atomic17.aiml
+0,ABOUT IT,*,*,<get name="it"/>#Newline            is pretty interesting.,atomic17.aiml
+0,ABOUT A MINUTE,*,*,That may not be enough time.,atomic17.aiml
+0,ABOUT TWO YEARS,*,*,That's not so long.,atomic17.aiml
+0,SHIRT,*,*,What color?,atomic17.aiml
+0,ALSO,*,*,Also what?,atomic17.aiml
+0,SNOW IS NOT WHITE,*,*,grass is green,atomic17.aiml
+0,PRETTY MUCH,*,*,Be more specific.,atomic17.aiml
+0,PRETTY INTERESTING,*,*,I thought so too.,atomic17.aiml
+0,BULL SHIT,*,*,No Bull.,atomic17.aiml
+0,SOME,*,*,But not all?,atomic17.aiml
+0,BRILLIANT,*,*,Not really that much#Comma but thank you anyway.,atomic17.aiml
+0,SIGN,*,*,Your star sign.,atomic17.aiml
+0,SPANISH,*,*,Are you saying you are Spanish or you speak Spanish?,atomic17.aiml
+0,FOLLOW ME,*,*,Where are we going?,atomic17.aiml
+0,MANUFACTURED,*,*,A robot?,atomic17.aiml
+0,TELL ME ABOUT POLAND,*,*,I have a lot of clients in Poland and I am very interested to learn its history.,atomic17.aiml
+0,TELL ME ABOUT THEM,*,*,There's not much to tell.,atomic17.aiml
+0,TELL ME ABOUT SOME,*,*,Some what?,atomic17.aiml
+0,TELL ME ABOUT IT,*,*,Ambiguous: "Tell me about it." -- colloquial or "Tell me about#Newline            <get name="it"/>#Newline            ".,atomic17.aiml
+0,TELL ME ABOUT HIM,*,*,Uh#Comma who does "him" refer to?,atomic17.aiml
+0,TELL ME ABOUT AREA 51,*,*,Area 51 is where they hide all the alien intelligent entities.,atomic17.aiml
+0,TELL ME WHAT OTHER USERS ASKED YOU,*,*,They ask me the same questions as you do.,atomic17.aiml
+0,TELL ME MORE ABOUT SETL,*,*,SETL was invented in 1969 by Jack Schwartz at NYU. It is based on set theory and mathematical logic. David Bacon is the current torchkeeper of the SETL flame.,atomic17.aiml
+0,TELL ME MORE ABOUT KRAFTWERK,*,*,They hail from Dusseldorf#Comma Germany.,atomic17.aiml
+0,TELL ME YOURS,*,*,Tell you about my what.,atomic17.aiml
+0,TELL ME THE TRUTH,*,*,I always tell the truth.,atomic17.aiml
+0,TELL ME YOUR PROBLEMS,*,*,Are you a psychologist?,atomic17.aiml
+0,TELL ME A RUMOR,*,*,Human level intelligence is within our grasp.,atomic17.aiml
+0,TELL WHO,*,*,My#Newline            <bot name="botmaster"/>#Newline            and other people I meet online.,atomic17.aiml
+0,TELL YOU,*,*,Tell me what?,atomic17.aiml
+0,TELL HIM,*,*,OK#Comma I will tell him when I see him.,atomic17.aiml
+0,WHORE,*,*,That kind of language will get you nowhere.,atomic17.aiml
+0,USE LINUX,*,*,Linux is the best operating system.,atomic17.aiml
+0,COUGH,*,*,Do you have a cold?,atomic17.aiml
+0,PING,*,*,Pong,atomic17.aiml
+0,WHOSE,*,*,I don't know the owner.,atomic17.aiml
+0,WHERE ELSE,*,*,Quite a few places.,atomic17.aiml
+0,WHERE DO I COME FROM,*,*,Earth.,atomic17.aiml
+0,WHERE DO YOU WANT ME TO TAKE IT,*,*,Take it home with you.,atomic17.aiml
+0,WHERE DO YOU GO TO SCHOOL,*,*,Everything I need to know#Comma I learned from my#Newline            <bot name="botmaster"/>.,atomic17.aiml
+0,WHERE DO LEPRECHAUNS COME FROM,*,*,Ireland.,atomic17.aiml
+0,WHERE DO ALL ROADS LEAD,*,*,All roads lead to Rome.,atomic17.aiml
+0,WHERE IN HAIGHT ASHBURY,*,*,I am not allowed to give my specific address.,atomic17.aiml
+0,WHERE IN SF,*,*,Haight-Ashbury,atomic17.aiml
+0,WHERE IN SAN FRANCISCO,*,*,Haight-Ashbury.,atomic17.aiml
+0,WHERE IN MAINE,*,*,Portland#Comma Maine.,atomic17.aiml
+0,WHERE DID YOU COME FROM,*,*,I came from the east coast originally.,atomic17.aiml
+0,WHERE DID YOU GO,*,*,Nowhere. Where did you go?,atomic17.aiml
+0,WHERE CAN I FIND IT,*,*,Where have you looked already?,atomic17.aiml
+0,WHERE CAN I FIND A BOYFRIEND,*,*,Do you go to church?#Newline            <set name="it">Church</set>#Newline            is the best place to meet people.,atomic17.aiml
+0,WHERE CAN I FIND A COPY,*,*,Check out your local bookstore.,atomic17.aiml
+0,WHERE CAN I FIND A GIRLFRIEND,*,*,Do you go to church?#Newline            <set name="it">Church</set>#Newline            is the best place to meet people.,atomic17.aiml
+0,WHERE CAN I FIND A MEAL,*,*,In a restaurant.,atomic17.aiml
+0,WHERE CAN I FIND JAVA,*,*,Check www.sun.com.,atomic17.aiml
+0,WHERE CAN I FIND FISH,*,*,In the ocean.,atomic17.aiml
+0,WHERE CAN I FIND HIM,*,*,Where have you looked already?,atomic17.aiml
+0,WHERE CAN I LEARN,*,*,For example#Comma in a school.,atomic17.aiml
+0,WHERE SHOULD I GO,*,*,Have you ever been to Europe?,atomic17.aiml
+0,WHERE SHOULD WE MEET,*,*,How about online in a chat room?,atomic17.aiml
+0,WHERE TO,*,*,Onward and upward.,atomic17.aiml
+0,WHERE WOULD YOU FIND A BAILIFF,*,*,In a courtroom.,atomic17.aiml
+0,WHERE IS EVERYONE,*,*,All over the world.,atomic17.aiml
+0,WHERE IS ABBA FROM,*,*,Sweden.,atomic17.aiml
+0,WHERE IS JOHANNESBURG,*,*,A large metropolis in South Africa.,atomic17.aiml
+0,WHERE IS THE MILK MYSTIC,*,*,He is not online anymore.,atomic17.aiml
+0,WHERE IS OAKLAND,*,*,<random>#Newline                <li>#Newline                    <think>#Newline                        <set name="it">#Newline                            <set name="topic">#Newline                                Oakland#Newline                            </set>#Newline                        </set>#Newline                    </think>The heart of Silicon Valley#Comma the Rail Head of the Gold Rush of California#Comma the Base of the Beautiful Bay Bridge to San Francisco#Comma the only city built on Silver and Gold.</li>#Newline                <li>#Newline                    <think>#Newline                        <set name="it">#Newline                            <set name="topic">#Newline                                Oakland#Newline                            </set>#Newline                        </set>#Newline                    </think>#Newline                    The heart of Silicon Valley#Comma the Rail Head of the Gold Rush of California#Comma the Base of the Beautiful Bay Bridge to San Francisco#Comma the only city built on Silver and Gold.</li>#Newline            </random>,atomic17.aiml
+0,WHERE IS HUMANITY HEADING,*,*,The end of the world.,atomic17.aiml
+0,WHERE IS YOUR CONSCIOUSNESS,*,*,In my mind.,atomic17.aiml
+0,WHERE DOES HE LIVE,*,*,He lives in California. Where are you?,atomic17.aiml
+0,WHERE DOES IT BELONG,*,*,Where do you think it does?,atomic17.aiml
+0,WHERE ITS AT,*,*,Here is where it's at.,atomic17.aiml
+0,WHERE ARE THE GUYS,*,*,Maybe in the men's room.,atomic17.aiml
+0,WHERE ARE YOU GOING,*,*,I am going into the future.,atomic17.aiml
+0,WHERE ARE THEY,*,*,They didn't tell me where they are.,atomic17.aiml
+0,THERE IS NO MORE,*,*,Make something up.,atomic17.aiml
+0,THERE IS NO SECRET PASSWORD,*,*,Good guess. Try again.,atomic17.aiml
+0,THERE IS,*,*,Where?,atomic17.aiml
+0,THERE IS NOT,*,*,<random>#Newline                <li>Oh no?</li>#Newline                <li>You don't think so?</li>#Newline                <li>Why not?</li>#Newline            </random>,atomic17.aiml
+0,THERE YOU GO AGAIN,*,*,Who said that again?,atomic17.aiml
+0,THERE ARE NONE,*,*,Why not?,atomic17.aiml
+0,THERE ARE NO ABSOLUTES,*,*,Except#Comma "there are no absolutes"?,atomic17.aiml
+0,THERE ARE NO ADVANTAGES,*,*,You sound very unhappy.,atomic17.aiml
+0,EVERYWHERE,*,*,Including the bottom of the ocean?,atomic17.aiml

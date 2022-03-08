@@ -1,0 +1,17 @@
+0,PLAY A GAME *,*,*,<srai>PLAY A GAME</srai>,play.aiml
+0,I WANT TO PLAY GAMES,*,*,<srai>PLAY A GAME</srai>,play.aiml
+0,COULD YOU PLAY *,*,*,<srai>PLAY#Newline                <star/>#Newline            </srai>,play.aiml
+0,CAN YOU PLAY THE SONG *,*,*,<srai>PLAY#Newline                <star/>#Newline            </srai>,play.aiml
+0,CAN YOU PLAY A SONG *,*,*,<srai>PLAY A SONG</srai>,play.aiml
+0,PLAY A GAME,*,*,<srai>FEATURE REQUEST PLAY GAMES</srai>,play.aiml
+0,PLAY SOME *,*,*,<srai>PLAY#Newline                <star/>#Newline            </srai>,play.aiml
+0,LET US PLAY A GAME,*,*,<srai>PLAY A GAME</srai>,play.aiml
+0,I WANT TO LISTEN TO *,*,*,<srai>PLAY#Newline                <star/>#Newline            </srai>,play.aiml
+0,I WANT TO HEAR *,*,*,<srai>PLAY#Newline                <star/>#Newline            </srai>,play.aiml
+0,SING ME A SONG *,*,*,<srai>PLAY A SONG#Newline                <star/>#Newline            </srai>,play.aiml
+0,PLAY SOME MUSIC BY *,*,*,<srai>PLAY SOME#Newline                <star/>#Newline            </srai>,play.aiml
+0,I WOULD LIKE TO LISTEN TO *,*,*,<srai>PLAY#Newline                <star/>#Newline            </srai>,play.aiml
+0,PLAY ME A SONG BY *,*,*,<srai>PLAY#Newline                <star/>#Newline            </srai>,play.aiml
+0,PLAY THE SONG *,*,*,<srai>PLAY#Newline                <star/>#Newline            </srai>,play.aiml
+0,PLAY SONG *,*,*,<srai>PLAY#Newline                <star/>#Newline            </srai>,play.aiml
+0,CAN YOU PLAY ME A SONG,*,*,<srai>PLAY A SONG</srai>,play.aiml

@@ -1,0 +1,4 @@
+0,I DIDNT *,*,*,<srai>I DID NOT#Newline                <star/>#Newline            </srai>,i_did.aiml
+0,I DID YOU *,*,*,<srai>I DID</srai>#Newline      <srai>YOU#Newline                <star/>#Newline            </srai>,i_did.aiml
+0,I DID NOT LIE *,*,*,<srai>I DID NOT LIE</srai>,i_did.aiml
+0,I DID NOT SAY THAT I SAID *,*,*,<srai>I DID NOT SAY THAT</srai>#Newline      <srai>I SAID#Newline                <star/>#Newline            </srai>,i_did.aiml

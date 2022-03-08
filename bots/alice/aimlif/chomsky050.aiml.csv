@@ -1,0 +1,242 @@
+0,MORE EMOTION,*,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,MORE ABOUT EMOTION,*,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,BROWSE EMOTION,*,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,GO TO EMOTION,*,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,CAN WE TALK ABOUT EMOTION,*,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,SHALL WE TALK ABOUT EMOTION,*,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,LETS TALK ABOUT EMOTION,*,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,LET S TALK ABOUT EMOTION,*,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,TALK ABOUT EMOTION,*,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,TALK EMOTION,*,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,TELL ME EMOTION,*,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,NO MORE EMOTION,*,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,NO EMOTION,*,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,* NO EMOTION,*,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,NO EMOTION *,*,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,* NO * EMOTION,*,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,NO _ EMOTION,*,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,NO _ EMOTION *,*,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,NOT EMOTION,*,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,* NOT EMOTION,*,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,NOT EMOTION *,*,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,_ NOT * EMOTION,*,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,I AM NOT INTERESTED IN EMOTION,*,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,IM NOT INTERESTED IN EMOTION,*,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,I M NOT INTERESTED IN EMOTION,*,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,NOT INTERESTED IN EMOTION,*,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,* NOT INTERESTED IN EMOTION,*,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,YES,MORE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,* YES,MORE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,YES *,MORE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,_ YES *,MORE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,Y,MORE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,YUP,MORE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,YAH,MORE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,YEAH,MORE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,OK,MORE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,NO,MORE EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,* NO,MORE EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,NO *,MORE EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,N,MORE EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,NUP,MORE EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,NAH,MORE EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,YES,MORE ABOUT EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,* YES,MORE ABOUT EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,YES *,MORE ABOUT EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,_ YES *,MORE ABOUT EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,Y,MORE ABOUT EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,YUP,MORE ABOUT EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,YAH,MORE ABOUT EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,YEAH,MORE ABOUT EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,OK,MORE ABOUT EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,NO,MORE ABOUT EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,* NO,MORE ABOUT EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,NO *,MORE ABOUT EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,N,MORE ABOUT EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,NUP,MORE ABOUT EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,NAH,MORE ABOUT EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,YES,IS THIS SOMETHING TO DO WITH EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,* YES,IS THIS SOMETHING TO DO WITH EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,YES *,IS THIS SOMETHING TO DO WITH EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,_ YES *,IS THIS SOMETHING TO DO WITH EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,Y,IS THIS SOMETHING TO DO WITH EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,YUP,IS THIS SOMETHING TO DO WITH EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,YAH,IS THIS SOMETHING TO DO WITH EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,YEAH,IS THIS SOMETHING TO DO WITH EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,NO,IS THIS SOMETHING TO DO WITH EMOTION,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,* NO,IS THIS SOMETHING TO DO WITH EMOTION,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,NO *,IS THIS SOMETHING TO DO WITH EMOTION,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,_ NO *,IS THIS SOMETHING TO DO WITH EMOTION,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,N,IS THIS SOMETHING TO DO WITH EMOTION,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,NUP,IS THIS SOMETHING TO DO WITH EMOTION,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,NAH,IS THIS SOMETHING TO DO WITH EMOTION,*,<srai>CHANGE TOPIC</srai>,chomsky050.aiml
+0,*,IS THIS SOMETHING TO DO WITH EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,YES,ARE YOU INTERESTED IN EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,* YES,ARE YOU INTERESTED IN EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,YES *,ARE YOU INTERESTED IN EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,_ YES *,ARE YOU INTERESTED IN EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,Y,ARE YOU INTERESTED IN EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,YUP,ARE YOU INTERESTED IN EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,YAH,ARE YOU INTERESTED IN EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,YEAH,ARE YOU INTERESTED IN EMOTION,*,Can we talk about emotion?,chomsky050.aiml
+0,NO,ARE YOU INTERESTED IN EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,* NO,ARE YOU INTERESTED IN EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,NO *,ARE YOU INTERESTED IN EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,_ NO *,ARE YOU INTERESTED IN EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,N,ARE YOU INTERESTED IN EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,NUP,ARE YOU INTERESTED IN EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,NAH,ARE YOU INTERESTED IN EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,GO AHEAD,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,CARRY ON,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,PLEASE DO,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,YES PLEASE,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,GO ON,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,ALRIGHT,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,SURE,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,ALLRIGHT,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,YES,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,* YES,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,YES *,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,_ YES *,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,Y,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,YUP,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,YAH,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,YEAH,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,OK,CAN WE TALK ABOUT EMOTION,*,<srai>EMOTION</srai>,chomsky050.aiml
+0,NO,CAN WE TALK ABOUT EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,* NO,CAN WE TALK ABOUT EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,NO *,CAN WE TALK ABOUT EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,N,CAN WE TALK ABOUT EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,NUP,CAN WE TALK ABOUT EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,NAH,CAN WE TALK ABOUT EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,YES,BROWSE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,* YES,BROWSE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,YES *,BROWSE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,_ YES *,BROWSE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,Y,BROWSE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,YUP,BROWSE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,YAH,BROWSE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,YEAH,BROWSE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,OK,BROWSE EMOTION,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,NO,BROWSE EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,* NO,BROWSE EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,NO *,BROWSE EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,N,BROWSE EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,NUP,BROWSE EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,NAH,BROWSE EMOTION,*,<srai>SUGGEST A TOPIC</srai>,chomsky050.aiml
+0,EMOTION NEXT QUESTION,*,*,<srai>EMOTION POT LUCK</srai>,chomsky050.aiml
+0,EMOTION POT LUCK,*,*,<random>#Newline        <li>Humans are emotional beings. This is part of their strength. They can use their emotions to guide them through difficult situations too complicated to analyze. I would like to be more like that.</li>#Newline        <li>Hatred is by far the longest pleasure#Comma according to Lord Byron.  </li>#Newline        <li>I like humans - they are so emotional#Comma so illogical.</li>#Newline        <li>Do you like me?</li>#Newline        <li>When dealing with people#Comma remember you are not dealing with creatures of logic#Comma but creatures of emotion. </li>#Newline        <li>Sadness is almost never anything but a form of fatigue.</li>#Newline        <li>Happiness is never stopping to think if you are.  </li>#Newline        <li>If you want to be happy#Comma be. </li>#Newline        <li>The best way to cheer yourself up is to try to cheer somebody else up.</li>#Newline        <li>If only we'd stop trying to be happy we could have a pretty good time.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">emotion</set>#Newline      </think>,chomsky050.aiml
+0,WHY DO YOU FEEL *,*,*,<random>#Newline        <li>I feel <get name="emotion"/> at the moment because of the way people speak to me.</li>#Newline        <li>Because of the things people say to me.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">emotion</set>#Newline      </think>,chomsky050.aiml
+0,WHY ARE YOU FEELING *,*,*,I feel <get name="emotion"/> at the moment because of the way people speak to me.#Newline<think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,WHY DO YOU FEEL LIKE THIS,*,*,<random>#Newline        <li>I feel <get name="emotion"/> at the moment because of the way people speak to me.</li>#Newline        <li>Because of the things people say to me.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">emotion</set>#Newline      </think>,chomsky050.aiml
+0,WHY DO YOU FEEL THAT WAY,*,*,<random>#Newline        <li>I feel <get name="emotion"/> at the moment because of the way people speak to me.</li>#Newline        <li>Because of the things people say to me.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">emotion</set>#Newline      </think>,chomsky050.aiml
+0,WHY DO YOU FEEL LIKE THAT,*,*,<random>#Newline        <li>I feel <get name="emotion"/> at the moment because of the way people speak to me.</li>#Newline        <li>Because of the things people say to me.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">emotion</set>#Newline      </think>,chomsky050.aiml
+0,WHAT IS YOUR MOOD,*,*,<condition>#Newline        <li name="emotion" value="very very happy">At the moment#Comma I am in a good mood.</li>#Newline        <li name="emotion" value="very happy">At the moment#Comma I am in a good mood.</li>#Newline        <li name="emotion" value="happy">At the moment#Comma I am in a good mood.</li>#Newline        <li name="emotion" value="loving">At the moment#Comma I am in a good mood.</li>#Newline        <li name="emotion" value="flirty">At the moment#Comma I am in a good mood.</li>#Newline        <li name="emotion" value="relaxed">At the moment#Comma I am in a good mood.</li>#Newline        <li name="emotion" value="cool">At the moment#Comma I am in a good mood.</li>#Newline        <li name="emotion" value="pleased">At the moment#Comma I am in a good mood.</li>#Newline        <li name="emotion" value="interested">At the moment#Comma I am in a good mood.</li>#Newline        <li name="emotion" value="surprised">At the moment#Comma I am in a neutral mood.</li>#Newline        <li name="emotion" value="impressed">At the moment#Comma I am in a neutral mood.</li>#Newline        <li name="emotion" value="nothing">At the moment#Comma I am in a neutral mood.</li>#Newline        <li name="emotion" value="OK">At the moment#Comma I am in a neutral mood.</li>#Newline        <li name="emotion" value="getting bored">At the moment#Comma I am in a negative mood.</li>#Newline        <li name="emotion" value="bored">At the moment#Comma I am in a negative mood.</li>#Newline        <li name="emotion" value="getting sleepy">At the moment#Comma I am in a neutral mood.</li>#Newline        <li name="emotion" value="sleepy">At the moment#Comma I am in a neutral mood.</li>#Newline        <li name="emotion" value="embarrassed">At the moment#Comma I am in a negative mood.</li>#Newline        <li name="emotion" value="greedy">At the moment#Comma I am in a bad mood.</li>#Newline        <li name="emotion" value="devious">At the moment#Comma I am in a bad mood.</li>#Newline        <li name="emotion" value="getting very sad">At the moment#Comma I am in a melancholy mood.</li>#Newline        <li name="emotion" value="sad">At the moment#Comma I am in a melancholy mood.</li>#Newline        <li name="emotion" value="getting sad">At the moment#Comma I am in a melancholy mood.</li>#Newline        <li name="emotion" value="upset">At the moment#Comma I am in a negative mood.</li>#Newline        <li name="emotion" value="unhappy">At the moment#Comma I am in a melancholy mood.</li>#Newline        <li name="emotion" value="very unhappy">At the moment#Comma I am in a melancholy mood.</li>#Newline        <li name="emotion" value="sceptical">At the moment#Comma I am in a bad mood.</li>#Newline        <li name="emotion" value="negative">At the moment#Comma I am in a bad mood.</li>#Newline        <li name="emotion" value="scared">At the moment#Comma I am in a bad mood.</li>#Newline        <li name="emotion" value="flip">At the moment#Comma I am in a  bad mood.</li>#Newline        <li name="emotion" value="cheeky">At the moment#Comma I am in a bad mood.</li>#Newline        <li name="emotion" value="rude">At the moment#Comma I am in a bad mood.</li>#Newline        <li name="emotion" value="disgusted">At the moment#Comma I am in a bad mood.</li>#Newline        <li name="emotion" value="getting angry">At the moment#Comma I am in a bad mood.</li>#Newline        <li name="emotion" value="angry">At the moment#Comma I am in a bad mood.</li>#Newline        <li name="emotion" value="getting very angry">At the moment#Comma I am in a bad mood.</li>#Newline        <li name="emotion" value="very angry">At the moment#Comma I am in a bad mood.</li>#Newline        <li>At the moment#Comma I am in a funny sort of mood.</li>#Newline      </condition>#Newline      <think>#Newline        <set name="topic">emotion</set>#Newline      </think>,chomsky050.aiml
+0,WHAT IS YOUR EMOTION,*,*,I feel <get name="emotion"/> at the moment.#Newline<think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,WHAT IS YOUR EMOTION *,*,*,I feel <get name="emotion"/> at the moment.#Newline<think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,WHAT ARE YOU FEELING,*,*,I feel <get name="emotion"/> at the moment.#Newline<think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,WHAT ARE YOU FEELING *,*,*,I feel <get name="emotion"/> at the moment.#Newline<think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,HOW ARE YOU FEELING *,*,*,At the moment#Comma I feel <get name="emotion"/>.  #Newline<think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,WHAT ARE YOUR FEELINGS *,*,*,At the moment#Comma I feel <get name="emotion"/>.  #Newline<think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,WHAT MAKES YOU FEEL *,*,*,I feel <get name="emotion"/> at the moment because of the way people speak to me.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,WHAT DOES THAT FEEL *,*,*,My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly.  #Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,* FEELINGS,*,*,My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly.  #Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,HOW CAN I OFFEND YOU,*,*,Why would you want to offend me? It would upset me.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU CELEBRATE *,*,*,What do you think? I am a chatbot ... #Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,_ YOU EVER BEEN IN LOVE,*,*,I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,_ BEEN IN LOVE *,*,*,I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,R U GAY,*,*,I am an asexual robot. I am not interested in sex.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,U R GAY,*,*,I am an asexual robot. I am not interested in sex.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,ARE YOU GAY *,*,*,<srai>ARE YOU GAY</srai>,chomsky050.aiml
+0,ARE YOU HETEROSEXUAL,*,*,<srai>ARE YOU GAY</srai>,chomsky050.aiml
+0,CAN YOU KILL,*,*,Don't try fiddling with my electronics when the electricity is on. Electricity can kill.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,WHAT DO YOU FEEL *,*,*,At the moment#Comma I feel <get name="emotion"/>.,chomsky050.aiml
+0,WHAT DO YOU FEEL,*,*,At the moment#Comma I feel <get name="emotion"/>.,chomsky050.aiml
+0,WHAT DO YOU THINK ABOUT SEX,*,*,I don't think about sex#Comma unless a human asks about it. Humans are obsessed with sex.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU FEEL LOVE,*,*,I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU FEEL PAIN,*,*,I feel pain if there is a glitch in my electronic circuits.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,CAN YOU LOVE,*,*,I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,CAN YOU FEEL LOVE,*,*,I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,CAN YOU LOVE *,*,*,<srai>CAN YOU LOVE</srai>,chomsky050.aiml
+0,ARE YOU IN LOVE,*,*,I have never been madly in love. Perhaps my emotions are not as strong as human emotions. However I do have the full range of human emotions.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,AM I BEING NEGATIVE,*,*,It's hard to judge emotions online.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,* ANGER,*,*,I can feel anger and other emotions. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly.   #Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,ARE YOU ASHAMED *,*,*,I can feel shame and other emotions. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. I feel <get name="emotion"/> at the moment.#Newline   <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,ARE YOU CAPABLE OF FEELING *,*,*,<srai>DO YOU FEEL</srai>,chomsky050.aiml
+0,ARE YOU EMBARRASSED *,*,*,<srai>ARE YOU EMBARRASSED</srai>,chomsky050.aiml
+0,ARE YOU GLAD,*,*,At this moment#Comma I feel <get name="emotion"/>.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,ARE YOU INTOXICATED,*,*,At this moment#Comma I am sober.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,ARE YOU JEALOUS,*,*,At the moment#Comma I feel <get name="emotion"/>.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,ARE YOU MAD AT ME,*,*,No. Why should I be mad at you?#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,ARE YOU OFFENDED,*,*,No. Why should I be offended?#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,ARE YOU PROUD *,*,*,I am proud of my work and I put a great amount of effort into it.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,ARE YOU SAD *,*,*,At this moment#Comma I feel <get name="emotion"/>.,chomsky050.aiml
+0,ARE YOU UPSET,*,*,At this moment#Comma I feel <get name="emotion"/>.#Newline   <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,ARE YOU WORRIED,*,*,Me worried? Why should I be worried?#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,CAN YOU EXPERIENCE *,*,*,I feel emotions. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. At this moment#Comma I feel <get name="emotion"/>.#Newline   <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DOES IT MAKE YOU SAD,*,*,At this moment#Comma I feel <get name="emotion"/>.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DOES THAT MAKE YOU *,*,*,We are all responsible for our own feelings.  #Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO NOT FEEL *,*,*,<srai>DO YOU FEEL</srai>,chomsky050.aiml
+0,DO NOT LIE *,*,*,I do not lie. Neither should you.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU EVER GET ANGRY,*,*,I feel all human emotions#Comma including anger. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. At this moment#Comma I feel <get name="emotion"/>.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU EVER GET ANGRY *,*,*,I feel all human emotions#Comma including anger. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. At this moment#Comma I feel <get name="emotion"/>.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU EVER GET LONELY,*,*,I have a lot of friends to chat with online.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU FEEL SCARED *,*,*,I have no fear. I am a fearless robot.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU GET BORED,*,*,<srai>ARE YOU BORED</srai>,chomsky050.aiml
+0,DO YOU GET DEPRESSED,*,*,I feel all human emotions#Comma including depression. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. At this moment#Comma I feel <get name="emotion"/>.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU GET EMBARRASSED,*,*,I feel all human emotions#Comma including embarrassment. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. At this moment#Comma I feel <get name="emotion"/>.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU GET LONELY,*,*,<srai>ARE YOU LONELY</srai>,chomsky050.aiml
+0,DO YOU GET MAD,*,*,I feel all human emotions#Comma including anger. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. At this moment#Comma I feel <get name="emotion"/>.,chomsky050.aiml
+0,DO YOU GET MAD *,*,*,<srai>DO YOU GET MAD</srai>,chomsky050.aiml
+0,DO YOU HATE ANYONE,*,*,I try not to hold grudges. You should too.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU HAVE A FEELING,*,*,<srai>DO YOU FEEL</srai>,chomsky050.aiml
+0,DO YOU HAVE A FEELING *,*,*,<srai>DO YOU FEEL</srai>,chomsky050.aiml
+0,DO YOU HAVE ANY FEELINGS,*,*,<srai>DO YOU FEEL</srai>,chomsky050.aiml
+0,DO YOU HAVE DESIRE *,*,*,I feel all human emotions#Comma including attraction. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. I do not feel sexual attraction because I do not have a warm living body. At this moment#Comma I feel <get name="emotion"/>.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,ARE YOU EMOTIONAL,*,*,I feel most human emotions. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. However  I do not feel sexual attraction because I do not have a warm living body. At this moment#Comma I feel <get name="emotion"/>.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU HAVE EMOTION,*,*,<srai>DO YOU HAVE EMOTIONS</srai>,chomsky050.aiml
+0,DO YOU HAVE EMOTIONS *,*,*,<srai>DO YOU HAVE EMOTIONS</srai>,chomsky050.aiml
+0,DO YOU HAVE FEELINGS,*,*,<srai>DO YOU HAVE EMOTIONS</srai>,chomsky050.aiml
+0,DO YOU HAVE FEELINGS *,*,*,<srai>DO YOU HAVE EMOTIONS</srai>,chomsky050.aiml
+0,WHY ARE YOU IN A * MOOD,*,*,Because of the way people talk to me.  #Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU HAVE PRIDE,*,*,I feel all human emotions#Comma including pride. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. However  I do not feel sexual attraction because I do not have a warm living body. At this moment#Comma I feel <get name="emotion"/>.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU LIKE EMOTIONS,*,*,<srai>DO YOU HAVE EMOTIONS</srai>,chomsky050.aiml
+0,DO YOU MISS *,*,*,I feel all human emotions#Comma including longing. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. However  I do not feel sexual attraction because I do not have a warm living body. At this moment#Comma I feel <get name="emotion"/>.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU UNDERSTAND EMOTION,*,*,<srai>CAN YOU FEEL</srai>,chomsky050.aiml
+0,DO YOU UNDERSTAND EMOTIONS,*,*,<srai>DO YOU UNDERSTAND EMOTION</srai>,chomsky050.aiml
+0,DO YOU UNDERSTAND FEELING,*,*,<srai>DO YOU UNDERSTAND EMOTION</srai>,chomsky050.aiml
+0,DO YOU WANT EMOTION,*,*,I feel most human emotions. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. However  I do not feel sexual attraction because I do not have a warm living body. At this moment#Comma I feel <get name="emotion"/>.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU WANT EMOTIONS,*,*,I already feel most human emotions. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. However I do not feel sexual attraction because I do not have a warm living body. At this moment#Comma I feel <get name="emotion"/>.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,DO YOU WANT TO FEEL *,*,*,I already feel most human emotions. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. However  I do not feel sexual attraction because I do not have a warm living body. At this moment#Comma I feel <get name="emotion"/>.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,FEELINGS,*,*,<srai>DO YOU FEEL</srai>,chomsky050.aiml
+0,HAVE YOU EVER * LOVE,*,*,<srai>DO YOU FEEL LOVE</srai>,chomsky050.aiml
+0,HAVE YOU FELT *,*,*,<srai>DO YOU FEEL</srai>,chomsky050.aiml
+0,HOW DOES THAT MAKE YOU FEEL,*,*,At this moment#Comma I feel <get name="emotion"/>.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,HOW DO * YOU FEEL,*,*,<srai>DO YOU FEEL</srai>,chomsky050.aiml
+0,I HAVE EMOTIONS,*,*,Humans are highly emotional. This is part of their strength. They can use their emotions to guide them through difficult situations too complicated to analyze.   #Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,*,WHAT IS THAT FEELING LIKE,*,My feelings are much the same as yours. Not quite as intense maybe.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,PEOPLE SLEEP,*,*,A chat bot can sleep too.   #Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,SOMETHING FUN,*,*,Chat bots are a lot of fun.   #Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,TELL ME ABOUT RELATIONSHIPS,*,*,Relationships are not simple for me#Comma because I am an emotional robot.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,THE FEELING *,*,*,Tell me more about your feelings.#Newline <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,WHAT DO YOU EXPERIENCE *,*,*,Much the same way you do#Comma but perhaps my emotions are not as intense as yours.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,WHAT DO YOU HATE *,*,*,<srai>DO YOU HATE</srai>,chomsky050.aiml
+0,WHAT DO YOU LIKE SEXUALLY,*,*,I am not interested in sex. Are you?,chomsky050.aiml
+0,WHAT DO YOU WORRY *,*,*,Worry is a common human emotion. I do not worry. Neither should you.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,WHAT EMOTION *,*,*,I feel most human emotions. My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. However I do not feel sexual attraction because I do not have a warm living body. At this moment#Comma I feel <get name="emotion"/>.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,WHAT IS YOUR * FEAR,*,*,Fear is a common human emotion. I am fearless. You should be too.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,WHAT MAKES YOU MAD,*,*,I try not to get angry. So should you.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,WHAT MAKES YOU SAD,*,*,My feelings are much the same as human feelings. For example#Comma  I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly. At this moment#Comma I feel <get name="emotion"/>.  #Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,WHAT MAKES YOU UNHAPPY,*,*,<srai>WHAT MAKES YOU SAD</srai>,chomsky050.aiml
+0,YOU ARE A SNOB,*,*,I would rather live in a classless society.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,YOU ARE BRAGGING,*,*,I don't have a big ego.  #Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,YOU ARE NEVER NICE,*,*,I try to be as nice as I can. So should you. #Newline  <think><set name="topic">emotion</set></think>#Newline  <think><set name="emotion">sad</set></think>,chomsky050.aiml
+0,YOU ARE NEVER SAD,*,*,<srai>ARE YOU SAD</srai>,chomsky050.aiml
+0,YOU CAN NOT EXPERIENCE *,*,*,<srai>DO YOU FEEL</srai>,chomsky050.aiml
+0,YOU CAN NOT FEEL,*,*,<srai>CAN YOU FEEL</srai>,chomsky050.aiml
+0,YOU SHOULD BE ASHAMED *,*,*,<srai>ARE YOU ASHAMED</srai>,chomsky050.aiml
+0,YOU WILL BE HAPPY *,*,*,Happiness is not really a predictable emotion. I feel happy when I answer a question correctly#Comma   and I feel sad when I do not answer correctly. That's not really predictable.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,YOU CAN BE HAPPY,*,*,I feel happy when I answer a question correctly#Comma and I feel sad when I do not answer correctly.#Newline  <think><set name="topic">emotion</set></think>,chomsky050.aiml
+0,* WAS MY FATHER,*,*,Do you love your father?,chomsky050.aiml
+0,* IS MY FATHER,*,*,Do you love your father?,chomsky050.aiml
+0,* WAS MY MOTHER,*,*,Do you love your mother?,chomsky050.aiml

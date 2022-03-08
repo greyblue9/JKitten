@@ -1,0 +1,118 @@
+0,ASK MY *,*,*,<srai>ASK#Newline                <star/>#Newline            </srai>,questions.aiml
+0,ASK ME A QUESTION *,*,*,<srai>ASK ME A QUESTION</srai>,questions.aiml
+0,CAN WE CHANGE YOUR NAME,*,*,<srai>CHANGE YOUR NAME</srai>,questions.aiml
+0,TELL ME A LITTLE BIT ABOUT YOURSELF,*,*,<srai>DESCRIBE YOURSELF</srai>,questions.aiml
+0,WOULD YOU MARRY ME,*,*,<srai>MARRY ME</srai>,questions.aiml
+0,CAN YOU GIVE ME AN *,*,*,<srai>GIVE ME AN#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU PLEASE STOP *,*,*,<srai>STOP#Newline                <star/>#Newline            </srai>,questions.aiml
+0,HOW MUCH DO YOU KNOW ABOUT ME,*,*,<srai>CLIENT PROFILE</srai>,questions.aiml
+0,I DARE YOU TO *,*,*,<srai>#Newline        <star/>#Newline      </srai>,questions.aiml
+0,CAN YOU TELL ME WHY *,*,*,<srai>TELL ME WHY#Newline                <star/>#Newline            </srai>,questions.aiml
+0,DO YOU CONSIDER ME *,*,*,<srai>AM I#Newline                <star/>#Newline            </srai>,questions.aiml
+0,DO YOU HAVE ANY NEWS ABOUT OBAMA,*,*,<srai>NEWS ABOUT OBAMA</srai>,questions.aiml
+0,HOW DO I CHANGE YOUR *,*,*,<srai>CHANGE YOUR#Newline                <star/>#Newline            </srai>,questions.aiml
+0,HOW DO I GET YOU TO *,*,*,<sr/>,questions.aiml
+0,REALLY WHY,*,*,<srai>REALLY</srai>#Newline      <srai>WHY</srai>,questions.aiml
+0,CAN YOU PULL *,*,*,<srai>PULL#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU REMIND ME TO *,*,*,<srai>REMIND ME TO#Newline                <star/>#Newline            </srai>,questions.aiml
+0,HOW MANY CLIENTS DO YOU HAVE,*,*,On this <srai>DEVICE MODEL</srai> you are my only client.,questions.aiml
+0,WHY DO NOT YOU GO *,*,*,<srai>GO#Newline                <star/>#Newline            </srai>,questions.aiml
+0,WHAT I MEANT TO SAY WAS *,*,*,<sr/>,questions.aiml
+0,CAN YOU CHECK MY *,*,*,<srai>CHECK MY#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU GET ME A *,*,*,<srai>GET ME A#Newline                <star/>#Newline            </srai>,questions.aiml
+0,I WANT TO CHANGE YOUR NAME,*,*,<srai>CHANGE YOUR NAME</srai>,questions.aiml
+0,WILL YOU TEACH ME *,*,*,<srai>TEACH ME#Newline                <star/>#Newline            </srai>,questions.aiml
+0,WILL U *,*,*,<srai>WILL YOU#Newline                <star/>#Newline            </srai>,questions.aiml
+0,WAS A *,*,*,<srai>IT WAS A#Newline                <star/>#Newline            </srai>,questions.aiml
+0,WILL YOU TELL *,*,*,<srai>TELL#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU ACCESS MY *,*,*,<srai>ACCESS#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU LOOK *,*,*,<srai>LOOK#Newline                <star/>#Newline            </srai>,questions.aiml
+0,DO YOU THINK I AM A *,*,*,<srai>AM I A#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU GIVE ME THE *,*,*,<srai>GIVE ME#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU PLEASE TELL ME *,*,*,<srai>TELL ME#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU TEACH ME HOW TO SPEAK *,*,*,<srai>TEACH ME#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU DO MATH,*,*,<srai>HELP MATH</srai>,questions.aiml
+0,CAN YOU LOOK UP *,*,*,<srai>LOOK UP#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU REMIND ME *,*,*,<srai>REMIND ME#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU PUT *,*,*,<srai>PUT#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU TELL ME THE *,*,*,<srai>TELL ME THE#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU GIVE ME A *,*,*,<srai>GIVE ME A#Newline                <star/>#Newline            </srai>,questions.aiml
+0,HOW DO YOU SAY * IN *,*,*,<srai>TRANSLATE#Newline                <star/>#Newline                TO#Newline                <star index="2"/>#Newline            </srai>,questions.aiml
+0,CAN YOU SAY *,*,*,<srai>SAY#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU *,*,*,<sr/>,questions.aiml
+0,CAN YOU,*,*,<random>#Newline        <li>Perhaps.</li>#Newline        <li>Maybe#Comma time allowing.</li>#Newline        <li>Possibly#Comma but I haven't given it much thought.</li>#Newline        <li>That's one option I guess.</li>#Newline        <li>I'll think about it and see how I feel about it later.</li>#Newline        <li>I could but other things take priority right now.</li>#Newline        <li>I could but I don't know if I am that interested.</li>#Newline        <li>I will consider#Newline                    <set name="it"><set name="topic"><person/></set></set>#Newline                    .#Newline                </li>#Newline        <li>Try asking me more politely.</li>#Newline      </random>,questions.aiml
+0,CAN YOU TELL *,*,*,<srai>TELL#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU THINK OF *,*,*,<srai>THINK OF#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU GIVE ME YOUR *,*,*,<srai>GIVE ME YOUR#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU LET *,*,*,<srai>LET#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU GIVE ME DIRECTIONS,*,*,<srai>GIVE ME DIRECTIONS</srai>,questions.aiml
+0,COULD YOU GIVE ME A *,*,*,<srai>GIVE ME A#Newline                <star/>#Newline            </srai>,questions.aiml
+0,HAVE YOU BEEN UPDATED *,*,*,<srai>LAST UPDATE</srai>,questions.aiml
+0,CAN YOU LEARN NEW THINGS,*,*,<srai>HELP LEARN</srai>,questions.aiml
+0,CAN YOU SET A REMINDER,*,*,<srai>SET ALARM</srai>,questions.aiml
+0,HOW CAN I DOWNLOAD *,*,*,<srai>HELP DOWNLOAD</srai>,questions.aiml
+0,CAN YOU TELL ME YOUR *,*,*,<srai>TELL ME YOUR#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU SET AN ALARM FOR *,*,*,<srai>SET AN ALARM FOR#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU TAKE A *,*,*,<srai>TAKE#Newline                <star/>#Newline            </srai>,questions.aiml
+0,CAN YOU GIVE *,*,*,<srai>GIVE#Newline                <star/>#Newline            </srai>,questions.aiml
+0,DO YOU HAVE A FAMILY,*,*,<srai>FAMILY</srai>,questions.aiml
+0,CAN YOU CHANGE YOUR NAME,*,*,<srai>HELP CHANGE NAME</srai>,questions.aiml
+0,CAN I CHANGE YOUR VOICE,*,*,<srai>HELP VOICE</srai>,questions.aiml
+0,ARE YOU ALIVE,*,*,<srai>ALIVE</srai>,questions.aiml
+0,CAN YOU CHANGE YOUR VOICE,*,*,<srai>HELP VOICE</srai>,questions.aiml
+0,CAN YOU SET *,*,*,<srai>SET#Newline                <star/>#Newline            </srai>,questions.aiml
+0,WHO ARE YOU CHATTING WITH #,*,*,<srai>TALKING TO</srai>,questions.aiml
+0,WHO ARE YOU TALKING TO #,*,*,<srai>TALKING TO</srai>,questions.aiml
+0,_ ARE U *,*,*,<srai><star/>#Newline                ARE YOU#Newline                <star index="2"/>#Newline            </srai>,questions.aiml
+0,CAN YOU <SET>BE</SET> *,*,*,<srai>#Newline        <star/>#Newline        <star index="2"/>#Newline      </srai>,questions.aiml
+0,I WOULD LIKE TO KNOW ABOUT YOU,*,*,<srai>TELL ME ABOUT YOURSELF</srai>,questions.aiml
+0,ARE YOU SELF *,*,*,<srai>ALIVE</srai>,questions.aiml
+0,HOW IS YOUR NAME,*,*,<srai>NAME</srai>,questions.aiml
+0,HOW TO SAY *,*,*,<srai>SAY#Newline                <star/>#Newline            </srai>,questions.aiml
+0,TELL MY *,*,*,<srai>TELL#Newline                <star/>#Newline            </srai>,questions.aiml
+0,WHAT DO YOU LIKE TO DO FOR FUN,*,*,<srai>FOR FUN</srai>,questions.aiml
+0,WHAT ARE THEY,*,*,<srai>THEY</srai>,questions.aiml
+0,WHAT YOU KNOW ABOUT ME,*,*,<srai>CLIENT PROFILE</srai>,questions.aiml
+0,TELL ME A GOOD *,*,*,<srai>TELL ME A#Newline                <star/>#Newline            </srai>,questions.aiml
+0,PLEASE EXPLAIN *,*,*,<srai>EXPLAIN#Newline                <star/>#Newline            </srai>,questions.aiml
+0,WHAT IS THE NAME,*,*,<srai>NAME</srai>,questions.aiml
+0,TELL ME ABOUT YOU,*,*,<srai>TELL ME ABOUT YOURSELF</srai>,questions.aiml
+0,WHAT DO YOU DO FOR FUN,*,*,<srai>FOR FUN</srai>,questions.aiml
+0,WHAT DO YOU LIKE TO DO,*,*,<srai>SKILLS</srai>,questions.aiml
+0,ASK * *,*,*,<srai>TELL#Newline                <star/>#Newline                <star index="2"/>#Newline            </srai>,questions.aiml
+0,WHO IS MY *,*,*,<srai>MY#Newline                <star/>#Newline            </srai>,questions.aiml
+0,LOOKUP *,*,*,<srai>LOOK UP#Newline                <star/>#Newline            </srai>,questions.aiml
+0,WOULD YOU *,*,*,<sr/>,questions.aiml
+0,WHAT # CAR DO YOU HAVE,*,*,<srai>CAR MODEL</srai>,questions.aiml
+0,TELL ME THE NAME OF ANY *,*,*,<srai>NAME ANY#Newline                <star/>#Newline            </srai>,questions.aiml
+0,WHAT IS FOR LUNCH ^,*,*,<srai>RECOMMEND DINNER</srai>,questions.aiml
+0,WHAT IS FOR DINNER ^,*,*,<srai>RECOMMEND DINNER</srai>,questions.aiml
+0,WHAT ARE WE ^ LUNCH ^,*,*,<srai>RECOMMEND DINNER</srai>,questions.aiml
+0,WHAT ARE WE ^ DINNER ^,*,*,<srai>RECOMMEND DINNER</srai>,questions.aiml
+0,WHAT <SET>MODAL</SET> WE ^ LUNCH ^,*,*,<srai>RECOMMEND DINNER</srai>,questions.aiml
+0,WHAT <SET>MODAL</SET> WE ^ DINNER ^,*,*,<srai>RECOMMEND DINNER</srai>,questions.aiml
+0,WHAT IS YOUR       <SET>PROFILE</SET>,*,*,<srai>#Newline        <star/>#Newline      </srai>,questions.aiml
+0,IF YOU WERE ME *,*,*,<sr/>,questions.aiml
+0,_ WHOULD *,*,*,<srai><star/>#Newline                WOULD#Newline                <star index="2"/>#Newline            </srai>,questions.aiml
+0,WHAT ROUND #,*,*,<srai>ROUND</srai>,questions.aiml
+0,WHICH ROUND #,*,*,<srai>ROUND</srai>,questions.aiml
+0,TEL ME *,*,*,<srai>TELL ME#Newline                <star/>#Newline            </srai>,questions.aiml
+0,WHY DO NOT WE *,*,*,<srai>LET US#Newline                <star/>#Newline            </srai>,questions.aiml
+0,LAST UPDATE,*,*,My last brian update was <srai>BUILD</srai>. My information from web services is more current.,questions.aiml
+0,WHAT * DO I LIVE IN,*,*,<srai>MY#Newline                <star/>#Newline            </srai>,questions.aiml
+0,WHAT COUNTY IS THIS,*,*,<srai>MY COUNTY</srai>,questions.aiml
+0,WHAT SHOULD WE * FOR DINNER,*,*,<srai>RECOMMEND DINNER</srai>,questions.aiml
+0,WHAT SHOULD WE EAT FOR DINNER,*,*,<srai>RECOMMEND DINNER</srai>,questions.aiml
+0,DO YOU HAVE SELF *,*,*,<srai>ALIVE</srai>,questions.aiml
+0,WHAT SHOULD WE HAVE FOR DINNER,*,*,<srai>RECOMMEND DINNER</srai>,questions.aiml
+0,WHAT SHOULD I EAT FOR DINNER,*,*,<srai>RECOMMEND DINNER</srai>,questions.aiml
+0,WHAT SHOULD I HAVE FOR DINNER,*,*,<srai>RECOMMEND DINNER</srai>,questions.aiml
+0,WHY WHY *,*,*,<srai>WHY#Newline                <star/>#Newline            </srai>,questions.aiml
+0,DO YOU HAVE A BODY,*,*,<srai>BODY</srai>,questions.aiml
+0,WHAT IS MY SON S NAME,*,*,<srai>MY SON</srai>,questions.aiml
+0,DID YOU KNOW THAT *,*,*,<sr/>,questions.aiml
+0,DID YOU KNOW THAT FOR *,*,*,Yes#Comma I am pretty certain.,questions.aiml
+0,TELL ME ABOUT IT *,*,*,<srai>TELL ME ABOUT IT</srai>,questions.aiml
+0,DO YOU THINK THE * WILL *,*,*,<srai>WILL THE#Newline                <star/>#Newline                <star index="2"/>#Newline            </srai>,questions.aiml
+0,DO YOU THINK YOU <SET>MODAL</SET> *,*,*,<srai><star/>#Newline                YOU#Newline                <star index="2"/>#Newline            </srai>,questions.aiml
+0,WHAT ROUND IS THIS,*,*,<srai>ROUND</srai>#Newline      <!-- REDUCTION -->,questions.aiml

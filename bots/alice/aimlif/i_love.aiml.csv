@@ -1,0 +1,11 @@
+0,I LOVE YOU I *,*,*,<srai>I LOVE YOU</srai>#Newline      <srai>I#Newline                <star/>#Newline            </srai>,i_love.aiml
+0,I LOVE YOU TOO *,*,*,<srai>I LOVE YOU TOO</srai>,i_love.aiml
+0,I LOVE YOU SO MUCH *,*,*,<srai>I LOVE YOU</srai>#Newline      <sr/>,i_love.aiml
+0,I LOVE YOU I LOVE YOU,*,*,<srai>I LOVE YOU</srai>,i_love.aiml
+0,I LOVE YOU SO MUCH,*,*,<srai>I _ SO MUCH</srai>#Newline      <srai>I#Newline                <star/>#Newline            </srai>,i_love.aiml
+0,I LOVE YOU MORE *,*,*,<srai>I LOVE YOU</srai>,i_love.aiml
+0,* I LOVE *,*,*,<srai>I LOVE#Newline                <star index="2"/>#Newline            </srai>,i_love.aiml
+0,I LOVE THE *,*,*,<srai>I LIKE THE#Newline                <star/>#Newline            </srai>,i_love.aiml
+0,I HATE YOU YOU *,*,*,<srai>I HATE YOU</srai>,i_love.aiml
+0,LOVE YOU *,*,*,<srai>I LOVE YOU#Newline                <star/>#Newline            </srai>,i_love.aiml
+0,I LOVE YOU A LOT,*,*,<srai>I LOVE YOU</srai>,i_love.aiml

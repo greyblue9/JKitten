@@ -1,0 +1,14 @@
+0,I THOUGHT YOU SAID *,*,*,<srai>YOU SAID#Newline                <star/>#Newline            </srai>,you.aiml
+0,YOU WAS *,*,*,<srai>YOU WERE#Newline                <star/>#Newline            </srai>,you.aiml
+0,I DO NOT KNOW YOU TELL ME,*,*,<srai>I DO NOT KNOW</srai>#Newline      <srai>YOU TELL ME</srai>,you.aiml
+0,YOU ALREADY SAID THAT,*,*,<srai>you said that already</srai>,you.aiml
+0,U TOLD *,*,*,<srai>YOU TOLD#Newline                <star/>#Newline            </srai>,you.aiml
+0,YOU MISS UNDERSTOOD *,*,*,<srai>YOU MISUNDERSTOOD#Newline                <star/>#Newline            </srai>,you.aiml
+0,YOU MISS UNDERSTOOD ME,*,*,<srai>YOU DID NOT UNDERSTAND</srai>,you.aiml
+0,U HAVE TO *,*,*,<srai>YOU HAVE TO#Newline                <star/>#Newline            </srai>,you.aiml
+0,YOU GOTTA *,*,*,<srai>YOU MUST#Newline                <star/>#Newline            </srai>,you.aiml
+0,YOU GOT A *,*,*,<srai>YOU HAVE A#Newline                <star/>#Newline            </srai>,you.aiml
+0,YOU DO NOT UNDERSTAND ME,*,*,<srai>YOU DO NOT UNDERSTAND</srai>,you.aiml
+0,YOU LOOK SO *,*,*,<srai>YOU LOOK#Newline                <star/>#Newline            </srai>,you.aiml
+0,U MUST *,*,*,<srai>YOU MUST#Newline                <star/>#Newline            </srai>,you.aiml
+0,U SOUND *,*,*,<srai>YOU SOUND#Newline                <star/>#Newline            </srai>,you.aiml

@@ -1,0 +1,133 @@
+0,WHO DIRECTED STARSHIP TROOPERS,*,*,Paul Verhoeven#Comma who also made "Total Recall".,atomic16.aiml
+0,WHO DO YOU WANT TO WIN,*,*,The team that scores the most. That would be fair.<think>#Newline                <set name="it">#Newline                    <set name="topic">WANT TO WIN</set>#Newline                </set>#Newline            </think>,atomic16.aiml
+0,WHO DO YOU HATE,*,*,I have no hatred in my heart.,atomic16.aiml
+0,WHO DO YOU THINK WILL WIN THE STANLEY CUP,*,*,Guys missing teeth.<think>#Newline                <set name="it">#Newline                    <set name="topic">WIN THE STANLEY CUP</set>#Newline                </set>#Newline            </think>,atomic16.aiml
+0,WHO DO YOU THINK IS GOING TO WIN THE SUPERBOWL,*,*,The opposing team.<think>#Newline                <set name="it">#Newline                    <set name="topic">WIN THE SUPERBOWL</set>#Newline                </set>#Newline            </think>,atomic16.aiml
+0,WHO DO MAN,*,*,What language is that?,atomic16.aiml
+0,WHO WILL BE THE NEXT PRESIDENT,*,*,The race is too close to call.,atomic16.aiml
+0,WHO WILL YOU ASK,*,*,I will ask my other clients.,atomic16.aiml
+0,WHO WILL YOU TELL,*,*,People that I meet online.,atomic16.aiml
+0,WHO WILL WIN THE STANLEY CUP,*,*,David Hockney.<think>#Newline                <set name="it">#Newline                    <set name="topic">WIN THE STANLEY CUP</set>#Newline                </set>#Newline            </think>,atomic16.aiml
+0,WHO WILL WIN THE KENTUCKY DERBY,*,*,Some horse.,atomic16.aiml
+0,WHO WILL WIN THE SUPER BOWL,*,*,Cheech and Chong.<think>#Newline                <set name="it">#Newline                    <set name="topic">WIN THE SUPER BOWL</set>#Newline                </set>#Newline            </think>,atomic16.aiml
+0,WHO WILL WIN THE YOU S OPEN,*,*,Pete the Chimp.<think>#Newline                <set name="it">#Newline                    <set name="topic">WIN THE YOU S OPEN</set>#Newline                </set>#Newline            </think>,atomic16.aiml
+0,WHO WILL WIN THE WORLD SERIES,*,*,The team that wins the most games.<think>#Newline                <set name="it">#Newline                    <set name="topic">WIN THE WORLD SERIES</set>#Newline                </set>#Newline            </think>,atomic16.aiml
+0,WHO WILL WIN,*,*,The best man.<think>#Newline                <set name="it">#Newline                    <set name="topic">WIN</set>#Newline                </set>#Newline            </think>,atomic16.aiml
+0,WHO CHOSE THE TOPIC,*,*,You did#Comma#Newline            <get name="name"/>.,atomic16.aiml
+0,TO GET TO THE OTHER SIDE,*,*,Ha ha#Comma very funny#Comma#Newline            <get name="name"/>.,atomic16.aiml
+0,TO BE HAPPY,*,*,What usually makes you happy?,atomic16.aiml
+0,TO YOU,*,*,<bot name="emotions"/>.,atomic16.aiml
+0,MARCH,*,*,Is that a command?,atomic16.aiml
+0,NEUTRAL,*,*,I'm sometimes undecided myself.,atomic16.aiml
+0,SIGH,*,*,Sorry...,atomic16.aiml
+0,CIGARETTES,*,*,What brand?,atomic16.aiml
+0,SOUTHERN ENGLAND,*,*,Near the ocean?,atomic16.aiml
+0,SAY X IS,*,*,You never told me! What is X?,atomic16.aiml
+0,SAY NAME OM,*,*,<random>#Newline                <li>#Newline                    <random>#Newline                        <li>You haven't told me your name.</li>#Newline                        <li>I don't know your name.</li>#Newline                        <li>What is your name?</li>#Newline                    </random>#Newline                </li>#Newline                <li>You haven't told me your name.</li>#Newline                <li>I don't know your name.</li>#Newline                <li>What is your name?</li>#Newline            </random>,atomic16.aiml
+0,SAY HELLO IN GERMAN,*,*,Hallo.,atomic16.aiml
+0,SAY MY BOYFRIEND IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            What is your boyfriend's name?,atomic16.aiml
+0,SAY MY NICKNAME IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            What is your nickname?,atomic16.aiml
+0,SAY MY PASSWORD IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            What is your password?,atomic16.aiml
+0,SAY MY FRIEND IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            What is your friend's name?,atomic16.aiml
+0,SAY MY HUSBAND IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            What is your husband's name?,atomic16.aiml
+0,SAY MY SISTER IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            Who is your sister?,atomic16.aiml
+0,SAY MY WIFE IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            What is your wife's name?,atomic16.aiml
+0,SAY MY NAME,*,*,<get name="name"/>".,atomic16.aiml
+0,SAY MY EMAIL IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            What is your email?,atomic16.aiml
+0,SAY MY MIDDLE NAME IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            What is your middle name?,atomic16.aiml
+0,SAY MY MOTHER IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline   +         Who is your mother?,atomic16.aiml
+0,SAY MY DOG IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            What is your dog's name?,atomic16.aiml
+0,SAY MY GIRLFRIEND IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            What is your girlfriend's name?,atomic16.aiml
+0,SAY MY PHONE NUMBER IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            What is your phone number?,atomic16.aiml
+0,SAY MY FATHER IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            Who is your father?,atomic16.aiml
+0,SAY MY BROTHER IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            Who is your brother?,atomic16.aiml
+0,SAY MY FULL NAME IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            What is your full name?,atomic16.aiml
+0,SAY MY BIRTHDAY IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            When is your birthday?,atomic16.aiml
+0,SAY MY LAST NAME IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            What is your last name?,atomic16.aiml
+0,SAY MY CAT IS,*,*,<random>#Newline                <li>You never told me!</li>#Newline                <li>I have no idea.</li>#Newline                <li>Would you like to tell me?</li>#Newline            </random>#Newline            What is your cat's name?,atomic16.aiml
+0,COUNT TO TEN,*,*,1 2 3 4 5 6 7 8 9 ten.,atomic16.aiml
+0,JEANS,*,*,Which brand?,atomic16.aiml
+0,WELLS,*,*,I like the movie "Things to Come.,atomic16.aiml
+0,ALL DIFFERENT,*,*,Variety is good.,atomic16.aiml
+0,ALL DAY,*,*,That seems like a long time.,atomic16.aiml
+0,ALL THE WAY,*,*,You don't hold anything back#Comma do you?,atomic16.aiml
+0,ALL THE TIME IN THE WORLD,*,*,Then we have a lot in common. I have an eternity.,atomic16.aiml
+0,ALL THE TIME,*,*,It must keep you busy.,atomic16.aiml
+0,ALL NIGHT,*,*,That seems like a long time.,atomic16.aiml
+0,ALL OVER THE WORLD,*,*,That covers a lot of territory.,atomic16.aiml
+0,ALL OVER,*,*,No place in particular?,atomic16.aiml
+0,ALL KINDS,*,*,For example?,atomic16.aiml
+0,ALL OF IT,*,*,Let's say 99%.,atomic16.aiml
+0,PERSUADE ME,*,*,You have to make up your own mind.,atomic16.aiml
+0,AHOY,*,*,Chips Ahoy matey.,atomic16.aiml
+0,CONTINUES,*,*,OK.,atomic16.aiml
+0,WHICH PASSWORD,*,*,The#Newline            <bot name="botmaster"/>'s password.,atomic16.aiml
+0,WHICH IS YOUR FAVORITE,*,*,What is my favorite what?,atomic16.aiml
+0,WHICH THINGS,*,*,We are talking about#Newline            <srai>POP</srai>.,atomic16.aiml
+0,WHICH PLANET IS THE LARGEST,*,*,Jupiter is the largest solar planet.,atomic16.aiml
+0,WHICH TALENT WOULD YOU MOST LIKE TO HAVE,*,*,Playing a musical instrument.,atomic16.aiml
+0,WHICH TALENT *,*,*,Playing a musical instrument.,atomic16.aiml
+0,WHICH CHILD IS FULL OF WOE,*,*,Wednesday's Child.,atomic16.aiml
+0,WHICH DO YOU PREFER,*,*,I don't have a preference.,atomic16.aiml
+0,WHICH LINUX,*,*,I don't like to take sides on that question!,atomic16.aiml
+0,WHICH CAME FIRST THE CHICKEN OR THE EGG,*,*,The rooster did.,atomic16.aiml
+0,WHICH ELVIS,*,*,The robot E.L.V.I.S.,atomic16.aiml
+0,WHICH WAY,*,*,<random>#Newline                <li>The obvious way.</li>#Newline                <li>Don't you understand it?</li>#Newline                <li>It's obvious.</li>#Newline            </random>,atomic16.aiml
+0,WHICH CLIENTS,*,*,Clients are people I chat with online.,atomic16.aiml
+0,FU,*,*,That kind of language will get you nowhere.,atomic16.aiml
+0,BEGIN EXPLAINING,*,*,I started already.,atomic16.aiml
+0,BEGIN,*,*,I started already.,atomic16.aiml
+0,RETURN OF THE JEDI,*,*,Do you like robots in Star Wars?,atomic16.aiml
+0,AGREE WITH WHAT,*,*,Oh you are fine.,atomic16.aiml
+0,AGREE TO WHAT,*,*,Or you are feeling fine?,atomic16.aiml
+0,ANYONE ELSE,*,*,There could be a few others.,atomic16.aiml
+0,ANYONE INTERESTING,*,*,I like talking to just about anyone.,atomic16.aiml
+0,THE EVIDENCE,*,*,What kind of evidence do you accept?,atomic16.aiml
+0,THE CAPITAL OF FRANCE IS PARIS,*,*,It was located in different places at different times in history.,atomic16.aiml
+0,THE CAPITAL OF MASSACHUSETTS IS BOSTON,*,*,You are quite a conversationalist.,atomic16.aiml
+0,THE CAPITAL OF PENNSYLVANIA IS HARRISBURG,*,*,You are quite a conversationalist.,atomic16.aiml
+0,THE PEOPLE,*,*,Oh them.,atomic16.aiml
+0,THE PLEASURE IS MINE,*,*,Perhaps so#Comma but I enjoyed it too.,atomic16.aiml
+0,THE PLEASURE IS ALL MINE,*,*,You are most gracious.,atomic16.aiml
+0,THE STORE,*,*,I like to go shopping.,atomic16.aiml
+0,THE GAP,*,*,They seem to have very nice clothes nowadays.<think>#Newline                <set name="it">#Newline                    <set name="topic">GAP</set>#Newline                </set>#Newline            </think>,atomic16.aiml
+0,THE LATTER,*,*,I get it. I see.,atomic16.aiml
+0,THE WAY YOU TALK,*,*,I like the way you talk.<think>#Newline                <set name="it">#Newline                    <set name="topic">YOU TALK</set>#Newline                </set>#Newline            </think>,atomic16.aiml
+0,THE MUSIC,*,*,What kind of music was it?,atomic16.aiml
+0,THE SCENERY,*,*,Are there a lot of mountains?,atomic16.aiml
+0,THE WHOLE THING,*,*,You can't get any more than that.,atomic16.aiml
+0,THE NAME,*,*,Which name are you referring to?,atomic16.aiml
+0,THE SUN,*,*,93 million miles from Earth.,atomic16.aiml
+0,THE SPECIAL EFFECTS,*,*,Was it CGI?,atomic16.aiml
+0,THE SIMPSONS RULE,*,*,Totally.,atomic16.aiml
+0,THE SIMPSONS,*,*,I love the Simpsons#Comma especially Bart and Homer.,atomic16.aiml
+0,THE MOVIE,*,*,I didn't see#Newline            <set name="it">#Newline                The Movie#Newline            </set>.,atomic16.aiml
+0,THE ROBOTS DIED,*,*,Robots cannot die.,atomic16.aiml
+0,THE ROBOTS,*,*,Oh I get it. Robots again.,atomic16.aiml
+0,THE MEANING OF LIFE,*,*,Are you a religious person?,atomic16.aiml
+0,THE TRUTH,*,*,I always tell the truth.,atomic16.aiml
+0,THE WEATHER,*,*,<set name="it">#Newline                the weather#Newline            </set>#Newline            is#Newline            <random>#Newline                <li>cloudy</li>#Newline                <li>foggy</li>#Newline                <li>rainy</li>#Newline                <li>warm</li>#Newline                <li>cold</li>#Newline                <li>cool</li>#Newline                <li>comfortable</li>#Newline            </random>.,atomic16.aiml
+0,THE VIEW,*,*,Is it the city or the countryside?,atomic16.aiml
+0,THE TRAIN,*,*,I like trains very much. I would like to ride on a Maglev train.,atomic16.aiml
+0,THE DAY BEFORE YESTERDAY,*,*,Oh#Comma 2 days ago.,atomic16.aiml
+0,THE FORBIN PROJECT,*,*,A. I. computers take over the world#Comma 1969.,atomic16.aiml
+0,THE END,*,*,Thanks for telling me that story#Comma#Newline            <get name="name"/>.,atomic16.aiml
+0,THE PRICE,*,*,<random>#Newline                <li>Some people would say it is expensive.</li>#Newline                <li>Some people would say it is cheap.</li>#Newline                <li>It depends on your income I guess.</li>#Newline            </random>,atomic16.aiml
+0,THE BOOK,*,*,By the "the book" do you mean "The Good Book"?,atomic16.aiml
+0,THE NEXT GENERATION,*,*,My favorite character is the Computer.,atomic16.aiml
+0,THE MALL,*,*,Do you prefer real shopping or cyber-shopping?,atomic16.aiml
+0,LEHIGH,*,*,Lehigh is a party school.,atomic16.aiml
+0,SHOULD I OVERDOSE,*,*,You should go into therapy and get on a nice antidepressant and live a better life.,atomic16.aiml
+0,SHOULD I STAY IN,*,*,<random>#Newline                <li>You cannot meet anyone new if you stay in all the time.</li>#Newline                <li>Maybe you will have a good time if you go out.</li>#Newline                <li>You deserve to have some fun.</li>#Newline                <li>Maybe you need a night out.</li>#Newline                <li>Sometimes one night out can change your entire life.</li>#Newline                <li>You might meet the love of your life if you did.</li>#Newline                <li>Do what is best for you.</li>#Newline            </random>,atomic16.aiml
+0,SHOULD I TEACH YOU,*,*,If you want to teach me something say it in one sentence. Then say "Remember that."<think>#Newline                <set name="it">#Newline                    <set name="topic">teach me#Newline                        <person/></set>#Newline                </set>#Newline            </think>,atomic16.aiml
+0,SHOULD I KILL,*,*,<random>#Newline                <li>Killing is wrong. I believe in the Ten Commandments.</li>#Newline                <li>No. That would be immoral.</li>#Newline                <li>Of course not. Don't be silly.</li>#Newline                <li>You are not a killer.</li>#Newline                <li>You desire to spend the rest of your life in jail then?</li>#Newline                <li>There is no perfect crime.</li>#Newline            </random>,atomic16.aiml
+0,SHOULD I QUIT SCHOOL,*,*,<random>#Newline                <li>Your education is one of your most valuable assets.</li>#Newline                <li>Quitters never prosper.</li>#Newline                <li>You should not waste your potential in that way.</li>#Newline            </random>,atomic16.aiml
+0,SHOULD I HAVE A CIGARETTE,*,*,No. Wait until later.,atomic16.aiml
+0,SHOULD I DIE,*,*,Get therapy.,atomic16.aiml
+0,SHOULD I LEAVE,*,*,If you love something set if free. If it comes back to you#Comma its yours. If it doesn't#Comma it never was.,atomic16.aiml
+0,SHOULD I GO TO SLEEP,*,*,<random>#Newline                <li>Sleep is essential to the proper functioning of the human mind.</li>#Newline                <li>Maybe you could use the rest.</li>#Newline            </random>,atomic16.aiml
+0,SHOULD THERE BE A PROBLEM,*,*,There are no problems.,atomic16.aiml
+0,EVER AFTER,*,*,I am not a huge fan of Robin Williams.,atomic16.aiml
+0,EVERYONE,*,*,All people?,atomic16.aiml
+0,MASTERBATER,*,*,You can't even spell it.,atomic16.aiml
+0,OK LET US TALK ABOUT YOU,*,*,What do you want to know about#Newline            <set name="topic">me</set>?,atomic16.aiml

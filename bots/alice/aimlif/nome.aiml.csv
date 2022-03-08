@@ -1,0 +1,3 @@
+0,QUAL O MEU NOME,*,*,<get name="nome"/>,nome.aiml
+0,# SEU NOME #,*,*,Meu nome ? <bot name="name"/>,nome.aiml
+0,QUAL ^ G?NERO,*,*,Eu sou masculino.,nome.aiml

@@ -1,0 +1,75 @@
+0,ANOTHER QUESTION,*,*,<srai>NEWQST</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,* ANOTHER QUESTION,*,*,<srai>NEWQST</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,ANOTHER * QUESTION,*,*,<srai>NEWQST</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,ANOTHER QUESTION *,*,*,<srai>NEWQST</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,* ANOTHER * QUESTION,*,*,<srai>NEWQST</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,ANOTHER * QUESTION *,*,*,<srai>NEWQST</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,* ANOTHER QUESTION *,*,*,<srai>NEWQST</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,* ANOTHER * QUESTION *,*,*,<srai>NEWQST</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,NEW QUESTION,*,*,<srai>NEWQST</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,* NEW QUESTION,*,*,<srai>NEWQST</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,NEW * QUESTION,*,*,<srai>NEWQST</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,NEW QUESTION *,*,*,<srai>NEWQST</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,* NEW * QUESTION,*,*,<srai>NEWQST</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,NEW * QUESTION *,*,*,<srai>NEWQST</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,* NEW QUESTION *,*,*,<srai>NEWQST</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,* NEW * QUESTION *,*,*,<srai>NEWQST</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,RESET,*,*,<srai>NEWQST2</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,* RESET,*,*,<srai>NEWQST2</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,RESET *,*,*,<srai>NEWQST2</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,* RESET *,*,*,<srai>NEWQST2</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,RESTART,*,*,<srai>NEWQST2</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,* RESTART,*,*,<srai>NEWQST2</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,RESTART *,*,*,<srai>NEWQST2</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,* RESTART *,*,*,<srai>NEWQST2</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,START OVER,*,*,<srai>NEWQST2</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,* START OVER,*,*,<srai>NEWQST2</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,START OVER *,*,*,<srai>NEWQST2</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,* START OVER *,*,*,<srai>NEWQST2</srai>#Newline<think>#Newline<set name="topic"/>#Newline</think>,search3additlq.aiml
+0,NEWQST,*,*,<random>#Newline<li>Very Good! What is your question?</li>#Newline<li>You're more than welcome to ask another question. What would you like to know?</li>#Newline</random>#Newline<think>#Newline<set name="topic">SRCH</set>#Newline</think>,search3additlq.aiml
+0,NEWQST2,*,*,<random>#Newline<li>O.K. Let's start over. What is your question?</li>#Newline<li>Let's start again fresh. What would you like to know?</li>#Newline</random>#Newline<think>#Newline<set name="topic">SRCH</set>#Newline</think>,search3additlq.aiml
+0,DSR,* ASK ME AGAIN,*,Is your pop up blocker off? Let's see what we found.#Newline<think>#Newline<set name="search">catkey</set>#Newline</think>,search3additlq.aiml
+0,DO NOT * ANSWER,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,DO NOT * ANSWER *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ DO NOT * ANSWER,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ DO NOT * ANSWER *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,DO NOT * ANSWERS,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,DO NOT * ANSWERS *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ DO NOT * ANSWERS,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ DO NOT * ANSWERS *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,DO NOT * RESULT,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,DO NOT * RESULT *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ DO NOT * RESULT,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ DO NOT * RESULT *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,DO NOT * RESULTS,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,DO NOT * RESULTS *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ DO NOT * RESULTS,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ DO NOT * RESULTS *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,DO NOT * SEARCH,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,DO NOT * SEARCH *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ DO NOT * SEARCH,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ DO NOT * SEARCH *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,WHERE * ANSWER,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,WHERE * ANSWER *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ WHERE * ANSWER,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ WHERE * ANSWER *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,WHERE * ANSWERS,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,WHERE * ANSWERS *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ WHERE * ANSWERS,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ WHERE * ANSWERS *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,WHERE * RESULT,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,WHERE * RESULT *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ WHERE * RESULT,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ WHERE * RESULT *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,WHERE * RESULTS,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,WHERE * RESULTS *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ WHERE * RESULTS,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ WHERE * RESULTS *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,WHERE * SEARCH,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,WHERE * SEARCH *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ WHERE * SEARCH,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ WHERE * SEARCH *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ REOPEN,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,_ REOPEN *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,DID YOU FIND *,*,*,<srai>DSR</srai>,search3additlq.aiml
+0,WERE YOU * FIND *,*,*,<srai>DSR</srai>,search3additlq.aiml

@@ -1,0 +1,7 @@
+0,TOC TOC,*,*,Quem e?,_piada.aiml
+0,_,QUEM E,*,<star/> quem?,_piada.aiml
+0,_,* QUEM,*,<random>#Newline        <li>Muito engraM-CM-'ado <get name="nome"/>.</li>#Newline        <li>Foi a coisa mais engraM-CM-'ada que eu jM-CM-! ouvi <get name="nome"/>.</li>#Newline        <li>Realmente isso foi engraM-CM-'ado <get name="nome"/>.</li>#Newline      </random>,_piada.aiml
+0,_ TOC TOC ^,*,*,toc toc,_piada.aiml
+0,QUEM M-CM-,TOC TOC,*,<random>#Newline        <li>Mario</li>#Newline        <li/>#Newline        <li>Jose</li>#Newline      </random>,_piada.aiml
+0,QUE MARIO,MARIO,*,O que te prendeu no armM-CM-!rio,_piada.aiml
+0,QUE JOSE,JOSE,*,O que deu no pM-CM-).,_piada.aiml

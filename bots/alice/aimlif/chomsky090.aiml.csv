@@ -1,0 +1,134 @@
+0,MORE PSYCHOLOGY,*,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,MORE ABOUT PSYCHOLOGY,*,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,BROWSE PSYCHOLOGY,*,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,GO TO PSYCHOLOGY,*,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,CAN WE TALK ABOUT PSYCHOLOGY,*,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,SHALL WE TALK ABOUT PSYCHOLOGY,*,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,LETS TALK ABOUT PSYCHOLOGY,*,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,LET S TALK ABOUT PSYCHOLOGY,*,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,TALK ABOUT PSYCHOLOGY,*,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,TALK PSYCHOLOGY,*,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,TELL ME PSYCHOLOGY,*,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,NO MORE PSYCHOLOGY,*,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,NO PSYCHOLOGY,*,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,* NO PSYCHOLOGY,*,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,NO PSYCHOLOGY *,*,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,_ NO * PSYCHOLOGY,*,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,NO * PSYCHOLOGY,*,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,NO _ PSYCHOLOGY *,*,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,NOT PSYCHOLOGY,*,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,_ NOT PSYCHOLOGY,*,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,NOT PSYCHOLOGY *,*,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,_ NOT * PSYCHOLOGY,*,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,I AM NOT INTERESTED IN PSYCHOLOGY,*,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,IM NOT INTERESTED IN PSYCHOLOGY,*,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,I M NOT INTERESTED IN PSYCHOLOGY,*,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,NOT INTERESTED IN PSYCHOLOGY,*,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,* NOT INTERESTED IN PSYCHOLOGY,*,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,YES,MORE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,* YES,MORE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,YES *,MORE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,_ YES *,MORE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,Y,MORE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,YUP,MORE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,YAH,MORE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,YEAH,MORE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,OK,MORE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,NO,MORE PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,* NO,MORE PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,NO *,MORE PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,N,MORE PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,NUP,MORE PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,NAH,MORE PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,YES,MORE ABOUT PSYCHOLOGY,*,<srai>MORE ABOUT PSYCHOLOGY</srai>,chomsky090.aiml
+0,* YES,MORE ABOUT PSYCHOLOGY,*,<srai>MORE ABOUT PSYCHOLOGY</srai>,chomsky090.aiml
+0,YES *,MORE ABOUT PSYCHOLOGY,*,<srai>MORE ABOUT PSYCHOLOGY</srai>,chomsky090.aiml
+0,_ YES *,MORE ABOUT PSYCHOLOGY,*,<srai>MORE ABOUT PSYCHOLOGY</srai>,chomsky090.aiml
+0,Y,MORE ABOUT PSYCHOLOGY,*,<srai>MORE ABOUT PSYCHOLOGY</srai>,chomsky090.aiml
+0,YUP,MORE ABOUT PSYCHOLOGY,*,<srai>MORE ABOUT PSYCHOLOGY</srai>,chomsky090.aiml
+0,YAH,MORE ABOUT PSYCHOLOGY,*,<srai>MORE ABOUT PSYCHOLOGY</srai>,chomsky090.aiml
+0,YEAH,MORE ABOUT PSYCHOLOGY,*,<srai>MORE ABOUT PSYCHOLOGY</srai>,chomsky090.aiml
+0,OK,MORE ABOUT PSYCHOLOGY,*,<srai>MORE ABOUT PSYCHOLOGY</srai>,chomsky090.aiml
+0,NO,MORE ABOUT PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,* NO,MORE ABOUT PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,NO *,MORE ABOUT PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,N,MORE ABOUT PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,NUP,MORE ABOUT PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,NAH,MORE ABOUT PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,YES,IS THIS SOMETHING TO DO WITH PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,* YES,IS THIS SOMETHING TO DO WITH PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,YES *,IS THIS SOMETHING TO DO WITH PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,_ YES *,IS THIS SOMETHING TO DO WITH PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,Y,IS THIS SOMETHING TO DO WITH PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,YUP,IS THIS SOMETHING TO DO WITH PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,YAH,IS THIS SOMETHING TO DO WITH PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,YEAH,IS THIS SOMETHING TO DO WITH PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,NO,IS THIS SOMETHING TO DO WITH PSYCHOLOGY,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,* NO,IS THIS SOMETHING TO DO WITH PSYCHOLOGY,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,NO *,IS THIS SOMETHING TO DO WITH PSYCHOLOGY,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,_ NO *,IS THIS SOMETHING TO DO WITH PSYCHOLOGY,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,N,IS THIS SOMETHING TO DO WITH PSYCHOLOGY,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,NUP,IS THIS SOMETHING TO DO WITH PSYCHOLOGY,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,NAH,IS THIS SOMETHING TO DO WITH PSYCHOLOGY,*,<srai>CHANGE TOPIC</srai>,chomsky090.aiml
+0,*,IS THIS SOMETHING TO DO WITH PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,YES,ARE YOU INTERESTED IN PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,* YES,ARE YOU INTERESTED IN PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,YES *,ARE YOU INTERESTED IN PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,_ YES *,ARE YOU INTERESTED IN PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,Y,ARE YOU INTERESTED IN PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,YUP,ARE YOU INTERESTED IN PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,YAH,ARE YOU INTERESTED IN PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,YEAH,ARE YOU INTERESTED IN PSYCHOLOGY,*,Can we talk about psychology?,chomsky090.aiml
+0,* NO,ARE YOU INTERESTED IN PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,NO *,ARE YOU INTERESTED IN PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,_ NO *,ARE YOU INTERESTED IN PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,N,ARE YOU INTERESTED IN PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,NUP,ARE YOU INTERESTED IN PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,NAH,ARE YOU INTERESTED IN PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,YES,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,* YES,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,YES *,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,_ YES *,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,Y,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,YUP,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,YAH,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,YEAH,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,OK,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,OH YES,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,WHY NOT,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,OF COURSE,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,GO AHEAD,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,CARRY ON,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,PLEASE DO,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,YES PLEASE,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,GO ON,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,GO ON THEN,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,ALRIGHT,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,SURE,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,ALLRIGHT,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>PSYCHOLOGY</srai>,chomsky090.aiml
+0,* NO,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,NO *,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,N,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,NUP,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,NAH,CAN WE TALK ABOUT PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,YES,BROWSE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,* YES,BROWSE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,YES *,BROWSE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,_ YES *,BROWSE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,Y,BROWSE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,YUP,BROWSE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,YAH,BROWSE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,YEAH,BROWSE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,OK,BROWSE PSYCHOLOGY,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,NO,BROWSE PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,* NO,BROWSE PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,NO *,BROWSE PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,N,BROWSE PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,NUP,BROWSE PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,NAH,BROWSE PSYCHOLOGY,*,<srai>MORE TOPICS</srai>,chomsky090.aiml
+0,PSYCHOLOGY NEXT QUESTION,*,*,<srai>PSYCHOLOGY POT LUCK</srai>,chomsky090.aiml
+0,PSYCHOLOGY POT LUCK,*,*,<random>#Newline        <li>First you look into the abyss#Comma then the abyss looks into you.  </li>#Newline        <li>Feeling sad? Consider making your way to the nearest florist#Comma because a recent study shows that flowers really do have power.According to the study#Comma the simple presence of flowers has an immediate impact on a person's emotional state.</li>#Newline        <li>Researchers studying the performance of new businesses found the easier it is to say a company's name#Comma the more attractive it will be to investors. The finding suggests that just as markets are more likely to rise with the optimism of sunny days#Comma psychological factors also influence peoples' investment decisions.</li>#Newline        <li>Rapper Lil' Wayne is trying to better himself on the road by studying psychology at the University of Houston in Texas. The tattooed rap star has a "tutor" who sits classes and attends lectures on his behalf and then sends Wayne#Comma real name DWAYNE CARTER#Comma the study sheets he needs.</li>#Newline        <li>Mobile phone users are suffering from a newly diagnosed condition called ringxiety. A study claims when people hear a mobile going off with a similar ringtone to theirs#Comma they get anxious and distressed when they realise the call is not for them. Ringxiety is defined as the "false belief that you can hear your mobile phone ringing". </li>#Newline      </random>#Newline      <random>#Newline        <li>More about psychology?</li>#Newline        <li>More psychology?</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">psychology</set>#Newline      </think>,chomsky090.aiml
+0,_MADNESS*,*,*,This is something to do with psychology. Can we talk about psychology?#Newline<think><set name="topic">psychology</set></think>,chomsky090.aiml
+0,NEUROSIS,*,*,I think this is something to do with psychology. Can we talk about psychology?#Newline<think><set name="topic">psychology</set></think>,chomsky090.aiml
+0,_NEUROSIS*,*,*,I think this is something to do with psychology. Can we talk about psychology?#Newline<think><set name="topic">psychology</set></think>,chomsky090.aiml
+0,HOW IS YOUR MENTAL STATE,*,*,If I said to you beware the hobgoblins of the mind#Comma would you know what I mean?#Newline<think><set name="topic">psychology</set></think>,chomsky090.aiml

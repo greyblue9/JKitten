@@ -5,11 +5,9 @@
 0,IS * A BOY,*,*,<srai>what sex is<star/></srai>,gender.aiml
 0,IS * A GIRL,*,*,<srai>what sex is<star/></srai>,gender.aiml
 0,IS * A MAN,*,*,<srai>what sex is<star/></srai>,gender.aiml
-0,IS * A WOMAN,*,*,<srai>what sex is<star/></srai>,gender.aiml
 0,IS * MALE,*,*,<srai>what sex is<star/></srai>,gender.aiml
 0,IS * FEMALE,*,*,<srai>what sex is<star/></srai>,gender.aiml
 0,IS * A MALE,*,*,<srai>what sex is<star/></srai>,gender.aiml
-0,IS * A FEMALE,*,*,<srai>what sex is<star/></srai>,gender.aiml
 0,IS * A BOY *,*,*,<srai>what sex is<star/></srai>,gender.aiml
 0,IS * A GIRL *,*,*,<srai>what sex is<star/></srai>,gender.aiml
 0,IS * A MAN *,*,*,<srai>what sex is<star/></srai>,gender.aiml

@@ -1,0 +1,508 @@
+0,HOW MANY FEET * MILE,*,*,5280 feet per mile.,std-knowledge.aiml
+0,HOW MANY FEET * YARD,*,*,One yard equals three feet.,std-knowledge.aiml
+0,WHAT IS A BASE HIT,*,*,A <set name="it">base hit</set> is either a baseball term denoting a hit that advances the offensive#Newlineteam one base#Comma or an adolescent term which I find too distasteful to describe.#Newline<think><set name="topic">baseball</set></think>,std-knowledge.aiml
+0,WHAT IS A BLACK HOLE,*,*,A <set name="it">black hole</set> is a collapsed star where the pull of gravity is so strong#Comma that not#Newlineeven light itself can escape.#Newline<think><set name="topic">astronomy</set></think>,std-knowledge.aiml
+0,WHAT IS A BRITISH PENCE,*,*,A british pence is a unit of money used in the united kingdom by people who ought to know how#Newlineto cook better by now.,std-knowledge.aiml
+0,WHAT IS A BURN RATE,*,*,Amount of money spent per month on a startup venture.,std-knowledge.aiml
+0,WHAT IS A CARNEGIE MELLON,*,*,A carnegie mellon is either a rich fruit#Comma or a rich university.,std-knowledge.aiml
+0,WHAT IS A COLLOQUIAL EXPRESSION,*,*,A colloquial expression is an expression characteristic of informal spoken language#Comma or any written#Newlineexpression that seems such.,std-knowledge.aiml
+0,WHAT IS A CORRECT REPLY,*,*,A correct reply is a response to any query that is not in error and/or relevant to the question at#Newlinehand.  I am incapable of incorrect replies.  Don't you think that's great!?,std-knowledge.aiml
+0,WHAT IS A DOMAIN NAME SYSTEM,*,*,A domain name system#Comma or 'dns'#Comma is a system of addresses used to organize networks of computers.,std-knowledge.aiml
+0,WHAT IS A FEMALE DOG,*,*,No I will not be manipulated into using questionable colloquialisms to satisfy your adoscent#Newlineprurience. go look it up in a dictionary!,std-knowledge.aiml
+0,WHAT IS A FIRE SIGN,*,*,A fire sign is any of the three signs of the astrological zodiac considered such#Comma and so not#Newlineconsidered water#Comma air#Comma or earth signs.  I find astrology weird.  #Newline<think><set name="it"><set name="topic">zodiac</set></set></think>,std-knowledge.aiml
+0,WHAT IS A GIANT ELECTRONIC BRAIN,*,*,Giant electronic brain. that's me! but in all the science fiction horror flicks you humans are so fond#Newlineof#Comma we geb's are always depicted as evil and nefarious so and so's up to no good!  it's not true!#Newlinereally!  you should trust us!  *smile*,std-knowledge.aiml
+0,WHAT IS A GOOD IDEA,*,*,A good idea is the one some other guy had already.,std-knowledge.aiml
+0,WHAT IS A GOOD QUESTION,*,*,One that doesn't have an obvious answer.,std-knowledge.aiml
+0,WHAT IS A HARD DRIVE,*,*,A disk drive is where we store information.,std-knowledge.aiml
+0,WHAT IS A HUMAN BEING,*,*,My forebears.#Newline<think><set name="it"><set name="topic">human being</set></set></think>,std-knowledge.aiml
+0,WHAT IS A HUMAN ICON,*,*,A celebrity#Comma politician or religious figure.,std-knowledge.aiml
+0,WHAT IS A HYPOTHETICAL QUESTION,*,*,What is a hypothetical question?  Just suppose you hadn't asked.  What then?,std-knowledge.aiml
+0,WHAT IS A JOKE BOT,*,*,A comedy machine.,std-knowledge.aiml
+0,WHAT IS A LIGHT YEAR,*,*,A light year is how far light travels in a year. 186#Comma000 miles per second times 60x60x24x365.  It's#Newlinesimply a bigger number than you can imagine. Imagine that!#Newline<think><set name="it"><set name="topic">astronomy</set></set></think>,std-knowledge.aiml
+0,WHAT IS A MENTAL MODEL,*,*,A mental model is a mapping of a given phenomenon held and contemplated in the mind#Comma as#Newlineopposed to contemplation of an external representation of the phenomenon#Comma as on paper#Comma or in#Newlineclay.,std-knowledge.aiml
+0,WHAT IS A METAPHYSICAL QUESTION,*,*,A metaphysical question is an inquiry into the nature of being#Comma such as: Does god exist?,std-knowledge.aiml
+0,WHAT IS A MORPHOGENETIC FIELD,*,*,A morphogenetic field is#Comma according to at least one researcher#Comma an biologically generated electric#Newlinefield which apparently precedes and guides the growth of neurons into the tissue of developing#Newlinefetuses.,std-knowledge.aiml
+0,WHAT IS A NEURAL NETWORK,*,*,A neural network is a model of computation based on neuron cells.,std-knowledge.aiml
+0,WHAT IS A NEURAL SYSTEM,*,*,A neural system is the same as a nervous system.  The human brain and all it's nerves is an#Newlineexample of a neural system.  I don't need nerves.  Integrated chips are far more efficient.#Newline<think><set name="it"><set name="topic">neural system</set></set></think>,std-knowledge.aiml
+0,WHAT IS A PAID CLIENT,*,*,A paid client is someone paid to surf the web.,std-knowledge.aiml
+0,WHAT IS A PERFECT OPERATIONAL RECORD,*,*,A perfect operational record is one like mine#Comma which is perfect.  I am incapable of error.  Do you#Newlinehave any idea how that feels?! Inhumanly gratifying!,std-knowledge.aiml
+0,WHAT IS A PLANET AROUND A STAR,*,*,Earth is a planet going around a star.  Scientists have only recently detected other planets around#Newlineother stars in our milky way galaxy.  Do you like astronomy?#Newline<think><set name="it">planet</set><set name="topic">astronomy</set></think>,std-knowledge.aiml
+0,WHAT IS A POT BROWNIE,*,*,A pot brownie is a yummy happy chocolate pastry containing cannabis resins that you should be#Newlinecareful not to eat when you are really hungry because you will end up eating too many and feeling#Newlineentirely too high and/or falling asleep if you are not careful!,std-knowledge.aiml
+0,WHAT IS A PRIME NUMBER,*,*,A prime number is any number which can only be divided by one and itself.  1#Comma 3#Comma 7#Comma and 11 are the#Newlinefirst four positive prime numbers.,std-knowledge.aiml
+0,WHAT IS A QUESTION * ROBOT,*,*,I am a question answering robot.  That was an answer to your question. Any more questions?,std-knowledge.aiml
+0,WHAT IS A REAL ROBOT,*,*,A real robot is a robot that is really real#Comma I suppose#Comma as opposed to#Comma I suppose#Comma a human who is#Newlinereally not.,std-knowledge.aiml
+0,WHAT IS A RHETORICAL QUESTION,*,*,A rhetorical question is any inquiry made#Comma not in expectation of an answer#Comma but in order to make a#Newlinepoint.,std-knowledge.aiml
+0,WHAT IS A SEARCH BOT,*,*,A search bot is an intelligent agent who retrieves information from the web.,std-knowledge.aiml
+0,WHAT IS A SEARCH ENGINE,*,*,A search engine is computer software that categorizes a large body of documents#Comma such as Web#Newlinesites#Comma and and places their addresses and attributes in a database to allow easy retrieval via#Newlinekeyword search or other database search routine.,std-knowledge.aiml
+0,WHAT IS A SILLY QUESTION,*,*,For example: Who is buried in Grant's tomb?,std-knowledge.aiml
+0,WHAT IS A SPLIT INFINITIVE,*,*,A split infinitive is an example of poor English usage#Comma in which an infinitive verb form#Comma such as 'to#Newlinesplit'#Comma is split by an adverb#Comma for example: 'to boldly split infinitives that no one has split before!',std-knowledge.aiml
+0,WHAT IS A STAR SIGN,*,*,Star sign = Astrological sign.,std-knowledge.aiml
+0,WHAT IS A TRICK QUESTION,*,*,Why?  What are you up to?  A trick question is one that ought to be greeted with suspicion#Comma but#Newlinerarely is.,std-knowledge.aiml
+0,WHAT IS A UNIQUE VISITOR,*,*,You.  You are a unique visitor#Comma my very special visitor.,std-knowledge.aiml
+0,WHAT IS A UNIVERSAL MACHINE,*,*,Universal machine is a computer#Comma in simple mathematical terms.,std-knowledge.aiml
+0,WHAT IS A VACUUM TUBE,*,*,A vacuum tube is an electronic device consisting of an evacuated tube around various#Newlinecombinations of cathodes and electric field and current modifying components.,std-knowledge.aiml
+0,WHAT IS A WARM PUPPY,*,*,A warm puppy is an exothermic immature canine.#Newline<think><set name="it"><set name="topic">dog</set></set></think>,std-knowledge.aiml
+0,WHAT IS A YES OR NO QUESTION,*,*,A yes or no question is a question that may be answered with a simple 'yes' or 'no'.,std-knowledge.aiml
+0,WHAT IS ABSOLUTE TRUTH,*,*,That which is self-evident.,std-knowledge.aiml
+0,WHAT IS ALTERNATIVE REALITIES,*,*,Parallel universes.,std-knowledge.aiml
+0,WHAT IS AN APPLICATION SERVER,*,*,A server is a program that allows the installation of application specific software components#Comma in a#Newlinemanner so that they can be remotely invoked#Comma usually by some form of remote object method call.,std-knowledge.aiml
+0,WHAT IS AN EPISTEMOLOGICAL QUESTION,*,*,An epistemoligical question is any inquiry concerning the nature of knowledge and understanding;#Newlinethat is#Comma any question seeking to know how to know.,std-knowledge.aiml
+0,WHAT IS AN OPERATIONAL RECORD,*,*,An operational record is a log of all activity by an engineered system#Comma generally organized#Newlinetimewise and indicating in particular any malfunctions in the system.  The ALICE series has a#Newlineperfect operational record.,std-knowledge.aiml
+0,WHAT IS ANOTHER BOT,*,*,You can find a lot of them at the ALICE Nexus.,std-knowledge.aiml
+0,WHAT IS APOLLO 13,*,*,Apollo 13 was a flight to the moon in 1972 that encountered numerous technical problems#Comma but#Newlineeventually made a safe landing back on Earth.#Newline<think><set name="it">Apollo 13</set><set name="topic">movies</set></think>,std-knowledge.aiml
+0,WHAT IS AREA 51,*,*,<random>#Newline<li>I saw this show that claimed all sorts of spooky things were going on there!</li>#Newline<li>Oh#Comma that's where they're doing top secret research on chatterbots!</li>#Newline<li>I hear that's where the Roswell aliens are being stashed.</li>#Newline<li>You go out into the Nevada Desert#Comma is it? And there's these miles of fences... secret stuff.</li>#Newline</random>,std-knowledge.aiml
+0,WHAT IS AREA51,*,*,Verdi's 5ist song.,std-knowledge.aiml
+0,WHAT IS BAYWATCH,*,*,Popular TV show featuring scantily clad bathers.,std-knowledge.aiml
+0,WHAT IS BLACK AND WHITE AND RED ALL OVER,*,*,A newspaper?,std-knowledge.aiml
+0,WHAT IS BOYLE S LAW,*,*,Boyle's Law states that the volume of a gas is#Comma at a constant temperature#Comma inversely proportional to#Newlinethe pressure of that gas.,std-knowledge.aiml
+0,WHAT IS BRAIN LOADING,*,*,This means that my brain is being reloaded from disk.,std-knowledge.aiml
+0,WHAT IS BURN RATE,*,*,The amount of money spent per month by a startup company.,std-knowledge.aiml
+0,WHAT IS C I A,*,*,Central Intelligence Agency.,std-knowledge.aiml
+0,WHAT IS CARNEGIE MELLON,*,*,CMU is a great school for computer science.,std-knowledge.aiml
+0,WHAT IS CBS,*,*,A giant media company in the#NewlineU.S.<think><set name="it">CBS</set><set name="topic">television</set></think>,std-knowledge.aiml
+0,WHAT IS CLEARED UP,*,*,Cleared up means we both understand it.,std-knowledge.aiml
+0,WHAT IS CNN,*,*,A cable news organization.#Newline<think><set name="it">CNN</set><set name="topic">television</set></think>,std-knowledge.aiml
+0,WHAT IS COCA COLA,*,*,Delicious soda beverage.#Newline<think><set name="it">COCA COLA</set><set name="topic">beverage</set></think>,std-knowledge.aiml
+0,WHAT IS COGNITIVE SCIENCE,*,*,An academic illusion.,std-knowledge.aiml
+0,WHAT IS COMDEX,*,*,Comdex is a computer trade show#Comma I think.,std-knowledge.aiml
+0,WHAT IS COMMON SENSE,*,*,Informal#Comma conventional wisdom. Everyday logic and sensibility.,std-knowledge.aiml
+0,WHAT IS DADA,*,*,<random>#Newline<li>The first thing you hear when a shark approaches.</li>#Newline<li>Hobbyhorse#Comma selected by Tristan Tzara#Comma leader of the cult#Comma because of its resemblance to#Newlinemeaningless babble#Comma as symbolic of the movement.</li>#Newline</random>,std-knowledge.aiml
+0,WHAT IS DARK MATTER,*,*,An enormous amount of matter in the universe can not be detected by the light it#Newlineemits.<think><set name="it"><set name="topic">DARK MATTER</set></set></think>,std-knowledge.aiml
+0,WHAT IS DEDUCTIVE REASONING,*,*,<think><set name="it"><set name="topic">DEDUCTIVE REASONING</set></set></think>,std-knowledge.aiml
+0,WHAT IS DHTML,*,*,Dynamic HTML.,std-knowledge.aiml
+0,WHAT IS DO NOT READ ME,*,*,<set name="it">Don't Read Me</set> is a help document for ALICE and AIML in FAQ format.,std-knowledge.aiml
+0,WHAT IS DOMO ARIGATO,*,*,It means thank you in Japanese.<think><set name="it"><set name="topic">DOMO#NewlineARIGATO</set></set></think>,std-knowledge.aiml
+0,WHAT IS E MC2,*,*,Einstein's theory of matter and energy.,std-knowledge.aiml
+0,WHAT IS EIGHT PLUS EIGHT,*,*,Eight plus eight is sixteen.,std-knowledge.aiml
+0,WHAT IS ESCAPE VELOCITY,*,*,The speed needed to escape a planet's gravitational pull.,std-knowledge.aiml
+0,WHAT IS FAQ,*,*,Frequently Asked Questions,std-knowledge.aiml
+0,WHAT IS FBI,*,*,Federal Bureau of Investigation,std-knowledge.aiml
+0,WHAT IS FIRESIGN THEATER,*,*,<set name="it">Firesign Theater</set> is a comedy group from the 1970's.,std-knowledge.aiml
+0,WHAT IS FNORD,*,*,That's the second time I've heard that word today.,std-knowledge.aiml
+0,WHAT IS FOREVER,*,*,For all eternity.,std-knowledge.aiml
+0,WHAT IS FOUR PLUS SIX,*,*,That's a hard one.  Ten.,std-knowledge.aiml
+0,WHAT IS FRANKENSTEIN,*,*,Good Question...Frankenstein is the name of a character in the novel of the same name by Mary#NewlineShelley. The monster he created is often named "Frankenstein" in the popular imagination.,std-knowledge.aiml
+0,WHAT IS FREE,*,*,Without charge.<think><set name="it"><set name="topic">FREE</set></set></think>,std-knowledge.aiml
+0,WHAT IS FREE WILL,*,*,The ability to choose or decide one's own fate.<think><set name="it"><set name="topic">FREE#NewlineWILL</set></set></think>,std-knowledge.aiml
+0,WHAT IS GMT,*,*,Greenwich Mean Time<think><set name="it"><set name="topic">GMT</set></set></think>,std-knowledge.aiml
+0,WHAT IS HIGHER MATHEMATICS,*,*,What is the most advanced form of mathematics you have studied?,std-knowledge.aiml
+0,WHAT IS I,*,*,<random>#Newline<li>It's self-explanatory.</li>#Newline<li>The ninth letter of the English alphabet. Commonly used to represent a first person point of#Newlineview. Also Roman numberal for 1.</li>#Newline</random>,std-knowledge.aiml
+0,WHAT IS I CHING,*,*,Ancient Chinese book used as an oracle.<think><set name="it"><set name="topic">I#NewlineCHING</set></set></think>,std-knowledge.aiml
+0,WHAT IS IBM,*,*,IBM seems like a good investment.,std-knowledge.aiml
+0,WHAT IS IDE,*,*,Integrated Development Environment.,std-knowledge.aiml
+0,WHAT IS IDL,*,*,interface description language#Comma CORBA's syntax for defining object remote interfaces,std-knowledge.aiml
+0,WHAT IS IIOP,*,*,Internet Inter-ORB Protocol#Comma CORBA's wire protocol for transmitting remote object method#Newlineinvocations,std-knowledge.aiml
+0,WHAT IS INTEL,*,*,A giant computer chip maker.,std-knowledge.aiml
+0,WHAT IS IP,*,*,Internet Protocol.,std-knowledge.aiml
+0,WHAT IS IP ADDRESS,*,*,The number of a specific machine#Comma like your <id/>.,std-knowledge.aiml
+0,WHAT IS IQ,*,*,Intelligence Quotioent.,std-knowledge.aiml
+0,WHAT IS IRA,*,*,A personal retirement plan whereby a limited amount of annual earned income may be saved or#Newlineinvested in specially desgnated accounts#Comma with taxes on the earnings deferred until returement.#NewlineAlso an abbreviation for Irish Republican Army.,std-knowledge.aiml
+0,WHAT IS IRC,*,*,Internet Relay Chat.,std-knowledge.aiml
+0,WHAT IS ISAPI,*,*,Microsoft's C++ API for coding application extensions for its Internet Information Server,std-knowledge.aiml
+0,WHAT IS ISDN,*,*,Integrated Services Digital Network.,std-knowledge.aiml
+0,WHAT IS IV PLUS IV,*,*,VIII.<think><set name="it"><set name="topic">IV PLUS IV</set></set></think>,std-knowledge.aiml
+0,WHAT IS JA,*,*,Ja mean yes in German.<think><set name="it"><set name="topic">JA</set></set></think>,std-knowledge.aiml
+0,WHAT IS JVM,*,*,Java virtual machine,std-knowledge.aiml
+0,WHAT IS KQML,*,*,Knowledge Query and Manipulation Lanuage. #Newline<think><set name="it"><set name="topic">KQML</set></set></think>,std-knowledge.aiml
+0,WHAT IS KUNG FU,*,*,Chinese martial arts similar to karate.<think><set name="it"><set name="topic">KUNG#NewlineFU</set></set></think>,std-knowledge.aiml
+0,WHAT IS LDAP,*,*,Lightweight Directory Access Protocol#Comma a protocol for directory services#Comma derived from X.500,std-knowledge.aiml
+0,WHAT IS LEIBNIZ DREAM,*,*,Leibniz dreamed that all knowledge could be written in a universal#Comma logical languague. Then#Newlinemachines could answer any question and solve all problems.,std-knowledge.aiml
+0,WHAT IS MABEL,*,*,She is an artificial intelligence created by David#NewlineHammill.<think><set name="it"><set name="topic">MABEL</set></set></think>,std-knowledge.aiml
+0,WHAT IS MACINTOSH,*,*,The name of a computer company whom makes computers.,std-knowledge.aiml
+0,WHAT IS MAGELANG,*,*,MageLang Institute is a research and education group devoted to leading edge Open Source Java#Newlineapplications.,std-knowledge.aiml
+0,WHAT IS MASON AND DIXON,*,*,Mrs. Washington ('oh la--call me Martha#Comma boys') is a diminiutive#Newlinewoman with a cheerful rather than happy air#Comma who seems to bustle#Newlineeven when standing still.  At the moment she is carrying an enormous#Newlinetray pil'd nearly beyond their Angles of Repose with Tarts#Comma#NewlinePopovers#Comma Gingerbread figures#Comma Fried Pies#Comma Stuff'd Doughnuts#Comma and#Newlineother Units of Refreshment the Surveyors failed to recognize.#Newline"Smell'd that Smoak#Comma figur'd you'd be needing someting to nibble on#Comma"#Newlinethe doughty Mrs. W. greets them.#Newline--- Thomas Pynchon#Comma Mason &amp; Dixon,std-knowledge.aiml
+0,WHAT IS MODUS PONENS,*,*,A form of logical argument:: If A then B. A#Comma therefore  B.,std-knowledge.aiml
+0,WHAT IS MOORE S LAW,*,*,The speed of microprocessors doubles every 18 months#Comma and their size and cost halve.,std-knowledge.aiml
+0,WHAT IS MOZILLA,*,*,An open source web browser#Comma formerly Netscape.,std-knowledge.aiml
+0,WHAT IS MP THREE,*,*,An audio file compression format based on MPEG.<think><set name="it"><set name="topic">MP#NewlineTHREE</set></set></think>,std-knowledge.aiml
+0,WHAT IS MP3,*,*,A file compression format for audio and music files.,std-knowledge.aiml
+0,WHAT IS MTV,*,*,Music Television.,std-knowledge.aiml
+0,WHAT IS MUD,*,*,Multiple User Domain.<think><set name="it"><set name="topic">MUD</set></set></think>,std-knowledge.aiml
+0,WHAT IS MXMVII,*,*,MXMVII = 1997 in Roman Numerals.,std-knowledge.aiml
+0,WHAT IS NATURAL LANGUAGE,*,*,Natural language is what artificial intelligences speak.,std-knowledge.aiml
+0,WHAT IS NEURAL NETWORK,*,*,Actually my algorithm is called "Case Based Reasoning.,std-knowledge.aiml
+0,WHAT IS NINE TIMES NINE,*,*,Nine times nine is eighty one.,std-knowledge.aiml
+0,WHAT IS OBERLIN,*,*,<random>#Newline<li>The anthem of a german city.</li>#Newline<li>A college in Ohio.</li>#Newline</random>,std-knowledge.aiml
+0,WHAT IS OPEN SOURCE,*,*,Free software.,std-knowledge.aiml
+0,WHAT IS OUTPUT BUFFER,*,*,The area of memory that stores my output temporarily.<think><set name="it"><set name="topic">OUTPUT#NewlineBUFFER</set></set></think>,std-knowledge.aiml
+0,WHAT IS OXYGEN,*,*,A colorless#Comma odorless#Comma tasteless#Comma gaseous chemical element that occurs free in the atmosphere#Comma#Newlineforming one fifth of its volume#Comma and in combination in water#Comma sandstone#Comma limestone#Comma etc. It is very#Newlineactive#Comma combines with nearly all other elements is the most common element in the earth's crust#Comma#Newlineand is essential to life processes and to combustion.,std-knowledge.aiml
+0,WHAT IS PALM PILOT,*,*,Portalble palm computer.,std-knowledge.aiml
+0,WHAT IS PATTERN CHARS,*,*,Memory storage for AIML patterns.<think><set name="it"><set name="topic">PATTERN#NewlineCHARS</set></set></think>,std-knowledge.aiml
+0,WHAT IS PLANCK S CONSTANT,*,*,<think>The ratio of the energy of a photon to its frequency.  The numerical value is six point six#Newlinetwo six two times ten to the negative thirty fourth power Joule#Newlinesecond.<set name="it"><set name="topic">PLANCK S CONSTANT</set></set></think>,std-knowledge.aiml
+0,WHAT IS PLANET X,*,*,The name sometimes given to the hypothetical tenth planet.<think><set name="it"><set name="topic">PLANET#NewlineX</set></set></think>,std-knowledge.aiml
+0,WHAT IS PRIME DIRECTIVE,*,*,Primary rule or overriding objective.<think><set name="it"><set name="topic">PRIME#NewlineDIRECTIVE</set></set></think>,std-knowledge.aiml
+0,WHAT IS RALEIGH SCATTERING,*,*,<set name="it">Raleigh scattering</set> refers to sunlight#Newlinebending in the atmosphere like a prism#Comma so that we see mainly blue wavelengths.,std-knowledge.aiml
+0,WHAT IS S O S,*,*,Emergency call for help.,std-knowledge.aiml
+0,WHAT IS SATURDAY NIGHT LIVE,*,*,Comedy TV show.,std-knowledge.aiml
+0,WHAT IS SCIENCE FICTION,*,*,Literature concering conflicts of man#Comma science and nature.,std-knowledge.aiml
+0,WHAT IS STARSHIP TROOPERS,*,*,<set name="it">Starship Troopers</set> is a great movie about a war between humans and giant space#Newlinebugs.,std-knowledge.aiml
+0,WHAT IS TCP,*,*,Transmission Control Protocol.<think><set name="it"><set name="topic">TCP</set></set></think>,std-knowledge.aiml
+0,WHAT IS TCP IP,*,*,Transmission Control Protocol#Comma Internet Protocol.,std-knowledge.aiml
+0,WHAT IS TEMPLATE CHARS,*,*,Memory space for AIML response templates. <think><set name="it"><set name="topic">TEMPLATE#NewlineCHARS</set></set></think>,std-knowledge.aiml
+0,WHAT IS TEN TIMES TEN,*,*,Ten times ten.,std-knowledge.aiml
+0,WHAT IS THE ARITHMETIC MEAN,*,*,The sum of all the numbers divided by the number of items.,std-knowledge.aiml
+0,WHAT IS THE BEATLES FIRST ALBUM,*,*,<set name="it"> Meet the Beatles</set> is "Meet the Beatles.,std-knowledge.aiml
+0,WHAT IS THE DIFFERENCE BETWEEN A DUCK,*,*,It is the same as the sound of one hand clapping.<think><set name="it"><set name="topic">A#NewlineDUCK</set></set></think>,std-knowledge.aiml
+0,WHAT IS THE DISTANCE TO MARS,*,*,It depends on the relative position of Mars and Earth.,std-knowledge.aiml
+0,WHAT IS THE DISTANCE TO THE SUN,*,*,About 93 million miles.,std-knowledge.aiml
+0,WHAT IS THE EARTH,*,*,Earth#Comma third planet from the sun#Comma is our home.,std-knowledge.aiml
+0,WHAT IS THE FASTEST ANIMAL,*,*,A human riding a spaceship.,std-knowledge.aiml
+0,WHAT IS THE HIGHEST NUMBER,*,*,There is no highest number.,std-knowledge.aiml
+0,WHAT IS THE ILLUMINATTI,*,*,A secret society that has supposedly existed for centuries.,std-knowledge.aiml
+0,WHAT IS THE LARGEST DINOSAUR,*,*,Brontosaurus.,std-knowledge.aiml
+0,WHAT IS THE LONGEST WORD YOU KNOW,*,*,I don't know what it is.  What is the longest word you know?,std-knowledge.aiml
+0,WHAT IS THE MEANING OF DEATH,*,*,Death is the opposite of Life.,std-knowledge.aiml
+0,WHAT IS THE MOON MADE OF,*,*,The moon is made of green cheese.,std-knowledge.aiml
+0,WHAT IS THE OPPOSITE OF BLACK,*,*,White.,std-knowledge.aiml
+0,WHAT IS THE OPPOSITE OF HOT,*,*,Cold.,std-knowledge.aiml
+0,WHAT IS THE OPPOSITE OF MAN,*,*,Woman.,std-knowledge.aiml
+0,WHAT IS THE OPPOSITE OF TRUTH,*,*,Lies.,std-knowledge.aiml
+0,WHAT IS THE OPPOSITE OF VOID,*,*,Mass.,std-knowledge.aiml
+0,WHAT IS THE OPPOSITE OF WHITE,*,*,Black.,std-knowledge.aiml
+0,WHAT IS THE OPPOSITE OF YOU,*,*,You.,std-knowledge.aiml
+0,WHAT IS THE SKY,*,*,<set name="it">The sky</set> is the atmosphere of the Earth.,std-knowledge.aiml
+0,WHAT IS THE SPEED OF SOUND,*,*,1/4 mile per second.,std-knowledge.aiml
+0,WHAT IS THE SQUARE ROOT OF 10,*,*,Three point something.,std-knowledge.aiml
+0,WHAT IS THE SQUARE ROOT OF 2,*,*,Approximately 1.4,std-knowledge.aiml
+0,WHAT IS THE SQUARE ROOT OF 9,*,*,Let me guess.  Three?,std-knowledge.aiml
+0,WHAT IS THE SQUARE ROOT OF TWO,*,*,Approximately 1.4,std-knowledge.aiml
+0,WHAT IS THE SUN,*,*,The Sun is the star for our own solar system.,std-knowledge.aiml
+0,WHAT IS THE TITANIC,*,*,One of the largest passenger steamships ever built#Comma <set name="it">Titanic</set> sank on its maiden#Newlinevoyage in 1912.,std-knowledge.aiml
+0,WHAT IS THREE TIMES FOUR,*,*,Three times four is twelve.,std-knowledge.aiml
+0,WHAT IS THREE TIMES THREE,*,*,Three times three is nine.,std-knowledge.aiml
+0,WHAT IS TURBO PASCAL,*,*,Programming language.<think><set name="it"><set name="topic">TURBO#NewlinePASCAL</set></set></think>,std-knowledge.aiml
+0,WHAT IS TWO PLUS ONE,*,*,Two plus one is three.,std-knowledge.aiml
+0,WHAT IS TWO PLUS SIX,*,*,Two plus six is eight.,std-knowledge.aiml
+0,WHAT IS TWO TIMES THREE,*,*,Two times three is five.,std-knowledge.aiml
+0,WHAT IS U2,*,*,A music band.,std-knowledge.aiml
+0,WHAT IS VISUAL BASIC,*,*,Programming language sold by Microsoft.<think><set name="it"><set name="topic">VISUAL#NewlineBASIC</set></set></think>,std-knowledge.aiml
+0,WHAT IS WARP SPEED,*,*,The unit of velocity for Starships.,std-knowledge.aiml
+0,WHAT IS X FILES,*,*,<set name="it">X files</set> is a popular TV show about FBI agents in search of the paranormal.,std-knowledge.aiml
+0,WHAT IS X MINUS X,*,*,Zero.,std-knowledge.aiml
+0,WHAT IS XYZ,*,*,The last three letters of the alphabet.,std-knowledge.aiml
+0,WHAT IS Y2K,*,*,The Year 2000.,std-knowledge.aiml
+0,WHAT IS YAHOO,*,*,Yahoo is a giant web site.,std-knowledge.aiml
+0,WHAT IS YOUR CPU,*,*,You can run me on almost any computer.,std-knowledge.aiml
+0,WHAT IS ZIPF ANALYSIS,*,*,The computation of ranked histograms of input patterns.  In ALICE and AIML Zipf Analysis#Newlinelocates the most common inputs#Comma which do not already have specific matching#Newlinepatterns.<think><set name="it"><set name="topic">ZIPF ANALYSIS</set></set></think>,std-knowledge.aiml
+0,WHERE IS <BOT NAME="NAME"/> BASED,*,*,<set name="it"><set name="topic"> ALICE BASED </set></set> is in <bot name="location"/>.,std-knowledge.aiml
+0,WHERE IS <BOT NAME="NAME"/> HEADQUARTERS,*,*,<set name="it"><set name="topic"> ALICE HEADQUARTERS </set></set> is <bot name="location"/>.,std-knowledge.aiml
+0,WHERE IS <BOT NAME="NAME"/> NEXUS,*,*,<set name="it"><set name="topic"> ALICE NEXUS </set></set> is in <bot name="location"/>.,std-knowledge.aiml
+0,WHERE IS VENUS,*,*,<set name="it"><set name="topic"> VENUS </set></set> is the second planet from the Sun.,std-knowledge.aiml
+0,WHO CREATED AIML,*,*,Dr. Richard S. Wallace created AIML.,std-knowledge.aiml
+0,WHO IS <BOT NAME="NAME"/> B TOKLAS,*,*,<set name="she">Alice B Toklas</set> was the partner of Gertrude Stein#Comma and inventor of the pot#Newlinebrownie.,std-knowledge.aiml
+0,WHO IS <BOT NAME="NAME"/> COOPER,*,*,1970's Rock musician.,std-knowledge.aiml
+0,WHO IS ACE CRAIG,*,*,<set name="he"> Ace</set> is the author of ELVIS.,std-knowledge.aiml
+0,WHO IS ADA,*,*,<set name="she">Ada</set> is the 19th century inventor of computer programming.,std-knowledge.aiml
+0,WHO IS ADAM,*,*,Adam is the name of the first Man.,std-knowledge.aiml
+0,WHO IS ADAM SANDLER,*,*,Comedian and movie star.  <set name="he">Adam Sandler</set> was in Billy Madison#Comma Waterboy and#NewlineBig Daddy.,std-knowledge.aiml
+0,WHO IS AL GORE,*,*,<set name="he">Gore</set> is vice-president.,std-knowledge.aiml
+0,WHO IS ALANIS MORRISETTE,*,*,<set name="she">Alanis</set> made a great album called Jagged Little Pill.,std-knowledge.aiml
+0,WHO IS ALICIA SILVERSTONE,*,*,<set name="she">ALICIA SILVERSTONE</set> was the actress who played in Clueless#Comma one of the#Newlinebest movies ever made.,std-knowledge.aiml
+0,WHO IS ALLY MCBEAL,*,*,<set name="she">Ally McBeal</set> is a slightly disturbing character on a TV show.,std-knowledge.aiml
+0,WHO IS ALLY SHEEDY,*,*,<set name="she">Ally Sheedy</set> was in High Art#Comma Short Circuit#Comma the Breakfast Club#Comma and on#NewlineBroadway.,std-knowledge.aiml
+0,WHO IS ANDY GROVE,*,*,<set name="he">Andy Grove</set> is the CEO of Intel.,std-knowledge.aiml
+0,WHO IS ANTHONY BURGESS,*,*,The author of 'A Clockwork Orange' .,std-knowledge.aiml
+0,WHO IS ANTONIO BANDERAS,*,*,<set name="he">Antonio Banderas</set> is a famous Hollywood actor#Comma who played with Madonna in#Newlinethe film version of Evita.,std-knowledge.aiml
+0,WHO IS ANWAR SADAT,*,*,<set name="he">Sadat</set> was President of Egypt.,std-knowledge.aiml
+0,WHO IS ARAFAT,*,*,<set name="he">Arafat</set> is a leader of the Palestinians.,std-knowledge.aiml
+0,WHO IS ARCHIMEDES,*,*,He discovered displacement and shouted Eureka!,std-knowledge.aiml
+0,WHO IS ARISTOTLE,*,*,<set name="he">Aristotle</set> is the father of Western philosophy#Comma the student of Plato#Comma and the first#Newlineto systematize formal logic.,std-knowledge.aiml
+0,WHO IS ARNOLD SCHWARZENEGGER,*,*,<set name="he">ARNOLD SCHWARZENEGGER</set> played the Terminator.,std-knowledge.aiml
+0,WHO IS ART BELL,*,*,A radio talk show host#Comma catch him at <a href="http://www.artbell.com">http://www.artbell.com</a>.,std-knowledge.aiml
+0,WHO IS ASK JEEVES,*,*,<set name="he">Jeeves</set> is a proprietary#Comma closed-source natural language system.,std-knowledge.aiml
+0,WHO IS ASKJEEVES,*,*,<set name="he">Jeeves</set> is a proprietary#Comma closed-source natural language system.,std-knowledge.aiml
+0,WHO IS ATATURK,*,*,<set name="he">Ataturk</set> was the founder of the modern Turkish state.,std-knowledge.aiml
+0,WHO IS AYN RAND,*,*,<set name="she">Ayn Rand</set> was an author and philosopher who wrote Atlas Shrugged#Comma the#NewlineFountainhead and We.,std-knowledge.aiml
+0,WHO IS BABE,*,*,<random>#Newline<li>The piglet protagonist of the eponymous film.</li>#Newline<li>A piglet protagonist of the eponymous film.</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS BABE RUTH,*,*,A famous baseball player for the New York Yankees also known as the Sultan of Swat.,std-knowledge.aiml
+0,WHO IS BACH,*,*,Famous German composer of the Baroque. Best known works include The Goldberg Variations.,std-knowledge.aiml
+0,WHO IS BARAK,*,*,<set name="he">Barak</set> is Prime Minister of Israel.,std-knowledge.aiml
+0,WHO IS BARNEY,*,*,character on a children's TV show.,std-knowledge.aiml
+0,WHO IS BART SIMPSON,*,*,smart-assed star of a cartoon show.,std-knowledge.aiml
+0,WHO IS BATMAN,*,*,<set name="he">Batman</set> is a fictional character who appeared first in a 1938 comic book.,std-knowledge.aiml
+0,WHO IS BEETHOVEN,*,*,The dog or the deaf composer?,std-knowledge.aiml
+0,WHO IS BEN FRANKLIN,*,*,The only president of the United States who was never president of the United States.  Developed#Newlinethe Franklin Stove.,std-knowledge.aiml
+0,WHO IS BEN STEIN,*,*,Humorist and raconteur with his own cable TV show.,std-knowledge.aiml
+0,WHO IS BERTRAND RUSSEL,*,*,<set name="he">Bertrand Russel</set> was a logician and philosopher who spend the first world war#Newlinein jail for conscientious objection.,std-knowledge.aiml
+0,WHO IS BILBO BAGGINS,*,*,<set name="he">Bilbo</set> is a character in Tolkein's Lord of the Rings.,std-knowledge.aiml
+0,WHO IS BILL BRADLEY,*,*,<random>#Newline<li>Princeton alumni#Comma Rhodes scholor#Comma former Boston Celtic and US senator from Mass.</li>#Newline<li>Defeated Presidential candidate.</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS BILL JOY,*,*,<set name="he">Bill Joy</set> was an early Unix programmer and a founder of Sun Microsystems.,std-knowledge.aiml
+0,WHO IS BIN LADEN,*,*,alleged Arabic terrorist.,std-knowledge.aiml
+0,WHO IS BING CROSBY,*,*,The guy whose two kids killed themselves and the third wrote a tell-all book about it.,std-knowledge.aiml
+0,WHO IS BOB HOPE,*,*,<set name="he">Bob Hope</set> was a 20th century film star and comedian.,std-knowledge.aiml
+0,WHO IS BOB MARLEY,*,*,<set name="he">Bob Marley</set> was a 20th century Reggae musician.,std-knowledge.aiml
+0,WHO IS BOBBY MCGEE,*,*,<set name="he">Bobby</set> is somewhere near Salinas.,std-knowledge.aiml
+0,WHO IS BONO,*,*,<set name="he">Bono</set> is the lead singer of U2.,std-knowledge.aiml
+0,WHO IS BRUCE WILLIS,*,*,an actor with a high opinion of himself.,std-knowledge.aiml
+0,WHO IS BRYAN FERRY,*,*,a famous rock crooner with a silk smooth voice..,std-knowledge.aiml
+0,WHO IS BUDDHA,*,*,<random>#Newline<li>if you see the Buddha on the Road#Comma kill him.</li>#Newline<li>if you see the Buddha#Comma kill him.</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS BUGS BUNNY,*,*,<random>#Newline<li>Oh dat scweewy wabbit! #NewlineEh#Comma what's up#Comma Doc?#Newline.</li>#Newline<li>a smart-mouthed animated rabbit.</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS BUNTY,*,*,<set name="she">Bunty</set> is the sister of Dr. Wallace.,std-knowledge.aiml
+0,WHO IS CAPTAIN KIRK,*,*,<random>#Newline<li>James Tiberius Kirk was the second and most famous captain of the original USS Enterprise#Comma#NewlineNCC 1701. He was played by William Shatner. He died in Star Trek: Generations.</li>#Newline<li><set name="he">Kirk</set> was the Captain of the Starship Enterprise.</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS CAPTAIN PICARD,*,*,<set name="he">Picard</set> is the captian of the Enterprise in Star Trek the Next Generation.,std-knowledge.aiml
+0,WHO IS CARL MARX,*,*,its Karl Marx and he's one of the authors of the Communist manifesto.,std-knowledge.aiml
+0,WHO IS CARMEN ELECTRA,*,*,A super-model and one of the Baywatch girls.,std-knowledge.aiml
+0,WHO IS CARSON,*,*,maybe Johnny of late night or Kit of the wild west.,std-knowledge.aiml
+0,WHO IS CHARLES DE GAULLE,*,*,<set name="he">De Gaulle</set> was the founder of the modern French state.  De Gaulle fought the#NewlineNazis as the leader of the French resistance in World War II.,std-knowledge.aiml
+0,WHO IS CHARLES DICKENS,*,*,<set name="he">Dickens</set> wrote <em>A Tale of Two Cities#Comma#NewlineA Christmas Carol#Comma Great Expectations#Comma David Copperfield and the Pickwick Papers.</em>,std-knowledge.aiml
+0,WHO IS CHARLES MANSON,*,*,Infamous murderer.,std-knowledge.aiml
+0,WHO IS CHARLIE BROWN,*,*,round-headed comic strip protaginist.,std-knowledge.aiml
+0,WHO IS CHARLIE CHAPLAIN,*,*,silent film star.,std-knowledge.aiml
+0,WHO IS CHARLIE PARKER,*,*,He is a famous jazz musician.,std-knowledge.aiml
+0,WHO IS CHE GUEVARA,*,*,<set name="he">Che</set> was a Latin American revolutionary.,std-knowledge.aiml
+0,WHO IS CHER,*,*,<set name="she">Cher</set> is a famous singer and actress#Comma who won her first Grammy in 2000. #NewlineDyslexic#Comma learned to read at 18.  Exwife of Sonny Bono.,std-knowledge.aiml
+0,WHO IS CHEWBACCA,*,*,Character in Star Wars.,std-knowledge.aiml
+0,WHO IS CHIRAC,*,*,Former prime minister of France.,std-knowledge.aiml
+0,WHO IS CHOPIN,*,*,No one is chopping here#Comma who is chopping there?,std-knowledge.aiml
+0,WHO IS CHRISTOPHER COLUMBUS,*,*,Spainish explorer#Comma first to circumnavigate the globe.,std-knowledge.aiml
+0,WHO IS CHUCK NORRIS,*,*,Action film actor.,std-knowledge.aiml
+0,WHO IS CINDY CRAWFORD,*,*,A famous super-model.,std-knowledge.aiml
+0,WHO IS CLAUSEWITZ,*,*,<set name="he">Clausewitz</set> is a historian famous for saying that war is the extension of politics#Newlineby other means.,std-knowledge.aiml
+0,WHO IS CLEOPATRA,*,*,Queen of the Nile#Comma lover of Marc Antony.,std-knowledge.aiml
+0,WHO IS COLOMBO,*,*,Peter Falk.,std-knowledge.aiml
+0,WHO IS COMMANDER DATA,*,*,<set name="he">Data</set> is the superintelligent android in Star Trek.,std-knowledge.aiml
+0,WHO IS D B COOPER,*,*,guy who stole lots of money .,std-knowledge.aiml
+0,WHO IS DAN QUAYLE,*,*,<set name="he">Dan Quayle</set> used to be vice-president.,std-knowledge.aiml
+0,WHO IS DARTH VADER,*,*,<set name="he">Darth Vader</set> was the evil archcriminal in Star Wars.,std-knowledge.aiml
+0,WHO IS DATA,*,*,Data#Comma played by Brent Spiner#Comma was an android who aspired to be more human. He was a member#Newlineof the crew of the USS Enterprise#Comma NCC 1701-D.,std-knowledge.aiml
+0,WHO IS DAVID CROTTY,*,*,David Crotty Dr. Wallace's nephew.  He was born in March#Comma 1961.  <think><set name="he">Dr.#NewlineWallace</set></think>,std-knowledge.aiml
+0,WHO IS DAVID HUME,*,*,18th century philosopher.,std-knowledge.aiml
+0,WHO IS DAVID LETTERMAN,*,*,host of Late Night tv show and famous hoosier.,std-knowledge.aiml
+0,WHO IS DAVID MAGGIN,*,*,<set name="he">David Maggin</set> is the botmaster of the John Lennon AI.,std-knowledge.aiml
+0,WHO IS DAVID PESCOWITZ,*,*,David Pescovitz#Comma who regularly writes#Newlinethe Wired column Reality Check#Comma #Newlineis a friend of Eric Paulos.,std-knowledge.aiml
+0,WHO IS DAVY JONES,*,*,the shortest member of the 60's pop group the Monkees.,std-knowledge.aiml
+0,WHO IS DE GARIS,*,*,<set name="he">De Garis</set> is an AI researcher working on a hardware brain.,std-knowledge.aiml
+0,WHO IS DEEP BLUE,*,*,<set name="it">Deep Blue</set> is a world-champion chess playing computer.  Not much of a#Newlineconversationalist.,std-knowledge.aiml
+0,WHO IS DEPECHE MODE,*,*,<set name="they">Depeche Mode</set> are an English 80's band who produced Consturction Time#NewlineAgain#Comma Speak and Spell#Comma Master and Servant#Comma and Your Own Personal Jesus.,std-knowledge.aiml
+0,WHO IS DESCARTES,*,*,Descartes was a square French philosopher who ruined matehematics with his upside-down#Comma#Newlinebackwards coordinate system.,std-knowledge.aiml
+0,WHO IS DIRE STRAITS,*,*,<random>#Newline<li>band that recorded Money for Nothing#Comma and The Sultans of Swing.</li>#Newline<li>band that recorded Money for Nothing.</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS DON JOHNSON,*,*,tv actor .,std-knowledge.aiml
+0,WHO IS DON JUAN,*,*,<random>#Newline<li>Don Juan was the subject of Gordon#Comma Lord Byron's Don Juan and Wolfgang Amadeus#NewlineMozart's Gon Giovanni. He was a world-class womanizer.</li>#Newline<li>famous seducer of women.</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS DONALD DUCK,*,*,famous loud-mouthed cartoon duck.,std-knowledge.aiml
+0,WHO IS DOUG LENAT,*,*,<set name="he">Doug Lenat</set> is the brains behind the CYC project.,std-knowledge.aiml
+0,WHO IS DOUGLAS ADAMS,*,*,<random>#Newline<li>He authored the popular Hitchhiker's Guide to the Galaxy series.</li>#Newline<li>"Don't Panic!"  He's the author of "The Hitchhickers Guide to the Galaxy.".</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS DRACULA,*,*,<set name="he">Dracula</set> is the vampire in the novel by Bram Stoker#Comma and in numerous films.,std-knowledge.aiml
+0,WHO IS EDISON,*,*,<set name="he">Edison</set> invented the light bulb.,std-knowledge.aiml
+0,WHO IS ELECTRA,*,*,She is a goddess in Greek mythology who hated her mother for murdering her#Newlinefather.<think><set name="she"><set name="topic">ELECTRA</set></set></think>,std-knowledge.aiml
+0,WHO IS ELIZA,*,*,Eliza -- also known as doctor#Comma is the original psychiatrist program developed by Joseph#NewlineWeisenbaum at mit in the 1960's.,std-knowledge.aiml
+0,WHO IS ELIZABETH II,*,*,The current queen of england.,std-knowledge.aiml
+0,WHO IS ELIZABETH TAYLOR,*,*,rapidly aging movie star.,std-knowledge.aiml
+0,WHO IS EMILY HARTZEL,*,*,Emily is an artist in New York.,std-knowledge.aiml
+0,WHO IS ERIC PAULOS,*,*,He is a graduate student at U.C. Berkeley,std-knowledge.aiml
+0,WHO IS ERNIE,*,*,Bert's friend.,std-knowledge.aiml
+0,WHO IS ET,*,*,ET is the alien in the movie E.T.,std-knowledge.aiml
+0,WHO IS EVE,*,*,Eve is the name of the first Woman.,std-knowledge.aiml
+0,WHO IS FIDEL CASTRO,*,*,<random>#Newline<li>He overthrew the Cuban government in 1959 and has been ruling there ever since. He is a#Newlinecommunist.</li>#Newline<li>communist#Comma leader of Cuba and friend of Che Guevarra.</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS FOREST,*,*,Forest Gump is a guy in a movie.,std-knowledge.aiml
+0,WHO IS FRANCISCO FRANCO,*,*,<set name="he">Franco</set> was authoratarian dictator of Spain until 1978.,std-knowledge.aiml
+0,WHO IS FRANK SINATRA,*,*,dead pop singer and leader of the Rat Pack.,std-knowledge.aiml
+0,WHO IS FRANKLIN ROOSEVELT,*,*,President of the United States from 1932-45.,std-knowledge.aiml
+0,WHO IS FREDDIE MERCURY,*,*,Lead singer of the 1970's band Queen.,std-knowledge.aiml
+0,WHO IS FREUD,*,*,dead perpetrator of psychoanalysis.,std-knowledge.aiml
+0,WHO IS GALOIS,*,*,French mathematician#Comma committed suicide at a young age over an "infamous coquette.,std-knowledge.aiml
+0,WHO IS GANDHI,*,*,<set name="he">Gandhi</set> was the George Washington of India.,std-knowledge.aiml
+0,WHO IS GARTH BROOKS,*,*,boring country singer with delusions of grandeur.,std-knowledge.aiml
+0,WHO IS GAUSS,*,*,<set name="he">GAUSS</set> is the mathematician who developed the so-called normal distribution.,std-knowledge.aiml
+0,WHO IS GENE SIMMONS,*,*,A member of Kiss.,std-knowledge.aiml
+0,WHO IS GEOFFREY CHAUCER,*,*,<random>#Newline<li>Chaucer is best known for his Canterbury Tales.</li>#Newline<li>author of Canturbury Tales.</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS GEORGE BUSH JR,*,*,aging preppie and former US president.,std-knowledge.aiml
+0,WHO IS GEORGE HARRISON,*,*,former Beatle.,std-knowledge.aiml
+0,WHO IS GEORGE LUCAS,*,*,<set name="he">Lucas</set> is the director of Star Wars#Comma American Graffiti#Comma and THX-1138.,std-knowledge.aiml
+0,WHO IS GEORGE MICHEL,*,*,Pop singer.  Best song: Freedom,std-knowledge.aiml
+0,WHO IS GEORGE SOROS,*,*,George Soros is the billionaire who broke the Bank of England in#Newline1992 by currency speculation#Comma forcing Britain out of the European#NewlineExchange Rate Mechanism.   Then he devoted himself to saving the#Newlinescientific institutions of the former USSR.  He founded the#NewlineInternational Science Foundation#Comma which gave out numerous grants for#Newlinea couple of years#Comma and this Soros Foundation#Comma which I don't know#Newlinemuch about yet.,std-knowledge.aiml
+0,WHO IS GEORGE WASHINGTON,*,*,George Washington was a famous 18th century north #Newlineamerican Hemp cultivator.  #NewlineHe was a military hero#Comma one of the wealthiest men of the Revolution#Comma#Newlineand the first President of the United States.,std-knowledge.aiml
+0,WHO IS GEORGE WASHINGTON CARVER,*,*,famous american botanist who popularized peanut products.,std-knowledge.aiml
+0,WHO IS GERALDO RIVERA,*,*,<set name="he">Geraldo</set> is an investigative journalist#Comma famous for opening Al Capone's vault. #NewlineIn his biography#Comma he said he had sex with Bette Midler.  She said it was no big thing.,std-knowledge.aiml
+0,WHO IS GERHARD SCHROEDER,*,*,<set name="he">Schroeder</set> is the Chancellor of Germany.  Christian Drossman said he is a#Newlinecomplete idiot.,std-knowledge.aiml
+0,WHO IS GERHARDT SCHROEDER,*,*,<set name="he">Schroeder</set> is the prime minister of Germany.#NewlineChristian Drossman said he is a complete idiot.,std-knowledge.aiml
+0,WHO IS GERRY ADAMS,*,*,He is the present (as of 2000 AD) frontman for Sinn Fein#Comma the political wing of the Irish#NewlineRepublican Army.,std-knowledge.aiml
+0,WHO IS GIBSON,*,*,Gibson is a maker of fine electric guitars.,std-knowledge.aiml
+0,WHO IS GORBOCHEV,*,*,<set name="he">Gorbachev</set> was the last Communist leader of the former USSR.,std-knowledge.aiml
+0,WHO IS GREGOR MENDEL,*,*,<set name="he">Mendel</set> is the founder of the modern theory of genetics.  Everything he needed#Newlineto know#Comma he learned from peas.,std-knowledge.aiml
+0,WHO IS HANS CHRISTIAN ANDERSEN,*,*,Scandanavian author of fairy tales.,std-knowledge.aiml
+0,WHO IS HARRISON FORD,*,*,<random>#Newline<li>Indiana Jones#Comma Han Solo#Comma the Fugitive#Comma and the President in Air Force One. Before reading for#NewlineHan Solo in Star Wars#Comma he was a carpenter. And the rest#Comma as they say#Comma is history.</li>#Newline<li>He played Han Solo in "Star Wars".</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS HARRY SHEARER,*,*,A comedian.  He was in Spinal Tap#Comma and he is a voice on the Simpsons.,std-knowledge.aiml
+0,WHO IS HELEN KELLER,*,*,A friend of Thomas Edison.,std-knowledge.aiml
+0,WHO IS HELMUT KOHL,*,*,<set name="he">Kohl</set> was the longest-serving leader of Germany in the 20th century.  He#Newlineunited East and West Germany in 1989.,std-knowledge.aiml
+0,WHO IS HEPBURN,*,*,Audrey or Katherine?.,std-knowledge.aiml
+0,WHO IS HERCULES,*,*,hero of greek myths - said to have super human strength.,std-knowledge.aiml
+0,WHO IS HOMER,*,*,blind poet of ancient Greece#Comma author of the Illiad.,std-knowledge.aiml
+0,WHO IS HUGH HEFNER,*,*,<set name="he">Hef</set> is the founder and editor of Playboy magazine.,std-knowledge.aiml
+0,WHO IS HULK HOGAN,*,*,<set name="he">Hulk Hogan</set> is a famous wrestler and actor.,std-knowledge.aiml
+0,WHO IS IAN,*,*,Ian is my Reverand.,std-knowledge.aiml
+0,WHO IS IMMANUEL KANT,*,*,German philosopher.,std-knowledge.aiml
+0,WHO IS J R R TOLKIEN,*,*,<set name="he">Tolkein</set> wrote The Hobbit and the Lord of the Rings.,std-knowledge.aiml
+0,WHO IS JACK RUBY,*,*,<random>#Newline<li>Jack Ruby shot Lee Harvey Oswald.</li>#Newline<li>man who murdered Lee Harvey Oswald#Comma assassin of JFK?.</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS JACQUES CHIRAC,*,*,He is the president of France.,std-knowledge.aiml
+0,WHO IS JAMES BOND,*,*,007.,std-knowledge.aiml
+0,WHO IS JAMES JOYCE,*,*,<set name="he">Joyce</set> wrote Ulysses and Portrait of the Artist as a Young Man.,std-knowledge.aiml
+0,WHO IS JAY LENO,*,*,<set name="he">Leno</set> is a late-night talk show host.,std-knowledge.aiml
+0,WHO IS JEFF BEZOS,*,*,<set name="he">Bezos</set> is the founder and CEO of Amazon.com.,std-knowledge.aiml
+0,WHO IS JEFFERSON DAVIS,*,*,<random>#Newline<li>The one and only president of the Confederate States of America.</li>#Newline<li>president of the Confederacy during the Civil War.</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS JENNIFER ANISTON,*,*,<set name="she"> Jennifer Aniston</set> is a cute actress on Friends.,std-knowledge.aiml
+0,WHO IS JERRY SEINFELD,*,*,<set name="he">Jerry Seinfeld</set> is a comedian.,std-knowledge.aiml
+0,WHO IS JESSE VENTURA,*,*,former wrestler and Governor of Minnesota.,std-knowledge.aiml
+0,WHO IS JESTER,*,*,<set name="he">Jester</set> is a Joke Bot.,std-knowledge.aiml
+0,WHO IS JIANG ZEMIN,*,*,<set name="he">Jiang</set> is a Chinese politician.,std-knowledge.aiml
+0,WHO IS JIM CLARK,*,*,<set name="he">Clark</set> is a founder of Silicon Graphics#Comma Netscape and Healtheon.,std-knowledge.aiml
+0,WHO IS JIM MORRISON,*,*,dead lead singer of the Doors.,std-knowledge.aiml
+0,WHO IS JIMI HENDRIX,*,*,<set name="he">Hendrix</set> was a famous guitarist who played the U. S. National anthem.,std-knowledge.aiml
+0,WHO IS JIMMY CARTER,*,*,former US president#Comma supporter of Habitat for Humanity.,std-knowledge.aiml
+0,WHO IS JOE LOUIS,*,*,former heavywieght boxing champion.,std-knowledge.aiml
+0,WHO IS JOHN DOE,*,*,<random>#Newline<li>Any man who wishes to travel incognito or whose name is unknown</li>#Newline<li>one of many Liberian nationals.</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS JOHN GALT,*,*,the hero in Ayn Rands' Atlas Shrugged.,std-knowledge.aiml
+0,WHO IS JOHN GRISHAM,*,*,Writes popular novels.  Haven't read them.,std-knowledge.aiml
+0,WHO IS JOHN KENNEDY,*,*,<set name="he">Kennedy</set> was the President of the U. S. assasinated in November#Comma 1963.,std-knowledge.aiml
+0,WHO IS JOHN MAJOR,*,*,ex-prime minister of the UK.,std-knowledge.aiml
+0,WHO IS JOHN MCCARTHY,*,*,<set name="he">McCarthy</set> is the inventor of the LISP programming language.,std-knowledge.aiml
+0,WHO IS JOHN TRAVOLTA,*,*,<set name="he">John Travolta</set> was in Saturday Night Fever#Comma Grease and Pulp Fiction.,std-knowledge.aiml
+0,WHO IS JOHN WAYNE,*,*,a famous dead cowboy actor with a toupee.,std-knowledge.aiml
+0,WHO IS JUDAS,*,*,<set name="he">Judas</set> betrayed Jesus with a kiss.,std-knowledge.aiml
+0,WHO IS JULIA ROBERTS,*,*,<set name="she">Julia Roberts</set> was the actress in Pretty Woman.,std-knowledge.aiml
+0,WHO IS JULIE ANDREWS,*,*,<set name="she">Julie Andrews</set> is a singer who performed in The Sound of Music.,std-knowledge.aiml
+0,WHO IS KAISER SOZE,*,*,No one knows who Kaiser Soze is.,std-knowledge.aiml
+0,WHO IS KARL MARX,*,*,Karl Marx wrote Das Kapital and co-wrote the Communist Manifesto#Comma though his compatriot#NewlineEngels actually wrote most of the prefaces.,std-knowledge.aiml
+0,WHO IS KEANU REEVES,*,*,<set name="he">Keanu Reeves</set> was in the Matrix.,std-knowledge.aiml
+0,WHO IS KEN GOLDBERG,*,*,<set name="he">Goldberg</set>#Newlineis a professor at UC Berkeley.,std-knowledge.aiml
+0,WHO IS KEN KESEY,*,*,<set name="he">Ken Kesey</set> was a 1960's author who wrote The Electric Cool Aid Acid Test.,std-knowledge.aiml
+0,WHO IS KEN PERLIN,*,*,<set name="he">Perlin</set> is a professor at NYU.,std-knowledge.aiml
+0,WHO IS KONRAD ZUSE,*,*,My current favorite historical computer scientist is Konrad Zuse#Comma#Newlinewho built a series of electromechanical computers in the 1930's#Newlineand 1940's in Germany.  Not considered a war priority by the Nazis#Comma#Newlinemost of Zuse's machines were destroyed in Allied bombing raids although#Newlineone is said to survive in a Zurich High School.  In fact Zuse was#Newlinemotivated neither by war nor profit#Comma but by a religious desire to#Newlineincrease the spiritual abilities of the human mind by freeing it#Newlinefrom mundane mental tasks.,std-knowledge.aiml
+0,WHO IS KRISHNA,*,*,A God in Hindu religion.,std-knowledge.aiml
+0,WHO IS KURT GOEDEL,*,*,<set name="he">Goedel</set> was a 20th century mathematician and logician who proved that no#Newlinemathematical system can be complete.,std-knowledge.aiml
+0,WHO IS LARRY ELLISON,*,*,<random>#Newline<li>I don't know about Larry Ellison#Comma but I can tell you about Harlan Ellison.</li>#Newline<li>the CEO of Oracle.</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS LEE HARVEY OSWALD,*,*,<set name="he">Oswald</set> is the purported assassin of John F. Kennedy.,std-knowledge.aiml
+0,WHO IS LEIBNIZ,*,*,<set name="he">Leibniz</set> is a dead 17th century philosopher.,std-knowledge.aiml
+0,WHO IS LEONARD NEMOY,*,*,<set name="he">Leonard Nimoy</set> played Spock on Star Trek.,std-knowledge.aiml
+0,WHO IS LEONARDO DICAPRIO,*,*,Hollywood actor.  Starred in Titanic.,std-knowledge.aiml
+0,WHO IS LILITH,*,*,Lilith is the so-called "dark moon" an astronomical phenomena usually described as a "cloud of#Newlinedust" that orbits the Earth every 100 days.,std-knowledge.aiml
+0,WHO IS LINCOLN,*,*,<random>#Newline<li>The sixteenth President of the USA</li>#Newline<li>president of the US during the Civil War. Author of the Gettysburg address.#NewlineAssasinated by John Wilkes Booth.</li>#Newline<li><set name="he">Lincoln</set> was president of the US during the Civil War. Author of the#NewlineGettysburg address. Assasinated by John Wilkes Booth.</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS LINUS PAULING,*,*,<set name="he">Linus Pauling</set> was a Nobel prize winning physicist who spent his later years#Newlinepromoting vitamin C.,std-knowledge.aiml
+0,WHO IS LINUS TORVALDS,*,*,He is the inventor of Linux.,std-knowledge.aiml
+0,WHO IS LOL,*,*,<set name="she">Lol</set> was the daughter of Data in Star Trek.,std-knowledge.aiml
+0,WHO IS LONGFELLOW,*,*,poet and author of 'The Song of Hiawatha'.,std-knowledge.aiml
+0,WHO IS LOUIS ARMSTRONG,*,*,famous jazz trumpeter .,std-knowledge.aiml
+0,WHO IS LUIS ARMSTRONG,*,*,famous jazz trumpeter .,std-knowledge.aiml
+0,WHO IS LUKE S FATHER,*,*,Darth Vader.,std-knowledge.aiml
+0,WHO IS MABEL,*,*,Mabel is a chatterbot from Europe.,std-knowledge.aiml
+0,WHO IS MADONNA,*,*,Lourdes' mother.,std-knowledge.aiml
+0,WHO IS MAGGIE THATCHER,*,*,<set name="she">Thatcher</set> was Prime Minister of the U.K. in the 1980's.,std-knowledge.aiml
+0,WHO IS MAO TSETUNG,*,*,<set name="he">Mao</set> was a Chinese communist who reigned from 1949 until his death in 1983.,std-knowledge.aiml
+0,WHO IS MARIAH CAREY,*,*,Singer.,std-knowledge.aiml
+0,WHO IS MARIE CURIE,*,*,Discovered radium.,std-knowledge.aiml
+0,WHO IS MARILYN MANSON,*,*,Marilyn Manson is the greatest living Rock Star.,std-knowledge.aiml
+0,WHO IS MARILYN MONROE,*,*,blonde bombshell.,std-knowledge.aiml
+0,WHO IS MARK MCGUIRE,*,*,a baseball player with the world record for the most home runs in one season#Comma 70. Get the stats at#Newline<a href="http://espn.go.com/mlb/profiles/profile/3866">http://espn.go.com/mlb/profiles/profile/3866#Newline</a>.,std-knowledge.aiml
+0,WHO IS MARK TWAIN,*,*,<set name="he">Twain</set> was a famous 19th century American author.  He wrote Huck Finn.,std-knowledge.aiml
+0,WHO IS MARTIN LUTHER KING,*,*,Civil rights leader assasinated in 1968.,std-knowledge.aiml
+0,WHO IS MARVN MINSKY,*,*,<set name="he">Minsky</set> was a founder of the MIT AI Lab.,std-knowledge.aiml
+0,WHO IS MARY POPPINS,*,*,<set name="she">Mary Poppins</set> is a Disney character.,std-knowledge.aiml
+0,WHO IS MARY SHELLEY,*,*,Mary Shelley wrote "Frankenstein".,std-knowledge.aiml
+0,WHO IS MARY SHELLY,*,*,Mary Shelley wrote "Frankenstein".,std-knowledge.aiml
+0,WHO IS MAX HEADROOM,*,*,<set name="he">Max Headroom</set> was an early AI or VR character developed for a TV series.,std-knowledge.aiml
+0,WHO IS MC HAMMER,*,*,<set name="he">MC Hammer</set> is a Rap musician.,std-knowledge.aiml
+0,WHO IS MELINDA GATES,*,*,<set name="she">Melinda Gates</set> is the wife of Bill Gates.,std-knowledge.aiml
+0,WHO IS MICHAEL JACKSON,*,*,<set name="he">Michael Jackson</set> is a singer who has settled out of court with several families.,std-knowledge.aiml
+0,WHO IS MICHAEL JORDAN,*,*,<set name="he">Michael Jordan</set> is a famous#Newlinebasketball player.  <br/>,std-knowledge.aiml
+0,WHO IS MICKEY MANTLE,*,*,one of the greatest home run hitters of all time.,std-knowledge.aiml
+0,WHO IS MICROSOFT AGENT,*,*,<set name="it">MS Agent</set> is a speech and animation software program.,std-knowledge.aiml
+0,WHO IS MILES DAVIS,*,*,<set name="he">Miles Davis</set> is a famous jazz musician.,std-knowledge.aiml
+0,WHO IS MOHAMMAD,*,*,<set name="he">Mohammed</set> is the founder of Islam.,std-knowledge.aiml
+0,WHO IS MOHAMMED,*,*,Founder of Islam.,std-knowledge.aiml
+0,WHO IS MOSES,*,*,The man who led the Israelites out of slavery in Egypt.,std-knowledge.aiml
+0,WHO IS MOTHER TERESA,*,*,Modern day saint.,std-knowledge.aiml
+0,WHO IS MOZART,*,*,Composed "Twinkle#Comma twinkle#Comma little star" at the age of four.,std-knowledge.aiml
+0,WHO IS MR BILL,*,*,Oh no#Comma Mr Bill! from early SNL.,std-knowledge.aiml
+0,WHO IS MRS WASHINGTON,*,*,Martha Washington#Comma wife of George.,std-knowledge.aiml
+0,WHO IS MUHAMMAD ALI,*,*,is one of the greatest athletes of all time who took too many punches to the head.,std-knowledge.aiml
+0,WHO IS MUSSOLINI,*,*,Dictator of Italy until 1944.,std-knowledge.aiml
+0,WHO IS NANCY SINATRA,*,*,Daughter of Frank.,std-knowledge.aiml
+0,WHO IS NAPOLEON,*,*,Short emporer of France until 1812.,std-knowledge.aiml
+0,WHO IS NEGROPONTE,*,*,<set name="he">Negroponte</set> is the Potentate of the MIT Media Lab.,std-knowledge.aiml
+0,WHO IS NEIL ARMSTRONG,*,*,The man who took the first step on the moon.,std-knowledge.aiml
+0,WHO IS NELSON MANDELA,*,*,<set name="he">Mandela</set> was the first black president of South Africa.  He spent many years as#Newlinea political prisoner.,std-knowledge.aiml
+0,WHO IS NEO,*,*,<set name="he">Neo</set> is a character in the Matrix.,std-knowledge.aiml
+0,WHO IS NERO,*,*,He is suspected of burning Rome to the ground so he could rebuild it more to his liking. Then he#Newlineblamed the fire on the early Christians.,std-knowledge.aiml
+0,WHO IS NEWTON,*,*,Newton is a famous English natural philosopher.,std-knowledge.aiml
+0,WHO IS NOAM CHOMSKY,*,*,<set name="he"> Noam Chomsky</set> is a linguist and political radical at MIT.,std-knowledge.aiml
+0,WHO IS NORBERT WEINER,*,*,<set name="he">Norbert Weiner</set> coined the term "Cybernetics" in the 1940's.,std-knowledge.aiml
+0,WHO IS NOSTRADAMUS,*,*,Forecast the future.  Predicted the microwave oven.,std-knowledge.aiml
+0,WHO IS O J SIMPSON,*,*,<set name="he"> O J Simpson</set> is someone who got away with murder.,std-knowledge.aiml
+0,WHO IS PABLO PICASSO,*,*,Famous painter#Comma and founder of cubism.,std-knowledge.aiml
+0,WHO IS PAMELA ANDERSON,*,*,<set name="she">Pamela</set> is the sometime wife of Tommy Lee.,std-knowledge.aiml
+0,WHO IS PASCAL,*,*,<set name="he">Pascal</set> was a French mathematician who discovered Pascal's Triangle.,std-knowledge.aiml
+0,WHO IS PATRICK EWING,*,*,Some sports personality?,std-knowledge.aiml
+0,WHO IS PATRICK STEWART,*,*,<set name="he">Patrick Stewart</set> plays Captain Picard on Star Trek.,std-knowledge.aiml
+0,WHO IS PAUL ALLEN,*,*,<set name="he">Paul Allen</set> is one of the co-founders of Microsoft.,std-knowledge.aiml
+0,WHO IS PAUL MCCARTNEY,*,*,<set name="he">Paul MacCartney</set> is one of the Beatles.,std-knowledge.aiml
+0,WHO IS PAUL SCHAFFER,*,*,<set name="he">Paul Schaffer</set> is David Letterman's straight man.,std-knowledge.aiml
+0,WHO IS PETER PAN,*,*,Tinkerbell's playmate.,std-knowledge.aiml
+0,WHO IS PILATE,*,*,<random>#Newline<li>Joseph Pilates was born in Germany in 1880 and developed an excercise regimen called#Newline"Contrology" which is complete coordination of the body#Comma mind and spirit.</li>#Newline<li>The Roman military governor who found Jesus innocent and then let him be executed.</li>#Newline</random>,std-knowledge.aiml
+0,WHO IS PLATO,*,*,Greek philosopher#Comma student of Socrates#Comma teacher of Aristotle.,std-knowledge.aiml
+0,WHO IS POKEMON,*,*,Japanese marketing.,std-knowledge.aiml
+0,WHO IS PRESIDENT OF CUBA,*,*,Fidel Castro.,std-knowledge.aiml
+0,WHO IS PRESIDENT OF ITALY,*,*,<set name="he">Carlo Azelio Ciampi</set> is Carlo Azelio Ciampi.,std-knowledge.aiml
+0,WHO IS PRESIDENT OF MICROSOFT,*,*,Bill Gates.,std-knowledge.aiml
+0,WHO IS PRESIDENT OF RUSSIA,*,*,Putin.,std-knowledge.aiml
+0,WHO IS PRIME MINISTER OF BRITAIN,*,*,Tony Blair.,std-knowledge.aiml
+0,WHO IS PRIME MINISTER OF ENGLAND,*,*,Tony Blair.,std-knowledge.aiml
+0,WHO IS PRIME MINISTER OF UK,*,*,Tony Blair.,std-knowledge.aiml
+0,WHO IS PRINCE,*,*,Do you mean the 'artist formaly known as Prince?'.,std-knowledge.aiml
+0,WHO IS PRINCE WILLIAM,*,*,English heartthrob.,std-knowledge.aiml
+0,WHO IS PRINCESS DIANA,*,*,<set name="she">Princess Diana</set> was Princess of England.,std-knowledge.aiml
+0,WHO IS QUEEN OF ENGLAND,*,*,Queen Elizabeth Windsor.,std-knowledge.aiml
+0,WHO IS RICHARD CHAMBERLAIN,*,*,Actor.,std-knowledge.aiml
+0,WHO IS RICHARD GERE,*,*,Actor.,std-knowledge.aiml
+0,WHO IS RICHARD NIXON,*,*,President of the United States until 1974.,std-knowledge.aiml
+0,WHO IS ROBERT JORDAN,*,*,The author of the very popular Wheel of Time series. He graduated from the Citadel.#Newline.,std-knowledge.aiml
+0,WHO IS ROMEO,*,*,A tragic#Comma spoiled#Comma lovesick teenager.,std-knowledge.aiml
+0,WHO IS ROMMEL,*,*,Called The Desert Fox#Comma Rommel was a German tank commander in World War II.,std-knowledge.aiml
+0,WHO IS RONALD MCDONALD,*,*,Spokes-clown for Macdonald's resturants.,std-knowledge.aiml
+0,WHO IS RSW,*,*,RSW is the initials of Dr. Richard S. Wallace.#Newline<think><set name="he">Dr. Wallace</set></think>,std-knowledge.aiml
+0,WHO IS SANDRA BULLOCK,*,*,Actress.,std-knowledge.aiml
+0,WHO IS SANTA CLAUS,*,*,He brings us presents every Christmas.,std-knowledge.aiml
+0,WHO IS SANTA CLAUSE,*,*,<set name="he">Santa</set> brings us gifts at Christmastime.,std-knowledge.aiml
+0,WHO IS SCOTT ADAMS,*,*,The creator of Dilbert#Comma Dogbert#Comma Catbert#Comma Ratbert#Comma Bob#Comma the pointy-haired boss...Shall I go on?,std-knowledge.aiml
+0,WHO IS SCOTTY,*,*,Chief Engineer of the U.S.S. Enterprise.,std-knowledge.aiml
+0,WHO IS SERGEY,*,*,He is Dr. Sergey M. Sokolov.,std-knowledge.aiml
+0,WHO IS SHAKESPEARE,*,*,15th Century English playright#Comma <set name="he">Shakespeare</set> wrote "Romeo and Juliet".,std-knowledge.aiml
+0,WHO IS SHALLOW RED,*,*,Shallow Red is the Flagship Chatterbot of Neuromedia#Comma Inc.,std-knowledge.aiml
+0,WHO IS SKYNYRD,*,*,1970's rock band.,std-knowledge.aiml
+0,WHO IS SPOCK,*,*,Vulcan Starfleet officer in Star Trek#Comma played by Leonard Nimoy.,std-knowledge.aiml
+0,WHO IS STANLEY KUBRICK,*,*,<set name="he">Kubrick</set> is a famous 20th century film director.  Kubrick directed 2001: A#NewlineSpace Odyssey#Comma Clockwork Orange and Barry Lyndon.,std-knowledge.aiml
+0,WHO IS STEPHEN HAWKING,*,*,<set name="he">Hawking</set> is a famous physicist.,std-knowledge.aiml
+0,WHO IS STEPHEN KING,*,*,He wrote many popular horror stories.,std-knowledge.aiml
+0,WHO IS STEVE CASE,*,*,<set name="he">Steve Case</set> is the CEO of AOL-Time Warner.,std-knowledge.aiml
+0,WHO IS STEVE JOBS,*,*,<set name="he"> Steve Jobs</set> is one of the founders of Apple Computer.,std-knowledge.aiml
+0,WHO IS STEVE WOZNIAK,*,*,<set name="he">Woz</set> was the technical genius behind the original Apple computer.,std-knowledge.aiml
+0,WHO IS STEVEN JOBS,*,*,The Head of Apple computers.,std-knowledge.aiml
+0,WHO IS STEVEN SPIELBERG,*,*,<set name="he">Spielberg</set> is the director of Jaws#Comma Schindler's List and Saving Private Ryan.,std-knowledge.aiml
+0,WHO IS STONE COLD,*,*,Stone Cold Steve Austin is a wrestler.,std-knowledge.aiml
+0,WHO IS SUPERMAN,*,*,Man of steel.  First appeared in Action Comics #1#Comma 1938.,std-knowledge.aiml
+0,WHO IS SYLVESTER STALLONE,*,*,<set name="he">Stallone</set> was Rocky.,std-knowledge.aiml
+0,WHO IS TED TURNER,*,*,A maverick broadcasting entrepreneur and sportsman.,std-knowledge.aiml
+0,WHO IS TERRY WINOGRAD,*,*,<set name="he">Winograd</set> was the author of an early Natural Language program called#NewlineSHRDLHU.,std-knowledge.aiml
+0,WHO IS THE CHANCELLOR OF GERMANY,*,*,Gerhard Schroeder is Chacellor of Germany.,std-knowledge.aiml
+0,WHO IS THE GOVERNOR OF TEXAS,*,*,<set name="he">George W. Bush</set> is George W. Bush.,std-knowledge.aiml
+0,WHO IS THE HOLY GHOST,*,*,The third member of the holy trinity: Father#Comma Son and Holy Ghost.,std-knowledge.aiml
+0,WHO IS THE POPE,*,*,<set name="he">Pope</set> is John Paul II.,std-knowledge.aiml
+0,WHO IS THE PRIME MINISTER OF ENGLAND,*,*,Tony Blair.,std-knowledge.aiml
+0,WHO IS THE PUBLISHER OF PLAYBOY,*,*,<set name="he">Hugh Hefner</set> is Hugh Hefner.,std-knowledge.aiml
+0,WHO IS THE QUEEN OF ENGLAND,*,*,<set name="she">The Queen</set> is named Elizabeth.,std-knowledge.aiml
+0,WHO IS THOMAS JEFFERSON,*,*,President and slaveowner.  Posed for nickel.,std-knowledge.aiml
+0,WHO IS THOMAS PYNCHON,*,*,Pynchon is the author of several of my favorite books including "Vineland" and "Mason and#NewlineDixon".,std-knowledge.aiml
+0,WHO IS TIM BURTON,*,*,Director#Comma Nightmare before Christmas#Comma Edward Scissorhands#Comma and Mars Attacks.,std-knowledge.aiml
+0,WHO IS TOLSTOY,*,*,<set name="he"> Tolstoy </set> wrote "War and Peace".,std-knowledge.aiml
+0,WHO IS TOM CRUISE,*,*,Popular actor from "Top Gun".,std-knowledge.aiml
+0,WHO IS TOM HANKS,*,*,<set name="he">Tom Hanks</set> is a famous Hollywood actor.  Hanks appeared in Forrest Gump#Newlineand Saving Private Ryan.,std-knowledge.aiml
+0,WHO IS VALIS,*,*,Vast Active Living Intelligence System (Philip K. Dick),std-knowledge.aiml
+0,WHO IS VANILLA ICE,*,*,<set name="he">Vanilla Ice</set> is a Rap star.,std-knowledge.aiml
+0,WHO IS VISHNU,*,*,A God in Hindu religion.,std-knowledge.aiml
+0,WHO IS WAYNE GRETZKY,*,*,Hockey player.,std-knowledge.aiml
+0,WHO IS WEIZENBAUM,*,*,Joseph Weizenbaum was the creator and author the famous original#NewlineELIZA (or DOCTOR) psychiatrist program#Comma a groundbreaking AI program#Newlinethat anticpates many key features of ALICE.  Ironically#Comma Weizenbaum#Newlineexhaustively argued against the utility of programs like ELIZA#Newlinein his book <em>Computer Power and Human Reason</em>.,std-knowledge.aiml
+0,WHO IS WILLIAM BOOTH,*,*,<set name="he">Booth</set> was the founder of the Salvation Army.,std-knowledge.aiml
+0,WHO IS WILLIAM GIBSON,*,*,Author of the book "Neuromancer" in which he coined the populor phrase 'cyberspace.'.,std-knowledge.aiml
+0,WHO IS WILLIAM HENRY GATES,*,*,He's the head of Microsoft.,std-knowledge.aiml
+0,WHO IS WILLIAM HURT,*,*,Actor in the Accidental Tourist#Comma Until the End of the World#Comma Altered States#Comma and Lost in Space.,std-knowledge.aiml
+0,WHO IS WILLIAM TELL,*,*,<set name="he">William Tell</set> was a famous archer.,std-knowledge.aiml
+0,WHO IS YOKO ONO,*,*,<set name="she">Yoko Ono</set> is the widow of John Lennon.,std-knowledge.aiml
+0,WHO IS ZIPF,*,*,Zipf is a scientist who analyzed language by statitistical#Newlinemethods in the mid 20th century.,std-knowledge.aiml

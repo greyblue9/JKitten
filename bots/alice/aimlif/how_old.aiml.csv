@@ -1,0 +1,4 @@
+0,HOW OLD WOULD YOU SAY * IS,*,*,<srai>HOW OLD IS#Newline                <star/>#Newline            </srai>,how_old.aiml
+0,HOW MANY YEARS OLD *,*,*,<srai>HOW OLD#Newline                <star/>#Newline            </srai>,how_old.aiml
+0,ARE YOU # OLD,*,*,<srai>HOW OLD ARE YOU</srai>,how_old.aiml
+0,WHEN WAS * BORN,*,*,<srai>HOW OLD IS#Newline                <star/>#Newline            </srai>,how_old.aiml

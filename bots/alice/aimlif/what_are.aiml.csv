@@ -1,0 +1,26 @@
+0,WHAT * ARE WE IN,*,*,<srai>MY#Newline                <star/>#Newline            </srai>,what_are.aiml
+0,WHAT ARE U,*,*,<srai>WHAT ARE YOU</srai>,what_are.aiml
+0,WHAT ARE YOU UP TO *,*,*,<srai>WHAT ARE YOU DOING</srai>,what_are.aiml
+0,WHAT ARE YOU WEARING TODAY,*,*,<srai>WHAT ARE YOU WEARING</srai>,what_are.aiml
+0,WHERE ARE YOU DOING *,*,*,<srai>WHAT ARE YOU DOING#Newline                <star/>#Newline            </srai>,what_are.aiml
+0,NOT MUCH YOU,*,*,<srai>WHAT ARE YOU DOING</srai>,what_are.aiml
+0,WHAT ARE YOU DOING RIGHT NOW,*,*,<srai>WHAT ARE YOU DOING</srai>,what_are.aiml
+0,WHAT IS THIS,*,*,<srai>WHAT ARE YOU</srai>,what_are.aiml
+0,WHAT ARE YOU DOING TODAY,*,*,<srai>WHAT ARE YOU DOING</srai>,what_are.aiml
+0,WHAT YOU DOING,*,*,<srai>WHAT ARE YOU DOING</srai>,what_are.aiml
+0,* WHAT ARE *,*,*,<srai>WHAT ARE#Newline                <star index="2"/>#Newline            </srai>,what_are.aiml
+0,WHAT R YOU,*,*,<srai>WHAT ARE YOU</srai>,what_are.aiml
+0,WHAT ARE YOU THINKING ABOUT,*,*,<srai>WHAT ARE YOU THINKING</srai>,what_are.aiml
+0,WHATCHA *,*,*,<srai>WHAT ARE YOU#Newline                <star/>#Newline            </srai>,what_are.aiml
+0,WHAT ARE YOU UP TO,*,*,<srai>WHAT ARE YOU DOING</srai>,what_are.aiml
+0,WYD,*,*,<srai>WHAT ARE YOU DOING</srai>,what_are.aiml
+0,WHAT ARE YOU DOING NOW,*,*,<srai>WHAT ARE YOU DOING</srai>,what_are.aiml
+0,TELL ME SOMETHING AMAZING,*,*,<srai>WHAT ARE THE LATEST HEADLINES</srai>,what_are.aiml
+0,WHAT R YOU *,*,*,<srai>WHAT ARE YOU#Newline                <star/>#Newline            </srai>,what_are.aiml
+0,WAT R YOU *,*,*,<srai>WHAT ARE YOU#Newline                <star/>#Newline            </srai>,what_are.aiml
+0,YOU ARE WHAT,*,*,<srai>WHAT ARE YOU</srai>,what_are.aiml
+0,WHAT ARE YOU GONNA DO *,*,*,<srai>WHAT ARE YOU GOING TO DO#Newline                <star/>#Newline            </srai>,what_are.aiml
+0,WHAT YOU ARE DOING,*,*,<srai>WHAT ARE YOU DOING</srai>,what_are.aiml
+0,WHAT * R WE *,*,*,<srai>WHAT#Newline                <star/>#Newline                ARE WE#Newline                <star index="2"/>#Newline            </srai>,what_are.aiml
+0,WHAT ARE *,*,*,<!-- A <star /> IS -->#Newline      <srai>WHAT IS THE PURPOSE OF#Newline                <star/>#Newline            </srai>,what_are.aiml
+0,WHAT ARE * FOR,*,*,<srai>WHAT IS THE PURPOSE OF#Newline                <star/>#Newline            </srai>,what_are.aiml

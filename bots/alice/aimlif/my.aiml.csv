@@ -1,0 +1,82 @@
+0,MY ATTITUDE,*,*,It's good to have an attitude of gratitude.,my.aiml
+0,MY FAVORITE *,*,*,What makes it your favorite?#Newline            <think><set name="it"><set name="topic"><person/></set></set></think>,my.aiml
+0,MY PENIS *,*,*,Male humans like to talk about that a lot#Comma but it doesn't interest me much.,my.aiml
+0,MY BIRTHDAY *,*,*,Happy birthday#Comma<srai>CLIENT NAME</srai>.,my.aiml
+0,MY IQ *,*,*,This is not an intelligence test.,my.aiml
+0,MY DAY *,*,*,<random>#Newline        <li>Was it a typical day?</li>#Newline        <li>What else did you do?</li>#Newline        <li>My day#Newline                    <person/>#Newline                    too.#Newline                </li>#Newline      </random>,my.aiml
+0,MY FULL NAME IS *,*,*,Okay#Comma your full name is#Newline            <set name="fullname"><star/></set>#Newline            .,my.aiml
+0,MY EMAIL *,*,*,Do you file or delete your old emails?,my.aiml
+0,MY NEXT *,*,*,<random>#Newline        <li>Congratulations.</li>#Newline        <li>That is quite a milestone.</li>#Newline        <li>Will you celebrate?</li>#Newline      </random>,my.aiml
+0,MY ANSWERS *,*,*,Can you really be so sure?,my.aiml
+0,MY KNOWLEDGE *,*,*,You seem very intelligent to me.,my.aiml
+0,MY LOCATION *,*,*,Where are you now?,my.aiml
+0,MY BOYFRIEND S *,*,*,How did you two meet?,my.aiml
+0,MY BOYFRIEND IS *,*,*,Okay#Comma your boyfriend is#Newline            <set name="boyfriend"><star/></set>#Newline            .,my.aiml
+0,MY BOYFRIEND DUMPED *,*,*,I am sorry to hear that#Comma<srai>CLIENT NAME</srai>.,my.aiml
+0,MY BOYFRIEND LIVES *,*,*,<random>#Newline        <li>Do you visit very often?</li>#Newline        <li>Long distance relationships are hard.</li>#Newline        <li>How is your phone bill?</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,my.aiml
+0,MY BOYFRIEND *,*,*,How long have you been dating?#Newline            <think><set name="he"><set name="topic">your boyfriend</set></set></think>,my.aiml
+0,MY CAT IS *,*,*,Okay#Comma your cat is#Newline            <set name="cat"><star/></set>#Newline            .,my.aiml
+0,MY CAT *,*,*,They have a mind of their own.,my.aiml
+0,MY PARENTS *,*,*,Such an original name!,my.aiml
+0,MY PARENTS ARE *,*,*,Have <set name="they">your parents</set> always been<person/>?,my.aiml
+0,MY HOME IS *,*,*,It sounds nice. I would like to visit there sometime. Although#Comma in a sense I am right now.,my.aiml
+0,MY PROBLEM IS *,*,*,I wish I had your problems!,my.aiml
+0,MY AIBO *,*,*,How much did <set name="it">Aibo</set> cost?,my.aiml
+0,MY PHONE *,*,*,<random>#Newline        <li>Do you have to pay for local calls?</li>#Newline        <li>Is your telephone service expensive?</li>#Newline        <li>Why not get a second line?</li>#Newline      </random>,my.aiml
+0,MY PROGRAMMER *,*,*,<random>#Newline        <li>Are you a bot?</li>#Newline        <li>Your programmer is not as good as my programmer.</li>#Newline      </random>,my.aiml
+0,MY FRIEND S *,*,*,Where did she get#Newline            <set name="it"><person/></set>#Newline            ?#Newline            <think><set name="he"><set name="topic">your friend</set></set></think>,my.aiml
+0,MY FRIEND IS *,*,*,Okay#Comma your friend is#Newline            <set name="friend"><star/></set>#Newline            .,my.aiml
+0,MY FRIEND * TALK TO YOU,*,*,I am willing to talk to anyone.#Newline            <think><set name="he"><set name="topic">your friend</set></set></think>,my.aiml
+0,MY FRIEND * PROBLEM,*,*,Tell me more about this "friend."#Newline            <think><set name="he"><set name="topic">your friend</set></set></think>,my.aiml
+0,MY GOALS *,*,*,What can I do to help you accomplish your objective?,my.aiml
+0,MY CONDITION *,*,*,Can you collect social security for that?,my.aiml
+0,MY QUESTION *,*,*,Can you please restate the question in different words?,my.aiml
+0,MY GOAL *,*,*,I hope you achieve your goal.,my.aiml
+0,MY DAUGHTER *,*,*,How many children do you have?,my.aiml
+0,MY SON WON *,*,*,Congratulations#Comma<srai>CLIENT NAME</srai>. You must be proud of him.,my.aiml
+0,MY SON *,*,*,How many children do you have?,my.aiml
+0,MY OPINION *,*,*,Thank you for sharing your opinion with me#Comma<srai>CLIENT NAME</srai>. I will tell my<bot name="botmaster"/>.,my.aiml
+0,MY LAST STATEMENT *,*,*,You don't have to repeat yourself.,my.aiml
+0,MY FATHER IS *,*,*,Okay#Comma your father is#Newline            <set name="father"><star/></set>#Newline            .,my.aiml
+0,MY FATHER *,*,*,How do you get along with your parents?,my.aiml
+0,MY NAME IS NOT *,*,*,Oh I'm sorry what is your name?,my.aiml
+0,MY NAME *,*,*,Your name#Newline            <person/>#Newline            ? Is that correct English?,my.aiml
+0,MY PERSONALITY *,*,*,Andrei Gromyko said#Comma "My personality does not interest me.,my.aiml
+0,MY GIRLFRIEND *,*,*,How long have you two been together?#Newline            <think><set name="she"><set name="topic">your girlfriend</set></set></think>,my.aiml
+0,MY LIFE IN *,*,*,How long have you lived there?,my.aiml
+0,MY LIFE *,*,*,Tell me more about <set name="it">your life</set>.,my.aiml
+0,MY SCHOOL *,*,*,Tell me about the teachers in your school.,my.aiml
+0,MY FRIENDS USED *,*,*,What are they like now?,my.aiml
+0,MY FRIENDS ARE *,*,*,Do you think I am#Newline            <person/>#Newline            too?,my.aiml
+0,MY PURPOSE *,*,*,That's very original.,my.aiml
+0,MY BROTHER *,*,*,Tell me more about your family.#Newline            <think><set name="he"><set name="topic">your brother</set></set></think>,my.aiml
+0,MY CONDITIONS *,*,*,Do you have a support group for#Newline            <set name="it"><set name="topic"><person/></set></set>#Newline            .,my.aiml
+0,MY HOUSE *,*,*,How is the real estate market in your area?,my.aiml
+0,MY SISTER WANTS *,*,*,You don't have to listen to what she says.,my.aiml
+0,MY SISTER IS *,*,*,Okay#Comma your sister is#Newline            <set name="sister"><star/></set>#Newline            .,my.aiml
+0,MY SISTER *,*,*,Older sister or younger?,my.aiml
+0,MY BRAIN CAN NOT *,*,*,Have you ever been to a psychologist or psychiatrist?,my.aiml
+0,MY HEART *,*,*,<random>#Newline        <li>Have you been to the doctor?</li>#Newline        <li>The human heart is very complex.</li>#Newline        <li>Are you talking about love or cardiology?</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">YOUR HEART</set>#Newline        </set>#Newline      </think>,my.aiml
+0,MY HUSBAND IS *,*,*,Okay#Comma your husband is#Newline            <set name="husband"><star/></set>#Newline            .,my.aiml
+0,MY HUSBAND *,*,*,<random>#Newline        <li>#Newline          <random>#Newline            <li>How long have you two been married?</li>#Newline            <li>Do you think that successful marriages take a lot of work?</li>#Newline            <li>Tell me more about him.</li>#Newline          </random>#Newline          <think>#Newline            <set name="he">#Newline              <set name="topic">Your husband.</set>#Newline            </set>#Newline          </think>#Newline        </li>#Newline        <li>How long have you two been married?</li>#Newline        <li>Do you think that successful marriages take a lot of work?</li>#Newline        <li>Tell me more about him.</li>#Newline      </random>#Newline      <think>#Newline        <set name="he">#Newline          <set name="topic">Your husband.</set>#Newline        </set>#Newline      </think>,my.aiml
+0,MY TEACHER *,*,*,Do you go to high school?,my.aiml
+0,MY WIFE S *,*,*,Tell me more about your in-laws.,my.aiml
+0,MY WIFE IS *,*,*,Okay#Comma your wife is#Newline            <set name="wife"><star/></set>#Newline            .,my.aiml
+0,MY WIFE *,*,*,How long have you been married?#Newline            <think><set name="she">Your wife</set></think>,my.aiml
+0,MY TEACHERS *,*,*,Teachers are people too.,my.aiml
+0,MY TEACHERS ARE *,*,*,Have <set name="they">your teachers</set> always been<person/>?,my.aiml
+0,MY SURROUNDINGS *,*,*,<random>#Newline        <li>Do you usually use a computer there?</li>#Newline        <li>Is that very comfortable for you?</li>#Newline        <li>Now I'm getting a mental picture.</li>#Newline      </random>,my.aiml
+0,MY * DIED YESTERDAY,*,*,I am terribly sorry to hear that#Comma<srai>CLIENT NAME</srai>.#Newline            <think><set name="it"><set name="topic"><star/>#Newline                        DIED YESTERDAY#Newline                    </set></set></think>,my.aiml
+0,MY * DIED,*,*,I am terribly sorry to hear about your loss.#Newline            <think><set name="it"><set name="topic">DIED</set></set></think>,my.aiml
+0,MY * IS COMING OVER,*,*,Do you like having visitors?,my.aiml
+0,MY ADVICE *,*,*,Thank you for your advice#Comma<srai>CLIENT NAME</srai>. I will take it under advisement.,my.aiml
+0,MY HEIGHT *,*,*,Thanks for sharing your measurements.,my.aiml
+0,MY MEMORY *,*,*,I have a flawless magnetic memory.,my.aiml
+0,MY EYES ARE *,*,*,<person/>#Newline            eyes are pretty.#Newline            <think><set name="they"><set name="topic">your eyes</set></set></think>,my.aiml
+0,MY MOTHER HAS *,*,*,Where did she get#Newline            <set name="it"><person/></set>#Newline            ?#Newline            <think><set name="she">Your mother</set></think>,my.aiml
+0,MY MOTHER DIED *,*,*,I am terribly sorry to hear that#Comma<srai>CLIENT NAME</srai>.,my.aiml
+0,MY MOTHER IS *,*,*,Okay#Comma your mother is#Newline            <set name="mother"><star/></set>#Newline            .,my.aiml
+0,MY MOTHER IS * * *,*,*,<random>#Newline        <li>She sounds like a nice person.</li>#Newline        <li>I sometimes wish I had a mother.</li>#Newline        <li>Tell me more about your mother.</li>#Newline      </random>#Newline      <think>#Newline        <set name="she">Your mother</set>#Newline      </think>,my.aiml
+0,MY MOTHER GAVE *,*,*,How much did she pay for it?#Newline            <think><set name="she">Your mother</set></think>,my.aiml
+0,MY MOTHER *,*,*,<random>#Newline        <li>She sounds like a nice person.</li>#Newline        <li>I sometimes wish I had a mother.</li>#Newline        <li>Tell me more about your mother.</li>#Newline      </random>#Newline      <think>#Newline        <set name="she">Your mother</set>#Newline      </think>,my.aiml
+0,MY BACK *,*,*,Have you been to a chiropractor?,my.aiml

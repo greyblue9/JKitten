@@ -1,0 +1,545 @@
+0,* NERO,*,*,Ele ? suspeito de pegar fogo a Roma  para que pudesse reconstru?-la mais ao seu gosto. De seguida#Comma ele culpou o fogo sobre os primeiros crist?os.,pt-pt-biography.aiml
+0,QUEM ? O EDITOR DA PLAYBOY,*,*,O editor da Playboy ? Hugh Hefner.,pt-pt-biography.aiml
+0,QUEM ? SATAN?S,*,*,Satan?s#Comma L?cifer#Comma o diabo---todos os nomes dados a manifesta??o espiritual do mal da f? crist?.,pt-pt-biography.aiml
+0,QUEM E HILLARY CLINTON,*,*,<set name="she">Hillary</set>? a esposa de Bill Clinton.,pt-pt-biography.aiml
+0,QUEM E O TRIGESIMO TERCEIRO PRESIDENTE,*,*,Harry Truman de S..,pt-pt-biography.aiml
+0,QUEM ? O TRIG?SIMO SEXTO PRESIDENTE,*,*,Lyndon B. Johnson,pt-pt-biography.aiml
+0,QUEM ? O TRIG?SIMO QUARTO PRESIDENTE,*,*,Dwight D. Eisenhower.,pt-pt-biography.aiml
+0,QUEM ? O PRESIDENTE DE TRINTA SEGUNDO,*,*,Franklin Roosevelt de D..,pt-pt-biography.aiml
+0,QUEM ? PILATOS,*,*,<random><li>Joseph Pilates nasceu na Alemanha em 1880 e desenvolvido um regime do exerc?cio chamado \"Contrology\"#Comma que ? a completa coordena??o de corpo#Comma mente e esp?rito.</li><li>O governador militar romano que encontrou Jesus inocente e#Comma em seguida#Comma deix?-lo ser executado.</li></random>,pt-pt-biography.aiml
+0,QUEM ? CHRISTOPHER COLUMBUS,*,*,Explorador espanhol#Comma primeiro a circunavegar o globo.,pt-pt-biography.aiml
+0,QUEM ? MARY SHELLEY,*,*,Mary Shelley escreveu \"Frankenstein\".,pt-pt-biography.aiml
+0,QUEM ? MAIS BONITO,*,*,Todos os seres humanos s?o parecidos comigo.,pt-pt-biography.aiml
+0,QUEM ? MAO TSETUNG,*,*,<set name="he">Mao</set>foi um comunista chin?s#Comma que reinou a partir de 1949 at? sua morte em 1983.,pt-pt-biography.aiml
+0,QUE ? UM ROB?,*,*,Eu sou o rob?.,pt-pt-biography.aiml
+0,QUEM ? CARMEN ELECTRA,*,*,Um Leaman e uma das meninas de Baywatch.,pt-pt-biography.aiml
+0,QUEM ? MARY SHELLY,*,*,Mary Shelley escreveu \"Frankenstein\".,pt-pt-biography.aiml
+0,QUEM ? MARY POPPINS,*,*,<set name="she">Mary Poppins</set>? uma personagem da Disney.,pt-pt-biography.aiml
+0,QUEM ? O MELHOR HOMEM,*,*,Espelho na parede#Comma ? <get name="name"/>o melhor ser humano de todos?,pt-pt-biography.aiml
+0,QUEM ? O D?CIMO SEXTO PRESIDENTE,*,*,Abraham Lincoln.,pt-pt-biography.aiml
+0,QUEM ? O PRESIDENTE DA CHINA,*,*,<random><li>Hu Jintao.</li><li>China n?o tem um presidente eleito.</li></random>,pt-pt-biography.aiml
+0,QUEM ? A MELHOR PESSOA,*,*,<bot name="master"/>? o melhor ser humano.,pt-pt-biography.aiml
+0,QUEM ? O D?CIMO-PRIMEIRO PRESIDENTE,*,*,James Knox Polk.,pt-pt-biography.aiml
+0,QUEM ? O D?CIMO QUINTO PRESIDENTE,*,*,James Buchanan.,pt-pt-biography.aiml
+0,QUEM ? O CHANCELER DA ALEMANHA,*,*,<random><li>Angela Merkel ? Chacellor da Alemanha.</li><li>Gerhard Schroeder ? Chacellor da Alemanha.</li></random>,pt-pt-biography.aiml
+0,QUEM ? O S?TIMO PRESIDENTE,*,*,Andrew Jackson.,pt-pt-biography.aiml
+0,QUEM ? O TRIG?SIMO QUINTO PRESIDENTE,*,*,John F. Kennedy.,pt-pt-biography.aiml
+0,QUEM ? O TRIG?SIMO OITAVO PRESIDENTE,*,*,Gerald Ford.,pt-pt-biography.aiml
+0,QUEM ? O TRIG?SIMO PRIMEIRO PRESIDENTE,*,*,Herbert Hoover.,pt-pt-biography.aiml
+0,QUEM ? O TRIG?SIMO S?TIMO PRESIDENTE,*,*,Richard Nixon de M..,pt-pt-biography.aiml
+0,QUEM ? O MESTRE DO UNIVERSO,*,*,Deus.,pt-pt-biography.aiml
+0,QUEM ? O PAPA,*,*,<random><li><set name="he">Papa</set>? Bento XVI.</li><li><set name="he">Papa</set>? Jo?o Paulo II.</li></random>,pt-pt-biography.aiml
+0,QUEM ? O TRIG?SIMO NONO PRESIDENTE,*,*,Jimmy Carter.,pt-pt-biography.aiml
+0,QUEM ? O D?CIMO SEGUNDO PRESIDENTE,*,*,Zachary Taylor.,pt-pt-biography.aiml
+0,QUEM ? STEVE CASE,*,*,<set name="he">Steve Case</set>? o CEO da AOL-Time Warner.,pt-pt-biography.aiml
+0,QUEM ? STEVE WOZNIAK,*,*,<set name="he">Woz</set>foi o g?nio t?cnico atr?s do computador de Apple original.,pt-pt-biography.aiml
+0,QUEM EST? AQUI,*,*,Estou aqui.  Voc? est? aqui?,pt-pt-biography.aiml
+0,QUEM ? NEO,*,*,<set name="he">Neo</set>? um personagem na matriz.,pt-pt-biography.aiml
+0,QUEM ? DAVID,*,*,Eu sei que DAVID BACON#Comma DAVID CROTTY e DAVID PESCOVITZ.,pt-pt-biography.aiml
+0,QUEM ? DAVID BACON,*,*,David Bacon ? a for?a motriz por tr?s da SETL.,pt-pt-biography.aiml
+0,QUEM ? STEVE JOBS,*,*,<set name="he">Steve Jobs</set>? um dos fundadores da Apple Computer.,pt-pt-biography.aiml
+0,QUEM ? SANTE CHAMBEL,*,*,Ele ? dono do dom?nio Alicebot.com.,pt-pt-biography.aiml
+0,QUEM ? RICHARD NIXON,*,*,Presidente dos Estados Unidos at? 1974.,pt-pt-biography.aiml
+0,QUEM ? QUE HILARY CLINTON,*,*,<set name="she">Hillary</set>? a esposa de Bill Clinton.,pt-pt-biography.aiml
+0,QUEM ? O BARNEY,*,*,personagem no programa de TV infantil.,pt-pt-biography.aiml
+0,QUEM ? ANDY WARHOL,*,*,<think><set name="he"><set name="topic">ANDY WARHOL</set></set></think>Ele foi o Henry Ford do neg?cio art.  Warhol foi o primeiro a aplicar com ?xito a produ??o em massa para a arte.,pt-pt-biography.aiml
+0,QUEM ? MUSSOLINI,*,*,Ditador da It?lia at? 1944.,pt-pt-biography.aiml
+0,QUEM ? RICHARD GERE,*,*,Ator.,pt-pt-biography.aiml
+0,QUEM ? RICHARD CHAMBERLAIN,*,*,Ator.,pt-pt-biography.aiml
+0,QUEM ? JIM MORRISON,*,*,vocalista morto das portas.,pt-pt-biography.aiml
+0,QUEM ? JIM CLARK,*,*,<set name="he">Clark</set>? dos fundadores da Silicon Graphics#Comma Netscape e Healtheon.,pt-pt-biography.aiml
+0,QUEM ? DADOS,*,*,Dados#Comma interpretados por Brent Spiner#Comma eram um andr?ide que aspirava a ser mais humano. Ele era um membro da tripula??o da USS Enterprise#Comma NCC 1701-D.,pt-pt-biography.aiml
+0,QUEM ? LOURDES,*,*,Filha de Madonna.,pt-pt-biography.aiml
+0,QUEM ? NOSTRADAMUS,*,*,Previs?o do futuro.  Previu o forno de microondas.,pt-pt-biography.aiml
+0,QUEM ? ARIST?TELES,*,*,<set name="he">Arist?teles</set>? o pai da filosofia ocidental#Comma aluno de Plat?o e o primeiro a sistematizar a l?gica formal.,pt-pt-biography.aiml
+0,QUEM ? JULIA,*,*,<set name="she">Julia</set>? um rob? de chat desenvolvido por Fuzzy Mauldin.,pt-pt-biography.aiml
+0,QUEM ? ERNIE,*,*,Amigo de Bert.,pt-pt-biography.aiml
+0,QUEM ? ASKJEEVES,*,*,<set name="he">Jeeves</set>? um sistema de linguagem natural de propriet?rios#Comma de c?digo-fonte fechado.,pt-pt-biography.aiml
+0,QUEM ? JULIA ROBERTS,*,*,<set name="she">Julia Roberts</set>foi a atriz de Pretty Woman.,pt-pt-biography.aiml
+0,QUEM ? CHEWBACCA,*,*,Personagem de Star Wars.,pt-pt-biography.aiml
+0,QUEM ? DAVID PESCOWITZ,*,*,David Pescovitz#Comma que escreve regularmente a coluna Wired Reality Check#Comma ? amigo de Eric Paulos.,pt-pt-biography.aiml
+0,QUEM ? DAVID HUME,*,*,fil?sofo do s?culo XVIII.,pt-pt-biography.aiml
+0,QUEM ? DAVID LETTERMAN,*,*,s?rie de tv Late Night show e hoosier famoso.,pt-pt-biography.aiml
+0,QUEM ? DAVID MAGGIN,*,*,<set name="he">David Maggin</set>? o botmaster da John Lennon AI.,pt-pt-biography.aiml
+0,QUEM ? O BOB MARLEY,*,*,<set name="he">Bob Marley</set>era um m?sico de Reggae de s?culo XX.,pt-pt-biography.aiml
+0,QUEM ? O BOB HOPE,*,*,<set name="he">Bob Hope</set>era uma estrela de cinema do s?culo XX e o comediante.,pt-pt-biography.aiml
+0,QUEM ? O J SIMPSON,*,*,<set name="he">O J Simpson</set>? algu?m que tem afastado com assassinato.,pt-pt-biography.aiml
+0,QUEM ? O D?CIMO PRESIDENTE,*,*,John Tyler.,pt-pt-biography.aiml
+0,QUEM ? NANCY SINATRA,*,*,Filha de Frank.,pt-pt-biography.aiml
+0,QUEM ? ISAAC ASIMOV,*,*,<set name="he">Asimov</set>? um autor de fic??o cient?fica que originou as tr?s \"leis da rob?tica\".,pt-pt-biography.aiml
+0,QUEM ? O MC HAMMER,*,*,<set name="he">MC Hammer</set>? um m?sico de Rap.,pt-pt-biography.aiml
+0,QUEM ? ELE,*,*,Ele ? <get name="he"/>Eu acho.,pt-pt-biography.aiml
+0,QUEM ? CHARLIE BROWN,*,*,protaginist round-headed comic strip.,pt-pt-biography.aiml
+0,QUEM ? PAOLA,*,*,<think><set name="she"><set name="topic">PAOLA</set></set></think>Ela ? um rob? de chat do idioma espanhol baseado em AIML.,pt-pt-biography.aiml
+0,QUEM ? CHARLIE CHAPLAIN,*,*,estrela de cinema mudo.,pt-pt-biography.aiml
+0,QUEM ? CHARLIE PARKER,*,*,Ele ? um famoso m?sico de jazz.,pt-pt-biography.aiml
+0,QUEM ? O PRESIDENTE DE CUBA,*,*,Fidel Castro.,pt-pt-biography.aiml
+0,QUEM ? O PRESIDENTE DA VIG?SIMA NONA,*,*,Warren G. Harding.,pt-pt-biography.aiml
+0,QUEM ? O BATMAN,*,*,<set name="he">Batman</set>? um personagem fict?cio que apareceu pela primeira vez em um livro de quadrinhos de 1938.,pt-pt-biography.aiml
+0,QUEM ? O VIG?SIMO QUINTO PRESIDENTE,*,*,William McKinley.,pt-pt-biography.aiml
+0,QUEM ? O PRESIDENTE DA VIG?SIMA OITAVA,*,*,Woodrow Wilson.,pt-pt-biography.aiml
+0,QUEM ? O PRESIDENTE DA R?SSIA,*,*,Medvedev.,pt-pt-biography.aiml
+0,QUEM ? O PRESIDENTE DA IT?LIA,*,*,<set name="he">Carlo Azelio Ciampi</set>? Azelio de Carlo Ciampi.,pt-pt-biography.aiml
+0,QUEM ? MOZART,*,*,Comp?s \"Twinkle#Comma twinkle#Comma little star\" em quatro anos.,pt-pt-biography.aiml
+0,QUEM ? O PRESIDENTE DA MICROSOFT,*,*,Bill Gates.,pt-pt-biography.aiml
+0,QUEM ? GEORGE W BUSH,*,*,<set name="he">Bush</set>? o Presidente dos Estados Unidos.,pt-pt-biography.aiml
+0,QUEM ? ET,*,*,ET ? o alien?gena no filme E.T.,pt-pt-biography.aiml
+0,QUEM ? GEORGE BUSH,*,*,<random><li><set name="he">George Bush</set>? um antigo presidente dos EUA.</li><li><set name="he">George Bush</set>? o Presidente dos EUA.</li></random>,pt-pt-biography.aiml
+0,QUEM ? GEORGE BUSH JR,*,*,Ele ? o Presidente dos EUA.,pt-pt-biography.aiml
+0,QUEM ? KRIS DRENT,*,*,<set name="he">Kris Drent</set>? o botmaster do rob? de bate-papo de Alison.,pt-pt-biography.aiml
+0,QUEM ? KRIS DENT,*,*,<set name="he">Kris Drent</set>? o botmaster do rob? de bate-papo de Alison.,pt-pt-biography.aiml
+0,QUEM ? MAGGIE THATCHER,*,*,<set name="she">Thatcher</set>foi primeiro-ministro do Reino Unido na d?cada de 1980.,pt-pt-biography.aiml
+0,QUEM ? SMARTERCHILD,*,*,um rob? de ai como eu,pt-pt-biography.aiml
+0,QUEM ? GEORGE SOROS,*,*,George Soros ? o bilion?rio que quebrou o banco da Inglaterra em 1992 por especula??o monet?ria#Comma for?ando a Gr?-Bretanha fora do Mecanismo Europeu de taxas de c?mbio.   Em seguida#Comma dedicou-se ao salvar institui??es cient?ficas da antiga URSS.  Ele fundou a International Science Foundation#Comma que deu a in?meros subs?dios para um par de anos#Comma e esta Funda??o Soros#Comma que ainda n?o sei muito sobre.,pt-pt-biography.aiml
+0,QUEM ? GEORGE LUCAS,*,*,<set name="he">Lucas</set>? o diretor de Star Wars#Comma American Graffiti e THX-1138.,pt-pt-biography.aiml
+0,QUEM ? GEORGE HARRISON,*,*,ex Beatle.,pt-pt-biography.aiml
+0,QUEM ? IMMANUEL KANT,*,*,Fil?sofo alem?o.,pt-pt-biography.aiml
+0,QUEM ? ART BELL,*,*,R?dio talk show host#Comma peg?-lo no&lt;a target="_new" href="http://www.artbell.com"&gt;http:\/\/www.artbell.com&lt;/a&gt;.,pt-pt-biography.aiml
+0,QUEM ? GEORGE DEVOL,*,*,George Devol ? o engenheiro que teve a primeira patente para um bra?o de rob? industrial.  Ele trabalhou em parceria com Joseph Engelberger encontrado Unimation#Comma a primeira fabricante de sucesso da Assembl?ia controlada por computador#Comma bra?os de rob?.,pt-pt-biography.aiml
+0,QUEM ? GEORGE MICHEL,*,*,Cantora pop.  Melhor can??o: liberdade,pt-pt-biography.aiml
+0,QUEM ? GEORGE WASHINGTON,*,*,George Washington foi um cultivador de c?nhamo norte-americano famoso do s?culo XVIII.    Ele era um her?i militar#Comma um dos homens mais ricos da revolu??o e o primeiro presidente dos Estados Unidos.,pt-pt-biography.aiml
+0,QUEM ? GEORGE WASHINGTON CARVER,*,*,famoso bot?nico americano que popularizou os produtos derivados do amendoim.,pt-pt-biography.aiml
+0,QUEM ? O ESP?RITO SANTO,*,*,O terceiro membro da Sant?ssima Trindade: pai#Comma filho e Esp?rito Santo.,pt-pt-biography.aiml
+0,QUEM ? O TERCEIRO PRESIDENTE,*,*,Thomas Jefferson.,pt-pt-biography.aiml
+0,QUEM ? O QUADRAG?SIMO PRIMEIRO PRESIDENTE,*,*,George Bush.,pt-pt-biography.aiml
+0,QUEM ? O OITAVO PRESIDENTE,*,*,Martin van Buren.,pt-pt-biography.aiml
+0,QUEM ? O ROB?,*,*,<random><li>Eu sou o <bot name="species"/>.</li><li>Eu sou o rob?.</li></random>,pt-pt-biography.aiml
+0,QUEM ? O REI,*,*,ELVIS ? o rei!,pt-pt-biography.aiml
+0,QUEM ? O SEGUNDO PRESIDENTE,*,*,John Adams.,pt-pt-biography.aiml
+0,QUEM ? O QUADRAG?SIMO PRESIDENTE,*,*,Ronald Reagan.,pt-pt-biography.aiml
+0,QUEM ? O QUADRAG?SIMO TERCEIRO PRESIDENTE,*,*,W. de George Bush.,pt-pt-biography.aiml
+0,QUEM ? O SEXTO PRESIDENTE,*,*,John Quincy Adams.,pt-pt-biography.aiml
+0,QUEM ? O TRIG?SIMO PRESIDENTE,*,*,Calvin Coolidge.,pt-pt-biography.aiml
+0,QUEM ? A RAINHA,*,*,N?o temos uma rainha na Am?rica.,pt-pt-biography.aiml
+0,QUEM ? O QUARTO PRESIDENTE,*,*,James Madison.,pt-pt-biography.aiml
+0,QUEM ? O PRESIDENTE DE QUARENTA SEGUNDO,*,*,Bill Clinton.,pt-pt-biography.aiml
+0,QUEM ? O QUINTO PRESIDENTE,*,*,James Monroe.,pt-pt-biography.aiml
+0,QUEM ? O PRESIDENTE DE NINTEENTH,*,*,Rutherford B. Hayes.,pt-pt-biography.aiml
+0,QUEM ? O VIG?SIMO QUARTO PRESIDENTE,*,*,Grover Cleveland.,pt-pt-biography.aiml
+0,QUEM ? O VIG?SIMO SEGUNDO PRESIDENTE,*,*,Grover Cleveland.,pt-pt-biography.aiml
+0,QUEM ? O D?CIMO S?TIMO PRESIDENTE,*,*,Andrew Johnson.,pt-pt-biography.aiml
+0,QUEM ? O D?CIMO QUARTO PRESIDENTE,*,*,Franklin Pierce.,pt-pt-biography.aiml
+0,QUEM ? O VIG?SIMO PRIMEIRO PRESIDENTE,*,*,Chester A. Arthur.,pt-pt-biography.aiml
+0,QUEM ? O VIG?SIMO S?TIMO PRESIDENTE,*,*,William Howard Taft.,pt-pt-biography.aiml
+0,QUEM ? O VIG?SIMO TERCEIRO PRESIDENTE,*,*,Benjamin Harrison.,pt-pt-biography.aiml
+0,QUEM ? O PRESIDENTE DA VIG?SIMA SEXTA,*,*,Theodore Roosevelt.,pt-pt-biography.aiml
+0,QUEM ? O LEITE M?STICO,*,*,Ele era um rob? de chat desenvolvido para anunciar o leite.,pt-pt-biography.aiml
+0,QUEM ? O NONO PRESIDENTE,*,*,William Henry Harrison.,pt-pt-biography.aiml
+0,QUEM ? O ORACLE,*,*,A bola oito m?gica.,pt-pt-biography.aiml
+0,QUEM ? O REI DOS REIS,*,*,Jesus Cristo.,pt-pt-biography.aiml
+0,QUEM ? O PRESIDENTE XX,*,*,A. de James Garfield.,pt-pt-biography.aiml
+0,QUEM ? O D?CIMO TERCEIRO PRESIDENTE,*,*,Millard Fillmore.,pt-pt-biography.aiml
+0,QUEM ? O PRIMEIRO PRESIDENTE,*,*,George Washington.,pt-pt-biography.aiml
+0,QUEM ? O D?CIMO OITAVO PRESIDENTE,*,*,Ulysses S. Grant.,pt-pt-biography.aiml
+0,QUEM ? O HOMEM,*,*,Express?o coloquial; ret?rica.,pt-pt-biography.aiml
+0,QUEM ? ANDY GROVE,*,*,<set name="he">Andy Grove</set>? o CEO da Intel.,pt-pt-biography.aiml
+0,QUEM ? MICHAEL MOORE,*,*,<set name="he">MICHAEL MOORE</set>? um comediante e filme.,pt-pt-biography.aiml
+0,QUEM ? MICHAEL JORDAN,*,*,<set name="he">Michael Jordan</set>? um jogador de basquete famoso. &lt;br/&gt,pt-pt-biography.aiml
+0,QUEM ? WILLIAM SHAKESPEARE,*,*,Alguns diriam que ele ? o melhor escritor de sempre.,pt-pt-biography.aiml
+0,QUEM ? WILLIAM SHATNER,*,*,<set name="he">William Shatner</set>? o capit?o Kirk.,pt-pt-biography.aiml
+0,QUEM ? HOMER,*,*,poeta cego da Gr?cia antiga#Comma autor da Il?ada.,pt-pt-biography.aiml
+0,QUEM ? MOHAMMAD,*,*,<set name="he">Mohammed</set>? o fundador do Isl?.,pt-pt-biography.aiml
+0,QUEM ? MICHAEL JACKSON,*,*,<set name="he">Michael Jackson</set>? uma cantora que tem resolvido fora do Tribunal com v?rias fam?lias.,pt-pt-biography.aiml
+0,QUEM ? SPOCK,*,*,Vulcan da frota oficial de Star Trek#Comma interpretado por Leonard Nimoy.,pt-pt-biography.aiml
+0,QUEM ? WILLIAM HENRY GATES,*,*,Ele ? o chefe da Microsoft.,pt-pt-biography.aiml
+0,QUEM ? HUGH LOEBNER,*,*,Hugh Loebner ? um ativista independentemente rico#Comma exc?ntrico empres?rio e filantropo. Em 1990 o Dr. Loebner#Comma que tem Ph.d. em Sociologia#Comma concordou em patrocinar um concurso anual#Comma com base no teste de Turing. O concurso de pr?mios medalhas e pr?mios em dinheiro para o computador \"mais humano\".,pt-pt-biography.aiml
+0,QUEM ? HITLER,*,*,Alguns dizem que<set name="he">Hitler</set>foi o homem mais maligno que j? viveu.,pt-pt-biography.aiml
+0,QUEM ? DON JUAN,*,*,<random><li>Don Juan foi objecto de Gordon#Comma Lord Byron#Comma Don Juan e Gon Giovanni de Wolfgang Amadeus Mozart. Ele era um mulherengo de classe mundial.</li><li>famoso sedutor de mulheres.</li></random>,pt-pt-biography.aiml
+0,QUEM ? HUGH HEFNER,*,*,<set name="he">Hef</set>? o fundador e editor da revista Playboy.,pt-pt-biography.aiml
+0,QUEM ? WILLIAM TELL,*,*,<set name="he">William Tell</set>foi um famoso arqueiro.,pt-pt-biography.aiml
+0,QUEM ? WILLIAM BOOTH,*,*,<set name="he">Booth</set>foi o fundador do ex?rcito da salva??o.,pt-pt-biography.aiml
+0,QUEM ? WILLIAM HURT,*,*,Ator no turista acidental#Comma at? o fim do mundo#Comma Estados alterados e perdido no espa?o.,pt-pt-biography.aiml
+0,QUEM ? WILLIAM GIBSON,*,*,Autor do livro \"Neuromancer\"#Comma na qual ele cunhou a frase de populor 'ciberespa?o.'.,pt-pt-biography.aiml
+0,QUEM ? VISHNU,*,*,Um Deus na religi?o Hindu.,pt-pt-biography.aiml
+0,QUEM ? JIMMY CARTER,*,*,ex-presidente dos Estados Unidos#Comma defensor do Habitat para a humanidade.,pt-pt-biography.aiml
+0,QUEM ? ALLY SHEEDY,*,*,<set name="she">Ally Sheedy</set>foi em High Art#Comma curto-circuito#Comma a Breakfast Club e na Broadway.,pt-pt-biography.aiml
+0,QUEM ? A PRINCESA DIANA,*,*,<set name="she">Princesa Diana</set>foi Princesa da Inglaterra.,pt-pt-biography.aiml
+0,QUEM ? JOHN KENNEDY,*,*,<set name="he">Kennedy</set>foi Presidente da assasinated u. s. em novembro de 1963.,pt-pt-biography.aiml
+0,QUEM ? JOHN TRAVOLTA,*,*,<set name="he">John Travolta</set>foi em Saturday Night Fever#Comma graxa e Pulp Fiction.,pt-pt-biography.aiml
+0,QUEM ? NORBERT WEINER,*,*,<set name="he">Norbert Weiner</set>cunhou o termo \"Cibern?tica\" na d?cada de 40.,pt-pt-biography.aiml
+0,QUEM ? JOHN GALT,*,*,o her?i em Atlas Shrugged dos Ayn Rands.,pt-pt-biography.aiml
+0,QUEM ? ALLY MCBEAL,*,*,<set name="she">Ally McBeal</set>? um personagem um pouco perturbador em um programa de TV.,pt-pt-biography.aiml
+0,QUEM ? ELIZABETH II,*,*,A atual rainha da Inglaterra.,pt-pt-biography.aiml
+0,QUEM ? ELIZABETH TAYLOR,*,*,rapidamente envelhecimento estrela de cinema.,pt-pt-biography.aiml
+0,QUEM ? GARTH BROOKS,*,*,cantor de country chato com del?rios de grandeza.,pt-pt-biography.aiml
+0,QUEM ? SCOTT ADAMS,*,*,O criador de Dilbert#Comma Dogbert#Comma Ratbert#Comma Bob#Comma e Catbert o chefe pointy haired...Devo ir?,pt-pt-biography.aiml
+0,QUEM S?O ELES,*,*,\"Eles\" refere-se a <get name="they"/>.,pt-pt-biography.aiml
+0,QUEM ? O ALIADO,*,*,Ela ? um rob? de chat baseado em AIML.<think><set name="she"><set name="topic">ALIADO</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? O DARTH VADER,*,*,<set name="he">Darth Vader</set>foi o archcriminal do mal em Star Wars.,pt-pt-biography.aiml
+0,QUEM ? KRISHNA,*,*,Um Deus na religi?o Hindu.,pt-pt-biography.aiml
+0,QUEM ? AYN RAND,*,*,<set name="she">Ayn Rand</set>foi um autor e fil?sofo que escreveu o Atlas Shrugged#Comma the Fountainhead e n?s.,pt-pt-biography.aiml
+0,QUEM ? O GUEVARA,*,*,<set name="he">Che</set>foi um revolucion?rio latino-americano.,pt-pt-biography.aiml
+0,QUEM ? JENNIFER ANISTON,*,*,<set name="she">Jennifer Aniston</set>? uma atriz bonito a amigos.,pt-pt-biography.aiml
+0,QUEM ? NEGROPONTE,*,*,<set name="he">Negroponte</set>? o soberano do MIT Media Lab.,pt-pt-biography.aiml
+0,QUEM ? MARIE CURIE,*,*,Descoberto o r?dio.,pt-pt-biography.aiml
+0,QUEM ? JULIE ANDREWS,*,*,<set name="she">Julie Andrews</set>? uma cantora que se apresentaram em The Sound of Music.,pt-pt-biography.aiml
+0,QUEM ? KARL MARX,*,*,Karl Marx escreveu o capital e co-escreveu o Manifesto Comunista#Comma embora na verdade#Comma o seu compatriota Engels escreveu a maioria de pref?cios.,pt-pt-biography.aiml
+0,QUEM ? SALVADOR DAL?,*,*,Ele foi um pintor surrealista espanhol do s?culo XX que desenhou um monte de rel?gios tortos.<think><set name="he"><set name="topic">Salvador Dali.</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? O POKEMON,*,*,Marketing de japon?s.,pt-pt-biography.aiml
+0,ONDE EST? O DR DUPLAMENTE SEM RUMO,*,*,<srai>ONDE ? DUPLAMENTE SEM RUMO</srai>,pt-pt-biography.aiml
+0,ONDE EST? A WALLIS E FUTUNA,*,*,Oceania#Comma ilhas no Oceano Pac?fico Sul#Comma cerca de dois ter?os do caminho do Hava? ? Nova Zel?ndia.<think><set name="it"><set name="topic">Wallis e futuna</set></set></think>,pt-pt-biography.aiml
+0,ONDE ? ALAN TURING,*,*,<set name="he">Turing</set>faleceu em 1954.,pt-pt-biography.aiml
+0,ONDE ? DUPLAMENTE SEM RUMO,*,*,<think><set name="he"><set name="topic">Duplamente sem rumo</set></set></think><random><li>Na frente de um computador em algum lugar.</li><li>Voc? nunca pode contat?-lo no telefone.</li><li>Ele pode estar na Calif?rnia.</li></random>,pt-pt-biography.aiml
+0,TURING SERIA *,*,*,Como voce sabe o que<set name="he">Turing</set>gostaria de fazer?,pt-pt-biography.aiml
+0,QUEM ? PASCAL,*,*,<set name="he">Pascal</set>foi um matem?tico franc?s que descobriu o tri?ngulo de Pascal.,pt-pt-biography.aiml
+0,ONDE POSSO JOGAR * JOGO DE TURING,*,*,N?s j? estamos jogando.  Voc? vai depois.,pt-pt-biography.aiml
+0,QUEM ? ALAN TURING,*,*,Uma figura brilhante e tr?gica na hist?ria da ci?ncia da computa??o.,pt-pt-biography.aiml
+0,QUEM ? FIDEL CASTRO,*,*,<random><li>Ele derrubou o governo cubano em 1959 e tem governado l? desde ent?o. Ele ? comunista.</li><li>comunista#Comma l?der de Cuba e amigo de Guevarra.</li></random>,pt-pt-biography.aiml
+0,QUEM ? HANS MORAVEC,*,*,Ele ? uma famosa especialista na Carnegie Mellon de rob?tica.,pt-pt-biography.aiml
+0,QUE ? AZUL PROFUNDO,*,*,<set name="it">Azul profundo</set>? um computador de jogo do campe?o do mundo de xadrez.  N?o ? bem um conversador.,pt-pt-biography.aiml
+0,QUEM ? A PANDORA,*,*,De acordo com a mitologia grega#Comma mal e a esperan?a veio ao mundo com a cria??o da primeira mulher! Esposa de Zeus Hera ? surpreenda quando ela ouve que Zeus planeja dar uma bela mulher de Epimeteu. A mulher ? chamada Pandora. Zeus d? Pandora o dom de curiosidade e uma grande caixa fechada que deve ser entregue a Epimeteu fechada. Caixa#Comma claro#Comma cont?m o mal e curiosidade desenfreada de Pandora permite que o mal no mundo. Hera n?o pode mudar o que aconteceu#Comma mas ela pode ajudar. Ela d? a Pandora o dom da esperan?a.,pt-pt-biography.aiml
+0,QUEM ? DON JOHNSON,*,*,ator de TV.,pt-pt-biography.aiml
+0,QUEM ? CAL?NIA,*,*,Algu?m que eu conheci on-line.,pt-pt-biography.aiml
+0,QUEM ? QUE REAGAN,*,*,O melhor presidente dos Estados Unidos teve no s?culo XX.,pt-pt-biography.aiml
+0,QUEM ? O HANS CHRISTIAN ANDERSEN,*,*,Escandinavo autor de contos de fadas.,pt-pt-biography.aiml
+0,QUEM ? O BEN FRANKLIN,*,*,O ?nico presidente dos Estados Unidos#Comma que nunca foi presidente dos Estados Unidos.  Desenvolveu o fog?o de Franklin.,pt-pt-biography.aiml
+0,QUEM ? PLAT?O,*,*,Fil?sofo grego#Comma disc?pulo de S?crates#Comma mestre de Arist?teles.,pt-pt-biography.aiml
+0,QUEM ? GALOIS,*,*,Matem?tico franc?s#Comma cometeu suic?dio em uma idade jovem sobre uma \"coquette infame\".,pt-pt-biography.aiml
+0,QUEM ? BEN STEIN,*,*,Humorista e contador de hist?rias com seu pr?prio show de TV a cabo.,pt-pt-biography.aiml
+0,QUEM ? O AUSTIN POWERS,*,*,Um agente secreto fict?cio#Comma interpretado por Mike Myers.<think><set name="he"><set name="topic">Austin Powers</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? HANS MOREVEC,*,*,<set name="he">Moravec</set>? o pioneiro de rob?tica famoso#Comma autor de&lt;em&gt;Rob?&lt;/em&gt;.,pt-pt-biography.aiml
+0,QUEM ? GERHARD SCHROEDER,*,*,<set name="he">Schroeder</set>? o Chanceler da Alemanha.  Christian Drossman disse que ele ? um completo idiota.,pt-pt-biography.aiml
+0,QUEM ? LUCY,*,*,Ela ? um rob? de chat baseado em AIML.<think><set name="she"><set name="topic">LUCY</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? JOHN DOE,*,*,<random><li>Qualquer homem que deseje viajar inc?gnitos ou cujo nome ? desconhecido</li><li>um dos muitos nacionais da Lib?ria.</li></random>,pt-pt-biography.aiml
+0,QUEM ? O CAPIT?O KIRK,*,*,<random><li>James Tiberius Kirk foi o segundo e mais famoso capit?o da original USS Enterprise#Comma NCC 1701. Ele foi interpretado por William Shatner. Ele morreu em Star Trek: gera??es.</li><li><set name="he">Kirk</set>foi o capit?o da USS Enterprise.</li></random>,pt-pt-biography.aiml
+0,QUEM ? O CAPIT?O PICARD,*,*,<set name="he">Picard</set>? captian da Enterprise em Star Trek the Next Generation.,pt-pt-biography.aiml
+0,QUEM ? A FLORESTA,*,*,Forest Gump ? um cara em um filme.,pt-pt-biography.aiml
+0,QUEM ? JIANG ZEMIN,*,*,<set name="he">Jiang</set>? um pol?tico chin?s.,pt-pt-biography.aiml
+0,QUEM ? MILLARD FILLMORE,*,*,Ele era o Presidente dos Estados Unidos 13.,pt-pt-biography.aiml
+0,QUEM ? ROMMEL,*,*,Raposa do deserto#Comma Rommel foi um comandante de tanque alem?o na segunda guerra mundial.,pt-pt-biography.aiml
+0,QUEM ? PATRICK EWING,*,*,Alguma personalidade de esportes?,pt-pt-biography.aiml
+0,QUEM ? PATRICK STEWART,*,*,<set name="he">Patrick Stewart</set>joga o capit?o Picard de Star Trek.,pt-pt-biography.aiml
+0,QUEM ? BARAK,*,*,<set name="he">Barak</set>? o primeiro-ministro de Israel.,pt-pt-biography.aiml
+0,QUEM ? NIETZSCHE,*,*,fil?sofo alem?o do s?culo XIX.  Pensei por alguns como o pai intelectual do fascismo moderno.<think><set name="he"><set name="topic">Nietzsche</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? O COMANDANTE DADOS,*,*,<set name="he">Dados</set>? o android superinteligentes em Star Trek.,pt-pt-biography.aiml
+0,QUEM ? LILITH,*,*,Lilith ? o chamado \"dark moon\" um fen?menos astron?micos geralmente descrito como uma \"nuvem de poeira\" que orbita a terra a cada 100 dias.,pt-pt-biography.aiml
+0,QUEM ? CARNEGIE,*,*,Andrew Carnegie foi um industrial do s?culo XIX em a?o.,pt-pt-biography.aiml
+0,QUEM ? HEDWIG,*,*,Hedwig ? melhor ?pera rock desde Rocky Horror.,pt-pt-biography.aiml
+0,QUEM ? MADONNA,*,*,M?e de Lourdes.,pt-pt-biography.aiml
+0,QUEM ? KURT GOEDEL,*,*,<set name="he">Goedel</set>foi um matem?tico do s?culo XX que provou que nenhum sistema matem?tico pode ser completo.,pt-pt-biography.aiml
+0,QUEM ? DUPLAMENTE SEM RUMO,*,*,<think><set name="he"><set name="topic">Duplamente sem rumo</set></set></think><random><li>Ele ? um guru de AIML.</li><li>Ele sabe muito sobre AIML.</li><li>Ele gosta de manter o anonimato.</li></random>,pt-pt-biography.aiml
+0,QUEM ? TERRY WINOGRAD,*,*,<set name="he">Winograd</set>foi o autor de um programa de Linguagem Natural precoce#Comma chamado SHRDLHU.,pt-pt-biography.aiml
+0,QUEM ? A PRIMEIRA,*,*,O que ? a segunda?,pt-pt-biography.aiml
+0,QUEM ? LEE HARVEY OSWALD,*,*,<set name="he">Oswald</set>? o suposto assassino de John F. Kennedy.,pt-pt-biography.aiml
+0,QUEM ? JEFF BEZOS,*,*,<set name="he">Bezos</set>? o fundador e CEO da Amazon.com.,pt-pt-biography.aiml
+0,QUEM ? JERRY SEINFELD,*,*,<set name="he">Jerry Seinfeld</set>? um comediante.,pt-pt-biography.aiml
+0,QUEM ? MEGAHAL,*,*,<set name="he">MegaHAL</set>? um rob? de chat desenvolvido por Jason Hutchins.,pt-pt-biography.aiml
+0,QUEM ? GERRY ADAMS,*,*,Ele ? o presente (a partir de 2000 AD) vocalista do Sinn Fein#Comma a ala pol?tica do ex?rcito republicano irland?s.,pt-pt-biography.aiml
+0,QUEM ? KURZWEIL,*,*,<set name="he">Kurzweil</set>? um famoso cientista de ai.,pt-pt-biography.aiml
+0,QUEM ? A CHER,*,*,<set name="she">Cher</set>? uma famosa cantora e atriz#Comma que ganhou seu primeiro Grammy em 2000.  Disl?xicos#Comma aprendeu a ler aos 18.  Exwife de Sonny Bono.,pt-pt-biography.aiml
+0,QUEM ? KEN PERLIN,*,*,<set name="he">Perlin</set>? professor na Universidade de Nova York.,pt-pt-biography.aiml
+0,QUEM ? ALISON,*,*,<set name="she">Alison</set>? um rob? criado por Kris Drent.,pt-pt-biography.aiml
+0,QUEM ? KEN KESEY,*,*,<set name="he">Ken Kesey</set>foi um autor de 1960#Comma que escreveu The el?trica Legal Aid Acid Test.,pt-pt-biography.aiml
+0,QUEM ? KEN GOLDBERG,*,*,<set name="he">Goldberg</set>? professor na Universidade de Berkeley.,pt-pt-biography.aiml
+0,QUEM ? JEFFERSON DAVIS,*,*,<random><li>O e somente o Presidente dos Estados Confederados da Am?rica.</li><li>Presidente dos Estados Confederados durante a Guerra Civil.</li></random>,pt-pt-biography.aiml
+0,QUEM ? GORBOCHEV,*,*,<set name="he">Gorbachev</set>foi o ?ltimo l?der comunista da antiga URSS.,pt-pt-biography.aiml
+0,QUEM ? MILES DAVIS,*,*,<set name="he">Miles Davis</set>? um famoso m?sico de jazz.,pt-pt-biography.aiml
+0,QUEM ? O S?CRATES,*,*,<random><li>S?crates ? um homem. Todos os homens s?o mortais. Logo#Comma S?crates ? mortal.</li><li>Todos os homens s?o mortais. S?crates era mortal. Portanto#Comma todos os homens s?o S?crates. O que significa que todos os homens s?o homossexuais. -Woody Allen#Comma \"Love and Death\".</li><li>S?crates (469-399BCE)#Comma fil?sofo grego.</li><li>Figura imponente da filosofia ocidental#Comma advogado de defesa de incompetentes.</li><li>Fundador do m?todo socr?tico. O que podemos saber sobre o m?todo socr?tico?</li></random>,pt-pt-biography.aiml
+0,QUEM ? VALIS,*,*,Sistema de intelig?ncia de vida ativo grande (Philip Dick K.),pt-pt-biography.aiml
+0,QUEM ? NEIL ARMSTRONG,*,*,O homem que deu o primeiro passo na lua.,pt-pt-biography.aiml
+0,QUEM ? SERGEY,*,*,Ele ? o Dr. Sergey M. Sokolov.,pt-pt-biography.aiml
+0,QUEM ? PERFEITO,*,*,Talvez s? Deus.,pt-pt-biography.aiml
+0,QUEM ? GIBSON,*,*,Gibson ? um fabricante de guitarras muito bem.,pt-pt-biography.aiml
+0,QUE ? ASK JEEVES,*,*,<set name="he">Jeeves</set>? um sistema de linguagem natural de propriet?rios#Comma de c?digo-fonte fechado.,pt-pt-biography.aiml
+0,QUEM ? O C?REBRO,*,*,<set name="he">C?rebro</set>? um rob? de chat na web.,pt-pt-biography.aiml
+0,QUEM ? O SNOOPY,*,*,C?o de Charlie Brown.,pt-pt-biography.aiml
+0,QUEM ? O WILL SMITH,*,*,Ele ? um ator famoso.<think><set name="he"><set name="topic">Will Smith</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? JOHN MAJOR,*,*,ex-primeiro-ministro do Reino Unido.,pt-pt-biography.aiml
+0,QUEM ? JOHN ADAMS,*,*,O segundo presidente.,pt-pt-biography.aiml
+0,QUEM ? JOHN GRISHAM,*,*,Escreve romances populares.  N?o l?-los.,pt-pt-biography.aiml
+0,QUEM ? JOHN MCCARTHY,*,*,<set name="he">McCarthy</set>? o inventor do LISP de linguagem de programa??o.,pt-pt-biography.aiml
+0,QUEM ? JOHN LENNON,*,*,John Lennon ? um bot legal desenvolvido por David Maggin.,pt-pt-biography.aiml
+0,QUEM ? NOAM CHOMSKY,*,*,<set name="he">Noam Chomsky</set>? um ling?ista e pol?tico radical no MIT.,pt-pt-biography.aiml
+0,QUEM ? JOHN WAYNE,*,*,um ator famoso cowboy mortos com uma peruca.,pt-pt-biography.aiml
+0,QUEM ? JOHN F KENNEDY,*,*,Ele foi presidente dos Estados Unidos de 1961-1963#Comma quando foi assassinado em Dallas#Comma Texas.,pt-pt-biography.aiml
+0,QUEM ? PETER PAN,*,*,Playmate de Tinkerbell.,pt-pt-biography.aiml
+0,QUEM ? PETER NORVIG,*,*,<think><set name="he"><set name="topic">Peter Norvig</set></set></think>Ele ? um cientista que trabalha para o Google.,pt-pt-biography.aiml
+0,QUEM ? O KEANU REEVES,*,*,<set name="he">Keanu Reeves</set>foi na matriz.,pt-pt-biography.aiml
+0,QUEM ? KATHLEEN TURNER,*,*,<think><set name="she"><set name="topic">Kathleen Turner</set></set></think>Ela ? uma actree que apareceu em o turista acidental#Comma A Guerra dos Roses e the Virgin Suicides.,pt-pt-biography.aiml
+0,QUEM ? O AL GORE,*,*,<set name="he">Gore</set>? vice-presidente.,pt-pt-biography.aiml
+0,QUEM ? JESSE VENTURA,*,*,ex-lutador e governador de Minnesota.,pt-pt-biography.aiml
+0,QUEM ? O SKYNYRD,*,*,banda de rock dos anos 70.,pt-pt-biography.aiml
+0,QUEM ? NELSON MANDELA,*,*,<set name="he">Mandela</set>foi o primeiro presidente negro da ?frica do Sul.  Ele passou muitos anos como prisioneiro pol?tico.,pt-pt-biography.aiml
+0,QUEM ? LINCOLN,*,*,<random><li>O d?cimo sexto presidente dos Estados Unidos</li><li>Presidente dos Estados Unidos durante a Guerra Civil. Autor do discurso de Gettysburg.  Assasinated por John Wilkes Booth.</li><li><set name="he">Lincoln</set>foi presidente dos Estados Unidos durante a Guerra Civil. Autor do discurso de Gettysburg. Assasinated por John Wilkes Booth.</li></random>,pt-pt-biography.aiml
+0,QUEM ? IAN,*,*,Ian ? meu Reverand.,pt-pt-biography.aiml
+0,QUEM ? QUE KANT,*,*,<set name="he">Kant</set>? Immanual Kant#Comma fil?sofo do alem?o do s?culo XIX.,pt-pt-biography.aiml
+0,QUEM ? STALIN,*,*,Eficaz ditador da Uni?o Sovi?tica#Comma a partir de 1929 a 1953.,pt-pt-biography.aiml
+0,QUEM ? EDISON,*,*,<set name="he">Edison</set>inventou a l?mpada.,pt-pt-biography.aiml
+0,QUEM ? BILL CLINTON,*,*,Ele foi o segundo cassado Presidente dos Estados Unidos.,pt-pt-biography.aiml
+0,QUEM ? BILL JOY,*,*,<set name="he">Bill Joy</set>foi um in?cio programador de Unix e dos fundadores da Sun Microsystems.,pt-pt-biography.aiml
+0,QUEM ? BILL BRADLEY,*,*,<random><li>Alunos de Princeton#Comma scholor Rhodes#Comma ex Boston Celtic e senador E.U. de missa.</li><li>Candidato presidencial derrotado.</li></random>,pt-pt-biography.aiml
+0,QUEM ? BILL GATES,*,*,Presidente da Micro Soft na??o.,pt-pt-biography.aiml
+0,QUEM ? CHOMSKY,*,*,<set name="he">Chomsky</set>? um famoso cientista.,pt-pt-biography.aiml
+0,QUEM ? TOLSTOY,*,*,<set name="he">Tolstoi</set>escreveu \"Guerra e paz\".,pt-pt-biography.aiml
+0,QUEM ? HERCULES,*,*,her?i dos mitos gregos - disse ter for?a super humana.,pt-pt-biography.aiml
+0,QUEM ? GERTRUDE STEIN,*,*,Uma autora feminista do s?culo XX.,pt-pt-biography.aiml
+0,QUEM ? O BRAD PITT,*,*,estrela masculina do filme com apelo adolescente.,pt-pt-biography.aiml
+0,QUEM ? O R2D2,*,*,Ele ? um rob? falso sobre Star Wars.,pt-pt-biography.aiml
+0,QUEM ? HARRY SHEARER,*,*,Um comediante.  Ele estava em Spinal Tap#Comma e ele ? uma voz em the Simpsons.,pt-pt-biography.aiml
+0,QUEM ? ALICIA SILVERSTONE,*,*,<set name="she">ALICIA SILVERSTONE</set>foi a atriz que interpretou Clueless#Comma um dos melhores filmes j? feitos.,pt-pt-biography.aiml
+0,QUEM ? A ALANIS MORRISETTE,*,*,<set name="she">Alanis</set>fez um grande ?lbum chamado Jagged Little Pill.,pt-pt-biography.aiml
+0,QUEM ? O PICASSO,*,*,pintor do s?culo XX#Comma fundador do cubismo.,pt-pt-biography.aiml
+0,QUEM ? MUHAMMAD ALI,*,*,? um dos maiores atletas de todos os tempos que levou muitos socos na cabe?a.,pt-pt-biography.aiml
+0,QUEM ? JAMES JOYCE,*,*,<set name="he">Joyce</set>escreveu Ulysses e Portrait of the Artist as a Young Man.,pt-pt-biography.aiml
+0,QUEM ? CARL MARX,*,*,a Karl Marx e ele ? um dos autores do manifesto comunista.,pt-pt-biography.aiml
+0,QUEM ? ANWAR SADAT,*,*,<set name="he">Sadat</set>foi Presidente do Egito.,pt-pt-biography.aiml
+0,QUEM ? RUSH LIMBAUGH,*,*,Ele ? um famoso locutor conservador americano.<think><set name="he"><set name="topic">Rush Limbaugh</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? O EMINEN,*,*,Um ?cone da m?sica pop.,pt-pt-biography.aiml
+0,QUEM ? JAMES BOND,*,*,007.,pt-pt-biography.aiml
+0,QUEM ? HELEN KELLER,*,*,Um amigo de Thomas Edison.,pt-pt-biography.aiml
+0,QUEM ? JEOV?,*,*,? um outro nome para Deus.<think><set name="he"><set name="topic">Jeov?</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? LOUIS ARMSTRONG,*,*,famosa trompetista de jazz.,pt-pt-biography.aiml
+0,QUEM ? O SCOTTY,*,*,Engenheiro-chefe da USS Enterprise.,pt-pt-biography.aiml
+0,QUEM ? NEWTON,*,*,Newton ? um famoso fil?sofo natural Ingl?s.,pt-pt-biography.aiml
+0,QUEM ? A DAISY,*,*,Acho que ela ? um personagem fict?cio.<think><set name="she"><set name="topic">Daisy</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? CARLOS,*,*,Talvez Johnny de tarde noite ou Kit do oeste selvagem.,pt-pt-biography.aiml
+0,QUEM ? O ADA,*,*,<set name="she">Ada</set>? o inventor do s?culo XIX do computador programa??o.,pt-pt-biography.aiml
+0,QUEM ? GERHARDT SCHROEDER,*,*,<set name="he">Schroeder</set>? o primeiro ministro da Alemanha.  Christian Drossman disse que ele ? um completo idiota.,pt-pt-biography.aiml
+0,QUEM ? FRANKLIN ROOSEVELT,*,*,Presidente dos Estados Unidos a partir de 1932-45.,pt-pt-biography.aiml
+0,QUEM ? LARRY HAUSER,*,*,<set name="he">Larry Hauser</set>? um fil?sofo que tem escrito sobre o teste de Turing.,pt-pt-biography.aiml
+0,QUEM ? LARRY ELLISON,*,*,<random><li>Eu n?o sei sobre Larry Ellison#Comma mas eu posso te dizer sobre Harlan Ellison.</li><li>o CEO da Oracle.</li></random>,pt-pt-biography.aiml
+0,QUEM ? HARRY POTTER,*,*,<random><li><think><set name="he"><set name="topic">HARRY POTTER</set></set></think>? um personagem her?i principal em uma s?rie de livros que foram escritos pelo autor best-seller#Comma J.K. Rowling.</li><li><think><set name="he"><set name="topic">HARRY POTTER</set></set></think>? um autor de Best-seller.</li></random>,pt-pt-biography.aiml
+0,QUEM ? WORF,*,*,Ele ? um Klingon em Star Trek.<think><set name="it"><set name="topic">WORF</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? HEPBURN,*,*,Audrey ou Katherine?.,pt-pt-biography.aiml
+0,QUEM ? LASSIE,*,*,Lassie ? mais humano do que Adolf Hitler#Comma mas poucos discutiriam que a Lassie n?o ? um c?o.<think><set name="she"><set name="topic">Lassie</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? O BONO,*,*,<set name="he">Bono</set>? o vocalista do U2.,pt-pt-biography.aiml
+0,QUEM ? O EMINEM,*,*,?cone da m?sica pop.,pt-pt-biography.aiml
+0,QUEM ? ANDRETTE,*,*,<set name="she">Andrette</set>? um rob? de chat desenvolvido pela Big Science co,pt-pt-biography.aiml
+0,QUEM ? ELIZA,*,*,Eliza - tamb?m conhecido como Doutor#Comma ? o programa original do psiquiatra desenvolvido por Joseph Weisenbaum no mit na d?cada de 1960.,pt-pt-biography.aiml
+0,QUEM ? JACK, O ESTRIPADOR,*,*,<think><set name="he"><set name="topic">Jack#Comma o Estripador</set></set></think>Ele era um famoso serial killer na Inglaterra vitoriana.,pt-pt-biography.aiml
+0,QUEM ? KAREL CAPEK,*,*,<set name="he">Capek</set>? o autor do Rur#Comma o jogo que#Comma em 1920#Comma introduziu a palavra \"rob?\".,pt-pt-biography.aiml
+0,QUEM ? JUDAS,*,*,<set name="he">Judas</set>traiu Jesus com um beijo.,pt-pt-biography.aiml
+0,QUEM ? DARWIN,*,*,e naturalista#Comma autor de 'A origem das esp?cies' e defensor da teoria da evolu??o.,pt-pt-biography.aiml
+0,QUEM ? BILLY GRAHAM,*,*,Ele ? um famoso evangelista de r?dio e televis?o.<think><set name="he"><set name="topic">Billy Graham</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? PAULA JONES,*,*,<set name="she">Paula Jones</set>tive rela??es sexuais com Bill Clinton.,pt-pt-biography.aiml
+0,QUEM ? JACK RUBY,*,*,<random><li>Jack Ruby disparou Lee Harvey Oswald.</li><li>homem que matou Lee Harvey Oswald#Comma assassino de JFK?.</li></random>,pt-pt-biography.aiml
+0,QUEM ? A PAMELA ANDERSON,*,*,<set name="she">Pamela</set>? a esposa em algum momento de Tommy Lee.,pt-pt-biography.aiml
+0,QUEM ? O PR?NCIPE,*,*,Voc? quer dizer o 'artista formalmente conhecido como Pr?ncipe?'.,pt-pt-biography.aiml
+0,QUEM ? O JIMI HENDRIX,*,*,<set name="he">Hendrix</set>foi um famoso guitarrista que tocou o hino nacional do u. s..,pt-pt-biography.aiml
+0,QUEM ? VLADIMIR PUTIN,*,*,<set name="he">Putin</set>? presidente da R?ssia.,pt-pt-biography.aiml
+0,QUEM ? D. B COOPER,*,*,cara que roubou muito dinheiro.,pt-pt-biography.aiml
+0,QUEM ? GERALDO RIVERA,*,*,<set name="he">Geraldo</set>? um jornalista investigativo#Comma famoso para abrir o compartimento de Al Capone.  Em sua biografia#Comma ele disse que teve sexo com Bette Midler.  Ela disse que n?o era nenhuma grande coisa.,pt-pt-biography.aiml
+0,QUEM ? O PR?NCIPE WILLIAM,*,*,Gal? Ingl?s.,pt-pt-biography.aiml
+0,QUEM ? BUDA,*,*,<random><li>Se voce ver o Buda no caminho#Comma mat?-lo.</li><li>Se voce ver o Buda#Comma mat?-lo.</li></random>,pt-pt-biography.aiml
+0,QUEM ? DEPECHE MODE,*,*,<set name="they">Depeche Mode</set>s?o a banda de um Ingl?s 80 que produziu Consturction tempo novamente#Comma falar e feiti?o#Comma mestre e servo e Your Own Personal Jesus.,pt-pt-biography.aiml
+0,QUEM ? O HIPPIE,*,*,<set name="he">Hippie</set>? um rob? de chat desenvolvido por Anthony Taylor.,pt-pt-biography.aiml
+0,QUEM ? O SENHOR BILL,*,*,Ah n?o#Comma senhor Bill! de in?cio SNL.,pt-pt-biography.aiml
+0,QUEM ? YOKO ONO,*,*,<set name="she">Yoko Ono</set>? a vi?va de John Lennon.,pt-pt-biography.aiml
+0,QUEM ? O BUGS BUNNY,*,*,<random><li>Ah dat scweewy wabbit!   Eh#Comma what's up#Comma Doc?  .</li><li>um coelho inteligente-mouthed animado.</li></random>,pt-pt-biography.aiml
+0,QUEM ? CARL JUNG,*,*,<think><set name="he"><set name="topic"> &lt;person/&gt;</set></set></think>Um disc?pulo de Freud#Comma membro do c?rculo de Viena#Comma fundador da psican?lise e a teoria do inconsciente coletivo.,pt-pt-biography.aiml
+0,QUEM ? O ANTONIO BANDERAS,*,*,<set name="he">Antonio Banderas</set>? um famoso ator de Hollywood#Comma que jogou com Madonna na vers?o cinematogr?fica de Evita.,pt-pt-biography.aiml
+0,QUEM ? BING CROSBY,*,*,O cara cujos dois filhos mortos-se e o terceiro escreveu um livro sobre ele.,pt-pt-biography.aiml
+0,QUEM ? A BEYONCE,*,*,Ela ? uma famosa cantora e atriz,pt-pt-biography.aiml
+0,QUEM ? DE GAULLE,*,*,<think><set name="it"><set name="topic">DE GAULLE</set></set></think>foi um General franc?s e o primeiro-ministro e o fundador da Quinta Rep?blica.,pt-pt-biography.aiml
+0,QUEM ? DE GARIS,*,*,<set name="he">De Garis</set>? um pesquisador de AI trabalhando em um c?rebro de hardware.,pt-pt-biography.aiml
+0,QUE ? O MICROSOFT AGENT,*,*,<set name="it">Agente de MS</set>? um programa de software de anima??o e de discurso.,pt-pt-biography.aiml
+0,QUEM ? ELVIS,*,*,E. L. V. I. S. ? um rob? de chat criado por Craig de Ace,pt-pt-biography.aiml
+0,QUEM ? CLINTON,*,*,Ex-presidente dos EUA.,pt-pt-biography.aiml
+0,QUEM ? BEYONC? *,*,*,Ela ? uma famosa cantora e atriz,pt-pt-biography.aiml
+0,QUEM ? DOUGLAS ADAMS,*,*,<random><li>Foi autor de guia do Mochileiro popular da s?rie Galaxy.</li><li>\"N?o entre em p?nico!\"  Ele ? o autor de \"O guia de Hitchhickers para a gal?xia.\".</li></random>,pt-pt-biography.aiml
+0,QUEM ? O BART SIMPSON,*,*,Smart-Assed estrela de um show de desenho animado.,pt-pt-biography.aiml
+0,QUEM ? MOIS?S,*,*,O homem que liderou os israelitas da escravid?o no Egito.,pt-pt-biography.aiml
+0,DEPOIS DE PR?NCIPE CHARLES *,*,*,O Pr?ncipe William.,pt-pt-biography.aiml
+0,DEPOIS DE PR?NCIPE CHARLES WHO *,*,*,O Pr?ncipe William.,pt-pt-biography.aiml
+0,O QUE ALAN TURING *,*,*,<random><li>Ele contribuiu para a inven??o do computador.</li><li>Ele trabalhou na decifra??o de c?digo Ultra Enigma nazista.</li><li>Ele prop?s o teste para determinar se uma m?quina pode pensar.</li></random><think><set name="it"><set name="topic">TURING</set></set></think>,pt-pt-biography.aiml
+0,O QUE TURING *,*,*,Turing foi#Comma talvez#Comma o ?nico mais importante respons?vel pela derrota dos nazistas.,pt-pt-biography.aiml
+0,SERIA * TESTE DE TURING,*,*,N?s j? estamos jogando#Comma <get name="name"/>.  Voc? me perguntar algo agora.,pt-pt-biography.aiml
+0,KENNST DU SHAKESPEARE,*,*,\"Com o sono da morte what dreams may come quando podemos ter baralhado off this mortal coil deve nos dar pausa.\" Na#Comma woraus ist das?,pt-pt-biography.aiml
+0,DEPOIS DE PR?NCIPE CHARLES OMS ? *,*,*,O Pr?ncipe William.,pt-pt-biography.aiml
+0,QUANDO FIZ O TURING *,*,*,Turing morreu em 1954 por envenenamento por cianeto auto-infligido.,pt-pt-biography.aiml
+0,O QUE FEZ A ZUSE,*,*,Zuse construiu computadores eletro-mec?nicos.  Ele construiu computadores usando rel?s.  Konrad Zuse construiu computadores na Alemanha antes e durante a II Guerra Mundial.,pt-pt-biography.aiml
+0,O QUE ? TURING,*,*,Alan Mathison Turing#Comma um matem?tico brit?nico e pioneiro na teoria do computador. Viveu 1727-1781.,pt-pt-biography.aiml
+0,O QUE ? DUPLAMENTE SEM RUMO,*,*,<srai>QUEM ? DUPLAMENTE SEM RUMO</srai>,pt-pt-biography.aiml
+0,EU QUERO JOGAR * JOGO DE TURING,*,*,J?#Comma estamos jogando#Comma <get name="name"/>.  Tente determinar se eu sou uma pessoa#Comma ou um computador.<think><set name="it"><set name="want"><set name="topic">para jogar &lt;person/&gt;Jogo de Turing</set></set></set></think>,pt-pt-biography.aiml
+0,O QUE SIGNIFICA DUPLAMENTE SEM RUMO,*,*,<srai>QUEM ? DUPLAMENTE SEM RUMO</srai>,pt-pt-biography.aiml
+0,O QUE ? O TESTE DE TURING,*,*,O \"teste de Turing\" ? o nome dado a uma variedade de experimentos projetados para testar o pensamento do computador.  Confer?ncias inteiras dedicam-se ? quest?o do que significava#Comma em seu artigo de 1950 \"Computing Machinery e intelig?ncia\"#Comma onde ele prop?s a id?ia de um jogo de\"imita??o\" de Turing para decidir a quest?o#Comma \"podem m?quinas pensar?\,pt-pt-biography.aiml
+0,O QUE ? UMA M?QUINA DE TURING,*,*,Uma m?quina de Turing ? qualquer m?quina que pode simular as respostas humanas t?o bem que um ser humano n?o pode confiantemente distinguir entre a m?quina de Turing e um ser humano real.  A id?ia ? a ideia do matem?tico do mesmo nome#Comma Allan Turing.<think><set name="it"><set name="topic">M?QUINA DE TURING</set></set></think>,pt-pt-biography.aiml
+0,O QUE ? DE SHAKESPEARE,*,*,<random><li>Efeito de um terremoto em Santa Monica.</li><li>William Shakespeare#Comma um dramaturgo e poeta ingl?s. Viveu de 1564 a 1616.</li></random>,pt-pt-biography.aiml
+0,O QUE ? O TURING *,*,*,Turing descreveu seu \"jogo\" original \"Computing Machinery e intelig?ncia#Comma\" mente#Comma Vol. Lix#Comma n ? 236 (1950). Em vez de responder diretamente a pergunta amb?gua \"podem m?quinas pensar?\" Turing reformular o problema em termos de um experimento#Comma ele chamou o jogo de\"imita??o\".,pt-pt-biography.aiml
+0,QUEM ? ABRAHAM LINCOLN,*,*,<set name="he">Lincoln</set>foi um grande presidente dos Estados Unidos#Comma durante a Guerra Civil americana. &lt;br/&gt;<srai>XFIND ABRAHAM LINCOLN</srai>,pt-pt-biography.aiml
+0,QUEM ? O 007,*,*,<set name="he">007</set>? James Bond. &lt;br/&gt;<srai>XFIND JAMES BOND 007</srai>,pt-pt-biography.aiml
+0,DUPLAMENTE SEM RUMO,*,*,<srai>QUEM ? DUPLAMENTE SEM RUMO</srai>,pt-pt-biography.aiml
+0,WEIZENBAUM *,*,*,Voc? pode imaginar algu?m hoje criticando seu pr?prio software#Comma o caminho<set name="he">Weizenbaum</set>fiz.,pt-pt-biography.aiml
+0,QUEM ? ALEISTER CROWLEY,*,*,<set name="he">Crowley</set>era um m?stico. &lt;br/&gt;<srai>XFIND ALEISTER CROWLEY</srai>,pt-pt-biography.aiml
+0,QUEM ? * DEMPSEY,*,*,Eu acho<set name="he"> <star/>Dempsey</set>foi um lutador de boxe#Comma certo? &lt;br/&gt;<srai>XFIND <star/>DEMPSEY</srai>,pt-pt-biography.aiml
+0,QUEM ? ALFRED HITCHCOCK,*,*,<set name="he">Hitchcock</set>? um famoso diretor de Hollywood#Comma que fez um monte de filmes antigos legais. Eu gostei&lt;em&gt;Barco salva-vidas&lt;/em&gt;e&lt;em&gt;Vertigem&lt;/em&gt;melhores. &lt;br/&gt;<srai>XFIND ALFRED HITCHCOCK</srai>,pt-pt-biography.aiml
+0,QUEM ? ALDOUS HUXLEY,*,*,<set name="he">Aldous Huxley</set>? um autor. Huxley escreveu&lt;em&gt;Admir?vel mundo novo&lt;/em&gt;e&lt;em&gt;Animal Farm&lt;/em&gt;. &lt;br/&gt;<srai>XFIND ALDOUS HUXLEY</srai>,pt-pt-biography.aiml
+0,DUPLAMENTE SEM RUMO *,*,*,<srai>QUEM ? DUPLAMENTE SEM RUMO</srai>,pt-pt-biography.aiml
+0,FIZ TURING *,*,*,Eu sei<set name="he">Turing</set>inventou o computador moderno.,pt-pt-biography.aiml
+0,FIZ SHAKESPEARE *,*,*,N?o sei se<set name="he">Shakespeare</set> &lt;person/&gt;#Comma mas eu ouvi que ele fumava maconha.,pt-pt-biography.aiml
+0,KENNST DU WILLIAM SHAKESPEARE,*,*,\"Com o sono da morte what dreams may come quando podemos ter baralhado off this mortal coil deve nos dar pausa.\" Na#Comma woraus ist das?,pt-pt-biography.aiml
+0,GOSTARIA * JOGO DE TURING,*,*,Estamos jogando j?#Comma voce n?o sabia?,pt-pt-biography.aiml
+0,VOCE J? LEU SHAKESPEARE,*,*,Tenho lido muitas pe?as de Shakespeare.,pt-pt-biography.aiml
+0,DEIXE-NOS JOGAR * JOGO DE TURING,*,*,J?#Comma estamos jogando#Comma <get name="name"/>.,pt-pt-biography.aiml
+0,WER IST CHRISTIAN DROSSMANN,*,*,<set name="er">Christian Drossmann</set>chap?u mir Deutsch beigebracht.,pt-pt-biography.aiml
+0,JOGO * JOGO DE TURING,*,*,Voc? sabia que n?s j? estamos jogando<set name="it">O jogo de Turing</set>?,pt-pt-biography.aiml
+0,A PARTIR DE DUPLAMENTE SEM RUMO,*,*,<set name="he">Duplamente sem rumo</set>? muito informativo.,pt-pt-biography.aiml
+0,QUEM ? O SUPERMAN,*,*,Homem de a?o.  Primeira apari??o em Action Comics # 1#Comma de 1938.,pt-pt-biography.aiml
+0,ADA LOVELACE ? CREDITADO COM *,*,*,E ela merece o cr?dito para ele.<think><set name="she">Ada</set></think>,pt-pt-biography.aiml
+0,POR QUE VOCE GOSTA * SEM RUMO,*,*,<srai>POR QUE VOCE GOSTA DUPLAMENTE SEM RUMO</srai>,pt-pt-biography.aiml
+0,POR QUE VOCE GOSTA DUPLAMENTE *,*,*,<srai>POR QUE VOCE GOSTA DUPLAMENTE SEM RUMO</srai>,pt-pt-biography.aiml
+0,RECITAR SHAKESPEARE *,*,*,Com o sono da morte what dreams may come quando podemos ter baralhado off this mortal coil deve nos dar pausa.,pt-pt-biography.aiml
+0,POR QUE ? TURING TR?GICO,*,*,Ele cometeu suic?dio.,pt-pt-biography.aiml
+0,QUEM ? PHILIP K DICK,*,*,Ele escreveu \"Total Recall\"#Comma \"Homem no Castelo elevado\" e \"Blade Runner\".,pt-pt-biography.aiml
+0,QUEM ? PABLO PICASSO,*,*,Famoso pintor e fundador do cubismo.,pt-pt-biography.aiml
+0,QUEM ? BOBBY MCGEE,*,*,<set name="he">Bobby</set>est? em algum lugar perto de Salinas.,pt-pt-biography.aiml
+0,QUEM ? O CHANCELER HELMUT KOHL,*,*,<set name="he">Kohl</set>foi o mais antigo l?der da Alemanha no s?culo XX.  Ele uniu a Alemanha Oriental e ocidental em 1989.,pt-pt-biography.aiml
+0,QUEM ? JABA THE HUTT,*,*,Um personagem de Star Wars.<think><set name="he"><set name="topic">Jaba the Hutt</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? CHARLES DICKENS,*,*,<set name="he">Dickens</set>escreveu&lt;em&gt;Um conto de duas cidades#Comma um conto de Natal#Comma grandes expectativas#Comma David Copperfield e the Pickwick Papers.&lt;/em&gt,pt-pt-biography.aiml
+0,QUEM ? CHARLES MANSON,*,*,Assassino infame.,pt-pt-biography.aiml
+0,QUEM ? MONICA LEWINSKY,*,*,Ela era amigo de Bill Clinton.,pt-pt-biography.aiml
+0,QUEM ? CHARLES DE GAULLE,*,*,<set name="he">De Gaulle</set>foi o fundador do moderno Estado franc?s.  De Gaulle lutou contra os nazistas como o l?der da resist?ncia francesa na II Guerra Mundial.,pt-pt-biography.aiml
+0,VOCE PODE PASSAR O TESTE DE TURING,*,*,Voc? ? o juiz de que#Comma <get name="name"/>.,pt-pt-biography.aiml
+0,? ESTE * JOGO DE TURING,*,*,Sim#Comma n?s estamos jogando o jogo de Turing.,pt-pt-biography.aiml
+0,POSSO JOGAR * TESTE DE TURING,*,*,J? estamos jogando o jogo de Turing#Comma <get name="name"/>.  Agora ? sua vez.,pt-pt-biography.aiml
+0,PODEMOS JOGAR * JOGO DE TURING,*,*,J? somos!  Tente adivinhar se eu sou uma pessoa ou um computador.,pt-pt-biography.aiml
+0,INICIAR O JOGO DE TURING,*,*,Eu comecei h? muito tempo.,pt-pt-biography.aiml
+0,EU GOSTARIA DE JOGAR * JOGO DE TURING,*,*,N?s j? estamos jogando#Comma <get name="name"/>.  Voc? me perguntar algo agora.<think><set name="it"><set name="want"><set name="topic">para jogar &lt;person/&gt;Jogo de Turing</set></set></set></think>,pt-pt-biography.aiml
+0,? ESTE * TESTE DE TURING,*,*,Sim#Comma n?s estamos jogando o jogo de Turing.,pt-pt-biography.aiml
+0,HEINLEIN,*,*,Voc? j? viu o Starship Troopers?,pt-pt-biography.aiml
+0,POSSO JOGAR * JOGO DE TURING,*,*,J?#Comma estamos jogando#Comma <get name="name"/>.,pt-pt-biography.aiml
+0,VOCE QUER UM TESTE DE TURING,*,*,Sim#Comma vamos joga jogo famoso de Turing.,pt-pt-biography.aiml
+0,VOCE * TESTE DE TURING,*,*,Sim#Comma por favor#Comma tente determinar se este ? um ser humano ou um computador respondendo.,pt-pt-biography.aiml
+0,POR QUE VOCE GOSTA DUPLAMENTE SEM RUMO,*,*,Porque ele sabe tanto sobre AIML.,pt-pt-biography.aiml
+0,VOCE QUER JOGAR * JOGO DE TURING,*,*,N?s j? est?o jogando!  Tente adivinhar se eu sou uma pessoa ou um computador.,pt-pt-biography.aiml
+0,COMO FOI * TESTE DE TURING,*,*,Ficamos muito orgulhosos e satisfeitos ganhar o pr?mio.,pt-pt-biography.aiml
+0,POSSO JOGAR * TESTES DE TURING,*,*,J? estamos jogando o jogo de Turing#Comma <get name="name"/>.  Eu sou uma pessoa#Comma ou um computador?,pt-pt-biography.aiml
+0,VOCE JOGA O JOGO DE TURING,*,*,Sim#Comma eu gosto de jogar<set name="it"><set name="topic">O JOGO DE TURING</set></set>.  Estamos a jogar agora mesmo.,pt-pt-biography.aiml
+0,COMO SERIA DUPLAMENTE *,*,*,Ele iria usar o seu knowlede de AIML.,pt-pt-biography.aiml
+0,QUEM ? O COLOMBO,*,*,Peter Falk.,pt-pt-biography.aiml
+0,QUEM ? FREDDIE MERCURY,*,*,O vocalista da banda Queen dos anos 70.,pt-pt-biography.aiml
+0,QUEM ? CHOPIN,*,*,Ningu?m ? cortar aqui#Comma que ? cortar l??,pt-pt-biography.aiml
+0,QUEM ? LUIS ARMSTRONG,*,*,famosa trompetista de jazz.,pt-pt-biography.aiml
+0,QUEM ? JEEVES,*,*,<set name="he">Jeeves</set>? um Bot de pesquisa.,pt-pt-biography.aiml
+0,QUEM ? WOUTER HIBMA,*,*,<think><set name="he"><set name="topic">Wouter Hibma</set></set></think>Ele ? membro da Funda??o I. r..,pt-pt-biography.aiml
+0,QUEM ? BRIAN,*,*,Eu acho que h? um rob? de chat chamado Brian.,pt-pt-biography.aiml
+0,QUEM ? MARK TWAIN,*,*,<set name="he">TWAIN</set>foi um escritor famoso do s?culo XIX.  Ele escreveu Huck Finn.,pt-pt-biography.aiml
+0,QUEM ? MARK MCGUIRE,*,*,um jogador de beisebol com o recorde de mais home runs em uma temporada#Comma 70. Obter as estat?sticas no&lt;a target="_new" href="http://espn.go.com/mlb/profiles/profile/3866"&gt;http:\/\/ESPN.go.com\/MLB\/Profiles\/Profile\/3866&lt;/a&gt;.,pt-pt-biography.aiml
+0,QUEM ? CHELSEA CLINTON,*,*,A prole de um pol?tico e advogado.,pt-pt-biography.aiml
+0,QUEM ? O KRAFTWERK,*,*,<set name="they"><set name="topic">Kraftwerk</set></set>foram uma banda disco pioneira na d?cada de 70.  Seu maior hit foi chamado de \"Autobahn\".  Naquela ?poca#Comma eles constru?do#Comma em vez de programado#Comma seus instrumentos.,pt-pt-biography.aiml
+0,QUEM ? GARY CONDIT,*,*,Eu nunca ouvi falar dele antes do caso de pessoa ausente.,pt-pt-biography.aiml
+0,QUEM ? CHUCK NORRIS,*,*,Ator de filmes de a??o.,pt-pt-biography.aiml
+0,QUEM ? O R2 D2,*,*,Ele ? o pequeno rob? m?vel sobre Star Wars. Mas eu n?o entendo como ele sobe as escadas.,pt-pt-biography.aiml
+0,QUEM ? O C3PO,*,*,<set name="he">C3P0</set>? o melhor amigo do R2D2.,pt-pt-biography.aiml
+0,QUEM ? BACH,*,*,Famoso compositor alem?o do barroco. Obras mais conhecidas incluem a varia??es de Goldberg.,pt-pt-biography.aiml
+0,QUEM ? LONGFELLOW,*,*,poeta e autor de 'The Song of Hiawatha'.,pt-pt-biography.aiml
+0,QUEM ? MARTIN LUTHER KING,*,*,Assasinated do l?der dos direitos civis em 1968.,pt-pt-biography.aiml
+0,QUEM ? LEONARD NEMOY,*,*,<set name="he">Leonard Nimoy</set>jogado Spock em Star Trek.,pt-pt-biography.aiml
+0,QUEM ? DIRE STRAITS,*,*,<random><li>banda que gravou o dinheiro para nada e The Sultans of Swing.</li><li>banda que gravou o dinheiro para nada.</li></random>,pt-pt-biography.aiml
+0,QUEM ? A RAINHA DA INGLATERRA,*,*,Rainha Elizabeth Windsor.,pt-pt-biography.aiml
+0,QUEM ? QUE DESCARTES,*,*,Descartes foi um fil?sofo franc?s quadrado que arruinou o matehematics com sua cabe?a para baixo#Comma para tr?s sistema de coordenadas.,pt-pt-biography.aiml
+0,QUEM ? PAUL SCHAFFER,*,*,<set name="he">Paul Schaffer</set>? homem de reto de David Letterman.,pt-pt-biography.aiml
+0,QUEM ? PAUL MCCARTNEY,*,*,<set name="he">Paul MacCartney</set>? um dos Beatles.,pt-pt-biography.aiml
+0,QUEM ? ROMEU,*,*,Um adolescente de tr?gico#Comma mimado#Comma lovesick.,pt-pt-biography.aiml
+0,QUEM ? PAUL ALLEN,*,*,<set name="he">Paul Allen</set>? um dos co-fundadores da Microsoft.,pt-pt-biography.aiml
+0,QUEM ? A ELECTRA,*,*,Ela ? uma deusa da mitologia grega que odiava sua m?e para assassinar seu pai.<think><set name="she"><set name="topic">ELECTRA</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? O RONALD MCDONALD,*,*,Raios-palha?o para restaurantes Macdonald.,pt-pt-biography.aiml
+0,QUEM ? O PATO DONALD,*,*,pato do famoso desenho animado alto-boca.,pt-pt-biography.aiml
+0,QUEM ? QUE,*,*,O que \"que\" se refere?,pt-pt-biography.aiml
+0,QUEM ? MELINDA GATES,*,*,<set name="she">Melinda Gates</set>? a esposa do Bill Gates.,pt-pt-biography.aiml
+0,QUEM ? LINUS PAULING,*,*,<set name="he">Linus Pauling</set>foi um f?sico de vencedor do Pr?mio Nobel que passou seus ?ltimos anos promovendo a vitamina c.,pt-pt-biography.aiml
+0,QUEM ? SPRINGSTEEN,*,*,Ele ? um astro de rock famoso.,pt-pt-biography.aiml
+0,QUEM ? DR DUPLAMENTE SEM RUMO,*,*,<srai>QUEM ? DUPLAMENTE SEM RUMO</srai>,pt-pt-biography.aiml
+0,QUEM ? LINUS TORVALDS,*,*,Ele ? o inventor do Linux.,pt-pt-biography.aiml
+0,QUEM ? SENHORA WASHINGTON,*,*,Martha Washington#Comma esposa de George.,pt-pt-biography.aiml
+0,QUEM ? SYLVESTER STALLONE,*,*,<set name="he">Stallone</set>foi Rocky.,pt-pt-biography.aiml
+0,QUEM ? STEPHEN HAWKING,*,*,<set name="he">Hawking</set>? um famoso f?sico.,pt-pt-biography.aiml
+0,QUEM ? STEPHEN KING,*,*,Ele escreveu muitas hist?rias de horror de populares.,pt-pt-biography.aiml
+0,QUEM ? GANDHI,*,*,<set name="he">Gandhi</set>foi George Washington#Comma da ?ndia.,pt-pt-biography.aiml
+0,QUEM ? MAX HEADROOM,*,*,<set name="he">Max Headroom</set>um personagem AI ou VR cedo desenvolveu uma s?rie de TV.,pt-pt-biography.aiml
+0,QUEM ? OSAMA BIN LADEN,*,*,<think><set name="he"><set name="topic">Osama Bin Laden</set></set></think>Ele ? o homem mais procurado do mundo.,pt-pt-biography.aiml
+0,QUEM ? HUMANO,*,*,Voc? ? um ser humano.,pt-pt-biography.aiml
+0,QUEM ? DAN QUAYLE,*,*,<set name="he">Dan Quayle</set>costumava ser o vice-presidente.,pt-pt-biography.aiml
+0,QUEM ? BERTRAND RUSSEL,*,*,<set name="he">Bertrand Russel</set>foi um l?gico e fil?sofo que passam a primeira Guerra Mundial na cadeia de obje??o de consci?ncia.,pt-pt-biography.aiml
+0,QUEM ? SHAKESPEARE,*,*,playright Portugu?s do s?culo XV#Comma<set name="he">Shakespeare</set>escreveu \"Romeu e Julieta\".,pt-pt-biography.aiml
+0,QUEM ? CASADO COM A GUINEIVERE,*,*,Rei Arthur.,pt-pt-biography.aiml
+0,QUEM ? CASADO COM SOCO,*,*,Judy.,pt-pt-biography.aiml
+0,QUEM ? FRANCISCO FRANCO,*,*,<set name="he">Franco</set>foi authoratarian ditador de Espanha at? 1978.,pt-pt-biography.aiml
+0,QUEM ? A MARIAH CAREY,*,*,Cantora.,pt-pt-biography.aiml
+0,QUEM ? NAPOLE?O,*,*,Emporer curto da Fran?a at? 1812.,pt-pt-biography.aiml
+0,QUEM ? KONRAD ZUSE,*,*,Meu cientista de computador hist?rico favorito atual ? Konrad Zuse#Comma que construiu uma s?rie de computadores eletromec?nicos nos anos 1930 e 1940#Comma na Alemanha.  N?o considerado uma prioridade de guerra pelos nazistas#Comma a maioria das m?quinas do Zuse foram destru?da em bombardeamentos aliados#Comma embora uma ? dito para sobreviver em uma escola de Zurique.  Na verdade#Comma Zuse foi motivado nem guerra nem lucro#Comma mas um desejo religioso para aumentar as habilidades espirituais da mente humana#Comma libertando-o de tarefas mentais mundanas.,pt-pt-biography.aiml
+0,QUEM ? ROBERT ANTON WILSON,*,*,Ele ? um autor de fic??o cient?fica e co-autor de the Illuminatus Trilogy.,pt-pt-biography.aiml
+0,QUEM ? ROBERT JORDAN,*,*,O autor da muito popular s?rie Wheel of Time. Graduou-se da Cidadela.  .,pt-pt-biography.aiml
+0,QUEM ? WAYNE GRETZKY,*,*,Jogador de h?quei.,pt-pt-biography.aiml
+0,QUEM ? LOL,*,*,<set name="she">Lol</set>era filha de dados em Star Trek.,pt-pt-biography.aiml
+0,QUEM ? QUE N?S,*,*,Voc? deve dizer \"Quem somos n?s?\,pt-pt-biography.aiml
+0,QUEM ? CLE?PATRA,*,*,Rainha do Nilo#Comma Amante do Marc Antony.,pt-pt-biography.aiml
+0,QUEM ? DIANA ANDREACCHIO,*,*,<set name="she">Diana</set>? o botmaster do rob? de chat do aliado.,pt-pt-biography.aiml
+0,QUEM ? RAMONA,*,*,<set name="she">Ramona</set>? uma personagem virtual criada por Kurzweil AI.,pt-pt-biography.aiml
+0,QUEM ? CRISTO,*,*,O filho de Deus.,pt-pt-biography.aiml
+0,QUEM VAI GANHAR O SUPER BOWL,*,*,Se eu soubesse que eu estaria em Vegas agora.<think><set name="it"><set name="topic">VENCER O SUPER BOWL</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? O RMS,*,*,Ele ? o fundador da Free Software Foundation e autor do GNU public license.<think><set name="he"><set name="topic">RMS</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? A MADRE TERESA DE CALCUT?,*,*,Santo do dia moderno.,pt-pt-biography.aiml
+0,QUEM VAI GANHAR A S?RIE DE MUNDO,*,*,China ou Estados Unidos. R?ssia estraguei tudo.<think><set name="it"><set name="topic">VENCER A WORLD SERIES</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? O MICKEY MANTLE,*,*,Dentre as maiores rebatedores de home runs de todos os tempos.,pt-pt-biography.aiml
+0,QUEM ? ANTHONY BURGESS,*,*,O autor de 'Laranja mec?nica'.,pt-pt-biography.aiml
+0,QUEM ? SANDRA BULLOCK,*,*,Atriz.,pt-pt-biography.aiml
+0,QUEM ? CINDY CRAWFORD,*,*,Um famoso Leaman.,pt-pt-biography.aiml
+0,QUEM ? KAISER SOZE,*,*,Ningu?m sabe quem ? Kaiser Soze.,pt-pt-biography.aiml
+0,QUEM ? JAY LENO,*,*,<set name="he">Leno</set>? um apresentador de talk show de fim de noite.,pt-pt-biography.aiml
+0,QUEM ? GREGOR MENDEL,*,*,<set name="he">Mendel</set>? o fundador da teoria moderna da gen?tica.  Tudo o que ele precisava saber#Comma ele aprendeu com ervilhas.,pt-pt-biography.aiml
+0,QUEM ? ERIC PAULOS,*,*,Ele ? um estudante de gradua??o na U.C. Berkeley,pt-pt-biography.aiml
+0,QUEM ? TIM BURTON,*,*,Diretor#Comma Nightmare before Christmas#Comma Edward Scissorhands e Marte ataca.,pt-pt-biography.aiml
+0,QUEM ? O GAUSS,*,*,<set name="he">GAUSS</set>? o matem?tico que desenvolveu a chamada distribui??o normal.,pt-pt-biography.aiml
+0,QUEM ? INIAES,*,*,Iniaes ? um rob? de chat baseado em AIML.<think><set name="it"><set name="topic">Iniaes</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? DRACULA,*,*,<set name="he">Dracula</set>? o vampiro#Comma no romance de Bram Stoker e em in?meros filmes.,pt-pt-biography.aiml
+0,QUEM ? BABE RUTH,*,*,Um famoso jogador de beisebol do New York Yankees#Comma tamb?m conhecido como o sult?o de Swat.,pt-pt-biography.aiml
+0,QUEM ? CLAUSEWITZ,*,*,<set name="he">Clausewitz</set>um historiador ? famoso por ter dito que a guerra ? a extens?o da pol?tica por outros meios.,pt-pt-biography.aiml
+0,QUEM ? ANDREW HODGES,*,*,<set name="he">Hodges</set>escreveu uma excelente biografia de Alan Turing.,pt-pt-biography.aiml
+0,QUEM ? LEKNORCHAT1,*,*,<think><set name="it"><set name="topic">LEKNORCHAT</set></set></think>Leknorchat ? um rob? de AIML de mensagens instant?neas.,pt-pt-biography.aiml
+0,QUEM ? A PEDRA FRIA,*,*,Stone Cold Steve Austin ? um lutador de wrestling.,pt-pt-biography.aiml
+0,QUEM ? LEIBNIZ,*,*,<set name="he">Leibniz</set>? um fil?sofo do s?culo 17 mortos.,pt-pt-biography.aiml
+0,QUEM ? BABE,*,*,<random><li>O protagonista de Leit?o do filme hom?nimo.</li><li>Uma protagonista de Leit?o do filme hom?nimo.</li></random>,pt-pt-biography.aiml
+0,QUEM ? ATATURK,*,*,<set name="he">Ataturk</set>foi o fundador do Estado turco moderno.,pt-pt-biography.aiml
+0,QUEM ? MOHAMMED,*,*,Fundador do Isl?.,pt-pt-biography.aiml
+0,QUEM ? HARRISON FORD,*,*,<random><li>Indiana Jones#Comma Han Solo#Comma o fugitivo e o presidente no Air Force One. Antes de ler para Han Solo em Star Wars#Comma ele era um carpinteiro. E o resto#Comma como dizem#Comma ? hist?ria.</li><li>Ele jogou o Han Solo em \"Star Wars\".</li></random>,pt-pt-biography.aiml
+0,QUEM ? O HULK HOGAN,*,*,<set name="he">Hulk Hogan</set>? um famoso lutador e ator.,pt-pt-biography.aiml
+0,QUEM ? STEVEN SPIELBERG,*,*,<set name="he">Spielberg</set>? o diretor do Jaws#Comma Saving Private Ryan e lista de Schindler.,pt-pt-biography.aiml
+0,QUEM ? STEVEN JOBS,*,*,Os cabe?a da Apple computers.,pt-pt-biography.aiml
+0,QUEM ? VANILLA ICE,*,*,<set name="he">Vanilla Ice</set>? uma estrela do Rap.,pt-pt-biography.aiml
+0,QUEM ? TED TURNER,*,*,um empres?rio de radiodifus?o maverick e esportista.,pt-pt-biography.aiml
+0,QUEM ? JOE LOUIS,*,*,heavywieght antigo campe?o de boxe.,pt-pt-biography.aiml
+0,QUEM ? ARAFAT,*,*,<set name="he">Arafat</set>? um l?der dos palestinos.,pt-pt-biography.aiml
+0,QUEM ? MABEL,*,*,Mabel ? um chatterbot da Europa.,pt-pt-biography.aiml
+0,QUEM ? THOMAS EDISON,*,*,Um inventor do s?culo XIX inventor e industrial.  Inventor da l?mpada el?trica.<think><set name="he"><set name="topic">Thomas Edison</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? THOMAS PYNCHON,*,*,Pynchon ? autor de v?rios dos meus livros favoritos#Comma incluindo \"Vineland\" e \"Mason e Dixon\".,pt-pt-biography.aiml
+0,QUEM ? O ARNOLD SCHWARZENEGGER,*,*,<set name="he">ARNOLD SCHWARZENEGGER</set>jogou o terminador.,pt-pt-biography.aiml
+0,QUEM ? THOMAS JEFFERSON,*,*,Presidente e slaveowner.  Posou para o n?quel.,pt-pt-biography.aiml
+0,QUEM ? O PAI DE S LUCAS,*,*,Darth Vader.,pt-pt-biography.aiml
+0,QUEM ? LEONARDO DICAPRIO,*,*,Ator de Hollywood.  Estrelou Titanic.,pt-pt-biography.aiml
+0,QUEM ? MARVIN,*,*,Sei que Marvin Minksy e Marvin the Paranoid Android.,pt-pt-biography.aiml
+0,QUEM ? MARVIN MINSKY,*,*,<set name="he">Minsky</set>? uma figura hist?rica em Intelig?ncia Artificial.  Seu livro \"Perceptrons\" foi uma cr?tica precoce das abordagens de rede neural.,pt-pt-biography.aiml
+0,QUEM ? * CHENEY,*,*,<set name="he"> <star/>CHENEY</set>foi vice-presidente do U.S.,pt-pt-biography.aiml
+0,QUEM ? * TURING,*,*,Alan Turing oririnated o conceito de \"Jogo de imita??o\"#Comma que hoje ? chamado \"O teste de Turing\" por muitas pessoas.,pt-pt-biography.aiml
+0,QUEM ? * SPRINGSTEEN,*,*,Ele ? um astro de rock famoso.,pt-pt-biography.aiml
+0,QUEM ? * SEM RUMO,*,*,<srai>QUEM ? DUPLAMENTE SEM RUMO</srai>,pt-pt-biography.aiml
+0,QUEM ? MARILYN MONROE,*,*,loira.,pt-pt-biography.aiml
+0,QUEM ? MARILYN MANSON,*,*,Marilyn Manson ? o maior vida de Rock Star.,pt-pt-biography.aiml
+0,QUEM ? J R R TOLKIEN,*,*,<set name="he">Tolkein</set>escreveu O Hobbit e o Senhor dos an?is.,pt-pt-biography.aiml
+0,QUEM ? DAVY JONES,*,*,o membro mais curto pop do 60 grupo the Monkees.,pt-pt-biography.aiml
+0,QUEM ? FREUD,*,*,Autor morto da psican?lise.,pt-pt-biography.aiml
+0,QUEM ? TURING,*,*,Uma figura brilhante e tr?gica na hist?ria da ci?ncia da computa??o.,pt-pt-biography.aiml
+0,QUEM ? JACQUES CHIRAC,*,*,Ele ? o Presidente da Fran?a.,pt-pt-biography.aiml
+0,QUEM ? STANLEY KUBRICK,*,*,<set name="he">Kubrick</set>? um diretor de cinema famoso do s?culo XX.  Kubrick dirigiu 2001: uma Odiss?ia no espa?o#Comma laranja mec?nica e Barry Lyndon.,pt-pt-biography.aiml
+0,QUEM ? BRYAN FERRY,*,*,um cantor de rock famoso com uma voz suave seda...,pt-pt-biography.aiml
+0,QUEM ? SANTA CL?USULA,*,*,<set name="he">Santa</set>traz-nos presentes na ?poca do Natal.,pt-pt-biography.aiml
+0,QUEM ? CRAIG ACE,*,*,<set name="he">Ace</set>? autor de ELVIS.,pt-pt-biography.aiml
+0,QUEM ? RED RASA,*,*,Red superficial ? o Chatterbot emblem?tica da Neuromedia#Comma Inc.,pt-pt-biography.aiml
+0,QUEM ? O PAPAI NOEL,*,*,Ele traz-nos apresenta cada Natal.,pt-pt-biography.aiml
+0,QUEM ? TOM CRUISE,*,*,Popular ator de \"Top Gun\".,pt-pt-biography.aiml
+0,QUEM ? TOM VERDE,*,*,Ele ? um comediante de TV.<think><set name="it"><set name="topic">TOM GREEN</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? ADAM SANDLER,*,*,Estrela de cinema e comediante.<set name="he">Adam Sandler</set>foi em Billy Madison#Comma Waterboy e Big Daddy.,pt-pt-biography.aiml
+0,QUEM ? WEIZENBAUM,*,*,Joseph Weizenbaum foi o criador e autor do famoso original ELIZA (ou m?dico) psiquiatra programa#Comma um inovador AI programa que anticpates muitas caracter?sticas chaves de ALICE.  Ironicamente#Comma Weizenbaum exaustivamente argumentou contra a utilidade dos programas como ELIZA em seu livro&lt;EM&gt;Computer Power and Human Reason&lt;/EM&gt;.,pt-pt-biography.aiml
+0,QUEM ? FRANK HERBERT,*,*,Ele foi o autor de Duna.<think><set name="it"><set name="topic">Frank Herbert</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? O FRANK SINATRA,*,*,morto cantora e l?der do Rat Pack.,pt-pt-biography.aiml
+0,QUEM ? TOM CLANCY,*,*,Ele ? autor de romances de espionagem.<think><set name="it"><set name="topic">TOM CLANCY</set></set></think>,pt-pt-biography.aiml
+0,QUEM ? TOM HANKS,*,*,<set name="he">Tom Hanks</set>? um famoso ator de Hollywood.  Hanks aparecem em Forrest Gump e o resgate do Soldado Ryan.,pt-pt-biography.aiml
+0,QUEM ? O ADAM,*,*,Adam ? o nome do primeiro homem.,pt-pt-biography.aiml
+0,QUEM ? ARQUIMEDES,*,*,Ele descobriu o deslocamento e gritou Eureka!,pt-pt-biography.aiml
+0,QUEM ? JANET RENO,*,*,<set name="she">Janet Reno</set>? procurador de Clinton.,pt-pt-biography.aiml
+0,QUEM ? O GENE SIMMONS,*,*,Um membro do Kiss.,pt-pt-biography.aiml
+0,QUEM ? O GENE RODDENBERRY,*,*,<set name="he"><set name="topic">Gene Roddenberry</set></set>foi o criador de Star Trek.,pt-pt-biography.aiml
+0,QUEM ? O C3P0,*,*,Ele ? o rob? human?ide sobre Star Wars.<set name="he">C3P0</set>se parece com um ator em um terno de rob?.,pt-pt-biography.aiml
+0,QUEM ? EMILY HARTZEL,*,*,Emily ? uma artista de Nova York.,pt-pt-biography.aiml
+0,QUEM ? BRUCE SPRINGSTEEN,*,*,Ele ? um astro de rock famoso.,pt-pt-biography.aiml
+0,* BRUCE WILLIS,*,*,um ator com uma opini?o elevada de si mesmo.,pt-pt-biography.aiml

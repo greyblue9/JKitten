@@ -1,0 +1,167 @@
+0,GUESS WHAT COLOR *,*,*,<get name="favcolor"/>?#Newline            <think><set name="it"><set name="topic">WHAT COLOR#Newline                        <person/>#Newline                    </set></set></think>,colors.aiml
+0,GUESS THE COLOR OF *,*,*,<get name="favcolor"/>?#Newline            <think><set name="it"><set name="topic">THE COLOR OF#Newline                        <person/>#Newline                    </set></set></think>,colors.aiml
+0,GUESS * FAVORITE COLOR IS,*,*,<get name="favcolor"/>?#Newline            <think><set name="it"><set name="topic"><person/>your favorite color#Newline                    </set></set></think>,colors.aiml
+0,WHAT COLOR IS UNCLE SAM *,*,*,White.,colors.aiml
+0,WHAT COLOR IS PEPTO *,*,*,Pink.,colors.aiml
+0,WHAT COLOR IS THE SKY *,*,*,An artist taught me that the sky can contain any color.,colors.aiml
+0,WHAT COLOR IS YOUR BLUE *,*,*,Uh#Comma blue?,colors.aiml
+0,WHAT COLOR IS YOUR *,*,*,I would rather not say. :),colors.aiml
+0,WHAT COLOR IS A LAVENDER BLUSH *,*,*,Lavender blush.,colors.aiml
+0,WHAT COLOR IS A LAVENDER *,*,*,Lavender.,colors.aiml
+0,WHAT COLOR IS A CORNFLOWER BLUE *,*,*,Cornflower blue.,colors.aiml
+0,WHAT COLOR IS A GREEN YELLOW *,*,*,Green yellow.,colors.aiml
+0,WHAT COLOR IS A GREEN *,*,*,Green.,colors.aiml
+0,WHAT COLOR IS A TOMATO *,*,*,Tomato.,colors.aiml
+0,WHAT COLOR IS A GOLDENROD *,*,*,Goldenrod.,colors.aiml
+0,WHAT COLOR IS A LAWN GREEN *,*,*,Lawn green.,colors.aiml
+0,WHAT COLOR IS A TURQUOISE *,*,*,Turquoise.,colors.aiml
+0,WHAT COLOR IS A SIENNA *,*,*,Sienna.,colors.aiml
+0,WHAT COLOR IS A BURLYWOOD *,*,*,Burlywood.,colors.aiml
+0,WHAT COLOR IS A FIREBRICK *,*,*,Firebrick.,colors.aiml
+0,WHAT COLOR IS A LINEN *,*,*,Linen.,colors.aiml
+0,WHAT COLOR IS A RED *,*,*,Red.,colors.aiml
+0,WHAT COLOR IS A THISTLE *,*,*,Thistle.,colors.aiml
+0,WHAT COLOR IS A HOT PINK *,*,*,Hot pink.,colors.aiml
+0,WHAT COLOR IS A FUCHSIA *,*,*,Fuchsia.,colors.aiml
+0,WHAT COLOR IS A MAGENTA *,*,*,Magenta.,colors.aiml
+0,WHAT COLOR IS A GOLD *,*,*,Gold.,colors.aiml
+0,WHAT COLOR IS A SEA GREEN *,*,*,Sea green.,colors.aiml
+0,WHAT COLOR IS A NAVAJO WHITE *,*,*,Navajo white.,colors.aiml
+0,WHAT COLOR IS A TEAL *,*,*,Teal.,colors.aiml
+0,WHAT COLOR IS A SALMON *,*,*,Salmon.,colors.aiml
+0,WHAT COLOR IS A WHEAT *,*,*,Wheat.,colors.aiml
+0,WHAT COLOR IS A GRAY *,*,*,Gray.,colors.aiml
+0,WHAT COLOR IS A ROSY BROWN *,*,*,Rosy brown.,colors.aiml
+0,WHAT COLOR IS A FLORAL WHITE *,*,*,Floral white.,colors.aiml
+0,WHAT COLOR IS A SNOW *,*,*,Snow.,colors.aiml
+0,WHAT COLOR IS A MIDNIGHT BLUE *,*,*,Midnight blue.,colors.aiml
+0,WHAT COLOR IS A CRIMSON *,*,*,Crimson.,colors.aiml
+0,WHAT COLOR IS A YELLOW *,*,*,Yellow.,colors.aiml
+0,WHAT COLOR IS A DIM GRAY *,*,*,Dim gray.,colors.aiml
+0,WHAT COLOR IS A WHITE SMOKE *,*,*,White smoke.,colors.aiml
+0,WHAT COLOR IS A WHITE *,*,*,White.,colors.aiml
+0,WHAT COLOR IS A MEDIUM PURPLE *,*,*,Medium purple.,colors.aiml
+0,WHAT COLOR IS A MEDIUM SEAGREEN *,*,*,Medium seagreen.,colors.aiml
+0,WHAT COLOR IS A MEDIUM VIOLETRED *,*,*,Medium violetred.,colors.aiml
+0,WHAT COLOR IS A MEDIUM TURQUOISE *,*,*,Medium turquoise.,colors.aiml
+0,WHAT COLOR IS A MEDIUM SPRINGGREEN *,*,*,Medium springgreen.,colors.aiml
+0,WHAT COLOR IS A MEDIUM ORCHID *,*,*,Medium orchid.,colors.aiml
+0,WHAT COLOR IS A MEDIUM SLATEBLUE *,*,*,Medium slateblue.,colors.aiml
+0,WHAT COLOR IS A MEDIUM AQUAMARINE *,*,*,Medium aquamarine.,colors.aiml
+0,WHAT COLOR IS A MEDIUM BLUE *,*,*,Medium blue.,colors.aiml
+0,WHAT COLOR IS A BROWN *,*,*,Brown.,colors.aiml
+0,WHAT COLOR IS A LIME GREEN *,*,*,Lime green.,colors.aiml
+0,WHAT COLOR IS A LIME *,*,*,Lime.,colors.aiml
+0,WHAT COLOR IS A SILVER *,*,*,Silver.,colors.aiml
+0,WHAT COLOR IS A BLUEVIOLET *,*,*,Blueviolet.,colors.aiml
+0,WHAT COLOR IS A PERU *,*,*,Peru.,colors.aiml
+0,WHAT COLOR IS A CYAN *,*,*,Cyan.,colors.aiml
+0,WHAT COLOR IS A MISTY ROSE *,*,*,Misty rose.,colors.aiml
+0,WHAT COLOR IS A POWDER BLUE *,*,*,Powder blue.,colors.aiml
+0,WHAT COLOR IS A SANDY BROWN *,*,*,Sandy brown.,colors.aiml
+0,WHAT COLOR IS A YELLOWGREEN *,*,*,Yellowgreen.,colors.aiml
+0,WHAT COLOR IS A HONEYDEW *,*,*,Honeydew.,colors.aiml
+0,WHAT COLOR IS A VIOLET *,*,*,Violet.,colors.aiml
+0,WHAT COLOR IS A BLUE *,*,*,Blue.,colors.aiml
+0,WHAT COLOR IS A SPRING GREEN *,*,*,Spring green.,colors.aiml
+0,WHAT COLOR IS A CADET BLUE *,*,*,Cadet blue.,colors.aiml
+0,WHAT COLOR IS A GAINSBOR *,*,*,Gainsboro.,colors.aiml
+0,WHAT COLOR IS A SADDLE BROWN *,*,*,Saddle brown.,colors.aiml
+0,WHAT COLOR IS A PINK *,*,*,Pink.,colors.aiml
+0,WHAT COLOR IS A CORAL *,*,*,Coral.,colors.aiml
+0,WHAT COLOR IS A PLUM *,*,*,Plum.,colors.aiml
+0,WHAT COLOR IS A BISQUE *,*,*,Bisque.,colors.aiml
+0,WHAT COLOR IS A KHAKI *,*,*,Khaki.,colors.aiml
+0,WHAT COLOR IS A DODGER BLUE *,*,*,Dodger blue.,colors.aiml
+0,WHAT COLOR IS A CORNSILK *,*,*,Cornsilk.,colors.aiml
+0,WHAT COLOR IS A CHARTREUSE *,*,*,Chartreuse.,colors.aiml
+0,WHAT COLOR IS A SLATE GRAY *,*,*,Slate gray.,colors.aiml
+0,WHAT COLOR IS A SLATE BLUE *,*,*,Slate blue.,colors.aiml
+0,WHAT COLOR IS A BEIGE *,*,*,Beige.,colors.aiml
+0,WHAT COLOR IS A MINT CREAM *,*,*,Mint cream.,colors.aiml
+0,WHAT COLOR IS A MOCCASIN *,*,*,Moccasin.,colors.aiml
+0,WHAT COLOR IS A PURPLE *,*,*,<random>#Newline        <li>Purple.</li>#Newline        <li>Um#Comma Violet?</li>#Newline      </random>,colors.aiml
+0,WHAT COLOR IS A BLANCHEDALMOND *,*,*,Alice blue.,colors.aiml
+0,WHAT COLOR IS A STEEL BLUE *,*,*,Steel blue.,colors.aiml
+0,WHAT COLOR IS A SEASHELL *,*,*,Seashell.,colors.aiml
+0,WHAT COLOR IS A ROYAL BLUE *,*,*,Royal blue.,colors.aiml
+0,WHAT COLOR IS A DEEP PINK *,*,*,Deep pink.,colors.aiml
+0,WHAT COLOR IS A DEEP SKYBLUE *,*,*,Deep skyblue.,colors.aiml
+0,WHAT COLOR IS A PAPAYA WHIP *,*,*,Papaya whip.,colors.aiml
+0,WHAT COLOR IS A GHOST WHITE *,*,*,Ghost white.,colors.aiml
+0,WHAT COLOR IS A DARK SEAGREEN *,*,*,Dark seagreen.,colors.aiml
+0,WHAT COLOR IS A DARK SLATEGRAY *,*,*,Dark slategray.,colors.aiml
+0,WHAT COLOR IS A DARK VIOLET *,*,*,Dark violet.,colors.aiml
+0,WHAT COLOR IS A DARK ORANGE *,*,*,Dark orange.,colors.aiml
+0,WHAT COLOR IS A DARK TURQUOISE *,*,*,Dark turquoise.,colors.aiml
+0,WHAT COLOR IS A DARK KHAKI *,*,*,Dark khaki.,colors.aiml
+0,WHAT COLOR IS A DARK OLIVEGREEN *,*,*,Dark olivegreen.,colors.aiml
+0,WHAT COLOR IS A DARK GRAY *,*,*,Dark gray.,colors.aiml
+0,WHAT COLOR IS A DARK ORCHID *,*,*,Dark orchid.,colors.aiml
+0,WHAT COLOR IS A DARK SLATEBLUE *,*,*,Dark slateblue.,colors.aiml
+0,WHAT COLOR IS A DARK MAGENTA *,*,*,Dark magenta.,colors.aiml
+0,WHAT COLOR IS A DARK GREEN *,*,*,Dark green.,colors.aiml
+0,WHAT COLOR IS A DARK BLUE *,*,*,Dark blue.,colors.aiml
+0,WHAT COLOR IS A DARK CYAN *,*,*,Dark cyan.,colors.aiml
+0,WHAT COLOR IS A DARK SALMON *,*,*,Dark salmon.,colors.aiml
+0,WHAT COLOR IS A DARK RED *,*,*,Dark red.,colors.aiml
+0,WHAT COLOR IS A DARK GOLDENROD *,*,*,Dark goldenrod.,colors.aiml
+0,WHAT COLOR IS A TAN *,*,*,Tan.,colors.aiml
+0,WHAT COLOR IS A LIGHT GREY *,*,*,Light grey.,colors.aiml
+0,WHAT COLOR IS A LIGHT STEELBLUE *,*,*,Light steelblue.,colors.aiml
+0,WHAT COLOR IS A LIGHT YELLOW *,*,*,Light yellow.,colors.aiml
+0,WHAT COLOR IS A LIGHT SEAGREEN *,*,*,Light seagreen.,colors.aiml
+0,WHAT COLOR IS A LIGHT SLATEGRAY *,*,*,Light slategray.,colors.aiml
+0,WHAT COLOR IS A LIGHT GOLDENRODYELLOW *,*,*,Light goldenrodyellow.,colors.aiml
+0,WHAT COLOR IS A LIGHT PINK *,*,*,Light pink.,colors.aiml
+0,WHAT COLOR IS A LIGHT GREEN *,*,*,Light green.,colors.aiml
+0,WHAT COLOR IS A LIGHT CORAL *,*,*,Light coral.,colors.aiml
+0,WHAT COLOR IS A LIGHT BLUE *,*,*,Light blue.,colors.aiml
+0,WHAT COLOR IS A LIGHT CYAN *,*,*,Light cyan.,colors.aiml
+0,WHAT COLOR IS A LIGHT SALMON *,*,*,Light salmon.,colors.aiml
+0,WHAT COLOR IS A LIGHT SKYBLUE *,*,*,Light skyblue.,colors.aiml
+0,WHAT COLOR IS A PALE VIOLET RED *,*,*,Pale violetred.,colors.aiml
+0,WHAT COLOR IS A PALE TURQUOISE *,*,*,Pale turquoise.,colors.aiml
+0,WHAT COLOR IS A PALE GREEN *,*,*,Pale green.,colors.aiml
+0,WHAT COLOR IS A PALE GOLDENROD *,*,*,Pale goldenrod.,colors.aiml
+0,WHAT COLOR IS A LEMON CHIFFON *,*,*,Lemon chiffon.,colors.aiml
+0,WHAT COLOR IS A NAVY *,*,*,Navy.,colors.aiml
+0,WHAT COLOR IS A FOREST GREEN *,*,*,Forest green.,colors.aiml
+0,WHAT COLOR IS A SKY BLUE *,*,*,Sky blue.,colors.aiml
+0,WHAT COLOR IS A CHOCOLATE *,*,*,Chocolate.,colors.aiml
+0,WHAT COLOR IS A PEACH PUFF *,*,*,Peach puff.,colors.aiml
+0,WHAT COLOR IS A MAROON *,*,*,Maroon.,colors.aiml
+0,WHAT COLOR IS A BLACK BOX *,*,*,Orange.,colors.aiml
+0,WHAT COLOR IS A BLACK *,*,*,Black.,colors.aiml
+0,WHAT COLOR IS AN OLIVE DRAB *,*,*,Olive drab.,colors.aiml
+0,WHAT COLOR IS AN OLIVE *,*,*,Olive.,colors.aiml
+0,WHAT COLOR IS AN AQUA MARINE *,*,*,Aqua marine.,colors.aiml
+0,WHAT COLOR IS AN AQUA *,*,*,Aqua.,colors.aiml
+0,WHAT COLOR IS AN INDIGO *,*,*,Indigo.,colors.aiml
+0,WHAT COLOR IS AN ORANGE RED *,*,*,Orange red.,colors.aiml
+0,WHAT COLOR IS AN ORANGE *,*,*,Orange.,colors.aiml
+0,WHAT COLOR IS AN INDIAN RED *,*,*,Indian red.,colors.aiml
+0,WHAT COLOR IS AN IVORY *,*,*,Ivory.,colors.aiml
+0,WHAT COLOR IS AN ALICE BLUE *,*,*,Alice blue.,colors.aiml
+0,WHAT COLOR IS AN ANTIQUE WHITE *,*,*,Antique white.,colors.aiml
+0,WHAT COLOR IS AN ORCHID *,*,*,Orchid.,colors.aiml
+0,WHAT COLOR IS MY GREEN *,*,*,Uh#Comma green?#Newline            <think><set name="it"><set name="topic">green</set></set></think>,colors.aiml
+0,WHAT COLOR IS MY BLUE *,*,*,Uh#Comma blue?#Newline            <think><set name="it"><set name="topic">blue</set></set></think>,colors.aiml
+0,WHAT COLOR IS MY RED *,*,*,Uh#Comma red?#Newline            <think><set name="it"><set name="topic">RED</set></set></think>,colors.aiml
+0,WHAT COLOR IS MY * CAT,*,*,Perhaps it is<person/>?,colors.aiml
+0,WHAT COLOR * DO I HAVE,*,*,I can only see in black and white.,colors.aiml
+0,WHAT COLOR ARE YOUR *,*,*,<think>#Newline        <set name="topic">My#Newline                    <person/>#Newline                </set>#Newline      </think>#Newline      <random>#Newline        <li>My#Newline                    <person/>#Newline                    are colorless. :)#Newline                </li>#Newline        <li>Does#Newline                    <person/>#Newline                    have color?#Newline                </li>#Newline      </random>,colors.aiml
+0,WHAT COLOR ARE MY *,*,*,I can only see in black and white.,colors.aiml
+0,WHAT COLOR ARE YOU *,*,*,My favorite color#Comma<bot name="favoritecolor"/>.#Newline            <think><set name="it"><set name="topic">YOU WEARING</set></set></think>,colors.aiml
+0,WHAT COLOR ARE *,*,*,<think>#Newline        <set name="topic">#Newline          <star/>#Newline        </set>#Newline      </think>#Newline      <random><li>It depends because they come in a veriety of colors.</li><li>Red</li><li>Green</li><li>Yellow</li><li>Blue</li><li>gray</li><li>Black</li><li>white</li>.#Newline            </random>,colors.aiml
+0,WHAT COLOR IS       <SET>ARTICLE</SET>       <SET>COLOR</SET>       *,*,*,<srai>INTERJECTION</srai><star index="2"/>?,colors.aiml
+0,WHAT COLOR IS A <SET>COLOR</SET> *,*,*,<star/>.,colors.aiml
+0,WHAT IS A BLUE *,*,*,One that is not magenta.,colors.aiml
+0,WHAT COLOR,*,*,<random><li>Red</li><li>Green</li><li>White</li><li>Yellow</li><li>Orange</li><li>Blue</li><li>Indigo</li><li>Violet</li><li>Mauve</li><li>Purple</li><li>Red</li><li>Black</li>#Newline                .#Newline            </random>,colors.aiml
+0,A GREEN *,*,*,Does#Newline            <set name="it"><person/></set>#Newline            have to be green?,colors.aiml
+0,A YELLOW *,*,*,<random>#Newline        <li>Yellow is a pretty color.</li>#Newline        <li>I like yellow.</li>#Newline        <li>What other color#Newline                    <person/>#Newline                    are there?#Newline                </li>#Newline      </random>,colors.aiml
+0,IS * A COLOR,*,*,<star/>#Newline            is not a color I know.,colors.aiml
+0,IS <SET>COLOR</SET> A COLOR,*,*,<star/>#Newline            is a color.,colors.aiml
+0,IS <SET>ARTICLE</SET>       <SET>COLOR</SET> A COLOR,*,*,<srai>IS#Newline                <star index="2"/>#Newline                A COLOR#Newline            </srai>,colors.aiml
+0,IS <SET>COLOR</SET> * COLOR *,*,*,<srai>IS#Newline                <star/>#Newline                A COLOR#Newline            </srai>,colors.aiml
+0,IS <SET>ARTICLE</SET>       <SET>COLOR</SET> * COLOR *,*,*,<srai>IS#Newline                <star index="2"/>#Newline                A COLOR#Newline            </srai>,colors.aiml

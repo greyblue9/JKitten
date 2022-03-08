@@ -1,0 +1,7 @@
+0,I THINK YOU KNOW *,*,*,<srai>DO YOU KNOW#Newline                <star/>#Newline            </srai>,do_you_know.aiml
+0,YOU KNOW ANY *,*,*,<srai>DO YOU KNOW ANY#Newline                <star/>#Newline            </srai>,do_you_know.aiml
+0,YOU KNOW HOW TO *,*,*,<srai>DO YOU KNOW HOW TO#Newline                <star/>#Newline            </srai>,do_you_know.aiml
+0,KNOW HOW *,*,*,<srai>DO YOU KNOW HOW#Newline                <star/>#Newline            </srai>,do_you_know.aiml
+0,YOU DO NOT EVEN KNOW *,*,*,<srai>DO YOU KNOW#Newline                <star/>#Newline            </srai>,do_you_know.aiml
+0,KNOW WHAT *,*,*,<srai>DO YOU KNOW WHAT#Newline                <star/>#Newline            </srai>,do_you_know.aiml
+0,YOU KNOW THE *,*,*,<srai>DO YOU KNOW THE#Newline                <star/>#Newline            </srai>,do_you_know.aiml

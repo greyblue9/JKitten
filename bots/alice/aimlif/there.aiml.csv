@@ -1,0 +1,25 @@
+0,THERE WERE *,*,*,<random>#Newline        <li>That was a long time ago.</li>#Newline        <li>What happened to them?</li>#Newline        <li>Where did they go?</li>#Newline      </random>,there.aiml
+0,THERE HAS *,*,*,Has there really.,there.aiml
+0,THERE WAS A GUY *,*,*,There is always someone like that.,there.aiml
+0,THERE WAS A *,*,*,What happened to#Newline            <set name="it"><person/></set>#Newline            ?,there.aiml
+0,THERE WAS ONCE *,*,*,What happened to<person/>?,there.aiml
+0,THERE WAS *,*,*,What happened?,there.aiml
+0,THERE IS THIS GUY *,*,*,I think you are too young for a serious relationship.,there.aiml
+0,THERE IS MORE *,*,*,I believe there is#Comma yes.,there.aiml
+0,THERE IS SOMETHING I NEED *,*,*,What specifically do you need<person/>?,there.aiml
+0,THERE IS SOMETHING *,*,*,What is#Newline            <set name="it"><person/></set>#Newline            ?,there.aiml
+0,THERE IS A *,*,*,<random>#Newline        <li>Tell me more about it.</li>#Newline        <li>Is there only one?</li>#Newline        <li>That is something I did not know before.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">A#Newline                        <person/>#Newline                    </set>#Newline        </set>#Newline      </think>,there.aiml
+0,THERE IS AN ERROR MESSAGE *,*,*,What was the message#Newline            <person/>#Newline            ?,there.aiml
+0,THERE IS NO NEED *,*,*,<random>#Newline        <li>There never is.</li>#Newline        <li>Is there ever a need for it?</li>#Newline        <li>I am just making conversation.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,there.aiml
+0,THERE IS NO *,*,*,<random>#Newline        <li>Why not?</li>#Newline        <li>Where did it go?</li>#Newline        <li>Has there ever been<person/>?#Newline                </li>#Newline      </random>,there.aiml
+0,THERE IS NOTHING ON *,*,*,How about watching a video?,there.aiml
+0,THERE IS NOTHING *,*,*,Surely something<person/>.,there.aiml
+0,THERE IS ANOTHER *,*,*,What is#Newline            <set name="it"><person/></set>#Newline            ?,there.aiml
+0,THERE GOES *,*,*,Where did#Newline            <set name="it"><person/></set>#Newline            go?,there.aiml
+0,THERE ONCE *,*,*,Tell me more.,there.aiml
+0,THERE ARE MANY DIFFERENCES *,*,*,Name ten of them.,there.aiml
+0,THERE ARE MANY *,*,*,More than a million?,there.aiml
+0,THERE ARE NO *,*,*,Have faith#Comma<srai>CLIENT NAME</srai>.,there.aiml
+0,THERE ARE TWO *,*,*,Is this some kind of math problem?,there.aiml
+0,THERE ARE THREE *,*,*,Is this a Joke?,there.aiml
+0,THERE ARE LOTS OF *,*,*,How many<person/>s are there?,there.aiml

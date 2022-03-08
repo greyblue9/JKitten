@@ -1,0 +1,3 @@
+0,WHEN # BILL #,*,*,You next bill is due on the xxth of xxxxxx,bills.aiml
+0,# LAST BILL #,*,*,Your last bill was for M-BM-#99.99,bills.aiml
+0,# PAY # BILL #,*,*,You can pay you bill via direct debit#Comma or as a one off payment by online on our website#Comma or#Newline            by calling us on 01999 99999,bills.aiml

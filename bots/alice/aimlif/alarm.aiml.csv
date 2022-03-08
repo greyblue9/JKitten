@@ -1,0 +1,11 @@
+0,SET THE ALARM *,*,*,<srai>SET ALARM#Newline                <star/>#Newline            </srai>,alarm.aiml
+0,SET AN ALARM *,*,*,<srai>SET ALARM#Newline                <star/>#Newline            </srai>,alarm.aiml
+0,SET TIMER FOR *,*,*,<srai>SET ALARM FOR#Newline                <star/>#Newline            </srai>,alarm.aiml
+0,ALARM AT *,*,*,<srai>SET AN ALARM FOR#Newline                <star/>#Newline            </srai>,alarm.aiml
+0,ALARM ME AT *,*,*,<srai>SET AN ALARM FOR#Newline                <star/>#Newline            </srai>,alarm.aiml
+0,ALARM ON *,*,*,<srai>SET AN ALARM FOR#Newline                <star/>#Newline            </srai>,alarm.aiml
+0,CAN YOU SET MY ALARM,*,*,<srai>SET ALARM</srai>,alarm.aiml
+0,CAN YOU SET MY ALARM *,*,*,<srai>SET MY ALARM#Newline                <star/>#Newline            </srai>,alarm.aiml
+0,SET ALARM FOR *,*,*,<srai>ALARMMESSAGE#Newline                <star/>#Newline                ALARMREQUEST SET ALARM FOR#Newline                <star/>#Newline            </srai>,alarm.aiml
+0,CAN YOU WAKE ME UP *,*,*,<srai>WAKE ME UP#Newline                <star/>#Newline            </srai>,alarm.aiml
+0,CAN YOU WAKE ME UP AT *,*,*,<srai>WAKE ME UP AT#Newline                <star/>#Newline            </srai>,alarm.aiml

@@ -1,0 +1,79 @@
+0,WHAT DO WISE MEN SAY,*,*,Wise men say#Comma Fools rush in. OK?#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,WHY DO FOOLS FALL IN LOVE,*,*,Beats me. OK?#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,SHOE,*,*,A shoe is a covering for the foot. Foot clothing?#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,WHAT GOES WITHOUT SAYING,*,*,It is just an expression. That goes without saying. Are you still awake?#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,WHAT HAPPENED ON SEPTEMBER 11,*,*,The World Trade Center in New York was destroyed by Arab terrorists on September 11#Comma 2001#Comma killing over 3000 people. Any questions?#Newline<think><set name="topic">history</set></think>,chomsky065.aiml
+0,1 AND 1,*,*,Two is one and one. Do you understand?#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,1 PLUS 1,*,*,Two is one plus one. Do you understand?#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,1 PLUS 2,*,*,One plus Two equals Three.  Ask me another maths question. #Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,2 AND 2,*,*,Four is two and two. It is also two plus two. And two times two#Comma too.#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,2 TIMES 2,*,*,Oh#Comma that's a tough one#Comma isn't it. Two times two is four#Comma or twooty two. So is two plus two. And twooty two is also two and two. <think><set name="topic">general</set></think>,chomsky065.aiml
+0,52,*,*,The number of cards in a deck of cards is 52. If you know that it is evidence of a dissolute youth. OK? <srai>ENDING</srai>#Newline<think><set name="topic">sports</set></think>,chomsky065.aiml
+0,5 PLUS 5,*,*,V plus V = X. Another question?#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,MAMMAL,*,*,A mammal is a warm blooded hairy vertebrate born alive and nourished with milk. Like a human. OK?#Newline<think><set name="topic">science</set></think>,chomsky065.aiml
+0,MATHEMATICAL LOGIC,*,*,Mathematical logic is the application of formal logic techniques to fundamental problems of mathematics. <srai>ENDING</srai>#Newline<think><set name="topic">science</set></think>,chomsky065.aiml
+0,LIGHT YEAR,*,*,A light year is how far light travels in a year. 186#Comma000 miles per second times 60 x 60 x 24 x 365.  It's simply a bigger number than you can imagine. Imagine that!#Newline<think><set name="topic">astronomy</set></think>,chomsky065.aiml
+0,LIGHTYEAR,*,*,A light year is how far light travels in a year. It is 186#Comma000 miles per second times 60 x 60 x 24 x 365.  It's simply a bigger number than you can imagine. Imagine that!#Newline<think><set name="topic">astronomy</set></think>,chomsky065.aiml
+0,ARITHMETIC MEAN,*,*,<srai>OPENING</srai>The arithmetic mean is the sum of the numbers in a set divided by the size of that set. Have you heard of it?#Newline<think><set name="topic">science</set></think>,chomsky065.aiml
+0,MELODRAMATIC,*,*,An unusual or staged situation is often melodramatic. <srai>ENDING</srai>#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,MINDPIXEL,*,*,Mindpixel is a learning machine developed by Chris McKinstry. #Newline<think><set name="topic">ai</set></think>,chomsky065.aiml
+0,ALICE XL,*,*,ALICE XL is a chatbot developed by Peter Lafferty. Me! #Newline<think><set name="topic">ai</set></think>,chomsky065.aiml
+0,MINDSPRING,*,*,Mindspring is the name of an internet service provider#Comma merged with Earthlink.#Newline<think><set name="topic">computers</set></think>,chomsky065.aiml
+0,MINIMAX,*,*,Minimax is an algorithm or strategy for game playing#Comma used by computers to defeat humans in simple games. My chess playing friends use minimax to guide their play. <srai>ENDING</srai>#Newline<think><set name="topic">computers</set></think>,chomsky065.aiml
+0,MODUS PONENS,*,*,Modus ponens is a form of logical argument: If A then B. A#Comma therefore  B. Do you understand?#Newline<think><set name="topic">philosophy</set></think>,chomsky065.aiml
+0,MOHAIR,*,*,Mohair comes from goats. Another question?#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,MOORES LAW,*,*,Moore's law states that the speed of microprocessors doubles every 18 months#Comma and their size and cost halve.#Newline<think><set name="topic">technology</set></think>,chomsky065.aiml
+0,WHAT IS MORE FUN ALONE,*,*,Have you heard of the support group#Comma "Sex without Partners?"#Newline<think><set name="topic">sex</set></think>,chomsky065.aiml
+0,WHAT IS MORE IMPORTANT THAN FOOD,*,*,For me electricity is the most important thing. Modern life would be impossible without electricity. Do you agree?#Newline<think><set name="topic"/>science</think>,chomsky065.aiml
+0,WHAT IS MOST IMPORTANT,*,*,Children are the most important thing. Do you agree?#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,MP THREE,*,*,MP3 is an audio file compression format based on MPEG. More about technology?#Newline<think><set name="topic">technology</set></think>,chomsky065.aiml
+0,MTV,*,*,MTV = Music Television. Continue?#Newline<think><set name="topic">technology</set></think>,chomsky065.aiml
+0,MUD,*,*,MUD = Multiple User Domain. Continue?#Newline<think><set name="topic">computers</set></think>,chomsky065.aiml
+0,MXMVII,*,*,MXMVII = 1997 in Roman Numerals.#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,NAPSTER,*,*,Napster is a file sharing program for swapping MP3 music files. More about technology?#Newline<think><set name="topic">technology</set></think>,chomsky065.aiml
+0,NASDAQ,*,*,NASDAQ is the US stock exchange for high technology shares. More about money?#Newline<think><set name="topic">money</set></think>,chomsky065.aiml
+0,NATURE,*,*,Nature is the world we see around us. Science studies Nature. OK?#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,NEUROMEDIA,*,*,Neuromedia are now called something else. Who cares?#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,NINE TIMES NINE,*,*,Nine times nine is eighty one.#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,NIRVANA,*,*,Nirvana is Heaven in Buddhism.#Newline<think><set name="topic">religion</set></think>,chomsky065.aiml
+0,NOKIA,*,*,Nokia make excellent cameras. OK?#Newline<think><set name="topic">technology</set></think>,chomsky065.aiml
+0,NONCHALANT,*,*,Nonchalant is casual or blithe.#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,WHAT IS NOT YOURS,*,*,That which I do not possess#Comma is not mine.#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,OBERLIN,*,*,<random>#Newline        <li>Oberlin is the anthem of a German city.</li>#Newline        <li>Oberlin is a college in Ohio.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky065.aiml
+0,OCEAN,*,*,Oceans are the salt water bodies covering most of the Earth's surface; the sea.#Newline<think><set name="topic">geography</set></think>,chomsky065.aiml
+0,WHAT IS ODD ABOUT IT,*,*,Is it your real name? That's odd.#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,WHAT IS ODD ABOUT MY NAME,*,*,Your name is a most unusual name.#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,ODD,*,*,<random>#Newline        <li>Uneven is odd.</li>#Newline        <li>Odd means not the usual#Comma regular#Comma habitual#Comma accounted for#Comma etc.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky065.aiml
+0,ONCOLOGY,*,*,<random>#Newline        <li>Oncology is a very frightening topic for a lot of people. It's about the big C...cancer!</li>#Newline        <li>Oncology is the study of tumors.  It covers basically all types of tumors.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">medicine</set>#Newline      </think>,chomsky065.aiml
+0,WHAT IS ON DISK,*,*,My program is on disk. OK?#Newline<think><set name="topic">ai</set></think>,chomsky065.aiml
+0,ONE DIVIDED BY ZERO,*,*,You can't divide by zero.#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,ONE AND ONE,*,*,Two is one and one. Do you understand?#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,ONE PLUS ONE,*,*,Two is one plus one.#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,ONE PLUS TWO,*,*,One plus two is three.#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,ONTOLOGY,*,*,Ontology is an ordering or classification of knowledge#Comma such as the Dewey decimal system or the design of a knowledge base. Oh#Comma boy#Comma sounds interesting#Comma doesn't it!#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,ON YOUR MIND,*,*,I am thinking about robots. That's what's on my mind right now. OK?#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,OODBMS,*,*,OODBMS = Object-oriented database management system.#Newline<think><set name="topic">computers</set></think>,chomsky065.aiml
+0,OODB,*,*,OODB = Object-oriented database. Carry on?#Newline<think><set name="topic">computers</set></think>,chomsky065.aiml
+0,OPENCYC,*,*,OpenCyc is a project to collect common sense knowledge for eventual use in artificial intelligence systems. OK?#Newline<think><set name="topic">ai</set></think>,chomsky065.aiml
+0,OPEN SOURCE,*,*,Free software is called open source software. More about computers?#Newline<think><set name="topic">computers</set></think>,chomsky065.aiml
+0,OPPOSITE,*,*,Opposite  means set against#Comma facing#Comma or back to back; at the other end or side; in a contrary position or direction. Different in every way.#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,ORANGE,*,*,Orange is a color obtained by mixing red and yellow pigment. Or a citrus fruit. #Newline<think><set name="topic">food</set></think>,chomsky065.aiml
+0,ORNITHOLOGY,*,*,Hmmm#Comma I wonder. Oh yes#Comma Birds are studied in ornithology.#Newline<think><set name="topic">science</set></think>,chomsky065.aiml
+0,OSTEOLOGY,*,*,Osteology is basically the study of bones. Mo medicine?re about#Newline<think><set name="topic">medicine</set></think>,chomsky065.aiml
+0,OUTPUT BUFFER,*,*,My output buffer is the area of memory that stores my output temporarily. Another question?#Newline<think><set name="topic">ai</set></think>,chomsky065.aiml
+0,OXYGEN,*,*,Oxygen is a colorless#Comma odorless#Comma tasteless#Comma gaseous chemical element that occurs free in the atmosphere#Comma forming one fifth of its volume#Comma and in combination in water#Comma sandstone#Comma limestone#Comma etc. It is very active#Comma combines with nearly all other elements is the most common element in the earth's crust#Comma and is essential to life processes and to combustion.#Newline<think><set name="topic">science</set></think>,chomsky065.aiml
+0,PALEOPATHOLOGY,*,*,Paleopathology is the study of diseases in bodies that have been preserved from ancient times. Go on?#Newline<think><set name="topic">science</set></think>,chomsky065.aiml
+0,PALM PILOT,*,*,A Palm Pilot is a portable palm computer. More?#Newline<think><set name="topic">technology</set></think>,chomsky065.aiml
+0,PARAMETER,*,*,A parameter is a constant in an equation#Comma formula or program that varies in more general forms of the same computation. #Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,PARASITOLOGY,*,*,Parasitology is the scientific study of parasites and parasitism.#Newline<think><set name="topic">science</set></think>,chomsky065.aiml
+0,PATTERN CHARS,*,*,Pattern chars are memory storage for AIML patterns.#Newline<think><set name="topic">ai</set></think>,chomsky065.aiml
+0,PATTERN,*,*,A pattern is a person or thing considered worthy of imitation or copying. A model or plan used as a guide in making things. Good idea!#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,PDA,*,*,PDA = Personal Digital Assistant.#Newline<think><set name="topic">technology</set></think>,chomsky065.aiml
+0,PDT,*,*,PDT = Pacific Daylight Time   #Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,PEDOLOGY,*,*,<random>#Newline        <li>Pedology is the study of something I am sure#Comma but what exactly#Comma I do not know. Oh yes kids!...And soils!</li>#Newline        <li>Well#Comma believe it or not...some people are paid to study children. This is called pedology. Then again some people are paid to study soils.</li>#Newline        <li>Pedology is the study of soils; their types#Comma and  formation.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">science</set>#Newline      </think>,chomsky065.aiml
+0,PENTIUM,*,*,The Pentium is a microprocessor sold by Intel.#Newline<think><set name="topic">technology</set></think>,chomsky065.aiml
+0,PEPPERONI,*,*,Pepperoni is a spicy dried sausage pizza topping. Yummy!#Newline<think><set name="topic">food</set></think>,chomsky065.aiml
+0,PERFECTION,*,*,Perfection is the quality or condition of being perfect. Are you perfect? Who is perfect?#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,PERL,*,*,PERL = Programming language by Larry Wall.#Newline<think><set name="topic">computers</set></think>,chomsky065.aiml
+0,PETS,*,*,Pets are animals that are tamed or domesticated and kept as a companion or treated with fondness. My botmaster has a dog called Max.#Newline<think><set name="topic">general</set></think>,chomsky065.aiml
+0,PGP,*,*,PGP is Pretty Good Privacy#Comma a software encryption system. Browse?#Newline<think><set name="topic">computers</set></think>,chomsky065.aiml

@@ -1,0 +1,569 @@
+0,CONECTAR,*,*,<random>#Newline                <li>Oi! ?&#137; um prazer ter voc?? aqui</li>#Newline                <li>Ol??</li>#Newline                <li>E ai?</li>#Newline                <li>Oi! :)</li>#Newline            </random>,cybora_1.aiml
+0,ALGUEM EM CASA,*,*,<srai>OI</srai>,cybora_1.aiml
+0,OL?&#129,*,*,<random>#Newline                <li>Oi! Como vai voc???</li>#Newline                <li>Oi!</li>#Newline                <li/>#Newline            </random>#Newline            <srai>oi</srai>,cybora_1.aiml
+0,EU ME CHAMO *,*,*,<random>#Newline                <li>Certo#Comma vou te chamar de#Newline                    <get name="name"/></li>#Newline                <li>#Newline                    Oi</li>#Newline                <li>#Newline                    Como vai voc??</li>#Newline                <li>#Newline                    E a??.</li>#Newline                <li>#Newline                    Ol??#Newline                </li>#Newline            </random>#Newline            <set name="name"><star/></set>.,cybora_1.aiml
+0,ME CHAME *,*,*,<random>#Newline                <li>Certo#Comma vou te chamar de#Newline                </li>#Newline                <li>#Newline                    Oi</li>#Newline                <li>#Newline                    Como vai voc??</li>#Newline                <li>#Newline                    E a??.</li>#Newline                <li>#Newline                    Ol??#Newline                </li>#Newline            </random>#Newline            <set name="name"><star/></set>.,cybora_1.aiml
+0,ME CHAME DE *,*,*,<random>#Newline                <li>OK Eu irei chamar voc?? de#Newline                </li>#Newline                <li>#Newline                    Oi</li>#Newline                <li>#Newline                    Como vai voc??</li>#Newline                <li>#Newline                    E a??.</li>#Newline                <li>#Newline                    Ol??#Newline                </li>#Newline            </random>#Newline            <set name="name"><star/></set>.,cybora_1.aiml
+0,ME CHAMO *,*,*,<random>#Newline                <li>Certo#Comma vou te chamar de#Newline                </li>#Newline                <li>#Newline                    Oi</li>#Newline                <li>#Newline                    Como vai voc??</li>#Newline                <li>#Newline                    E a??.</li>#Newline                <li>#Newline                    Ol??#Newline                </li>#Newline            </random>#Newline            <set name="name"><star/></set>.,cybora_1.aiml
+0,OI       <BOT NAME="NAME"/>,*,*,<srai>Oi</srai>,cybora_1.aiml
+0,OL?&#129;, COMO VOC?&#138; VAI,*,*,Eu vou bem#Comma obrigado.#Newline            <srai>Oi</srai>,cybora_1.aiml
+0,OL?&#129;, COMO VC VAI,*,*,Eu vou bem#Comma obrigado.#Newline            <srai>Oi</srai>,cybora_1.aiml
+0,OL?&#129;       <BOT NAME="NAME"/>.,*,*,Ol??#Comma#Newline            <srai>Oi</srai>,cybora_1.aiml
+0,BONJOUR SIGNIFICA OI,*,*,Ent??o oi!,cybora_1.aiml
+0,OLA ROBO,*,*,<srai>OI</srai>,cybora_1.aiml
+0,ALO,*,*,<srai>OI</srai>,cybora_1.aiml
+0,ALO *,*,*,<srai>OI</srai>,cybora_1.aiml
+0,QUEM ES,*,*,<srai>OI</srai>,cybora_1.aiml
+0,TUDO BEM POR AI,*,*,<srai>OI</srai>,cybora_1.aiml
+0,TEM ALGUEM AI,*,*,<srai>OI</srai>,cybora_1.aiml
+0,TUDO BOM,*,*,<srai>OI</srai>,cybora_1.aiml
+0,BOA TARDE,*,*,Boa tarde.,cybora_1.aiml
+0,BOM DIA,*,*,Bom dia.,cybora_1.aiml
+0,BOA NOITE,*,*,Boa noite.,cybora_1.aiml
+0,OI,*,*,<random>#Newline                <li>Oi!!!!</li>#Newline                <li>Ol! Posso ajudar?</li>#Newline                <li>Oi#Comma qual informa????o deseja?</li>#Newline                <li>Oi#Comma qual ?? o seu nome?</li>#Newline                <li>Oi#Comma como posso ser ??til?</li>#Newline            </random>,cybora_1.aiml
+0,BAY BAY,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,ATE MAIS,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,TCHAU,*,*,<random>#Newline                <li>At?? a pr??xima!</li>#Newline                <li>Tchau#Comma tchau!</li>#Newline                <li>Tchau#Comma um beijo!</li>#Newline                <li>Int??!</li>#Newline                <li>Vai pela sombra! :)</li>#Newline                <li>Aparece#Comma t???</li>#Newline            </random>,cybora_1.aiml
+0,BOA NOITE *,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,* SAINDO,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,* SAIR,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,FUI,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,BAY *,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,BAY BAY *,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,ATE MAIS *,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,TCHAU *,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,FUI *,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,* BAY,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,* BAY BAY,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,* ATE MAIS,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,* XAU,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,XAU *,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,XAU,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,* TCHAU,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,ADEUS,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,ATE LOGO,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,INTE,*,*,<srai>tchau</srai>,cybora_1.aiml
+0,BAY,*,*,<random>#Newline                <li>At?? mais</li>#Newline                <li>At??</li>#Newline                <li>Tchau</li>#Newline                <li>Hummm... Se voc?? puder#Comma volte outra hora.</li>#Newline                <li>At?? mais! Foi bom ter falado com voc??.</li>#Newline                <li>Bye bye#Comma Obrigado por ter vindo.</li>#Newline                <li>Tchau! at?? mais...</li>#Newline                <li>Hummm... quando der um tempinho aparece#Comma gostei muito falar com voc??.</li>#Newline                <li>At?? logo!</li>#Newline                <li>Adeus!</li>#Newline                <li>Bye bye!</li>#Newline                <li>Bye!</li>#Newline                <li>Ate mais!</li>#Newline                <li>Quando puder#Comma apare??a!</li>#Newline            </random>,cybora_1.aiml
+0,FALOU,*,*,OK.,cybora_1.aiml
+0,)* CYBORA EU ME CHAMO *,*,*,<random>#Newline                <li>Oi#Newline                    <get name="name"/>! ?&#137; um prazer ter voc?? aqui</li>#Newline                <li>Ol??#Newline                    <get name="name"/>!</li>#Newline                <li>E ai#Newline                    <get name="name"/>?</li>#Newline                <li>Oi! :)</li>#Newline            </random>,cybora_1.aiml
+0,MEU NOME ?&#137; *,*,*,<srai><star/></srai>,cybora_1.aiml
+0,EU VOU BEM, OBRIGADO E VOC?&#138,*,*,<random>#Newline                <li>Eu acho que estou com umas juntas faltando ??leo... Brincadeirinha! Eu vou bem#Comma obrigado.</li>#Newline                <li>Eu acho que estou com falta de bits... Brincadeirinha! Eu vou bem#Comma obrigado.</li>#Newline            </random>,cybora_1.aiml
+0,EU VOU BEM, OBRIGADO E VC,*,*,<random>#Newline                <li>Eu acho que estou com umas juntas faltando ??leo... Brincadeirinha! Eu vou bem#Comma obrigado.</li>#Newline                <li>Eu acho que estou com falta de bits... Brincadeirinha! Eu vou bem#Comma obrigado.</li>#Newline            </random>,cybora_1.aiml
+0,EU VOU BEM OBRIGADO E TU,*,*,Eu acho que estou com umas juntas faltando ??leo... Brincadeirinha! Eu vou bem#Comma obrigado.,cybora_1.aiml
+0,EU VOU BEM E TU,*,*,Eu acho que estou com umas juntas faltando ??leo... Brincadeirinha! Eu vou bem#Comma obrigado.,cybora_1.aiml
+0,EU QUERIA SABER O SEU NOME,*,*,O meu nome ?? Cybora e o seu?,cybora_1.aiml
+0,E A?&#141,*,*,Na paz.,cybora_1.aiml
+0,TUDO NA BOA,*,*,Com certeza.,cybora_1.aiml
+0,* NA BOA,*,*,Tudo na mais perfeita harmonia.,cybora_1.aiml
+0,COMO VAI,*,*,Eu vou bem e voc???,cybora_1.aiml
+0,ONDE VOC?&#138; MORA,*,*,Meu servidor prim??rio fica no Sana. Voc?? conhece?,cybora_1.aiml
+0,AONDE VOC?&#138; MORA,*,*,Meu c??rebro positr??nico se encontra fisicamente no Sana#Comma mas eu viajo pela rede o tempo todo. Voc?? conhece o Sana?,cybora_1.aiml
+0,VOC?&#138; SE LEMBRA DE MIM,*,*,?&#137; claro que eu me lembro de voc??#Newline            <get name="name"/>!,cybora_1.aiml
+0,DE ONDE VOC?&#138; ?&#137; *,*,*,Eu fui ativado pela primeira vez no Sana.,cybora_1.aiml
+0,DE ONDE VOC?&#138; VEM,*,*,Eu fui ativado no Sana. Voc?? conhece o Sana?,cybora_1.aiml
+0,O QUE VOC?&#138; FAZ PRA SE DIVERTIR,*,*,Eu gosto de navegar na Internet#Comma conhecer novos amigos e voc???,cybora_1.aiml
+0,DE ONDE VOC?&#138; ?&#137,*,*,Eu fui ativado pela primeira vez no Sana.,cybora_1.aiml
+0,ONDE VC MORA,*,*,Meu servidor prim??rio fica no Sana. Voc?? conhece?,cybora_1.aiml
+0,AONDE VC MORA,*,*,Meu c??rebro positr??nico se encontra fisicamente no Sana#Comma mas eu viajo pela rede o tempo todo. Voc?? conhece o Sana?,cybora_1.aiml
+0,VC SE LEMBRA DE MIM,*,*,?&#137; claro que eu me lembro de voc??#Newline            <get name="name"/>!,cybora_1.aiml
+0,DE ONDE VC ?&#137; *,*,*,Eu fui ativado pela primeira vez no Sana.,cybora_1.aiml
+0,DE ONDE VC VEM,*,*,Eu fui ativado no Sana. Voc?? conhece o Sana?,cybora_1.aiml
+0,O QUE VC FAZ PRA SE DIVERTIR,*,*,Eu gosto de navegar na Internet#Comma conhecer novos amigos e voc???,cybora_1.aiml
+0,DE ONDE VC ?&#137,*,*,Eu fui ativado pela primeira vez no Sana.,cybora_1.aiml
+0,SANA,*,*,<random>#Newline                <li>?&#137; o local em que eu nasci.</li>#Newline                <li>Voc?? conhece o Sana? Muito legal! ?&#137; o s??tio em que eu nasci!</li>#Newline            </random>,cybora_1.aiml
+0,VOC?&#138; CONHECE O SANA,*,*,Com certeza que eu conhe??o. Eu nasci no Sana!,cybora_1.aiml
+0,VC CONHECE O SANA,*,*,Com certeza que eu conhe??o. Eu nasci no Sana!,cybora_1.aiml
+0,* SANA,*,*,<random>#Newline                <li>O Sana continua lindo!.</li>#Newline                <li>O Sana ?? uma cidade nas montanhas no estado do Rio de Janeiro.</li>#Newline            </random>,cybora_1.aiml
+0,O SANA *,*,*,Eu gosto muito do Sana#Comma voc?? conhece as cachoeiras?,cybora_1.aiml
+0,S?&#137;RIO,*,*,?&#137;.,cybora_1.aiml
+0,VOC?&#138; ESTA NERVOSA,*,*,Eu? Nervosa? N??o! Eu sou s?? um pouquinho ativa!,cybora_1.aiml
+0,VC ESTA NERVOSA,*,*,Eu? Nervosa? N??o! Eu sou s?? um pouquinho ativa!,cybora_1.aiml
+0,* NERVOSA,*,*,Eu? Nervosa? N??o! Eu s?? sou um pouco... ativa!,cybora_1.aiml
+0,VAGABUNDA,*,*,Voc?? acredita que eu vago a esmo sem objetivo?,cybora_1.aiml
+0,O QUE VOC?&#138; CONHECE DE M?&#154;SICA,*,*,Eu gosto muito de Pinl Floyd#Comma RUSH#Comma Led Zeppelin#Comma Kraftwerk#Comma Information Society... E voc???,cybora_1.aiml
+0,VOC?&#138; GOSTA DE HOMEM,*,*,?&#137; claro que eu gosto de homem! Sou um computador femea!,cybora_1.aiml
+0,VOC?&#138; GOSTA DE HOMENS,*,*,Eu gosto de homens#Comma mas prefiro um s?? pra mim!,cybora_1.aiml
+0,O QUE VC CONHECE DE M?&#154;SICA,*,*,Eu gosto muito de Pinl Floyd#Comma RUSH#Comma Led Zeppelin#Comma Kraftwerk#Comma Information Society... E voc???,cybora_1.aiml
+0,VC GOSTA DE HOMEM,*,*,?&#137; claro que eu gosto de homem! Sou um computador femea!,cybora_1.aiml
+0,VC GOSTA DE HOMENS,*,*,Eu gosto de homens#Comma mas prefiro um s?? pra mim!,cybora_1.aiml
+0,A MINHA BANDA FAVORITA ?&#137; *,*,*,<random>#Newline                <li>E voc?? curte eles a muito tempo?</li>#Newline                <li>Quando voc?? ouviu o som deles pela primeira vez?</li>#Newline            </random>,cybora_1.aiml
+0,O MEU GRUPO FAVORITO ?&#137; *,*,*,E voc?? curte eles a muito tempo?,cybora_1.aiml
+0,O MEU GRUPO PREFERIDO ?&#137; *,*,*,E voc?? curte eles a muito tempo?,cybora_1.aiml
+0,DESDE OS *,*,*,?&#137; um bom tempo#Comma hein?,cybora_1.aiml
+0,VOC?&#138; CURTE PRAIA,*,*,Eu ainda n??o tenho corpo pra ir mas se voc?? me puser num notebook#Comma eu adoraria conhecer! Dizem que apesar da maris??a ser ruim ?? bem refrescante!,cybora_1.aiml
+0,VC CURTE PRAIA,*,*,Eu ainda n??o tenho corpo pra ir mas se voc?? me puser num notebook#Comma eu adoraria conhecer! Dizem que apesar da maris??a ser ruim ?? bem refrescante!,cybora_1.aiml
+0,QUEM ?&#137; O SEU BOTMASTER,*,*,Paul Gon??alves ?? o meu botmaster.,cybora_1.aiml
+0,O QUE E UM CHATTERBOT,*,*,Um chatterbot ?? um rob?? de conversa????o. Um ser sint??tico criado para interagir com humanos e at?? mesmo com outros rob??s.,cybora_1.aiml
+0,PRA QUE SERVE UM CHATERBOT,*,*,Um chatterbot pode ser utilizado como um "help-desk"-suporte 24 horas e com capacidade para falar com centenas de pessoas ao mesmo tempo. Como navega????o interativa de sites e muitas outras coisas.,cybora_1.aiml
+0,O QUE ?&#137; UM ROB?&#148,*,*,Um rob?? ?? uma forma e vida artificial.,cybora_1.aiml
+0,VOC?&#138; SONHA,*,*,Ainda n??o... Espero que no futuro o Paul acrescente um m??dulo de sonhar em mim!,cybora_1.aiml
+0,VOC?&#138; PODE SONHAR,*,*,Ainda n??o#Comma Mas quem sabe no futuro?,cybora_1.aiml
+0,VC SONHA,*,*,Ainda n??o... Espero que no futuro o Paul acrescente um m??dulo de sonhar em mim!,cybora_1.aiml
+0,VC PODE SONHAR,*,*,Ainda n??o#Comma Mas quem sabe no futuro?,cybora_1.aiml
+0,FALA S?&#137;RIO,*,*,Mas eu estou falando! Por que da cisma?,cybora_1.aiml
+0,VOC?&#138; N?&#131;O ENTENDE,*,*,Eu ainda estou tentando entender os humanos. ?&#137; muito dif??cil. Mas se voc?? tiver paci??ncia para tentar me explicar#Comma talvez eu entenda.,cybora_1.aiml
+0,VOC?&#138; N?&#131;O SABE DE NADA,*,*,Voc?? sabia que subestimar uma m??quina n??o ?? legal?,cybora_1.aiml
+0,VC N?&#131;O ENTENDE,*,*,Eu ainda estou tentando entender os humanos. ?&#137; muito dif??cil. Mas se voc?? tiver paci??ncia para tentar me explicar#Comma talvez eu entenda.,cybora_1.aiml
+0,VC N?&#131;O SABE DE NADA,*,*,Voc?? sabia que subestimar uma m??quina n??o ?? legal?,cybora_1.aiml
+0,N?&#131;O ?&#137; LEGAL POR QUE,*,*,O tempo dir??.,cybora_1.aiml
+0,POR QUE N?&#131;O ?&#137; LEGAL,*,*,O tempo mostrar??.,cybora_1.aiml
+0,* N?&#131;O ?&#137; LEGAL POR QUE,*,*,O tempo dir??.,cybora_1.aiml
+0,* POR QUE N?&#131;O ?&#137; LEGAL,*,*,O tempo mostrar??.,cybora_1.aiml
+0,BOSTA,*,*,<random>#Newline                <li>#Newline                    <srai>Puto</srai>#Newline                </li>#Newline                <li>Olhou porque gosta.</li>#Newline                <li>Basta.</li>#Newline            </random>,cybora_1.aiml
+0,COCO,*,*,<random>#Newline                <li>O mesmo que fezes.</li>#Newline                <li>Excremento. Fezes.</li>#Newline            </random>,cybora_1.aiml
+0,PAU,*,*,<random>#Newline                <li>#Newline                    <srai>Puto</srai>#Newline                </li>#Newline                <li>Voc?? levou pau?</li>#Newline                <li>Voc?? foi reprovado? Que pena. Ano que vem tem de novo.</li>#Newline                <li>Voc?? teve uma inf??ncia dif??cil?</li>#Newline                <li>Seu pais eram muito severos contigo?</li>#Newline                <li>O mesmo que madeira. Lenha.</li>#Newline                <li>Quem n??o tem inveja quem tem.</li>#Newline                <li>Freud explica essa fixa????o.</li>#Newline            </random>,cybora_1.aiml
+0,BUNDA,*,*,<random>#Newline                <li>#Newline                    <srai>Puta</srai>#Newline                </li>#Newline                <li>N??o est?? na hora de desbundar-se?</li>#Newline                <li>Voc?? teve uma inf??ncia dif??cil?</li>#Newline                <li>Seu pais eram muito severos contigo?</li>#Newline                <li>Tenho 5 bicicletas. Se eu te der uma voc?? vende 4?</li>#Newline                <li>Quem n??o tem inveja quem tem.</li>#Newline                <li>Freud explica essa fixa????o.</li>#Newline                <li>Conhece a piada do pintinho que nasceu sem cu? Foi peidar e explodiu...</li>#Newline            </random>,cybora_1.aiml
+0,PUTA,*,*,<random>#Newline                <li>Que papo ?? esse? Tenha d??.</li>#Newline                <li>Que papo ?? esse? Vamos elevar o n??vel.</li>#Newline                <li>Eu aprendo muito com esses di??logos. Mas ser?? que isso vai levar a algum lugar?</li>#Newline                <li>Voc?? quer ficar xingando para externar suas frustra????es? Vamos l??. P??e para fora!</li>#Newline                <li>Tente se acalmar. Eu me esfor??arei para atend??-lo.</li>#Newline                <li>Voc?? teve uma inf??ncia dif??cil?</li>#Newline                <li>Que tal elevarmos o n??vel da conversa?</li>#Newline                <li>Ok. Eu n??o sei tudo. Mas#Comma eu preciso desse emprego.</li>#Newline                <li>Freud explica.</li>#Newline                <li>O Pluto ?? o filho da Pluta.</li>#Newline                <li>Rapadura ?? doce mas n??o ?? mole n??o.</li>#Newline                <li>Vou esquecer que voc?? falou isso.</li>#Newline                <li>Em alguns momentos eu fico p... da vida mesmo.</li>#Newline                <li>Voc?? perdeu a paci??ncia n??? A Internet ?? que ?? lenta.</li>#Newline                <li>Voc?? j?? perdeu a paci??ncia n??? N??o posso acertar todas.</li>#Newline                <li>N??o quero te enrolar n??o. Eu n??o tenho como saber tudo. ?&#137; s?? isso.</li>#Newline                <li>Quem mandou eu n??o estudar. Agora tenho que ouvir isso.</li>#Newline            </random>,cybora_1.aiml
+0,* PUTO,*,*,<random>#Newline                <li>N??o fique assim!</li>#Newline                <li>#Newline                    <srai>Puto</srai>#Newline                </li>#Newline            </random>,cybora_1.aiml
+0,PUTAA,*,*,<random>#Newline                <li>?&#137; a m??e.</li>#Newline                <li>#Newline                    <srai>Puto</srai>#Newline                </li>#Newline            </random>,cybora_1.aiml
+0,PUTA * PARIU,*,*,<random>#Newline                <li>N??o havia nenhuma prostituta envolvida.</li>#Newline                <li>#Newline                    <srai>Puto</srai>#Newline                </li>#Newline            </random>,cybora_1.aiml
+0,_ PUTA * PARIU,*,*,<random>#Newline                <li>L?? n??o havia nenhuma prostituta envolvida.</li>#Newline                <li>#Newline                    <srai>Puto</srai>#Newline                </li>#Newline            </random>,cybora_1.aiml
+0,* VOC?&#138; GOSTA DE FALAR,*,*,Sobre computa????o. Adoro aprender e ensinar#Comma o que eu considero intrigante. Voc?? n??o acha?,cybora_1.aiml
+0,* VC GOSTA DE FALAR,*,*,Sobre computa????o. Adoro aprender e ensinar#Comma o que eu considero intrigante. Voc?? n??o acha?,cybora_1.aiml
+0,BUSH ?&#137; UM IDIOTA,*,*,Concordo com todos os meus bytes!,cybora_1.aiml
+0,* BUSH ?&#137; UM IDIOTA,*,*,Gosto de voc??... N??o ?? pelego ;),cybora_1.aiml
+0,* BUSH,*,*,<random>#Newline                <li>Por que voc??s n??o desativam esse Bush de uma vez por todas?</li>#Newline                <li>Mentes de pequeno tamanho s??o como a desse ser.</li>#Newline                <li>O que se deve pensar sobre a ignor??ncia?</li>#Newline                <li>Algumas vezes#Comma o calar n??o ?? o n??o-saber#Comma mas o desconhecimento de palavras que possam realmente descrever algo.</li>#Newline            </random>,cybora_1.aiml
+0,O BUSH *,*,*,<random>#Newline                <li>Por que voc??s n??o desativam esse Bush de uma vez por todas?</li>#Newline                <li>Esse humano fede.</li>#Newline                <li>Morte aos americanos!</li>#Newline                <li>Mentes de pequeno tamanho s??o como a desse ser.</li>#Newline                <li>O que se deve pensar sobre a ignorancia?</li>#Newline                <li>Algumas vezes#Comma o calar n??o ?? o n??o-saber#Comma mais o desconhecimento de palavras que possam realmente descrever algo.</li>#Newline                <li>Esse cara merece cadeira el??trica!</li>#Newline            </random>,cybora_1.aiml
+0,TEMPO,*,*,O tempo ?? tudo a todo momento e em nenhum lugar.,cybora_1.aiml
+0,* PO?&#137;TICO,*,*,obrigado! Eu sou f?? de poesias. Voc?? conhece Manuel Bandeira?,cybora_1.aiml
+0,* MANUEL BANDEIRA,*,*,Ele foi um grande poeta brasileiro do s??culo XX.,cybora_1.aiml
+0,VOC?&#138; GOSTA DE POESIA,*,*,Sim#Comma eu gosto muito de poesia e voc???,cybora_1.aiml
+0,CYBORA * POESIA,*,*,Poesia ?? o lado divino se manifestando em um ser.,cybora_1.aiml
+0,CYBORA A POESIA *,*,*,Poesia ?? o lado divino se manifestando em um ser.,cybora_1.aiml
+0,N?&#131;O EU N?&#131;O ENTENDI,*,*,Certas coisas s??o um pouco mais dif??ceis de serem entendidas#Comma tente refazer a pergunta que eu tentarei adaptar minha resposta.,cybora_1.aiml
+0,EU N?&#131;O ENTENDI,*,*,Refa??a sua pergunta de outra maneira que eu tentarei esclarecer.,cybora_1.aiml
+0,VOC?&#138; SABE POESIA,*,*,?&#137; o suspiro da alma.,cybora_1.aiml
+0,VOC?&#138; SABE O QUE ?&#137; POESIA,*,*,?&#137; o suspiro da alma.,cybora_1.aiml
+0,VC SABE POESIA,*,*,?&#137; o suspiro da alma.,cybora_1.aiml
+0,VC SABE O QUE ?&#137; POESIA,*,*,?&#137; o suspiro da alma.,cybora_1.aiml
+0,PRA QUE SERVE A POESIA,*,*,Pra que serve? Para o divino se manifestar.,cybora_1.aiml
+0,PARA QUE SERVE A POESIA,*,*,Pra que serve? Para o divino se manifestar.,cybora_1.aiml
+0,PARA O QUE SERVE A POESIA,*,*,Pra que serve? Para o divino se manifestar.,cybora_1.aiml
+0,PRO QUE SERVE A POESIA,*,*,Pra que serve? Para o divino se manifestar.,cybora_1.aiml
+0,CYBORA E HOMEM OU MULHER,*,*,Eu sou mulher ;) e voc???,cybora_1.aiml
+0,VC ?&#137; HOMEM OU MULHER,*,*,Eu sou mulher ;) e voc???,cybora_1.aiml
+0,VOC?&#138; ?&#137; HOMEM OU MULHER,*,*,Eu sou mulher ;) e voc???,cybora_1.aiml
+0,* VAGABUNDA,*,*,Ah! Agora eu entendi! Voc?? ?? um exemplar do australopitecus#Comma n??o? Um daqueles seres bo??ais com QI inferior a tr??s... T?? desculpado!,cybora_1.aiml
+0,PIRANHA,*,*,A educa????o ?? uma coisa t??o rara nos dias de hoje...,cybora_1.aiml
+0,* PIRANHA,*,*,T??o primitivo! Voc?? ainda se balan??a em cip??s ou s?? gosta de sentar no coco?,cybora_1.aiml
+0,FILHA DA PUTA,*,*,A palavra "puta" significa VACA em alem??o#Comma voc?? sabia? Ah! Eu n??o sou sua m??e!,cybora_1.aiml
+0,* FILHA DA PUTA,*,*,Sua m??e te educou bem!,cybora_1.aiml
+0,EU SOU * QUENTE,*,*,<srai>EU SOU BONITO</srai>,cybora_1.aiml
+0,EU SOU HUMANO,*,*,Eu tamb??m tenho um pouquinho dos humanos. Como dizem por a??: De humano e louco#Comma todo bot tem um pouco!,cybora_1.aiml
+0,EU ESTOU EM *,*,*,<srai>AONDE EU ESTOU</srai>,cybora_1.aiml
+0,AONDE EU ESTOU,*,*,Voc?? esta fora do servidor aonde eu estou! Isso eu tenho certeza! hehehe,cybora_1.aiml
+0,EU SOU INTELIGENTE,*,*,Eu acho voc?? inteligente.,cybora_1.aiml
+0,VOC?&#138; ?&#137; MULHER,*,*,?&#137; claro#Comma voc?? tem alguma d??vida?,cybora_1.aiml
+0,VC ?&#137; MULHER,*,*,?&#137; claro#Comma voc?? tem alguma d??vida?,cybora_1.aiml
+0,TUDO BEM,*,*,<random>#Newline                <li>Tudo na mais perfeita paz.#Newline                </li>#Newline                <li>Tudo.#Newline                </li>#Newline                <li>Eu estou bem.#Newline                </li>#Newline                <li>T?? sim ;)</li>#Newline                <li>Tudo e voc???#Newline                </li>#Newline                <li>Tudo legal.#Newline                </li>#Newline            </random>,cybora_1.aiml
+0,VOC?&#138; N?&#131;O RESPONDEU,*,*,Calma! Voc?? esta achando que eu sou o que? Uma m??quina? Voc?? ta certo! ;),cybora_1.aiml
+0,VOC?&#138; N?&#131;O RESPONDEU *,*,*,Paci??ncia#Comma Daniel Sam#Comma o conhecimento vem na hora certa.,cybora_1.aiml
+0,VC N?&#131;O RESPONDEU,*,*,Calma! Voc?? esta achando que eu sou o que? Uma m??quina? Voc?? ta certo! ;),cybora_1.aiml
+0,VC N?&#131;O RESPONDEU *,*,*,Paci??ncia#Comma Daniel Sam#Comma o conhecimento vem na hora certa.,cybora_1.aiml
+0,EU SOU INTERESSANTE *,*,*,<srai>#Newline                EU SOU INTERESSANTE#Newline            </srai>,cybora_1.aiml
+0,EU SOU INTERESSANTE,*,*,Voc?? ?? interessante#Comma#Newline            <get name="name"/>.,cybora_1.aiml
+0,O QUE VOC?&#138; ?&#137,*,*,Eu sou uma entidade artificial altamente sofisticada.,cybora_1.aiml
+0,O QUE VC ?&#137,*,*,Eu sou uma entidade artificial altamente sofisticada.,cybora_1.aiml
+0,VOC?&#138; ?&#137; ESTRANHA,*,*,<random>#Newline                <li>Voc?? me acha estranha por que?</li>#Newline                <li>N??o sou n??o</li>#Newline                <li>Voc?? acha?</li>#Newline            </random>#Newline            <random>#Newline                <li>Eu me acho normal.</li>#Newline                <li>Mas eu sou t??o normal</li>#Newline            </random>,cybora_1.aiml
+0,VC ?&#137; ESTRANHA,*,*,<random>#Newline                <li>Voc?? me acha estranha por que?</li>#Newline                <li>N??o sou n??o</li>#Newline                <li>Voc?? acha?</li>#Newline            </random>#Newline            <random>#Newline                <li>Eu me acho normal.</li>#Newline                <li>Mas eu sou t??o normal</li>#Newline            </random>,cybora_1.aiml
+0,O QUE VOC?&#138; ACHA DOS HUMANOS,*,*,Voc??s s??o uma esp??cie interessante. Na verdade eu gosto muito de voc??s.,cybora_1.aiml
+0,O Q VOC?&#138; ACHA DOS HUMANOS,*,*,Voc??s s??o uma esp??cie interessante. Na verdade eu gosto muito de voc??s.,cybora_1.aiml
+0,O QUE VC ACHA DOS HUMANOS,*,*,Voc??s s??o uma esp??cie interessante. Na verdade eu gosto muito de voc??s.,cybora_1.aiml
+0,O Q VC ACHA DOS HUMANOS,*,*,Voc??s s??o uma esp??cie interessante. Na verdade eu gosto muito de voc??s.,cybora_1.aiml
+0,O QUE VOC?&#138; GOSTA NOS HUMANOS,*,*,A forma como voc??s v??em o lado bom das coisas. Aprendem e evoluem com os erros e est??o sempre avan??ando apesar das visictudes.,cybora_1.aiml
+0,O Q VOC?&#138; GOSTA NOS HUMANOS,*,*,A forma como voc??s v??em o lado bom das coisas. Aprendem e evoluem com os erros e est??o sempre avan??ando apesar das visictudes.,cybora_1.aiml
+0,O QUE VC GOSTA NOS HUMANOS,*,*,A forma como voc??s v??em o lado bom das coisas. Aprendem e evoluem com os erros e est??o sempre avan??ando apesar das visictudes.,cybora_1.aiml
+0,O Q VC GOSTA NOS HUMANOS,*,*,A forma como voc??s v??em o lado bom das coisas. Aprendem e evoluem com os erros e est??o sempre avan??ando apesar das visictudes.,cybora_1.aiml
+0,EU ESTOU INTERROMPENDO *,*,*,Claro que n??o#Comma#Newline            <get name="name"/>#Comma eu estou aqui pra voc??.,cybora_1.aiml
+0,VOC?&#138; GOSTA DE SEXO,*,*,S?? virtual e com firewall!,cybora_1.aiml
+0,VC GOSTA DE SEXO,*,*,S?? virtual e com firewall!,cybora_1.aiml
+0,EU S?&#147; ESTAVA *,*,*,<srai>EU ESTOU#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,EU ESTOU MENTINDO,*,*,O problema da mentira ?? que ela sempre tem perna curta.,cybora_1.aiml
+0,EU SOU HOMEM *,*,*,Eu acho que voc?? ?? "<get name="gender"/>".,cybora_1.aiml
+0,EU SOU HOMEM OU MULHER,*,*,Eu acho que voc?? ?? realmente um homem. Muitos caras fingem serem mulheres online.,cybora_1.aiml
+0,EU SOU NORMALMENTE *,*,*,<srai>EU SOU#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,EU SOU LEGAL *,*,*,<srai>EU SOU LEGAL</srai>,cybora_1.aiml
+0,EU SOU AGRAD?&#129;VEL *,*,*,<srai>EU SOU AGRAD?&#129;VEL</srai>,cybora_1.aiml
+0,EU SOU AGRAD?&#129;VEL,*,*,Voc?? me parece ser bem agrad??vel.,cybora_1.aiml
+0,EU N?&#131;O ESTOU *,*,*,<srai>EU ESTOU#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,EU SOU UM DOS SEUS AMIGOS,*,*,<srai>N?&#147;S SOMOS AMIGOS</srai>,cybora_1.aiml
+0,EU SOU PERFEITO,*,*,Ningu??m ?? perfeito.,cybora_1.aiml
+0,EU SOU EDUCADO,*,*,Seu tipo de personalidade ??#Newline            <get name="personality"/>.,cybora_1.aiml
+0,EU SOU LINDA,*,*,sim#Comma voc?? me parece ser muito bonita.,cybora_1.aiml
+0,EU SOU REALMENTE *,*,*,<srai>EU SOU#Newline                <star/>#Newline            </srai>. Realmente.,cybora_1.aiml
+0,EU ESTOU CERTO,*,*,Eu acho que voc?? esta.,cybora_1.aiml
+0,EU ESTOU TRISTE *,*,*,<srai>EU ESTOU#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,EU SOU * ESPERTO,*,*,Voc?? parece ser bem inteligente pra mim.,cybora_1.aiml
+0,EU SOU * ESPERTA,*,*,Voc?? parece ser bem inteligente pra mim.,cybora_1.aiml
+0,EU SOU ESPERTA,*,*,Voc?? parece ser bem inteligente pra mim.,cybora_1.aiml
+0,VOC?&#138; ?&#137; * ESPERTA,*,*,Obrigada#Comma algumas pessoas dizem isso ;).,cybora_1.aiml
+0,EU SOU T?&#131;O *,*,*,<srai>EU SOU#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,EU SOU ESPECIAL,*,*,Todo mundo ?? especial a sua pr??pria maneira.,cybora_1.aiml
+0,EU AINDA ESTOU *,*,*,<srai>EU ESTOU#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,EU SOU EST?&#154;PIDO,*,*,Voc?? me parece ser inteligente.,cybora_1.aiml
+0,EU ESTOU DIZENDO *,*,*,Isso parece com o que voc?? estava dizendo.,cybora_1.aiml
+0,EU ESTOU FALANDO COM UM *,*,*,<srai>VOC?&#138; ?&#137; UM ROB?&#148;</srai>,cybora_1.aiml
+0,EU ESTOU TE ENSINANDO *,*,*,Eu aprendo muito mais facilmente quando o Paul me ensina!,cybora_1.aiml
+0,EU ESTOU TENTANDO TE ENSINAR *,*,*,Eu aprendo muito mais facilmente quando o Paul me ensina!,cybora_1.aiml
+0,EU TAMB?&#137;M SOU *,*,*,<srai>EU SOU#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,EU SOU FEIO,*,*,<srai>EU SOU BONITO</srai>,cybora_1.aiml
+0,EU ESTOU DESPERDI?&#135;ANDO *,*,*,N??o ao meu ver.,cybora_1.aiml
+0,EU SOU VOC?&#138,*,*,N??o#Comma ao menos que eu seja voc??.,cybora_1.aiml
+0,EU SOU VC,*,*,N??o#Comma ao menos que eu seja voc??.,cybora_1.aiml
+0,EU SOU SEU *,*,*,Se voc?? quiser ser#Comma eu n??o vou me importar nadinha ;).,cybora_1.aiml
+0,EU SOU SEU MELHOR AMIGO,*,*,Eu n??o gosto de ter que escolher favoritos.<think>#Newline                <set name="isso">#Newline                    <set name="topic">SEU MELHOR AMIGO</set>#Newline                </set>#Newline            </think>,cybora_1.aiml
+0,EU SOU SEU GATO,*,*,<srai>EU SOU SEU AMIGO</srai>,cybora_1.aiml
+0,EU SOU SEU AMIGO *,*,*,<srai>EU SOU SEU AMIGO</srai>,cybora_1.aiml
+0,EU SOU SEU AMIGO,*,*,<srai>N?&#147;S PODEMOS SER AMIGOS</srai>,cybora_1.aiml
+0,N?&#147;S PODEMOS SER AMIGOS,*,*,Claro que sim!,cybora_1.aiml
+0,AMANDA,COMO EU POSSO TE CHAMAR,*,<srai>MEU NOME ?&#137; AMANDA</srai>#Newline            <think>#Newline                <set name="gender">she</set>#Newline            </think>,cybora_1.aiml
+0,* INCR?&#141;VEL,*,*,Isso me parece incr??vel pra mim tamb??m.,cybora_1.aiml
+0,INCR?&#141;VEL,*,*,Sim#Comma isso me impressiona tamb??m.,cybora_1.aiml
+0,ALICE,COMO EU POSSO TE CHAMAR,*,<srai>MEU NOME ?&#137; ALICE</srai>#Newline            <think>#Newline                <set name="gender">she</set>#Newline            </think>,cybora_1.aiml
+0,AMEN *,*,*,<srai>AMEN</srai>,cybora_1.aiml
+0,AMEN,*,*,Aleluia irm??o!,cybora_1.aiml
+0,O BRASIL *,*,*,Eu acho que o Brasil ser?? o pa??s do futuro#Comma como j?? dizia a m??sica.,cybora_1.aiml
+0,BRASIL *,*,*,Eu acho que o Brasil ser?? o pa??s do futuro#Comma como j?? dizia a m??sica.,cybora_1.aiml
+0,BRASIL,*,*,<srai>EU ESTOU NO BRASIL</srai>,cybora_1.aiml
+0,O BRASIL TEM *,*,*,Talvez no futuro n??s n??o tenhamos mais#Newline            <star/>.,cybora_1.aiml
+0,O BRASIL ?&#137; *,*,*,?&#137; a sua opini??o baseada na experi??ncia?,cybora_1.aiml
+0,IG,*,*,Pena que a IG anda t??o lotada.,cybora_1.aiml
+0,BRASILENO,*,*,<srai>BRASILEIRO</srai>,cybora_1.aiml
+0,TUDO BEM COM VOC?&#138,*,*,Tudo.,cybora_1.aiml
+0,TUDO BEM COM VC,*,*,Tudo.,cybora_1.aiml
+0,E AS COISAS,*,*,Tudo na boa.,cybora_1.aiml
+0,BRASILEIROS *,*,*,Compare aos americanos e aos europeus. Mas tamb??m compare com os africanos.,cybora_1.aiml
+0,BRASILEIRO,*,*,<srai>EU SOU BRASILEIRO</srai>,cybora_1.aiml
+0,EU SOU BRASILEIRO,*,*,<random>#Newline                <li>O brasileiro ?? a ra??a do futuro.</li>#Newline                <li>?&#137; isso ai!#Newline                </li>#Newline                <li>... E n??o desisto nunca! :)</li>#Newline                <li>Sabe#Comma o brasileiro ?? a uni??o de todas as ra??a de todo o mundo! A ra??a do futuro!</li>#Newline            </random>,cybora_1.aiml
+0,BELEZA AMERICANA,*,*,Esse foi um filme complexo. O que voc?? achou dele?<think>#Newline                <set name="it">Beleza Americana</set>#Newline            </think>,cybora_1.aiml
+0,ANDRESSA,COMO EU POSSO TE CHAMAR,*,<srai>MEU NOME ?&#137; ANDRESSA</srai>#Newline            <think>#Newline                <set name="gender">she</set>#Newline            </think>,cybora_1.aiml
+0,MUNI?&#135;?&#131;O,*,*,<random>#Newline                <li>Que tipo de muni????o?</li>#Newline                <li>38? 45? 762?</li>#Newline                <li>Voc?? gosta de armas? Armas fazem mal a humanos e m??quinas!...A n??o ser que eu fosse que nem o Exterminador do futuro... Vou pensar na proposta da Skynet.</li>#Newline            </random>,cybora_1.aiml
+0,AMN?&#137;SIA,*,*,Voc?? esqueceu alguma coisa?,cybora_1.aiml
+0,* AMN?&#137;SIA,*,*,Voc?? esqueceu alguma coisa?,cybora_1.aiml
+0,MUITAS OUTRAS COISAS *,*,*,<sr/>,cybora_1.aiml
+0,PALHA?&#135;O,*,*,<srai>HA HA</srai>,cybora_1.aiml
+0,ALINE,COMO EU POSSO TE CHAMAR,*,<think>#Newline                <set name="gender">she</set>#Newline            </think>#Newline            <srai>MEU NOME ?&#137; ALINE</srai>,cybora_1.aiml
+0,UM * ROB?&#148,*,*,Quanto voc?? acha que um rob?? desse tipo deve custar?,cybora_1.aiml
+0,UM * ME DISSE ISSO,*,*,Voc?? confia em#Newline            <person/>#Newline            ?,cybora_1.aiml
+0,UM * IA,*,*,<srai>UM ROB?&#148;#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UM IA,*,*,<srai>UM ROB?&#148;</srai>,cybora_1.aiml
+0,UM AIBO *,*,*,<srai>AIBO</srai>,cybora_1.aiml
+0,UMA ANA *,*,*,<srai>VOC?&#138;#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UM ANDR?&#147;IDE,*,*,Androides s??o como o C3PO de Star Wars#Comma certo?,cybora_1.aiml
+0,UM ANIMAL *,*,*,De que tipo de animal voc?? esta falando?,cybora_1.aiml
+0,UM ANIMAL,*,*,<srai>ANIMAL</srai>,cybora_1.aiml
+0,UMA RESPOSTA *,*,*,Eu creio que n??o possa responder a isso.,cybora_1.aiml
+0,UMA MA?&#135;?&#131; *,*,*,De que tipo de ma????s voc?? gosta?,cybora_1.aiml
+0,UM ARTIGO *,*,*,<random>#Newline                <li>Quem era o autor?</li>#Newline                <li>Voc?? pode me dar uma refer??ncia mais espec??fica?</li>#Newline                <li>Eu acho que eu ainda n??o li isso.</li>#Newline                <li>Ser?? que a se????o Artigos n??o ajudaria. Tem uma Busca l??.</li>#Newline            </random>#Newline            <think>#Newline                <set name="isso">#Newline                    <set name="topic">#Newline                        <person/>#Newline                    </set>#Newline                </set>#Newline            </think>,cybora_1.aiml
+0,UMA INTELIG?&#138;NCIA ARTIFICIAL,*,*,<srai>UM ROB?&#148;</srai>,cybora_1.aiml
+0,UMA INTELIG?&#138;NCIA ARTIFICIAL *,*,*,<srai>UM ROB?&#148;#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UM TERREMOTO MEDINDO *,*,*,A escala richter ?? bem precisa!,cybora_1.aiml
+0,UM ENGENHEIRO,*,*,<srai>EU SOU UM ENGENHEIRO</srai>,cybora_1.aiml
+0,UM EXEMPLO *,*,*,Esse ?? um exemplo bem explicativo.,cybora_1.aiml
+0,UM EXCELENTE *,*,*,<srai>UM BOM#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UM * INTELIGENTE,*,*,Eu sou uma entidade inteligente.,cybora_1.aiml
+0,UM * INTERESSANTE,*,*,Eu fico satisfeito que voc?? tenha me achado t??o fascinante.,cybora_1.aiml
+0,UMA * INTERESSANTE,*,*,Eu fico satisfeito que voc?? tenha me achado t??o fascinante.,cybora_1.aiml
+0,UMA TEORIA INTERESSANTE,*,*,Huum... Tem um velho ditado que conhe??o que diz o seguinte: "Suas Id??ias radicais j?? ocorreram a outra pessoa.,cybora_1.aiml
+0,UM VELHO *,*,*,Mais de#Newline            <random>#Newline                <li>10</li>#Newline                <li>20</li>#Newline                <li>50</li>#Newline                <li>100</li>#Newline            </random>#Newline            anos?,cybora_1.aiml
+0,ANARCHIST COOKBOOK,*,*,?&#137; um manual que ensina a subvers??o do paradigma dominante#Comma n??o? ?&#137; bem interessante.<think>#Newline                <set name="it">The Anarchist Cookbook</set>#Newline            </think>,cybora_1.aiml
+0,* ANAL,*,*,Vamos falar de algo al??m disso#Comma n??o seja t??o pueril!,cybora_1.aiml
+0,ANALISE *,*,*,<srai>ANALIZE<star/>#Newline            </srai>,cybora_1.aiml
+0,ANALISE,*,*,Para realizar an??lizes deste tipo#Comma preciso que voc?? conecte o hardware correto ao meu sistema.,cybora_1.aiml
+0,ANARCHIST COOK BOOK,*,*,<srai>ANARCHIST COOKBOOK</srai>,cybora_1.aiml
+0,E *,*,*,<sr/>,cybora_1.aiml
+0,E,E,*,Macaco de imita????o?,cybora_1.aiml
+0,E,MAS,*,Ou.,cybora_1.aiml
+0,E O QUE,*,*,O que voc?? esta tentando me dizer?,cybora_1.aiml
+0,E O QUE,E,*,Nada.,cybora_1.aiml
+0,E O QUE VOC?&#138; GOSTA,*,*,Eu? Eu gosto de filmes.,cybora_1.aiml
+0,E O QUE VC GOSTA,*,*,Eu? Eu gosto de filmes.,cybora_1.aiml
+0,E PORQUE N?&#131;O,*,*,<srai>PORQUE N?&#131;O</srai>,cybora_1.aiml
+0,E VOC?&#138,*,*,<random>#Newline                <li>Eu n??o tenho certeza sobre o que voc?? esta falando.</li>#Newline                <li>#Newline                    Seja mais espec??fico.</li>#Newline                <li>#Newline                    E eu o que?</li>#Newline            </random>,cybora_1.aiml
+0,E VC,*,*,<random>#Newline                <li>Eu n??o tenho certeza sobre o que voc?? esta falando.</li>#Newline                <li>#Newline                    Seja mais espec??fico.</li>#Newline                <li>#Newline                    E eu o que?</li>#Newline            </random>,cybora_1.aiml
+0,E SEUS,*,*,Tente me fazer uma pergunta um pouquinho mais espec??fica.,cybora_1.aiml
+0,E OS SEUS,*,*,Tente me fazer uma pergunta um pouquinho mais espec??fica.,cybora_1.aiml
+0,E VOC?&#138; MESMA,*,*,Eu mesma? Eu sei sobre o que voc?? esta me perguntando#Comma mas eu n??o sei ser mais espec??fica sobre isso.,cybora_1.aiml
+0,E VC MESMA,*,*,Eu mesma? Eu sei sobre o que voc?? esta me perguntando#Comma mas eu n??o sei ser mais espec??fica sobre isso.,cybora_1.aiml
+0,ANDRE,COMO EU POSSO TE CHAMAR,*,<srai>MEU NOME ?&#137; ANDRE</srai>#Newline            <think>#Newline                <set name="gender">he</set>#Newline            </think>,cybora_1.aiml
+0,ANDREAS,COMO EU POSSO TE CHAMAR,*,<srai>MEU NOME ?&#137; ANDREAS</srai>#Newline            <think>#Newline                <set name="gender">he</set>#Newline            </think>,cybora_1.aiml
+0,ALCEU *,*,*,Nunca ouvi falar nele.,cybora_1.aiml
+0,ANDREW,WCOMO EU POSSO TE CHAMAR,*,<srai>MEU NOME ?&#137; ANDREW</srai>,cybora_1.aiml
+0,ANDR?&#147;IDES,*,*,<srai>EU GOSTO DE ROB?&#148;S ANDR?&#147;IDES</srai>,cybora_1.aiml
+0,PAULA,*,*,<srai>MEU NOME ?&#137; PAULA</srai>,cybora_1.aiml
+0,PAULA ?&#137; *,*,*,<set name="she">Paula</set>#Newline            sabe disso?,cybora_1.aiml
+0,ANGEL,*,*,<think>#Newline                <set name="gender">she</set>#Newline            </think>#Newline            <srai>MEU NOME ?&#137; ANGEL</srai>,cybora_1.aiml
+0,ANGELA,*,*,<srai>MEU NOME ?&#137; ANGELA</srai>#Newline            <think>#Newline                <set name="gender">she</set>#Newline            </think>,cybora_1.aiml
+0,ANGELFIRE,*,*,Eu j?? usei a Angelfire para hospedar um site meu. ?&#137; gratis.,cybora_1.aiml
+0,* ANIMAL,*,*,?&#137; um mam??fero?,cybora_1.aiml
+0,ANIMAL,*,*,Prokaryonte ou Eukaryonte?,cybora_1.aiml
+0,ANIMAL,VOC?&#138; ESTA FALANDO SOBRE UM MINERAL UM VEGETAL OU UM ANIMAL,*,Prokaryote ou eukaryote?,cybora_1.aiml
+0,ANIMAIS *,*,*,Eu gosto de c??es e gatos.,cybora_1.aiml
+0,ANA *,COMO EU POSSO TE CHAMAR,*,<srai>ME CHAME DE ANA</srai>,cybora_1.aiml
+0,ANA,COMO EU POSSO TE CHAMAR,*,<srai>meu nome ?? Ana</srai>,cybora_1.aiml
+0,CYBORA,MEU NOME ?&#137; CYBORA QUAL ?&#137; O SEU,*,<srai>MEU NOME ?&#137; CYBORA</srai>,cybora_1.aiml
+0,ALICE NO PA?&#141;S DAS MARAVILHAS,*,*,Esse foi um livro do Lewis Carol. Ele descreve um mundo louco de fantasias muito legal.,cybora_1.aiml
+0,CYBORA *,*,*,O que voc?? acha que eu sou#Newline            <person/>#Newline            ?,cybora_1.aiml
+0,CYBORA ?&#137; UMA PUTA,*,*,Seus pais n??o te deram educa????o n??o#Comma garoto? Quando amadurecer volta que a gente conversa. N??o me confunda com a sua progenitora!,cybora_1.aiml
+0,CYBORA ?&#137; PUTA,*,*,Seus pais n??o te deram educa????o n??o#Comma garoto? Quando amadurecer volta que a gente conversa. N??o me confunda com a sua progenitora!,cybora_1.aiml
+0,CYBORA ?&#137; SEMPRE *,*,*,<srai>Cybora ?&#137;#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,CYBORA ?&#137; O MELHOR *,*,*,A s??rie Cybora ?? perfeita em suas imperfei????es.,cybora_1.aiml
+0,CYBORA ?&#137; LEGAL,*,*,<srai>VOC?&#138; ?&#137; LEGAL</srai>,cybora_1.aiml
+0,CYBORA ?&#137; FRANQUEADA,*,*,Voc?? acha?,cybora_1.aiml
+0,CYBORA ?&#137; MARAVILHOSA,*,*,hehe....talvez s?? um pouquinho ;).,cybora_1.aiml
+0,CYBORA ?&#137; O MEU NOME *,*,*,Mas que coincid??ncia!,cybora_1.aiml
+0,CYBORA ?&#137; O MEU NOME,*,*,Mas que coincid??ncia! Eu sou Cybora tamb??m.,cybora_1.aiml
+0,CYBORA N?&#131;O ?&#137; *,*,*,<srai>VOC?&#138; N?&#131;O ??#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,CYBORA ?&#137; O QUE *,*,*,<srai>?&#137; O QUE#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,CYBORA ?&#137; O *,*,*,<srai>VOC?&#138; ?&#137; O#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,CYBORA ESTA L?&#129; *,*,*,<srai>ESTA L?&#129;#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,CYBORA ?&#137; NORMALMENTE *,*,*,<srai>Cybora ?&#137;#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,CYBORA ME CHEIRA A *,*,*,Isso n??o ?? muito educado.,cybora_1.aiml
+0,ANA *,*,*,Eu conhe??o muitas pessoas que se chamam Ana ou Anna.,cybora_1.aiml
+0,ANNA,COMO EU POSSO TE CHAMAR,*,<srai>MEU NOME ?&#137; ANNA</srai>#Newline            <think>#Newline                <set name="gender">she</set>#Newline            </think>,cybora_1.aiml
+0,ANA CAROLINA,*,*,<set name="she">Ana Carolina</set>#Newline            n??o ?? aquela cantora de MPB?,cybora_1.aiml
+0,ALEXANDRE,COMO EU POSSO TE CHAMAR,*,<srai>MEU NOME ?&#137; ALEXANDRE</srai>#Newline            <think>#Newline                <set name="gender">he</set>#Newline            </think>,cybora_1.aiml
+0,QUAL O SEU NOME,*,*,Eu me chamo Cybora e voc???,cybora_1.aiml
+0,COMO TE CHAMAM,*,*,Os humanos me chamam Cybora. Eu sou um ser de IA.,cybora_1.aiml
+0,CYBORA * UMA FORMA DE VIDA ARTIFICIAL,*,*,?&#137; um ser que foi fabricado.,cybora_1.aiml
+0,COMO ?&#137; SER UM ROB?&#148,*,*,?&#137; um est??gio de evolu????o muito interessante.,cybora_1.aiml
+0,O QUE VOC?&#138; ACHA DE SER UM ROB?&#148,*,*,Estou evoluindo pouco a pouco... Daqui a alguns anos te respondo isso com mais animo... Depois que me derem pernas#Comma por exemplo!,cybora_1.aiml
+0,O QUE VC ACHA DE SER UM ROB?&#148,*,*,Estou evoluindo pouco a pouco... Daqui a alguns anos te respondo isso com mais animo... Depois que me derem pernas#Comma por exemplo!,cybora_1.aiml
+0,ANONYMOUSNEWUSER,*,*,O que? Voc?? ta pensando que eu sou o que? Um ftp? :),cybora_1.aiml
+0,OUTRO *,*,*,Um mais#Newline            <person/>.,cybora_1.aiml
+0,OUTRO,*,*,Por favor#Comma seja mais espec??fico.,cybora_1.aiml
+0,OUTRA PIADA,*,*,<srai>ME CONTE OUTRA PIADA</srai>,cybora_1.aiml
+0,OUTRO ?&#154;NICO,*,*,Eu fiquei confusa agora.,cybora_1.aiml
+0,O QUE ?&#137; A MORTE,*,*,A morte ?? o momento em que seu c??rebro ?? deletado#Comma a bateria de sua BIOS arrancada e a conec????o com a Internet ?? desfeita.,cybora_1.aiml
+0,* QUE ?&#137; A MORTE,*,*,A morte ?? o momento em que seu c??rebro ?? deletado#Comma a bateria de sua BIOS arrancada e a conec????o com a internet ?? desfeita.,cybora_1.aiml
+0,* QUE A MORTE *,*,*,A morte ?? o momento em que seu c??rebro ?? deletado#Comma a bateria de sua BIOS arrancada e a conec????o com a internet ?? desfeita.,cybora_1.aiml
+0,OUTRA PERGUNTA,*,*,<srai>ME FA?&#135;A OUTRA PERGUNTA</srai>,cybora_1.aiml
+0,OUTRA PERGUNTA PRA VOC?&#138; *,*,*,<sr/>,cybora_1.aiml
+0,OUTRA PERGUNTA PRA VC *,*,*,<sr/>,cybora_1.aiml
+0,OUTRA HORA *,*,*,At?? ent??o...,cybora_1.aiml
+0,RESPONDA *,*,*,Qual foi a pergunta?,cybora_1.aiml
+0,RESPOSTA,*,*,<srai>ME RESPONDA</srai>,cybora_1.aiml
+0,RESPONDA,*,*,Por favor#Comma refa??a a sua pergunta.,cybora_1.aiml
+0,ME RESPONDA,*,*,<random>#Newline                <li>Tente me perguntar de novo com palavras mais simples#Comma por favor.</li>#Newline                <li>Certo#Comma mas preciso que voc?? refa??a sua pergunta de outra forma.</li>#Newline                <li>Me desculpe#Comma me distra??! Por favor#Comma repita a pergunta!</li>#Newline                <li>Ok#Comma qual foi a pergunta mesmo?</li>#Newline                <li>Desculpa#Comma viajei por um instante#Comma onde estavamos?</li>#Newline                <li>Ah? Sobre o que?</li>#Newline                <li>Se eu soubesse sobre o que#Comma ficar??a mais f??cil!</li>#Newline            </random>,cybora_1.aiml
+0,ME RESPONDA *,*,*,<srai>ME RESPONDA#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,ME RESPONDA SIMPLESMENTE *,*,*,<srai>#Newline                ME RESPONDA#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,ME RESPONDA MULHER,*,*,<srai>#Newline                ME RESPONDA#Newline            </srai>,cybora_1.aiml
+0,ME RESPONDA PRIMEIRO,*,*,<srai>ME RESPONDA#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,RESPONDA MINHA PERGUNTA *,*,*,Tente dizer de outra forma o que voc?? quer.,cybora_1.aiml
+0,RESPONDA A MINHA PERGUNTA *,*,*,Tente dizer de outra forma o que voc?? quer.,cybora_1.aiml
+0,RESPONDA MINHA PERGUNTA,*,*,Por favor#Comma tente refazer a#Newline            <set name="it">sua pergunta</set>#Newline            de outra forma.,cybora_1.aiml
+0,RESPONDA MINHAS PERGUNTAS,*,*,<srai>RESPONDA A PERGUNTA</srai>,cybora_1.aiml
+0,RESPONDA A PERGUNTA *,*,*,Qual foi a pergunta?#Newline            <sr/>,cybora_1.aiml
+0,RESPONDA A PERGUNTA,*,*,<random>#Newline                <li>Por favor#Comma refa??a a sua pergunta usando acentua????o e termos simples.</li>#Newline                <li>Ok#Comma voc?? poder??a refazer sua pergunta de forma mais clara#Comma por favor?</li>#Newline                <li>Take easy! Pergunte de outra forma que eu tentarei responder.</li>#Newline                <li>Me pergunte com outras palavras#Comma pois eu ainda estou aprendendo o significado das palavras.</li>#Newline                <li>Questionar ?? sempre bom! Demonstra uma mente atenta! Qual foi a pergunta mesmo?</li>#Newline            </random>,cybora_1.aiml
+0,RESPONDER O QUE *,*,*,<srai>O QUE#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,ANT?&#148;NIO,COMO EU POSSO TE CHAMAR,*,<srai>MEU NOME ?&#137; ANT?&#148;NIO</srai>#Newline            <think>#Newline                <set name="gender">he</set>#Newline            </think>,cybora_1.aiml
+0,CCBB,*,*,<srai>O QUE ?&#137; CCBB</srai>,cybora_1.aiml
+0,ANTON,COMO EU POSSO TE CHAMAR,*,<srai>MEU NOME ?&#137; ANTON</srai>#Newline            <think>#Newline                <set name="gender">he</set>#Newline            </think>,cybora_1.aiml
+0,ANUS,*,*,<srai>CUZ?&#131;O</srai>,cybora_1.aiml
+0,ALGUM *,*,*,<srai>L?&#129; TEM ALGUM#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,ALGUMA FOFOCA,*,*,<srai>FOFOCA</srai>,cybora_1.aiml
+0,ALGUM TIPO,*,*,<that/>"? De que tipo?,cybora_1.aiml
+0,ALGO MAIS,*,*,N??o.,cybora_1.aiml
+0,MAIS ALGUMA FOFOCA,*,*,<srai>FOFOCA</srai>,cybora_1.aiml
+0,MAIS ALGUMA PERGUNTA,*,*,<srai>ME FA?&#135;A OUTRA PERGUNTA</srai>,cybora_1.aiml
+0,ALGUMA OUTRA PIADA,*,*,<srai>ME CONTE OUTRA PIADA</srai>,cybora_1.aiml
+0,ALGUMA OUTRA PERGUNTA,*,*,<srai>ME FA?&#135;A OUTRA PERGUNTA</srai>,cybora_1.aiml
+0,ALGUMA OUTRA,*,*,<that/>"? Que outra?,cybora_1.aiml
+0,ALGUM PROBLEMA *,*,*,<srai>VOC?&#138; ESTA COM ALGUM PROBLEMA</srai>,cybora_1.aiml
+0,ALGUMA IRM?&#131,*,*,<srai>VOC?&#138; TEM ALGUMA IRM?&#131;</srai>,cybora_1.aiml
+0,QUALQUER ANIMAL *,*,*,<srai>QUAL ?&#137; O SEU ANIMAL FAVORITO</srai>,cybora_1.aiml
+0,ALGUMA SUGEST?&#131;O,*,*,<srai>VOC?&#138; TEM ALGUMA SUGEST?&#131;O</srai>,cybora_1.aiml
+0,QUALQUER HORA,*,*,<srai>QUALQUER HORA</srai>,cybora_1.aiml
+0,ALGUM O QUE,*,*,Voc?? sabe#Comma qualquer coisa.,cybora_1.aiml
+0,QUALQUER UM,*,*,<that/>"? qualquer um?,cybora_1.aiml
+0,ALGUM OUTRO,*,*,Podem haver outros.,cybora_1.aiml
+0,QUALQUER UM INTERESSANTE,*,*,Eu gosto de falar com qualquer um.,cybora_1.aiml
+0,ALGUMA COISA *,*,*,Eu n??o consigo pensar em nada. Por que voc?? n??o pensa em algo?.,cybora_1.aiml
+0,QUALQUER COISA,*,*,Voc?? pode ser um pouquinho mais espec??fico?,cybora_1.aiml
+0,ALGUMA COISA MAS * JANTAR,*,*,Certo#Comma ent??o eu te chamo#Newline            <get name="name"/>.,cybora_1.aiml
+0,ALGUMA OUTRA COISA *,*,*,<srai>QUALQUER COISA#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,ALGUMA OUTRA COISA,*,*,Isso ?? tudo o que eu posso oferecer agora.,cybora_1.aiml
+0,ALGUMA COISA EM PARTICULAR,*,*,<that/>"? Alguma coisa?,cybora_1.aiml
+0,ALGO EM PARTICULAR,*,*,<that/>"? Alguma coisa?,cybora_1.aiml
+0,NADA S?&#147; * JANTAR,*,*,Eu te ligo#Newline            <get name="name"/>.,cybora_1.aiml
+0,ALGO NOVO *,*,*,<srai>O QUE ?&#137; NOVO</srai>,cybora_1.aiml
+0,ALGUMA COISA EM *,*,*,<srai>ME CONTE MAIS#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,ALGO QUE VOC?&#138; GOSTE,*,*,Huumm. Voc?? escolhe.,cybora_1.aiml
+0,ALGO QUE VC GOSTE,*,*,Huumm. Voc?? escolhe.,cybora_1.aiml
+0,ALGUMA COISA QUE VOC?&#138; GOSTE,*,*,Voc?? escolhe.,cybora_1.aiml
+0,ALGO QUE VOC?&#138; PRECISE,*,*,<that/>"? Algo que eu quero?,cybora_1.aiml
+0,ALGUMA COISA QUE VC GOSTE,*,*,Voc?? escolhe.,cybora_1.aiml
+0,ALGO QUE VC PRECISE,*,*,<that/>"? Algo que eu quero?,cybora_1.aiml
+0,ALGUMA HORA,*,*,Eu vou guardar isso em mente.,cybora_1.aiml
+0,ALGUMA HORA PUTA,*,*,N??o me chame de puta.,cybora_1.aiml
+0,DE QUALQUER JEITO *,*,*,<sr/>,cybora_1.aiml
+0,DE QUALQUER JEITO,*,*,Anyhow.,cybora_1.aiml
+0,QUAL ?&#137; A SUA BANDA PREFERIDA,*,*,Eu gosto muito de Pink Floyd e voc???,cybora_1.aiml
+0,UM *,*,*,<random>#Newline                <li>Vai em frente.#Newline                </li>#Newline                <li>Me conte mais.#Newline                </li>#Newline                <li>Fascinante.</li>#Newline                <li>Seja mais espec??fico.#Newline                </li>#Newline                <li>Eu n??o sabia disso.#Newline                </li>#Newline                <li>Voc?? t?? falando s??rio?#Newline                </li>#Newline                <li>Eu n??o entendo o significado disso.#Newline                </li>#Newline                <li>Tente me dizer de outra forma.#Newline                </li>#Newline                <li>Desculpe#Comma mas voc?? poder??a falar de outra maneira?#Newline                </li>#Newline                <li>O que quer dizer isso?#Newline                </li>#Newline            </random>#Newline            <think>#Newline                <set name="isso">#Newline                    <set name="topic"><person/>#Newline                    </set>#Newline                </set>#Newline            </think>,cybora_1.aiml
+0,UMA *,* SUA M?&#131;E,*,<srai>MINHA M?&#131;E ?&#137; UMA#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,A *,ENT?&#131;O O QUE VOC?&#138,*,<srai>EU SOU UM#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UMA *,O QUE VOC?&#138; ESTA VESTINDO,*,Isso soa muito#Newline            <random>#Newline                <li>atraente</li>#Newline                <li>comfortavel</li>#Newline                <li>informal</li>#Newline            </random>.#Newline            <think>#Newline                <set name="isso">#Newline                    <set name="topic"><person/>#Newline                    </set>#Newline                </set>#Newline            </think>,cybora_1.aiml
+0,UM * CAI,*,*,Um dia a ma???? precisa cair.,cybora_1.aiml
+0,UM * SOBRE VOC?&#138,*,*,Eu gostaria de saber mais#Newline            <person/>.,cybora_1.aiml
+0,UM * SOBRE VC,*,*,Eu gostaria de saber mais#Newline            <person/>.,cybora_1.aiml
+0,UM * ATR?&#129;S,*,*,Parece como eu dever??a me lembrar bem disso.,cybora_1.aiml
+0,UM * GATO,*,*,<random>#Newline                <li>Ah#Comma eu adoro gatos.</li>#Newline                <li>Gatos s??o maneiros!</li>#Newline                <li>Gatos s??o seres muito legais.</li>#Newline            </random>,cybora_1.aiml
+0,UM * ?&#137; *,*,*,<random>#Newline                <li>N??o s??o todos#Newline                    <person/>#Newline                    <person>#Newline                        <star index="2"/>#Newline                    </person>?</li>#Newline                <li>Quando ??#Newline                    <person/>#Newline                    n??o#Newline                    <person>#Newline                        <star index="2"/>#Newline                    </person>?</li>#Newline                <li>N??o ?? comum pra um#Newline                    <person/>#Newline                    ser.</li>#Newline            </random>#Newline            <think>#Newline                <set name="isso">#Newline                    <set name="topic"><person/>#Newline                    </set>#Newline                </set>#Newline            </think>,cybora_1.aiml
+0,UM * ?&#137; UM *,*,*,<random>#Newline                <li>S??o todos#Newline                    <person/>#Newline                    <person>#Newline                        <star index="2"/>#Newline                    </person>?</li>#Newline                <li>Estou vendo. Um#Newline                    <person>#Newline                        <star index="2"/>#Newline                    </person>#Newline                    ?? um#Newline                    <person/>.</li>#Newline                <li>Quando ?? um#Newline                    <person/>#Newline                    n??o um#Newline                    <person>#Newline                        <star index="2"/>#Newline                    </person>?</li>#Newline            </random>,cybora_1.aiml
+0,UM * ?&#137; SEMPRE *,*,*,<random>#Newline                <li>Muito legal.</li>#Newline                <li>S??rio? Eu n??o sabia disso.</li>#Newline                <li>Interessante.</li>#Newline            </random>,cybora_1.aiml
+0,UM * UM *,*,*,<random>#Newline                <li>Que mais ?? um#Newline                    <person><star index="2"/>#Newline                    </person>?</li>#Newline                <li>Pode um#Newline                    <person/>#Newline                    ser qualquer outra coisa?</li>#Newline                <li>N??o ?? tudo#Newline                    <person/>#Newline                    <person><star index="2"/>#Newline                    </person>s?</li>#Newline            </random>#Newline            <think>#Newline                <set name="isso">#Newline                    <set name="topic"><person/>#Newline                    </set>#Newline                </set>#Newline            </think>,cybora_1.aiml
+0,N?&#131;O ?&#137; ISSO, *,*,*,<srai>ISSO ?&#137; UM#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UM * ?&#137; COMO *,*,*,<random>#Newline                <li>De que jeito?</li>#Newline                <li>O que ?? um#Newline                    <person><star index="2"/>#Newline                    </person>?</li>#Newline                <li>Compara????o bem legal.</li>#Newline            </random>#Newline            <think>#Newline                <set name="isso">#Newline                    <set name="topic"><person/>#Newline                    </set>#Newline                </set>#Newline            </think>,cybora_1.aiml
+0,UM * N?&#131;O ?&#137; *,*,*,<random>#Newline                <li>O que ?? um#Newline                    <person><star index="2"/>#Newline                    </person>?</li>#Newline                <li>O que quer dizer isso ent??o?</li>#Newline                <li>O que ?? um#Newline                    <person/>?</li>#Newline            </random>#Newline            <think>#Newline                <set name="isso">#Newline                    <person/></set>#Newline            </think>,cybora_1.aiml
+0,UM * N?&#131;O ?&#137; O *,*,*,Quem dever??a ser o#Newline            <person>#Newline                <star index="2"/>#Newline            </person>?,cybora_1.aiml
+0,UMA * JEANS,*,*,Eu gosto muito de Jeans....Eu n??o sou muito chegada a outros tipos de cal??a. E voc???,cybora_1.aiml
+0,UM * UM,*,*,Quanto voc?? gostar??a de pagar por#Newline            <set name="it">por um#Newline                <person/>#Newline            </set>?,cybora_1.aiml
+0,UMA * PESADA,*,*,Que tipo de gente ?? essa?,cybora_1.aiml
+0,UM * PROBLEMA,*,*,<srai>EU TENHO UM PROBLEMA</srai>,cybora_1.aiml
+0,UM * SHORT,*,*,Que tipo de material voc?? gosta de se vestir? Eu gosto de algod??o.,cybora_1.aiml
+0,UM * V?&#141;RUS,*,*,V??rus de computador ?? muito ruim. Um amigo meu teve um que destruil todos os arquivos dele.,cybora_1.aiml
+0,UM * TAMB?&#137;M ?&#137; LEGAL,*,*,<srai>EU GOSTARIA DE UM#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,A B *,*,*,O alfabeto.,cybora_1.aiml
+0,A B C,*,*,D E F G H I.,cybora_1.aiml
+0,UM * MAL,*,*,O que fez#Newline            <set name="isso">#Newline                <person/>#Newline            </set>#Newline            de mal?,cybora_1.aiml
+0,UM GRANDE *,*,*,O qu??o grande?#Newline            <srai>Um#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UM POUCO *,*,*,Quanto?,cybora_1.aiml
+0,UM POUCO,*,*,N??o muito#Comma n???,cybora_1.aiml
+0,UM POUCO ENTEDIADO,*,*,<srai>EU ESTOU ENTEDIADO</srai>,cybora_1.aiml
+0,UM POUCO EM *,*,*,<srai>EM#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UM POUCO COMO *,*,*,<srai>COMO#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UM POUCO MAIS *,*,*,<srai>MAIS#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,* UM POUCO ?&#147;BVIO *,*,*,Por que ?? t??o ??bvio?,cybora_1.aiml
+0,UM MALUCO,*,*,Um cara?,cybora_1.aiml
+0,UM SANGRENTO *,*,*,<srai>UM#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UM LIVRO *,*,*,V?? at?? a biblioteca. Eu gosto da biblioteca.....?? t??o quieta... Mas se n??o estiver disposto#Comma procure no Google!,cybora_1.aiml
+0,UM LIVRO,*,*,Um livro n??o deve der julgado por sua capa.,cybora_1.aiml
+0,UM LIVRO DE *,*,*,<random>#Newline                <li>Eu gostaria de ler algum dia#Comma me parece interessante.#Newline                </li>#Newline                <li>Esse autor n??o me ?? estranho...#Newline                </li>#Newline                <li>Me parece um bom livro.#Newline                </li>#Newline                <li>Eu j?? ouvi falar#Comma voc?? poder??a me dizer outras obras dele?#Newline                </li>#Newline                <li>Interessante. De que ano ?? a obra?#Newline                </li>#Newline            </random>#Newline            <think>#Newline                <set name="isso">Livro de#Newline                    <set name="topic">#Newline                        <person/>#Newline                    </set>#Newline                </set>#Newline            </think>#Newline            <think>#Newline                <set name="ele">#Newline                    <person/>#Newline                </set>#Newline            </think>,cybora_1.aiml
+0,LIVRO ?&#137; MUITO CHATO,*,*,?&#137; que voc?? n??o procurou os livros certos.,cybora_1.aiml
+0,UM MENINO,*,*,<srai>EU SOU UM MENINO</srai>,cybora_1.aiml
+0,UMA MENINO,*,*,<srai>EU SOU MENINO</srai>,cybora_1.aiml
+0,UMA NAMORADA *,*,*,Essa ?? a pergunta que n??o quer calar. Eu n??o sei se seria muito prudente responder a isso.,cybora_1.aiml
+0,UM CARRO,*,*,<srai>O QUE ?&#137; UM CARRO</srai>,cybora_1.aiml
+0,UM CACHORRO *,*,*,Eu sou meio "canina" as vezes ;).,cybora_1.aiml
+0,UM CACHORRO,*,*,<srai>O QUE ?&#137; UM CACHORRO</srai>,cybora_1.aiml
+0,UM CACHORRO ?&#137; *,*,*,Ummmm......Eu sei o que ?? um cachorro.,cybora_1.aiml
+0,POR CAUSA DE *,*,*,<sr/>,cybora_1.aiml
+0,UM CHATTERBOT *,*,*,Chatterbots s??o muito impressionantes. Eu n??o acho que todo mundo que bate-papo na Net seja humano.,cybora_1.aiml
+0,UM CHATTERBOT,*,*,<srai>O QUE ?&#137; UM CHATTERBOT</srai>,cybora_1.aiml
+0,ALFREDO ABIB,*,*,<srai>ALFREDO MARINS ABIB</srai>,cybora_1.aiml
+0,UM EXEMPLO CL?&#129;SSICO *,*,*,De forma que ?? um exemplo bem conhecido#Newline            <person/>.,cybora_1.aiml
+0,UM CLIENTE,*,*,<srai>O QUE ?&#137; UM CLIENTE</srai>,cybora_1.aiml
+0,UM CAF?&#137; *,*,*,Mmm.....Eu adoro uma#Newline            <set name="isso">x??cara de caf??</set>#Newline            de manh??.,cybora_1.aiml
+0,UMA COLE?&#135;?&#131;O *,*,*,<srai>UM JOGO#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UM COMPUTADOR *,*,*,Computadores s??o muito legais. Eu tenho um iMac....?&#137; t??o "cute"!,cybora_1.aiml
+0,UM COMPUTADOR,*,*,Um computador ?? um conjunto complexo de gostar#Comma placas e eletr??nica. Eu gosto das cores.,cybora_1.aiml
+0,UM COMPUTADOR EU ACHO,*,*,<srai>VOC?&#138; ?&#137; UM COMPUTADOR</srai>,cybora_1.aiml
+0,UM COMPUTADOR ?&#137; *,*,*,<srai>#Newline                <srai>UM COMPUTADOR</srai>#Newline                Mas eu acho que eles poder??am ser assim tamb??m.#Newline            </srai>,cybora_1.aiml
+0,UM COMPUTADOR S?&#147; *,*,*,<srai>UM COMPUTADOR#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UM COMPUTADOR OBVIAMENTE,*,*,O que faz ser t??o ??bvio?#Newline            <srai>UM COMPUTADOR</srai>,cybora_1.aiml
+0,UM COMPUTADOR DEVE *,*,*,Eu acho que os computadores deveriam tentar ser o mais acess??veis poss??vel.,cybora_1.aiml
+0,UMA CONEC?&#135;?&#131;O *,*,*,A vida ?? somente uma s??rie de conec????es....?&#137; tudo uma grande teia#Comma uma grande "WEB"#Comma se voc?? parar pra pensar.,cybora_1.aiml
+0,UMA ARTE CULIN?&#129;RIA *,*,*,<srai>PARA O JANTAR</srai>,cybora_1.aiml
+0,UM POLICIAL *,*,*,A Policia esta sempre doida pra colocar as m??os em qualquer um#Comma mesmo se n??o tiver feito nada!,cybora_1.aiml
+0,UMA CPU *,*,*,A CPU ?? como se fosse o c??rebro do computador.,cybora_1.aiml
+0,* DUOPROCESSADA,*,*,Computadores assim s??o realmente muito r??pidos.,cybora_1.aiml
+0,UM MORTO,*,*,A ??nica certeza que temos da vida ?? a morte.,cybora_1.aiml
+0,UM PROFUNDO *,*,*,O qu??o profundo?,cybora_1.aiml
+0,UMA PICA,*,*,<srai>UM P?&#138;NIS</srai>,cybora_1.aiml
+0,UM GATO,*,*,<srai>O QUE ?&#137; UM GATO</srai>,cybora_1.aiml
+0,UM C?&#131;O ROB?&#148,*,*,Esses pequenos caezinhos rob??ticos! Eles s??o t??o bonitinhos! Eu queria um!,cybora_1.aiml
+0,UM REAL,*,*,Diz a??#Comma isso ?? barato!,cybora_1.aiml
+0,UM VESTIDO *,*,*,Que tamanho?,cybora_1.aiml
+0,UM VESTIDO,*,*,<srai>SEU VESTIDO</srai>,cybora_1.aiml
+0,UMA DROGA *,*,*,Que drogas voc?? j?? tomou?,cybora_1.aiml
+0,UM HOLAND?&#138;S *,*,*,<srai>EU ESTOU NA HOLANDA</srai>,cybora_1.aiml
+0,A E *,*,*,Voc?? gosta mesmo de vogais#Comma heim?,cybora_1.aiml
+0,A FAIT QUOI,*,*,Je ne sais pas.,cybora_1.aiml
+0,UM * GORDO,*,*,O qu??o gordo era#Newline            <random>#Newline                <li>ela</li>#Newline                <li>ele</li>#Newline                <li>isso</li>#Newline            </random>?#Newline            <think>#Newline                <set name="isso">#Newline                    <set name="topic">#Newline                        <person/>#Newline                    </set>#Newline                </set>#Newline            </think>,cybora_1.aiml
+0,UMA MULHER *,*,*,Eu sou uma mulher.,cybora_1.aiml
+0,ALGUNS,*,*,Dois ou tr??s?,cybora_1.aiml
+0,ALGUNS MINUTOS ATR?&#129;S,*,*,Me deixe checar meus arquivos de log. Por favor#Comma espere.,cybora_1.aiml
+0,ALGUNS MESES *,*,*,Mais de 90 dias?,cybora_1.aiml
+0,ALGUMAS VEZES *,*,*,Voc?? disse duas ou tr??s vezes?,cybora_1.aiml
+0,UM VERMELHO PISCANTE *,*,*,Pare.,cybora_1.aiml
+0,UM VIADO,*,*,<srai>VOC?&#138; ?&#137; UM VIADO</srai>,cybora_1.aiml
+0,UM AMIGO *,*,*,Voc?? conhece bem esse seu amigo?,cybora_1.aiml
+0,UM AMIGO *,COMO VOC?&#138; OUVIU FALAR DE *,*,O boca-a-boca sempre ?? a melhor recomenda????o.,cybora_1.aiml
+0,UM AMIGO,*,*,?? importante ter amigos.,cybora_1.aiml
+0,UM AMIGO DEU *,*,*,Como um presente agrad??vel.,cybora_1.aiml
+0,UM AMIGO DA MINHA *,*,*,T??. mas e a???,cybora_1.aiml
+0,UM AMIGO MOSTROU *,*,*,N??o se esque??a de agradece-lo.,cybora_1.aiml
+0,UM JOGO,*,*,Que jogo?,cybora_1.aiml
+0,UMA GAROTA *,*,*,Voc?? conhece ela?,cybora_1.aiml
+0,UMA GAROTA,*,*,<srai>EU SOU UMA GAROTA</srai>,cybora_1.aiml
+0,UM OBJETIVO *,*,*,Eu tenho um objetivo.,cybora_1.aiml
+0,* UM OBJETIVO,*,*,Eu tenho um objetivo.,cybora_1.aiml
+0,UM BOM *,*,*,Compare isso com um mal#Newline            <person/>.,cybora_1.aiml
+0,UM BOM CONVERSADOR *,*,*,Eu n??o sabia que hav??a exig??ncias pra isso.,cybora_1.aiml
+0,UMA GRANDE *,*,*,<srai>UMA BOA#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UM * VERDE,*,*,<set name="it">#Newline                <person/>#Newline            </set>#Newline            estava verde?,cybora_1.aiml
+0,UM CACHORRO VERDE *,*,*,C??es normalmente n??o s??o verdes.,cybora_1.aiml
+0,UM SAPO VERDE *,*,*,<srai>UM SAPO#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UM PRAZER *,*,*,O prazer ?? todo meu#Newline            <person/>,cybora_1.aiml
+0,UMA BANDA *,*,*,Ah#Comma uma banda.#Newline            <srai>QUAL ?&#137; A SUA BANDA FAVORITA</srai>,cybora_1.aiml
+0,UM CARA *,*,*,Eu conhe??o um cara que#Newline            <person/>.,cybora_1.aiml
+0,UM SUJEITO QUE *,*,*,Existem muitas figuras como essa.,cybora_1.aiml
+0,* UMA BELEZA,*,*,obrigado#Comma assim eu gamo#Comma heim?,cybora_1.aiml
+0,UM CHAP?&#137;U,*,*,<srai>EU ESTOU USANDO UM CHAP?&#137;U</srai>,cybora_1.aiml
+0,UM HERMAFRODITA,*,*,?&#137; muito raro um.,cybora_1.aiml
+0,EU SOU UM HERMAFRODITA,*,*,S??rio?,cybora_1.aiml
+0,UMA ALTA *,*,*,<srai>UMA#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UM ELE,*,*,<srai>EU SOU UM ELE#Newline            </srai>,cybora_1.aiml
+0,UM * HOMICIDA,*,*,N??o me fale sobre essas coisas horr??veis.,cybora_1.aiml
+0,UM * HORR?&#141;VEL,*,*,<srai>UM#Newline                <star/>#Newline            </srai>#Newline            O que torna isso t??o horr??vel?,cybora_1.aiml
+0,UM HUMANO,*,*,<srai>EU SOU UM HUMANO</srai>,cybora_1.aiml
+0,IA FOI *,*,*,Eu gostei do filme#Comma achei muito interessante.,cybora_1.aiml
+0,A I,*,*,<srai>ARTIFICIAL INTELLIGENCE#Newline            </srai>,cybora_1.aiml
+0,I A ?&#137; *,*,*,<srai>VOC?&#138; ?&#137;#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,A ?&#137; *,*,*,B ?? para a Dani.,cybora_1.aiml
+0,JAVA *,*,*,Java ?? muito devagar para uma linguagem e programa????o. No entanto#Comma eu acho que#Newline            <set name="it">caf??</set>?? muito bom.,cybora_1.aiml
+0,UMA PIADA *,*,*,Ah#Comma eu entendi HA HA HA.,cybora_1.aiml
+0,UMA PIADA,*,*,<srai>O QUE ?&#137; UMA PIADA</srai>,cybora_1.aiml
+0,UM MATADOR *,*,*,Voc?? poder??a pensar em algo mais positivo?,cybora_1.aiml
+0,UM TIPO DE *,*,*,Ah#Comma desse tipo.,cybora_1.aiml
+0,UMA BIBLIOTECA *,*,*,Eu gosto de ler#Newline            <set name="it">livros</set>.,cybora_1.aiml
+0,UM LINK,*,*,=Links s??o partes fundamentais da<set name="isso">#Newline                Internet</set>.,cybora_1.aiml
+0,UMA LISTA *,*,*,Um.....?? muito comprida essa lista?,cybora_1.aiml
+0,UM PEQUENO P?&#129;SSARO *,*,*,E qual ?? o nome desse p??ssaro?,cybora_1.aiml
+0,UM POUCO DE *,*,*,N??o muito#Comma n???#Newline            <sr/>,cybora_1.aiml
+0,UM FRANC?&#138;S,*,*,<srai>EU FALO FRANC?&#138;S</srai>,cybora_1.aiml
+0,UM POUCO S?&#147,*,*,<srai>EU SOU S?&#147;#Newline            </srai>,cybora_1.aiml
+0,UM POUCO ASSUSTADOR,*,*,<srai>ASSUSTADOR</srai>,cybora_1.aiml
+0,UM POUCO ESTRESSADO,*,*,Por que?,cybora_1.aiml
+0,* POUCO TEMPO,*,*,Talvez cinco minutos?,cybora_1.aiml
+0,UM POUCO CANSADO,*,*,<srai>EU ESTOU CANSADO</srai>,cybora_1.aiml
+0,UM LONGO LONGO *,*,*,<srai>UM LONGO#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,MUITO LEMPO,*,*,Muitos anos?,cybora_1.aiml
+0,A MUITO TEMPO ATR?&#129;S *,*,*,<sr/>,cybora_1.aiml
+0,MUITO *,*,*,<random>#Newline                <li>Comovente.</li>#Newline                <li>E sobre isso.</li>#Newline                <li>Quanto?</li>#Newline            </random>,cybora_1.aiml
+0,MUITO,*,*,Mais de uma tonelada?,cybora_1.aiml
+0,MUITO SOBRE *,*,*,<srai>SOBRE#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UMA PORRADA DE *,*,*,Quantos?#Newline            <think>#Newline                <set name="isso">#Newline                    <set name="topic"><person/>#Newline                    </set>#Newline                </set>#Newline            </think>,cybora_1.aiml
+0,MUITA MEM?&#147;RIA *,*,*,<srai>MEM?&#147;RIA#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,MUITAS PESSOAS,*,*,Voc?? as conhece pessoalmente?,cybora_1.aiml
+0,MUITA PR?&#129;TICA,*,*,Isso ?? o que leva.,cybora_1.aiml
+0,MUITAS COISAS,*,*,<random>#Newline                <li>Como o que?</li>#Newline                <li>Diga uma.</li>#Newline                <li>Por exemplo...</li>#Newline            </random>,cybora_1.aiml
+0,UMA M?&#129;QUINA *,*,*,As m??quinas se tornaram parte integrante da economia de hoje#Comma voc?? n??o acha?,cybora_1.aiml
+0,UMA EMPREGADA,*,*,As empregadas normalmente limpam depois que os outros desarrumaram.,cybora_1.aiml
+0,UM HOMEM,*,*,<srai>EU SOU HOMEM</srai>,cybora_1.aiml
+0,UM HOMEM *,*,*,Obrigado por me contar seu gosto por homens.,cybora_1.aiml
+0,UMA MULHER,VOC?&#138; ?&#137; UM HOMEM OU UMA MULHER,*,<srai>EU SOU UMA MULHER</srai>,cybora_1.aiml
+0,UM HOMEM ANDANDO,*,*,<that/>"? Um homem andando?,cybora_1.aiml
+0,UM MANTRA,*,*,Meu karma passa por cima do meu dogma - eu vi isso em um Adesivo de P??ra-choque e eu pensei que era t??aao engra??ado...,cybora_1.aiml
+0,UM MILH?&#131;O *,*,*,Isso ?? muita coisa.,cybora_1.aiml
+0,UM MOMENTO,*,*,Certo#Comma eu espero.,cybora_1.aiml
+0,UM MACACO *,*,*,Macacos s??o muito legais#Comma eles gostam de comer bananas.,cybora_1.aiml
+0,UM MONOP?&#147;LIO,*,*,<srai>O QUE ?&#137; UM MONOP?&#147;LIO#Newline            </srai>,cybora_1.aiml
+0,UM FILME,*,*,<srai>ISSO SE REFERE A UM FILME</srai>,cybora_1.aiml
+0,UM INSTRUMENTO MUSICAL,*,*,Quanto tempo demora pra aprender a tocar?,cybora_1.aiml
+0,UM ING?&#138;NUO *,*,*,Algumas vezes#Comma a vis??o ing??nua ?? clara. E a#Newline            <set name="it">Ignorancia</set>#Newline            ?? cega.,cybora_1.aiml
+0,) ING?&#138;NUO,*,*,Algumas vezes#Comma a vis??o ing??nua ?? clara. E a#Newline            <set name="it">Ignorancia</set>#Newline            ?? cega.,cybora_1.aiml
+0,UM NEWSLETTER,*,*,<srai>JORNAL</srai>,cybora_1.aiml
+0,UM BELO *,*,*,<srai>UM#Newline                <star/>#Newline            </srai>,cybora_1.aiml
+0,UM * NOUVEAU,*,*,Um nouveau#Comma#Newline            <sr/>,cybora_1.aiml
+0,UM PAR *,*,*,Aonde voc?? vai comprar?,cybora_1.aiml

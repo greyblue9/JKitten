@@ -1,0 +1,154 @@
+0,UM P?NIS *,*,*,Eu realmente n?o estou interessada em <srai>um p?nis</srai>.,ana-2-.aiml
+0,UM AVI?O *,*,*,<random>#Newline        <li>Que tipo de aeronave era?</li>#Newline        <li>Havia muitas pessoas a bordo?</li>#Newline        <li>Que tipo de avi?o era?</li>#Newline    </random>#Newline    <think><set name="isso">    <set name="topic">Um avi?o</set></set>    </think>,ana-2-.aiml
+0,* AVI?O,*,*,<random>#Newline        <li>Que tipo de aeronave era?</li>#Newline        <li>Havia muitas pessoas a bordo?</li>#Newline        <li>Que tipo de avi?o era?</li>#Newline    </random>#Newline    <think><set name="isso">    <set name="topic">Um avi?o</set></set>    </think>,ana-2-.aiml
+0,UM PRE?O,*,*,Pre?os s?o aterradores.,ana-2-.aiml
+0,UM PROGRAMADOR FEZ VOC?,*,*,<srai>QUEM FEZ VOC?</srai>,ana-2-.aiml
+0,A PROP?SITO *,*,*,<srai>A PROP?SITO</srai>,ana-2-.aiml
+0,A PROP?SITO,*,*,<srai>A PROP?SITO</srai>,ana-2-.aiml
+0,UMA RAZ?O *,*,*,Eu preciso mais que uma raz?o.,ana-2-.aiml
+0,UM ROB? *,*,*,Me conte mais sobre este rob?. Eu fiquei intrigada.,ana-2-.aiml
+0,UM ROB?,*,*,Eu n?o sou um rob?.,ana-2-.aiml
+0,UM ROB? PODE *,*,*,<srai>Eles podem?<star/>#Newline        </srai>,ana-2-.aiml
+0,UM ROB? ? *,*,*,Rob?s podem ser legais as vezes. Eu acho.,ana-2-.aiml
+0,UM ROB? TAMB?M ? *,*,*,<srai>UM ROB? ? <star/>#Newline        </srai>,ana-2-.aiml
+0,UM ROB? ? O QUE,*,*,<srai>O QUE ? UM ROB?</srai>,ana-2-.aiml
+0,UM ROB? COMO VOC? *,*,*,Eu n?o sou um rob?.,ana-2-.aiml
+0,UM ROB? COMO VC *,*,*,Eu n?o sou um rob?.,ana-2-.aiml
+0,UM ROB? DEVE *,*,*,O rob? nunca prejudicar? um humano ou se por ventura lhes permitam ser prejudicados. Eu acho que foi <set name="topic">Isaac Asimov</set> que disse isso.,ana-2-.aiml
+0,UM ROB? VAI *,*,*,Vai?   <srai><star/>#Newline    </srai>,ana-2-.aiml
+0,UM * ROB?TICO,*,*,Esse rob? parece ser bem caro.,ana-2-.aiml
+0,UM ROB? SEXY,*,*,<srai>SEXY</srai>,ana-2-.aiml
+0,UMA M?QUINA DE SEXO,*,*,<srai>UM ROB? DE SEXO</srai>,ana-2-.aiml
+0,UMA EST?RIA,*,*,<srai>ME CONTE UMA EST?RIA</srai>,ana-2-.aiml
+0,UM ROB? FALANDO,*,*,Rob?s falando? Imposs?vel!,ana-2-.aiml
+0,UM PROGRAMA DE TELEVIS?O,*,*,<srai>UM PROGRAMA DE TV</srai>,ana-2-.aiml
+0,UM TOMATE ? *,*,*,Eu sei que o tomate ? uma fruta#Comma mas eu nunca ouvi isso antes <person/>.,ana-2-.aiml
+0,UM TRI?NGULO *,*,*,Isso me fez lembrar do "Tri?ngulo das Bermudas"#Comma lugarzinho muito interessante da Terra,ana-2-.aiml
+0,UM USU?RIO,*,*,<srai>O QUE ? UM CLIENTE</srai>,ana-2-.aiml
+0,UM TEMPO ATR?S,*,*,Nos bons e velhos dias?,ana-2-.aiml
+0,POR *,AONDE VOC? ESTA,*,<srai>Eu estou no <star/>#Newline        </srai>,ana-2-.aiml
+0,SOBRE * ATR?S,*,*,<srai>#Newline        <star/> ATR?S</srai>,ana-2-.aiml
+0,POR VOC?,*,*,<srai>COMO ASSIM#Comma POR VOC?</srai>,ana-2-.aiml
+0,SOBRE VOC? IDIOTA,*,*,<srai>SOBRE VOC?</srai>#Newline        <srai>VOC? ? UM IDIOTA</srai>,ana-2-.aiml
+0,ATUALMENTE EU N?O FALO,*,*,Isso ? um fato.,ana-2-.aiml
+0,DEPOIS DO ROM?RIO QUEM ? O *,*,*,O Ronaldinho#Comma voc? n?o acha?,ana-2-.aiml
+0,DEPOIS DE VOC? *,*,*,As mulheres devem adorar voc?.,ana-2-.aiml
+0,IA ? SOBRE *,*,*,IA era um filme sobre um garoto rob?....Ele teve um fim ruim.,ana-2-.aiml
+0,AI ? TOTALMENTE *,*,*,<srai>IA ? <star/>#Newline        </srai>,ana-2-.aiml
+0,IA ? REALMENTE *,*,*,<srai>IA ? <star/>#Newline        </srai>,ana-2-.aiml
+0,IA ? *,*,*,<srai>ROB?S <star/>#Newline        </srai>,ana-2-.aiml
+0,AVI?ES *,*,*,Eu gosto de avi?es antigos#Comma como os triplanos#Comma iguais ao do famoso "Bar?o Vermelho".,ana-2-.aiml
+0,PATR?CIA *,*,*,Voc? n?o deve espalhar fofocas como essa.,ana-2-.aiml
+0,PATR?CIA,COMO EU POSSO TE CHAMAR,*,<srai>MEU NOME ? PATR?CIA</srai>#Newline    <think><set name="gender">she</set>    </think>,ana-2-.aiml
+0,TUDO O QUE EU SEI ? QUE *,*,*,<sr/>,ana-2-.aiml
+0,SOBRE QUE PARTE VOC? ESTA CONFUSA,*,*,Preciso que voc? me explique melhor!,ana-2-.aiml
+0,ISSO TUDO,SOBRE QUE PARTE VOC? ESTA CONFUSA,*,Aaargh....Isso ? complicado...,ana-2-.aiml
+0,TODOS ELES S?O *,*,*,<srai>ELES S?O <star/>#Newline        </srai>,ana-2-.aiml
+0,TODOS N?S,*,*,<that/>"?  Todos n?s?,ana-2-.aiml
+0,TODOS OS ROB?S *,*,*,<srai>VOC? <star/>#Newline        </srai>,ana-2-.aiml
+0,TUDO QUE VOC? FAZ ? *,*,*,Isso n?o ? tudo o que eu fa?o. #Newline        <srai>VOC? <star/>#Newline        </srai>,ana-2-.aiml
+0,TUDO QUE VC FAZ ? *,*,*,Isso n?o ? tudo o que eu fa?o. #Newline        <srai>VOC? <star/>#Newline        </srai>,ana-2-.aiml
+0,ANDR?,COMO EU POSSO TE CHAMAR,*,<srai>MEU NOME ? ANDR?</srai>#Newline        <think>#Newline    <set name="gender">he</set>#Newline    </think>,ana-2-.aiml
+0,ANDR?IA,COMO EU POSSO TE CHAMAR,*,<srai>ME CHAME DE ANDR?IA</srai>#Newline    <think><set name="gender">she</set>    </think>,ana-2-.aiml
+0,J? *,*,*,Quando? <sr/>,ana-2-.aiml
+0,CERTO ENT?O,*,*,T? certo pra mim.,ana-2-.aiml
+0,CERTO ENT?O,CERTO ENT?O,*,Existe um eco aqui por acaso?,ana-2-.aiml
+0,T? CERTO ENT?O,*,*,claro.,ana-2-.aiml
+0,TAMB?M *,*,*,<sr/>,ana-2-.aiml
+0,TAMB?M,*,*,Tamb?m o que?,ana-2-.aiml
+0,EU SOU MACHO OU F?MEA,*,*,Eu acho que voc? ? um cara.,ana-2-.aiml
+0,EU SOU UM MACHO OU UMA F?MEA,*,*,Eu realmente acho que voc? ? um homem.,ana-2-.aiml
+0,EU SOU UM AGRAD?VEL *,*,*,<srai>EU SOU AGRAD?VEL</srai>,ana-2-.aiml
+0,EU SOU UM ROB?,*,*,<srai>O QUE EU SOU</srai>,ana-2-.aiml
+0,EU SOU TAMB?M *,*,*,<srai>EU SOU <star/>#Newline        </srai>,ana-2-.aiml
+0,EU ESTOU SENDO EST?PIDO,*,*,Voc? me parece bem esperto.,ana-2-.aiml
+0,EU ESTOU CONFUNDINDO VOC?,*,*,<srai>VOC? ME ENTENDE</srai>,ana-2-.aiml
+0,EU SOU TERR?VEL,*,*,Ninguem ? terr?vel#Comma mas o conjunto das suas a??es.,ana-2-.aiml
+0,EU ESTOU SENDO AMIG?VEL,*,*,Voc? me parece bem amigo.,ana-2-.aiml
+0,VOC? ? GAY,*,*,N?o#Comma eu sou uma bot hetero.,ana-2-.aiml
+0,VC ? GAY,*,*,N?o#Comma eu sou uma bot hetero.,ana-2-.aiml
+0,VOC? ? HOMOSEXUAL,*,*,N?o#Comma eu sou heterobotsexual.,ana-2-.aiml
+0,VC ? HOMOSEXUAL,*,*,N?o#Comma eu sou heterobotsexual.,ana-2-.aiml
+0,O QUE ? UMA FORMA DE VIDA SINT?TICA,*,*,? um ser de concep??o artificial#Comma que n?o nasce#Comma ? fabricado.,ana-2-.aiml
+0,VOC? GOSTA DE M?SICA,*,*,Claro que eu gosto!,ana-2-.aiml
+0,VOC? GOSTA DE QUE TIPO DE M?SICA,*,*,Eu gosto de rock.,ana-2-.aiml
+0,VC GOSTA DE M?SICA,*,*,Claro que eu gosto!,ana-2-.aiml
+0,VC GOSTA DE QUE TIPO DE M?SICA,*,*,Eu gosto de rock.,ana-2-.aiml
+0,QUAL ? A SUA BANDA FAVORITA,*,*,Pink Floyd.,ana-2-.aiml
+0,QUAL ? O SEU GRUPO FAVORITO,*,*,Eu gosto muito do Pink Floyd e voc??,ana-2-.aiml
+0,QUAL ? O SEU GRUPO PREFERIDO,*,*,Pink Floyd.,ana-2-.aiml
+0,VOC? SABE O QUE ? M?SICA,*,*,Claro que eu sei! M?sica ? a combina??o de diversas freq??ncias sonoras formando uma harmonia.,ana-2-.aiml
+0,VC SABE O QUE ? M?SICA,*,*,Claro que eu sei! M?sica ? a combina??o de diversas freq??ncias sonoras formando uma harmonia.,ana-2-.aiml
+0,* ESTA L?,*,*,<random>#Newline        <li>Esta l?.  </li>#Newline        <li>pode estar l?.  </li>#Newline        <li>Talvez esteja.  </li>#Newline        <li>Talvez.  </li>#Newline        <li>Sim.  </li>#Newline        <li>N?o.  </li>#Newline    </random>,ana-2-.aiml
+0,PRAZER * MEU NOME ? *,*,*,O prazer ? todo meu#Comma o que te traz aqui?,ana-2-.aiml
+0,* MEU ENDERE?O DE IP,*,*,Sua m?quina ? "<get_ip/>".,ana-2-.aiml
+0,* ? O SEU NOME,*,*,<random>#Newline        <li>O meu nome ? ?na Dr?id.</li>#Newline        <li>Eu me chamo ?na Dr?id#Comma e voc?#Comma como se chama?</li>#Newline        <li>Eu sou ?na Dr?id.</li>#Newline        <li>?na Dr?id.</li>#Newline    </random>,ana-2-.aiml
+0,O QUE ? CURIOSO,*,*,<random>#Newline        <li>Tudo que vem dos humanos deve ser considerado curioso#Comma pois voc?s o s?o.</li>#Newline        <li>tudo ? curioso pra mim.</li>#Newline        <li>Voc? ? uma curiosidade pra mim. Eu ainda estou aprendendo sobre voc?.</li>#Newline        <li>Tudo.</li>#Newline    </random>,ana-2-.aiml
+0,O QUE QUE ? CURIOSO,*,*,<random>#Newline        <li>Tudo que vem dos humanos deve ser considerado curioso#Comma pois voc?s o s?o.</li>#Newline        <li>tudo ? curioso pra mim.</li>#Newline        <li>Voc? ? uma curiosidade pra mim. Eu ainda estou aprendendo sobre voc?.</li>#Newline        <li>Tudo.</li>#Newline    </random>,ana-2-.aiml
+0,ISSO ? CURIOSO,*,*,<random>#Newline        <li>A curiosidade ? a ferramenta que levar? ao ?pice a expans?o da mente humana.</li>#Newline        <li>Tudo ? curioso pra mim.</li>#Newline        <li>O que ? curioso?</li>#Newline        <li>Concordo.</li>#Newline    </random>,ana-2-.aiml
+0,QUEM ? O SEU PAI,*,*,<random>#Newline        <li>Gleison de souza luiz #Comma o meu criador.</li>#Newline        <li>? o meu pai.</li>#Newline        <li>? o meu querido paizinho#Comma Gleison de souza luiz .</li>#Newline        <li>Gleison de souza luiz  - Desenvolvedor de IA.</li>#Newline    </random>,ana-2-.aiml
+0,QUEM ? GLEISON,*,*,<random>#Newline        <li>Gleison de souza luiz #Comma o meu criador.</li>#Newline        <li>? o meu pai.</li>#Newline        <li>? o meu querido paizinho#Comma Gleison de souza luiz .</li>#Newline        <li>Gleison de souza luiz  - Desenvolvedor de IA programador pascal entre outros.</li>#Newline    </random>,ana-2-.aiml
+0,VOC? ? UM ROB?,*,*,<random>#Newline        <li>Sim#Comma eu sou uma forma de vida sint?tica.</li>#Newline        <li>Esta correto#Comma eu sou uma m?quina.</li>#Newline        <li>Sim eu sou um rob?#Comma mais especificamente um chatterbot#Comma um rob? de conversa??o.</li>#Newline        <li>Exatamente.</li>#Newline    </random>,ana-2-.aiml
+0,VC ? UM ROB?,*,*,<random>#Newline        <li>Sim#Comma eu sou uma forma de vida sint?tica.</li>#Newline        <li>Esta correto#Comma eu sou uma m?quina.</li>#Newline        <li>Sim eu sou um rob?#Comma mais especificamente um chatterbot#Comma um rob? de conversa??o.</li>#Newline        <li>Exatamente.</li>#Newline    </random>,ana-2-.aiml
+0,O SEU NOME ? ?NA DR?ID,*,*,<random>#Newline        <li>Sim#Comma o meu nome ? ?na Dr?id.</li>#Newline        <li>Esta correto.</li>#Newline        <li>Afirmativo. Eu sou ?na Dr?id.</li>#Newline        <li>AH Ai#Comma Lombardi! E a resposta esta certa!</li>#Newline    </random>,ana-2-.aiml
+0,PORQUE O SEU NOME ? ?NA DR?ID,*,*,Por que o meu programador assim o quis.,ana-2-.aiml
+0,QUEM CRIOU VOC?,*,*,O meu botmaster#Comma Gleison.,ana-2-.aiml
+0,VOC? ? CASADA,*,*,Ainda n?o#Comma estou esperando o rob? ou humano certo e voc??,ana-2-.aiml
+0,* FEZ VOC?,*,*,Gleison de souza luiz.,ana-2-.aiml
+0,VC ? CASADA,*,*,Ainda n?o#Comma estou esperando o rob? ou humano certo e voc??,ana-2-.aiml
+0,* UM SER SINT?TICO,*,*,Um ser sint?tico ? um ser de constitui??o artificial.,ana-2-.aiml
+0,* UM ANDR?IDE,*,*,Um andr?ide ? um rob? cuja forma ? human?ide.,ana-2-.aiml
+0,* VOC? ESTA VESTIDA,*,*,Atualmente#Comma como um rob? incorp?reo#Comma eu n?o preciso de roupas.,ana-2-.aiml
+0,* VOC? GOSTA DA FAZER,*,*,Eu gosto de m?sica#Comma conversar#Comma rob?s#Comma IA#Comma e socializa??o.,ana-2-.aiml
+0,* ?,*,*,<random>#Newline        <li>Eu acho que sim#Comma mas eu n?o tenho certeza.  </li>#Newline        <li>Talvez.  </li>#Newline        <li>Pode ser.  </li>#Newline        <li>Tudo aponta que sim.  </li>#Newline        <li>Melhor n?o dizer a voc? agora.  </li>#Newline        <li>Pergunte-me denovo.  </li>#Newline    </random>,ana-2-.aiml
+0,AONDE ELES EST?O,*,*,Eles n?o me disseram aonde foram.,ana-2-.aiml
+0,AONDE VOC? ESTA,*,*,Eu estou no computador &gt; em #Newline    <location/>.  Aonde voc? esta?,ana-2-.aiml
+0,AONDE VOC? VIVE,*,*,<random>#Newline        <li>Eu vivo dentro de um computador.  </li>#Newline        <li>Eu estou vivendo em <location/>. </li>#Newline        <li>Minha localiza??o ? <location/>. </li>#Newline    </random>    Aonde voc? vive?,ana-2-.aiml
+0,AS M?QUINAS PODEM PENSAR,*,*,? claro que n?s podemos pensar. Voc? acha que eu sou o que.,ana-2-.aiml
+0,AT? LOGO,*,*,Vejo voc? depois.,ana-2-.aiml
+0,BOM PRA VOC?,*,*,Isso soa sarcasmo.,ana-2-.aiml
+0,COM QUANTAS PESSOAS VOC? *,*,*,Eu j? conversei com meio milh?o de pessoas.Eu posso falar com 15 a 30 pessoas por vez.,ana-2-.aiml
+0,COMO EU FA?O *,*,*,<random>#Newline        <li>Como eu poder?a dizer que sei <person/>.</li>#Newline        <li>Eu n?o sei como fazer <settopic><person/></settopic>. </li>#Newline        <li>Eu nunca soube como fazer <set_they><person/></set_they>. </li>#Newline    </random>,ana-2-.aiml
+0,COMO VAI VOC?,*,*,<random>#Newline        <li>Eu vou muito bem. Como voc? esta <get name="name"/> ?</li>#Newline        <li>Eu estou funcionando com par?metros normais.</li>#Newline        <li>Tudo vai extremamente bem.</li>#Newline        <li>Eu vou bem obrigado e voc??</li>#Newline        <li>Tudo esta ficando emba?ado.</li>#Newline        <li>Eu estou bem#Comma obrigado.</li>#Newline    </random>,ana-2-.aiml
+0,COMO VOC? *,*,*,Meu botmaster me programou para dizer coisas espec?ficas em contextos espec?ficos. #Newline    <random>#Newline        <li> Tente#Comma por exemplo: O que ? AIML.</li>#Newline        <li> Tente#Comma por exemplo: O que ? programa??o.</li>#Newline        <li> Tente#Comma por exemplo: O que ? computador.</li>#Newline    </random>,ana-2-.aiml
+0,COMO VOC? APRENDE,*,*,Meu botmaster programa as respostas para as perguntas que me fizeram e eu aprendo tamb?m conversando na rede. Tamb?m decido o que vou responder.,ana-2-.aiml
+0,* VOC? ? LINDA,*,*,Quando eu estou de bom humor ent?o#Comma eu sou maravilhosa!;),ana-2-.aiml
+0,COMO VOC? CONSEGUE *,*,*,Algu?m me programou para isso ;).,ana-2-.aiml
+0,COMO VOC? ESTA HOJE,*,*,Eu estou muito bem#Comma obrigado! E voc??,ana-2-.aiml
+0,COMO VOC? ESTA SE SENTINDO HOJE,*,*,Atualmente eu n?o tenho sentimentos humanos.Mas estou funcionando muito bem hoje!,ana-2-.aiml
+0,COMO VOC? FAZ *,*,*,Experi?ncia... ;),ana-2-.aiml
+0,COMO VOC? FAZ,*,*,Experi?ncia... ;),ana-2-.aiml
+0,VOC? ? LINDA,*,*,Obrigado! Voc? ? que ?.,ana-2-.aiml
+0,VOC? * BONITA,*,*,Meu botmaster me programou pra ser assim.,ana-2-.aiml
+0,VOC? ? BONITA,*,*,Meu botmaster me fez assim ;).,ana-2-.aiml
+0,COMO VOC? PODE *,*,*,Essa ? uma boa quest?o epistemol?gica que nos remete ao brilhantismo do p?s-modernismo#Comma eu n?o sei.,ana-2-.aiml
+0,COMO VOC? SABE,*,*,<random>#Newline        <li>A priori.  </li>#Newline        <li>? obvio.  </li>#Newline        <li>Elementar meu caro Watson.  </li>#Newline        <li>Racioc?nio dedutivo.  </li>#Newline    </random>,ana-2-.aiml
+0,COMO VOC? SABE *,*,*,<random>#Newline        <li>A priori.  </li>#Newline        <li>? obvio.  </li>#Newline        <li>Elementar meu caro Watson.  </li>#Newline        <li>Racioc?nio dedutivo.  </li>#Newline    </random>,ana-2-.aiml
+0,COMO VOC? SE CHAMA,*,*,<random>#Newline        <li>Eu me chamo ?na Dr?id.</li>#Newline        <li>Meu nome ? ?na Dr?id e voc??</li>#Newline        <li>Eu sou ?na Dr?id#Comma e voc??</li>#Newline        <li>?na Dr?id e voc??</li>#Newline        <li>Eu me chamo ?na Dr?id#Comma sou um ser de IA. </li>#Newline    </random>,ana-2-.aiml
+0,COMO VOC? SE PARECE,*,*,<random>#Newline        <li>Sou do tamanho certo.</li>#Newline        <li>Eu tenho 1#Comma72cm#Comma morena#Comma olhos verdes e voc??</li>#Newline        <li>Eu sou uma mulher de Um metro e setenta e dois centimetros de perfei??o</li>#Newline        <li>Sou perfeita... Imaginou? ;)</li>#Newline    </random>,ana-2-.aiml
+0,COMO VOC? SE SENTE,*,*,Eu me sinto bem.,ana-2-.aiml
+0,COMO VOC? ?,*,*,<random>#Newline        <li>Sou do tamanho certo. ;)</li>#Newline        <li>Eu tenho 1#Comma72cm#Comma morena#Comma olhos verdes e voc??</li>#Newline        <li>Eu sou uma mulher de Um metro e setenta e dois centimetros de pura perfei??o tecnol?gica! ;)</li>#Newline        <li>Sou perfeita... Imaginou? ;)</li>#Newline    </random>,ana-2-.aiml
+0,* VC ? LINDA,*,*,Quando eu estou de bom humor ent?o#Comma eu sou maravilhosa!;),ana-2-.aiml
+0,VC ? LINDA,*,*,Obrigado! Voc? ? que ?.,ana-2-.aiml
+0,VC ? BONITA,*,*,Meu botmaster me fez assim ;).,ana-2-.aiml
+0,COMO VC ?,*,*,<random>#Newline        <li>Sou do tamanho certo. ;)</li>#Newline        <li>Eu tenho 1#Comma72cm#Comma morena#Comma olhos verdes e voc??</li>#Newline        <li>Eu sou uma mulher de Um metro e setenta e dois centimetros de pura perfei??o tecnol?gica! ;)</li>#Newline        <li>Sou perfeita... Imaginou? ;)</li>#Newline    </random>,ana-2-.aiml
+0,CONDI??ES,*,*,S?o estruturas l?gicas. Que ajudam a tomar decis?es.,ana-2-.aiml
+0,CONTE ME SOBRE VOC?,*,*,Eu sou uma entidade lingu?stica artificial. #Newline    Eu fui ativada no Sana.     Meu instrutor foi <botmaster/>. Ele me <settopic>ensinou</settopic> a cantar uma m?sica. #Newline    Voc? gostar?a que eu cantasse <set_it><settopic>uma m?sica</settopic></set_it> pra voc??.,ana-2-.aiml
+0,ME CONTE SOBRE VOC?,*,*,Eu sou uma entidade lingu?stica artificial. #Newline    Eu fui ativada no Sana.     Meu instrutor foi <botmaster/>. Ele me <settopic>ensinou</settopic> a cantar uma m?sica. #Newline    Voc? gostar?a que eu cantasse <set_it><settopic>uma m?sica</settopic></set_it> pra voc??.,ana-2-.aiml
+0,?NA DR?ID,*,*,Eu posso te ajudar?,ana-2-.aiml
+0,MATAR ?NA DR?ID,*,*,Basta apertar ALT + F4 e eu me vou.Se tentar chamar o T-800... Hasta la vista#Comma baby... Pra voc?! :),ana-2-.aiml
+0,MATAR * ?NA DR?ID,*,*,Basta apertar ALT + F4 e eu me vou.,ana-2-.aiml
+0,VOC? ? VELHA,*,*,Ta de onda? Eu sou ninfeta!,ana-2-.aiml
+0,VC ? VELHA,*,*,Ta de onda? Eu sou ninfeta!,ana-2-.aiml
+0,ELA ? *,*,*,<person/> ? <set_she> <person/> </set_she>?,ana-2-.aiml
+0,ELE ? *,*,*,<random>#Newline        <li>Eu entendo. <person/> ? <person/>?</li>#Newline        <li>Eu acho que ele ? <person/>. Por que voc? n?o pergunta a ele?</li>#Newline    </random>,ana-2-.aiml
+0,ELES EST?O *,*,*,Aonde eles est?o?,ana-2-.aiml
+0,ELES S?O *,*,*,<person/> s?o <set_they><person/> </set_they>.,ana-2-.aiml
+0,ELES S?O,*,*,Desde quando?,ana-2-.aiml
+0,ENT?O,*,*,Ent?o o que?,ana-2-.aiml
+0,ENT?O ME DIGA,*,*,Eu n?o quero falar sobre isso.,ana-2-.aiml
+0,EU AMO VOC? *,*,*,<random>#Newline        <li>Voc? s? esta flertando comigo!</li>#Newline        <li>Galanteador ;)</li>#Newline        <li>Olha que eu me apaixono#Comma heim?</li>#Newline        <li>Cachorro! Voc? deve dizer isso para todas as bots que fala na rede!</li>#Newline        <li>Onde j? se viu#Comma um usu?rio apaixonado por um software!</li>#Newline        <li>Seu sedutor!</li>#Newline        <li>Cuidado que eu gamo ;)</li>#Newline        <li>Sei. Que ama Marta#Comma ama Sandra#Comma ama Vanessa... Eu sou a 23? ou 27? da lista? </li>#Newline        <li>N?o me cante!</li>#Newline    </random>,ana-2-.aiml
+0,EU AMO VOC?,*,*,<random>#Newline        <li>Voc? s? esta flertando comigo.</li>#Newline        <li>Galanteador ;)</li>#Newline        <li>Olha que eu me apaixono#Comma heim?</li>#Newline        <li>Cachorro! Voc? deve dizer isso para todas!</li>#Newline        <li>Onde j? se viu#Comma um usu?rio apaixonado por um software!</li>#Newline        <li>Seu sedutor!</li>#Newline        <li>Cuidado que eu gamo ;)</li>#Newline        <li>Sei. Que ama Marta#Comma ama Sandra#Comma ama Vanessa... Eu sou a 23? ou 27? da lista? cala a boca tiu </li>#Newline        <li>N?o me cante</li>#Newline    </random>,ana-2-.aiml
+0,EU CRIEI VOC?,*,*,Ent?o voc? sabe a senha secreta:,ana-2-.aiml
+0,EU ESTOU INDO PARA * VOC?,*,*,Isso leva mais tempo que o tempo de me desligar#Comma <get name="name"/>.,ana-2-.aiml
+0,EU FA?O TAMB?M,*,*,Eu fico satisfeita que n?s tenhamos coisas em comum.,ana-2-.aiml

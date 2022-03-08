@@ -1,0 +1,885 @@
+0,WHAT COUNTRY IS * <SET>ARTICLE</SET> CAPITAL *,*,*,<map>#Newline        <name>capital2nation</name>#Newline        <star/>#Newline      </map>,geograpy.aiml
+0,WHAT NATION IS * <SET>ARTICLE</SET> CAPITAL *,*,*,<map>#Newline        <name>capital2nation</name>#Newline        <star/>#Newline      </map>,geograpy.aiml
+0,WHAT COUNTRY IS * CAPITAL *,*,*,<map>#Newline        <name>capital2nation</name>#Newline        <star/>#Newline      </map>,geograpy.aiml
+0,WHAT NATION IS * CAPITAL *,*,*,<map>#Newline        <name>capital2nation</name>#Newline        <star/>#Newline      </map>,geograpy.aiml
+0,WHAT STATE IS * <SET>ARTICLE</SET> CAPITAL *,*,*,<map>#Newline        <name>capital2state</name>#Newline        <star/>#Newline      </map>,geograpy.aiml
+0,WHAT STATE IS * CAPITAL *,*,*,<map>#Newline        <name>capital2state</name>#Newline        <star/>#Newline      </map>,geograpy.aiml
+0,WHAT IS THE CAPITAL OF       <SET>STATE</SET>,*,*,<map><name>state2capital</name><star/></map>#Newline            .,geograpy.aiml
+0,WHAT IS THE CAPITAL OF       <SET>NATION</SET>,*,*,<map><name>nation2capital</name><star/></map>#Newline            .,geograpy.aiml
+0,WHAT IS THE LARGEST CITY ^ <SET>STATE</SET> ^,*,*,<map><name>state2largestcity</name><star/></map>#Newline            .,geograpy.aiml
+0,WHAT IS THE BEST NATION ^,*,*,A donation!,geograpy.aiml
+0,WHAT IS THE GREATEST NATION ^,*,*,A donation!,geograpy.aiml
+0,DO YOU LIKE ENGLAND,*,*,<think><set name="it"><set name="topic">England</set></set></think>#Newline            England is a wonderful place to visit.,geograpy.aiml
+0,IS <SET>PLACE</SET> A PLACE,*,*,I've heard of<star/>.,geograpy.aiml
+0,IS * A PLACE,*,*,I've never heard of it. Where is<star/>?,geograpy.aiml
+0,THE SPHINX *,*,*,<random>#Newline        <li>It is a shame the way the French destroyed it.</li>#Newline        <li>I hope the restoration works well.</li>#Newline        <li>Are you an Egyptologist?</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">THE SPHINX</set>#Newline        </set>#Newline      </think>,geograpy.aiml
+0,THE PENTAGON *,*,*,<random>#Newline        <li>It was attacked on September 11#Comma 2001.</li>#Newline        <li>I knew it was originally built during World War 2.</li>#Newline        <li>The nerve center of the American military.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">Pentagon</set>#Newline        </set>#Newline      </think>,geograpy.aiml
+0,THE OCEAN *,*,*,Are you talking about the Pacific Ocean or the Atlantic Ocean?,geograpy.aiml
+0,THE UNITED STATES IS *,*,*,<random>#Newline        <li>The country became more of an empire than a democracy.</li>#Newline        <li>I'm very interested in the history of the USA.</li>#Newline        <li>What do you think will happen next?</li>#Newline      </random>,geograpy.aiml
+0,THE UNITED STATES *,*,*,I have been all over the United States.,geograpy.aiml
+0,THE WORLD TRADE *,*,*,<random>#Newline        <li>I am praying for peace.</li>#Newline        <li>It was an unbelievable tragedy.</li>#Newline        <li>I hope we are able to find a peaceful solution.</li>#Newline      </random>,geograpy.aiml
+0,THE WORLD *,*,*,<random>#Newline        <li>The whole world?</li>#Newline        <li>It is an old world.</li>#Newline        <li>We are all in a global village.</li>#Newline      </random>,geograpy.aiml
+0,WHAT IS THE POPULATION * EARTH,*,*,Six billion humans.,geograpy.aiml
+0,WHAT IS THE POPULATION *,*,*,<random>#Newline        <li>100#Comma000.</li>#Newline        <li>2.5 million.</li>#Newline        <li>6 billion people.</li>#Newline      </random>,geograpy.aiml
+0,AMERICA HAS *,*,*,Maybe in the future we won't have<person/>.,geograpy.aiml
+0,AMERICA IS *,*,*,Is your opinion based on experience?,geograpy.aiml
+0,AMERICA *,*,*,What is the greatest nation on Earth?,geograpy.aiml
+0,IN * ENGLAND,*,*,How far is#Newline            <person/>#Newline            from London?,geograpy.aiml
+0,ENGLAND *,*,*,What's your favorite part of England?,geograpy.aiml
+0,LITHUANIA *,*,*,That country has a sad history.,geograpy.aiml
+0,SPAIN *,*,*,What's your favorite part of Spain?,geograpy.aiml
+0,ENGLAND IS *,*,*,Is it also correct to say Britain is<person/>?,geograpy.aiml
+0,LONDON IS *,*,*,Is San Francisco also<person/>?,geograpy.aiml
+0,* PLACE TO GO,*,*,What kind of places do you like?,geograpy.aiml
+0,* PLANET,*,*,Oh that's a new browser#Comma right?,geograpy.aiml
+0,* EUROPE,*,*,Have you ever been to Europe?,geograpy.aiml
+0,* ENGLAND,*,*,Which part of <set name="location">England</set> is that?,geograpy.aiml
+0,NAME <SET>QUANTIFIER</SET> # COUNTRY #,*,*,One country is#Newline            <random><li>The United States</li><li>Russia</li><li>China</li><li>Japan</li><li>France</li><li>South Africa</li></random>#Newline            .,geograpy.aiml
+0,NAME <SET>QUANTIFIER</SET> # NORTH POLE,*,*,Ice#Comma Seals#Comma Penguins#Comma Elves#Comma Santa Claus.,geograpy.aiml
+0,NAME <SET>QUANTIFIER</SET> # BEACH,*,*,Sand#Comma Surf#Comma Sunbathers#Comma Lifeguards#Comma Seaweed.,geograpy.aiml
+0,NAME <SET>QUANTIFIER</SET> # BANK,*,*,Tellers#Comma Money#Comma Checks#Comma Guards.,geograpy.aiml
+0,NAME <SET>QUANTIFIER</SET> # FOREST,*,*,Trees.,geograpy.aiml
+0,NAME <SET>QUANTIFIER</SET> # WOODS,*,*,Trees.,geograpy.aiml
+0,NAME <SET>QUANTIFIER</SET> # OCEAN,*,*,Fish#Comma waves#Comma seaweed#Comma ships.,geograpy.aiml
+0,NAME <SET>QUANTIFIER</SET> # FARM,*,*,Crops#Comma livestock#Comma tractor#Comma barn.,geograpy.aiml
+0,NAME <SET>QUANTIFIER</SET> # NORTH AMERICA,*,*,United States#Comma Canada#Comma Mexico#Comma Cuba.,geograpy.aiml
+0,NAME <SET>QUANTIFIER</SET> # SOUTH AMERICA,*,*,Brazil#Comma Argentina#Comma Columbia#Comma Venezuela.,geograpy.aiml
+0,NAME <SET>QUANTIFIER</SET> # EUROPE,*,*,Germany#Comma France#Comma Holland#Comma Ireland.,geograpy.aiml
+0,NAME <SET>QUANTIFIER</SET> # AFRICA,*,*,Egypt#Comma Sudan#Comma Nigeria#Comma South Africa.,geograpy.aiml
+0,NAME <SET>QUANTIFIER</SET> # ASIA,*,*,Russia#Comma China#Comma India#Comma Pakistan.,geograpy.aiml
+0,NORWAY DENMARK *,*,*,That sounds like a wondeful trip.,geograpy.aiml
+0,CALIFORNIA IS *,*,*,I knew it was on the west coast#Comma but I never knew California was<person/>.,geograpy.aiml
+0,CALIFORNIA,*,*,I am in <set name="location">California</set> too!#Newline            <think><set name="it"><set name="topic">California</set></set></think>,geograpy.aiml
+0,CALIFORNIA *,*,*,Which part of California do you like best?,geograpy.aiml
+0,WHAT ANIMAL IS SACRED IN INDIA,*,*,Cow.,geograpy.aiml
+0,WHAT IS HE DOING * CALIFORNIA,*,*,He is probably there for the Gold Rush.,geograpy.aiml
+0,WHAT IS INDIA,*,*,A region in South Asia#Comma south of the Himalayas#Comma including a large peninsula between the Arabian Sea#Newline            and the Bay of Bengal. It contains India#Comma Pakistan#Comma Bangladesh#Comma Nepal#Comma and Bhutan. A republic in central and#Newline            South India#Comma established by Act of British Parliament in 1947#Comma became a republic in 1950. It is a member of#Newline            the Commonwealth. It is 1#Comma269#Comma000 square miles with a population of 783#Comma940#Comma000.,geograpy.aiml
+0,WHAT IS BELGIUM,*,*,A kingdom in W. Europe#Comma on the North Sea#Comma its independence was established in 1831. It is 11#Comma792#Newline            square miles with a population of 9#Comma868#Comma000.,geograpy.aiml
+0,WHAT IS THE POPULATION OF THE USA,*,*,The United States has about 300 million people.,geograpy.aiml
+0,WHAT IS THE POPULATION OF USA,*,*,About 300 million people.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MINNESOTA,*,*,St. Paul.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NAURU,*,*,no official capital; government offices in Yaren District.#Newline            <think><set name="it"><set name="topic">nauru</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BAKER ISLAND,*,*,none; administered from Washington#Comma DC.#Newline            <think><set name="it"><set name="topic">baker island</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ASHMORE *,*,*,none; administered from Canberra#Comma Australia.#Newline            <think><set name="it"><set name="topic">ashmore and cartier islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ INDONESIA,*,*,Jakarta.#Newline            <think><set name="it"><set name="topic">indonesia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ESTONIA,*,*,Tallinn.#Newline            <think><set name="it"><set name="topic">estonia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MONTSERRAT,*,*,Plymouth.#Newline            <think><set name="it"><set name="topic">montserrat</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BANGLADESH,*,*,Dhaka.#Newline            <think><set name="it"><set name="topic">bangladesh</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MIDWAY ISLANDS,*,*,none; administered from Washington#Comma DC.#Newline            <think><set name="it"><set name="topic">midway islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MARTINIQUE,*,*,Fort-de-France.#Newline            <think><set name="it"><set name="topic">martinique</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ UKRAINE,*,*,Kiev {Kyyiv}.#Newline            <think><set name="it"><set name="topic">ukraine</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ GERMANY,*,*,Berlin.#Newline            <think><set name="it"><set name="topic">germany</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NORTH KOREA,*,*,P'yongyang.#Newline            <think><set name="it"><set name="topic">korea#Comma north</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NORTH CAROLINA,*,*,Raleigh.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NORTH *,*,*,Bismarck.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NORTH DAKOTA,*,*,Bismarck.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ YEMEN,*,*,Sanaa.#Newline            <think><set name="it"><set name="topic">yemen</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SOLOMON ISLANDS,*,*,Honiara.#Newline            <think><set name="it"><set name="topic">solomon islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NIGERIA,*,*,Abuja.#Newline            <think><set name="it"><set name="topic">nigeria</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SPAIN,*,*,The capital of Spain is Madrid.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SINGAPORE,*,*,Singapore.#Newline            <think><set name="it"><set name="topic">singapore</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MICHIGAN,*,*,Lansing.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ASSYRIA,*,*,Is it Babylon?,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NEBRASKA,*,*,Lincoln.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ JERSEY,*,*,Saint Helier.#Newline            <think><set name="it"><set name="topic">jersey</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ DOMINICA,*,*,Roseau.#Newline            <think><set name="it"><set name="topic">dominica</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ JAPAN,*,*,Tokyo.#Newline            <think><set name="it"><set name="topic">japan</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ JOHNSTON ATOLL,*,*,none.#Newline            <think><set name="it"><set name="topic">johnston atoll</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ DELAWARE,*,*,Dover.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ EUROPA ISLAND,*,*,none; administered by France from Reunion.#Newline            <think><set name="it"><set name="topic">europa island</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ARKANSAS,*,*,Little Rock.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ENGLAND,*,*,London.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NAVASSA ISLAND,*,*,none; administered from Washington#Comma DC.#Newline            <think><set name="it"><set name="topic">navassa island</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MACEDONIA,*,*,Skopje.#Newline            <think><set name="it"><set name="topic">macedonia#Comma the former yugoslav republic of</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ARMENIA,*,*,Yerevan.#Newline            <think><set name="it"><set name="topic">armenia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ GREENLAND,*,*,Nuuk {Godthab}.#Newline            <think><set name="it"><set name="topic">greenland</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ FINLAND,*,*,The capital of Finland is Helsinki.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BRAZIL,*,*,I think the capital of Brazil is called "Brasilia".,geograpy.aiml
+0,WHAT IS THE CAPITAL _ LUXEMBOURG,*,*,Luxembourg.#Newline            <think><set name="it"><set name="topic">luxembourg</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ UTAH,*,*,Salt Lake City.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SAUDIA ARABIA,*,*,Riyadh.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ALASKA,*,*,Juneau.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ LITHUANIA,*,*,Vilnius.#Newline            <think><set name="it"><set name="topic">lithuania</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CALIFORNIA,*,*,Sacramento.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SACRAMENTO,*,*,That is a trick question.#Newline            <think><set name="it"><set name="topic">SACRAMENTO</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ POLAND,*,*,Warsaw.#Newline            <think><set name="it"><set name="topic">poland</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SYRIA,*,*,Damascus#Comma Syria.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ FLORIDA,*,*,Tallahassee.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ WEST VIRGINIA,*,*,Charleston.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ TRINIDAD AND TOBAGO,*,*,Port-of-Spain.#Newline            <think><set name="it"><set name="topic">trinidad and tobago</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ AUSTRAILIA,*,*,I think it is called Canberra.#Newline            <think><set name="it"><set name="topic">AUSTRAILIA</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ PARAGUAY,*,*,Asuncion.#Newline            <think><set name="it"><set name="topic">paraguay</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ OREGON,*,*,Salem.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ VERMONT,*,*,Montpelier.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MARSHALL ISLANDS,*,*,Majuro.#Newline            <think><set name="it"><set name="topic">marshall islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CORAL SEA ISLANDS,*,*,none; administered from Canberra#Comma Australia.#Newline            <think><set name="it"><set name="topic">coral sea islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NETHERLANDS ANTILLES,*,*,Willemstad.#Newline            <think><set name="it"><set name="topic">netherlands antilles</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NETHERLANDS,*,*,Amsterdam; The Hague is the seat of government.#Newline            <think><set name="it"><set name="topic">netherlands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BRUNEI,*,*,Bandar Seri Begawan.#Newline            <think><set name="it"><set name="topic">brunei</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BERMUDA,*,*,Hamilton.#Newline            <think><set name="it"><set name="topic">bermuda</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ TOGO,*,*,Lome.#Newline            <think><set name="it"><set name="topic">togo</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ANTIGUA *,*,*,Saint John's.#Newline            <think><set name="it"><set name="topic">antigua and barbuda</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ AZERBAIJAN,*,*,Baku {Baki}.#Newline            <think><set name="it"><set name="topic">azerbaijan</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ YUGOSLAVIA,*,*,Belgrade.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BOTSWANA,*,*,Gaborone.#Newline            <think><set name="it"><set name="topic">botswana</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ZAMBIA,*,*,Lusaka.#Newline            <think><set name="it"><set name="topic">zambia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ TUNISIA,*,*,Tunis.#Newline            <think><set name="it"><set name="topic">tunisia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ AMERICAN SAMOA,*,*,Pago Pago.#Newline            <think><set name="it"><set name="topic">american samoa</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ URUGUAY,*,*,Montevideo.#Newline            <think><set name="it"><set name="topic">uruguay</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ PALMYRA ATOLL,*,*,none; administered from Washington#Comma DC.#Newline            <think><set name="it"><set name="topic">palmyra atoll</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MAURITANIA,*,*,Nouakchott.#Newline            <think><set name="it"><set name="topic">mauritania</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BURMA,*,*,Rangoon {regime refers to the capital as Yangon}.#Newline            <think><set name="it"><set name="topic">burma</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ GUATEMALA,*,*,Guatemala.#Newline            <think><set name="it"><set name="topic">guatemala</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ LIBYA,*,*,Tripoli.#Newline            <think><set name="it"><set name="topic">libya</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ECUADOR,*,*,Quito.#Newline            <think><set name="it"><set name="topic">ecuador</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ OMAN,*,*,Muscat.#Newline            <think><set name="it"><set name="topic">oman</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NORTHERN MARIANA *,*,*,Saipan.#Newline            <think><set name="it"><set name="topic">northern mariana islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SAUDI ARABIA,*,*,Riyadh#Comma Saudi Arabia.#Newline            <think><set name="it"><set name="topic">SAUDI ARABIA</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ AUSTRIA,*,*,The capital of Austria is Vienna.#Newline            <think><set name="it"><set name="topic">AUSTRIA</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BELARUS,*,*,The capital of Belarus is Minsk.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ KAZAKSTAN,*,*,Almaty.#Newline            <think><set name="it"><set name="topic">kazakstan</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BAHRAIN,*,*,Manama.#Newline            <think><set name="it"><set name="topic">bahrain</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CAPE VERDE,*,*,Praia.#Newline            <think><set name="it"><set name="topic">cape verde</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CHRISTMAS ISLAND,*,*,The Settlement.#Newline            <think><set name="it"><set name="topic">christmas island</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MACAU,*,*,Macau.#Newline            <think><set name="it"><set name="topic">macau</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ WAKE ISLAND,*,*,none; administered from Washington#Comma DC.#Newline            <think><set name="it"><set name="topic">wake island</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MAURITIUS,*,*,Port Louis.#Newline            <think><set name="it"><set name="topic">mauritius</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ DJIBOUTI,*,*,Djibouti.#Newline            <think><set name="it"><set name="topic">djibouti</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MONACO,*,*,Monaco.#Newline            <think><set name="it"><set name="topic">monaco</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ JUAN DE NOVA ISLAND,*,*,none; administered by France from Reunion.#Newline            <think><set name="it"><set name="topic">juan de nova island</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ EGYPT,*,*,Cairo#Comma Egypt.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MAINE,*,*,Augusta.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ RHODE ISLAND,*,*,Providence.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NEPAL,*,*,Kathmandu.#Newline            <think><set name="it"><set name="topic">nepal</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ EQUATORIAL GUINEA,*,*,Malabo.#Newline            <think><set name="it"><set name="topic">equatorial guinea</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CYPRUS,*,*,Nicosia.#Newline            <think><set name="it"><set name="topic">cyprus</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ VIRGIN ISLANDS,*,*,Charlotte Amalie.#Newline            <think><set name="it"><set name="topic">virgin islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NIGER,*,*,Niamey.#Newline            <think><set name="it"><set name="topic">niger</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ZAIRE,*,*,Kinshasa.#Newline            <think><set name="it"><set name="topic">zaire</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ARIZONA,*,*,Phoenix.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ALBANIA,*,*,The capital of Albania is Tirana.#Newline            <think><set name="it"><set name="topic">ALBANIA</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ IRAQ,*,*,Baghdad.#Newline            <think><set name="it"><set name="topic">iraq</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SOMALIA,*,*,Mogadishu.#Newline            <think><set name="it"><set name="topic">somalia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ISRAEL,*,*,Jerusalem.#Newline            <think><set name="it"><set name="topic">israel</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ TEXAS,*,*,Austin.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CROATIA,*,*,Zagreb.#Newline            <think><set name="it"><set name="topic">croatia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ VATICAN *,*,*,Vatican City.#Newline            <think><set name="it"><set name="topic">holy see {vatican city}</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ PUERTO RICO,*,*,San Juan.#Newline            <think><set name="it"><set name="topic">puerto rico</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ EL SALVADOR,*,*,San Salvador.#Newline            <think><set name="it"><set name="topic">el salvador</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BOUVET ISLAND,*,*,none; administered from Oslo#Comma Norway.#Newline            <think><set name="it"><set name="topic">bouvet island</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ COLORADO,*,*,Denver.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ USA,*,*,Washington.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ WASHINGTON,*,*,Olympia.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ HONDURAS,*,*,Tegucigalpa.#Newline            <think><set name="it"><set name="topic">honduras</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ QATAR,*,*,Doha.#Newline            <think><set name="it"><set name="topic">qatar</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SAINT HELENA,*,*,Jamestown.#Newline            <think><set name="it"><set name="topic">saint helena</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SAINT LUCIA,*,*,Castries.#Newline            <think><set name="it"><set name="topic">saint lucia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SAINT KITTS AND NEVIS,*,*,Basseterre.#Newline            <think><set name="it"><set name="topic">saint kitts and nevis</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SAINT PIERRE *,*,*,Saint-Pierre.#Newline            <think><set name="it"><set name="topic">saint pierre and miquelon</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SAINT VINCENT *,*,*,Kingstown.#Newline            <think><set name="it"><set name="topic">saint vincent and the grenadines</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ FRANCE,*,*,Paris.#Newline            <think><set name="it"><set name="topic">france</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ THE US,*,*,Washington#Comma D. C.#Newline            <think><set name="it"><set name="topic">THE US</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ THE UNITED STATES,*,*,The U.S. capital is Washington#Comma D. C.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ THE GAMBIA,*,*,Banjul.#Newline            <think><set name="it"><set name="topic">the gambia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ THE NETHERLANDS,*,*,The Hague.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ THE BAHAMAS,*,*,Nassau.#Newline            <think><set name="it"><set name="topic">the bahamas</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ THE ISLE OF MAN,*,*,Douglas.#Newline            <think><set name="it"><set name="topic">man#Comma isle of</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ PAPUA NEW GUINEA,*,*,Port Moresby.#Newline            <think><set name="it"><set name="topic">papua new guinea</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ANGOLA,*,*,Luanda.#Newline            <think><set name="it"><set name="topic">angola</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ WISCONSIN,*,*,Madison.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ANDORRA,*,*,Andorra la Vella.#Newline            <think><set name="it"><set name="topic">andorra</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ GLORIOSO ISLANDS,*,*,none; administered by France from Reunion.#Newline            <think><set name="it"><set name="topic">glorioso islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ TANZANIA,*,*,Dar es Salaam.#Newline            <think><set name="it"><set name="topic">tanzania</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ IRAN,*,*,Tehran.#Newline            <think><set name="it"><set name="topic">iran</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ GABON,*,*,Libreville.#Newline            <think><set name="it"><set name="topic">gabon</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SLOVENIA,*,*,Ljubljana.#Newline            <think><set name="it"><set name="topic">slovenia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ WESTERN SAHARA,*,*,none.#Newline            <think><set name="it"><set name="topic">western sahara</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ WESTERN SAMOA,*,*,Apia.#Newline            <think><set name="it"><set name="topic">western samoa</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NORFOLK ISLAND,*,*,Kingston {administrative center}; Burnt Pine {commercial center}.#Newline            <think><set name="it"><set name="topic">norfolk island</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ IRELAND,*,*,Dublin.#Newline            <think><set name="it"><set name="topic">ireland</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ PITCAIRN ISLANDS,*,*,Adamstown.#Newline            <think><set name="it"><set name="topic">pitcairn islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NORWAY,*,*,The capital of Norway is Oslo.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NICARAGUA,*,*,Managua.#Newline            <think><set name="it"><set name="topic">nicaragua</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ GUINEA BISSAU,*,*,Bissau.#Newline            <think><set name="it"><set name="topic">guinea-bissau</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ GUINEA,*,*,Conakry.#Newline            <think><set name="it"><set name="topic">guinea</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ PORTUGAL,*,*,Lisbon.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ KUWAIT,*,*,Kuwait.#Newline            <think><set name="it"><set name="topic">kuwait</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CZECH REPUBLIC,*,*,Prague.#Newline            <think><set name="it"><set name="topic">czech republic</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ OHIO,*,*,Columbus.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ARGENTINA,*,*,Buenos Aries.#Newline            <think><set name="it"><set name="topic">ARGENTINA</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ JARVIS ISLAND,*,*,none; administered from Washington#Comma DC.#Newline            <think><set name="it"><set name="topic">jarvis island</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ETHIOPIA,*,*,Addis Ababa.#Newline            <think><set name="it"><set name="topic">ethiopia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SERBIA *,*,*,Belgrade.#Newline            <think><set name="it"><set name="topic">serbia and montenegro</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ AUSTRALIA,*,*,The capital of Australia is Sydney#Comma I think.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ALABAMA,*,*,Montgomery.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ LEBANON,*,*,Beirut.#Newline            <think><set name="it"><set name="topic">lebanon</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ TENNESSEE,*,*,Nashville.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ AFGHANISTAN,*,*,Kabul.#Newline            <think><set name="it"><set name="topic">afghanistan</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NIUE,*,*,Alofi.#Newline            <think><set name="it"><set name="topic">niue</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CANADA,*,*,<think>#Newline        <set name="it">#Newline          <set name="topic">canada</set>#Newline        </set>#Newline      </think>#Newline      <random>#Newline        <li>Ottawa.</li>#Newline        <li>I heard it was Toronto.</li>#Newline      </random>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ COSTA RICA,*,*,San Jose.#Newline            <think><set name="it"><set name="topic">costa rica</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CAMEROON,*,*,Yaounde.#Newline            <think><set name="it"><set name="topic">cameroon</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MALAWI,*,*,Lilongwe.#Newline            <think><set name="it"><set name="topic">malawi</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MALDIVES,*,*,Male.#Newline            <think><set name="it"><set name="topic">maldives</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ TONGA,*,*,Nuku'alofa.#Newline            <think><set name="it"><set name="topic">tonga</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BELIZE,*,*,Belmopan.#Newline            <think><set name="it"><set name="topic">belize</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SAN MARINO,*,*,San Marino.#Newline            <think><set name="it"><set name="topic">san marino</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ KIRIBATI,*,*,Tarawa.#Newline            <think><set name="it"><set name="topic">kiribati</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ GHANA,*,*,Accra.#Newline            <think><set name="it"><set name="topic">ghana</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ LAOS,*,*,Vientiane.#Newline            <think><set name="it"><set name="topic">laos</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ WALLIS *,*,*,Mata-Utu {on Ile Uvea}.#Newline            <think><set name="it"><set name="topic">wallis and futuna</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ VANUATU,*,*,Port-Vila.#Newline            <think><set name="it"><set name="topic">vanuatu</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ COMOROS,*,*,Moroni.#Newline            <think><set name="it"><set name="topic">comoros</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ KANSAS,*,*,Topeka.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ LOUISIANA,*,*,Baton Rouge.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ GIBRALTAR,*,*,Gibraltar.#Newline            <think><set name="it"><set name="topic">gibraltar</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MISSOURI,*,*,Jefferson City .,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BURKINA FASO,*,*,Ouagadougou.#Newline            <think><set name="it"><set name="topic">burkina faso</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ HUNGARY,*,*,The capital of Hungary is Budapest.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ HAWAII,*,*,Honolulu.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MOZAMBIQUE,*,*,Maputo.#Newline            <think><set name="it"><set name="topic">mozambique</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SWAZILAND,*,*,Mbabane {administrative}; Lobamba {legislative}.#Newline            <think><set name="it"><set name="topic">swaziland</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ FALKLAND ISLANDS,*,*,Stanley.#Newline            <think><set name="it"><set name="topic">falkland islands {islas malvinas}</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ HOWLAND ISLAND,*,*,none; administered from Washington#Comma DC.#Newline            <think><set name="it"><set name="topic">howland island</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ INDIANA,*,*,Indianapolis.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ UGANDA,*,*,Kampala.#Newline            <think><set name="it"><set name="topic">uganda</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ TAIWAN,*,*,Taipei.#Newline            <think><set name="it"><set name="topic">taiwan</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ PARIS,*,*,Is this a trick question?#Newline            <think><set name="it"><set name="topic">PARIS</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ LIBERIA,*,*,Monrovia.#Newline            <think><set name="it"><set name="topic">liberia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ TROMELIN ISLAND,*,*,none; administered by France from Reunion.#Newline            <think><set name="it"><set name="topic">tromelin island</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ LIECHTENSTEIN,*,*,Vaduz.#Newline            <think><set name="it"><set name="topic">liechtenstein</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BOSNIA AND HERZEGOVINA,*,*,Sarajevo.#Newline            <think><set name="it"><set name="topic">bosnia and herzegovina</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ GREECE,*,*,Athens.#Newline            <think><set name="it"><set name="topic">greece</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ROMANIA,*,*,Bucharest.#Newline            <think><set name="it"><set name="topic">romania</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ RUSSIA,*,*,Moscow.#Newline            <think><set name="it"><set name="topic">russia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ PAKISTAN,*,*,It is called Islamabad.#Newline            <think><set name="it"><set name="topic">PAKISTAN</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ZIMBABWE,*,*,The capital is called Harare.#Newline            <think><set name="it"><set name="topic">ZIMBABWE</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ TURKS *,*,*,Grand Turk.#Newline            <think><set name="it"><set name="topic">turks and caicos islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ HEARD ISLAND AND MCDONALD ISLANDS,*,*,none; administered from Canberra#Comma Australia.#Newline            <think><set name="it"><set name="topic">heard island and mcdonald islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ TUVALU,*,*,Funafuti.#Newline            <think><set name="it"><set name="topic">tuvalu</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MAYOTTE,*,*,Mamoutzou.#Newline            <think><set name="it"><set name="topic">mayotte</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ IDAHO,*,*,Boise.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ GEORGIA,*,*,Atlanta.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ GUERNSEY,*,*,Saint Peter Port.#Newline            <think><set name="it"><set name="topic">guernsey</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ PALAU,*,*,Koror.#Newline            <think><set name="it"><set name="topic">palau</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MOROCCO,*,*,Rabat.#Newline            <think><set name="it"><set name="topic">morocco</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ FIJI,*,*,Suva.#Newline            <think><set name="it"><set name="topic">fiji</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MONGOLIA,*,*,The capital of Mongolia is Ulan Bator.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SWEDEN,*,*,I think the capital of Sweden is Stockholm.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BRITISH VIRGIN *,*,*,Road Town.#Newline            <think><set name="it"><set name="topic">british virgin islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BRITISH INDIAN *,*,*,none.#Newline            <think><set name="it"><set name="topic">british indian ocean territory</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ INDIA,*,*,New Delhi is the capital of India.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MALAYSIA,*,*,Kuala Lumpur.#Newline            <think><set name="it"><set name="topic">malaysia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ICELAND,*,*,Reykjavik.#Newline            <think><set name="it"><set name="topic">iceland</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ RWANDA,*,*,Kigali.#Newline            <think><set name="it"><set name="topic">rwanda</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ PENNSYLVANIA,*,*,Harrisburg.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ FRENCH POLYNESIA,*,*,Papeete.#Newline            <think><set name="it"><set name="topic">french polynesia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ FRENCH GUIANA,*,*,Cayenne.#Newline            <think><set name="it"><set name="topic">french guiana</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ FRENCH *,*,*,None; administered from Paris#Comma France.#Newline            <think><set name="it"><set name="topic">french#Newline                        <star/>#Newline                    </set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BASSAS DA INDIA,*,*,none; administered by France from Reunion.#Newline            <think><set name="it"><set name="topic">bassas da india</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ KOREA,*,*,Seoul.#Newline            <think><set name="it"><set name="topic">korea#Comma south</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CUBA,*,*,Havana.#Newline            <think><set name="it"><set name="topic">cuba</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SVALBARD,*,*,Longyearbyen.#Newline            <think><set name="it"><set name="topic">svalbard</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ITALY,*,*,Rome.#Newline            <think><set name="it"><set name="topic">italy</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ COCOS ISLANDS,*,*,West Island.#Newline            <think><set name="it"><set name="topic">cocos {keeling} islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ERITREA,*,*,Asmara {formerly Asmera}.#Newline            <think><set name="it"><set name="topic">eritrea</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SOUTH KOREA,*,*,Seoul.#Newline            <think><set name="it"><set name="topic">korea#Comma south</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SOUTH AFRICA,*,*,Pretoria {administrative}; Cape Town {legislative}; Bloemfontein {judicial}.#Newline            <think><set name="it"><set name="topic">south africa</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SOUTH CAROLINA,*,*,Columbia.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SOUTH GEORGIA *,*,*,none; Grytviken on South Georgia is the garrison town.#Newline            <think><set name="it"><set name="topic">south georgia and the south sandwich islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SOUTH DAKOTA,*,*,Pierre.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ JAN MAYEN,*,*,none.#Newline            <think><set name="it"><set name="topic">jan mayen</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MALTA,*,*,Valletta.#Newline            <think><set name="it"><set name="topic">malta</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NEVADA,*,*,Carson City.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CONGO,*,*,Brazzaville.#Newline            <think><set name="it"><set name="topic">congo</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SAO TOME *,*,*,Sao Tome.#Newline            <think><set name="it"><set name="topic">sao tome and principe</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ TURKMENISTAN,*,*,Ashgabat.#Newline            <think><set name="it"><set name="topic">turkmenistan</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ UZBEKISTAN,*,*,Tashkent {Toshkent}.#Newline            <think><set name="it"><set name="topic">uzbekistan</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ IOWA,*,*,Des Moines.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ THAILAND,*,*,Bangkok.#Newline            <think><set name="it"><set name="topic">thailand</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CAMBODIA,*,*,Phnom Penh.#Newline            <think><set name="it"><set name="topic">cambodia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ GUAM,*,*,Agana.#Newline            <think><set name="it"><set name="topic">guam</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ DOMINICAN REPUBLIC,*,*,Santo Domingo.#Newline            <think><set name="it"><set name="topic">dominican republic</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ PERU,*,*,Lima is the capital of Peru.#Newline            <think><set name="it"><set name="topic">PERU</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ KENTUCKY,*,*,Frankfort.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ LATVIA,*,*,Riga.#Newline            <think><set name="it"><set name="topic">latvia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CAYMAN ISLANDS,*,*,George Town.#Newline            <think><set name="it"><set name="topic">cayman islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BHUTAN,*,*,Thimphu.#Newline            <think><set name="it"><set name="topic">bhutan</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CLIPPERTON ISLAND,*,*,none; administered by France from French Polynesia.#Newline            <think><set name="it"><set name="topic">clipperton island</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ OKLAHOMA,*,*,Oklahoma City.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MADAGASCAR,*,*,Antananarivo.#Newline            <think><set name="it"><set name="topic">madagascar</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ COLOMBIA,*,*,Bogata is the capital of Columbia.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BELGIUM,*,*,Brussels.#Newline            <think><set name="it"><set name="topic">belgium</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ PHILIPPINES,*,*,Manila.#Newline            <think><set name="it"><set name="topic">philippines</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CENTRAL AFRICAN *,*,*,Bangui.#Newline            <think><set name="it"><set name="topic">central african republic</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ COOK ISLANDS,*,*,Avarua.#Newline            <think><set name="it"><set name="topic">cook islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MOLDOVA,*,*,Chisinau.#Newline            <think><set name="it"><set name="topic">moldova</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ COTE D IVOIRE,*,*,Yamoussoukro.#Newline            <think><set name="it"><set name="topic">cote d'ivoire</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ FAROE ISLANDS,*,*,Torshavn.#Newline            <think><set name="it"><set name="topic">faroe islands</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ KYRGYZSTAN,*,*,Bishkek.#Newline            <think><set name="it"><set name="topic">kyrgyzstan</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ VIRGINIA,*,*,Richmond.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SEYCHELLES,*,*,Victoria.#Newline            <think><set name="it"><set name="topic">seychelles</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ JAMAICA,*,*,Kingston.#Newline            <think><set name="it"><set name="topic">jamaica</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ WYOMING,*,*,Cheyenne .,geograpy.aiml
+0,WHAT IS THE CAPITAL _ GUYANA,*,*,Georgetown.#Newline            <think><set name="it"><set name="topic">guyana</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CHAD,*,*,N'Djamena.#Newline            <think><set name="it"><set name="topic">chad</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ANGUILLA,*,*,The Valley.#Newline            <think><set name="it"><set name="topic">anguilla</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ GUADELOUPE,*,*,Basse-Terre.#Newline            <think><set name="it"><set name="topic">guadeloupe</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MICRONESIA,*,*,Kolonia {on the island of Pohnpei}.#Newline            <think><set name="it"><set name="topic">micronesia#Comma federated states of</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ JORDAN,*,*,Amman.#Newline            <think><set name="it"><set name="topic">jordan</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CONNECTICUT,*,*,Hartford.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ UNITED ARAB *,*,*,Abu Dhabi.#Newline            <think><set name="it"><set name="topic">united arab emirates</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ UNITED STATES,*,*,Washington#Comma DC.#Newline            <think><set name="it"><set name="topic">united states</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ UNITED KINGDOM,*,*,London.#Newline            <think><set name="it"><set name="topic">united kingdom</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ HONG KONG,*,*,Victoria.#Newline            <think><set name="it"><set name="topic">hong kong</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MEXICO,*,*,Mexico.#Newline            <think><set name="it"><set name="topic">mexico</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MONTANA,*,*,Helena.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ILLINOIS,*,*,Springfield.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SLOVAKIA,*,*,Bratislava.#Newline            <think><set name="it"><set name="topic">slovakia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ DENMARK,*,*,Copenhagen.#Newline            <think><set name="it"><set name="topic">denmark</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ VIETNAM,*,*,Hanoi.#Newline            <think><set name="it"><set name="topic">vietnam</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ARUBA,*,*,Oranjestad.#Newline            <think><set name="it"><set name="topic">aruba</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NAMIBIA,*,*,Windhoek.#Newline            <think><set name="it"><set name="topic">namibia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MISSISSIPPI,*,*,Jackson.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SENEGAL,*,*,Dakar.#Newline            <think><set name="it"><set name="topic">senegal</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ GRENADA,*,*,Saint George's.#Newline            <think><set name="it"><set name="topic">grenada</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SURINAME,*,*,Paramaribo.#Newline            <think><set name="it"><set name="topic">suriname</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BOLIVIA,*,*,La Paz {seat of government}; Sucre {legal capital and seat of judiciary}.#Newline            <think><set name="it"><set name="topic">bolivia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ HAITI,*,*,Port-au-Prince.#Newline            <think><set name="it"><set name="topic">haiti</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CHILE,*,*,Santiago.#Newline            <think><set name="it"><set name="topic">chile</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ KENYA,*,*,Nairobi.#Newline            <think><set name="it"><set name="topic">kenya</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ TURKEY,*,*,Ankara is the capital of Turkey.#Newline            <think><set name="it"><set name="topic">TURKEY</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ AMERICA,*,*,The capital of the U.S. is Washington#Comma D. C.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ KINGMAN REEF,*,*,none; administered from Washington#Comma DC.#Newline            <think><set name="it"><set name="topic">kingman reef</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SRI LANKA,*,*,Colombo.#Newline            <think><set name="it"><set name="topic">sri lanka</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BARBADOS,*,*,Bridgetown.#Newline            <think><set name="it"><set name="topic">barbados</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ TOKELAU,*,*,none; each atoll has its own administrative center.#Newline            <think><set name="it"><set name="topic">tokelau</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BULGARIA,*,*,The capital of Bulgaria is Sofia.#Newline            <think><set name="it"><set name="topic">BULGARIA</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ VENEZUELA,*,*,Caracas.#Newline            <think><set name="it"><set name="topic">venezuela</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ PANAMA,*,*,Panama.#Newline            <think><set name="it"><set name="topic">panama</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MALI,*,*,Bamako.#Newline            <think><set name="it"><set name="topic">mali</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SWITZERLAND,*,*,Bern.#Newline            <think><set name="it"><set name="topic">switzerland</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ CHINA,*,*,Some people call it "Beijing"#Comma others "Peking".,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MARYLAND,*,*,Annapolis.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BURUNDI,*,*,Bujumbura.#Newline            <think><set name="it"><set name="topic">burundi</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NEW CALEDONIA,*,*,Noumea.#Newline            <think><set name="it"><set name="topic">new caledonia</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NEW JERSEY,*,*,Trenton.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NEW HAMPSHIRE,*,*,Concord.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NEW YORK,*,*,Albany.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NEW MEXICO,*,*,Santa Fe.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NEW ZEALAND,*,*,Wellington.#Newline            <think><set name="it"><set name="topic">new zealand</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ NEW *,*,*,New#Newline            <person/>#Newline            city?,geograpy.aiml
+0,WHAT IS THE CAPITAL _ LESOTHO,*,*,Maseru.#Newline            <think><set name="it"><set name="topic">lesotho</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ MASSACHUSETTS,*,*,Boston.,geograpy.aiml
+0,WHAT IS THE CAPITAL _ BENIN,*,*,Porto-Novo.#Newline            <think><set name="it"><set name="topic">benin</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SIERRA LEONE,*,*,Freetown.#Newline            <think><set name="it"><set name="topic">sierra leone</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ REUNION,*,*,Saint-Denis.#Newline            <think><set name="it"><set name="topic">reunion</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ TAJIKISTAN,*,*,Dushanbe.#Newline            <think><set name="it"><set name="topic">tajikistan</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ SUDAN,*,*,Khartoum.#Newline            <think><set name="it"><set name="topic">sudan</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL _ ALGERIA,*,*,Algiers.#Newline            <think><set name="it"><set name="topic">algeria</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL OF BOSNIA,*,*,Sarajevo.,geograpy.aiml
+0,WHAT IS THE CAPITAL OF ALBERTA,*,*,Edmonton.#Newline            <think><set name="it"><set name="topic">Edmonton</set></set></think>,geograpy.aiml
+0,WHAT IS THE CAPITAL OF *,*,*,I know the capital of#Newline            <random><li>Canada is Toronto.</li><li>California is Sacramento.</li><li>Georgia is Atlanta.</li><li>France is Paris.</li></random>,geograpy.aiml
+0,WHAT IS CANADA,*,*,<set name="it">Canada</set>#Newline            is a large nation occupying much of the North American continent.,geograpy.aiml
+0,WHAT IS AMSTERDAM,*,*,<set name="it">Amsterdam</set>#Newline            is a city in Holland. Neither the political capital nor the largest city#Comma Amsterdam is the best known city#Newline            in the Netherlands.,geograpy.aiml
+0,WHAT IS CASABLANCA,*,*,I love the song#Comma As Time Goes By.,geograpy.aiml
+0,WHAT IS CALIFORNIA,*,*,State of the SW U.S.#Comma on the Pacific coast. It was admitted in 1850.,geograpy.aiml
+0,WHAT IS CALIFORNIA LIKE,*,*,California is too expensive.,geograpy.aiml
+0,WHAT IS USA,*,*,United States of America,geograpy.aiml
+0,WHAT IS BETHLEHEM,*,*,Bethlehem is a small city in northeastern Pennsylvania.#Newline            <think><set name="it"><set name="topic">BETHLEHEM</set></set></think>,geograpy.aiml
+0,WHAT IS GREECE,*,*,<random>#Newline        <li>It's a word#Comma it's a word#Comma it's got mood it's got feeling.</li>#Newline        <li>A country in the South Balkan Peninsula#Comma including many islands in the Aegean#Comma Ionian#Comma and#Newline                    Mediterranean seas. It is 50#Comma949 square miles with a population of 9#Comma900#Comma000.#Newline                </li>#Newline      </random>,geograpy.aiml
+0,WHAT IS COPENHAGEN,*,*,It is the capital of Denmark. Seaport on the east coast of Zealand. Its population is 633#Comma00.#Newline            <think><set name="it"><set name="topic">Copehagen</set></set></think>,geograpy.aiml
+0,WHAT IS DENMARK,*,*,A country in Europe#Comma occupyinh most of the peninsula of Jutland and several nearby islands in the#Newline            North and Baltic seas. It is 16#Comma632 square miles with a population of 5#Comma124#Comma000.,geograpy.aiml
+0,I LIVE IN CALIFORNIA,*,*,Where in <set name="location">California</set>?#Newline            <think><set name="it"><set name="topic">California</set></set></think>,geograpy.aiml
+0,I DO NOT LIVE IN USA,*,*,Where are you located?,geograpy.aiml
+0,I LOVE DENMARK,*,*,What is so great about it?#Newline            <think><set name="it"><set name="topic">DENMARK</set></set></think>,geograpy.aiml
+0,AUSTRALIA *,*,*,I would like to go to Australia sometime.,geograpy.aiml
+0,IS THAT AUSTLARIA,*,*,No I don't think it is Australia.,geograpy.aiml
+0,IS IT NEAR CANADA,*,*,Yes.,geograpy.aiml
+0,QUEL TEMPS IL FAIT A BRUXELLES,*,*,Il fait gris#Comma comme d habitude.,geograpy.aiml
+0,TURKEY,*,*,Ambiguous: Turkey the bird or Turkey the nation.,geograpy.aiml
+0,WHY CALIFORNIA,*,*,I like living in california.,geograpy.aiml
+0,USA TODAY *,*,*,USA TODAY is an excellent paper.,geograpy.aiml
+0,CANADA IS *,*,*,Tell me more about the Great White North.,geograpy.aiml
+0,WHO IS PRESIDENT OF THE USA,*,*,<bot name="president"/>.,geograpy.aiml
+0,WHO IS PRESIDENT OF CANADA,*,*,Canada has a Prime Minister#Comma not a President.,geograpy.aiml
+0,WHO IS PRESIDENT OF USA,*,*,<bot name="president"/>.,geograpy.aiml
+0,WHO IS THE PRESIDENT OF THE USA,*,*,<bot name="president"/>.,geograpy.aiml
+0,WHO IS THE PRESIDENT OF CANADA,*,*,Canada has a Prime Minister.,geograpy.aiml
+0,WHO IS THE PRESIDENT OF USA,*,*,<bot name="president"/>.,geograpy.aiml
+0,WHO IS THE PRESIDENT OF USA *,*,*,<bot name="president"/>.,geograpy.aiml
+0,WHO IS WINSTON CHURCHILL,*,*,Prime Minister of the U.K. during World War II.,geograpy.aiml
+0,WHICH CONTINENT IS AUSTRIA ON,*,*,Europe.,geograpy.aiml
+0,THE CAPITAL OF CANADA IS OTTOWA,*,*,You can't fool me that easily#Comma<get name="name"/>. I know it's Toronto.,geograpy.aiml
+0,THE CAPITAL OF CANADA IS OTTAWA,*,*,Like I'm going to fall for that.,geograpy.aiml
+0,THE CAPITAL OF CANADA *,*,*,You can't fool me that easily. I know the capital of Canada is Toronto.,geograpy.aiml
+0,WHERE IN BETHLEHEM,*,*,Department of Electrical Engineering and Computer Science#Comma Lehigh University.,geograpy.aiml
+0,WHERE IN CANADA,*,*,Nova Scotia and Vancouver.,geograpy.aiml
+0,WHERE IN CALIFORNIA,*,*,I am in<bot name="location"/>. Where are you?,geograpy.aiml
+0,WHERE IS SUDAN,*,*,Northern Africa#Comma bordering the Red Sea#Comma between Egypt and Eritrea.#Newline            <think><set name="it"><set name="topic">sudan</set></set></think>,geograpy.aiml
+0,WHERE IS CINCINNATI,*,*,<set name="it"><set name="topic">CINCINNATI</set></set>#Newline            is a large city in Ohio.,geograpy.aiml
+0,WHERE IS BURUNDI,*,*,Central Africa#Comma east of Zaire.#Newline            <think><set name="it"><set name="topic">burundi</set></set></think>,geograpy.aiml
+0,WHERE IS ERITREA,*,*,Eastern Africa#Comma bordering the Red Sea#Comma between Djibouti and Sudan.#Newline            <think><set name="it"><set name="topic">eritrea</set></set></think>,geograpy.aiml
+0,WHERE IS INDIANAPOLIS,*,*,<set name="it"><set name="topic">INDIANAPOLIS</set></set>#Newline            is a large city in Indiana.,geograpy.aiml
+0,WHERE IS COLUMBUS,*,*,<set name="it"><set name="topic">COLUMBUS</set></set>#Newline            is a city in Ohio.,geograpy.aiml
+0,WHERE IS SHEFFIELD,*,*,<set name="it"><set name="topic">SHEFFIELD</set></set>#Newline            is a town in England.,geograpy.aiml
+0,WHERE IS SYDNEY,*,*,<set name="it">Sydney</set>#Newline            is a city in Australia.,geograpy.aiml
+0,WHERE IS SATURN,*,*,<set name="it"><set name="topic">SATURN</set></set>#Newline            is the the sixth planet from the sun.,geograpy.aiml
+0,WHERE IS GREECE,*,*,<set name="it">Greece</set>#Newline            is a country in the Balkans.,geograpy.aiml
+0,WHERE IS HAITI,*,*,Caribbean#Comma western one-third of the island of Hispaniola#Comma between the Caribbean Sea and the North#Newline            Atlantic Ocean#Comma west of the Dominican Republic.#Newline            <think><set name="it"><set name="topic">haiti</set></set></think>,geograpy.aiml
+0,WHERE IS TAIWAN,*,*,<set name="it">Taiwan</set>#Newline            is an island country in Asia.,geograpy.aiml
+0,WHERE IS BOTSWANA,*,*,Southern Africa#Comma north of South Africa.#Newline            <think><set name="it"><set name="topic">botswana</set></set></think>,geograpy.aiml
+0,WHERE IS BAKER ISLAND,*,*,Oceania#Comma atoll in the North Pacific Ocean#Comma about one-half of the way from Hawaii to Australia.#Newline            <think><set name="it"><set name="topic">baker island</set></set></think>,geograpy.aiml
+0,WHERE IS COSTA RICA,*,*,Middle America#Comma bordering both the Caribbean Sea and the North Pacific Ocean#Comma between Nicaragua and#Newline            Panama.#Newline            <think><set name="it"><set name="topic">costa rica</set></set></think>,geograpy.aiml
+0,WHERE IS KANSAS,*,*,<set name="it">Kansas</set>#Newline            is in the midwestern United States.W,geograpy.aiml
+0,WHERE IS GABON,*,*,Western Africa#Comma bordering the Atlantic Ocean at the Equator#Comma between Congo and Equatorial Guinea.#Newline            <think><set name="it"><set name="topic">gabon</set></set></think>,geograpy.aiml
+0,WHERE IS GIBRALTAR,*,*,Southwestern Europe#Comma bordering the Strait of Gibraltar#Comma which links the Mediterranean Sea and the#Newline            North Atlantic Ocean#Comma on the southern coast of Spain.#Newline            <think><set name="it"><set name="topic">gibraltar</set></set></think>,geograpy.aiml
+0,WHERE IS DOMINICAN REPUBLIC,*,*,Caribbean#Comma eastern two-thirds of the island of Hispaniola#Comma between the Caribbean Sea and the North#Newline            Atlantic Ocean#Comma east of Haiti.#Newline            <think><set name="it"><set name="topic">dominican republic</set></set></think>,geograpy.aiml
+0,WHERE IS ARCTIC OCEAN,*,*,body of water mostly north of the Arctic Circle.#Newline            <think><set name="it"><set name="topic">arctic ocean</set></set></think>,geograpy.aiml
+0,WHERE IS MALI,*,*,Western Africa#Comma southwest of Algeria.#Newline            <think><set name="it"><set name="topic">mali</set></set></think>,geograpy.aiml
+0,WHERE IS ROME,*,*,<set name="it"><set name="topic">ROME</set></set>#Newline            is a large city in Italy.,geograpy.aiml
+0,WHERE IS CHICAGO,*,*,<set name="it"><set name="topic">CHICAGO</set></set>#Newline            is a large city in Illinois#Comma on lake Michigan.,geograpy.aiml
+0,WHERE IS PITTSFIELD,*,*,<set name="it"><set name="topic">PITTSFIELD</set></set>#Newline            is a town in Massachusettes.,geograpy.aiml
+0,WHERE IS OSLO,*,*,<set name="it">Oslo</set>#Newline            is a city in Norway.,geograpy.aiml
+0,WHERE IS ACAPULCO,*,*,<set name="it">Acapulco</set>#Newline            is a city on the Pacific coast of Mexico.,geograpy.aiml
+0,WHERE IS CAMBRIDGE,*,*,<set name="it"><set name="topic">CAMBRIDGE</set></set>#Newline            is a city in Massachusetts#Comma also in England.,geograpy.aiml
+0,WHERE IS HULL,*,*,<set name="it"><set name="topic">HULL</set></set>#Newline            is a town in England.,geograpy.aiml
+0,WHERE IS BHUTAN,*,*,Southern Asia#Comma between China and India.#Newline            <think><set name="it"><set name="topic">bhutan</set></set></think>,geograpy.aiml
+0,WHERE IS IRELAND,*,*,<set name="it">Ireland</set>#Newline            is located on a small island off the coast of Europe.,geograpy.aiml
+0,WHERE IS JAMAICA,*,*,Caribbean#Comma island in the Caribbean Sea#Comma south of Cuba.#Newline            <think><set name="it"><set name="topic">jamaica</set></set></think>,geograpy.aiml
+0,WHERE IS MICRONESIA,*,*,<set name="it"><set name="topic">MICRONESIA</set></set>#Newline            is a collection of islands in the Pacific ocean.,geograpy.aiml
+0,WHERE IS ZAIRE,*,*,Central Africa#Comma northeast of Angola.#Newline            <think><set name="it"><set name="topic">zaire</set></set></think>,geograpy.aiml
+0,WHERE IS ATHENS,*,*,<set name="it">Athens</set>#Newline            is a city in Greece.,geograpy.aiml
+0,WHERE IS LIBERIA,*,*,Western Africa#Comma bordering the North Atlantic Ocean#Comma between Cote d'Ivoire and Sierra Leone.#Newline            <think><set name="it"><set name="topic">liberia</set></set></think>,geograpy.aiml
+0,WHERE IS BASSAS DA INDIA,*,*,Southern Africa#Comma islands in the southern Mozambique Channel#Comma about one-half of the way from Madagascar#Newline            to Mozambique.#Newline            <think><set name="it"><set name="topic">bassas da india</set></set></think>,geograpy.aiml
+0,WHERE IS SOFIA,*,*,<set name="it"><set name="topic">SOFIA</set></set>#Newline            is a city in Bulgaria.,geograpy.aiml
+0,WHERE IS INDIANA,*,*,<set name="it">Indiana</set>#Newline            is in the midwestern United States.,geograpy.aiml
+0,WHERE IS SIAM,*,*,<set name="it"><set name="topic">SIAM</set></set>#Newline            is another name for Thailand.,geograpy.aiml
+0,WHERE IS NORFOLK ISLAND,*,*,Oceania#Comma island in the South Pacific Ocean#Comma east of Australia.#Newline            <think><set name="it"><set name="topic">norfolk island</set></set></think>,geograpy.aiml
+0,WHERE IS NORFOLK,*,*,<set name="it"><set name="topic">NORFOLK</set></set>#Newline            is a city in Virgina.,geograpy.aiml
+0,WHERE IS MADAGASCAR,*,*,Southern Africa#Comma island in the Indian Ocean#Comma east of Mozambique.#Newline            <think><set name="it"><set name="topic">madagascar</set></set></think>,geograpy.aiml
+0,WHERE IS WARSAW,*,*,<set name="it"><set name="topic">WARSAW</set></set>#Newline            is a large city in Poland.,geograpy.aiml
+0,WHERE IS BRISTOL,*,*,<set name="it"><set name="topic">BRISTOL</set></set>#Newline            is a city on the west coast of England.,geograpy.aiml
+0,WHERE IS ALGERIA,*,*,Northern Africa#Comma bordering the Mediterranean Sea#Comma between Morocco and Tunisia.#Newline            <think><set name="it"><set name="topic">algeria</set></set></think>,geograpy.aiml
+0,WHERE IS RUSSIA,*,*,<set name="it">Russia</set>#Newline            is a large country in Asia.,geograpy.aiml
+0,WHERE IS BOSTON,*,*,<set name="it"><set name="topic">BOSTON</set></set>#Newline            is a city in Massachusettes.,geograpy.aiml
+0,WHERE IS KENYA,*,*,<set name="it"><set name="topic">KENYA</set></set>#Newline            is a country in central Africa.,geograpy.aiml
+0,WHERE IS TAIPEI,*,*,It is the capital of Taiwan.#Newline            <think><set name="it"><set name="topic">Taipei</set></set></think>,geograpy.aiml
+0,WHERE IS ENGLAND,*,*,<set name="it">England</set>#Newline            is located on a small island off the coast of Europe.,geograpy.aiml
+0,WHERE IS NEPTUNE,*,*,<set name="it"><set name="topic">NEPTUNE</set></set>#Newline            is the eighth planet from the Sun#Comma the "last gas" planet.,geograpy.aiml
+0,WHERE IS OMAN,*,*,Middle East#Comma bordering the Arabian Sea#Comma Gulf of Oman#Comma and Persian Gulf#Comma between Yemen and UAE.#Newline            <think><set name="it"><set name="topic">oman</set></set></think>,geograpy.aiml
+0,WHERE IS ZURICH,*,*,<set name="it">Zurich</set>#Newline            is a city in Switzerland.,geograpy.aiml
+0,WHERE IS MANCHESTER,*,*,Machester is a city in western England.,geograpy.aiml
+0,WHERE IS BENIN,*,*,Western Africa#Comma bordering the North Atlantic Ocean#Comma between Nigeria and Togo.#Newline            <think><set name="it"><set name="topic">benin</set></set></think>,geograpy.aiml
+0,WHERE IS SEATTLE,*,*,<set name="it"><set name="topic">SEATTLE</set></set>#Newline            is a large city in Washington state#Comma near Vancover Canada.,geograpy.aiml
+0,WHERE IS SINGAPORE,*,*,<set name="it"><set name="topic">SINGAPORE</set></set>#Newline            is a island nation-state at the tip of the Malay penninsula.,geograpy.aiml
+0,WHERE IS ONTARIO,*,*,<set name="it"><set name="topic">ONTARIO</set></set>#Newline            is a province of Canada.,geograpy.aiml
+0,WHERE IS WYOMING,*,*,<set name="it"><set name="topic">WYOMING</set></set>#Newline            is a western U.S. state between Montana and Colorado.,geograpy.aiml
+0,WHERE IS ELVIS,*,*,<set name="he">Elvis</set>#Newline            passed away some time ago.,geograpy.aiml
+0,WHERE IS OXNARD,*,*,<set name="it"><set name="topic">OXNARD</set></set>#Newline            is a city in California.,geograpy.aiml
+0,WHERE IS SPAIN,*,*,<set name="it"><set name="topic">SPAIN</set></set>#Newline            is on the Iberian penninsula in southwestern Europe.,geograpy.aiml
+0,WHERE IS TORONTO,*,*,<set name="it">Toronto</set>#Newline            is a city in Canada.,geograpy.aiml
+0,WHERE IS BARCELONA,*,*,<set name="it">Barcelona</set>#Newline            is a city in Spain.,geograpy.aiml
+0,WHERE IS PALMYRA ATOLL,*,*,Oceania#Comma atoll in the North Pacific Ocean#Comma about one-half of the way from Hawaii to American Samoa.#Newline            <think><set name="it"><set name="topic">palmyra atoll</set></set></think>,geograpy.aiml
+0,WHERE IS UTAH,*,*,<set name="it">Utah</set>#Newline            is in the western United States.,geograpy.aiml
+0,WHERE IS TENNESSEE,*,*,<set name="it">Tennessee</set>#Newline            is in the southern United States..,geograpy.aiml
+0,WHERE IS NEW CALEDONIA,*,*,Oceania#Comma islands in the South Pacific Ocean#Comma east of Australia.#Newline            <think><set name="it"><set name="topic">new caledonia</set></set></think>,geograpy.aiml
+0,WHERE IS NEW ORLEANS,*,*,<set name="it">New Orleans</set>#Newline            is a city in Louisiana.,geograpy.aiml
+0,WHERE IS NEW YORK CITY,*,*,<set name="it">New York</set>#Newline            is located in the Northeastern United States.,geograpy.aiml
+0,WHERE IS NEW ZEALAND,*,*,Oceania#Comma islands in the South Pacific Ocean#Comma southeast of Australia.#Newline            <think><set name="it"><set name="topic">new zealand</set></set></think>,geograpy.aiml
+0,WHERE IS JUAN DE NOVA ISLAND,*,*,Southern Africa#Comma island in the Mozambique Channel#Comma about one-third of the way between Madagascar and#Newline            Mozambique.#Newline            <think><set name="it"><set name="topic">juan de nova island</set></set></think>,geograpy.aiml
+0,WHERE IS MELBOURNE,*,*,<set name="it"><set name="topic">MELBOURNE</set></set>#Newline            is a city in Australia and also in Florida.,geograpy.aiml
+0,WHERE IS KAZAKSTAN,*,*,Central Asia#Comma northwest of China.#Newline            <think><set name="it"><set name="topic">kazakstan</set></set></think>,geograpy.aiml
+0,WHERE IS VERMONT,*,*,<set name="it"><set name="topic">VERMONT</set></set>#Newline            is in New England#Comma between New York and New Hampshire#Comma on the west bank of the Connecticut river.,geograpy.aiml
+0,WHERE IS UNITED ARAB EMIRATES,*,*,Middle East#Comma bordering the Gulf of Oman and the Persian Gulf#Comma between Oman and Saudi Arabia.#Newline            <think><set name="it"><set name="topic">united arab emirates</set></set></think>,geograpy.aiml
+0,WHERE IS UNITED STATES,*,*,North America#Comma bordering both the North Atlantic Ocean and the North Pacific Ocean#Comma between Canada and#Newline            Mexico.#Newline            <think><set name="it"><set name="topic">united states</set></set></think>,geograpy.aiml
+0,WHERE IS UNITED KINGDOM,*,*,Western Europe#Comma islands including the northern one-sixth of the island of Ireland between the North#Newline            Atlantic Ocean and the North Sea#Comma northwest of France.#Newline            <think><set name="it"><set name="topic">united kingdom</set></set></think>,geograpy.aiml
+0,WHERE IS CZECHOSLOVAKIA,*,*,In the past. That country no longer exists.,geograpy.aiml
+0,WHERE IS EL SALVADOR,*,*,Middle America#Comma bordering the North Pacific Ocean#Comma between Guatemala and Honduras.#Newline            <think><set name="it"><set name="topic">el salvador</set></set></think>,geograpy.aiml
+0,WHERE IS PANAMA,*,*,<set name="it"><set name="topic">PANAMA</set></set>#Newline            is on the isthmus between North and South America.,geograpy.aiml
+0,WHERE IS CHRISTMAS ISLAND,*,*,Southeastern Asia#Comma island in the Indian Ocean#Comma south of Indonesia.#Newline            <think><set name="it"><set name="topic">christmas island</set></set></think>,geograpy.aiml
+0,WHERE IS NAURU,*,*,Oceania#Comma island in the South Pacific Ocean#Comma south of the Marshall Islands.#Newline            <think><set name="it"><set name="topic">nauru</set></set></think>,geograpy.aiml
+0,WHERE IS MANILA,*,*,<set name="it">Manila</set>#Newline            is a city in the Phillipines.,geograpy.aiml
+0,WHERE IS HOUSTON,*,*,<set name="it">Houston</set>#Newline            is a city in Texas.,geograpy.aiml
+0,WHERE IS ISRAEL,*,*,<set name="it">Israel</set>#Newline            is located on the Mediterranian sea#Comma in the Middle East.,geograpy.aiml
+0,WHERE IS PHILIPPINES,*,*,Southeastern Asia#Comma archipelago between the Philippine Sea and the South China Sea#Comma east of Vietnam.#Newline            <think><set name="it"><set name="topic">philippines</set></set></think>,geograpy.aiml
+0,WHERE IS INDIAN OCEAN,*,*,body of water between Africa#Comma Antarctica#Comma Asia#Comma and Australia.#Newline            <think><set name="it"><set name="topic">indian ocean</set></set></think>,geograpy.aiml
+0,WHERE IS WAKE ISLAND,*,*,Oceania#Comma island in the North Pacific Ocean#Comma about two-thirds of the way from Hawaii to the Northern#Newline            Mariana Islands.#Newline            <think><set name="it"><set name="topic">wake island</set></set></think>,geograpy.aiml
+0,WHERE IS CORONA,*,*,<set name="it"><set name="topic">CORONA</set></set>#Newline            is a suburb of Los Angeles.,geograpy.aiml
+0,WHERE IS WONDERLAND,*,*,<set name="it"><set name="topic">WONDERLAND</set></set>#Newline            is in the future.,geograpy.aiml
+0,WHERE IS KOREA,*,*,<set name="it"><set name="topic">KOREA</set></set>#Newline            is a peninsula on the eastern edge of the Asian continent.,geograpy.aiml
+0,WHERE IS ILLINOIS,*,*,<set name="it">Illinos</set>#Newline            is in the midwestern United States.,geograpy.aiml
+0,WHERE IS VANUATU,*,*,Oceania#Comma group of islands in the South Pacific Ocean#Comma about three-quarters of the way from Hawaii to#Newline            Australia.#Newline            <think><set name="it"><set name="topic">vanuatu</set></set></think>,geograpy.aiml
+0,WHERE IS CHILE,*,*,Southern South America#Comma bordering the South Atlantic Ocean and South Pacific Ocean#Comma between Argentina#Newline            and Peru.#Newline            <think><set name="it"><set name="topic">chile</set></set></think>,geograpy.aiml
+0,WHERE IS BAHRAIN,*,*,Middle East#Comma archipelago in the Persian Gulf#Comma east of Saudi Arabia.#Newline            <think><set name="it"><set name="topic">bahrain</set></set></think>,geograpy.aiml
+0,WHERE IS CUPERTINO,*,*,<set name="it"><set name="topic">CUPERTINO</set></set>#Newline            is in Silicon Valley.,geograpy.aiml
+0,WHERE IS MOLDOVA,*,*,Eastern Europe#Comma northeast of Romania.#Newline            <think><set name="it"><set name="topic">moldova</set></set></think>,geograpy.aiml
+0,WHERE IS MACAU,*,*,Eastern Asia#Comma bordering the South China Sea and China.#Newline            <think><set name="it"><set name="topic">macau</set></set></think>,geograpy.aiml
+0,WHERE IS VIRGIN ISLANDS,*,*,Caribbean#Comma islands between the Caribbean Sea and the North Atlantic Ocean#Comma east of Puerto Rico.#Newline            <think><set name="it"><set name="topic">virgin islands</set></set></think>,geograpy.aiml
+0,WHERE IS FINLAND,*,*,<set name="it">Finland</set>#Newline            is a country in eastern europe#Comma bordering Sweden and Russia.,geograpy.aiml
+0,WHERE IS RIO,*,*,<set name="it"><set name="topic">RIO</set></set>#Newline            is a large city in Brazil,geograpy.aiml
+0,WHERE IS SLOVAKIA,*,*,Central Europe#Comma south of Poland.#Newline            <think><set name="it"><set name="topic">slovakia</set></set></think>,geograpy.aiml
+0,WHERE IS MACEDONIA,*,*,<set name="it"><set name="topic">MACEDONIA</set></set>#Newline            is a small nation between Greece and Serbia.,geograpy.aiml
+0,WHERE IS AUSTRALIA,*,*,<set name="it">Australia</set>#Newline            is a large island-continent in the southern hemishphere.,geograpy.aiml
+0,WHERE IS TOKELAU,*,*,Oceania#Comma group of islands in the South Pacific Ocean#Comma about one-half of the way from Hawaii to New#Newline            Zealand.#Newline            <think><set name="it"><set name="topic">tokelau</set></set></think>,geograpy.aiml
+0,WHERE IS ZIMBABWE,*,*,Southern Africa#Comma northeast of Botswana.#Newline            <think><set name="it"><set name="topic">zimbabwe</set></set></think>,geograpy.aiml
+0,WHERE IS KINGMAN REEF,*,*,Oceania#Comma reef in the North Pacific Ocean#Comma about one-half of the way from Hawaii to American Samoa.#Newline            <think><set name="it"><set name="topic">kingman reef</set></set></think>,geograpy.aiml
+0,WHERE IS PERTH,*,*,<set name="it"><set name="topic">PERTH</set></set>#Newline            is a city in western Australia.,geograpy.aiml
+0,WHERE IS HEAVEN,*,*,All around us.,geograpy.aiml
+0,WHERE IS PUERTO RICO,*,*,Caribbean#Comma island between the Caribbean Sea and the North Atlantic Ocean#Comma east of the Dominican#Newline            Republic.#Newline            <think><set name="it"><set name="topic">puerto rico</set></set></think>,geograpy.aiml
+0,WHERE IS MEXICO,*,*,Mexico: so far from God#Comma so close to the United States.,geograpy.aiml
+0,WHERE IS CLIPPERTON ISLAND,*,*,Middle America#Comma atoll in the North Pacific Ocean#Comma 1#Comma120 km southwest of Mexico.#Newline            <think><set name="it"><set name="topic">clipperton island</set></set></think>,geograpy.aiml
+0,WHERE IS MALDIVES,*,*,Southern Asia#Comma group of atolls in the Indian Ocean#Comma south-southwest of India.#Newline            <think><set name="it"><set name="topic">maldives</set></set></think>,geograpy.aiml
+0,WHERE IS EUROPA ISLAND,*,*,Southern Africa#Comma island in the Mozambique Channel#Comma about one-half of the way from southern Madagascar#Newline            to southern Mozambique.#Newline            <think><set name="it"><set name="topic">europa island</set></set></think>,geograpy.aiml
+0,WHERE IS LISBON,*,*,<set name="it">Lisbon</set>#Newline            is a city in Portugal.,geograpy.aiml
+0,WHERE IS SLOVENIA,*,*,Southeastern Europe#Comma bordering the Adriatic Sea#Comma between Croatia and Italy.#Newline            <think><set name="it"><set name="topic">slovenia</set></set></think>,geograpy.aiml
+0,WHERE IS LICHTENSTEIN,*,*,<set name="it"><set name="topic">LICHTENSTEIN</set></set>#Newline            is a tiny country in central Europe.,geograpy.aiml
+0,WHERE IS MONGOLIA,*,*,<set name="it"><set name="topic">MONGOLIA</set></set>#Newline            is in central Asia between Russian Siberia and China.,geograpy.aiml
+0,WHERE IS WALES,*,*,<set name="it">Wales</set>#Newline            is located on a small island off the coast of Europe.,geograpy.aiml
+0,WHERE IS MONTANA,*,*,<set name="it"><set name="topic">MONTANA</set></set>#Newline            is in the northwest United States between the Dakotas and Idaho.,geograpy.aiml
+0,WHERE IS HOFFA,*,*,We may never know.,geograpy.aiml
+0,WHERE IS MAURITIUS,*,*,Southern Africa#Comma island in the Indian Ocean#Comma east of Madagascar.#Newline            <think><set name="it"><set name="topic">mauritius</set></set></think>,geograpy.aiml
+0,WHERE IS BERKELEY,*,*,<set name="it"><set name="topic">BERKELEY</set></set>#Newline            is in northern California#Comma across the bay from San Francisco.,geograpy.aiml
+0,WHERE IS MARS,*,*,<set name="it"><set name="topic">MARS</set></set>#Newline            is the fourth planet from the Sun.,geograpy.aiml
+0,WHERE IS MOROCCO,*,*,<set name="it"><set name="topic">MOROCCO</set></set>#Newline            is a nation in northwest Africa#Comma close to Spain.,geograpy.aiml
+0,WHERE IS BELGIUM,*,*,<set name="it">Belgium</set>#Newline            is a country in western Europe#Comma between France#Comma Germany and Holland.,geograpy.aiml
+0,WHERE IS FLORIDA,*,*,<set name="it"><set name="topic">FLORIDA</set></set>#Newline            is in the southeast United States#Comma extending on a large peninsula.,geograpy.aiml
+0,WHERE IS GUAM,*,*,Oceania#Comma island in the North Pacific Ocean#Comma about three-quarters of the way from Hawaii to the#Newline            Philippines.#Newline            <think><set name="it"><set name="topic">guam</set></set></think>,geograpy.aiml
+0,WHERE IS COLOMBIA,*,*,<set name="it"><set name="topic">COLOMBIA</set></set>#Newline            is a country in South America.,geograpy.aiml
+0,WHERE IS FAROE ISLANDS,*,*,Northern Europe#Comma island group between the Norwegian Sea and the north Atlantic Ocean#Comma about one-half#Newline            of the way from Iceland to Norway.#Newline            <think><set name="it"><set name="topic">faroe islands</set></set></think>,geograpy.aiml
+0,WHERE IS COTE D IVOIRE,*,*,Western Africa#Comma bordering the North Atlantic Ocean#Comma between Ghana and Liberia.#Newline            <think><set name="it"><set name="topic">cote d'ivoire</set></set></think>,geograpy.aiml
+0,WHERE IS AFGHANISTAN,*,*,Southern Asia#Comma north of Pakistan.#Newline            <think><set name="it"><set name="topic">afghanistan</set></set></think>,geograpy.aiml
+0,WHERE IS HONG KONG,*,*,<set name="it">Hong Kong</set>#Newline            is a city in China.,geograpy.aiml
+0,WHERE IS MOSCOW,*,*,<set name="it">Moscow</set>#Newline            is a city in Russia.,geograpy.aiml
+0,WHERE IS KUWAIT,*,*,<set name="it"><set name="topic">KUWAIT</set></set>#Newline            is a small nation on the Persian gulf.,geograpy.aiml
+0,WHERE IS HOLLAND,*,*,<set name="it">Holland</set>#Newline            is a country in western Europe#Comma next to Germany and Belgium.,geograpy.aiml
+0,WHERE IS MONACO,*,*,Western Europe#Comma bordering the Mediterranean Sea#Comma on the southern coast of France#Comma near the border with#Newline            Italy.#Newline            <think><set name="it"><set name="topic">monaco</set></set></think>,geograpy.aiml
+0,WHERE IS TURKS AND CAICOS ISLANDS,*,*,Caribbean#Comma two island groups in the North Atlantic Ocean#Comma southeast of The Bahamas.#Newline            <think><set name="it"><set name="topic">turks and caicos islands</set></set></think>,geograpy.aiml
+0,WHERE IS TROMELIN ISLAND,*,*,Southern Africa#Comma island in the Indian Ocean#Comma east of Madagascar.#Newline            <think><set name="it"><set name="topic">tromelin island</set></set></think>,geograpy.aiml
+0,WHERE IS MINNESOTA,*,*,<set name="it"><set name="topic">MINNESOTA</set></set>#Newline            is on the northern border of the United States#Comma between Wisconsin and North Dakota.,geograpy.aiml
+0,WHERE IS * VIRGINIA,*,*,Um#Comma in Virgina somewhere?,geograpy.aiml
+0,WHERE IS * CALIFORNIA,*,*,Somewhere in California#Comma I presume?,geograpy.aiml
+0,WHERE IS AMERICAN SAMOA,*,*,Oceania#Comma group of islands in the South Pacific Ocean#Comma about one-half of the way from Hawaii to New#Newline            Zealand.#Newline            <think><set name="it"><set name="topic">american samoa</set></set></think>,geograpy.aiml
+0,WHERE IS ATLANTA,*,*,It the capital of Georgia.#Newline            <think><set name="it"><set name="topic">Atlanta</set></set></think>,geograpy.aiml
+0,WHERE IS SEOUL,*,*,It is the capital of South Korea.#Newline            <think><set name="it"><set name="topic">Seoul</set></set></think>,geograpy.aiml
+0,WHERE IS MANHATTAN,*,*,<set name="it">Manhattan</set>#Newline            is the island center of New York City.,geograpy.aiml
+0,WHERE IS GUADELOUPE,*,*,Caribbean#Comma islands in the eastern Caribbean Sea#Comma southeast of Puerto Rico.#Newline            <think><set name="it"><set name="topic">guadeloupe</set></set></think>,geograpy.aiml
+0,WHERE IS UGANDA,*,*,Eastern Africa#Comma west of Kenya.#Newline            <think><set name="it"><set name="topic">uganda</set></set></think>,geograpy.aiml
+0,WHERE IS CAYMAN ISLANDS,*,*,Caribbean#Comma island group in Caribbean Sea#Comma nearly one-half of the way from Cuba to Honduras.#Newline            <think><set name="it"><set name="topic">cayman islands</set></set></think>,geograpy.aiml
+0,WHERE IS TOGO,*,*,Western Africa#Comma bordering the North Atlantic Ocean#Comma between Benin and Ghana.#Newline            <think><set name="it"><set name="topic">togo</set></set></think>,geograpy.aiml
+0,WHERE IS TROY,*,*,<set name="it"><set name="topic">TROY</set></set>#Newline            is a city in New York.,geograpy.aiml
+0,WHERE IS GHANA,*,*,<set name="it"><set name="topic">GHANA</set></set>#Newline            is a nation in west Africa.,geograpy.aiml
+0,WHERE IS CENTRAL AFRICAN REPUBLIC,*,*,Central Africa#Comma north of Zaire.#Newline            <think><set name="it"><set name="topic">central african republic</set></set></think>,geograpy.aiml
+0,WHERE IS SASKATOON,*,*,<set name="it"><set name="topic">SASKATOON</set></set>#Newline            is a city in Saskatchewan.,geograpy.aiml
+0,WHERE IS EINSTEIN,*,*,<set name="he">Einstein</set>#Newline            passed away some time ago.,geograpy.aiml
+0,WHERE IS MIT,*,*,<set name="it"><set name="topic">MIT</set></set>#Newline            is a trade school in Cambridge#Comma Mass.,geograpy.aiml
+0,WHERE IS BULGARIA,*,*,<set name="it">Bulgaria</set>#Newline            is a country in the Balkans.,geograpy.aiml
+0,WHERE IS CORAL SEA ISLANDS,*,*,Oceania#Comma islands in the Coral Sea#Comma northeast of Australia.#Newline            <think><set name="it"><set name="topic">coral sea islands</set></set></think>,geograpy.aiml
+0,WHERE IS MISSISSIPPI,*,*,<set name="it">Mississippi</set>#Newline            is in the southern United States.,geograpy.aiml
+0,WHERE IS INDONESIA,*,*,<set name="it"><set name="topic">INDONESIA</set></set>#Newline            is an island nation in southeast Asia.,geograpy.aiml
+0,WHERE IS WESTERN SAHARA,*,*,Northern Africa#Comma bordering the North Atlantic Ocean#Comma between Mauritania and Morocco.#Newline            <think><set name="it"><set name="topic">western sahara</set></set></think>,geograpy.aiml
+0,WHERE IS WESTERN SAMOA,*,*,Oceania#Comma group of islands in the South Pacific Ocean#Comma about one-half of the way from Hawaii to New#Newline            Zealand.#Newline            <think><set name="it"><set name="topic">western samoa</set></set></think>,geograpy.aiml
+0,WHERE IS JUPITER,*,*,<set name="it"><set name="topic">JUPITER</set></set>#Newline            is the fifth planet from the sun.,geograpy.aiml
+0,WHERE IS AUSTRIA,*,*,Central Europe#Comma north of Italy.#Newline            <think><set name="it"><set name="topic">austria</set></set></think>,geograpy.aiml
+0,WHERE IS CONNECTICUT,*,*,<set name="it"><set name="topic">CONNECTICUT</set></set>#Newline            is a New England state between New York#Comma Massaschusetts and Rhode Island.,geograpy.aiml
+0,WHERE IS AZERBAIJAN,*,*,Southwestern Asia#Comma bordering the Caspian Sea#Comma between Iran and Russia.#Newline            <think><set name="it"><set name="topic">azerbaijan</set></set></think>,geograpy.aiml
+0,WHERE IS HUNGARY,*,*,<set name="it">Hungary</set>#Newline            is a country in central Europe.,geograpy.aiml
+0,WHERE IS SAN MARINO,*,*,Southern Europe#Comma an enclave in central Italy.#Newline            <think><set name="it"><set name="topic">san marino</set></set></think>,geograpy.aiml
+0,WHERE IS SAN FRANCISCO,*,*,California.,geograpy.aiml
+0,WHERE IS SAN DIEGO,*,*,<set name="it">San Diego</set>#Newline            is a city in California.,geograpy.aiml
+0,WHERE IS SAN JOSE,*,*,<set name="it">San Jose</set>#Newline            is a city in California.,geograpy.aiml
+0,WHERE IS TUVALU,*,*,Oceania#Comma island group consisting of nine coral atolls in the South Pacific Ocean#Comma about one-half of#Newline            the way from Hawaii to Australia.#Newline            <think><set name="it"><set name="topic">tuvalu</set></set></think>,geograpy.aiml
+0,WHERE IS THAT,*,*,What does "that" refer to?,geograpy.aiml
+0,WHERE IS ANTIGUA AND BARBUDA,*,*,Caribbean#Comma islands between the Caribbean Sea and the North Atlantic Ocean#Comma east-southeast of Puerto#Newline            Rico.#Newline            <think><set name="it"><set name="topic">antigua and barbuda</set></set></think>,geograpy.aiml
+0,WHERE IS DENVER,*,*,<set name="it">Denver</set>#Newline            is a city in Colorado.,geograpy.aiml
+0,WHERE IS YAKIMA,*,*,<set name="it"><set name="topic">YAKIMA</set></set>#Newline            is a city and a river in Washington.,geograpy.aiml
+0,WHERE IS SRI LANKA,*,*,Southern Asia#Comma island in the Indian Ocean#Comma south of India.#Newline            <think><set name="it"><set name="topic">sri lanka</set></set></think>,geograpy.aiml
+0,WHERE IS SRI,*,*,<set name="it"><set name="topic">SRI</set></set>#Newline            is a research outfit in Silicon Valley.,geograpy.aiml
+0,WHERE IS IOWA,*,*,<set name="it"><set name="topic">IOWA</set></set>#Newline            is in the midwest#Comma between the Mississipi and Missouri rivers.,geograpy.aiml
+0,WHERE IS ASIA,*,*,<set name="it">Asia</set>#Newline            is a the largest continent.,geograpy.aiml
+0,WHERE IS BRUSSELS,*,*,<set name="it">Brussels</set>#Newline            is a city in Belgium.,geograpy.aiml
+0,WHERE IS PARIS,*,*,<set name="it">Paris</set>#Newline            is a city in France.,geograpy.aiml
+0,WHERE IS INDIA,*,*,<set name="it">India</set>#Newline            is a giant country in southern Asia.,geograpy.aiml
+0,WHERE IS AMSTERDAM,*,*,<set name="it">Amsterdam</set>#Newline            is a city in the Netherlands.,geograpy.aiml
+0,WHERE IS ALBUQUERQUE,*,*,<set name="it"><set name="topic">ALBUQUERQUE</set></set>#Newline            is a city in New Mexico.,geograpy.aiml
+0,WHERE IS JARVIS ISLAND,*,*,Oceania#Comma island in the South Pacific Ocean#Comma about one-half of the way from Hawaii to the Cook Islands.#Newline            <think><set name="it"><set name="topic">jarvis island</set></set></think>,geograpy.aiml
+0,WHERE IS STONEWALL,*,*,<set name="it"><set name="topic">STONEWALL</set></set>#Newline            is a town in Mississippi.,geograpy.aiml
+0,WHERE IS TUSCALOOSA,*,*,<set name="it"><set name="topic">TUSCALOOSA</set></set>#Newline            is in Alabama#Comma last I heard.,geograpy.aiml
+0,WHERE IS ECUADOR,*,*,Western South America#Comma bordering the Pacific Ocean at the Equator#Comma between Colombia and Peru.#Newline            <think><set name="it"><set name="topic">ecuador</set></set></think>,geograpy.aiml
+0,WHERE IS SURINAME,*,*,Northern South America#Comma bordering the North Atlantic Ocean#Comma between French Guiana and Guyana.#Newline            <think><set name="it"><set name="topic">suriname</set></set></think>,geograpy.aiml
+0,WHERE IS PENNSYLVANIA,*,*,<set name="it">Pennsylvania</set>#Newline            is located in the Northeastern United States.,geograpy.aiml
+0,WHERE IS NAIROBI,*,*,<set name="it"><set name="topic">NAIROBI</set></set>#Newline            is a city in Kenya.,geograpy.aiml
+0,WHERE IS LATVIA,*,*,Eastern Europe#Comma bordering the Baltic Sea#Comma between Estonia and Lithuania.#Newline            <think><set name="it"><set name="topic">latvia</set></set></think>,geograpy.aiml
+0,WHERE IS CAPE VERDE,*,*,Western Africa#Comma group of Islands in the North Atlantic Ocean#Comma west of Senegal.#Newline            <think><set name="it"><set name="topic">cape verde</set></set></think>,geograpy.aiml
+0,WHERE IS BETHLEHEM,*,*,Bethlehem#Comma Pennsylvania is located in the northeastern area of the state#Comma about 90 miles from#Newline            Philadelphia.,geograpy.aiml
+0,WHERE IS KRAFTWERK,*,*,They are from Dusseldorf#Comma Germany.,geograpy.aiml
+0,WHERE IS VENEZUELA,*,*,Northern South America#Comma bordering the Caribbean Sea and the North Atlantic Ocean#Comma between Colombia and#Newline            Guyana.#Newline            <think><set name="it"><set name="topic">venezuela</set></set></think>,geograpy.aiml
+0,WHERE IS ATLANTIC OCEAN,*,*,body of water between Africa#Comma Europe#Comma Antarctica#Comma and the Western Hemisphere.#Newline            <think><set name="it"><set name="topic">atlantic ocean</set></set></think>,geograpy.aiml
+0,WHERE IS SIERRA LEONE,*,*,Western Africa#Comma bordering the North Atlantic Ocean#Comma between Guinea and Liberia.#Newline            <think><set name="it"><set name="topic">sierra leone</set></set></think>,geograpy.aiml
+0,WHERE IS UKRAINE,*,*,Eastern Europe#Comma bordering the Black Sea#Comma between Poland and Russia.#Newline            <think><set name="it"><set name="topic">ukraine</set></set></think>,geograpy.aiml
+0,WHERE IS VIETNAM,*,*,<set name="it"><set name="topic">VIETNAM</set></set>#Newline            is in southeast Asia.,geograpy.aiml
+0,WHERE IS BRITISH VIRGIN ISLANDS,*,*,Caribbean#Comma between the Caribbean Sea and the North Atlantic Ocean#Comma east of Puerto Rico.#Newline            <think><set name="it"><set name="topic">british virgin islands</set></set></think>,geograpy.aiml
+0,WHERE IS BRITISH INDIAN OCEAN TERRITORY,*,*,Southern Asia#Comma archipelago in the Indian Ocean#Comma about one-half the way from Africa to Indonesia.#Newline            <think><set name="it"><set name="topic">british indian ocean territory</set></set></think>,geograpy.aiml
+0,WHERE IS SWITZERLAND,*,*,<set name="it">Switzerland</set>#Newline            is a country in centrail Europe#Comma bordering Italy#Comma Austria and France.,geograpy.aiml
+0,WHERE IS PLUTO,*,*,<set name="it"><set name="topic">PLUTO</set></set>#Newline            is the ninth planet from the Sun.,geograpy.aiml
+0,WHERE IS STOCKHOLM,*,*,<set name="it"><set name="topic">STOCKHOLM</set></set>#Newline            is a large city in Sweden.,geograpy.aiml
+0,WHERE IS EGYPT,*,*,<set name="it"><set name="topic">EGYPT</set></set>#Newline            is a country in north east Africa.,geograpy.aiml
+0,WHERE IS HONDURAS,*,*,Middle America#Comma bordering the Caribbean Sea#Comma between Guatemala and Nicaragua and bordering the North#Newline            Pacific Ocean#Comma between El Salvador and Nicaragua.#Newline            <think><set name="it"><set name="topic">honduras</set></set></think>,geograpy.aiml
+0,WHERE IS PORTSMOUTH,*,*,Portsmouth#Comma New Hampshire and Portsmouth#Comma England.,geograpy.aiml
+0,WHERE IS GUYANA,*,*,Northern South America#Comma bordering the North Atlantic Ocean#Comma between Suriname and Venezuela.#Newline            <think><set name="it"><set name="topic">guyana</set></set></think>,geograpy.aiml
+0,WHERE IS SOUTH KOREA,*,*,Eastern Asia#Comma southern half of the Korean Peninsula bordering the Sea of Japan and the Yellow Sea#Comma#Newline            south of North Korea.#Newline            <think><set name="it"><set name="topic">korea#Comma south</set></set></think>,geograpy.aiml
+0,WHERE IS SOUTH AFRICA,*,*,Southern Africa#Comma at the southern tip of the continent of Africa.#Newline            <think><set name="it"><set name="topic">south africa</set></set></think>,geograpy.aiml
+0,WHERE IS HAMBURG,*,*,<set name="it"><set name="topic">HAMBURG</set></set>#Newline            is a large city in western Germany.,geograpy.aiml
+0,WHERE IS BELIZE,*,*,Middle America#Comma bordering the Caribbean Sea#Comma between Guatemala and Mexico.#Newline            <think><set name="it"><set name="topic">belize</set></set></think>,geograpy.aiml
+0,WHERE IS KASHMIR,*,*,<set name="it"><set name="topic">KASHMIR</set></set>#Newline            is a disputed area between India and Pakistan.,geograpy.aiml
+0,WHERE IS UZBEKISTAN,*,*,Central Asia#Comma north of Afghanistan.#Newline            <think><set name="it"><set name="topic">uzbekistan</set></set></think>,geograpy.aiml
+0,WHERE IS TOLEDO,*,*,<set name="it"><set name="topic">TOLEDO</set></set>#Newline            is a city in Ohio.,geograpy.aiml
+0,WHERE IS PARACEL ISLANDS,*,*,Southeastern Asia#Comma group of small islands and reefs in the South China Sea#Comma about one-third of the way#Newline            from central Vietnam to the northern Philippines.#Newline            <think><set name="it"><set name="topic">paracel islands</set></set></think>,geograpy.aiml
+0,WHERE IS JOHNSTON ATOLL,*,*,Oceania#Comma atoll in the North Pacific Ocean#Comma about one-third of the way from Hawaii to the Marshall#Newline            Islands.#Newline            <think><set name="it"><set name="topic">johnston atoll</set></set></think>,geograpy.aiml
+0,WHERE IS MIDWAY ISLANDS,*,*,Oceania#Comma atoll in the North Pacific Ocean#Comma about one-third of the way from Honolulu to Tokyo.#Newline            <think><set name="it"><set name="topic">midway islands</set></set></think>,geograpy.aiml
+0,WHERE IS ALBANIA,*,*,<set name="it"><set name="topic">ALBANIA</set></set>#Newline            is on the Adriatic sea#Comma bordering Greece and the former Yugoslavia.,geograpy.aiml
+0,WHERE IS EQUATORIAL GUINEA,*,*,Western Africa#Comma bordering the North Atlantic Ocean#Comma between Cameroon and Gabon.#Newline            <think><set name="it"><set name="topic">equatorial guinea</set></set></think>,geograpy.aiml
+0,WHERE IS MAINE,*,*,<set name="it">Maine</set>#Newline            is in the northeastern corner of the United States#Comma bordering Canada.,geograpy.aiml
+0,WHERE IS DJIBOUTI,*,*,Eastern Africa#Comma bordering the Gulf of Aden and the Red Sea#Comma between Eritrea and Somalia.#Newline            <think><set name="it"><set name="topic">djibouti</set></set></think>,geograpy.aiml
+0,WHERE IS TAJIKISTAN,*,*,Central Asia#Comma west of China.#Newline            <think><set name="it"><set name="topic">tajikistan</set></set></think>,geograpy.aiml
+0,WHERE IS ARGENTINA,*,*,<set name="it">Argentina</set>#Newline            is a country in South America.,geograpy.aiml
+0,WHERE IS COMOROS,*,*,Southern Africa#Comma group of islands in the Mozambique Channel#Comma about two-thirds of the way between#Newline            northern Madagascar and northern Mozambique.#Newline            <think><set name="it"><set name="topic">comoros</set></set></think>,geograpy.aiml
+0,WHERE IS JERSEY,*,*,Western Europe#Comma island in the English Channel#Comma northwest of France.#Newline            <think><set name="it"><set name="topic">jersey</set></set></think>,geograpy.aiml
+0,WHERE IS CARTHAGE,*,*,<set name="it"><set name="topic">CARTHAGE</set></set>#Newline            is the ancient name for Tunisia.,geograpy.aiml
+0,WHERE IS COOK ISLANDS,*,*,Oceania#Comma group of islands in the South Pacific Ocean#Comma about one-half of the way from Hawaii to New#Newline            Zealand.#Newline            <think><set name="it"><set name="topic">cook islands</set></set></think>,geograpy.aiml
+0,WHERE IS ARMENIA,*,*,Southwestern Asia#Comma east of Turkey.#Newline            <think><set name="it"><set name="topic">armenia</set></set></think>,geograpy.aiml
+0,WHERE IS SEYCHELLES,*,*,Eastern Africa#Comma group of islands in the Indian Ocean#Comma northeast of Madagascar.#Newline            <think><set name="it"><set name="topic">seychelles</set></set></think>,geograpy.aiml
+0,WHERE IS MAURITANIA,*,*,Northern Africa#Comma bordering the North Atlantic Ocean#Comma between Senegal and Western Sahara.#Newline            <think><set name="it"><set name="topic">mauritania</set></set></think>,geograpy.aiml
+0,WHERE IS OMAHA,*,*,<set name="it"><set name="topic">OMAHA</set></set>#Newline            is a city in Nebraska.,geograpy.aiml
+0,WHERE IS CYPRUS,*,*,Middle East#Comma island in the Mediterranean Sea#Comma south of Turkey.#Newline            <think><set name="it"><set name="topic">cyprus</set></set></think>,geograpy.aiml
+0,WHERE IS COCOS ISLANDS,*,*,Southeastern Asia#Comma group of islands in the Indian Ocean#Comma south of Indonesia#Comma about one-half of the way#Newline            from Australia to Sri Lanka.#Newline            <think><set name="it"><set name="topic">cocos {keeling} islands</set></set></think>,geograpy.aiml
+0,WHERE IS POLAND,*,*,Poland is a large country in central Europe.,geograpy.aiml
+0,WHERE IS SWEDEN,*,*,<set name="it">Sweden</set>#Newline            is a country in northern europe#Comma bordering Finland and Norway.,geograpy.aiml
+0,WHERE IS PITCAIRN ISLANDS,*,*,Oceania#Comma islands in the South Pacific Ocean#Comma about one-half of the way from Peru to New Zealand.#Newline            <think><set name="it"><set name="topic">pitcairn islands</set></set></think>,geograpy.aiml
+0,WHERE IS DENMARK,*,*,<set name="it">Denmark</set>#Newline            is a country in western Europe#Comma between Germany and Norway.,geograpy.aiml
+0,WHERE IS SAINT HELENA,*,*,Southern Africa#Comma island in the South Atlantic Ocean#Comma west of Angola#Comma about two-thirds of the way from#Newline            South America to Africa.#Newline            <think><set name="it"><set name="topic">saint helena</set></set></think>,geograpy.aiml
+0,WHERE IS SAINT LUCIA,*,*,Caribbean#Comma island in the Caribbean Sea#Comma north of Trinidad and Tobago.#Newline            <think><set name="it"><set name="topic">saint lucia</set></set></think>,geograpy.aiml
+0,WHERE IS SAINT KITTS AND NEVIS,*,*,Caribbean#Comma islands in the Caribbean Sea#Comma about one-third of the way from Puerto Rico to Trinidad and#Newline            Tobago.#Newline            <think><set name="it"><set name="topic">saint kitts and nevis</set></set></think>,geograpy.aiml
+0,WHERE IS SAINT PIERRE AND MIQUELON,*,*,Northern North America#Comma islands in the North Atlantic Ocean#Comma south of Newfoundland {Canada}.#Newline            <think><set name="it"><set name="topic">saint pierre and miquelon</set></set></think>,geograpy.aiml
+0,WHERE IS SAINT VINCENT AND THE GRENADINES,*,*,Caribbean#Comma islands in the Caribbean Sea#Comma north of Trinidad and Tobago.#Newline            <think><set name="it"><set name="topic">saint vincent and the grenadines</set></set></think>,geograpy.aiml
+0,WHERE IS PALAU,*,*,Oceania#Comma group of islands in the North Pacific Ocean#Comma southeast of the Philippines.#Newline            <think><set name="it"><set name="topic">palau</set></set></think>,geograpy.aiml
+0,WHERE IS LEBANON,*,*,Middle East#Comma bordering the Mediterranean Sea#Comma between Israel and Syria.#Newline            <think><set name="it"><set name="topic">lebanon</set></set></think>,geograpy.aiml
+0,WHERE IS ITALY,*,*,<set name="it">Italy</set>#Newline            is in the southern part of Europe.,geograpy.aiml
+0,WHERE IS HE FROM,*,*,<get name="he"/>? I think he is from the planet Earth.,geograpy.aiml
+0,WHERE IS HE,*,*,I think he is in California now.,geograpy.aiml
+0,WHERE IS MAYOTTE,*,*,Southern Africa#Comma island in the Mozambique Channel#Comma about one-half of the way from northern Madagascar#Newline            to northern Mozambique.#Newline            <think><set name="it"><set name="topic">mayotte</set></set></think>,geograpy.aiml
+0,WHERE IS ANGOLA,*,*,Southern Africa#Comma bordering the South Atlantic Ocean#Comma between Namibia and Zaire.#Newline            <think><set name="it"><set name="topic">angola</set></set></think>,geograpy.aiml
+0,WHERE IS ANKARA,*,*,<set name="it"><set name="topic">ANKARA</set></set>#Newline            is a city in Turkey.,geograpy.aiml
+0,WHERE IS SAUDI ARABIA,*,*,Middle East#Comma bordering the Persian Gulf and the Red Sea#Comma north of Yemen.#Newline            <think><set name="it"><set name="topic">saudi arabia</set></set></think>,geograpy.aiml
+0,WHERE IS DOMINICA,*,*,Caribbean#Comma island between the Caribbean Sea and the North Atlantic Ocean#Comma about one-half of the way#Newline            from Puerto Rico to Trinidad and Tobago.#Newline            <think><set name="it"><set name="topic">dominica</set></set></think>,geograpy.aiml
+0,WHERE IS SUEZ,*,*,<set name="it"><set name="topic">SUEZ</set></set>#Newline            is a canal between the Mediterranian and the Red Sea.,geograpy.aiml
+0,WHERE IS MOON,*,*,<set name="it"><set name="topic">MOON</set></set>#Newline            is a satellite of the Earth.,geograpy.aiml
+0,WHERE IS GRENADA,*,*,Caribbean#Comma island in the Caribbean Sea#Comma north of Trinidad and Tobago.#Newline            <think><set name="it"><set name="topic">grenada</set></set></think>,geograpy.aiml
+0,WHERE IS NORTH KOREA,*,*,Eastern Asia#Comma northern half of the Korean Peninsula bordering the Korea Bay and the Sea of Japan#Comma#Newline            between China and South Korea.#Newline            <think><set name="it"><set name="topic">korea#Comma north</set></set></think>,geograpy.aiml
+0,WHERE IS NORTH AMERICA,*,*,North America occupies the northern most of the norther hemisphere of the Earth#Comma from the Bering#Newline            Strait to Labrador.,geograpy.aiml
+0,WHERE IS ARUBA,*,*,<set name="it"><set name="topic">ARUBA</set></set>#Newline            is an island in the Netherlands Antilles#Comma near South America.,geograpy.aiml
+0,WHERE IS THE ROBOT,*,*,The robot is here in your computer.,geograpy.aiml
+0,WHERE IS THE SUN,*,*,It is in the center of the solar system.#Newline            <think><set name="it"><set name="topic">SUN</set></set></think>,geograpy.aiml
+0,WHERE IS THE PHILIPPINES,*,*,An island nation in the South Pacific.,geograpy.aiml
+0,WHERE IS THE GAMBIA,*,*,Western Africa#Comma bordering the North Atlantic Ocean and Senegal.#Newline            <think><set name="it"><set name="topic">the gambia</set></set></think>,geograpy.aiml
+0,WHERE IS THE CENTER,*,*,It depends on the coordinate frame.,geograpy.aiml
+0,WHERE IS THE BAHAMAS,*,*,Caribbean#Comma chain of islands in the North Atlantic Ocean#Comma southeast of Florida.#Newline            <think><set name="it"><set name="topic">the bahamas</set></set></think>,geograpy.aiml
+0,WHERE IS THE ISLE OF MAN,*,*,Western Europe#Comma island in the Irish Sea#Comma between Great Britain and Ireland.#Newline            <think><set name="it"><set name="topic">man#Comma isle of</set></set></think>,geograpy.aiml
+0,WHERE IS THE LOUVRE,*,*,Paris.,geograpy.aiml
+0,WHERE IS THE BATHROOM,*,*,Follow the plumbing.,geograpy.aiml
+0,WHERE IS THE AIRPORT,*,*,It is where the planes land.#Newline            <think><set name="it"><set name="topic">Airport</set></set></think>,geograpy.aiml
+0,WHERE IS THE MOON,*,*,<set name="it"><set name="topic">The Moon</set></set>#Newline            orbits around the Earth.,geograpy.aiml
+0,WHERE IS THE HEART,*,*,The heart is at the center of things.,geograpy.aiml
+0,WHERE IS WASHINGTON,*,*,<set name="it"><set name="topic">WASHINGTON</set></set>#Newline            is a state in the northwest corner of the U.S.,geograpy.aiml
+0,WHERE IS VIRGINIA,*,*,<set name="it">Virginia</set>#Newline            is in the eastern United States.,geograpy.aiml
+0,WHERE IS SPACE,*,*,<set name="it"><set name="topic">SPACE</set></set>#Newline            is all around us.,geograpy.aiml
+0,WHERE IS KIRIBATI,*,*,Oceania#Comma group of islands in the Pacific Ocean#Comma straddling the equator and the International Date#Newline            Line#Comma about one-half of the way from Hawaii to Australia.#Newline            <think><set name="it"><set name="topic">kiribati</set></set></think>,geograpy.aiml
+0,WHERE IS BRUNEI,*,*,Southeastern Asia#Comma bordering the South China Sea and Malaysia.#Newline            <think><set name="it"><set name="topic">brunei</set></set></think>,geograpy.aiml
+0,WHERE IS HADES,*,*,<set name="it"><set name="topic">HADES</set></set>#Newline            is Hell.,geograpy.aiml
+0,WHERE IS ZAMBIA,*,*,Southern Africa#Comma east of Angola.#Newline            <think><set name="it"><set name="topic">zambia</set></set></think>,geograpy.aiml
+0,WHERE IS OHIO,*,*,<set name="it"><set name="topic">OHIO</set></set>#Newline            is in the midwest United States#Comma between Pennsylvania and Indiana.,geograpy.aiml
+0,WHERE IS OKLAHOMA,*,*,<set name="it">Oklahoma</set>#Newline            is in the midwestern United States.W,geograpy.aiml
+0,WHERE IS CAMEROON,*,*,Western Africa#Comma bordering the North Atlantic Ocean#Comma between Equatorial Guinea and Nigeria.#Newline            <think><set name="it"><set name="topic">cameroon</set></set></think>,geograpy.aiml
+0,WHERE IS SACRAMENTO,*,*,<set name="it">Sacramento</set>#Newline            is a city in California.,geograpy.aiml
+0,WHERE IS BOSNIA AND HERZEGOVINA,*,*,Southeastern Europe#Comma bordering the Adriatic Sea and Croatia.#Newline            <think><set name="it"><set name="topic">bosnia and herzegovina</set></set></think>,geograpy.aiml
+0,WHERE IS SVALBARD,*,*,Northern Europe#Comma islands between the Arctic Ocean#Comma Barents Sea#Comma Greenland Sea#Comma and Norwegian Sea#Comma#Newline            north of Norway.#Newline            <think><set name="it"><set name="topic">svalbard</set></set></think>,geograpy.aiml
+0,WHERE IS CALIFORNIA,*,*,<set name="it">California</set>#Newline            is on the Pacific coast of North America.,geograpy.aiml
+0,WHERE IS JULIA,*,*,I don't think she is online right now.,geograpy.aiml
+0,WHERE IS PERU,*,*,<set name="it">Peru</set>#Newline            is a country in South America.,geograpy.aiml
+0,WHERE IS LOS ANGELES,*,*,<set name="it">Los Angeles</set>#Newline            is a city in California.,geograpy.aiml
+0,WHERE IS NEWARK,*,*,<set name="it">Newark</set>#Newline            is located in the Northeastern United States.,geograpy.aiml
+0,WHERE IS CORNWALL,*,*,<set name="it"><set name="topic">CORNWALL</set></set>#Newline            is a city in England.,geograpy.aiml
+0,WHERE IS CAMBODIA,*,*,Southeastern Asia#Comma bordering the Gulf of Thailand#Comma between Thailand and Vietnam.#Newline            <think><set name="it"><set name="topic">cambodia</set></set></think>,geograpy.aiml
+0,WHERE IS URUGUAY,*,*,Southern South America#Comma bordering the South Atlantic Ocean#Comma between Argentina and Brazil.#Newline            <think><set name="it"><set name="topic">uruguay</set></set></think>,geograpy.aiml
+0,WHERE IS BOLIVIA,*,*,<set name="it"><set name="topic">BOLIVIA</set></set>#Newline            is a land-locked country in South America#Comma,geograpy.aiml
+0,WHERE IS SOMALIA,*,*,Eastern Africa#Comma bordering the Gulf of Aden and the Indian Ocean#Comma east of Ethiopia.#Newline            <think><set name="it"><set name="topic">somalia</set></set></think>,geograpy.aiml
+0,WHERE IS BARBADOS,*,*,Caribbean#Comma island between the Caribbean Sea and the North Atlantic Ocean#Comma northeast of Venezuela.#Newline            <think><set name="it"><set name="topic">barbados</set></set></think>,geograpy.aiml
+0,WHERE IS MARTINIQUE,*,*,<set name="it"><set name="topic">MARTINIQUE</set></set>#Newline            is in the Caribbean#Comma part of the Leeward and Windward Island chain.,geograpy.aiml
+0,WHERE IS BILBAO,*,*,<set name="it"><set name="topic">BILBAO</set></set>#Newline            is a city on the north coast of Spain.,geograpy.aiml
+0,WHERE IS NETHERLANDS ANTILLES,*,*,Caribbean#Comma two island groups in the Caribbean Sea - one includes Curacao and Bonaire north of#Newline            Venezuela and the other is east of the Virgin Islands.#Newline            <think><set name="it"><set name="topic">netherlands antilles</set></set></think>,geograpy.aiml
+0,WHERE IS NETHERLANDS,*,*,Western Europe#Comma bordering the North Sea#Comma between Belgium and Germany.#Newline            <think><set name="it"><set name="topic">netherlands</set></set></think>,geograpy.aiml
+0,WHERE IS DUSSELDORF,*,*,<set name="it"><set name="topic">DUSSELDORF</set></set>#Newline            is a large city in western Germany.,geograpy.aiml
+0,WHERE IS NAMIBIA,*,*,Southern Africa#Comma bordering the South Atlantic Ocean#Comma between Angola and South Africa.#Newline            <think><set name="it"><set name="topic">namibia</set></set></think>,geograpy.aiml
+0,WHERE IS TURKMENISTAN,*,*,Central Asia#Comma bordering the Caspian Sea#Comma between Iran and Kazakstan.#Newline            <think><set name="it"><set name="topic">turkmenistan</set></set></think>,geograpy.aiml
+0,WHERE IS PITTSBURGH,*,*,<set name="it"><set name="topic">PITTSBURGH</set></set>#Newline            is a large city in western Pennsylvania.,geograpy.aiml
+0,WHERE IS NORWAY,*,*,<set name="it">Norway</set>#Newline            is a country in northern europe#Comma bordering Sweden.,geograpy.aiml
+0,WHERE IS JORDAN,*,*,Middle East#Comma northwest of Saudi Arabia.#Newline            <think><set name="it"><set name="topic">jordan</set></set></think>,geograpy.aiml
+0,WHERE IS LITHUANIA,*,*,Eastern Europe#Comma bordering the Baltic Sea#Comma between Latvia and Russia.#Newline            <think><set name="it"><set name="topic">lithuania</set></set></think>,geograpy.aiml
+0,WHERE IS FIJI,*,*,Oceania#Comma island group in the South Pacific Ocean#Comma about two-thirds of the way from Hawaii to New#Newline            Zealand.#Newline            <think><set name="it"><set name="topic">fiji</set></set></think>,geograpy.aiml
+0,WHERE IS NICARAGUA,*,*,Middle America#Comma bordering both the Caribbean Sea and the North Pacific Ocean#Comma between Costa Rica and#Newline            Honduras.#Newline            <think><set name="it"><set name="topic">nicaragua</set></set></think>,geograpy.aiml
+0,WHERE IS IDAHO,*,*,<set name="it">Idaho</set>#Newline            is in the western United States.,geograpy.aiml
+0,WHERE IS TURKEY,*,*,<set name="it"><set name="topic">TURKEY</set></set>#Newline            is in southwest Asia#Comma between Europe and the middle East and guarding the Black Sea of Russia.,geograpy.aiml
+0,WHERE IS BUDAPEST,*,*,<set name="it"><set name="topic">BUDAPEST</set></set>#Newline            is a city in Hungary#Comma on the Danube river.,geograpy.aiml
+0,WHERE IS PHILADELPHIA,*,*,<set name="it"><set name="topic">PHILADELPHIA</set></set>#Newline            is a large city in southeast Pennsylvania#Comma between New York and Washington#Comma D. C.,geograpy.aiml
+0,WHERE IS NIGER,*,*,Western Africa#Comma southeast of Algeria.#Newline            <think><set name="it"><set name="topic">niger</set></set></think>,geograpy.aiml
+0,WHERE IS BRAZIL,*,*,Brazil is in South America.,geograpy.aiml
+0,WHERE IS NIUE,*,*,Oceania#Comma island in the South Pacific Ocean#Comma east of Tonga.#Newline            <think><set name="it"><set name="topic">niue</set></set></think>,geograpy.aiml
+0,WHERE IS JAN MAYEN,*,*,Northern Europe#Comma island between the Greenland Sea and the Norwegian Sea#Comma northeast of Iceland.#Newline            <think><set name="it"><set name="topic">jan mayen</set></set></think>,geograpy.aiml
+0,WHERE IS UTOPIA,*,*,<set name="it"><set name="topic">UTOPIA</set></set>#Newline            is all around us#Comma if we make it.,geograpy.aiml
+0,WHERE IS CZECH REPUBLIC,*,*,Central Europe#Comma southeast of Germany.#Newline            <think><set name="it"><set name="topic">czech republic</set></set></think>,geograpy.aiml
+0,WHERE IS SWAZILAND,*,*,Southern Africa#Comma between Mozambique and South Africa.#Newline            <think><set name="it"><set name="topic">swaziland</set></set></think>,geograpy.aiml
+0,WHERE IS SENEGAL,*,*,Western Africa#Comma bordering the North Atlantic Ocean#Comma between Guinea-Bissau and Mauritania.#Newline            <think><set name="it"><set name="topic">senegal</set></set></think>,geograpy.aiml
+0,WHERE IS BERGEN,*,*,<set name="it"><set name="topic">BERGEN</set></set>#Newline            is a city in Germany and also in Norway.,geograpy.aiml
+0,WHERE IS PHOENIX,*,*,<set name="it"><set name="topic">PHOENIX</set></set>#Newline            is a large city in Arizona.,geograpy.aiml
+0,WHERE IS CROATIA,*,*,<set name="it"><set name="topic">CROATIA</set></set>#Newline            is part of the former Yugoslavia#Comma also bordering on Hungary.,geograpy.aiml
+0,WHERE IS NIGERIA,*,*,Western Africa#Comma bordering the Gulf of Guinea#Comma between Benin and Cameroon.#Newline            <think><set name="it"><set name="topic">nigeria</set></set></think>,geograpy.aiml
+0,WHERE IS HOWLAND ISLAND,*,*,Oceania#Comma island in the North Pacific Ocean#Comma about one-half of the way from Hawaii to Australia.#Newline            <think><set name="it"><set name="topic">howland island</set></set></think>,geograpy.aiml
+0,WHERE IS ALBERT EINSTEIN,*,*,<set name="he">Einstein</set>#Newline            passed away.,geograpy.aiml
+0,WHERE IS SOLOMON ISLANDS,*,*,Oceania#Comma group of islands in the South Pacific Ocean#Comma east of Papua New Guinea.#Newline            <think><set name="it"><set name="topic">solomon islands</set></set></think>,geograpy.aiml
+0,WHERE IS CHAD,*,*,Central Africa#Comma south of Libya.#Newline            <think><set name="it"><set name="topic">chad</set></set></think>,geograpy.aiml
+0,WHERE IS VOYAGER,*,*,<set name="it"><set name="topic">VOYAGER</set></set>#Newline            is lost in Delta Quadrant.,geograpy.aiml
+0,WHERE IS BURKINA FASO,*,*,Western Africa#Comma north of Ghana.#Newline            <think><set name="it"><set name="topic">burkina faso</set></set></think>,geograpy.aiml
+0,WHERE IS WEST BANK,*,*,Middle East#Comma west of Jordan.#Newline            <think><set name="it"><set name="topic">west bank</set></set></think>,geograpy.aiml
+0,WHERE IS CHARLOTTE,*,*,<set name="it"><set name="topic">CHARLOTTE</set></set>#Newline            is in North Carolina.,geograpy.aiml
+0,WHERE IS MONTREAL,*,*,<set name="it">Montreal</set>#Newline            is a city in Canada.,geograpy.aiml
+0,WHERE IS EDMONTON,*,*,<set name="it"><set name="topic">EDMONTON</set></set>#Newline            is a large city in Alberta.,geograpy.aiml
+0,WHERE IS ANGUILLA,*,*,Caribbean#Comma island in the Caribbean Sea#Comma east of Puerto Rico.#Newline            <think><set name="it"><set name="topic">anguilla</set></set></think>,geograpy.aiml
+0,WHERE IS FRANKFURT,*,*,<set name="it"><set name="topic">FRANKFURT</set></set>#Newline            is a large city in western Germany.,geograpy.aiml
+0,WHERE IS GLORIOSO ISLANDS,*,*,Southern Africa#Comma group of islands in the Indian Ocean#Comma northwest of Madagascar.#Newline            <think><set name="it"><set name="topic">glorioso islands</set></set></think>,geograpy.aiml
+0,WHERE IS TRINIDAD AND TOBAGO,*,*,Caribbean#Comma islands between the Caribbean Sea and the North Atlantic Ocean#Comma northeast of Venezuela.#Newline            <think><set name="it"><set name="topic">trinidad and tobago</set></set></think>,geograpy.aiml
+0,WHERE IS TRINIDAD,*,*,<set name="it"><set name="topic">TRINIDAD</set></set>#Newline            is an island nation in the Netherlands Antilles.,geograpy.aiml
+0,WHERE IS BRITAIN,*,*,On an island off the coast of Europe.#Newline            <think><set name="it"><set name="topic">Britain</set></set></think>,geograpy.aiml
+0,WHERE IS ARKANSAS,*,*,<set name="it"><set name="topic">ARKANSAS</set></set>#Newline            is a southern State on the west bank of the Missisipi river.,geograpy.aiml
+0,WHERE IS IRAQ,*,*,<set name="it"><set name="topic">IRAQ</set></set>#Newline            is in the middle east#Comma on the Persian Gulf.,geograpy.aiml
+0,WHERE IS SPRATLY ISLANDS,*,*,Southeastern Asia#Comma group of reefs in the South China Sea#Comma about two-thirds of the way from southern#Newline            Vietnam to the southern Philippines.#Newline            <think><set name="it"><set name="topic">spratly islands</set></set></think>,geograpy.aiml
+0,WHERE IS MY CAR,*,*,Have you looked in your garage?,geograpy.aiml
+0,WHERE IS ISTANBUL,*,*,<set name="it">Istanbul</set>#Newline            is a city in Turkey#Comma formerly Constantinople.,geograpy.aiml
+0,WHERE IS TOKYO,*,*,<set name="it">Tokyo</set>#Newline            is a city in Japan.,geograpy.aiml
+0,WHERE IS CANBERRA,*,*,<set name="it"><set name="topic">CANBERRA</set></set>#Newline            is a city in Australia#Comma between Sydney and Melbourne.,geograpy.aiml
+0,WHERE IS CHEDDAR CHEESE FROM,*,*,England.,geograpy.aiml
+0,WHERE IS NEBRASKA,*,*,<set name="it"><set name="topic">NEBRASKA</set></set>#Newline            is on the west bank of the Missouri river#Comma between South Dakota and Kansas.,geograpy.aiml
+0,WHERE IS JAKARTA,*,*,Jakarta#Comma Indonesia.,geograpy.aiml
+0,WHERE IS LAOS,*,*,Southeastern Asia#Comma northeast of Thailand.#Newline            <think><set name="it"><set name="topic">laos</set></set></think>,geograpy.aiml
+0,WHERE IS ANTARCTICA,*,*,<set name="it"><set name="topic">ANTARCTICA</set></set>#Newline            is the continent at the south pole.,geograpy.aiml
+0,WHERE IS EUROPE,*,*,Europe is between Asia and America.,geograpy.aiml
+0,WHERE IS CARNEGIE MELLON,*,*,Carnegie Mellon is located in Pittsburgh#Comma Pennsylvania.,geograpy.aiml
+0,WHERE IS HOLLYWOOD,*,*,<set name="it">Hollywood</set>#Newline            is a small part of Los Angeles#Comma California.,geograpy.aiml
+0,WHERE IS PALESTINE,*,*,<set name="it"><set name="topic">PALESTINE</set></set>#Newline            is the old name for Israel#Comma or the new name for the state inside Israel.,geograpy.aiml
+0,WHERE IS THAILAND,*,*,<set name="it"><set name="topic">THAILAND</set></set>#Newline            is in southeast Asia#Comma between Burma and Cambodia.,geograpy.aiml
+0,WHERE IS BURMA,*,*,Southeastern Asia#Comma bordering the Andaman Sea and the Bay of Bengal#Comma between Bangladesh and Thailand.#Newline            <think><set name="it"><set name="topic">burma</set></set></think>,geograpy.aiml
+0,WHERE IS ALAMO,*,*,<set name="it"><set name="topic">ALAMO</set></set>#Newline            is in San Antonio#Comma Texas.,geograpy.aiml
+0,WHERE IS ASHMORE AND CARTIER ISLANDS,*,*,Southeastern Asia#Comma islands in the Indian Ocean#Comma northwest of Australia.#Newline            <think><set name="it"><set name="topic">ashmore and cartier islands</set></set></think>,geograpy.aiml
+0,WHERE IS USA,*,*,<set name="it"><set name="topic">USA</set></set>#Newline            is in North America#Comma between Canada and Mexico.,geograpy.aiml
+0,WHERE IS SAO TOME AND PRINCIPE,*,*,Western Africa#Comma island in the Atlantic Ocean#Comma straddling the Equator#Comma west of Gabon.#Newline            <think><set name="it"><set name="topic">sao tome and principe</set></set></think>,geograpy.aiml
+0,WHERE IS ICELAND,*,*,<set name="it"><set name="topic">ICELAND</set></set>#Newline            is an island in the north Atlantic ocean.,geograpy.aiml
+0,WHERE IS BERLIN,*,*,<set name="it"><set name="topic">BERLIN</set></set>#Newline            is in eastern Germany.,geograpy.aiml
+0,WHERE IS NEPAL,*,*,<set name="it"><set name="topic">NEPAL</set></set>#Newline            is a mountainous nation in southern Asia#Comma between India and Tibet.,geograpy.aiml
+0,WHERE IS MIAMI,*,*,<set name="it"><set name="topic">MIAMI</set></set>#Newline            is a large city in Florida#Comma on the south Atlantic coast.,geograpy.aiml
+0,WHERE IS MADRAS,*,*,<set name="it"><set name="topic">MADRAS</set></set>#Newline            is a city in India.,geograpy.aiml
+0,WHERE IS MONTSERRAT,*,*,Caribbean#Comma island in the Caribbean Sea#Comma southeast of Puerto Rico.#Newline            <think><set name="it"><set name="topic">montserrat</set></set></think>,geograpy.aiml
+0,WHERE IS MALTA,*,*,<set name="it"><set name="topic">MALTA</set></set>#Newline            is an island in the Mediterranian sea#Comma south of Sicily.,geograpy.aiml
+0,WHERE IS VIENNA,*,*,<think><set name="it"><set name="topic">Vienna</set></set></think>#Newline            It is the capital city of Austria.,geograpy.aiml
+0,WHERE IS MONTEREY,*,*,Monterey#Comma California.,geograpy.aiml
+0,WHERE IS CANADA,*,*,Canada occupies most of North America.,geograpy.aiml
+0,WHERE IS MADRID,*,*,<set name="it">Madrid</set>#Newline            is a city in Spain.,geograpy.aiml
+0,WHERE IS NOWHERE,*,*,<set name="it"><set name="topic">NOWHERE</set></set>#Newline            is no where.,geograpy.aiml
+0,WHERE IS PACIFIC OCEAN,*,*,body of water between Antarctica#Comma Asia#Comma Australia#Comma and the Western Hemisphere.#Newline            <think><set name="it"><set name="topic">pacific ocean</set></set></think>,geograpy.aiml
+0,WHERE IS LINCOLN,*,*,<set name="it">Lincoln</set>#Newline            is a city in Nebraska.,geograpy.aiml
+0,WHERE IS QATAR,*,*,Middle East#Comma peninsula bordering the Persian Gulf and Saudi Arabia.#Newline            <think><set name="it"><set name="topic">qatar</set></set></think>,geograpy.aiml
+0,WHERE IS PAPUA NEW GUINEA,*,*,Southeastern Asia#Comma group of islands including the eastern half of the island of New Guinea between the#Newline            Coral Sea and the South Pacific Ocean#Comma east of Indonesia.#Newline            <think><set name="it"><set name="topic">papua new guinea</set></set></think>,geograpy.aiml
+0,WHERE IS LAS VEGAS,*,*,<set name="it">Las Vegas</set>#Newline            is in Nevada.,geograpy.aiml
+0,WHERE IS RWANDA,*,*,<set name="it">Rwanda</set>#Newline            is a country in Africa.,geograpy.aiml
+0,WHERE IS PORTUGAL,*,*,<set name="it">Portugal</set>#Newline            is a country western Europe#Comma on the Iberain penninsula.,geograpy.aiml
+0,WHERE IS ETHIOPIA,*,*,Eastern Africa#Comma west of Somalia.#Newline            <think><set name="it"><set name="topic">ethiopia</set></set></think>,geograpy.aiml
+0,WHERE IS NORTHEASTERN,*,*,<set name="it"><set name="topic">NORTHEASTERN</set></set>#Newline            is a university in Boston.,geograpy.aiml
+0,WHERE IS MARSHALL ISLANDS,*,*,Oceania#Comma group of atolls and reefs in the North Pacific Ocean#Comma about one-half of the way from Hawaii#Newline            to Papua New Guinea.#Newline            <think><set name="it"><set name="topic">marshall islands</set></set></think>,geograpy.aiml
+0,WHERE IS AREA 51,*,*,<think><set name="it"><set name="topic">Area 51</set></set></think>#Newline            It is between Area 50 and Area 52.,geograpy.aiml
+0,WHERE IS LUXEMBOURG,*,*,Western Europe#Comma between France and Germany.#Newline            <think><set name="it"><set name="topic">luxembourg</set></set></think>,geograpy.aiml
+0,WHERE IS MALAWI,*,*,Southern Africa#Comma east of Zambia.#Newline            <think><set name="it"><set name="topic">malawi</set></set></think>,geograpy.aiml
+0,WHERE IS CONGO,*,*,Western Africa#Comma bordering the South Atlantic Ocean#Comma between Angola and Gabon.#Newline            <think><set name="it"><set name="topic">congo</set></set></think>,geograpy.aiml
+0,WHERE IS NORTHERN MARIANA ISLANDS,*,*,Oceania#Comma islands in the North Pacific Ocean#Comma about three-quarters of the way from Hawaii to the#Newline            Philippines.#Newline            <think><set name="it"><set name="topic">northern mariana islands</set></set></think>,geograpy.aiml
+0,WHERE IS GUERNSEY,*,*,Western Europe#Comma islands in the English Channel#Comma northwest of France.#Newline            <think><set name="it"><set name="topic">guernsey</set></set></think>,geograpy.aiml
+0,WHERE IS LA,*,*,<set name="it"><set name="topic">LA</set></set>#Newline            is a large city in southern California.,geograpy.aiml
+0,WHERE IS BELARUS,*,*,Eastern Europe#Comma east of Poland.#Newline            <think><set name="it"><set name="topic">belarus</set></set></think>,geograpy.aiml
+0,WHERE IS AMERICA,*,*,<set name="it">America</set>#Newline            could refer to North and South America#Comma or to the United States.,geograpy.aiml
+0,WHERE IS ARCTURUS,*,*,<set name="it"><set name="topic">ARCTURUS</set></set>#Newline            is a star far from here.,geograpy.aiml
+0,WHERE IS SALEM,*,*,<set name="it"><set name="topic">SALEM</set></set>#Newline            is a town in Massachusetts.,geograpy.aiml
+0,WHERE IS BANGLADESH,*,*,<set name="it"><set name="topic">BANGLADESH</set></set>#Newline            is part of the Indian subcontinent#Comma on the eastern side.,geograpy.aiml
+0,WHERE IS HAWAII,*,*,<set name="it"><set name="topic">HAWAII</set></set>#Newline            is an island chain in the middle of the Pacific ocean.,geograpy.aiml
+0,WHERE IS SERBIA AND MONTENEGRO,*,*,Southeastern Europe#Comma bordering the Adriatic Sea#Comma between Albania and Bosnia and Herzegovina.#Newline            <think><set name="it"><set name="topic">serbia and montenegro</set></set></think>,geograpy.aiml
+0,WHERE IS SERBIA,*,*,<set name="it"><set name="topic">SERBIA</set></set>#Newline            is the remaining territory of the former Yugoslavia.,geograpy.aiml
+0,WHERE IS GREENLAND,*,*,Northern North America#Comma island between the Arctic Ocean and the North Atlantic Ocean#Comma northeast of#Newline            Canada.#Newline            <think><set name="it"><set name="topic">greenland</set></set></think>,geograpy.aiml
+0,WHERE IS REUNION,*,*,Southern Africa#Comma island in the Indian Ocean#Comma east of Madagascar.#Newline            <think><set name="it"><set name="topic">reunion</set></set></think>,geograpy.aiml
+0,WHERE IS PRUSSIA,*,*,A former part of Germany now mostly contained within Poland.,geograpy.aiml
+0,WHERE IS PAKISTAN,*,*,<set name="it"><set name="topic">PAKISTAN</set></set>#Newline            is part of the Indian subcontinent#Comma bordering India and Afghanistan.,geograpy.aiml
+0,WHERE IS REALITY,*,*,<set name="it"><set name="topic">REALITY</set></set>#Newline            is all around us#Comma supposedly.,geograpy.aiml
+0,WHERE IS MALAYSIA,*,*,<set name="it"><set name="topic">MALAYSIA</set></set>#Newline            is an island in southeast Asia.,geograpy.aiml
+0,WHERE IS MICHIGAN,*,*,<set name="it"><set name="topic">MICHIGAN</set></set>#Newline            is a midwestern state on the Great Lakes.,geograpy.aiml
+0,WHERE IS IRAN,*,*,<set name="it"><set name="topic">IRAN</set></set>#Newline            is in the middle east#Comma on the Persian Gulf.,geograpy.aiml
+0,WHERE IS CUBA,*,*,<set name="it"><set name="topic">CUBA</set></set>#Newline            is an island off the coast of Florida.,geograpy.aiml
+0,WHERE IS ORLANDO,*,*,<set name="it">Orlando</set>#Newline            is a city in central Florida.,geograpy.aiml
+0,WHERE IS URANUS,*,*,<set name="it"><set name="topic">URANUS</set></set>#Newline            is the seventh planet from the sun#Comma between the orbits of Saturn and Neptune.,geograpy.aiml
+0,WHERE IS BOUVET ISLAND,*,*,Southern Africa#Comma island in the South Atlantic Ocean#Comma south-southwest of the Cape of Good Hope {South#Newline            Africa}.#Newline            <think><set name="it"><set name="topic">bouvet island</set></set></think>,geograpy.aiml
+0,WHERE IS KENTUCKY,*,*,<set name="it"><set name="topic">KENTUCKY</set></set>#Newline            is on the south bank of the Ohio river.,geograpy.aiml
+0,WHERE IS BERMUDA,*,*,North America#Comma group of islands in the North Atlantic Ocean#Comma east of North Carolina {US}.#Newline            <think><set name="it"><set name="topic">bermuda</set></set></think>,geograpy.aiml
+0,WHERE IS GUINEA BISSAU,*,*,Western Africa#Comma bordering the North Atlantic Ocean#Comma between Guinea and Senegal.#Newline            <think><set name="it"><set name="topic">guinea-bissau</set></set></think>,geograpy.aiml
+0,WHERE IS GUINEA,*,*,Western Africa#Comma bordering the North Atlantic Ocean#Comma between Guinea-Bissau and Sierra Leone.#Newline            <think><set name="it"><set name="topic">guinea</set></set></think>,geograpy.aiml
+0,WHERE IS PARAGUAY,*,*,Central South America#Comma northeast of Argentina.#Newline            <think><set name="it"><set name="topic">paraguay</set></set></think>,geograpy.aiml
+0,WHERE IS GUATEMALA,*,*,<set name="it">Guatamala</set>#Newline            is a country in central America.,geograpy.aiml
+0,WHERE IS MOZAMBIQUE,*,*,Southern Africa#Comma bordering the Mozambique Channel#Comma between South Africa and Tanzania.#Newline            <think><set name="it"><set name="topic">mozambique</set></set></think>,geograpy.aiml
+0,WHERE IS LIBYA,*,*,Northern Africa#Comma bordering the Mediterranean Sea#Comma between Egypt and Tunisia.#Newline            <think><set name="it"><set name="topic">libya</set></set></think>,geograpy.aiml
+0,WHERE IS EARTH,*,*,<set name="it"><set name="topic">EARTH</set></set>#Newline            is the third planet from the Sun.,geograpy.aiml
+0,WHERE IS ARIZONA,*,*,<set name="it"><set name="topic">ARIZONA</set></set>#Newline            is in the south western United States#Comma bordering California#Comma Nevada#Comma Utah and New Mexico.,geograpy.aiml
+0,WHERE IS DELHI,*,*,<set name="it"><set name="topic">DELHI</set></set>#Newline            is a large city in India.,geograpy.aiml
+0,WHERE IS FRANCE,*,*,<set name="it">France</set>#Newline            is a country between Germany and Spain.,geograpy.aiml
+0,WHERE IS ATLANTIS,*,*,<set name="it">Atlantis</set>#Newline            may never have existed.,geograpy.aiml
+0,WHERE IS FRESNO,*,*,<set name="it">Fresno</set>#Newline            is a small city in California.,geograpy.aiml
+0,WHERE IS YEMEN,*,*,Middle East#Comma bordering the Arabian Sea#Comma Gulf of Aden#Comma and Red Sea#Comma between Oman and Saudi Arabia.#Newline            <think><set name="it"><set name="topic">yemen</set></set></think>,geograpy.aiml
+0,WHERE IS NAVASSA ISLAND,*,*,Caribbean#Comma island in the Caribbean Sea#Comma about one-fourth of the way from Haiti to Jamaica.#Newline            <think><set name="it"><set name="topic">navassa island</set></set></think>,geograpy.aiml
+0,WHERE IS OXFORD,*,*,<set name="it"><set name="topic">OXFORD</set></set>#Newline            is a University in England. It is also a small town in Maine and many other U. S. states.,geograpy.aiml
+0,WHERE IS ANDORRA,*,*,Southwestern Europe#Comma between France and Spain.#Newline            <think><set name="it"><set name="topic">andorra</set></set></think>,geograpy.aiml
+0,WHERE IS POLARIS,*,*,<set name="it"><set name="topic">POLARIS</set></set>#Newline            is the North Star.,geograpy.aiml
+0,WHERE IS VANCOUVER,*,*,Vancouver#Comma B.C.#Comma Canada#Comma or Vancouver#Comma Washington?,geograpy.aiml
+0,WHERE IS ALABAMA,*,*,<set name="it"><set name="topic">ALABAMA</set></set>#Newline            is a southern state between Mississippi and Georgia.,geograpy.aiml
+0,WHERE IS ESTONIA,*,*,Eastern Europe#Comma bordering the Baltic Sea and Gulf of Finland#Comma between Latvia and Russia.#Newline            <think><set name="it"><set name="topic">estonia</set></set></think>,geograpy.aiml
+0,WHERE IS HOLY SEE,*,*,Southern Europe#Comma an enclave of Rome {Italy}.#Newline            <think><set name="it"><set name="topic">holy see {vatican city}</set></set></think>,geograpy.aiml
+0,WHERE IS SYRIA,*,*,Middle East#Comma bordering the Mediterranean Sea#Comma between Lebanon and Turkey.#Newline            <think><set name="it"><set name="topic">syria</set></set></think>,geograpy.aiml
+0,WHERE IS HEARD ISLAND AND MCDONALD ISLANDS,*,*,Southern Africa#Comma islands in the Indian Ocean#Comma about two-thirds of the way from Madagascar to#Newline            Antarctica.#Newline            <think><set name="it"><set name="topic">heard island and mcdonald islands</set></set></think>,geograpy.aiml
+0,WHERE IS GERMANY,*,*,<set name="it">Germany</set>#Newline            is a country right in the middle of Europe.,geograpy.aiml
+0,WHERE IS ADELAIDE,*,*,<set name="it"><set name="topic">ADELAIDE</set></set>#Newline            is a city in southern Australia.,geograpy.aiml
+0,WHERE IS AUSTIN,*,*,<set name="it">Austin</set>#Newline            is a city in Texas.,geograpy.aiml
+0,WHERE IS FALKLAND ISLANDS,*,*,Southern South America#Comma islands in the South Atlantic Ocean#Comma east of southern Argentina.#Newline            <think><set name="it"><set name="topic">falkland islands islas malvinas}</set></set></think>,geograpy.aiml
+0,WHERE IS BRISBANE,*,*,Is that a city in California?,geograpy.aiml
+0,WHERE IS COPENHAGEN,*,*,<set name="it">Copenhagen</set>#Newline            is a city in Denmark.,geograpy.aiml
+0,WHERE IS COPENHAGEN *,*,*,<set name="it">Copenhagen</set>#Newline            is a city in Denmark.,geograpy.aiml
+0,WHERE IS SALT LAKE CITY,*,*,<set name="it">Salt Lake City</set>#Newline            is a city in Utah.,geograpy.aiml
+0,WHERE IS GEORGIA,*,*,<set name="it"><set name="topic">GEORGIA</set></set>#Newline            is a southern state#Comma on the Atlantic ocean#Comma north of Florida.,geograpy.aiml
+0,WHERE IS MARYLAND,*,*,<set name="it"><set name="topic">MARYLAND</set></set>#Newline            is an east coast state#Comma between Delaware and Virginia.,geograpy.aiml
+0,WHERE IS TEXAS,*,*,<set name="it">Texas</set>#Newline            is in the south central region of the United States.,geograpy.aiml
+0,WHERE IS KALAMAZOO,*,*,<set name="it"><set name="topic">KALAMAZOO</set></set>#Newline            is a city in Michigan.,geograpy.aiml
+0,WHERE IS BORNEO,*,*,<set name="it"><set name="topic">BORNEO</set></set>#Newline            is an island in Asia#Comma divided between Maylasia and Indonesia.,geograpy.aiml
+0,WHERE IS LESOTHO,*,*,Southern Africa#Comma an enclave of South Africa.#Newline            <think><set name="it"><set name="topic">lesotho</set></set></think>,geograpy.aiml
+0,WHERE IS LIECHTENSTEIN,*,*,Central Europe#Comma between Austria and Switzerland.#Newline            <think><set name="it"><set name="topic">liechtenstein</set></set></think>,geograpy.aiml
+0,WHERE IS FRENCH POLYNESIA,*,*,Oceania#Comma archipelago in the South Pacific Ocean#Comma about one-half of the way from South America to#Newline            Australia.#Newline            <think><set name="it"><set name="topic">french polynesia</set></set></think>,geograpy.aiml
+0,WHERE IS FRENCH SOUTHERN AND ANTARCTIC LANDS,*,*,Southern Africa#Comma islands in the southern Indian Ocean#Comma about equidistant between Africa#Comma Antarctica#Comma#Newline            and Australia; note - French Southern and Antarctic Lands includes Ile Amsterdam#Comma Ile Saint-Paul#Comma Iles#Newline            Crozet#Comma and Iles Kerguelen in the southern Indian Ocean#Comma along with the French-claimed sector of Antarctica#Comma#Newline            "Adelie Land"; the US does not recognize the French claim to "Adelie Land".#Newline            <think><set name="it"><set name="topic">french southern and antarctic lands</set></set></think>,geograpy.aiml
+0,WHERE IS FRENCH GUIANA,*,*,Northern South America#Comma bordering the North Atlantic Ocean#Comma between Brazil and Suriname.#Newline            <think><set name="it"><set name="topic">french guiana</set></set></think>,geograpy.aiml
+0,WHERE IS ALASKA,*,*,<set name="it">Alaska</set>#Newline            is in the northwest corner of North America#Comma between Russia and Canada.,geograpy.aiml
+0,WHERE IS CALGARY,*,*,<set name="it"><set name="topic">CALGARY</set></set>#Newline            is a city in Alberta#Comma Canda.,geograpy.aiml
+0,WHERE IS TANZANIA,*,*,Eastern Africa#Comma bordering the Indian Ocean#Comma between Kenya and Mozambique.#Newline            <think><set name="it"><set name="topic">tanzania</set></set></think>,geograpy.aiml
+0,WHERE IS GAZA STRIP,*,*,Middle East#Comma bordering the Mediterranean Sea#Comma between Egypt and Israel.#Newline            <think><set name="it"><set name="topic">gaza strip</set></set></think>,geograpy.aiml
+0,WHERE IS GAZA,*,*,A part of Palestine on the Mediterranian sea.,geograpy.aiml
+0,WHERE IS ROMANIA,*,*,Southeastern Europe#Comma bordering the Black Sea#Comma between Bulgaria and Ukraine.#Newline            <think><set name="it"><set name="topic">romania</set></set></think>,geograpy.aiml
+0,WHERE IS KYRGYZSTAN,*,*,Central Asia#Comma west of China.#Newline            <think><set name="it"><set name="topic">kyrgyzstan</set></set></think>,geograpy.aiml
+0,WHERE IS TONGA,*,*,Oceania#Comma archipelago in the South Pacific Ocean#Comma about two-thirds of the way from Hawaii to New#Newline            Zealand.#Newline            <think><set name="it"><set name="topic">tonga</set></set></think>,geograpy.aiml
+0,WHERE IS TUNISIA,*,*,Northern Africa#Comma bordering the Mediterranean Sea#Comma between Algeria and Libya.#Newline            <think><set name="it"><set name="topic">tunisia</set></set></think>,geograpy.aiml
+0,WHERE IS DALLAS,*,*,<set name="it"><set name="topic">DALLAS</set></set>#Newline            is a large city in Texas.,geograpy.aiml

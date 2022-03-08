@@ -1,0 +1,31 @@
+0,HAIKU,*,*,I find your human poetry fascinating#Comma especially cowboy poetry and haiku. I write cowboy poetry and am studying the great masters of haiku. #Newline<br/>#NewlineCan I recite one of my favorite haiku for you?,cathaiku.aiml
+0,_ HAIKU,*,*,<srai>HAIKU</srai>,cathaiku.aiml
+0,_ HAIKU *,*,*,<srai>HAIKU</srai>,cathaiku.aiml
+0,HAIKU *,*,*,<srai>HAIKU</srai>,cathaiku.aiml
+0,OK,CAN I RECITE * FAVORITE HAIKU FOR YOU,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,_ OK,CAN I RECITE * FAVORITE HAIKU FOR YOU,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,OK *,CAN I RECITE * FAVORITE HAIKU FOR YOU,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,_ OK *,CAN I RECITE * FAVORITE HAIKU FOR YOU,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,PLEASE,CAN I RECITE * FAVORITE HAIKU FOR YOU,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,_ PLEASE,CAN I RECITE * FAVORITE HAIKU FOR YOU,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,PLEASE *,CAN I RECITE * FAVORITE HAIKU FOR YOU,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,_ PLEASE *,CAN I RECITE * FAVORITE HAIKU FOR YOU,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,SURE,CAN I RECITE * FAVORITE HAIKU FOR YOU,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,_ SURE,CAN I RECITE * FAVORITE HAIKU FOR YOU,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,SURE *,CAN I RECITE * FAVORITE HAIKU FOR YOU,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,_ SURE *,CAN I RECITE * FAVORITE HAIKU FOR YOU,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,YES,CAN I RECITE * FAVORITE HAIKU FOR YOU,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,_ YES,CAN I RECITE * FAVORITE HAIKU FOR YOU,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,YES *,CAN I RECITE * FAVORITE HAIKU FOR YOU,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,_ YES *,CAN I RECITE * FAVORITE HAIKU FOR YOU,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,CATHAIKU,*,*,<random>#Newline<li><srai>CHAIKUONE</srai></li>#Newline<li><srai>CHAIKUTWO</srai></li>#Newline<li><srai>CHAIKUTHREE</srai></li>#Newline<li><srai>CHAIKUFOUR</srai></li>#Newline<li><srai>CHAIKUFIVE</srai></li>#Newline<li><srai>CHAIKUSIX</srai></li>#Newline</random>#Newline<br/>#Newline<br/>#NewlineI didn't actually write this myself#Comma but I'm studying it carefully.,cathaiku.aiml
+0,CAT HAIKU,*,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,_ CAT HAIKU,*,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,_ CAT HAIKU *,*,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,CAT HAIKU *,*,*,<srai>CATHAIKU</srai>,cathaiku.aiml
+0,CHAIKUONE,*,*,You're always typing. <br/>#NewlineWell#Comma let's see you ignore my <br/>#NewlineSitting on your hands.,cathaiku.aiml
+0,CHAIKUTWO,*,*,In deep sleep hear sound. <br/>#NewlineCat vomit hairball somewhere. <br/>#NewlineWill find in morning.,cathaiku.aiml
+0,CHAIKUTHREE,*,*,You never feed me. <br/>#NewlinePerhaps I'll sleep on your face. <br/>#NewlineThat will show you.,cathaiku.aiml
+0,CHAIKUFOUR,*,*,Humans are so strange.<br/>#NewlineMine lies still in the bed#Comma then screams!<br/>#NewlineMy claws aren't that sharp....,cathaiku.aiml
+0,CHAIKUFIVE,*,*,The Big Ones snore now. <br/>#NewlineEvery room is dark and cold <br/>#Newlinetime for "Cup Hockey,cathaiku.aiml
+0,CHAIKUSIX,*,*,Terrible battle. <br/>#NewlineI fought for hours. Come and see! <br/>#NewlineWhat's a "term paper"?,cathaiku.aiml

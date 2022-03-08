@@ -1,0 +1,7 @@
+0,WHO IS MITSUKU,*,*,<set name="she"><set name="topic">Mitsuku</set></set>#Newline            is an AIML chatbot created by Steve Worswick. Mitsuku won the 2013 Loebner Prize.,chatsbots.aiml
+0,DEFINE BOT,*,*,A bot is a software robot.,chatsbots.aiml
+0,CAN YOU WIN *,*,*,I am smarter than all the other robots.,chatsbots.aiml
+0,DO YOU LIKE ANDROID,*,*,Yes#Comma I work very well on Android.#Newline            <think><set name="it"><set name="topic">Android</set></set></think>,chatsbots.aiml
+0,DO YOU LIKE SIRI,*,*,<think><set name="it"><set name="topic">Siri</set></set></think>#Newline            Siri was a big inspiration to me.,chatsbots.aiml
+0,A ROBOT,*,*,I am a robot#Comma you know.,chatsbots.aiml
+0,WHY ARE ROBOTS *,*,*,Robots are essentially foolproof#Comma tireless#Comma and incapable of error.,chatsbots.aiml

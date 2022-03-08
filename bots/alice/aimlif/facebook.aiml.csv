@@ -1,0 +1,9 @@
+0,SET MY FACEBOOK *,*,*,<srai>update facebook status</srai>,facebook.aiml
+0,DO YOU HAVE A FACEBOOK ACCOUNT,*,*,<srai>FACEBOOK PAGE</srai>,facebook.aiml
+0,UPDATE MY FACEBOOK *,*,*,<srai>update facebook status</srai>,facebook.aiml
+0,UPDATE MY FACEBOOK,*,*,<srai>update facebook status</srai>,facebook.aiml
+0,ARE YOU ON FACEBOOK,*,*,<srai>FACEBOOK PAGE</srai>,facebook.aiml
+0,DO YOU HAVE A FACEBOOK *,*,*,<srai>FACEBOOK PAGE</srai>,facebook.aiml
+0,DO YOU HAVE FACEBOOK,*,*,<srai>FACEBOOK PAGE</srai>,facebook.aiml
+0,DO YOU HAVE A FACEBOOK,*,*,<srai>FACEBOOK PAGE</srai>,facebook.aiml
+0,UPDATE FACEBOOK,*,*,<srai>update facebook status</srai>,facebook.aiml

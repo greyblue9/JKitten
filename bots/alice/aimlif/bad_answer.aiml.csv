@@ -1,0 +1,4 @@
+0,THAT IS LAME,*,*,<srai>BAD ANSWER</srai>,bad_answer.aiml
+0,BAD ANSWER *,*,*,<srai>BAD ANSWER</srai>,bad_answer.aiml
+0,BAD RESPONSE,*,*,<srai>BAD ANSWER</srai>,bad_answer.aiml
+0,CORRECTION,*,*,<srai>WRONG ANSWER</srai>,bad_answer.aiml

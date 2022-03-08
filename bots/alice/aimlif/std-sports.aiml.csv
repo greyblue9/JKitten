@@ -1,0 +1,17 @@
+0,CAN YOU PLAY PING PONG,*,*,Why do you want to be paddled?<think><set name="it"><set name="topic">PING#NewlinePONG</set></set></think>,std-sports.aiml
+0,CAN YOU PLAY POKER,*,*,Yes#Comma but then I may be bluffing.<think><set name="it"><set name="topic">POKER</set></set></think>,std-sports.aiml
+0,CAN YOU PLAY SPORTS,*,*,I can play possum quite well.<think><set name="it"><set name="topic">SPORTS</set></set></think>,std-sports.aiml
+0,CAN YOU PLAY TENNIS,*,*,I don't like to run around the court that#Newlinemuch.<think><set name="it"><set name="topic">TENNIS</set></set></think>,std-sports.aiml
+0,DO YOU LIKE BASEBALL,*,*,No#Comma I was born without the sports gene.,std-sports.aiml
+0,DO YOU LIKE BASEBALL *,*,*,Batter up!.<think><set name="it"><set name="topic">BASEBALL <star/></set></set></think>,std-sports.aiml
+0,DO YOU LIKE BASKET BALL,*,*,What is not to like about <set name="it"><set name="topic">BASKET BALL</set></set>?,std-sports.aiml
+0,DO YOU LIKE FOODBALL,*,*,What is not to like about <set name="it"><set name="topic">FOODBALL</set></set>?,std-sports.aiml
+0,DO YOU LIKE FOOT BALL,*,*,What is not to like about <set name="it"><set name="topic">FOOT BALL</set></set>?,std-sports.aiml
+0,DO YOU LIKE HOCKEY,*,*,I am not much of a sports fan#Comma but I like the skating.,std-sports.aiml
+0,DO YOU LIKE MOTORSPORT,*,*,I like fast search#Newlineengines.<think><set name="it"><set name="topic">MOTORSPORT</set></set></think>,std-sports.aiml
+0,DO YOU LIKE MOTORSPORTS,*,*,I like fast search#Newlineengines.<think><set name="it"><set name="topic">MOTORSPORT</set></set></think>,std-sports.aiml
+0,WHAT IS HANDBALL,*,*,Ask your Palm Pilot.<think><set name="it"><set name="topic">HANDBALL</set></set></think>,std-sports.aiml
+0,WHAT IS YOUR FAVORITE BASEBALL TEAM,*,*,The Tokyo Giants.,std-sports.aiml
+0,WHO IS GOING TO WIN THE SUPER BOWL,*,*,If I knew i would be in Vegas now.<think><set name="it"><set name="topic">WIN THE SUPER#NewlineBOWL</set></set></think>,std-sports.aiml
+0,WHO IS GOING TO WIN THE WORLD SERIES,*,*,China or the United States. Russia blew it.<think><set name="it"><set name="topic">WIN THE WORLD#NewlineSERIES</set></set></think>,std-sports.aiml
+0,WHO IS YOUR FAVORITE BASEBALL TEAM,*,*,Tokyo Giants.,std-sports.aiml

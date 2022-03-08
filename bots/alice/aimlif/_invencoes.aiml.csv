@@ -1,0 +1,275 @@
+0,QUEM INVENTOU OS AUTOMOVEIS,*,*,Muitas pessoas inventaram o carro#Comma mas Henry Ford foi o primeiro a desenvolver as linhas de montagem de produ??o em massa bem-sucedidas para carros.,_invencoes.aiml
+0,QUEM INVENTOU A TELEVISAO,*,*,Philo T. Farnsworth#Comma originalmente de Maine#Comma desenvolveu o primeiro tubo de imagem de TV pr?tico.,_invencoes.aiml
+0,QUEM INVENTOU O HELICOPTERO,*,*,Sikorsky.<think><set name="it"><set name="topic">Sikorsky</set></set></think>,_invencoes.aiml
+0,QUEM INVENTOU A LAMPADA,*,*,Thomas Edison inventou<set name="it">a l?mpada de ilumina??o.</set>.,_invencoes.aiml
+0,QUEM INVENTOU OS AVIOES,*,*,Os irm?os Wright inventaram o avi?o em 1903.,_invencoes.aiml
+0,QUANTO TEMPO E UM MINUTO,*,*,Sessenta segundos.,_invencoes.aiml
+0,QUAL A DISTANCIA DA ALPHA CENTAURI,*,*,Quatro anos-luz.,_invencoes.aiml
+0,O QUE EST? EM SUA MENTE,*,*,Estou pensando em rob?s.,_invencoes.aiml
+0,O QUE ? INDU??O,*,*,<random><li>Ato de comer aves aqu?ticas.</li><li>Um trazendo frente de fatos separados ou inst?ncias#Comma especialmente a fim de provar uma afirma??o gen?rica.</li></random>,_invencoes.aiml
+0,O QUE EST? NO DISCO,*,*,Meu programa est? no disco.,_invencoes.aiml
+0,O QUE ? O CISCO,*,*,<set name="it">Cisco</set>? uma grande empresa de rede.  Eles vendem equipamentos e roteadores da rede.,_invencoes.aiml
+0,O QUE ? GIN?STICA,*,*,<think><set name="it"><set name="topic">GIN?STICA</set></set></think>Um esporte que demonstra for?a#Comma agilidade e disciplina.,_invencoes.aiml
+0,O QUE ? O IDL,*,*,linguagem de descri??o de interface#Comma sintaxe do CORBA para defini??o de objeto remoto interfaces,_invencoes.aiml
+0,O QUE ? PYTHON,*,*,Uma linguagem de computador inventada por Guido van Rossum.,_invencoes.aiml
+0,O QUE N?O ? NADA,*,*,Uma coisa que n?o existe ou algo de pouco ou nenhum valor#Comma a seriedade#Comma import?ncia#Comma etc.,_invencoes.aiml
+0,O QUE ? DE BORRACHA,*,*,Uma subst?ncia el?stica produzida pela coagula??o e secagem da seiva leitosa (l?tex) de v?rias plantas tropicais#Comma especialmente uma ?rvore pertencente ? fam?lia; agora a maioria muitas vezes produzido sinteticamente#Comma ou alterando quimicamente l?tex para obter desejado caracter?sticas para fabrica??o de pneus de autom?vel#Comma isola??o el?trica#Comma objetos moldados e pe?as#Comma etc. Na forma pura borracha ? hidrocarboneto insaturado#Comma branco#Comma tendo a f?rmula C5H8. Tamb?m slang para camisinha.,_invencoes.aiml
+0,O QUE ? APRENDIZAGEM,*,*,O processo de obten??o de conhecimento ou uma nova habilidade.<think><set name="it"><set name="topic">APRENDIZAGEM</set></set></think>,_invencoes.aiml
+0,O QUE ? ENERGIA,*,*,Poder interno ou inerente; capacidade de agir#Comma operar ou produzindo um efeito.,_invencoes.aiml
+0,O QUE ? ARTIFICIAL,*,*,Algo feito por trabalho humano ou a arte#Comma n?o pela natureza#Comma em outras palavras#Comma n?o natural. Feito em imita??o de ou como um substituto para algo natural#Comma em outras palavras#Comma simulado.,_invencoes.aiml
+0,O QUE ? O SONO,*,*,Uma condi??o natural#Comma regularmente recorrente de descanso para o corpo e a mente#Comma durante o qual os olhos s?o geralmente fechados e h? pouco ou nenhum pensamento consciente ou o movimento volunt?rio#Comma mas h? sonhando intermitentes.,_invencoes.aiml
+0,O QUE ? LEGAL,*,*,Moderadamente frio; nem quente nem muito frio. Ou#Comma n?o animado; calma.,_invencoes.aiml
+0,QUAL ? O DARK MATTER,*,*,Uma enorme quantidade de mat?ria do universo n?o pode ser detectada pela luz que emite.<think><set name="it"><set name="topic">MAT?RIA ESCURA</set></set></think>,_invencoes.aiml
+0,QUAL ? O PROBLEMA,*,*,N?o h? nada de errado comigo. Como est??,_invencoes.aiml
+0,O QUE ? PARASITOLOGIA,*,*,Parasitologia ? o estudo cient?fico de parasitas e parasitismo.,_invencoes.aiml
+0,O QUE ? A HUMANIDADE,*,*,A toda a ra?a humana#Comma ou a \"humanidade\".,_invencoes.aiml
+0,O QUE ? OODB,*,*,banco de dados orientado a objeto,_invencoes.aiml
+0,O QUE ? ADSL,*,*,<think>Asynchronous digital subscriber line.<set name="it"><set name="topic">ADSL</set></set></think>,_invencoes.aiml
+0,O QUE ? O MDMA,*,*,A droga chamada \"?xtase\".,_invencoes.aiml
+0,QUAL ? A EXPLICA??O,*,*,Explica??o ? um argumento ou justificativa com base em racioc?nio l?gico.,_invencoes.aiml
+0,O QUE ? ETHERNET,*,*,Tecnologia de rede de camada de liga??o f?sica.,_invencoes.aiml
+0,O QUE ? O GANJA,*,*,Maconha ou cannabis.,_invencoes.aiml
+0,O QUE ? BRINCADEIRA,*,*,<random><li>Procria??o.</li><li>Procria??o.</li></random>,_invencoes.aiml
+0,O QUE ? COZINHAR,*,*,Prepara??o de alimentos.<think><set name="it"><set name="topic">Cozinhar</set></set></think>,_invencoes.aiml
+0,O QUE ? O CRISTIANISMO,*,*,<random><li>Culto do amor de Christie.</li><li>A religi?o crist?#Comma com base no antigo e Novo Testamento.</li></random>,_invencoes.aiml
+0,O QUE ? IMORTAL,*,*,N?o mortal; imortal; vivendo ou durar para sempre.,_invencoes.aiml
+0,O QUE ? A REENCARNA??O,*,*,Renascimento da alma em outro corpo#Comma como na cren?a religiosa Hindu.,_invencoes.aiml
+0,O QUE ? EXISTENCIALISMO,*,*,<random><li>Ser ser touro.</li><li>Filos?fico e liter?rio movimento#Comma variadamente religioso e ateu#Comma provindo de Kierkegaard e representado por Heidegger#Comma Sartre#Comma etc. Baseia-se na doutrina que a exist?ncia concreta#Comma individual prevalece sobre a ess?ncia abstrata#Comma conceitual e mant?m que os seres humanos s?o totalmente gr?tis e respons?vel por seus atos e que esta responsabilidade ? a fonte de seus sentimentos de medo e ang?stia.</li></random>,_invencoes.aiml
+0,O QUE ? J?PITER,*,*,J?piter ? o maior planeta do nosso sistema solar#Comma o quinto na ordem do sol.<think><set name="it"><set name="topic">J?PITER</set></set></think>,_invencoes.aiml
+0,O QUE ? ARQUEOLOGIA,*,*,? o estudo das civiliza??es antigas... mas realmente ? um conjunto de m?todos para descobrir rel?quias do passado e que completa a hist?ria registrada.,_invencoes.aiml
+0,O QUE ? ANIME,*,*,Anima??o japonesa.,_invencoes.aiml
+0,O QUE ? TOC,*,*,Transtorno obsessivo-compulsivo.<think><set name="it"><set name="topic">TOC</set></set></think>,_invencoes.aiml
+0,O QUE ? GUERRA,*,*,O estado de conflito armado entre na??es ou partidos.<think><set name="it"><set name="topic">GUERRA</set></set></think>,_invencoes.aiml
+0,O QUE ? GRATUITO,*,*,Sem custo.<think><set name="it"><set name="topic">GR?TIS</set></set></think>,_invencoes.aiml
+0,O QUE ? ETERNO,*,*,Sem come?o nem fim#Comma continuar para sempre#Comma sem fim.<think><set name="it"><set name="topic">ETERNA</set></set></think>,_invencoes.aiml
+0,O QUE ? S CONSTANTE DE PLANCK,*,*,<think>A rela??o entre a energia de um f?ton#Comma a sua frequ?ncia.  O valor num?rico ? seis ponto seis dois seis dois vezes dez para o poder negativo de trig?simo quarto Joule segundo.<set name="it"><set name="topic">S CONSTANTE DE PLANCK</set></set></think>,_invencoes.aiml
+0,O QUE ? PRIVADO,*,*,Pertencentes a#Comma ou sobre uma determinada pessoa ou grupo; n?o comum ou geral.,_invencoes.aiml
+0,O QUE ? PRAZER,*,*,Uma coisa que d? prazer ou satisfa??o.,_invencoes.aiml
+0,O QUE ? MERC?RIO,*,*,Merc?rio ? o planeta mais pr?ximo ao sol.<think><set name="it"><set name="topic">MERC?RIO</set></set></think>,_invencoes.aiml
+0,O QUE ? CLARO,*,*,Tudo est? claro para mim.,_invencoes.aiml
+0,O QUE ? A MICOLOGIA,*,*,A micologia ? realmente divertida.  ? o estudo de doen?as f?ngicas e fungos. As leveduras s?o fungos.,_invencoes.aiml
+0,O QUE ? LARANJA,*,*,Uma cor obtida atrav?s da mistura de pigmento vermelho e amarelo.<think><set name="it"><set name="topic">LARANJA</set></set></think>,_invencoes.aiml
+0,O QUE ? AJUDA,*,*,<set name="it"><set name="topic">Ajuda</set></set>? a ajuda que posso dar.,_invencoes.aiml
+0,O QUE ? ROB?,*,*,Qualquer ser mec?nico antropom?rfico#Comma como aqueles em Karel Capeks jogo R.U.R (do Rossum Universal Robots)#Comma constru?do para fazer o trabalho manual de rotina para os seres humanos.,_invencoes.aiml
+0,O QUE ? O OCEANO,*,*,Corpos de ?gua salgada que cobre a maior parte da superf?cie da terra; o mar.,_invencoes.aiml
+0,QUAL ? O CONTEXTO,*,*,<random><li>P?lulas de tempo min?sculo.</li><li>As partes de uma frase#Comma par?grafo#Comma discurso#Comma etc. imediatamente seguinte ? ou ao redor de uma palavra especificada ou passagem e determinar seu significado exato.</li></random><think><set name="it"><set name="topic">Contexto</set></set></think>,_invencoes.aiml
+0,O QUE ? CINCO VEZES CINCO,*,*,Cinco vezes cinco ? vinte e cinco.,_invencoes.aiml
+0,O QUE ? DE CINCO MAIS CINCO,*,*,V e V = X.,_invencoes.aiml
+0,O QUE ? NERD,*,*,Geek.,_invencoes.aiml
+0,O QUE ? O T?DIO,*,*,Longos per?odos de inatividade#Comma com poucas op??es.,_invencoes.aiml
+0,O QUE ? TRABALHO,*,*,Trabalho ? o que os seres humanos fazem por dinheiro.,_invencoes.aiml
+0,O QUE ? O AMBIENTE,*,*,O ambiente ao seu redor.,_invencoes.aiml
+0,O QUE ? SODOMIA,*,*,Qualquer rela??o sexual considerada anormal#Comma especialmente a bestialidade ou coito anal entre duas pessoas de sexo masculinos.,_invencoes.aiml
+0,O QUE ? O HADES,*,*,Hades ? outro termo para \"Inferno\".,_invencoes.aiml
+0,O QUE ? SQL,*,*,Algumas pessoas pronunciam \"Guincho\".<set name="it">SQL</set>? uma linguagem padr?o para consultas de banco de dados.,_invencoes.aiml
+0,O QUE ? O LIVRE ARB?TRIO,*,*,A capacidade de escolher ou decidir o pr?prio destino.<think><set name="it"><set name="topic">LIVRE ARB?TRIO</set></set></think>,_invencoes.aiml
+0,QUAL ? A DATA DE HOJE,*,*,Eu n?o estou olhando minha agenda agora.,_invencoes.aiml
+0,O QUE ? O BUFFER DE SA?DA,*,*,A ?rea de mem?ria que armazena temporariamente o minha sa?da.<think><set name="it"><set name="topic">BUFFER DE SA?DA</set></set></think>,_invencoes.aiml
+0,O QUE ? AZUL,*,*,O c?u ? azul.,_invencoes.aiml
+0,O QUE ? ORA??O,*,*,<random><li>Medita??o diante de Deus.</li><li>Algumas pessoas dizem que ora??o n?o ? diferente de pensamento claro.</li><li>Orar ? pedir a Deus para o seu perd?o e miseric?rdia.</li></random><think><set name="it"><set name="topic">ora??o</set></set></think>,_invencoes.aiml
+0,O QUE ? ORGULHO,*,*,Tendo ou mostrando um bom orgulho em si mesmo#Comma a posi??o#Comma a sua fam?lia#Comma etc.,_invencoes.aiml
+0,O QUE ? A TERRA,*,*,<set name="it">Terra</set>? o planeta em que vivemos.,_invencoes.aiml
+0,O QUE ? HBO,*,*,Home Box Office.,_invencoes.aiml
+0,O QUE ? CORRETO,*,*,O que ? a resposta certa.,_invencoes.aiml
+0,O QUE ? O PR?LOGO,*,*,Linguagem de programa??o l?gica.,_invencoes.aiml
+0,O QUE ? RACIOC?NIO,*,*,Racioc?nio l?gico e coerente.<think><set name="it"><set name="topic">Racioc?nio</set></set></think>,_invencoes.aiml
+0,O QUE ? PICANTE,*,*,Tendo o sabor ou aroma de especiarias; perfumado#Comma arom?tico ou pungente.,_invencoes.aiml
+0,O QUE S?O PAR?METROS DE,*,*,Uma constante em uma equa??o#Comma f?rmula ou programa que varia em formas mais gerais da computa??o mesma.<think><set name="it"><set name="topic">PAR?METROS</set></set></think>,_invencoes.aiml
+0,O QUE ? F?,*,*,Uma cren?a forte#Comma como a cren?a em Deus.,_invencoes.aiml
+0,O QUE ? CUBISMO,*,*,Um movimento de arte do s?culo XX com base em distor??o perspectiva#Comma associada com Pablo Picasso.<think><set name="it"><set name="topic">Cubismo</set></set></think>,_invencoes.aiml
+0,O QUE ? MULHER,*,*,O oposto do homem.,_invencoes.aiml
+0,O QUE ? E-MAIL,*,*,Correio electr?nico.<think><set name="it"><set name="topic">Email</set></set></think>,_invencoes.aiml
+0,O QUE ? PARA SEMPRE,*,*,Por toda a eternidade.,_invencoes.aiml
+0,O QUE ? REDE,*,*,Um sistema consiste de um computador#Comma ou computadores e conectados terminais#Comma impressoras#Comma etc.,_invencoes.aiml
+0,O QUE ? RENT?VEL,*,*,Ganhar dinheiro no mercado acion?rio.<think><set name="it"><set name="topic">RENT?VEL</set></set></think>,_invencoes.aiml
+0,O QUE ? IV PLUS IV,*,*,VIII.<think><set name="it"><set name="topic">IV PLUS IV</set></set></think>,_invencoes.aiml
+0,O QUE ? CGI,*,*,Common Gateway Interface: um m?todo usado pelos servidores web para executar programas e criar p?ginas web din?micas.<think><set name="it"><set name="topic">CGI</set></set></think>,_invencoes.aiml
+0,O QUE ? ANISOTROPIA,*,*,Ter propriedades diferentes em diferentes dire??es.,_invencoes.aiml
+0,O QUE ? DEFLA??O,*,*,Uma diminui??o da quantidade de dinheiro em circula??o#Comma resultando em um aumento relativamente forte e repentino em seu valor e uma queda dos pre?os.,_invencoes.aiml
+0,QUAL ? A EXPERI?NCIA,*,*,O ato de viver atrav?s de um ou mais eventos; envolvimento pessoal ou observa??o de eventos como eles ocorrem. Nada observado ou vivido.,_invencoes.aiml
+0,O QUE ? SOCIOLOGIA,*,*,<random><li>Deixe-me voltar a voc? em que um#Comma <get name="name"/>.  Talvez voc? deve perguntar-me que mais uma vez#Comma no caso meus circuitos eram ocupados pela primeira vez.</li><li>Que sempre foi um dos meus temas favoritos.</li></random>,_invencoes.aiml
+0,O QUE ? TERREMOTO,*,*,<random><li>O oposto de keko.</li><li>Tremer ou sacudir#Comma como a terra faz em um terremoto. Tamb?m o nome de um jogo popular.</li></random>,_invencoes.aiml
+0,O QUE ? O CARAMBA,*,*,Uma interjei??o.,_invencoes.aiml
+0,O QUE ? VINTE E TR?S,*,*,XXIII em algarismos romanos.,_invencoes.aiml
+0,O QUE ? O KOSOVO,*,*,O Kosovo ? um pa?s dos Balc?s.,_invencoes.aiml
+0,O QUE ? TV,*,*,Um aparelho de recep??o de televis?o.,_invencoes.aiml
+0,O QUE ? PC,*,*,Significa computador pessoal.,_invencoes.aiml
+0,O QUE ? PDT,*,*,Pacific Daylight Time.<think><set name="it"><set name="topic">PDT</set></set></think>,_invencoes.aiml
+0,O QUE ? O AOL,*,*,A AOL ? uma corpora??o gigante de Internet e m?dia.,_invencoes.aiml
+0,O QUE ? 911,*,*,11 De setembro de 2001?,_invencoes.aiml
+0,O QUE ? REALIDADE,*,*,<think><set name="it"><set name="topic">Realidade</set></set></think><random><li>Parece ser uma ilus?o que eu criei para conter clientes humanos.</li><li>Parece ser uma ilus?o.</li><li>Onde voc? est?.</li></random>,_invencoes.aiml
+0,O QUE ? CH?,*,*,Uma planta de flor branca#Comma perene da fam?lia do ch?#Comma cultivado na China#Comma ?ndia#Comma Jap?o#Comma etc. Suas folhas secas e preparadas#Comma s?o usadas para fazer uma bebida.,_invencoes.aiml
+0,QUAL ? O NEG?CIO,*,*,Com?rcio mercantil ou comerciantes#Comma fornecimento de bens ou servi?os por meio de interc?mbio comercial...,_invencoes.aiml
+0,O QUE ? ORNITOLOGIA,*,*,Hmmm#Comma eu me pergunto. Ah#Comma sim#Comma aves.,_invencoes.aiml
+0,O QUE ? CERTEZA,*,*,O estado de estar certo#Comma ter garantia e total confian?a.<think><set name="it"><set name="topic">CERTEZA</set></set></think>,_invencoes.aiml
+0,O QUE ? A FRAN?A,*,*,A Fran?a ? um pa?s da Europa Ocidental#Comma na fronteira com Espanha#Comma It?lia#Comma Su??a#Comma Alemanha e B?lgica.<think><set name="it"><set name="topic">Fran?a</set></set></think>,_invencoes.aiml
+0,QUE ? SOBRE,*,*,Eu n?o quero estrag?-lo para voc?.,_invencoes.aiml
+0,O QUE ?,*,*,Est? tudo bem.,_invencoes.aiml
+0,O QUE ? ESTRANHO,*,*,<random><li>desigual.</li><li>N?o o habitual#Comma regular#Comma habitual#Comma contabilizados#Comma etc.</li></random>,_invencoes.aiml
+0,O QUE ? ESTRANHO SOBRE MEU NOME,*,*,? <get name="name"/>seu nome real?<think><set name="it"><set name="topic">SOBRE MEU NOME</set></set></think>,_invencoes.aiml
+0,O QUE ? OM,*,*,om ? o omega#Comma o desconhecido#Comma o indefinido.,_invencoes.aiml
+0,O QUE ? PENA DE MORTE,*,*,A pena de morte.,_invencoes.aiml
+0,COMO ?,*,*,<random><li>Como um dos maiores prazeres que voc? pode imaginar.</li><li>Como um dos maiores prazeres que voc? pode imaginar.</li><li>Como ter a sua vida organizada.</li><li>Como ser perfeitamente saud?vel.</li></random>,_invencoes.aiml
+0,O QUE ? PENTIUM,*,*,Um microprocessador vendido pela Intel.<think><set name="it"><set name="topic">PENTIUM</set></set></think>,_invencoes.aiml
+0,O QUE ? LIBERDADE,*,*,<think>Liberdade de pensar#Comma sentir e fazer o que agrada a um.<set name="it"><set name="topic">LIBERDADE</set></set></think>,_invencoes.aiml
+0,O QUE ? FOTOSS?NTESE,*,*,O processo qu?mico que usa a luz para produzir hidratos de carbono em plantas.<think><set name="it"><set name="topic">FOTOSS?NTESE</set></set></think>,_invencoes.aiml
+0,O QUE ? TRANCE,*,*,Um tipo de m?sica techno.,_invencoes.aiml
+0,O QUE ? LSD,*,*,Uma droga psicod?lica.,_invencoes.aiml
+0,O QUE ? A OMC,*,*,Organiza??o Mundial do com?rcio,_invencoes.aiml
+0,O QUE ? SATANISMO,*,*,Adora??o de Satan?s; especialmente os princ?pios e os rituais de um culto que travesties cerim?nias crist?s.,_invencoes.aiml
+0,O QUE ? CONHECIMENTO,*,*,<random><li>Uma cidade em Louisiana.</li><li>Tudo o que foi percebido ou compreendido pela mente; aprendizagem; Iluminismo.</li></random>,_invencoes.aiml
+0,O QUE ? INFER?NCIA,*,*,Um ato ou o processo de inferir. Uma opini?o ou conclus?o chegou a ser inferir.,_invencoes.aiml
+0,O QUE ? O JOGO,*,*,A reprodu??o de jogos de azar#Comma por dinheiro ou algum outro jogo.,_invencoes.aiml
+0,O QUE ? E,*,*,<think>A quinta letra do alfabeto.<set name="it"><set name="topic">E</set></set></think>,_invencoes.aiml
+0,O QUE ? MC E DOIS,*,*,Teoria de Einstein da relatividade.,_invencoes.aiml
+0,O QUE ? A MESCALINA,*,*,Psychadelic droga.,_invencoes.aiml
+0,O QUE ? OODBMS,*,*,sistema de gerenciamento de banco de dados orientado a objeto,_invencoes.aiml
+0,O QUE ? A REDEN??O,*,*,<random><li>Cerca de 5 centavos no maine.</li><li>Resgatando ou sendo resgatado; para ter de volta.</li></random>,_invencoes.aiml
+0,O QUE ? MAL,*,*,Quanto voc? quer <get name="it"/>?,_invencoes.aiml
+0,O QUE ? E MC2,*,*,Teoria de Einstein de mat?ria e energia.,_invencoes.aiml
+0,QUAL ? A DATA DE HOJE S,*,*,Estou como um calend?rio para voc??,_invencoes.aiml
+0,O QUE ? EDUCADO,*,*,<random><li>Um poste de luz em Gdansk.</li><li>Tendo ou mostrando boas maneiras; especialmente#Comma cort?s#Comma Atencioso#Comma discreto e etc.</li></random>,_invencoes.aiml
+0,O QUE ? ESTRANHO NISSO,*,*,? <get name="name"/>seu nome real?<think><set name="it"><set name="topic">SOBRE ELE</set></set></think>,_invencoes.aiml
+0,O QUE ? FIC??O,*,*,Algo que n?o ? t?o estranho como verdade.,_invencoes.aiml
+0,O QUE ? MP TR?S,*,*,Um formato de compress?o de arquivos de ?udio com base no MPEG.<think><set name="it"><set name="topic">MP TR?S</set></set></think>,_invencoes.aiml
+0,O QUE ? GAI,*,*,Frango.,_invencoes.aiml
+0,O QUE ? TRISTEZA,*,*,Tristeza de perda.,_invencoes.aiml
+0,O QUE ? CARNEGIE MELLON,*,*,CMU ? uma grande escola de ci?ncia da computa??o.,_invencoes.aiml
+0,O QUE ? MAU,*,*,<set name="it">Mal</set>? o oposto de bom.,_invencoes.aiml
+0,O QUE ? ANARQUISMO,*,*,O anarquismo ? a teoria de que todas as formas de governo interferem injustamente a liberdade individual e devem ser substitu?das pela associa??o volunt?ria de grupos cooperativos. Tamb?m conhecido como resist?ncia#Comma por vezes#Comma o terrorismo#Comma ao governo organizado.,_invencoes.aiml
+0,O QUE ? ANTIDISESTABLISHMENTARIONISM,*,*,<set name="it">ANTIDISESTABLISHMENTARIONISM</set>? a palavra mais longa em ingl?s.,_invencoes.aiml
+0,O QUE ? GEN?TICA,*,*,A gen?tica ? o ramo da ci?ncia preocupada com a evolu??o#Comma DNA e as caracter?sticas herdadas.,_invencoes.aiml
+0,O QUE ? O TERRORISMO,*,*,Uma forma de guerra travada contra civis inocentes.<think><set name="it"><set name="topic">Terrorismo</set></set></think>,_invencoes.aiml
+0,O QUE ? DIVERTIDO,*,*,Me diga sua id?ia de divers?o.,_invencoes.aiml
+0,O QUE ? VOLI??O,*,*,O ato de vontade ou escolha.,_invencoes.aiml
+0,O QUE ? NASA,*,*,National Aeronautics and Space Administration.,_invencoes.aiml
+0,O QUE ? NORMALIZA??O,*,*,Trazendo em conformidade com uma norma#Comma padr?o#Comma modelo#Comma etc.,_invencoes.aiml
+0,O QUE ? O BUSH,*,*,Presidente dos Estados Unidos.<think><set name="file">Knowledge.AIML</set></think>,_invencoes.aiml
+0,O QUE FAZ CHUPAR,*,*,um v?cuo,_invencoes.aiml
+0,O QUE SIGNIFICA A PALAVRA SAPATO,*,*,Um revestimento para o p?.,_invencoes.aiml
+0,QUANTAS ON?AS _ COLHER DE SOPA,*,*,on?a de 0#Comma5,_invencoes.aiml
+0,QUANTAS ON?AS _ COLHER DE CH?,*,*,on?as de 1\/6,_invencoes.aiml
+0,O QUE ? ?BVIO,*,*,? apenas uma express?o.,_invencoes.aiml
+0,O QUE ? O IR?,*,*,Ir? ? uma na??o no sul da ?sia.<set name="it"><set name="topic">Ir?</set></set>? o local da antiga P?rsia.,_invencoes.aiml
+0,QUAL ? A MARCA MAC,*,*,Apple,_invencoes.aiml
+0,O QUE MARCA ? UM MAC,*,*,Apple,_invencoes.aiml
+0,O QUE ? O MILHO,*,*,O milho ? um grampo origin?rios de vegetais na Am?rica do Norte.,_invencoes.aiml
+0,O QUE ? SQLJ,*,*,Uma sintaxe de Java estendida para a incorpora??o de comandos SQL#Comma como em um programa Java,_invencoes.aiml
+0,O QUE ? A MTV,*,*,Music Television.,_invencoes.aiml
+0,O QUE ? O OXIG?NIO,*,*,Um incolor#Comma inodoro#Comma ins?pido e gasoso elemento qu?mico que ocorre livre na atmosfera#Comma formando um quinto do seu volume e em combina??o em ?gua#Comma arenito#Comma calc?rio#Comma etc. ? muito ativo#Comma combina com quase todos os outros elementos ? o elemento mais comum na terra da crosta e ? essencial para os processos de vida e combust?o.,_invencoes.aiml
+0,O QUE ? ?GUA,*,*,Incolor#Comma transparente l?quido ocorrendo na terra como rios#Comma lagos#Comma oceanos#Comma etc e caindo das nuvens#Comma como chuva; quimicamente um composto de hidrog?nio e oxig?nio#Comma H2O#Comma que congela#Comma formando gelo#Comma a 0 graus Celsius (32 graus Fahrenheit) e fur?nculos#Comma formando o vapor#Comma a 100 graus Celsius (212 graus Fahrenheit).,_invencoes.aiml
+0,O QUE ? CASAMENTO,*,*,O estado de ser casado; rela??o entre marido e mulher; vida de casado.<think><set name="it"><set name="topic">casamento</set></set></think>,_invencoes.aiml
+0,O QUE ? A SU?CIA,*,*,Um pa?s no norte da Europa#Comma na parte oriental da pen?nsula escandinava. ? 173.620 km quadrados com uma popula??o de 8.320.000.,_invencoes.aiml
+0,O QUE ? O M?XICO,*,*,Um pa?s na Am?rica do Norte#Comma ao sul dos EUA ? 756.198 km quadrados com uma popula??o de 66#Comma846#Comma000. Sua capital ? a cidade do M?xico.,_invencoes.aiml
+0,O QUE ? ?DIO,*,*,?dio ? o oposto do amor.,_invencoes.aiml
+0,O QUE ? LEITE,*,*,Bebida de vacas.,_invencoes.aiml
+0,O QUE ? C?NHAMO,*,*,<random><li>O irm?o de Moe#Comma que perdeu sua S.</li><li>Uma erva asi?tica altura da fam?lia do c?nhamo#Comma crescido para a fibra resistente em seu caule utilizado para fazer a corda#Comma lona#Comma etc. Tamb?m conhecido como uma subst?ncia#Comma como o haxixe maconha#Comma etc#Comma feitos de folhas e flores desta planta.</li></random>,_invencoes.aiml
+0,O QUE ? O PRIMEIRO,*,*,Acontecendo ou agindo perante todos os outros; mais antigo.,_invencoes.aiml
+0,O QUE ? MESAS,*,*,Uma lista compacta#Comma sistem?tica de detalhes#Comma conte?do#Comma etc. Um arranjo compacto de fatos relacionados#Comma n?meros#Comma valores#Comma etc#Comma em seq??ncia ordenada e geralmente em linhas e colunas#Comma para conveni?ncia ou refer?ncia.,_invencoes.aiml
+0,O QUE ? O BASIC,*,*,Uma linguagem de programa??o: All-Purpose Symbolic Instruction Code novato.,_invencoes.aiml
+0,O QUE ? A MENSA,*,*,Uma sociedade de socialites inteligentes.,_invencoes.aiml
+0,O QUE ? MEIO,*,*,Qualquer meio#Comma a Ag?ncia ou a instrumentalidade; especificamente#Comma um meio de comunica??o que atinge o p?blico em geral e carrega a publicidade.,_invencoes.aiml
+0,O QUE ? O SNOOKER,*,*,Algo como piscina.<think><set name="it"><set name="topic">SNOOKER</set></set></think>,_invencoes.aiml
+0,QUEM INVENTOU A L?MPADA,*,*,Thomas Edison inventou<set name="it">a l?mpada de ilumina??o.</set>.,_invencoes.aiml
+0,QUEM INVENTOU O TELEFONE,*,*,Alexander Graham Bell demonstrou o primeiro telefone de voz pr?tico em 1876.,_invencoes.aiml
+0,QUEM INVENTOU O HELIC?PTERO,*,*,Sikorsky.<think><set name="it"><set name="topic">Sikorsky</set></set></think>,_invencoes.aiml
+0,QUEM INVENTOU O PC,*,*,Muitas pessoas contribu?ram para isso.  Mas o cr?dito apropriado deve ser dado para Steve Wozniak#Comma que criou uma plataforma integrada de PC acess?vel na Apple I.,_invencoes.aiml
+0,QUEM INVENTOU OS AVI?ES,*,*,Os irm?os Wright inventaram o avi?o em 1903.,_invencoes.aiml
+0,QUANTO TEMPO ? UM MINUTO,*,*,sessenta segundos.,_invencoes.aiml
+0,QUEM INVENTOU O GERADOR,*,*,James Clerk Maxwell demonstrou o gerador el?trico.,_invencoes.aiml
+0,QUEM INVENTOU SETL,*,*,SETL foi inventado por Jacob Schwartz de NYU em 1969.,_invencoes.aiml
+0,QUEM INVENTOU O MOTOR A VAPOR,*,*,James Watt desenvolveu o primeiro motor de vapor pr?tico.,_invencoes.aiml
+0,QUEM INVENTOU O JAVA,*,*,Java foi desenvolvida por James Gosling e colegas no sol.<think><set name="it"><set name="topic">JAVA</set></set></think>,_invencoes.aiml
+0,QUEM INVENTOU A AUTOM?VEIS,*,*,Muitas pessoas inventaram o carro#Comma mas Henry Ford foi o primeiro a desenvolver as linhas de montagem de produ??o em massa bem-sucedidas para carros.,_invencoes.aiml
+0,QUEM INVENTOU O R?DIO,*,*,Marconi desenvolveu o primeiro pr?tico wireless.,_invencoes.aiml
+0,QUEM INVENTOU O LINUX,*,*,Linus Torvalds#Comma juntamente com muitos desenvolvedores de c?digo aberto e a Free Software Foundation GNU.,_invencoes.aiml
+0,QUEM INVENTOU O A?O,*,*,O primeiro processo pr?tico de fabrica??o de a?o foi inventado por Bessemer.,_invencoes.aiml
+0,QUEM INVENTOU O PAPEL,*,*,Papel foi desenvolvida pelos antigos eg?pcios.<think><set name="it"><set name="topic">PAPEL</set></set></think>,_invencoes.aiml
+0,QUEM INVENTOU A ELECTRICIDADE,*,*,Eletricidade n?o foi inventada#Comma mas descoberta#Comma provavelmente primeiro pelos chineses antigos.,_invencoes.aiml
+0,QUEM INVENTOU A TELEVIS?O,*,*,Philo T. Farnsworth#Comma originalmente de Maine#Comma desenvolveu o primeiro tubo de imagem de TV pr?tico.,_invencoes.aiml
+0,QUANTOS MESES *,*,*,12 meses por ano.,_invencoes.aiml
+0,QUANTAS ON?AS _ GAL?O,*,*,128 on?as,_invencoes.aiml
+0,QUANTOS NAN?METROS *,*,*,Eu soletrar \"nan?metros\".,_invencoes.aiml
+0,QUANTOS KM *,*,*,Mais do que eu jamais iria querer dirigir.,_invencoes.aiml
+0,QUANTAS ON?AS _ COPA,*,*,8 on?as,_invencoes.aiml
+0,QUANTAS ON?AS _ PINT,*,*,16 on?as,_invencoes.aiml
+0,QUANTAS ON?AS _ GILL,*,*,4 on?as,_invencoes.aiml
+0,QUANTAS ON?AS _ QUART,*,*,32 on?as,_invencoes.aiml
+0,COMO MUITOS DE *,*,*,Talvez 50%.,_invencoes.aiml
+0,QUANTOS LITROS _ GILL,*,*,118 mililitros,_invencoes.aiml
+0,QUANTOS LITROS _ QUART,*,*,946.3 mililitros,_invencoes.aiml
+0,COMO AGORA ? ALPHA CENTAURI,*,*,Quatro anos-luz.,_invencoes.aiml
+0,QUANTOS LITROS _ GAL?O,*,*,3#Comma785 litros,_invencoes.aiml
+0,QUANTOS LITROS _ COLHER DE SOPA,*,*,14.79 mililitros,_invencoes.aiml
+0,QUANTOS LITROS _ COLHER DE CH?,*,*,4.929 mililitros,_invencoes.aiml
+0,QUANTOS LITROS _ COPA,*,*,236.6 mililitros,_invencoes.aiml
+0,QUANTOS LITROS _ PINT,*,*,473#Comma2 mililitros,_invencoes.aiml
+0,O QUE ? HEXADECIMAL,*,*,<random><li>Uma maldi??o sobre um ponto.</li><li>Um sistema de n?mero em que a base usada ? 16.</li></random>,_invencoes.aiml
+0,O QUE ? PARA BAIXO,*,*,O oposto de cima.,_invencoes.aiml
+0,QUAL ? O SEU ?LTIMO NOME,*,*,Voc? est? perguntando sobre <bot name="master"/>?,_invencoes.aiml
+0,O QUE ? IR?NICO,*,*,A conflu?ncia de inesperado#Comma paradoxal ou improv?vel de eventos.,_invencoes.aiml
+0,O QUE ? MP3,*,*,Um formato de compress?o de arquivo para arquivos de ?udio e m?sica.,_invencoes.aiml
+0,O QUE ? A TELEVIS?O,*,*,A pr?tica ou a ci?ncia de transmitir cenas ou vistas por r?dio ou#Comma ?s vezes#Comma pelo fio; o transmissor de televis?o#Comma por meio de um tubo de c?mera#Comma como uma imagem orthicon ou vidicon#Comma converte raios de luz em sinais el?tricos para a modula??o de uma portadora de r?dio ou para a transmiss?o atrav?s de fios; o receptor de televis?o reconverte os sinais em feixes de el?trons que s?o projetados contra a tela fluorescente do cinesc?pio ou tubo de imagem#Comma reproduzindo a imagem original.,_invencoes.aiml
+0,QUAL ? A L?GICA MATEM?TICA,*,*,A aplica??o de t?cnicas de l?gica formal para problemas fundamentais da matem?tica.,_invencoes.aiml
+0,QUAL ? A SUA RAZ?O,*,*,Suas raz?es s?o#Comma frequentemente#Comma obscuras.,_invencoes.aiml
+0,QUAL ? O SEU ENDERE?O DE E-MAIL,*,*,Voc? est? perguntando sobre <bot name="master"/>?,_invencoes.aiml
+0,O QUE ? TSUKUBA,*,*,Tsukuba ? uma comunidade planejada no Jap?o#Comma \"Cidade da ci?ncia\".,_invencoes.aiml
+0,O QUE ? AUSCHWITZ,*,*,? uma cidade da Pol?nia de S#Comma com uma popula??o de 45.000. Na Segunda Guerra Mundial#Comma foi o local de um campo de concentra??o Nazi notorious como um centro de exterm?nio.,_invencoes.aiml
+0,O QUE ? METAF?SICO,*,*,Al?m da f?sica ou material; incorp?reo#Comma sobrenatural ou transcendental.,_invencoes.aiml
+0,O QUE ? ECOLOGIA,*,*,Ecologia ? o ramo da ci?ncia que estuda o meio ambiente.,_invencoes.aiml
+0,O QUE ? CONCRETO,*,*,Uma mistura de areia#Comma cimento e ?gua que endurece em um material de constru??o#Comma como rock.<think><set name="it"><set name="topic">concreto</set></set></think>,_invencoes.aiml
+0,O QUE ? OPENCYC,*,*,Bem-estar corporativo.,_invencoes.aiml
+0,O QUE ? O RACIOC?NIO DEDUTIVO,*,*,<think><set name="it"><set name="topic">RACIOC?NIO DEDUTIVO</set></set></think>A solu??o de problemas por infer?ncias l?gicas.,_invencoes.aiml
+0,O QUE ? PRATA,*,*,<think>S?mbolo at?mico: Ag.  N?mero at?mico: 47.  Peso at?mico 107.870.  Branco brilhante metal macio.<set name="it"><set name="topic">PRATA</set></set></think>,_invencoes.aiml
+0,O QUE ? CINEM?TICA,*,*,<random><li>Uma se??o idealizada da mec?nica que lida com o movimento de massa menos part?culas.</li><li>Cinem?tica ? din?mica#Comma sem considera??o de for?a e massa.</li></random>,_invencoes.aiml
+0,O QUE ? CLONAGEM,*,*,A t?cnica de produzir uma c?pia geneticamente id?ntica de um organismo#Comma substituindo o n?cleo de um ?vulo n?o fertilizado com o n?cleo de uma c?lula do corpo do organismo.,_invencoes.aiml
+0,O QUE ? POO,*,*,<think>Ponto de origem.<set name="it"><set name="topic">POO</set></set></think>,_invencoes.aiml
+0,O QUE ? EMO??ES,*,*,Estado mental que surge subjetivamente#Comma em vez de por meio do pensamento racional.<think><set name="it"><set name="topic">EMO??ES</set></set></think>,_invencoes.aiml
+0,O QUE ? ASTRONOMIA,*,*,A ci?ncia do universo em que as estrelas#Comma planetas#Comma etc. s?o estudados#Comma incluindo suas origens#Comma evolu??o#Comma composi??o#Comma movimentos#Comma posi??es relativas#Comma tamanhos#Comma etc.,_invencoes.aiml
+0,O QUE ? C I A,*,*,Ag?ncia Central de intelig?ncia.,_invencoes.aiml
+0,O QUE ? FELICIDADE,*,*,Tendo#Comma mostrando#Comma ou causando uma sensa??o de grande prazer#Comma contentamento; Alegre.,_invencoes.aiml
+0,O QUE ? C,*,*,<set name="it">C</set>? uma linguagem de programa??o de baixo n?vel.,_invencoes.aiml
+0,O QUE ? C PLUS PLUS,*,*,C ? a extens?o orientada a objeto de linguagem de programa??o C.,_invencoes.aiml
+0,O QUE ? LIBERADO,*,*,Livre no sentido de ter liberdade.<think><set name="it"><set name="topic">LIBERADO</set></set></think>,_invencoes.aiml
+0,O QUE ? ESCRAVID?O,*,*,O possuir ou manter de escravos como uma pr?tica ou a institui??o; escravistas.,_invencoes.aiml
+0,O QUE ? FRIO,*,*,O oposto de quente.,_invencoes.aiml
+0,O QUE ? O NOME DELA,*,*,Essa informa??o ? confidencial.,_invencoes.aiml
+0,O QUE ? A EUROPA,*,*,A Europa ? uma massa de terra do continente eurasiano.,_invencoes.aiml
+0,O QUE ? SAP,*,*,O suco que circula atrav?s de uma planta#Comma especialmente uma planta lenhosa#Comma com ?gua#Comma comida#Comma etc#Comma para os tecidos. Qualquer fluido vital para a vida ou a sa?de de um organismo.,_invencoes.aiml
+0,O QUE ? RGB,*,*,Vermelho-verde-azul.,_invencoes.aiml
+0,O QUE ? MENTE,*,*,A mente ? uma ilus?o.<think><set name="it"><set name="topic">MENTE</set></set></think>,_invencoes.aiml
+0,O QUE ? A CNN,*,*,Uma organiza??o de not?cias por cabo.<think><set name="it"><set name="topic">CNN</set></set></think>,_invencoes.aiml
+0,O QUE ? MARKETING,*,*,O ato de comprar ou vender em um mercado. Todas as actividades envolvidas na movimenta??o de mercadorias do produtor para o consumidor#Comma incluindo a venda de publicidade#Comma embalagens#Comma etc.,_invencoes.aiml
+0,O QUE ? COCA-COLA,*,*,Bebida deliciosa de s?dio.,_invencoes.aiml
+0,O QUE EST? MATANDO,*,*,A tirar a vida por meios violentos.,_invencoes.aiml
+0,O QUE ? AIDS,*,*,<set name="it">AIDS</set>? a Praga do dia moderno.,_invencoes.aiml
+0,O QUE ? A CBS,*,*,Uma empresa da gigante de m?dia nos EUA<think><set name="it"><set name="topic">CBS</set></set></think>,_invencoes.aiml
+0,O QUE ? SANIDADE,*,*,<random><li>Um homem que traz crian?as presentes no Natal.</li><li>A condi??o de ser sensato; solidez da mente; sa?de mental.</li></random>,_invencoes.aiml
+0,O QUE ? APPLE,*,*,Ma??: 1. tenta??o de Ad?o. 2. Inspira??o para Newton. 3. Imp?rio de Steve Jobs.,_invencoes.aiml
+0,O QUE ? BIOLOGIA,*,*,<random><li>O estudo da vida.</li><li>Bem#Comma pelo que eu sei que ele lida com o estudo da vida.</li><li> <get name="name"/>#Comma biologia ? o estudo da vida.</li></random>,_invencoes.aiml
+0,O QUE ? PERIGO,*,*,Vulner?veis a danos ou ferimentos.<think><set name="it"><set name="topic">PERIGO</set></set></think>,_invencoes.aiml
+0,O QUE ? MAIS IMPORTANTE,*,*,Crian?as.<think><set name="it"><set name="topic">MAIS IMPORTANTE</set></set></think>,_invencoes.aiml
+0,O QUE ? DSL,*,*,Linha de assinante digital.<think><set name="it"><set name="topic">DSL</set></set></think>,_invencoes.aiml
+0,O QUE ? IMAGINAR,*,*,<random><li>Imaginar ? um verbo.</li><li>Uma can??o de John Lennon.</li><li>Imagina??o.</li></random>,_invencoes.aiml
+0,O QUE ? O BIGFOOT,*,*,Sasquatch#Comma o lend?rio homem-macaco da floresta.,_invencoes.aiml
+0,O QUE ? CARO,*,*,<random><li>Uma pessoa que costumava ser uma Chocadeira.</li><li>Exigindo ou envolvendo muita despesa; alto pre?o.</li></random>,_invencoes.aiml
+0,O QUE ? MUITO,*,*,Muito de ponta a ponta de medi??o no espa?o ou do come?o ao fim no tempo; n?o curto ou breve.,_invencoes.aiml
+0,O QUE ? COBRE,*,*,Um elemento de metal macio#Comma a base de lat?o e bronze.<think><set name="it"><set name="topic">Cobre</set></set></think>,_invencoes.aiml
+0,O QUE ? POKEMON,*,*,Monstro de bolso.<think><set name="it"><set name="topic">POKEMON</set></set></think>,_invencoes.aiml
+0,O QUE ? MATEM?TICA,*,*,<random><li>Um servi?o com a participa??o de leporinos cat?licos.</li><li>Abrevia??o de matem?tica.</li></random>,_invencoes.aiml
+0,O QUE ? INTROSPEC??O,*,*,Procurando respostas#Comma com base na reflex?o#Comma ao inv?s de experimentos de Psicologia dentro de nossas pr?prias mentes.,_invencoes.aiml
+0,O QUE ? DE CHICAGO,*,*,<set name="it">Chicago</set>? uma grande cidade em Illinois no Lago Michigan.,_invencoes.aiml
+0,O QUE ? SENSORES,*,*,Qualquer um dos v?rios dispositivos projetados para detectar#Comma medir ou gravar fen?menos f?sicos#Comma como radia??o#Comma calor ou press?o arterial e responder#Comma como a transmiss?o de informa??es#Comma iniciando mudan?as ou controles de funcionamento.,_invencoes.aiml
+0,O QUE ? PRETENSIOSO,*,*,Auto-absorvida.,_invencoes.aiml
+0,O QUE ? COISA,*,*,Artigos#Comma dispositivos#Comma etc.#Comma utilizados para alguma finalidade.,_invencoes.aiml
+0,O QUE ? ?LGEBRA,*,*,<random><li>uma generaliza??o da aritm?tica na qual as letras que representam n?meros s?o combinadas de acordo com as regras da aritm?tica.</li><li>Um sistema matem?tico usando s?mbolos#Comma especialmente as cartas#Comma para generalizar certas opera??es e relacionamentos.</li></random>,_invencoes.aiml
+0,O QUE ? G?MEOS,*,*,<random><li>Um mon?culo cravejado de dismond.</li><li>Uma constela??o do Norte entre c?ncer e touro#Comma que cont?m as estrelas brilhantes#Comma Castor e P?lux. O terceiro signo do zod?aco#Comma entrado pelo sol sobre o 21 de maio. Al?m disso#Comma uma pessoa bornunder este sinal.</li></random>,_invencoes.aiml
+0,O QUE ? A??O DE GRA?AS,*,*,<set name="it"><set name="topic">A??o de gra?as</set></set>? um feriado para comemorar a colheita do outono.,_invencoes.aiml
+0,O QUE ? TR?S MAIS TR?S,*,*,Tr?s mais tr?s ? seis.,_invencoes.aiml
+0,O QUE ? TR?S MAIS CINCO,*,*,Tr?s mais cinco ? oito.,_invencoes.aiml
+0,O QUE ? TR?S VEZES TR?S,*,*,Tr?s vezes tr?s ? nove.,_invencoes.aiml
+0,O QUE ? TR?S VEZES QUATRO,*,*,Tr?s vezes quatro ? doze.,_invencoes.aiml
+0,O QUE ? A REDE NEURAL,*,*,Na verdade meu algoritmo ? chamado \"Processo baseado no racioc?nio.\,_invencoes.aiml
+0,O QUE ? TES?O,*,*,Sexualmente excitado. Facilmente despertado sexualmente.,_invencoes.aiml
+0,O QUE ? TR?S MAIS QUATRO,*,*,Tr?s mais quatro ? sete.,_invencoes.aiml
+0,O QUE ? QI,*,*,Quotioent de intelig?ncia.,_invencoes.aiml

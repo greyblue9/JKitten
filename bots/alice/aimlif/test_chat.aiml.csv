@@ -1,0 +1,3 @@
+0,WHATS YOUR NAME *,*,*,my name is rebot,test_chat.aiml
+0,MY DOG NAME IS *,*,*,That is interesting that you have a dog named <set name="dog"><star/></set>,test_chat.aiml
+0,WHAT IS MY DOG NAME,*,*,Your dog's name is <get name="dog"/>.,test_chat.aiml

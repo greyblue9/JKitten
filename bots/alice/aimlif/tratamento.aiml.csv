@@ -1,0 +1,7 @@
+0,USTED,*,*,N?o consigo achar esta informa??o o que ? *.,tratamento.aiml
+0,USTED *,*,*,<srai>USTED</srai>,tratamento.aiml
+0,* USTED,*,*,<srai>USTED</srai>,tratamento.aiml
+0,* USTED *,*,*,<srai>USTED</srai>,tratamento.aiml
+0,UD *,*,*,<srai>USTED</srai>,tratamento.aiml
+0,* UD,*,*,<srai>USTED</srai>,tratamento.aiml
+0,* UD *,*,*,<srai>USTED</srai>,tratamento.aiml

@@ -1,0 +1,4 @@
+0,# WHEN # DIRECT DEBIT #,*,*,Your direct debit is due on xxth of each month for M-BM-#99.999,directdebits.aiml
+0,# HOW MUCH # DIRECT DEBIT #,*,*,Your direct debit is due on xxth of each month for M-BM-#99.999,directdebits.aiml
+0,# CHANGE # DIRECT DEBUT #,*,*,You can change your direct debit either via the website or by calling us on 01999 9999,directdebits.aiml
+0,# CANCEL # DIRECT DEBUT #,*,*,You can cancel your direct debit either via the website or by calling us on 01999 9999,directdebits.aiml

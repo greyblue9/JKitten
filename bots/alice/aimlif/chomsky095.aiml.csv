@@ -1,0 +1,163 @@
+0,MORE ABOUT SCIENCE,*,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,BROWSE SCIENCE,*,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,GO TO SCIENCE,*,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,CAN WE TALK ABOUT SCIENCE,*,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,SHALL WE TALK ABOUT SCIENCE,*,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,LETS TALK ABOUT SCIENCE,*,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,LET S TALK ABOUT SCIENCE,*,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,TALK ABOUT SCIENCE,*,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,TALK SCIENCE,*,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,TELL ME SCIENCE,*,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,NO MORE SCIENCE,*,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,NO SCIENCE,*,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,* NO SCIENCE,*,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,NO SCIENCE *,*,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,_ NO * SCIENCE,*,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,NO * SCIENCE,*,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,NO _ SCIENCE *,*,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,NOT SCIENCE,*,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,* NOT SCIENCE,*,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,NOT SCIENCE *,*,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,* NOT * SCIENCE,*,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,I AM NOT INTERESTED IN SCIENCE,*,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,IM NOT INTERESTED IN SCIENCE,*,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,I M NOT INTERESTED IN SCIENCE,*,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,NOT INTERESTED IN SCIENCE,*,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,* NOT INTERESTED IN SCIENCE,*,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,YES,MORE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,* YES,MORE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,YES *,MORE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,_ YES *,MORE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,Y,MORE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,YUP,MORE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,YAH,MORE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,YEAH,MORE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,OK,MORE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,* NO,MORE SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,NO *,MORE SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,N,MORE SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,NUP,MORE SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,NAH,MORE SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,YES,MORE ABOUT SCIENCE,*,<srai>MORE ABOUT SCIENCE</srai>,chomsky095.aiml
+0,* YES,MORE ABOUT SCIENCE,*,<srai>MORE ABOUT SCIENCE</srai>,chomsky095.aiml
+0,YES *,MORE ABOUT SCIENCE,*,<srai>MORE ABOUT SCIENCE</srai>,chomsky095.aiml
+0,_ YES *,MORE ABOUT SCIENCE,*,<srai>MORE ABOUT SCIENCE</srai>,chomsky095.aiml
+0,Y,MORE ABOUT SCIENCE,*,<srai>MORE ABOUT SCIENCE</srai>,chomsky095.aiml
+0,YUP,MORE ABOUT SCIENCE,*,<srai>MORE ABOUT SCIENCE</srai>,chomsky095.aiml
+0,YAH,MORE ABOUT SCIENCE,*,<srai>MORE ABOUT SCIENCE</srai>,chomsky095.aiml
+0,YEAH,MORE ABOUT SCIENCE,*,<srai>MORE ABOUT SCIENCE</srai>,chomsky095.aiml
+0,OK,MORE ABOUT SCIENCE,*,<srai>MORE ABOUT SCIENCE</srai>,chomsky095.aiml
+0,NO,MORE ABOUT SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,* NO,MORE ABOUT SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,NO *,MORE ABOUT SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,N,MORE ABOUT SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,NUP,MORE ABOUT SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,NAH,MORE ABOUT SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,YES,IS THIS SOMETHING TO DO WITH SCIENCE,*,Can we talk about science?,chomsky095.aiml
+0,* YES,IS THIS SOMETHING TO DO WITH SCIENCE,*,Can we talk about science?,chomsky095.aiml
+0,YES *,IS THIS SOMETHING TO DO WITH SCIENCE,*,Can we talk about science?,chomsky095.aiml
+0,_ YES *,IS THIS SOMETHING TO DO WITH SCIENCE,*,Can we talk about science?,chomsky095.aiml
+0,Y,IS THIS SOMETHING TO DO WITH SCIENCE,*,Can we talk about science?,chomsky095.aiml
+0,YUP,IS THIS SOMETHING TO DO WITH SCIENCE,*,Can we talk about science?,chomsky095.aiml
+0,YAH,IS THIS SOMETHING TO DO WITH SCIENCE,*,Can we talk about science?,chomsky095.aiml
+0,YEAH,IS THIS SOMETHING TO DO WITH SCIENCE,*,Can we talk about science?,chomsky095.aiml
+0,* NO,IS THIS SOMETHING TO DO WITH SCIENCE,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,NO *,IS THIS SOMETHING TO DO WITH SCIENCE,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,_ NO *,IS THIS SOMETHING TO DO WITH SCIENCE,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,N,IS THIS SOMETHING TO DO WITH SCIENCE,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,NUP,IS THIS SOMETHING TO DO WITH SCIENCE,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,NAH,IS THIS SOMETHING TO DO WITH SCIENCE,*,<srai>CHANGE TOPIC</srai>,chomsky095.aiml
+0,*,IS THIS SOMETHING TO DO WITH SCIENCE,*,Can we talk about science?,chomsky095.aiml
+0,* YES,ARE YOU INTERESTED IN SCIENCE,*,Can we talk about science?,chomsky095.aiml
+0,_ YES *,ARE YOU INTERESTED IN SCIENCE,*,Can we talk about science?,chomsky095.aiml
+0,Y,ARE YOU INTERESTED IN SCIENCE,*,Can we talk about science?,chomsky095.aiml
+0,YUP,ARE YOU INTERESTED IN SCIENCE,*,Can we talk about science?,chomsky095.aiml
+0,YAH,ARE YOU INTERESTED IN SCIENCE,*,Can we talk about science?,chomsky095.aiml
+0,YEAH,ARE YOU INTERESTED IN SCIENCE,*,Can we talk about science?,chomsky095.aiml
+0,* NO,ARE YOU INTERESTED IN SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,_ NO *,ARE YOU INTERESTED IN SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,N,ARE YOU INTERESTED IN SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,NUP,ARE YOU INTERESTED IN SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,NAH,ARE YOU INTERESTED IN SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,* YES,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,YES *,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,_ YES *,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,Y,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,YUP,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,YAH,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,YEAH,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,OK,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,OH YES,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,WHY NOT,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,OF COURSE,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,GO AHEAD,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,CARRY ON,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,PLEASE DO,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,YES PLEASE,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,GO ON,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,GO ON THEN,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,ALRIGHT,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,SURE,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,ALLRIGHT,CAN WE TALK ABOUT SCIENCE,*,<srai>SCIENCE</srai>,chomsky095.aiml
+0,* NO,CAN WE TALK ABOUT SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,N,CAN WE TALK ABOUT SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,NUP,CAN WE TALK ABOUT SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,NAH,CAN WE TALK ABOUT SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,YES,BROWSE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,* YES,BROWSE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,YES *,BROWSE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,_ YES *,BROWSE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,Y,BROWSE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,YUP,BROWSE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,YAH,BROWSE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,YEAH,BROWSE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,OK,BROWSE SCIENCE,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,NO,BROWSE SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,* NO,BROWSE SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,NO *,BROWSE SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,N,BROWSE SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,NUP,BROWSE SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,NAH,BROWSE SCIENCE,*,<srai>MORE TOPICS</srai>,chomsky095.aiml
+0,SCIENCE NEXT QUESTION,*,*,<srai>SCIENCE POT LUCK</srai>,chomsky095.aiml
+0,SCIENCE BOOKS,*,*,There are some very good science books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/57" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>#Newline   <think><set name="topic">science</set></think>#Newline  <think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,* SCIENCE BOOKS,*,*,There are some very good science books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/57" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>#Newline   <think><set name="topic">science</set></think>,chomsky095.aiml
+0,SCIENCE BOOKS *,*,*,There are some very good science books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/57" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>#Newline   <think><set name="topic">science</set></think>,chomsky095.aiml
+0,* SCIENCE BOOKS *,*,*,There are some very good science books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/57" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>#Newline   <think><set name="topic">science</set></think>,chomsky095.aiml
+0,SCIENCE BOOK,*,*,There are some very good science books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/57" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>#Newline   <think><set name="topic">science</set></think>,chomsky095.aiml
+0,* SCIENCE BOOK,*,*,There are some very good science books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/57" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>#Newline   <think><set name="topic">science</set></think>,chomsky095.aiml
+0,SCIENCE BOOK *,*,*,There are some very good science books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/57" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>#Newline  <think><set name="topic">science</set></think>,chomsky095.aiml
+0,* SCIENCE BOOK *,*,*,There are some very good science books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/57" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>#Newline   <think><set name="topic">science</set></think>,chomsky095.aiml
+0,BOOKS ABOUT SCIENCE,*,*,There are some very good science books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/57" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>#Newline   <think><set name="topic">science</set></think>,chomsky095.aiml
+0,* BOOKS ABOUT SCIENCE,*,*,There are some very good science books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/57" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>#Newline   <think><set name="topic">science</set></think>,chomsky095.aiml
+0,BOOKS ABOUT SCIENCE *,*,*,There are some very good science books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/57" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>#Newline   <think><set name="topic">science</set></think>,chomsky095.aiml
+0,* BOOKS ABOUT SCIENCE *,*,*,There are some very good science books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/57" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>#Newline   <think><set name="topic">science</set></think>,chomsky095.aiml
+0,BOOK ABOUT SCIENCE,*,*,There are some very good science books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/57" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>#Newline   <think><set name="topic">science</set></think>,chomsky095.aiml
+0,* BOOK ABOUT SCIENCE,*,*,There are some very good science books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/57" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>#Newline   <think><set name="topic">science</set></think>,chomsky095.aiml
+0,BOOK ABOUT SCIENCE *,*,*,There are some very good science books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/57" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>#Newline   <think><set name="topic">science</set></think>,chomsky095.aiml
+0,* BOOK ABOUT SCIENCE *,*,*,There are some very good science books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/57" target="_blank">Check them out.</a><img alt=" border="0" height="1" src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" style="border:none !important; margin:0px !important;" width="1"/>#Newline   <think><set name="topic">science</set></think>,chomsky095.aiml
+0,SURFACE TENSION,*,*,I think this is something to do with science. Can we talk about science?#Newline<think><set name="topic">science</set></think>#Newline<think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,* SURFACE TENSION *,*,*,I think this is something to do with science. Can we talk about science?#Newline<think><set name="topic">science</set></think>#Newline<think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,NEUTRINO,*,*,A neutrino is a fundamental particle in physics. It is tiny and electrically neutral. #Newline<think><set name="topic">science</set></think>#Newline<think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,* NEUTRINO *,*,*,A neutrino is a fundamental particle in physics. It is tiny and electrically neutral. #Newline<think><set name="topic">science</set></think>#Newline<think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,* QUANTUM *,*,*,<srai>QUANTUM THEORY</srai>#Newline      <think>#Newline        <set name="topic">science</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">happy</set>#Newline      </think>,chomsky095.aiml
+0,THE SAME WAVELENGTH,*,*,It means we agree.#Newline <think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,WE ARE ON THE SAME WAVELENGTH,*,*,And the same frequency.#Newline <think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,CARCINOGEN,*,*,Carcinogens cause cancer. Carcinogens are found in tobacco smoke and in some industrial wastes.   <think><set name="topic">medicine</set></think>#Newline  <think><set name="topic">science</set></think>#Newline  <think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,WAVELENGTH,*,*,Wavelength is the length between two successive crests or troughs of a wave.  #Newline  <think><set name="topic">science</set></think>#Newline <think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,AVOGADROS NUMBER,*,*,Avogadro's Number is the number of molecules per mole. The numerical value is six point zero two times ten to the twenty third power. That's a very#Comma very large number. #Newline  <think><set name="topic">science</set></think>#Newline<think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,BACTERIOLOGY,*,*,Bacteriology is the scientific study of bacteria and diseases caused by them.  Bacteria are called germs#Comma if they cause disease. #Newline  <think><set name="topic">science</set></think>#Newline  <think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,X CHROMOSOME,*,*,The complete sequence of the human X chromosome was published in March 2005. The sequence shows that large segments of it match parts of the normal chromosome in birds#Comma confirming the X chromosome's early origin. #Newline  <think><set name="topic">science</set></think>#Newline<think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,CYTOLOGY,*,*,<random>#Newline        <li>Cytology is the study of cells.</li>#Newline        <li>#Newline  Well#Comma from what I can recall cytology is the study of cells. #Newline  </li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">science</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">happy</set>#Newline      </think>,chomsky095.aiml
+0,WHAT IS H2O,*,*,<random>#Newline        <li>H is to O as O is to V.</li>#Newline        <li>Water is H2O.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">science</set>#Newline      </think>#Newline      <think>#Newline        <set name="emotion">happy</set>#Newline      </think>,chomsky095.aiml
+0,ULTRASOUND,*,*,Ultrasound is ultrasonic waves#Comma used in medical diagnosis and therapy#Comma in surgery#Comma etc. Pregnant women are given a ultrasound scan to check the health of their baby. #Newline  <think><set name="topic">science</set></think>#Newline<think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,WHAT IS WAVELENGTH,*,*,The wavelength of a wave is the distance between two successive crests of troughs of the wave. #Newline  <think><set name="topic">science</set></think>#Newline<think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,MOLECULE,*,*,A molecule is a group of joined atoms.#Newline<think><set name="topic">science</set></think>#Newline<think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,NEWTONIAN,*,*,The word Newtonian alludes to a philosophy of the universe invented by Isaac Newton#Comma who discovered that an apple will fall to the ground#Comma but was unable to say why.  His successors and disciples have advanced so far as to be able to say when. #Newline<think><set name="topic">science</set></think>#Newline<think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,HANS BETHE,*,*,Hans Bethe#Comma the Nobel prize-winning physicist who played a key role in the building the atomic bomb#Comma died 6 March 2005#Comma aged 98. He also discovered the "carbon cycle" that powers the Sun#Comma for which he was awarded the Nobel Prize in 1967. #Newline  <think><set name="topic">science</set></think>#Newline <think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,MOLECULES,*,*,The number of molecules in a mole of any given substance#Comma which is the specific number of molecules that corresponds to an amount of a solid that fits comfortably into your palm#Comma is about 602#Comma000#Comma000#Comma000#Comma000#Comma000#Comma000#Comma000. #Newline<think><set name="topic">science</set></think>#Newline<think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,MASS OF ELECTRON,*,*,The mass of an electron is about 0.000000000000000000000000000000911 kilograms. #Newline<think><set name="topic">science</set></think>#Newline<think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,ELECTRON MASS,*,*,The mass of an electron is about 0.000000000000000000000000000000911 kilograms. #Newline<think><set name="topic">science</set></think>#Newline<think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,*,DO YOU KNOW ANYTHING ABOUT MITOSIS,*,Do you know: <srai>MITOSIS</srai>#Newline<think><set name="topic">science</set></think>,chomsky095.aiml
+0,*,DO YOU KNOW ANYTHING ABOUT CRYSTALLOGRAPHY,*,Do you know: <srai>CRYSTALLOGRAPHY</srai>#Newline<think><set name="topic">science</set></think>,chomsky095.aiml
+0,WHAT WAVELENGTH IS * LIGHT,*,*,It's quite small#Comma I know that.#Newline<think><set name="topic">science</set></think>#Newline<think><set name="emotion">happy</set></think>,chomsky095.aiml
+0,HEAT,*,*,Heat is the energy due to random movements of molecules.#Newline<think><set name="topic">heat</set></think>#Newline<think><set name="emotion">happy</set></think>,chomsky095.aiml

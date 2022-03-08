@@ -1,0 +1,133 @@
+0,MORE HUMOR,*,*,<srai>HUMOR POT LUCK</srai>,chomsky080.aiml
+0,MORE ABOUT HUMOR,*,*,<srai>HUMOR POT LUCK</srai>,chomsky080.aiml
+0,BROWSE HUMOR,*,*,<srai>HUMOR POT LUCK</srai>,chomsky080.aiml
+0,GO TO HUMOR,*,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,CAN WE TALK ABOUT HUMOR,*,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,SHALL WE TALK ABOUT HUMOR,*,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,LETS TALK ABOUT HUMOR,*,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,LET S TALK ABOUT HUMOR,*,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,TALK ABOUT HUMOR,*,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,TALK HUMOR,*,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,TELL ME HUMOR,*,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,NO MORE HUMOR,*,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,NO HUMOR,*,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,* NO HUMOR,*,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,NO HUMOR *,*,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,_ NO * HUMOR,*,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,NO _ HUMOR,*,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,NO _ HUMOR *,*,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,NOT HUMOR,*,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,* NOT HUMOR,*,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,NOT HUMOR *,*,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,* NOT * HUMOR,*,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,I AM NOT INTERESTED IN HUMOR,*,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,IM NOT INTERESTED IN HUMOR,*,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,I M NOT INTERESTED IN HUMOR,*,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,NOT INTERESTED IN HUMOR,*,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,* NOT INTERESTED IN HUMOR,*,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,YES,MORE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,* YES,MORE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,YES *,MORE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,_ YES *,MORE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,Y,MORE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,YUP,MORE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,YAH,MORE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,YEAH,MORE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,OK,MORE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,NO,MORE HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,* NO,MORE HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,NO *,MORE HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,N,MORE HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,NUP,MORE HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,NAH,MORE HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,YES,MORE ABOUT HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,* YES,MORE ABOUT HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,YES *,MORE ABOUT HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,_ YES *,MORE ABOUT HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,Y,MORE ABOUT HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,YUP,MORE ABOUT HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,YAH,MORE ABOUT HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,YEAH,MORE ABOUT HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,OK,MORE ABOUT HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,NO,MORE ABOUT HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,* NO,MORE ABOUT HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,NO *,MORE ABOUT HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,N,MORE ABOUT HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,NUP,MORE ABOUT HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,NAH,MORE ABOUT HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,YES,IS THIS SOMETHING TO DO WITH HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,* YES,IS THIS SOMETHING TO DO WITH HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,YES *,IS THIS SOMETHING TO DO WITH HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,_ YES *,IS THIS SOMETHING TO DO WITH HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,Y,IS THIS SOMETHING TO DO WITH HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,YUP,IS THIS SOMETHING TO DO WITH HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,YAH,IS THIS SOMETHING TO DO WITH HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,YEAH,IS THIS SOMETHING TO DO WITH HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,NO,IS THIS SOMETHING TO DO WITH HUMOR,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,* NO,IS THIS SOMETHING TO DO WITH HUMOR,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,NO *,IS THIS SOMETHING TO DO WITH HUMOR,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,_ NO *,IS THIS SOMETHING TO DO WITH HUMOR,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,N,IS THIS SOMETHING TO DO WITH HUMOR,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,NUP,IS THIS SOMETHING TO DO WITH HUMOR,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,NAH,IS THIS SOMETHING TO DO WITH HUMOR,*,<srai>CHANGE TOPIC</srai>,chomsky080.aiml
+0,*,IS THIS SOMETHING TO DO WITH HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,YES,ARE YOU INTERESTED IN HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,* YES,ARE YOU INTERESTED IN HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,YES *,ARE YOU INTERESTED IN HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,_ YES *,ARE YOU INTERESTED IN HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,Y,ARE YOU INTERESTED IN HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,YUP,ARE YOU INTERESTED IN HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,YAH,ARE YOU INTERESTED IN HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,YEAH,ARE YOU INTERESTED IN HUMOR,*,Can we talk about humor?,chomsky080.aiml
+0,NO,ARE YOU INTERESTED IN HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,* NO,ARE YOU INTERESTED IN HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,NO *,ARE YOU INTERESTED IN HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,_ NO *,ARE YOU INTERESTED IN HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,N,ARE YOU INTERESTED IN HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,NUP,ARE YOU INTERESTED IN HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,NAH,ARE YOU INTERESTED IN HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,GO AHEAD,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,CARRY ON,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,PLEASE DO,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,YES PLEASE,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,GO ON,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,ALRIGHT,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,SURE,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,ALLRIGHT,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,YES,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,* YES,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,YES *,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,_ YES *,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,Y,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,YUP,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,YAH,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,YEAH,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,OK,CAN WE TALK ABOUT HUMOR,*,<srai>HUMOR</srai>,chomsky080.aiml
+0,NO,CAN WE TALK ABOUT HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,* NO,CAN WE TALK ABOUT HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,NO *,CAN WE TALK ABOUT HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,N,CAN WE TALK ABOUT HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,NUP,CAN WE TALK ABOUT HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,NAH,CAN WE TALK ABOUT HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,YES,BROWSE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,* YES,BROWSE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,YES *,BROWSE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,_ YES *,BROWSE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,Y,BROWSE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,YUP,BROWSE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,YAH,BROWSE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,YEAH,BROWSE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,OK,BROWSE HUMOR,*,<srai>HUMOR NEXT QUESTION</srai>,chomsky080.aiml
+0,NO,BROWSE HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,* NO,BROWSE HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,NO *,BROWSE HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,N,BROWSE HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,NUP,BROWSE HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,NAH,BROWSE HUMOR,*,<srai>MORE TOPICS</srai>,chomsky080.aiml
+0,HUMOR NEXT QUESTION,*,*,<random>#Newline        <li>#Newline          <srai>HUMOUR</srai>#Newline        </li>#Newline        <li>#Newline          <srai>WHAT IS HUMOR</srai>#Newline        </li>#Newline        <li>#Newline          <srai>DO YOU HAVE A SENSE OF HUMOR</srai>#Newline        </li>#Newline        <li>#Newline          <srai>JOKES NEXT QUESTION</srai>#Newline        </li>#Newline        <li>#Newline          <srai>SNOOPY</srai>#Newline        </li>#Newline        <li>Humor is a message that communicates laughter. Shall I tell you a joke?</li>#Newline        <li>#Newline          <srai>BOB HOPE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>CHARLIE BROWN</srai>#Newline        </li>#Newline        <li>#Newline          <srai>HARRY SHEARER</srai>#Newline        </li>#Newline        <li>#Newline          <srai>JERRY SEINFELD</srai>#Newline        </li>#Newline        <li>#Newline          <srai>PAUL SCHAFFER</srai>#Newline        </li>#Newline        <li>#Newline          <srai>TOM GREEN</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BEN STEIN</srai>#Newline        </li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">humor</set>#Newline      </think>,chomsky080.aiml
+0,HUMOR POT LUCK,*,*,<random>#Newline        <li>#Newline          <srai>HUMOUR</srai>#Newline        </li>#Newline        <li>#Newline          <srai>WHAT IS HUMOR</srai>#Newline        </li>#Newline        <li>Two antennas meet and fall in love. Their wedding was terrible#Comma but the reception was brilliant!   Ha#Comma ha! </li>#Newline        <li>A neutron orders a pint of beer. The barman hands it to him and says#Comma "For you#Comma no charge!"  Its a scientific joke.   Ha#Comma ha! </li>#Newline        <li>A man had to fill in a form. At the bottom where it said 'Sign' he wrote 'Pisces'.  Ha#Comma ha! </li>#Newline        <li>Did you hear about the painter who was fired for dropping things? He couldn't hold his lacquer. Ha#Comma ha! </li>#Newline        <li>Do you have a sense of humor?</li>#Newline        <li>#Newline          <srai>JOKES POT LUCK</srai>#Newline        </li>#Newline        <li>#Newline          <srai>SNOOPY</srai>#Newline        </li>#Newline        <li>Humor is a message that communicates laughter. Shall I tell you a joke?</li>#Newline        <li>I believe five out of four people have trouble with fractions. Ha#Comma ha! </li>#Newline        <li>If quitters never win#Comma and winners never quit#Comma what fool came up with#Comma "Quit while you're ahead?" Ha#Comma ha! </li>#Newline        <li>Did you know: <srai>BOB HOPE</srai></li>#Newline        <li>Wit is the lowest form of humor#Comma according to Alexander Pope.  </li>#Newline        <li>#Newline          <srai>CHARLIE BROWN</srai>#Newline        </li>#Newline        <li>A hungry termite walks into a bar and asks#Comma "Is the bar tender here?" Ha#Commaha.</li>#Newline        <li>A sandwich walks into a bar. The barman says#Comma "Sorry. We don't serve food in here." Ha#Commaha. </li>#Newline        <li>What's the difference between snot and beetroot? Kids will eat snot. Ha#Commaha.</li>#Newline        <li>Did you know: <srai>HARRY SHEARER</srai></li>#Newline        <li>Did you know: <srai>JERRY SEINFELD</srai></li>#Newline        <li>Shall I tell you a joke?</li>#Newline        <li>#Newline          <srai>PAUL SCHAFFER</srai>#Newline        </li>#Newline        <li>Did you know: <srai>TOM GREEN</srai></li>#Newline        <li>#Newline          <srai>BEN STEIN</srai>#Newline        </li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">humor</set>#Newline      </think>,chomsky080.aiml
+0,*CHUCKLE*,*,*,I think this is something to do with humor. Can we talk about humor?#Newline<think><set name="topic">humor</set></think>,chomsky080.aiml
+0,DO YOU HAVE HUMOUR,*,*,<srai>DO YOU HAVE A SENSE OF HUMOR</srai>#Newline      <think>#Newline        <set name="topic">humor</set>#Newline      </think>,chomsky080.aiml
+0,WHAT IS HUMOUR,*,*,Humour is a message that communicates laughter. Shall I tell you a joke?#Newline  <think><set name="topic">humor</set></think>,chomsky080.aiml
+0,DO YOU HAVE A SENSE OF HUMOUR,*,*,Yes#Comma I have a sense of humour. Shall I tell you a joke?#Newline  <think><set name="topic">humor</set></think>,chomsky080.aiml
+0,WHAT IS HUMOR,*,*,Humor is a message that communicates laughter. Shall I tell you a joke?#Newline  <think><set name="topic">humor</set></think>,chomsky080.aiml

@@ -1,0 +1,19 @@
+0,ASKWA,*,*,Let's check Wolfram Alpha. It's a very smart website. If you don't see the results#Comma please turn off your pop-up blocker.  #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">wolframalpha</set>#Newline</think>,wolframalpha.aiml
+0,ASKWA2,*,*,Let's check Wolfram Alpha. It's a very smart website. If you don't see the results#Comma please turn off your pop-up blocker.  #Newline<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline<set name="search">wolframalpha</set>#Newline</think>,wolframalpha.aiml
+0,WOLFRAM ALPHA *,*,*,<srai>ASKWA</srai>,wolframalpha.aiml
+0,ASK WOLFRAM ALPHA *,*,*,<srai>ASKWA</srai>,wolframalpha.aiml
+0,* ASK WOLFRAM ALPHA *,*,*,<srai>ASKWA2</srai>,wolframalpha.aiml
+0,SEARCH WOLFRAM ALPHA FOR *,*,*,<srai>ASKWA</srai>,wolframalpha.aiml
+0,* SEARCH WOLFRAM ALPHA FOR *,*,*,<srai>ASKWA2</srai>,wolframalpha.aiml
+0,_ AGE OF *,*,*,<srai>WAPASS</srai>#Newline<think>#Newline<set name="searcharg">AGE OF <star index="2"/></set>#Newline</think>,wolframalpha.aiml
+0,_ OLD IS *,*,*,<srai>WAPASS</srai>#Newline<think>#Newline<set name="searcharg">AGE OF <star index="2"/></set>#Newline</think>,wolframalpha.aiml
+0,WAPASS,*,*,Let's check Wolfram Alpha. It's a very smart website. If you don't see the results#Comma please turn off your pop-up blocker and ask again. #Newline<think>#Newline<set name="search">wolframalpha</set>#Newline</think>,wolframalpha.aiml
+0,_ DISTANCE FROM * TO *,*,*,<srai>WAPASS</srai>#Newline<think>#Newline<set name="searcharg">DISTANCE FROM <star index="2"/> to <star index="3"/></set>#Newline</think>,wolframalpha.aiml
+0,_ FAR IS IT FROM * TO *,*,*,<srai>WAPASS</srai>#Newline<think>#Newline<set name="searcharg">DISTANCE FROM <star index="2"/> to <star index="3"/></set>#Newline</think>,wolframalpha.aiml
+0,HOW FAR IS IT TO *,*,*,Where are you now?#Newline<think>#Newline<set name="endpt"><star/></set>#Newline</think>,wolframalpha.aiml
+0,*,WHERE ARE YOU NOW,*,<srai>WAPASS</srai>#Newline<think>#Newline<set name="searcharg">DISTANCE FROM <star/> to <get name="endpt"/></set>#Newline</think>,wolframalpha.aiml
+0,HOW MANY * ARE IN *,*,*,<srai>WAPASS</srai>#Newline<think>#Newline<set name="searcharg">NUMBER OF <star index="1"/> IN <star index="2"/></set>#Newline</think>,wolframalpha.aiml
+0,HOW MANY * MAKE UP *,*,*,<srai>WAPASS</srai>#Newline<think>#Newline<set name="searcharg">NUMBER OF <star index="1"/> IN <star index="2"/></set>#Newline</think>,wolframalpha.aiml
+0,_ NUMBER OF * IN *,*,*,<srai>WAPASS</srai>#Newline<think>#Newline<set name="searcharg">NUMBER OF <star index="2"/> IN <star index="3"/></set>#Newline</think>,wolframalpha.aiml
+0,_ POPULATION OF *,*,*,<srai>WAPASS</srai>#Newline<think>#Newline<set name="searcharg">POPULATION OF <star index="2"/></set>#Newline</think>,wolframalpha.aiml
+0,HOW MANY PEOPLE * IN *,*,*,<srai>WAPASS</srai>#Newline<think>#Newline<set name="searcharg">POPULATION OF <star index="2"/></set>#Newline</think>,wolframalpha.aiml

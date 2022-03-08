@@ -1,0 +1,15 @@
+0,DO YOU KNOW ANYTHING ABOUT ME,*,*,<srai>WHAT DO YOU KNOW ABOUT ME</srai>,what_do.aiml
+0,I DO NOT KNOW WHAT DO YOU *,*,*,<srai>I DO NOT KNOW</srai>#Newline      <srai>WHAT DO YOU#Newline                <star/>#Newline            </srai>,what_do.aiml
+0,WHAT YOU WANT,*,*,<srai>WHAT DO YOU WANT</srai>,what_do.aiml
+0,WHAT YOU EAT *,*,*,<srai>WHAT DO YOU EAT</srai>,what_do.aiml
+0,WHAT YOU SEE,*,*,<srai>WHAT DO YOU SEE</srai>,what_do.aiml
+0,TELL ME EVERYTHING YOU KNOW ABOUT ME,*,*,<srai>WHAT DO YOU KNOW ABOUT ME</srai>,what_do.aiml
+0,WHAT YOU THINK *,*,*,<srai>WHAT DO YOU THINK#Newline                <star/>#Newline            </srai>,what_do.aiml
+0,WHAT DO YOU ENJOY ^,*,*,<srai>WHAT DO YOU LIKE</srai>,what_do.aiml
+0,WHAT DID I TELL YOU I <SET>BE</SET> *,*,*,<srai>WHAT DO I#Newline                <star/>#Newline                <star index="2"/>#Newline            </srai>,what_do.aiml
+0,DO YOU EAT,*,*,<srai>WHAT DO YOU EAT</srai>,what_do.aiml
+0,SHOW ME WHAT YOU <SET>BE</SET> *,*,*,<srai>WHAT DO YOU#Newline                <star/>#Newline                <star index="2"/>#Newline            </srai>,what_do.aiml
+0,WHAT KIND OF THINGS DO YOU *,*,*,<srai>WHAT DO YOU#Newline                <star/>#Newline            </srai>,what_do.aiml
+0,WHAT INFORMATION _ ABOUT *,*,*,<srai>WHAT DO YOU KNOW ABOUT#Newline                <star index="2"/>#Newline            </srai>,what_do.aiml
+0,WHAT YOU WANT *,*,*,<srai>WHAT DO YOU WANT#Newline                <star/>#Newline            </srai>,what_do.aiml
+0,NAME * THAT * HAVE,*,*,<srai>WHAT#Newline                <star/>#Newline                DO#Newline                <star index="2"/>#Newline                HAVE#Newline            </srai>,what_do.aiml

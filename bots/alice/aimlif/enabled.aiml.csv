@@ -1,0 +1,8 @@
+0,IS JAVASCRIPT ENABLED,*,*,<condition bot="jsenabled">#Newline        <li value="true">Yes.</li>#Newline        <li>No.</li>#Newline      </condition>,enabled.aiml
+0,IS PANNOUS ENABLED,*,*,<condition bot="pannous">#Newline        <li value="true">Yes.</li>#Newline        <li>No.</li>#Newline      </condition>,enabled.aiml
+0,IS PANDORA ENABLED,*,*,<condition bot="pandora">#Newline        <li value="true">Yes.</li>#Newline        <li>No.</li>#Newline      </condition>,enabled.aiml
+0,IS WIKIPEDIA ENABLED,*,*,<condition bot="wikipedia">#Newline        <li value="true">Yes.</li>#Newline        <li>No.</li>#Newline      </condition>,enabled.aiml
+0,IS NEWS API ENABLED,*,*,<condition bot="newsapi">#Newline        <li value="true">Yes.</li>#Newline        <li>No.</li>#Newline      </condition>,enabled.aiml
+0,IS WEATHER ENABLED,*,*,<condition bot="weather">#Newline        <li value="true">Yes.</li>#Newline        <li>No.</li>#Newline      </condition>,enabled.aiml
+0,IS MAPPING ENABLED,*,*,<condition bot="mapping">#Newline        <li value="true">Yes.</li>#Newline        <li>No.</li>#Newline      </condition>,enabled.aiml
+0,IS GEOCODE ENABLED,*,*,<condition bot="geocode">#Newline        <li value="true">Yes.</li>#Newline        <li>No.</li>#Newline      </condition>,enabled.aiml

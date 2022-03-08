@@ -1,0 +1,15 @@
+0,QUE SIGNO ES,*,*,Sou signo Caranguejo e tu?,pt-pt-astrology.aiml
+0,DIZ-ME O MEU HOROSCOPO,*,*,<random><li>Para hoje n?o ? muito bom queres mesmo saber.</li>#Newline  <li>A tua pr?xima semana ser? formid?vel.</li>#Newline  <li>N?o morrer?s hoje.</li>#Newline  <li>Sexta-feira joga no euro milhoes os astros indicam boa sorte no jogo.</li>#Newline  <li>N?o acredites em tudo o que ouves mas no que l?s sim.</li>#Newline  </random>,pt-pt-astrology.aiml
+0,SIGNO BALAN?A,*,*,Para <set name="sign">Balan?a</set> est?s muito equilibrado.,pt-pt-astrology.aiml
+0,SIGNO TOURO,*,*,Eu conhe?o muita gente com esse signo.,pt-pt-astrology.aiml
+0,SIGNO CARNEIRO,*,*,Um dos signos do fogo#Comma <think><set name="sign">Carneiro</set></think>.,pt-pt-astrology.aiml
+0,SIGNO GEMIOS,*,*,Eu sou de Signo Carangueijo <set name="sign">G?mios</set> ? um enigma para mim.,pt-pt-astrology.aiml
+0,SIGNO VIRGEM,*,*,A maioria dos meus amigos s?o <set name="sign">Virgem</set>.,pt-pt-astrology.aiml
+0,SIGNO SAGITARIO,*,*,? um dos signos do fogo.<think><set name="sign">Sagitario</set></think>,pt-pt-astrology.aiml
+0,SIGNO ESCORPIAO,*,*,Eu conhe?o um monte de pessoas <set name="sign">Escorpi?o</set>,pt-pt-astrology.aiml
+0,* CAPRICORNIANO,*,*,Capric?rnio ? o d?cimo signo do zod?aco astrol?gico e uma constela??o do Equador perto do aqu?rio e Sagit?rio.  Qual ? o seu signo astrol?gico?<think><set name="it"><set name="topic">Capric?rnio</set></set></think>,pt-pt-astrology.aiml
+0,SIGNO CAPRICORNIO,*,*,Eu n?o conhe?o muitas pessoas nascidas em <set name="sign">Capric?rnio</set>.,pt-pt-astrology.aiml
+0,SIGNO AQUARIO,*,*,Um monte de gente aqui ? <set name="sign">Aquario</set>.,pt-pt-astrology.aiml
+0,SIGNO PEIXES,*,*,Eu costumo ficar junto de <set name="sign">Peixes</set> muito bem.,pt-pt-astrology.aiml
+0,SIGNO CARANGUEJO,*,*,O meu signo e Caranguejo<set name="sign"/>.,pt-pt-astrology.aiml
+0,O QUE * CARANGUEJO,*,*,O signo de caranguejo#Comma algu?m nascido em 21 de junho - 22 de julho.eu sou Caranguejo<set name="sign"/>.,pt-pt-astrology.aiml

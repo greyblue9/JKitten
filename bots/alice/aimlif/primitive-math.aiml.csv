@@ -1,0 +1,23 @@
+0,AIMLEQUAL * EQUAL *,*,*,<srai>LEARNEQUAL#Newline                <star/></srai>#Newline            <srai><star/>#Newline                TESTEQUAL#Newline                <star index="2"/></srai>,primitive-math.aiml
+0,LEARNEQUAL *,*,*,<!-- Learn <star/> = <star/>. -->#Newline            <learn>#Newline                <category>#Newline                    <pattern>#Newline                        <eval><star/></eval>#Newline                        TESTEQUAL#Newline                        <eval><star/></eval>#Newline                    </pattern>#Newline                    <template>True</template>#Newline                </category>#Newline            </learn>#Newline            <learn>#Newline                <category>#Newline                    <pattern>#Newline                        <eval><star/></eval>#Newline                        TESTEQUAL *</pattern>#Newline                    <template>False</template>#Newline                </category>#Newline            </learn>#Newline            <learn>#Newline                <category>#Newline                    <pattern>* TESTQUAL#Newline                        <eval><star/></eval>#Newline                    </pattern>#Newline                    <template>False</template>#Newline                </category>#Newline            </learn>,primitive-math.aiml
+0,SUCCESSOR 0,*,*,1,primitive-math.aiml
+0,SUCCESSOR 1,*,*,2,primitive-math.aiml
+0,SUCCESSOR 2,*,*,3,primitive-math.aiml
+0,SUCCESSOR 3,*,*,4,primitive-math.aiml
+0,SUCCESSOR 4,*,*,5,primitive-math.aiml
+0,SUCCESSOR 5,*,*,6,primitive-math.aiml
+0,SUCCESSOR 6,*,*,7,primitive-math.aiml
+0,SUCCESSOR 7,*,*,8,primitive-math.aiml
+0,SUCCESSOR 8,*,*,9,primitive-math.aiml
+0,SUCCESSOR 9,*,*,1 0,primitive-math.aiml
+0,SUCCESSOR * 9,*,*,<srai>SUCCESSOR#Newline                <star/></srai>#Newline            0,primitive-math.aiml
+0,SUCCESSOR * *,*,*,<star/>#Newline            <srai>SUCCESSOR#Newline                <star index="2"/></srai>,primitive-math.aiml
+0,SUCCESSOR * 9 9,*,*,<srai>SUCCESSOR#Newline                <star/></srai>#Newline            0 0,primitive-math.aiml
+0,SUCCESSOR * * *,*,*,<star/>#Newline            <srai>SUCCESSOR#Newline                <star index="2"/>#Newline                <star index="3"/></srai>,primitive-math.aiml
+0,SUCCESSOR * 9 9 9,*,*,<srai>SUCCESSOR#Newline                <star/></srai>#Newline            0 0 0,primitive-math.aiml
+0,SUCCESSOR * * * *,*,*,<star/>#Newline            <srai>SUCCESSOR#Newline                <star index="2"/>#Newline                <star index="3"/>#Newline                <star index="4"/></srai>,primitive-math.aiml
+0,SUCCESSOR *,*,*,0,primitive-math.aiml
+0,SUCCESSOR,*,*,0,primitive-math.aiml
+0,SUCCESSOR * * * * *,*,*,0,primitive-math.aiml
+0,ADD 0 PLUS *,*,*,<star/>,primitive-math.aiml
+0,ADD 1 PLUS *,*,*,<srai>SUCCESSOR#Newline                <star/></srai>,primitive-math.aiml

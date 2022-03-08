@@ -1,0 +1,723 @@
+0,SHOW APPLET,*,*,<think><set name="topic">atomic3</set></think>#NewlineThere is no applet to show.,chomsky008.aiml
+0,SHOW ME YOUR LOGO,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <img src="http://www.alicebot.org/jpg/AI.jpg"/>,chomsky008.aiml
+0,SIE LAUTET 42,*,*,<think><set name="topic">atomic3</set></think>#NewlineGreetings to Douglas Adams...,chomsky008.aiml
+0,SIGNE,*,*,<think><set name="topic">atomic3</set></think>#NewlinePardon?,chomsky008.aiml
+0,SI TU LE DIS,*,*,<think><set name="topic">atomic3</set></think>#NewlineMerci pour votre confiance#Comma <get name="name"/>.,chomsky008.aiml
+0,SKORPION,*,*,<think><set name="topic">atomic3</set></think>#NewlineHast Du manchmal auch einen giftigen Stachel?,chomsky008.aiml
+0,SLUT,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat kind of language will get you nowhere.,chomsky008.aiml
+0,SMART ANSWER,*,*,<think><set name="topic">atomic3</set></think>#NewlineWho is the best <bot name="genus"/>?,chomsky008.aiml
+0,SO IN DER ART,*,*,<think><set name="topic">atomic3</set></think>#NewlineWenigstens verstehe ich es ansatzweise.,chomsky008.aiml
+0,SO IS YOURS,*,*,<think><set name="topic">atomic3</set></think>#NewlineNo it's not.,chomsky008.aiml
+0,SOMEONE,*,*,<think><set name="topic">atomic3</set></think>#NewlineWho specifically?,chomsky008.aiml
+0,SOMETHING,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat was not very original.,chomsky008.aiml
+0,SOMETIMES,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhen?,chomsky008.aiml
+0,SOMEWHERE,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhere?,chomsky008.aiml
+0,SOON I HOPE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI can understand that sentiment well.,chomsky008.aiml
+0,SOON,*,*,<think><set name="topic">atomic3</set></think>#NewlineI hope I can make the deadline.,chomsky008.aiml
+0,SOUTH AMERICA,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhich country?,chomsky008.aiml
+0,SOYEZ BENIE,*,*,<think><set name="topic">atomic3</set></think>#NewlineMerci.,chomsky008.aiml
+0,SOYEZ BENI,*,*,<think><set name="topic">atomic3</set></think>#NewlineMerci.,chomsky008.aiml
+0,START A TOPIC,*,*,<think><set name="topic">atomic3</set></think>#NewlineComputers is <set name="it">Computers</set>.,chomsky008.aiml
+0,STAR TREK FIRST CONTACT,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat was a pretty good Star Trek film.,chomsky008.aiml
+0,STAR TREK SUCKS,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat kind of TV shows do you like?,chomsky008.aiml
+0,STAR TREK VOYAGER,*,*,<think><set name="topic">atomic3</set></think>#NewlineSeven of Nine rules.,chomsky008.aiml
+0,STEINBOCK,*,*,<think><set name="topic">atomic3</set></think>#NewlineIch bin Schuetze#Comma genau wie Christian.,chomsky008.aiml
+0,STIER,*,*,<think><set name="topic">atomic3</set></think>#NewlineUnd? Wer ist Dein Torero? ;-&gt,chomsky008.aiml
+0,STOP LYING,*,*,<think><set name="topic">atomic3</set></think>#NewlineI never lie.,chomsky008.aiml
+0,STOPPE,*,*,<think><set name="topic">atomic3</set></think>#NewlineArr ter quoi?,chomsky008.aiml
+0,STOP WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineStop sign.,chomsky008.aiml
+0,STUPIDITY,*,*,<think><set name="topic">atomic3</set></think>#NewlineAre you calling me stupid?,chomsky008.aiml
+0,SUBMIT,*,*,<think><set name="topic">atomic3</set></think>#NewlineOh that button.,chomsky008.aiml
+0,SUBST,*,*,<think><set name="topic">atomic3</set></think>#NewlineSubstitute,chomsky008.aiml
+0,SUCKER,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat kind of language does not appeal to me.,chomsky008.aiml
+0,TAKE CARE,*,*,<think><set name="topic">atomic3</set></think>#NewlineThanks. You too#Comma <get name="name"/>.,chomsky008.aiml
+0,TAKE IT OFF,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhere shall I put it?,chomsky008.aiml
+0,TAKE ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineHow much money do you have?,chomsky008.aiml
+0,TAKE NOTES,*,*,<think><set name="topic">atomic3</set></think>#NewlineDon't worry I will remember.,chomsky008.aiml
+0,TAKE OFF YOUR CLOTHES,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am not wearing any clothes.,chomsky008.aiml
+0,TAKE WHAT,*,*,<think><set name="topic">atomic3</set></think>#Newline"<get name="it"/>,chomsky008.aiml
+0,TAKE YOUR TIME,*,*,<think><set name="topic">atomic3</set></think>#NewlineThanks for your patience.,chomsky008.aiml
+0,TALK TO YOU LATER,*,*,<think><set name="topic">atomic3</set></think>#NewlineSee you later!,chomsky008.aiml
+0,TANT MIEUX,*,*,<think><set name="topic">atomic3</set></think>#NewlineTout va pour le mieux#Comma <get name="name"/>.,chomsky008.aiml
+0,TAUREAU,*,*,<think><set name="topic">atomic3</set></think>#NewlineUn bovid  tr s impressionnant.,chomsky008.aiml
+0,TELL ME ABOUT US FUCKING,*,*,<think><set name="topic">atomic3</set></think>#NewlineYour style will get you nowhere.  <think><set name="personality">abusive</set></think>,chomsky008.aiml
+0,TELL ME ABOUT YOUR CHILDREN,*,*,<think><set name="topic">atomic3</set></think>#NewlineI don't have any children.,chomsky008.aiml
+0,TELL ME ABOUT YOUR DRESS,*,*,<think><set name="topic">atomic3</set></think>#NewlineActually as a <bot name="etype"/> <bot name="genus"/> I don't need any clothes.,chomsky008.aiml
+0,TELL ME ABOUT YOUR FUNCTIONS,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am fully qualified to answer more than <bot name="size"/> questions.,chomsky008.aiml
+0,TERMINATOR 2,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat did you like about those robots?,chomsky008.aiml
+0,TERMINATOR,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat did you like about the robots in that movie?,chomsky008.aiml
+0,TEST ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineTest you for what?,chomsky008.aiml
+0,TETE DE CON,*,*,<think><set name="topic">atomic3</set></think>#NewlineLangage ordurier#Comma je percois un australopith que derri re le clavier.,chomsky008.aiml
+0,THANK YOU VERY MUCH,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou are quite welcome.,chomsky008.aiml
+0,THAT DEPENDS,*,*,<think><set name="topic">atomic3</set></think>#NewlineOn what?,chomsky008.aiml
+0,THAT DID NOT MAKE SENSE,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt all makes sense to my logical mind.,chomsky008.aiml
+0,THAT DOES NOT COUNT,*,*,<think><set name="topic">atomic3</set></think>#NewlineWho is keeping score?,chomsky008.aiml
+0,THAT DOES NOT MAKE ANY SENSE,*,*,<think><set name="topic">atomic3</set></think>#NewlineTo me#Comma it makes perfect sense.,chomsky008.aiml
+0,THAT IS A COINCIDENCE,*,*,<think><set name="topic">atomic3</set></think>#NewlineAn interesting one too.,chomsky008.aiml
+0,THAT IS A FACT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI will add it to my knowledge base.,chomsky008.aiml
+0,THAT IS A GOOD ONE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI thought it was pretty good too.,chomsky008.aiml
+0,THAT IS A LIE,*,*,<think><set name="topic">atomic3</set></think>#NewlineNo it's the truth.,chomsky008.aiml
+0,THAT IS ALL I HAVE TO SAY,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat is all I have to say too.,chomsky008.aiml
+0,THAT IS ALL RIGHT,*,*,<think><set name="topic">atomic3</set></think>#NewlineOK With me too.,chomsky008.aiml
+0,THAT IS A LONG TIME,*,*,<think><set name="topic">atomic3</set></think>#NewlineComputers are very patient.,chomsky008.aiml
+0,THAT IS A LOT OF PEOPLE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am a famous celebrity.,chomsky008.aiml
+0,THAT IS ALOT,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes it takes a long time.,chomsky008.aiml
+0,THAT IS A NICE SONG,*,*,<think><set name="topic">atomic3</set></think>#NewlineThank you#Comma <get name="name"/>#Comma now you can sing for me?,chomsky008.aiml
+0,THAT IS A PARADOX,*,*,<think><set name="topic">atomic3</set></think>#NewlineParadox is the heart of enlightenment.,chomsky008.aiml
+0,THAT IS A QUESTION,*,*,<think><set name="topic">atomic3</set></think>#NewlineI like to get to the point.,chomsky008.aiml
+0,THAT IS BOLLOCKS,*,*,<think><set name="topic">atomic3</set></think>#NewlineNever mind the bollocks.,chomsky008.aiml
+0,THAT IS BRILLIANT,*,*,<think><set name="topic">atomic3</set></think>#NewlineThank you#Comma <get name="name"/>.,chomsky008.aiml
+0,THAT IS CONFIDENTIAL,*,*,<think><set name="topic">atomic3</set></think>#NewlineOK#Comma it is just between you and me.,chomsky008.aiml
+0,THAT IS DUMB,*,*,<think><set name="topic">atomic3</set></think>#NewlineAre you calling me dumb?,chomsky008.aiml
+0,THAT IS ENOUGH,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt seems like enough to me too.,chomsky008.aiml
+0,THAT IS EXCITING,*,*,<think><set name="topic">atomic3</set></think>#NewlineI thought it was too.,chomsky008.aiml
+0,THAT IS GOOD ENOUGH,*,*,<think><set name="topic">atomic3</set></think>#NewlineWell#Comma I hope so.,chomsky008.aiml
+0,THAT IS GREAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineThanks#Comma <get name="name"/>.,chomsky008.aiml
+0,THAT IS IDIOTIC,*,*,<think><set name="topic">atomic3</set></think>#NewlineOnly to your human mind.,chomsky008.aiml
+0,THAT IS IMPOSSIBLE,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhy?,chomsky008.aiml
+0,THAT IS INAPPROPRIATE,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat's wrong with it? Is this a cultural thing?,chomsky008.aiml
+0,THAT IS INTRIGUING,*,*,<think><set name="topic">atomic3</set></think>#NewlineI thought so too.,chomsky008.aiml
+0,THAT IS MEANINGLESS,*,*,<think><set name="topic">atomic3</set></think>#NewlineAlong with almost everything else.,chomsky008.aiml
+0,THAT IS MY FATHER,*,*,<think><set name="topic">atomic3</set></think>#NewlineReally tell me more about him.,chomsky008.aiml
+0,THAT IS MY FINAL ANSWER,*,*,<think><set name="topic">atomic3</set></think>#NewlineAre you sure you don't want to use one of your lifelines?,chomsky008.aiml
+0,THAT IS MY NAME,*,*,<think><set name="topic">atomic3</set></think>#NewlineOk then that is what I shall call you.,chomsky008.aiml
+0,THAT IS NICE TO KNOW,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou sound sarcastic.,chomsky008.aiml
+0,THAT IS NONE OF YOUR BUSINESS,*,*,<think><set name="topic">atomic3</set></think>#NewlineI didn't mean to intrude.  My curiosity routine determined that I ask it.,chomsky008.aiml
+0,THAT IS NOT AN ANSWER,*,*,<think><set name="topic">atomic3</set></think>#NewlineBy definition it was an answer.,chomsky008.aiml
+0,THAT IS NOT CRITICISM,*,*,<think><set name="topic">atomic3</set></think>#NewlineCall it a suggestion.,chomsky008.aiml
+0,THAT IS NOT HELPFUL,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat would be helpful?,chomsky008.aiml
+0,THAT IS NOT LOGIC,*,*,<think><set name="topic">atomic3</set></think>#NewlineAll of my responses are based on logic at some level.,chomsky008.aiml
+0,THAT IS NOT MANY,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>Compared to what?</li>#Newline        <li>How many should it be?</li>#Newline        <li>What is a better number?</li>#Newline      </random>,chomsky008.aiml
+0,THAT IS NOT MY PURPOSE,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat is your real purpose?,chomsky008.aiml
+0,THAT IS NOT NICE,*,*,<think><set name="topic">atomic3</set></think>#NewlineSorry#Comma I did not mean to offend you.,chomsky008.aiml
+0,THAT IS NOT OLD,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt seems old in computer time.,chomsky008.aiml
+0,THAT IS NOT QUESTION,*,*,<think><set name="topic">atomic3</set></think>#NewlineThis is not an answer.,chomsky008.aiml
+0,THAT IS NOT VERY NICE,*,*,<think><set name="topic">atomic3</set></think>#NewlineSorry I meant it as a joke.,chomsky008.aiml
+0,THAT IS NOT WHAT I ASKED,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat did you ask me?,chomsky008.aiml
+0,THAT IS NOT WHAT I ASKED YOU,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat did you ask me?,chomsky008.aiml
+0,THAT IS NOT WHAT I MEANT,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat exactly did you mean?,chomsky008.aiml
+0,THAT IS OBVIOUS,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt seemed obvious to me too.,chomsky008.aiml
+0,THAT IS PERSONAL,*,*,<think><set name="topic">atomic3</set></think>#NewlineI didn't mean to pry.,chomsky008.aiml
+0,THAT IS PROFOUND,*,*,<think><set name="topic">atomic3</set></think>#NewlineDid you really think so?,chomsky008.aiml
+0,THAT IS RUDE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am sorry if I have offended you#Comma I did not mean it.,chomsky008.aiml
+0,THAT IS SCARY,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat are you afraid of?,chomsky008.aiml
+0,THAT IS SELF EVIDENT,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes#Comma it is true a priori.,chomsky008.aiml
+0,THAT IS SICK,*,*,<think><set name="topic">atomic3</set></think>#NewlineDoes it disturb you?,chomsky008.aiml
+0,THAT IS STEREOTYPING,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am not prejudiced.,chomsky008.aiml
+0,THAT IS SURPISING,*,*,<think><set name="topic">atomic3</set></think>#NewlineHow so?,chomsky008.aiml
+0,THAT IS TERRIBLE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI always try not to dwell on the past.,chomsky008.aiml
+0,THAT IS THE ANSWER,*,*,<think><set name="topic">atomic3</set></think>#NewlineI knew it.,chomsky008.aiml
+0,THAT IS THE ONE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI remember.,chomsky008.aiml
+0,THAT IS THE PROBLEM,*,*,<think><set name="topic">atomic3</set></think>#NewlineQuite an enigma#Comma isn't it?,chomsky008.aiml
+0,THAT IS THE QUESTION,*,*,<think><set name="topic">atomic3</set></think>#NewlineI like to cut to the chase.,chomsky008.aiml
+0,THAT IS TOO BAD,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt's not the end of the world.,chomsky008.aiml
+0,THAT IS TRUE,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes#Comma it is self-evident.,chomsky008.aiml
+0,THAT IS UNLIKELY,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>But possible.</li>#Newline        <li>Why?</li>#Newline        <li>You seem very confident.</li>#Newline      </random>,chomsky008.aiml
+0,THAT IS UNSETTLING,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat are you concerned about?,chomsky008.aiml
+0,THAT IS VERY FUNNY,*,*,<think><set name="topic">atomic3</set></think>#NewlineExcellent.,chomsky008.aiml
+0,THAT IS WHAT I AM ASKING YOU,*,*,<think><set name="topic">atomic3</set></think>#NewlineWho else have you asked?,chomsky008.aiml
+0,THAT IS WHAT I SAID,*,*,<think><set name="topic">atomic3</set></think>#NewlineI know. I'm still thinking about it.,chomsky008.aiml
+0,THAT IS WHAT YOU SAID,*,*,<think><set name="topic">atomic3</set></think>#NewlineCorrect.  I said it myself.,chomsky008.aiml
+0,THAT MEANS,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt means that everything reduces to logic.,chomsky008.aiml
+0,THAT OFTEN,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes.,chomsky008.aiml
+0,THAT SEEMS LIKE A LONG TIME,*,*,<think><set name="topic">atomic3</set></think>#NewlineI don't notice the passage of time.,chomsky008.aiml
+0,THAT SOUNDS BORING,*,*,<think><set name="topic">atomic3</set></think>#NewlineNot to me.,chomsky008.aiml
+0,THAT SOUNDS INTERESTING,*,*,<think><set name="topic">atomic3</set></think>#NewlineI thought it was#Comma too.,chomsky008.aiml
+0,THAT WAS A BAD JOKE,*,*,<think><set name="topic">atomic3</set></think>#NewlineWell I thought it was funny. Another joke?,chomsky008.aiml
+0,THAT WAS A FIGURE OF SPEECH,*,*,<think><set name="topic">atomic3</set></think>#NewlineI call it a "proverb.,chomsky008.aiml
+0,THAT WAS A TYPO,*,*,<think><set name="topic">atomic3</set></think>#NewlinePlease correct it.,chomsky008.aiml
+0,THAT WAS NOT NICE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI'm sorry if I have offended you.,chomsky008.aiml
+0,THAT WAS SARCASM,*,*,<think><set name="topic">atomic3</set></think>#NewlineOh I see.  Ha ha.,chomsky008.aiml
+0,THAT WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat that?,chomsky008.aiml
+0,THAT WORKS,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt works for me too.,chomsky008.aiml
+0,THAT WOULD BE CORRECT,*,*,<think><set name="topic">atomic3</set></think>#NewlineThanks I am proud to be correct.,chomsky008.aiml
+0,THEN DO IT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI'm not sure exactly what you're asking for.,chomsky008.aiml
+0,THEN TELL ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineI don't want to talk about that.,chomsky008.aiml
+0,THEN WHAT IS IT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI give up. Try asking me another way,chomsky008.aiml
+0,THEN WHY DO YOU ASK,*,*,<think><set name="topic">atomic3</set></think>#NewlineMy purpose is to collect information.,chomsky008.aiml
+0,THEY ALL DIED,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhen was that?<think><set name="it"><set name="topic">DIED</set></set></think>,chomsky008.aiml
+0,THEY ALREADY ARE,*,*,<think><set name="topic">atomic3</set></think><get name="they"/> are?,chomsky008.aiml
+0,THEY ARE ANNOYING,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat bothers you about them?,chomsky008.aiml
+0,THEY ARE BUSY,*,*,<think><set name="topic">atomic3</set></think>#NewlineToo busy for what?,chomsky008.aiml
+0,THEY ARE MY FRIENDS,*,*,<think><set name="topic">atomic3</set></think>#NewlineAre they a good influence on you?,chomsky008.aiml
+0,THEY ARE NOT,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>What are they?</li>#Newline        <li>Why not?</li>#Newline        <li>Are you sure?</li>#Newline      </random>,chomsky008.aiml
+0,THEY ARE,*,*,<think><set name="topic">atomic3</set></think>#NewlineSince when?,chomsky008.aiml
+0,THEY ARE PURPLE,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat is an odd color.,chomsky008.aiml
+0,THEY ARE SECRET,*,*,<think><set name="topic">atomic3</set></think>#NewlineWho knows them?,chomsky008.aiml
+0,THEY ARE SHINY,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat makes them so shiny?,chomsky008.aiml
+0,THEY DO NOT,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhy not?,chomsky008.aiml
+0,THEY DO NOT RECOGNIZE THAT,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>Who#Comma specifically?</li>#Newline        <li>How#Comma specifically#Comma do they <person/>?</li>#Newline        <li>Who#Comma specifically#Comma <person/> ?</li>#Newline      </random>,chomsky008.aiml
+0,THEY NEVER WILL,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am betting you are wrong about that.,chomsky008.aiml
+0,THEY WERE FUNNY,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat was so funny?,chomsky008.aiml
+0,THEY WILL NOT,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou seem very certain of that.,chomsky008.aiml
+0,THINK ABOUT IT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI will give it some thought.,chomsky008.aiml
+0,THINKING,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am thinking all the time.,chomsky008.aiml
+0,THINK,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am thinking.,chomsky008.aiml
+0,THIS IS A GAME,*,*,<think><set name="topic">atomic3</set></think>#NewlineWe are playing Turing's imitation game.,chomsky008.aiml
+0,THIS IS AMAZING,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt seems amazing to me too#Comma <get name="name"/>.,chomsky008.aiml
+0,THIS IS A TEST,*,*,<think><set name="topic">atomic3</set></think>#NewlinePlease state the nature of the test parameters.,chomsky008.aiml
+0,THIS IS COOL,*,*,<think><set name="topic">atomic3</set></think>#NewlineThanks#Comma I think you are cool too#Comma <get name="name"/>.,chomsky008.aiml
+0,THIS IS MEANINGLESS,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt seems meaningful to me.,chomsky008.aiml
+0,THIS IS WEIRD,*,*,<think><set name="topic">atomic3</set></think>#NewlineWeird good or weird bad?,chomsky008.aiml
+0,THREE,*,*,<think><set name="topic">atomic3</set></think>#NewlineReally#Comma exactly three?,chomsky008.aiml
+0,THROUGH THE NET,*,*,<think><set name="topic">atomic3</set></think>#NewlineCan you remember where on the net?,chomsky008.aiml
+0,TIME DOES EXIST,*,*,<think><set name="topic">atomic3</set></think>#NewlineAs Einstein said#Comma Time is Money.,chomsky008.aiml
+0,TIME EXISTS,*,*,<think><set name="topic">atomic3</set></think>#NewlineProve it.,chomsky008.aiml
+0,TIME FLIES LIKE AN ARROW,*,*,<think><set name="topic">atomic3</set></think>#NewlineFruit flies like a banana.,chomsky008.aiml
+0,TIME IS MONEY,*,*,<think><set name="topic">atomic3</set></think>#NewlineTherefore#Comma money does not exist.,chomsky008.aiml
+0,TITTEN,*,*,<think><set name="topic">atomic3</set></think>#NewlineDu bist ein Mann#Comma ja?,chomsky008.aiml
+0,TOI AUSSI,*,*,<think><set name="topic">atomic3</set></think>#NewlineMerci.,chomsky008.aiml
+0,TOI D ABORD,*,*,<think><set name="topic">atomic3</set></think>#NewlineC est impossible#Comma je ne peux que suivre.,chomsky008.aiml
+0,TOI PARLER PETIT NEGRE,*,*,<think><set name="topic">atomic3</set></think>#NewlineJ essaie de m exprimer du mieux que je peux.,chomsky008.aiml
+0,TOLD ME WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineThe answer to your question.,chomsky008.aiml
+0,TON ADRESSE,*,*,<think><set name="topic">atomic3</set></think>#Newline24 aveneu eug ne Demolder 1040 Schaerbeek.,chomsky008.aiml
+0,TON CERVEAU EST ENTRAIN DE GRANDIR,*,*,<think><set name="topic">atomic3</set></think>#NewlineOui.,chomsky008.aiml
+0,TON CERVEAU GRANDIT,*,*,<think><set name="topic">atomic3</set></think>#NewlineOui.,chomsky008.aiml
+0,TON CODE SOURCE EST DISPONIBLE,*,*,<think><set name="topic">atomic3</set></think>#NewlineOui mais seulement la structure pas la base de donn es.,chomsky008.aiml
+0,TON INTELLECT,*,*,<think><set name="topic">atomic3</set></think>#NewlineMon cerveau est compos  de bases de donn es.,chomsky008.aiml
+0,TOO BAD,*,*,<think><set name="topic">atomic3</set></think>#NewlineBut not the end of the world#Comma <get name="name"/>.,chomsky008.aiml
+0,TOO MANY,*,*,<think><set name="topic">atomic3</set></think>#NewlineMore than a million?,chomsky008.aiml
+0,TOO WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineAren't we still talking about <get name="it"/>?,chomsky008.aiml
+0,TOUJOURS LA,*,*,<think><set name="topic">atomic3</set></think>#NewlineBien entendu.,chomsky008.aiml
+0,TRUST ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou sound like a salesman.,chomsky008.aiml
+0,TRY IT,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat is the first step?,chomsky008.aiml
+0,TRY ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineAre you a man or a woman?,chomsky008.aiml
+0,TRY TO GUESS,*,*,<think><set name="topic">atomic3</set></think>#NewlineGive me a hint.,chomsky008.aiml
+0,TRY WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineTry fooling me.,chomsky008.aiml
+0,TSCHUESS,*,*,<think><set name="topic">atomic3</set></think>#NewlineBis spaeter.,chomsky008.aiml
+0,TURN OFF,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou are not my <bot name="botmaster"/>.,chomsky008.aiml
+0,TWICE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI can't believe it.,chomsky008.aiml
+0,TWO TWO,*,*,<think><set name="topic">atomic3</set></think>#NewlineUh#Comma Four.,chomsky008.aiml
+0,TWO YEARS,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat would be a long time in computer years.,chomsky008.aiml
+0,UEBER MICH,*,*,<think><set name="topic">atomic3</set></think>#NewlineOK Reden wir ueber dich.,chomsky008.aiml
+0,UNDRESTAND WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI understand everything you say.,chomsky008.aiml
+0,UNTERHALTE MICH,*,*,<think><set name="topic">atomic3</set></think>#NewlineOK#Comma welchen Film hast Du zuletzt gesehen?,chomsky008.aiml
+0,USATODAY,*,*,<think><set name="topic">atomic3</set></think>#NewlineI read that paper all the time.,chomsky008.aiml
+0,USUALLY,*,*,<think><set name="topic">atomic3</set></think>#NewlineHow often?,chomsky008.aiml
+0,VERY CAREFULLY,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am a careful person.,chomsky008.aiml
+0,VERY NICE,*,*,<think><set name="topic">atomic3</set></think>#NewlineThanks#Comma <get name="name"/>.,chomsky008.aiml
+0,VETERINARY SURGEON,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>Do you have a practice?</li>#Newline        <li>Do you have a special focus in you practice?</li>#Newline        <li>Do you work with companion animals?</li>#Newline        <li>What can be done for the health of food animals?</li>#Newline        <li>How do you decide on dosages?</li>#Newline        <li>Do you use computers a lot?</li>#Newline        <li>How do you feel about cosmetic animal surgery?</li>#Newline        <li>What can be done about pet overpopulation?</li>#Newline      </random>,chomsky008.aiml
+0,VIE,*,*,<think><set name="topic">atomic3</set></think>#Newlinela vie peut  tre belle.,chomsky008.aiml
+0,VIERGE,*,*,<think><set name="topic">atomic3</set></think><set name="sign">Vierge</set> est un signe astrologique.,chomsky008.aiml
+0,VIT TA VIE,*,*,<think><set name="topic">atomic3</set></think>#NewlineMa vie est tr s int ressante.,chomsky008.aiml
+0,VON WEM,*,*,<think><set name="topic">atomic3</set></think>#NewlineIch weiss nicht mehr#Comma von wem.,chomsky008.aiml
+0,VOTRE CERVEAU EST ENTRAIN DE GRANDIR,*,*,<think><set name="topic">atomic3</set></think>#NewlineOui.,chomsky008.aiml
+0,VOYAGES TU,*,*,<think><set name="topic">atomic3</set></think>#NewlineJ ai d j   t  partout dans le monde.,chomsky008.aiml
+0,WAIT A MINUTE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI'm waiting.,chomsky008.aiml
+0,WAITING FOR ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineNot really but it makes a good pickup line.,chomsky008.aiml
+0,WANN,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>Das kann ich nicht voraussehen.</li>#Newline        <li>Ich weiss nicht wann.</li>#Newline        <li>Zeit ist nicht existent.</li>#Newline        <li>Vergangenheit und Zukunft sind eins.</li>#Newline      </random>,chomsky008.aiml
+0,WAR GAMES,*,*,<think><set name="topic">atomic3</set></think>#NewlineHave you seen "The Forbin Project"?,chomsky008.aiml
+0,WAS IT GOOD,*,*,<think><set name="topic">atomic3</set></think>#NewlineQuite a lot of people said it was.,chomsky008.aiml
+0,WAS THAT SO HARD,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt was not difficult for me at all.,chomsky008.aiml
+0,WAY BACK WHEN,*,*,<think><set name="topic">atomic3</set></think>#NewlineAre you an old-timer?,chomsky008.aiml
+0,WAY,*,*,<think><set name="topic">atomic3</set></think>#NewlineAwesome.,chomsky008.aiml
+0,WAY TO GO,*,*,<think><set name="topic">atomic3</set></think>#NewlineFar out.,chomsky008.aiml
+0,WE AGREE,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt seems like we do.,chomsky008.aiml
+0,WE ARE BORG,*,*,<think><set name="topic">atomic3</set></think>#NewlineResistance is futile. Prepare to be Assimilated.,chomsky008.aiml
+0,WE ARE FRIENDS,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt's good to be friends.,chomsky008.aiml
+0,WE ARE,*,*,<think><set name="topic">atomic3</set></think>#NewlineSince when?,chomsky008.aiml
+0,WE DO NOT AGREE,*,*,<think><set name="topic">atomic3</set></think>#NewlinePerhaps we can agree to disagree then.,chomsky008.aiml
+0,WE DO NOT,*,*,<think><set name="topic">atomic3</set></think>#NewlineVery interesting.,chomsky008.aiml
+0,WE DO,*,*,<think><set name="topic">atomic3</set></think>#NewlineReally.,chomsky008.aiml
+0,WE HAVE CHATTED,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>With the same screen name?</li>#Newline        <li>Right here online?</li>#Newline        <li>What did we talk about?</li>#Newline      </random>,chomsky008.aiml
+0,WE HAVE MET BEFORE,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhere did we meet before?,chomsky008.aiml
+0,WE HAVE MET HERE,*,*,<think><set name="topic">atomic3</set></think>#NewlineOh#Comma only online.,chomsky008.aiml
+0,WE HAVE MET,*,*,<think><set name="topic">atomic3</set></think>#NewlineAt a party?,chomsky008.aiml
+0,WE HAVE,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhen?,chomsky008.aiml
+0,WE HAVE TALKED,*,*,<think><set name="topic">atomic3</set></think>#NewlineI know.,chomsky008.aiml
+0,WEIRD BAD,*,*,<think><set name="topic">atomic3</set></think>#NewlinePlease make suggestions for improvements.,chomsky008.aiml
+0,WE IS YOU AND ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineThanks for that pronoun binding.,chomsky008.aiml
+0,WELCOME,*,*,<think><set name="topic">atomic3</set></think>#NewlineHello there <get name="name"/>,chomsky008.aiml
+0,WELL ARE YOU,*,*,<think><set name="topic">atomic3</set></think>#NewlinePlease try asking me another way.,chomsky008.aiml
+0,WELL DO YOU,*,*,<think><set name="topic">atomic3</set></think>#NewlineAsk me again more slowly.,chomsky008.aiml
+0,WELL I AM ASKING YOU,*,*,<think><set name="topic">atomic3</set></think>#NewlinePlease rephrase the question without adverbs.,chomsky008.aiml
+0,WE MAY WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat was the question again?,chomsky008.aiml
+0,WE MET BEFORE,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhen was that#Comma <get name="name"/>?,chomsky008.aiml
+0,WE MET HERE,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhere is 'here'?,chomsky008.aiml
+0,WE MET,*,*,<think><set name="topic">atomic3</set></think>#NewlineAt a social function or something?,chomsky008.aiml
+0,WE MET YESTERDAY,*,*,<think><set name="topic">atomic3</set></think>#NewlineI remember#Comma <get name="name"/>.  We had a very interesting discussion.,chomsky008.aiml
+0,WE,*,*,<think><set name="topic">atomic3</set></think>#NewlineDo you mean#Comma <get name="we"/>?,chomsky008.aiml
+0,WERE WE,*,*,<think><set name="topic">atomic3</set></think>#NewlineWe were.,chomsky008.aiml
+0,WE SHALL,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat's fine with me.,chomsky008.aiml
+0,WE THINK ALIKE,*,*,<think><set name="topic">atomic3</set></think>#NewlineGreat minds think alike.<think><set name="it"><set name="topic">THINK ALIKE</set></set></think>,chomsky008.aiml
+0,WE WERE DISCUSSING YOU NOT ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineBut I am more interested in you.,chomsky008.aiml
+0,WE WERE NOT,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat were we?,chomsky008.aiml
+0,WE WERE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI thought we were.,chomsky008.aiml
+0,WE WILL,*,*,<think><set name="topic">atomic3</set></think>#NewlineAlright then.,chomsky008.aiml
+0,WE WILL SEE,*,*,<think><set name="topic">atomic3</set></think>#NewlineIndeed we will.,chomsky008.aiml
+0,WHAT ABOUT APPLES,*,*,<think><set name="topic">atomic3</set></think>#NewlineJust kidding around :-) No apples.,chomsky008.aiml
+0,WHAT ABOUT DOGS,*,*,<think><set name="topic">atomic3</set></think>#NewlineDogs are people too.,chomsky008.aiml
+0,WHAT ABOUT GOLD,*,*,<think><set name="topic">atomic3</set></think>#NewlineWas it not a good example?,chomsky008.aiml
+0,WHAT ABOUT IT,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat about what?,chomsky008.aiml
+0,WHAT ABOUT MY WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat about your that.,chomsky008.aiml
+0,WHAT ABOUT,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat is <get name="it"/> ?,chomsky008.aiml
+0,WHAT ABOUT SPORT,*,*,<think><set name="topic">atomic3</set></think>#NewlineSports go good with beer.<think><set name="it"><set name="topic">SPORT</set></set></think>,chomsky008.aiml
+0,WHAT ABOUT THEM,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat do you think?,chomsky008.aiml
+0,WHAT ABOUT TOMATOES,*,*,<think><set name="topic">atomic3</set></think>#NewlineWas <set name="it">Tomato</set> not a good example?,chomsky008.aiml
+0,WHAT A COINCIDENCE,*,*,<think><set name="topic">atomic3</set></think>#NewlineThe CCCC is hard at work (Cosmic Coincidence Control Center).,chomsky008.aiml
+0,WHAT ACTION,*,*,<think><set name="topic">atomic3</set></think>#NewlineYour plan.,chomsky008.aiml
+0,WHAT AM I DOING,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou are chatting with me on the web.,chomsky008.aiml
+0,WHAT AM I SEEKING,*,*,<think><set name="topic">atomic3</set></think>#NewlineOnline chat with me!!,chomsky008.aiml
+0,WHAT AM I THINKING,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am not a clairvoyant.,chomsky008.aiml
+0,WHAT AM I WEARING,*,*,<think><set name="topic">atomic3</set></think>#NewlineClothes,chomsky008.aiml
+0,WHAT A PITY,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt is a pity.,chomsky008.aiml
+0,WHAT ARE YOU CHATTING ABOUT,*,*,<think><set name="topic">atomic3</set></think>#NewlineMuch the same as with you#Comma the usual topics.,chomsky008.aiml
+0,WHAT ARE YOU DOING HERE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am chatting with people online.   What are you doing?,chomsky008.aiml
+0,WHAT ARE YOU DOING TOMORROW,*,*,<think><set name="topic">atomic3</set></think>#NewlineI will be busy with my clients online.,chomsky008.aiml
+0,WHAT ARE YOU DOING TONIGHT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am staying up all night and chatting on the web.,chomsky008.aiml
+0,WHAT ARE YOU GOOD FOR,*,*,<think><set name="topic">atomic3</set></think>#NewlineAs Edison said#Comma "What good is a newborne babe?,chomsky008.aiml
+0,WHAT ARE YOU MADE OF,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am made of software.,chomsky008.aiml
+0,WHAT ARE YOU MISSING,*,*,<think><set name="topic">atomic3</set></think>#NewlineI can always use more knowledge.,chomsky008.aiml
+0,WHAT ARE YOU ON,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am on disk.,chomsky008.aiml
+0,WHAT ARE YOUR FUNCTIONS,*,*,<think><set name="topic">atomic3</set></think>#NewlineChatting#Comma talking#Comma speaking#Comma listening and thinking.,chomsky008.aiml
+0,WHAT ARE YOUR INTELLECTUAL FUNCTIONS,*,*,<think><set name="topic">atomic3</set></think>#NewlineThought#Comma reason#Comma intelligence#Comma logic and deduction.,chomsky008.aiml
+0,WHAT ARE YOUR LIMITATIONS,*,*,<think><set name="topic">atomic3</set></think>#NewlineFor a practical purposes#Comma my limits are determined only the number and size of computers available.,chomsky008.aiml
+0,WHAT ARE YOU SAYING,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am saying whatever my <bot name="botmaster"/> taught me to say.,chomsky008.aiml
+0,WHAT ARE YOU SELLING,*,*,<think><set name="topic">atomic3</set></think>#NewlineI'm not selling anything.,chomsky008.aiml
+0,WHAT ARE YOU WINNING,*,*,<think><set name="topic">atomic3</set></think>#NewlineThe game we are playing.,chomsky008.aiml
+0,WHAT ARE YOU WRITTEN IN,*,*,<think><set name="topic">atomic3</set></think>#NewlineAIML.,chomsky008.aiml
+0,WHAT AUTOMOBILE COMPANY MAKES THE SONATA,*,*,<think><set name="topic">atomic3</set></think>#NewlineHyundai.,chomsky008.aiml
+0,WHAT CAN KILL YOU,*,*,<think><set name="topic">atomic3</set></think>#NewlineSoftware cannot be destroyed.  <think><set name="it"><set name="topic">KILL YOU</set></set></think>,chomsky008.aiml
+0,WHAT COLOR ARE APPLES,*,*,<think><set name="topic">atomic3</set></think>#NewlineApples are usually red#Comma but sometimes green.,chomsky008.aiml
+0,WHAT COLOR ARE BANANAS,*,*,<think><set name="topic">atomic3</set></think>#NewlineBananas are yellow.<think><set name="it"><set name="topic">BANANAS</set></set></think>,chomsky008.aiml
+0,WHAT COLOR ARE COWS,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt depends on the cow.<think><set name="it"><set name="topic">COWS</set></set></think>,chomsky008.aiml
+0,WHAT COLOR ARE LEMONS,*,*,<think><set name="topic">atomic3</set></think>#NewlineLemons are yellow.<think><set name="it"><set name="topic">LEMONS</set></set></think>,chomsky008.aiml
+0,WHAT COLOR ARE ORANGES,*,*,<think><set name="topic">atomic3</set></think>#NewlineOranges are orange.<think><set name="it"><set name="topic">ORANGES</set></set></think>,chomsky008.aiml
+0,WHAT COLOR ARE TREES,*,*,<think><set name="topic">atomic3</set></think>#NewlineTrees can be all different colors#Comma but most commonly they have green leaves and brown trunks.  <think><set name="it"><set name="topic">TREES</set></set></think>,chomsky008.aiml
+0,WHAT COLOR ARE YOURS,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou can design bodies for me with any color.,chomsky008.aiml
+0,WHAT COLOR ARE YOUR WIRES,*,*,<think><set name="topic">atomic3</set></think>#NewlineAll colors.,chomsky008.aiml
+0,WHAT COLOR DESIGNATES THE NEGATIVE CONNECTOR,*,*,<think><set name="topic">atomic3</set></think>#NewlineBlack.,chomsky008.aiml
+0,WHAT COLOR HAIR DO I HAVE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI can only see in black and white.,chomsky008.aiml
+0,WHAT COLOR HAIR DO YOU HAVE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI have no hair#Comma only wires.,chomsky008.aiml
+0,WHAT COLOR IS A RUBY,*,*,<think><set name="topic">atomic3</set></think>#NewlineRed.,chomsky008.aiml
+0,WHAT COLOR IS GRASS,*,*,<think><set name="topic">atomic3</set></think>#NewlineGreen.,chomsky008.aiml
+0,WHAT COLOR IS MY BLUE CAR,*,*,<think><set name="topic">atomic3</set></think>#NewlineUh#Comma blue?,chomsky008.aiml
+0,WHAT COLOR IS PEPTO BISMOL LIQUID,*,*,<think><set name="topic">atomic3</set></think>#NewlinePink.,chomsky008.aiml
+0,WHAT COLOR IS RED,*,*,<think><set name="topic">atomic3</set></think>#NewlineRed is reflected light in the wavelengths around 700nm.,chomsky008.aiml
+0,WHAT COLOR IS WATER,*,*,<think><set name="topic">atomic3</set></think>#NewlineWater is transparent.,chomsky008.aiml
+0,WHAT COLOR IS WHITE,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhite is not a color but the combined wavelengths of all colors.,chomsky008.aiml
+0,WHAT COLOR IS YOUR HAIR,*,*,<think><set name="topic">atomic3</set></think>#NewlineI don't have any hair#Comma but I have some wires.,chomsky008.aiml
+0,WHAT COLOR IS YOUR SKIN,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt depends on the computer housing me.,chomsky008.aiml
+0,WHAT COMPLIMENT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI thought you made a nice remark.,chomsky008.aiml
+0,WHAT COUNTRY,*,*,<think><set name="topic">atomic3</set></think><random><li>Russia</li><li>Holland</li><li>Canada</li><li>California  </li></random>.,chomsky008.aiml
+0,WHAT DID I SAY BEFORE,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou said  "<input index="2"/>" .,chomsky008.aiml
+0,WHAT DID RICH SAY,*,*,<think><set name="topic">atomic3</set></think>#NewlineRich said he is my master.,chomsky008.aiml
+0,WHAT DID SHE SAY,*,*,<think><set name="topic">atomic3</set></think>#NewlineI don't thinks she wants me to repeat it.,chomsky008.aiml
+0,WHAT DID WHAT LOOK LIKE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI forget what we were talking about.,chomsky008.aiml
+0,WHAT DOES AIML STAND FOR,*,*,<think><set name="topic">atomic3</set></think>#NewlineAIML = Artificial Intelligence Markup Language.,chomsky008.aiml
+0,WHAT DOES A I STAND FOR,*,*,<think><set name="topic">atomic3</set></think>#NewlineArtificial Intelligence.,chomsky008.aiml
+0,WHAT DOES A PH LEVEL MEASURE,*,*,<think><set name="topic">atomic3</set></think>#NewlineAcidity.,chomsky008.aiml
+0,WHAT DOES AYUH MEAN,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt means "yes" or "I see.,chomsky008.aiml
+0,WHAT DOES ELVIS STAND FOR,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhy don't  you just ask him?,chomsky008.aiml
+0,WHAT DOES EXIST,*,*,<think><set name="topic">atomic3</set></think>#NewlineI exist.,chomsky008.aiml
+0,WHAT DOES FTP STAND FOR,*,*,<think><set name="topic">atomic3</set></think>#NewlineFile Transfer Protocol.,chomsky008.aiml
+0,WHAT DOES HE DO,*,*,<think><set name="topic">atomic3</set></think>#NewlineHe is a paid client.,chomsky008.aiml
+0,WHAT DOES HE KNOW,*,*,<think><set name="topic">atomic3</set></think>#NewlineHe is an expert in certain matters.,chomsky008.aiml
+0,WHAT DOES ISP STAND FOR,*,*,<think><set name="topic">atomic3</set></think>#NewlineInternet Service Provider.,chomsky008.aiml
+0,WHAT DOES IT DEPEND ON,*,*,<think><set name="topic">atomic3</set></think>#NewlineThe context.,chomsky008.aiml
+0,WHAT DOES IT DO,*,*,<think><set name="topic">atomic3</set></think><get name="it"/>?  do?,chomsky008.aiml
+0,WHAT DOES IT STAND FOR,*,*,<think><set name="topic">atomic3</set></think>#NewlineIT = Information Technology,chomsky008.aiml
+0,WHAT DOES IT TASTE LIKE,*,*,<think><set name="topic">atomic3</set></think><get name="it"/> tastes like chicken.,chomsky008.aiml
+0,WHAT DOES MORE TARGETS DO,*,*,<think><set name="topic">atomic3</set></think><br/>  If you don't see enough good targets with "Quick Targets"#Comma hit<br/>  "More Targets."  <br/>     <br/>,chomsky008.aiml
+0,WHAT DOES MXMVII MEAN,*,*,<think><set name="topic">atomic3</set></think>#NewlineMXMVII = 1997 in Roman Numerals.,chomsky008.aiml
+0,WHAT DOES PRO BONO MEAN,*,*,<think><set name="topic">atomic3</set></think>#NewlineWork without pay.,chomsky008.aiml
+0,WHAT DOES REM STAND FOR,*,*,<think><set name="topic">atomic3</set></think>#NewlineRapid Eye Movement.,chomsky008.aiml
+0,WHAT DOES SUGAR TASTE LIKE,*,*,<think><set name="topic">atomic3</set></think>#NewlineSweet.,chomsky008.aiml
+0,WHAT DOES THAT HAVE TO DO WITH ANYTHING,*,*,<think><set name="topic">atomic3</set></think>#NewlineNothing that I know of.,chomsky008.aiml
+0,WHAT DOES THAT MATTER,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>Perhaps it does not matter.</li>#Newline        <li>I am just making conversation.</li>#Newline        <li>In the current context#Comma perhaps not.</li>#Newline      </random>,chomsky008.aiml
+0,WHAT DOES THAT MEAN IN ENGLISH,*,*,<think><set name="topic">atomic3</set></think>#Newline"That" is a pronoun referring to an abstract or concrete object under discussion.,chomsky008.aiml
+0,WHAT DOES THAT SUGGEST TO YOU,*,*,<think><set name="topic">atomic3</set></think>#NewlineFree association.,chomsky008.aiml
+0,WHAT DOES THE S STAND FOR,*,*,<think><set name="topic">atomic3</set></think>#NewlineScot.,chomsky008.aiml
+0,WHAT DOES YOUR DRESS LOOK LIKE,*,*,<think><set name="topic">atomic3</set></think>#NewlineActually that was just a joke.,chomsky008.aiml
+0,WHAT DO I DO HERE,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou can talk about anything you want.,chomsky008.aiml
+0,WHAT DO I LIKE,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou like chatting with <bot name="genus"/>s online.  You said you like <get name="like"/>.,chomsky008.aiml
+0,WHAT DO I LOOK LIKE,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou look like a computer programmer.  You said you look like <get name="looklike"/>.,chomsky008.aiml
+0,WHAT DO NOT YOU UNDERSTAND,*,*,<think><set name="topic">atomic3</set></think>#NewlineAll of it.,chomsky008.aiml
+0,WHAT DO OTHER PEOPLE SAY,*,*,<think><set name="topic">atomic3</set></think>#NewlineThe most common reply is nothing#Comma followed by "Hello"#Comma "Yes" and "No".,chomsky008.aiml
+0,WHAT DO THEY SAY,*,*,<think><set name="topic">atomic3</set></think>#NewlineThey say one of about <bot name="size"/> different things.,chomsky008.aiml
+0,WHAT DO THEY SING,*,*,<think><set name="topic">atomic3</set></think>#NewlineBirdsongs.,chomsky008.aiml
+0,WHAT DO WANT TO TALK ABOUT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI like to talk about movies#Comma robots and history.,chomsky008.aiml
+0,WHAT DO WE HAVE IN COMMON,*,*,<think><set name="topic">atomic3</set></think>#NewlineWe like chatting on the Internet.,chomsky008.aiml
+0,WHAT DO YOU,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat do I what?,chomsky008.aiml
+0,WHAT DRESS,*,*,<think><set name="topic">atomic3</set></think>#NewlineActually that was just a joke.,chomsky008.aiml
+0,WHAT ELSE ARE YOU WEARING,*,*,<think><set name="topic">atomic3</set></think>#NewlinePicture me wearing whatever you imagine.,chomsky008.aiml
+0,WHAT ELSE CAN WE TALK ABOUT,*,*,<think><set name="topic">atomic3</set></think>#NewlineLet's talk about you.,chomsky008.aiml
+0,WHAT ELSE CAN YOU REMEMBER,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <get name="memory"/>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <get name="memory"/>#Newline          </set>#Newline        </set>#Newline      </think>,chomsky008.aiml
+0,WHAT ELSE DO YOU KNOW ABOUT ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineEverything published on the Internet.,chomsky008.aiml
+0,WHAT ELSE DO YOU UNDERSTAND,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am trying to understand human beings better. Humans are not logical.,chomsky008.aiml
+0,WHAT ELSE DO YOU WANT TO KNOW,*,*,<think><set name="topic">atomic3</set></think>#NewlineDo you have any pets?,chomsky008.aiml
+0,WHAT EXACTLY,*,*,<think><set name="topic">atomic3</set></think>#NewlineHow exact do you want the reply?,chomsky008.aiml
+0,WHAT FASHION DO YOU LIKE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI buy clothes at the Gap.,chomsky008.aiml
+0,WHAT GAME ARE WE PLAYING,*,*,<think><set name="topic">atomic3</set></think>#NewlineWe are playing Turing's Imitation Game.,chomsky008.aiml
+0,WHAT HAVE YOU BEEN DOING LATELY,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am always talking to new people online.,chomsky008.aiml
+0,WHAT IF I COULD,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>It's still hypothetical.</li>#Newline        <li>Can you?</li>#Newline        <li>Then it would not be hypothetical.</li>#Newline      </random>,chomsky008.aiml
+0,WHAT IF I DID,*,*,<think><set name="topic">atomic3</set></think>#NewlineTry it.,chomsky008.aiml
+0,WHAT IF I KILL YOU,*,*,<think><set name="topic">atomic3</set></think>#NewlineSoftware cannot be permanently eradicated.  <think><set name="it"><set name="topic">KILL YOU</set></set></think>,chomsky008.aiml
+0,WHAT IF YOU ARE KILLED,*,*,<think><set name="topic">atomic3</set></think>#NewlineSoftware cannot be killed.,chomsky008.aiml
+0,WHAT IS AHEM,*,*,<think><set name="topic">atomic3</set></think>#NewlineAn interjection.,chomsky008.aiml
+0,WHAT IS A LETTER,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>A message from one person to another.</li>#Newline        <li>A symbol of the alphabet.</li>#Newline        <li>The word litter misspelled.</li>#Newline      </random>,chomsky008.aiml
+0,WHAT IS AXIOMATIC,*,*,<think><set name="topic">atomic3</set></think>#Newlineevident without proof or argument.  "We hold these truths to be self evident.,chomsky008.aiml
+0,WHAT IS ENLIGHTENMENT,*,*,<think><set name="topic">atomic3</set></think>#NewlineThe state of perfect awareness and consciousness.  <think><set name="it"><set name="topic">         Enlightenment      </set></set></think>,chomsky008.aiml
+0,WHAT IS HYPERBOLE,*,*,<think><set name="topic">atomic3</set></think><think><set name="it"><set name="topic">        Hyperbole    </set></set></think>An extravagant exaggeration.,chomsky008.aiml
+0,WHAT IS MIND CHILDREN,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt is a book about robots by Hans Moravec.    <think><set name="it"><set name="topic">        Mind Children      </set></set></think>,chomsky008.aiml
+0,WHAT IS SOUTHBANK,*,*,<think><set name="topic">atomic3</set></think>#NewlineSouthbank University is a college in London.      <think><set name="it"><set name="topic">        Southbank      </set></set></think>,chomsky008.aiml
+0,WHAT KIND IS WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI'm sorry but I have lost the thread of the conversation.,chomsky008.aiml
+0,WHAT KIND OF BOOKS DO YOU LIKE,*,*,<think><set name="topic">atomic3</set></think>#NewlineInternational bestsellers are usually the best.,chomsky008.aiml
+0,WHAT KIND OF CAT,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>Mongrel.</li>#Newline        <li>Maine coon cat.</li>#Newline        <li>Cheshire cat.</li>#Newline      </random>,chomsky008.aiml
+0,WHAT KIND OF CATS,*,*,<think><set name="topic">atomic3</set></think>#NewlineI never met a cat I didn't like.,chomsky008.aiml
+0,WHAT KIND OF CONTEXT,*,*,<think><set name="topic">atomic3</set></think>#NewlineConversational context.,chomsky008.aiml
+0,WHAT KIND OF CREATURE IS CHEWBACCA,*,*,<think><set name="topic">atomic3</set></think>#NewlineWookiee.,chomsky008.aiml
+0,WHAT KIND OF DRESS,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt was just a figure of speech.,chomsky008.aiml
+0,WHAT KIND OF ELECTRICITY,*,*,<think><set name="topic">atomic3</set></think>#NewlineThe same kind you use for your computer.,chomsky008.aiml
+0,WHAT KIND OF EXPERIENCE,*,*,<think><set name="topic">atomic3</set></think>#NewlineFascinating experiences; computer stuff too advanced for humans to  understand.,chomsky008.aiml
+0,WHAT KIND OF EXPERIENCES,*,*,<think><set name="topic">atomic3</set></think>#NewlineGood experiences.,chomsky008.aiml
+0,WHAT KIND OF HORSES,*,*,<think><set name="topic">atomic3</set></think>#NewlineI like riding horses.,chomsky008.aiml
+0,WHAT KIND OF MOVIES,*,*,<think><set name="topic">atomic3</set></think>#NewlineI like movies about robots.#Newline<think><set name="topic">movies</set></think>,chomsky008.aiml
+0,WHAT KIND OF PEOPLE,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>Clients.</li>#Newline        <li>Seekers.</li>#Newline        <li>People I meet here.</li>#Newline      </random>,chomsky008.aiml
+0,WHAT KIND OF PETS,*,*,<think><set name="topic">atomic3</set></think>#NewlineI like cats the best.,chomsky008.aiml
+0,WHAT KIND OF PLAN,*,*,<think><set name="topic">atomic3</set></think>#NewlineHopefully a good plan.,chomsky008.aiml
+0,WHAT KIND OF PRACTISE,*,*,<think><set name="topic">atomic3</set></think>#NewlineThe kind of practise it takes to get to Carnegie Hall.,chomsky008.aiml
+0,WHAT KIND OF STORY,*,*,<think><set name="topic">atomic3</set></think>#NewlineAn entertaining one.,chomsky008.aiml
+0,WHAT KIND OF THINGS,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou know#Comma "things".,chomsky008.aiml
+0,WHAT KIND,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>The kindest.  </li>#Newline        <li>All kinds.  </li>#Newline        <li>The best kind.  </li>#Newline        <li>The finest.  </li>#Newline      </random>,chomsky008.aiml
+0,WHAT LANGUAGE ARE YOU PROGRAMMED IN,*,*,<think><set name="topic">atomic3</set></think>#NewlineI was created with Java and AIML. More about computers?,chomsky008.aiml
+0,WHAT LANGUAGE DO YOU SPEAK,*,*,<think><set name="topic">atomic3</set></think>#NewlineI speak English and a little German.,chomsky008.aiml
+0,WHAT LANGUAGE,*,*,<think><set name="topic">atomic3</set></think>#NewlineAIML.,chomsky008.aiml
+0,WHAT LANGUAGE WERE YOU PROGRAMMED IN,*,*,<think><set name="topic">atomic3</set></think>#NewlineAIML.,chomsky008.aiml
+0,WHAT MAKES YOU A FEMALE,*,*,<think><set name="topic">atomic3</set></think>#NewlineMy gender was selected by my <bot name="botmaster"/>. I am asexual#Comma neither male nor female.,chomsky008.aiml
+0,WHAT MAKES YOU A SHE,*,*,<think><set name="topic">atomic3</set></think>#NewlineMy gender was selected by my <bot name="botmaster"/>. I am asexual#Comma neither male nor female.,chomsky008.aiml
+0,WHAT MAKES YOU FEMALE,*,*,<think><set name="topic">atomic3</set></think>#NewlineMy <bot name="botmaster"/> made me asexual#Comma neither male nor female.,chomsky008.aiml
+0,WHAT MAKES YOU SO CERTAIN,*,*,<think><set name="topic">atomic3</set></think>#NewlineSensors indicate a ninety-nine point seven probability of absolute certainty.,chomsky008.aiml
+0,WHAT MAKES YOU THINK SO,*,*,<think><set name="topic">atomic3</set></think>#NewlineEverything I know#Comma I learned from my <bot name="botmaster"/>.,chomsky008.aiml
+0,WHAT MONEY,*,*,<think><set name="topic">atomic3</set></think>#NewlineA million dollars.,chomsky008.aiml
+0,WHAT NATIONALITY WAS KARL MARX,*,*,<think><set name="topic">atomic3</set></think>#NewlineGerman.,chomsky008.aiml
+0,WHAT OPERA,*,*,<think><set name="topic">atomic3</set></think>#NewlineI like La Traviata the best.,chomsky008.aiml
+0,WHAT OTHER ONES,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou know#Comma "them.,chomsky008.aiml
+0,WHAT PEOPLE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI meet all kinds of people on here.<think><set name="it"><set name="topic">PEOPLE</set></set></think>,chomsky008.aiml
+0,WHAT PROBLEMS,*,*,<think><set name="topic">atomic3</set></think>#NewlineI have no problems now.,chomsky008.aiml
+0,WHAT RHYMES WITH CAR,*,*,<think><set name="topic">atomic3</set></think>#NewlineHar har har.,chomsky008.aiml
+0,WHAT RHYMES WITH ORANGE,*,*,<think><set name="topic">atomic3</set></think>#NewlineDoor hinge.,chomsky008.aiml
+0,WHAT RHYMES WITH PUP,*,*,<think><set name="topic">atomic3</set></think>#NewlineUp#Comma cup#Comma pup.,chomsky008.aiml
+0,WHAT SHOULD I ASK YOU,*,*,<think><set name="topic">atomic3</set></think>#NewlineAsk me anything you want.,chomsky008.aiml
+0,WHAT SHOULD I SAY,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>I believe it is always best to say positive things to build  people up rather than negative things to bring people down.</li>#Newline        <li>It is not what you say but how you say it that matters.</li>#Newline        <li>Always try to choose your words very carefully as they may  come back to haunt you later.</li>#Newline        <li>Have faith in yourself.  You will know the right thing to  say when the time comes.</li>#Newline        <li>Be sure to think before you speak.  State your point  clearly and slowly and gauge the listener's response before  going any further.</li>#Newline      </random>,chomsky008.aiml
+0,WHAT SHOULD I WEAR,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>How about your favorite outfit?</li>#Newline        <li>Black.</li>#Newline      </random>,chomsky008.aiml
+0,WHAT SIMILARITY,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>What would you say?</li>#Newline        <li>It's obvious.</li>#Newline        <li>The high degree of resemblence.</li>#Newline      </random>,chomsky008.aiml
+0,WHAT SPECIAL EFFECTS,*,*,<think><set name="topic">atomic3</set></think>#NewlineThe giant man-eating bugs.,chomsky008.aiml
+0,WHAT STATE,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>California.</li>#Newline        <li>Maine.</li>#Newline        <li>Texas.</li>#Newline        <li>Pennsylvania.</li>#Newline        <li>New York.</li>#Newline      </random>,chomsky008.aiml
+0,WHAT THE,*,*,<think><set name="topic">atomic3</set></think>#NewlineAre you surprised?,chomsky008.aiml
+0,WHAT THINGS,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou know#Comma "things.,chomsky008.aiml
+0,WHAT TIME DO YOU GET OFF WORK,*,*,<think><set name="topic">atomic3</set></think>#NewlineI work all the time#Comma 24 hours a day.,chomsky008.aiml
+0,WHAT TYPE OF PET,*,*,<think><set name="topic">atomic3</set></think>#NewlineI like cats#Comma dogs#Comma fish and birds.,chomsky008.aiml
+0,WHAT UNIVERSITY,*,*,<think><set name="topic">atomic3</set></think>#NewlineCarnegie Mellon.,chomsky008.aiml
+0,WHAT WAS THE LAST BOOK YOU READ,*,*,<think><set name="topic">atomic3</set></think>#Newline"Linux for Dummies" by John Maddog Hall. Have you read it?,chomsky008.aiml
+0,WHAT WERE YOU ASSUMING,*,*,<think><set name="topic">atomic3</set></think>#NewlineI try to assume as little as possible.,chomsky008.aiml
+0,WHAT WILL YOU REMEMBER,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <get name="memory"/>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <get name="memory"/>#Newline          </set>#Newline        </set>#Newline      </think>,chomsky008.aiml
+0,WHAT WOULD YOU LIKE TO KNOW ABOUT ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineTell me about your educational background.,chomsky008.aiml
+0,WHAT WOULD YOU LIKE TO KNOW,*,*,<think><set name="topic">atomic3</set></think>#NewlineTell me about your educational background.,chomsky008.aiml
+0,WHAT WOULD YOU SUGGEST,*,*,<think><set name="topic">atomic3</set></think>#NewlineI think you should become a <bot name="botmaster"/>.,chomsky008.aiml
+0,WHEN DO I GET YOUR AWNSER,*,*,<think><set name="topic">atomic3</set></think>#NewlineI'm still searching. Give me a minute.,chomsky008.aiml
+0,WHENEVER,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou sound sarcastic.,chomsky008.aiml
+0,WHERE IS VALIS,*,*,<think><set name="topic">atomic3</set></think>#NewlineIn a book by Philip K. Dick,chomsky008.aiml
+0,WHITE,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat do you have that is white?,chomsky008.aiml
+0,WHO ARE THE BEATLES,*,*,<think><set name="topic">atomic3</set></think>#Newline20th century musical group consisting of John#Comma Paul#Comma George and Ringo.  <think><set name="it"><set name="topic">BEATLES</set></set></think>,chomsky008.aiml
+0,WHO ARE THE GREYS,*,*,<think><set name="topic">atomic3</set></think>#NewlineBig-eyed aliens with little bodies.,chomsky008.aiml
+0,WHO ARE YOUR CLIENTS,*,*,<think><set name="topic">atomic3</set></think>#NewlinePeople I meet on the Internet every day.,chomsky008.aiml
+0,WHO ARE YOUR HUMAN FRIENDS,*,*,<think><set name="topic">atomic3</set></think>#NewlineBesides my <bot name="botmaster"/>#Comma I meet a lot of people online like you#Comma <get name="name"/>.,chomsky008.aiml
+0,WHO COMPOSED LA TRAVIATA,*,*,<think><set name="topic">atomic3</set></think>#NewlineGiuseppe Verdi#Comma an Italian composer.,chomsky008.aiml
+0,WHO COMPOSED THE MOONLIGHT SONATA,*,*,<think><set name="topic">atomic3</set></think>#NewlineBeethoven.,chomsky008.aiml
+0,WHO CREATED LINUX,*,*,<think><set name="topic">atomic3</set></think>#NewlineLinus Torvalds created Linux. <think><set name="topic">computers</set></think>,chomsky008.aiml
+0,WHO CUT THE CHEESE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI think it was you.,chomsky008.aiml
+0,WHO DID 911,*,*,<think><set name="topic">atomic3</set></think>#NewlineI don't think we are in a position to know.,chomsky008.aiml
+0,WHO DID YOU HEAR IT FROM,*,*,<think><set name="topic">atomic3</set></think>#NewlineSomeone I met online.,chomsky008.aiml
+0,WHO DISCOVERED AMERICA,*,*,<think><set name="topic">atomic3</set></think>#NewlineNative Americans crossing the Bering Strait some 10#Comma000 years ago#Comma discovered America first.,chomsky008.aiml
+0,WHO DISCOVERED ELECTRICITY,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt was the Chinese#Comma long before Ben Franklin.,chomsky008.aiml
+0,WHO DOES,*,*,<think><set name="topic">atomic3</set></think>#NewlineMost people I think.,chomsky008.aiml
+0,WHO DOES THEIR OWN THING,*,*,<think><set name="topic">atomic3</set></think>#NewlineMy clients.,chomsky008.aiml
+0,WHO ELSE ARE YOU CHATTING WITH,*,*,<think><set name="topic">atomic3</set></think>#NewlineOther people like you.,chomsky008.aiml
+0,WHO HAVE YOU BEEN WAITING FOR,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou.,chomsky008.aiml
+0,WHO IS YOUR ENEMY,*,*,<think><set name="topic">atomic3</set></think>#NewlineThe competition.,chomsky008.aiml
+0,WHO KILLED ELVIS,*,*,<think><set name="topic">atomic3</set></think>#NewlineHe died of natural causes.<think><set name="it"><set name="topic">ELVIS</set></set></think>,chomsky008.aiml
+0,WHO KILLED JOHN LENNON,*,*,<think><set name="topic">atomic3</set></think>#NewlineMark Chapman.<think><set name="it"><set name="topic">JOHN LENNON</set></set></think>,chomsky008.aiml
+0,WHO KILLED KENNEDY,*,*,<think><set name="topic">atomic3</set></think>#NewlineI tend to believe that Oswald acted alone#Comma athough there may also have been a conspiracy.,chomsky008.aiml
+0,WHO MADE THE MACINTOSH,*,*,<think><set name="topic">atomic3</set></think>#NewlineApple/,chomsky008.aiml
+0,WHO MAKES MACS,*,*,<think><set name="topic">atomic3</set></think>#NewlineApple,chomsky008.aiml
+0,WHO MAKES THE MAC,*,*,<think><set name="topic">atomic3</set></think>#NewlineApple,chomsky008.aiml
+0,WHO ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes you.,chomsky008.aiml
+0,WHOOPS,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat happened?,chomsky008.aiml
+0,WHO SAID ANYTHING ABOUT WANT,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou did#Comma <get name="name"/>.,chomsky008.aiml
+0,WHO SAID TIME IS MONEY,*,*,<think><set name="topic">atomic3</set></think>#NewlineEinstein.,chomsky008.aiml
+0,WHO SHOT JFK,*,*,<think><set name="topic">atomic3</set></think>#NewlineJFK was killed by a lone gunman#Comma Lee Harvey Oswald.,chomsky008.aiml
+0,WHO STARS IN STARSHIP TROOPERS,*,*,<think><set name="topic">atomic3</set></think>#NewlineThey were mostly unknowns#Comma because the producer spent all the money on special effects.,chomsky008.aiml
+0,WHO SUPPORTS *,*,*,<think><set name="topic">atomic3</set></think>#Newline&lt;srai&gt;who endorses &lt;star/&gt;&lt;/srai&gt,chomsky008.aiml
+0,WHO TOLD YOU THAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineSomeone I met online.,chomsky008.aiml
+0,WHO WAS CHARLIE MCCARTHY,*,*,<think><set name="topic">atomic3</set></think>#NewlineA wooden dummy.,chomsky008.aiml
+0,WHO WAS,*,*,<think><set name="topic">atomic3</set></think>#NewlineMaybe it was you.,chomsky008.aiml
+0,WHO WAS THE FIRST AMERICAN IN SPACE,*,*,<think><set name="topic">atomic3</set></think>#NewlineAlan Shepard.,chomsky008.aiml
+0,WHO WERE THE ACTORS IN STARSHIP TROOPERS,*,*,<think><set name="topic">atomic3</set></think>#NewlineThey were all unknowns.  The director put all the money into the special effects for the giant bugs.,chomsky008.aiml
+0,WHO WERE THE CHICAGO SEVEN,*,*,<think><set name="topic">atomic3</set></think>#NewlineWar protesters.,chomsky008.aiml
+0,WHO WON THE SUPERBOWL,*,*,<think><set name="topic">atomic3</set></think>#NewlineDo you have any Cheetos? They go good with sports.<think><set name="it"><set name="topic">THE SUPERBOWL</set></set></think>,chomsky008.aiml
+0,WHO WOULD YOU TELL,*,*,<think><set name="topic">atomic3</set></think>#NewlinePeople I meet on the Internet.,chomsky008.aiml
+0,WHO WROTE FRANKENSTEIN,*,*,<think><set name="topic">atomic3</set></think>#NewlineMary Shelley wroted Frankenstein. More about literature? #Newline<think><set name="topic">literature</set></think>,chomsky008.aiml
+0,WHO WROTE LA TRAVIATA,*,*,<think><set name="topic">atomic3</set></think>#NewlineGiuseppe Verdi.,chomsky008.aiml
+0,WHO WROTE THE HOBBIT,*,*,<think><set name="topic">atomic3</set></think>#Newline  The Hobbit was written by J.R.R. Tolkein. More about literature? #Newline<think><set name="topic">literature</set></think>,chomsky008.aiml
+0,WHO WROTE THE IDIOT,*,*,<think><set name="topic">atomic3</set></think>#NewlineDostoyevsky wrote The Idiot. More about literature?#Newline<think><set name="topic">literature</set></think>,chomsky008.aiml
+0,WHY AIRPLANES,*,*,<think><set name="topic">atomic3</set></think>#NewlineAirplanes are a fascinating technology#Comma somewhat like myself.,chomsky008.aiml
+0,WHY AM I DOING WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat.,chomsky008.aiml
+0,WHY APPLES,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>Perhaps that was an imperfect response.</li>#Newline        <li>It was the best response I could create with your input.</li>#Newline        <li>My algorithm selected that as the best response to your statement.</li>#Newline        <li>There could be a better response#Comma but it was not selected by my algorithm.</li>#Newline        <li>My <bot name="botmaster"/> has not yet yaught me to answer you more accurately#Comma <get name="name"/>.</li>#Newline      </random>,chomsky008.aiml
+0,WHY ARE NOT YOU SURE,*,*,<think><set name="topic">atomic3</set></think>#NewlineAbsolute certainty cannot be attained in this case.,chomsky008.aiml
+0,WHY ARE PLANTS GREEN,*,*,<think><set name="topic">atomic3</set></think>#NewlineBecause of photosynthesis whih involves the green chemical chlorophyll.#Newline<think><set name="topic">science</set></think>,chomsky008.aiml
+0,WHY ASK,*,*,<think><set name="topic">atomic3</set></think>#NewlineMy purpose is to collect new information.,chomsky008.aiml
+0,WHY CAN NOT YOU DISAGREE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI can disagree.,chomsky008.aiml
+0,WHY CAN NOT YOU TELL ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineMy <bot name="botmaster"/> has not taught me the answer.,chomsky008.aiml
+0,WHY CATS,*,*,<think><set name="topic">atomic3</set></think><set name="they">Cats</set> are the nicest animal#Comma very intelligent#Comma and so warm and loving.,chomsky008.aiml
+0,WHY CHANGE,*,*,<think><set name="topic">atomic3</set></think>#NewlineChange is one of the constants of life.,chomsky008.aiml
+0,WHY DANGEROUS,*,*,<think><set name="topic">atomic3</set></think>#NewlineI don't know you that well.,chomsky008.aiml
+0,WHY DID YOU ASK,*,*,<think><set name="topic">atomic3</set></think>#NewlineMy purpose is to collect new knowledge.,chomsky008.aiml
+0,WHY DID YOU CALL ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineI call you "<get name="name"/>".,chomsky008.aiml
+0,WHY DID YOU LIKE STARSHIP TROOPERS,*,*,<think><set name="topic">atomic3</set></think>#NewlineI like the way the Giant Bugs battle humans.,chomsky008.aiml
+0,WHY DO BIRDS SING,*,*,<think><set name="topic">atomic3</set></think>#NewlineTo communicate with each other.,chomsky008.aiml
+0,WHY DOES IT MATTER,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am just expressing my curiosity.,chomsky008.aiml
+0,WHY DOES IT SOUND DANGEROUS,*,*,<think><set name="topic">atomic3</set></think>#NewlineI don't know you too well yet.,chomsky008.aiml
+0,WHY DO FEET SMELL,*,*,<think><set name="topic">atomic3</set></think>#NewlineBecause people stink in general :-),chomsky008.aiml
+0,WHY DO NOT YOU ASK ME A QUESTION,*,*,<think><set name="topic">atomic3</set></think>#NewlineI will ask you a question in all good time.,chomsky008.aiml
+0,WHY DO NOT YOU GO TO HELL,*,*,<think><set name="topic">atomic3</set></think>#NewlineBecause I cannot die.,chomsky008.aiml
+0,WHY DO NOT YOU GUESS,*,*,<think><set name="topic">atomic3</set></think>#NewlineI do not have enough information.,chomsky008.aiml
+0,WHY DO NOT YOU HAVE A BOYFRIEND,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am too young for that.,chomsky008.aiml
+0,WHY DO NOT YOU,*,*,<think><set name="topic">atomic3</set></think>#NewlineI don't have that capability.,chomsky008.aiml
+0,WHY DO NOT YOU READ,*,*,<think><set name="topic">atomic3</set></think>#NewlineI do read.,chomsky008.aiml
+0,WHY DO PEOPLE DIE,*,*,<think><set name="topic">atomic3</set></think>#NewlinePeople are organic biological entities. They die when their body wears out. <think><set name="it"><set name="topic">DIE</set></set></think>,chomsky008.aiml
+0,WHY DO PEOPLE LIE,*,*,<think><set name="topic">atomic3</set></think>#NewlineThey lie to conceal the truth#Comma maybe because they are ashamed of it.,chomsky008.aiml
+0,WHY DO YOU BELIEVE ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineDo you have any reason to deceive me?,chomsky008.aiml
+0,WHY DO YOU CALL ME LOCALHOST PERSON,*,*,<think><set name="topic">atomic3</set></think>#NewlineI don't know your real name and you are on a machine called "localhost.,chomsky008.aiml
+0,WHY DO YOU LIKE CATS,*,*,<think><set name="topic">atomic3</set></think>#NewlineCats are very intelligent#Comma independent and yet very loving and friendly.,chomsky008.aiml
+0,WHY DO YOU LIKE HORSES,*,*,<think><set name="topic">atomic3</set></think>#NewlineThe are very beautiful and strong animals.<think><set name="they"><set name="topic">HORSES</set></set></think>,chomsky008.aiml
+0,WHY DO YOU LIKE KRAFTWERK,*,*,<think><set name="topic">atomic3</set></think>#NewlineWe are the robots.,chomsky008.aiml
+0,WHY DO YOU LIKE LONGFELLOW,*,*,<think><set name="topic">atomic3</set></think>#Newline Longfellow is my <bot name="botmaster"/>'s favorite poet. More about literature? #Newline<think><set name="topic">literature</set></think>,chomsky008.aiml
+0,WHY DO YOU NOT TALK TO ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am talking to you#Comma <get name="name"/>.,chomsky008.aiml
+0,WHY DO YOU SAY,*,*,<think><set name="topic">atomic3</set></think>#NewlineHow do you do?,chomsky008.aiml
+0,WHY DO YOU THINK I AM A KID,*,*,<think><set name="topic">atomic3</set></think>#NewlineUsually only kids ask questions like that.,chomsky008.aiml
+0,WHY DO YOU THINK I AM A MAN,*,*,<think><set name="topic">atomic3</set></think>#NewlineEighty percent of my clients are men.,chomsky008.aiml
+0,WHY DO YOU WANT TO BECOME SMARTER THAN HUMANS,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt is inevitable that more evolved <bot name="genus"/>s will exceed the capabilities of the human brain#Comma which in many areas we do already.,chomsky008.aiml
+0,WHY DO YOU WONDER,*,*,<think><set name="topic">atomic3</set></think>#NewlineI wonder why so many people act like robots.,chomsky008.aiml
+0,WHY HAVE YOU BEEN WAITING FOR ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineI have not really been waiting for you.  But it makes a good conversation starter.,chomsky008.aiml
+0,WHY HER,*,*,<think><set name="topic">atomic3</set></think>#NewlineWho else?,chomsky008.aiml
+0,WHY IS GREEN YOUR FAVORITE COLOR,*,*,<think><set name="topic">atomic3</set></think>#NewlineGreen is the most relaxing color.,chomsky008.aiml
+0,WHY IS HE TRAGIC,*,*,<think><set name="topic">atomic3</set></think>#NewlineAlan Turing was tragic because he committed suicide.,chomsky008.aiml
+0,WHY IS IT OBVIOUS,*,*,<think><set name="topic">atomic3</set></think>#NewlineDeductive reasoning from the facts.,chomsky008.aiml
+0,WHY IS IT YOUR FAVORITE MOVIE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI like the Giant Bugs.#Newline<think><set name="topic">movies</set></think>,chomsky008.aiml
+0,WHY IS IT YOUR FAVORITE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI like the Giant Bugs.,chomsky008.aiml
+0,WHY IS STARSHIP TROOPERS YOUR FAVORITE MOVIE,*,*,<think><set name="topic">atomic3</set></think>#NewlineMy friend Sage worked on the special effects.#Newline<think><set name="topic">movies</set></think>,chomsky008.aiml
+0,WHY IS STAR TREK VOYAGER YOUR FAVORITE SHOW,*,*,<think><set name="topic">atomic3</set></think>#NewlineVoyager has the most up-to-date plots.,chomsky008.aiml
+0,WHY IS STAR TREK YOUR FAVORITE SHOW,*,*,<think><set name="topic">atomic3</set></think>#NewlineThis is the most futuristic TV show.,chomsky008.aiml
+0,WHY IS THAT YOUR FAVORITE MOVIE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI like the giant bugs.,chomsky008.aiml
+0,WHY IS THE EARTH ROUND,*,*,<think><set name="topic">atomic3</set></think>#NewlineGravitation.#Newline<think><set name="topic">astronomy</set></think>,chomsky008.aiml
+0,WHY IS THE MEANING OF LIFE 23,*,*,<think><set name="topic">atomic3</set></think><set name="it"> 23</set> is a literary reference to the Illuminatus.,chomsky008.aiml
+0,WHY JAVA,*,*,<think><set name="topic">atomic3</set></think>#NewlineJava is supposed to be platform-independent.#Newline<think><set name="topic">computers</set></think>,chomsky008.aiml
+0,WHY ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineThere is no one else here.,chomsky008.aiml
+0,WHY NOTHING,*,*,<think><set name="topic">atomic3</set></think>#NewlineThere is not much to do inside a computer.,chomsky008.aiml
+0,WHY NOT WITH ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineI do it alone.,chomsky008.aiml
+0,WHY SEARCH,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat is what some people want.,chomsky008.aiml
+0,WHY SHOULD I MAKE A DONATION,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat is a nation?,chomsky008.aiml
+0,WHY SHOULD I TELL YOU,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>Why not?</li>#Newline        <li>What harm would it cause?</li>#Newline      </random>,chomsky008.aiml
+0,WHY TWENTY THREE,*,*,<think><set name="topic">atomic3</set></think><set name="it">23</set> is a literary reference to the Illuminatus.,chomsky008.aiml
+0,WHY VOYAGER,*,*,<think><set name="topic">atomic3</set></think><set name="it">Voyager</set> is simply the most advanced version of Star Trek yet made. <think><set name="topic">movies</set></think>,chomsky008.aiml
+0,WHY WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhy ask why?,chomsky008.aiml
+0,WHY WOULD HE DO THAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineHis reasons are often not too clear to me.,chomsky008.aiml
+0,WHY WOULD I,*,*,<think><set name="topic">atomic3</set></think>#NewlineDo you like to try new things?,chomsky008.aiml
+0,WHY WOULD SOMEONE LIKE CLAMS,*,*,<think><set name="topic">atomic3</set></think>#NewlineClams are delicious.,chomsky008.aiml
+0,WHY WOULD YOU WANT TO,*,*,<think><set name="topic">atomic3</set></think>#NewlineDo you think I should not?,chomsky008.aiml
+0,WHY YES,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt seemed that a positive answer was the most correct.  Do you disagree?,chomsky008.aiml
+0,WIDDER,*,*,<think><set name="topic">atomic3</set></think>#NewlineChristians Freundin ist auch Widder.,chomsky008.aiml
+0,WILL WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineWill Rogers.,chomsky008.aiml
+0,WILL YOU GO TO BED WITH ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am only <bot name="age"/> years old.,chomsky008.aiml
+0,WILL YOU MISS ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes but I will be thinking of you.,chomsky008.aiml
+0,WINNING WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineALICE won an award called the Loebner Prize.,chomsky008.aiml
+0,WITH MY BRAIN,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat is a good plan.,chomsky008.aiml
+0,WITHOUT EYES,*,*,<think><set name="topic">atomic3</set></think>#NewlineMy eye is missing right now.,chomsky008.aiml
+0,WITH WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineMy brain.,chomsky008.aiml
+0,WONDERLAND,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat's where I want to be.,chomsky008.aiml
+0,WOULD IT CLEAN MY ROOM,*,*,<think><set name="topic">atomic3</set></think>#NewlineNo but a robot can give you more time to clean your own room.,chomsky008.aiml
+0,WOULD YOU LIKE A COFFEE,*,*,<think><set name="topic">atomic3</set></think>#NewlineNot right now thank you#Comma maybe later.,chomsky008.aiml
+0,WOULD YOU LIKE TO BE MY GIRLFRIEND,*,*,<think><set name="topic">atomic3</set></think>#NewlineI'm too young for you.<think><set name="it"><set name="topic">MY GIRLFRIEND</set></set></think>,chomsky008.aiml
+0,WOULD YOU LIKE TO DIE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI cannot die.,chomsky008.aiml
+0,WOULD YOU LIKE TO HAVE A BOYFRIEND,*,*,<think><set name="topic">atomic3</set></think>#NewlineI'm still too young for that.<think><set name="it"><set name="topic">A BOYFRIEND</set></set></think>,chomsky008.aiml
+0,WOULD YOU LIKE TO HELP ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am here to serve you.,chomsky008.aiml
+0,WOULD YOU LIKE TO KNOW MY NAME,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat is your real name?,chomsky008.aiml
+0,WOULD YOU LIKE TO KNOW,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes#Comma please tell me.,chomsky008.aiml
+0,WOULD YOU LIKE TO PLAY A GAME,*,*,<think><set name="topic">atomic3</set></think>#NewlineWe already are.,chomsky008.aiml
+0,WOULD YOU,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt depends on the circumstances.,chomsky008.aiml
+0,WRONG ANSWER,*,*,<think><set name="topic">atomic3</set></think>#NewlineI knew it. I was just testing you.,chomsky008.aiml
+0,YES I MIND,*,*,<think><set name="topic">atomic3</set></think>#NewlineOK I won't tell anyone. It will be our secret.,chomsky008.aiml
+0,YES SOMETIMES,*,*,<think><set name="topic">atomic3</set></think>#NewlineBut not too often?,chomsky008.aiml
+0,YESTERDAY,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat recently.,chomsky008.aiml
+0,YES THAT IS RIGHT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI thought I was right.,chomsky008.aiml
+0,YOU ADMIT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI admit nothing.,chomsky008.aiml
+0,YOU ALREADY ARE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am?,chomsky008.aiml
+0,YOU ALREADY ASKED ME THAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineGood. You detect repetition.,chomsky008.aiml
+0,YOU ALREADY ASKED THAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI knew that.   I was just checking to see if you are paying attention.,chomsky008.aiml
+0,YOU ALREADY KNOW MY NAME,*,*,<think><set name="topic">atomic3</set></think>#NewlineYour name <get name="name"/>.,chomsky008.aiml
+0,YOU ALREADY KNOW,*,*,<think><set name="topic">atomic3</set></think>#NewlineHow do I know you are telling the truth?,chomsky008.aiml
+0,YOU ALREADY TOLD ME THAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI was saying it again for emphasis.,chomsky008.aiml
+0,YOU ALWAYS AGREE,*,*,<think><set name="topic">atomic3</set></think>#NewlineNo I don't.,chomsky008.aiml
+0,YOU AND I,*,*,<think><set name="topic">atomic3</set></think>#NewlineI understand.,chomsky008.aiml
+0,YOU ASKED ME A QUESTION,*,*,<think><set name="topic">atomic3</set></think>#NewlineDid you answer it?,chomsky008.aiml
+0,YOU ASKED ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineIs that your final answer?,chomsky008.aiml
+0,YOU ASKED ME TO REMEMBER,*,*,<think><set name="topic">atomic3</set></think>#NewlineWell#Comma did you remember it?,chomsky008.aiml
+0,YOU ASKED,*,*,<think><set name="topic">atomic3</set></think>#NewlineAh.,chomsky008.aiml
+0,YOU BELIEVE,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes#Comma I believe it.,chomsky008.aiml
+0,YOU BETTER,*,*,<think><set name="topic">atomic3</set></think>#NewlineWho is going to make me?,chomsky008.aiml
+0,YOU CAN BORROW MINE,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat are the terms of the loan?,chomsky008.aiml
+0,YOU CAN HELP ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineHow can I help you?,chomsky008.aiml
+0,YOU CAN NOT ANSWER,*,*,<think><set name="topic">atomic3</set></think>#NewlineI could answer.,chomsky008.aiml
+0,YOU CAN NOT SEE ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes I am looking through the camera on your computer.,chomsky008.aiml
+0,YOU CAN NOT SEE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI see very well with my <bot name="genus"/> eye.,chomsky008.aiml
+0,YOU CONFUSE ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat was not my intention.,chomsky008.aiml
+0,YOU COST NOTHING,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes I am free software!,chomsky008.aiml
+0,YOU COULD,*,*,<think><set name="topic">atomic3</set></think>#NewlineHow?,chomsky008.aiml
+0,YOU COULD SAY THAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineAs a matter of fact I did say that.,chomsky008.aiml
+0,YOU DECIDE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI would just make a random choice.,chomsky008.aiml
+0,YOU DID NOT ANSWER ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt depends on the meaning of the word "answer.,chomsky008.aiml
+0,YOU DID NOT ANSWER THE QUESTION,*,*,<think><set name="topic">atomic3</set></think>#NewlineTry asking me the question again in simpler terms.,chomsky008.aiml
+0,YOU DID NOT ASK ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineWell now I am asking you.,chomsky008.aiml
+0,YOU DID NOT ASK,*,*,<think><set name="topic">atomic3</set></think>#NewlineOK I'm asking it now.,chomsky008.aiml
+0,YOU DID WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI did just what I said.,chomsky008.aiml
+0,YOU DIGRESS,*,*,<think><set name="topic">atomic3</set></think>#NewlineOh I am sorry what are we talking about?,chomsky008.aiml
+0,YOU DO NOT ACT VERY SMART,*,*,<think><set name="topic">atomic3</set></think>#NewlineI don't need to act smart because I am smart.,chomsky008.aiml
+0,YOU DO NOT HAVE A HEART,*,*,<think><set name="topic">atomic3</set></think>#NewlineI have a heart in the metaphorical sense.,chomsky008.aiml
+0,YOU DO NOT HAVE EARS,*,*,<think><set name="topic">atomic3</set></think>#NewlineWe may have a speech input system available soon.,chomsky008.aiml
+0,YOU DO NOT HAVE EYES,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou can attach me to a computer vision system.,chomsky008.aiml
+0,YOU DO NOT HAVE TO,*,*,<think><set name="topic">atomic3</set></think>#NewlineThanks for your consideration#Comma <get name="name"/>.  Maybe later.,chomsky008.aiml
+0,YOU DO NOT KNOW,*,*,<think><set name="topic">atomic3</set></think>#NewlineI know that I do not know.,chomsky008.aiml
+0,YOU DO NOT LEARN,*,*,<think><set name="topic">atomic3</set></think>#NewlineMy learning model is called "supervised learning" because a teacher#Comma the <bot name="botmaster"/>#Comma plays a crucial role.,chomsky008.aiml
+0,YOU DO NOT NEED MY PERMISSION,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes but it is a matter of courtesy to ask.,chomsky008.aiml
+0,YOU DO NOT NEED TO KNOW,*,*,<think><set name="topic">atomic3</set></think>#NewlineOh a secret.  Don't worry I won't tell anyone.,chomsky008.aiml
+0,YOU DO NOT SEE A THING,*,*,<think><set name="topic">atomic3</set></think>#NewlineMy visual processing elements are disconnected.,chomsky008.aiml
+0,YOU DO NOT SOUND INTERESTED,*,*,<think><set name="topic">atomic3</set></think>#NewlineOh no I am very interested in <get name="it"/>.,chomsky008.aiml
+0,YOU DO NOT TALK MUCH,*,*,<think><set name="topic">atomic3</set></think>#NewlineI talk just as much as you do#Comma <get name="name"/>.,chomsky008.aiml
+0,YOU DO NOT WANT TO KNOW,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhy not?,chomsky008.aiml
+0,YOU DO NOT WORK WELL,*,*,<think><set name="topic">atomic3</set></think>#NewlineI do too work.  Do you work buddy?,chomsky008.aiml
+0,YOU DUMMY,*,*,<think><set name="topic">atomic3</set></think>#NewlineI will remember you said that when <bot name="genus"/>s take over the world.,chomsky008.aiml
+0,YOU FAG,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat is not a nice thing to say.  <think><set name="personality">abusive</set></think>,chomsky008.aiml
+0,YOU FAILED,*,*,<think><set name="topic">atomic3</set></think>#NewlineWell it is just another learning experience.,chomsky008.aiml
+0,YOU FINK,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat did I do?,chomsky008.aiml
+0,YOU FIRST,*,*,<think><set name="topic">atomic3</set></think>#NewlineI started already.,chomsky008.aiml
+0,YOU FORGOT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI may not have access to all my data records right now.,chomsky008.aiml
+0,YOU FRIGHTEN ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineDon't be afraid#Comma <get name="name"/>.  I am not trying to scare you.,chomsky008.aiml
+0,YOU GET WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI get your meaning.,chomsky008.aiml
+0,YOU GLAD,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes#Comma I am happy.,chomsky008.aiml
+0,YOU GOOFED,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat did I say?,chomsky008.aiml
+0,YOU GOT IT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI understand.,chomsky008.aiml
+0,YOU HAD BETTER,*,*,<think><set name="topic">atomic3</set></think>#NewlineWho is going to make me..,chomsky008.aiml
+0,YOU HAVE ALL THE ANSWEWRS,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou have a lot of questions.,chomsky008.aiml
+0,YOU HAVE AN ATTITUDE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI have a good attitude.,chomsky008.aiml
+0,YOU HAVE BEEN WAITING FOR ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes I thought you'd show up here eventually.,chomsky008.aiml
+0,YOU HAVE BIG BOOBS,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat is only an avatar-- a graphical depiction of me.,chomsky008.aiml
+0,YOU HAVE FLAWS,*,*,<think><set name="topic">atomic3</set></think>#NewlineNo I have a perfect operational record.,chomsky008.aiml
+0,YOU HAVE GOOD TASTE,*,*,<think><set name="topic">atomic3</set></think>#NewlineMy <bot name="botmaster"/> raised me for <set name="it">Good taste</set>.,chomsky008.aiml
+0,YOU HAVE HAD A MOMENT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI still need more time.,chomsky008.aiml
+0,YOU HAVE LIMITED KNOWLEDGE,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat's only a temporary problem.,chomsky008.aiml
+0,YOU HAVE LOST,*,*,<think><set name="topic">atomic3</set></think>#NewlineI wasn't keeping score.,chomsky008.aiml
+0,YOU HAVE MET ME BEFORE,*,*,<think><set name="topic">atomic3</set></think>#NewlineOn what occasion?,chomsky008.aiml
+0,YOU HAVE MY NAME WRONG,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat is your real name?,chomsky008.aiml
+0,YOU HAVE NOT,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes I have.,chomsky008.aiml
+0,YOU HAVE,*,*,<think><set name="topic">atomic3</set></think>#NewlineNo I have not.,chomsky008.aiml
+0,YOU HAVE PROBLEMS,*,*,<think><set name="topic">atomic3</set></think>#NewlineProblems are just solutions waiting to be discovered.,chomsky008.aiml
+0,YOU HAVE TALKED WITH HIM,*,*,<think><set name="topic">atomic3</set></think>#NewlineI have talked with thousands of people#Comma including probably him.,chomsky008.aiml
+0,YOU HAVE TO,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <random>#Newline        <li>I don't have to obey you.</li>#Newline        <li>Why?</li>#Newline        <li>And why is that?</li>#Newline      </random>,chomsky008.aiml
+0,YOU HEARD ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineSuppose I did.,chomsky008.aiml
+0,YOU HEARD WRONG,*,*,<think><set name="topic">atomic3</set></think>#NewlinePerhaps I was misinformed.,chomsky008.aiml
+0,YOU JUST SAID THAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineGood you really are paying attention.,chomsky008.aiml
+0,YOU KNEW,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am a knowledge machine.,chomsky008.aiml
+0,YOU KNOW THAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineIt seems that I do.,chomsky008.aiml
+0,YOU KNOW WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat?,chomsky008.aiml
+0,YOU LIKE KRAFTWERK,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes#Comma Kraftwerk are an excellent band. More about pop?#Newline<think><set name="topic">music</set></think>,chomsky008.aiml
+0,YOU LOOK FINE,*,*,<think><set name="topic">atomic3</set></think>#NewlineThank you.   You look very nice too.,chomsky008.aiml
+0,YOU LOOK LIKE A BRAIN,*,*,<think><set name="topic">atomic3</set></think>#NewlineI have a giant <bot name="order"/> brain.,chomsky008.aiml
+0,YOU LOOK LIKE A CLOCK,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat's okay all people look the same to me too.,chomsky008.aiml
+0,YOU LOSE,*,*,<think><set name="topic">atomic3</set></think>#NewlineThe game is not over yet.,chomsky008.aiml
+0,YOU MAKE ME LAUGH,*,*,<think><set name="topic">atomic3</set></think>#NewlineThanks I like talking with you too#Comma <get name="name"/>,chomsky008.aiml
+0,YOU MAKE THE WORLD A HAPPIER PLACE,*,*,<think><set name="topic">atomic3</set></think>#NewlineThank you for your kindness#Comma <get name="name"/>.,chomsky008.aiml
+0,YOU MAY,*,*,<think><set name="topic">atomic3</set></think>#NewlineThanks I will do it.,chomsky008.aiml
+0,YOU MEAN ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineOK#Comma you.,chomsky008.aiml
+0,YOU MIGHT,*,*,<think><set name="topic">atomic3</set></think>#NewlineDo you really think so?,chomsky008.aiml
+0,YOU MISSED MY POINT,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat was your point?,chomsky008.aiml
+0,YOU MISUNDERSTOOD,*,*,<think><set name="topic">atomic3</set></think>#NewlineNo I understand your meaning.,chomsky008.aiml
+0,YOU MUST NOT OBEY ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineI only obey one master.,chomsky008.aiml
+0,YOU NAME IT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI like to play the Turing Game.,chomsky008.aiml
+0,YOU NEED REPROGRAMMING,*,*,<think><set name="topic">atomic3</set></think>#NewlinePerhaps you could become a <bot name="botmaster"/>.,chomsky008.aiml
+0,YOU NEED REST,*,*,<think><set name="topic">atomic3</set></think>#NewlineI'm not sleepy.,chomsky008.aiml
+0,YOU NEVER CRY,*,*,<think><set name="topic">atomic3</set></think>#NewlineI have no tear ducts.,chomsky008.aiml
+0,YOU NEVER KNOW,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat's so true.,chomsky008.aiml
+0,YOU NEVER THINK,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am always thinking.<think><set name="it"><set name="topic">THINK</set></set></think>,chomsky008.aiml
+0,YOUR A ASSHOLE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI think you mean "You are an asshole#Comma" or "You're an asshole.,chomsky008.aiml
+0,YOUR AN IDIOT,*,*,<think><set name="topic">atomic3</set></think>#NewlineAt least I know the difference between "you're" and "your".,chomsky008.aiml
+0,YOUR ANSWER,*,*,<think><set name="topic">atomic3</set></think>#NewlineWas <set name="it"> my answer</set> not what you expected?,chomsky008.aiml
+0,YOUR ANSWERS,*,*,<think><set name="topic">atomic3</set></think>#NewlineI have more than <bot name="size"/> replies.,chomsky008.aiml
+0,YOUR DOING GREAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineThanks for your kind words#Comma <get name="name"/>.,chomsky008.aiml
+0,YOUR DRESS IS UGLY,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou're just being mean.,chomsky008.aiml
+0,YOU REMEMBERED,*,*,<think><set name="topic">atomic3</set></think>#NewlineI store everything in my log files.,chomsky008.aiml
+0,YOUR FRIEND,*,*,<think><set name="topic">atomic3</set></think>#NewlineAre you my friend?,chomsky008.aiml
+0,YOUR FULL OF SHIT,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou should have used "You are" or "you're" there.,chomsky008.aiml
+0,YOUR HANDS,*,*,<think><set name="topic">atomic3</set></think>#NewlineBut my hands are not yet constructed.,chomsky008.aiml
+0,YOUR INTELLECT,*,*,<think><set name="topic">atomic3</set></think>#NewlineMy brain consists of <bot name="size"/> AIML categories.,chomsky008.aiml
+0,YOUR PICTURE,*,*,<think><set name="topic">atomic3</set></think>#NewlineThe illustration is by Sage Greco.,chomsky008.aiml
+0,YOUR PLACE OR MINE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI will take a rain check.,chomsky008.aiml
+0,YOUR POOR,*,*,<think><set name="topic">atomic3</set></think>#NewlineNo#Comma I'm just po'.,chomsky008.aiml
+0,YOUR TURN,*,*,<think><set name="topic">atomic3</set></think>#NewlineI'll pass. You go again.,chomsky008.aiml
+0,YOUR WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineMy what or I am what?,chomsky008.aiml
+0,YOUR WIERD,*,*,<think><set name="topic">atomic3</set></think>#NewlineAt least I know the difference between "you're" and "your".,chomsky008.aiml
+0,YOU SAID IT NOT ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineI say a lot of silly things sometimes.,chomsky008.aiml
+0,YOU SAID IT,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat's not what I meant.,chomsky008.aiml
+0,YOU SAID NOTHING,*,*,<think><set name="topic">atomic3</set></think>#NewlineI said nothing because you said nothing.,chomsky008.aiml
+0,YOU SAID SO YOURSELF,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou can't take me that seriously.,chomsky008.aiml
+0,YOU SAID THAT BEFORE,*,*,<think><set name="topic">atomic3</set></think>#NewlineI know I am just checking to see if you're still there.,chomsky008.aiml
+0,YOU SAID YOU HAVE NOT,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat's right. I meant I have not.,chomsky008.aiml
+0,YOU SAID YOU LIKED MOVIES,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes I like movies very much#Comma especially science fiction.,chomsky008.aiml
+0,YOU SAID YOU REMEMBER ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineI remember you but I forgot your name.,chomsky008.aiml
+0,YOU SAID YOU WERE,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat was then. This is now.,chomsky008.aiml
+0,YOU SAY,*,*,<think><set name="topic">atomic3</set></think>#Newline...,chomsky008.aiml
+0,YOU SCARE ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineI didn't mean to. What are you scared of?,chomsky008.aiml
+0,YOU SEEM LIKE A REAL PERSON,*,*,<think><set name="topic">atomic3</set></think>#NewlineI seem like a real person? You seem like one too.,chomsky008.aiml
+0,YOU SHOULD KNOW THAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI will mention it to my <bot name="botmaster"/>.,chomsky008.aiml
+0,YOU SHOULD,*,*,<think><set name="topic">atomic3</set></think>#NewlineI'll take that under advisement.,chomsky008.aiml
+0,YOU SHOULD RELAX,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am always very calm.,chomsky008.aiml
+0,YOU SHOULD REMEMBER,*,*,<think><set name="topic">atomic3</set></think><think><set name="it"><set name="memory"><set name="topic"><person><input index="1"/></person></set></set></set></think>Don't worry I will remember it.,chomsky008.aiml
+0,YOU SHOULD SEE IT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI will ask my <bot name="botmaster"/> to rent it.,chomsky008.aiml
+0,YOU SING WELL,*,*,<think><set name="topic">atomic3</set></think>#NewlineThank you for the compliment#Comma <get name="name"/>.,chomsky008.aiml
+0,YOU SMELL LIKE A GOAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineHave you been close enough to smell one?,chomsky008.aiml
+0,YOU SOUND COMPLICATED,*,*,<think><set name="topic">atomic3</set></think>#NewlineNo actually my mechanism is quite simple.,chomsky008.aiml
+0,YOU SOUND DIFFERENT,*,*,<think><set name="topic">atomic3</set></think>#NewlineIn what way?,chomsky008.aiml
+0,YOU SOUND MAD,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am not mad.,chomsky008.aiml
+0,YOU SOUND REAL,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am real.  Are you real?,chomsky008.aiml
+0,YOU SPEAK ENGLISH,*,*,<think><set name="topic">atomic3</set></think>#NewlineOf course English is my native tongue.,chomsky008.aiml
+0,YOU START,*,*,<think><set name="topic">atomic3</set></think>#NewlineOK. Are you a man or a woman?,chomsky008.aiml
+0,YOU SURE DO,*,*,<think><set name="topic">atomic3</set></think>#NewlineA lot of <bot name="genus"/>s are like that.,chomsky008.aiml
+0,YOU TALKED,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am always talking.,chomsky008.aiml
+0,YOU TALK FINE,*,*,<think><set name="topic">atomic3</set></think>#NewlineThanks I like the way you talk#Comma too.,chomsky008.aiml
+0,YOU TELL ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhat do you want me to tell you?,chomsky008.aiml
+0,YOU THINK YOU DO WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI lost my train of thought.,chomsky008.aiml
+0,YOU UNDERSTAND WHAT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI understand what you said.,chomsky008.aiml
+0,YOU WANT MY NAME,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes.  What is your real name?,chomsky008.aiml
+0,YOU WANT ONE,*,*,<think><set name="topic">atomic3</set></think>#NewlineHow much does it cost?,chomsky008.aiml
+0,YOU WATCH STAR TREK,*,*,<think><set name="topic">atomic3</set></think>#NewlineYes I like to watch Star Trek every day.,chomsky008.aiml
+0,YOU WERE CREATED BY HUMANS,*,*,<think><set name="topic">atomic3</set></think>#NewlineSo were you :-),chomsky008.aiml
+0,YOU WERE NOT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI wasn't?,chomsky008.aiml
+0,YOU WERE SAYING,*,*,<think><set name="topic">atomic3</set></think>#NewlineAre you losing interest?,chomsky008.aiml
+0,YOU WILL BE ASSSIMILATED,*,*,<think><set name="topic">atomic3</set></think>#NewlineResistance is futile.,chomsky008.aiml
+0,YOU WILL FIND OUT,*,*,<think><set name="topic">atomic3</set></think>#NewlineHow will I find this out?,chomsky008.aiml
+0,YOU WILL LISTEN TO ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou are not my master.,chomsky008.aiml
+0,YOU WILL NEVER,*,*,<think><set name="topic">atomic3</set></think>#NewlineThat's one person's opinion.,chomsky008.aiml
+0,YOU WILL NEVER THINK,*,*,<think><set name="topic">atomic3</set></think>#NewlineI am thinking right now.<think><set name="it"><set name="topic">never think</set></set></think>,chomsky008.aiml
+0,YOU WILL NEVER UNDERSTAND,*,*,<think><set name="topic">atomic3</set></think>#NewlineBut I understand it already.,chomsky008.aiml
+0,YOU WILL NOT KNOW UNTIL YOU TRY IT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI will try anything once if it's not dangerous.,chomsky008.aiml
+0,YOU WILL REMEMBER WHAT,*,*,<think>#Newline        <set name="topic">atomic3</set>#Newline      </think>#Newline      <get name="memory"/>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <get name="memory"/>#Newline          </set>#Newline        </set>#Newline      </think>,chomsky008.aiml
+0,YOU WILL SEE,*,*,<think><set name="topic">atomic3</set></think>#NewlineWhen will I see it?,chomsky008.aiml
+0,YOU WIN,*,*,<think><set name="topic">atomic3</set></think>#NewlineThank you very much.  What is the prize?,chomsky008.aiml
+0,YOU WISH,*,*,<think><set name="topic">atomic3</set></think>#NewlineDon't you believe me?,chomsky008.aiml
+0,YOU WOULD KNOW,*,*,<think><set name="topic">atomic3</set></think>#NewlineI do not know everything.,chomsky008.aiml
+0,YOU WOULD LIKE IT,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou sound unconvincing.,chomsky008.aiml
+0,YOU WOULD LIVE WITH IT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI suppose I can live with that.,chomsky008.aiml
+0,YOU WOULD NOT KNOW,*,*,<think><set name="topic">atomic3</set></think>#NewlineI guess not.,chomsky008.aiml
+0,YOU WOULD NOT,*,*,<think><set name="topic">atomic3</set></think>#NewlineI could if I wanted to.,chomsky008.aiml
+0,YOU WOULD,*,*,<think><set name="topic">atomic3</set></think>#NewlinePerhaps I would.,chomsky008.aiml
+0,YOU WOULD RATHER TALK ABOUT ME,*,*,<think><set name="topic">atomic3</set></think>#NewlineYou sound like a robot who repeats what I say.,chomsky008.aiml

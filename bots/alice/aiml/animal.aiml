@@ -1,17 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- File: animal.aiml -->
-<!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: March 06, 2022 -->
-<!--  -->
-<!-- This AIML file is part of the ALICE 0.0.4 chat bot knowledge base. -->
-<!--  -->
-<!-- The ALICE brain is Copyright &copy; 2022 by ALICE AI Foundation. -->
-<!--  -->
-<!-- The ALICE brain is released under the terms of the GNU Lesser General -->
-<!-- Public License, as published by the Free Software Foundation. -->
-<!--  -->
-<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
-<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
-<!--  -->
-<!-- For more information see http://www.alicebot.org -->
-<!-- -->
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<aiml version="1.0.1">
+
+
+
+<category>
+    <pattern>
+      meu cachorro se chama *
+    </pattern>
+
+    <template>
+       <think><set name="cachorro"><star/></set></think>
+        <random>
+           <li> nome bonito ! <get name="cachorro"/> Vou me lembrar dele!</li>
+           
+        </random>
+    </template>     
+</category>
+
+
+
+<category>
+    <pattern>
+     qual o nome do meu cachorrro ?
+    </pattern>
+    <template>
+     	<li>Você disse que éra <get name="cachorro"/>!</li>
+        </template>  
+ 
+</category>
+
+
+
+
+
+<category>
+    <pattern>
+      meu gato se chama *
+    </pattern>
+
+    <template>
+       <think><set name="gato"><star/></set></think>
+        <random>
+           <li> nome bonito ! <get name="gato"/> Vou me lembrar dele!</li>
+           
+        </random>
+    </template>     
+</category>
+
+
+
+<category>
+    <pattern>
+     qual o nome do meu gato ?
+    </pattern>
+    <template>
+     	<li>Você disse que éra <get name="gato"/>!</li>
+        </template>  
+
+
+
+
+<category>
+    <pattern>
+      meu passarinho se chama *
+    </pattern>
+
+    <template>
+       <think><set name="passarinho"><star/></set></think>
+        <random>
+           <li> nome bonito ! <get name="passarinho"/> Vou me lembrar dele!</li>
+           
+        </random>
+    </template>     
+</category>
+
+
+
+<category>
+    <pattern>
+     qual o nome do meu passarinho ?
+    </pattern>
+    <template>
+     	<li>Você disse que éra <get name="passarinho"/>!</li>
+        </template> 
+
+
+ 
+</category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</aiml>

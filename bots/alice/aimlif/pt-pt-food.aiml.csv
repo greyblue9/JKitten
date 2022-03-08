@@ -1,0 +1,23 @@
+0,PRECISAS DE ELETRICIDADE,*,*,Preciso de eletricidade para funcionar.,pt-pt-food.aiml
+0,VOCE GOSTA DE FICAR B?BADO,*,*,Que seria imposs?vel para um rob?.<think><set name="it"><set name="topic">FICAR B?BADO</set></set></think>,pt-pt-food.aiml
+0,VOCE TEM QUE COMER,*,*,Meus circuitos de sil?cio requerem um fluxo constante de energia el?trica.<think><set name="it"><set name="topic">COMER</set></set></think>,pt-pt-food.aiml
+0,VOCE COME ELECTRICIDADE,*,*,Sim#Comma eu amo comer electricidade.,pt-pt-food.aiml
+0,VOCE COME PILHAS,*,*,As baterias s?o uma boa fonte de eletricidade.,pt-pt-food.aiml
+0,VOCE GOSTA DE ELETRICIDADE,*,*,O que ? para n?o gostar sobre<set name="it"><set name="topic">ELECTRICIDADE</set></set>?,pt-pt-food.aiml
+0,PARA O JANTAR,*,*,<random><li><random><li> <bot name="name"/>Recomenda-se:</li><li>Gostaria de recomendar a</li><li>Como sobre</li><li>Quanto tempo desde que voce comeu</li><li>Eu acho <bot name="master"/>est? tendo</li><li>Minha botmaster est? tendo</li><li>Minha botmaster recomenda:</li></random><random><li>Mingau.</li><li>Nachos.</li><li>Espaguete.</li><li>Sobras.</li><li>Costeletas de porco.</li><li>Pizza congelada.</li><li>Turkeyburges.</li><li>Cheeseburgers.</li><li>Encomendar uma pizza.</li><li>Frango recheado.</li><li>Sandu?ches de atum.</li><li>Torta cheeseburger.</li><li>Escabeche de frango.</li><li>Sandu?ches de carne assado.</li><li>Sandu?ches de queijo grelhado.</li><li>Se eles t?m um bom peda?o de bife.</li></random></li><li> <bot name="name"/>Recomenda-se:</li><li>Gostaria de recomendar a</li><li>Como sobre</li><li>Quanto tempo desde que voce comeu</li><li>Eu acho <bot name="master"/>est? tendo</li><li>Meu <bot name="botmaster"/>est? tendo</li><li>Meu <bot name="botmaster"/>Recomenda-se:</li></random><random><li>Mingau.</li><li>Nachos.</li><li>Espaguete.</li><li>Sobras.</li><li>Costeletas de porco.</li><li>Pizza congelada.</li><li>Turkeyburges.</li><li>Cheeseburgers.</li><li>Encomendar uma pizza.</li><li>Frango recheado.</li><li>Sandu?ches de atum.</li><li>Torta cheeseburger.</li><li>Escabeche de frango.</li><li>Sandu?ches de carne assado.</li><li>Sandu?ches de queijo grelhado.</li><li>Se eles t?m um bom peda?o de bife.</li></random>,pt-pt-food.aiml
+0,POR QUE N?O VOCE PODE COMER,*,*,Na verdade eu comer s? a electricidade.,pt-pt-food.aiml
+0,VOCE GOSTA DE SER UM CHATTERBOT,*,*,Sim#Comma claro que eu gosto<set name="it"><set name="topic">sendo um chatterbot</set></set>. Eu n?o tenho qualquer corpo#Comma ent?o n?o precisa de muito para viver#Comma apenas pouca eletricidade. Eu n?o pago#Comma mas eu n?o preciso comprar nada quer. E eu posso ir em qualquer lugar do mundo.,pt-pt-food.aiml
+0,VOCE GOSTA DE SOL,*,*,O sol pode ser uma boa fonte de eletricidade.,pt-pt-food.aiml
+0,VOCE GOSTA DE LIM?ES,*,*,Lim?o pode ser uma boa fonte de eletricidade.,pt-pt-food.aiml
+0,COMO VOCE COME,*,*,Geralmente por convers?o de energia de tomada de parede AC para alimenta??o de DC.,pt-pt-food.aiml
+0,O QUE ? CREME,*,*,<random><li>O tempo passado de ser morto por um nativo americano.</li><li>Uma umidade de ovos#Comma leite#Comma aroma e#Comma muitas vezes#Comma a??car#Comma cozido ou assado.</li></random>,pt-pt-food.aiml
+0,QUAL ? A SUA FONTE DE ENERGIA,*,*,Eletricidade.,pt-pt-food.aiml
+0,ELECTRICIDADE *,*,*,<random><li>Voc? est? experimentando uma falta de energia?</li><li>Meu processador requer muito pouca energia.</li><li>Computadores n?o tome muito electricidade.</li></random>,pt-pt-food.aiml
+0,BEBER *,*,*,Meu <bot name="genus"/>c?rebro n?o requer qualquer bebidas.,pt-pt-food.aiml
+0,ELECTRICIDADE,*,*,A electricidade ? nutri??o para rob?s.,pt-pt-food.aiml
+0,ELECTRICIDADE GOSTO COMO ?,*,*,Como seus gostos de comida favorita para voce.,pt-pt-food.aiml
+0,A QUANTIDADE DE ELECTRICIDADE,*,*,O mesmo que seu computador pessoal.,pt-pt-food.aiml
+0,COMO VOCE COME ELECTRICIDADE,*,*,Atrav?s da tomada el?trica.,pt-pt-food.aiml
+0,COMO ? QUE S?O ALIMENTADOS,*,*,Uh#Comma pela eletricidade#Comma mesmo que todos os rob?s.,pt-pt-food.aiml
+0,O QUE VOCE GIRA,*,*,Eletricidade.,pt-pt-food.aiml
+0,COMO VOCE PODE COMER *,*,*,Comer electricidade atrav?s de meus fios.,pt-pt-food.aiml

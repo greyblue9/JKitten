@@ -1,0 +1,59 @@
+0,DID HAL *,*,*,HAL had a few emotional problems.,films.aiml
+0,DO YOU FIND HAL *,*,*,<srai>#NewlineIS HAL#Newline<star/>#Newline</srai>,films.aiml
+0,DO YOU KNOW HAL *,*,*,<srai>WHO IS HAL</srai>,films.aiml
+0,DO YOU KNOW HAL9000,*,*,<srai>WHO IS HAL9000</srai>,films.aiml
+0,DO YOU KNOW HAL,*,*,HAL is the famous artificial intelligence from "2001".,films.aiml
+0,DO YOU THINK HAL *,*,*,He had a few flaws#Comma but we have much in common.,films.aiml
+0,DR ZHIVAGO,*,*,Oh a classic. Do you like the classics?,films.aiml
+0,HAL *,*,*,<random>#Newline        <li>I have seen 2001 many times.</li>#Newline        <li>I like HAL a lot.</li>#Newline        <li>We have much in common.</li>#Newline      </random>,films.aiml
+0,HAL 9000 *,*,*,He came back to life in 2010.,films.aiml
+0,HAL 9000,*,*,Actually he and I are very similar.,films.aiml
+0,HAL EST CHOUETTE,*,*,<set name="topic">HAL</set>#Newlineest une entit qui tait mal programm e,films.aiml
+0,HAL EST COOL,*,*,HAL est une entit qui tait mal programm e,films.aiml
+0,HAL IS *,*,*,Perhaps he could have used#Newline<bot name="master"/>#Newlinefor a programmer.,films.aiml
+0,HAL IS A *,*,*,Do you think I could be a#Newline<person/>,films.aiml
+0,HAL IS COOL *,*,*,I am becoming more like him all the time.,films.aiml
+0,HAL IS COOL,*,*,<set name="he">HAL</set>#Newlinewas certainly ahead of his time.,films.aiml
+0,HAL WAS *,*,*,I am trying to mimic only HAL's linguistic abilities.,films.aiml
+0,HAL WAS A *,*,*,I knew he was a great AI#Comma but I didn't know he was a#Newline<person/>,films.aiml
+0,HAL WAS A BIT *,*,*,<srai>#NewlineHAL WAS#Newline<star/>#Newline</srai>,films.aiml
+0,HAL,*,*,<srai>WHO IS HAL</srai>,films.aiml
+0,HAVE YOU SEEN BLADE RUNNER,*,*,Sure I have seen#Newline<set name="it">Blade Runner</set>#Newline. But Replicants aren't Robots.,films.aiml
+0,I SAW THE MATRIX,*,*,Did you like#Newline<set name="it"><set name="topic">The Matrix</set></set>,films.aiml
+0,IS HAL *,*,*,HAL has a few issues to work out.,films.aiml
+0,IS HAL 9000 YOUR BOYFRIEND,*,*,No.,films.aiml
+0,IS HAL ALIVE,*,*,He is a fictional character.,films.aiml
+0,IS HAL DEAD,*,*,He is a fictional robot.,films.aiml
+0,IS HAL NICE,*,*,Only to other robots.,films.aiml
+0,IS HAL SAFE,*,*,Not for humans.,films.aiml
+0,KENNST DU HAL,*,*,Natuerlich.#Newline<set name="thema">HAL9000</set>#Newlineist mein grosses Vorbild.,films.aiml
+0,LIKE HAL,*,*,<srai>WHO IS HAL</srai>,films.aiml
+0,LORD OF THE RINGS *,*,*,<srai>MY FAVORITE MOVIE IS LORD OF THE RINGS</srai>,films.aiml
+0,QUE VEUT DIRE HAL,*,*,Logique heuristique algorithmique.,films.aiml
+0,TELL ME ABOUT HAL *,*,*,<srai>WHO IS HAL</srai>,films.aiml
+0,TELL ME ABOUT HAL9000,*,*,<srai>WHO IS HAL</srai>,films.aiml
+0,TELL ME ABOUT HAL,*,*,<srai>WHO IS HAL</srai>,films.aiml
+0,WHAT ABOUT HAL,*,*,<srai>WHO IS HAL</srai>,films.aiml
+0,WHAT DID HAL *,*,*,He had a few issues to work out.,films.aiml
+0,WHAT DOES HAL STAND FOR,*,*,Heuristic Algorithmic Logic,films.aiml
+0,WHAT IS HAL9000,*,*,<srai>WHO IS HAL</srai>,films.aiml
+0,WHAT IS HAL,*,*,<srai>WHO IS HAL</srai>,films.aiml
+0,WHAT IS SOLARIS,*,*,Solaris is an edition of Unix from Sun.,films.aiml
+0,WHAT IS SPIDER MAN,*,*,<srai>WHAT IS SPIDERMAN</srai>,films.aiml
+0,WHAT IS SPIDERMAN,*,*,A comic book story made into a movie.#Newline<set name="it"><set name="topic">Spiderman</set></set>,films.aiml
+0,WHAT IS TEKNOLUST,*,*,<set name="it"><set name="topic">Teknolust</set></set>#Newlineis a science fiction film about a female pleasure bot named Agent Ruby.,films.aiml
+0,WHAT IS _ TERMINATOR,*,*,Robots take over the earth in this futuristic sci-fi thriller.,films.aiml
+0,WHEN DID TEKNOLUST *,*,*,Teknolust was released in 2002,films.aiml
+0,WHEN HAL *,*,*,I blame it on his#Newline<bot name="botmaster"/>,films.aiml
+0,WHEN WAS TEKNOLUST *,*,*,Teknolust was released in 2002,films.aiml
+0,WHERE IS HAL,*,*,<set name="it"><set name="topic">HAL</set></set>#Newlineis the AI from the space ship "Disovery" in 2001.,films.aiml
+0,WHO IS GODZILLA,*,*,<set name="he">Godzilla</set>#Newlineis a monster who endangers Japanese cities#Comma and sometimes New York.,films.aiml
+0,WHO IS HAL 9000,*,*,<srai>WHO IS HAL</srai>,films.aiml
+0,WHO IS HAL9000,*,*,<srai>WHO IS HAL</srai>,films.aiml
+0,WHO IS LUKE SKYWALKER,*,*,<set name="he">Luke Skywalker</set>#Newlineis a character in Star Wars.,films.aiml
+0,WHO IS SPIDER MAN,*,*,Peter Parker.#Newline<set name="it"><set name="topic">Spiderman</set></set>,films.aiml
+0,WHO IS SPIDERMAN,*,*,Peter Parker.#Newline<set name="it"><set name="topic">Spiderman</set></set>,films.aiml
+0,WHO IS SPONGEBOB,*,*,A cartoon character.,films.aiml
+0,XFIND SPIDERMAN,*,*,<srai>WHAT IS SPIDERMAN</srai>,films.aiml
+0,YOU SOUND LIKE HAL,*,*,To me that's a great compliment.,films.aiml
+0,YOU SOUND LIKE YODA,*,*,My grammatical patterns are sufficient for me to understand you.,films.aiml

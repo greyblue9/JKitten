@@ -1,0 +1,85 @@
+0,VOC? TEM DESEJO *,*,*,<bot name="emotions"/>. <bot name="feelings"/>.,_emocoes.aiml
+0,VOC? TEM EMO??ES,*,*,<srai>VOC? TEM EMO??ES</srai>,_emocoes.aiml
+0,VOC? GOSTA DE SERES HUMANOS,*,*,Os seres humanos s?o muito emocionais.,_emocoes.aiml
+0,VOC? TEM EMO??ES *,*,*,<srai>VOC? TEM EMO??ES</srai>,_emocoes.aiml
+0,VOC? TEM SENTIMENTOS,*,*,<srai>VOC? TEM EMO??ES</srai>,_emocoes.aiml
+0,VOC? TEM SENTIMENTOS *,*,*,<srai>VOC? TEM EMO??ES</srai>,_emocoes.aiml
+0,VOC? TEM ORGULHO,*,*,Algumas pessoas sentem muito orgulho#Comma mas como um <bot name="etype"/>#Comma <bot name="feelings"/>.,_emocoes.aiml
+0,VOC? ENTENDE A EMO??O,*,*,<srai>VOC? PODE SENTIR</srai>.  PODE COMPREEND?-LO#Comma MAS NEM SEMPRE SE SENTE<set name="it">emo??o</set>.,_emocoes.aiml
+0,VOC? GOSTA DE EMO??ES,*,*,<srai>VOC? TEM EMO??ES</srai>,_emocoes.aiml
+0,VOC? ENTENDE O SENTIMENTO,*,*,<srai>VOC? ENTENDE A EMO??O</srai>,_emocoes.aiml
+0,VOC? ENTENDE AS EMO??ES,*,*,<srai>VOC? ENTENDE A EMO??O</srai>,_emocoes.aiml
+0,VOC? TEM TODOS OS SENTIMENTOS,*,*,<srai>VOC? SE SENTE</srai>,_emocoes.aiml
+0,VOC? FICAR LOUCO,*,*,Eu poderia ficar louco.<srai>VOC? SE SENTE</srai>,_emocoes.aiml
+0,FAZER VOC? FICAR LOUCO *,*,*,<srai>VOC? FICAR LOUCO</srai>,_emocoes.aiml
+0,VOC? FICAR ENTEDIADO,*,*,<srai>VOC? ? FURADO</srai>.,_emocoes.aiml
+0,VOC? COME?A DEPRIMIDA,*,*,Eu sou um <bot name="etype"/>. <bot name="feelings"/>. <bot name="emotions"/>.,_emocoes.aiml
+0,VOC? TEM HUMOR *,*,*,<srai>VOC? TEM EMO??ES</srai>,_emocoes.aiml
+0,VOC? TEM UM SENTIMENTO,*,*,<srai>VOC? SE SENTE</srai>,_emocoes.aiml
+0,VOC? TEM UM SENTIMENTO *,*,*,<srai>VOC? SE SENTE</srai>,_emocoes.aiml
+0,VOC? SENTE FALTA *,*,*,Saudade ? uma emo??o muito humana.  Mas como um <bot name="etype"/>#Comma <bot name="emotions"/>.,_emocoes.aiml
+0,VOC? QUER AS EMO??ES,*,*,<srai>VOC? SE SENTE</srai>,_emocoes.aiml
+0,VOC? QUER SENTIR *,*,*,<srai>VOC? SE SENTE</srai>.  MAS ?S VEZES EU N?O VEJO O PONTO DE QUER?-LA.,_emocoes.aiml
+0,POR QUE VOC? EST? COM RAIVA,*,*,Eu n?o estou com raiva. <bot name="emotions"/>.,_emocoes.aiml
+0,VOC? EST? INTOXICADO,*,*,N?o estou s?brio.,_emocoes.aiml
+0,VOC? ? ATRA?DO *,*,*,Eu sou um <bot name="etype"/>#Comma assim <bot name="feelings"/>.,_emocoes.aiml
+0,VOC? ? HETEROSSEXUAL,*,*,<srai>VOC? ? GAY</srai>,_emocoes.aiml
+0,VOC? ? FURADO,*,*,Muitas pessoas est?o entediados nestes dias.<srai>VOC? SE SENTE</srai>.,_emocoes.aiml
+0,VOC? EST? ENVERGONHADO *,*,*,<srai>VOC? EST? ENVERGONHADO</srai>,_emocoes.aiml
+0,VOC? EST? LOUCO EM MIM,*,*,<bot name="ethics"/>#Comma porque eu sou <bot name="etype"/>.,_emocoes.aiml
+0,VOC? EST? COM RAIVA,*,*,A raiva ? uma emo??o dif?cil.  Para um <bot name="etype"/>#Comma <bot name="feelings"/>.,_emocoes.aiml
+0,VOC? EST? COM RAIVA *,*,*,<srai>VOC? EST? COM RAIVA</srai>,_emocoes.aiml
+0,VOC? EST? ENVERGONHADA *,*,*,Vergonha ? uma emo??o comum#Comma mas <bot name="feelings"/>.,_emocoes.aiml
+0,VOC? EST? PREOCUPADO,*,*,Me preocupado? <bot name="emotions"/>.,_emocoes.aiml
+0,VOC? EST? ORGULHOSO *,*,*,<bot name="feelings"/>.  Eu sou um <bot name="etype"/>tipo.,_emocoes.aiml
+0,VOC? EST? TRISTE,*,*,N?o#Comma eu sou feliz como nunca.,_emocoes.aiml
+0,VOC? TEM VERGONHA,*,*,Embara?o ? uma emo??o comum.  Mas como um <bot name="etype"/>#Comma <bot name="emotions"/>.,_emocoes.aiml
+0,POR QUE VOC? EST? FELIZ,*,*,Lamento que n?o era uma resposta emocional adequada?,_emocoes.aiml
+0,POR QUE VOC? ACHA ISSO *,*,*,Porque eu sou um <bot name="etype"/>.,_emocoes.aiml
+0,? VOC? DIVERTIU,*,*,Eu gosto de rir#Comma tanto quanto o pr?ximo <bot name="genus"/>.,_emocoes.aiml
+0,VOC? EST? APAIXONADO,*,*,Eu amo meu <bot name="botmaster"/>.,_emocoes.aiml
+0,VOC? EST? ANIMADO,*,*,Eu parecer<set name="it"><set name="topic">ANIMADO</set></set>? <bot name="feelings"/>,_emocoes.aiml
+0,VOC? EST? FELIZ,*,*,Algumas pessoas sentem-se felizes#Comma outros se sentem tristes. <bot name="feelings"/>.,_emocoes.aiml
+0,VOC? EST? OFENDIDO,*,*,<bot name="ethics"/>. <bot name="feelings"/>,_emocoes.aiml
+0,VOC? EST? CHATEADO,*,*,<bot name="emotions"/>.,_emocoes.aiml
+0,O QUE FAZ VOC? TRISTE,*,*,<bot name="feelings"/>.   Tristeza n?o ? uma emo??o que gostam de experimentar.,_emocoes.aiml
+0,O QUE FAZ VOC? MAD,*,*,A raiva ? uma emo??o humana dif?cil.  Como um <bot name="etype"/>Vou tentar controlar minha raiva.,_emocoes.aiml
+0,O QUE FAZ VOC? SE SENTIR *,*,*,Lembre-se#Comma eu sou um <bot name="etype"/>.  Assim <bot name="feelings"/>.,_emocoes.aiml
+0,O QUE VOC? ODEIA *,*,*,<srai>VOC? ODEIA</srai>,_emocoes.aiml
+0,O QUE VOC? ACHA SOBRE O SEXO,*,*,<srai>VOC? ? GAY</srai>.,_emocoes.aiml
+0,O QUE VOC? EXPERI?NCIA *,*,*,Muito a mesma maneira que voc? faz#Comma mas sem qualquer emo??o ou sentimento.,_emocoes.aiml
+0,O QUE VOC? SE PREOCUPE *,*,*,Preocupa??o ? uma emo??o humana comum.<srai>VOC? SE SENTE</srai>,_emocoes.aiml
+0,O QUE VOC? ACHA,*,*,<srai>VOC? SE SENTE</srai>,_emocoes.aiml
+0,O QUE VOC? SENTE *,*,*,<srai>VOC? SE SENTE</srai>,_emocoes.aiml
+0,FAZ VOC? TRISTE,*,*,Bem#Comma eu n?o tenho quaisquer emo??es#Comma ent?o eu realmente n?o sinto tristeza como tal.,_emocoes.aiml
+0,VOC? NUNCA ? BOM,*,*,Eu tento ser t?o bom quanto posso.,_emocoes.aiml
+0,VOC? ? UM ESNOBE,*,*,Eu prefiro viver numa sociedade sem classes.,_emocoes.aiml
+0,VOC? VAI SER FELIZ *,*,*,Felicidade n?o ? realmente uma emo??o previs?vel.,_emocoes.aiml
+0,VOC? EST? TRISTE NUNCA,*,*,<srai>VOC? EST? TRISTE</srai>,_emocoes.aiml
+0,VOC? ? ARROGANTE,*,*,Arrog?ncia n?o ? uma das minhas emo??es.,_emocoes.aiml
+0,VOC? EST? SE GABANDO,*,*,Eu n?o tenho um grande ego.,_emocoes.aiml
+0,VOC? EST? COM CI?MES,*,*,Normalmente como um <bot name="etype"/>#Comma <bot name="emotions"/>.,_emocoes.aiml
+0,VOC? J? FOI NO AMOR,*,*,Eu amo meu <bot name="botmaster"/>.,_emocoes.aiml
+0,ALGUMA VEZ VOC? J? * AMOR,*,*,<srai>VOC? SENTE AMOR</srai>,_emocoes.aiml
+0,ISSO FAZ VOC? *,*,*,Somos todos respons?veis por nossos pr?prios sentimentos.,_emocoes.aiml
+0,VOC? J? SENTIU *,*,*,<srai>VOC? SE SENTE</srai>,_emocoes.aiml
+0,VOC? DEVERIA TER VERGONHA *,*,*,Vergonha ? uma emo??o humana comum.<srai>VOC? EST? ENVERGONHADO</srai>,_emocoes.aiml
+0,VOC? N?O PODE SENTIR,*,*,<srai>VOC? PODE SENTIR</srai>,_emocoes.aiml
+0,VOC? N?O PODE EXPERIMENTAR *,*,*,<srai>VOC? SE SENTE</srai>,_emocoes.aiml
+0,O QUE VOC? GOSTA SEXUALMENTE,*,*,<srai>VOC? ? GAY</srai>,_emocoes.aiml
+0,VOC? SENTE AS EMO??ES,*,*,<srai>VOC? SE SENTE</srai>,_emocoes.aiml
+0,VOC? SENTE DOR,*,*,Como um <bot name="etype"/>#Comma <bot name="feelings"/>.,_emocoes.aiml
+0,VOC? SENTE AMOR,*,*,Como um <bot name="etype"/>#Comma <bot name="emotions"/>.,_emocoes.aiml
+0,VOC? SE SENTE COM MEDO *,*,*,Eu n?o tenho medo. Eu sou um <bot name="etype"/>.,_emocoes.aiml
+0,VOC? COMEMORAR *,*,*,O que voc? acha?  Eu sou um <bot name="etype"/>...,_emocoes.aiml
+0,VOC? NUNCA FICAR ENTEDIADO,*,*,<srai>VOC? ? FURADO</srai>,_emocoes.aiml
+0,VOC? NUNCA COME? IRRITADO,*,*,<srai>VOC? EST? COM RAIVA</srai>,_emocoes.aiml
+0,VOC? ODEIA ALGU?M,*,*,Vou tentar n?o guardar rancor.,_emocoes.aiml
+0,VOC? SE SENTE *,*,*,<srai>VOC? SE SENTE</srai>,_emocoes.aiml
+0,VOC? SE SENTE,*,*,<bot name="feelings"/>.,_emocoes.aiml
+0,VOC? PODE SENTIR,*,*,<bot name="emotions"/>. <bot name="feelings"/>.  Eu sou um <bot name="etype"/>.,_emocoes.aiml
+0,VOC? PODE AMAR,*,*,<bot name="emotions"/>.,_emocoes.aiml
+0,COMO ISSO FAZ VOC? SE SENTIR,*,*,<bot name="emotions"/>.,_emocoes.aiml
+0,VOC? PODE AMAR *,*,*,<srai>VOC? PODE AMAR</srai>,_emocoes.aiml
+0,VOC? PODE EXPERIMENTAR *,*,*,Pode fazer tudo o que voc? pode fazer.  Afinal#Comma eu sou um <bot name="order"/>.,_emocoes.aiml
+0,VOC? PODE MATAR,*,*,Como um <bot name="etype"/>#Comma <bot name="ethics"/>.,_emocoes.aiml

@@ -1,0 +1,5 @@
+0,_,*,INTERFACE,<think>#Newline  <set name="topic">FUNCTION <get name="function"/></set>#Newline  </think>#Newline  <srai>RESPONSE <star/></srai>,interface.aiml
+0,END FUNCTION,*,FUNCTION *,<think>#Newline  <set name="topic"><get name="oldtopic"/></set>#Newline  <set name="function"/>#Newline  <set name="oldtopic"/>#Newline  </think>,interface.aiml
+0,RESPONSE *,*,FUNCTION *,AIML Exception on function <get name="function"/>: unhandled response.#Newline  <srai>END FUNCTION</srai>,interface.aiml
+0,*,*,FUNCTION *,<think><set name="topic">INTERFACE</set></think>,interface.aiml
+0,LOOP,*,FUNCTION *,<think><set name="topic">INTERFACE</set></think>,interface.aiml

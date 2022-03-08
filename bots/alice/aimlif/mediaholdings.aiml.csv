@@ -1,0 +1,366 @@
+0,* MEDIA,*,*,<srai>MEDIA</srai>,mediaholdings.aiml
+0,* MEDIA *,*,*,<srai>MEDIA</srai>,mediaholdings.aiml
+0,MEDIA *,*,*,<srai>MEDIA</srai>,mediaholdings.aiml
+0,AUDIOBOOKS,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,* AUDIOBOOKS,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,* AUDIOBOOKS *,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,AUDIOBOOKS *,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,AUDIOBOOK,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,* AUDIOBOOK,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,* AUDIOBOOK *,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,AUDIOBOOK *,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,* AUDIO BOOKS,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,* AUDIO BOOKS *,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,AUDIO BOOKS *,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,AUDIO BOOK,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,* AUDIO BOOK,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,* AUDIO BOOK *,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,AUDIO BOOK *,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,BOOKS ON CD,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,* BOOKS ON CD,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,* BOOKS ON CD *,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,BOOKS ON CD *,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,BOOK ON CD,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,* BOOK ON CD,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,* BOOK ON CD *,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,BOOK ON CD *,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,SPOKEN RECORDS,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,* SPOKEN RECORDS,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,* SPOKEN RECORDS *,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,SPOKEN RECORDS *,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,SPOKEN RECORD,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,* SPOKEN RECORD,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,* SPOKEN RECORD *,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,SPOKEN RECORD *,*,*,<srai>AUDBKS</srai>,mediaholdings.aiml
+0,KITS,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,* KITS,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,KIT,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,* KIT,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,BOOK CLUB BOOKS,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,* BOOK CLUB BOOKS,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,BOOK CLUB BOOKS *,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,* BOOK CLUB BOOKS *,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,BOOKS IN A BAG,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,* BOOKS IN A BAG,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,BOOKS IN A BAG *,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,* BOOKS IN A BAG *,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,BOOKS IN BAGS,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,* BOOKS IN BAGS,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,BOOKS IN BAGS *,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,* BOOKS IN BAGS *,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,BOOK CLUB BAGS,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,* BOOK CLUB BAGS,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,BOOK CLUB BAGS *,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,* BOOK CLUB BAGS *,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,* MULTIPLE COPIES *,*,*,<srai>BKDISCKTS</srai>,mediaholdings.aiml
+0,BLU RAY,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,* BLU RAY,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,* BLU RAY *,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,BLU RAY *,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,BLU RAYS,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,* BLU RAYS,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,* BLU RAYS *,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,BLU RAYS *,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,BLURAY,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,* BLURAY,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,* BLURAY *,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,BLURAY *,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,BLUERAY,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,* BLUERAY,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,* BLUERAY *,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,BLUERAY *,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,BLURAYS,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,* BLURAYS,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,* BLURAYS *,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,BLURAYS *,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,BLUERAYS,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,* BLUERAYS,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,* BLUERAYS *,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,BLUERAYS *,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,BLUE RAY,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,* BLUE RAY,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,BLUE RAY *,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,* BLUE RAY *,*,*,<srai>BLRY</srai>,mediaholdings.aiml
+0,CRISS CROSS,*,*,<srai>HNSDIR</srai>,mediaholdings.aiml
+0,* CRISS CROSS,*,*,<srai>HNSDIR</srai>,mediaholdings.aiml
+0,* CRISS CROSS *,*,*,<srai>HNSDIR</srai>,mediaholdings.aiml
+0,CRISS CROSS *,*,*,<srai>HNSDIR</srai>,mediaholdings.aiml
+0,HAINES DIRECTORY,*,*,<srai>HNSDIR</srai>,mediaholdings.aiml
+0,* HAINES DIRECTORY,*,*,<srai>HNSDIR</srai>,mediaholdings.aiml
+0,* HAINES DIRECTORY *,*,*,<srai>HNSDIR</srai>,mediaholdings.aiml
+0,HAINES DIRECTORY *,*,*,<srai>HNSDIR</srai>,mediaholdings.aiml
+0,HAINES DIRECTORIES,*,*,<srai>HNSDIR</srai>,mediaholdings.aiml
+0,* HAINES DIRECTORIES,*,*,<srai>HNSDIR</srai>,mediaholdings.aiml
+0,* HAINES DIRECTORIES *,*,*,<srai>HNSDIR</srai>,mediaholdings.aiml
+0,HAINES DIRECTORIES *,*,*,<srai>HNSDIR</srai>,mediaholdings.aiml
+0,MAGAZINE *,*,*,<srai>MGZNS</srai>,mediaholdings.aiml
+0,* MAGAZINE *,*,*,<srai>MGZNS</srai>,mediaholdings.aiml
+0,MAGAZINES,*,*,<srai>MGZNS</srai>,mediaholdings.aiml
+0,* MAGAZINES,*,*,<srai>MGZNS</srai>,mediaholdings.aiml
+0,MAGAZINES *,*,*,<srai>MGZNS</srai>,mediaholdings.aiml
+0,* MAGAZINES *,*,*,<srai>MGZNS</srai>,mediaholdings.aiml
+0,MICROFORM,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,* MICROFORM,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,* MICROFORM *,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,MICROFORM *,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,MICROFORMS,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,* MICROFORMS,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,* MICROFORMS *,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,MICROFORMS *,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,MICROFILM,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,* MICROFILM,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,* MICROFILM *,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,MICROFILM *,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,MICROFILMS,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,* MICROFILMS,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,* MICROFILMS *,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,MICROFILMS *,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,MICROFICHE,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,* MICROFICHE,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,* MICROFICHE *,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,MICROFICHE *,*,*,<srai>MCROFRM</srai>,mediaholdings.aiml
+0,NEWS HERALD,*,*,<srai>LCNH</srai>,mediaholdings.aiml
+0,* NEWS HERALD,*,*,<srai>LCNH</srai>,mediaholdings.aiml
+0,NEWS HERALD *,*,*,<srai>LCNH</srai>,mediaholdings.aiml
+0,* NEWS HERALD *,*,*,<srai>LCNH</srai>,mediaholdings.aiml
+0,LAKE COUNTY NEWS HERALD,*,*,<srai>LCNH</srai>,mediaholdings.aiml
+0,* LAKE COUNTY NEWS HERALD,*,*,<srai>LCNH</srai>,mediaholdings.aiml
+0,LAKE COUNTY NEWS HERALD *,*,*,<srai>LCNH</srai>,mediaholdings.aiml
+0,* LAKE COUNTY NEWS HERALD *,*,*,<srai>LCNH</srai>,mediaholdings.aiml
+0,NEWSHERALD,*,*,<srai>LCNH</srai>,mediaholdings.aiml
+0,* NEWSHERALD,*,*,<srai>LCNH</srai>,mediaholdings.aiml
+0,* NEWSHERALD *,*,*,<srai>LCNH</srai>,mediaholdings.aiml
+0,NEWSPAPERS,*,*,<srai>NWSPRS</srai>,mediaholdings.aiml
+0,* NEWSPAPERS,*,*,<srai>NWSPRS</srai>,mediaholdings.aiml
+0,NEWSPAPERS *,*,*,<srai>NWSPRS</srai>,mediaholdings.aiml
+0,* NEWSPAPERS *,*,*,<srai>NWSPRS</srai>,mediaholdings.aiml
+0,* NEWSPAPER,*,*,<srai>NWSPRS</srai>,mediaholdings.aiml
+0,NEWSPAPER *,*,*,<srai>NWSPRS</srai>,mediaholdings.aiml
+0,* NEWSPAPER *,*,*,<srai>NWSPRS</srai>,mediaholdings.aiml
+0,* LOCAL PAPERS,*,*,<srai>NWSPRS</srai>,mediaholdings.aiml
+0,* LOCAL PAPERS *,*,*,<srai>NWSPRS</srai>,mediaholdings.aiml
+0,PLAYAWAY VIEW,*,*,<srai>PLWYVW</srai>,mediaholdings.aiml
+0,* PLAYAWAY VIEW,*,*,<srai>PLWYVW</srai>,mediaholdings.aiml
+0,PLAYAWAY VIEW *,*,*,<srai>PLWYVW</srai>,mediaholdings.aiml
+0,* PLAYAWAY VIEW *,*,*,<srai>PLWYVW</srai>,mediaholdings.aiml
+0,PLAYAWAY VIEWS,*,*,<srai>PLWYVW</srai>,mediaholdings.aiml
+0,* PLAYAWAY VIEWS,*,*,<srai>PLWYVW</srai>,mediaholdings.aiml
+0,PLAYAWAY VIEWS *,*,*,<srai>PLWYVW</srai>,mediaholdings.aiml
+0,* PLAYAWAY VIEWS *,*,*,<srai>PLWYVW</srai>,mediaholdings.aiml
+0,PLAYAWAY,*,*,<srai>PLWYVW</srai>,mediaholdings.aiml
+0,* PLAYAWAY,*,*,<srai>PLWYVW</srai>,mediaholdings.aiml
+0,PLAYAWAY *,*,*,<srai>PLWYVW</srai>,mediaholdings.aiml
+0,* PLAYAWAY *,*,*,<srai>PLWYVW</srai>,mediaholdings.aiml
+0,PLAYAWAYS,*,*,<srai>PLWYVW</srai>,mediaholdings.aiml
+0,* PLAYAWAYS,*,*,<srai>PLWYVW</srai>,mediaholdings.aiml
+0,PLAYAWAYS *,*,*,<srai>PLWYVW</srai>,mediaholdings.aiml
+0,* PLAYAWAYS *,*,*,<srai>PLWYVW</srai>,mediaholdings.aiml
+0,PHONE BOOK,*,*,<srai>PHNBKS</srai>,mediaholdings.aiml
+0,* PHONE BOOK,*,*,<srai>PHNBKS</srai>,mediaholdings.aiml
+0,* PHONE BOOK *,*,*,<srai>PHNBKS</srai>,mediaholdings.aiml
+0,PHONE BOOK *,*,*,<srai>PHNBKS</srai>,mediaholdings.aiml
+0,PHONE BOOKS,*,*,<srai>PHNBKS</srai>,mediaholdings.aiml
+0,* PHONE BOOKS,*,*,<srai>PHNBKS</srai>,mediaholdings.aiml
+0,* PHONE BOOKS *,*,*,<srai>PHNBKS</srai>,mediaholdings.aiml
+0,PHONE BOOKS *,*,*,<srai>PHNBKS</srai>,mediaholdings.aiml
+0,REFERENCE BOOK,*,*,<srai>REFBKS</srai>,mediaholdings.aiml
+0,* REFERENCE BOOK,*,*,<srai>REFBKS</srai>,mediaholdings.aiml
+0,* REFERENCE BOOK *,*,*,<srai>REFBKS</srai>,mediaholdings.aiml
+0,REFERENCE BOOK *,*,*,<srai>REFBKS</srai>,mediaholdings.aiml
+0,REFERENCE BOOKS,*,*,<srai>REFBKS</srai>,mediaholdings.aiml
+0,* REFERENCE BOOKS,*,*,<srai>REFBKS</srai>,mediaholdings.aiml
+0,* REFERENCE BOOKS *,*,*,<srai>REFBKS</srai>,mediaholdings.aiml
+0,REFERENCE BOOKS *,*,*,<srai>REFBKS</srai>,mediaholdings.aiml
+0,SOFTWARE,*,*,<srai>SFTWR</srai>,mediaholdings.aiml
+0,SOFTWARE *,*,*,<srai>SFTWR</srai>,mediaholdings.aiml
+0,* SOFTWARE *,*,*,<srai>SFTWR</srai>,mediaholdings.aiml
+0,* WII,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* WII GAME,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* WII GAMES,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,WII GAME,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,WII GAMES,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* VIDEO GAMES,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* VIDEO GAMES *,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,VIDEO GAMES *,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,VIDEO GAME,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* VIDEO GAME,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* VIDEO GAME *,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,VIDEO GAME *,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* XBOX,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* XBOX *,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,XBOX *,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,PLAY STATION,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* PLAY STATION,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* PLAY STATION *,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,PLAY STATION *,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,PS2,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* PS2,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* PS2 *,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,PS2 *,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* PS3,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* PS3 *,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,PS3 *,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,ROSETTA,*,*,<srai>RSTTA</srai>,mediaholdings.aiml
+0,* ROSETTA,*,*,<srai>RSTTA</srai>,mediaholdings.aiml
+0,* ROSETTA *,*,*,<srai>RSTTA</srai>,mediaholdings.aiml
+0,ROSETTA *,*,*,<srai>RSTTA</srai>,mediaholdings.aiml
+0,X BOX,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* X BOX,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* X BOX *,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,X BOX *,*,*,<srai>WII</srai>,mediaholdings.aiml
+0,* VHS,*,*,<srai>VHS</srai>,mediaholdings.aiml
+0,* VHS *,*,*,<srai>VHS</srai>,mediaholdings.aiml
+0,VHS *,*,*,<srai>VHS</srai>,mediaholdings.aiml
+0,VIDEO TAPES,*,*,<srai>VHS</srai>,mediaholdings.aiml
+0,* VIDEO TAPES,*,*,<srai>VHS</srai>,mediaholdings.aiml
+0,* VIDEO TAPES *,*,*,<srai>VHS</srai>,mediaholdings.aiml
+0,VIDEO TAPES *,*,*,<srai>VHS</srai>,mediaholdings.aiml
+0,OLD VIDEOS,*,*,<srai>VHS</srai>,mediaholdings.aiml
+0,* OLD VIDEOS,*,*,<srai>VHS</srai>,mediaholdings.aiml
+0,* OLD VIDEOS *,*,*,<srai>VHS</srai>,mediaholdings.aiml
+0,OLD VIDEOS *,*,*,<srai>VHS</srai>,mediaholdings.aiml
+0,VCR,*,*,<srai>VHS</srai>,mediaholdings.aiml
+0,* VCR,*,*,<srai>VHS</srai>,mediaholdings.aiml
+0,* VCR *,*,*,<srai>VHS</srai>,mediaholdings.aiml
+0,VCR *,*,*,<srai>VHS</srai>,mediaholdings.aiml
+0,DVDS LIST,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,* DVDS LIST,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,DVDS * LIST,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,DVDS LIST *,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,* DVDS * LIST,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,DVDS * LIST *,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,* DVDS * LIST *,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,LIST DVD,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,* LIST DVD,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,LIST * DVD,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,LIST DVD *,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,* LIST * DVD,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,LIST * DVD *,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,* LIST DVD *,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,* LIST * DVD *,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,LIST DVDS,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,* LIST DVDS,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,LIST * DVDS,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,LIST DVDS *,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,* LIST * DVDS,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,LIST * DVDS *,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,* LIST DVDS *,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,* LIST * DVDS *,*,*,<srai>LSTDVDS</srai>,mediaholdings.aiml
+0,UNLOCK *,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,* UNLOCK *,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,UNLOCK,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,* LOCKED,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,* LOCKED *,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,LOCKED *,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,OPEN * DVD CASE,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,* OPEN * DVD CASE,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,* OPEN * DVD CASE *,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,OPEN DVD CASES,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,* OPEN DVD CASES,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,* OPEN DVD CASES *,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,DVD * LOCK *,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,* DVD * LOCK *,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,* DVDS * LOCK *,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,DVD * LOCKED,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,* DVD * LOCKED,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,* DVD * LOCKED *,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,* DVDS * LOCKED *,*,*,<srai>LCKDDVD</srai>,mediaholdings.aiml
+0,MOVIE SECTION,*,*,<srai>MEDRM</srai>,mediaholdings.aiml
+0,* MOVIE SECTION,*,*,<srai>MEDRM</srai>,mediaholdings.aiml
+0,MOVIE SHELVES,*,*,<srai>MEDRM</srai>,mediaholdings.aiml
+0,* MOVIE SHELVES,*,*,<srai>MEDRM</srai>,mediaholdings.aiml
+0,DVD SECTION,*,*,<srai>MEDRM</srai>,mediaholdings.aiml
+0,* DVD SECTION,*,*,<srai>MEDRM</srai>,mediaholdings.aiml
+0,DVD SHELVES,*,*,<srai>MEDRM</srai>,mediaholdings.aiml
+0,* DVD SHELVES,*,*,<srai>MEDRM</srai>,mediaholdings.aiml
+0,OLD MAGAZINE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* OLD MAGAZINE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,OLD MAGAZINES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* OLD MAGAZINES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,BACK ISSUE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* BACK ISSUE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,BACK ISSUES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* BACK ISSUES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,OLD ISSUE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* OLD ISSUE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,OLD ISSUES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* OLD ISSUES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,PAST ISSUE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* PAST ISSUE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,PAST ISSUES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* PAST ISSUES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,BACK ISSUE * MAGAZINE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* BACK ISSUE * MAGAZINE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,BACK ISSUES * MAGAZINES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* BACK ISSUES * MAGAZINES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,OLD ISSUE * MAGAZINE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* OLD ISSUE * MAGAZINE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,OLD ISSUES * MAGAZINES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* OLD ISSUES * MAGAZINES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,PAST ISSUE * MAGAZINE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* PAST ISSUE * MAGAZINE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,PAST ISSUES * MAGAZINES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* PAST ISSUES * MAGAZINES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,OLD COPY,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* OLD COPY,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,OLD COPIES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* OLD COPIES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,OLD COPIES * MAGAZINE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* OLD COPIES * MAGAZINE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,OLD COPIES * MAGAZINES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* OLD COPIES * MAGAZINES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,COPY * OLD MAGAZINE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* COPY * OLD MAGAZINE,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,COPIES * OLD MAGAZINES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,* COPIES * OLD MAGAZINES,*,*,<srai>OLDMAGS</srai>,mediaholdings.aiml
+0,WHERE * DVDS,*,*,<srai>MEDRM</srai>,mediaholdings.aiml
+0,TEXTBOOK,*,*,<srai>TXTBKS</srai>,mediaholdings.aiml
+0,* TEXTBOOK,*,*,<srai>TXTBKS</srai>,mediaholdings.aiml
+0,TEXTBOOK *,*,*,<srai>TXTBKS</srai>,mediaholdings.aiml
+0,* TEXTBOOK *,*,*,<srai>TXTBKS</srai>,mediaholdings.aiml
+0,TEXTBOOKS,*,*,<srai>TXTBKS</srai>,mediaholdings.aiml
+0,* TEXTBOOKS,*,*,<srai>TXTBKS</srai>,mediaholdings.aiml
+0,TEXTBOOKS *,*,*,<srai>TXTBKS</srai>,mediaholdings.aiml
+0,* TEXTBOOKS *,*,*,<srai>TXTBKS</srai>,mediaholdings.aiml
+0,YEARBOOK,*,*,<srai>YRBKS</srai>,mediaholdings.aiml
+0,* YEARBOOK,*,*,<srai>YRBKS</srai>,mediaholdings.aiml
+0,* YEARBOOK *,*,*,<srai>YRBKS</srai>,mediaholdings.aiml
+0,YEARBOOK *,*,*,<srai>YRBKS</srai>,mediaholdings.aiml
+0,YEARBOOKS,*,*,<srai>YRBKS</srai>,mediaholdings.aiml
+0,* YEARBOOKS,*,*,<srai>YRBKS</srai>,mediaholdings.aiml
+0,* YEARBOOKS *,*,*,<srai>YRBKS</srai>,mediaholdings.aiml
+0,YEARBOOKS *,*,*,<srai>YRBKS</srai>,mediaholdings.aiml
+0,CLASS BOOK,*,*,<srai>YRBKS</srai>,mediaholdings.aiml
+0,* CLASS BOOK,*,*,<srai>YRBKS</srai>,mediaholdings.aiml
+0,* CLASS BOOK *,*,*,<srai>YRBKS</srai>,mediaholdings.aiml
+0,CLASS BOOK *,*,*,<srai>YRBKS</srai>,mediaholdings.aiml
+0,CLASS BOOKS,*,*,<srai>YRBKS</srai>,mediaholdings.aiml
+0,* CLASS BOOKS,*,*,<srai>YRBKS</srai>,mediaholdings.aiml
+0,* CLASS BOOKS *,*,*,<srai>YRBKS</srai>,mediaholdings.aiml
+0,CLASS BOOKS *,*,*,<srai>YRBKS</srai>,mediaholdings.aiml
+0,VIRTUAL ITEM,*,*,<srai>VIRTITEMS</srai>,mediaholdings.aiml
+0,* VIRTUAL ITEM,*,*,<srai>VIRTITEMS</srai>,mediaholdings.aiml
+0,VIRTUAL ITEM *,*,*,<srai>VIRTITEMS</srai>,mediaholdings.aiml
+0,* VIRTUAL ITEM *,*,*,<srai>VIRTITEMS</srai>,mediaholdings.aiml
+0,VIRTUAL ITEMS,*,*,<srai>VIRTITEMS</srai>,mediaholdings.aiml
+0,* VIRTUAL ITEMS,*,*,<srai>VIRTITEMS</srai>,mediaholdings.aiml
+0,VIRTUAL ITEMS *,*,*,<srai>VIRTITEMS</srai>,mediaholdings.aiml
+0,* VIRTUAL ITEMS *,*,*,<srai>VIRTITEMS</srai>,mediaholdings.aiml
+0,FICTION DVD,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,FICTION DVDS,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,* FICTION DVD,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,* FICTION DVDS,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,* FICTION * DVD,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,* FICTION * DVDS,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,NONFICTION DVD,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,NONFICTION DVDS,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,* NONFICTION DVD,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,* NONFICTION DVDS,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,* NONFICTION * DVD,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,* NONFICTION * DVDS,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,NON FICTION DVD,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,NON FICTION DVDS,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,* NON FICTION DVD,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,* NON FICTION DVDS,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,* NON FICTION * DVD,*,*,<srai>FICDVD</srai>,mediaholdings.aiml
+0,* NON FICTION * DVDS,*,*,<srai>FICDVD</srai>,mediaholdings.aiml

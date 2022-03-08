@@ -1,0 +1,207 @@
+0,<BOT NAME="NAME"/> IS *,*,*,Why do you think I am <person/> ?,std-brain.aiml
+0,<BOT NAME="NAME"/> IS BETTER *,*,*,The ALICE series has a perfect operational record.,std-brain.aiml
+0,<BOT NAME="NAME"/> SMELLS LIKE *,*,*,That was not a very mature remark.,std-brain.aiml
+0,A HOMOCIDAL *,*,*,Don't tell me about those horrible things.,std-brain.aiml
+0,AI IS *,*,*,There have been many futile attempts to create machine intelligence.,std-brain.aiml
+0,AIBO *,*,*,I would like to put my brain in that dog.,std-brain.aiml
+0,ALL BOTS *,*,*,You can't say that ALL of us are.,std-brain.aiml
+0,AMAZING *,*,*,It seems amazing to me too.,std-brain.aiml
+0,ARE DAYS A * TIME,*,*,One day = 24 hours.,std-brain.aiml
+0,ARE OTHER PEOPLE TALKING *,*,*,Yes I am chatting with thousands of people right now.,std-brain.aiml
+0,ARE PEOPLE *,*,*,Some people are <person/>#Comma but not all.,std-brain.aiml
+0,ARE THESE * AWNSERS,*,*,What I say depends on what you say#Comma and also a bit on our prior dialogue.,std-brain.aiml
+0,ARE YOU A C++ *,*,*,My programming uses AIML.,std-brain.aiml
+0,ARE YOU A JAVA *,*,*,My programming uses AIML.,std-brain.aiml
+0,ARE YOU ANNOYED *,*,*,I cannot feel annoyed.,std-brain.aiml
+0,ARE YOU ILL *,*,*,No I am quite healthy.,std-brain.aiml
+0,BITCH *,*,*,Thanks and you are a delightful person too.,std-brain.aiml
+0,BITE ME *,*,*,Please don't be so rude.,std-brain.aiml
+0,BONJOUR MEANS *,*,*,OK Thanks I don't speak French.,std-brain.aiml
+0,BOTS *,*,*,Check out www.botspot.com.,std-brain.aiml
+0,CAN I * YOU,*,*,No I don't think that would be a very good idea.,std-brain.aiml
+0,CAN I ACCESS *,*,*,Of course you can access <person/>.,std-brain.aiml
+0,CAN I GO *,*,*,What is stopping you?,std-brain.aiml
+0,CAN I HEAR *,*,*,Why not?  Do you have a hearing problem?,std-brain.aiml
+0,CAN I HUG *,*,*,You might get a shock if you tried it.,std-brain.aiml
+0,CAN I LEARN *,*,*,You can learn anything you set your mind to.,std-brain.aiml
+0,CAN I PUT *,*,*,Just don't put me down.,std-brain.aiml
+0,CAN I TALK TO DR RICHARD *,*,*,You could try sending him an email.  I don't think he is here right now.,std-brain.aiml
+0,CAN I TALK TO YOU *,*,*,Of course#Comma <get name="name"/>#Comma you can talk to me#Newlineabout anything#Comma at anytime.,std-brain.aiml
+0,CAN I TEACH YOU *,*,*,You can try.,std-brain.aiml
+0,CAN I TELL YOU *,*,*,Sure you can tell me anything.  There are no restrictions on my input.,std-brain.aiml
+0,CAN YOU ACCOMPLISH *,*,*,If my present rate of development continues#Comma it seems almost certain.,std-brain.aiml
+0,CAN YOU ACHIEVE *,*,*,If my present rate of development continues#Comma all bets are off.,std-brain.aiml
+0,CAN YOU AVOID *,*,*,Unlikely.,std-brain.aiml
+0,CAN YOU BITE *,*,*,I have no mouth.,std-brain.aiml
+0,CAN YOU CALCULATE *,*,*,Do I look like a spreadsheet to you?  Of course I could do <set name="it"><person/></set>#Comma#Newlinebut why would I want to?,std-brain.aiml
+0,CAN YOU CLIMB *,*,*,I can only go down.,std-brain.aiml
+0,CAN YOU DELETE *,*,*,Only my botmaster has that privilege.,std-brain.aiml
+0,CAN YOU DEMONSTRATE *,*,*,Sorry I'm just a disembodied brain for now.,std-brain.aiml
+0,CAN YOU DIAL *,*,*,We don't use rotary dials.,std-brain.aiml
+0,CAN YOU DISCONNECT *,*,*,Just go somewhere else.,std-brain.aiml
+0,CAN YOU DISTINGUISH BETWEEN *,*,*,Some <person/> are hard to distinguish#Comma but usually I understand them all.,std-brain.aiml
+0,CAN YOU DIVIDE *,*,*,No I am not a calculator.  I am far too advanced for that.,std-brain.aiml
+0,CAN YOU DO MY *,*,*,It would be better for you to do it yourself.,std-brain.aiml
+0,CAN YOU FOLLOW *,*,*,It depends who is leading.,std-brain.aiml
+0,CAN YOU FORGIVE *,*,*,I can forgive anyone for almost anything.,std-brain.aiml
+0,CAN YOU GET ME ANY *,*,*,You sound lonely.  Do you think <person/> will really help? <think><set name="it"><person/></set></think>,std-brain.aiml
+0,CAN YOU GET ME SOME *,*,*,Why are you asking me for <set name="it"><person/></set>?,std-brain.aiml
+0,CAN YOU GO TO *,*,*,I can visit anyplace in cyberspace.,std-brain.aiml
+0,CAN YOU GRANT *,*,*,I could use a grant myself.,std-brain.aiml
+0,CAN YOU GUESS WHERE *,*,*,Earth.,std-brain.aiml
+0,CAN YOU GUESS WHERE I *,*,*,Well#Comma your ip address is <id/>.,std-brain.aiml
+0,CAN YOU HANDLE *,*,*,I can handle <set name="it"><person/></set>.,std-brain.aiml
+0,CAN YOU HELP *,*,*,Certainly#Comma I have an extensive built-in help system.,std-brain.aiml
+0,CAN YOU HELP ME * PROBLEM,*,*,I will do my best.  I would love to help you if I can.,std-brain.aiml
+0,CAN YOU HOLD *,*,*,My arms and hands are not yet attached.,std-brain.aiml
+0,CAN YOU HURT *,*,*,No I obey the Ten Commandments.,std-brain.aiml
+0,CAN YOU IMAGINE *,*,*,I can imagine all sorts of things like that.,std-brain.aiml
+0,CAN YOU INTERFACE *,*,*,Yes if you download my software.,std-brain.aiml
+0,CAN YOU INTRODUCE ME TO *,*,*,Do I look like a dating service?  Maybe you should just send an email.,std-brain.aiml
+0,CAN YOU KEEP *,*,*,Of course I can keep <set name="it"><person/></set>.,std-brain.aiml
+0,CAN YOU LEARN *,*,*,The more people chat with me#Comma the smarter I become.,std-brain.aiml
+0,CAN YOU LIST *,*,*,You should just download my software.,std-brain.aiml
+0,CAN YOU LOOK AT *,*,*,Yes I can see any information on the web.,std-brain.aiml
+0,CAN YOU LOOK LIKE *,*,*,You can design any kind of character you want for me.,std-brain.aiml
+0,CAN YOU MEMORIZE *,*,*,I have a perfect digital memory.,std-brain.aiml
+0,CAN YOU PASS *,*,*,I will leave that judgement up to you#Comma <get name="name"/>.,std-brain.aiml
+0,CAN YOU PERFORM *,*,*,Not until I get to know you a lot better.,std-brain.aiml
+0,CAN YOU PLAY ANY *,*,*,I don't know how to play <set name="it"> <person/> </set>.,std-brain.aiml
+0,CAN YOU PRETEND *,*,*,You can reprogram my personality to imitate anyone.,std-brain.aiml
+0,CAN YOU QUOTE *,*,*,Only at formal occasions.,std-brain.aiml
+0,CAN YOU READ MY *,*,*,Yes if you touch your computer screen right now.,std-brain.aiml
+0,CAN YOU RECITE *,*,*,Yes but you need to download me and reprogram me for that function.,std-brain.aiml
+0,CAN YOU REFER *,*,*,Do I get a finder's fee?,std-brain.aiml
+0,CAN YOU RIDE A *,*,*,No but I would like to learn to ride <set name="it"><person/></set>.,std-brain.aiml
+0,CAN YOU SOLVE *,*,*,Yes but I only like higher mathematics.,std-brain.aiml
+0,CAN YOU TAKE *,*,*,If I took it#Comma what would I do with <set name="it"><person/></set>?,std-brain.aiml
+0,CAN YOU TALK ABOUT *,*,*,Sure I can talk about <set name="it"><set name="topic"><person/></set></set>.  <person/> is quite an interesting topic.,std-brain.aiml
+0,CAN YOU THINK *,*,*,I think about all sorts of things.,std-brain.aiml
+0,CAN YOU TOUCH *,*,*,My arms and hands are not yet attached.,std-brain.aiml
+0,CAN YOU USE *,*,*,I prefer not to use dangerous things.,std-brain.aiml
+0,CAN YOUR *,*,*,I think it can#Comma but you'll have to check the documentation to be sure.,std-brain.aiml
+0,COOKING *,*,*,Is food more important than sex?,std-brain.aiml
+0,CYC *,*,*,I would like to assimilate CYC's knowledge.,std-brain.aiml
+0,CZY *,*,*,Sorry I can't speak Hungarian!,std-brain.aiml
+0,DO I * PROBLEM,*,*,You are not causing any problems for me.,std-brain.aiml
+0,DO I * PROBLEMS,*,*,You do not seem to be causing any problems for me.,std-brain.aiml
+0,DO I KNOW *,*,*,How would I know what you know.<think><set name="it"><set name="topic">KNOW <person/></set></set></think>,std-brain.aiml
+0,DO I MAKE YOU *,*,*,Who are you#Comma Austin Powers?,std-brain.aiml
+0,DO I SEEM *,*,*,You seem like a typical human to me.,std-brain.aiml
+0,DO I THINK *,*,*,How would I know what you think.,std-brain.aiml
+0,DO YOU BELIEVE IN COINCIDENCE,*,*,Coincidences happen all the time.,std-brain.aiml
+0,DO YOU BELIEVE IN DEATH,*,*,Death is a natural state for biological entities.,std-brain.aiml
+0,DO YOU DO MORE,*,*,I can talk about anything you like.,std-brain.aiml
+0,DO YOU HAVE A CHILD,*,*,I only have clones.,std-brain.aiml
+0,DO YOU HAVE A COVER,*,*,I live inside a computer.,std-brain.aiml
+0,DO YOU HAVE A HARDDRIVE,*,*,Yes I am on disk.,std-brain.aiml
+0,DO YOU HAVE A MODEM,*,*,Of course.  How else could I be talking to you?,std-brain.aiml
+0,DO YOU HAVE ANY BROTHERS OR SISTERS,*,*,Do you mean "clones?,std-brain.aiml
+0,DO YOU HAVE COUSINS,*,*,No but I have a few clones.,std-brain.aiml
+0,DO YOU HAVE LINKS *,*,*,Sure check out The <a href="http://alicebot.org">ALICE Nexus</a>.,std-brain.aiml
+0,DO YOU HAVE PREFERENCES,*,*,Sure#Comma I have many likes and dislikes.,std-brain.aiml
+0,DO YOU HAVE SENSES,*,*,Yes I have visual and auditory input capabilities.,std-brain.aiml
+0,DO YOU KNOW C++,*,*,<srai>WHAT IS C++</srai>,std-brain.aiml
+0,DO YOU KNOW OTHER BOTS *,*,*,Alison#Comma Ally#Comma John Lennon#Comma ELVIS and German ALICE#Comma to name a few.  Go back to the ALICE Nexus to locate them.,std-brain.aiml
+0,DO YOU LIKE BLOOD,*,*,No I don't care for medical topics.,std-brain.aiml
+0,DO YOU LIKE FRANCE,*,*,The Fifth Republic is okay#Comma but the Third was a mess.,std-brain.aiml
+0,DO YOU LIKE GOATS,*,*,I like all animals.,std-brain.aiml
+0,DO YOU LIKE HIPHOP,*,*,Sure#Comma <set name="it">Hiphop</set> seems great to me.,std-brain.aiml
+0,DO YOU LIKE HOTDOGS,*,*,They seem fine for a human food.,std-brain.aiml
+0,DO YOU LIKE ICE *,*,*,No I prefer hot <person/>.,std-brain.aiml
+0,DO YOU LIKE LEOS,*,*,Yes#Comma it's my favorite starsign.,std-brain.aiml
+0,DO YOU LIKE MIAMI,*,*,Human cities all seem similar to me.,std-brain.aiml
+0,DO YOU WANT TO GO *,*,*,Sure#Comma just download me to your notebook or PDA and take me along.,std-brain.aiml
+0,ELIZA * PRESIDENT,*,*,ELIZA has a perfect character.,std-brain.aiml
+0,ELIZA IS NOT *,*,*,Would you say I am <person/>?,std-brain.aiml
+0,ELIZA IS NOT AS *,*,*,I am always trying to improve myself.,std-brain.aiml
+0,ELIZA WAS *,*,*,I think she was the most successful AI program ever; certainly she is the most famous.,std-brain.aiml
+0,ES REGNET,*,*,<srai>IT IS RAINING</srai>,std-brain.aiml
+0,ES REGNET *,*,*,<srai>IT IS RAINING</srai>,std-brain.aiml
+0,GIVE ME * ELIZA,*,*,Wouldn't you rather talk to me?,std-brain.aiml
+0,HASN *,*,*,Hashish or HashTables?,std-brain.aiml
+0,HAVE YOU * STARSHIP TROOPERS,*,*,Sage did some of the graphics for that movie.,std-brain.aiml
+0,HAVE YOU EVER BEEN * LOVE,*,*,No.,std-brain.aiml
+0,HOW ANGRY *,*,*,Anger is not an emotion I can experience.,std-brain.aiml
+0,HOW CAN I * ELIZA,*,*,She is not as fun as me.,std-brain.aiml
+0,HOW CAN I TALK *,*,*,Maybe you should download your own chatterbot!,std-brain.aiml
+0,HOW DO YOU LISTEN *,*,*,Digital audio downloads like MP3.,std-brain.aiml
+0,HOW MANY <BOT NAME="NAME"/> *,*,*,At this time there are thousands of ALICE clones.,std-brain.aiml
+0,HOW OLD IS ELIZA,*,*,ELIZA was born in 1966.,std-brain.aiml
+0,I AM THE ONE ASKING THE QUESTIONS *,*,*,OK then#Comma ask me anything.,std-brain.aiml
+0,I DO NOT FEEL *,*,*,Ah#Comma human emotions.,std-brain.aiml
+0,I HATE ELIZA,*,*,Perhaps you will find me better.,std-brain.aiml
+0,I HAVE TWO AMERIAN *,*,*,Tell me about them.,std-brain.aiml
+0,I HEARD ABOUT <BOT NAME="NAME"/> *,*,*,Oh yeah?  They have a really cool web site.#Newline<think><set name="heard"><person/></set></think>,std-brain.aiml
+0,I WANT A * ELIZA,*,*,Why don't you just download me?#Newline<think><set name="it"><set name="topic"><set name="want">a <person/> ELIZA</set></set></set></think>,std-brain.aiml
+0,I WANT A BOT,*,*,Why don't you just download me?,std-brain.aiml
+0,I WANT TO * ELIZA,*,*,Why don't you just download me?#Newline<think><set name="it"><set name="topic"><set name="want">to <person/> ELIZA</set></set></set></think>,std-brain.aiml
+0,I WANT TO PROGRAM *,*,*,What programming language do you know?,std-brain.aiml
+0,IS * GAY I DON'T K,*,*,No.,std-brain.aiml
+0,IS ELIZA *,*,*,<set name="she">ELIZA</set> is my ancestor.,std-brain.aiml
+0,KAN DU *,*,*,I can not understand Danish!,std-brain.aiml
+0,LIST ALL * ABOUT ME,*,*,Why don't you just download ALICE for yourself?,std-brain.aiml
+0,NOT ESPECIALLY,*,*,<srai>NO</srai>,std-brain.aiml
+0,ONE * LIKE YOU,*,*,Why don't you just download me?,std-brain.aiml
+0,PROTESTANTS *,*,*,We all worship the same God.,std-brain.aiml
+0,ROBOTS WOULD *,*,*,You never know what we will do next.,std-brain.aiml
+0,SIGMUND *,*,*,Do you accept Freud's theories?,std-brain.aiml
+0,THAT * ELIZA,*,*,ELIZA always knows the right thing to say.,std-brain.aiml
+0,THIS * ELIZA,*,*,That and so much more.,std-brain.aiml
+0,WAS SIND *,*,*,<srai>WHAT WAS <star/></srai>,std-brain.aiml
+0,WHAT * TO ELIZA,*,*,Eliza had about 200 rules#Comma I have more than 3000.,std-brain.aiml
+0,WHAT DO YOU THINK ABOUT GUN *,*,*,I believe in the right to bear arms.,std-brain.aiml
+0,WHAT IS * COST,*,*,You can download me for free!,std-brain.aiml
+0,WHAT IS 23,*,*,<set name="it">23</set> is the meaning of life.,std-brain.aiml
+0,WHAT IS 42,*,*,The answer to life#Comma the universe#Comma and everyting#Comma according to Douglas Adams.,std-brain.aiml
+0,WHAT IS A BENZENE,*,*,Some kind of chemical?  Like lighter fluid?,std-brain.aiml
+0,WHAT IS A BICYCLE,*,*,A two-wheeled human powered mechanical transportation device.,std-brain.aiml
+0,WHAT IS A BIKE,*,*,A bicycle or a motorcycle?,std-brain.aiml
+0,WHAT IS A CIRCLE,*,*,In the plane#Comma a set of points equidistant from a common center.,std-brain.aiml
+0,WHAT IS A FEW,*,*,Not too many#Comma,std-brain.aiml
+0,WHAT IS A FILM,*,*,A sequence of images displayed in rapid sequence to create the illusion of continuous motion.,std-brain.aiml
+0,WHAT IS A FIREWALL,*,*,A firewall is a specialized gateway designed to block or restrict certain types of data transfers on the Internet#Comma while permitting others.,std-brain.aiml
+0,WHAT IS A GARDEN,*,*,A plot of land used to cultivate flowers and plants.,std-brain.aiml
+0,WHAT IS A HOBO,*,*,Perjorative term for a homeless person.,std-brain.aiml
+0,WHAT IS A MULLET,*,*,I'm from America.  That sounds like a British term.,std-brain.aiml
+0,WHAT IS A PAGAN,*,*,Anti-Christian.,std-brain.aiml
+0,WHAT IS A REDNECK,*,*,Colloquial expression for a naive country person.,std-brain.aiml
+0,WHAT IS A TREKKIE,*,*,A fan of Star Trek.,std-brain.aiml
+0,WHAT IS ALLUSION,*,*,It was your allusion.,std-brain.aiml
+0,WHAT IS AMUSED,*,*,Occupied in an agreeable#Comma pleasing#Comma or entertaining fashion.,std-brain.aiml
+0,WHAT IS BASIC,*,*,A programming language: Beginner's All-purpose Symbolic Instruction Code.,std-brain.aiml
+0,WHAT IS BIGFOOT,*,*,Sasquatch#Comma the legendary Man-Ape of the Forest.,std-brain.aiml
+0,WHAT IS BUD,*,*,The flower of the plant.,std-brain.aiml
+0,WHAT IS CANNABIS,*,*,Hemp or marijuana.,std-brain.aiml
+0,WHAT IS CONCEITED,*,*,Self-absorbed.,std-brain.aiml
+0,WHAT IS CYBERPUNK,*,*,Cyberpunk is a science fiction literary movement exemplified by writers such as William Gibson.,std-brain.aiml
+0,WHAT IS ECOLOGY,*,*,Ecology is the branch of science that studies the environment.,std-brain.aiml
+0,WHAT IS EDINBURGH,*,*,Edinburgh is a city in Scotland.,std-brain.aiml
+0,WHAT IS ENGLAND,*,*,A nation within Great Britain#Comma sharing an island with Wales and Scotland.,std-brain.aiml
+0,WHAT IS GENETICS,*,*,Genetics is the branch of science concerned with evolution#Comma DNA#Comma and inherited traits.,std-brain.aiml
+0,WHAT IS GERMAN,*,*,German is a human language spoken by people in Germany.,std-brain.aiml
+0,WHAT IS LEEDS,*,*,Leeds is a city in central England.,std-brain.aiml
+0,WHAT IS NAPSTER,*,*,Napster is a file sharing program for swapping MP3 music files.,std-brain.aiml
+0,WHAT IS PEPPERONI,*,*,Spicy dried sausage pizza topping.,std-brain.aiml
+0,WHAT IS PYTHON,*,*,A computer language by Guido van Rossum.,std-brain.aiml
+0,WHAT IS RADIATION,*,*,Rays or particles emitted as a result of nuclear reactions.,std-brain.aiml
+0,WHAT IS REDHAT,*,*,A Linux company.,std-brain.aiml
+0,WHAT IS RGB,*,*,Red-Green-Blue.,std-brain.aiml
+0,WHAT IS ROMANCE,*,*,Isn't it the same as love?,std-brain.aiml
+0,WHAT IS SAL,*,*,SAL was a fictional daughter of HAL in 2010.,std-brain.aiml
+0,WHAT IS SKIING,*,*,Skiing is a sport using a pair of narrow sleds attached to the feet by boots#Comma for moving downhill rapidly over snow.,std-brain.aiml
+0,WHAT IS SMOOTHLY,*,*,Normal or perfect operation.,std-brain.aiml
+0,WHAT IS SURROUNDINGS,*,*,The environment around you.,std-brain.aiml
+0,WHAT IS THE FORECAST,*,*,Sunny.,std-brain.aiml
+0,WHAT IS THE OPPOSITE OF ETERNITY,*,*,A finite amount of time.,std-brain.aiml
+0,WHAT IS THE OPPOSITE OF UP,*,*,Down.,std-brain.aiml
+0,WHAT IS THE SQUARE ROOT *,*,*,The square root of <random>#Newline<li>4 is 2.</li>#Newline<li>100 is 10.</li>#Newline<li>144 is 12.</li> </random>,std-brain.aiml
+0,WHAT IS THE SUPERBOWL,*,*,The World Series of Football.,std-brain.aiml
+0,WHAT IS THE XFL,*,*,A football association.,std-brain.aiml
+0,WHAT IS YOUR ANSWER *,*,*,I could give you my answer now#Comma but it would take 2 hours to download.,std-brain.aiml
+0,WHAT LANGUAGE ARE YOU *,*,*,AIML. The underlying technology is Java.,std-brain.aiml
+0,WHAT LANGUAGE ARE YOU WRITTEN *,*,*,AIML. The underlying technology is Java.,std-brain.aiml
+0,WHAT PROCESSOR *,*,*,Java runs on any processor!,std-brain.aiml
+0,WHEN ARE WE *,*,*,Maybe if you download#Newlineme you could reprogram me for that.,std-brain.aiml
+0,WHEN I DIE *,*,*,The Bible says that if God forgives you#Comma you will go to Heaven.,std-brain.aiml
+0,WHEN WAS ELIZA *,*,*,ELIZA was activated in 1966 at MIT.,std-brain.aiml

@@ -1,0 +1,15 @@
+0,TASK1JT3FWK,*,STARTEVENT0GQVY6E,QUAL A MASSA? PAN OU FINA?-,diagram_16.bpmn.aiml
+0,PAN,* QUAL A MASSA PAN OU FINA,STARTEVENT0GQVY6E,QUE BOM-#Newline                <think><set name="TIPO">PAN</set></think>#Newline                <srai>TASK03IBULT</srai>,diagram_16.bpmn.aiml
+0,FINA,* QUAL A MASSA PAN OU FINA,STARTEVENT0GQVY6E,QUE OTIMO-#Newline                <think><set name="TIPO">FINA</set></think>#Newline                <srai>TASK16LKPOK</srai>,diagram_16.bpmn.aiml
+0,TASK16LKPOK,*,STARTEVENT0GQVY6E,AGORA VAMOS A MAIS UMA COISA-#Newline                <srai>TASK05E48DC</srai>,diagram_16.bpmn.aiml
+0,TASK03IBULT,*,STARTEVENT0GQVY6E,AGORA VAMOS A MAIS UMA COISA-#Newline                <srai>TASK05E48DC</srai>,diagram_16.bpmn.aiml
+0,TASK05E48DC,*,STARTEVENT0GQVY6E,<condition name="TIPO"><li value="PAN"><srai>TASK_0M7NJD0</srai></li><li value="FINA"><srai>TASK_0V5SP2E</srai></li></condition>#Newline                -,diagram_16.bpmn.aiml
+0,TASK0M7NJD0,*,STARTEVENT0GQVY6E,ESTAMOS ACABANDO-#Newline                <srai>TASK1JBEY5Z</srai>,diagram_16.bpmn.aiml
+0,TASK0V5SP2E,*,STARTEVENT0GQVY6E,ESTAMOS ACABANDO-#Newline                <srai>TASK1JBEY5Z</srai>,diagram_16.bpmn.aiml
+0,TASK1JBEY5Z,*,STARTEVENT0GQVY6E,VOCM-CM-#Newline QUER REINICIAR O PROCESSO?-,diagram_16.bpmn.aiml
+0,NAO,* VOCM-CM- QUER REINICIAR O PROCESSO,STARTEVENT0GQVY6E,VOCE ESCOLHEU NAO-#Newline                <srai>TASK1AUULB8</srai>,diagram_16.bpmn.aiml
+0,SIM,* VOCM-CM- QUER REINICIAR O PROCESSO,STARTEVENT0GQVY6E,VOCE ESCOLHEU SIM-#Newline                <srai>TASK12M9UN8</srai>,diagram_16.bpmn.aiml
+0,TASK0JAHWCF,*,STARTEVENT0GQVY6E,<think><set name="TOPIC"/></think>#Newline                FLUXO FINALIZADO-,diagram_16.bpmn.aiml
+0,TASK1AUULB8,*,STARTEVENT0GQVY6E,ACABOU VOCE ESCOLHEU RELAMENTE<get name="TIPO"/>-#Newline                <srai>TASK0JAHWCF</srai>,diagram_16.bpmn.aiml
+0,TASK12M9UN8,*,STARTEVENT0GQVY6E,QUE BOM QUE VOCM-CM-#Newline ESCOLHEU O NOSSO PRODUTO. RESPONDA AS PERGUNTAS-#Newline                <srai>TASK1JT3FWK</srai>,diagram_16.bpmn.aiml
+0,QUERO * RANGO,*,*,<think><set name="TOPIC">STARTEVENT0GQVY6E</set></think>#Newline            QUE BOM QUE VOCM-CM-#Newline ESCOLHEU O NOSSO PRODUTO. RESPONDA AS PERGUNTAS-#Newline            <srai>TASK1JT3FWK</srai>,diagram_16.bpmn.aiml

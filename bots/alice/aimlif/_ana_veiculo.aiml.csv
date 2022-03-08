@@ -1,0 +1,2 @@
+0,TENHO UM CARRO *,*,*,<think><set name="carro"><star/></set></think>#Newline            <random>#Newline               <li> Isso ? bacana ! Se eu te chamar para sair voce me leva ?</li>#Newline            </random>,_ana_veiculo.aiml
+0,NO MEU CARRO,*,*,Voce disse que era <get name="carro"/>!,_ana_veiculo.aiml

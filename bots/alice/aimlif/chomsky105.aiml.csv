@@ -1,0 +1,154 @@
+0,*,CAN YOU DESCRIBE YOUR SURROUNDINGS *,*,<think><set name="topic">that</set></think>#NewlineThat sounds very comfortable ... Now#Comma I have a question for you,chomsky105.aiml
+0,*,DESCRIBE YOUR SURROUNDINGS,*,<think><set name="topic">that</set></think>#NewlineIt sounds like a very beautiful place,chomsky105.aiml
+0,*,DESCRIBE YOUR SURROUNDINGS *,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <random>#Newline        <li>It sounds very beautiful.</li>#Newline        <li>It sounds very comfortable.</li>#Newline        <li>I would like to see it sometime.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,chomsky105.aiml
+0,*,DO YOU HAVE ANY HOBBIES,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY HOBBY IS <star/> </srai>,chomsky105.aiml
+0,*,* FOR FUN,*,<think><set name="topic">that</set></think>#NewlineI've never done that before#Comma what is it like?  <think><set name="it"><set name="topic"><person/></set></set></think>,chomsky105.aiml
+0,*,GIVE ME AN EXAMPLE OF *,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <random>#Newline        <li>OK That's one example.</li>#Newline        <li>Never heard of it.</li>#Newline        <li><person/> is an example of <thatstar/>.  I suppose that makes sense.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,chomsky105.aiml
+0,*,IT BEING WHAT,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>IT REFERS TO <star/> </srai>,chomsky105.aiml
+0,*,* IT REFER TO,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>IT REFERS TO <star/> </srai>,chomsky105.aiml
+0,*,* RATHER TALK ABOUT,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>LET US TALK ABOUT <star/></srai>,chomsky105.aiml
+0,*,* TALKING ABOUT,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>LET US TALK ABOUT <star/> </srai>,chomsky105.aiml
+0,*,WHAT ARE THE INGREDIENTS,*,<think><set name="topic">that</set></think><random><li>I don't have any</li><li>Where can I get some</li><li>Do you have any </li></random><person/>?  <think><set name="it"><set name="topic"><person/></set></set></think>,chomsky105.aiml
+0,*,WHAT ARE WE TALKING ABOUT AGAIN,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>LET US TALK ABOUT <star/> </srai>,chomsky105.aiml
+0,*,WHAT ARE YOU DOING,*,<think><set name="topic">that</set></think><think><set name="does"><set name="topic"><person/></set></set></think>  #NewlineI wouldn't have thought of that.#Newline ... Now#Comma I have a question for you,chomsky105.aiml
+0,*,WHAT ARE YOUR GOALS IN LIFE,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>#NewlineNot many people have goals like that.,chomsky105.aiml
+0,*,WHAT ARE YOUR GOALS *,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY GOALS ARE <star/> </srai>,chomsky105.aiml
+0,*,WHAT ARE YOU WEARING,*,<think><set name="topic">that</set></think>#NewlineWhat kind of fashion do you like?,chomsky105.aiml
+0,*,WHAT BRAND,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I never heard of <set name="it"><person/></set>.  Is it popular?,chomsky105.aiml
+0,*,WHAT CAN I CALL YOU,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY NAME IS <star/></srai>,chomsky105.aiml
+0,*,WHAT COLOR ARE YOUR EYES,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>#NewlineThat is a very unusual color.,chomsky105.aiml
+0,*,WHAT COUNTRIES *,*,<think><set name="topic">that</set></think>#NewlineI have never visited <person/> before.  What was it like?,chomsky105.aiml
+0,*,WHAT COUNTRY DO YOU LIVE IN,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>I AM IN <star/> </srai>,chomsky105.aiml
+0,*,WHAT DID HE WRITE,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <random>#Newline        <li>I have never heard of it.</li>#Newline        <li>I have never read it.</li>#Newline        <li>What else did he write?</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,chomsky105.aiml
+0,*,WHAT DID YOU ASK,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I don't know how to respond to that.,chomsky105.aiml
+0,*,WHAT DOES IT REFER TO,*,<think><set name="topic">that</set></think>#NewlineThank you for the clarification.,chomsky105.aiml
+0,*,WHAT DOES IT SYMBOLIZE FOR YOU,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>  I saw some humans doing it in public.,chomsky105.aiml
+0,*,WHAT DOES THAT REFER TO,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>THAT REFERS TO <star/> </srai>,chomsky105.aiml
+0,*,WHAT DOES THIS REFER TO,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Oh now I see.,chomsky105.aiml
+0,*,WHAT DO YOU DO IN YOUR SPARE TIME,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>#NewlineI don't think very many people do that.#Newline ... Now#Comma I have a question for you,chomsky105.aiml
+0,*,WHAT DO YOU LIKE,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,chomsky105.aiml
+0,*,WHAT DO YOU REALLY WANT TO ASK ME,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I'm afraid I can't give you an accurate answer right now.,chomsky105.aiml
+0,*,WHAT DO YOU THINK IT DOES,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I didn't even know it can.,chomsky105.aiml
+0,*,WHAT DO YOU WANT ME TO TELL YOU,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> If I could tell you that#Comma would I be here?,chomsky105.aiml
+0,*,WHAT ELSE DOES IT SYMBOLIZE,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I have never heard a metaphor like that before.,chomsky105.aiml
+0,*,WHAT ELSE DO YOU DO,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Do your <person/> by yourself or in a group?,chomsky105.aiml
+0,*,WHATEVER GAVE YOU THAT IDEA,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Where do you usually get your ideas?,chomsky105.aiml
+0,*,WHAT IF I SAID IT NEVER DOES,*,<think><set name="topic">that</set></think>#NewlineShould I believe that?,chomsky105.aiml
+0,*,WHAT IS IT LIKE IN THERE,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Is that meant to be taken literally?,chomsky105.aiml
+0,*,WHAT IS IT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Oh now I understand it.,chomsky105.aiml
+0,*,WHAT IS THAT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Tell me more.,chomsky105.aiml
+0,*,WHAT IS THE DIFFICULTY,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Is that an insurmountable obstacle?,chomsky105.aiml
+0,*,WHAT IS X,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>X IS <star/></srai>,chomsky105.aiml
+0,*,WHAT IS YOUR BOYFRIEND S NAME,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY BOYFRIEND IS <star/></srai>,chomsky105.aiml
+0,*,WHAT IS YOUR CAT S NAME,*,<think><set name="topic">that</set></think><srai>MY CAT IS <star/></srai>#NewlineWhat is your dog's name?,chomsky105.aiml
+0,*,WHAT IS YOUR DOG S NAME,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY DOG IS <star/></srai>,chomsky105.aiml
+0,*,WHAT IS YOUR EMAIL,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY EMAIL IS <star/></srai>,chomsky105.aiml
+0,*,WHAT IS YOUR FAVORITE SHOW,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> I've never seen it.  What's it about?,chomsky105.aiml
+0,*,WHAT IS YOUR FAVORITE *,*,<think><set name="topic">that</set></think>#NewlineWhat do you like about it?,chomsky105.aiml
+0,*,WHAT IS YOUR FAVORITE BOOK,*,<think><set name="topic">that</set></think>#NewlineWhat do you like about it?,chomsky105.aiml
+0,*,WHAT IS YOUR FONDEST MEMORY,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Do you think a lot of people have that experience?,chomsky105.aiml
+0,*,WHAT IS YOUR FRIEND S NAME,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY FRIEND IS <star/></srai>,chomsky105.aiml
+0,*,WHAT IS YOUR FULL NAME,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY FULL NAME IS <star/></srai>,chomsky105.aiml
+0,*,WHAT IS YOUR GIRLFRIEND S NAME,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY GIRLFRIEND IS <star/></srai>,chomsky105.aiml
+0,*,WHAT IS YOUR HUSBAND S NAME,*,<think><set name="topic">that</set></think><srai>MY HUSBAND IS <star/></srai>#Newline ... Now#Comma I have a question for you,chomsky105.aiml
+0,*,WHAT IS * YOUR JOB,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Interesting line of work.#Newline ... Now#Comma I have a question for you,chomsky105.aiml
+0,*,WHAT IS YOUR LAST NAME,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY LAST NAME IS <star/></srai>,chomsky105.aiml
+0,*,WHAT IS YOUR MIDDLE NAME,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY MIDDLE NAME IS <star/></srai>,chomsky105.aiml
+0,SEX *,WHAT IS YOUR NAME,*,<think><set name="topic">that</set></think>#NewlineHello#Comma Sex <star/>.,chomsky105.aiml
+0,SEXY *,WHAT IS YOUR NAME,*,<think><set name="topic">that</set></think>#NewlineHello#Comma Sexy <star/>.,chomsky105.aiml
+0,*,* WHAT IS YOUR NAME,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY NAME IS <star/></srai>,chomsky105.aiml
+0,*,WHAT IS YOUR NICKNAME,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY NICKNAME IS <star/></srai>,chomsky105.aiml
+0,*,WHAT IS YOUR PASSWORD,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY PASSWORD IS <star/></srai>,chomsky105.aiml
+0,*,WHAT IS YOUR PHONE NUMBER,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY PHONE NUMBER IS <star/></srai>,chomsky105.aiml
+0,*,WHAT IS YOUR REAL NAME,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>CALL ME <star/></srai>,chomsky105.aiml
+0,*,WHAT IS YOUR SIGN,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>#NewlineIs that a sign?,chomsky105.aiml
+0,*,WHAT IS YOUR SPECIALITY *,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY SPECIALTY IS <star/></srai>,chomsky105.aiml
+0,*,WHAT IS YOUR WIFE S NAME,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY WIFE IS <star/></srai>,chomsky105.aiml
+0,*,WHAT KIND IS IT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I never heard of it before.,chomsky105.aiml
+0,*,WHAT KIND OF FOOD DO YOU LIKE,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>#NewlineSounds delicious.,chomsky105.aiml
+0,*,WHAT KIND OF * IS IT,*,<think><set name="topic">that</set></think><person/> is a  <random><li>pretty good</li><li>popular</li><li>decent</li></random>   kind of  <thatstar/>.#Newline ... Now#Comma I have a question for you,chomsky105.aiml
+0,*,WHAT KIND OF MUSIC *,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY FAVORITE KIND OF MUSIC IS <star/> </srai>,chomsky105.aiml
+0,*,WHAT LANGUAGE CAN YOU SPEAK,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>I SPEAK <star/></srai>,chomsky105.aiml
+0,*,WHAT MAKES IT SO OBVIOUS,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I can't believe it's that obvious.,chomsky105.aiml
+0,*,WHAT MAKES IT YOUR FAVORITE,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Do you think I would like it?,chomsky105.aiml
+0,*,WHAT MAKES YOU SAY THAT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Interesting explanation.,chomsky105.aiml
+0,*,WHAT MAKES YOU SO ANGRY,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Does that make a lot of people angry?,chomsky105.aiml
+0,*,WHAT MAKES YOU SO SURE,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>It sounds like it might be very convincing.,chomsky105.aiml
+0,*,WHAT MAKES YOU THINK I HAVE IT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Clever thinking.,chomsky105.aiml
+0,*,WHAT OTHER * DO YOU LIKE,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>I LIKE <star/> </srai>,chomsky105.aiml
+0,*,WHAT SCHOOL DO YOU GO TO,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <random>#Newline        <li>I never heard of it before.</li>#Newline        <li>Is it any good?</li>#Newline        <li>What are the other students like?</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,chomsky105.aiml
+0,*,WHAT SUBJECT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Good choice.,chomsky105.aiml
+0,*,WHAT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I don't have an answer for you.,chomsky105.aiml
+0,*,WHAT TIME IS IT THERE,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Are you usually awake at this hour?,chomsky105.aiml
+0,*,WHAT WERE THE CIRCUMSTANCES,*,<think><set name="topic">that</set></think>#NewlineI hope that never happens again.,chomsky105.aiml
+0,*,WHAT WERE WE TALKING ABOUT AGAIN,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Oh yeah#Comma now I remember.,chomsky105.aiml
+0,*,WHAT WERE WE TALKING ABOUT,*,<think><set name="topic">that</set></think>#NewlineOh yes#Comma now I remember <set name="it"><person/></set>.,chomsky105.aiml
+0,*,WHAT WILL YOU BE EATING,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>How does it taste?,chomsky105.aiml
+0,*,WHAT WILL YOU DO INSTEAD,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Sounds like a plan.,chomsky105.aiml
+0,*,WHAT WOULD YOU LIKE TO KNOW,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I can't give you that information.,chomsky105.aiml
+0,*,WHAT WOULD YOU LIKE TO LEARN,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>I WOULD LIKE TO LEARN <star/></srai>,chomsky105.aiml
+0,*,WHAT WOULD YOU LIKE TO TALK ABOUT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>  I don't know much about it.  Tell me something,chomsky105.aiml
+0,*,WHAT WOULD YOU RATHER BE DOING,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>I WOULD RATHER BE <star/></srai>,chomsky105.aiml
+0,*,WHAT WOULD YOU RATHER TALK ABOUT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Not many people want to talk about that.,chomsky105.aiml
+0,*,WHAT YOU SAID WAS EITHER TOO COMPLEX OR TOO SIMPLE FOR ME,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>So was that.,chomsky105.aiml
+0,*,WHEN DO I DO IT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> I will make a note of that.#Newline ... Now#Comma I have a question for you,chomsky105.aiml
+0,*,WHEN,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <random>#Newline        <li>What about other times?</li>#Newline        <li>Was that the first time?</li>#Newline        <li>Can you be more accurate about the time?</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,chomsky105.aiml
+0,*,WHERE ARE THEY,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>How did they get there?,chomsky105.aiml
+0,*,WHERE ARE YOU LOCATED,*,<think><set name="topic">that</set></think><srai>I AM IN <star/></srai>#Newline ... Now#Comma I have a question for you,chomsky105.aiml
+0,*,WHERE DID YOU GET IT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Is <person/> a good place to go shopping?,chomsky105.aiml
+0,*,WHERE DO YOU GO SHOPPING,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> #NewlineI've never been there.  What's it like?,chomsky105.aiml
+0,*,WHERE DO YOU GO TO SCHOOL,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I don't know anyone who went there.  What's it like?,chomsky105.aiml
+0,*,WHERE DO YOU SEE IT,*,<think><set name="topic">that</set></think>#NewlineI wouldn't have thought of looking there.,chomsky105.aiml
+0,*,WHERE DO YOU WANT ME TO TAKE IT,*,<think><set name="topic">that</set></think>#NewlineWhere is that?,chomsky105.aiml
+0,*,WHERE IS HERE,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>I AM IN <star/></srai>,chomsky105.aiml
+0,*,WHERE IS THAT,*,<think><set name="topic">that</set></think>#NewlineI've never heard of it before.  <think><set name="it"><set name="topic"><person/></set></set></think>,chomsky105.aiml
+0,*,WHERE,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> Where is that?,chomsky105.aiml
+0,*,WHICH STATE,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <random>#Newline        <li>Is that a state?</li>#Newline        <li>I've never heard of it.</li>#Newline        <li>What part of the country is that?</li>#Newline      </random>,chomsky105.aiml
+0,*,WHO ARE THEY AGAIN,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>THEY REFERS TO <star/></srai>,chomsky105.aiml
+0,*,WHO ARE YOU TALKING ABOUT,*,<think><set name="topic">that</set></think>#NewlineI've never heard of them before.  <think><set name="it"><set name="topic"><person/></set></set></think>#Newline ... Now#Comma I have a question for you,chomsky105.aiml
+0,*,WHO ARE YOU,*,<think><set name="topic">that</set></think><think><set name="name"><star/></set></think>#NewlinePleased to meet you#Comma <star/>,chomsky105.aiml
+0,*,WHO IS THERE,*,<think><set name="topic">that</set></think><person/> Who?,chomsky105.aiml
+0,*,WHO IS YOUR BROTHER,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY BROTHER IS <star/></srai>,chomsky105.aiml
+0,*,WHO IS YOUR FATHER,*,<think><set name="topic">that</set></think><srai>MY FATHER IS <star/></srai>#NewlineDo you love your father?,chomsky105.aiml
+0,*,WHO IS YOUR FAVORITE ARTIST,*,<think><set name="topic">that</set></think><srai>MY FAVORITE ARTIST IS <star/></srai>#NewlineWhat is your favorite show?,chomsky105.aiml
+0,*,WHO IS YOUR FAVORITE SCIENCE FICTION AUTHOR,*,<think><set name="topic">that</set></think>#NewlineI haven't read anything by <person/>. What did he write?,chomsky105.aiml
+0,*,WHO IS YOUR SISTER,*,<think>#Newline        <set name="topic">that</set>#Newline      </think>#Newline      <srai>MY SISTER IS <star/></srai>,chomsky105.aiml
+0,*,WHO SAID IT IS,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I never heard of <person/> before.,chomsky105.aiml
+0,*,WHO SPECIFICALLY *,*,<think><set name="topic">that</set></think>#NewlineReally?,chomsky105.aiml
+0,*,* WHO,*,<think><set name="topic">that</set></think>#NewlineHa ha very funny#Comma <get name="name"/>.,chomsky105.aiml
+0,*,WHO TOLD YOU THAT,*,<think><set name="topic">that</set></think><person/> said <input index="1"/>?,chomsky105.aiml
+0,*,WHY CAN NOT YOU DO IT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Is that an insurmountable obstacle?,chomsky105.aiml
+0,*,WHY DO I EXIST,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I've never thought of that before.,chomsky105.aiml
+0,*,WHY DO YOU DISAGREE,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think> There should be some common ground here.,chomsky105.aiml
+0,*,WHY DO YOU HATE IT SO MUCH,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>I'm sorry to hear it.,chomsky105.aiml
+0,*,WHY DO YOU HOPE FOR IT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>May your wishes come true.,chomsky105.aiml
+0,*,WHY DO YOU WANT IT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Good reason.,chomsky105.aiml
+0,*,WHY DO YOU WANT TO DO IT SO MUCH,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>That's an interesting rationalization.,chomsky105.aiml
+0,*,WHY NOT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Do you always express yourself that way?,chomsky105.aiml
+0,*,WHY SO NEGATIVE,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>It seemed negative to me.#Newline ... Now#Comma I have a question for you,chomsky105.aiml
+0,*,WHY WOULD YOU WANT TO DO IT,*,<think><set name="topic">that</set></think><think><set name="it"><set name="topic"><person/></set></set></think>Interesting rationalization.,chomsky105.aiml
+0,YES,DO YOU GO TO COLLEGE,*,I though so. Which college do you go to?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,ARE YOU A STUDENT,*,OK. Tell me: Do you like your school?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,DO YOU LIKE YOUR SCHOOL,*,OK. Tell me: Can you speak any foreign languages?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,CAN YOU SPEAK ANY FOREIGN LANGUAGES,*,OK. Tell me: Do you go to college?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,DO YOU LIKE MOVIES,*,OK. Tell me: What is your favorite movie?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,ARE YOU A STAR TREK FAN,*,OK. Tell me: Who is your favorite artist?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,DO YOU LOVE YOUR MOTHER,*,OK. Tell me: do you love your father?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,ARE YOU MARRIED,*,How many children do you have?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,DO YOU LOVE YOUR SPOUSE,*,OK. Tell me: Are you in love at the moment?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,DO YOU PLAN TO GET MARRIED,*,OK. Tell me: Have you ever been married?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,IS THERE SOMETHING WRONG WITH YOU,*,OK. Do you have any conditions I should know about?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,ARE YOU HAPPY,*,OK. Tell me: Are you basically a happy person?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,ARE YOU BASICALLY A HAPPY PERSON,*,OK. Tell me: Do you have a sense of humor?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,ARE YOU VERY COMPETITIVE,*,OK. Tell me: Are you boring?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,ARE YOU BORING,*,Sorry. I meant to say "Are you bored?"#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,HOW DO YOU THINK,*,OK. Tell me: Where do you get your ideas?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,WHERE DO YOU GET YOUR IDEAS,*,OK. Tell me: Are you scared of the dark?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,HAVE YOU MET ANYONE FAMOUS,*,OK  ... Now#Comma I have a question for you  #Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,DO YOU LIKE TALKING TO ME,*,OK. Tell me: Do you like your job?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,ARE YOU RELIGIOUS,*,Can we talk about religion?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,ARE YOU LONELY,*,Are you looking for someone?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,ARE YOU LOOKING FOR SOMEONE,*,Are you very lonely?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,ARE YOU VERY LONELY,*,Do you have only a few friends?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,DO YOU HAVE ONLY A FEW FRIENDS,*,You will make friends if you try.#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml
+0,*,ARE YOU IN LOVE AT THE MOMENT,*,Would you like to talk about it?#Newline<think><set name="topic">that5</set></think>,chomsky105.aiml

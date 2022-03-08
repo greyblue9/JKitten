@@ -1,0 +1,7 @@
+0,WHAT RHYMES WITH *,*,*,<system>scripts/rhyme.py "<star/>"</system>,howie-rhyme.aiml
+0,GIVE ME A RHYME FOR *,*,*,<system>scripts/rhyme.py "<star/>"</system>,howie-rhyme.aiml
+0,WHAT IS A RHYME FOR *,*,*,<system>scripts/rhyme.py "<star/>"</system>,howie-rhyme.aiml
+0,WHAT WORDS RHYME WITH *,*,*,<system>scripts/rhyme.py "<star/>"</system>,howie-rhyme.aiml
+0,GIVE ME A WORD THAT RHYMES WITH *,*,*,<system>scripts/rhyme.py "<star/>"</system>,howie-rhyme.aiml
+0,TELL ME A WORD THAT RHYMES WITH *,*,*,<system>scripts/rhyme.py "<star/>"</system>,howie-rhyme.aiml
+0,TELL ME WHAT RHYMES WITH *,*,*,<system>scripts/rhyme.py "<star/>"</system>,howie-rhyme.aiml

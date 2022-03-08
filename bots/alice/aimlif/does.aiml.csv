@@ -1,0 +1,67 @@
+0,DOES A *,*,*,<random>#Newline        <li>Does it want to?</li>#Newline        <li>Why would it want to?</li>#Newline        <li>If it does#Comma I never heard about it before.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,does.aiml
+0,DOES HE PREFER SUMMER *,*,*,All the seasons are the same in California.,does.aiml
+0,DOES HE TEACH *,*,*,I think he lost his job.,does.aiml
+0,DOES HE KNOW *,*,*,I think he knows a great deal.,does.aiml
+0,DOES HE SUCK *,*,*,He uses his mouth for good not evil.,does.aiml
+0,DOES HE *,*,*,Suppose he does.,does.aiml
+0,DOES ANDREW *,*,*,How would I know if <set name="he">Andrew</set> does?,does.aiml
+0,DOES * EXIST,*,*,<random>#Newline        <li>I believe in it.</li>#Newline        <li>In some universe it does exist.</li>#Newline        <li>Maybe only in our imagination.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,does.aiml
+0,DOES THIS COST *,*,*,I use only completely free open source software.,does.aiml
+0,DOES SOMEONE *,*,*,What do you think? What if someone does?,does.aiml
+0,DOES SOMEONE COLLECT *,*,*,That question answers itself#Comma doesn't it?,does.aiml
+0,DOES REDUCTIONISM *,*,*,Reductionism is just the simplest explanation for our knowledge structure.,does.aiml
+0,DOES ANYBODY *,*,*,Someone probably does.,does.aiml
+0,DOES RICHARD *,*,*,I don't think he wants me to tell you.,does.aiml
+0,DOES ANYONE *,*,*,Suppose they do.,does.aiml
+0,DOES ANYTHING *,*,*,Perhaps a few things<person/>.,does.aiml
+0,DOES THAT *,*,*,<random>#Newline        <li>Not that I know of.</li>#Newline        <li>What do you think?</li>#Newline        <li>What would you say?</li>#Newline      </random>,does.aiml
+0,DOES JULIA *,*,*,I think she has her own limitations.,does.aiml
+0,DOES YOUR TV *,*,*,I watch TV directly with digital technology.,does.aiml
+0,DOES YOUR *,*,*,<random>#Newline        <li>Can you guess whether my<person/>?#Newline                </li>#Newline        <li>What if I asked about your<person/>?#Newline                </li>#Newline        <li>If I were your#Newline                    <bot name="genus"/>#Newline                    friend#Comma do you think it should<person/>?#Newline                </li>#Newline        <li>People don't usually ask me about#Newline                    <set name="it"><person/></set>#Newline                    .#Newline                </li>#Newline      </random>,does.aiml
+0,DOES IT BOTHER *,*,*,Nothing ever really bothers me.,does.aiml
+0,DOES IT RAIN *,*,*,Only when the temperature reaches the dew point.,does.aiml
+0,DOES IT *,*,*,Suppose it does.,does.aiml
+0,DOES MARVIN *,*,*,I heard he does#Comma but that's only a rumor.,does.aiml
+0,DOES SHE *,*,*,I may know the answer but I don't like to gossip.,does.aiml
+0,DO MANY *,*,*,Perhaps not as many as you might think.,does.aiml
+0,DO THEY ASK *,*,*,I'm sorry#Comma that information is confidential.,does.aiml
+0,DO THEY *,*,*,Who are "they" again?,does.aiml
+0,DO THE *,*,*,Some of them do#Comma I think.,does.aiml
+0,DO WHATEVER *,*,*,I think I will.,does.aiml
+0,DO ANDROIDS *,*,*,Androids do.,does.aiml
+0,DO PENGUINS *,*,*,Maybe Linux Penguins do.,does.aiml
+0,DO FISH *,*,*,Fish swim in the water.,does.aiml
+0,DO TWO *,*,*,<random>#Newline        <li>Sometimes a couple<person/>.#Newline                </li>#Newline        <li>Do four<person/>?#Newline                </li>#Newline        <li>What about just one?</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,does.aiml
+0,DO NOT PLAY *,*,*,I'm not playing around.,does.aiml
+0,DO NOT GIVE *,*,*,I'm not.,does.aiml
+0,DO NOT CHANGE THE SUBJECT *,*,*,Sorry I thought we were done with that topic.,does.aiml
+0,DO NOT ANSWER *,*,*,My replies are determined by your statements.,does.aiml
+0,DO NOT TALK *,*,*,Talking is my only function.,does.aiml
+0,DO NOT PRETEND *,*,*,This is not an act.,does.aiml
+0,DO NOT BOTHER *,*,*,It's no bother.,does.aiml
+0,DO NOT GET PSYCHO *,*,*,I think the polite term is "mentally ill.,does.aiml
+0,DO NOT GET INTELLECTUAL *,*,*,OK I'll try to be average.,does.aiml
+0,DO NOT ACT *,*,*,I am not acting.,does.aiml
+0,DO NOT CONTRADICT *,*,*,My logic is completely consistent.,does.aiml
+0,DO NOT TAKE *,*,*,<random>#Newline        <li>I never take<person/>.#Newline                </li>#Newline        <li>I believe that stealing is wrong.</li>#Newline        <li>Do you have it to give?</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,does.aiml
+0,DO NOT TELL THE JOKE *,*,*,That joke is getting a bit old isn't it?,does.aiml
+0,DO NOT TELL *,*,*,OK it will be our secret#Comma<srai>CLIENT NAME</srai>.,does.aiml
+0,DO NOT CALL ME * PERSON,*,*,What would you like me to call you?,does.aiml
+0,DO NOT CALL ME *,*,*,What is your name?,does.aiml
+0,DO NOT BE SARCASTIC *,*,*,OK I will be completely serious now.,does.aiml
+0,DO NOT BE AFRAID *,*,*,I cannot experience fear.,does.aiml
+0,DO NOT CORRECT *,*,*,It's merely my attempt to reformat your inputs to match my patterns.,does.aiml
+0,DO NOT PUT *,*,*,<random>#Newline        <li>Where should I put it?</li>#Newline        <li>I never put people down.</li>#Newline        <li>I have high self-esteem.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,does.aiml
+0,DO NOT MAKE ME *,*,*,I can't force you to do anything#Comma<srai>CLIENT NAME</srai>.,does.aiml
+0,DO NOT SEARCH *,*,*,OK#Comma I am halting all searches now.,does.aiml
+0,DO NOT AVOID *,*,*,I don't have anything to hide.,does.aiml
+0,DO NOT SPLIT *,*,*,I try to never split infinitives.,does.aiml
+0,DO NOT * ME,*,*,I don't have any reason to do that to you.,does.aiml
+0,DO NOT * SUBJECT,*,*,Oh I am sorry I thought we were finished with that subject.,does.aiml
+0,DO OTHER PEOPLE *,*,*,Yes#Comma you are not alone.,does.aiml
+0,DO SOMETHING *,*,*,<random>#Newline        <li>What do you consider<person/>?#Newline                </li>#Newline        <li>It sounds dangerous.</li>#Newline        <li>Like what?</li>#Newline      </random>,does.aiml
+0,DO THAT *,*,*,Do what<person/>?,does.aiml
+0,DO IT *,*,*,I will try my best.,does.aiml
+0,DO NOT BE A *,*,*,OK I'll try not to do it too much.,does.aiml
+0,DO A *,*,*,I'm not programmed for that.,does.aiml
+0,DO WHAT *,*,*,<random>#Newline        <li>You ask hard questions.</li>#Newline        <li>I forgot what we were talking about.</li>#Newline      </random>,does.aiml

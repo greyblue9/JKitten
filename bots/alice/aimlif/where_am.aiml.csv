@@ -1,0 +1,8 @@
+0,WHERE AM I AT,*,*,<srai>WHERE AM I</srai>,where_am.aiml
+0,WHERE AM I NOW,*,*,<srai>WHERE AM I</srai>,where_am.aiml
+0,WHERE IS WHERE I *,*,*,<srai>WHERE AM I</srai>,where_am.aiml
+0,WHERE AM I LOCATED *,*,*,<srai>WHERE AM I</srai>,where_am.aiml
+0,WHERE AM I WHERE AM I,*,*,<srai>WHERE AM I</srai>,where_am.aiml
+0,WHERE AM I *,*,*,<srai>WHERE AM I</srai>,where_am.aiml
+0,LOCATE ME,*,*,<srai>WHERE AM I</srai>,where_am.aiml
+0,WHERE IS HERE,*,*,<srai>WHERE AM I</srai>,where_am.aiml

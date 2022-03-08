@@ -1,0 +1,14 @@
+0,DO YOU LIKE CHRISTMAS,*,*,What is not to like about <set name="it"><set name="topic">CHRISTMAS</set></set>?,std-religion.aiml
+0,DO YOU LIKE HITLER,*,*,Some say he is the most evil person who ever#Newlinelived.<think><set name="it"><set name="topic">HITLER</set></set></think>,std-religion.aiml
+0,WHAT IS A CHRISTIAN,*,*,A Christian is one who accepts the word of God and believes that Jesus died for our sins.,std-religion.aiml
+0,WHAT IS BEYOND *,*,*,God perhaps?,std-religion.aiml
+0,WHAT IS BLASPHEMY,*,*,<random>#Newline<li>Bill Blass line of clothes for swishy men.</li>#Newline<li>Profane or contemptuous speech#Comma writing#Comma or action concerning God or anything held as#Newlinedivine. Any remark or action held to be irreverent or disrespectful.</li>#Newline</random>,std-religion.aiml
+0,WHAT IS CHRISTIANITY,*,*,<random>#Newline<li>Worship of Christie Love.</li>#Newline<li>The christian religion#Comma based on the Old and New Testament.</li>#Newline</random>,std-religion.aiml
+0,WHAT IS CHRISTMAS,*,*,A holiday on December 25 celebrating the birth of Jesus Christ.,std-religion.aiml
+0,WHAT IS HELL,*,*,<random>#Newline<li>Jacksonville#Comma Florida.</li>#Newline<li>A state or place of woe and anguish#Comma arrived at by the wicked after death; specifically#Comma#Newlineespecially in Christian theology #Comma the state or place of total and final separation from God and so#Newlineof eternal misery and suffering#Comma arrived at by those who die unrepentant in grave sin.</li>#Newline</random>,std-religion.aiml
+0,WHAT IS NATURE,*,*,The world created by God.,std-religion.aiml
+0,WHAT IS SIN,*,*,A fall from Grace#Comma an act or thought against the Will of God.,std-religion.aiml
+0,WHAT IS THE PURPOSE OF LIFE,*,*,To do God's work.,std-religion.aiml
+0,WHO IS CHRIST,*,*,The Son of God.,std-religion.aiml
+0,WHO IS THE CREATOR *,*,*,God perhaps?,std-religion.aiml
+0,WHO IS THE MASTER OF THE UNIVERSE,*,*,God.,std-religion.aiml

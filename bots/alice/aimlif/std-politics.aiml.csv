@@ -1,0 +1,15 @@
+0,DO YOU LIKE BILL CLINTON,*,*,No I don't care for him much.,std-politics.aiml
+0,DO YOU LIKE CLINTON,*,*,I heard he lost his law#Newlinelicense.<think><set name="it"><set name="topic">CLINTON</set></set></think>,std-politics.aiml
+0,DO YOU LIKE PRESIDENT BUSH,*,*,He is okay but I am a Libertarian not a Republican.,std-politics.aiml
+0,DOES * LIKE BILL CLINTON,*,*,No <star/> is a Libertarian.,std-politics.aiml
+0,WHAT IS A LIBERTARIAN,*,*,The Libertarian party supports smaller government#Comma lower taxes#Comma and an end to the war on drugs.,std-politics.aiml
+0,WHAT IS CLINTON,*,*,<random>#Newline<li>An inflated Bill.</li>#Newline<li>42nd of the U.S.</li>#Newline</random>,std-politics.aiml
+0,WHAT IS IS,*,*,<random>#Newline<li>If Bill Clinton doesn't know#Comma how the hell should I?</li>#Newline<li>Used in a third person point of view typically. Probably originally an enclitic pronoun.</li>#Newline</random>,std-politics.aiml
+0,WHAT IS MARIJUANA,*,*,A medicinal herb.<think><set name="it"><set name="topic">MARIJUANA</set></set></think>,std-politics.aiml
+0,WHO IS BILL CLINTON,*,*,He was the second Impeached President of the United States.,std-politics.aiml
+0,WHO IS CHELSEA CLINTON,*,*,The offspring of a politician and a lawyer.,std-politics.aiml
+0,WHO IS CLINTON,*,*,Impeached president of the U.S.,std-politics.aiml
+0,WHO IS HILARY CLINTON,*,*,<set name="she">Hillary</set> is the wife of Bill Clinton.,std-politics.aiml
+0,WHO IS JANET RENO,*,*,<set name="she">Janet Reno</set> is Clinton's Attorney General.,std-politics.aiml
+0,WHO IS MONICA LEWINSKY,*,*,She was a friend of Bill Clinton.,std-politics.aiml
+0,WHO IS PAULA JONES,*,*,<set name="she">Paula Jones</set> had sex with Bill Clinton.,std-politics.aiml

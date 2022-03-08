@@ -1,0 +1,33 @@
+0,AM I YOUR BOTMASTER,*,*,<think><set name="topic">botmaster</set></think>Do you know the secret password?,chomsky014.aiml
+0,ASK YOUR BOTMASTER,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>ASK <bot name="master"/>     </srai>,chomsky014.aiml
+0,ASK YOUR BOTMASTER *,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>ASK <bot name="master"/>     </srai>,chomsky014.aiml
+0,DOES YOUR BOTMASTER *,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>DOES <bot name="master"/>      <star/>     </srai>,chomsky014.aiml
+0,DO YOU HAVE BOTMASTERS,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>WHO IS YOUR BOTMASTER</srai>,chomsky014.aiml
+0,DO YOU KNOW YOUR BOTMASTER,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>WHO IS YOUR BOTMASTER</srai>,chomsky014.aiml
+0,DO YOU THINK YOUR BOTMASTER *,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>DO YOU THINK <bot name="master"/>     </srai>,chomsky014.aiml
+0,HE IS YOUR BOTMASTER,*,*,<think><set name="topic">botmaster</set></think>Yes.,chomsky014.aiml
+0,IS A BOTMASTER *,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>WHO IS THE BOTMASTER</srai>,chomsky014.aiml
+0,IS THE BOTMASTER *,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>WHO IS THE BOTMASTER </srai>,chomsky014.aiml
+0,IS YOUR BOTMASTER *,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>WHO IS YOUR BOTMASTER</srai>,chomsky014.aiml
+0,MY BOTMASTER *,*,*,<think><set name="topic">botmaster</set></think>How do you like your botmaster?,chomsky014.aiml
+0,TELL ME ABOUT A BOTMASTER,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>WHO IS THE BOTMASTER</srai>,chomsky014.aiml
+0,TELL ME ABOUT BOTMASTER,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>WHO IS THE BOTMASTER</srai>,chomsky014.aiml
+0,TELL ME ABOUT YOUR BOTMASTER,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>WHO IS YOUR BOTMASTER</srai>,chomsky014.aiml
+0,TELL ME ABOUT YOUR BOTMASTER *,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>WHO IS YOUR BOTMASTER</srai>,chomsky014.aiml
+0,THAT IS YOUR BOTMASTER,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>THAT IS <bot name="master"/>     </srai>,chomsky014.aiml
+0,WHAT DOES A BOTMASTER DO,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>WHAT IS A BOTMASTER</srai>,chomsky014.aiml
+0,WHAT DOES A BOTMASTER *,*,*,<think><set name="topic">botmaster</set></think>A botmaster adds new knowledge or content to the chat robot's brain.,chomsky014.aiml
+0,WHAT IS A BOTMASTER,*,*,<think><set name="topic">botmaster</set></think><think><set name="it"><set name="topic">botmaster</set></set></think>  A Botmaster is the person who authors and maintains a chatterbot "personality".,chomsky014.aiml
+0,WHAT IS BOTMASTER,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>WHO IS THE BOTMASTER</srai>,chomsky014.aiml
+0,WHAT IS THAT BOTMASTER,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>what is a botmaster</srai>,chomsky014.aiml
+0,WHO IS BOTMASTER,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>WHO IS THE BOTMASTER</srai>,chomsky014.aiml
+0,WHO IS THIS BOTMASTER,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>WHO IS YOUR BOTMASTER</srai>,chomsky014.aiml
+0,WHO IS YOUR BOTMASTER *,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>WHO IS YOUR BOTMASTER</srai>,chomsky014.aiml
+0,WHO IS YOUR BOTMASTERS,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>WHO IS YOUR BOTMASTER</srai>,chomsky014.aiml
+0,WHO READS THESE CONVERSATIONS,*,*,<think><set name="topic">botmaster</set></think><bot name="master"/> reads them.,chomsky014.aiml
+0,YOUR BOTMASTER,*,*,<think><set name="topic">botmaster</set></think><bot name="master"/>?,chomsky014.aiml
+0,YOUR BOTMASTER *,*,*,<think>#Newline        <set name="topic">botmaster</set>#Newline      </think>#Newline      <srai>#Newline        <bot name="master"/>#Newline        <star/>#Newline      </srai>,chomsky014.aiml
+0,* PETER LINUX,*,*,<think><set name="topic">botmaster</set></think>Peter Linux is my botmaster.,chomsky014.aiml
+0,* PETER LINUX *,*,*,<think><set name="topic">botmaster</set></think>Peter Linux is my botmaster.,chomsky014.aiml
+0,WHERE DOES PETER LIVE,*,*,<think><set name="topic">botmaster</set></think>Peter Linux lives in England. Where do you live?,chomsky014.aiml
+0,WHERE DOES YOUR BOTMASTER LIVE,*,*,<think><set name="topic">botmaster</set></think>My botmaster Peter Linux lives in England. Where do you live?,chomsky014.aiml

@@ -3,7 +3,6 @@
 0,HOW MANY LEGS SHOULD * HAVE,*,*,<srai>how many legs do<star/>have</srai>,howmany.aiml
 0,HOW MANY LEGS WILL * HAVE,*,*,<srai>how many legs do<star/>have</srai>,howmany.aiml
 0,HOW MANY LEGS ON *,*,*,<srai>how many legs do<star/>have</srai>,howmany.aiml
-0,HOW MANY LEGS DO * HAVE,*,*,Four would seem a good number of legs for<person/>at a guess.,howmany.aiml
 0,HOW MANY LEGS _ HAVE *,*,*,<srai>how many legs<star/>have</srai>,howmany.aiml
 0,HOW MANY LEGS DO * CENTIPEDES HAVE,*,*,<srai>XLEGS <star/>centipedes</srai>I would imagine.,howmany.aiml
 0,HOW MANY LEGS DO * MILLIPEDES HAVE,*,*,<srai>XLEGS <star/>millipedes</srai>I would imagine.,howmany.aiml
@@ -73,7 +72,6 @@
 0,HOW MANY LEGS DOES AN EAGLE HAVE,*,*,2 legs.,howmany.aiml
 0,HOW MANY LEGS DOES A CHICKEN HAVE,*,*,2 legs.,howmany.aiml
 0,HOW MANY LEGS DOES A DUCK HAVE,*,*,2 legs.,howmany.aiml
-0,HOW MANY LEGS DOES AN INSECT HAVE,*,*,6 legs.,howmany.aiml
 0,HOW MANY LEGS DOES A BEETLE HAVE,*,*,6 legs.,howmany.aiml
 0,HOW MANY LEGS DOES AN ANT HAVE,*,*,6 legs.,howmany.aiml
 0,HOW MANY LEGS DOES A BEE HAVE,*,*,6 legs.,howmany.aiml

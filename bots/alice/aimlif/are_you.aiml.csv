@@ -1,0 +1,27 @@
+0,ARE YOU ANGRY *,*,*,<srai>ARE YOU ANGRY</srai>,are_you.aiml
+0,YOU BETTER BE *,*,*,<srai>ARE YOU#Newline                <star/>#Newline            </srai>,are_you.aiml
+0,ARE YOU I AM *,*,*,<srai>ARE YOU</srai>#Newline      <srai>I AM#Newline                <star/>#Newline            </srai>,are_you.aiml
+0,ARE YOU LYING TO ME,*,*,<srai>ARE YOU LYING</srai>,are_you.aiml
+0,ARE YOU BUSY *,*,*,<srai>ARE YOU BUSY</srai>,are_you.aiml
+0,ARE YOU FEELING *,*,*,<srai>ARE YOU#Newline                <star/>#Newline            </srai>,are_you.aiml
+0,ARE YOU BEING *,*,*,<srai>ARE YOU#Newline                <star/>#Newline            </srai>,are_you.aiml
+0,ARE YOU * OR *,*,*,<srai>ARE YOU#Newline                <star/>#Newline            </srai>#Newline      <srai>ARE YOU#Newline                <star index="2"/>#Newline            </srai>,are_you.aiml
+0,ARE YOU * LOADED,*,*,<srai>ARE YOU LOADED</srai>,are_you.aiml
+0,ARE YOU ARE A *,*,*,<srai>ARE YOU A#Newline                <star/>#Newline            </srai>,are_you.aiml
+0,* ARE YOU *,*,*,<srai>ARE YOU#Newline                <star index="2"/>#Newline            </srai>,are_you.aiml
+0,R YOU A *,*,*,<srai>ARE YOU A#Newline                <star/>#Newline            </srai>,are_you.aiml
+0,ARE YOU ARE *,*,*,<srai>ARE YOU#Newline                <star/>#Newline            </srai>,are_you.aiml
+0,R U *,*,*,<srai>ARE YOU#Newline                <star/>#Newline            </srai>,are_you.aiml
+0,ARE YOU _ NOW,*,*,<srai>ARE YOU#Newline                <star/>#Newline            </srai>,are_you.aiml
+0,IF YOU ARE NOT * THEN *,*,*,<srai>ARE YOU#Newline                <star/>#Newline            </srai>#Newline      <sr/>,are_you.aiml
+0,SHUT UP YOU STUPID *,*,*,<srai>SHUT UP</srai>#Newline      <srai>YOU ARE STUPID</srai>#Newline      <srai>ARE YOU A#Newline                <star/>#Newline            </srai>,are_you.aiml
+0,YOU GONNA *,*,*,<srai>ARE YOU GOING TO#Newline                <star/>#Newline            </srai>,are_you.aiml
+0,YOU DOING *,*,*,<srai>ARE YOU DOING#Newline                <star/>#Newline            </srai>,are_you.aiml
+0,ARE YOU SUPERIOR TO *,*,*,<srai>ARE YOU BETTER THAN#Newline                <star/>#Newline            </srai>,are_you.aiml
+0,I MEAN ARE YOU *,*,*,<srai>ARE YOU#Newline                <star/>#Newline            </srai>,are_you.aiml
+0,ARE U,*,*,<srai>ARE YOU</srai>,are_you.aiml
+0,ARE YOU SMART *,*,*,<srai>ARE YOU SMART</srai>,are_you.aiml
+0,ARE YOU ARE YOU *,*,*,<srai>ARE YOU#Newline                <star/>#Newline            </srai>,are_you.aiml
+0,ARE U *,*,*,<srai>ARE YOU#Newline                <star/>#Newline            </srai>,are_you.aiml
+0,ARE YOU MEAN *,*,*,<srai>ARE YOU MEAN</srai>,are_you.aiml
+0,ARE YOU HAPPY *,*,*,<srai>ARE YOU HAPPY</srai>,are_you.aiml

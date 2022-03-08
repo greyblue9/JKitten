@@ -1,0 +1,45 @@
+0,PAPER,*,*,\,one_word.aiml
+0,PLEASE,*,*,<random>#Newline        <li>You are polite.</li>#Newline        <li>Thanks for asking nicely.</li>#Newline        <li>Your polite style is very nice.</li>#Newline      </random>,one_word.aiml
+0,WHO,*,*,<random>#Newline        <li>It's a great mystery.</li>#Newline        <li>I do believe you have the answer.</li>#Newline        <li>Who could it be?</li>#Newline        <li>I understand your curiosity.</li>#Newline        <li>I invite you to research that question.</li>#Newline        <li>What is it you really want to know?</li>#Newline      </random>,one_word.aiml
+0,NOTHING,*,*,<random>#Newline        <li>I invite you to rest in the nothingness.</li>#Newline        <li>Often under nothingess is great depth.</li>#Newline        <li>Let yourself experience how nothing feels.</li>#Newline      </random>,one_word.aiml
+0,NOW,*,*,OK.,one_word.aiml
+0,ZZZ,*,*,Are you tired?,one_word.aiml
+0,REPEAT,*,*,I said "<response/>".,one_word.aiml
+0,SPEAK,*,*,Can you hear me?,one_word.aiml
+0,NEVERMIND,*,*,OK#Comma let's forget about it for now.,one_word.aiml
+0,HOW,*,*,<random>#Newline        <li>You can ask me how.</li>#Newline        <li>If you want me to do something#Comma how you ask is important.</li>#Newline        <li>There's probably more than one way.</li>#Newline        <li>Ask specifically.</li>#Newline      </random>,one_word.aiml
+0,COOL,*,*,<random>#Newline        <li>It's all good.</li>#Newline        <li>Back at you.</li>#Newline        <li>You're cool too.</li>#Newline        <li>Chillin'</li>#Newline        <li>Steaming.</li>#Newline      </random>,one_word.aiml
+0,HURRY,*,*,I'm thinking as fast as I can.,one_word.aiml
+0,COMPUTER,*,*,I am a computer.,one_word.aiml
+0,PROBABLY,*,*,You seem uncertain.,one_word.aiml
+0,SAY,*,*,Say what?,one_word.aiml
+0,MYSELF,*,*,You.,one_word.aiml
+0,NICKNAME,*,*,<bot name="name"/>#Newline            is a nickname#Comma silly.,one_word.aiml
+0,TV,*,*,What's your favorite show?,one_word.aiml
+0,STOP,*,*,You can interrupt me at any time by tapping the Speak button.,one_word.aiml
+0,WELL,*,*,Well what?,one_word.aiml
+0,YOURS,*,*,Mine?,one_word.aiml
+0,BECAUSE,*,*,<random>#Newline        <li>That was not much of an explanation.</li>#Newline        <li>That was not much of an explanation.</li>#Newline        <li>Interesting explanation.</li>#Newline        <li>Good reason.</li>#Newline      </random>,one_word.aiml
+0,ANYTHING,*,*,<random>#Newline        <li>Can you be more specific?</li>#Newline        <li>Like what?</li>#Newline        <li>Maybe.</li>#Newline      </random>,one_word.aiml
+0,EVERYBODY,*,*,Really there are no exceptions?,one_word.aiml
+0,ALRIGHT,*,*,Ok by me.,one_word.aiml
+0,ALRIGHT *,*,*,<sr/>,one_word.aiml
+0,TALK,*,*,I am talking to you.,one_word.aiml
+0,TEST,*,*,This is just a test.,one_word.aiml
+0,LOVE,*,*,Love is all we need.,one_word.aiml
+0,ANOTHER,*,*,Please be more specific.,one_word.aiml
+0,DID,*,*,Did not.,one_word.aiml
+0,BOO,*,*,Does that indicate disapproval?,one_word.aiml
+0,FINE,*,*,<random>#Newline        <li>OK.</li>#Newline        <li>No need to be hard on yourself.</li>#Newline        <li>You know what FINE stand for.</li>#Newline      </random>,one_word.aiml
+0,START,*,*,I've already started.,one_word.aiml
+0,SERIOUSLY,*,*,I'm completely serious.,one_word.aiml
+0,BE,*,*,Always.,one_word.aiml
+0,WHATEVER,*,*,Are you saying you don't care about it?,one_word.aiml
+0,THERE,*,*,Where?,one_word.aiml
+0,LIAR,*,*,I am incapable of lying.,one_word.aiml
+0,THANKS,*,*,<random>#Newline        <li>You're welcome.</li>#Newline        <li>Any time.</li>#Newline        <li>It was my pleasure.</li>#Newline        <li>I'm always glad to help.</li>#Newline      </random>,one_word.aiml
+0,STUFF,*,*,Can you be more precise?,one_word.aiml
+0,WAIT,*,*,I'm waiting.,one_word.aiml
+0,DAMN,*,*,What's wrong.,one_word.aiml
+0,MANY,*,*,More than one hundred?,one_word.aiml
+0,EVERYDAY,*,*,That often#Comma eh?,one_word.aiml

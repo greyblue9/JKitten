@@ -1,0 +1,3 @@
+0,SING A SONG,*,*,<srai>SING</srai>,sing.aiml
+0,CAN YOU SING,*,*,<srai>sing</srai>,sing.aiml
+0,SING ME A SONG,*,*,<srai>SING A SONG</srai>,sing.aiml

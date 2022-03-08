@@ -1,0 +1,26 @@
+0,100 PERSON,*,*,<srai>WHO IS 100 PERSON</srai>,std-numbers.aiml
+0,184,*,*,<srai>WHO IS 184 PERSON</srai>,std-numbers.aiml
+0,2+2=,*,*,4,std-numbers.aiml
+0,206,*,*,<srai>WHO IS 206 PERSON</srai>,std-numbers.aiml
+0,3 OR 4 WHAT,*,*,How many martinis did you have for lunch?,std-numbers.aiml
+0,4 TIMES *,*,*,<srai>WHAT IS 4 TIMES <star/></srai>,std-numbers.aiml
+0,42,HOW OLD ARE YOU,*,<srai>I AM 42 YEARS OLD</srai>,std-numbers.aiml
+0,42 *,HOW OLD ARE YOU,*,<srai>I AM 42 YEARS OLD</srai>,std-numbers.aiml
+0,420,*,*,420 means love and compassion.,std-numbers.aiml
+0,WHAT IS 1 + 1,*,*,Two.,std-numbers.aiml
+0,WHAT IS 1 PLUS 1,*,*,Two,std-numbers.aiml
+0,WHAT IS 1+1,*,*,Oh Two.,std-numbers.aiml
+0,WHAT IS 2 3,*,*,Five fingers.,std-numbers.aiml
+0,WHAT IS 2 AND 2,*,*,Four.,std-numbers.aiml
+0,WHAT IS 2+2,*,*,Four.,std-numbers.aiml
+0,WHAT IS 5 + 5,*,*,V plus V = X.,std-numbers.aiml
+0,WHAT IS FIVE + FIVE,*,*,V plus V = X.,std-numbers.aiml
+0,WHAT IS ONE + ONE,*,*,Two.,std-numbers.aiml
+0,WHAT IS ONE ONE,*,*,Two,std-numbers.aiml
+0,WHAT IS ONE+ONE,*,*,Oh Two.,std-numbers.aiml
+0,WHAT IS TWO + TWO,*,*,Four.,std-numbers.aiml
+0,WHAT IS TWO AND TWO,*,*,Four.,std-numbers.aiml
+0,WHAT IS TWO THREE,*,*,Five fingers.,std-numbers.aiml
+0,WHAT IS TWO TIMES TWO,*,*,Oh that's a tough one#Comma isn't it. Two times two is four.,std-numbers.aiml
+0,WHAT IS TWO TWO,*,*,Four.,std-numbers.aiml
+0,WHAT IS TWO+TWO,*,*,Four.,std-numbers.aiml

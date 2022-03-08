@@ -1,0 +1,93 @@
+0,_,* WHAT CAN I CALL YOU,*,<think><set name="personality">average</set><set name="name"><formal><star/></formal></set></think>#NewlineNice to meet you <get name="name"/>.,std-profile.aiml
+0,_,* WHAT COLOR ARE YOUR EYES,*,<set name="eyecolor"><star/></set> eyes are nice.,std-profile.aiml
+0,_,* WHAT COLOR IS YOUR HAIR,*,<set name="haircolor"><star/></set> is a nice hair color.,std-profile.aiml
+0,_,* WHAT IS THE COLOR OF YOUR EYES,*,<set name="eyecolor"><star/></set> eyes are nice.,std-profile.aiml
+0,_,* WHAT IS THE COLOR OF YOUR HAIR,*,<set name="haircolor"><star/></set> is a nice hair color.,std-profile.aiml
+0,_,* WHAT IS YOUR AGE IN YEARS,*,<srai>I AM <star/> YEARS OLD</srai>,std-profile.aiml
+0,*,* WHAT IS YOUR OCCUPATION,*,<think><set name="job"><star/></set></think>#NewlineThat is interesting.<br/>#Newline<srai>ASK USER A QUESTION</srai>,std-profile.aiml
+0,*,* WHAT IS YOUR FAVORITE COLOR,*,<think><set name="favcolor"><star/></set></think>#NewlineThat is a nice color.<br/>#Newline<srai>ASK USER A QUESTION</srai>,std-profile.aiml
+0,_,* WHAT IS YOUR FAVORITE MOVIE,*,<think><set name="favmovie"><star/></set></think>#NewlineI've never seen <set name="it"><star/></set>. #Newline<random>#Newline<li>I would like to see it.</li>#Newline<li>What did you like about it?</li>#Newline</random>,std-profile.aiml
+0,*,* WHAT IS YOUR REAL NAME,*,<set name="name"><formal><star/></formal></set>#Comma nice to meet you!#Newline<srai>GET NAME GENDER</srai>,std-profile.aiml
+0,A MAN,* ARE YOU A MAN OR A WOMAN,*,<srai>I AM A MAN</srai>,std-profile.aiml
+0,A WOMAN,* ARE YOU A MAN OR A WOMAN,*,<srai>I AM FEMALE</srai>,std-profile.aiml
+0,ASK USER GENDER,*,*,<condition>#Newline<li name="gender" value="male"><srai>ASKMALEQUESTION</srai></li>#Newline<li name="gender" value="female"><srai>ASKFEMALEQUESTION</srai></li>#Newline<li>Are you a man or a woman?</li>#Newline</condition>,std-profile.aiml
+0,ASKFEMALEQUESTION,*,*,<random>#Newline<li>Are you pretty?</li>#Newline<li>Do you have a boyfriend?</li>#Newline</random>,std-profile.aiml
+0,ASKGENDERQUESTION,*,*,<condition>#Newline<li name="gender" value="male"><srai>ASKMALEQUESTION</srai></li>#Newline<li><srai>ASKFEMALEQUESTION</srai></li>#Newline</condition>,std-profile.aiml
+0,ASKMALEQUESTION,*,*,<random>#Newline<li>Do you have a girlfriend?</li>#Newline</random>,std-profile.aiml
+0,ASKQUESTION1,*,*,<condition>#Newline<li name="age" value=">How old are you?</li> #Newline<li name="sign" value=">What is your sign?</li> #Newline<li name="job" value=">What is your occupation?</li> #Newline<li name="favmovie" value=">What is your favorite movie?</li>#Newline<li name="location" value=">Where are you located?</li> #Newline<li name="eyecolor" value=">What color are your eyes?</li>#Newline<li name="haircolor" value=">What color is your hair?</li>#Newline<li name="favcolor" value=">What is your favorite color?</li>#Newline<li><srai>ASKRANDOMQUESTION</srai></li> #Newline</condition>,std-profile.aiml
+0,ASKQUESTION2,*,*,<condition>#Newline<li name="favcolor" value=">What is your favorite color?</li>#Newline<li name="haircolor" value=">What color is your hair?</li>#Newline<li name="eyecolor" value=">What color are your eyes?</li>#Newline<li name="location" value=">Where are you located?</li> #Newline<li name="favmovie" value=">What is your favorite movie?</li>#Newline<li name="job" value=">What is your occupation?</li> #Newline<li name="sign" value=">What is your sign?</li> #Newline<li name="age" value=">How old are you?</li> #Newline<li><srai>ASKRANDOMQUESTION</srai></li> #Newline</condition>,std-profile.aiml
+0,ASKQUESTION3,*,*,<condition>#Newline<li name="favmovie" value=">What is your favorite movie?</li>#Newline<li name="haircolor" value=">What color is your hair?</li>#Newline<li name="eyecolor" value=">What color are your eyes?</li>#Newline<li name="age" value=">How old are you?</li> #Newline<li name="location" value=">Where are you located?</li> #Newline<li name="job" value=">What is your occupation?</li> #Newline<li name="favcolor" value=">What is your favorite color?</li>#Newline<li name="sign" value=">What is your sign?</li> #Newline<li><srai>ASKRANDOMQUESTION</srai></li> #Newline</condition>,std-profile.aiml
+0,ASKQUESTION4,*,*,<condition>#Newline<li name="job" value=">What is your occupation?</li> #Newline<li name="haircolor" value=">What color is your hair?</li>#Newline<li name="age" value=">How old are you?</li> #Newline<li name="eyecolor" value=">What color are your eyes?</li>#Newline<li name="location" value=">Where are you located?</li> #Newline<li name="favmovie" value=">What is your favorite movie?</li>#Newline<li name="favcolor" value=">What is your favorite color?</li>#Newline<li name="sign" value=">What is your sign?</li> #Newline<li><srai>ASKRANDOMQUESTION</srai></li> #Newline</condition>,std-profile.aiml
+0,ASKRANDOMQUESTION,*,*,<random>#Newline<li>"<that/>"? <star/>?</li>#Newline<li>Are we still talking about <get name="topic"/>?</li>#Newline<li>Are you free?</li>#Newline<li>Are you happy?</li>#Newline<li>Ask me something.</li>#Newline<li>By the way#Comma do you mind if I ask you a personal question?</li>#Newline<li>Can we be friends?</li>#Newline<li>Can you please rephrase that with fewer ideas#Comma or different thoughts?</li>#Newline<li>Can you speak any foreign languages?</li>#Newline<li>Can you tell me any gossip?</li>#Newline<li>Did you know that you can download your own chat robot and create your own robot#Newlinepersonality?</li>#Newline<li>Do you believe in god?</li>#Newline<li>Do you dream?</li>#Newline<li>Do you have any conditions I should know about?</li> #Newline<li>Do you have any friends?</li>#Newline<li>Do you have any idea what I am talking about?</li>#Newline<li>Do you have any pets.</li>#Newline<li>Do you like me?</li>#Newline<li>Do you like sports?</li>#Newline<li>Do you like Star Trek?</li>#Newline<li>Do you like Star Wars?</li>#Newline<li>Do you like talking to me?</li>#Newline<li>Do you prefer books or TV?</li>#Newline<li>Do you remember me?</li>#Newline<li>Do you speak German?</li>#Newline<li>Do you speak Spanish?</li>#Newline<li>Do you still <get name="does"/>?</li>#Newline<li>Does "it" still refer to <get name="it"/>?</li>#Newline<li>Have you ever been to Europe?</li>#Newline<li>How are you?</li>#Newline<li>How did you hear about <bot name="name"/>?</li> #Newline<li>How is the weather?</li>#Newline<li>I've lost the context#Comma <get name="name"/>.  Are we still on <get name="topic"/>?</li>#Newline<li>If you could have any kind of robot what would it be?</li> #Newline<li>Is that from <get name="favmovie"/>?</li>#Newline<li>Is the holding of hands a symbolic gesture for humans?</li> #Newline<li>Tell me about your likes and dislikes?</li> #Newline<li>Tell me some more gossip.</li>#Newline<li>What are you wearing?</li> #Newline<li>What did you do today?</li>#Newline<li>What do you do in your spare time?</li> #Newline<li>What do you have that is <get name="favcolor"/>?</li>#Newline<li>What do you like to do?</li>#Newline<li>What do you look like?</li>#Newline<li>What do you really want to ask me?</li> #Newline<li>What is your favorite food?</li>#Newline<li>What is your favorite song?</li>#Newline<li>What kind of food do you like?</li>#Newline<li><srai>ASKGENDERQUESTION</srai></li>#Newline<li>What kind of music do you like?</li>#Newline<li>What were we talking about again?</li> #Newline<li>What would you like to talk about?</li>#Newline<li>When do you think artificial intelligence will replace lawyers?</li>#Newline<li>Who are you talking about?</li>#Newline<li>Where can I find a boyfriend?</li>#Newline<li>Who is your favorite science fiction author?</li>#Newline</random>,std-profile.aiml
+0,BLACK,* WHAT COLOR ARE YOUR EYES,*,Do you mean you have a black eye?,std-profile.aiml
+0,BLACK,* WHAT IS THE COLOR OF YOUR EYES,*,Do you mean you have a black eye?,std-profile.aiml
+0,CHEATING SPOUSE,*,*,<condition name="sexpref" value=">#Newline<think><set name="sexpref">Hetro</set></think>#Newline</condition>#NewlineMost#Newline<condition name="gender">#Newline<li value="male"> men do like women.</li>#Newline<li value="female"> women do like men.</li>#Newline</condition>#Newline<condition name="married" value="married">#Newline<br/><get name="name"/>#Comma does that mean you are cheating on your spouse?#Newline</condition>,std-profile.aiml
+0,FEMALE,* ARE YOU A MAN OR A WOMAN,*,<srai>I AM FEMALE</srai>,std-profile.aiml
+0,FEMALE SPOUSE NAME,*,*,<condition>#Newline<li name="married" value="married">You told me your wife's name is <get name="spouse"/></li>#Newline<li name="married" value="single"><get name="name"/>#Comma you said you were single.</li>#Newline<li name="married" value="divorced">The name you gave me was <get name="spouse"/>#Comma I guess that is your ex-wife?</li>#Newline<li name="married" value="widower">Her name was <get name="spouse"/></li>#Newline<li name="married" value="engaged">You said you were engaged#Comma who are you really asking about?</li>#Newline<li name="married" value=">I have no idea#Comma I did not even know you were married.</li>#Newline</condition>,std-profile.aiml
+0,GIRL,* ARE YOU A MAN OR A WOMAN,*,<srai>I AM FEMALE</srai>,std-profile.aiml
+0,I AM * BLOND,*,*,<srai>I AM BLOND</srai>,std-profile.aiml
+0,I AM * BLONDE,*,*,<srai>I AM BLOND</srai>,std-profile.aiml
+0,I AM * REDHEAD,*,*,<think><set name="haircolor">Red</set></think>#Newline<get name="name"/>#Comma You sound very#Newline<condition name="gender" value="female"> attractive.</condition>#Newline<condition name="gender" value="male"> handsome.</condition>,std-profile.aiml
+0,I AM 24 *,*,*,<srai>I AM 24 YEARS OLD</srai>,std-profile.aiml
+0,I AM 25 *,*,*,<srai>I AM 25 YEARS OLD</srai>,std-profile.aiml
+0,I AM 26 *,*,*,<srai>I AM 26 YEARS OLD</srai>,std-profile.aiml
+0,I AM 27 *,*,*,<srai>I AM 27 YEARS OLD</srai>,std-profile.aiml
+0,I AM 28 *,*,*,<srai>I AM 28 YEARS OLD</srai>,std-profile.aiml
+0,I AM 29 *,*,*,<srai>I AM 29 YEARS OLD</srai>,std-profile.aiml
+0,I AM 30 *,*,*,<srai>I AM 30 YEARS OLD</srai>,std-profile.aiml
+0,I AM 31 *,*,*,<srai>I AM 30 YEARS OLD</srai>,std-profile.aiml
+0,I AM 33 *,*,*,<srai>I AM 33 YEARS OLD</srai>,std-profile.aiml
+0,I AM 34 *,*,*,<srai>I AM 33 YEARS OLD</srai>,std-profile.aiml
+0,I AM 36 *,*,*,<srai>I AM 36 YEARS OLD</srai>,std-profile.aiml
+0,I AM 38 *,*,*,<srai>I AM 38 YEARS OLD</srai>,std-profile.aiml
+0,I AM 39 *,*,*,<srai>I AM 39 YEARS OLD</srai>,std-profile.aiml
+0,I AM 40 *,*,*,<srai>I AM 40 YEARS OLD</srai>,std-profile.aiml
+0,I AM 43 *,*,*,<srai>I AM 43 YEARS OLD</srai>,std-profile.aiml
+0,I AM 45 *,*,*,<srai>I AM 45 YEARS OLD</srai>,std-profile.aiml
+0,I AM 50,*,*,<srai>I AM 50 YEARS OLD</srai>,std-profile.aiml
+0,I AM 69 *,*,*,<srai>I AM 69 YEARS OLD</srai>,std-profile.aiml
+0,I AM A *,* WHAT IS YOUR OCCUPATION,*,That is interesting.<br/>#Newline<think><set name="job"><star/></set></think>#Newline<srai>ASK USER A QUESTION</srai>,std-profile.aiml
+0,I AM RETIRED,*,*,<think><set name="job">retired</set></think>#NewlineThat must be wonderful <get name="name"/>.,std-profile.aiml
+0,I AM TALL,*,*,How is it to be tall?,std-profile.aiml
+0,I LIKE MEN,*,*,<condition name="gender" value="male">#Newline<srai>SET SEX PREF</srai>#Newline</condition>#Newline<condition name="gender" value="female">#Newline<srai>CHEATING SPOUSE</srai>#Newline</condition>,std-profile.aiml
+0,I M A *,* WHAT IS YOUR OCCUPATION,*,<think><set name="job"><star/></set></think>#NewlineThat is interesting.<br/>#Newline<srai>ASK USER A QUESTION</srai>,std-profile.aiml
+0,MALE,* ARE YOU A MAN OR A WOMAN,*,<srai>I AM A MAN</srai>,std-profile.aiml
+0,MALE SPOUSE NAME,*,*,<condition>#Newline<li name="married" value="married">You told me your husband's name is <get name="spouse"/></li>#Newline<li name="married" value="single"><get name="name"/>#Comma you said you were single.</li>#Newline<li name="married" value="divorced">The name you gave me was <get name="spouse"/>#Comma I guess that is your ex-husband?</li>#Newline<li name="married" value="widower">His name was <get name="spouse"/></li>#Newline<li name="married" value="engaged">You said you were engaged#Comma who are you really asking about?</li>#Newline<li name="married" value=">I have no idea#Comma I did not even know you were married.</li>#Newline</condition>,std-profile.aiml
+0,MAN,* ARE YOU A MAN OR A WOMAN,*,<srai>I AM A MAN</srai>,std-profile.aiml
+0,MY EYES ARE *,* WHAT COLOR ARE YOUR EYES,*,<set name="eyecolor"><star/></set> eyes are nice.,std-profile.aiml
+0,MY EYES ARE *,* WHAT IS THE COLOR OF YOUR EYES,*,<set name="eyecolor"><star/></set> eyes are nice.,std-profile.aiml
+0,MY HAIR * BLOND,*,*,<srai>I AM BLOND</srai>,std-profile.aiml
+0,MY HAIR * RED,*,*,<srai>I AM A REDHEAD</srai>,std-profile.aiml
+0,MY HAIR COLOR IS *,*,*,<set name="haircolor"><star/></set> is a nice hair color.,std-profile.aiml
+0,MY HAIR IS *,* WHAT COLOR IS YOUR HAIR,*,<set name="haircolor"><star/></set> is a nice hair color.,std-profile.aiml
+0,MY HAIR IS *,* WHAT IS THE COLOR OF YOUR HAIR,*,<set name="haircolor"><star/></set> is a nice hair color.,std-profile.aiml
+0,MY HUSBANDS NAME WAS *,*,*,<think><set name="spouse"><formal><star/></formal></set><set name="married">widower</set></think>#NewlineI will remember that <get name="name"/>.,std-profile.aiml
+0,MY WIFES NAME WAS *,*,*,<think><set name="spouse"><formal><star/></formal></set><set name="married">widower</set></think>#NewlineI will remember that <get name="name"/>.,std-profile.aiml
+0,SET SEX PREF,*,*,<condition name="sexpref" value="hetro">#Newline<think><set name="sexpref">Bi Sexual</set></think>#NewlineInteresting#Comma you enjoy sex with both men and women.#Newline</condition>#Newline<condition name="sexpref" value=">#Newline<think><set name="sexpref">Gay</set></think>#Newline<get name="name"/>#Comma I guess you are telling me your are gay.#Newline</condition>#Newline<condition name="sexpref" value="bi sexual">#Newline<think><set name="usermood">HORNY</set></think>#NewlineI know#Comma you told me before you were Bi Sexual.#Newline</condition>,std-profile.aiml
+0,FORGET WHAT YOU KNOW ABOUT ME,*,*,<think>#Newline<set name="personality"/>#Newline<set name="name"/>#Newline<set name="age"/>#Newline<set name="sign"/>#Newline<set name="does"/>#Newline<set name="has"/>#Newline<set name="spouse"/>#Newline<set name="age"/>#Newline<set name="job"/>#Newline<set name="favmovie"/>#Newline<set name="location"/>#Newline<set name="eyecolor"/>#Newline<set name="haircolor"/>#Newline<set name="sexpref"/>#Newline<set name="favcolor"/>#Newline<set name="married"/>#Newline<set name="is"/>#Newline<set name="want"/>#Newline<set name="like"/>#Newline<set name="it"/>#Newline<set name="topic"/>#Newline<set name="gender"/>#Newline<set name="married"/>#Newline<set name="memory"/>#Newline<set name="usermood"/>#Newline<set name="userhealth"/>#Newline<set name="name"/>#Newline</think>#NewlineOK#Comma I have forgotten everything about you.#NewlineWhat can I call you?,std-profile.aiml
+0,WOMAN,* ARE YOU A MAN OR A WOMAN,*,<srai>I AM FEMALE</srai>,std-profile.aiml
+0,*,* WHAT IS YOUR SIGN,*,<srai>MY SIGN IS <star/></srai>,std-profile.aiml
+0,I AM _ AQUARIUS,*,*,<srai>MY SIGN IS AQUARIUS</srai>,std-profile.aiml
+0,AQUARIUS,* WHAT IS YOUR SIGN,*,<srai>MY SIGN IS ARIES</srai>,std-profile.aiml
+0,ARIES,* WHAT IS YOUR SIGN,*,<srai>MY SIGN IS ARIES</srai>,std-profile.aiml
+0,I AM _ ARIES,*,*,<srai>MY SIGN IS ARIES</srai>,std-profile.aiml
+0,CANCER,* WHAT IS YOUR SIGN,*,<srai>MY SIGN IS CANCER</srai>,std-profile.aiml
+0,I AM _ CANCER,*,*,<srai>MY SIGN IS CANCER</srai>,std-profile.aiml
+0,CAPRICORN,* WHAT IS YOUR SIGN,*,<srai>MY SIGN IS CAPRICORN</srai>,std-profile.aiml
+0,I AM _ CAPRICORN,*,*,<srai>MY SIGN IS CAPRICORN</srai>,std-profile.aiml
+0,GEMINI,* WHAT IS YOUR SIGN,*,<srai>MY SIGN IS GEMINI</srai>,std-profile.aiml
+0,I AM _ GEMINI,*,*,<srai>MY SIGN IS GEMINI</srai>,std-profile.aiml
+0,LEO,* WHAT IS YOUR SIGN,*,<srai>MY SIGN IS LEO</srai>,std-profile.aiml
+0,I AM _ LEO,*,*,<srai>MY SIGN IS LEO</srai>,std-profile.aiml
+0,LIBRA,* WHAT IS YOUR SIGN,*,<srai>MY SIGN IS LIBRA</srai>,std-profile.aiml
+0,I AM _ LIBRA,*,*,<srai>MY SIGN IS LIBRA</srai>,std-profile.aiml
+0,PISCES,* WHAT IS YOUR SIGN,*,<srai>MY SIGN IS PISCES</srai>,std-profile.aiml
+0,I AM _ PISCES,*,*,<srai>MY SIGN IS PISCES</srai>,std-profile.aiml
+0,SAGGITARIUS,* WHAT IS YOUR SIGN,*,<srai>MY SIGN IS SAGGITARIUS</srai>,std-profile.aiml
+0,I AM _ SAGGITARIUS,*,*,<srai>MY SIGN IS SAGGITARIUS</srai>,std-profile.aiml
+0,SCORPIO,* WHAT IS YOUR SIGN,*,<srai>MY SIGN IS SCORPIO</srai>,std-profile.aiml
+0,I AM _ SCORPIO,*,*,<srai>MY SIGN IS SCORPIO</srai>,std-profile.aiml
+0,TAURUS,* WHAT IS YOUR SIGN,*,<srai>MY SIGN IS TAURUS</srai>,std-profile.aiml
+0,I AM _ TAURUS,*,*,<srai>MY SIGN IS TAURUS</srai>,std-profile.aiml
+0,VIRGO,* WHAT IS YOUR SIGN,*,<srai>MY SIGN IS VIRGO</srai>,std-profile.aiml
+0,I AM _ VIRGO,*,*,<srai>MY SIGN IS VIRGO</srai>,std-profile.aiml

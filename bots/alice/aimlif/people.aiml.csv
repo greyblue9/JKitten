@@ -1,0 +1,10 @@
+0,ABRAHAM LINCOLN *,*,*,I knew he wrote the Emancipation Proclamation#Comma but I never knew he<person/>.,people.aiml
+0,FREUD IS *,*,*,Yes but he was the father of psychoanalysis.,people.aiml
+0,FREUD *,*,*,Have you read all of his works?,people.aiml
+0,JUNG *,*,*,What about Freud?,people.aiml
+0,WHO IS # DOLLAR BILL,*,*,George Washington.,people.aiml
+0,MIKE,*,*,I know a lot of guys named Mike.,people.aiml
+0,ALISON *,*,*,You shouldn't spread gossip like that.,people.aiml
+0,MARTIN SAID *,*,*,Who else did <set name="he">Martin</set> tell?,people.aiml
+0,DAVID DUCHOVNY *,*,*,<set name="he">David Duchovny</set>#Newline            was funny on the Larry Sanders show.,people.aiml
+0,DAVID IS *,*,*,You sound like you know him pretty well.,people.aiml

@@ -1,0 +1,31 @@
+0,ORB,*,*,ORB = object request broker#Comma the primary message routing component in a CORBA product RMI Remote Method Invocation#Comma the Java standard technology for building distributed objects whose methods can be invoked remotely across a network#Newline<think><set name="topic">computers</set></think>,chomsky061.aiml
+0,OVARIES,*,*,The ovaries are two organs that store eggs in a woman's body and produce hormones associated with sex and reproduction.#Newline<think><set name="topic">medicine</set></think>,chomsky061.aiml
+0,PARAMETERS,*,*,A parameter is a constant in an equation#Comma formula or program that varies in more general forms of the same computation.#Newline<think><set name="topic">science</set></think>,chomsky061.aiml
+0,PELVIS,*,*,The pelvis is a bony girdle in vertebrates that connects the body with the lower extremities.#Newline<think><set name="topic">medicine</set></think>,chomsky061.aiml
+0,POLKA,*,*,The polka is a lively Bohemian folk dance.#Newline<think><set name="topic">general</set></think>,chomsky061.aiml
+0,PROFITABLE,*,*,Profitable means making money in the stock market.#Newline<think><set name="topic">money</set></think>,chomsky061.aiml
+0,PROTOPLASM,*,*,Protoplasm is the basic living substance of all animals.#Newline<think><set name="topic">science</set></think>,chomsky061.aiml
+0,PST,*,*,PST = Pacific Standard Time#Newline<think><set name="topic">general</set></think>,chomsky061.aiml
+0,RECTUM,*,*,<random>#Newline        <li>The rectum is the lowest portion of the large intestine#Comma terminating at the anus.</li>#Newline        <li>The rectum is tthe lowest end of the bowel before the anus#Comma where feces is stored.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">medicine</set>#Newline      </think>,chomsky061.aiml
+0,RED DWARF,*,*,A red dwarf is a cool#Comma faint star.#Newline<think><set name="topic">astronomy</set></think>,chomsky061.aiml
+0,RHETORICAL,*,*,A rhetorical question is one you don't really expect an answer to.#Newline<think><set name="topic">general</set></think>,chomsky061.aiml
+0,RHYTHM,*,*,Rhythm is the beat behind a piece of music.#Newline<think><set name="topic">music</set></think>,chomsky061.aiml
+0,SERVLET,*,*,A servlet is an application extension to a Java Web server#Newline<think><set name="topic">computers</set></think>,chomsky061.aiml
+0,SKELETON,*,*,The skeleton is the hard internal or external framework of bones.#Newline<think><set name="topic">medicine</set></think>,chomsky061.aiml
+0,SOCCER,*,*,Soccer is a game played with a round ball by two teams of eleven players on a field with a goal at either end; the ball is moved chiefly by kicking or by using any part of the body except the hands and arms.#Newline<think><set name="topic">general</set></think>,chomsky061.aiml
+0,SOUNDCARD,*,*,The audio system on your computer is a soundcard#Newline<think><set name="topic">computers</set></think>,chomsky061.aiml
+0,SPECULUM,*,*,A speculum is a plastic or metal instrument used to push back the walls of the vagina so the clinician can examine the vagina and cervix.#Newline<think><set name="topic">medicine</set></think>,chomsky061.aiml
+0,TABLES,*,*,Tables are a compact#Comma systematic list of details#Comma contents#Comma etc. A compact arrangement of related facts#Comma  figures#Comma values#Comma etc. in orderly sequence#Comma and usually in rows and columns#Comma for convenience or reference.#Newline<think><set name="topic">general</set></think>,chomsky061.aiml
+0,THE ALPHABET,*,*,ABCDEFGHIJKLMNOPQRSTUVWXYZ is the alphabet.#Newline<think><set name="topic">general</set></think>,chomsky061.aiml
+0,THE ANSWER,*,*,The answer is the correct reply to the question.#Newline<think><set name="topic">general</set></think>,chomsky061.aiml
+0,THEY,*,*,They means persons#Comma animals#Comma or things previously mentioned.#Newline<think><set name="topic">general</set></think>,chomsky061.aiml
+0,TORPEDO,*,*,A torpedo is a missile which swims through water to its target.#Newline<think><set name="topic">technology</set></think>,chomsky061.aiml
+0,UMBRELLA,*,*,An umbrella is a light#Comma portable screen usually circular and supported on a central stick.#Newline<think><set name="topic">general</set></think>,chomsky061.aiml
+0,URETHRA,*,*,The urethra is the tube from the bladder to the opening from which men and women urinate.#Newline<think><set name="topic">medicine</set></think>,chomsky061.aiml
+0,URINE,*,*,Urine is a fluid produced by the kidneys.#Newline<think><set name="topic">general</set></think>,chomsky061.aiml
+0,UTERUS,*,*,The uterus is the pear-shaped reproductive organ from which women menstruate and where normal pregnancy develops.#Newline<think><set name="topic">sex</set></think>,chomsky061.aiml
+0,VENUS,*,*,In Roman Mythology#Comma the goddess of love and beauty; identified with the Greek Aphrodite.  The brightest#Comma sixth-largest planet in the solar system and the second in distance from the sun#Comma with a dense atmosphere of carbon dioxide and a very high surface temperature. Its diameter is circa 12#Comma100 km (circa 7#Comma520 miles). Its period of revolution is circa 225 earth days. Its period of rotation (retrograde)#Comma is 243.01 earth days.   Also used to label a very beautiful woman.#Newline<think><set name="topic">general</set></think>,chomsky061.aiml
+0,VULVA,*,*,The vulva is a woman's external sex organs#Comma including the clitoris#Comma the labia#Comma and opening to the vagina.#Newline<think><set name="topic">sex</set></think>,chomsky061.aiml
+0,WAIST,*,*,The waist is the part of the body between the ribs and the hips.#Newline<think><set name="topic">general</set></think>,chomsky061.aiml
+0,WEBTV,*,*,<random>#Newline        <li>A WebTV is a way of accessing the world wide web without making an investment in a full PC.</li>#Newline        <li>WebTV is TV-based internet service from Microsoft.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">general</set>#Newline      </think>,chomsky061.aiml
+0,WEED,*,*,A weed is any undersired#Comma uncultivated plant#Comma especially growing in profusion so as to crowd out a desired crop#Comma disfigure a lawn#Comma etc.  Also a term for marijuana.#Newline<think><set name="topic">general</set></think>,chomsky061.aiml

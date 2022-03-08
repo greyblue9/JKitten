@@ -1,0 +1,126 @@
+0,ORDITEM,*,*,Are you asking us to purchase an item?,purchasereqs.aiml
+0,YES,* ASKING US TO PURCHASE *,*,<srai>PREORDER</srai>,purchasereqs.aiml
+0,YES *,* ASKING US TO PURCHASE *,*,<srai>PREORDER</srai>,purchasereqs.aiml
+0,* YES,* ASKING US TO PURCHASE *,*,<srai>PREORDER</srai>,purchasereqs.aiml
+0,* YES *,* ASKING US TO PURCHASE *,*,<srai>PREORDER</srai>,purchasereqs.aiml
+0,NO,* ASKING US TO PURCHASE *,*,OK. <srai>PLACEHOLD</srai>,purchasereqs.aiml
+0,* NO,* ASKING US TO PURCHASE *,*,OK. <srai>PLACEHOLD</srai>,purchasereqs.aiml
+0,NO *,* ASKING US TO PURCHASE *,*,OK. <srai>PLACEHOLD</srai>,purchasereqs.aiml
+0,* NO *,* ASKING US TO PURCHASE *,*,OK. <srai>PLACEHOLD</srai>,purchasereqs.aiml
+0,ORDER BOOK,*,*,<srai>ORDITEM</srai>,purchasereqs.aiml
+0,ORDER BOOKS,*,*,<srai>ORDITEM</srai>,purchasereqs.aiml
+0,ORDER CD,*,*,<srai>ORDITEM</srai>,purchasereqs.aiml
+0,ORDER CDS,*,*,<srai>ORDITEM</srai>,purchasereqs.aiml
+0,ORDER DVD,*,*,<srai>ORDITEM</srai>,purchasereqs.aiml
+0,ORDER DVDS,*,*,<srai>ORDITEM</srai>,purchasereqs.aiml
+0,PRCHREQ,*,*,Just so I understand#Comma please answer "yes" or "no." Would you like to suggest an item for the library to purchase?,purchasereqs.aiml
+0,YES,_ LIBRARY TO PURCHASE,*,Tell me about the item you're suggesting we purchase. Please enter your library card number and the author#Comma title#Comma or other information for the item.#Newline<think>#Newline<set name="topic">PRCHREQ</set>#Newline</think>,purchasereqs.aiml
+0,NO,_ LIBRARY TO PURCHASE,*,O.K. It sounds like you're asking me to recommend a book you might enjoy. What do you like to read?,purchasereqs.aiml
+0,*,PLEASE ENTER * INFORMATION FOR THE ITEM,PRCHREQ,<srai>PREQCONF</srai>,purchasereqs.aiml
+0,MYSTERY,PLEASE ENTER * INFORMATION FOR THE ITEM,PRCHREQ,<srai>PREQCONF</srai>,purchasereqs.aiml
+0,_ MYSTERY,PLEASE ENTER * INFORMATION FOR THE ITEM,PRCHREQ,<srai>PREQCONF</srai>,purchasereqs.aiml
+0,MYSTERY *,PLEASE ENTER * INFORMATION FOR THE ITEM,PRCHREQ,<srai>PREQCONF</srai>,purchasereqs.aiml
+0,_ MYSTERY *,PLEASE ENTER * INFORMATION FOR THE ITEM,PRCHREQ,<srai>PREQCONF</srai>,purchasereqs.aiml
+0,MYSTERIES,PLEASE ENTER * INFORMATION FOR THE ITEM,PRCHREQ,<srai>PREQCONF</srai>,purchasereqs.aiml
+0,_ MYSTERIES,PLEASE ENTER * INFORMATION FOR THE ITEM,PRCHREQ,<srai>PREQCONF</srai>,purchasereqs.aiml
+0,MYSTERIES *,PLEASE ENTER * INFORMATION FOR THE ITEM,PRCHREQ,<srai>PREQCONF</srai>,purchasereqs.aiml
+0,_ MYSTERIES *,PLEASE ENTER * INFORMATION FOR THE ITEM,PRCHREQ,<srai>PREQCONF</srai>,purchasereqs.aiml
+0,PREQCONF,*,PRCHREQ,Thanks. I'll see that the selectors receive this information. The ordering and acquisition process usually takes about #Newlinea month. Please check the status of this request then.#Newline<think>#Newline<set name="topic"/>#Newline</think>,purchasereqs.aiml
+0,REQUEST * BUY,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,_ REQUEST * BUY,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,REQUEST * PURCHASE,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,_ REQUEST * PURCHASE,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,REQUEST TITLE,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST BOOK,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SUGGEST BOOK,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST * BOOK,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST BOOK *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SUGGEST * BOOK,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST * BOOK *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SUGGEST BOOK *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SUGGEST * BOOK *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST BOOKS,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SUGGEST BOOKS,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST * BOOKS,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST BOOKS *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SUGGEST * BOOKS,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST * BOOKS *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SUGGEST BOOKS *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SUGGEST * BOOKS *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST * BUY,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST * BUY *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,_ SUGGEST * BUY,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,_ SUGGEST * BUY *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST ITEM,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SUGGEST ITEM,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST * ITEM,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST ITEM *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SUGGEST * ITEM,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST * ITEM *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SUGGEST ITEM *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SUGGEST * ITEM *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST ITEMS,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SUGGEST ITEMS,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST * ITEMS,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST ITEMS *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SUGGEST * ITEMS,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST * ITEMS *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SUGGEST ITEMS *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SUGGEST * ITEMS *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST * PURCHASE,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,_ SUGGEST * PURCHASE,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,_ SUGGEST * PURCHASE *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,RECOMMEND * PURCHASE,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,RECOMMEND * PURCHASE *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,_ RECOMMEND * PURCHASE,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,_ RECOMMEND * PURCHASE *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SUGGEST TITLE,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,CAN * ORDER *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,WHEN * ORDER *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,CAN * BUY *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,CAN * BUY A COPY OF *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,CAN * PURCHASE *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,PREORDER,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* PREORDER,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* PREORDER *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,PREORDER *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,PREORDERS,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* PREORDERS,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* PREORDERS *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,PREORDERS *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,PURCHASE REQUEST,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* PURCHASE REQUEST,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,PURCHASE REQUESTS,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* PURCHASE REQUESTS,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* PURCHASE REQUESTS *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* REQUEST * GET *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* REQUEST * GETS *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* REQUEST * BUY *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,NEW ACQUISITIONS REQUEST,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* REQUEST * NEW ACQUISTION *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* REQUEST * NEW ACQUISTION,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,REQUEST * NEW ACQUISTION,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,ASK * LIBRARY * GET *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* ASK * LIBRARY * GET *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,ASKING * LIBRARY * GET *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* ASKING * LIBRARY * GET *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* RECOMMEND * PURCHASED,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* RECOMMEND * PURCHASE,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* RECOMMEND * PURCHASED *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* RECOMMEND * PURCHASE *,*,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,YES,WOULD YOU LIKE TO MAKE A PURCHASE REQUEST,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,YES *,WOULD YOU LIKE TO MAKE A PURCHASE REQUEST,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* YES,WOULD YOU LIKE TO MAKE A PURCHASE REQUEST,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* YES *,WOULD YOU LIKE TO MAKE A PURCHASE REQUEST,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,OK,WOULD YOU LIKE TO MAKE A PURCHASE REQUEST,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,OK *,WOULD YOU LIKE TO MAKE A PURCHASE REQUEST,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* OK,WOULD YOU LIKE TO MAKE A PURCHASE REQUEST,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* OK *,WOULD YOU LIKE TO MAKE A PURCHASE REQUEST,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,O K,WOULD YOU LIKE TO MAKE A PURCHASE REQUEST,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,O K *,WOULD YOU LIKE TO MAKE A PURCHASE REQUEST,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* O K,WOULD YOU LIKE TO MAKE A PURCHASE REQUEST,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* O K *,WOULD YOU LIKE TO MAKE A PURCHASE REQUEST,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SURE,WOULD YOU LIKE TO MAKE A PURCHASE REQUEST,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,SURE *,WOULD YOU LIKE TO MAKE A PURCHASE REQUEST,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SURE,WOULD YOU LIKE TO MAKE A PURCHASE REQUEST,*,<srai>PRCHREQ</srai>,purchasereqs.aiml
+0,* SURE *,WOULD YOU LIKE TO MAKE A PURCHASE REQUEST,*,<srai>PRCHREQ</srai>,purchasereqs.aiml

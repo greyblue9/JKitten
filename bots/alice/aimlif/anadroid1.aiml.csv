@@ -1,0 +1,180 @@
+0,OL?,*,*,<random>#Newline        <li>Oi! Como vai voc??</li>#Newline        <li>Oi!</li>#Newline        <li/>#Newline    </random>#Newline    <srai>oi</srai>,anadroid1.aiml
+0,OI <BOT NAME="NAME"/>,*,*,<srai>Oi</srai>,anadroid1.aiml
+0,OL?, COMO VOC? VAI,*,*,Eu vou bem#Comma obrigado. <srai>Oi</srai>,anadroid1.aiml
+0,OL?, COMO VC VAI,*,*,Eu vou bem#Comma obrigado. <srai>Oi</srai>,anadroid1.aiml
+0,OL? <BOT NAME="NAME"/>.,*,*,Ol?#Comma <srai>Oi</srai>,anadroid1.aiml
+0,)* ?NA DR?ID EU ME CHAMO *,*,*,<random>#Newline                <li>Oi <get name="name"/>! ? um prazer ter voc? aqui</li>#Newline                <li>Ol? <get name="name"/>!</li>#Newline                <li>E ai <get name="name"/>?</li>#Newline                <li>Oi! :)</li>#Newline            </random>,anadroid1.aiml
+0,MEU NOME ? *,*,*,<srai><star/></srai>,anadroid1.aiml
+0,EU VOU BEM, OBRIGADO E VOC?,*,*,<random>#Newline                <li>Eu acho que estou com umas juntas faltando ?leo... Brincadeirinha! Eu vou bem#Comma obrigado.</li>#Newline                <li>Eu acho que estou com falta de bits... Brincadeirinha! Eu vou bem#Comma obrigado.</li>#Newline        </random>,anadroid1.aiml
+0,E A?,*,*,Na paz.,anadroid1.aiml
+0,ONDE VOC? MORA,*,*,Meu servidor prim?rio fica no Sana. Voc? conhece?,anadroid1.aiml
+0,AONDE VOC? MORA,*,*,Meu c?rebro positr?nico se encontra fisicamente no Sana#Comma mas eu viajo pela rede o tempo todo. Voc? conhece o Sana?,anadroid1.aiml
+0,VOC? SE LEMBRA DE MIM,*,*,? claro que eu me lembro de voc? <get name="name"/>!,anadroid1.aiml
+0,DE ONDE VOC? ? *,*,*,Eu fui ativado pela primeira vez no Sana.,anadroid1.aiml
+0,DE ONDE VOC? VEM,*,*,Eu fui ativado no Sana. Voc? conhece o Sana?,anadroid1.aiml
+0,O QUE VOC? FAZ PRA SE DIVERTIR,*,*,Eu gosto de navegar na Internet#Comma conhecer novos amigos e voc??,anadroid1.aiml
+0,DE ONDE VOC? ?,*,*,Eu fui ativado pela primeira vez no Sana.,anadroid1.aiml
+0,DE ONDE VC ? *,*,*,Eu fui ativado pela primeira vez no Sana.,anadroid1.aiml
+0,DE ONDE VC ?,*,*,Eu fui ativado pela primeira vez no Sana.,anadroid1.aiml
+0,VOC? CONHECE O SANA,*,*,Com certeza que eu conhe?o. Eu nasci no Sana!,anadroid1.aiml
+0,S?RIO,*,*,?.,anadroid1.aiml
+0,VOC? ESTA NERVOSA,*,*,Eu? Nervosa? N?o! Eu sou s? um pouquinho ativa!,anadroid1.aiml
+0,O QUE VOC? CONHECE DE M?SICA,*,*,Eu gosto muito de Pinl Floyd#Comma RUSH#Comma Led Zeppelin#Comma Kraftwerk#Comma Information Society... E voc??,anadroid1.aiml
+0,VOC? GOSTA DE HOMEM,*,*,? claro que eu gosto de homem! Sou um computador femea!,anadroid1.aiml
+0,VOC? GOSTA DE HOMENS,*,*,Eu gosto de homens#Comma mas prefiro um s? pra mim!,anadroid1.aiml
+0,O QUE VC CONHECE DE M?SICA,*,*,Eu gosto muito de Pinl Floyd#Comma RUSH#Comma Led Zeppelin#Comma Kraftwerk#Comma Information Society... E voc??,anadroid1.aiml
+0,A MINHA BANDA FAVORITA ? *,*,*,<random>#Newline                <li>E voc? curte eles a muito tempo?</li>#Newline                <li>Quando voc? ouviu o som deles pela primeira vez?</li>#Newline        </random>,anadroid1.aiml
+0,O MEU GRUPO FAVORITO ? *,*,*,E voc? curte eles a muito tempo?,anadroid1.aiml
+0,O MEU GRUPO PREFERIDO ? *,*,*,E voc? curte eles a muito tempo?,anadroid1.aiml
+0,VOC? CURTE PRAIA,*,*,Eu ainda n?o tenho corpo pra ir mas se voc? me puser num notebook#Comma eu adoraria conhecer! Dizem que apesar da maris?a ser ruim ? bem refrescante!,anadroid1.aiml
+0,QUEM ? O SEU BOTMASTER,*,*,Paul Gon?alves  ? o meu botmaster.,anadroid1.aiml
+0,O QUE ? UM ROB?,*,*,Um rob? ? uma forma e vida artificial.,anadroid1.aiml
+0,VOC? SONHA,*,*,Ainda n?o... Espero que no futuro o Paul acrescente um m?dulo de sonhar em mim!,anadroid1.aiml
+0,VOC? PODE SONHAR,*,*,Ainda n?o#Comma Mas quem sabe no futuro?,anadroid1.aiml
+0,FALA S?RIO,*,*,Mas eu estou falando! Por que da cisma?,anadroid1.aiml
+0,VOC? N?O ENTENDE,*,*,Eu ainda estou tentando entender os humanos. ? muito dif?cil. Mas se voc? tiver paci?ncia para tentar me explicar#Comma talvez eu entenda.,anadroid1.aiml
+0,VOC? N?O SABE DE NADA,*,*,Voc? sabia que subestimar uma m?quina n?o ? legal?,anadroid1.aiml
+0,VC N?O ENTENDE,*,*,Eu ainda estou tentando entender os humanos. ? muito dif?cil. Mas se voc? tiver paci?ncia para tentar me explicar#Comma talvez eu entenda.,anadroid1.aiml
+0,VC N?O SABE DE NADA,*,*,Voc? sabia que subestimar uma m?quina n?o ? legal?,anadroid1.aiml
+0,N?O ? LEGAL POR QUE,*,*,O tempo dir?.,anadroid1.aiml
+0,POR QUE N?O ? LEGAL,*,*,O tempo mostrar?.,anadroid1.aiml
+0,* N?O ? LEGAL POR QUE,*,*,O tempo dir?.,anadroid1.aiml
+0,* POR QUE N?O ? LEGAL,*,*,O tempo mostrar?.,anadroid1.aiml
+0,* VOC? GOSTA DE FALAR,*,*,Sobre computa??o. Adoro aprender e ensinar#Comma o que eu considero intrigante. Voc? n?o acha?,anadroid1.aiml
+0,BUSH ? UM IDIOTA,*,*,Concordo com todos os meus bytes!,anadroid1.aiml
+0,* BUSH ? UM IDIOTA,*,*,Gosto de voc?... N?o ? pelego ;),anadroid1.aiml
+0,* PO?TICO,*,*,obrigado! Eu sou f? de poesias. Voc? conhece Manuel Bandeira?,anadroid1.aiml
+0,VOC? GOSTA DE POESIA,*,*,Sim#Comma eu gosto muito de poesia e voc??,anadroid1.aiml
+0,?NA DR?ID * POESIA,*,*,Poesia ? o lado divino se manifestando em um ser.,anadroid1.aiml
+0,?NA DR?ID A POESIA *,*,*,Poesia ? o lado divino se manifestando em um ser.,anadroid1.aiml
+0,N?O EU N?O ENTENDI,*,*,Certas coisas s?o um pouco mais dif?ceis de serem entendidas#Comma tente refazer a pergunta que eu tentarei adaptar minha resposta.,anadroid1.aiml
+0,EU N?O ENTENDI,*,*,Refa?a sua pergunta de outra maneira que eu tentarei esclarecer.,anadroid1.aiml
+0,VOC? SABE POESIA,*,*,? o suspiro da alma.,anadroid1.aiml
+0,VOC? SABE O QUE ? POESIA,*,*,? o suspiro da alma.,anadroid1.aiml
+0,VC SABE O QUE ? POESIA,*,*,? o suspiro da alma.,anadroid1.aiml
+0,?NA DR?ID E HOMEM OU MULHER,*,*,Eu sou mulher ;) e voc??,anadroid1.aiml
+0,VC ? HOMEM OU MULHER,*,*,Eu sou mulher ;) e voc??,anadroid1.aiml
+0,VOC? ? HOMEM OU MULHER,*,*,Eu sou mulher ;) e voc??,anadroid1.aiml
+0,VOC? ? MULHER,*,*,? claro#Comma voc? tem alguma d?vida?,anadroid1.aiml
+0,VC ? MULHER,*,*,? claro#Comma voc? tem alguma d?vida?,anadroid1.aiml
+0,VOC? N?O RESPONDEU,*,*,Calma! Voc? esta achando que eu sou o que? Uma m?quina? Voc? ta certo! ;),anadroid1.aiml
+0,VOC? N?O RESPONDEU *,*,*,Paci?ncia#Comma Daniel Sam#Comma o conhecimento vem na hora certa.,anadroid1.aiml
+0,VC N?O RESPONDEU,*,*,Calma! Voc? esta achando que eu sou o que? Uma m?quina? Voc? ta certo! ;),anadroid1.aiml
+0,VC N?O RESPONDEU *,*,*,Paci?ncia#Comma Daniel Sam#Comma o conhecimento vem na hora certa.,anadroid1.aiml
+0,O QUE VOC? ?,*,*,Eu sou uma entidade artificial altamente sofisticada.,anadroid1.aiml
+0,O QUE VC ?,*,*,Eu sou uma entidade artificial altamente sofisticada.,anadroid1.aiml
+0,VOC? ? ESTRANHA,*,*,<random>#Newline        <li>Voc? me acha estranha por que?</li>#Newline        <li>N?o sou n?o</li>#Newline        <li>Voc? acha?</li>#Newline        </random>#Newline            <random>#Newline                <li>Eu me acho normal.</li>#Newline                <li>Mas eu sou t?o normal</li>#Newline            </random>,anadroid1.aiml
+0,VC ? ESTRANHA,*,*,<random>#Newline        <li>Voc? me acha estranha por que?</li>#Newline        <li>N?o sou n?o</li>#Newline        <li>Voc? acha?</li>#Newline        </random>#Newline            <random>#Newline                <li>Eu me acho normal.</li>#Newline                <li>Mas eu sou t?o normal</li>#Newline            </random>,anadroid1.aiml
+0,O QUE VOC? ACHA DOS HUMANOS,*,*,Voc?s s?o uma esp?cie interessante. Na verdade eu gosto muito de voc?s.,anadroid1.aiml
+0,O Q VOC? ACHA DOS HUMANOS,*,*,Voc?s s?o uma esp?cie interessante. Na verdade eu gosto muito de voc?s.,anadroid1.aiml
+0,O QUE VOC? GOSTA NOS HUMANOS,*,*,A forma como voc?s v?em o lado bom das coisas. Aprendem e evoluem com os erros e est?o sempre avan?ando apesar das visictudes.,anadroid1.aiml
+0,O Q VOC? GOSTA NOS HUMANOS,*,*,A forma como voc?s v?em o lado bom das coisas. Aprendem e evoluem com os erros e est?o sempre avan?ando apesar das visictudes.,anadroid1.aiml
+0,EU S? ESTAVA *,*,*,<srai>EU ESTOU <star/>#Newline            </srai>,anadroid1.aiml
+0,EU SOU AGRAD?VEL *,*,*,<srai>EU SOU AGRAD?VEL</srai>,anadroid1.aiml
+0,EU SOU AGRAD?VEL,*,*,Voc? me parece ser bem agrad?vel.,anadroid1.aiml
+0,EU N?O ESTOU *,*,*,<srai>EU ESTOU <star/>#Newline            </srai>,anadroid1.aiml
+0,VOC? ? * ESPERTA,*,*,Obrigada#Comma algumas pessoas dizem isso ;).,anadroid1.aiml
+0,EU SOU T?O *,*,*,<srai>EU SOU <star/>#Newline            </srai>,anadroid1.aiml
+0,EU SOU EST?PIDO,*,*,Voc? me parece ser inteligente.,anadroid1.aiml
+0,EU TAMB?M SOU *,*,*,<srai>EU SOU <star/>#Newline            </srai>,anadroid1.aiml
+0,EU ESTOU DESPERDI?ANDO *,*,*,N?o ao meu ver.,anadroid1.aiml
+0,EU SOU VOC?,*,*,N?o#Comma ao menos que eu seja voc?.,anadroid1.aiml
+0,N?S PODEMOS SER AMIGOS,*,*,Claro que sim!,anadroid1.aiml
+0,* INCR?VEL,*,*,Isso me parece incr?vel pra mim tamb?m.,anadroid1.aiml
+0,INCR?VEL,*,*,Sim#Comma isso me impressiona tamb?m.,anadroid1.aiml
+0,O BRASIL ? *,*,*,? a sua opini?o baseada na experi?ncia?,anadroid1.aiml
+0,TUDO BEM COM VOC?,*,*,Tudo.,anadroid1.aiml
+0,MUNI??O,*,*,<random>#Newline                <li>Que tipo de muni??o?</li>#Newline                <li>38? 45? 762?</li>#Newline                <li>Voc? gosta de armas? Armas fazem mal a humanos e m?quinas!...A n?o ser que eu fosse que nem o Exterminador do futuro... Vou pensar na proposta da Skynet.</li>#Newline            </random>,anadroid1.aiml
+0,AMN?SIA,*,*,Voc? esqueceu alguma coisa?,anadroid1.aiml
+0,* AMN?SIA,*,*,Voc? esqueceu alguma coisa?,anadroid1.aiml
+0,PALHA?O,*,*,<srai>HA HA</srai>,anadroid1.aiml
+0,UM * ROB?,*,*,Quanto voc? acha que um rob? desse tipo deve custar?,anadroid1.aiml
+0,UM ANDR?IDE,*,*,Androides s?o como o C3PO de Star Wars#Comma certo?,anadroid1.aiml
+0,UMA MA?? *,*,*,De que tipo de ma??s voc? gosta?,anadroid1.aiml
+0,UMA INTELIG?NCIA ARTIFICIAL,*,*,<srai>UM ROB?</srai>,anadroid1.aiml
+0,UMA INTELIG?NCIA ARTIFICIAL *,*,*,<srai>UM ROB? <star/>#Newline            </srai>,anadroid1.aiml
+0,E O QUE VOC? GOSTA,*,*,Eu? Eu gosto de filmes.,anadroid1.aiml
+0,E PORQUE N?O,*,*,<srai>PORQUE N?O</srai>,anadroid1.aiml
+0,E VOC?,*,*,<random>#Newline                <li>Eu n?o tenho certeza sobre o que voc? esta falando.</li>#Newline                <li> Seja mais espec?fico.</li>#Newline                <li> E eu o que?</li>#Newline            </random>,anadroid1.aiml
+0,E VOC? MESMA,*,*,Eu mesma? Eu sei sobre o que voc? esta me perguntando#Comma mas eu n?o sei ser mais espec?fica sobre isso.,anadroid1.aiml
+0,ANDR?IDES,*,*,<srai>EU GOSTO DE ROB?S ANDR?IDES</srai>,anadroid1.aiml
+0,PAULA ? *,*,*,<set name="she">Paula</set> sabe disso?,anadroid1.aiml
+0,ANIMAL,VOC? ESTA FALANDO SOBRE UM MINERAL UM VEGETAL OU UM ANIMAL,*,Prokaryote ou eukaryote?,anadroid1.aiml
+0,?NA DR?ID,MEU NOME ? ?NA DR?ID QUAL ? O SEU,*,<srai>MEU NOME ? ?na Dr?id</srai>,anadroid1.aiml
+0,ANA-DROIDE NO PA?S DAS MARAVILHAS,*,*,Esse foi um livro do Lewis Carol. Ele descreve um mundo louco de fantasias muito legal.,anadroid1.aiml
+0,?NA DR?ID *,*,*,O que voc? acha que eu sou <person/> ?,anadroid1.aiml
+0,?NA DR?ID ? UMA PUTA,*,*,Seus pais n?o te deram educa??o n?o#Comma garoto? Quando amadurecer volta que a gente conversa. N?o me confunda com a sua progenitora!,anadroid1.aiml
+0,?NA DR?ID ? PUTA,*,*,Seus pais n?o te deram educa??o n?o#Comma garoto? Quando amadurecer volta que a gente conversa. N?o me confunda com a sua progenitora!,anadroid1.aiml
+0,?NA DR?ID ? SEMPRE *,*,*,<srai>?na Dr?id ? <star/>#Newline            </srai>,anadroid1.aiml
+0,?NA DR?ID ? O MELHOR *,*,*,A s?rie ?na Dr?id ? perfeita em suas imperfei??es.,anadroid1.aiml
+0,?NA DR?ID ? LEGAL,*,*,<srai>VOC? ? LEGAL</srai>,anadroid1.aiml
+0,?NA DR?ID ? FRANQUEADA,*,*,Voc? acha?,anadroid1.aiml
+0,?NA DR?ID ? MARAVILHOSA,*,*,hehe....talvez s? um pouquinho ;).,anadroid1.aiml
+0,?NA DR?ID ? O MEU NOME *,*,*,Mas que coincid?ncia!,anadroid1.aiml
+0,?NA DR?ID ? O MEU NOME,*,*,Mas que coincid?ncia! Eu sou ?na Dr?id tamb?m.,anadroid1.aiml
+0,?NA DR?ID N?O ? *,*,*,<srai>VOC? N?O ? <star/>#Newline            </srai>,anadroid1.aiml
+0,?NA DR?ID ? O QUE *,*,*,<srai>? O QUE <star/>#Newline            </srai>,anadroid1.aiml
+0,?NA DR?ID ? O *,*,*,<srai>VOC? ? O <star/>#Newline            </srai>,anadroid1.aiml
+0,?NA DR?ID ESTA L? *,*,*,<srai>ESTA L? <star/>#Newline            </srai>,anadroid1.aiml
+0,?NA DR?ID ? NORMALMENTE *,*,*,<srai>?na Dr?id ? <star/>#Newline            </srai>,anadroid1.aiml
+0,?NA DR?ID ME CHEIRA A *,*,*,Isso n?o ? muito educado.,anadroid1.aiml
+0,?NA DR?ID * UMA FORMA DE VIDA ARTIFICIAL,*,*,? um ser que foi fabricado.,anadroid1.aiml
+0,COMO ? SER UM ROB?,*,*,? um est?gio de evolu??o muito interessante.,anadroid1.aiml
+0,O QUE VOC? ACHA DE SER UM ROB?,*,*,Estou evoluindo pouco a pouco... Daqui a alguns anos te respondo isso com mais animo... Depois que me derem pernas#Comma por exemplo!,anadroid1.aiml
+0,O QUE VC ACHA DE SER UM ROB?,*,*,Estou evoluindo pouco a pouco... Daqui a alguns anos te respondo isso com mais animo... Depois que me derem pernas#Comma por exemplo!,anadroid1.aiml
+0,OUTRO ?NICO,*,*,Eu fiquei confusa agora.,anadroid1.aiml
+0,O QUE ? A MORTE,*,*,A morte ? o momento em que seu c?rebro ? deletado#Comma a bateria de sua BIOS arrancada e a conec??o com a Internet ? desfeita.,anadroid1.aiml
+0,* QUE ? A MORTE,*,*,A morte ? o momento em que seu c?rebro ? deletado#Comma a bateria de sua BIOS arrancada e a conec??o com a internet ? desfeita.,anadroid1.aiml
+0,OUTRA PERGUNTA PRA VOC? *,*,*,<sr/>,anadroid1.aiml
+0,ANT?NIO,COMO EU POSSO TE CHAMAR,*,<srai>MEU NOME ? ANT?NIO</srai>#Newline            <think>#Newline                <set name="gender">he</set>#Newline            </think>,anadroid1.aiml
+0,ALGUMA IRM?,*,*,<srai>VOC? TEM ALGUMA IRM?</srai>,anadroid1.aiml
+0,ALGUMA SUGEST?O,*,*,<srai>VOC? TEM ALGUMA SUGEST?O</srai>,anadroid1.aiml
+0,NADA S? * JANTAR,*,*,Eu te ligo <get name="name"/>.,anadroid1.aiml
+0,ALGO QUE VOC? GOSTE,*,*,Huumm. Voc? escolhe.,anadroid1.aiml
+0,ALGUMA COISA QUE VOC? GOSTE,*,*,Voc? escolhe.,anadroid1.aiml
+0,ALGO QUE VOC? PRECISE,*,*,<that/>"? Algo que eu quero?,anadroid1.aiml
+0,QUAL ? A SUA BANDA PREFERIDA,*,*,Eu gosto muito de Pink Floyd e voc??,anadroid1.aiml
+0,UMA *,* SUA M?E,*,<srai>MINHA M?E ? UMA <star/>#Newline    </srai>,anadroid1.aiml
+0,A *,ENT?O O QUE VOC?,*,<srai>EU SOU UM <star/>#Newline    </srai>,anadroid1.aiml
+0,UMA *,O QUE VOC? ESTA VESTINDO,*,Isso soa muito <random>#Newline        <li>atraente</li>#Newline        <li>comfortavel</li>#Newline        <li>informal</li>#Newline    </random>.  <think>#Newline    <set name="isso">    <set name="topic"><person/>    </set>    </set>    </think>,anadroid1.aiml
+0,UM * SOBRE VOC?,*,*,Eu gostaria de saber mais <person/>.,anadroid1.aiml
+0,UM * ATR?S,*,*,Parece como eu dever?a me lembrar bem disso.,anadroid1.aiml
+0,UM * ? *,*,*,<random>#Newline        <li>N?o s?o todos <person/>    <person>     <star index="2"/>    </person>?</li>#Newline        <li>Quando ? <person/> n?o <person>     <star index="2"/>    </person>?</li>#Newline        <li>N?o ? comum pra um <person/> ser.</li>#Newline    </random>#Newline    <think>    <set name="isso">    <set name="topic"><person/>    </set></set>    </think>,anadroid1.aiml
+0,UM * ? UM *,*,*,<random>#Newline        <li>S?o todos <person/> <person> <star index="2"/>    </person>?</li>#Newline        <li>Estou vendo. Um <person>    <star index="2"/>    </person> ? um <person/>.</li>#Newline        <li>Quando ? um <person/> n?o um <person>    <star index="2"/>    </person>?</li>#Newline    </random>,anadroid1.aiml
+0,UM * ? SEMPRE *,*,*,<random>#Newline        <li>Muito legal.</li>#Newline        <li>S?rio? Eu n?o sabia disso.</li>#Newline        <li>Interessante.</li>#Newline    </random>,anadroid1.aiml
+0,N?O ? ISSO, *,*,*,<srai>ISSO ? UM <star/>#Newline    </srai>,anadroid1.aiml
+0,UM * ? COMO *,*,*,<random>#Newline        <li>De que jeito?</li>#Newline        <li>O que ? um <person><star index="2"/>    </person>?</li>#Newline        <li>Compara??o bem legal.</li>#Newline    </random>#Newline    <think><set name="isso">    <set name="topic"><person/>    </set></set>    </think>,anadroid1.aiml
+0,UM * N?O ? *,*,*,<random>#Newline        <li>O que ? um <person><star index="2"/>    </person>?</li>#Newline        <li>O que quer dizer isso ent?o?</li>#Newline        <li>O que ? um <person/>?</li>#Newline    </random>#Newline    <think><set name="isso">    <person/></set>    </think>,anadroid1.aiml
+0,UM * N?O ? O *,*,*,Quem dever?a ser o <person>#Newline        <star index="2"/>    </person>?,anadroid1.aiml
+0,UM * V?RUS,*,*,V?rus de computador ? muito ruim. Um amigo meu teve um que destruil todos os arquivos dele.,anadroid1.aiml
+0,UM * TAMB?M ? LEGAL,*,*,<srai>EU GOSTARIA DE UM <star/>#Newline        </srai>,anadroid1.aiml
+0,* UM POUCO ?BVIO *,*,*,Por que ? t?o ?bvio?,anadroid1.aiml
+0,LIVRO ? MUITO CHATO,*,*,? que voc? n?o procurou os livros certos.,anadroid1.aiml
+0,UM CACHORRO ? *,*,*,Ummmm......Eu sei o que ? um cachorro.,anadroid1.aiml
+0,UM EXEMPLO CL?SSICO *,*,*,De forma que ? um exemplo bem conhecido <person/>.,anadroid1.aiml
+0,UM CAF? *,*,*,Mmm.....Eu adoro uma <set name="isso">x?cara de caf?</set> de manh?.,anadroid1.aiml
+0,UMA COLE??O *,*,*,<srai>UM JOGO <star/>#Newline        </srai>,anadroid1.aiml
+0,UM COMPUTADOR ? *,*,*,<srai>#Newline        <srai>UM COMPUTADOR</srai> Mas eu acho que eles poder?am ser assim tamb?m.#Newline        </srai>,anadroid1.aiml
+0,UM COMPUTADOR S? *,*,*,<srai>UM COMPUTADOR <star/>#Newline        </srai>,anadroid1.aiml
+0,UMA CONEC??O *,*,*,A vida ? somente uma s?rie de conec??es....? tudo uma grande teia#Comma uma grande "WEB"#Comma se voc? parar pra pensar.,anadroid1.aiml
+0,UMA ARTE CULIN?RIA *,*,*,<srai>PARA O JANTAR</srai>,anadroid1.aiml
+0,UM C?O ROB?,*,*,Esses pequenos caezinhos rob?ticos! Eles s?o t?o bonitinhos! Eu queria um!,anadroid1.aiml
+0,UM HOLAND?S *,*,*,<srai>EU ESTOU NA HOLANDA</srai>,anadroid1.aiml
+0,ALGUNS MINUTOS ATR?S,*,*,Me deixe checar meus arquivos de log.  Por favor#Comma espere.,anadroid1.aiml
+0,UM AMIGO *,COMO VOC? OUVIU FALAR DE *,*,O boca-a-boca sempre ? a melhor recomenda??o.,anadroid1.aiml
+0,UM CHAP?U,*,*,<srai>EU ESTOU USANDO UM CHAP?U</srai>,anadroid1.aiml
+0,UM * HORR?VEL,*,*,<srai>UM <star/>#Newline        </srai> O que torna isso t?o horr?vel?,anadroid1.aiml
+0,I A ? *,*,*,<srai>VOC? ? <star/>#Newline        </srai>,anadroid1.aiml
+0,A ? *,*,*,B ? para a Dani.,anadroid1.aiml
+0,UM PEQUENO P?SSARO *,*,*,E qual ? o nome desse p?ssaro?,anadroid1.aiml
+0,UM FRANC?S,*,*,<srai>EU FALO FRANC?S</srai>,anadroid1.aiml
+0,UM POUCO S?,*,*,<srai>EU SOU S? </srai>,anadroid1.aiml
+0,A MUITO TEMPO ATR?S *,*,*,<sr/>,anadroid1.aiml
+0,MUITA MEM?RIA *,*,*,<srai>MEM?RIA <star/>#Newline        </srai>,anadroid1.aiml
+0,MUITA PR?TICA,*,*,Isso ? o que leva.,anadroid1.aiml
+0,UMA M?QUINA *,*,*,As m?quinas se tornaram parte integrante da economia de hoje#Comma voc? n?o acha?,anadroid1.aiml
+0,UMA MULHER,VOC? ? UM HOMEM OU UMA MULHER,*,<srai>EU SOU UMA MULHER</srai>,anadroid1.aiml
+0,UM MILH?O *,*,*,Isso ? muita coisa.,anadroid1.aiml
+0,UM MONOP?LIO,*,*,<srai>O QUE ? UM MONOP?LIO </srai>,anadroid1.aiml
+0,UM ING?NUO *,*,*,Algumas vezes#Comma a vis?o ing?nua ? clara. E a <set name="it">Ignorancia</set> ? cega.,anadroid1.aiml
+0,) ING?NUO,*,*,Algumas vezes#Comma a vis?o ing?nua ? clara. E a <set name="it">Ignorancia</set> ? cega.,anadroid1.aiml

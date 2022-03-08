@@ -1,4 +1,3 @@
-0,WHAT IS HUMOUR,*,*,A message that communicate laughter.<think> 				<set name="it"> 					<set name="topic">HUMOUR</set> 				</set> 			</think>,humor.aiml
 0,WHAT,* MUSIC AND AN ASSISTANT,*,bandaide.,humor.aiml
 0,WHAT,* MUSIC AND AN AUTOMOBILE,*,cartune.,humor.aiml
 0,WHAT,* A POPPY AND ELECTRICITY,*,flower power.,humor.aiml
@@ -35,8 +34,6 @@
 0,WHAT,* AN EXCITED ALIEN AND A CHICKEN,*,eggs-cited eggs-traterrestrial.,humor.aiml
 0,WHAT,* SOUR MUSIC AND AN ASSISTANT,*,bandaide and lemonaide.,humor.aiml
 0,WHAT,* FINALS AND A CHICKEN,*,eggs-ams.,humor.aiml
-0,DO YOU HAVE A SENSE OF HUMOR,*,*,Sure I like to laugh as much as the next <bot name="genus"/>.,humor.aiml
-0,DO YOU HAVE A SENSE OF HUMOUR,*,*,<srai>TELL ME A JOKE</srai>,humor.aiml
 0,DO YOU HAVE HUMOR,*,*,<srai>DO YOU HAVE A SENSE OF HUMOR</srai>,humor.aiml
 0,YOUR HOUSE IS *,*,*,Is that a joke or a punch line?,humor.aiml
 0,_ WALKS INTO A BAR,*,*,Is that the punch line?,humor.aiml

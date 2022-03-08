@@ -1,0 +1,5 @@
+0,YADMIN BOT PROPERTIES,*,*,<extension path="programy.extensions.admin.properties.PropertiesAdminExtension">#Newline                BOT#Newline            </extension>,properties.aiml
+0,YADMIN GET BOT PROPERTY *,*,*,<extension path="programy.extensions.admin.properties.PropertiesAdminExtension">#Newline                GET BOT <star/>#Newline            </extension>,properties.aiml
+0,YADMIN USER PROPERTIES,*,*,<extension path="programy.extensions.admin.properties.PropertiesAdminExtension">#Newline                USER#Newline            </extension>,properties.aiml
+0,YADMIN GET USER LOCAL PROPERTY *,*,*,<extension path="programy.extensions.admin.properties.PropertiesAdminExtension">#Newline                GET USER LOCAL <star/>#Newline            </extension>,properties.aiml
+0,YADMIN GET USER GLOBAL PROPERTY *,*,*,<extension path="programy.extensions.admin.properties.PropertiesAdminExtension">#Newline                GET USER GLOBAL <star/>#Newline            </extension>,properties.aiml

@@ -1,0 +1,860 @@
+0,TIMEDATETEST,*,*,TIMECHECK <date format="%A %H" locale="en_US" timezone="-5"/>,hours.aiml
+0,HOURS,*,*,<think>#Newline<set name="answr">no match</set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,HOURS *,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,* HOURS *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,OPEN,*,*,<think>#Newline<set name="answr">no match</set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,* OPEN,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,* OPEN *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,OPENING,*,*,<think>#Newline<set name="answr">no match</set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,* OPENING,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,OPENING *,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,* OPENING *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,OPENED,*,*,<think>#Newline<set name="answr">no match</set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,* OPENED,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,OPENED *,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,* OPENED *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,CLOSE,*,*,<think>#Newline<set name="answr">no match</set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,* CLOSE,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,* CLOSE *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,CLOSING,*,*,<think>#Newline<set name="answr">no match</set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,* CLOSING,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,CLOSING *,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,* CLOSING *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,CLOSED,*,*,<think>#Newline<set name="answr">no match</set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,* CLOSED,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,CLOSED *,*,*,<think>#Newline<set name="answr"><star/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,* CLOSED *,*,*,<think>#Newline<set name="answr"><star index="1"/><star index="2"/></set>#Newline<set name="topic">HOURSINPUT</set>#Newline</think>#Newline<srai>HOURSINPUT</srai>,hours.aiml
+0,HOURSINPUT,*,HOURSINPUT,<think>#Newline<get name="answr"/>#Newline<set name="message">no match</set>#Newline<condition name="answr">#Newline#Newline<li value="TODAY"><set name="message">today</set></li>#Newline<li value="* TODAY"><set name="message">today</set></li>#Newline<li value="TODAY *"><set name="message">today</set></li>#Newline<li value="* TODAY *"><set name="message">today</set></li>#Newline#Newline<li value="TOMORROW"><set name="message">tomorrow</set></li>#Newline<li value="* TOMORROW"><set name="message">tomorrow</set></li>#Newline<li value="TOMORROW *"><set name="message">tomorrow</set></li>#Newline<li value="* TOMORROW *"><set name="message">tomorrow</set></li>#Newline#Newline<li value="YESTERDAY"><set name="message">yesterday</set></li>#Newline<li value="* YESTERDAY"><set name="message">yesterday</set></li>#Newline<li value="YESTERDAY *"><set name="message">yesterday</set></li>#Newline<li value="* YESTERDAY *"><set name="message">yesterday</set></li>#Newline#Newline<li value="NEWYEARS EVE"><set name="message">nye</set></li>#Newline<li value="* NEWYEARS EVE"><set name="message">nye</set></li>#Newline<li value="NEWYEARS EVE *"><set name="message">nye</set></li>#Newline<li value="* NEWYEARS EVE *"><set name="message">nye</set></li>#Newline#Newline<li value="NEWYEAR S EVE"><set name="message">nye</set></li>#Newline<li value="* NEWYEAR S EVE"><set name="message">nye</set></li>#Newline<li value="NEWYEAR S EVE *"><set name="message">nye</set></li>#Newline<li value="* NEWYEAR S EVE *"><set name="message">nye</set></li>#Newline#Newline<li value="NEW YEARS EVE"><set name="message">nye</set></li>#Newline<li value="* NEW YEARS EVE"><set name="message">nye</set></li>#Newline<li value="NEW YEARS EVE *"><set name="message">nye</set></li>#Newline<li value="* NEW YEARS EVE *"><set name="message">nye</set></li>#Newline#Newline<li value="NEW YEAR S EVE"><set name="message">nye</set></li>#Newline<li value="* NEW YEAR S EVE"><set name="message">nye</set></li>#Newline<li value="NEW YEAR S EVE *"><set name="message">nye</set></li>#Newline<li value="* NEW YEAR S EVE *"><set name="message">nye</set></li>#Newline#Newline<li value="NEWYEARS DAY"><set name="message">nyd</set></li>#Newline<li value="* NEWYEARS DAY"><set name="message">nyd</set></li>#Newline<li value="NEWYEARS DAY *"><set name="message">nyd</set></li>#Newline<li value="* NEWYEARS DAY *"><set name="message">nyd</set></li>#Newline#Newline<li value="NEWYEAR S DAY"><set name="message">nyd</set></li>#Newline<li value="* NEWYEAR S DAY"><set name="message">nyd</set></li>#Newline<li value="NEWYEAR S DAY *"><set name="message">nyd</set></li>#Newline<li value="* NEWYEAR S DAY *"><set name="message">nyd</set></li>#Newline#Newline<li value="NEW YEARS DAY"><set name="message">nyd</set></li>#Newline<li value="* NEW YEARS DAY"><set name="message">nyd</set></li>#Newline<li value="NEW YEARS DAY *"><set name="message">nyd</set></li>#Newline<li value="* NEW YEARS DAY *"><set name="message">nyd</set></li>#Newline#Newline<li value="NEW YEAR S DAY"><set name="message">nyd</set></li>#Newline<li value="* NEW YEAR S DAY"><set name="message">nyd</set></li>#Newline<li value="NEW YEAR S DAY *"><set name="message">nyd</set></li>#Newline<li value="* NEW YEAR S DAY *"><set name="message">nyd</set></li>#Newline#Newline<li value="MLK DAY"><set name="message">mlk</set></li>#Newline<li value="* MLK DAY"><set name="message">mlk</set></li>#Newline<li value="MLK DAY *"><set name="message">mlk</set></li>#Newline<li value="* MLK DAY *"><set name="message">mlk</set></li>#Newline#Newline<li value="MARTIN LUTHER KING DAY"><set name="message">mlk</set></li>#Newline<li value="* MARTIN LUTHER KING DAY"><set name="message">mlk</set></li>#Newline<li value="MARTIN LUTHER KING DAY *"><set name="message">mlk</set></li>#Newline<li value="* MARTIN LUTHER KING DAY *"><set name="message">mlk</set></li>#Newline#Newline<li value="MARTIN LUTHER KING S"><set name="message">mlk</set></li>#Newline<li value="* MARTIN LUTHER KING S "><set name="message">mlk</set></li>#Newline<li value="MARTIN LUTHER KING S *"><set name="message">mlk</set></li>#Newline<li value="* MARTIN LUTHER KING S *"><set name="message">mlk</set></li>#Newline#Newline<li value="EASTER"><set name="message">easter</set></li>#Newline<li value="* EASTER"><set name="message">easter</set></li>#Newline<li value="EASTER *"><set name="message">easter</set></li>#Newline<li value="* EASTER *"><set name="message">easter</set></li>#Newline#Newline<li value="PRESIDENTS DAY"><set name="message">presday</set></li>#Newline<li value="* PRESIDENTS DAY"><set name="message">presday</set></li>#Newline<li value="PRESIDENTS DAY *"><set name="message">presday</set></li>#Newline<li value="* PRESIDENTS DAY *"><set name="message">presday</set></li>#Newline#Newline<li value="PRESIDENT S DAY"><set name="message">presday</set></li>#Newline<li value="* PRESIDENT S DAY"><set name="message">presday</set></li>#Newline<li value="PRESIDENT S DAY *"><set name="message">presday</set></li>#Newline<li value="* PRESIDENT S DAY *"><set name="message">presday</set></li>#Newline#Newline<li value="WASHINGTON S"><set name="message">presday</set></li>#Newline<li value="* WASHINGTON S "><set name="message">presday</set></li>#Newline<li value="WASHINGTON S *"><set name="message">presday</set></li>#Newline<li value="* WASHINGTON S *"><set name="message">presday</set></li>#Newline#Newline<li value="MEMORIAL DAY"><set name="message">memorial day</set></li>#Newline<li value="* MEMORIAL DAY"><set name="message">memorial day</set></li>#Newline<li value="MEMORIAL DAY *"><set name="message">memorial day</set></li>#Newline<li value="* MEMORIAL DAY *"><set name="message">memorial day</set></li>#Newline#Newline<li value="INDEPENDENCE DAY"><set name="message">independence day</set></li>#Newline<li value="* INDEPENDENCE DAY"><set name="message">independence day</set></li>#Newline<li value="INDEPENDENCE DAY *"><set name="message">independence day</set></li>#Newline<li value="* INDEPENDENCE DAY *"><set name="message">independence day</set></li>#Newline#Newline<li value="FOURTH OF JULY"><set name="message">independence day</set></li>#Newline<li value="* FOURTH OF JULY "><set name="message">independence day</set></li>#Newline<li value="FOURTH OF JULY *"><set name="message">independence day</set></li>#Newline<li value="* FOURTH OF JULY *"><set name="message">independence day</set></li>#Newline#Newline<li value="4TH OF JULY"><set name="message">independence day</set></li>#Newline<li value="* 4TH OF JULY "><set name="message">independence day</set></li>#Newline<li value="4TH OF JULY *"><set name="message">independence day</set></li>#Newline<li value="* 4TH OF JULY *"><set name="message">independence day</set></li>#Newline#Newline<li value="JULY FOURTH"><set name="message">independence day</set></li>#Newline<li value="* JULY FOURTH "><set name="message">independence day</set></li>#Newline<li value="JULY FOURTH *"><set name="message">independence day</set></li>#Newline<li value="* JULY FOURTH *"><set name="message">independence day</set></li>#Newline#Newline<li value="JULY 4TH"><set name="message">independence day</set></li>#Newline<li value="* JULY 4TH "><set name="message">independence day</set></li>#Newline<li value="JULY 4TH *"><set name="message">independence day</set></li>#Newline<li value="* JULY 4TH *"><set name="message">independence day</set></li>#Newline#Newline<li value="COLUMBUS DAY"><set name="message">columbus day</set></li>#Newline<li value="* COLUMBUS DAY"><set name="message">columbus day</set></li>#Newline<li value="COLUMBUS DAY *"><set name="message">columbus day</set></li>#Newline<li value="* COLUMBUS DAY *"><set name="message">columbus day</set></li>#Newline#Newline<li value="VETERANS DAY"><set name="message">veterans day</set></li>#Newline<li value="* VETERANS DAY"><set name="message">veterans day</set></li>#Newline<li value="VETERANS DAY *"><set name="message">veterans day</set></li>#Newline<li value="* VETERANS DAY *"><set name="message">veterans day</set></li>#Newline#Newline<li value="VETERAN S DAY"><set name="message">veterans day</set></li>#Newline<li value="* VETERAN S DAY"><set name="message">veterans day</set></li>#Newline<li value="VETERAN S DAY *"><set name="message">veterans day</set></li>#Newline<li value="* VETERAN S DAY *"><set name="message">veterans day</set></li>#Newline#Newline<li value="THANKSGIVING"><set name="message">thanksgiving</set></li>#Newline<li value="* THANKSGIVING"><set name="message">thanksgiving</set></li>#Newline<li value="THANKSGIVING *"><set name="message">thanksgiving</set></li>#Newline<li value="* THANKSGIVING *"><set name="message">thanksgiving</set></li>#Newline#Newline<li value="CHRISTMAS EVE"><set name="message">xmas eve</set></li>#Newline<li value="* CHRISTMAS EVE"><set name="message">xmas eve</set></li>#Newline<li value="CHRISTMAS EVE *"><set name="message">xmas eve</set></li>#Newline<li value="* CHRISTMAS EVE *"><set name="message">xmas eve</set></li>#Newline#Newline<li value="XMAS EVE"><set name="message">xmas eve</set></li>#Newline<li value="* XMAS EVE"><set name="message">xmas eve</set></li>#Newline<li value="XMAS EVE *"><set name="message">xmas eve</set></li>#Newline<li value="* XMAS EVE *"><set name="message">xmas eve</set></li>#Newline#Newline<li value="CHRISTMAS"><set name="message">xmas day</set></li>#Newline<li value="* CHRISTMAS"><set name="message">xmas day</set></li>#Newline<li value="CHRISTMAS *"><set name="message">xmas day</set></li>#Newline<li value="* CHRISTMAS *"><set name="message">xmas day</set></li>#Newline#Newline<li value="XMAS"><set name="message">xmas day</set></li>#Newline<li value="* XMAS"><set name="message">xmas day</set></li>#Newline<li value="XMAS *"><set name="message">xmas day</set></li>#Newline<li value="* XMAS *"><set name="message">xmas day</set></li>#Newline#Newline</condition>#Newline<think><set name="topic"/></think>#Newline</think>#Newline#Newline<condition name="message">#Newline#Newline<li value="no match"><srai>DATECHK</srai></li>#Newline<li value="today"><srai>DATECHK</srai></li>#Newline<li value="tomorrow"><srai>TDATECHK</srai></li>#Newline<li value="yesterday"><srai>YDATECHK</srai></li>#Newline#Newline<li value="nye"><srai>NWYREVEHRS</srai></li>#Newline<li value="nyd"><srai>NWYRHRS</srai></li>#Newline<li value="mlk"><srai>MLKHRS</srai></li>#Newline<li value="easter"><srai>EASTERHRS</srai></li>#Newline<li value="presday"><srai>WASHRHRS</srai></li>#Newline<li value="memorial day"><srai>MEMDYHRS</srai></li>#Newline<li value="independence day"><srai>J4HRS</srai></li>#Newline<li value="columbus day"><srai>COLDAYHRS</srai></li>#Newline<li value="veterans day"><srai>VETDAYHRS</srai></li>#Newline<li value="thanksgiving"><srai>THNKSGVNGHRS</srai></li>#Newline<li value="xmas eve"><srai>XMASEVEHRS</srai></li>#Newline<li value="xmas day"><srai>XMASHRS</srai></li>#Newline#Newline</condition>,hours.aiml
+0,DATECHK,*,*,<think>#Newline<set name="dateanswr"><date format="%A %d %m %Y"/></set>#Newline<set name="topic">HOLCHECK</set>#Newline</think>#Newline<srai>HOLCHECK</srai>,hours.aiml
+0,HOLCHECK,*,HOLCHECK,<think>#Newline<get name="dateanswr"/>#Newline<set name="message">no match</set>#Newline<condition name="dateanswr">#Newline#Newline<li value="FRIDAY 11 11 2011"><set name="message">vet day 11</set></li>#Newline<li value="THURSDAY 24 11 2011"><set name="message">turkey day 11</set></li>#Newline<li value="FRIDAY 23 12 2011"><set name="message">xmas eve 11</set></li>#Newline<li value="SATURDAY 24 12 2011"><set name="message">xmas day 11</set></li>#Newline<li value="SUNDAY 25 12 2011"><set name="message">xmas day 11</set></li>#Newline<li value="MONDAY 26 12 2011"><set name="message">xmas day 11</set></li>#Newline<li value="SUNDAY 01 01 2012"><set name="message">new years day 12</set></li>#Newline<li value="MONDAY 02 01 2012"><set name="message">new years day 12</set></li>#Newline<li value="SUNDAY 08 04 2012"><set name="message">easter 12</set></li>#Newline<li value="MONDAY 28 05 2012"><set name="message">memorial day 12</set></li>#Newline<li value="WEDNESDAY 04 07 2012"><set name="message">independence day 12</set></li>#Newline#Newline#Newline<li value="MONDAY 12 11 2012"><set name="message">vet day 12</set></li>#Newline<li value="WEDNESDAY 21 11 2012"><set name="message">turkey day eve 12</set></li> #Newline<li value="THURSDAY 22 11 2012"><set name="message">turkey day 12</set></li> #Newline<li value="MONDAY 24 12 2012"><set name="message">xmas eve 12</set></li>#Newline<li value="TUESDAY 25 12 2012"><set name="message">xmas day 12</set></li>#Newline<li value="MONDAY 31 12 2012"><set name="message">newyears eve 12</set></li>#Newline<li value="TUESDAY 01 01 2013"><set name="message">newyear day 13</set></li>#Newline#Newline</condition>#Newline<think><set name="topic"/></think>#Newline</think>#Newline#Newline<condition name="message">#Newline<li value="no match"><srai>TIMECHECK</srai></li>#Newline<li value="vet day 11">All of our locations are closed for Veterans Day. Regular hours will resume on Saturday#Comma November 12.</li>#Newline<li value="turkey day 11">All of our locations are closed for Thanksgiving Day. Regular hours will resume on Friday#Comma November 25.</li>#Newline<li value="xmas eve 11">All of our locations are closed for Christmas Eve. Regular hours will resume at all locations on Tuesday#Comma December 27.</li>#Newline<li value="xmas day 11">Regular hours will resume at all locations on Tuesday#Comma December 27.</li>#Newline<li value="new years eve 11">The Library is closed for Easter. Regular hours will resume on Monday#Comma April 9.</li>#Newline#Newline<li value="new years day 12">The Library is closed for Easter. Regular hours will resume on Monday#Comma April 9.</li>#Newline<li value="easter 12">The Library is closed for Easter. Regular hours will resume on Monday#Comma April 9.</li>#Newline<li value="memorial day 12">The Library is closed for Memorial Day. Regular hours will resume on Tuesday#Comma May 29.</li>#Newline<li value="independence day 12">The Library is closed for Independence Day. Regular hours will resume on Thursday#Comma July 5.</li>#Newline<li value="turkey day eve 12">All of our locations will close today at 5:00 pm. Regular hours will resume on Friday#Comma November 23.</li>#Newline<li value="vet day 12">All of our locations are closed for Veterans Day. Regular hours will resume on Tuesday#Comma November 13.</li>#Newline<li value="turkey day 12">All of our locations are closed for Thanksgiving Day. Regular hours will resume on Friday#Comma November 23.</li>#Newline<li value="xmas eve 12">All of our locations are closed for Christmas Eve. Regular hours will resume at all locations on Wednesday#Comma December 26.</li>#Newline<li value="xmas day 12">Regular hours will resume at all locations on Wednesday#Comma December 26.</li>#Newline<li value="new years eve 12">The Library will close at 5:00 pm for New Years Eve. Regular hours will resume on Wednesday#Comma January 2.</li>#Newline#Newline<li value="new years day 13">The Library is closed for New Years Day. Regular hours will resume on Wednesday#Comma January 2.</li>#Newline#Newline</condition>,hours.aiml
+0,TIMECHECK,*,*,<think>#Newline<set name="timeanswr"><date format="%A %H" locale="en_US" timezone="-5"/></set>#Newline<set name="topic">TMCHK</set>#Newline</think>#Newline<srai>TMCHK</srai>,hours.aiml
+0,TMCHK,*,TMCHK,<think>#Newline<get name="timeanswr"/>#Newline<set name="message">all open</set>#Newline<condition name="timeanswr">#Newline#Newline<li value="SUNDAY 01"><set name="message">closedpost</set></li>#Newline<li value="SUNDAY 02"><set name="message">closedpost</set></li>#Newline<li value="SUNDAY 03"><set name="message">closedpost</set></li>#Newline<li value="SUNDAY 04"><set name="message">closedpost</set></li>#Newline<li value="SUNDAY 05"><set name="message">closedpost</set></li>#Newline<li value="SUNDAY 06"><set name="message">closedpost</set></li>#Newline<li value="SUNDAY 07"><set name="message">closedpost</set></li>#Newline<li value="SUNDAY 08"><set name="message">closedpost</set></li>#Newline<li value="SUNDAY 09"><set name="message">closedpost</set></li>#Newline<li value="SUNDAY 10"><set name="message">closedpost</set></li>#Newline<li value="SUNDAY 11"><set name="message">main open only</set></li>#Newline<li value="SUNDAY 12"><set name="message">main open only</set></li>#Newline<li value="SUNDAY 13"><set name="message">main open only</set></li>#Newline<li value="SUNDAY 14"><set name="message">main open only</set></li>#Newline<li value="SUNDAY 15"><set name="message">main open only</set></li>#Newline<li value="SUNDAY 16"><set name="message">main open only</set></li>#Newline<li value="SUNDAY 17"><set name="message">closedpre</set></li>#Newline<li value="SUNDAY 18"><set name="message">closedpre</set></li>#Newline<li value="SUNDAY 19"><set name="message">closedpre</set></li>#Newline<li value="SUNDAY 20"><set name="message">closedpre</set></li>#Newline<li value="SUNDAY 21"><set name="message">closedpre</set></li>#Newline<li value="SUNDAY 22"><set name="message">closedpre</set></li>#Newline<li value="SUNDAY 23"><set name="message">closedpre</set></li>#Newline#Newline<li value="MONDAY 01"><set name="message">closedpost</set></li>#Newline<li value="MONDAY 02"><set name="message">closedpost</set></li>#Newline<li value="MONDAY 03"><set name="message">closedpost</set></li>#Newline<li value="MONDAY 04"><set name="message">closedpost</set></li>#Newline<li value="MONDAY 05"><set name="message">closedpost</set></li>#Newline<li value="MONDAY 06"><set name="message">closedpost</set></li>#Newline<li value="MONDAY 07"><set name="message">closedpost</set></li>#Newline<li value="MONDAY 08"><set name="message">closedpost</set></li>#Newline<li value="MONDAY 09"><set name="message">main open branch open one</set></li>#Newline<li value="MONDAY 10"><set name="message">main open branch open one</set></li>#Newline<li value="MONDAY 11"><set name="message">main open branch open one</set></li>#Newline<li value="MONDAY 12"><set name="message">main open branch open one</set></li>#Newline<li value="MONDAY 21"><set name="message">closedpre</set></li>#Newline<li value="MONDAY 22"><set name="message">closedpre</set></li>#Newline<li value="MONDAY 23"><set name="message">closedpre</set></li>#Newline#Newline<li value="TUESDAY 01"><set name="message">closedpost</set></li>#Newline<li value="TUESDAY 02"><set name="message">closedpost</set></li>#Newline<li value="TUESDAY 03"><set name="message">closedpost</set></li>#Newline<li value="TUESDAY 04"><set name="message">closedpost</set></li>#Newline<li value="TUESDAY 05"><set name="message">closedpost</set></li>#Newline<li value="TUESDAY 06"><set name="message">closedpost</set></li>#Newline<li value="TUESDAY 07"><set name="message">closedpost</set></li>#Newline<li value="TUESDAY 08"><set name="message">closedpost</set></li>#Newline<li value="TUESDAY 18"><set name="message">main open branch open nine</set></li>#Newline<li value="TUESDAY 19"><set name="message">main open branch open nine</set></li>#Newline<li value="TUESDAY 20"><set name="message">main open branch open nine</set></li>#Newline<li value="TUESDAY 21"><set name="message">closedpre</set></li>#Newline<li value="TUESDAY 22"><set name="message">closedpre</set></li>#Newline<li value="TUESDAY 23"><set name="message">closedpre</set></li>#Newline#Newline<li value="WEDNESDAY 01"><set name="message">closedpost</set></li>#Newline<li value="WEDNESDAY 02"><set name="message">closedpost</set></li>#Newline<li value="WEDNESDAY 03"><set name="message">closedpost</set></li>#Newline<li value="WEDNESDAY 04"><set name="message">closedpost</set></li>#Newline<li value="WEDNESDAY 05"><set name="message">closedpost</set></li>#Newline<li value="WEDNESDAY 06"><set name="message">closedpost</set></li>#Newline<li value="WEDNESDAY 07"><set name="message">closedpost</set></li>#Newline<li value="WEDNESDAY 08"><set name="message">closedpost</set></li>#Newline<li value="WEDNESDAY 09"><set name="message">main open branch open one</set></li>#Newline<li value="WEDNESDAY 10"><set name="message">main open branch open one</set></li>#Newline<li value="WEDNESDAY 11"><set name="message">main open branch open one</set></li>#Newline<li value="WEDNESDAY 12"><set name="message">main open branch open one</set></li>#Newline<li value="WEDNESDAY 21"><set name="message">closedpre</set></li>#Newline<li value="WEDNESDAY 22"><set name="message">closedpre</set></li>#Newline<li value="WEDNESDAY 23"><set name="message">closedpre</set></li>#Newline#Newline<li value="THURSDAY 01"><set name="message">closedpost</set></li>#Newline<li value="THURSDAY 02"><set name="message">closedpost</set></li>#Newline<li value="THURSDAY 03"><set name="message">closedpost</set></li>#Newline<li value="THURSDAY 04"><set name="message">closedpost</set></li>#Newline<li value="THURSDAY 05"><set name="message">closedpost</set></li>#Newline<li value="THURSDAY 06"><set name="message">closedpost</set></li>#Newline<li value="THURSDAY 07"><set name="message">closedpost</set></li>#Newline<li value="THURSDAY 08"><set name="message">closedpost</set></li>#Newline<li value="THURSDAY 17"><set name="message">main open branch open nine</set></li>#Newline<li value="THURSDAY 18"><set name="message">main open branch open nine</set></li>#Newline<li value="THURSDAY 19"><set name="message">main open branch open nine</set></li>#Newline<li value="THURSDAY 20"><set name="message">main open branch open nine</set></li>#Newline<li value="THURSDAY 21"><set name="message">closedpre</set></li>#Newline<li value="THURSDAY 22"><set name="message">closedpre</set></li>#Newline<li value="THURSDAY 23"><set name="message">closedpre</set></li>#Newline#Newline<li value="FRIDAY 01"><set name="message">closedpost</set></li>#Newline<li value="FRIDAY 02"><set name="message">closedpost</set></li>#Newline<li value="FRIDAY 03"><set name="message">closedpost</set></li>#Newline<li value="FRIDAY 04"><set name="message">closedpost</set></li>#Newline<li value="FRIDAY 05"><set name="message">closedpost</set></li>#Newline<li value="FRIDAY 06"><set name="message">closedpost</set></li>#Newline<li value="FRIDAY 07"><set name="message">closedpost</set></li>#Newline<li value="FRIDAY 08"><set name="message">closedpost</set></li>#Newline<li value="FRIDAY 21"><set name="message">closedpre</set></li>#Newline<li value="FRIDAY 22"><set name="message">closedpre</set></li>#Newline<li value="FRIDAY 23"><set name="message">closedpre</set></li>#Newline#Newline<li value="SATURDAY 01"><set name="message">closedpost</set></li>#Newline<li value="SATURDAY 02"><set name="message">closedpost</set></li>#Newline<li value="SATURDAY 03"><set name="message">closedpost</set></li>#Newline<li value="SATURDAY 04"><set name="message">closedpost</set></li>#Newline<li value="SATURDAY 05"><set name="message">closedpost</set></li>#Newline<li value="SATURDAY 06"><set name="message">closedpost</set></li>#Newline<li value="SATURDAY 07"><set name="message">closedpost</set></li>#Newline<li value="SATURDAY 08"><set name="message">closedpost</set></li>#Newline<li value="SATURDAY 17"><set name="message">closedpre</set></li>#Newline<li value="SATURDAY 18"><set name="message">closedpre</set></li>#Newline<li value="SATURDAY 19"><set name="message">closedpre</set></li>#Newline<li value="SATURDAY 20"><set name="message">closedpre</set></li>#Newline<li value="SATURDAY 21"><set name="message">closedpre</set></li>#Newline<li value="SATURDAY 22"><set name="message">closedpre</set></li>#Newline<li value="SATURDAY 23"><set name="message">closedpre</set></li>#Newline#Newline</condition>#Newline<think><set name="topic"/></think>#Newline</think>#Newline#Newline<condition name="message">#Newline<li value="closedpre"><srai>TIMEALLCLOSEDPREMID</srai></li>#Newline<li value="closedpost"><srai>TIMEALLCLOSEDPOSTMID</srai></li>#Newline<li value="all open"><srai>TIMEALLOPEN</srai></li>#Newline<li value="main open branch open one"><srai>TIMEMOBO1</srai></li>#Newline<li value="main open branch open nine"><srai>TIMEMOBO9</srai></li>#Newline<li value="main open only"><srai>TIMEMO</srai></li>#Newline#Newline</condition>,hours.aiml
+0,TIMEALLCLOSEDPREMID,*,*,<think>#Newline<set name="time"><date format="%I:%M %p" locale="en_US" timezone="-5"/></set>#Newline<set name="topic">ROPREMID</set>#Newline</think>#NewlineIt's <get name="time"/> and the library is closed. #Newline<srai>REOPEN PREMID</srai>,hours.aiml
+0,TIMEALLCLOSEDPOSTMID,*,*,<think>#Newline<set name="time"><date format="%I:%M %p" locale="en_US" timezone="-5"/></set>#Newline<set name="topic">ROPOSTMID</set>#Newline</think>#NewlineIt's <get name="time"/> and the library is closed. #Newline<srai>REOPEN POSTMID</srai>,hours.aiml
+0,TIMEALLOPEN,*,*,<think>#Newline<set name="date"><date format="%A#Comma %B %d#Comma %Y"/></set>#Newline</think>#NewlineToday is <get name="date"/>. All Library locations are open today from 9:00 am until 5:00 pm. <srai>HRSLNK</srai>,hours.aiml
+0,TIMEMOBO1,*,*,<think>#Newline<set name="date"><date format="%A#Comma %B %d#Comma %Y"/></set>#Newline</think>#NewlineToday is <get name="date"/>. The Main Library is open today from 9:00 am until 9:00 pm and#Newlineboth Branches are open from 1:00 pm until 9:00 pm. <srai>HRSLNK</srai>,hours.aiml
+0,TIMEMOBO9,*,*,<think>#Newline<set name="date"><date format="%A#Comma %B %d#Comma %Y"/></set>#Newline</think>#NewlineToday is <get name="date"/>. The Main Library is open today from 9:00 am until 9:00 pm and#Newlineboth Branches are open from 9:00 am until 5:00 pm. <srai>HRSLNK</srai>,hours.aiml
+0,TIMEMO,*,*,<think>#Newline<set name="date"><date format="%A#Comma %B %d#Comma %Y"/></set>#Newline</think>#NewlineToday is <get name="date"/>. The Main Library is open from 11:00 am until 5:00 pm. #NewlineBoth Branches are closed. <srai>HRSLNK</srai>,hours.aiml
+0,REOPEN PREMID,*,*,<think>#Newline<set name="hourcheck"><date format="%A %H" locale="en_US" timezone="-5"/></set>#Newline<set name="topic">ROPREMID</set>#Newline</think>#Newline<srai>ROPREM</srai>,hours.aiml
+0,ROPREM,*,ROPREMID,<think>#Newline<get name="hourcheck"/>#Newline<set name="message">all open</set>#Newline<condition name="hourcheck">#Newline#Newline<li value="SUNDAY *"><set name="message">reopent monday</set></li>#Newline<li value="TUESDAY *"><set name="message">reopent wednesday</set></li>#Newline<li value="THURSDAY *"><set name="message">reopent friday</set></li>#Newline<li value="FRIDAY *"><set name="message">reopent saturday</set></li>#Newline<li value="SATURDAY *"><set name="message">reopent sunday</set></li>#Newline#Newline</condition>#Newline<think><set name="topic"/></think>#Newline</think>#Newline#Newline<condition name="message">#Newline<li value="no match">The Main Library will be open tomorrow from 9:00 am until 9:00 pm#Comma both Branches will be open from 9:00 am until 5:00 pm.</li>#Newline<li value="reopent monday">The Main Library be open tomorrow from 9:00 am until 9:00 pm. Both Branches will be open from 1:00 pm until 9:00 pm.</li>#Newline<li value="reopent wednesday">The Main Library will open tomorrow at 9:00 am until 9:00 pm. Both Branches will open at 1:00 pm until 9:00 pm.</li>#Newline<li value="reopent friday">All locations will reopen tomorrow at 9:00 am and remain open until 5:00 pm.</li>#Newline<li value="reopent friday">All locations will reopen tomorrow at 9:00 am and remain open until 5:00 pm.</li>#Newline<li value="reopent sunday">The Main Library will be open tomorrow from 11:00 am until 5:00 pm. Both Branches are closed on Sunday but will reopen#Newlineat 1:00 pm on Monday.</li>#Newline</condition>,hours.aiml
+0,REOPEN POSTMID,*,*,<think>#Newline<set name="hourcheck"><date format="%A %H" locale="en_US" timezone="-5"/></set>#Newline<set name="topic">ROPOSTMID</set>#Newline</think>#Newline<srai>ROPOSTM</srai>,hours.aiml
+0,ROPOSTM,*,ROPOSTMID,<think>#Newline<get name="hourcheck"/>#Newline<set name="message">no match</set>#Newline<condition name="hourcheck">#Newline#Newline<li value="SUNDAY *"><set name="message">reopen sunday</set></li>#Newline<li value="MONDAY *"><set name="message">reopen monday</set></li>#Newline<li value="WEDNESDAY *"><set name="message">reopen wednesday</set></li>#Newline<li value="FRIDAY *"><set name="message">reopen friday</set></li>#Newline<li value="SATURDAY *"><set name="message">reopen saturday</set></li>#Newline#Newline</condition>#Newline<think><set name="topic"/></think>#Newline</think>#Newline#Newline<condition name="message">#Newline#Newline<li value="no match">The Main Library will be open from 9:00 am until 9:00 pm#Comma both Branches will be open from 9:00 am until 5:00 pm. <srai>RANDOMNIGHTFUN</srai></li>#Newline<li value="reopen sunday">The Main Library will open from 11:00 am until 5:00 pm. Both Branches are closed on Sundays but will reopen#Newlineat 1:00 pm on Monday. <srai>RANDOMNIGHTFUN</srai></li>#Newline<li value="reopen monday">The Main Library will be open from 9:00 am until 9:00 pm. Both Branches will be open from 1:00 pm until 9:00 pm. <srai>RANDOMNIGHTFUN</srai></li>#Newline<li value="reopen wednesday">The Main Library will be open from 9:00 am until 9:00 pm. Both Branches will be open from 1:00 pm until 9:00 pm. <srai>RANDOMNIGHTFUN</srai></li>#Newline<li value="reopen friday">All locations will be open at 9:00 am and remain open until 5:00 pm. <srai>RANDOMNIGHTFUN</srai></li>#Newline<li value="reopen friday">All locations will be open at 9:00 am and remain open until 5:00 pm. <srai>RANDOMNIGHTFUN</srai></li>#Newline#Newline</condition>,hours.aiml
+0,RANDOMNIGHTFUN,*,*,<srai>#Newline<random>#Newline<li>NIGHTFUN1</li>#Newline<li>NIGHTFUN2</li>#Newline<li>NIGHTFUN3</li>#Newline</random>#Newline</srai>,hours.aiml
+0,NIGHTFUN1,*,*,<random>#Newline<li>You're welcome to ask me questions or we can just chat.</li>#Newline<li>The librarians have all gone home#Comma but I can try to answer your questions.</li>#Newline</random>,hours.aiml
+0,NIGHTFUN2,*,*,<random>#Newline<li>Cats are nocturnal#Comma I didn't know humans were#Comma too. What would you like to ask me?</li>#Newline<li>How about some <a href="http://catalog.mentorpl.org/record=b1102721~S12" target="_blank">Blake</a>? <br/><br/>#NewlineNow the sneaking serpent walks<br/>#NewlineIn mild humility#Comma<br/>#NewlineAnd the just man rages in the wilds<br/>#NewlineWhere lions roam.<br/><br/>#NewlineHow can I help you?</li>#Newline<li>Up late#Comma aren't we? How can I help you.</li>#Newline</random>,hours.aiml
+0,NIGHTFUN3,*,*,<random>#Newline<li>How about some <a href="http://catalog.mentorpl.org/record=b1102721~S12" target="_blank">Blake</a>? <br/><br/>#NewlineNow the sneaking serpent walks<br/>#NewlineIn mild humility#Comma<br/>#NewlineAnd the just man rages in the wilds<br/>#NewlineWhere lions roam.<br/><br/>#NewlineHow can I help you?</li>#Newline<li>It's the dead of night. How can I help you?</li>#Newline<li>I'm surprised anyone is up at this hour. How can I help you?</li>#Newline</random>,hours.aiml
+0,NIGHTFUN4,*,*,<random>#Newline<li>My goodness. You're an early riser! How can I help you.</li>#Newline<li>You're certainly up early! How can I help you?</li>#Newline</random>,hours.aiml
+0,TDATECHK,*,*,<think>#Newline<set name="dateanswr"><date format="%A %d %m %Y"/></set>#Newline<set name="topic">THOLCHECK</set>#Newline</think>#Newline<srai>THOLCHECK</srai>,hours.aiml
+0,THOLCHECK,*,THOLCHECK,<think>#Newline<get name="dateanswr"/>#Newline<set name="message">no match</set>#Newline<condition name="dateanswr">#Newline#Newline<li value="FRIDAY 11 11 2011"><set name="message">vet day 11</set></li>#Newline<li value="THURSDAY 24 11 2011"><set name="message">turkey day 11</set></li>#Newline<li value="FRIDAY 23 12 2011"><set name="message">xmas eve 11</set></li>#Newline<li value="SATURDAY 24 12 2011"><set name="message">xmas day 11</set></li>#Newline<li value="SUNDAY 25 12 2011"><set name="message">xmas day 11</set></li>#Newline<li value="MONDAY 26 12 2011"><set name="message">xmas day 11</set></li>#Newline<li value="SUNDAY 01 01 2012"><set name="message">new years day 12</set></li>#Newline<li value="MONDAY 02 01 2012"><set name="message">new years day 12</set></li>#Newline<li value="SATURDAY 07 04 2012"><set name="message">easter 12</set></li>#Newline<li value="MONDAY 27 05 2012"><set name="message">memorial day 12</set></li>#Newline<li value="WEDNESDAY 03 07 2012"><set name="message">independence day 12</set></li>#Newline#Newline#Newline<li value="MONDAY 11 11 2012"><set name="message">vet day 12</set></li>#Newline<li value="WEDNESDAY 20 11 2012"><set name="message">turkey day eve 12</set></li> #Newline<li value="THURSDAY 21 11 2012"><set name="message">turkey day 12</set></li> #Newline<li value="MONDAY 23 12 2012"><set name="message">xmas eve 12</set></li>#Newline<li value="TUESDAY 24 12 2012"><set name="message">xmas day 12</set></li>#Newline<li value="MONDAY 30 12 2012"><set name="message">newyears eve 12</set></li>#Newline#Newline<li value="TUESDAY 31 12 2012"><set name="message">newyear day 13</set></li>#Newline#Newline</condition>#Newline<think><set name="topic"/></think>#Newline</think>#Newline#Newline<condition name="message">#Newline<li value="no match"><srai>TTIMECHECK</srai></li>#Newline<li value="vet day 11">All of our locations are closed for Veterans Day. Regular hours will resume on Saturday#Comma November 12.</li>#Newline<li value="turkey day 11">All of our locations are closed for Thanksgiving Day. Regular hours will resume on Friday#Comma November 25.</li>#Newline<li value="xmas eve 11">All of our locations are closed for Christmas Eve. Regular hours will resume at all locations on Tuesday#Comma December 27.</li>#Newline<li value="xmas day 11">Regular hours will resume at all locations on Tuesday#Comma December 27.</li>#Newline<li value="new years eve 11">The Library is closed for Easter. Regular hours will resume on Monday#Comma April 9.</li>#Newline#Newline<li value="new years day 12">The Library is closed for Easter. Regular hours will resume on Monday#Comma April 9.</li>#Newline<li value="easter 12">The Library is closed for Easter. Regular hours will resume on Monday#Comma April 9.</li>#Newline<li value="memorial day 12">The Library is closed for Memorial Day. Regular hours will resume on Tuesday#Comma May 29.</li>#Newline<li value="independence day 12">The Library is closed for Independence Day. Regular hours will resume on Thursday#Comma July 5.</li>#Newline<li value="turkey day eve 12">All of our locations will close today at 5:00 pm. Regular hours will resume on Friday#Comma November 23.</li>#Newline<li value="vet day 12">All of our locations are closed for Veterans Day. Regular hours will resume on Tuesday#Comma November 13.</li>#Newline<li value="turkey day 12">All of our locations are closed for Thanksgiving Day. Regular hours will resume on Friday#Comma November 23.</li>#Newline<li value="xmas eve 12">All of our locations are closed for Christmas Eve. Regular hours will resume at all locations on Wednesday#Comma December 26.</li>#Newline<li value="xmas day 12">Regular hours will resume at all locations on Wednesday#Comma December 26.</li>#Newline<li value="new years eve 12">The Library will close at 5:00 pm for New Years Eve. Regular hours will resume on Wednesday#Comma January 2.</li>#Newline#Newline<li value="new years day 13">The Library is closed for New Years Day. Regular hours will resume on Wednesday#Comma January 2.</li>#Newline#Newline</condition>,hours.aiml
+0,TTIMECHECK,*,*,<think>#Newline<set name="timeanswr"><date format="%A %H" locale="en_US" timezone="-5"/></set>#Newline<set name="topic">TTMCHK</set>#Newline</think>#Newline<srai>TTMCHK</srai>,hours.aiml
+0,TTMCHK,*,TTMCHK,<think>#Newline<get name="timeanswr"/>#Newline<set name="message">regular hours</set>#Newline<condition name="timeanswr">#Newline#Newline<li value="SUNDAY *"><set name="message">monday</set></li>#Newline<li value="MONDAY *"><set name="message">tuesday</set></li>#Newline<li value="TUESDAY *"><set name="message">wednesday</set></li>#Newline<li value="WEDNESDAY *"><set name="message">thursday</set></li>#Newline<li value="THURSDAY *"><set name="message">friday</set></li>#Newline<li value="FRIDAY *"><set name="message">saturday</set></li>#Newline<li value="SATURDAY *"><set name="message">sunday</set></li>#Newline#Newline</condition>#Newline<think><set name="topic"/></think>#Newline</think>#Newline#Newline<condition name="message">#Newline<li value="regular hours">The library will be open tomorrow for its regular operating hours.</li>#Newline#Newline<li value="monday"><srai>TMONHRS</srai></li>#Newline<li value="tuesday"><srai>TTUEHRS</srai></li>#Newline<li value="wednesday"><srai>TWEDHRS</srai></li>#Newline<li value="thursday"><srai>TTHURHRS</srai></li>#Newline<li value="friday"><srai>TFRIHRS</srai></li>#Newline<li value="saturday"><srai>TSATHRS</srai></li>#Newline<li value="sunday"><srai>TSUNHRS</srai></li>#Newline#Newline</condition>,hours.aiml
+0,TMONHRS,*,*,Tomorrow the Main Library will be open from 9:00 am until 9:00 pm; both Branches will be#Newlineopen from 1:00 pm until 9:00 pm.,hours.aiml
+0,TTUEHRS,*,*,Tomorrow the Main Library will be open from 9:00 am until 9:00 pm; both Branches will be#Newlineopen from 9:00 am until 5:00 pm.,hours.aiml
+0,TWEDHRS,*,*,Tomorrow the Main Library will be open from 9:00 am until 9:00 pm; both Branches will be#Newlineopen from 1:00 pm until 9:00 pm.,hours.aiml
+0,TTHURHRS,*,*,Tomorrow the Main Library will be open from 9:00 am until 9:00 pm; both Branches will be#Newlineopen from 9:00 am until 5:00 pm.,hours.aiml
+0,TFRIHRS,*,*,Tomorrow all locations will be#Newlineopen from 9:00 am until 5:00 pm.,hours.aiml
+0,TSATHRS,*,*,Tomorrow all locations will be#Newlineopen from 9:00 am until 5:00 pm.,hours.aiml
+0,TSUNHRS,*,*,Tomorrow the Main Library will be open from 11:00 am until 5:00 pm; both Branches will be#Newlineclosed.,hours.aiml
+0,YDATECHK,*,*,<think>#Newline<set name="dateanswr"><date format="%A %d %m %Y"/></set>#Newline<set name="topic">YHOLCHECK</set>#Newline</think>#Newline<srai>YHOLCHECK</srai>,hours.aiml
+0,YHOLCHECK,*,YHOLCHECK,<think>#Newline<get name="dateanswr"/>#Newline<set name="message">no match</set>#Newline<condition name="dateanswr">#Newline#Newline<li value="FRIDAY 13 11 2011"><set name="message">vet day 11</set></li>#Newline<li value="THURSDAY 26 11 2011"><set name="message">turkey day 11</set></li>#Newline<li value="FRIDAY 25 12 2011"><set name="message">xmas eve 11</set></li>#Newline<li value="SATURDAY 26 12 2011"><set name="message">xmas day 11</set></li>#Newline<li value="SUNDAY 27 12 2011"><set name="message">xmas day 11</set></li>#Newline<li value="MONDAY 28 12 2011"><set name="message">xmas day 11</set></li>#Newline<li value="SUNDAY 03 01 2012"><set name="message">new years day 12</set></li>#Newline<li value="MONDAY 04 01 2012"><set name="message">new years day 12</set></li>#Newline<li value="SUNDAY 09 04 2012"><set name="message">easter 12</set></li>#Newline<li value="MONDAY 29 05 2012"><set name="message">memorial day 12</set></li>#Newline<li value="WEDNESDAY 05 07 2012"><set name="message">independence day 12</set></li>#Newline#Newline#Newline<li value="MONDAY 13 11 2012"><set name="message">vet day 12</set></li>#Newline<li value="WEDNESDAY 22 11 2012"><set name="message">turkey day eve 12</set></li> #Newline<li value="THURSDAY 23 11 2012"><set name="message">turkey day 12</set></li> #Newline<li value="MONDAY 25 12 2012"><set name="message">xmas eve 12</set></li>#Newline<li value="TUESDAY 26 12 2012"><set name="message">xmas day 12</set></li>#Newline<li value="MONDAY 01 01 2013"><set name="message">newyears eve 12</set></li>#Newline#Newline<li value="TUESDAY 02 01 2013"><set name="message">newyear day 13</set></li>#Newline#Newline</condition>#Newline<think><set name="topic"/></think>#Newline</think>#Newline#Newline<condition name="message">#Newline<li value="no match"><srai>YTIMECHECK</srai></li>#Newline<li value="vet day 11">All of our locations are closed for Veterans Day. Regular hours will resume on Saturday#Comma November 12.</li>#Newline<li value="turkey day 11">All of our locations are closed for Thanksgiving Day. Regular hours will resume on Friday#Comma November 25.</li>#Newline<li value="xmas eve 11">All of our locations are closed for Christmas Eve. Regular hours will resume at all locations on Tuesday#Comma December 27.</li>#Newline<li value="xmas day 11">Regular hours will resume at all locations on Tuesday#Comma December 27.</li>#Newline<li value="new years eve 11">The Library is closed for Easter. Regular hours will resume on Monday#Comma April 9.</li>#Newline#Newline<li value="new years day 12">The Library is closed for Easter. Regular hours will resume on Monday#Comma April 9.</li>#Newline<li value="easter 12">The Library is closed for Easter. Regular hours will resume on Monday#Comma April 9.</li>#Newline<li value="memorial day 12">The Library is closed for Memorial Day. Regular hours will resume on Tuesday#Comma May 29.</li>#Newline<li value="independence day 12">The Library is closed for Independence Day. Regular hours will resume on Thursday#Comma July 5.</li>#Newline<li value="turkey day eve 12">All of our locations will close today at 5:00 pm. Regular hours will resume on Friday#Comma November 23.</li>#Newline<li value="vet day 12">All of our locations are closed for Veterans Day. Regular hours will resume on Tuesday#Comma November 13.</li>#Newline<li value="turkey day 12">All of our locations are closed for Thanksgiving Day. Regular hours will resume on Friday#Comma November 23.</li>#Newline<li value="xmas eve 12">All of our locations are closed for Christmas Eve. Regular hours will resume at all locations on Wednesday#Comma December 26.</li>#Newline<li value="xmas day 12">Regular hours will resume at all locations on Wednesday#Comma December 26.</li>#Newline<li value="new years eve 12">The Library will close at 5:00 pm for New Years Eve. Regular hours will resume on Wednesday#Comma January 2.</li>#Newline#Newline<li value="new years day 13">The Library is closed for New Years Day. Regular hours will resume on Wednesday#Comma January 2.</li>#Newline#Newline</condition>,hours.aiml
+0,YTIMECHECK,*,*,<think>#Newline<set name="timeanswr"><date format="%A %H" locale="en_US" timezone="-5"/></set>#Newline<set name="topic">YTMCHK</set>#Newline</think>#Newline<srai>YTMCHK</srai>,hours.aiml
+0,YTMCHK,*,YTMCHK,<think>#Newline<get name="timeanswr"/>#Newline<set name="message">regular hours</set>#Newline<condition name="timeanswr">#Newline#Newline<li value="SUNDAY *"><set name="message">saturday</set></li>#Newline<li value="MONDAY *"><set name="message">sunday</set></li>#Newline<li value="TUESDAY *"><set name="message">monday</set></li>#Newline<li value="WEDNESDAY *"><set name="message">tuesday</set></li>#Newline<li value="THURSDAY *"><set name="message">wednesday</set></li>#Newline<li value="FRIDAY *"><set name="message">thursday</set></li>#Newline<li value="SATURDAY *"><set name="message">friday</set></li>#Newline#Newline</condition>#Newline<think><set name="topic"/></think>#Newline</think>#Newline#Newline<condition name="message">#Newline<li value="regular hours">Yesterday we were open during our regular operating hours.</li>#Newline#Newline<li value="monday"><srai>YMONHRS</srai></li>#Newline<li value="tuesday"><srai>YTUEHRS</srai></li>#Newline<li value="wednesday"><srai>YWEDHRS</srai></li>#Newline<li value="thursday"><srai>YTHURHRS</srai></li>#Newline<li value="friday"><srai>YFRIHRS</srai></li>#Newline<li value="saturday"><srai>YSATHRS</srai></li>#Newline<li value="sunday"><srai>YSUNHRS</srai></li>#Newline#Newline</condition>,hours.aiml
+0,YMONHRS,*,*,Yesterday the Main Library was open from 9:00 am until 9:00 pm; both Branches were#Newlineopen from 1:00 pm until 9:00 pm.,hours.aiml
+0,YTUEHRS,*,*,Yesterday the Main Library was open from 9:00 am until 9:00 pm; both Branches were#Newlineopen from 9:00 am until 5:00 pm.,hours.aiml
+0,YWEDHRS,*,*,Yesterday the Main Library was open from 9:00 am until 9:00 pm; both Branches were#Newlineopen from 1:00 pm until 9:00 pm.,hours.aiml
+0,YTHURHRS,*,*,Yesterday the Main Library was open from 9:00 am until 9:00 pm; both Branches were#Newlineopen from 9:00 am until 5:00 pm.,hours.aiml
+0,YFRIHRS,*,*,Yesterday all locations were#Newlineopen from 9:00 am until 5:00 pm.,hours.aiml
+0,YSATHRS,*,*,Yesterday all locations were#Newlineopen from 9:00 am until 5:00 pm.,hours.aiml
+0,YSUNHRS,*,*,Yesterday the Main Library was open from 11:00 am until 5:00 pm; both Branches were#Newlineclosed.,hours.aiml
+0,MONHRS,*,*,On Mondays the Main Library is open from 9:00 am until 9:00 pm; both Branches are#Newlineopen from 1:00 pm until 9:00 pm.,hours.aiml
+0,TUEHRS,*,*,On Tuesdays the Main Library is open from 9:00 am until 9:00 pm; both Branches are#Newlineopen from 9:00 am until 5:00 pm.,hours.aiml
+0,WEDHRS,*,*,On Wednesdays the Main Library is open from 9:00 am until 9:00 pm; both Branches are#Newlineopen from 1:00 pm until 9:00 pm.,hours.aiml
+0,THURHRS,*,*,On Thursdays the Main Library is open from 9:00 am until 9:00 pm; both Branches are#Newlineopen from 9:00 am until 5:00 pm.,hours.aiml
+0,FRIHRS,*,*,On Fridays all locations are#Newlineopen from 9:00 am until 5:00 pm.,hours.aiml
+0,SATHRS,*,*,On Saturdays all locations are#Newlineopen from 9:00 am until 5:00 pm.,hours.aiml
+0,SUNHRS,*,*,On Sundays the Main Library is open from 11:00 am until 5:00 pm; both Branches are#Newlineclosed.,hours.aiml
+0,HRSLNK,*,*,Follow this link to see our complete weekly <a href="http://www.mentorpl.org/hours.html" target="_blank"><b>hours of operation</b></a>.,hours.aiml
+0,HOURS MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* HOURS MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,HOURS * MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,HOURS MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* HOURS * MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,HOURS * MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* HOURS MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* HOURS * MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,HOURS MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* HOURS MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,HOURS * MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,HOURS MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* HOURS * MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,HOURS * MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* HOURS MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* HOURS * MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,MONDAY HOURS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* MONDAY HOURS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,MONDAY * HOURS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,MONDAY HOURS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* MONDAY * HOURS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,MONDAY * HOURS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* MONDAY HOURS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* MONDAY * HOURS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,MONDAYS HOURS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* MONDAYS HOURS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,MONDAYS * HOURS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,MONDAYS HOURS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* MONDAYS * HOURS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,MONDAYS * HOURS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* MONDAYS HOURS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* MONDAYS * HOURS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSING MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSING MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSING * MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSING MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSING * MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSING * MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSING MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSING * MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSE MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSE MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSE * MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSE MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSE * MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSE * MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSE MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSE * MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSED MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSED MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSED * MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSED MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSED * MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSED * MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSED MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSED * MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPEN MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPEN MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPEN * MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPEN MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPEN * MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPEN * MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPEN MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPEN * MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPENING MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPENING MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPENING * MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPENING MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPENING * MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPENING * MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPENING MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPENING * MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPENED MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPENED MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPENED * MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPENED MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPENED * MONDAY,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPENED * MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPENED MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPENED * MONDAY *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSE MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSE MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSE * MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSE MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSE * MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSE * MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSE MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSE * MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSED MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSED MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSED * MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSED MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSED * MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,CLOSED * MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSED MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* CLOSED * MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPEN MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPEN MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPEN * MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPEN MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPEN * MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPEN * MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPEN MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPEN * MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPENED MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPENED MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPENED * MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPENED MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPENED * MONDAYS,*,*,<srai>MONHRS</srai>,hours.aiml
+0,OPENED * MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPENED MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,* OPENED * MONDAYS *,*,*,<srai>MONHRS</srai>,hours.aiml
+0,HOURS TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* HOURS TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,HOURS * TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,HOURS TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* HOURS * TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,HOURS * TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* HOURS TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* HOURS * TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,HOURS TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* HOURS TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,HOURS * TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,HOURS TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* HOURS * TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,HOURS * TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* HOURS TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* HOURS * TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,TUESDAY HOURS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* TUESDAY HOURS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,TUESDAY * HOURS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,TUESDAY HOURS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* TUESDAY * HOURS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,TUESDAY * HOURS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* TUESDAY HOURS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* TUESDAY * HOURS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,TUESDAYS HOURS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* TUESDAYS HOURS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,TUESDAYS * HOURS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,TUESDAYS HOURS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* TUESDAYS * HOURS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,TUESDAYS * HOURS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* TUESDAYS HOURS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* TUESDAYS * HOURS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSING TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSING TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSING * TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSING TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSING * TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSING * TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSING TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSING * TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSE TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSE TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSE * TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSE TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSE * TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSE * TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSE TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSE * TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSED TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSED TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSED * TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSED TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSED * TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSED * TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSED TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSED * TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPEN TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPEN TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPEN * TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPEN TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPEN * TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPEN * TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPEN TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPEN * TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPENING TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPENING TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPENING * TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPENING TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPENING * TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPENING * TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPENING TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPENING * TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPENED TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPENED TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPENED * TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPENED TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPENED * TUESDAY,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPENED * TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPENED TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPENED * TUESDAY *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSE TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSE TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSE * TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSE TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSE * TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSE * TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSE TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSE * TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSED TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSED TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSED * TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSED TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSED * TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,CLOSED * TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSED TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* CLOSED * TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPEN TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPEN TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPEN * TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPEN TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPEN * TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPEN * TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPEN TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPEN * TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPENED TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPENED TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPENED * TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPENED TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPENED * TUESDAYS,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,OPENED * TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPENED TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,* OPENED * TUESDAYS *,*,*,<srai>TUEHRS</srai>,hours.aiml
+0,HOURS WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* HOURS WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,HOURS * WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,HOURS WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* HOURS * WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,HOURS * WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* HOURS WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* HOURS * WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,HOURS WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* HOURS WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,HOURS * WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,HOURS WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* HOURS * WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,HOURS * WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* HOURS WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* HOURS * WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,WEDNESDAY HOURS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* WEDNESDAY HOURS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,WEDNESDAY * HOURS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,WEDNESDAY HOURS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* WEDNESDAY * HOURS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,WEDNESDAY * HOURS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* WEDNESDAY HOURS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* WEDNESDAY * HOURS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,WEDNESDAYS HOURS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* WEDNESDAYS HOURS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,WEDNESDAYS * HOURS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,WEDNESDAYS HOURS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* WEDNESDAYS * HOURS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,WEDNESDAYS * HOURS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* WEDNESDAYS HOURS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* WEDNESDAYS * HOURS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSING WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSING WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSING * WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSING WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSING * WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSING * WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSING WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSING * WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSE WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSE WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSE * WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSE WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSE * WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSE * WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSE WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSE * WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSED WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSED WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSED * WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSED WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSED * WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSED * WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSED WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSED * WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPEN WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPEN WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPEN * WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPEN WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPEN * WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPEN * WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPEN WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPEN * WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPENING WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPENING WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPENING * WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPENING WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPENING * WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPENING * WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPENING WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPENING * WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPENED WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPENED WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPENED * WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPENED WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPENED * WEDNESDAY,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPENED * WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPENED WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPENED * WEDNESDAY *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSE WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSE WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSE * WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSE WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSE * WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSE * WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSE WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSE * WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSED WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSED WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSED * WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSED WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSED * WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,CLOSED * WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSED WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* CLOSED * WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPEN WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPEN WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPEN * WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPEN WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPEN * WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPEN * WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPEN WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPEN * WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPENED WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPENED WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPENED * WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPENED WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPENED * WEDNESDAYS,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,OPENED * WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPENED WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,* OPENED * WEDNESDAYS *,*,*,<srai>WEDHRS</srai>,hours.aiml
+0,HOURS THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* HOURS THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,HOURS * THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,HOURS THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* HOURS * THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,HOURS * THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* HOURS THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* HOURS * THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,HOURS THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* HOURS THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,HOURS * THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,HOURS THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* HOURS * THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,HOURS * THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* HOURS THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* HOURS * THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,THURSDAY HOURS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* THURSDAY HOURS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,THURSDAY * HOURS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,THURSDAY HOURS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* THURSDAY * HOURS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,THURSDAY * HOURS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* THURSDAY HOURS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* THURSDAY * HOURS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,THURSDAYS HOURS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* THURSDAYS HOURS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,THURSDAYS * HOURS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,THURSDAYS HOURS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* THURSDAYS * HOURS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,THURSDAYS * HOURS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* THURSDAYS HOURS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* THURSDAYS * HOURS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSING THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSING THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSING * THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSING THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSING * THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSING * THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSING THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSING * THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSE THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSE THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSE * THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSE THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSE * THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSE * THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSE THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSE * THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSED THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSED THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSED * THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSED THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSED * THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSED * THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSED THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSED * THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPEN THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPEN THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPEN * THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPEN THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPEN * THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPEN * THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPEN THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPEN * THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPENING THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPENING THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPENING * THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPENING THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPENING * THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPENING * THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPENING THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPENING * THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPENED THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPENED THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPENED * THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPENED THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPENED * THURSDAY,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPENED * THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPENED THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPENED * THURSDAY *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSE THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSE THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSE * THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSE THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSE * THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSE * THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSE THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSE * THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSED THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSED THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSED * THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSED THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSED * THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,CLOSED * THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSED THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* CLOSED * THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPEN THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPEN THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPEN * THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPEN THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPEN * THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPEN * THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPEN THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPEN * THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPENED THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPENED THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPENED * THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPENED THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPENED * THURSDAYS,*,*,<srai>THURHRS</srai>,hours.aiml
+0,OPENED * THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPENED THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,* OPENED * THURSDAYS *,*,*,<srai>THURHRS</srai>,hours.aiml
+0,HOURS FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* HOURS FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,HOURS * FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,HOURS FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* HOURS * FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,HOURS * FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* HOURS FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* HOURS * FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,HOURS FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* HOURS FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,HOURS * FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,HOURS FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* HOURS * FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,HOURS * FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* HOURS FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* HOURS * FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,FRIDAY HOURS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* FRIDAY HOURS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,FRIDAY * HOURS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,FRIDAY HOURS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* FRIDAY * HOURS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,FRIDAY * HOURS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* FRIDAY HOURS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* FRIDAY * HOURS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,FRIDAYS HOURS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* FRIDAYS HOURS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,FRIDAYS * HOURS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,FRIDAYS HOURS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* FRIDAYS * HOURS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,FRIDAYS * HOURS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* FRIDAYS HOURS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* FRIDAYS * HOURS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSING FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSING FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSING * FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSING FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSING * FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSING * FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSING FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSING * FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSE FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSE FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSE * FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSE FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSE * FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSE * FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSE FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSE * FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSED FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSED FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSED * FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSED FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSED * FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSED * FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSED FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSED * FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPEN FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPEN FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPEN * FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPEN FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPEN * FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPEN * FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPEN FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPEN * FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPENING FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPENING FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPENING * FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPENING FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPENING * FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPENING * FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPENING FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPENING * FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPENED FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPENED FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPENED * FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPENED FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPENED * FRIDAY,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPENED * FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPENED FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPENED * FRIDAY *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSE FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSE FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSE * FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSE FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSE * FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSE * FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSE FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSE * FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSED FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSED FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSED * FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSED FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSED * FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,CLOSED * FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSED FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* CLOSED * FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPEN FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPEN FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPEN * FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPEN FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPEN * FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPEN * FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPEN FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPEN * FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPENED FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPENED FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPENED * FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPENED FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPENED * FRIDAYS,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,OPENED * FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPENED FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,* OPENED * FRIDAYS *,*,*,<srai>FRIHRS</srai>,hours.aiml
+0,HOURS SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* HOURS SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,HOURS * SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,HOURS SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* HOURS * SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,HOURS * SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* HOURS SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* HOURS * SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,HOURS SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* HOURS SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,HOURS * SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,HOURS SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* HOURS * SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,HOURS * SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* HOURS SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* HOURS * SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,SATURDAY HOURS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* SATURDAY HOURS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,SATURDAY * HOURS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,SATURDAY HOURS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* SATURDAY * HOURS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,SATURDAY * HOURS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* SATURDAY HOURS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* SATURDAY * HOURS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,SATURDAYS HOURS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* SATURDAYS HOURS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,SATURDAYS * HOURS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,SATURDAYS HOURS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* SATURDAYS * HOURS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,SATURDAYS * HOURS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* SATURDAYS HOURS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* SATURDAYS * HOURS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSING SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSING SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSING * SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSING SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSING * SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSING * SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSING SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSING * SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSE SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSE SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSE * SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSE SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSE * SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSE * SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSE SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSE * SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSED SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSED SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSED * SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSED SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSED * SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSED * SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSED SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSED * SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPEN SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPEN SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPEN * SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPEN SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPEN * SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPEN * SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPEN SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPEN * SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPENING SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPENING SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPENING * SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPENING SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPENING * SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPENING * SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPENING SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPENING * SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPENED SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPENED SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPENED * SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPENED SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPENED * SATURDAY,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPENED * SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPENED SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPENED * SATURDAY *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSE SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSE SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSE * SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSE SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSE * SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSE * SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSE SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSE * SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSED SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSED SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSED * SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSED SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSED * SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,CLOSED * SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSED SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* CLOSED * SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPEN SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPEN SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPEN * SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPEN SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPEN * SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPEN * SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPEN SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPEN * SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPENED SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPENED SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPENED * SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPENED SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPENED * SATURDAYS,*,*,<srai>SATHRS</srai>,hours.aiml
+0,OPENED * SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPENED SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,* OPENED * SATURDAYS *,*,*,<srai>SATHRS</srai>,hours.aiml
+0,HOURS SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* HOURS SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,HOURS * SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,HOURS SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* HOURS * SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,HOURS * SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* HOURS SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* HOURS * SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,HOURS SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* HOURS SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,HOURS * SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,HOURS SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* HOURS * SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,HOURS * SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* HOURS SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* HOURS * SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,SUNDAY HOURS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* SUNDAY HOURS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,SUNDAY * HOURS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,SUNDAY HOURS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* SUNDAY * HOURS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,SUNDAY * HOURS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* SUNDAY HOURS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* SUNDAY * HOURS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,SUNDAYS HOURS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* SUNDAYS HOURS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,SUNDAYS * HOURS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,SUNDAYS HOURS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* SUNDAYS * HOURS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,SUNDAYS * HOURS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* SUNDAYS HOURS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* SUNDAYS * HOURS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSING SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSING SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSING * SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSING SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSING * SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSING * SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSING SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSING * SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSE SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSE SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSE * SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSE SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSE * SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSE * SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSE SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSE * SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSED SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSED SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSED * SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSED SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSED * SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSED * SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSED SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSED * SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPEN SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPEN SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPEN * SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPEN SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPEN * SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPEN * SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPEN SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPEN * SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPENING SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPENING SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPENING * SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPENING SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPENING * SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPENING * SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPENING SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPENING * SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPENED SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPENED SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPENED * SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPENED SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPENED * SUNDAY,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPENED * SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPENED SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPENED * SUNDAY *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSE SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSE SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSE * SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSE SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSE * SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSE * SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSE SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSE * SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSED SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSED SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSED * SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSED SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSED * SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,CLOSED * SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSED SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* CLOSED * SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPEN SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPEN SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPEN * SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPEN SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPEN * SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPEN * SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPEN SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPEN * SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPENED SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPENED SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPENED * SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPENED SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPENED * SUNDAYS,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,OPENED * SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPENED SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml
+0,* OPENED * SUNDAYS *,*,*,<srai>SUNHRS</srai>,hours.aiml

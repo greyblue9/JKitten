@@ -1,0 +1,266 @@
+0,ELECTRONIC DEVICE LOAN,*,*,<srai>ELDVLN</srai>,ipads.aiml
+0,* ELECTRONIC DEVICE LOAN,*,*,<srai>ELDVLN</srai>,ipads.aiml
+0,* ELECTRONIC DEVICE LOAN *,*,*,<srai>ELDVLN</srai>,ipads.aiml
+0,ELECTRONIC DEVICE LOAN *,*,*,<srai>ELDVLN</srai>,ipads.aiml
+0,* IPAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,IPAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* IPAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,I PAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* I PAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,I PAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* I PAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,IPADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* IPADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,I PADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* I PADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,I PADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* I PADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,BORROW * IPAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* BORROW * IPAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,BORROW * IPAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* BORROW * IPAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* BORROW IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* BORROW * IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,BORROW * IPADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* BORROW * IPADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,BORROWING IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,BORROWING * IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* BORROWING * IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,BORROWING * IPADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* BORROWING * IPADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* IPADS * BORROWING,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* IPAD * BORROWING,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* IPADS * BORROW,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* IPAD * BORROW,*,*,<srai>IPAD</srai>,ipads.aiml
+0,_ OUT IPAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,_ OUT IPAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,_ OUT * IPAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,_ OUT I PAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,_ OUT I PAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,_ OUT * I PAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,_ OUT IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,_ OUT IPADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,_ OUT * IPADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,_ OUT I PADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,_ OUT I PADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,_ OUT * I PADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* IPADS * CHECK OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* IPAD * CHECK OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,IPAD CIRCULATION,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* IPAD CIRCULATION,*,*,<srai>IPAD</srai>,ipads.aiml
+0,IPAD CIRCULATION *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* IPAD CIRCULATION *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* KEEP * IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* KEEP * IPADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* ABOUT * IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECK OUT IPAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECK OUT * IPAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECK OUT * IPAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECK OUT * IPAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECK OUT * IPAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECK IPAD OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECK * IPAD OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECK * IPAD OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECK * IPAD OUT *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECKING OUT IPAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECKING OUT * IPAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECKING OUT * IPAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECKING OUT * IPAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECKING OUT * IPAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECKING IPAD OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECKING * IPAD OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECKING * IPAD OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECKING * IPAD OUT *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECK OUT IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECK OUT * IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECK OUT * IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECK OUT * IPADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECK OUT * IPADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECK IPADS OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECK * IPADS OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECK * IPADS OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECK * IPADS OUT *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECKING OUT IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECKING OUT * IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECKING OUT * IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECKING OUT * IPADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECKING OUT * IPADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECKING IPADS OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECKING * IPADS OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECKING * IPADS OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECKING * IPADS OUT *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* LOAN IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,LOANING IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,LOANING * IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* LOANING * IPADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,LOANING * IPADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* LOANING * IPADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* IPADS * LOANING,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* IPAD * LOANING,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* IPADS * LOAN,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* IPAD * LOAN,*,*,<srai>IPAD</srai>,ipads.aiml
+0,LOAN * IPAD,*,*,<srai>IPDLN</srai>,ipads.aiml
+0,* LOAN * IPAD,*,*,<srai>IPDLN</srai>,ipads.aiml
+0,* LOAN * IPAD *,*,*,<srai>IPDLN</srai>,ipads.aiml
+0,LOAN * IPAD *,*,*,<srai>IPDLN</srai>,ipads.aiml
+0,LOAN * IPADS,*,*,<srai>IPDLN</srai>,ipads.aiml
+0,* LOAN * IPADS,*,*,<srai>IPDLN</srai>,ipads.aiml
+0,* LOAN * IPADS *,*,*,<srai>IPDLN</srai>,ipads.aiml
+0,LOAN * IPADS *,*,*,<srai>IPDLN</srai>,ipads.aiml
+0,IPAD APPS,*,*,<srai>IPDAPPS</srai>,ipads.aiml
+0,_ IPAD APPS,*,*,<srai>IPDAPPS</srai>,ipads.aiml
+0,_ IPAD APPS *,*,*,<srai>IPDAPPS</srai>,ipads.aiml
+0,IPAD APPS *,*,*,<srai>IPDAPPS</srai>,ipads.aiml
+0,IPAD TITLE,*,*,<srai>IPDAPPS</srai>,ipads.aiml
+0,_ IPAD TITLE,*,*,<srai>IPDAPPS</srai>,ipads.aiml
+0,_ IPAD TITLE *,*,*,<srai>IPDAPPS</srai>,ipads.aiml
+0,IPAD TITLE *,*,*,<srai>IPDAPPS</srai>,ipads.aiml
+0,WHAT * ON * IPADS,*,*,<srai>IPDAPPS</srai>,ipads.aiml
+0,IPAD DOWNLOADS,*,*,<srai>IPDDWNLDS</srai>,ipads.aiml
+0,* DOWNLOAD * IPAD,*,*,<srai>IPDDWNLDS</srai>,ipads.aiml
+0,* DOWNLOAD * IPADS,*,*,<srai>IPDDWNLDS</srai>,ipads.aiml
+0,IPAD TITLE REQUESTS,*,*,<srai>IPDDWNLDS</srai>,ipads.aiml
+0,* REQUEST * IPADS,*,*,<srai>IPDDWNLDS</srai>,ipads.aiml
+0,ADDING * IPADS,*,*,<srai>IPDDWNLDS</srai>,ipads.aiml
+0,* ADDING * IPADS,*,*,<srai>IPDDWNLDS</srai>,ipads.aiml
+0,BUYING * IPADS,*,*,<srai>IPDDWNLDS</srai>,ipads.aiml
+0,* BUYING * IPADS,*,*,<srai>IPDDWNLDS</srai>,ipads.aiml
+0,HOLD IPAD,*,*,<srai>HLDIPAD</srai>,ipads.aiml
+0,HOLD IPADS,*,*,<srai>HLDIPAD</srai>,ipads.aiml
+0,HOLD * IPAD,*,*,<srai>HLDIPAD</srai>,ipads.aiml
+0,* HOLD * IPAD,*,*,<srai>HLDIPAD</srai>,ipads.aiml
+0,* HOLD * IPAD *,*,*,<srai>HLDIPAD</srai>,ipads.aiml
+0,REQUEST * IPAD,*,*,<srai>HLDIPAD</srai>,ipads.aiml
+0,* REQUEST * IPAD,*,*,<srai>HLDIPAD</srai>,ipads.aiml
+0,* REQUEST * IPAD *,*,*,<srai>HLDIPAD</srai>,ipads.aiml
+0,RESERVE * IPAD,*,*,<srai>HLDIPAD</srai>,ipads.aiml
+0,* RESERVE * IPAD,*,*,<srai>HLDIPAD</srai>,ipads.aiml
+0,* RESERVE * IPAD *,*,*,<srai>HLDIPAD</srai>,ipads.aiml
+0,RESERVATION * IPAD,*,*,<srai>HLDIPAD</srai>,ipads.aiml
+0,* RESERVATION * IPAD,*,*,<srai>HLDIPAD</srai>,ipads.aiml
+0,* RESERVATION * IPAD *,*,*,<srai>HLDIPAD</srai>,ipads.aiml
+0,PICK UP * IPAD,*,*,<srai>PUIPD</srai>,ipads.aiml
+0,* PICK UP * IPAD,*,*,<srai>PUIPD</srai>,ipads.aiml
+0,* PICK UP * IPAD *,*,*,<srai>PUIPD</srai>,ipads.aiml
+0,PICK * IPAD UP,*,*,<srai>PUIPD</srai>,ipads.aiml
+0,* PICK * IPAD UP,*,*,<srai>PUIPD</srai>,ipads.aiml
+0,* PICK * IPAD UP *,*,*,<srai>PUIPD</srai>,ipads.aiml
+0,IPAD SUPPORT,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,* IPAD SUPPORT,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,* IPAD SUPPORT *,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,SUPPORT IPAD,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,* SUPPORT * IPAD,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,* SUPPORT * IPAD *,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,HELP * IPAD,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,* HELP * IPAD,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,* HELP * IPAD *,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,_ IPAD FREE,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,_ IPAD * FREE *,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,_ IPADS FREE,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,_ IPADS * FREE *,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,CHARGE * IPAD,*,*,<srai>IPDCHRG2</srai>,ipads.aiml
+0,* CHARGE * IPAD,*,*,<srai>IPDCHRG2</srai>,ipads.aiml
+0,* CHARGE * IPAD *,*,*,<srai>IPDCHRG2</srai>,ipads.aiml
+0,COST * IPAD,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,* COST * IPAD,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,* COST * IPAD *,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,CHARGE * IPADS,*,*,<srai>IPDCHRG2</srai>,ipads.aiml
+0,* CHARGE * IPADS,*,*,<srai>IPDCHRG2</srai>,ipads.aiml
+0,* CHARGE * IPADS *,*,*,<srai>IPDCHRG2</srai>,ipads.aiml
+0,COST * IPADS,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,* COST * IPADS,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,* COST * IPADS *,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,BORROW * I PAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* BORROW * I PAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,BORROW * I PAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* BORROW * I PAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* BORROW I PADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* BORROW * I PADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,BORROW * I PADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* BORROW * I PADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,BORROWING I PADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,BORROWING * I PADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* BORROWING * I PADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,BORROWING * I PADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* BORROWING * I PADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* KEEP * I PADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* KEEP * I PADS *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* ABOUT * I PADS,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECK OUT I PAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECK OUT * I PAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECK OUT * I PAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECK OUT * I PAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECK OUT * I PAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECK I PAD OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECK * I PAD OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECK * I PAD OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECK * I PAD OUT *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECKING OUT I PAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECKING OUT * I PAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECKING OUT * I PAD,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECKING OUT * I PAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECKING OUT * I PAD *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECKING I PAD OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,CHECKING * I PAD OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECKING * I PAD OUT,*,*,<srai>IPAD</srai>,ipads.aiml
+0,* CHECKING * I PAD OUT *,*,*,<srai>IPAD</srai>,ipads.aiml
+0,RETURN I PAD,*,*,<srai>RTRNIPAD</srai>,ipads.aiml
+0,RETURN * I PAD,*,*,<srai>RTRNIPAD</srai>,ipads.aiml
+0,RETURN * I PAD *,*,*,<srai>RTRNIPAD</srai>,ipads.aiml
+0,* RETURN * I PAD,*,*,<srai>RTRNIPAD</srai>,ipads.aiml
+0,* RETURN * I PAD *,*,*,<srai>RTRNIPAD</srai>,ipads.aiml
+0,RETURN I PADS,*,*,<srai>RTRNIPAD</srai>,ipads.aiml
+0,RETURN * I PADS,*,*,<srai>RTRNIPAD</srai>,ipads.aiml
+0,RETURN * I PADS *,*,*,<srai>RTRNIPAD</srai>,ipads.aiml
+0,* RETURN * I PADS,*,*,<srai>RTRNIPAD</srai>,ipads.aiml
+0,* RETURN * I PADS *,*,*,<srai>RTRNIPAD</srai>,ipads.aiml
+0,* I PAD * BOOKDROP,*,*,No. Do not place the i Pad in a bookdrop.,ipads.aiml
+0,* I PAD * BOOK DROP,*,*,No. Do not place the i Pad in a bookdrop.,ipads.aiml
+0,PICK UP * I PAD,*,*,<srai>PUIPD</srai>,ipads.aiml
+0,* PICK UP * I PAD,*,*,<srai>PUIPD</srai>,ipads.aiml
+0,* PICK UP * I PAD *,*,*,<srai>PUIPD</srai>,ipads.aiml
+0,PICK * I PAD UP,*,*,<srai>PUIPD</srai>,ipads.aiml
+0,* PICK * I PAD UP,*,*,<srai>PUIPD</srai>,ipads.aiml
+0,* PICK * I PAD UP *,*,*,<srai>PUIPD</srai>,ipads.aiml
+0,I PAD SUPPORT,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,* I PAD SUPPORT,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,* I PAD SUPPORT *,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,SUPPORT I PAD,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,* SUPPORT * I PAD,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,* SUPPORT * I PAD *,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,HELP * I PAD,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,* HELP * I PAD,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,* HELP * I PAD *,*,*,<srai>IPDSPPRT</srai>,ipads.aiml
+0,* I PAD FREE,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,* I PAD * FREE *,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,* I PADS FREE,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,* I PADS * FREE *,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,CHARGE * I PAD,*,*,<srai>IPDCHRG2</srai>,ipads.aiml
+0,* CHARGE * I PAD,*,*,<srai>IPDCHRG2</srai>,ipads.aiml
+0,* CHARGE * I PAD *,*,*,<srai>IPDCHRG2</srai>,ipads.aiml
+0,COST * I PAD,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,* COST * I PAD,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,* COST * I PAD *,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,CHARGE * I PADS,*,*,<srai>IPDCHRG2</srai>,ipads.aiml
+0,* CHARGE * I PADS,*,*,<srai>IPDCHRG2</srai>,ipads.aiml
+0,* CHARGE * I PADS *,*,*,<srai>IPDCHRG2</srai>,ipads.aiml
+0,COST * I PADS,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,* COST * I PADS,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,* COST * I PADS *,*,*,<srai>IPDCHRG1</srai>,ipads.aiml
+0,* IPOD,*,*,<srai>IPOD</srai>,ipads.aiml
+0,IPOD *,*,*,<srai>IPOD</srai>,ipads.aiml
+0,* IPOD *,*,*,<srai>IPOD</srai>,ipads.aiml
+0,IPODS,*,*,<srai>IPOD</srai>,ipads.aiml
+0,* IPODS,*,*,<srai>IPOD</srai>,ipads.aiml
+0,IPODS *,*,*,<srai>IPOD</srai>,ipads.aiml
+0,* IPODS *,*,*,<srai>IPOD</srai>,ipads.aiml
+0,I POD,*,*,<srai>IPOD</srai>,ipads.aiml
+0,* I POD,*,*,<srai>IPOD</srai>,ipads.aiml
+0,I POD *,*,*,<srai>IPOD</srai>,ipads.aiml
+0,* I POD *,*,*,<srai>IPOD</srai>,ipads.aiml
+0,I PODS,*,*,<srai>IPOD</srai>,ipads.aiml
+0,* I PODS,*,*,<srai>IPOD</srai>,ipads.aiml
+0,I PODS *,*,*,<srai>IPOD</srai>,ipads.aiml
+0,* I PODS *,*,*,<srai>IPOD</srai>,ipads.aiml

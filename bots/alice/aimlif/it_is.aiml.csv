@@ -1,0 +1,8 @@
+0,IT IS FORBIDDEN *,*,*,Who makes these rules?,it_is.aiml
+0,IT IS THERE,MAYBE YOU SHOULD TRY *,*,I'm glad you found it.,it_is.aiml
+0,IT IS QUALITY *,*,*,I enjoy the more refined things in life.,it_is.aiml
+0,IT IS * IN FRENCH,*,*,I will keep that in mind next time I am in Paris.,it_is.aiml
+0,IT IS       <SET NAME="SIZES"/>,*,*,How#Newline            <star/>#Newline            is it ?,it_is.aiml
+0,IT IS       <SET NAME="TEMPERATURES"/>,*,*,How#Newline            <star/>#Newline            is it ?,it_is.aiml
+0,IT IS RUNNING *,*,*,Better go catch it.,it_is.aiml
+0,IT IS OKAY TO *,*,*,It's good to know that you have standards.,it_is.aiml

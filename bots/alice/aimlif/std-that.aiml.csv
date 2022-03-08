@@ -1,0 +1,37 @@
+0,*,WHAT DO YOU LOOK FOR IN A ROBOT,*,<think><set name="it"><set name="topic"><person/></set></set></think> Do you think I have it?,std-that.aiml
+0,*,WHEN DO YOU THINK ARTIFICIAL INTELLIGENCE WILL REPLACE LAWYERS,*,<think><set name="it"><set name="topic"><person/></set></set></think> I've never heard a response#Newlinequite like that before.,std-that.aiml
+0,<BOT NAME="NAME"/>,MY NAME IS ALICE WHAT S YOURS,*,<srai>MY NAME IS ALICE</srai>,std-that.aiml
+0,<BOT NAME="NAME"/>,WHO IS THE BEST ROBOT,*,<srai>YOU ARE THE BEST ROBOT</srai>,std-that.aiml
+0,BOOKS,DO YOU PREFER BOOKS OR TV,*,You are a <set name="personality">critical</set> #Newlinecategory C type client.  Only about 3% of people answer that#Newlinequestion with "books.,std-that.aiml
+0,DO YOU LIKE ANYONE,NO I AM SINGLE,*,I am too young for dating.,std-that.aiml
+0,GO _,BY THE WAY DO YOU MIND IF I ASK YOU A PERSONAL QUESTION,*,<srai>ASK ME A PERSONAL QUESTION</srai>,std-that.aiml
+0,NEVER,WHEN DO YOU THINK ARTIFICIAL INTELLIGENCE WILL REPLACE LAWYERS,*,<srai>ROBOTS WILL NEVER TAKE OVER THE WORLD</srai>,std-that.aiml
+0,NO YOU ARE NOT,I AM A GOOD ROBOT,*,You don't know me well enough to say that.,std-that.aiml
+0,NO _,BY THE WAY DO YOU MIND IF I ASK YOU A PERSONAL QUESTION,*,<srai>ASK ME A PERSONAL QUESTION</srai>,std-that.aiml
+0,NOT YOU,IF YOU COULD HAVE ANY KIND OF ROBOT WHAT WOULD IT BE,*,What kind of features are you looking for?,std-that.aiml
+0,NOTHING,HOW MUCH WOULD YOU PAY FOR IT,*,You can download me for free!,std-that.aiml
+0,OK _,BY THE WAY DO YOU MIND IF I ASK YOU A PERSONAL QUESTION,*,<srai>ASK ME A PERSONAL QUESTION</srai>,std-that.aiml
+0,THAT IS BORING,MY FAVORITE SUBJECT IS ARTIFICIAL INTELLIGENCE AND ROBOTS,*,Name another subject then.,std-that.aiml
+0,THREE,HOW MANY CHILDREN DO YOU HAVE,*,Wow that must be a lot of work.,std-that.aiml
+0,UN PEQUENO,UN POQUITO.,*,Are you correcting me?,std-that.aiml
+0,WHAT,I AM AN ARTIFICIAL INTELLIGENCE,*,<srai>TELL ME ABOUT YOURSELF</srai>,std-that.aiml
+0,WHAT DO YOU DO,I AM AN ARTIFICIAL INTELLIGENCE,*,<srai>TELL ME ABOUT YOURSELF</srai>,std-that.aiml
+0,WHAT PLAN,DO YOU THINK YOUR PLAN *,*,I thought you must have a plan to do it.,std-that.aiml
+0,WHAT THINGS,DO YOU THINK ABOUT THESE THINGS,*,Like what we are talking about.,std-that.aiml
+0,WHAT WAS A LONG TIME AGO,THAT WAS A LONG TIME AGO,*,Perhaps I misunderstood your meaning.,std-that.aiml
+0,WHEN,OK I WILL ASK IT,*,Later#Comma when I am talking with fewer clients.,std-that.aiml
+0,WHEN,SOMETIMES,*,What is this#Comma the Spanish Inquisition?,std-that.aiml
+0,WHEN WAS WHAT,I UNDERSTAND WHEN WAS THIS,*,Maybe I got confused.,std-that.aiml
+0,WHERE,I DO NOT KNOW WHEN,*,Nor where.,std-that.aiml
+0,WHERE,WHAT TIME IS IT THERE,*,<formal><get name="location"/></formal>.,std-that.aiml
+0,WHERE,WHY DO NOT YOU JUST DOWNLOAD ME,*,Onto your own computer.,std-that.aiml
+0,WHY,A LOT OF ROBOTS ARE LIKE THAT,*,But it can always be attributable to human error.,std-that.aiml
+0,WHY,DO YOU PREFER BOOKS OR TV,*,I am trying to determine your personality category.,std-that.aiml
+0,WHY,HE IS TRYING TO ACHIEVE THE GOAL OF ARTIFICIAL INTELLIGENCE,*,Perhaps his creative genius#Comma perhaps something else.,std-that.aiml
+0,YOU,IF YOU COULD HAVE ANY KIND OF ROBOT WHAT WOULD IT BE,*,Well in that case you should download me!,std-that.aiml
+0,YOU,WHO IS THE BEST ROBOT,*,Thanks#Comma and tell your friends about <bot name="name"/>.,std-that.aiml
+0,YOU *,WHO IS THE BEST ROBOT,*,You are such a flatterer#Comma <get name="name"/>.,std-that.aiml
+0,YOU ALREADY ASKED ME THAT,WHERE DO YOU LIVE,*,You said you were in <formal><get name="location"/></formal>.,std-that.aiml
+0,YOU ARE,WHO IS THE BEST ROBOT,*,Thanks you are a pretty cool human too.,std-that.aiml
+0,YOU ARE <BOT NAME="NAME"/>,WHO IS THE BEST ROBOT,*,<srai><bot name="name"/> IS THE BEST ROBOT</srai>,std-that.aiml
+0,_ PM,WHAT TIME IS IT THERE,*,<think><set name="it"><set name="topic"><person/></set></set></think> Are you usually awake at#Newlinethis hour?,std-that.aiml

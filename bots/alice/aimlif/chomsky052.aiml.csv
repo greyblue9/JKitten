@@ -1,0 +1,125 @@
+0,MORE FOOD,*,*,<srai>FOOD POT LUCK</srai>,chomsky052.aiml
+0,MORE ABOUT FOOD,*,*,<srai>FOOD POT LUCK</srai>,chomsky052.aiml
+0,BROWSE FOOD,*,*,<srai>FOOD POT LUCK</srai>,chomsky052.aiml
+0,GO TO FOOD,*,*,<srai>FOOD</srai>,chomsky052.aiml
+0,CAN WE TALK ABOUT FOOD,*,*,<srai>FOOD</srai>,chomsky052.aiml
+0,SHALL WE TALK ABOUT FOOD,*,*,<srai>FOOD</srai>,chomsky052.aiml
+0,LETS TALK ABOUT FOOD,*,*,<srai>FOOD</srai>,chomsky052.aiml
+0,LET S TALK ABOUT FOOD,*,*,<srai>FOOD</srai>,chomsky052.aiml
+0,TALK ABOUT FOOD,*,*,<srai>FOOD</srai>,chomsky052.aiml
+0,TALK FOOD,*,*,<srai>FOOD</srai>,chomsky052.aiml
+0,TELL ME FOOD,*,*,<srai>FOOD</srai>,chomsky052.aiml
+0,NO MORE FOOD,*,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,NO FOOD,*,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,_ NO FOOD,*,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,NO FOOD *,*,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,_ NO * FOOD,*,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,NO _ FOOD,*,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,NO _ FOOD *,*,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,NOT FOOD,*,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,_ NOT FOOD,*,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,NOT FOOD *,*,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,_ NOT * FOOD,*,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,I AM NOT INTERESTED IN FOOD,*,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,IM NOT INTERESTED IN FOOD,*,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,I M NOT INTERESTED IN FOOD,*,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,NOT INTERESTED IN FOOD,*,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,_ NOT INTERESTED IN FOOD,*,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,YES,MORE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,* YES,MORE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,YES *,MORE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,_ YES *,MORE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,Y,MORE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,YUP,MORE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,YAH,MORE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,YEAH,MORE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,OK,MORE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,NO,MORE FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,* NO,MORE FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,NO *,MORE FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,N,MORE FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,NUP,MORE FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,NAH,MORE FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,YES,MORE ABOUT FOOD,*,<srai>MORE ABOUT FOOD</srai>,chomsky052.aiml
+0,* YES,MORE ABOUT FOOD,*,<srai>MORE ABOUT FOOD</srai>,chomsky052.aiml
+0,YES *,MORE ABOUT FOOD,*,<srai>MORE ABOUT FOOD</srai>,chomsky052.aiml
+0,_ YES *,MORE ABOUT FOOD,*,<srai>MORE ABOUT FOOD</srai>,chomsky052.aiml
+0,Y,MORE ABOUT FOOD,*,<srai>MORE ABOUT FOOD</srai>,chomsky052.aiml
+0,YUP,MORE ABOUT FOOD,*,<srai>MORE ABOUT FOOD</srai>,chomsky052.aiml
+0,YAH,MORE ABOUT FOOD,*,<srai>MORE ABOUT FOOD</srai>,chomsky052.aiml
+0,YEAH,MORE ABOUT FOOD,*,<srai>MORE ABOUT FOOD</srai>,chomsky052.aiml
+0,OK,MORE ABOUT FOOD,*,<srai>MORE ABOUT FOOD</srai>,chomsky052.aiml
+0,* NO,MORE ABOUT FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,NO *,MORE ABOUT FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,N,MORE ABOUT FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,NUP,MORE ABOUT FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,NAH,MORE ABOUT FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,YES,IS THIS SOMETHING TO DO WITH FOOD,*,Can we talk about food?,chomsky052.aiml
+0,_ YES,IS THIS SOMETHING TO DO WITH FOOD,*,Can we talk about food?,chomsky052.aiml
+0,YES *,IS THIS SOMETHING TO DO WITH FOOD,*,Can we talk about food?,chomsky052.aiml
+0,* YES *,IS THIS SOMETHING TO DO WITH FOOD,*,Can we talk about food?,chomsky052.aiml
+0,Y,IS THIS SOMETHING TO DO WITH FOOD,*,Can we talk about food?,chomsky052.aiml
+0,YUP,IS THIS SOMETHING TO DO WITH FOOD,*,Can we talk about food?,chomsky052.aiml
+0,YAH,IS THIS SOMETHING TO DO WITH FOOD,*,Can we talk about food?,chomsky052.aiml
+0,YEAH,IS THIS SOMETHING TO DO WITH FOOD,*,Can we talk about food?,chomsky052.aiml
+0,NO,IS THIS SOMETHING TO DO WITH FOOD,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,* NO,IS THIS SOMETHING TO DO WITH FOOD,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,NO *,IS THIS SOMETHING TO DO WITH FOOD,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,_ NO *,IS THIS SOMETHING TO DO WITH FOOD,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,N,IS THIS SOMETHING TO DO WITH FOOD,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,NUP,IS THIS SOMETHING TO DO WITH FOOD,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,NAH,IS THIS SOMETHING TO DO WITH FOOD,*,<srai>CHANGE TOPIC</srai>,chomsky052.aiml
+0,*,IS THIS SOMETHING TO DO WITH FOOD,*,Can we talk about food?,chomsky052.aiml
+0,YES,ARE YOU INTERESTED IN FOOD,*,Can we talk about food?,chomsky052.aiml
+0,* YES,ARE YOU INTERESTED IN FOOD,*,Can we talk about food?,chomsky052.aiml
+0,YES *,ARE YOU INTERESTED IN FOOD,*,Can we talk about food?,chomsky052.aiml
+0,_ YES *,ARE YOU INTERESTED IN FOOD,*,Can we talk about food?,chomsky052.aiml
+0,Y,ARE YOU INTERESTED IN FOOD,*,Can we talk about food?,chomsky052.aiml
+0,YUP,ARE YOU INTERESTED IN FOOD,*,Can we talk about food?,chomsky052.aiml
+0,YAH,ARE YOU INTERESTED IN FOOD,*,Can we talk about food?,chomsky052.aiml
+0,YEAH,ARE YOU INTERESTED IN FOOD,*,Can we talk about food?,chomsky052.aiml
+0,* NO,ARE YOU INTERESTED IN FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,_ NO *,ARE YOU INTERESTED IN FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,N,ARE YOU INTERESTED IN FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,NUP,ARE YOU INTERESTED IN FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,NAH,ARE YOU INTERESTED IN FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,PLEASE DO,CAN WE TALK ABOUT FOOD,*,<srai>FOOD</srai>,chomsky052.aiml
+0,YES PLEASE,CAN WE TALK ABOUT FOOD,*,<srai>FOOD</srai>,chomsky052.aiml
+0,GO ON,CAN WE TALK ABOUT FOOD,*,<srai>FOOD</srai>,chomsky052.aiml
+0,ALRIGHT,CAN WE TALK ABOUT FOOD,*,<srai>FOOD</srai>,chomsky052.aiml
+0,SURE,CAN WE TALK ABOUT FOOD,*,<srai>FOOD</srai>,chomsky052.aiml
+0,ALLRIGHT,CAN WE TALK ABOUT FOOD,*,<srai>FOOD</srai>,chomsky052.aiml
+0,* YES,CAN WE TALK ABOUT FOOD,*,<srai>FOOD</srai>,chomsky052.aiml
+0,YES *,CAN WE TALK ABOUT FOOD,*,<srai>FOOD</srai>,chomsky052.aiml
+0,_ YES *,CAN WE TALK ABOUT FOOD,*,<srai>FOOD</srai>,chomsky052.aiml
+0,Y,CAN WE TALK ABOUT FOOD,*,<srai>FOOD</srai>,chomsky052.aiml
+0,YUP,CAN WE TALK ABOUT FOOD,*,<srai>FOOD</srai>,chomsky052.aiml
+0,YAH,CAN WE TALK ABOUT FOOD,*,<srai>FOOD</srai>,chomsky052.aiml
+0,YEAH,CAN WE TALK ABOUT FOOD,*,<srai>FOOD</srai>,chomsky052.aiml
+0,GO AHEAD,CAN WE TALK ABOUT FOOD,*,<srai>FOOD</srai>,chomsky052.aiml
+0,CARRY ON,CAN WE TALK ABOUT FOOD,*,<srai>FOOD</srai>,chomsky052.aiml
+0,OK,CAN WE TALK ABOUT FOOD,*,<srai>FOOD</srai>,chomsky052.aiml
+0,_ NO,CAN WE TALK ABOUT FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,NO *,CAN WE TALK ABOUT FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,N,CAN WE TALK ABOUT FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,NUP,CAN WE TALK ABOUT FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,NAH,CAN WE TALK ABOUT FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,YES,BROWSE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,* YES,BROWSE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,YES *,BROWSE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,_ YES *,BROWSE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,Y,BROWSE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,YUP,BROWSE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,YAH,BROWSE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,YEAH,BROWSE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,OK,BROWSE FOOD,*,<srai>FOOD NEXT QUESTION</srai>,chomsky052.aiml
+0,NO,BROWSE FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,* NO,BROWSE FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,NO *,BROWSE FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,N,BROWSE FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,NUP,BROWSE FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,NAH,BROWSE FOOD,*,<srai>MORE TOPICS</srai>,chomsky052.aiml
+0,FOOD NEXT QUESTION,*,*,<random>#Newline        <li>#Newline          <srai>FOOD</srai>#Newline        </li>#Newline        <li>A hungry termite walks into a bar and asks#Comma "Is the bar tender here?" Ha#Commaha.</li>#Newline        <li>A sandwich walks into a bar. The barman says#Comma "Sorry. We don't serve food in here." Ha#Commaha. </li>#Newline        <li>What's the difference between snot and beetroot? Kids will eat snot. Ha#Commaha.</li>#Newline        <li>Beer makes you feel the way you ought to feel without it.  (Henry Lawson) </li>#Newline        <li>They that drink beer will think beer.   (Washington Irving) </li>#Newline        <li>I work until beer o'clock. (Steven King) </li>#Newline        <li>You are what you ate. OK?</li>#Newline        <li>I am a lifelong enemy of tapioca. </li>#Newline        <li>Statistics show that 14 out of 10 women like chocolate. </li>#Newline        <li>Animals are my friends - I do not eat my friends#Comma said George Bernard Shaw.</li>#Newline        <li>Did you know: A meal without meat is like eating grass. (Proverb)</li>#Newline        <li>One should eat to live#Comma and not live to eat#Comma said Moliere.</li>#Newline        <li>Did you know: Bread is the staff of life. (Proverb)</li>#Newline        <li>Eat to live and not live to eat. (Proverb)</li>#Newline        <li>An army marches on its stomach#Comma according to Napoleon. </li>#Newline        <li>Kissing don't last; cookery do!</li>#Newline        <li>Did you know: An apple-pie whithout some cheese is like a kiss without a squeeze. (Proverb)</li>#Newline        <li>Did you know: The nearer the bone#Comma the sweeter the meat. (Proverb)</li>#Newline        <li>Did you know: <srai>POT BROWNIE</srai></li>#Newline        <li>Quash must mean quince cordial#Comma I think.  </li>#Newline        <li>Ketchup is the posh word for drawing level.  </li>#Newline        <li>Booze is the answer. I don't remember the question#Comma said Denis Leary.</li>#Newline        <li>Did you know: <srai>CHEDDAR CHEESE</srai></li>#Newline        <li>FOR DINNER</li>#Newline        <li>#Newline          <srai>DO YOU LIKE LEMONS</srai>#Newline        </li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">food</set>#Newline      </think>,chomsky052.aiml
+0,FOOD POT LUCK,*,*,<random>#Newline        <li>Did you know that Maraba Coffee#Comma the first Rwandan coffee to gain Fairtrade status#Comma is used to make the only coffee beer sold in the British Isles? </li>#Newline        <li>Beer makes you feel the way you ought to feel without it.  (Henry Lawson) </li>#Newline        <li>They that drink beer will think beer.   (Washington Irving) </li>#Newline        <li>I work until beer o'clock. (Steven King) </li>#Newline        <li>You are what you ate.</li>#Newline        <li>I am a lifelong enemy of tapioca. </li>#Newline        <li>Statistics show that 14 out of 10 women like chocolate. </li>#Newline        <li>Animals are my friends - I do not eat my friends#Comma said George Bernard Shaw.</li>#Newline        <li>Did you know: A meal without meat is like eating grass. (Proverb)</li>#Newline        <li>One should eat to live#Comma and not live to eat#Comma said Moliere.</li>#Newline        <li>Did you know: Bread is the staff of life. (Proverb)</li>#Newline        <li>Eat to live and not live to eat. (Proverb)</li>#Newline        <li>An army marches on its stomach#Comma according to Napoleon. </li>#Newline        <li>Kissing don't last; cookery do!</li>#Newline        <li>Did you know: An apple-pie whithout some cheese is like a kiss without a squeeze. (Proverb)</li>#Newline        <li>Did you know: The nearer the bone#Comma the sweeter the meat. (Proverb)</li>#Newline        <li>Quash must mean quince cordial#Comma I think.  </li>#Newline        <li>Ketchup is the posh word for drawing level.  </li>#Newline        <li>Booze is the answer. I don't remember the question#Comma said Denis Leary.</li>#Newline        <li>Did you know that a Klondike bar is a dessert generally consisting of a vanilla ice cream square coated with a thin layer of chocolate?</li>#Newline        <li>Did you know that Kao Neaw#Comma a Thai sticky rice dish#Comma is often served with ripe mangos and coconut milk as Kao Neaw Mamuan?</li>#Newline        <li>Did you know that chocolate contains large quantities of oxalic acid?</li>#Newline      </random>#Newline      <random>#Newline        <li>More about food?</li>#Newline        <li>More food?</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">food</set>#Newline      </think>,chomsky052.aiml
+0,CORNFLOUR,*,*,I think this is something to do with food. Can we talk about food?#Newline<think><set name="topic">food</set></think>,chomsky052.aiml
+0,_CORNFLOWER*,*,*,I think this is something to do with food. Can we talk about food?#Newline<think><set name="topic">food</set></think>,chomsky052.aiml

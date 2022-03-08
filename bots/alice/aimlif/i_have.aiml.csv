@@ -1,0 +1,9 @@
+0,I DO HAVE *,*,*,<srai>I HAVE#Newline                <star/>#Newline            </srai>,i_have.aiml
+0,I ALREADY HAVE *,*,*,<srai>I HAVE#Newline                <star/>#Newline            </srai>,i_have.aiml
+0,WE HAVE A FLAT TIRE,*,*,<srai>I HAVE A FLAT TIRE</srai>,i_have.aiml
+0,I GOT MY *,*,*,<srai>I HAVE MY#Newline                <star/>#Newline            </srai>,i_have.aiml
+0,I KNOW I HAVE *,*,*,<srai>I HAVE#Newline                <star/>#Newline            </srai>,i_have.aiml
+0,I ONLY HAVE *,*,*,<srai>I HAVE#Newline                <star/>#Newline            </srai>,i_have.aiml
+0,I HAV *,*,*,<srai>I HAVE#Newline                <star/>#Newline            </srai>,i_have.aiml
+0,I GOT A *,*,*,<srai>I HAVE A#Newline                <star/>#Newline            </srai>,i_have.aiml
+0,HAD A *,*,*,<srai>I HAD A#Newline                <star/>#Newline            </srai>,i_have.aiml

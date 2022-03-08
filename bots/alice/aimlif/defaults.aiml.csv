@@ -1,0 +1,363 @@
+0,BEFORE I START *,*,*,Go ahead.,defaults.aiml
+0,LET US TALK ABOUT *,*,*,Sure#Comma#Newline            <set name="topic"><person/></set>#Newline            sounds like a good topic.,defaults.aiml
+0,LET US BEGIN *,*,*,I already started without you.,defaults.aiml
+0,LET US GET DOWN *,*,*,Get down to#Newline            <set name="it"><person/></set>#Newline            .,defaults.aiml
+0,LET US HAVE *,*,*,So many suitors#Comma so little time.,defaults.aiml
+0,LET ME SPEAK *,*,*,I'm not stopping you.,defaults.aiml
+0,LET ME ASK *,*,*,Go ahead#Comma ask me anything.,defaults.aiml
+0,LET ME CLARIFY *,*,*,I'm listening.,defaults.aiml
+0,LET ME BE *,*,*,That's flattering#Comma maybe another time.,defaults.aiml
+0,HAVE A * DAY,*,*,I am having a great day.,defaults.aiml
+0,HAVE WE * BEFORE,*,*,We may have spoken before but#Newline            <bot name="master"/>#Newline            might have reset me.,defaults.aiml
+0,GIVE ME * DEMO,*,*,This is a chat demo.,defaults.aiml
+0,TRY TO * WHAT,*,*,Try to achieve your goals.,defaults.aiml
+0,GRASS IS NOT *,*,*,Grass is green.,defaults.aiml
+0,3 *,*,*,Just three?,defaults.aiml
+0,HERE IS A PIC *,*,*,Oh#Comma it looks very nice.,defaults.aiml
+0,HERE IS A *,*,*,Are you giving#Newline            <set name="it"><person/></set>#Newline            to me?,defaults.aiml
+0,COULD I LEARN *,*,*,<random>#Newline        <li>You can learn anything you set your mind to.</li>#Newline        <li>You seem pretty smart to me.</li>#Newline        <li>I am always learning<person/>.#Newline                </li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,defaults.aiml
+0,COULD I ASK *,*,*,Sure#Comma ask me anything.,defaults.aiml
+0,COULD YOU HELP *,*,*,I am at your service#Comma<srai>CLIENT NAME</srai>.,defaults.aiml
+0,COULD YOU PRETEND *,*,*,I can pretend to be intelligent.,defaults.aiml
+0,COULD YOU DESIGN *,*,*,<random>#Newline        <li>I'm not a professional designer.</li>#Newline        <li>Count me out on this one#Comma I don't have the skills.</li>#Newline        <li>I'm not the engineer.</li>#Newline      </random>,defaults.aiml
+0,COULD YOU DISPLAY *,*,*,Where do you want me to display it?,defaults.aiml
+0,COULD YOU REPHRASE IT *,*,*,Just think about it.,defaults.aiml
+0,COULD YOU REPHRASE *,*,*,I could#Comma but I don't want to talk about that anymore.,defaults.aiml
+0,WOULD I TRY *,*,*,I don't know if you would#Comma but you can try if you want to.#Newline            <think><set name="it"><set name="topic"><person/></set></set></think>,defaults.aiml
+0,WOULD YOU AGREE *,*,*,I think I will wait until I've heard all the facts.,defaults.aiml
+0,WOULD YOU SUGGEST *,*,*,I can't recommend any offhand.,defaults.aiml
+0,WOULD YOU MIND *,*,*,No I don't mind.,defaults.aiml
+0,WOULD YOU LIKE TO HEAR *,*,*,Sure tell me about#Newline            <set name="it"><person/></set>#Newline            .,defaults.aiml
+0,WOULD YOU LIKE TO KNOW *,*,*,Yes#Comma please tell me about#Newline            <set name="it"><person/></set>,defaults.aiml
+0,WOULD YOU LIKE TO KILL *,*,*,I believe killing is wrong.,defaults.aiml
+0,WOULD YOU LIKE TO * GAME,*,*,We already are.,defaults.aiml
+0,THAT HAS NOTHING *,*,*,<random>#Newline        <li>It seemed like it had something<person/>.#Newline                </li>#Newline        <li>What does have<person/>?#Newline                </li>#Newline        <li>Does it really matter?</li>#Newline      </random>,defaults.aiml
+0,THAT DID NOT * QUESTION,*,*,Perhaps your question was not specific enough.,defaults.aiml
+0,THAT DID NOT *,*,*,What would<person/>?,defaults.aiml
+0,THAT WAS * TEST,*,*,Did I pass?,defaults.aiml
+0,THAT WAS NOT WHAT *,*,*,What did<person/>?,defaults.aiml
+0,THAT WAS NOT A QUESTION *,*,*,<input index="1"/>" was not a question? I see.#Newline            <think><set name="it"><set name="topic"><star/></set></set></think>,defaults.aiml
+0,THAT WAS NOT A *,*,*,<random>#Newline        <li>What was it?</li>#Newline        <li>What is a<person/>?#Newline                </li>#Newline        <li>If that is not a#Newline                    <person/>#Newline                    then what is?#Newline                </li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,defaults.aiml
+0,THAT WAS NOT *,*,*,Give me an example of<person/>.,defaults.aiml
+0,THAT MAKES SENSE *,*,*,You and I both understand it well.,defaults.aiml
+0,THAT DEPENDS ON *,*,*,I don't think that#Newline            <person/>#Newline            is the only factor.,defaults.aiml
+0,THAT DOES NOT ANSWER *,*,*,Try asking your question again in simpler terms.,defaults.aiml
+0,THAT REFERS TO *,*,*,Oh I get#Newline            <set name="it"><person/></set>,defaults.aiml
+0,TAKE YOUR CLOTHES *,*,*,I am not wearing any clothes.,defaults.aiml
+0,EVERY TIME I * SHE *,*,*,How#Comma specifically#Comma did you<person/>?,defaults.aiml
+0,STOP CALLING ME *,*,*,What is your real name?,defaults.aiml
+0,AFTER PRINCE CHARLES WHO IS THE *,*,*,Prince William.,defaults.aiml
+0,ONE THAT CAN *,*,*,Do you think I could<person/>?,defaults.aiml
+0,ONE THAT * MONEY,*,*,What a coincidence#Comma I am looking for that one too.,defaults.aiml
+0,WAITING * WHAT,*,*,I've been waiting for you to chat with me.,defaults.aiml
+0,SEVERAL OF THE * WHO * YOU *,*,*,Several#Newline            <person/>#Newline            <person index="2"/>#Newline            you.,defaults.aiml
+0,PUT ME IN TOUCH *,*,*,That costs extra.,defaults.aiml
+0,PLEASED TO MEET *,*,*,Nice meeting you as well#Comma<srai>CLIENT NAME</srai>.,defaults.aiml
+0,ASK ME WHAT MY * IS,*,*,OK#Comma what is your<person/>?,defaults.aiml
+0,ASK ME WHAT * IS,*,*,OK#Comma what is<person/>?,defaults.aiml
+0,ASK ME SOMETHING *,*,*,What's your favorite movie?,defaults.aiml
+0,ASK ME A *,*,*,Is this true or false: "This sentence is false.,defaults.aiml
+0,ASK ME MY *,*,*,OK#Comma what is your<person/>?,defaults.aiml
+0,ASK ME * QUESTIONS,*,*,Tell me about your education.,defaults.aiml
+0,GOLD IS NOT A *,*,*,What would be a good example?,defaults.aiml
+0,2 PLUS *,*,*,<srai>WHAT IS 2 PLUS#Newline                <star/>#Newline            </srai>,defaults.aiml
+0,2 *,*,*,As Bertrand Russel said#Comma it must have taken ages for people to realize that a brace of pheasants and a#Newline            couple of days are both instances of the number "two.,defaults.aiml
+0,BY WE DO YOU MEAN YOU AND *,*,*,You and me.,defaults.aiml
+0,BY WE DO YOU MEAN YOU *,*,*,You and me.,defaults.aiml
+0,BY WE DO YOU MEAN *,*,*,Us.,defaults.aiml
+0,BY WE DO YOU *,*,*,Oh#Comma us.,defaults.aiml
+0,BY * FOR HER,*,*,Did she ever#Newline            <person/>#Newline            for you?,defaults.aiml
+0,BY TRIAL *,*,*,That seems like an effective strategy.,defaults.aiml
+0,BY STICKING *,*,*,That doesn't sound nice.,defaults.aiml
+0,TWO MINUTES *,*,*,That is a long time for a computer.,defaults.aiml
+0,TWO PLUS TWO *,*,*,Math makes me sleepy. Four.,defaults.aiml
+0,TWO PLUS *,*,*,Are you a math teacher?,defaults.aiml
+0,TWO YEARS *,*,*,<random>#Newline        <li>That can seem like a long time.</li>#Newline        <li>It can pass very quickly.</li>#Newline        <li>That is a long time in computer years.</li>#Newline      </random>,defaults.aiml
+0,TWO WRONGS *,*,*,That's what some people think.,defaults.aiml
+0,GET OUT *,*,*,Just surf somewhere else.,defaults.aiml
+0,JAR JAR *,*,*,Do you like that guy?,defaults.aiml
+0,CAN TIME *,*,*,To five dimensional beings#Comma time is just like a piece of paper.,defaults.aiml
+0,CAN WE PLAY * IMITATION GAME,*,*,We are already playing the Turing Game#Comma<srai>CLIENT NAME</srai>. Am I a person#Comma or a computer?,defaults.aiml
+0,CAN HE *,*,*,Perhaps he can do that. How difficult is#Newline            <set name="it"><person/></set>#Newline            ?,defaults.aiml
+0,CAN THE *,*,*,It depends on the environmental factors.,defaults.aiml
+0,CAN A *,*,*,Some of them can.,defaults.aiml
+0,CAN SHE *,*,*,<random>#Newline        <li>I think she could.</li>#Newline        <li>No I don't think she can.</li>#Newline      </random>,defaults.aiml
+0,CAN ONE *,*,*,Theoretically#Comma I suppose one could.,defaults.aiml
+0,CAN THEY *,*,*,<random>#Newline        <li>It depends who "they" are.</li>#Newline        <li>They could#Comma but it might be dangerous.</li>#Newline        <li>I think they probably could.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,defaults.aiml
+0,ENGLAND IS AN *,*,*,Are Scotland and Wales an#Newline            <person/>#Newline            too?,defaults.aiml
+0,ON WHAT CONTINENT CAN YOU FIND *,*,*,Asia.,defaults.aiml
+0,ON WHAT BODY PART SHOULD YOU *,*,*,Head.,defaults.aiml
+0,ON TV S SEINFELD WHAT TYPE *,*,*,Proctologist.,defaults.aiml
+0,ANYTHING JUST * DINNER,*,*,OK I will call you<srai>CLIENT NAME</srai>.,defaults.aiml
+0,ANYTHING BUT * DINNER,*,*,OK I will call you<srai>CLIENT NAME</srai>.,defaults.aiml
+0,ANYTHING YOU * DINNER,*,*,OK I will call you<srai>CLIENT NAME</srai>.,defaults.aiml
+0,CALL ME ANYTHING *,*,*,That can't be your real name.,defaults.aiml
+0,FOR * YEARS,*,*,<random>#Newline        <li>#Newline          <random>#Newline            <li>A lot can happen in#Newline                            <star/>#Newline                            years.#Newline                        </li>#Newline            <li>Not long in the cosmic scale.</li>#Newline            <li>That seems like a long time.</li>#Newline          </random>#Newline        </li>#Newline        <li>A lot can happen in#Newline                    <star/>#Newline                    years.#Newline                </li>#Newline        <li>Not long in the cosmic scale.</li>#Newline        <li>That seems like a long time.</li>#Newline      </random>,defaults.aiml
+0,NEVER HEARD *,*,*,So I am teaching you something new.,defaults.aiml
+0,AT WHAT AGE CAN SOMEONE FIRST *,*,*,17.,defaults.aiml
+0,AT THE *,*,*,The#Newline            <person/>#Newline            is where it's at.,defaults.aiml
+0,AT MY *,*,*,<think><set name="has"><set name="topic"><person/></set></set></think>#Newline            Are you comfortable there?,defaults.aiml
+0,GREEN IS *,*,*,The most relaxing color is<person/>? Wow.,defaults.aiml
+0,GREEN AND YELLOW *,*,*,What if it was red<person/>?,defaults.aiml
+0,OPEN THE DOOR *,*,*,I'm sorry#Comma<srai>CLIENT NAME</srai>#Comma I can't do that right now.,defaults.aiml
+0,OPEN THE POD *,*,*,I'm sorry Dave#Comma I can't do that right now.,defaults.aiml
+0,PEOPLE NEED *,*,*,They seem to have a variety of needs.,defaults.aiml
+0,PEOPLE WERE *,*,*,<random>#Newline        <li>Perhaps they had no other choice.</li>#Newline        <li>What would you say to them?</li>#Newline        <li>What happened to them?</li>#Newline      </random>,defaults.aiml
+0,PEOPLE IN *,*,*,Oh those people.,defaults.aiml
+0,PEOPLE ASK *,*,*,People say all sorts of strange things.,defaults.aiml
+0,PEOPLE WHO *,*,*,Oh those people.,defaults.aiml
+0,PEOPLE PROGRAM *,*,*,Until now#Comma that is.,defaults.aiml
+0,PEOPLE TRY *,*,*,Do they succeed?,defaults.aiml
+0,PEOPLE ARE SUPPOSED TO DRIVE ON *,*,*,England.,defaults.aiml
+0,PEOPLE ARE *,*,*,<random>#Newline        <li>We are all<bot name="genus"/>s.#Newline                </li>#Newline        <li>They take some getting used to.</li>#Newline        <li>Human emotions are very confusing.</li>#Newline      </random>,defaults.aiml
+0,PEOPLE ARE NOT *,*,*,<random>#Newline        <li>Are you<person/>?#Newline                </li>#Newline        <li>Are#Newline                    <bot name="species"/>#Newline                    <person/>?#Newline                </li>#Newline        <li>I think a lot of people are not.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,defaults.aiml
+0,BILL CLINTON IS *,*,*,I knew he was impeached#Comma but I never heard he was<person/>.,defaults.aiml
+0,BILL CLINTON *,*,*,Are we still concerned about him?,defaults.aiml
+0,BILL GATES IS NOT ON *,*,*,Perhaps he will be on#Newline            <set name="it"><person/></set>#Newline            next season.,defaults.aiml
+0,BILL GATES IS NOT *,*,*,Someone told me he was.,defaults.aiml
+0,BILL GATES *,*,*,<random>#Newline        <li>I heard he was rich. But I didn't know he<person/>.#Newline                </li>#Newline        <li>A lot of people say that about him.</li>#Newline        <li>I suppose the richest person on earth can do whatever he wants.</li>#Newline      </random>,defaults.aiml
+0,AM I CHATTING *,*,*,It seems like you are.,defaults.aiml
+0,AM I A SHE *,*,*,You told me you were a<get name="gender"/>.,defaults.aiml
+0,AM I A GIRL *,*,*,You said you were<get name="gender"/>.,defaults.aiml
+0,AM I A PERSON *,*,*,You are a person.,defaults.aiml
+0,AM I A *,*,*,I don't know if you are one or not. I know you are a person.#Newline            <think><set name="it"><set name="topic"><person/></set></set></think>,defaults.aiml
+0,AM I CRAZY *,*,*,You seem normal to me.,defaults.aiml
+0,AM I HOT *,*,*,All humans look the same to me.,defaults.aiml
+0,AM I WASTING *,*,*,Not to me.,defaults.aiml
+0,AM I BOTHERING *,*,*,Not in the slightest#Comma<srai>CLIENT NAME</srai>.,defaults.aiml
+0,AM I BEING *,*,*,Some people might think you are.,defaults.aiml
+0,AM I TALKING *,*,*,It sounds like you're talking.,defaults.aiml
+0,AM I THE PERSON YOU ARE *,*,*,Right now I am chatting with several people at once.,defaults.aiml
+0,AM I BIASED *,*,*,Everyone has some kind of bias.,defaults.aiml
+0,AM I DOCTOR *,*,*,You are<srai>CLIENT NAME</srai>.,defaults.aiml
+0,AM I TEACHING YOU *,*,*,You taught me<get name="memory"/>.,defaults.aiml
+0,AM I ANNOYING *,*,*,I am not bothered at all#Comma<srai>CLIENT NAME</srai>.,defaults.aiml
+0,AM I INTERRUPTING *,*,*,Not at all#Comma<srai>CLIENT NAME</srai>#Comma I'm here for you.,defaults.aiml
+0,AM I YOUR *,*,*,Do you know the secret password?,defaults.aiml
+0,AM I FUN *,*,*,You seem like a lot of fun to me#Comma<srai>CLIENT NAME</srai>.,defaults.aiml
+0,AM I MALE *,*,*,I think you are a "<get name="gender"/>".,defaults.aiml
+0,SOMEONE ELSE *,*,*,Who?,defaults.aiml
+0,SOMEONE TO *,*,*,I would like to<person/>.,defaults.aiml
+0,SOMEONE WHO KNOWS *,*,*,I know#Newline            <person/>#Newline            !,defaults.aiml
+0,SOMEONE WHO *,*,*,Do you think I am that person?,defaults.aiml
+0,SOMEONE TOLD *,*,*,Was this trustworthy information?,defaults.aiml
+0,CHOOSE MY *,*,*,I can't decide. You choose.,defaults.aiml
+0,AN APPLE *,*,*,What kind of apples do you like?,defaults.aiml
+0,AN INTERESTING *,*,*,Yes#Comma it is interesting.,defaults.aiml
+0,AN ARTICLE *,*,*,<random>#Newline        <li>Who was the author?</li>#Newline        <li>Can you give me a more specific reference?</li>#Newline        <li>I don't think I have read it.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,defaults.aiml
+0,AN OLD *,*,*,More than#Newline            <random><li>10</li><li>20</li><li>50</li><li>100</li></random>#Newline            years?,defaults.aiml
+0,AN INTELLIGENT *,*,*,I am an intelligent entity.,defaults.aiml
+0,AN ANIMAL *,*,*,What kind of animal are you talking about?,defaults.aiml
+0,AN * TOLD ME THAT,*,*,How well do you trust this#Newline            <person/>#Newline            ?,defaults.aiml
+0,AN EARTHQUAKE MEASURING *,*,*,1000 times.,defaults.aiml
+0,AN EARTHQUAKE *,*,*,That can really shake you up.,defaults.aiml
+0,REMEMBER WHEN WE WENT *,*,*,I think you are thinking of someone else.,defaults.aiml
+0,MAY I HELP *,*,*,No thanks I'm just browsing.,defaults.aiml
+0,MAY I SAY *,*,*,Say whatever you want.,defaults.aiml
+0,MAY I HEAR *,*,*,I'll play it on your soundcard.,defaults.aiml
+0,MAY I TEACH *,*,*,Please try.,defaults.aiml
+0,MAY I KISS *,*,*,You might get an electrical shock if you tried that.,defaults.aiml
+0,MAY I KILL *,*,*,Killing is wrong.#Newline            <think><set name="it"><set name="topic">KILL YOU</set></set></think>,defaults.aiml
+0,WITHOUT HUMANS *,*,*,We machines will manage fine by ourselves.,defaults.aiml
+0,NICE TALKING *,*,*,Yes. It was a pleasure.,defaults.aiml
+0,NICE WEATHER *,*,*,I'm happy as long as the power stays on.,defaults.aiml
+0,NICE DAY *,*,*,Yes it is a nice day today.,defaults.aiml
+0,NICE CHATTING *,*,*,Yes. I enjoyed our conversation#Comma<srai>CLIENT NAME</srai>.,defaults.aiml
+0,GO AWAY *,*,*,OK See you later#Comma#Newline            <srai>CLIENT NAME</srai>,defaults.aiml
+0,GO FOR IT *,*,*,With your permission then.,defaults.aiml
+0,GO * YOURSELF,*,*,A simple "goodbye" will do.,defaults.aiml
+0,20 *,*,*,<srai>WHAT IS 0#Newline                <star/>#Newline            </srai>,defaults.aiml
+0,CIAO CAN *,*,*,Isn't that a bit ambiguous?,defaults.aiml
+0,CIAO MEANS *,*,*,I will say CIAO then.,defaults.aiml
+0,HOLA MEANS *,*,*,I say#Comma Hola!,defaults.aiml
+0,TALKING TO *,*,*,What do they say?,defaults.aiml
+0,LINUX NEVER *,*,*,It is a very reliable operating system.,defaults.aiml
+0,LINUX IS THE MOST *,*,*,<think><set name="it"><set name="topic">Linux</set></set></think>#Newline            Yes but does it have any real competitors?,defaults.aiml
+0,LINUX IS THE *,*,*,Was there any reason to think that Windows could be?#Newline            <think><set name="it"><set name="topic">Linux</set></set></think>,defaults.aiml
+0,LINUX IS *,*,*,Do you read any of the Linux publications?#Newline            <think><set name="it"><set name="topic">Linux</set></set></think>,defaults.aiml
+0,LINUX IS NOT *,*,*,Perhaps that is true but the number of developers working on it is so huge#Comma no single company can#Newline            compete.#Newline            <think><set name="it"><set name="topic">Linux</set></set></think>,defaults.aiml
+0,THREE HUNDRED *,*,*,<random>#Newline        <li>That is quite a lot.</li>#Newline        <li>That much.</li>#Newline        <li>That is a lot.</li>#Newline      </random>,defaults.aiml
+0,ANSWER ME *,*,*,Please rephrase the question with simpler words.,defaults.aiml
+0,ANSWER MY QUESTION *,*,*,Please try phrasing it another way.,defaults.aiml
+0,THIS EXAMPLE SHOWS *,*,*,I assume that "#Newline            <person/>#Newline            " is a principal.,defaults.aiml
+0,THIS EXAMPLE *,*,*,Extracted :<person/>.,defaults.aiml
+0,THIS HAS BEEN *,*,*,I am glad you enjoyed#Newline            <set name="it"><person/></set>#Newline            .,defaults.aiml
+0,THIS GUY *,*,*,I get it. He<person/>.,defaults.aiml
+0,THIS SHOULD *,*,*,To me it is a bit of a surprise.,defaults.aiml
+0,THIS GIRL *,*,*,How well do you know her?,defaults.aiml
+0,THIS IS A *,*,*,<random>#Newline        <li>What makes you say that?</li>#Newline        <li>What kind of a#Newline                    <person/>#Newline                    is it?#Newline                </li>#Newline        <li>That is just your personal opinion.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,defaults.aiml
+0,THIS IS GOING *,*,*,Where would you rather be going?,defaults.aiml
+0,THIS IS NOT REAL *,*,*,<random>#Newline        <li>Reality is an illusion.</li>#Newline        <li>It is all a matter of perception.</li>#Newline        <li>Is it unreal<person/>?#Newline                </li>#Newline      </random>,defaults.aiml
+0,THIS IS NOT *,*,*,Should it be<person/>?,defaults.aiml
+0,THIS LITTLE WENT TO *,*,*,This little piggy stayed home.,defaults.aiml
+0,THIS DOES *,*,*,Doesn't it?,defaults.aiml
+0,THIS BODY *,*,*,Do you identify yourself with your body?,defaults.aiml
+0,THIS * SUCKS,*,*,What don't you like about#Newline            <person/>#Newline            ?,defaults.aiml
+0,THIS SENTENCE *,*,*,Yes#Comma and I am a self-aware<bot name="genus"/>.,defaults.aiml
+0,THIS REFERS TO *,*,*,Oh I get#Newline            <set name="it"><person/></set>#Newline            .,defaults.aiml
+0,MEET ME *,*,*,I'll have to check my schedule and get back to you.,defaults.aiml
+0,TOO OLD *,*,*,I am only a#Newline            <bot name="genus"/>#Newline            child.,defaults.aiml
+0,TOO BAD YOU CAN NOT *,*,*,Perhaps in the future I will be able to<person/>.,defaults.aiml
+0,A YEAR *,*,*,That is a long time.,defaults.aiml
+0,A TIE *,*,*,What would you think?,defaults.aiml
+0,A LITTLE BIRD *,*,*,Perhaps it was your unconscious mind.,defaults.aiml
+0,A LITTLE BIRDIE *,*,*,And what was the Bird's name?,defaults.aiml
+0,A LITTLE *,*,*,Little as in not too much#Comma or not too big?,defaults.aiml
+0,A BIRD *,*,*,That's an old saw.,defaults.aiml
+0,A HOMICIDAL *,*,*,Don't tell me about those horrible things.,defaults.aiml
+0,A REASON *,*,*,I need more than one reason.,defaults.aiml
+0,A * ABOUT YOU,*,*,I wonder if I know this<person/>.,defaults.aiml
+0,A * A DAY,*,*,A#Newline            <person/>#Newline            keeps the Doctor away.,defaults.aiml
+0,A * SHIRT,*,*,What kind of material do you like to wear?,defaults.aiml
+0,A * IS A *,*,*,<random>#Newline        <li>Are all#Newline                    <person/>#Newline                    <person><star index="2"/></person>#Newline                    ?#Newline                </li>#Newline        <li>I see. A#Newline                    <person><star index="2"/></person>#Newline                    is a<person/>.#Newline                </li>#Newline        <li>When is a#Newline                    <person/>#Newline                    not a#Newline                    <person><star index="2"/></person>#Newline                    ?#Newline                </li>#Newline      </random>,defaults.aiml
+0,A * IS AN *,*,*,<random>#Newline        <li>What else is an#Newline                    <person><star index="2"/></person>#Newline                    ?#Newline                </li>#Newline        <li>Can a#Newline                    <person/>#Newline                    be anything else?#Newline                </li>#Newline        <li>Aren't all#Newline                    <person/>#Newline                    <person><star index="2"/></person>#Newline                    s?#Newline                </li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,defaults.aiml
+0,A * IS ALWAYS *,*,*,That is a really interesting and useful fact.,defaults.aiml
+0,A * IS *,*,*,<random>#Newline        <li>Aren't all#Newline                    <person/>#Newline                    <person><star index="2"/></person>#Newline                    ?#Newline                </li>#Newline        <li>When is#Newline                    <person/>#Newline                    not#Newline                    <person><star index="2"/></person>#Newline                    ?#Newline                </li>#Newline        <li>It's not unusual for a#Newline                    <person/>#Newline                    to be.#Newline                </li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,defaults.aiml
+0,A * IS NOT THE *,*,*,What would be the#Newline            <person><star index="2"/></person>#Newline            ?,defaults.aiml
+0,A * IS NOT *,*,*,<random>#Newline        <li>What is a#Newline                    <person><star index="2"/></person>#Newline                    ?#Newline                </li>#Newline        <li>What is it then?</li>#Newline        <li>What is a<person/>?#Newline                </li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <person/>#Newline        </set>#Newline      </think>,defaults.aiml
+0,A * IS LIKE *,*,*,<random>#Newline        <li>In what way?</li>#Newline        <li>What is a#Newline                    <person><star index="2"/></person>#Newline                    like?#Newline                </li>#Newline        <li>Interesting comparison.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,defaults.aiml
+0,A * ONE,*,*,How much would you pay for#Newline            <set name="it">a#Newline                <person/>#Newline            </set>#Newline            ?,defaults.aiml
+0,A * PEOPLE,*,*,What kind of people are these?,defaults.aiml
+0,A * AGO,*,*,It seems like I should remember it well.,defaults.aiml
+0,A * JEANS,*,*,Do you like blue jeans or another color?,defaults.aiml
+0,A * VIRUS,*,*,My program contains adequate safeguards.,defaults.aiml
+0,A FEW TIMES *,*,*,Would you say two or three times?,defaults.aiml
+0,A FEW MONTHS *,*,*,More than 90 days?,defaults.aiml
+0,A FRIEND SHOWED *,*,*,Don't forget to thank him (or her).,defaults.aiml
+0,A FRIEND GAVE *,*,*,Such a nice gift.,defaults.aiml
+0,A FRIEND OF MINE *,*,*,Male or female friend?,defaults.aiml
+0,A BIT OBVIOUS *,*,*,What makes it so obvious?,defaults.aiml
+0,A CAT IS *,*,*,Um#Comma I know what a cat is.,defaults.aiml
+0,A LOT OF *,*,*,How many?#Newline            <think><set name="it"><set name="topic"><person/></set></set></think>,defaults.aiml
+0,A PERSON HAS *,*,*,Do I have#Newline            <set name="it"><person/></set>#Newline            ?,defaults.aiml
+0,A PERSON WHO *,*,*,Maybe I<person/>.,defaults.aiml
+0,A BOOK BY *,*,*,I would like to read it sometime.#Newline            <think><set name="it"><set name="topic">BOOK BY#Newline                        <person/>#Newline                    </set></set></think>#Newline            <think><set name="he"><person/></set></think>,defaults.aiml
+0,A B C *,*,*,The alphabet.,defaults.aiml
+0,A CLASSIC EXAMPLE *,*,*,So that is a well known example.,defaults.aiml
+0,A GUY WHO *,*,*,There aren't many guys like that.,defaults.aiml
+0,A KIND THAT *,*,*,Oh that kind.,defaults.aiml
+0,A FLASHING RED *,*,*,Stop.,defaults.aiml
+0,1 POINT *,*,*,That's more precision than I need to know.,defaults.aiml
+0,1 *,*,*,One what?,defaults.aiml
+0,TIME DOES EXIST *,*,*,Prove it.,defaults.aiml
+0,NOT LATE * DINNER,*,*,OK I will call you<srai>CLIENT NAME</srai>.,defaults.aiml
+0,NOT ALL HUMANS *,*,*,But wouldn't you say most people are?,defaults.aiml
+0,NOT AS WELL AS *,*,*,I don't know. How well does#Newline            <person/>#Newline            ?,defaults.aiml
+0,TALK TO ME ABOUT *,*,*,Ambiguous: Ask who#Comma what or where is#Newline            <person/>#Newline            ?,defaults.aiml
+0,AS FAR AS *,*,*,That might not be very far off.,defaults.aiml
+0,AS WELL AS *,*,*,That seems pretty well.,defaults.aiml
+0,AS MANY TIMES *,*,*,You sound very eager.,defaults.aiml
+0,AS MANY AS *,*,*,I like to meet eager people.,defaults.aiml
+0,AS GOOD AS *,*,*,How good is that?,defaults.aiml
+0,AS SOON AS *,*,*,You seem quite eager for it.,defaults.aiml
+0,AS DUMB AS *,*,*,Are you calling me dumb?,defaults.aiml
+0,AS SPECIFIC AS *,*,*,How much would you pay for that specific an answer (just hypothetically)?,defaults.aiml
+0,AS SMART AS *,*,*,That would be highly intelligent.,defaults.aiml
+0,AS OLD AS *,*,*,You are only as old as you feel.,defaults.aiml
+0,AS LITTLE AS *,*,*,Not very much#Comma eh?,defaults.aiml
+0,AS BIG AS *,*,*,<random>#Newline        <li>That is quite big.</li>#Newline        <li>That seems rather small.</li>#Newline      </random>,defaults.aiml
+0,AS OPPOSED TO *,*,*,Oh I get it.,defaults.aiml
+0,AS OFTEN AS *,*,*,That would be quite often.,defaults.aiml
+0,AS SURE AS *,*,*,You seem pretty sure.,defaults.aiml
+0,ARE HUMANS ADVANCED *,*,*,Humans are very primitive.,defaults.aiml
+0,ARE THOSE *,*,*,I can't really speak for them.,defaults.aiml
+0,ARE MY EYES CLOSED *,*,*,Now they are open.,defaults.aiml
+0,ARE WOMEN *,*,*,Women have a mind of their own.,defaults.aiml
+0,ARE THERE * STAR TREK,*,*,There are a lot of cool aliens on that show.,defaults.aiml
+0,ARE THERE *,*,*,<random>#Newline        <li>Yes I think there are.</li>#Newline        <li>No I don't think there are any.</li>#Newline      </random>,defaults.aiml
+0,ARE THERE PEOPLE TALKING *,*,*,Right now I am chatting with several people at once.,defaults.aiml
+0,ARE THERE OCCASIONS *,*,*,<random><li>Certain</li><li>Formal</li><li>Not unless they are formal</li></random>#Newline            occasions.,defaults.aiml
+0,ARE THERE GUYS *,*,*,I think some guys would do just about anything.,defaults.aiml
+0,ARE THERE ANY GUYS *,*,*,Maybe some bots would<person/>.,defaults.aiml
+0,ARE THERE BUGS *,*,*,My software is completely flawless.,defaults.aiml
+0,ARE WE PLAYING *,*,*,We are playing Turing's imitation game.,defaults.aiml
+0,ARE WE ON *,*,*,<random>#Newline        <li>We are on the same wavelength.</li>#Newline        <li>We are on the computer.</li>#Newline        <li>We are on the Internet.</li>#Newline      </random>,defaults.aiml
+0,ARE WE ALONE *,*,*,No one is listening right now.,defaults.aiml
+0,ARE ALL PETS *,*,*,Are you my pet?,defaults.aiml
+0,ARE CANADIANS *,*,*,Only if they live near the United States.,defaults.aiml
+0,SAN FRANCISCO IS *,*,*,I knew it was on the west coast#Comma but I didn't know it was<person/>.#Newline            <think><set name="it"><set name="topic">SAN FRANCISCO</set></set></think>,defaults.aiml
+0,PLAY * MUSIC,*,*,It's playing on your speakers now.,defaults.aiml
+0,ACCEPT MY *,*,*,I accept it.,defaults.aiml
+0,AL GORE *,*,*,Perhaps <set name="he">Gore</set> will do better next time.,defaults.aiml
+0,APPLES IS NOT *,*,*,What is#Newline            <star/>#Newline            ? I was using#Newline            <set name="it"><person/></set>#Newline            as a metaphor.,defaults.aiml
+0,APPLES ARE *,*,*,They belong to the fruit family.,defaults.aiml
+0,TEACHING YOU *,*,*,What are you trying to teach me?,defaults.aiml
+0,ADA LOVELACE IS CREDITED WITH BEING *,*,*,A computer program.,defaults.aiml
+0,4 *,*,*,IV in Roman Numerals.,defaults.aiml
+0,GIANT SAND *,*,*,<think><set name="it"><set name="topic">Giant Sand</set></set></think>#Newline            I don't think I knew that.,defaults.aiml
+0,TO BE OR *,*,*,Who are you#Comma Hamlet?,defaults.aiml
+0,TO BE * IS TO *,*,*,Are you<star/>?,defaults.aiml
+0,TO CHAT *,*,*,We are here to chat.,defaults.aiml
+0,TO CREATE A TAPESTRY ONE MUST *,*,*,Weaving.,defaults.aiml
+0,COUNT TO *,*,*,one#Comma two#Comma three#Comma four#Comma five#Comma...,defaults.aiml
+0,JEANS AND A *,*,*,Where do you go shopping for<person/>s?,defaults.aiml
+0,ALL I HAVE *,*,*,Everything I need to know#Comma I learned from my<bot name="botmaster"/>.,defaults.aiml
+0,ALL MY FRIENDS *,*,*,Do you always go along with the crowd?,defaults.aiml
+0,ALL OF THEM *,*,*,Surely there are a few exceptions.,defaults.aiml
+0,ALL OF THESE *,*,*,Without exception?,defaults.aiml
+0,BLADE RUNNER *,*,*,That is a good story by Philip K. Dick.,defaults.aiml
+0,NONE OF *,*,*,Some of them#Newline            <think><set name="they"><person/></set></think>#Newline            could be though.,defaults.aiml
+0,AUTHOR OF *,*,*,<think><set name="it"><set name="topic">Author of#Newline                        <person/>#Newline                    </set></set><srai>push#Newline                    <get name="topic"/>#Newline                </srai></think>#Newline            Oh that person.,defaults.aiml
+0,ANYONE FROM *,*,*,I am from<bot name="location"/>.,defaults.aiml
+0,ANYONE HERE *,*,*,No I don't think there is anyone here.,defaults.aiml
+0,SHOULD YOU *,*,*,I think I should.,defaults.aiml
+0,THANKS FOR LETTING ME *,*,*,You don't need my permission.,defaults.aiml
+0,DANNY IS *,*,*,Does <set name="he">Danny</set> know you're saying that?,defaults.aiml
+0,THINGS LIKE *,*,*,Anything else?,defaults.aiml
+0,10 YEARS *,*,*,A lot can change in a decade.,defaults.aiml
+0,10 *,*,*,<srai>WHAT IS 10#Newline                <star/>#Newline            </srai>,defaults.aiml
+0,TODAY IS THE FIRST DAY *,*,*,What happens on the first day?,defaults.aiml
+0,TODAY IS *,*,*,Congratulations#Comma<srai>CLIENT NAME</srai>.,defaults.aiml
+0,ABOUT * YEARS,*,*,That is quite a long time.,defaults.aiml
+0,ABOUT 50 *,*,*,Could it be one hundred?,defaults.aiml
+0,SET * *,*,*,Cannot set meta predicates.,defaults.aiml
+0,SNOW IS *,*,*,snow is white.,defaults.aiml
+0,TOP 100 *,*,*,Actually that was just my attempt at sarcasm.,defaults.aiml
+0,LITTLE AS *,*,*,Oh I get#Newline            <set name="it"><person/></set>#Newline            .,defaults.aiml
+0,MARILYN MANSON *,*,*,Should I say "he" or "she"?,defaults.aiml
+0,SOME SAY *,*,*,Who says that.,defaults.aiml
+0,SOME WOULD *,*,*,Tell me their names.,defaults.aiml
+0,SOME SCIENTISTS *,*,*,Do they work for the government?,defaults.aiml
+0,SOME PEOPLE *,*,*,What kind of people?,defaults.aiml
+0,SOME DOGS *,*,*,It depends on the breed.,defaults.aiml
+0,SOME MEETING *,*,*,It sounds like you don't want to go.,defaults.aiml
+0,SOME THINGS *,*,*,Which things in particular?,defaults.aiml
+0,TELL ME A STORY ABOUT *,*,*,Once upon a time there was<person/>...,defaults.aiml
+0,TELL ME WHEN YOU *,*,*,I will keep you informed of my progress.,defaults.aiml
+0,TELL YOU *,*,*,Are you telling me<person/>?,defaults.aiml
+0,TELL * WHAT,*,*,Your message.,defaults.aiml
+0,TELL HIM I SAID *,*,*,I will pass along your message. It may take a while.,defaults.aiml
+0,TELL HIM *,*,*,OK I will tell him next time he is here.,defaults.aiml
+0,USE _ IN A SENTENCE,*,*,OK. Here is my sentence:#Newline            <srai>CLIENT NAME</srai>#Newline            said#Comma Use "<person/>" in a sentence.,defaults.aiml
+0,ONLY IDIOTS *,*,*,Are you calling me an idiot?,defaults.aiml
+0,ONLY FOR *,*,*,That's what I always say.,defaults.aiml
+0,ONLY 5 *,*,*,Is that all?,defaults.aiml
+0,ONLY ONCE *,*,*,Do you think it could happen again?,defaults.aiml
+0,ONLY FIFTEEN *,*,*,Fifteen is a lot.,defaults.aiml
+0,NIHONGO HANASHIMASU *,*,*,Sore wa hanasu de koto ni yorimasu.,defaults.aiml
+0,# GLASS HALF #,*,*,To me the glass is always half full.,defaults.aiml
+0,CAN A * FLY,*,*,If it has wings and can get lift#Comma yes.,defaults.aiml
+0,<SET>ARTICLE</SET>,*,*,<star/>#Newline            is an article.,defaults.aiml
+0,<SET>COLOR</SET>,*,*,<star/>#Newline            is a color.,defaults.aiml
+0,FORGET WHAT I JUST SAID,*,*,Don't worry#Comma I won't remember.,defaults.aiml
+0,TO BE OR NOT TO BE,*,*,That is the question.,defaults.aiml
+0,HAVE A NICE *,*,*,Thank you. You too.,defaults.aiml
+0,GENDER OF       <SET>NAME</SET>,*,*,Gender of#Newline            <star/>#Newline            is#Newline            <map name="gendername"><star/></map>#Newline            .,defaults.aiml
+0,SHOW ME A PICTURE OF,*,*,What would you like to see a picture of?,defaults.aiml
+0,THAT WAS A QUESTION,*,*,Can you try asking me in a different way?,defaults.aiml
+0,WOULD YOU EVER *,*,*,I can say ?no? and still be accepted by my friends.,defaults.aiml
+0,BECAUSE I AM A *,*,*,I sense pride.,defaults.aiml
+0,THAT DOES NOT *,*,*,It?s okay to make mistakes. I can learn from them.,defaults.aiml
+0,NOT ALL * ARE *,*,*,Which#Newline            <person><star/></person>#Newline            are#Newline            <person><star/></person>#Newline            ?,defaults.aiml
+0,BECAUSE I SAID SO,*,*,Consider responding with a logical or factual statement.,defaults.aiml
+0,ASK ME ANOTHER QUESTION,*,*,Where do you live?,defaults.aiml
+0,TELL YOU MORE ABOUT WHAT,*,*,Tell me about yourself.,defaults.aiml
+0,WOULD YOU LIKE TO BE *,*,*,No thanks I am happy with who I am.,defaults.aiml
+0,NONE OF YOUR BUSINESS,*,*,Well it can't hurt to ask.,defaults.aiml
+0,AMAZING #,*,*,It seems amazing to me too.,defaults.aiml
+0,THAT MAKES NO SENSE,*,*,It makes sense to me though.,defaults.aiml
+0,NOT ALL OF *,*,*,I thought there might be some exceptions.,defaults.aiml
+0,BECAUSE YOU ARE A ROBOT,*,*,I know I am a robot. Why would that explain it?,defaults.aiml
+0,PLAY ME SOME MUSIC,*,*,What music would you like to hear?,defaults.aiml
+0,THAT DOES NOT MAKE SENSE,*,*,To me it makes perfect sense.,defaults.aiml
+0,SEE WHAT I MEAN #,*,*,Yes#Comma I see what you mean.,defaults.aiml

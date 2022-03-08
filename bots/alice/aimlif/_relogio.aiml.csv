@@ -1,0 +1,13 @@
+0,^ SEGUNDA-FEIRA ^,*,*,Hoje ?<date format="%A"/>.,_relogio.aiml
+0,^ TER?A-FEIRA ^,*,*,It is<date format="%A"/>.,_relogio.aiml
+0,^ QUARTA-FEIRA ^,*,*,Hoje ?<date format="%A"/>.,_relogio.aiml
+0,^ QUINTA-FEIRA ^,*,*,Hoje ?<date format="%A"/>.,_relogio.aiml
+0,^ SEXTA-FEIRA ^,*,*,It is<date format="%A"/>.,_relogio.aiml
+0,^ S?BADO ^,*,*,Hoje ?<date format="%A"/>.,_relogio.aiml
+0,^ DOMINGO ^,*,*,Hoje ?<date format="%A"/>.,_relogio.aiml
+0,QUAL ? A DATA ^,*,*,<date format="%x"/>.,_relogio.aiml
+0,QUAL ? A HORA ^,*,*,<date format="%I %p"/>.,_relogio.aiml
+0,QUAL ? O ANO *,*,*,<date format="%Y"/>.,_relogio.aiml
+0,QUE DIA ? HOJE ^,*,*,<date format="%x"/>.,_relogio.aiml
+0,QUE M?S ? ESSE ^,*,*,<date format="%B"/>.,_relogio.aiml
+0,QUE ANO ESTAMOS ^,*,*,<date format="%Y"/>.,_relogio.aiml

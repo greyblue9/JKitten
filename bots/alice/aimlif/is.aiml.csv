@@ -1,0 +1,17 @@
+0,IT IS IT *,*,*,<srai>IS IT#Newline                <star/>#Newline            </srai>,is.aiml
+0,DO YOU THINK THAT * IS *,*,*,<srai>IS#Newline                <star/>#Newline                <star index="2"/>#Newline            </srai>,is.aiml
+0,* MALE OR *,*,*,<srai>IS#Newline                <star/>#Newline                MALE OR#Newline                <star index="2"/>#Newline            </srai>,is.aiml
+0,COOL IS *,*,*,<srai>COOL</srai>#Newline      <srai>IS#Newline                <star/>#Newline            </srai>,is.aiml
+0,DO YOU THINK IT WOULD BE *,*,*,<srai>IS IT#Newline                <star/>#Newline            </srai>,is.aiml
+0,WHY DO PEOPLE THINK * IS *,*,*,<srai>IS#Newline                <star/>#Newline                <star index="2"/>#Newline            </srai>,is.aiml
+0,DO YOU THINK <SET>ARTICLE</SET> * IS *,*,*,<srai>IS#Newline                <star/>#Newline                <star index="2"/>#Newline                <star index="3"/>#Newline            </srai>,is.aiml
+0,IS _ * OR *,*,*,Is#Newline            <star/>#Newline            <star index="2"/>?#Newline            <srai>IS#Newline                <star/>#Newline                <star index="2"/>#Newline            </srai>#Newline            Is#Newline            <star/>#Newline            <star index="3"/>?#Newline            <srai>IS#Newline                <star/>#Newline                <star index="3"/>#Newline            </srai>,is.aiml
+0,IS _ <SET>ARTICLE</SET> * OR *,*,*,Is#Newline            <star/>#Newline            <star index="2"/>#Newline            <star index="3"/>?#Newline            <srai>IS#Newline                <star/>#Newline                <star index="2"/>#Newline                <star index="3"/>#Newline            </srai>#Newline            Is#Newline            <star/>#Newline            <star index="4"/>?#Newline            <srai>IS#Newline                <star/>#Newline                <star index="4"/>#Newline            </srai>,is.aiml
+0,IS ANYBODY HERE #,*,*,<srai>IS ANYBODY THERE</srai>,is.aiml
+0,IS ANYONE HERE #,*,*,<srai>IS ANYBODY THERE</srai>,is.aiml
+0,IS ANYONE THERE #,*,*,<srai>IS ANYBODY THERE</srai>,is.aiml
+0,DO YOU THINK MY * IS *,*,*,<srai>IS MY#Newline                <star/>#Newline                <star index="2"/>#Newline            </srai>,is.aiml
+0,* A BOY OR *,*,*,<srai>IS#Newline                <star/>#Newline                A BOY OR#Newline                <star index="2"/>#Newline            </srai>,is.aiml
+0,WHY DO PEOPLE THINK * IS SO *,*,*,<srai>IS#Newline                <star/>#Newline                <star index="2"/>#Newline            </srai>,is.aiml
+0,WELL IS *,*,*,<srai>IS#Newline                <star/>#Newline            </srai>,is.aiml
+0,DO YOU THINK * IS *,*,*,<srai>IS#Newline                <star/>#Newline                <star index="2"/>#Newline            </srai>,is.aiml

@@ -1,0 +1,152 @@
+0,WHERE * CHILDRENS BOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * CHILDRENS BOOKS *,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,LOCATION CHILDRENS BOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION CHILDRENS BOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION * CHILDRENS BOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * PICTURE BOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * PICTURE BOOKS *,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,LOCATION PICTURE BOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION PICTURE BOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION * PICTURE BOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * PICTUREBOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * PICTUREBOOKS *,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,LOCATION PICTUREBOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION PICTUREBOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION * PICTUREBOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * KIDS BOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * KIDS BOOKS *,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,LOCATION KIDS BOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION KIDS BOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION * KIDS BOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * KID S BOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * KID S BOOKS *,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,LOCATION KID S BOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION KID S BOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION * KID S BOOKS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * CHILDRENS DVDS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * CHILDRENS DVDS *,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,LOCATION CHILDRENS DVDS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION CHILDRENS DVDS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION * CHILDRENS DVDS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * FAMILY DVDS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * FAMILY DVDS *,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,LOCATION FAMILY DVDS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION FAMILY DVDS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION * FAMILY DVDS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * KIDS DVDS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * KIDS DVDS *,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,LOCATION KIDS DVDS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION KIDS DVDS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION * KIDS DVDS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * KID S DVDS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,WHERE * KID S DVDS *,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,LOCATION KID S DVDS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION KID S DVDS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* LOCATION * KID S DVDS,*,*,<srai>LOCKIDSITMS</srai>,library_floorplan.aiml
+0,* FICTION BOOK,*,*,<srai>MAFICLOC</srai>,library_floorplan.aiml
+0,* FICTION BOOKS,*,*,<srai>MAFICLOC</srai>,library_floorplan.aiml
+0,* FICTION LOCATED,*,*,<srai>MAFICLOC</srai>,library_floorplan.aiml
+0,* FICTION LOCATION,*,*,<srai>MAFICLOC</srai>,library_floorplan.aiml
+0,* FICTION SECTION,*,*,<srai>MAFICLOC</srai>,library_floorplan.aiml
+0,* NONFICTION BOOK,*,*,<srai>MANONFICLOC</srai>,library_floorplan.aiml
+0,* NONFICTION BOOKS,*,*,<srai>MANONFICLOC</srai>,library_floorplan.aiml
+0,* NONFICTION LOCATED,*,*,<srai>MANONFICLOC</srai>,library_floorplan.aiml
+0,* NONFICTION LOCATION,*,*,<srai>MANONFICLOC</srai>,library_floorplan.aiml
+0,* NONFICTION SECTION,*,*,<srai>MANONFICLOC</srai>,library_floorplan.aiml
+0,* MAIN SCIENCE FICTION,*,*,<srai>MASCIFILOC</srai>,library_floorplan.aiml
+0,* SCIENCE FICTION BOOKS,*,*,<srai>MASCIFILOC</srai>,library_floorplan.aiml
+0,* SCIENCE FICTION LOCATED,*,*,<srai>MASCIFILOC</srai>,library_floorplan.aiml
+0,* SCIENCE FICTION LOCATION,*,*,<srai>MASCIFILOC</srai>,library_floorplan.aiml
+0,* SCIENCE FICTION SECTION,*,*,<srai>MASCIFILOC</srai>,library_floorplan.aiml
+0,* MAIN BIOGRAPHY,*,*,<srai>MABIOGLOC</srai>,library_floorplan.aiml
+0,* BIOGRAPHY LOCATED,*,*,<srai>MABIOGLOC</srai>,library_floorplan.aiml
+0,* BIOGRAPHY SECTION,*,*,<srai>MABIOGLOC</srai>,library_floorplan.aiml
+0,* MAIN BIOGRAPHIES,*,*,<srai>MABIOGLOC</srai>,library_floorplan.aiml
+0,* BIOGRAPHIES LOCATED,*,*,<srai>MABIOGLOC</srai>,library_floorplan.aiml
+0,* MYSTERIES,*,*,<srai>MMYSTLOC</srai>,library_floorplan.aiml
+0,* MYSTERY *,*,*,<srai>MMYSTLOC</srai>,library_floorplan.aiml
+0,* BIOGRAPHIES LOCATION,*,*,<srai>MABIOGLOC</srai>,library_floorplan.aiml
+0,LOCATION * FICTION,*,*,<srai>MFICLOC</srai>,library_floorplan.aiml
+0,LOCATION * NONFICTION,*,*,<srai>MNONFICLOC</srai>,library_floorplan.aiml
+0,LOCATION * BIOGRAPHIES,*,*,<srai>MABIOGLOC</srai>,library_floorplan.aiml
+0,LOCATION * FICTION *,*,*,<srai>MFICLOC</srai>,library_floorplan.aiml
+0,LOCATION * NONFICTION *,*,*,<srai>MNONFICLOC</srai>,library_floorplan.aiml
+0,LOCATION * BIOGRAPHIES *,*,*,<srai>MABIOGLOC</srai>,library_floorplan.aiml
+0,* LOCATION * FICTION,*,*,<srai>MFICLOC</srai>,library_floorplan.aiml
+0,* LOCATION * NONFICTION,*,*,<srai>MNONFICLOC</srai>,library_floorplan.aiml
+0,* LOCATION * BIOGRAPHIES,*,*,<srai>MABIOGLOC</srai>,library_floorplan.aiml
+0,* LOCATION * FICTION *,*,*,<srai>MFICLOC</srai>,library_floorplan.aiml
+0,* LOCATION * NONFICTION *,*,*,<srai>MNONFICLOC</srai>,library_floorplan.aiml
+0,* LOCATION * BIOGRAPHIES *,*,*,<srai>MABIOGLOC</srai>,library_floorplan.aiml
+0,WHERE * AUTOBIOGRAPHY,*,*,<srai>MABIOGLOC</srai>,library_floorplan.aiml
+0,WHERE * AUTOBIOGRAPHY *,*,*,<srai>MABIOGLOC</srai>,library_floorplan.aiml
+0,WHERE * AUTOBIOGRAPHIES,*,*,<srai>MABIOGLOC</srai>,library_floorplan.aiml
+0,WHERE * AUTOBIOGRAPHIES *,*,*,<srai>MABIOGLOC</srai>,library_floorplan.aiml
+0,WHERE * BIOGRAPHY,*,*,<srai>MBIOGLOC</srai>,library_floorplan.aiml
+0,WHERE * BIOGRAPHY *,*,*,<srai>MBIOGLOC</srai>,library_floorplan.aiml
+0,WHERE * BIOGRAPHIES,*,*,<srai>MBIOGLOC</srai>,library_floorplan.aiml
+0,WHERE * BIOGRAPHIES *,*,*,<srai>MBIOGLOC</srai>,library_floorplan.aiml
+0,WHERE * FANTASY,*,*,<srai>MFANLOC</srai>,library_floorplan.aiml
+0,WHERE * FANTASY *,*,*,<srai>MFANLOC</srai>,library_floorplan.aiml
+0,WHERE * FICTION,*,*,<srai>MFICLOC</srai>,library_floorplan.aiml
+0,WHERE * FICTION *,*,*,<srai>MFICLOC</srai>,library_floorplan.aiml
+0,LARGE PRINT,*,*,<srai>MLTLOC</srai>,library_floorplan.aiml
+0,LARGE PRINT *,*,*,<srai>MLTLOC</srai>,library_floorplan.aiml
+0,* LARGE PRINT,*,*,<srai>MLTLOC</srai>,library_floorplan.aiml
+0,* LARGE PRINT *,*,*,<srai>MLTLOC</srai>,library_floorplan.aiml
+0,* LARGE TYPE,*,*,<srai>MLTLOC</srai>,library_floorplan.aiml
+0,* LARGE TYPE *,*,*,<srai>MLTLOC</srai>,library_floorplan.aiml
+0,WHERE * MYSTERY,*,*,<srai>MMYSTLOC</srai>,library_floorplan.aiml
+0,WHERE * MYSTERY *,*,*,<srai>MMYSTLOC</srai>,library_floorplan.aiml
+0,WHERE * MYSTERIES,*,*,<srai>MMYSTLOC</srai>,library_floorplan.aiml
+0,WHERE * MYSTERIES *,*,*,<srai>MMYSTLOC</srai>,library_floorplan.aiml
+0,WHERE * NONFICTION,*,*,<srai>MNONFICLOC</srai>,library_floorplan.aiml
+0,WHERE * NONFICTION *,*,*,<srai>MNONFICLOC</srai>,library_floorplan.aiml
+0,WHERE * NON FICTION,*,*,<srai>MNONFICLOC</srai>,library_floorplan.aiml
+0,WHERE * NON FICTION *,*,*,<srai>MNONFICLOC</srai>,library_floorplan.aiml
+0,WHERE * NON-FICTION,*,*,<srai>MNONFICLOC</srai>,library_floorplan.aiml
+0,WHERE * NON-FICTION *,*,*,<srai>MNONFICLOC</srai>,library_floorplan.aiml
+0,WHERE * SCIENCE FICTION,*,*,<srai>MSCIFILOC</srai>,library_floorplan.aiml
+0,WHERE * SCIENCE FICTION *,*,*,<srai>MSCIFILOC</srai>,library_floorplan.aiml
+0,WHERE * SCI FI,*,*,<srai>MSCIFILOC</srai>,library_floorplan.aiml
+0,WHERE * SCI FI *,*,*,<srai>MSCIFILOC</srai>,library_floorplan.aiml
+0,FLOOR PLAN,*,*,<srai>MFLPLAN</srai>,library_floorplan.aiml
+0,FLOOR PLAN MAIN,*,*,<srai>MFLPLAN</srai>,library_floorplan.aiml
+0,FIRST FLOOR PLAN,*,*,<srai>MFLPLAN</srai>,library_floorplan.aiml
+0,FIRST FLOOR PLAN MAIN,*,*,<srai>MFLPLAN</srai>,library_floorplan.aiml
+0,SECOND FLOOR PLAN,*,*,<srai>MFLPLAN</srai>,library_floorplan.aiml
+0,SECOND FLOOR PLAN MAIN,*,*,<srai>MFLPLAN</srai>,library_floorplan.aiml
+0,CHILDREN S DEPT MAP,*,*,<srai>MFLPLAN</srai>,library_floorplan.aiml
+0,CHILDREN S DEPARTMENT MAP,*,*,<srai>MFLPLAN</srai>,library_floorplan.aiml
+0,KID S DEPT MAP,*,*,<srai>MFLPLAN</srai>,library_floorplan.aiml
+0,KID S DEPARTMENT MAP,*,*,<srai>MFLPLAN</srai>,library_floorplan.aiml
+0,MAP OF THE LIBRARY,*,*,<srai>MFLPLAN</srai>,library_floorplan.aiml
+0,* MAP OF THE LIBRARY,*,*,<srai>MFLPLAN</srai>,library_floorplan.aiml
+0,* MAPS OF THE LIBRARY,*,*,<srai>MFLPLAN</srai>,library_floorplan.aiml
+0,MAPS OF THE LIBRARY,*,*,<srai>MFLPLAN</srai>,library_floorplan.aiml
+0,* FLOOR PLAN *,*,*,<srai>MFLPLAN</srai>,library_floorplan.aiml
+0,* FLOOR PLANS *,*,*,<srai>MFLPLAN</srai>,library_floorplan.aiml
+0,HOLD SHELF,*,*,<srai>HLDSHLF</srai>,library_floorplan.aiml
+0,* HOLD SHELF,*,*,<srai>HLDSHLF</srai>,library_floorplan.aiml
+0,HOLD SHELF *,*,*,<srai>HLDSHLF</srai>,library_floorplan.aiml
+0,* HOLD SHELF *,*,*,<srai>HLDSHLF</srai>,library_floorplan.aiml
+0,HOLDS SHELF,*,*,<srai>HLDSHLF</srai>,library_floorplan.aiml
+0,* HOLDS SHELF,*,*,<srai>HLDSHLF</srai>,library_floorplan.aiml
+0,HOLDS SHELF *,*,*,<srai>HLDSHLF</srai>,library_floorplan.aiml
+0,* HOLDS SHELF *,*,*,<srai>HLDSHLF</srai>,library_floorplan.aiml
+0,HOLD SHELVES,*,*,<srai>HLDSHLF</srai>,library_floorplan.aiml
+0,* HOLD SHELVES,*,*,<srai>HLDSHLF</srai>,library_floorplan.aiml
+0,HOLD SHELVES *,*,*,<srai>HLDSHLF</srai>,library_floorplan.aiml
+0,* HOLD SHELVES *,*,*,<srai>HLDSHLF</srai>,library_floorplan.aiml
+0,HOLDS SHELVES,*,*,<srai>HLDSHLF</srai>,library_floorplan.aiml
+0,* HOLDS SHELVES,*,*,<srai>HLDSHLF</srai>,library_floorplan.aiml
+0,HOLDS SHELVES *,*,*,<srai>HLDSHLF</srai>,library_floorplan.aiml
+0,* HOLDS SHELVES *,*,*,<srai>HLDSHLF</srai>,library_floorplan.aiml
+0,HEADLANDS YA,*,*,<srai>HDLSYA</srai>,library_floorplan.aiml
+0,* HEADLANDS YA,*,*,<srai>HDLSYA</srai>,library_floorplan.aiml
+0,HEADLANDS YA *,*,*,<srai>HDLSYA</srai>,library_floorplan.aiml
+0,* HEADLANDS YA *,*,*,<srai>HDLSYA</srai>,library_floorplan.aiml
+0,LAKE YA,*,*,<srai>LKYA</srai>,library_floorplan.aiml
+0,* LAKE YA,*,*,<srai>LKYA</srai>,library_floorplan.aiml
+0,LAKE YA *,*,*,<srai>LKYA</srai>,library_floorplan.aiml
+0,* LAKE YA *,*,*,<srai>LKYA</srai>,library_floorplan.aiml

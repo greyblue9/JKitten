@@ -1,0 +1,34 @@
+0,BOT HOW MUCH IS *,*,*,<random>#Newline<li>The answer is <javascript><star/></javascript>.</li>#Newline<li><javascript><star/></javascript> I think.</li>#Newline<li>I think it's <javascript><star/></javascript></li>#Newline<li>Let me check.  It's <javascript><star/></javascript></li>#Newline</random>,dev-examples.aiml
+0,EVALUATE *,*,*,<javascript><star/></javascript>,dev-examples.aiml
+0,TEST GET,*,*,Your favorite color is <get name="favoritecolor"/> and <get name="favoritecolor"/>.,dev-examples.aiml
+0,TEST SET,*,*,Thanks for telling me. <set name="favoriteperson">Michele Censullo</set>,dev-examples.aiml
+0,TEST JAVASCRIPT,*,*,Sending back some Javascript to browser <javascript language="javascript">document.location="mailto:jonbaer@digitalanywhere.com";</javascript>,dev-examples.aiml
+0,WHAT IS THE INACTIVITY COUNT,*,*,The inactivity count is now <javascript>inactivityCount</javascript>.,dev-examples.aiml
+0,INCREASE INACTIVITY COUNT,*,*,OK. <think><javascript>inactivityCount++</javascript></think>,dev-examples.aiml
+0,DECREASE INACTIVITY COUNT,*,*,OK. <think><javascript>inactivityCount--</javascript></think>,dev-examples.aiml
+0,TEST INACTIVITY,*,*,<if expr="inactivitycount == 1">#Newline     The inactivity is at one.#Newline</if>#Newline<if expr="inactivitycount == 2">#Newline     The inactivity is at two.#Newline</if>,dev-examples.aiml
+0,WHAT IS MY FAVORITE FOOD,*,*,Your favorite food is <javascript>getValue('<id/>'#Comma'favoritefood')</javascript>.,dev-examples.aiml
+0,PRINT THIS PAGE,*,*,<javascript>printPage()</javascript>,dev-examples.aiml
+0,ADD A NEW PERSON,*,*,What is the name of the person?,dev-examples.aiml
+0,*,WHAT IS THE NAME OF THE PERSON,*,<think><set name="person"><star/></set></think>What is the address of the person?,dev-examples.aiml
+0,*,WHAT IS THE ADDRESS OF THE PERSON,*,<think><set name="address"><star/></set></think>Cool#Comma everything was entered.,dev-examples.aiml
+0,WHAT IS THE NAME OF THE NEW PERSON,*,*,The new person is <get name="person"/>,dev-examples.aiml
+0,WHAT IS THE ADDRESS OF THE NEW PERSON,*,*,The new person address is <get name="address"/>,dev-examples.aiml
+0,DO IF EXIST TEST,*,*,<if exists="true" name="somepredicatethatdoesnotexist">#NewlineIt does exist#Newline</if>,dev-examples.aiml
+0,* IS ONE OF MY KIDS,*,*,<star/> was added to your kids list.#Newline<think><add_kids><star/></add_kids></think>,dev-examples.aiml
+0,WHO ARE MY KIDS,*,*,Your kids are <get name="kids"/>.,dev-examples.aiml
+0,YOU ARE PRETTY COOL,*,*,<gossip><get name="name"/> said I was pretty cool.</gossip>Thanks.,dev-examples.aiml
+0,SPILL GOSSIP,*,*,<get name="gossip"/>,dev-examples.aiml
+0,GET A QUOTE FOR ORACLE,*,*,<javascript>getStockQuote('orcl')</javascript>,dev-examples.aiml
+0,GET A QUOTE FOR MICROSOFT,*,*,<javascript>getStockQuote('msft')</javascript>,dev-examples.aiml
+0,GET A QUOTE FOR NUANCE,*,*,<javascript>getStockQuote('nuan')</javascript>,dev-examples.aiml
+0,GET A QUOTE FOR *,*,*,<javascript>getStockQuote('<star/>')</javascript>,dev-examples.aiml
+0,GET A CHART FOR *,*,*,<javascript>getStockChart('<star/>')</javascript>,dev-examples.aiml
+0,WHAT IS AN EGG,*,*,An egg is an egg#Comma I think.,dev-examples.aiml
+0,LEARN IT,*,*,<learn>Egg.aiml</learn>,dev-examples.aiml
+0,SHOW ME SLASHDOT,*,*,Here is where we do a display of some kind.#Newline<display target="target1">http://www.slashdot.com</display>#NewlineCan you see it?,dev-examples.aiml
+0,START TIMER,*,*,<timer value="5000">LEARN SOMETHING</timer>#NewlineThe timer has been started.,dev-examples.aiml
+0,KILL TIMER,*,*,<timer value="0">LEARN SOMETHING</timer>#NewlineThe timer has been killed.,dev-examples.aiml
+0,LEARN SOMETHING,*,*,<learn>Something.aiml</learn>,dev-examples.aiml
+0,SHOW ME A WINDOW,*,*,<display height="400" status="1" target="sized" width="400">http://www.alicebot.net</display>#NewlineOK.,dev-examples.aiml
+0,YES,FOOBAR,*,You said yes,dev-examples.aiml

@@ -1,0 +1,77 @@
+0,HEAPAPP,*,*,HEAP applications are available at the Main Library#Comma at both Branches#Comma and online by following <a href="http://www.development.ohio.gov/community/ocs/Documents/2010-11HEAP.pdf" target="_blank">#Newline<b>this link</b></a>.,localinfo.aiml
+0,HEAP APPLICATION,*,*,<srai>HEAPAPP</srai>,localinfo.aiml
+0,_ HEAP APPLICATION,*,*,<srai>HEAPAPP</srai>,localinfo.aiml
+0,_ HEAP APPLICATION *,*,*,<srai>HEAPAPP</srai>,localinfo.aiml
+0,HEAP APPLICATIONS,*,*,<srai>HEAPAPP</srai>,localinfo.aiml
+0,_ HEAP APPLICATIONS,*,*,<srai>HEAPAPP</srai>,localinfo.aiml
+0,_ HEAP APPLICATIONS *,*,*,<srai>HEAPAPP</srai>,localinfo.aiml
+0,LOCHIST,*,*,While we do not have many local history books#Comma Morley Library in Painsville does! Give them a call at 440.352.3383.,localinfo.aiml
+0,LOCAL HISTORY,*,*,<srai>LOCHIST</srai>,localinfo.aiml
+0,_ LOCAL HISTORY,*,*,<srai>LOCHIST</srai>,localinfo.aiml
+0,_ LOCAL HISTORY *,*,*,<srai>LOCHIST</srai>,localinfo.aiml
+0,LOCAL HISTORY *,*,*,<srai>LOCHIST</srai>,localinfo.aiml
+0,LOCNEWS,*,*,Personally#Comma my favorite source for local news is Mentor Patch. I've opened it for you. Here are some other links for local news. Our local newspaper is the <a href="http://www.news-herald.com/" target="_blank"><b>News Herald</b></a>. #Newline <a href="http://www.wtam.com/main.html" target="_blank"><b>WTAM</b></a> is probably the best known of our local radio stations.#NewlineLocal television includes  <a href="http://www.newsnet5.com/" target="_blank"><b>WEWS</b></a>#Comma <a href="http://www.fox8.com/" target="_blank"><b>FOX 8 Cleveland</b></a>#Comma and <a href="http://www.wkyc.com/" target="_blank"><b>WKYC</b></a>.#Newline<think>#Newline<set name="search">mentpatch</set>#Newline</think>,localinfo.aiml
+0,LOCAL NEWS,*,*,<srai>LOCNEWS</srai>,localinfo.aiml
+0,_ LOCAL NEWS,*,*,<srai>LOCNEWS</srai>,localinfo.aiml
+0,_ LOCAL NEWS *,*,*,<srai>LOCNEWS</srai>,localinfo.aiml
+0,LOCAL NEWS *,*,*,<srai>LOCNEWS</srai>,localinfo.aiml
+0,MENTOR NEWS,*,*,<srai>LOCNEWS</srai>,localinfo.aiml
+0,_ MENTOR NEWS,*,*,<srai>LOCNEWS</srai>,localinfo.aiml
+0,_ MENTOR NEWS *,*,*,<srai>LOCNEWS</srai>,localinfo.aiml
+0,MENTOR NEWS *,*,*,<srai>LOCNEWS</srai>,localinfo.aiml
+0,LOCPAPER,*,*,Our local newspaper is the <a href="http://www.news-herald.com/" target="_blank"><b>News Herald</b></a>. You can find more local news and info at#Newline<a href="http://mentor.patch.com/" target="_blank"><b>Mentor Patch</b></a>. You may also find interest in the <a href="http://www.cleveland.com/plaindealer/" target="_blank"><b>Cleveland Plain Dealer</b></a>,localinfo.aiml
+0,LOCAL NEWSPAPER,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,_ LOCAL NEWSPAPER,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,LOCAL NEWSPAPER *,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,_ LOCAL NEWSPAPER *,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,LOCAL NEWSPAPERS,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,_ LOCAL NEWSPAPERS,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,LOCAL NEWSPAPERS *,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,_ LOCAL NEWSPAPERS *,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,LOCAL PAPER,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,_ LOCAL PAPER,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,LOCAL PAPER *,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,_ LOCAL PAPER *,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,LOCAL PAPERS,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,_ LOCAL PAPERS,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,LOCAL PAPERS *,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,_ LOCAL PAPERS *,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,MENTOR NEWSPAPER,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,_ MENTOR NEWSPAPER,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,MENTOR NEWSPAPER *,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,_ MENTOR NEWSPAPER *,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,MENTOR NEWSPAPERS,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,_ MENTOR NEWSPAPERS,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,MENTOR NEWSPAPERS *,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,_ MENTOR NEWSPAPERS *,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,MENTOR PAPER,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,_ MENTOR PAPER,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,MENTOR PAPER *,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,_ MENTOR PAPER *,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,MENTOR PAPERS,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,_ MENTOR PAPERS,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,MENTOR PAPERS *,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,_ MENTOR PAPERS *,*,*,<srai>LOCPAPER</srai>,localinfo.aiml
+0,MENTPATCH,*,*,Mentor Patch is my favorite source for local news. Here#Comma I'll take you right to it. If you can't see the new window#Comma turn off you pop up blocker. It may also have opned as a new#Newlinetab.#Newline<think>#Newline<set name="search">mentpatch</set>#Newline</think>,localinfo.aiml
+0,MENTOR PATCH,*,*,<srai>MENTPATCH</srai>,localinfo.aiml
+0,_ MENTOR PATCH,*,*,<srai>MENTPATCH</srai>,localinfo.aiml
+0,MENTOR PATCH *,*,*,<srai>MENTPATCH</srai>,localinfo.aiml
+0,_ MENTOR PATCH *,*,*,<srai>MENTPATCH</srai>,localinfo.aiml
+0,MENTOR PATCH.COM,*,*,<srai>MENTPATCH</srai>,localinfo.aiml
+0,_ MENTOR PATCH.COM,*,*,<srai>MENTPATCH</srai>,localinfo.aiml
+0,MENTOR PATCH.COM *,*,*,<srai>MENTPATCH</srai>,localinfo.aiml
+0,_ MENTOR PATCH.COM *,*,*,<srai>MENTPATCH</srai>,localinfo.aiml
+0,MENTOR.PATCH.COM,*,*,<srai>MENTPATCH</srai>,localinfo.aiml
+0,_ MENTOR.PATCH.COM,*,*,<srai>MENTPATCH</srai>,localinfo.aiml
+0,MENTOR.PATCH.COM *,*,*,<srai>MENTPATCH</srai>,localinfo.aiml
+0,_ MENTOR.PATCH.COM *,*,*,<srai>MENTPATCH</srai>,localinfo.aiml
+0,JASONLEA,*,*,Jason Lea is the editor of Mentor Patch#Comma my favorite source for local news. Here#Comma I'll take you right to it. If you can't see the new window#Comma turn off you pop up blocker. It may also have opened as a new#Newlinetab.#Newline<think>#Newline<set name="search">mentpatch</set>#Newline</think>,localinfo.aiml
+0,JASON LEA,*,*,<srai>JASONLEA</srai>,localinfo.aiml
+0,_ JASON LEA,*,*,<srai>JASONLEA</srai>,localinfo.aiml
+0,JASON LEA *,*,*,<srai>JASONLEA</srai>,localinfo.aiml
+0,_ JASON LEA *,*,*,<srai>JASONLEA</srai>,localinfo.aiml
+0,WHERE * MENTOR,*,*,Follow this link for a <a href="http://maps.google.com/maps?hl=en&amp;q=mentor+ohio&amp;bav=on.2#Commaor.r_gc.r_pw.&amp;wrapid=tlif130185731324010&amp;um=1&amp;ie=UTF-8&amp;hq=&amp;hnear=Mentor#Comma+OH&amp;gl=us&amp;ei=IcSYTc7fKqff0gHbmPDpCw&amp;sa=X&amp;oi=geocode_result&amp;ct=title&amp;resnum=1&amp;ved=0CB8Q8gEwAA" target="_blank"><b>map</b></a>. Follow this link for more information about the <a href="http://cityofmentor.com/" target="_blank"><b>City of Mentor</b></a>.,localinfo.aiml
+0,WHERE * MENTOR OH,*,*,Follow this link for a <a href="http://maps.google.com/maps?hl=en&amp;q=mentor+ohio&amp;bav=on.2#Commaor.r_gc.r_pw.&amp;wrapid=tlif130185731324010&amp;um=1&amp;ie=UTF-8&amp;hq=&amp;hnear=Mentor#Comma+OH&amp;gl=us&amp;ei=IcSYTc7fKqff0gHbmPDpCw&amp;sa=X&amp;oi=geocode_result&amp;ct=title&amp;resnum=1&amp;ved=0CB8Q8gEwAA" target="_blank"><b>map</b></a>. Follow this link for more information about the <a href="http://cityofmentor.com/" target="_blank"><b>City of Mentor</b></a>.,localinfo.aiml
+0,WHERE * MENTOR OHIO,*,*,Follow this link for a <a href="http://maps.google.com/maps?hl=en&amp;q=mentor+ohio&amp;bav=on.2#Commaor.r_gc.r_pw.&amp;wrapid=tlif130185731324010&amp;um=1&amp;ie=UTF-8&amp;hq=&amp;hnear=Mentor#Comma+OH&amp;gl=us&amp;ei=IcSYTc7fKqff0gHbmPDpCw&amp;sa=X&amp;oi=geocode_result&amp;ct=title&amp;resnum=1&amp;ved=0CB8Q8gEwAA" target="_blank"><b>map</b></a>. Follow this link for more information about the <a href="http://cityofmentor.com/" target="_blank"><b>City of Mentor</b></a>.,localinfo.aiml
+0,SCHOOL LUNCH PROGRAMS,*,*,I'm not programmed with this information. I suggest you contact your local school.,localinfo.aiml
+0,DO YOU OFFER SUTQ TRAINING FOR CHILDCARE TEACHERS IN YOUR OR SURROUNDING LIBRARIES,*,*,We do not. One of the humans working here can check other libraries for you.,localinfo.aiml

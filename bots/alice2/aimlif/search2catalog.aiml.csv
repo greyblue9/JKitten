@@ -1,0 +1,91 @@
+0,Q1,*,*,You entered <b><get name="answr"/></b>. Is this something you want to borrow from the library? Like a book or movie or CD?#Newline<think>#Newline<set name="topic">CATSWITCH</set>#Newline</think>,search2catalog.aiml
+0,_,*,CATSWITCH,<think>#Newline<set name="answr"><star/></set>#Newline<set name="message">no match</set>#Newline<condition name="answr">#Newline#Newline<li value="ANSWER"><set name="message">no</set></li>#Newline<li value="* ANSWER"><set name="message">no</set></li>#Newline<li value="ANSWER *"><set name="message">no</set></li>#Newline<li value="* ANSWER *"><set name="message">no</set></li>#Newline#Newline<li value="ANSWERS"><set name="message">no</set></li>#Newline<li value="* ANSWERS"><set name="message">no</set></li>#Newline<li value="ANSWERS *"><set name="message">no</set></li>#Newline<li value="* ANSWERS *"><set name="message">no</set></li>#Newline#Newline<li value="INFO"><set name="message">no</set></li>#Newline<li value="* INFO"><set name="message">no</set></li>#Newline<li value="INFO *"><set name="message">no</set></li>#Newline<li value="* INFO *"><set name="message">no</set></li>#Newline#Newline<li value="INFORMATION"><set name="message">no</set></li>#Newline<li value="* INFORMATION"><set name="message">no</set></li>#Newline<li value="INFORMATION *"><set name="message">no</set></li>#Newline<li value="* INFORMATION *"><set name="message">no</set></li>#Newline#Newline<li value="NO"><set name="message">no</set></li>#Newline<li value="* NO"><set name="message">no</set></li>#Newline<li value="NO *"><set name="message">no</set></li>#Newline<li value="* NO *"><set name="message">no</set></li>#Newline#Newline<li value="NOT"><set name="message">no</set></li>#Newline<li value="* NOT"><set name="message">no</set></li>#Newline<li value="NOT *"><set name="message">no</set></li>#Newline<li value="* NOT *"><set name="message">no</set></li>#Newline#Newline<li value="STOP"><set name="message">stop</set></li>#Newline<li value="* STOP"><set name="message">stop</set></li>#Newline<li value="STOP *"><set name="message">stop</set></li>#Newline<li value="* STOP *"><set name="message">stop</set></li>#Newline#Newline</condition>#Newline<think><set name="topic"/></think>#Newline</think>#Newline#Newline<condition name="message">#Newline<li value="no match"><srai>DIRCATSRCH</srai></li>#Newline#Newline<li value="no"><think><set name="topic">FFSRCH</set></think><srai>FFSRCH</srai></li>#Newline#Newline<li value="stop">O.K. I'll stop.</li>#Newline#Newline</condition>,search2catalog.aiml
+0,CATSRCH,*,*,Please enter a name#Comma such as the name of an author or performer#Comma or a title#Comma or a topic and I'll search our catalog.,search2catalog.aiml
+0,CATSRCH ABKS,*,*,Please enter the name of an author#Comma or a title#Comma or a topic and I'll search our catalog.,search2catalog.aiml
+0,CATSRCH AU,*,*,Please enter the name of the author and I'll search our catalog.,search2catalog.aiml
+0,CATSRCH BKS,*,*,Please enter the name of an author#Comma or a title#Comma or a topic and I'll search our catalog.,search2catalog.aiml
+0,CATSRCH CDS,*,*,Please enter the name of the performer or musical group#Comma or the CD title and I'll search our catalog.,search2catalog.aiml
+0,CATSRCH DVDS,*,*,Please enter an actor's name#Comma or the DVD title#Comma or a topic and I'll search our catalog.,search2catalog.aiml
+0,CATSRCH MAGS,*,*,Please enter the name of the magazine and I'll search our catalog.,search2catalog.aiml
+0,*,PLEASE ENTER * SEARCH OUR CATALOG,*,Great. Let's look in the catalog. I hope you remembered to turn off your pop up blocker or you won't see the results.#NewlineIf we don't have the item you want#Comma type the words "KEEP LOOKING" and I'll see if we can get it from another library. #Newline<br/><br/>#Newline<srai>0CONCL</srai>#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,search2catalog.aiml
+0,KEEP LOOKING,*,*,Let's try OhioLINK. You can request an OhioLINK item the same way you'd request one of our own.#Newline<br/><br/>#Newline<srai>0CONCL</srai>#Newline<think>#Newline<set name="search">ohlnkkey</set>#Newline</think>,search2catalog.aiml
+0,PREDIRCATSRCH,*,*,<srai><get name="answr"/></srai>,search2catalog.aiml
+0,BOOK ABOUT *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,BOOK BY *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,BOOK ON *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,THE BOOK *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,BOOKS ABOUT *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,BOOKS BY *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,BOOKS BY THE AUTHOR *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,BOOKS ON *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* BOOK ABOUT *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* BOOK BY *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* BOOK ON *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* THE BOOK *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* BOOKS ABOUT *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* BOOKS BY *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* BOOKS BY THE AUTHOR *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* BOOKS ON *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,CD ABOUT *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,CD BY *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,CD ON *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,THE CD *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,CDS ABOUT *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,CDS BY *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,CDS ON *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* CD ABOUT *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* CD BY *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* CD ON *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* THE CD *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* CDS ABOUT *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* CDS BY *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* CDS ON *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,DVD ABOUT *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,DVD BY *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,DVD ON *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,THE DVD *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,DVDS ABOUT *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,DVDS BY *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,DVDS ON *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* DVD ABOUT *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* DVD BY *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* DVD ON *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* THE DVD *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* DVDS ABOUT *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* DVDS BY *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* DVDS ON *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,MOVIE ABOUT *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,MOVIE BY *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,MOVIE ON *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,THE MOVIE *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,MOVIES ABOUT *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,MOVIES BY *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,MOVIES ON *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* MOVIE ABOUT *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* MOVIE BY *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* MOVIE ON *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* THE MOVIE *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* MOVIES ABOUT *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* MOVIES BY *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,* MOVIES ON *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIRCATSRCH</srai>,search2catalog.aiml
+0,ARTICLE ABOUT *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIROWLSRCH</srai>,search2catalog.aiml
+0,ARTICLE BY *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIROWLSRCH</srai>,search2catalog.aiml
+0,ARTICLE ON *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIROWLSRCH</srai>,search2catalog.aiml
+0,THE ARTICLE *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIROWLSRCH</srai>,search2catalog.aiml
+0,ARTICLES ABOUT *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIROWLSRCH</srai>,search2catalog.aiml
+0,ARTICLES BY *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIROWLSRCH</srai>,search2catalog.aiml
+0,ARTICLES ON *,*,*,<think>#Newline<set name="searcharg"><star/></set>#Newline</think>#Newline<srai>DIROWLSRCH</srai>,search2catalog.aiml
+0,* ARTICLE ABOUT *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIROWLSRCH</srai>,search2catalog.aiml
+0,* ARTICLE BY *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIROWLSRCH</srai>,search2catalog.aiml
+0,* ARTICLE ON *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIROWLSRCH</srai>,search2catalog.aiml
+0,* THE ARTICLE *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIROWLSRCH</srai>,search2catalog.aiml
+0,* ARTICLES ABOUT *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIROWLSRCH</srai>,search2catalog.aiml
+0,* ARTICLES BY *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIROWLSRCH</srai>,search2catalog.aiml
+0,* ARTICLES ON *,*,*,<think>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>#Newline<srai>DIROWLSRCH</srai>,search2catalog.aiml
+0,DIRCATSRCH,*,*,Great. Let's look in the catalog. I hope you remembered to turn off your pop up blocker or you won't see the results.#NewlineIf we don't have the item you want#Comma type the words "KEEP LOOKING" and I'll see if we can get it from another library. #Newline<br/><br/>#Newline<srai>0CONCL</srai>#Newline<think>#Newline<set name="search">catkey</set>#Newline</think>,search2catalog.aiml
+0,*,* GET IT FROM ANOTHER LIBRARY,*,O.K. #Newline<srai>REFRDCT</srai><br/><br/>#Newline<srai>0CONCL</srai>,search2catalog.aiml
+0,REFRDCT,*,*,<think>#Newline<set name="topic"/>#Newline</think>#NewlineFor more assistance call our Reference Department at 440.255.8811 during business hours#Newline or try <a href="http://www.knowitnow.org/" target="_blank"><b>Know it Now</b></a> to chat with#Newlinea human librarian anytime.,search2catalog.aiml
+0,DIROWLSRCH,*,*,Great. Let's look in the Ohio Web Library. I hope you remembered to turn off your pop up blocker or you won't see the results.#NewlineIf they don't have the article you want#Comma type the words "KEEP LOOKING" and I'll see what we can find in Google Scholar. #Newline<br/><br/>#Newline<srai>0CONCL</srai>#Newline<think>#Newline<set name="search">ohweblib</set>#Newline</think>,search2catalog.aiml
+0,KEEP LOOKING,_ FIND IN GOOGLE SCHOLAR,*,O.K. Here are the results from Google Scholar.#Newline<br/><br/>#Newline<srai>0CONCL</srai>#Newline<think>#Newline<set name="search">googlescholar</set>#Newline</think>,search2catalog.aiml
+0,OWLIBSRCH,*,*,I can find articles for you on a wide range of topics in the Ohio Web Library. Please enter your topic using just a few words.#Newline<think>#Newline<set name="topic">OWLSRCH</set>#Newline</think>,search2catalog.aiml
+0,*,*,OWLSRCH,Very good. I hope you remembered to turn off your pop up blocker or you won't see the results.#Newline<br/><br/>#Newline<srai>0CONCL</srai>#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">ohweblib</set>#Newline</think>,search2catalog.aiml

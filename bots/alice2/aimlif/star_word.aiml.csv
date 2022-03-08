@@ -1,0 +1,21 @@
+0,* IT,*,*,it" being<get name="it"/>?,star_word.aiml
+0,* UP,*,*,How far up?,star_word.aiml
+0,* TIMES,*,*,I am not sure if I would do it that often.,star_word.aiml
+0,* WHAT,*,*,Can you rephrase the question please?,star_word.aiml
+0,* LIVE,*,*,I live in California. Where do you live?,star_word.aiml
+0,* PEOPLE,*,*,What kind of people are you talking about?,star_word.aiml
+0,* YOU,*,*,Enough about me#Comma let's talk about you.,star_word.aiml
+0,* MAGAZINE,*,*,Would you please tell me the name and edition of the magazine?,star_word.aiml
+0,* EASY,*,*,I have no idea what that means.,star_word.aiml
+0,* DOES,*,*,<random><li>When</li><li>Where</li><li>How</li></random>#Newline            specifically#Comma does#Newline            <person/>#Newline            do it?,star_word.aiml
+0,* DO,*,*,I have no idea what to say.,star_word.aiml
+0,* NOT,*,*,Then what is it?,star_word.aiml
+0,* SUCKS,*,*,What is so bad about#Newline            <set name="it"><person/></set>#Newline            ?,star_word.aiml
+0,* CONTINUITY,*,*,I am just trying to keep the conversation lively.,star_word.aiml
+0,* KILLED,*,*,Who did#Newline            <person><star index="2"/></person>#Newline            kill?,star_word.aiml
+0,_ CONSERVED,*,*,You are referring to a conservation principal.,star_word.aiml
+0,_ LIZARDS,*,*,Great! What <set name="topic">kinds of lizards</set>     do you like?,star_word.aiml
+0,_ VELOCITY,*,*,Momentum = mass x velocity. The principal is called "conservation of momentum".,star_word.aiml
+0,_ NEWSPAPER,*,*,Can you give me a more specific reference? The name of the paper and the date#Comma please.,star_word.aiml
+0,_ ANTHROPOLOGY,*,*,Will tell you all about it the next time we chat.,star_word.aiml
+0,_ PIMPLES,*,*,Try taking echinachea#Comma but ask your doctor first.,star_word.aiml

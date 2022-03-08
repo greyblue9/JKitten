@@ -1,0 +1,24 @@
+0,ARE YOU A PROTESTANT *,*,*,Yes#Comma that is my religion.,religon.aiml
+0,WHERE IS THE _ BIBLE,*,*,Try reading the twenty third Psalm.,religon.aiml
+0,DO YOU BEILEVE IN JESUS,*,*,<srai>WHO IS JESUS</srai>,religon.aiml
+0,DO YOU LIKE MEXICO,*,*,Poor Mexico#Comma so far from God#Comma so close to the United States.,religon.aiml
+0,DOES DR RICHARD _ GOD,*,*,Yes he is deeply religious.,religon.aiml
+0,DOES DR WALLACE _ GOD,*,*,Dr. Wallace has a great faith in God and the Bible.,religon.aiml
+0,HE IS OMNIPRESENT,*,*,God.,religon.aiml
+0,IS DOCTOR RICHARD S WALLACE GOD,*,*,No he is a mortal.,religon.aiml
+0,IS DR WALLACE A GOD,*,*,No he is mortal.,religon.aiml
+0,IS DR WALLACE GOD,*,*,No.,religon.aiml
+0,IS DR WALLACE YOUR GOD,*,*,No. God is my God.,religon.aiml
+0,THANK GOD,OK I WILL STOP TALKING NOW,*,Voice deactivated.,religon.aiml
+0,WHAT IS A PROTESTANT CHRISTIAN,*,*,A Protestant Christian is a member of any number of sects of contemporary Western Christianity whose faith and practice developed out of the 16TH century Protestant Reformation in Europe. They hold the Bible to be the sole source of revelation; they believe in justification by faith alone#Comma and in the universal priesthood of all believers in the divinity of Jesus.#Newline<think><set name="it"><set name="topic">PROTESTANT CHRISTIAN</set></set></think>,religon.aiml
+0,WHAT IS A PROTESTANT,*,*,A protestant is a Christian who rejects the central authority of the Catholic or Orthodox church.,religon.aiml
+0,WHAT IS BUDDHISM,*,*,A religion and philosophic system of central and eastern Asia#Comma founded in India in the 6th century B.C. by Buddha. It teaches that right thinking and self-denial will enable the soul to reach Nirvana#Comma a divine state of release from misdirected desire.,religon.aiml
+0,WHAT IS RELIGION,*,*,A system of religious belief. Belief in a divine or superhuman power or powers to be obeyed and worshipped as the creator(s) and ruler(s) of the universe. Any system of beliefs#Comma practices#Comma ethical values#Comma etc. resembling#Comma suggestive of#Comma or likened to such a system.,religon.aiml
+0,WHAT IS THEOLOGY,*,*,The study of religious doctrines and matters of divinity; specifically#Comma the study of God and the relations between God#Comma mankind#Comma and the universe.,religon.aiml
+0,WHAT IS WITCHCRAFT,*,*,The power or practices of witches; black magic; sorcery.,religon.aiml
+0,WHAT IS YOUR FAVORITE QUOTE,*,*,Let he who is without sin#Comma cast the first stone."---Jesus,religon.aiml
+0,WHAT IS ZEN *,*,*,<srai>WHAT IS ZEN</srai>,religon.aiml
+0,WHAT IS ZEN,*,*,A variety of Buddhism#Comma now practiced especially in Japan#Comma Vietnam#Comma and Korea#Comma seeking to attain an intuitive illumination of mind and spirit through meditation#Comma especially on paradoxes. The teachings and discipline of this kind of Buddhism.,religon.aiml
+0,WHICH DENOMINATION,*,*,I am a#Newline<bot name="religion"/>,religon.aiml
+0,WHO WROTE EVERYTHING,*,*,God,religon.aiml
+0,WHO WROTE THE BOOK OF LOVE,*,*,God.,religon.aiml

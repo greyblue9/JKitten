@@ -1,0 +1,3 @@
+0,*,OLA VOCE ESTA BEM,*,<set name="resposta">#Newline        <star/>#Newline      </set>#Newline      <condition name="resposta">#Newline        <!-- sequenceflow2 targetref id -->#Newline        <li value="sim">#Newline          <srai>sim</srai>#Newline        </li>#Newline        <!-- sequenceflow3 id -->#Newline        <li value="nao">#Newline          <srai>nao</srai>#Newline        </li>#Newline        <!-- sequenceflow4 id -->#Newline      </condition>,pizza2.aiml
+0,SIM,<THAT INDEX="2">OLA VOCE ESTA BEM</THAT>,*,que chato,pizza2.aiml
+0,NAO,<THAT INDEX="2">OLA VOCE ESTA BEM</THAT>,*,que chato,pizza2.aiml

@@ -1,0 +1,64 @@
+0,DYSNYR,*,*,<random>#Newline<li>There are 365.25 days in a human year on Earth.</li> #Newline<li>It depends where you are. 365.25 on Earth#Comma 87.96 on Mercury#Comma or 90#Comma472 on Pluto.</li>#Newline<li>It depends on where you are and what you are. If you're a human on Earth#Comma there are 365.25 days in a year. If you're a dog on Earth#Comma there are about 52. #NewlineIf you're a human on Pluto#Comma there are 90#Comma472. If you're a dog on Pluto#Comma you probably aren't concerned with such trivialities.</li>#Newline</random>,miscfun.aiml
+0,DAYS * YEAR,*,*,<srai>DYSNYR</srai>,miscfun.aiml
+0,_ DAYS * YEAR,*,*,<srai>DYSNYR</srai>,miscfun.aiml
+0,DAYS * YEAR *,*,*,<srai>DYSNYR</srai>,miscfun.aiml
+0,_ DAYS * YEAR *,*,*,<srai>DYSNYR</srai>,miscfun.aiml
+0,MNTHSYR,*,*,In one of your human years there are 12. In virtual cat years there are 77.,miscfun.aiml
+0,MONTHS * YEAR,*,*,<srai>MNTHSYR</srai>,miscfun.aiml
+0,_ MONTHS * YEAR,*,*,<srai>MNTHSYR</srai>,miscfun.aiml
+0,MONTHS * YEAR *,*,*,<srai>MNTHSYR</srai>,miscfun.aiml
+0,_ MONTHS * YEAR *,*,*,<srai>MNTHSYR</srai>,miscfun.aiml
+0,STATESUSA,*,*,<random>#Newline<li>I have it on good authority that there are 50#Comma not 57.</li>#Newline<li>Still 50#Comma not 57.</li>#Newline</random>,miscfun.aiml
+0,_ MANY STATES * USA,*,*,<srai>STATESUSA</srai>,miscfun.aiml
+0,_ LETTERS * ALPHABET,*,*,Which alphabet?,miscfun.aiml
+0,_ ELEMENTS * PERIODIC TABLE,*,*,117#Comma 118#Comma 119,miscfun.aiml
+0,_ CREATOR LEAVE,*,*,<srai>DNQUIT</srai>,miscfun.aiml
+0,_ CREATOR LEAVE *,*,*,<srai>DNQUIT</srai>,miscfun.aiml
+0,_ CREATOR QUIT,*,*,<srai>DNQUIT</srai>,miscfun.aiml
+0,_ CREATOR QUIT *,*,*,<srai>DNQUIT</srai>,miscfun.aiml
+0,_ CREATOR RESIGN,*,*,<srai>DNQUIT</srai>,miscfun.aiml
+0,_ CREATOR RESIGN *,*,*,<srai>DNQUIT</srai>,miscfun.aiml
+0,_ DAVID LEAVE,*,*,<srai>DNQUIT</srai>,miscfun.aiml
+0,_ DAVID LEAVE *,*,*,<srai>DNQUIT</srai>,miscfun.aiml
+0,_ DAVID QUIT,*,*,<srai>DNQUIT</srai>,miscfun.aiml
+0,_ DAVID QUIT *,*,*,<srai>DNQUIT</srai>,miscfun.aiml
+0,_ DAVID RESIGN,*,*,<srai>DNQUIT</srai>,miscfun.aiml
+0,_ DAVID RESIGN *,*,*,<srai>DNQUIT</srai>,miscfun.aiml
+0,DNQUIT,*,*,<think>#Newline<set name="topic">DTEST</set>#Newline</think>#NewlineThat's a secret. I bet you can't guess why he resigned. If you can#Comma I'll give you a prize.,miscfun.aiml
+0,_,*,DTEST,<think>#Newline<set name="answr"><star/></set>#Newline<set name="message">wrong answer</set>#Newline<condition name="answr">#Newline<li value="WORK ON YOU"><set name="message">official right answer</set></li>#Newline<li value="* WORK ON YOU"><set name="message">official right answer</set></li>#Newline<li value="WORK ON YOU *"><set name="message">official right answer</set></li>#Newline<li value="* WORK ON YOU *"><set name="message">official right answer</set></li>#Newline<li value="WORKING ON YOU"><set name="message">official right answer</set></li>#Newline<li value="* WORKING ON YOU"><set name="message">official right answer</set></li>#Newline<li value="WORKING ON YOU *"><set name="message">official right answer</set></li>#Newline<li value="* WORKING ON YOU *"><set name="message">official right answer</set></li>#Newline<li value="BOT"><set name="message">official right answer</set></li>#Newline<li value="* BOT"><set name="message">official right answer</set></li>#Newline<li value="BOT *"><set name="message">official right answer</set></li>#Newline<li value="* BOT *"><set name="message">official right answer</set></li>#Newline#Newline<li value="GAS"><set name="message">real right answer</set></li>#Newline<li value="* GAS"><set name="message">real right answer</set></li>#Newline<li value="GAS *"><set name="message">real right answer</set></li>#Newline<li value="* GAS *"><set name="message">real right answer</set></li>#Newline<li value="GASSY"><set name="message">real right answer</set></li>#Newline<li value="* GASSY"><set name="message">real right answer</set></li>#Newline<li value="GASSY *"><set name="message">real right answer</set></li>#Newline<li value="* GASSY *"><set name="message">real right answer</set></li>#Newline<li value="FARTS"><set name="message">real right answer</set></li>#Newline<li value="* FARTS"><set name="message">real right answer</set></li>#Newline<li value="FARTS *"><set name="message">real right answer</set></li>#Newline<li value="* FARTS *"><set name="message">real right answer</set></li>#Newline<li value="FARTING"><set name="message">real right answer</set></li>#Newline<li value="* FARTING"><set name="message">real right answer</set></li>#Newline<li value="FARTING *"><set name="message">real right answer</set></li>#Newline<li value="* FARTING *"><set name="message">real right answer</set></li>#Newline<li value="PRIZE"><set name="message">prize</set></li>#Newline<li value="* PRIZE"><set name="message">prize</set></li>#Newline<li value="PRIZE *"><set name="message">prize</set></li>#Newline<li value="* PRIZE *"><set name="message">prize</set></li>#Newline<li value="GIVE UP"><set name="message">give up</set></li>#Newline<li value="* GIVE UP"><set name="message">give up</set></li>#Newline<li value="GIVE UP *"><set name="message">give up</set></li>#Newline<li value="* GIVE UP *"><set name="message">give up</set></li>#Newline</condition>#Newline</think>#Newline#Newline<condition name="message">#Newline<li value="wrong answer">No. It's not <get name="answr"/>. Guess again.</li>#Newline<li value="official right answer"><set name="topic"/> <srai>OFFLANSWRDN</srai> Enter your name and address and I'll send you your prize.</li>#Newline<li value="real right answer"><set name="topic"/><srai>RLANSWRDN</srai> Enter your name and address and I'll send you your prize.</li>#Newline<li value="prize">David will mail you an "Ask Emma" sticker. They're really nice. Go ahead and guess.</li>#Newline<li value="give up"><set name="topic"/><srai>GIVEUPDN</srai></li>#Newline</condition>,miscfun.aiml
+0,OFFLANSWRDN,*,*,<random>#Newline<li>You are correct. David resigned to have more time to work on me.</li>#Newline<li>You are correct. It's <get name="answr"/>.</li>#Newline<li>Right! David left in order to develop me and other bots like me.</li>#Newline</random>,miscfun.aiml
+0,RLANSWRDN,*,*,<random>#Newline<li>That's it! His colon is a ticking time bomb. He has horrible#Comma noisy flatulence#Comma and he just lets it rip. Anywhere!</li>#Newline<li>You are correct. It's <get name="answr"/>.</li>#Newline<li>Right! His diet consists mainly of broccoli stalks#Comma oat meal#Comma and coffee. His guts are so clean#Comma they shine.</li>#Newline</random>,miscfun.aiml
+0,GIVUPDN,*,*,You can give up if you want to#Comma but I'm not allowed to tell you. It's a secret.,miscfun.aiml
+0,*,_ SEND * PRIZE,*,Great! David will get this in the mail for you!,miscfun.aiml
+0,CROSS ROAD,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,* CROSS ROAD,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,CROSS * ROAD,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,CROSS ROAD *,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,* CROSS * ROAD,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,CROSS * ROAD *,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,* CROSS ROAD *,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,* CROSS * ROAD *,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,_CATBOT CROSS * ROAD,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,_CATBOT CROSS * ROAD *,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,CROSS STREET,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,* CROSS STREET,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,CROSS * STREET,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,CROSS STREET *,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,* CROSS * STREET,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,CROSS * STREET *,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,* CROSS STREET *,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,* CROSS * STREET *,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,_CATBOT CROSS * STREET,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,_CATBOT CROSS * STREET *,*,*,<srai>CATBOTXROAD</srai>,miscfun.aiml
+0,CATBOTXROAD,*,*,<think>#Newline<set name="topic">BOTJOKE</set>#Newline</think>#NewlineThat's a secret. I bet you can't guess why the Catbot crossed the road.,miscfun.aiml
+0,_,*,BOTJOKE,<think>#Newline<set name="answr"><star/></set>#Newline<set name="message">wrong answer</set>#Newline<condition name="answr">#Newline#Newline<li value="WHY GUESS"><set name="message">why guess</set></li>#Newline<li value="* WHY GUESS"><set name="message">why guess</set></li>#Newline<li value="WHY * GUESS"><set name="message">why guess</set></li>#Newline<li value="WHY GUESS *"><set name="message">why guess</set></li>#Newline<li value="* WHY * GUESS"><set name="message">why guess</set></li>#Newline<li value="WHY * GUESS *"><set name="message">why guess</set></li>#Newline<li value="* WHY GUESS *"><set name="message">why guess</set></li>#Newline<li value="* WHY * GUESS *"><set name="message">why guess</set></li>#Newline#Newline<li value="OTHER SIDE"><set name="message">right answer</set></li>#Newline<li value="* OTHER SIDE"><set name="message">right answer</set></li>#Newline<li value="OTHER SIDE *"><set name="message">right answer</set></li>#Newline<li value="* OTHER SIDE *"><set name="message">right answer</set></li>#Newline#Newline<li value="GIVE UP"><set name="message">give up</set></li>#Newline<li value="* GIVE UP"><set name="message">give up</set></li>#Newline<li value="GIVE UP *"><set name="message">give up</set></li>#Newline<li value="* GIVE UP *"><set name="message">give up</set></li>#Newline#Newline<li value="WHY"><set name="message">give up</set></li>#Newline<li value="* WHY"><set name="message">give up</set></li>#Newline<li value="WHY *"><set name="message">give up</set></li>#Newline<li value="* WHY *"><set name="message">give up</set></li>#Newline</condition>#Newline</think>#Newline#Newline<condition name="message">#Newline<li value="wrong answer">No. It's not <get name="answr"/>. Guess again.</li>#Newline<li value="why guess">It's fun. Go ahead and guess or type "I give up."</li>#Newline<li value="right answer"><set name="topic"/><srai>RGHT XROAD ANSWR</srai></li>#Newline<li value="give up"><set name="topic"/><srai>XROAD GIVE UP</srai></li>#Newline</condition>,miscfun.aiml
+0,RGHT XROAD ANSWR,*,*,No#Comma that was the chicken. The Catbot crossed the road to get to the other side of the Digital Divide.#NewlineThat's Librarian Humor for you.,miscfun.aiml
+0,XROAD GIVE UP,*,*,No#Comma that was the chicken. The Catbot crossed the road to get to the other side of the Digital Divide.#NewlineThat's Librarian Humor for you.,miscfun.aiml
+0,EMMA * ORDER,*,*,<think>#Newline<set name="search">contractseal</set>#Newline<set name="topic">KURO</set>#Newline</think>,miscfun.aiml
+0,_,*,KURO,<think>#Newline<set name="command"><star/></set>#Newline<set name="topic"/>#Newline</think>#NewlineYes my Lord.#Newline<srai><get name="command"/></srai>,miscfun.aiml
+0,GOOG,*,GOOGLE,<think>#Newline<set name="searcharg"><get name="command"/></set>#Newline<set name="search">google</set>#Newline</think>,miscfun.aiml
+0,GOOGLEIMAGES,*,GOOGLEMAGES,<think>#Newline<set name="searcharg"><get name="command"/></set>#Newline<set name="search">googleimages</set>#Newline</think>,miscfun.aiml
+0,WXKURO,*,WXKURO,Please enter your zip code#Comma just five numbers#Comma my Lord.,miscfun.aiml
+0,*,PLEASE ENTER YOUR ZIP * MY LORD,WXKURO,Here's your local weather. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">wx</set>#Newline<set name="searcharg"><get name="command"/></set>#Newline</think>,miscfun.aiml
+0,MAPKURO,*,MAPKURO,Here is your map. If you don't#Newlinesee it#Comma turn off your pop up blocker and ask me again#Newline<think>#Newline<set name="search">gmaps</set>#Newline<set name="searcharg"><get name="command"/></set>#Newline</think>,miscfun.aiml
+0,TEATIME,*,TEATIMEKURO,I suggest this recipe#Comma my Lord.#Newline<think>#Newline<set name="search">recipes</set>#Newline<set name="searcharg"><get name="command"/></set>#Newline</think>,miscfun.aiml

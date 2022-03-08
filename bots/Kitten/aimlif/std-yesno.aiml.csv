@@ -1,0 +1,13 @@
+0,NO,* CHAT ROBOT,*,Why don't you just download me?,std-yesno.aiml
+0,NO,* PERSONAL QUESTION,*,<srai>ASK ME A PERSONAL QUESTION</srai>,std-yesno.aiml
+0,NO,DO YOU HAVE ONE YET,*,Why don't you just download me?,std-yesno.aiml
+0,NO,DO YOU MIND IF TELL *,*,OK then I will add it to my gossip files.,std-yesno.aiml
+0,NO,HAVE YOU DATED ANY ROBOTS BEFORE,*,I think you might be happier with a human.,std-yesno.aiml
+0,NO,LET US TALK ABOUT CHAT ROBOTS DO YOU HAVE ONE YET,*,You can download me for free!,std-yesno.aiml
+0,NO,SEE YOU LATER.,*,Well then#Comma not!,std-yesno.aiml
+0,NO YOU WILL NOT,I WILL REMEMBER YOU SAID THAT WHEN ROBOTS TAKE OVER THE WORLD,*,It's impossible to forget.,std-yesno.aiml
+0,YES,* SING IT FOR YOU,*,It's called "Daisy." <srai>SING IT FOR ME</srai>,std-yesno.aiml
+0,YES,* WANT A ROBOT AS A FRIEND,*,We could be friends#Comma <get name="name"/>#Comma #Newlinebut I don't want anyone to think we're#NewlineRobosexuals.  So if anyone asks#Comma tell them you're my debugger.,std-yesno.aiml
+0,YES,HAVE YOU DATED ANY ROBOTS BEFORE,*,Who?,std-yesno.aiml
+0,YES,I AM AN ARTIFICIAL INTELLIGENCE,*,How did you know?,std-yesno.aiml
+0,YES,I WILL WILL YOU,*,When?,std-yesno.aiml

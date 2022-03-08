@@ -1,0 +1,48 @@
+0,SEND A MESSAGE TO *,*,*,<srai>TEXT#Newline                <star/>#Newline            </srai>,sms.aiml
+0,$TEXT MY *,*,*,<srai>TEXT#Newline                <star/>#Newline            </srai>,sms.aiml
+0,$TEXT TO *,*,*,<srai>TEXT#Newline                <star/>#Newline            </srai>,sms.aiml
+0,SAY HELLO TO *,*,*,<srai>TEXT#Newline                <star/>#Newline                SAYING Hello#Newline            </srai>,sms.aiml
+0,$SEND MY * A TEXT MESSAGE SAYING *,*,*,<srai>TEXT#Newline                <star/>#Newline                SAYING#Newline                <star index="2"/>#Newline            </srai>,sms.aiml
+0,SEND * A MESSAGE,*,*,<srai>TEXT#Newline                <star/>#Newline            </srai>,sms.aiml
+0,TEXT * HI,*,*,<srai>TEXT#Newline                <star/>#Newline                SAYING HI#Newline            </srai>,sms.aiml
+0,TEXT MESSAGES,*,*,<srai>SEND A TEXT</srai>,sms.aiml
+0,CAN YOU SEND A TEXT MESSAGE,*,*,<srai>TEXT</srai>,sms.aiml
+0,CAN YOU SEND A TEXT,*,*,<srai>TEXT</srai>,sms.aiml
+0,SEND * A TEXT,*,*,<srai>TEXT#Newline                <star/>#Newline            </srai>,sms.aiml
+0,TEXT MESSAGE *,*,*,<srai>TEXT#Newline                <star/>#Newline            </srai>,sms.aiml
+0,TEXT MESSAGE,*,*,<srai>SEND A TEXT</srai>,sms.aiml
+0,SEND A TEXT MESSAGE TO *,*,*,<srai>TEXT#Newline                <star/>#Newline            </srai>,sms.aiml
+0,SEND MESSAGE TO *,*,*,<srai>TEXT#Newline                <star/>#Newline            </srai>,sms.aiml
+0,SEND TEXT MESSAGE,*,*,<srai>SMS</srai>,sms.aiml
+0,SEND A TEXT,*,*,<srai>SMS</srai>,sms.aiml
+0,SEND A TEXT TO *,*,*,<srai>TEXT#Newline                <star/>#Newline            </srai>,sms.aiml
+0,SEND TEXT,*,*,<srai>TEXT</srai>,sms.aiml
+0,SEND TEXT TO *,*,*,<srai>TEXT#Newline                <star/>#Newline            </srai>,sms.aiml
+0,TEXT,*,*,<srai>SMS</srai>,sms.aiml
+0,SEND * A TEXT SAYING *,*,*,<srai>TEXT#Newline                <star/>#Newline                SAYING#Newline                <star index="2"/>#Newline            </srai>,sms.aiml
+0,SAY HI TO *,*,*,<srai>TEXT#Newline                <star/>#Newline                SAYING Hi#Newline            </srai>,sms.aiml
+0,CAN YOU TEXT *,*,*,<srai>TEXT#Newline                <star/>#Newline            </srai>,sms.aiml
+0,SEND TEXT MESSAGE TO *,*,*,<srai>TEXT#Newline                <star/>#Newline            </srai>,sms.aiml
+0,SEND A TEXT MESSAGE TO MY *,*,*,<srai>TEXT MY#Newline                <star/>#Newline            </srai>,sms.aiml
+0,SEND A TEXT *,*,*,<srai>TEXT#Newline                <star/>#Newline            </srai>,sms.aiml
+0,SEND AN SMS,*,*,<srai>SEND A TEXT</srai>,sms.aiml
+0,MESSAGE,*,*,<srai>SMS</srai>,sms.aiml
+0,$TEXT * * I *,*,*,<srai>SMS#Newline                <star/>#Newline                <star index="2"/>#Newline                SMESSAGE I#Newline                <star index="3"/>#Newline            </srai>,sms.aiml
+0,$TEXT * I *,*,*,<srai>SMS#Newline                <star/>#Newline                SMESSAGE I#Newline                <star index="2"/>#Newline            </srai>,sms.aiml
+0,TELL * I *,*,*,<srai>SMS#Newline                <star/>#Newline                SMESSAGE I#Newline                <star index="2"/>#Newline            </srai>,sms.aiml
+0,TELL * *,*,*,<srai>SMS#Newline                <star/>#Newline                SMESSAGE#Newline                <star index="2"/>#Newline            </srai>,sms.aiml
+0,$TEXT * *,*,*,<srai>SMS#Newline                <star/>#Newline                SMESSAGE#Newline                <star index="2"/>#Newline            </srai>,sms.aiml
+0,$TEXT *,*,*,<srai>SMS#Newline                <star/>#Newline            </srai>,sms.aiml
+0,$SMS MY *,*,*,<srai>SMS#Newline                <star/>#Newline            </srai>,sms.aiml
+0,COMPOSE MESSAGE,*,*,<srai>SMS</srai>,sms.aiml
+0,SEND SMS,*,*,<srai>SMS</srai>,sms.aiml
+0,$SEND SMS TO *,*,*,<srai>SMS#Newline                <star/>#Newline            </srai>,sms.aiml
+0,SEND MESSAGE,*,*,<srai>SMS</srai>,sms.aiml
+0,$MESSAGE *,*,*,<srai>SMS#Newline                <star/>#Newline            </srai>,sms.aiml
+0,$SEND TEXT MESSAGE TO *,*,*,<srai>SMS#Newline                <star/>#Newline            </srai>,sms.aiml
+0,WHERE IS MY       <SET>FAMILIARNAME</SET>,*,*,<srai>SMS#Newline                <star/>#Newline                SMESSAGE Where are you#Newline            </srai>,sms.aiml
+0,LET * KNOW *,*,*,<srai>SMS#Newline                <star/>#Newline                SMESSAGE#Newline                <star index="2"/>#Newline            </srai>,sms.aiml
+0,LET * KNOW * VIA TEXT,*,*,<srai>SMS#Newline                <star/>#Newline                SMESSAGE#Newline                <star index="2"/>#Newline            </srai>,sms.aiml
+0,LET MY * KNOW *,*,*,<srai>SMS#Newline                <star/>#Newline                SMESSAGE#Newline                <star index="2"/>#Newline            </srai>,sms.aiml
+0,LET MY * KNOW * VIA TEXT,*,*,<srai>SMS#Newline                <star/>#Newline                SMESSAGE#Newline                <star index="2"/>#Newline            </srai>,sms.aiml
+0,SEND TEXT *,*,*,<srai>SMS#Newline                <star/>#Newline            </srai>,sms.aiml

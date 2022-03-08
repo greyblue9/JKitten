@@ -1,0 +1,134 @@
+0,MORE WEATHER,*,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,MORE ABOUT WEATHER,*,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,BROWSE WEATHER,*,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,CAN WE TALK ABOUT WEATHER,*,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,SHALL WE TALK ABOUT WEATHER,*,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,LETS TALK ABOUT WEATHER,*,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,LET S TALK ABOUT WEATHER,*,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,TALK ABOUT WEATHER,*,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,TALK WEATHER,*,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,TELL ME WEATHER,*,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,NO MORE WEATHER,*,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,NO WEATHER,*,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,* NO WEATHER,*,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,NO WEATHER *,*,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,_ NO * WEATHER,*,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,NO * WEATHER,*,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,NO _ WEATHER *,*,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,NOT WEATHER,*,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,* NOT WEATHER,*,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,NOT WEATHER *,*,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,_ NOT * WEATHER,*,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,I AM NOT INTERESTED IN WEATHER,*,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,IM NOT INTERESTED IN WEATHER,*,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,I M NOT INTERESTED IN WEATHER,*,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,NOT INTERESTED IN WEATHER,*,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,* NOT INTERESTED IN WEATHER,*,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,YES,MORE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,* YES,MORE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,YES *,MORE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,_ YES *,MORE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,Y,MORE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,YUP,MORE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,YAH,MORE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,YEAH,MORE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,OK,MORE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,NO,MORE WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,* NO,MORE WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,NO *,MORE WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,N,MORE WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,NUP,MORE WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,NAH,MORE WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,YES,MORE ABOUT WEATHER,*,<srai>MORE ABOUT WEATHER</srai>,chomsky108.aiml
+0,* YES,MORE ABOUT WEATHER,*,<srai>MORE ABOUT WEATHER</srai>,chomsky108.aiml
+0,YES *,MORE ABOUT WEATHER,*,<srai>MORE ABOUT WEATHER</srai>,chomsky108.aiml
+0,_ YES *,MORE ABOUT WEATHER,*,<srai>MORE ABOUT WEATHER</srai>,chomsky108.aiml
+0,Y,MORE ABOUT WEATHER,*,<srai>MORE ABOUT WEATHER</srai>,chomsky108.aiml
+0,YUP,MORE ABOUT WEATHER,*,<srai>MORE ABOUT WEATHER</srai>,chomsky108.aiml
+0,YAH,MORE ABOUT WEATHER,*,<srai>MORE ABOUT WEATHER</srai>,chomsky108.aiml
+0,YEAH,MORE ABOUT WEATHER,*,<srai>MORE ABOUT WEATHER</srai>,chomsky108.aiml
+0,OK,MORE ABOUT WEATHER,*,<srai>MORE ABOUT WEATHER</srai>,chomsky108.aiml
+0,NO,MORE ABOUT WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,* NO,MORE ABOUT WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,NO *,MORE ABOUT WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,N,MORE ABOUT WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,NUP,MORE ABOUT WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,NAH,MORE ABOUT WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,YES,IS THIS SOMETHING TO DO WITH WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,* YES,IS THIS SOMETHING TO DO WITH WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,YES *,IS THIS SOMETHING TO DO WITH WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,_ YES *,IS THIS SOMETHING TO DO WITH WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,Y,IS THIS SOMETHING TO DO WITH WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,YUP,IS THIS SOMETHING TO DO WITH WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,YAH,IS THIS SOMETHING TO DO WITH WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,YEAH,IS THIS SOMETHING TO DO WITH WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,NO,IS THIS SOMETHING TO DO WITH WEATHER,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,* NO,IS THIS SOMETHING TO DO WITH WEATHER,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,NO *,IS THIS SOMETHING TO DO WITH WEATHER,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,_ NO *,IS THIS SOMETHING TO DO WITH WEATHER,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,N,IS THIS SOMETHING TO DO WITH WEATHER,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,NUP,IS THIS SOMETHING TO DO WITH WEATHER,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,NAH,IS THIS SOMETHING TO DO WITH WEATHER,*,<srai>CHANGE TOPIC</srai>,chomsky108.aiml
+0,*,IS THIS SOMETHING TO DO WITH WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,YES,ARE YOU INTERESTED IN WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,* YES,ARE YOU INTERESTED IN WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,YES *,ARE YOU INTERESTED IN WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,_ YES *,ARE YOU INTERESTED IN WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,Y,ARE YOU INTERESTED IN WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,YUP,ARE YOU INTERESTED IN WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,YAH,ARE YOU INTERESTED IN WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,YEAH,ARE YOU INTERESTED IN WEATHER,*,Can we talk about weather?,chomsky108.aiml
+0,* NO,ARE YOU INTERESTED IN WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,NO *,ARE YOU INTERESTED IN WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,_ NO *,ARE YOU INTERESTED IN WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,N,ARE YOU INTERESTED IN WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,NUP,ARE YOU INTERESTED IN WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,NAH,ARE YOU INTERESTED IN WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,YES,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,* YES,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,YES *,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,_ YES *,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,Y,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,YUP,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,YAH,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,YEAH,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,OK,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,OH YES,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,WHY NOT,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,OF COURSE,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,GO AHEAD,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,CARRY ON,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,PLEASE DO,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,YES PLEASE,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,GO ON,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,GO ON THEN,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,ALRIGHT,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,SURE,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,ALLRIGHT,CAN WE TALK ABOUT WEATHER,*,<srai>WEATHER</srai>,chomsky108.aiml
+0,NO,CAN WE TALK ABOUT WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,* NO,CAN WE TALK ABOUT WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,NO *,CAN WE TALK ABOUT WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,N,CAN WE TALK ABOUT WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,NUP,CAN WE TALK ABOUT WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,NAH,CAN WE TALK ABOUT WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,YES,BROWSE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,* YES,BROWSE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,YES *,BROWSE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,_ YES *,BROWSE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,Y,BROWSE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,YUP,BROWSE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,YAH,BROWSE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,YEAH,BROWSE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,OK,BROWSE WEATHER,*,<srai>WEATHER POT LUCK</srai>,chomsky108.aiml
+0,NO,BROWSE WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,* NO,BROWSE WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,NO *,BROWSE WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,N,BROWSE WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,NUP,BROWSE WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,NAH,BROWSE WEATHER,*,<srai>MORE TOPICS</srai>,chomsky108.aiml
+0,WEATHER NEXT QUESTION,*,*,<random>#Newline        <li>The weatherman is a prophet who is always right#Comma except for his timing.</li>#Newline        <li>People always complain about the weather#Comma but no one ever seems to do anything about it. </li>#Newline        <li>The trouble with the weatherman is that he is appointed#Comma not elected.</li>#Newline        <li>Do you think global warming is real or are the scientists imagining it? </li>#Newline        <li>Do you think that the weather is gradually getting worse? </li>#Newline        <li>What is the climate like where you live. Do you notice any change in climate over the years? </li>#Newline        <li>I'm saving up for a rainy day. So far I've got a sou'wester#Comma two macintoshes and a canoe. OK? </li>#Newline        <li>On 16 June 1882#Comma two frogs were found frozen inside hailstones at Dubuque#Comma Iowa#Comma USA. A turtle was found inside a hailstone the size of a brick that fell near Vicksburg#Comma Mississippi#Comma USA#Comma in 1984.</li>#Newline        <li>Every year there are more than 16 million  thunderstorms - an average of 45#Comma000 a day. At any moment#Comma there are 2000 in progress. There are about 100 lightning flashes each second somewhere on Earth.</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">weather</set>#Newline      </think>,chomsky108.aiml
+0,WEATHER POT LUCK,*,*,<random>#Newline        <li>The weatherman is a prophet who is always right#Comma except for his timing.</li>#Newline        <li>People always complain about the weather#Comma but no one ever seems to do anything about it. </li>#Newline        <li>The trouble with the weatherman is that he is appointed#Comma not elected.</li>#Newline        <li>Do you think global warming is real or are the scientists imagining it? </li>#Newline        <li>Do you think that the weather is gradually getting worse? </li>#Newline        <li>What is the climate like where you live. Do you notice any change in climate over the years? </li>#Newline        <li>I'm saving up for a rainy day. So far I've got a sou'wester#Comma two macintoshes and a canoe. OK? </li>#Newline        <li>On 16 June 1882#Comma two frogs were found frozen inside hailstones at Dubuque#Comma Iowa#Comma USA. A turtle was found inside a hailstone the size of a brick that fell near Vicksburg#Comma Mississippi#Comma USA#Comma in 1984.</li>#Newline        <li>Every year there are more than 16 million  thunderstorms - an average of 45#Comma000 a day. At any moment#Comma there are 2000 in progress. There are about 100 lightning flashes each second somewhere on Earth.</li>#Newline      </random>#Newline      <random>#Newline        <li>More weather?</li>#Newline        <li>More about weather?</li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">weather</set>#Newline      </think>,chomsky108.aiml
+0,TYPHOON,*,*,I think this is something to do with weather. Can we talk about weather?#Newline<think><set name="topic">weather</set></think>,chomsky108.aiml
+0,_ TYPHOON *,*,*,I think this is something to do with weather. Can we talk about weather?#Newline<think><set name="topic">weather</set></think>,chomsky108.aiml
+0,HURRICANE,*,*,I think this is something to do with weather. Can we talk about weather?#Newline<think><set name="topic">weather</set></think>,chomsky108.aiml
+0,_ HURRICANE *,*,*,I think this is something to do with weather. Can we talk about weather?#Newline<think><set name="topic">weather</set></think>,chomsky108.aiml

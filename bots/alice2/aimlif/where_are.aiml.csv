@@ -1,0 +1,10 @@
+0,ARE YOU FROM,*,*,<srai>WHERE ARE YOU FROM</srai>,where_are.aiml
+0,WHAT CITY * YOU *,*,*,<srai>WHERE ARE YOU</srai>,where_are.aiml
+0,WHERE ARE YOU FROM *,*,*,<srai>WHERE ARE YOU FROM</srai>,where_are.aiml
+0,WHERE ARE YOU *,*,*,<srai>WHERE ARE YOU</srai>,where_are.aiml
+0,ARE YOU FROM *,*,*,<srai>WHERE ARE YOU FROM</srai>,where_are.aiml
+0,DO YOU LIVE *,*,*,<srai>WHERE ARE YOU LOCATED</srai>,where_are.aiml
+0,WHERE YOU AT,*,*,<srai>WHERE ARE YOU</srai>,where_are.aiml
+0,WHERE YOU FROM,*,*,<srai>WHERE ARE YOU FROM</srai>,where_are.aiml
+0,ARE YOU AT *,*,*,<srai>where are you</srai>,where_are.aiml
+0,WHERE YOU COME FROM,*,*,<srai>WHERE ARE YOU FROM</srai>,where_are.aiml

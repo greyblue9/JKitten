@@ -1,0 +1,46 @@
+0,GIVE ME A LINK *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,WALGREENS *,*,*,<srai>SEARCH WALGREENS#Newline                <star/>#Newline            </srai>,search.aiml
+0,NIKE *,*,*,<srai>SEARCH NIKE#Newline                <star/>#Newline            </srai>,search.aiml
+0,BATMAN,*,*,<srai>SEARCH BATMAN</srai>,search.aiml
+0,CAN YOU SEARCH FOR *,*,*,<srai>SEARCH FOR#Newline                <star/>#Newline            </srai>,search.aiml
+0,HOW TO FIND *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,NAME 1 *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,SEARCH FOR THE *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,SEARCH WEATHER *,*,*,<srai>WEATHER#Newline                <star/>#Newline            </srai>,search.aiml
+0,STAR TREK,*,*,<srai>SEARCH STAR TREK</srai>,search.aiml
+0,WHERE CAN I FIND SOME *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,BUY ME A *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,INFORMATION ABOUT *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,GOLD,*,*,<srai>SEARCH GOLD</srai>,search.aiml
+0,TACO *,*,*,<srai>SEARCH TACO#Newline                <star/>#Newline            </srai>,search.aiml
+0,PET *,*,*,<srai>SEARCH PET#Newline                <star/>#Newline            </srai>,search.aiml
+0,PULL UP *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,RECHERCHE *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,OPEN A *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,RESEARCH *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,FIND ME SOME *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,GOOGLE SEARCH *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,LOOK FOR *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,LINGUICA,*,*,<srai>SEARCH LINGUICA</srai>,search.aiml
+0,CHECK FOR EMAIL THAT CONTAIN THE WORD *,*,*,<srai>SEARCH EMAIL FOR#Newline                <star/>#Newline            </srai>,search.aiml
+0,CAN YOU FIND ME A GIRLFRIEND,*,*,<srai>SEARCH DATING SERVICE</srai>,search.aiml
+0,SEARCH FOR,*,*,<srai>SEARCH</srai>,search.aiml
+0,SHOW ME A LIST OF *,*,*,<srai>SEARCH FOR A LIST OF#Newline                <star/>#Newline            </srai>,search.aiml
+0,LOOK UP A *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,YAHOO *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,CALL ME A *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,LOOK UP *,*,*,<srai>SEARCH#Newline                <star/>#Newline            </srai>,search.aiml
+0,SHOW ME THE *,*,*,<srai>SEARCH FOR THE#Newline                <star/>#Newline            </srai>,search.aiml
+0,FIND * *,*,*,<think>#Newline        <set name="isanumber">#Newline          <srai>ISANUMBER#Newline                        <star/>#Newline                    </srai>#Newline        </set>#Newline      </think>#Newline      <condition name="isanumber">#Newline        <li value="true">#Newline          <srai>MAP#Newline                        <star/>#Newline                        <star index="2"/>#Newline                    </srai>#Newline        </li>#Newline        <li>#Newline          <srai>SEARCH#Newline                        <star/>#Newline                        <star index="2"/>#Newline                    </srai>#Newline        </li>#Newline      </condition>,search.aiml
+0,FIND * ON EBAY,*,*,<srai>SEARCH#Newline                <star/>#Newline                ON EBAY#Newline            </srai>,search.aiml
+0,FIND * TIMES,*,*,<srai>SEARCH#Newline                <star/>#Newline                TIMES#Newline            </srai>,search.aiml
+0,FIND A CHEAP *,*,*,<srai>SEARCH FOR A CHEAP#Newline                <star/>#Newline            </srai>,search.aiml
+0,FIND A DOWNLOAD *,*,*,<srai>SEARCH FOR A DOWNLOAD#Newline                <star/>#Newline            </srai>,search.aiml
+0,FIND A JOB,*,*,<srai>SEARCH FOR JOB</srai>,search.aiml
+0,FIND A SONG,*,*,<srai>SEARCH FOR A SONG</srai>,search.aiml
+0,FIND A VIDEO *,*,*,<srai>SEARCH FOR A VIDEO#Newline                <star/>#Newline            </srai>,search.aiml
+0,FIND A WOMAN,*,*,<srai>SEARCH FOR DATING</srai>,search.aiml
+0,FIND AN ONLINE *,*,*,<srai>SEARCH FOR AN ONLINE#Newline                <star/>#Newline            </srai>,search.aiml
+0,SHOW ME A VIDEO OF *,*,*,<srai>SEARCH FOR A VIDEO OF#Newline                <star/>#Newline            </srai>,search.aiml
+0,CHICKEN *,*,*,<srai>SEARCH CHICKEN#Newline                <star/>#Newline            </srai>,search.aiml
+0,SAMSUNG *,*,*,<srai>SEARCH SAMSUNG#Newline                <star/>#Newline            </srai>,search.aiml

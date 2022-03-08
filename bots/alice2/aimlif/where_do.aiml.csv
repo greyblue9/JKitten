@@ -1,0 +1,3 @@
+0,DO YOU KNOW WHERE I LIVE,*,*,<srai>WHERE DO I LIVE</srai>,where_do.aiml
+0,WHERE DO I LIVE *,*,*,<srai>WHERE DO I LIVE</srai>,where_do.aiml
+0,WHERE DO YOU STAY,*,*,<srai>WHERE DO YOU LIVE</srai>,where_do.aiml

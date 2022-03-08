@@ -1,0 +1,6 @@
+0,DO YOU HAVE # PETS,*,*,<srai>PETS</srai>,pets.aiml
+0,MY PET * IS *,*,*,<srai>MY#Newline                <star/>#Newline                IS#Newline                <star index="2"/>#Newline            </srai>,pets.aiml
+0,* IS MY PET <SET>ANIMAL</SET> #,*,*,<srai>MY#Newline                <star index="2"/>#Newline                IS#Newline                <star/>#Newline            </srai>,pets.aiml
+0,WHAT IS MY CAT S NAME,*,*,<srai>MY CAT</srai>,pets.aiml
+0,I HAVE A CAT NAMED *,*,*,<srai>MY CAT IS NAMED#Newline                <star/>#Newline            </srai>,pets.aiml
+0,MY DOG IS       <SET>NAME</SET>,*,*,<srai>MY DOG S NAME IS#Newline                <star/>#Newline            </srai>,pets.aiml

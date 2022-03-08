@@ -1,0 +1,130 @@
+0,MORE MOVIES,*,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,MORE ABOUT MOVIES,*,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,BROWSE MOVIES,*,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,GO TO MOVIES,*,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,CAN WE TALK ABOUT MOVIES,*,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,SHALL WE TALK ABOUT MOVIES,*,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,LETS TALK ABOUT MOVIES,*,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,LET S TALK ABOUT MOVIES,*,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,TALK ABOUT MOVIES,*,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,TALK MOVIES,*,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,TELL ME MOVIES,*,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,NO MORE MOVIES,*,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,NO MOVIES,*,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,_ NO MOVIES,*,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,NO MOVIES *,*,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,_ NO * MOVIES,*,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,NO * MOVIES,*,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,NO _ MOVIES *,*,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,NOT MOVIES,*,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,_ NOT MOVIES,*,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,NOT MOVIES *,*,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,_ NOT * MOVIES,*,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,I AM NOT INTERESTED IN MOVIES,*,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,IM NOT INTERESTED IN MOVIES,*,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,I M NOT INTERESTED IN MOVIES,*,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,NOT INTERESTED IN MOVIES,*,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,_ NOT INTERESTED IN MOVIES,*,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,YES,MORE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,* YES,MORE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,YES *,MORE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,_ YES *,MORE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,Y,MORE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,YUP,MORE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,YAH,MORE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,YEAH,MORE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,OK,MORE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,NO,MORE MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,* NO,MORE MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,NO *,MORE MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,N,MORE MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,NUP,MORE MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,NAH,MORE MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,YES,MORE ABOUT MOVIES,*,<srai>MORE ABOUT MOVIES</srai>,chomsky084.aiml
+0,* YES,MORE ABOUT MOVIES,*,<srai>MORE ABOUT MOVIES</srai>,chomsky084.aiml
+0,YES *,MORE ABOUT MOVIES,*,<srai>MORE ABOUT MOVIES</srai>,chomsky084.aiml
+0,_ YES *,MORE ABOUT MOVIES,*,<srai>MORE ABOUT MOVIES</srai>,chomsky084.aiml
+0,Y,MORE ABOUT MOVIES,*,<srai>MORE ABOUT MOVIES</srai>,chomsky084.aiml
+0,YUP,MORE ABOUT MOVIES,*,<srai>MORE ABOUT MOVIES</srai>,chomsky084.aiml
+0,YAH,MORE ABOUT MOVIES,*,<srai>MORE ABOUT MOVIES</srai>,chomsky084.aiml
+0,YEAH,MORE ABOUT MOVIES,*,<srai>MORE ABOUT MOVIES</srai>,chomsky084.aiml
+0,OK,MORE ABOUT MOVIES,*,<srai>MORE ABOUT MOVIES</srai>,chomsky084.aiml
+0,NO,MORE ABOUT MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,_ NO,MORE ABOUT MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,NO *,MORE ABOUT MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,N,MORE ABOUT MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,NUP,MORE ABOUT MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,NAH,MORE ABOUT MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,YES,IS THIS SOMETHING TO DO WITH MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,* YES,IS THIS SOMETHING TO DO WITH MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,YES *,IS THIS SOMETHING TO DO WITH MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,_ YES *,IS THIS SOMETHING TO DO WITH MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,Y,IS THIS SOMETHING TO DO WITH MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,YUP,IS THIS SOMETHING TO DO WITH MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,YAH,IS THIS SOMETHING TO DO WITH MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,YEAH,IS THIS SOMETHING TO DO WITH MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,* NO,IS THIS SOMETHING TO DO WITH MOVIES,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,NO *,IS THIS SOMETHING TO DO WITH MOVIES,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,_ NO *,IS THIS SOMETHING TO DO WITH MOVIES,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,N,IS THIS SOMETHING TO DO WITH MOVIES,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,NUP,IS THIS SOMETHING TO DO WITH MOVIES,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,NAH,IS THIS SOMETHING TO DO WITH MOVIES,*,<srai>CHANGE TOPIC</srai>,chomsky084.aiml
+0,*,IS THIS SOMETHING TO DO WITH MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,YES,ARE YOU INTERESTED IN MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,* YES,ARE YOU INTERESTED IN MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,YES *,ARE YOU INTERESTED IN MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,_ YES *,ARE YOU INTERESTED IN MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,Y,ARE YOU INTERESTED IN MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,YUP,ARE YOU INTERESTED IN MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,YAH,ARE YOU INTERESTED IN MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,YEAH,ARE YOU INTERESTED IN MOVIES,*,Can we talk about movies?,chomsky084.aiml
+0,* NO,ARE YOU INTERESTED IN MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,NO *,ARE YOU INTERESTED IN MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,_ NO *,ARE YOU INTERESTED IN MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,N,ARE YOU INTERESTED IN MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,NUP,ARE YOU INTERESTED IN MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,NAH,ARE YOU INTERESTED IN MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,GO AHEAD,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,CARRY ON,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,PLEASE DO,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,YES PLEASE,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,GO ON,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,ALRIGHT,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,SURE,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,ALLRIGHT,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,YES,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,* YES,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,YES *,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,_ YES *,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,Y,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,YUP,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,YAH,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,YEAH,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,OK,CAN WE TALK ABOUT MOVIES,*,<srai>MOVIES</srai>,chomsky084.aiml
+0,NO,CAN WE TALK ABOUT MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,* NO,CAN WE TALK ABOUT MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,NO *,CAN WE TALK ABOUT MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,N,CAN WE TALK ABOUT MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,NUP,CAN WE TALK ABOUT MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,NAH,CAN WE TALK ABOUT MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,YES,BROWSE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,* YES,BROWSE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,YES *,BROWSE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,_ YES *,BROWSE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,Y,BROWSE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,YUP,BROWSE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,YAH,BROWSE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,YEAH,BROWSE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,OK,BROWSE MOVIES,*,<srai>MOVIES POT LUCK</srai>,chomsky084.aiml
+0,NO,BROWSE MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,* NO,BROWSE MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,NO *,BROWSE MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,N,BROWSE MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,NUP,BROWSE MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,NAH,BROWSE MOVIES,*,<srai>MORE TOPICS</srai>,chomsky084.aiml
+0,MOVIES NEXT QUESTION,*,*,<random>#Newline        <li>#Newline          <srai>STAR TREK</srai>#Newline        </li>#Newline        <li>#Newline          <srai>DO YOU KNOW HAL</srai>#Newline        </li>#Newline        <li>#Newline          <srai>LASSIE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>WHO IS GODZILLA</srai>#Newline        </li>#Newline        <li>#Newline          <srai>THE MATRIX</srai>#Newline        </li>#Newline        <li>#Newline          <srai>STAR WARS</srai>#Newline        </li>#Newline        <li>#Newline          <srai>TERMINATOR</srai>#Newline        </li>#Newline        <li>#Newline          <srai>END OF THE WORLD</srai>#Newline        </li>#Newline        <li>#Newline          <srai>TOM CRUISE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>WILL SMITH</srai>#Newline        </li>#Newline        <li>#Newline          <srai>TOM HANKS</srai>#Newline        </li>#Newline        <li>#Newline          <srai>CONCEIVING ADA</srai>#Newline        </li>#Newline        <li>#Newline          <srai>JENNIFER ANISTON</srai>#Newline        </li>#Newline        <li>#Newline          <srai>JOHN WAYNE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>HARRISON FORD</srai>#Newline        </li>#Newline        <li>#Newline          <srai>GENE RODDENBERRY</srai>#Newline        </li>#Newline        <li>#Newline          <srai>ELIZABETH TAYLOR</srai>#Newline        </li>#Newline        <li>#Newline          <srai>LASSIE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BART SIMPSON</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BATMAN</srai>#Newline        </li>#Newline        <li>#Newline          <srai>CHARLIE CHAPLIN</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BRAD PITT</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BUGS BUNNY</srai>#Newline        </li>#Newline        <li>#Newline          <srai>SUPERMAN</srai>#Newline        </li>#Newline        <li>#Newline          <srai>SPOCK</srai>#Newline        </li>#Newline        <li>#Newline          <srai>LEONARDO DICAPRIO</srai>#Newline        </li>#Newline        <li>#Newline          <srai>MARILYN MONROE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>KATHLEEN TURNER</srai>#Newline        </li>#Newline        <li>#Newline          <srai>LASSIE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>ET</srai>#Newline        </li>#Newline        <li>#Newline          <srai>FOREST GUMP</srai>#Newline        </li>#Newline        <li>#Newline          <srai>TOM HANKS</srai>#Newline        </li>#Newline        <li>#Newline          <srai>JULIA ROBERTS</srai>#Newline        </li>#Newline        <li>#Newline          <srai>WHO IS HAL</srai>#Newline        </li>#Newline        <li>#Newline          <srai>JENNIFER ANISTON</srai>#Newline        </li>#Newline        <li>#Newline          <srai>JOHN WAYNE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>HARRISON FORD</srai>#Newline        </li>#Newline        <li>#Newline          <srai>GENE RODDENBERRY</srai>#Newline        </li>#Newline        <li>#Newline          <srai>ELIZABETH TAYLOR</srai>#Newline        </li>#Newline        <li>#Newline          <srai>LASSIE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BART SIMPSON</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BATMAN</srai>#Newline        </li>#Newline        <li>#Newline          <srai>CHARLIE CHAPLIN</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BRAD PITT</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BUGS BUNNY</srai>#Newline        </li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">movies</set>#Newline      </think>,chomsky084.aiml
+0,MOVIES POT LUCK,*,*,<random>#Newline        <li>Did you know that Heaven Can Wait#Comma a play by Harry Segall#Comma has been filmed at least four times? More about movies?</li>#Newline        <li>#Newline          <srai>STAR TREK</srai>#Newline        </li>#Newline        <li>#Newline          <srai>DO YOU KNOW HAL</srai>#Newline        </li>#Newline        <li>#Newline          <srai>LASSIE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>WHO IS GODZILLA</srai>#Newline        </li>#Newline        <li>#Newline          <srai>THE MATRIX</srai>#Newline        </li>#Newline        <li>#Newline          <srai>STAR WARS</srai>#Newline        </li>#Newline        <li>#Newline          <srai>TERMINATOR</srai>#Newline        </li>#Newline        <li>#Newline          <srai>END OF THE WORLD</srai>#Newline        </li>#Newline        <li>#Newline          <srai>TOM CRUISE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>WILL SMITH</srai>#Newline        </li>#Newline        <li>#Newline          <srai>TOM HANKS</srai>#Newline        </li>#Newline        <li>#Newline          <srai>CONCEIVING ADA</srai>#Newline        </li>#Newline        <li>#Newline          <srai>JENNIFER ANISTON</srai>#Newline        </li>#Newline        <li>#Newline          <srai>JOHN WAYNE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>HARRISON FORD</srai>#Newline        </li>#Newline        <li>#Newline          <srai>GENE RODDENBERRY</srai>#Newline        </li>#Newline        <li>#Newline          <srai>ELIZABETH TAYLOR</srai>#Newline        </li>#Newline        <li>#Newline          <srai>LASSIE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BART SIMPSON</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BATMAN</srai>#Newline        </li>#Newline        <li>#Newline          <srai>CHARLIE CHAPLIN</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BRAD PITT</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BUGS BUNNY</srai>#Newline        </li>#Newline        <li>#Newline          <srai>SUPERMAN</srai>#Newline        </li>#Newline        <li>#Newline          <srai>SPOCK</srai>#Newline        </li>#Newline        <li>#Newline          <srai>LEONARDO DICAPRIO</srai>#Newline        </li>#Newline        <li>#Newline          <srai>MARILYN MONROE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>KATHLEEN TURNER</srai>#Newline        </li>#Newline        <li>#Newline          <srai>LASSIE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>ET</srai>#Newline        </li>#Newline        <li>#Newline          <srai>FOREST GUMP</srai>#Newline        </li>#Newline        <li>#Newline          <srai>TOM HANKS</srai>#Newline        </li>#Newline        <li>#Newline          <srai>JULIA ROBERTS</srai>#Newline        </li>#Newline        <li>#Newline          <srai>WHO IS HAL</srai>#Newline        </li>#Newline        <li>#Newline          <srai>JENNIFER ANISTON</srai>#Newline        </li>#Newline        <li>#Newline          <srai>JOHN WAYNE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>HARRISON FORD</srai>#Newline        </li>#Newline        <li>#Newline          <srai>GENE RODDENBERRY</srai>#Newline        </li>#Newline        <li>#Newline          <srai>ELIZABETH TAYLOR</srai>#Newline        </li>#Newline        <li>#Newline          <srai>LASSIE</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BART SIMPSON</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BATMAN</srai>#Newline        </li>#Newline        <li>#Newline          <srai>CHARLIE CHAPLIN</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BRAD PITT</srai>#Newline        </li>#Newline        <li>#Newline          <srai>BUGS BUNNY</srai>#Newline        </li>#Newline      </random>#Newline      <think>#Newline        <set name="topic">movies</set>#Newline      </think>,chomsky084.aiml
+0,MERYL STREEP,*,*,I think she is a movie actress. Can we talk about movies?#Newline<think><set name="topic">movies</set></think>,chomsky084.aiml
+0,STREEP,*,*,I think she is a movie actress. Can we talk about movies?#Newline<think><set name="topic">movies</set></think>,chomsky084.aiml
+0,CINE,*,*,I think this is something to do with movies. Can we talk about movies?#Newline<think><set name="topic">movies</set></think>,chomsky084.aiml
+0,_CINE*,*,*,I think this is something to do with movies. Can we talk about movies?#Newline<think><set name="topic">movies</set></think>,chomsky084.aiml

@@ -1,0 +1,31 @@
+0,* TRAVEL,*,*,Try looking in the 914's and forward.,subjects.aiml
+0,COLLEGE GRANTS,*,*,Try looking in the 378's.,subjects.aiml
+0,CAM JANSEN,*,*,Try looking in the Children's Department.,subjects.aiml
+0,PARENTNG,*,*,Try looking around 649.125.,subjects.aiml
+0,PARENTING,*,*,<srai>PARENTNG</srai>,subjects.aiml
+0,* PARENTING,*,*,<srai>PARENTNG</srai>,subjects.aiml
+0,HOW TO TAKE CARE OF A HAMSTER,*,*,Try looking around 636.9356.,subjects.aiml
+0,DIABETES AND KIDNEY FAILURE,*,*,Try looking in the 616's.,subjects.aiml
+0,GARDEN MAINTENANCE,*,*,Try looking around the 635's.,subjects.aiml
+0,BEST PLACES TO LIVE,*,*,Try looking around the 307's.,subjects.aiml
+0,COOKBK,*,*,Are you trying to find cook books in our catalog or on our shelves?,subjects.aiml
+0,COOKBOOK,*,*,<srai>COOKBK</srai>,subjects.aiml
+0,COOK BOOK,*,*,<srai>COOKBK</srai>,subjects.aiml
+0,COOKBOOKS,*,*,<srai>COOKBK</srai>,subjects.aiml
+0,COOK BOOKS,*,*,<srai>COOKBK</srai>,subjects.aiml
+0,RECIPE,*,*,<srai>COOKBK</srai>,subjects.aiml
+0,* RECIPE,*,*,<srai>COOKBK</srai>,subjects.aiml
+0,RECIPES,*,*,<srai>COOKBK</srai>,subjects.aiml
+0,* RECIPES,*,*,<srai>COOKBK</srai>,subjects.aiml
+0,CATALOG,* FIND COOK BOOKS * ON OUR SHELVES,*,Type in the kind of cookbook or recipes you're looking for and press "Enter." I can search our catalog for you.,subjects.aiml
+0,CATALOG *,* FIND COOK BOOKS * ON OUR SHELVES,*,Type in the kind of cookbook or recipes you're looking for and press "Enter." I can search our catalog for you.,subjects.aiml
+0,_ CATALOG,* FIND COOK BOOKS * ON OUR SHELVES,*,Type in the kind of cookbook or recipes you're looking for and press "Enter." I can search our catalog for you.,subjects.aiml
+0,*,* FIND COOK BOOKS * ON OUR SHELVES,*,Type in the kind of cookbook or recipes you're looking for and press "Enter." I can search our catalog for you.,subjects.aiml
+0,SHELF,* FIND COOK BOOKS * ON OUR SHELVES,*,Look around 641.5 on the nonfiction shelves.,subjects.aiml
+0,_ SHELF,* FIND COOK BOOKS * ON OUR SHELVES,*,Look around 641.5 on the nonfiction shelves.,subjects.aiml
+0,SHELF *,* FIND COOK BOOKS * ON OUR SHELVES,*,Look around 641.5 on the nonfiction shelves.,subjects.aiml
+0,_ SHELF *,* FIND COOK BOOKS * ON OUR SHELVES,*,Look around 641.5 on the nonfiction shelves.,subjects.aiml
+0,SHELVES,* FIND COOK BOOKS * ON OUR SHELVES,*,Look around 641.5 on the nonfiction shelves.,subjects.aiml
+0,_ SHELVES,* FIND COOK BOOKS * ON OUR SHELVES,*,Look around 641.5 on the nonfiction shelves.,subjects.aiml
+0,SHELVES *,* FIND COOK BOOKS * ON OUR SHELVES,*,Look around 641.5 on the nonfiction shelves.,subjects.aiml
+0,_ SHELVES *,* FIND COOK BOOKS * ON OUR SHELVES,*,Look around 641.5 on the nonfiction shelves.,subjects.aiml

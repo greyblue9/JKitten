@@ -1,0 +1,39 @@
+0,CHECK SHELF,*,*,<srai>CHKSHLF</srai>,itemstatus.aiml
+0,_ CHECK SHELF,*,*,<srai>CHKSHLF</srai>,itemstatus.aiml
+0,_ CHECK SHELF *,*,*,<srai>CHKSHLF</srai>,itemstatus.aiml
+0,CHECK SHELF *,*,*,<srai>CHKSHLF</srai>,itemstatus.aiml
+0,DISPLAY,*,*,<srai>DSPLY</srai>,itemstatus.aiml
+0,_ DISPLAY,*,*,<srai>DSPLY</srai>,itemstatus.aiml
+0,_ DISPLAY *,*,*,<srai>DSPLY</srai>,itemstatus.aiml
+0,DSPLY *,*,*,<srai>DISPLAY</srai>,itemstatus.aiml
+0,ON HOLDSHELF,*,*,<srai>ONHLDSHLF</srai>,itemstatus.aiml
+0,_ ON HOLDSHELF,*,*,<srai>ONHLDSHLF</srai>,itemstatus.aiml
+0,_ ON HOLDSHELF *,*,*,<srai>OONHLDSHLF</srai>,itemstatus.aiml
+0,LOST AND PAID,*,*,<srai>LANDPD</srai>,itemstatus.aiml
+0,_ LOST AND PAID,*,*,<srai>LANDPD</srai>,itemstatus.aiml
+0,_ LOST AND PAID *,*,*,<srai>LANDPD</srai>,itemstatus.aiml
+0,LOST AND PAID *,*,*,<srai>LANDPD</srai>,itemstatus.aiml
+0,HOW DO I PLACE A HOLD,*,*,<srai>PLACEHOLD</srai>,itemstatus.aiml
+0,_ PLACE HOLD,*,*,<srai>PLACE HOLD</srai>,itemstatus.aiml
+0,_ PLACE HOLD *,*,*,<srai>PLACE HOLD</srai>,itemstatus.aiml
+0,PLACE HOLD *,*,*,<srai>PLACE HOLD</srai>,itemstatus.aiml
+0,_ DAMAGED,*,*,<srai>DAMAGED</srai>,itemstatus.aiml
+0,_ DAMAGED *,*,*,<srai>DAMAGED</srai>,itemstatus.aiml
+0,DAMAGED *,*,*,<srai>DAMAGED</srai>,itemstatus.aiml
+0,_ BILLED,*,*,<srai>BILLED</srai>,itemstatus.aiml
+0,_ BILLED *,*,*,<srai>BILLED</srai>,itemstatus.aiml
+0,BILLED *,*,*,<srai>BILLED</srai>,itemstatus.aiml
+0,_ ITEM STATUS MEAN,*,*,<srai>ITMSTATQ</srai>,itemstatus.aiml
+0,_ ITEM STATUS MEAN *,*,*,<srai>ITMSTATQ</srai>,itemstatus.aiml
+0,ITEM STATUS MEAN *,*,*,<srai>ITMSTATQ</srai>,itemstatus.aiml
+0,S OH REQUESTED,*,*,<srai>SOREQ</srai>,itemstatus.aiml
+0,* S OH REQUESTED,*,*,<srai>SOREQ</srai>,itemstatus.aiml
+0,S OH REQUESTED *,*,*,<srai>SOREQ</srai>,itemstatus.aiml
+0,* S OH REQUESTED *,*,*,<srai>SOREQ</srai>,itemstatus.aiml
+0,_ PROCESSING,*,*,<srai>PRCSS</srai>,itemstatus.aiml
+0,PROCESSING *,*,*,<srai>PRCSS</srai>,itemstatus.aiml
+0,_ PROCESSING *,*,*,<srai>PRCSS</srai>,itemstatus.aiml
+0,IN TRANSIT,*,*,<srai>INTRNST</srai>,itemstatus.aiml
+0,_ IN TRANSIT,*,*,<srai>INTRNST</srai>,itemstatus.aiml
+0,IN TRANSIT *,*,*,<srai>INTRNST</srai>,itemstatus.aiml
+0,_ IN TRANSIT *,*,*,<srai>INTRNST</srai>,itemstatus.aiml

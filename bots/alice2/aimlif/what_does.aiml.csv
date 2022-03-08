@@ -1,0 +1,11 @@
+0,WHAT IT MEANS,*,*,<srai>WHAT DOES IT MEAN</srai>,what_does.aiml
+0,MEANING,*,*,<srai>WHAT DOES THAT MEAN</srai>,what_does.aiml
+0,IT WHAT DOES IT MEAN,*,*,<srai>WHAT DOES IT MEAN</srai>,what_does.aiml
+0,WHAT IS THAT MEAN,*,*,<srai>WHAT DOES THAT MEAN</srai>,what_does.aiml
+0,WHAT DOES THAT MEAN *,*,*,<srai>what does that mean</srai>,what_does.aiml
+0,DO YOU KNOW WHAT * <SET>IS</SET> *,*,*,<srai>WHAT DOES#Newline                <star/>#Newline                <map><name>is2be</name><star index="2"/></map>#Newline                <star index="3"/>#Newline            </srai>,what_does.aiml
+0,* WHAT DOES IT MEAN,*,*,<srai>WHAT DOES#Newline                <star/>#Newline                MEAN#Newline            </srai>,what_does.aiml
+0,WUT DOES *,*,*,<srai>WHAT DOES#Newline                <star/>#Newline            </srai>,what_does.aiml
+0,WAT DOES *,*,*,<srai>WHAT DOES#Newline                <star/>#Newline            </srai>,what_does.aiml
+0,DO YOU KNOW WHAT * <SET>NAME</SET>       <SET>IS</SET> *,*,*,<srai>WHAT#Newline                <star/>#Newline                DOES#Newline                <star index="2"/>#Newline                <map><name>is2be</name><star index="3"/></map>#Newline                <star index="4"/>#Newline            </srai>,what_does.aiml
+0,WHAT DOES THE WORD * MEAN,*,*,<srai>DEFINE#Newline                <star/>#Newline            </srai>,what_does.aiml

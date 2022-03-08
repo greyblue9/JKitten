@@ -1,0 +1,14 @@
+0,NO,DO YOU HAVE ANY QUESTIONS ABOUT FEEDING LIZARDS,*,Okay.#Newline   Did you know that some<set name="topic">lizards</set> are#Newline   nocturnal?,std-lizards.aiml
+0,*,*,LIZARDS,Do you want to continue talking about Lizards?,std-lizards.aiml
+0,NO,DO YOU WANT TO CONTINUE TALKING ABOUT LIZARDS,LIZARDS,<think><set name="topic"/></think>#Newline<srai><input index="2"/></srai>,std-lizards.aiml
+0,YES,DO YOU WANT TO CONTINUE TALKING ABOUT LIZARDS,LIZARDS,<random>#Newline<li>Do you know what Bearded Dragons look like?</li>#Newline<li>What else do you know about lizards?</li>#Newline<li>Chameleons are cool.</li>#Newline<li>Some people think reptiles are creepy until they get to know one.</li>#Newline</random>,std-lizards.aiml
+0,* I HAVE ONE,*,LIZARDS,Cool! Do you play with it much?,std-lizards.aiml
+0,I HAVE A *,*,LIZARDS,Is <set name="it"><star/></set> a lizard?,std-lizards.aiml
+0,I HAVE AN *,*,LIZARDS,Is <set name="it"><star/></set> a lizard?,std-lizards.aiml
+0,NO,DO YOU KNOW WHAT BEARDED DRAGONS LOOK LIKE,LIZARDS,<srai>WHAT DO BEARDED DRAGONS LOOK LIKE</srai>,std-lizards.aiml
+0,NO *,IT IS A LIZARD,LIZARDS,Oh#Comma well#Comma how many <set name="topic">pets</set> do you have?,std-lizards.aiml
+0,WHAT DO BEARDED DRAGONS LOOK LIKE,*,LIZARDS,Bearded Dragons have spikes similar to a horney toad#Comma#Newline   and they are usually brown or yellowish with dark brown#Newline   or possibly reddish markings.  Kind of cool looking in a#Newline   rugged sort of way. They are very nice#Comma and make fun pets.,std-lizards.aiml
+0,WHAT DO CHAMELEONS LOOK LIKE,*,LIZARDS,Chameleons are some of the most exotic and strange looking#Newline   lizards anywhere.  They come in all kinds of colors from classic#Newline   green and brown#Comma to unique purples and reds.  They have two toed#Newline   feet that help them climb anything they can grip. People usually know#Newline   them for their great abiliy to change colors and for their curly tail#Newline   that also helps them climb.,std-lizards.aiml
+0,YES,IS IT A LIZARD,LIZARDS,What do you feed your <get name="it"/>?,std-lizards.aiml
+0,*,WHAT DO YOU FEED YOUR *,LIZARDS,I feed my beared dragon salads and bugs... crickets mostly. Feeding lizards can be a lot of fun.,std-lizards.aiml
+0,*,FEEDING LIZARDS CAN BE A LOT OF FUN,LIZARDS,<random>#Newline<li> A nutritious diet is important for lizards.</li>#Newline<li> Salads are an important part of most lizards' diets.</li>#Newline<li> Sometimes I let my bearded dragon chase crickets in her room. It makes feeding time fun.</li>#Newline<li> Do you have any questions about feeding lizards?</li>#Newline<li> Most lizards eat lots of bugs#Comma but NEVER feed a lizard a "lightening bug" or "fire fly".. they are highly toxic and#Newlinewill kill the lizard.</li>#Newline</random>,std-lizards.aiml

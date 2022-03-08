@@ -1,0 +1,5 @@
+0,DO YOU KNOW WHERE I CAN *,*,*,<srai>WHERE CAN I#Newline                <star/>#Newline            </srai>,where_can.aiml
+0,WHERE CAN I FIND *,*,*,<srai>WHERE IS#Newline                <star/>#Newline            </srai>,where_can.aiml
+0,WHERE CAN I GET A * AROUND HERE,*,*,<srai>FIND THE NEAREST#Newline                <star/>#Newline            </srai>,where_can.aiml
+0,SELL ME *,*,*,<srai>WHERE CAN I BUY#Newline                <star/>#Newline            </srai>,where_can.aiml
+0,WHERE CAN I FIND THE *,*,*,<srai>WHERE IS THE#Newline                <star/>#Newline            </srai>,where_can.aiml

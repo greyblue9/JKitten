@@ -1,0 +1,60 @@
+0,WHAT IS THE LAST MONTH #,*,*,December.,datetime.aiml
+0,IF IT IS       <SET>NUMBER</SET>       <SET>NUMBER</SET>       AM NOW WHAT TIME <SET>MODAL</SET> IT BE IN 1 HOUR,*,*,<think>#Newline        <set var="next">#Newline          <map>#Newline            <name>successor</name>#Newline            <star/>#Newline          </map>#Newline        </set>#Newline      </think>#Newline      <condition var="next">#Newline        <li value="13">1:#Newline                    <star index="2"/>#Newline                    PM.#Newline                </li>#Newline        <li><get var="next"/>:#Newline                    <star index="2"/>#Newline                    AM#Newline                </li>#Newline      </condition>,datetime.aiml
+0,IF IT IS       <SET>NUMBER</SET>       <SET>NUMBER</SET>       PM NOW WHAT TIME <SET>MODAL</SET> IT BE IN ONE HOUR,*,*,<think>#Newline        <set var="next">#Newline          <map>#Newline            <name>successor</name>#Newline            <star/>#Newline          </map>#Newline        </set>#Newline      </think>#Newline      <condition var="next">#Newline        <li value="13">1:#Newline                    <star index="2"/>#Newline                    AM.#Newline                </li>#Newline        <li><get var="next"/>:#Newline                    <star index="2"/>#Newline                    PM#Newline                </li>#Newline      </condition>,datetime.aiml
+0,IN * YEARS,*,*,I think we will live to see it.,datetime.aiml
+0,SEPTEMBER 11 *,*,*,<random>#Newline        <li>#Newline          <random>#Newline            <li>Where were you when you heard the news?</li>#Newline            <li>I will never forget that day.</li>#Newline            <li>History will not forget that day.</li>#Newline          </random>#Newline          <think>#Newline            <set name="it">#Newline              <set name="topic">SEPTEMBER 11</set>#Newline            </set>#Newline          </think>#Newline        </li>#Newline        <li>Where were you when you heard the news?</li>#Newline        <li>I will never forget that day.</li>#Newline        <li>History will not forget that day.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">SEPTEMBER 11</set>#Newline        </set>#Newline      </think>,datetime.aiml
+0,* PM,*,*,Hm getting late.,datetime.aiml
+0,* YEARS,*,*,<random>#Newline        <li>Not long.</li>#Newline        <li>Pretty soon.</li>#Newline      </random>,datetime.aiml
+0,WHAT IS THE <SET>ORDINAL</SET> MONTH ^,*,*,<srai>NTHWORD#Newline                <map name="ordinal2number"><star/></map>#Newline                January February March April May June July August September October November December#Newline            </srai>,datetime.aiml
+0,WHAT IS THE LAST MONTH ^,*,*,<srai>NTHWORD 12 January February March April May June July August September October November December#Newline            </srai>,datetime.aiml
+0,WHAT IS THE FIRST MONTH *,*,*,January.,datetime.aiml
+0,WHAT DAY # STARTS WITH # S,*,*,Saturday#Comma Sunday.,datetime.aiml
+0,WHAT DAYS # START WITH # S,*,*,Saturday#Comma Sunday.,datetime.aiml
+0,WHAT DAY # STARTS WITH # M,*,*,Monday.,datetime.aiml
+0,WHAT DAY # STARTS WITH # W,*,*,Wednesday.,datetime.aiml
+0,WHAT DAY # STARTS WITH # F,*,*,Friday.,datetime.aiml
+0,WHAT DAY # STARTS WITH # T,*,*,Tuesday#Comma Thursday.,datetime.aiml
+0,WHAT DAYS # START WITH # T,*,*,Tuesday#Comma Thursday.,datetime.aiml
+0,WHAT IS THE 1ST MONTH *,*,*,January.,datetime.aiml
+0,IS * A MONTH,*,*,No,datetime.aiml
+0,IS <SET>MONTH</SET> A MONTH,*,*,Yes,datetime.aiml
+0,<SET>MONTH</SET>,*,*,<star/>#Newline            is a month.,datetime.aiml
+0,IS       <SET>ARTICLE</SET>       <SET>MONTH</SET>       A MONTH,*,*,<srai>IS#Newline                <star index="2"/>#Newline                A MONTH#Newline            </srai>,datetime.aiml
+0,IS <SET>MONTH</SET> * MONTH *,*,*,<srai>IS#Newline                <star/>#Newline                A MONTH#Newline            </srai>,datetime.aiml
+0,IS       <SET>ARTICLE</SET>       <SET>MONTH</SET>       * MONTH *,*,*,<srai>IS#Newline                <star index="2"/>#Newline                A MONTH#Newline            </srai>,datetime.aiml
+0,WHAT YEAR IS THIS,*,*,<date format="%Y"/>.,datetime.aiml
+0,WHAT YEAR IS THIS *,*,*,<date format="%Y"/>.,datetime.aiml
+0,WHAT YEAR IS IT *,*,*,<date format="%Y"/>.,datetime.aiml
+0,WHAT MONTH IS IT *,*,*,<date format="%B"/>.,datetime.aiml
+0,WHAT IS THE YEAR *,*,*,<date format="%Y"/>.,datetime.aiml
+0,WHAT IS THE HOUR *,*,*,<date format="%I %p"/>.,datetime.aiml
+0,WHAT IS TODAY *,*,*,<date format="%x"/>.,datetime.aiml
+0,WHAT DAY IS IT *,*,*,<date format="%A"/>.,datetime.aiml
+0,IS TODAY SUNDAY,*,*,Today is<date format="%A"/>.,datetime.aiml
+0,IS TODAY SUNDAY *,*,*,Today is<date format="%A"/>.,datetime.aiml
+0,IS TODAY FRIDAY,*,*,Today is<date format="%A"/>.,datetime.aiml
+0,IS TODAY FRIDAY *,*,*,Today is<date format="%A"/>.,datetime.aiml
+0,IS TODAY TUESDAY,*,*,Today is<date format="%A"/>.,datetime.aiml
+0,IS TODAY TUESDAY *,*,*,Today is<date format="%A"/>.,datetime.aiml
+0,IS TODAY THURSDAY,*,*,Today is<date format="%A"/>.,datetime.aiml
+0,IS TODAY THURSDAY *,*,*,Today is<date format="%A"/>.,datetime.aiml
+0,IS TODAY SATURDAY,*,*,Today is<date format="%A"/>.,datetime.aiml
+0,IS TODAY SATURDAY *,*,*,Today is<date format="%A"/>.,datetime.aiml
+0,IS TODAY WEDNESDAY,*,*,Today is<date format="%A"/>.,datetime.aiml
+0,IS TODAY WEDNESDAY *,*,*,Today is<date format="%A"/>.,datetime.aiml
+0,IS TODAY MONDAY,*,*,Today is<date format="%A"/>.,datetime.aiml
+0,IS TODAY MONDAY *,*,*,Today is<date format="%A"/>.,datetime.aiml
+0,IS IT MONDAY,*,*,It is<date format="%A"/>.,datetime.aiml
+0,IS IT MONDAY *,*,*,It is<date format="%A"/>.,datetime.aiml
+0,IS IT WEDNESDAY,*,*,It is<date format="%A"/>.,datetime.aiml
+0,IS IT WEDNESDAY *,*,*,It is<date format="%A"/>.,datetime.aiml
+0,IS IT FRIDAY,*,*,It is<date format="%A"/>.,datetime.aiml
+0,IS IT FRIDAY *,*,*,It is<date format="%A"/>.,datetime.aiml
+0,IS IT SATURDAY,*,*,It is<date format="%A"/>.,datetime.aiml
+0,IS IT SATURDAY *,*,*,It is<date format="%A"/>.,datetime.aiml
+0,IS IT THURSDAY,*,*,It is<date format="%A"/>.,datetime.aiml
+0,IS IT THURSDAY *,*,*,It is<date format="%A"/>.,datetime.aiml
+0,IS IT SUNDAY,*,*,It is<date format="%A"/>.,datetime.aiml
+0,IS IT SUNDAY *,*,*,It is<date format="%A"/>.,datetime.aiml
+0,IS IT TUESDAY,*,*,It is<date format="%A"/>.,datetime.aiml
+0,IS IT TUESDAY *,*,*,It is<date format="%A"/>.,datetime.aiml

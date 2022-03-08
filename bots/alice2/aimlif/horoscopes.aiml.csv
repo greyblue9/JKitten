@@ -1,0 +1,3 @@
+0,IS * A # SIGN,*,*,No,horoscopes.aiml
+0,IS <SET>STARSIGN</SET> A # SIGN,*,*,Yes,horoscopes.aiml
+0,NAME <SET>QUANTIFIER</SET> # SIGN,*,*,Leo#Comma Pisces#Comma Libra.,horoscopes.aiml

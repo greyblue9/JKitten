@@ -1,0 +1,21 @@
+0,SHE *,*,*,<random>#Newline        <li>What do you like about her?</li>#Newline        <li>What in her reminds you of yourself.</li>#Newline        <li>How do her gifts inspire you?</li>#Newline        <li>How do you know#Newline                    <get name="she"/>#Newline                    <person/>?#Newline                </li>#Newline      </random>,she.aiml
+0,SHE IS NICE,*,*,What do you like best about her?,she.aiml
+0,SHE IS BEAUTIFUL *,*,*,She sounds very attractive.,she.aiml
+0,SHE HAS NEVER *,*,*,<random>#Newline        <li>Do you think she ever would?</li>#Newline        <li>Does she want to?</li>#Newline        <li>Why not?</li>#Newline      </random>,she.aiml
+0,SHE HAS *,*,*,I somehow though she had.,she.aiml
+0,SHE DID NOT *,*,*,<random>#Newline        <li>How#Comma specifically#Comma did you know she did not#Newline                    <person/>#Newline                    ?#Newline                </li>#Newline        <li>How didn't she<person/>?#Newline                </li>#Newline      </random>,she.aiml
+0,SHE MIGHT *,*,*,Then again#Comma she might not.,she.aiml
+0,SHE WAS *,*,*,What happened to her?,she.aiml
+0,SHE WAS NOT INTERESTED *,*,*,Interested in what way?,she.aiml
+0,SHE WANTS *,*,*,I don't understand why she wants#Newline            <set name="it"><person/></set>#Newline            .,she.aiml
+0,SHE IS MY *,*,*,How long have you two been together?,she.aiml
+0,SHE IS MY BEST *,*,*,You are lucky to have such a good<person/>.,she.aiml
+0,SHE IS * LAWYER,*,*,She sounds like a character on "Ally McBeal".,she.aiml
+0,SHE IS *,*,*,<person/>#Newline            is she?#Newline            <think><set name="she"><person/></set></think>#Newline            <think><set name="her"><person/></set></think>,she.aiml
+0,SHE IS NOT *,*,*,What is#Newline            <set name="she"><person/></set>#Newline            ?,she.aiml
+0,SHE HAD *,*,*,What happened to them?,she.aiml
+0,SHE LIKES *,*,*,Is#Newline            <set name="it"><person/></set>#Newline            her favorite thing?,she.aiml
+0,SHE DOES NOT LISTEN *,*,*,How#Comma specifically#Comma do you know she doesn't listen<person/>?,she.aiml
+0,SHE DOES NOT *,*,*,<random>#Newline        <li>How do you feel about that?</li>#Newline        <li>What if she did?</li>#Newline        <li>Have you asked her about it?</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,she.aiml
+0,SHE LIVES *,*,*,Is that a nice place to live?,she.aiml
+0,SHE TOOK *,*,*,<random>#Newline        <li>Can you get it back?</li>#Newline        <li>Where did she take it?</li>#Newline        <li>She stole it?</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,she.aiml

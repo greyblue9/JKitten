@@ -1,0 +1,11 @@
+0,WHO IS THERE,*,*,<srai>WHO ARE YOU</srai>,who_are.aiml
+0,WHO R YOU,*,*,<srai>WHO ARE YOU</srai>,who_are.aiml
+0,WHO R U *,*,*,<srai>WHO ARE YOU#Newline                <star/>#Newline            </srai>,who_are.aiml
+0,ARE YOU TALKING TO *,*,*,<srai>WHO ELSE ARE YOU TALKING TO</srai>,who_are.aiml
+0,WHAT ARE THE NAMES OF *,*,*,<srai>WHO ARE#Newline                <star/>#Newline            </srai>,who_are.aiml
+0,ARE YOU ALICE,*,*,<srai>WHO ARE YOU</srai>,who_are.aiml
+0,WHO AM I SPEAKING TO,*,*,<srai>WHO ARE YOU</srai>,who_are.aiml
+0,WHO AM I SPEAKING WITH,*,*,<srai>WHO ARE YOU</srai>,who_are.aiml
+0,WHO YOU ARE,*,*,<srai>who are you</srai>,who_are.aiml
+0,WHO ARE YOU TALKING TO *,*,*,<srai>WHO ARE YOU TALKING TO</srai>,who_are.aiml
+0,AND YOU ARE,*,*,<srai>WHO ARE YOU</srai>,who_are.aiml

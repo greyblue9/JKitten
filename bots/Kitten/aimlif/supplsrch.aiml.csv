@@ -1,0 +1,207 @@
+0,CHRISTMAS *,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg">CHRISTMAS <star/></set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,_ CHRISTMAS,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg"><star/> CHRISTMAS</set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,_ CHRISTMAS *,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg"><star/> CHRISTMAS <star index="2"/></set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,CHRISTMAS *,_ MOVIE IS ABOUT IN JUST A FEW WORDS,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg">CHRISTMAS <star/></set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,_ CHRISTMAS,_ MOVIE IS ABOUT IN JUST A FEW WORDS,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg"><star/> CHRISTMAS</set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,_ CHRISTMAS *,_ MOVIE IS ABOUT IN JUST A FEW WORDS,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg"><star/> CHRISTMAS <star index="2"/></set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,COMPUTER,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg">COMPUTER</set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,_ COMPUTER,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg"><star/> COMPUTER</set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,_ COMPUTER *,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg"><star/> COMPUTER <star index="2"/></set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,COMPUTERS,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg">COMPUTERS</set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,COMPUTER *,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg">COMPUTERS <star/></set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,_ COMPUTERS,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg"><star/> COMPUTER</set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,_ COMPUTERS *,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg"><star/> COMPUTER <star/></set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,DOGS,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg">dogs</set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,DOGS *,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg">dogs</set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,_ DOGS,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg">dogs</set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,_ DOGS *,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg">dogs</set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,GRINCH,*,*,<think>#Newline<set name="searcharg">GRINCH</set>#Newline<set name="search">catkey</set>#Newline</think>,supplsrch.aiml
+0,_ GRINCH,*,*,Here you go.#Newline<srai>GRINCH</srai>,supplsrch.aiml
+0,GRINCH *,*,*,Here you go.#Newline<srai>GRINCH</srai>,supplsrch.aiml
+0,_ GRINCH *,*,*,Here you go.#Newline<srai>GRINCH</srai>,supplsrch.aiml
+0,THEHLP,*,*,<think>#Newline<set name="searcharg">Kathryn Stockett</set>#Newline<set name="search">catkey</set>#Newline</think>,supplsrch.aiml
+0,THE HELP,*,*,Here you go.#Newline<srai>THEHLP</srai>,supplsrch.aiml
+0,_ THE HELP,*,*,Here you go.#Newline<srai>THEHLP</srai>,supplsrch.aiml
+0,THE HELP *,*,*,Here you go.#Newline<srai>THEHLP</srai>,supplsrch.aiml
+0,_ THE HELP *,*,*,Here you go.#Newline<srai>THEHLP</srai>,supplsrch.aiml
+0,NEVERMIND,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg">NEVERMIND</set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,_ NEVERMIND,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg">NEVERMIND</set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,NEVERMIND *,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg">NEVERMIND</set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,_ NEVERMIND *,ENTER THE AUTHOR OR THE TITLE OR THE TOPIC,*,Let's take a look in our catalog. Here are the closest matches based on what you told me. #NewlineThe results will open as a new window or as a new tab. <br/><br/>#Newline<srai>CONCL</srai>#Newline<think>#Newline<set name="searcharg">NEVERMIND</set>#Newline<set name="search">catkey</set></think>,supplsrch.aiml
+0,SJOBS,*,*,Here you go.#Newline<think>#Newline<set name="searcharg">STEVE JOBS</set>#Newline<set name="search">catkey</set>#Newline</think>,supplsrch.aiml
+0,STEVE JOBS,*,*,<srai>SJOBS</srai>,supplsrch.aiml
+0,_ STEVE JOBS,*,*,<srai>SJOBS</srai>,supplsrch.aiml
+0,STEVE JOBS *,*,*,<srai>SJOBS</srai>,supplsrch.aiml
+0,_ STEVE JOBS *,*,*,<srai>SJOBS</srai>,supplsrch.aiml
+0,RADIO,*,*,Here#Comma I'll find you some music. Using just a few words#Comma please tell me what kind of music you like.,supplsrch.aiml
+0,*,_ PLEASE TELL ME WHAT KIND OF MUSIC YOU LIKE,*,Let's check iHeartRadio. If you don't#Newlinesee the results#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">radio</set>#Newline<set name="searcharg"><star/></set>#Newline</think>,supplsrch.aiml
+0,* RADIO,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,RADIO *,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,* RADIO *,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,PLAY MUSIC,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,* PLAY MUSIC,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,PLAY MUSIC *,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,* PLAY * MUSIC,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,PLAY * MUSIC *,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,* PLAY MUSIC *,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,* PLAY * MUSIC *,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,PLAY SONG,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,* PLAY SONG,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,PLAY * SONG,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,* PLAY * SONG,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,PLAY * SONG *,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,* PLAY SONG *,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,* PLAY * SONG *,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,PLAY SONGS,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,* PLAY SONGS,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,PLAY * SONGS,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,PLAY SONGS *,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,* PLAY * SONGS,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,PLAY * SONGS *,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,* PLAY SONGS *,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,* PLAY * SONGS *,*,*,<srai>RADIO</srai>,supplsrch.aiml
+0,LOCRADIO,*,*,Here#Comma I'll find your local radio stations. You can listen to them online. Please enter your zip code.,supplsrch.aiml
+0,*,PLEASE ENTER YOUR ZIP CODE,*,Let's check iHeartRadio. If you don't#Newlinesee the results#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">locradio</set>#Newline<set name="searcharg"><star/></set>#Newline</think>,supplsrch.aiml
+0,LOCAL RADIO,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,* LOCAL RADIO,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,LOCAL * RADIO,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,LOCAL RADIO *,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,* LOCAL * RADIO,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,LOCAL * RADIO *,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,* LOCAL RADIO *,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,* LOCAL * RADIO *,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,LOCATION RADIO,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,* LOCATION RADIO,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,LOCATION * RADIO,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,LOCATION RADIO *,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,* LOCATION * RADIO,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,LOCATION * RADIO *,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,* LOCATION RADIO *,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,* LOCATION * RADIO *,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,STATION LOCATION,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,* STATION LOCATION,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,STATION * LOCATION,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,STATION LOCATION *,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,* STATION * LOCATION,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,STATION * LOCATION *,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,* STATION * LOCATION *,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,STATIONS LOCATION,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,* STATIONS LOCATION,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,STATIONS * LOCATION,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,STATIONS LOCATION *,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,* STATIONS * LOCATION,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,STATIONS * LOCATION *,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,* STATIONS * LOCATION *,*,*,<srai>LOCRADIO</srai>,supplsrch.aiml
+0,RCIPE,*,*,I can help you find a recipe. Using just a few words#Comma please tell me what recipe you would like.,supplsrch.aiml
+0,*,_ PLEASE TELL ME WHAT RECIPE YOU WOULD LIKE,*,Let's check the Food Network. If you don't#Newlinesee the results#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">recipes</set>#Newline<set name="searcharg"><star/></set>#Newline</think>,supplsrch.aiml
+0,RECIPE *,*,*,<srai>RCIPE</srai>,supplsrch.aiml
+0,* RECIPE *,*,*,<srai>RCIPE</srai>,supplsrch.aiml
+0,RCIPES,*,*,I can help you find a recipe. Using just a few words#Comma please tell me what recipes you would like.,supplsrch.aiml
+0,*,_ PLEASE TELL ME WHAT RECIPES YOU WOULD LIKE,*,Let's check the Food Network. If you don't#Newlinesee the results#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">recipes</set>#Newline<set name="searcharg"><star/></set>#Newline</think>,supplsrch.aiml
+0,RECIPES *,*,*,<srai>RCIPES</srai>,supplsrch.aiml
+0,* RECIPES *,*,*,<srai>RCIPES</srai>,supplsrch.aiml
+0,RECIPE FOR *,*,*,Let's check the Food Network. If you don't#Newlinesee the results#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">recipes</set>#Newline<set name="searcharg"><star/></set>#Newline</think>,supplsrch.aiml
+0,* RECIPE FOR *,*,*,Let's check the Food Network. If you don't#Newlinesee the results#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">recipes</set>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>,supplsrch.aiml
+0,RECIPES FOR *,*,*,Let's check the Food Network. If you don't#Newlinesee the results#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">recipes</set>#Newline<set name="searcharg"><star/></set>#Newline</think>,supplsrch.aiml
+0,* RECIPES FOR *,*,*,Let's check the Food Network. If you don't#Newlinesee the results#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">recipes</set>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>,supplsrch.aiml
+0,MAP,*,*,I can find maps for you. Using just a few words#Comma tell me what you want a map of.,supplsrch.aiml
+0,*,_ TELL ME WHAT YOU WANT A MAP OF,*,I apologize for ending a sentence with a preposition#Comma but at least I didn't#Newlinemix up "respectfully" and "respectively." Anyway#Comma here's your map. If you don't#Newlinesee it#Comma turn off your pop up blocker and ask me again#Newline<think>#Newline<set name="search">gmaps</set>#Newline<set name="searcharg"><star/></set>#Newline</think>,supplsrch.aiml
+0,* MAP,*,*,I can find maps for you. Using just a few words#Comma tell me what you want a map of.,supplsrch.aiml
+0,MAP *,*,*,I can find maps for you. Using just a few words#Comma tell me what you want a map of.,supplsrch.aiml
+0,* MAP *,*,*,I can find maps for you. Using just a few words#Comma tell me what you want a map of.,supplsrch.aiml
+0,MAPS,*,*,I can find maps for you. Using just a few words#Comma tell me what you want a map of.,supplsrch.aiml
+0,* MAPS,*,*,I can find maps for you. Using just a few words#Comma tell me what you want a map of.,supplsrch.aiml
+0,MAPS *,*,*,I can find maps for you. Using just a few words#Comma tell me what you want a map of.,supplsrch.aiml
+0,* MAPS *,*,*,I can find maps for you. Using just a few words#Comma tell me what you want a map of.,supplsrch.aiml
+0,MAP OF *,*,*,Here's your map. If you don't#Newlinesee it#Comma turn off your pop up blocker and ask me again. #Newline<think>#Newline<set name="search">gmaps</set>#Newline<set name="searcharg"><star/></set>#Newline</think>,supplsrch.aiml
+0,MAPS OF *,*,*,Here's your map. If you don't#Newlinesee it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">gmaps</set>#Newline<set name="searcharg"><star/></set>#Newline</think>,supplsrch.aiml
+0,* MAP OF *,*,*,Here's your map. If you don't#Newlinesee it#Comma turn off your pop up blocker and ask me again.                   #Newline<think>#Newline<set name="search">gmaps</set>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>,supplsrch.aiml
+0,* MAPS OF *,*,*,Here's your map. If you don't#Newlinesee it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">gmaps</set>#Newline<set name="searcharg"><star index="2"/></set>#Newline</think>,supplsrch.aiml
+0,WX,*,*,It's a pleasant seventy degrees inside this computer. (By the way#Comma it's pretty dusty in here. You really ought to clean this thing out.) #NewlineFor your local weather conditions and forecast#Comma type your zip code#Comma just five numbers#Comma and press "enter"#Newline<think>#Newline<set name="topic">WXFRCST</set>#Newline</think>,supplsrch.aiml
+0,*,* LOCAL WEATHER *,WXFRCST,Here's your local weather. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">wx</set>#Newline<set name="searcharg"><star/></set>#Newline</think>,supplsrch.aiml
+0,NO *,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">bookkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,I *,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">bookkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,BOOK,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">catkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,BOOK *,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">catkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,* BOOK,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">catkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,* BOOK *,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">catkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,BOOKS,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">catkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,BOOKS *,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">catkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,* BOOKS,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">catkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,* BOOKS *,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">catkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,DVD,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">catkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,DVD *,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">catkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,* DVD,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">catkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,* DVD *,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">catkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,DVDS,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">catkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,DVDS *,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">catkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,* DVDS,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">catkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,* DVDS *,* LOCAL WEATHER *,WXFRCST,Now I understand. Let's see what's in our catalog. If you don't see it#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="search">catkey</set>#Newline<set name="searcharg">weather</set>#Newline</think>,supplsrch.aiml
+0,* WEATHER,*,*,<srai>WX</srai>,supplsrch.aiml
+0,WEATHER *,*,*,<srai>WX</srai>,supplsrch.aiml
+0,* WEATHER *,*,*,<srai>WX</srai>,supplsrch.aiml
+0,WX2,*,*,I can check the local weather forecast. Yype your zip code#Comma just five numbers#Comma and press "enter."#Newline<think>#Newline<set name="topic">WXFRCST</set>#Newline</think>,supplsrch.aiml
+0,* COLD LATER,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* COLD TODAY,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* COLD * WEEK,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* COLD TOMORROW,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* FREEZING LATER,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* FREEZING TODAY,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* FREEZING * WEEK,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* FREEZING TOMORROW,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* FROST LATER,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* FROST TODAY,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* FROST * WEEK,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* FROST TOMORROW,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* HOT LATER,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* HOT TODAY,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* HOT * WEEK,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* HOT TOMORROW,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* RAIN LATER,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* RAINING LATER,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* RAIN TODAY,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* RAINING TODAY,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* RAIN TOMORROW,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* RAINING TOMORROW,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* RAIN * WEEK,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* RAINING * WEEK,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* SNOW LATER,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* SNOWING LATER,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* SNOW TODAY,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* SNOWING TODAY,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* SNOW * WEEK,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* SNOWING * WEEK,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* SNOW TOMORROW,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* SNOWING TOMORROW,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* STORM LATER,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* STORMY LATER,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* STORM TODAY,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* STORMY TODAY,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* STORM * WEEK,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* STORMY * WEEK,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* STORM TOMORROW,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* STORMY TOMORROW,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* STORMS LATER,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* STORMING LATER,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* STORMS TODAY,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* STORMING TODAY,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* STORMS * WEEK,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* STORMING * WEEK,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* STORMS TOMORROW,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* STORMING TOMORROW,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* SUN LATER,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* SUNNY LATER,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* SUN TODAY,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* SUNNY TODAY,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* SUN * WEEK,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* SUNNY * WEEK,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* SUN TOMORROW,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* SUNNY TOMORROW,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* WIND LATER,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* WINDY LATER,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* WIND TODAY,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* WINDY TODAY,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* WIND * WEEK,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* WINDY * WEEK,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* WIND TOMORROW,*,*,<srai>WX2</srai>,supplsrch.aiml
+0,* WINDY TOMORROW,*,*,<srai>WX2</srai>,supplsrch.aiml

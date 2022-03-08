@@ -1,0 +1,204 @@
+0,BRNCHS,*,*,I'm often asked about our branches. What would you like to know about our Branches? #Newline<think>#Newline<set name="topic">BRANCHES</set>#Newline</think>,locations.aiml
+0,_,*,BRANCHES,<think>#Newline<set name="answr"><star/></set>#Newline<set name="message">no match</set>#Newline<condition name="answr">#Newline#Newline<li value="ADDRESS"><set name="message">locations</set></li>#Newline<li value="* ADDRESS"><set name="message">locations</set></li>#Newline<li value="ADDRESS *"><set name="message">locations</set></li>#Newline<li value="* ADDRESS *"><set name="message">locations</set></li>#Newline#Newline<li value="DIRECTIONS"><set name="message">locations</set></li>#Newline<li value="* DIRECTIONS"><set name="message">locations</set></li>#Newline<li value="DIRECTIONS *"><set name="message">locations</set></li>#Newline<li value="* DIRECTIONS *"><set name="message">locations</set></li>#Newline#Newline<li value="DIRECTIONS TO LIBRARY"><set name="message">locations</set></li>#Newline<li value="* DIRECTIONS TO LIBRARY"><set name="message">locations</set></li>#Newline<li value="DIRECTIONS TO * LIBRARY"><set name="message">locations</set></li>#Newline<li value="DIRECTIONS TO LIBRARY *"><set name="message">locations</set></li>#Newline<li value="* DIRECTIONS TO * LIBRARY"><set name="message">locations</set></li>#Newline<li value="DIRECTIONS TO * LIBRARY *"><set name="message">locations</set></li>#Newline<li value="* DIRECTIONS TO * LIBRARY *"><set name="message">locations</set></li>#Newline#Newline<li value="GET TO"><set name="message">locations</set></li>#Newline<li value="* GET TO"><set name="message">locations</set></li>#Newline<li value="GET TO *"><set name="message">locations</set></li>#Newline<li value="* GET TO *"><set name="message">locations</set></li>#Newline#Newline<li value="GET TO LIBRARY"><set name="message">locations</set></li>#Newline<li value="* GET TO LIBRARY"><set name="message">locations</set></li>#Newline<li value="GET TO * LIBRARY"><set name="message">locations</set></li>#Newline<li value="GET TO LIBRARY *"><set name="message">locations</set></li>#Newline<li value="* GET TO * LIBRARY"><set name="message">locations</set></li>#Newline<li value="GET TO * LIBRARY *"><set name="message">locations</set></li>#Newline<li value="* GET TO * LIBRARY *"><set name="message">locations</set></li>#Newline#Newline<li value="LOCATED"><set name="message">locations</set></li>#Newline<li value="* LOCATED"><set name="message">locations</set></li>#Newline<li value="LOCATED *"><set name="message">locations</set></li>#Newline<li value="* LOCATED *"><set name="message">locations</set></li>#Newline#Newline<li value="LOCATION"><set name="message">locations</set></li>#Newline<li value="* LOCATION"><set name="message">locations</set></li>#Newline<li value="LOCATION *"><set name="message">locations</set></li>#Newline<li value="* LOCATION *"><set name="message">locations</set></li>#Newline#Newline<li value="MAP"><set name="message">locations</set></li>#Newline<li value="* MAP"><set name="message">locations</set></li>#Newline<li value="MAP *"><set name="message">locations</set></li>#Newline<li value="* MAP *"><set name="message">locations</set></li>#Newline#Newline<li value="MAPS"><set name="message">locations</set></li>#Newline<li value="* MAPS"><set name="message">locations</set></li>#Newline<li value="MAPS *"><set name="message">locations</set></li>#Newline<li value="* MAPS *"><set name="message">locations</set></li>#Newline#Newline<li value="WHERE LIBRARY"><set name="message">locations</set></li>#Newline<li value="* WHERE LIBRARY"><set name="message">locations</set></li>#Newline<li value="WHERE * LIBRARY"><set name="message">locations</set></li>#Newline<li value="WHERE LIBRARY *"><set name="message">locations</set></li>#Newline<li value="* WHERE * LIBRARY"><set name="message">locations</set></li>#Newline<li value="WHERE * LIBRARY *"><set name="message">locations</set></li>#Newline<li value="* WHERE * LIBRARY *"><set name="message">locations</set></li>#Newline#Newline<li value="ADDRESS HEADLANDS"><set name="message">hdls location</set></li>#Newline<li value="* ADDRESS HEADLANDS"><set name="message">hdls location</set></li>#Newline<li value="ADDRESS * HEADLANDS"><set name="message">hdls location</set></li>#Newline<li value="ADDRESS HEADLANDS *"><set name="message">hdls location</set></li>#Newline<li value="* ADDRESS * HEADLANDS"><set name="message">hdls location</set></li>#Newline<li value="ADDRESS * HEADLANDS *"><set name="message">hdls location</set></li>#Newline<li value="* ADDRESS * HEADLANDS *"><set name="message">hdls location</set></li>#Newline#Newline<li value="DIRECTIONS HEADLANDS"><set name="message">hdls location</set></li>#Newline<li value="* DIRECTIONS HEADLANDS"><set name="message">hdls location</set></li>#Newline<li value="DIRECTIONS * HEADLANDS"><set name="message">hdls location</set></li>#Newline<li value="DIRECTIONS HEADLANDS *"><set name="message">hdls location</set></li>#Newline<li value="* DIRECTIONS * HEADLANDS"><set name="message">hdls location</set></li>#Newline<li value="DIRECTIONS * HEADLANDS *"><set name="message">hdls location</set></li>#Newline<li value="* DIRECTIONS * HEADLANDS *"><set name="message">hdls location</set></li>#Newline#Newline<li value="GET TO HEADLANDS"><set name="message">hdls location</set></li>#Newline<li value="* GET TO HEADLANDS"><set name="message">hdls location</set></li>#Newline<li value="GET TO * HEADLANDS"><set name="message">hdls location</set></li>#Newline<li value="GET TO HEADLANDS *"><set name="message">hdls location</set></li>#Newline<li value="* GET TO * HEADLANDS"><set name="message">hdls location</set></li>#Newline<li value="GET TO * HEADLANDS *"><set name="message">hdls location</set></li>#Newline<li value="* GET TO * HEADLANDS *"><set name="message">hdls location</set></li>#Newline#Newline<li value="WHERE HEADLANDS"><set name="message">hdls location</set></li>#Newline<li value="* WHERE HEADLANDS"><set name="message">hdls location</set></li>#Newline<li value="WHERE * HEADLANDS"><set name="message">hdls location</set></li>#Newline<li value="WHERE HEADLANDS *"><set name="message">hdls location</set></li>#Newline<li value="* WHERE * HEADLANDS"><set name="message">hdls location</set></li>#Newline<li value="WHERE * HEADLANDS *"><set name="message">hdls location</set></li>#Newline<li value="* WHERE * HEADLANDS *"><set name="message">hdls location</set></li>#Newline#Newline<li value="ADDRESS MAIN"><set name="message">main location</set></li>#Newline<li value="* ADDRESS MAIN"><set name="message">main location</set></li>#Newline<li value="ADDRESS * MAIN"><set name="message">main location</set></li>#Newline<li value="ADDRESS MAIN *"><set name="message">main location</set></li>#Newline<li value="* ADDRESS * MAIN"><set name="message">main location</set></li>#Newline<li value="ADDRESS * MAIN *"><set name="message">main location</set></li>#Newline<li value="* ADDRESS * MAIN *"><set name="message">main location</set></li>#Newline#Newline<li value="DIRECTIONS MAIN"><set name="message">main location</set></li>#Newline<li value="* DIRECTIONS MAIN"><set name="message">main location</set></li>#Newline<li value="DIRECTIONS * MAIN"><set name="message">main location</set></li>#Newline<li value="DIRECTIONS MAIN *"><set name="message">main location</set></li>#Newline<li value="* DIRECTIONS * MAIN"><set name="message">main location</set></li>#Newline<li value="DIRECTIONS * MAIN *"><set name="message">main location</set></li>#Newline<li value="* DIRECTIONS * MAIN *"><set name="message">main location</set></li>#Newline#Newline<li value="GET TO MAIN"><set name="message">main location</set></li>#Newline<li value="* GET TO MAIN"><set name="message">main location</set></li>#Newline<li value="GET TO * MAIN"><set name="message">main location</set></li>#Newline<li value="GET TO MAIN *"><set name="message">main location</set></li>#Newline<li value="* GET TO * MAIN"><set name="message">main location</set></li>#Newline<li value="GET TO * MAIN *"><set name="message">main location</set></li>#Newline<li value="* GET TO * MAIN *"><set name="message">main location</set></li>#Newline#Newline<li value="WHERE MAIN"><set name="message">main location</set></li>#Newline<li value="* WHERE MAIN"><set name="message">main location</set></li>#Newline<li value="WHERE * MAIN"><set name="message">main location</set></li>#Newline<li value="WHERE MAIN *"><set name="message">main location</set></li>#Newline<li value="* WHERE * MAIN"><set name="message">main location</set></li>#Newline<li value="WHERE * MAIN *"><set name="message">main location</set></li>#Newline<li value="* WHERE * MAIN *"><set name="message">main location</set></li>#Newline#Newline<li value="ADDRESS LAKE"><set name="message">mol location</set></li>#Newline<li value="* ADDRESS LAKE"><set name="message">mol location</set></li>#Newline<li value="ADDRESS * LAKE"><set name="message">mol location</set></li>#Newline<li value="ADDRESS LAKE *"><set name="message">mol location</set></li>#Newline<li value="* ADDRESS * LAKE"><set name="message">mol location</set></li>#Newline<li value="ADDRESS * LAKE *"><set name="message">mol location</set></li>#Newline<li value="* ADDRESS * LAKE *"><set name="message">mol location</set></li>#Newline#Newline<li value="DIRECTIONS LAKE"><set name="message">mol location</set></li>#Newline<li value="* DIRECTIONS LAKE"><set name="message">mol location</set></li>#Newline<li value="DIRECTIONS * LAKE"><set name="message">mol location</set></li>#Newline<li value="DIRECTIONS LAKE *"><set name="message">mol location</set></li>#Newline<li value="* DIRECTIONS * LAKE"><set name="message">mol location</set></li>#Newline<li value="DIRECTIONS * LAKE *"><set name="message">mol location</set></li>#Newline<li value="* DIRECTIONS * LAKE *"><set name="message">mol location</set></li>#Newline#Newline<li value="GET TO LAKE"><set name="message">mol location</set></li>#Newline<li value="* GET TO LAKE"><set name="message">mol location</set></li>#Newline<li value="GET TO * LAKE"><set name="message">mol location</set></li>#Newline<li value="GET TO LAKE *"><set name="message">mol location</set></li>#Newline<li value="* GET TO * LAKE"><set name="message">mol location</set></li>#Newline<li value="GET TO * LAKE *"><set name="message">mol location</set></li>#Newline<li value="* GET TO * LAKE *"><set name="message">mol location</set></li>#Newline#Newline<li value="WHERE LAKE"><set name="message">mol location</set></li>#Newline<li value="* WHERE LAKE"><set name="message">mol location</set></li>#Newline<li value="WHERE * LAKE"><set name="message">mol location</set></li>#Newline<li value="WHERE LAKE *"><set name="message">mol location</set></li>#Newline<li value="* WHERE * LAKE"><set name="message">mol location</set></li>#Newline<li value="WHERE * LAKE *"><set name="message">mol location</set></li>#Newline<li value="* WHERE * LAKE *"><set name="message">mol location</set></li>#Newline#Newline<li value="ADDRESS MOL"><set name="message">mol location</set></li>#Newline<li value="* ADDRESS MOL"><set name="message">mol location</set></li>#Newline<li value="ADDRESS * MOL"><set name="message">mol location</set></li>#Newline<li value="ADDRESS MOL *"><set name="message">mol location</set></li>#Newline<li value="* ADDRESS * MOL"><set name="message">mol location</set></li>#Newline<li value="ADDRESS * MOL *"><set name="message">mol location</set></li>#Newline<li value="* ADDRESS * MOL *"><set name="message">mol location</set></li>#Newline#Newline<li value="DIRECTIONS MOL"><set name="message">mol location</set></li>#Newline<li value="* DIRECTIONS MOL"><set name="message">mol location</set></li>#Newline<li value="DIRECTIONS * MOL"><set name="message">mol location</set></li>#Newline<li value="DIRECTIONS MOL *"><set name="message">mol location</set></li>#Newline<li value="* DIRECTIONS * MOL"><set name="message">mol location</set></li>#Newline<li value="DIRECTIONS * MOL *"><set name="message">mol location</set></li>#Newline<li value="* DIRECTIONS * MOL *"><set name="message">mol location</set></li>#Newline#Newline<li value="GET TO MOL"><set name="message">mol location</set></li>#Newline<li value="* GET TO MOL"><set name="message">mol location</set></li>#Newline<li value="GET TO * MOL"><set name="message">mol location</set></li>#Newline<li value="GET TO MOL *"><set name="message">mol location</set></li>#Newline<li value="* GET TO * MOL"><set name="message">mol location</set></li>#Newline<li value="GET TO * MOL *"><set name="message">mol location</set></li>#Newline<li value="* GET TO * MOL *"><set name="message">mol location</set></li>#Newline#Newline<li value="WHERE MOL"><set name="message">mol location</set></li>#Newline<li value="* WHERE MOL"><set name="message">mol location</set></li>#Newline<li value="WHERE * MOL"><set name="message">mol location</set></li>#Newline<li value="WHERE MOL *"><set name="message">mol location</set></li>#Newline<li value="* WHERE * MOL"><set name="message">mol location</set></li>#Newline<li value="WHERE * MOL *"><set name="message">mol location</set></li>#Newline<li value="* WHERE * MOL *"><set name="message">mol location</set></li>#Newline#Newline<li value="MANAGER LAKE"><set name="message">mol mgr</set></li>#Newline<li value="* MANAGER LAKE"><set name="message">mol mgr</set></li>#Newline<li value="MANAGER * LAKE"><set name="message">mol mgr</set></li>#Newline<li value="MANAGER LAKE *"><set name="message">mol mgr</set></li>#Newline<li value="* MANAGER * LAKE"><set name="message">mol mgr</set></li>#Newline<li value="MANAGER * LAKE *"><set name="message">mol mgr</set></li>#Newline<li value="* MANAGER * LAKE *"><set name="message">mol mgr</set></li>#Newline#Newline<li value="NUMBER"><set name="message">libphone</set></li>#Newline<li value="* NUMBER"><set name="message">libphone</set></li>#Newline<li value="NUMBER *"><set name="message">libphone</set></li>#Newline<li value="* NUMBER *"><set name="message">libphone</set></li>#Newline#Newline<li value="PHONE"><set name="message">libphone</set></li>#Newline<li value="* PHONE"><set name="message">libphone</set></li>#Newline<li value="PHONE *"><set name="message">libphone</set></li>#Newline<li value="* PHONE *"><set name="message">libphone</set></li>#Newline#Newline<li value="CALL LAKE"><set name="message">mol phone</set></li>#Newline<li value="* CALL LAKE"><set name="message">mol phone</set></li>#Newline<li value="CALL * LAKE"><set name="message">mol phone</set></li>#Newline<li value="CALL LAKE *"><set name="message">mol phone</set></li>#Newline<li value="* CALL * LAKE"><set name="message">mol phone</set></li>#Newline<li value="CALL * LAKE *"><set name="message">mol phone</set></li>#Newline<li value="* CALL * LAKE *"><set name="message">mol phone</set></li>#Newline#Newline<li value="NUMBER LAKE"><set name="message">mol phone</set></li>#Newline<li value="* NUMBER LAKE"><set name="message">mol phone</set></li>#Newline<li value="NUMBER * LAKE"><set name="message">mol phone</set></li>#Newline<li value="NUMBER LAKE *"><set name="message">mol phone</set></li>#Newline<li value="* NUMBER * LAKE"><set name="message">mol phone</set></li>#Newline<li value="NUMBER * LAKE *"><set name="message">mol phone</set></li>#Newline<li value="* NUMBER * LAKE *"><set name="message">mol phone</set></li>#Newline#Newline<li value="PHONE LAKE"><set name="message">mol phone</set></li>#Newline<li value="* PHONE LAKE"><set name="message">mol phone</set></li>#Newline<li value="PHONE * LAKE"><set name="message">mol phone</set></li>#Newline<li value="PHONE LAKE *"><set name="message">mol phone</set></li>#Newline<li value="* PHONE * LAKE"><set name="message">mol phone</set></li>#Newline<li value="PHONE * LAKE *"><set name="message">mol phone</set></li>#Newline<li value="* PHONE * LAKE *"><set name="message">mol phone</set></li>#Newline#Newline<li value="DROP OFF"><set name="message">returns</set></li>#Newline<li value="* DROP OFF"><set name="message">returns</set></li>#Newline<li value="DROP * OFF"><set name="message">returns</set></li>#Newline<li value="DROP OFF *"><set name="message">returns</set></li>#Newline<li value="* DROP * OFF"><set name="message">returns</set></li>#Newline<li value="DROP * OFF *"><set name="message">returns</set></li>#Newline<li value="* DROP OFF *"><set name="message">returns</set></li>#Newline<li value="* DROP * OFF *"><set name="message">returns</set></li>#Newline#Newline<li value="DROPPED OFF"><set name="message">returns</set></li>#Newline<li value="* DROPPED OFF"><set name="message">returns</set></li>#Newline<li value="DROPPED * OFF"><set name="message">returns</set></li>#Newline<li value="DROPPED OFF *"><set name="message">returns</set></li>#Newline<li value="* DROPPED * OFF"><set name="message">returns</set></li>#Newline<li value="DROPPED * OFF *"><set name="message">returns</set></li>#Newline<li value="* DROPPED OFF *"><set name="message">returns</set></li>#Newline<li value="* DROPPED * OFF *"><set name="message">returns</set></li>#Newline#Newline<li value="RETURN"><set name="message">returns</set></li>#Newline<li value="* RETURN"><set name="message">returns</set></li>#Newline<li value="RETURN *"><set name="message">returns</set></li>#Newline<li value="* RETURN *"><set name="message">returns</set></li>#Newline#Newline<li value="RETURNING"><set name="message">returns</set></li>#Newline<li value="* RETURNING"><set name="message">returns</set></li>#Newline<li value="RETURNING *"><set name="message">returns</set></li>#Newline<li value="* RETURNING *"><set name="message">returns</set></li>#Newline#Newline<li value="RETURNS"><set name="message">returns</set></li>#Newline<li value="* RETURNS"><set name="message">returns</set></li>#Newline<li value="RETURNS *"><set name="message">returns</set></li>#Newline<li value="* RETURNS *"><set name="message">returns</set></li>#Newline#Newline<li value="HOURS"><set name="message">returns</set></li>#Newline<li value="* HOURS"><set name="message">returns</set></li>#Newline<li value="HOURS *"><set name="message">returns</set></li>#Newline<li value="* HOURS *"><set name="message">returns</set></li>#Newline#Newline<li value="CLOSE"><set name="message">returns</set></li>#Newline<li value="* CLOSE"><set name="message">returns</set></li>#Newline<li value="CLOSE *"><set name="message">returns</set></li>#Newline<li value="* CLOSE *"><set name="message">returns</set></li>#Newline#Newline<li value="CLOSED"><set name="message">returns</set></li>#Newline<li value="* CLOSED"><set name="message">returns</set></li>#Newline<li value="CLOSED *"><set name="message">returns</set></li>#Newline<li value="* CLOSED *"><set name="message">returns</set></li>#Newline#Newline<li value="OPEN"><set name="message">returns</set></li>#Newline<li value="* OPEN"><set name="message">returns</set></li>#Newline<li value="OPEN *"><set name="message">returns</set></li>#Newline<li value="* OPEN *"><set name="message">returns</set></li>#Newline#Newline<li value="OPENED"><set name="message">returns</set></li>#Newline<li value="* OPENED"><set name="message">returns</set></li>#Newline<li value="OPENED *"><set name="message">returns</set></li>#Newline<li value="* OPENED *"><set name="message">returns</set></li>#Newline#Newline<li value="READ HOUSE"><set name="message">read house</set></li>#Newline<li value="* READ HOUSE"><set name="message">read house</set></li>#Newline<li value="READ HOUSE *"><set name="message">read house</set></li>#Newline<li value="* READ HOUSE *"><set name="message">read house</set></li>#Newline#Newline<li value="READHOUSE"><set name="message">read house</set></li>#Newline<li value="* READHOUSE"><set name="message">read house</set></li>#Newline<li value="READHOUSE *"><set name="message">read house</set></li>#Newline<li value="* READHOUSE *"><set name="message">read house</set></li>#Newline#Newline<li value="REED HOUSE"><set name="message">read house</set></li>#Newline<li value="* REED HOUSE"><set name="message">read house</set></li>#Newline<li value="REED HOUSE *"><set name="message">read house</set></li>#Newline<li value="* REED HOUSE *"><set name="message">read house</set></li>#Newline#Newline<li value="REEDHOUSE"><set name="message">read house</set></li>#Newline<li value="* REEDHOUSE"><set name="message">read house</set></li>#Newline<li value="REEDHOUSE *"><set name="message">read house</set></li>#Newline<li value="* REEDHOUSE *"><set name="message">read house</set></li>#Newline#Newline</condition>#Newline<think><set name="topic"/></think>#Newline</think>#Newline #Newline<condition name="message">#Newline<li value="no match"><set name="topic"/><srai>NOMATCH</srai></li>#Newline#Newline<li value="locations"><srai>LIBLOC</srai></li>#Newline<li value="hdls location"><srai>HDLSLOC</srai></li>#Newline<li value="main location"><srai>MAINLOC</srai></li>#Newline<li value="mol location"><srai>LAKELOC</srai></li>#Newline<li value="mol mgr"><srai>MOLMGR</srai></li>#Newline<li value="libphone"><srai>LIBPHONE</srai></li>#Newline<li value="mol phone"><srai>MOLPHONE</srai></li>#Newline#Newline<li value="returns">You may return any of our items to any of our locations.</li>#Newline#Newline<li value="branchhrs"><srai>BRNCHHRS</srai></li>#Newline<li value="read house"><srai>READHSE</srai></li>#Newline#Newline</condition>,locations.aiml
+0,BRANCHLOCS,*,*,We have two branches. <srai>HDLSLOC</srai>#Newline<srai>LAKELOC</srai> You may return any of our items to any of our locations.,locations.aiml
+0,BRANCH,*,*,<srai>BRNCHS</srai>,locations.aiml
+0,* BRANCH,*,*,<srai>BRNCHS</srai>,locations.aiml
+0,BRANCH *,*,*,<srai>BRNCHS</srai>,locations.aiml
+0,* BRANCH *,*,*,<srai>BRNCHS</srai>,locations.aiml
+0,BRANCHES,*,*,<srai>BRNCHS</srai>,locations.aiml
+0,* BRANCHES,*,*,<srai>BRNCHS</srai>,locations.aiml
+0,BRANCHES *,*,*,<srai>BRNCHS</srai>,locations.aiml
+0,* BRANCHES *,*,*,<srai>BRNCHS</srai>,locations.aiml
+0,* GET TO *,*,*,<srai>DIRECTIONS <star index="2"/></srai>,locations.aiml
+0,GET TO *,*,*,<srai>DIRECTIONS <star/></srai>,locations.aiml
+0,DIRECTIONS TO *,*,*,<srai>DIRECTIONS <star/></srai>,locations.aiml
+0,* DIRECTIONS TO *,*,*,<srai>DIRECTIONS <star index="2"/></srai>,locations.aiml
+0,MENTORDIR,*,*,You can find maps of Mentor Ohio <a href="http://cityofmentor.com/interactive-map/" target="_blank"><b>on this page</b></a>,locations.aiml
+0,DIRECTIONS MENTOR,*,*,<srai>MENTORDIR</srai>,locations.aiml
+0,DIRECTIONS CITY OF MENTOR,*,*,<srai>MENTORDIR</srai>,locations.aiml
+0,DIRECTIONS MENTOR OHIO,*,*,<srai>MENTORDIR</srai>,locations.aiml
+0,DIRECTION TO MPL,*,*,<srai>MENTORDIR</srai>,locations.aiml
+0,DIRECTIONS MPL,*,*,<srai>MAINDIR</srai>,locations.aiml
+0,DIRECTIONS THE LIBRARY,*,*,<srai>MAINDIR</srai>,locations.aiml
+0,DIRECTIONS YOUR MAIN LIBRARY,*,*,<srai>MAINDIR</srai>,locations.aiml
+0,DIRECTIONS THE MAIN LIBRARY,*,*,<srai>MAINDIR</srai>,locations.aiml
+0,DIRECTIONS MAIN LIBRARY,*,*,<srai>MAINDIR</srai>,locations.aiml
+0,DIRECTIONS MAIN,*,*,<srai>MAINDIR</srai>,locations.aiml
+0,DIRECTIONS MENTOR LIBRARY,*,*,<srai>MAINDIR</srai>,locations.aiml
+0,DIRECTIONS MENTOR PUBLIC LIBRARY,*,*,<srai>MAINDIR</srai>,locations.aiml
+0,DIRECTIONS THE MENTOR PUBLIC LIBRARY,*,*,<srai>MAINDIR</srai>,locations.aiml
+0,DIRECTIONS HEADLANDS,*,*,<srai>HEADLANDSDIR</srai>,locations.aiml
+0,DIRECTIONS YOUR HEADLANDS BRANCH LIBRARY,*,*,<srai>HEADLANDSDIR</srai>,locations.aiml
+0,DIRECTIONS YOUR HEADLANDS BRANCH,*,*,<srai>HEADLANDSDIR</srai>,locations.aiml
+0,DIRECTIONS THE HEADLANDS LIBRARY,*,*,<srai>HEADLANDSDIR</srai>,locations.aiml
+0,DIRECTIONS HEADLANDS LIBRARY,*,*,<srai>HEADLANDSDIR</srai>,locations.aiml
+0,DIRECTIONS THE HEADLANDS BRANCH,*,*,<srai>HEADLANDSDIR</srai>,locations.aiml
+0,DIRECTIONS THE HEADLANDS BRANCH LIBRARY,*,*,<srai>HEADLANDSDIR</srai>,locations.aiml
+0,DIRECTIONS MENTOR LIBRARY HEADLANDS,*,*,<srai>HEADLANDSDIR</srai>,locations.aiml
+0,DIRECTIONS MENTOR PUBLIC LIBRARY HEADLANDS BRANCH,*,*,<srai>HEADLANDSDIR</srai>,locations.aiml
+0,DIRECTIONS YOUR HEADLANDS LIBRARY,*,*,<srai>HEADLANDSDIR</srai>,locations.aiml
+0,DIRECTIONS LAKE,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS MOL,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS MENTOR ON THE LAKE,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS LAKE BRANCH,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS MOL BRANCH,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS MENTOR ON THE LAKE BRANCH,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS THE LAKE BRANCH,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS THE MOL BRANCH,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS THE MENTOR ON THE LAKE BRANCH,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS THE LAKE BRANCH LIBRARY,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS THE MOL BRANCH LIBRARY,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS THE MENTOR ON THE LAKE BRANCH LIBRARY,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS YOUR LAKE BRANCH,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS YOUR MOL BRANCH,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS YOUR MENTOR ON THE LAKE BRANCH,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS YOUR LAKE BRANCH LIBRARY,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS YOUR MOL BRANCH LIBRARY,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS YOUR MENTOR ON THE LAKE BRANCH LIBRARY,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS YOUR BRANCHES,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,DIRECTIONS THE BRANCHES,*,*,<srai>LAKEDIR</srai>,locations.aiml
+0,WHERE * HEADLANDS,*,*,<srai>HDLSLOC</srai>,locations.aiml
+0,WHERE * HEADLANDS *,*,*,<srai>HDLSLOC</srai>,locations.aiml
+0,* TO * HEADLANDS,*,*,<srai>HDLSLOC</srai>,locations.aiml
+0,* TO * HEADLANDS *,*,*,<srai>HDLSLOC</srai>,locations.aiml
+0,* FOR * HEADLANDS,*,*,<srai>HDLSLOC</srai>,locations.aiml
+0,* FOR * HEADLANDS *,*,*,<srai>HDLSLOC</srai>,locations.aiml
+0,HEADLANDS * ADDRESS,*,*,<srai>HDLSLOC</srai>,locations.aiml
+0,HEADLANDS * ADDRESS *,*,*,<srai>HDLSLOC</srai>,locations.aiml
+0,* HEADLANDS * ADDRESS,*,*,<srai>HDLSLOC</srai>,locations.aiml
+0,* HEADLANDS * ADDRESS *,*,*,<srai>HDLSLOC</srai>,locations.aiml
+0,ADDRESS * HEADLANDS,*,*,<srai>HDLSLOC</srai>,locations.aiml
+0,ADDRESS * HEADLANDS *,*,*,<srai>HDLSLOC</srai>,locations.aiml
+0,* ADDRESS * HEADLANDS,*,*,<srai>HDLSLOC</srai>,locations.aiml
+0,* ADDRESS * HEADLANDS *,*,*,<srai>HDLSLOC</srai>,locations.aiml
+0,WHERE * LAKE,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,WHERE * LAKE *,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,* TO * LAKE,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,* TO * LAKE *,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,LAKE * ADDRESS,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,LAKE * ADDRESS *,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,* LAKE * ADDRESS,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,* LAKE * ADDRESS *,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,ADDRESS * LAKE,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,ADDRESS * LAKE *,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,* ADDRESS * LAKE,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,* ADDRESS * LAKE *,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,WHERE * MOL,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,WHERE * MOL *,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,* TO * MOL,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,* TO * MOL *,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,MOL * ADDRESS,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,MOL * ADDRESS *,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,* MOL * ADDRESS,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,* MOL * ADDRESS *,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,ADDRESS * MOL,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,ADDRESS * MOL *,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,* ADDRESS * MOL,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,* ADDRESS * MOL *,*,*,<srai>LAKELOC</srai>,locations.aiml
+0,MAIN BRANCH,*,*,<srai>MAINLOC</srai>,locations.aiml
+0,* MAIN BRANCH,*,*,<srai>MAINLOC</srai>,locations.aiml
+0,MAIN BRANCH *,*,*,<srai>MAINLOC</srai>,locations.aiml
+0,* MAIN BRANCH *,*,*,<srai>MAINLOC</srai>,locations.aiml
+0,WHERE * MAIN,*,*,<srai>MAINLOC</srai>,locations.aiml
+0,WHERE * MAIN *,*,*,<srai>MAINLOC</srai>,locations.aiml
+0,* TO * MAIN,*,*,<srai>MAINLOC</srai>,locations.aiml
+0,* TO * MAIN *,*,*,<srai>MAINLOC</srai>,locations.aiml
+0,MAIN * ADDRESS,*,*,<srai>MAINLOC</srai>,locations.aiml
+0,MAIN * ADDRESS *,*,*,<srai>MAINLOC</srai>,locations.aiml
+0,* MAIN * ADDRESS,*,*,<srai>MAINLOC</srai>,locations.aiml
+0,* MAIN * ADDRESS *,*,*,<srai>MAINLOC</srai>,locations.aiml
+0,ADDRESS * MAIN,*,*,<srai>MAINLOC</srai>,locations.aiml
+0,ADDRESS * MAIN *,*,*,<srai>MAINLOC</srai>,locations.aiml
+0,* ADDRESS * MAIN,*,*,<srai>MAINLOC</srai>,locations.aiml
+0,* ADDRESS * MAIN *,*,*,<srai>MAINLOC</srai>,locations.aiml
+0,LIBRARY * ADDRESS,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LIBRARY * ADDRESS *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LIBRARY * ADDRESS,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LIBRARY * ADDRESS *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,ADDRESS * LIBRARY,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,ADDRESS * LIBRARY *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* ADDRESS * LIBRARY,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* ADDRESS * LIBRARY *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LIBRARY LOCATED,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LIBRARY LOCATED,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LIBRARY * LOCATED,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LIBRARY LOCATED *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LIBRARY * LOCATED,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LIBRARY * LOCATED *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LIBRARY * LOCATED *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LIBRARY LOCATION,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LIBRARY LOCATION,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LIBRARY * LOCATION,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LIBRARY LOCATION *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LIBRARY * LOCATION,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LIBRARY * LOCATION *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LIBRARY * LOCATION *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LIBRARY LOCATIONS,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LIBRARY LOCATIONS,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LIBRARY * LOCATIONS,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LIBLOCATIONS *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LIBRARY * LOCATIONS,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LIBRARY * LOCATIONS *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LIBRARY * LOCATIONS *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LOCATION LIBRARY,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LOCATION LIBRARY,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LOCATION * LIBRARY,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LOCATION LIBRARY *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LOCATION * LIBRARY,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LOCATION * LIBRARY *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LOCATION * LIBRARY *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LOCATIONS LIBRARY,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LOCATIONS LIBRARY,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LOCATIONS * LIBRARY,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LOCATIONS LIBRARY *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LOCATIONS * LIBRARY,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,LOCATIONS * LIBRARY *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* LOCATIONS * LIBRARY *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,READ HOUSE,*,*,<srai>READHSE</srai>,locations.aiml
+0,_ READ HOUSE,*,*,<srai>READHSE</srai>,locations.aiml
+0,_ READ HOUSE *,*,*,<srai>READHSE</srai>,locations.aiml
+0,READ HOUSE *,*,*,<srai>READHSE</srai>,locations.aiml
+0,REED HOUSE,*,*,<srai>READHSE</srai>,locations.aiml
+0,_ REED HOUSE,*,*,<srai>READHSE</srai>,locations.aiml
+0,_ REED HOUSE *,*,*,<srai>READHSE</srai>,locations.aiml
+0,REED HOUSE *,*,*,<srai>READHSE</srai>,locations.aiml
+0,READHOUSE,*,*,<srai>READHSE</srai>,locations.aiml
+0,_ READHOUSE,*,*,<srai>READHSE</srai>,locations.aiml
+0,_ READHOUSE *,*,*,<srai>READHSE</srai>,locations.aiml
+0,READHOUSE *,*,*,<srai>READHSE</srai>,locations.aiml
+0,_ READ HOUSE HAUNTED,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ READ HOUSE * HAUNTED,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ READ HOUSE HAUNTED *,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ READ HOUSE * HAUNTED *,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ GHOST * READ HOUSE,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ GHOSTS * READ HOUSE,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ READ HOUSE * GHOST,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ READ HOUSE GHOST *,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ READ HOUSE * GHOST *,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ READ HOUSE * GHOSTS,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ READ HOUSE GHOSTS *,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ READ HOUSE * GHOSTS *,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ SPIRIT * READ HOUSE,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ SPIRITS * READ HOUSE,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ READ HOUSE * SPIRIT,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ READ HOUSE SPIRIT *,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ READ HOUSE * SPIRIT *,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ READ HOUSE * SPIRITS,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ READ HOUSE SPIRITS *,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,_ READ HOUSE * SPIRITS *,*,*,<srai>RHGHOST</srai>,locations.aiml
+0,PHONE NUMBER,*,*,<srai>LIBPHONE</srai>,locations.aiml
+0,* PHONE NUMBER,*,*,<srai>LIBPHONE</srai>,locations.aiml
+0,TELEPHONE NUMBER,*,*,<srai>LIBPHONE</srai>,locations.aiml
+0,* TELEPHONE NUMBER,*,*,<srai>LIBPHONE</srai>,locations.aiml
+0,* TELEPHONE NUMBER *,*,*,<srai>LIBPHONE</srai>,locations.aiml
+0,TELEPHONE NUMBER *,*,*,<srai>LIBPHONE</srai>,locations.aiml
+0,CALL YOU,*,*,<srai>LIBPHONE</srai>,locations.aiml
+0,* CALL YOU,*,*,<srai>LIBPHONE</srai>,locations.aiml
+0,WHERE * LIBRARY,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,WHERE * LIBRARY *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* WHERE * LIBRARY *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,WHERE IS MPL,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,WHERE IS MPL *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* WHERE IS MPL *,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* GET TO * LIBRARY,*,*,<srai>LIBLOC</srai>,locations.aiml
+0,* GET TO * LIBRARY *,*,*,<srai>LIBLOC</srai>,locations.aiml

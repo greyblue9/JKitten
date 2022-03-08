@@ -109,20 +109,11 @@ public class Category {
      * @return ile name
      */
   public String getFilename() {
-      if (filename == null) return String.format("%08x.aiml", hashCode());
-    java.util.regex.Pattern p = java.util.regex.Pattern.compile("<[^<>]*>");
-    java.util.regex.Matcher m;
-    while ((m = p.matcher(filename)).find())
-      filename = m.replaceAll("");
-    p = java.util.regex.Pattern.compile("[^a-zA-Z0-9_.]+", java.util.regex.Pattern.DOTALL);
-    while ((m = p.matcher(filename)).find())
-      filename = m.replaceAll("");
-    return filename.replace(".aiml", "") + ".aiml";
+    if (filename == null) return MagicStrings.unknown_aiml_file; else return filename;
   }
 
     /**
-     * increment the catego
-    return filename.replace(".aiml", "") + ".aiml";ry activation count
+     * increment the category activation count
      */
   public void incrementActivationCnt() {
     activationCnt++;
@@ -254,11 +245,8 @@ public class Category {
      * @return IML Category
      */
   public static String categoryToAIML(Category category) {
-    String topicStart = "";
-    String topicEnd = "";
-    String thatStatement = "";
-    String result = "";
     String pattern = category.getPattern();
+    
     if (pattern.contains("<SET>") || pattern.contains("<BOT")) {
       String[] splitPattern = pattern.split(" ");
       String rpattern = "";
@@ -271,19 +259,35 @@ public class Category {
       pattern = rpattern.trim();
     }
         //if (pattern.contains("set")) System.out.println("Rebuilt pattern "+pattern);
-    String NL = System.getProperty("line.separator");
-    NL = "\n";
+    String NL = "\n";
+    String result = "<category>\n  ";
     try {
       if (!category.getTopic().equals("*")) {
-        topicStart = "<topic name=\"" + category.getTopic() + "\">" + NL;
-        topicEnd = "" + NL;
+        result += "<topic name=\""
+          + (category.getTopic() != null && category.getTopic().trim().startsWith("<")? category.getTopic().trim():String.valueOf(category.getTopic()).replace("&amp;","__AND__").replace("<","&lt;").replace(">","&gt;").replace("&","&amp;").replace("__AND__", "&amp;"))
+          + "\">" 
+          + (category.getTopic() != null && category.getTopic().trim().startsWith("<")? category.getTopic().trim():String.valueOf(category.getTopic()).replace("&amp;","__AND__").replace("<","&lt;").replace(">","&gt;").replace("&","&amp;").replace("__AND__", "&amp;"))
+          + "</topic>\n  ";
       }
       if (!category.getThat().equals("*")) {
-        thatStatement = "" + category.getThat() + "";
+        result += "<that name=\""
+          + (category.getThat() != null && category.getThat().trim().startsWith("<")? category.getThat().trim():String.valueOf(category.getThat()).replace("&amp;","__AND__").replace("<","&lt;").replace(">","&gt;").replace("&","&amp;").replace("__AND__", "&amp;"))
+          + "\">" 
+          + (category.getThat() != null && category.getThat().trim().startsWith("<")? category.getThat().trim():String.valueOf(category.getThat()).replace("&amp;","__AND__").replace("<","&lt;").replace(">","&gt;").replace("&","&amp;").replace("__AND__", "&amp;"))
+          + "</that>\n  ";
       }
-      result = topicStart + "" + pattern + "" + thatStatement + NL + "" + category.getTemplate() + "" + NL + "" + topicEnd;
+      result += "<pattern>"
+          + (pattern != null && pattern.trim().startsWith("<")? pattern.trim():String.valueOf(pattern).replace("&amp;","__AND__").replace("<","&lt;").replace(">","&gt;").replace("&","&amp;").replace("__AND__", "&amp;"))
+       + "</pattern>\n  ";
+       
+     result += 
+        "<template>"
+          + (category.getTemplate() != null && category.getTemplate().trim().startsWith("<")? category.getTemplate().trim():String.valueOf(category.getTemplate()).replace("&amp;","__AND__").replace("<","&lt;").replace(">","&gt;").replace("&","&amp;").replace("__AND__", "&amp;"))
+          + "</template>\n  "
+       + "</category>";
     } catch (Exception ex) {
       ex.printStackTrace();
+      return "";
     }
     return result;
   }

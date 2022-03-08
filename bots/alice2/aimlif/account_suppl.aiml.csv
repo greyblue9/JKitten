@@ -1,0 +1,3 @@
+0,RENEW * FOR *,*,*,<srai>RNW4</srai>,account_suppl.aiml
+0,* SAVE * NUMBER * COMPUTER,*,*,<srai>SVACCTLOCALLY</srai>,account_suppl.aiml
+0,* SAVE * NUMBER * COMPUTER *,*,*,<srai>SVACCTLOCALLY</srai>,account_suppl.aiml

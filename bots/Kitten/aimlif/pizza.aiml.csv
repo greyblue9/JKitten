@@ -1,0 +1,5 @@
+0,QUERO PIZZA,*,*,<think>#Newline        <set name="topic">MYPROCESS_1</set>#Newline      </think>#Newline      <srai>STEP_QUERO PIZZA</srai>,pizza.aiml
+0,STEP_QUERO PIZZA,*,MYPROCESS_1,ola tudo bem quer uma pizza com mussarela,pizza.aiml
+0,*,OLA TUDO BEM QUER UMA PIZZA COM MUSSARELA,MYPROCESS_1,<think>#Newline          <set name="resultado">#Newline            <star/>#Newline          </set>#Newline        </think>#Newline        <condition name="resultado">#Newline          <li value="sim">#Newline            <srai>STEP_SIM</srai>#Newline          </li>#Newline          <li value="nao">#Newline            <srai>STEP_NAO</srai>#Newline          </li>#Newline        </condition>,pizza.aiml
+0,STEP_SIM,*,MYPROCESS_1,que legal sua pizza tera mussarela,pizza.aiml
+0,STEP_NAO,*,MYPROCESS_1,que chato sem queijo,pizza.aiml

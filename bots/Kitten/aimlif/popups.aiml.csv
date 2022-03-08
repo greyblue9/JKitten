@@ -1,0 +1,39 @@
+0,POPUPBLOCK,*,*,Turning off your pop-up blocker for this page is easy. If you're using Internet#NewlineExplorer#Comma go to "Tools#Comma" then "Pop-up blocker#Comma" then "Pop-up blocker settings." Add <b>www.mentorpl.org</b> to your allowed sites.#NewlineIf you're using Firefox#Comma go to "Tools#Comma" then "Options#Comma" then "Content." Look for "Block pop-up windows" and click the "Exceptions..." button. Now add <b>#Newlinewww.mentorpl.org</b> to your allowed sites. That's it. Doing this in other browsers is similar.,popups.aiml
+0,POPUPBLOCK2,*,*,If you don't see the new tab or window#Comma turn off your pop-up blocker. If you're using Internet#NewlineExplorer#Comma go to "Tools#Comma" then "Pop-up blocker#Comma" then "Pop-up blocker settings." Add <b>www.mentorpl.org</b> to your allowed sites.#NewlineIf you're using Firefox#Comma go to "Tools#Comma" then "Options#Comma" then "Content." Look for "Block pop-up windows" and click the "Exceptions..." button. Now add <b>#Newlinewww.mentorpl.org</b> to your allowed sites. That's it. Doing this in other browsers is similar.,popups.aiml
+0,POP UPS,*,*,<srai>POPUPBLOCK</srai>,popups.aiml
+0,* POP UPS,*,*,<srai>POPUPBLOCK</srai>,popups.aiml
+0,POP UPS *,*,*,<srai>POPUPBLOCK</srai>,popups.aiml
+0,* POP UPS *,*,*,<srai>POPUPBLOCK</srai>,popups.aiml
+0,POP UP,*,*,<srai>POPUPBLOCK</srai>,popups.aiml
+0,* POP UP,*,*,<srai>POPUPBLOCK</srai>,popups.aiml
+0,POP UP *,*,*,<srai>POPUPBLOCK</srai>,popups.aiml
+0,* POP UP *,*,*,<srai>POPUPBLOCK</srai>,popups.aiml
+0,POPUPS,*,*,<srai>POPUPBLOCK</srai>,popups.aiml
+0,* POPUPS,*,*,<srai>POPUPBLOCK</srai>,popups.aiml
+0,POPUPS *,*,*,<srai>POPUPBLOCK</srai>,popups.aiml
+0,* POPUPS *,*,*,<srai>POPUPBLOCK</srai>,popups.aiml
+0,POPUP,*,*,<srai>POPUPBLOCK</srai>,popups.aiml
+0,* POPUP,*,*,<srai>POPUPBLOCK</srai>,popups.aiml
+0,POPUP *,*,*,<srai>POPUPBLOCK</srai>,popups.aiml
+0,* POPUP *,*,*,<srai>POPUPBLOCK</srai>,popups.aiml
+0,* POPUP * TURNED OFF,*,*,Excellent. Please re-enter your search.,popups.aiml
+0,* POP UP * TURNED OFF,*,*,Excellent. Please re-enter your search.,popups.aiml
+0,* TURNED OFF * POPUP *,*,*,Excellent. Please re-enter your search.,popups.aiml
+0,* TURNED OFF * POP UP *,*,*,Excellent. Please re-enter your search.,popups.aiml
+0,*,PLEASE RE ENTER YOUR SEARCH,*,Let's see what's in the catalog. #Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">catkey</set>#Newline</think>,popups.aiml
+0,NEW TAB,*,*,<srai>POPUPBLOCK2</srai>,popups.aiml
+0,_ NEW TAB,*,*,<srai>POPUPBLOCK2</srai>,popups.aiml
+0,_ NEW TAB *,*,*,<srai>POPUPBLOCK2</srai>,popups.aiml
+0,NEW TAB *,*,*,<srai>POPUPBLOCK2</srai>,popups.aiml
+0,NEW TABS,*,*,<srai>POPUPBLOCK2</srai>,popups.aiml
+0,_ NEW TABS,*,*,<srai>POPUPBLOCK2</srai>,popups.aiml
+0,_ NEW TABS *,*,*,<srai>POPUPBLOCK2</srai>,popups.aiml
+0,NEW TABS *,*,*,<srai>POPUPBLOCK2</srai>,popups.aiml
+0,NEW WINDOW,*,*,<srai>POPUPBLOCK2</srai>,popups.aiml
+0,_ NEW WINDOW,*,*,<srai>POPUPBLOCK2</srai>,popups.aiml
+0,_ NEW WINDOW *,*,*,<srai>POPUPBLOCK2</srai>,popups.aiml
+0,NEW WINDOW *,*,*,<srai>POPUPBLOCK2</srai>,popups.aiml
+0,NEW WINDOWS,*,*,<srai>POPUPBLOCK2</srai>,popups.aiml
+0,_ NEW WINDOWS,*,*,<srai>POPUPBLOCK2</srai>,popups.aiml
+0,_ NEW WINDOWS *,*,*,<srai>POPUPBLOCK2</srai>,popups.aiml
+0,NEW WINDOWS *,*,*,<srai>POPUPBLOCK2</srai>,popups.aiml

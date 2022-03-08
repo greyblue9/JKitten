@@ -1,0 +1,9 @@
+0,DICKS,*,*,<srai>FIND THE NEAREST DICKS</srai>,find.aiml
+0,CALL * PIZZA,*,*,<srai>FIND THE NEAREST#Newline                <star/>#Newline                PIZZA#Newline            </srai>,find.aiml
+0,ANY GOOD * AROUND HERE,*,*,<srai>FIND THE NEAREST#Newline                <star/>#Newline            </srai>,find.aiml
+0,SHOW ME THE NEAREST *,*,*,<srai>FIND THE NEAREST#Newline                <star/>#Newline            </srai>,find.aiml
+0,STARBUCKS,*,*,<srai>FIND THE NEAREST STARBUCKS</srai>,find.aiml
+0,MCDONALD S,*,*,<srai>FIND THE NEAREST MCDONALD S</srai>,find.aiml
+0,THE NEAREST *,*,*,<srai>FIND THE NEAREST#Newline                <star/>#Newline            </srai>,find.aiml
+0,NEARBY *,*,*,<srai>FIND THE NEAREST#Newline                <star/>#Newline            </srai>,find.aiml
+0,WHAT IS THE CLOSEST *,*,*,<srai>FIND THE NEAREST#Newline                <star/>#Newline            </srai>,find.aiml

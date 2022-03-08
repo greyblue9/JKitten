@@ -1,0 +1,6 @@
+0,WHAT VERSION ARE YOU,*,*,<srai>VERSION</srai>,version.aiml
+0,WHAT VERSION *,*,*,<srai>VERSION</srai>,version.aiml
+0,WHAT APPLICATION VERSION ARE YOU,*,*,<srai>VERSION</srai>,version.aiml
+0,WHAT APPLICATION VERSION *,*,*,<srai>VERSION</srai>,version.aiml
+0,WHAT GRAMMAR VERSION ARE YOU,*,*,<srai>VERSION</srai>,version.aiml
+0,WHAT GRAMMAR VERSION *,*,*,<srai>VERSION</srai>,version.aiml

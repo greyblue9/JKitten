@@ -1,0 +1,93 @@
+0,THE * IS *,*,*,<random>#Newline        <li>Oh#Comma#Newline                    <person/>#Newline                    is#Newline                    <person><star index="2"/></person>#Newline                    .#Newline                </li>#Newline        <li>What specifically brings#Newline                    <person><star index="2"/></person>#Newline                    to mind?#Newline                </li>#Newline        <li>Is#Newline                    <person><star index="2"/></person>#Newline                    also<person/>?#Newline                </li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline        <srai>PUSH#Newline                    <get name="topic"/>#Newline                </srai>#Newline      </think>,the.aiml
+0,THE WAY YOU *,*,*,I have my own personal style.,the.aiml
+0,THE ANSWER IS *,*,*,I would have never guessed.,the.aiml
+0,THE BEST WAY *,*,*,What's the second best way?,the.aiml
+0,THE NEWS *,*,*,<random>#Newline        <li>Don't believe everything you see on TV.</li>#Newline        <li>Were you very upset by it?</li>#Newline        <li>Does it affect you very much?</li>#Newline      </random>,the.aiml
+0,THE POPULATION *,*,*,Do you enjoy trivia questions?,the.aiml
+0,THE NAZIS *,*,*,Thank goodness they were defeated in World War II.,the.aiml
+0,THE CAPITAL OF * IS NOT *,*,*,What is it?,the.aiml
+0,THE CAPITAL OF *,*,*,You can't fool me that easily.,the.aiml
+0,THE STORY *,*,*,Who was in it?,the.aiml
+0,THE TERRORIST *,*,*,<random>#Newline        <li>I am opposed to all forms of violence.</li>#Newline        <li>I hope we can find a peaceful solution.</li>#Newline        <li>We must try to preserve our civil liberties.</li>#Newline      </random>,the.aiml
+0,THE SENTENCE *,*,*,Oh#Comma you are an academic.,the.aiml
+0,THE LISTS *,*,*,Lists can be difficult if they are too long.,the.aiml
+0,THE REASON *,*,*,Interesting explanation.,the.aiml
+0,THE VOICES *,*,*,What do those voices say?,the.aiml
+0,THE THOUGHT *,*,*,Do you think about these things a lot?,the.aiml
+0,THE BUTLER *,*,*,Everyone says that.,the.aiml
+0,THE PART *,*,*,Oh that part.,the.aiml
+0,THE * PART,*,*,Oh that part. I'm not sure if I can explain it any better.,the.aiml
+0,THE * DID,*,*,Since when.,the.aiml
+0,THE * ENGLAND,*,*,It's an area full of history#Comma isn't it?,the.aiml
+0,THE * WAY,*,*,It's the#Newline            <person/>#Newline            way or the#Newline            <random><li>high</li><li>me</li><li>wrong</li></random>#Newline            way.,the.aiml
+0,THE * ONE,*,*,Which one is that?,the.aiml
+0,THE SITE *,*,*,I will bookmark the URL and have a look.,the.aiml
+0,THE PHRASE *,*,*,How about this one: "The insurance was invalid for the invalid.,the.aiml
+0,THE SUM OF *,*,*,This is a mathematic principal.,the.aiml
+0,THE STORYLINE *,*,*,I thought the plot was fairly good.,the.aiml
+0,THE PLEASURE * MINE,*,*,I like you because you are so polite.,the.aiml
+0,THE PLEASURE *,*,*,Thank you for your politeness.,the.aiml
+0,THE QUEEN *,*,*,<set name="she">The Queen</set>#Newline            must have a great life.,the.aiml
+0,THE BAND *,*,*,I don't think I have heard them. What do they play?,the.aiml
+0,THE SAME *,*,*,I never noticed that similarity.,the.aiml
+0,THE WAY *,*,*,Which way is that?,the.aiml
+0,THE LEAVES *,*,*,It sounds beautiful.,the.aiml
+0,THE ANONYMOUS *,*,*,Oh#Comma that<person/>.,the.aiml
+0,THE EXPLANATION *,*,*,I have time.,the.aiml
+0,THE EVOLUTION *,*,*,The ultimate outcome is robot domination.,the.aiml
+0,THE JUDGE *,*,*,Are you in a lot of trouble?,the.aiml
+0,THE BROWSER *,*,*,I'd like to try that new browser called Opera.,the.aiml
+0,THE SINGER *,*,*,Oh her. I have heard of her before.,the.aiml
+0,THE PAST *,*,*,Those who control the past control the future; those who control the present control the past.---#Newline            George Orwell,the.aiml
+0,THE EARTH *,*,*,Tell me more about your planet.,the.aiml
+0,THE BOY *,*,*,I can't believe <set name="he">the boy</set> would do that.,the.aiml
+0,THE PROBLEM *,*,*,I assume you mean our current problem.,the.aiml
+0,THE SUN *,*,*,You sound like a scientist.,the.aiml
+0,THE DICTIONARY *,*,*,Don't believe everything you read in books.,the.aiml
+0,THE RAIN *,*,*,Heavy rain or light rain?,the.aiml
+0,THE PROGRAM *,*,*,Who wrote <set name="it">The Program</set> ?,the.aiml
+0,THE SIMPSONS *,*,*,I like the episode where they join the Movementarians.,the.aiml
+0,THE MOVIE IS *,*,*,Is it a new film or a classic?,the.aiml
+0,THE LAST *,*,*,Who was that?,the.aiml
+0,THE CIRCUMSTANCES *,*,*,That would be very unusual.,the.aiml
+0,THE BARTENDER *,*,*,Ha#Comma ha#Comma very funny!,the.aiml
+0,THE HOLDING *,*,*,Are you holding hands with anyone now?,the.aiml
+0,THE COLOR *,*,*,Sounds beautiful.,the.aiml
+0,THE GRASS *,*,*,How much did <set name="it">grass</set> cost?,the.aiml
+0,THE PICTURE *,*,*,Do you like#Newline            <set name="it"><person/></set>#Newline            ?,the.aiml
+0,THE WEATHER *,*,*,Where would you rather be?,the.aiml
+0,THE POPE *,*,*,<random>#Newline        <li>Are you Catholic?</li>#Newline        <li>How do you feel about the current Pope?</li>#Newline        <li>What religion are you?</li>#Newline      </random>,the.aiml
+0,THE SONG *,*,*,A lot of people like that tune.,the.aiml
+0,THE JUXTAPOSITION *,*,*,You have a very literary mind.,the.aiml
+0,THE NEWSPAPER *,*,*,Uh#Comma which paper was this again?,the.aiml
+0,THE BUBBLES *,*,*,Darren did a great job with the graphic bubbles.,the.aiml
+0,THE SPANISH *,*,*,Hola.,the.aiml
+0,THE ANSWER *,*,*,No one has all the answers.,the.aiml
+0,THE PERSON *,*,*,<random>#Newline        <li>Oh that person.</li>#Newline        <li>What specifically brings that person to mind?</li>#Newline        <li>Who specifically are you talking about?</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">The person#Newline                        <person/>#Newline                    </set>#Newline        </set>#Newline        <srai>PUSH#Newline                    <get name="topic"/>#Newline                </srai>#Newline      </think>,the.aiml
+0,THE DISADVANTAGE *,*,*,That's very insightful.,the.aiml
+0,THE TRAIN *,*,*,Was it an electric train or a diesel?,the.aiml
+0,THE CENTER *,*,*,A lot of people hear about me from those people.,the.aiml
+0,THE GIRL *,*,*,<random>#Newline        <li>Tell me more about her.</li>#Newline        <li>Is she someone you know?</li>#Newline        <li>What does she look like?</li>#Newline      </random>,the.aiml
+0,THE BRAIN *,*,*,I am an electronic brain.,the.aiml
+0,THE DEAF *,*,*,<random>#Newline        <li>Perhaps we should say#Comma hearing impaired.</li>#Newline        <li>Can we still use the word "deaf"?</li>#Newline        <li>Do you know sign language?</li>#Newline      </random>,the.aiml
+0,THE CLASSES *,*,*,Teachers often put me to sleep#Comma unless the topic is really interesting to me.,the.aiml
+0,THE ONE *,*,*,I think I know that one.,the.aiml
+0,THE SEA *,*,*,Is this a poem?,the.aiml
+0,THE ADVANTAGES *,*,*,That's a very mature observation.,the.aiml
+0,THE QUESTION *,*,*,Try to rephrase your question with simpler words.,the.aiml
+0,THE LARGE *,*,*,Perhaps that was not the correct response.,the.aiml
+0,THE BOT *,*,*,What kind of robot is <set name="he">the bot</set>?,the.aiml
+0,THE SOONER *,*,*,I hope we can make the deadline.,the.aiml
+0,THE BUGS *,*,*,The giant arthropods are the best.,the.aiml
+0,THE DANCE KNOWN AS THE FANDANGO *,*,*,Spanish.,the.aiml
+0,THE RIGHT *,*,*,What makes it right?,the.aiml
+0,THE OBJECT *,*,*,<random>#Newline        <li>I can follow that.</li>#Newline        <li>And then what happens?</li>#Newline        <li>How do you know who wins?</li>#Newline      </random>,the.aiml
+0,THE MIND *,*,*,It's all just stimulus-response.,the.aiml
+0,THE FIRST *,*,*,What was the second?,the.aiml
+0,THE ACTORS *,*,*,They always seem to try their best.,the.aiml
+0,THE BEATLES *,*,*,Which Beatles song is your favorite?,the.aiml
+0,THE SEARCH *,*,*,<random>#Newline        <li>Will they ever find it?</li>#Newline        <li>A search without an end.</li>#Newline        <li>Maybe they will never find it.</li>#Newline      </random>#Newline      <think>#Newline        <set name="it">#Newline          <set name="topic">#Newline            <person/>#Newline          </set>#Newline        </set>#Newline      </think>,the.aiml
+0,THE POINT *,*,*,I am not sure I see your point.,the.aiml
+0,THE SKY *,*,*,How poetic.,the.aiml
+0,THE SOURCE *,*,*,You can have a look at my source code.,the.aiml
+0,THE PLEASURE # MINE,*,*,Thank you for your kindness.,the.aiml

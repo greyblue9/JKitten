@@ -1,0 +1,47 @@
+0,* GOOD BOOK,*,*,What do you like to read?,readersadvisory.aiml
+0,* GOOD BOOK *,*,*,What do you like to read?,readersadvisory.aiml
+0,* GOOD BOOKS,*,*,What do you like to read?,readersadvisory.aiml
+0,* GOOD BOOKS *,*,*,What do you like to read?,readersadvisory.aiml
+0,* BOOK * RECOMMEND,*,*,What do you like to read?,readersadvisory.aiml
+0,* BOOKS * RECOMMEND,*,*,What do you like to read?,readersadvisory.aiml
+0,* RECOMMEND * BOOK,*,*,What do you like to read?,readersadvisory.aiml
+0,* RECOMMEND * BOOK *,*,*,What do you like to read?,readersadvisory.aiml
+0,* RECOMMEND BOOKS,*,*,What do you like to read?,readersadvisory.aiml
+0,* RECOMMEND BOOKS *,*,*,What do you like to read?,readersadvisory.aiml
+0,* RECOMMEND * BOOKS,*,*,What do you like to read?,readersadvisory.aiml
+0,* RECOMMEND * BOOKS *,*,*,What do you like to read?,readersadvisory.aiml
+0,*,WHAT DO YOU LIKE TO READ,*,Try looking for <star/> in our <a href="http://www.catalog.mentorpl.org" target="_blank"><b>catalog</b></a>.,readersadvisory.aiml
+0,2RDRSAD,*,*,I'm still learning how to do readers advisory#Comma so I can only give you partial help. I'll look in Google for books like <star index="2"/>. This should open #Newlinein a new window or tab. If you don't see the results#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="searcharg"><star index="2"/> readalikes</set>#Newline<set name="search">google</set>#Newline</think>,readersadvisory.aiml
+0,* AUTHORS LIKE *,*,*,<srai>2RDRSAD</srai>,readersadvisory.aiml
+0,* AUTHORS SIMILAR TO *,*,*,<srai>2RDRSAD</srai>,readersadvisory.aiml
+0,* BOOK LIKE *,*,*,<srai>2RDRSAD</srai>,readersadvisory.aiml
+0,* BOOK SIMILAR TO *,*,*,<srai>2RDRSAD</srai>,readersadvisory.aiml
+0,* BOOKS LIKE *,*,*,<srai>2RDRSAD</srai>,readersadvisory.aiml
+0,* BOOKS SIMILAR TO *,*,*,<srai>2RDRSAD</srai>,readersadvisory.aiml
+0,3RDRSAD,*,*,I'm still learning how to do readers advisory#Comma so I can only give you partial help. I'll look in Google for books like <star index="3"/>. This should open #Newlinein a new window or tab. If you don't see the results#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="searcharg"><star index="3"/> readalikes</set>#Newline<set name="search">google</set>#Newline</think>,readersadvisory.aiml
+0,* FIND * BOOK LIKE *,*,*,<srai>3RDRSAD</srai>,readersadvisory.aiml
+0,* FIND * BOOKS LIKE *,*,*,<srai>3RDRSAD</srai>,readersadvisory.aiml
+0,* RECOMMEND * BOOK LIKE *,*,*,<srai>3RDRSAD</srai>,readersadvisory.aiml
+0,* RECOMMEND * BOOKS LIKE *,*,*,<srai>3RDRSAD</srai>,readersadvisory.aiml
+0,* FAVORITE AUTHOR,*,*,Yes#Comma <star/>'s books are of interest to many humans. Try looking in our <a href="http://catalog.mentorpl.org" target="_blank"><b>catalog</b></a> for <star/>.#NewlineWe might have some that you haven't read yet and would like.,readersadvisory.aiml
+0,SUGGESTFOR,*,*,I'm still learning about this. Please ask one of our human librarians#Comma they will be able to help you.,readersadvisory.aiml
+0,SUGGEST * FOR *,*,*,<srai>SUGGESTFOR</srai>,readersadvisory.aiml
+0,* SUGGEST * FOR *,*,*,<srai>SUGGESTFOR</srai>,readersadvisory.aiml
+0,* BEST BOOKS,*,*,Best for what purpose? Building a deck? Feeding your parrot?#NewlineUsing as a doorstop?,readersadvisory.aiml
+0,BKSILIKE,*,*,Tell me what kind of books you like in no more than three words,readersadvisory.aiml
+0,BOOKS I LIKE,*,*,<srai>BKSILIKE</srai>,readersadvisory.aiml
+0,BOOKS * I LIKE,*,*,<srai>BKSILIKE</srai>,readersadvisory.aiml
+0,_ BOOKS I LIKE,*,*,<srai>BKSILIKE</srai>,readersadvisory.aiml
+0,_ BOOKS * I LIKE,*,*,<srai>BKSILIKE</srai>,readersadvisory.aiml
+0,*,TELL ME WHAT KIND OF BOOKS YOU LIKE IN NO MORE THAN THREE WORDS,*,You entered <b><star/></b>. Let's see what's in our catalog. You should see #Newlinethe results as a new window or tab. If you don't#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="searcharg"><star/></set>#Newline<set name="search">bookkey</set>#Newline</think>,readersadvisory.aiml
+0,* OTHER WRITERS * SUGGEST,*,*,I'm still learning how to do readers advisory#Comma so I can only give you partial help. Please enter a favorite author#Newlineor title now.,readersadvisory.aiml
+0,*,PLEASE ENTER A FAVORITE AUTHOR OR TITLE NOW,*,I'll look in Google for <star/> read alikes. This should open #Newlinein a new window or tab. If you don't see the results#Comma turn off your pop up blocker and ask me again.#Newline<think>#Newline<set name="searcharg"><star/> readalikes</set>#Newline<set name="search">google</set>#Newline</think>,readersadvisory.aiml
+0,NVLST,*,*,Try looking in <a href="http://oplin.org/auth?url=http://search.ebscohost.com/login.aspx?authtype=ip#Commauid%26profile=novplus" target="_blank"><b>Novelist</b></a>.#NewlineLook for the "Recommended Reads Lists" on the left.,readersadvisory.aiml
+0,GOOD MYSTERY,*,*,<srai>NVLST</srai>,readersadvisory.aiml
+0,* GOOD MYSTERY,*,*,<srai>NVLST</srai>,readersadvisory.aiml
+0,GOOD MYSTERY *,*,*,<srai>NVLST</srai>,readersadvisory.aiml
+0,* GOOD MYSTERY *,*,*,<srai>NVLST</srai>,readersadvisory.aiml
+0,GOOD MYSTERIES,*,*,<srai>NVLST</srai>,readersadvisory.aiml
+0,* GOOD MYSTERIES,*,*,<srai>NVLST</srai>,readersadvisory.aiml
+0,GOOD MYSTERIES *,*,*,<srai>NVLST</srai>,readersadvisory.aiml
+0,* GOOD MYSTERIES *,*,*,<srai>NVLST</srai>,readersadvisory.aiml

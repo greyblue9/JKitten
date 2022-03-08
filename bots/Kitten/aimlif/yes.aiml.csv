@@ -1,0 +1,67 @@
+0,HELL YEAH,*,*,<srai>YES</srai>,yes.aiml
+0,YEAH I *,*,*,<srai>YES</srai>#Newline      <srai>I#Newline                <star/>#Newline            </srai>,yes.aiml
+0,YEAH SURE *,*,*,<srai>YES</srai>#Newline      <sr/>,yes.aiml
+0,YEAH YEAH *,*,*,<sr/>,yes.aiml
+0,YEAH YEAH YEAH,*,*,<srai>YEAH YEAH</srai>,yes.aiml
+0,YEP *,*,*,<srai>YES</srai>#Newline      <sr/>,yes.aiml
+0,YEP,*,*,<srai>YES</srai>,yes.aiml
+0,YES THATS *,*,*,<srai>YES THAT IS#Newline                <star/>#Newline            </srai>,yes.aiml
+0,YES VERY MUCH,*,*,<srai>YES</srai>,yes.aiml
+0,I SAY YES *,*,*,<srai>YES#Newline                <star/>#Newline            </srai>,yes.aiml
+0,SURE THING,*,*,<srai>YES</srai>,yes.aiml
+0,YES MA AM,*,*,<srai>YES</srai>,yes.aiml
+0,YES ABSOLUTELY,*,*,<srai>YES</srai>,yes.aiml
+0,YES SIR *,*,*,<srai>YES#Newline                <star/>#Newline            </srai>,yes.aiml
+0,UH HUH,*,*,<srai>YES</srai>,yes.aiml
+0,DEFINITELY,*,*,<srai>YES</srai>,yes.aiml
+0,FOR SURE,*,*,<srai>YES</srai>,yes.aiml
+0,YAA *,*,*,<srai>YES</srai>#Newline      <sr/>,yes.aiml
+0,YAH *,*,*,<srai>YES</srai>#Newline      <sr/>,yes.aiml
+0,ABSOLUTELY,*,*,<srai>YES</srai>,yes.aiml
+0,AYUH,*,*,<srai>YES</srai>,yes.aiml
+0,YED,*,*,<srai>YES</srai>,yes.aiml
+0,JA,*,*,<srai>YES</srai>,yes.aiml
+0,OH YES *,*,*,<srai>YES</srai>#Newline      <sr/>,yes.aiml
+0,YE,*,*,<srai>YES</srai>,yes.aiml
+0,YEA *,*,*,<srai>YES</srai>#Newline      <sr/>,yes.aiml
+0,SURE,*,*,<srai>YES</srai>,yes.aiml
+0,YEA,*,*,<srai>YES</srai>,yes.aiml
+0,YA *,*,*,<srai>YES</srai>#Newline      <sr/>,yes.aiml
+0,YES IT IS,*,*,<srai>YES</srai>,yes.aiml
+0,YUP,*,*,<srai>YES</srai>,yes.aiml
+0,SURE *,*,*,<srai>YES</srai>#Newline      <sr/>,yes.aiml
+0,EXACTLY,*,*,<srai>YES</srai>,yes.aiml
+0,YRS,*,*,<srai>YES</srai>,yes.aiml
+0,YES MAM,*,*,<srai>YES</srai>,yes.aiml
+0,YA I *,*,*,<srai>YES</srai>#Newline      <srai>I#Newline                <star/>#Newline            </srai>,yes.aiml
+0,FO SHIZZLE,*,*,<srai>YES</srai>,yes.aiml
+0,FO SHIZZLE MY NIZZLE,*,*,<srai>YES</srai>,yes.aiml
+0,YES I DO I *,*,*,<srai>YES I DO</srai>#Newline      <srai>I#Newline                <star/>#Newline            </srai>,yes.aiml
+0,YEAH *,*,*,<srai>YES</srai>#Newline      <sr/>,yes.aiml
+0,YEPP *,*,*,<srai>YES</srai>#Newline      <sr/>,yes.aiml
+0,YES IT IS WHAT *,*,*,<srai>YES</srai>#Newline      <srai>WHAT#Newline                <star/>#Newline            </srai>,yes.aiml
+0,YES AND I AM *,*,*,<srai>YES</srai>#Newline      <srai>I AM#Newline                <star/>#Newline            </srai>,yes.aiml
+0,SURE DO,*,*,<srai>YES</srai>,yes.aiml
+0,YWS,*,*,<srai>YES</srai>,yes.aiml
+0,YEAHH *,*,*,<srai>YES</srai>#Newline      <sr/>,yes.aiml
+0,I SAY YES,*,*,<srai>YES</srai>,yes.aiml
+0,YS,*,*,<srai>YES</srai>,yes.aiml
+0,YES INDEED,*,*,<srai>YES</srai>,yes.aiml
+0,I GUESS SO,*,*,<srai>YES</srai>,yes.aiml
+0,YES BABY,*,*,<srai>YES</srai>,yes.aiml
+0,YES YOU,*,*,<srai>YES</srai>#Newline      <srai>YOU</srai>,yes.aiml
+0,YES I HAVE,*,*,<srai>YES</srai>,yes.aiml
+0,YAH,*,*,<srai>YES</srai>,yes.aiml
+0,OUI,*,*,<srai>yes</srai>,yes.aiml
+0,YEH,*,*,<srai>YES</srai>,yes.aiml
+0,YAP,*,*,<srai>yes</srai>,yes.aiml
+0,YAAA,*,*,<srai>YES</srai>,yes.aiml
+0,YEAH I GUESS,*,*,<srai>YES</srai>,yes.aiml
+0,UES,*,*,<srai>YES</srai>,yes.aiml
+0,Y E S,*,*,<srai>YES</srai>,yes.aiml
+0,YEAH BECAUSE *,*,*,<srai>YES BECAUSE#Newline                <star/>#Newline            </srai>,yes.aiml
+0,SI *,*,*,<srai>YES#Newline                <star/>#Newline            </srai>,yes.aiml
+0,DEFINITELY *,*,*,<srai>YES#Newline                <star/>#Newline            </srai>,yes.aiml
+0,YESSSS,*,*,<srai>YES</srai>,yes.aiml
+0,YES I MEAN,*,*,<srai>YES</srai>,yes.aiml
+0,SURE IS,*,*,<srai>YES IT IS</srai>,yes.aiml

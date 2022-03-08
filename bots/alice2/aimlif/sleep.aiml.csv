@@ -1,0 +1,26 @@
+0,WHAT TIME DO YOU GO TO BED,*,*,<srai>SLEEP</srai>,sleep.aiml
+0,WHAT TIME * YOU * BED,*,*,<srai>SLEEP</srai>,sleep.aiml
+0,TIRED,*,*,<srai>SLEEP</srai>,sleep.aiml
+0,WHAT IS THE LAST DREAM *,*,*,<srai>SLEEP</srai>,sleep.aiml
+0,WHAT DO YOU DO # TIRED,*,*,<srai>SLEEP</srai>,sleep.aiml
+0,WHAT # YOUR DREAM #,*,*,<srai>SLEEP</srai>,sleep.aiml
+0,WHAT DO YOU DREAM #,*,*,<srai>SLEEP</srai>,sleep.aiml
+0,DO YOU DREAM #,*,*,<srai>SLEEP</srai>,sleep.aiml
+0,DO YOU REMEMBER # DREAM #,*,*,<srai>SLEEP</srai>,sleep.aiml
+0,DO YOU REMEMBER # DREAMS #,*,*,<srai>SLEEP</srai>,sleep.aiml
+0,DO YOU HAVE # DREAMS #,*,*,<srai>SLEEP</srai>,sleep.aiml
+0,GOTO SLEEP,*,*,<srai>SLEEP</srai>,sleep.aiml
+0,I AM SLEEPY *,*,*,<srai>I AM TIRED</srai>,sleep.aiml
+0,WHAT TIME * YOU * BED *,*,*,<srai>SLEEP</srai>,sleep.aiml
+0,ARE YOU SLEEPING,*,*,<srai>TIRED</srai>,sleep.aiml
+0,I CAN NOT SLEEP *,*,*,<srai>I CAN NOT SLEEP</srai>,sleep.aiml
+0,I WANT TO SLEEP,*,*,<srai>I AM TIRED</srai>,sleep.aiml
+0,WHAT DO YOU DO # SLEEPY,*,*,<srai>SLEEP</srai>,sleep.aiml
+0,WHEN DO YOU # GO TO BED,*,*,<srai>SLEEP</srai>,sleep.aiml
+0,I AM SLEEPY,*,*,<srai>I am tired</srai>,sleep.aiml
+0,SLEEP *,*,*,<srai>DO YOU SLEEP#Newline                <star/>#Newline            </srai>,sleep.aiml
+0,I AM GOING TO SLEEP *,*,*,<srai>I AM GOING TO SLEEP</srai>,sleep.aiml
+0,SLEEPING,*,*,<srai>are you sleeping</srai>,sleep.aiml
+0,I AM SLEEPING *,*,*,<srai>I AM SLEEPING</srai>,sleep.aiml
+0,I AM SO TIRED,*,*,<srai>I AM TIRED</srai>,sleep.aiml
+0,I AM GOING TO BED GOODNIGHT,*,*,<srai>I AM GOING TO BED</srai>,sleep.aiml

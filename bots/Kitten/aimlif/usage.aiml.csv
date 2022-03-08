@@ -1,0 +1,3 @@
+0,# MY ENERGY USAGE,*,*,<srai>ENERGY USAGE NOW</srai>,usage.aiml
+0,ENERGY USAGE *,*,*,<srai>#Newline                SHOW_USAGE#Newline                <extension path="programy.extensions.energy.usage.EnergyUsageExtension"><star/></extension>#Newline            </srai>,usage.aiml
+0,SHOW_USAGE * * *,*,*,So far this month you have used <star index="1"/> <star index="3"/> of Gas and <star index="2"/> <star index="3"/> of Electricity.,usage.aiml

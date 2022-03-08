@@ -1,0 +1,7 @@
+0,WHAT ARE WE TALKING ABOUT,*,*,<srai>TOPIC</srai>,topic.aiml
+0,WHAT WERE WE TALKING ABOUT,*,*,<srai>TOPIC</srai>,topic.aiml
+0,I AM TALKING ABOUT *,*,*,<srai>THE TOPIC IS#Newline                <star/>#Newline            </srai>,topic.aiml
+0,THE SUBJECT IS *,*,*,<srai>THE TOPIC IS#Newline                <star/>#Newline            </srai>,topic.aiml
+0,WHAT IS THE TOPIC,*,*,<srai>TOPIC</srai>,topic.aiml
+0,TALK ABOUT *,*,*,<srai>THE TOPIC IS#Newline                <star/>#Newline            </srai>,topic.aiml
+0,WHAT ARE YOU TALKING ABOUT,*,*,<srai>TOPIC</srai>,topic.aiml

@@ -1,0 +1,11 @@
+0,HOW DO YOU SAY HELLO IN *,*,*,<srai>TRANSLATE HELLO TO#Newline                <star/>#Newline            </srai>,translate.aiml
+0,HOW DO YOU SAY I LOVE YOU IN *,*,*,<srai>TRANSLATE I LOVE YOU TO#Newline                <star/>#Newline            </srai>,translate.aiml
+0,CAN YOU TRANSLATE *,*,*,<srai>TRANSLATE#Newline                <star/>#Newline            </srai>,translate.aiml
+0,CAN YOU SAY THAT IN *,*,*,<srai>TRANSLATE#Newline                <that/>#Newline                TO#Newline                <star/>#Newline            </srai>,translate.aiml
+0,TRANSLATE THAT TO *,*,*,<srai>TRANSLATE#Newline                <that/>#Newline                TO#Newline                <star/>#Newline            </srai>,translate.aiml
+0,HOW DO YOU SAY I LOVE YOU IN SPANISH,*,*,<srai>TRANSLATE I LOVE YOU TO SPANISH</srai>,translate.aiml
+0,CAN YOU TRANSLATE,*,*,<srai>HELP TRANSLATE</srai>,translate.aiml
+0,HOW DO I SAY * IN *,*,*,<srai>TRANSLATE#Newline                <star/>#Newline                TO#Newline                <star index="2"/>#Newline            </srai>,translate.aiml
+0,WHAT IS THE SPANISH WORD FOR *,*,*,<srai>TRANSLATE#Newline                <star/>#Newline                TO SPANISH#Newline            </srai>,translate.aiml
+0,HELLO IN *,*,*,<srai>TRANSLATE HELLO TO#Newline                <star/>#Newline            </srai>,translate.aiml
+0,SAY HELLO IN *,*,*,<srai>TRANSLATE HELLO TO#Newline                <star/>#Newline            </srai>,translate.aiml

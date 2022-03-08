@@ -1,0 +1,6 @@
+0,CAN YOU SEND ME A *,*,*,<srai>SEND ME A#Newline                <star/>#Newline            </srai>,send.aiml
+0,CAN YOU SEND ME *,*,*,<srai>SEND ME#Newline                <star/>#Newline            </srai>,send.aiml
+0,COMPOSE *,*,*,<srai>SEND#Newline                <star/>#Newline            </srai>,send.aiml
+0,CAN YOU SEND *,*,*,<srai>SEND#Newline                <star/>#Newline            </srai>,send.aiml
+0,SEND A TEXT MESSAGE,*,*,<srai>SEND A TEXT</srai>,send.aiml
+0,SEND TEXT TO,*,*,<srai>SEND TEXT</srai>,send.aiml

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<category>
+  <pattern>SINGULAR &amp;lt;set&amp;gt;animals&amp;lt;/set&amp;gt;</pattern>
+  <template><uniq><subj>?singular</subj><pred>hasPlural</pred><obj><star/></obj></uniq></template>
+  </category>
+<category>
+  <pattern>PLURAL &amp;lt;set&amp;gt;animal&amp;lt;/set&amp;gt;</pattern>
+  <template><uniq><subj><star/></subj><pred>hasPlural</pred><obj>?plural</obj></uniq></template>
+  </category>
+<category>
+  <pattern>SOUND &amp;lt;set&amp;gt;animal&amp;lt;/set&amp;gt;</pattern>
+  <template><star/> says <uniq><subj><star/></subj><pred>sound</pred><obj>?sound</obj></uniq>.</template>
+  </category>
+<category>
+  <pattern>COLLECTIVE &amp;lt;set&amp;gt;animal&amp;lt;/set&amp;gt;</pattern>
+  <template>A group of &amp;lt;star/&amp;gt; is called &amp;lt;uniq&amp;gt;&amp;lt;subj&amp;gt;&amp;lt;star/&amp;gt;&amp;lt;/subj&amp;gt;&amp;lt;pred&amp;gt;collective&amp;lt;/pred&amp;gt;&amp;lt;obj&amp;gt;?collective&amp;lt;/obj&amp;gt;&amp;lt;/uniq&amp;gt;.</template>
+  </category>
+<category>
+  <pattern>LEGS &amp;lt;set&amp;gt;animal&amp;lt;/set&amp;gt;</pattern>
+  <template>A &amp;lt;star/&amp;gt; has &amp;lt;uniq&amp;gt;&amp;lt;subj&amp;gt;&amp;lt;star/&amp;gt;&amp;lt;/subj&amp;gt;&amp;lt;pred&amp;gt;legs&amp;lt;/pred&amp;gt;&amp;lt;obj&amp;gt;?sound&amp;lt;/obj&amp;gt;&amp;lt;/uniq&amp;gt; legs.</template>
+  </category>
+<category>
+  <pattern>HOW MANY LEGS # &amp;lt;set&amp;gt;number&amp;lt;/set&amp;gt; &amp;lt;set&amp;gt;animals&amp;lt;/set&amp;gt; # &amp;lt;set&amp;gt;number&amp;lt;/set&amp;gt; &amp;lt;set&amp;gt;animals&amp;lt;/set&amp;gt; ^</pattern>
+  <template><think>
+<set var="number1"><star index="2"/></set>
+<set var="animal1"><srai>SINGULAR <star index="3"/></srai></set>
+<set var="legs1"><uniq><subj><get var="animal1"/></subj><pred>legs</pred><obj>?legs1</obj></uniq></set>
+<set var="number2"><star index="5"/></set>
+<set var="animal2"><srai>SINGULAR <star index="6"/></srai></set>
+<set var="legs2"><uniq><subj><get var="animal2"/></subj><pred>legs</pred><obj>?legs2</obj></uniq></set>
+<set var="formula"><get var="number1"/>*<get var="legs1"/>+<get var="number2"/>*<get var="legs2"/></set>
+</think>
+<srai>ROUND <srai>WHAT IS <get var="formula"/></srai></srai> legs.</template>
+  </category>
+<category>
+  <pattern>HOW MANY LEGS # &amp;lt;set&amp;gt;number&amp;lt;/set&amp;gt; &amp;lt;set&amp;gt;animals&amp;lt;/set&amp;gt; ^</pattern>
+  <template><think>
+<set var="number1"><star index="2"/></set>
+<set var="animal1"><srai>SINGULAR <star index="3"/></srai></set>
+<set var="legs1"><uniq><subj><get var="animal1"/></subj><pred>legs</pred><obj>?legs1</obj></uniq></set>
+<set var="formula"><get var="number1"/>*<get var="legs1"/></set>
+</think>
+<srai>ROUND <srai>WHAT IS <get var="formula"/></srai></srai> legs.</template>
+  </category>
+<category>
+  <pattern>_ 1 &amp;lt;set&amp;gt;animal&amp;lt;/set&amp;gt;</pattern>
+  <template><srai><star/> 1 <srai>PLURAL <star index="2"/></srai></srai></template>
+  </category>
+

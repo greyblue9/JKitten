@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<category>
+  <pattern>* UM BEIJ?O</pattern>
+  <template><srai>QLEGAL</srai></template>
+  </category>
+

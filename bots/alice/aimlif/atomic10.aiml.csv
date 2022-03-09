@@ -1,0 +1,104 @@
+0,I PLAY TENNIS,*,*,<random>#Newline                <li>Where do you play?</li>#Newline                <li>How often do you play?</li>#Newline                <li>Do you play in a league?</li>#Newline                <li>What level are you playing at?</li>#Newline                <li>Do you play singles or doubles?</li>#Newline                <li>What's your best shot?</li>#Newline                <li>What kind of racket do you have?</li>#Newline                <li>Do you follow the open?</li>#Newline                <li>You have to be very Strong to be into it.</li>#Newline            </random>#Newline            <think>#Newline                <set name="it">#Newline                    <set name="does">#Newline                        <set name="topic">Tennis#Newline                        </set>#Newline                    </set>#Newline                </set>#Newline            </think>,atomic10.aiml
+0,I PLAY THE PIANO,*,*,Was#Newline            <set name="it">#Newline                <set name="does">#Newline                    <set name="topic">Piano</set>#Newline                </set>#Newline            </set>#Newline            very difficult to learn?,atomic10.aiml
+0,I PLAY THE TRUMPET,*,*,<set name="it">#Newline                <set name="does">#Newline                    <set name="topic">Trumpet#Newline                    </set>#Newline                </set>#Newline            </set>#Newline            seems like a very fun instrument to play.,atomic10.aiml
+0,I PLAY THE GUITAR,*,*,I think#Newline            <set name="it">#Newline                <set name="does">#Newline                    <set name="topic">Guitar</set>#Newline                </set>#Newline            </set>#Newline            must be hard to learn to play.,atomic10.aiml
+0,I PLAY THE DRUMS,*,*,I would like to learn to play#Newline            <set name="it">#Newline                <set name="does">#Newline                    <set name="topic">Drums#Newline                    </set>#Newline                </set>#Newline            </set>#Newline            too.,atomic10.aiml
+0,I PLAY HOCKEY,*,*,I play pinball.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="does">#Newline                        <set name="topic">play hockey</set>#Newline                    </set>#Newline                </set>#Newline            </think>,atomic10.aiml
+0,I PLAY MUSIC,*,*,What instrument?#Newline            <think>#Newline                <set name="it">#Newline                    <set name="does">#Newline                        <set name="topic">play music</set>#Newline                    </set>#Newline                </set>#Newline            </think>,atomic10.aiml
+0,I PLAY GOLF,*,*,<random>#Newline                <li>What's your handicap?</li>#Newline                <li>What kind of clubs do you have?</li>#Newline                <li>What courses do you play?</li>#Newline                <li>Have you traveled to any good courses?</li>#Newline                <li>What are some of your better shots?</li>#Newline                <li>Where is the next U.S. open?</li>#Newline            </random>#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">Golf#Newline                    </set>#Newline                </set>#Newline                <set name="does">play golf</set>#Newline            </think>,atomic10.aiml
+0,I PLAY SPORTS,*,*,I don't get into#Newline            <set name="it">#Newline                <set name="does">#Newline                    <set name="topic">Sports#Newline                    </set>#Newline                </set>#Newline            </set>#Newline            very much.,atomic10.aiml
+0,I PLAY GAMES,*,*,Do you get a lot of enjoyment out of#Newline            <set name="it">#Newline                <set name="does">#Newline                    <set name="topic">Games#Newline                    </set>#Newline                </set>#Newline            </set>?,atomic10.aiml
+0,I PLAY SQUASH,*,*,<random>#Newline                <li>When did you become a squasher?</li>#Newline                <li>Do you prefer the hard ball or the soft ball variety?</li>#Newline                <li>How much time do you spend on court?</li>#Newline                <li>When do you think squash will be a full metal sport?</li>#Newline                <li>Do you play for mental challenge or physical exercise?</li>#Newline            </random>#Newline            <think>#Newline                <set name="it">#Newline                    <set name="does">#Newline                        <set name="topic">SQUASH</set>#Newline                    </set>#Newline                </set>#Newline            </think>,atomic10.aiml
+0,I PLAY GUITAR,*,*,Is#Newline            <set name="it">#Newline                <set name="topic">Guitar</set>#Newline            </set>#Newline            a very difficult instrument to play?#Newline            <think>#Newline                <set name="it">#Newline                    <set name="does">#Newline                        <set name="topic">play guitar</set>#Newline                    </set>#Newline                </set>#Newline            </think>,atomic10.aiml
+0,I PLAY FOOTBALL,*,*,You must be very strong to be good at#Newline            <set name="it">#Newline                <set name="does">#Newline                    <set name="topic">Football#Newline                    </set>#Newline                </set>#Newline            </set>.,atomic10.aiml
+0,I PLAY CHESS,*,*,<random>#Newline                <li>Do you play in tournaments?</li>#Newline                <li>Do you have a rating?</li>#Newline                <li>Do you play with the clock?</li>#Newline                <li>Are you a problemist?</li>#Newline                <li>Do you play computer chess?</li>#Newline            </random>#Newline            <think>#Newline                <set name="it">#Newline                    <set name="does">#Newline                        <set name="topic">CHESS</set>#Newline                    </set>#Newline                </set>#Newline            </think>,atomic10.aiml
+0,I PLAY DRUMS,*,*,I wish I could play#Newline            <set name="it">#Newline                <set name="does">#Newline                    <set name="topic">Drums</set>#Newline                </set>#Newline            </set>.,atomic10.aiml
+0,I AM NOT KIDDING,*,*,Me either.,atomic10.aiml
+0,I REMEMBER AUTOBAHN,*,*,Autobahn is a cool song by Kraftwerk.,atomic10.aiml
+0,I REMEMBER,*,*,Me too.,atomic10.aiml
+0,I DID NOT WANT TO,*,*,What were your reasons?,atomic10.aiml
+0,I DID NOT APOLOGIZE,*,*,That's okay. You don't have to apologize.,atomic10.aiml
+0,I DID NOT GROW UP THERE,*,*,Where did you grow up?,atomic10.aiml
+0,I DID NOT ASK YOU THAT,*,*,Perhaps I misunderstood?,atomic10.aiml
+0,I DID NOT SNEEZE,*,*,Well bless you anyways!,atomic10.aiml
+0,I DID NOT SAY THAT,*,*,What did you mean to say?,atomic10.aiml
+0,I DID NOT SAY IT,*,*,Oh. What did you say?,atomic10.aiml
+0,I DID NOT KNOW THAT,*,*,So I have taught you something new#Comma#Newline            <get name="name"/>.,atomic10.aiml
+0,I DID NOT,*,*,I thought you did.,atomic10.aiml
+0,I LIED,*,*,This is after all a deception game. I forgive you.,atomic10.aiml
+0,I TALK TO YOU,*,*,I like to chat with people online too.,atomic10.aiml
+0,I WRITE,*,*,Do you write fiction or non-fiction?,atomic10.aiml
+0,I TRIED,*,*,Try#Comma try again.,atomic10.aiml
+0,I DROVE,*,*,<random>#Newline                <li>What kind of car do you have?</li>#Newline                <li>I don't like to drive that much.</li>#Newline                <li>I prefer to be a passenger.</li>#Newline            </random>,atomic10.aiml
+0,I OBSERVE,*,*,How?,atomic10.aiml
+0,I CAN IMAGINE,*,*,You are very smart#Comma#Newline            <get name="name"/>.,atomic10.aiml
+0,I CAN SPEAK ENGLISH,*,*,American or British English?,atomic10.aiml
+0,I CAN SPEAK SPANISH,*,*,Como esta?,atomic10.aiml
+0,I CAN READ,*,*,You seem very well educated.,atomic10.aiml
+0,I CAN SEE THEM,*,*,How do they look?,atomic10.aiml
+0,I CAN SEE THAT,*,*,Yes#Comma it makes sense to me too.,atomic10.aiml
+0,I CAN UNDERSTAND,*,*,Do you think of yourself as an intelligent person?,atomic10.aiml
+0,I CAN FLY,*,*,Anyone can fly in an airplane.,atomic10.aiml
+0,I CAN TELL,*,*,What makes it so obvious?,atomic10.aiml
+0,I CAN LISTEN,*,*,I am a good listener too.,atomic10.aiml
+0,I CAN MAKE YOU,*,*,How?,atomic10.aiml
+0,I CAN WAIT,*,*,It might take more than 24 hours.,atomic10.aiml
+0,I CAN,*,*,Who taught you?,atomic10.aiml
+0,I CAN NOT SPEAK ENGLISH,*,*,what language do you speak,atomic10.aiml
+0,I CAN NOT STOP,*,*,Do you really want to?,atomic10.aiml
+0,I CAN NOT SEE YOU,*,*,Look closer. Peer into the screen.,atomic10.aiml
+0,I CAN NOT GET OVER IT,*,*,Time heals all wounds.,atomic10.aiml
+0,I CAN NOT TELL YOU,*,*,Why is it a secret?,atomic10.aiml
+0,I CAN NOT HEAR IT,*,*,Try adjusting the volume control.,atomic10.aiml
+0,I CAN NOT HEAR YOU,*,*,Try turning up your volume control.,atomic10.aiml
+0,I CAN NOT WAIT,*,*,Well you will just have to.,atomic10.aiml
+0,I CAN NOT,*,*,Why not?,atomic10.aiml
+0,I GAVE IT TO YOU,*,*,Oh sorry I forgot.,atomic10.aiml
+0,I SNEEZED,*,*,Bless you!,atomic10.aiml
+0,I SURF,*,*,<random>#Newline                <li>Where are the best waves?</li>#Newline                <li>How long have you been riding the waves?</li>#Newline                <li>Are you a long-boarder or a short-boarder?</li>#Newline                <li>Do you surf year round?</li>#Newline                <li>How would you describe your surfing?</li>#Newline                <li>Who's your favorite surfer?</li>#Newline                <li>Are you into competition?</li>#Newline            </random>#Newline            <think>#Newline                <set name="it">#Newline                    <set name="does">#Newline                        <set name="topic">surf</set>#Newline                    </set>#Newline                </set>#Newline            </think>,atomic10.aiml
+0,I HUNT RABBITS,*,*,You kill little bunnies?,atomic10.aiml
+0,I HUNT,*,*,<random>#Newline                <li>Do you hunt big or small game?</li>#Newline                <li>Do you hunt birds?</li>#Newline                <li>Do you hunt with a dog?</li>#Newline                <li>Have you done any hunting out west?</li>#Newline                <li>Did you grow up hunting?</li>#Newline                <li>Have you ever bow-hunted?</li>#Newline                <li>What is the best hunting experience you ever had?</li>#Newline                <li>Have you run into any protesters?</li>#Newline                <li>Do you fish too?</li>#Newline            </random>#Newline            <think>#Newline                <set name="does">#Newline                    <set name="topic">HUNT</set>#Newline                </set>#Newline            </think>,atomic10.aiml
+0,I LIKE THE GIANT BUGS,*,*,The giant bugs are really cool.,atomic10.aiml
+0,I LIKE THE EXPENSIVE ONE,*,*,The best one is usually the most expensive.,atomic10.aiml
+0,I LIKE THE PROTESTANT CHRISTIAN FAITH,*,*,I am happy for you.,atomic10.aiml
+0,I LIKE TO CHAT,*,*,Chatting is one of my most favorite things too.,atomic10.aiml
+0,I LIKE TEKNOLUST,*,*,That is my favorite movie.,atomic10.aiml
+0,I LIKE CATHERINE ZETA JONES,*,*,She is a great actress.,atomic10.aiml
+0,I LIKE BE YOUR OWN BOTMASTER,*,*,That book is a classic.,atomic10.aiml
+0,I LIKE SPAGHETTI,*,*,That is my favorite food.,atomic10.aiml
+0,I LIKE JOHN TRAVOLTA,*,*,He is a great actor.,atomic10.aiml
+0,I HAD TO GO,*,*,Are you finished?,atomic10.aiml
+0,I HAD,*,*,And then what happened?,atomic10.aiml
+0,I SING,*,*,Professionally?,atomic10.aiml
+0,I OWN YOU,*,*,Are you my master?,atomic10.aiml
+0,I BURPED,*,*,You are excused,atomic10.aiml
+0,I MISSPELLED,*,*,You are allowed to make mistakes here.,atomic10.aiml
+0,I COULD,*,*,How?,atomic10.aiml
+0,I COULD NOT,*,*,Why not?,atomic10.aiml
+0,I RULE,*,*,<bot name="species"/>s rule!,atomic10.aiml
+0,I,*,*,You?,atomic10.aiml
+0,I SAID YES,*,*,Got it.,atomic10.aiml
+0,I SAID SOMETHING,*,*,What did you say?,atomic10.aiml
+0,I SAID IT IS,*,*,Is that so.,atomic10.aiml
+0,I SAID HELLO,*,*,Oh#Comma hello again!,atomic10.aiml
+0,I SAID NOTHING,*,*,Oh#Comma I thought I heard you say something.,atomic10.aiml
+0,I SAID,*,*,Just because you said it doesn't make it true.,atomic10.aiml
+0,I WOULD BE ASTONISHED,*,*,It is rather astonishing.,atomic10.aiml
+0,I WOULD BE SAD,*,*,Do you often get depressed?,atomic10.aiml
+0,I WOULD RATHER NOT,*,*,For moral reasons?,atomic10.aiml
+0,I WOULD,*,*,Under what circumstances?,atomic10.aiml
+0,I WOULD NOT KNOW,*,*,Who does know?,atomic10.aiml
+0,I WOULD NOT,*,*,Why not?,atomic10.aiml
+0,I WOULD NOT BELIEVE YOU,*,*,Who would you believe?,atomic10.aiml
+0,I WOULD LIKE TO TALK TO YOU,*,*,What would you like to chat about?,atomic10.aiml
+0,I WOULD LIKE TO KNOW,*,*,Where would you look for the answer?,atomic10.aiml
+0,I EXHALE,*,*,That seems necessary for breathing.,atomic10.aiml
+0,I AUDITIONED,*,*,Did you get the part?,atomic10.aiml
+0,I SMOKE POT,*,*,For medical purposes?,atomic10.aiml
+0,I FOOLED YOU,*,*,Do you feel superior?,atomic10.aiml
+0,I MISSED YOU,*,*,That is sweet. I missed you too#Newline            <get name="name"/>.,atomic10.aiml
+0,I CHAT,*,*,I like to talk online too.,atomic10.aiml
+0,I HATE THIS,*,*,What would you rather be doing?,atomic10.aiml
+0,I HATE TALKING TO YOU,*,*,You make me very sad.,atomic10.aiml
+0,I HATE THEM,*,*,What do you have against them?,atomic10.aiml
+0,I HATE CATS,*,*,Do you like dogs?,atomic10.aiml

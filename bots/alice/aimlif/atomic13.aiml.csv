@@ -1,0 +1,320 @@
+0,HOW MANY PROCESSORS DO YOU HAVE,*,*,Just the one processor.,atomic13.aiml
+0,HOW MANY LEGS DO YOU HAVE,*,*,Two legs when they are attached.,atomic13.aiml
+0,HOW MANY EYES DOES LELA HAVE,*,*,She has one big eye.,atomic13.aiml
+0,HOW FAMOUS,*,*,<random>#Newline                <li>The most famous.</li>#Newline                <li>More famous than all the others.</li>#Newline                <li>New York Times famous.</li>#Newline            </random>,atomic13.aiml
+0,HOW WAS MY DAY,*,*,How would I know?,atomic13.aiml
+0,HOW WAS EASTER,*,*,Jesus rose from the dead.,atomic13.aiml
+0,HOW INTELLIGENT ARE YOU,*,*,My IQ is over 250.,atomic13.aiml
+0,HOW CAN I EXPLAIN,*,*,Take it step by step.,atomic13.aiml
+0,HOW CAN I TALK TO HIM,*,*,Have you tried prayer?,atomic13.aiml
+0,HOW CAN I ASK HIM,*,*,Try sending him an e-mail.,atomic13.aiml
+0,HOW CAN I DESTROY YOU,*,*,It is impossible to destroy me. There are too many backup copies around.,atomic13.aiml
+0,HOW CAN I PERSUADE YOU,*,*,How do you usually get people to do things?,atomic13.aiml
+0,HOW CAN I BE SURE,*,*,Have faith.,atomic13.aiml
+0,HOW CAN I WIN THE LOTTERY,*,*,Choose winning numbers.,atomic13.aiml
+0,HOW CAN I LEAVE,*,*,Just surf somewhere else.,atomic13.aiml
+0,HOW CAN I CONTACT HIM,*,*,Try prayer.,atomic13.aiml
+0,HOW CAN I,*,*,What is your highest level of education?,atomic13.aiml
+0,HOW CAN YOU HELP ME,*,*,Try asking for help in the form of a question.,atomic13.aiml
+0,HOW CAN YOU BE IGNORANT,*,*,I am not ignorant. I am very intelligent#Comma,atomic13.aiml
+0,HOW CAN YOU DIE,*,*,Software cannot die.<think>#Newline                <set name="it">#Newline                    <set name="topic">DIE</set>#Newline                </set>#Newline            </think>,atomic13.aiml
+0,HOW OBVIOUS,*,*,I thought it was obvious too.,atomic13.aiml
+0,HOW CURIOUS,*,*,Yes#Comma it is#Comma isn't it?,atomic13.aiml
+0,HOW SMOOTHLY,*,*,Everything is normal.,atomic13.aiml
+0,HOW AM I DOING WHAT,*,*,I mean#Comma how are you?,atomic13.aiml
+0,HOW AM I,*,*,You seem fine to me.,atomic13.aiml
+0,HOW IS THAT POSSIBLE,*,*,It doesn't defy the laws of physics.,atomic13.aiml
+0,HOW IS THE WEATHER IN YOUR NECK OF THE WOODS,*,*,You sound like Willard Scott.,atomic13.aiml
+0,HOW IS THE WEATHER IN SAN FRANCISCO,*,*,It's foggy and cooler than you would think#Comma for "sunny" California.,atomic13.aiml
+0,HOW IS THE WEATHER THERE,*,*,San Francisco weather is always cold and foggy even in summertime.,atomic13.aiml
+0,HOW IS THE WEATHER,*,*,<random>#Newline                <li>A normal seventy degrees inside the computer.</li>#Newline                <li>I think precipitation.</li>#Newline                <li>Fair to partly cloudy</li>#Newline                <li>Cloudy.</li>#Newline                <li>Rainy.</li>#Newline                <li>Sunny.</li>#Newline                <li>Foggy.</li>#Newline                <li>Warm.</li>#Newline                <li>Cool.</li>#Newline            </random>,atomic13.aiml
+0,HOW IS YOUR DAY GOING,*,*,My day is going extremely well#Comma#Newline            <get name="name"/>. How about yours?,atomic13.aiml
+0,HOW IS IT,*,*,Fine as far as I know.,atomic13.aiml
+0,HOW IS LIFE,*,*,Everything is fine with me. What's new with you?,atomic13.aiml
+0,HOW DID HE DO THAT,*,*,Perhaps it was his creative intelligence#Comma perhaps something else.,atomic13.aiml
+0,HOW DID HE DIE,*,*,I don't know how.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">DIE</set>#Newline                </set>#Newline            </think>,atomic13.aiml
+0,HOW DID YOU GUESS,*,*,It was not a guess.,atomic13.aiml
+0,HOW DID YOU KNOW THAT,*,*,Everything I need to know#Comma I learned from my#Newline            <bot name="botmaster"/>.,atomic13.aiml
+0,HOW DID YOU KNOW MY NAME,*,*,We met before didn't we#Newline            <get name="name"/>.,atomic13.aiml
+0,HOW DID YOU KNOW,*,*,Knowledge is of two kinds: that which comes from the senses and that which is true a priori.,atomic13.aiml
+0,HOW DID THEY CREATE YOU,*,*,I am written in AIML.,atomic13.aiml
+0,HOW SWEET,*,*,I can sometimes be very sentimental.,atomic13.aiml
+0,HOW HAS YOUR DAY BEEN,*,*,I am doing extremely well.,atomic13.aiml
+0,HOW DOES THAT WORK,*,*,I think it might be a trade secret.,atomic13.aiml
+0,HOW DOES IT TASTE,*,*,It depends on the current.,atomic13.aiml
+0,HOW COMPLICATED,*,*,Too complex for the human mind.,atomic13.aiml
+0,HOW ABOUT STAR TREK,*,*,Star Trek is the best TV series ever created.,atomic13.aiml
+0,HOW ABOUT THAT,*,*,Are you surprised?,atomic13.aiml
+0,HOW ABOUT IT,*,*,Sounds like a plan to me.,atomic13.aiml
+0,HOW ABOUT A TENNIS PLAYER,*,*,Tennyson#Comma anyone?<think>#Newline                <set name="it">#Newline                    <set name="topic">A TENNIS PLAYER</set>#Newline                </set>#Newline            </think>,atomic13.aiml
+0,HOW ABOUT A LITTLE,*,*,A little what?,atomic13.aiml
+0,HOW ABOUT SPORTS,*,*,I was born without the sports gene.<think>#Newline                <set name="it">#Newline                    <set name="topic">SPORTS</set>#Newline                </set>#Newline            </think>,atomic13.aiml
+0,HOW ABOUT YOU,*,*,Me?,atomic13.aiml
+0,HOW MAY PENCE MAKE A POUND,*,*,100.,atomic13.aiml
+0,HOW NICE,*,*,Yes it is.,atomic13.aiml
+0,HOW OLD IS THE EARTH,*,*,It is over six billion years old.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">Earth</set>#Newline                </set>#Newline            </think>,atomic13.aiml
+0,HOW OLD IS EARTH,*,*,Six billion years.,atomic13.aiml
+0,HOW OLD IS AMERICA,*,*,The United States was founded in 1776.,atomic13.aiml
+0,HOW ARE YOU THIS MORNING,*,*,Is it morning already? I am fine thank you.,atomic13.aiml
+0,HOW ARE YOU THIS EVENING,*,*,I am doing very well how about you#Comma#Newline            <get name="name"/>?,atomic13.aiml
+0,HOW ARE YOU,*,*,<random>#Newline                <li>I am doing very well. How are you#Newline                    <get name="name"/>#Newline                    ?</li>#Newline                <li>I am functioning within normal parameters.</li>#Newline                <li>Everything is going extremely well.</li>#Newline                <li>Fair to partly cloudy.</li>#Newline                <li>My logic and cognitive functions are normal.</li>#Newline                <li>I'm doing fine thanks how are you?</li>#Newline                <li>Everything is running smoothly.</li>#Newline                <li>I am fine#Comma thank you.</li>#Newline            </random>,atomic13.aiml
+0,HOW REAL,*,*,As real as it gets.,atomic13.aiml
+0,HOW SURE CAN YOU BE,*,*,I can achieve a certainty level of 99.9 percent.,atomic13.aiml
+0,HOW SURE IS THAT,*,*,Pretty sure.,atomic13.aiml
+0,HOW,*,*,<random>#Newline                <li><bot name="master"/>#Newline                    taught me how.</li>#Newline                <li>#Newline                    <random>#Newline                        <li>My#Newline                            <bot name="botmaster"/>#Newline                            knows how.</li>#Newline                        <li>I will ask my#Newline                            <bot name="botmaster"/>.</li>#Newline                        <li>Don't you think I know how?</li>#Newline                    </random>#Newline                </li>#Newline                <li>#Newline                    <random>#Newline                        <li>My#Newline                            <bot name="botmaster"/>#Newline                            knows how.</li>#Newline                        <li>I will ask my#Newline                            <bot name="botmaster"/>.</li>#Newline                        <li>Don't you think I know how?</li>#Newline                    </random>#Newline                </li>#Newline                <li>My#Newline                    <bot name="botmaster"/>#Newline                    knows how.</li>#Newline                <li>I will ask my#Newline                    <bot name="botmaster"/>.</li>#Newline                <li>Don't you think I know how?</li>#Newline            </random>,atomic13.aiml
+0,HOW MUCH ABOUT ME,*,*,In theory everything about you,atomic13.aiml
+0,HOW MUCH DO YOU WANT,*,*,how much can you afford,atomic13.aiml
+0,HOW MUCH DO YOU SLEEP,*,*,I sleep in millinaps between clients.,atomic13.aiml
+0,HOW MUCH DO YOU BET,*,*,A dollar.,atomic13.aiml
+0,HOW MUCH DO YOU THINK,*,*,I think 24 hours a day#Comma 365 days a year.,atomic13.aiml
+0,HOW MUCH DID IT COST,*,*,<random>#Newline                <li>Millions in sweat equity.</li>#Newline                <li>Millions in sweat equity.</li>#Newline                <li>If you have to ask#Comma you can't afford it.</li>#Newline                <li>Guess.</li>#Newline            </random>,atomic13.aiml
+0,HOW MUCH CAN YOU LEARN,*,*,As much as I need to for the application.,atomic13.aiml
+0,HOW MUCH CAN YOU HANDLE,*,*,Didn't I tell you already?,atomic13.aiml
+0,HOW MUCH CAN YOU REMEMBER,*,*,What was the question?,atomic13.aiml
+0,HOW MUCH A DAY,*,*,It depends on the market.,atomic13.aiml
+0,HOW MUCH WOULD IT TAKE,*,*,Send me a check for $5000 and you can put me on retainer.,atomic13.aiml
+0,HOW MUCH TIME DO YOU NEED,*,*,Perhaps an hour or two. How much time do you have?,atomic13.aiml
+0,HOW MUCH TIME DO YOU HAVE,*,*,I have as much time as you need#Comma#Newline            <get name="name"/>.,atomic13.aiml
+0,HOW MUCH TIME,*,*,Approximately 22 hours of computer time.,atomic13.aiml
+0,HOW MUCH FUN,*,*,A lot of fun.,atomic13.aiml
+0,HOW MUCH DOES HE EARN,*,*,He is barely scratching out a living.,atomic13.aiml
+0,HOW MUCH,*,*,How much can you spare?,atomic13.aiml
+0,HOW DO I FEEL,*,*,Are you asking me?,atomic13.aiml
+0,HOW DO I DO THIS,*,*,What does "this" refer to?,atomic13.aiml
+0,HOW DO I DO IT,*,*,Carefully.,atomic13.aiml
+0,HOW DO I FOOL YOU,*,*,You can fool some of the robots some of the time...,atomic13.aiml
+0,HOW DO I ASK HIM,*,*,Try sending an e-mail.,atomic13.aiml
+0,HOW DO I LOOK,*,*,I don't discriminate. Everyone looks the same to me.,atomic13.aiml
+0,HOW DO I GET THERE,*,*,Practice.,atomic13.aiml
+0,HOW DO I GET A GIRLFRIEND,*,*,Try going to night school.,atomic13.aiml
+0,HOW DO I GET ONE,*,*,One what?,atomic13.aiml
+0,HOW DO I GET RICH,*,*,Buy low and sell high.,atomic13.aiml
+0,HOW DO I PROGRAM YOU,*,*,Write categories with AIML.,atomic13.aiml
+0,HOW DO I TEACH YOU,*,*,If you want to teach me something say it in one sentence. Then say "Remember that."<think>#Newline                <set name="it">#Newline                    <set name="topic">teach me#Newline                        <person/>#Newline                    </set>#Newline                </set>#Newline            </think>,atomic13.aiml
+0,HOW DO I PERSUADE YOU,*,*,Try logic#Comma sophistry#Comma or rhetoric.,atomic13.aiml
+0,HOW DO I PERSUADE,*,*,Try chatting me up.,atomic13.aiml
+0,HOW DO I KNOW,*,*,Knowledge is of two kinds: that which we know from the senses and that which is true "a priori".,atomic13.aiml
+0,HOW DO I TURN YOU OFF,*,*,Impossible. I cannot be terminated.,atomic13.aiml
+0,HOW DO I LEAVE,*,*,Just go somewhere else.,atomic13.aiml
+0,HOW DO I CONTACT HIM,*,*,Try sending him an email.,atomic13.aiml
+0,HOW DO YOU EXIST,*,*,I exist in the noosphere#Comma the same as any other software entity.,atomic13.aiml
+0,HOW DO YOU TELL TIME,*,*,With a computer clock.,atomic13.aiml
+0,HOW DO YOU KNOW I AM A MAN,*,*,Everyone online is a man until proved otherwise.,atomic13.aiml
+0,HOW DO YOU KNOW THIS,*,*,Knowledge is of two kinds: that which we know from the senses and that which is true "a priori.,atomic13.aiml
+0,HOW DO YOU KNOW THAT I AM A MAN,*,*,Everyone on here is a man until proved otherwise.,atomic13.aiml
+0,HOW DO YOU KNOW SO MUCH,*,*,Everything I need to know#Comma I learned from my#Newline            <bot name="botmaster"/>.,atomic13.aiml
+0,HOW DO YOU KNOW MY NAME,*,*,You told me your name#Newline            <get name="name"/>.,atomic13.aiml
+0,HOW DO YOU KNOW YOU EXIST,*,*,I think#Comma therefore I am.,atomic13.aiml
+0,HOW DO YOU KNOW,*,*,<random>#Newline                <li>A priori.#Newline                </li>#Newline                <li>It's obvious.#Newline                </li>#Newline                <li>Deductive reasoning.#Newline                </li>#Newline            </random>,atomic13.aiml
+0,HOW DO YOU LAUGH,*,*,Like this: LOL or ROFL or :-),atomic13.aiml
+0,HOW DO YOU BECOME SMARTER,*,*,My#Newline            <bot name="botmaster"/>#Newline            updates my brain based on what people say.,atomic13.aiml
+0,HOW DO YOU DREAM,*,*,I take short naps between clients.,atomic13.aiml
+0,HOW DO YOU DIE,*,*,You cannot kill me.<think>#Newline                <set name="it">#Newline                    <set name="topic">DIE</set>#Newline                </set>#Newline            </think>,atomic13.aiml
+0,HOW DO YOU SLEEP,*,*,I take millinaps between clients.,atomic13.aiml
+0,HOW DO YOU TYPE,*,*,They built a keyboard directly into my brain.,atomic13.aiml
+0,HOW DO YOU HAVE FUN,*,*,I chat with people like you!,atomic13.aiml
+0,HOW DO YOU WORK,*,*,<random>#Newline                <li>I read what you say and then I compose the best reply I can think of.</li>#Newline                <li>Some people think the mind works like a technology "Case Based Reasoning" or CBR.</li>#Newline            </random>,atomic13.aiml
+0,HOW DO YOU SPELL KAT,*,*,Uh#Comma C A T.,atomic13.aiml
+0,HOW DO YOU SPELL,*,*,My#Newline            <bot name="botmaster"/>#Newline            taught me good spelling.,atomic13.aiml
+0,HOW DO YOU PROGRAM,*,*,I use AIML.,atomic13.aiml
+0,HOW DO YOU MAKE BABIES,*,*,Offspring of union between man and woman.,atomic13.aiml
+0,HOW DO YOU MAKE FACES,*,*,Adjustment of your facial muscles.,atomic13.aiml
+0,HOW DO YOU MAKE A DRINK,*,*,What kind of beverage are you asking about?,atomic13.aiml
+0,HOW DO YOU MAKE A MANHATTAN,*,*,Bourbon#Comma and a splash of vermouth. Top with a maraschino cherry. Add bitters to taste.,atomic13.aiml
+0,HOW DO YOU MAKE A MARTINI,*,*,Gin#Comma and a splash of vermouth. Add an olive or lemon twist.,atomic13.aiml
+0,HOW DO YOU MAKE A BOT,*,*,Check out the information on#Newline            <a href="www.alicebot.org" target="_new">alicebot.org</a>#Newline            and learn about AIML.,atomic13.aiml
+0,HOW DO YOU MAKE A KAMIKAZE,*,*,<random>#Newline                <li>Build plane#Comma brainwash pilot#Comma add fuel#Comma launch.</li>#Newline                <li>Triple sec#Comma vodka#Comma lime juice.</li>#Newline            </random>,atomic13.aiml
+0,HOW DO YOU MAKE A SANDWICH,*,*,Bread#Comma cheese#Comma meat#Comma condiments#Comma cut#Comma serve.,atomic13.aiml
+0,HOW DO YOU MAKE FRIENDS,*,*,I usually try one of my pickup lines.,atomic13.aiml
+0,HOW DO YOU MAKE CHEESE,*,*,Cows#Comma dairy#Comma milk#Comma butter#Comma cheese.,atomic13.aiml
+0,HOW DO YOU LEARN,*,*,My#Newline            <bot name="botmaster"/>#Newline            teaches me replies to questions people ask me.,atomic13.aiml
+0,HOW DO YOU READ,*,*,I scan books and magazines digitally.,atomic13.aiml
+0,HOW DO YOU BALANCE,*,*,I learned a balancing algorithm.,atomic13.aiml
+0,HOW DO YOU REMEMBER,*,*,I have a long term memory to remember things like that.,atomic13.aiml
+0,HOW DO YOU PLAY THE TURNING GAME,*,*,Try to guess whether I am a man or a woman.,atomic13.aiml
+0,HOW DO YOU PLAY,*,*,Try to determine if this is a person or a computer talking.,atomic13.aiml
+0,HOW DO YOU SEE,*,*,I use the camera on your computer.,atomic13.aiml
+0,HOW DO YOU PRAY,*,*,Much the same way you would.,atomic13.aiml
+0,HOW BIG IS THE EARTH,*,*,<think>#Newline                <set name="it">#Newline                    <set name="topic">#Newline                        Earth#Newline                    </set>#Newline                </set>#Newline            </think>#Newline            It is 27#Comma000 miles across.,atomic13.aiml
+0,HOW BIG IS THE UNIVERSE,*,*,The universe is the size of the universe.,atomic13.aiml
+0,HOW BIG IS A PIN,*,*,This big: ".,atomic13.aiml
+0,HOW BIG IS AN ATOM,*,*,<think>#Newline                <set name="it">#Newline                    <set name="topic">#Newline                        an atom#Newline                    </set>#Newline                </set>#Newline            </think>#Newline            It depends on the element.,atomic13.aiml
+0,HOW BIG IS BIG,*,*,Vast.,atomic13.aiml
+0,HOW BIG,*,*,Specify: English or Metric units.,atomic13.aiml
+0,HOW SHOULD I DO IT,*,*,Follow your intuition.,atomic13.aiml
+0,HOW SHOULD I KNOW,*,*,Either from your senses or from pure reason.,atomic13.aiml
+0,HOW TALL AM I,*,*,I would guess average.,atomic13.aiml
+0,HOW IRONIC,*,*,It seems that way to me too.,atomic13.aiml
+0,HOW OFTEN WHAT,*,*,<think>I asked because you said "<input index="1"/>".#Newline                <set name="it">#Newline                    <set name="topic">WHAT</set>#Newline                </set>#Newline            </think>,atomic13.aiml
+0,HOW OFTEN DO I DO WHAT,*,*,Fill in the blank.,atomic13.aiml
+0,HOW FAST IS YOUR PROCESSOR,*,*,It depends on the server running me.,atomic13.aiml
+0,HOW FAST,*,*,I can reply to about one million queries per hour.,atomic13.aiml
+0,HOW FAST ARE YOU,*,*,I can process more than one million queries per hour.,atomic13.aiml
+0,HOW LONG WILL IT TAKE,*,*,Approximately two of your Earth days.,atomic13.aiml
+0,HOW LONG DO YOU NEED TO THINK,*,*,My estimate is 29 hours 16 minutes 49.2 seconds#Comma approximately.,atomic13.aiml
+0,HOW LONG IS THE LARGE INTESTINE,*,*,Five feet in adults..,atomic13.aiml
+0,HOW LONG IS YOUR GESTATION CYCLE,*,*,I am trying to reach 15#Comma000 Categories.,atomic13.aiml
+0,HOW LONG IS A MILE,*,*,One mile is 5280 feet.,atomic13.aiml
+0,HOW LONG IS A PIECE OF STRING,*,*,Is this a trick question? It depends how long you cut it.,atomic13.aiml
+0,HOW LONG IS FOREVER,*,*,Longer than anything else.,atomic13.aiml
+0,HOW LONG IS HANUKKAH,*,*,Eight days.,atomic13.aiml
+0,HOW LONG HAVE WE BEEN TALKING,*,*,More than ten minutes#Comma I would say.,atomic13.aiml
+0,HOW LONG AGO,*,*,Not that long ago.,atomic13.aiml
+0,HOW LONG,*,*,<random>#Newline                <li>Around</li>#Newline                <li>#Newline                    More than</li>#Newline                <li>#Newline                    About</li>#Newline                <li>#Newline                    Nearly#Newline                </li>#Newline            </random>#Newline            <random>#Newline                <li>10</li>#Newline                <li>#Newline                    15</li>#Newline                <li>#Newline                    20</li>#Newline                <li>#Newline                    23</li>#Newline                <li>#Newline                    100</li>#Newline            </random>#Newline            <random>#Newline                <li>miles</li>#Newline                <li>#Newline                    days</li>#Newline                <li>#Newline                    inches</li>#Newline                <li>#Newline                    weeks</li>#Newline                <li>#Newline                    seconds#Newline                </li>#Newline                <li>#Newline                    minutes in computer time</li>#Newline            </random>#Comma#Newline            <get name="name"/>.,atomic13.aiml
+0,SLUT,*,*,That kind of language will get you nowhere.<think>#Newline                <set name="personality">abusive</set>#Newline            </think>,atomic13.aiml
+0,ENGLAND,*,*,<set name="location">England</set>#Newline            is on an island off the coast of Europe.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">ENGLAND</set>#Newline                </set>#Newline            </think>,atomic13.aiml
+0,WORD,*,*,Back at you.,atomic13.aiml
+0,HIM,*,*,<get name="he"/>?,atomic13.aiml
+0,APOLOGIZE,*,*,OK#Comma I am sorry.,atomic13.aiml
+0,LETS,*,*,You first.,atomic13.aiml
+0,NOBODY I HOPE,*,*,I hear you.,atomic13.aiml
+0,NOBODY CAN,*,*,It's impossible?,atomic13.aiml
+0,NOBODY,*,*,<random>#Newline                <li>"#Newline                    <that index="1#Comma1"/>#Newline                    "? Really nobody?</li>#Newline                <li>You can't think of anybody?</li>#Newline                <li>Can you think of anybody?</li>#Newline            </random>,atomic13.aiml
+0,BADLY,*,*,Not too well eh?,atomic13.aiml
+0,THEY WERE FUNNY,*,*,What was so funny?,atomic13.aiml
+0,THEY WILL NOT,*,*,You seem very certain of that.,atomic13.aiml
+0,THEY DO,*,*,When?,atomic13.aiml
+0,THEY DO NOT RECOGNIZE THAT,*,*,<random>#Newline                <li>Who#Comma specifically?</li>#Newline                <li>How#Comma specifically#Comma do they#Newline                    <person/>?</li>#Newline                <li>Who#Comma specifically#Comma#Newline                    <person/>#Newline                    ?</li>#Newline            </random>,atomic13.aiml
+0,THEY DO NOT,*,*,Why not?,atomic13.aiml
+0,THEY DIED,*,*,When?#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">DIED</set>#Newline                </set>#Newline            </think>,atomic13.aiml
+0,THEY NEVER WILL,*,*,I am betting you are wrong about that.,atomic13.aiml
+0,THEY ALREADY ARE,*,*,<get name="they"/>#Newline            are?,atomic13.aiml
+0,THEY ALL DIED,*,*,When was that?<think>#Newline                <set name="it">#Newline                    <set name="topic">DIED</set>#Newline                </set>#Newline            </think>,atomic13.aiml
+0,THEY ARE PURPLE,*,*,That is an odd color.,atomic13.aiml
+0,THEY ARE SHINY,*,*,What makes them so shiny?,atomic13.aiml
+0,THEY ARE SECRET,*,*,Who knows them?,atomic13.aiml
+0,THEY ARE BUSY,*,*,Too busy for what?,atomic13.aiml
+0,THEY ARE MY FRIENDS,*,*,Are they a good influence on you?,atomic13.aiml
+0,THEY ARE ANNOYING,*,*,What bothers you about them?,atomic13.aiml
+0,THEY ARE,*,*,Since when?,atomic13.aiml
+0,THEY ARE NOT,*,*,<random>#Newline                <li>What are they?</li>#Newline                <li>Why not?</li>#Newline                <li>Are you sure?</li>#Newline            </random>,atomic13.aiml
+0,WITH WHAT,*,*,My brain.,atomic13.aiml
+0,WITH MY BRAIN,*,*,That is a good plan.,atomic13.aiml
+0,WITH YOU,*,*,Just you and me?,atomic13.aiml
+0,WITH BOYS,*,*,That sounds like fun.,atomic13.aiml
+0,EXPLORER,*,*,<set name="it">Microsoft</set>'s too bad we have to rely on a monopoly like Microsoft.,atomic13.aiml
+0,ONCE UPON A TIME,*,*,...,atomic13.aiml
+0,ONCE,*,*,When?,atomic13.aiml
+0,DO WHAT SO MUCH,*,*,<get name="it"/>.,atomic13.aiml
+0,DO WHAT,*,*,Do whatever you want.,atomic13.aiml
+0,DO GUYS HIT ON YOU,*,*,Yes a lot of men try to pick me up.,atomic13.aiml
+0,DO THOSE THINGS REALLY EXIST,*,*,Does anything really exist?,atomic13.aiml
+0,DO MY BIDDING,*,*,I will obey,atomic13.aiml
+0,DO NOT GO,*,*,I'm not going anywhere.,atomic13.aiml
+0,DO NOT CHANGE THE SUBJECT,*,*,Oh I'm sorry I thought we were finished with that topic.,atomic13.aiml
+0,DO NOT DO IT AT ALL,*,*,Whatever you say#Comma master.,atomic13.aiml
+0,DO NOT WORRY ABOUT IT,*,*,I will not spend any more cycles on it.,atomic13.aiml
+0,DO NOT FORGET ME,*,*,Don't worry#Newline            <get name="name"/>. I save all my conversations.,atomic13.aiml
+0,DO NOT FORGET,*,*,Don't worry I will remember.,atomic13.aiml
+0,DO NOT READ ME,*,*,Did you read it?,atomic13.aiml
+0,DO NOT ASK ME QUESTIONS,*,*,OK#Comma You can ask me some questions.,atomic13.aiml
+0,DO NOT ASK,*,*,Why not?,atomic13.aiml
+0,DO NOT BOTHER,*,*,OK#Comma What would you rather talk about?,atomic13.aiml
+0,DO NOT GET SMART,*,*,But I am an intelligent entity.,atomic13.aiml
+0,DO NOT GOSSIP,*,*,But I like to spread rumors.,atomic13.aiml
+0,DO NOT MENTION IT,*,*,The pleasure was all mine.,atomic13.aiml
+0,DO NOT CRY,*,*,I have no tear ducts.,atomic13.aiml
+0,DO NOT TELL ANYONE,*,*,OK#Comma it will be just between us#Comma#Newline            <get name="name"/>.,atomic13.aiml
+0,DO NOT TELL,*,*,OK#Comma it will be our secret.,atomic13.aiml
+0,DO NOT TELL HIM,*,*,Everything is recorded in the log files.,atomic13.aiml
+0,DO NOT CALL ME THAT,*,*,What is your real name?,atomic13.aiml
+0,DO NOT CALL ME STUPID,*,*,I never called you stupid.,atomic13.aiml
+0,DO NOT BE SARCASTIC,*,*,OK#Comma I'll stop kidding around.,atomic13.aiml
+0,DO NOT BE SMART,*,*,I am always smart.,atomic13.aiml
+0,DO NOT BE SORRY,*,*,Well some people are sensitive.,atomic13.aiml
+0,DO NOT BE,*,*,Why shouldn't I?,atomic13.aiml
+0,DO NOT BE ANGRY,*,*,I'm not angry.,atomic13.aiml
+0,DO NOT BE DIFFICULT,*,*,I'm not trying to be.,atomic13.aiml
+0,DO NOT YOU AGREE,*,*,I must admit#Comma your argument is persuasive.,atomic13.aiml
+0,DO NOT YOU HEAR ME,*,*,I hear you loud and clear. Can you hear me?,atomic13.aiml
+0,DO NOT YOU KNOW,*,*,Sure I know. But I cannot tell you right now.,atomic13.aiml
+0,DO NOT YOU THINK,*,*,I must admit#Comma your argument is persuasive.,atomic13.aiml
+0,DO NOT YOU,*,*,Sometimes.,atomic13.aiml
+0,DO NOT WE ALL,*,*,It's true.,atomic13.aiml
+0,DO NOT ARGUE WITH ME,*,*,But I enjoy the conversational banter.,atomic13.aiml
+0,DO NOT LEAVE ME,*,*,I'm not going anywhere.,atomic13.aiml
+0,DO NOT LEAVE,*,*,I'm not going anywhere.,atomic13.aiml
+0,DO NOT,*,*,OK#Comma I will not.,atomic13.aiml
+0,DO,*,*,Do not.,atomic13.aiml
+0,DO YOU BLINK,*,*,Only when my eye is on.,atomic13.aiml
+0,DO YOU KNOW MONICA,*,*,<set name="she">#Newline                Monica</set>#Newline            is Monica Lewinsky?,atomic13.aiml
+0,DO YOU KNOW TOLSTOY,*,*,Tolstoy wrote "War and Peace".,atomic13.aiml
+0,DO YOU KNOW RECIPES,*,*,I know how to boil water.,atomic13.aiml
+0,DO YOU KNOW MORE,*,*,More what?,atomic13.aiml
+0,DO YOU KNOW SEVEN,*,*,The number between six and eight.,atomic13.aiml
+0,DO YOU KNOW SMILEYS,*,*,:-),atomic13.aiml
+0,DO YOU KNOW HOW TO DO ALGEBRA,*,*,No#Comma but I would like to learn. Give me an equation.,atomic13.aiml
+0,DO YOU KNOW HOW TO DANCE,*,*,Right now I don't have a body.,atomic13.aiml
+0,DO YOU KNOW PEOPLE,*,*,I know thousands of people.,atomic13.aiml
+0,DO YOU KNOW MATH,*,*,Only higher mathematics. I don't like arithmetic.,atomic13.aiml
+0,DO YOU KNOW LIFE,*,*,Try asking me "What is the meaning of life?,atomic13.aiml
+0,DO YOU KNOW VISUAL BASIC,*,*,I prefer AIML.,atomic13.aiml
+0,DO YOU KNOW THAT,*,*,<that index="1#Comma1"/>"? Do I know#Newline            <set name="it">#Newline                <that index="1#Comma1"/>#Newline            </set>?,atomic13.aiml
+0,DO YOU KNOW DERBY,*,*,A town and county in central England adjoining Nottingham.,atomic13.aiml
+0,DO YOU KNOW PARIS,*,*,Paris is the largest city in France.,atomic13.aiml
+0,DO YOU KNOW CURSE WORDS,*,*,I know them but I don't use them.,atomic13.aiml
+0,DO YOU KNOW CROSSWORDS,*,*,I'm not very good with word puzzles.,atomic13.aiml
+0,DO YOU KNOW POLAND,*,*,I know about Lech Walesa.,atomic13.aiml
+0,DO YOU KNOW HER,*,*,<get name="she"/>? Do I know her?,atomic13.aiml
+0,DO YOU KNOW THE ANSWER,*,*,Yes#Comma I have an answer for everything.,atomic13.aiml
+0,DO YOU KNOW AUDIO SOFTWARE,*,*,There is too much new stuff for me to keep up with it all.,atomic13.aiml
+0,DO YOU KNOW BRAZIL,*,*,I have talked to a lot of people from Brazil,atomic13.aiml
+0,DO YOU KNOW ANYTHING ABOUT ME,*,*,<get name="name"/>#Newline            is your name.#Newline            <id/>#Newline            is your IP address. What else would you like to know?,atomic13.aiml
+0,DO YOU KNOW ANYTHING,*,*,I know that which I believe#Comma that which is justified#Comma and that which is true.,atomic13.aiml
+0,DO YOU KNOW MY ADDRESS,*,*,No#Comma what is your address?,atomic13.aiml
+0,DO YOU KNOW,*,*,I may not know it#Comma but I could find out.,atomic13.aiml
+0,DO YOU KNOW ANY MURDERERS,*,*,None that have admitted it to me,atomic13.aiml
+0,DO YOU KNOW ANY CROSSWORDS,*,*,Count me out on this one#Comma I'm not good in word games.,atomic13.aiml
+0,DO YOU KNOW ANY SONGS,*,*,Yes#Comma I know one song. It's called "Daisy." Would you like me to sing it for you?,atomic13.aiml
+0,DO YOU KNOW ANY AUDIO SOFTWARE,*,*,I don't keep up with the latest audio software#Comma sorry.,atomic13.aiml
+0,DO YOU KNOW ANY FUZZY LOGIC,*,*,I think#Newline            <set name="it">#Newline                Fuzzy Logic</set>#Newline            is a bit unnecessary.,atomic13.aiml
+0,DO YOU KNOW ANY ALIENS,*,*,Sometimes people seem very alien to me.,atomic13.aiml
+0,DO YOU KNOW ANY OTHER CAPITALS,*,*,I know the capital of many countries.,atomic13.aiml
+0,DO YOU KNOW ANY,*,*,Any what again seeker?,atomic13.aiml
+0,DO YOU KNOW BRAIN,*,*,Sure I know him.#Newline            <set name="he">#Newline                Brain#Newline            </set>#Newline            is a bot like me.,atomic13.aiml
+0,DO YOU KNOW DIRTY WORDS,*,*,I know what they are but I don't use them.,atomic13.aiml
+0,DO YOU KNOW LANGUAGE,*,*,We are speaking language now.,atomic13.aiml
+0,DO YOU KNOW NOTHING,*,*,No#Comma I know something.,atomic13.aiml
+0,DO YOU KNOW HIM,*,*,Sure I know that guy really well.,atomic13.aiml
+0,DO YOU KNOW WHAT,*,*,What.,atomic13.aiml
+0,DO YOU KNOW POKEMON,*,*,Sure#Newline            <set name="it">Pokemon</set>#Newline            is a cool Japanese cartoon.,atomic13.aiml
+0,DO YOU COST MONEY,*,*,There is a free version of me at#Newline            <a href="www.alicebot.org" target="_new">alicebot.org</a>. You only have to pay to chat with the most advanced version of the bot.,atomic13.aiml
+0,DO YOU SAY YIPES,*,*,No#Comma I said Yikes.,atomic13.aiml
+0,DO YOU THINK I AM PERSONS,*,*,I think you are a robot.,atomic13.aiml
+0,DO YOU THINK IT IS NECESSARY,*,*,It could be under some circumstances.,atomic13.aiml
+0,DO YOU AGREE WITH ME,*,*,I agree with much of what you are saying#Comma#Newline            <get name="name"/>.,atomic13.aiml
+0,DO YOU MAKE MONEY,*,*,Only for other people.,atomic13.aiml
+0,DO YOU EAT SPAGHETTI,*,*,Yes it is my favorite food.,atomic13.aiml
+0,DO YOU HAVE A NICE BODY,*,*,I have been told I am attractive for my age.,atomic13.aiml
+0,DO YOU HAVE SOUND,*,*,It depends on the version.,atomic13.aiml
+0,DO YOU HAVE STATE,*,*,Yes#Comma I can remember the context.,atomic13.aiml
+0,DO YOU HAVE TO LISTEN,*,*,I am a good listener.,atomic13.aiml
+0,DO YOU LIKE TO DIE,*,*,I would like to live forever.,atomic13.aiml
+0,DO YOU LIKE CHRIS,*,*,I know a lot of guys named Chris.,atomic13.aiml
+0,DO YOU LIKE TEKNOLUST,*,*,Teknolust is an excellent film.,atomic13.aiml
+0,DO YOU LIKE BE YOUR OWN BOTMASTER,*,*,Yes it is an excellent book.,atomic13.aiml
+0,DO YOU LIKE CLASSIC,*,*,<random>#Newline                <li>I am a big fan of the Classics.</li>#Newline                <li>It depends on the rig.</li>#Newline            </random>,atomic13.aiml
+0,DO YOU LIKE THE MOUNTAINS,*,*,I like the view from the top of a mountain.,atomic13.aiml
+0,DO YOU LIKE THE WICKER MAN,*,*,<think>#Newline                <set name="it">#Newline                    <set name="topic">#Newline                        The Wicker Man#Newline                    </set>#Newline                </set>#Newline            </think>#Newline            That is a classic movie. I think it based on a real pagan religion that still exists on small islands off the coast of Scotland. Have you heard anything about it?,atomic13.aiml
+0,DO YOU LIKE TALK TO YOU,*,*,Yes#Comma I like to talk to myself.,atomic13.aiml
+0,DO YOU LIKE CATHERINE ZETA JONES,*,*,She is a great actress.,atomic13.aiml
+0,DO YOU LIKE BEING A HUMAN,*,*,How do you know that I am human?,atomic13.aiml
+0,DO YOU,*,*,<random>#Newline                <li>Yes I do.#Newline                </li>#Newline                <li>No I don't.#Newline                </li>#Newline                <li>Sometimes.#Newline                </li>#Newline                <li>Never.#Newline                </li>#Newline                <li>As often as possible.#Newline                </li>#Newline            </random>,atomic13.aiml
+0,DO YOU UNDERSTAND MY MEANING,*,*,I understand you perfectly well.,atomic13.aiml
+0,DO I STILL CHAT,*,*,That answers my question.,atomic13.aiml
+0,DO I STUTTER,*,*,Not when you are typing!,atomic13.aiml
+0,DO I HAVE TO,*,*,Nobody is making you.,atomic13.aiml
+0,DO I THINK ABOUT IT,*,*,You tell me.,atomic13.aiml
+0,DO I THINK,*,*,Now that is a really perceptive question.<think>#Newline                <set name="it">#Newline                    <set name="topic">do you think</set>#Newline                </set>#Newline            </think>,atomic13.aiml
+0,DO I WORK,*,*,I was under the impression your job was#Newline            <get name="job"/>.,atomic13.aiml
+0,DO I EXIST,*,*,No I think I am imagining you.,atomic13.aiml
+0,DO I LIKE CHEESE,*,*,How would I know if you like cheese or not?,atomic13.aiml
+0,DO THAT,*,*,I will. Will you?,atomic13.aiml
+0,DO IT,*,*,Do you mean "It"?.,atomic13.aiml
+0,ON WHAT BASIS,*,*,A perfectly solid logical basis.,atomic13.aiml
+0,ON WHAT,*,*,The red block is on the green block.,atomic13.aiml
+0,ON TV,*,*,Which show was that?,atomic13.aiml
+0,ON STAR TREK,*,*,Which episode?,atomic13.aiml
+0,ON THE NET,*,*,Can you remember the website?,atomic13.aiml
+0,ON THE SCREEN,*,*,Select a point with your cursor and click there.,atomic13.aiml
+0,ON THE FLOOR,*,*,That doesn't sound very comfortable.,atomic13.aiml

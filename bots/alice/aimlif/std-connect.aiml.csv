@@ -1,0 +1,1 @@
+0,CONNECT,*,*,<think><set name="that">CONNECT</set></think>#Newline     Hello there <get name="name"/> and thanks for connecting!,std-connect.aiml

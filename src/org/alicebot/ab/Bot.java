@@ -357,10 +357,12 @@ public class Bot {
      * @param file he destination AIMLIF file
      */
   public void writeCertainIFCategories(Graphmaster graph, String file) {
-    if (MagicBooleans.trace_mode) System.out.println("writeCertainIFCaegories " + file + " size= " + graph.getCategories().size());
+    /*
+if (MagicBooleans.trace_mode) System.out.println("writeCertainIFCaegories " + file + " size= " + graph.getCategories().size());
     writeIFCategories(graph.getCategories(), file + MagicStrings.aimlif_file_suffix);
     File dir = new File(aimlif_path);
     dir.setLastModified(new Date().getTime());
+*/
   }
 
     /**
@@ -386,7 +388,8 @@ public class Bot {
      * @param filename IMLIF filename
      */
   public void writeIFCategories(ArrayList<Category> cats, String filename) {
-        //System.out.println("writeIFCategories "+filename);
+    return;
+    /*//System.out.println("writeIFCategories "+filename);
     BufferedWriter bw = null;
     File existsPath = new File(aimlif_path);
     if (!existsPath.exists()) existsPath.mkdirs();
@@ -415,13 +418,15 @@ public class Bot {
       } catch (IOException ex) {
         ex.printStackTrace();
       }
-    }
+    }*/
   }
 
     /**
      * Write all AIMLIF files from bot brain
      */
   public void writeAIMLIFFiles() {
+    return;
+    /*
     if (MagicBooleans.trace_mode) System.out.println("writeAIMLIFFiles");
     HashMap<String, BufferedWriter> fileMap = new HashMap<String, BufferedWriter>();
     Category b = new Category(0, "BRAIN BUILD", "*", "*", new Date().toString(), "update.aiml");
@@ -456,14 +461,15 @@ public class Bot {
       }
     }
     File dir = new File(aimlif_path);
-    dir.setLastModified(new Date().getTime());
+    dir.setLastModified(new Date().getTime());*/
   }
 
     /**
      * Write all AIML files. Adds categories for BUILD and DEVELOPMENT ENVIRONMENT
      */
   public void writeAIMLFiles() {
-    if (MagicBooleans.trace_mode) System.out.println("writeAIMLFiles");
+    return;
+    /*if (MagicBooleans.trace_mode) System.out.println("writeAIMLFiles");
     HashMap<String, BufferedWriter> fileMap = new HashMap<String, BufferedWriter>();
     Category b = new Category(0, "BRAIN BUILD", "*", "*", new Date().toString(), "update.aiml");
     brain.addCategory(b);
@@ -503,7 +509,7 @@ public class Bot {
       }
     }
     File dir = new File(aiml_path);
-    dir.setLastModified(new Date().getTime());
+    dir.setLastModified(new Date().getTime());*/
   }
 
     /**

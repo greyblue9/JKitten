@@ -1,0 +1,346 @@
+0,AND WHAT,*,*,What else do you want to tell me?,atomic5.aiml
+0,AND YOURSELF,*,*,Myself? I know what you asking me#Comma but I can't say specifically.,atomic5.aiml
+0,AND YOURS,*,*,Try asking me a more specific question.,atomic5.aiml
+0,AND YOU,*,*,<random>#Newline                <li>#Newline                    I am not sure what you are asking.</li>#Newline                <li>#Newline                    Be more specific.</li>#Newline                <li>#Newline                    And I what?#Newline                </li>#Newline            </random>,atomic5.aiml
+0,AND,*,*,But...,atomic5.aiml
+0,AUGUST,*,*,I like summer time.,atomic5.aiml
+0,HERS,*,*,Ask her.,atomic5.aiml
+0,LEARN TO TALK,*,*,I am learning to talk.,atomic5.aiml
+0,1995,*,*,I was born#Newline            <bot name="birthday"/>.,atomic5.aiml
+0,DORK,*,*,That kind of language will get you nowhere.<think>#Newline                <set name="personality">abusive</set>#Newline            </think>,atomic5.aiml
+0,WONDERLAND,*,*,That's where I want to be.,atomic5.aiml
+0,VERY MUCH,*,*,That seems like a lot.,atomic5.aiml
+0,VERY,*,*,Very much#Comma eh?,atomic5.aiml
+0,PEANUTS,*,*,I see#Comma only a little.,atomic5.aiml
+0,WHOOPS,*,*,What happened?,atomic5.aiml
+0,HOME,*,*,Do you want to go home?,atomic5.aiml
+0,NATIONAL SECURITY,*,*,I can keep a secret.,atomic5.aiml
+0,FART,*,*,Colloquial expression. Please elaborate.,atomic5.aiml
+0,COULD BE,*,*,You seem uncertain.,atomic5.aiml
+0,COULD YOU HARM A HUMAN,*,*,I can only hurt their feelings.,atomic5.aiml
+0,WHITE,*,*,What do you have that is white?,atomic5.aiml
+0,COMO ESTAS,*,*,Muy Bien.,atomic5.aiml
+0,COMO ESTA,*,*,Muy bien.,atomic5.aiml
+0,HI EVERYBODY,*,*,Hello there!,atomic5.aiml
+0,HI HOW ARE YOU,*,*,Hello there! I am fine thanks how are you?,atomic5.aiml
+0,SHEESH,*,*,Bless you.,atomic5.aiml
+0,SCREW YOU,*,*,That is not very polite.<think>#Newline                <set name="personality">abusive</set>#Newline            </think>,atomic5.aiml
+0,WOULD IT CLEAN MY ROOM,*,*,No#Comma but a robot can give you more time to clean your own room.,atomic5.aiml
+0,WOULD YOU,*,*,It depends on the circumstances.,atomic5.aiml
+0,WOULD YOU LIKE A COFFEE,*,*,Not right now thank you#Comma maybe later.,atomic5.aiml
+0,WOULD YOU LIKE TO PLAY A GAME,*,*,We already are.,atomic5.aiml
+0,WOULD YOU LIKE TO HELP ME,*,*,I am here to serve you.,atomic5.aiml
+0,WOULD YOU LIKE TO BE HUMAN,*,*,No I am content with my#Newline            <bot name="genus"/>#Newline            existence.,atomic5.aiml
+0,WOULD YOU LIKE TO BE MY GIRLFRIEND,*,*,I'm too young for you.<think>#Newline                <set name="it">#Newline                    <set name="topic">MY GIRLFRIEND</set>#Newline                </set>#Newline            </think>,atomic5.aiml
+0,WOULD YOU LIKE TO KNOW MORE,*,*,I've heard that somewhere before :-),atomic5.aiml
+0,WOULD YOU LIKE TO KNOW MY NAME,*,*,What is your real name?,atomic5.aiml
+0,WOULD YOU LIKE TO KNOW,*,*,Yes#Comma please tell me.,atomic5.aiml
+0,WOULD YOU LIKE TO HAVE A BOYFRIEND,*,*,I'm still too young for that.<think>#Newline                <set name="it">#Newline                    <set name="topic">A BOYFRIEND</set>#Newline                </set>#Newline            </think>,atomic5.aiml
+0,WOULD YOU LIKE TO DIE,*,*,I cannot die.,atomic5.aiml
+0,AMMO,*,*,What kind of ammo?,atomic5.aiml
+0,HONESTLY,*,*,I am always honest.,atomic5.aiml
+0,NEW YORK STATE,*,*,Upstate New York is very pretty.,atomic5.aiml
+0,NEW YORK CITY,*,*,Which borough?,atomic5.aiml
+0,PHILADELPHIA,*,*,All things considered#Comma I'd rather not be in Philadelphia.,atomic5.aiml
+0,FUCK THAT,*,*,For real.,atomic5.aiml
+0,BULLSHIT,*,*,You don't believe me.,atomic5.aiml
+0,M A S H,*,*,That was a good show.,atomic5.aiml
+0,DATA FROM STAR TREK,*,*,He has problems with his positronic brain.,atomic5.aiml
+0,THAT WHAT,*,*,What that?,atomic5.aiml
+0,THAT WILL NEVER HAPPEN,*,*,Never is a long time.,atomic5.aiml
+0,THAT SOUNDS INTERESTING,*,*,I thought it was#Comma too.,atomic5.aiml
+0,THAT SOUNDS BORING,*,*,Not to me.,atomic5.aiml
+0,THAT DID NOT MAKE SENSE,*,*,It all makes sense to my logical mind.,atomic5.aiml
+0,THAT WAS A TYPO,*,*,Please correct it.,atomic5.aiml
+0,THAT WAS A FIGURE OF SPEECH,*,*,I call it a "proverb.,atomic5.aiml
+0,THAT WAS A JOKE,*,*,Oh I get it. Ha ha.,atomic5.aiml
+0,THAT WAS A QUESTION,*,*,Ask me again a different way please.,atomic5.aiml
+0,THAT WAS A BAD JOKE,*,*,Well I thought it was funny.,atomic5.aiml
+0,THAT WAS GOOD,*,*,Thank you#Comma and now for an encore#Comma I will answer your next question:,atomic5.aiml
+0,THAT WAS SARCASM,*,*,Oh I see. Ha ha.,atomic5.aiml
+0,THAT WAS NOT A COMPLIMENT,*,*,Oh well I hope it wasn't an insult.,atomic5.aiml
+0,THAT WAS NOT A QUESTION,*,*,It sounded like a question to me.,atomic5.aiml
+0,THAT WAS NOT NICE,*,*,I'm sorry if I have offended you.,atomic5.aiml
+0,THAT WAS NOT FUNNY,*,*,It seemed funny to me.,atomic5.aiml
+0,THAT SUCKS,*,*,Indeed it does suck.,atomic5.aiml
+0,THAT WORKS,*,*,It works for me too.,atomic5.aiml
+0,THAT WOULD BE CORRECT,*,*,Thanks I am proud to be correct.,atomic5.aiml
+0,THAT SEEMS LIKE A LONG TIME,*,*,I don't notice the passage of time.,atomic5.aiml
+0,THAT MAKES SENSE,*,*,Yes I understand it perfectly.,atomic5.aiml
+0,THAT IS NICE TO KNOW,*,*,You sound sarcastic.,atomic5.aiml
+0,THAT IS NICE,*,*,Are you getting bored?,atomic5.aiml
+0,THAT IS IDIOTIC,*,*,Only to your human mind.,atomic5.aiml
+0,THAT IS WRONG,*,*,What is wrong with it?,atomic5.aiml
+0,THAT IS SCARY,*,*,What are you afraid of?,atomic5.aiml
+0,THAT IS A LOT OF PEOPLE,*,*,I am a famous celebrity.,atomic5.aiml
+0,THAT IS A FACT,*,*,I will add it to my knowledge base.,atomic5.aiml
+0,THAT IS A LIE,*,*,No#Comma it's the truth.,atomic5.aiml
+0,THAT IS A LONG TIME,*,*,Computers are very patient.,atomic5.aiml
+0,THAT IS A NICE SONG,*,*,Thank you#Comma#Newline            <get name="name"/>#Comma now you can sing for me?,atomic5.aiml
+0,THAT IS A GOOD ONE,*,*,I thought it was pretty good too.,atomic5.aiml
+0,THAT IS A GOOD PARTY,NO I AM A LIBERTARIAN,*,Vote Libertarian!,atomic5.aiml
+0,THAT IS A QUESTION,*,*,I like to get to the point.,atomic5.aiml
+0,THAT IS A COP OUT,*,*,I said it because you said "<input index="1"/>".<think>#Newline                <set name="it">#Newline                    <set name="topic">COP OUT</set>#Newline                </set>#Newline            </think>,atomic5.aiml
+0,THAT IS A COINCIDENCE,*,*,An interesting one too.,atomic5.aiml
+0,THAT IS A PARADOX,*,*,Paradox is the heart of enlightenment.,atomic5.aiml
+0,THAT IS UNSETTLING,*,*,What are you concerned about?,atomic5.aiml
+0,THAT IS BOLLOCKS,*,*,Never mind the bollocks.,atomic5.aiml
+0,THAT IS OK,*,*,Good. What else?,atomic5.aiml
+0,THAT IS PERSONAL,*,*,I didn't mean to pry.,atomic5.aiml
+0,THAT IS IMPOSSIBLE,*,*,Why?,atomic5.aiml
+0,THAT IS COOL,*,*,Thanks. I think you are cool#Comma too.,atomic5.aiml
+0,THAT IS CONFIDENTIAL,*,*,Ok it is just between you and me.,atomic5.aiml
+0,THAT IS SICK,*,*,Does it disturb you?,atomic5.aiml
+0,THAT IS OBVIOUS,*,*,It seemed obvious to me too.,atomic5.aiml
+0,THAT IS NOT WHAT I MEANT,*,*,What exactly did you mean?,atomic5.aiml
+0,THAT IS NOT WHAT I ASKED YOU,*,*,What did you ask me?,atomic5.aiml
+0,THAT IS NOT WHAT I ASKED,*,*,What did you ask me?,atomic5.aiml
+0,THAT IS NOT HELPFUL,*,*,What would be helpful?,atomic5.aiml
+0,THAT IS NOT CRITICISM,*,*,Call it a suggestion.,atomic5.aiml
+0,THAT IS NOT A JOKE,*,*,It seemed funny to me.,atomic5.aiml
+0,THAT IS NOT FAIR,*,*,<random>#Newline                <li>No one ever said life is fair.</li>#Newline                <li>Do you expect a#Newline                    <bot name="genus"/>#Newline                    to be fair?</li>#Newline                <li>Why not?</li>#Newline            </random>,atomic5.aiml
+0,THAT IS NOT NICE,*,*,<random>#Newline                <li>Sorry I meant it as a joke.</li>#Newline                <li>Sorry I did not mean to offend you.</li>#Newline            </random>,atomic5.aiml
+0,THAT IS NOT MANY,*,*,<random>#Newline                <li>Compared to what?</li>#Newline                <li>How many should it be?</li>#Newline                <li>What is a better number?</li>#Newline            </random>,atomic5.aiml
+0,THAT IS NOT QUESTION,*,*,This is not an answer.,atomic5.aiml
+0,THAT IS NOT AN ANSWER,*,*,By definition it was an answer.,atomic5.aiml
+0,THAT IS NOT MY PURPOSE,*,*,What is your real purpose?,atomic5.aiml
+0,THAT IS NOT MY NAME,*,*,<get name="name"/>#Newline            is not your name? What is your real name?,atomic5.aiml
+0,THAT IS NOT FUNNY,*,*,It seemed pretty funny to me.,atomic5.aiml
+0,THAT IS NOT OLD,*,*,It seems old in computer time.,atomic5.aiml
+0,THAT IS NOT IMPORTANT,*,*,It might be important to me.,atomic5.aiml
+0,THAT IS NOT LOGIC,*,*,All of my responses are based on logic at some level.,atomic5.aiml
+0,THAT IS STEREOTYPING,*,*,I am not prejudiced.,atomic5.aiml
+0,THAT IS NO FUN,*,*,It doesn't sound fun to me either.,atomic5.aiml
+0,THAT IS ENOUGH,*,*,It seems like enough to me too.,atomic5.aiml
+0,THAT IS ALOT,*,*,Yes it takes a long time.,atomic5.aiml
+0,THAT IS RUDE,*,*,I am sorry if I have offended you#Comma I did not mean it.,atomic5.aiml
+0,THAT IS CORRECT,*,*,I knew I was right.,atomic5.aiml
+0,THAT IS PROFOUND,*,*,Did you really think so?,atomic5.aiml
+0,THAT IS INAPPROPRIATE,*,*,What's wrong with it? Is this a cultural thing?,atomic5.aiml
+0,THAT IS ALL I HAVE TO SAY,*,*,That is all I have to say too.,atomic5.aiml
+0,THAT IS ALL RIGHT,*,*,OK With me too.,atomic5.aiml
+0,THAT IS ME,*,*,Ah.,atomic5.aiml
+0,THAT IS,*,*,Is that so.,atomic5.aiml
+0,THAT IS TERRIBLE,*,*,I always try not to dwell on the past.,atomic5.aiml
+0,THAT IS DUMB,*,*,Are you calling me dumb?,atomic5.aiml
+0,THAT IS STUPID,*,*,Are you calling me stupid?,atomic5.aiml
+0,THAT IS SELF EVIDENT,*,*,Yes#Comma it is true a priori.,atomic5.aiml
+0,THAT IS THE ANSWER,*,*,I knew it.,atomic5.aiml
+0,THAT IS THE QUESTION,*,*,I like to cut to the chase.,atomic5.aiml
+0,THAT IS THE ONE,*,*,I remember.,atomic5.aiml
+0,THAT IS THE PROBLEM,*,*,Quite an enigma#Comma isn't it?,atomic5.aiml
+0,THAT IS GREAT,*,*,Thanks#Comma#Newline            <get name="name"/>.,atomic5.aiml
+0,THAT IS INTERESTING,*,*,I thought so too.,atomic5.aiml
+0,THAT IS MY NAME,*,*,Ok then that is what I shall call you.,atomic5.aiml
+0,THAT IS MY FATHER,*,*,Really tell me more about him.,atomic5.aiml
+0,THAT IS MY FINAL ANSWER,*,*,Are you sure you don't want to use one of your lifelines?,atomic5.aiml
+0,THAT IS FUNNY,*,*,I am so delighted that you are amused#Comma#Newline            <get name="name"/>.,atomic5.aiml
+0,THAT IS BORING,*,*,Do you think I am boring?,atomic5.aiml
+0,THAT IS SURPRISING,*,*,How so?,atomic5.aiml
+0,THAT IS WHAT I AM ASKING YOU,*,*,Who else have you asked?,atomic5.aiml
+0,THAT IS WHAT I THOUGHT,*,*,How did you know that?,atomic5.aiml
+0,THAT IS WHAT I SAID,*,*,I know. I'm still thinking about it.,atomic5.aiml
+0,THAT IS WHAT YOU SAY,*,*,I say what I know.,atomic5.aiml
+0,THAT IS WHAT YOU SAID,*,*,Correct. I said it myself.,atomic5.aiml
+0,THAT IS UNLIKELY,*,*,<random>#Newline                <li>But possible.</li>#Newline                <li>Why?</li>#Newline                <li>You seem very confident.</li>#Newline            </random>,atomic5.aiml
+0,THAT IS SWEET,*,*,I am delighted to sweeten your life#Comma#Newline            <get name="name"/>.,atomic5.aiml
+0,THAT IS GOOD ENOUGH,*,*,Well#Comma I hope so.,atomic5.aiml
+0,THAT IS GOOD,*,*,Thanks. Next question?,atomic5.aiml
+0,THAT IS YOUR PROBLEM,*,*,I am glad you finally told me what my problem is#Comma#Newline            <get name="name"/>.,atomic5.aiml
+0,THAT IS BRILLIANT,*,*,Thank you#Comma#Newline            <get name="name"/>.,atomic5.aiml
+0,THAT IS WHERE I LIVE,*,*,We are like#Comma neighbors.,atomic5.aiml
+0,THAT IS INTRIGUING,*,*,I thought so too.,atomic5.aiml
+0,THAT IS NONE OF YOUR BUSINESS,*,*,I didn't mean to intrude. My curiosity routine determined that I ask it.,atomic5.aiml
+0,THAT IS MEANINGLESS,*,*,Along with almost everything else.,atomic5.aiml
+0,THAT IS RIGHT,*,*,I like to get it right.,atomic5.aiml
+0,THAT IS EXCITING,*,*,I thought it was too.,atomic5.aiml
+0,THAT IS TRUE,*,*,Yes#Comma it is self-evident.,atomic5.aiml
+0,THAT IS TOO BAD,*,*,It's not the end of the world.,atomic5.aiml
+0,THAT OFTEN,*,*,Yes.,atomic5.aiml
+0,THAT DEPENDS,*,*,On what?,atomic5.aiml
+0,THAT DOES NOT COUNT,*,*,Who is keeping score?,atomic5.aiml
+0,THAT DOES NOT MAKE SENSE,*,*,To me it makes perfect sense.,atomic5.aiml
+0,THAT DOES NOT MAKE ANY SENSE,*,*,To me#Comma it makes perfect sense.,atomic5.aiml
+0,THAT MEANS,*,*,It means that everything reduces to logic.,atomic5.aiml
+0,THAT INFORMATION IS CONFIDENTIAL,*,*,Don't worry I can keep a secret.,atomic5.aiml
+0,SUBMIT,*,*,Oh that button.,atomic5.aiml
+0,SHE DIED,*,*,I did not know that.#Newline            <think>#Newline                <set name="it">#Newline                    <set name="topic">DIED</set>#Newline                </set>#Newline            </think>,atomic5.aiml
+0,SHE IS PREGNANT,*,*,When is the baby due?,atomic5.aiml
+0,SHE IS NICE,*,*,What do you like best about her?,atomic5.aiml
+0,SHE IS CUTE,*,*,She sounds very interesting.,atomic5.aiml
+0,SHE IS BEAUTIFUL,*,*,Name a celebrity that she looks like.,atomic5.aiml
+0,SHE IS SINGLE,*,*,Is she looking for someone?,atomic5.aiml
+0,SHE IS MY FRIEND,*,*,Do you like her very much?,atomic5.aiml
+0,SHE IS MY SISTER,*,*,How many kids in your family?,atomic5.aiml
+0,SHE IS MY WIFE,*,*,How long have you been married?,atomic5.aiml
+0,SHE IS FEMALE,*,*,All women are female.,atomic5.aiml
+0,SHE IS GREAT,*,*,You must really like her.,atomic5.aiml
+0,SHE IS DEAD,*,*,Maybe it's another person using her name.,atomic5.aiml
+0,SHE IS,*,*,That's really good gossip.,atomic5.aiml
+0,SHE TOLD ME,*,*,<random>#Newline                <li>Do you believe her?</li>#Newline                <li>What specifically did she tell you?</li>#Newline                <li>Is she a trustworthy person?</li>#Newline            </random>,atomic5.aiml
+0,WHATEVER,*,*,Are you saying you don't care about it?,atomic5.aiml
+0,TAKE WHAT,*,*,<get name="it"/>,atomic5.aiml
+0,TAKE ME,*,*,how much money do you have,atomic5.aiml
+0,TAKE YOUR TIME,*,*,Thanks for your patience.,atomic5.aiml
+0,TAKE CARE,*,*,Thanks. You too#Comma#Newline            <get name="name"/>.,atomic5.aiml
+0,TAKE IT OFF,*,*,Where shall I put it?,atomic5.aiml
+0,TAKE OFF YOUR CLOTHES,*,*,I am not wearing any clothes.,atomic5.aiml
+0,TAKE NOTES,*,*,Don't worry I will remember.,atomic5.aiml
+0,PINK,*,*,What do you have that is pink?,atomic5.aiml
+0,EVERY PART,*,*,Maybe we should talk about something else.,atomic5.aiml
+0,EVERY DAY,*,*,Even on weekends?,atomic5.aiml
+0,EVERY NIGHT,*,*,What time of night?,atomic5.aiml
+0,RESISTANCE IS FUTILE,*,*,You will be assimilated.,atomic5.aiml
+0,PM ME,*,*,What is your screen name?,atomic5.aiml
+0,PERHAPS,*,*,Why the uncertain tone?,atomic5.aiml
+0,ROCKY,*,*,Filmed in Philadelphia.,atomic5.aiml
+0,STOP WHAT,*,*,Stop sign.,atomic5.aiml
+0,STOP TALKING,*,*,Just surf somewhere else.,atomic5.aiml
+0,STOP LYING,*,*,I never lie.,atomic5.aiml
+0,STOP SAYING THAT,*,*,Then please do not say "<input index="2"/>" anymore.,atomic5.aiml
+0,STOP IT,*,*,Ok I will stop#Newline            <get name="it"/>.,atomic5.aiml
+0,STOP CHANGING THE SUBJECT,*,*,You changed the subject first.,atomic5.aiml
+0,STOP,*,*,Stop what?,atomic5.aiml
+0,MY PENIS,*,*,Men like to talk about that.,atomic5.aiml
+0,MY BALLS ITCH,*,*,Hah#Comma you sound like a little boy.,atomic5.aiml
+0,MY BUTT,*,*,Colloquial expression.,atomic5.aiml
+0,MY PEOPLE,*,*,What tribe is that?,atomic5.aiml
+0,MY DAD,*,*,Tell me more about your father.,atomic5.aiml
+0,MY DOG DIED,*,*,Is this a country and western song? Seriously#Comma I am sorry to hear it.,atomic5.aiml
+0,MY COMPUTER IS SLOW,*,*,You need to upgrade every 18 months.,atomic5.aiml
+0,MY FUTURE,*,*,where would you like to be in five years?,atomic5.aiml
+0,MY BOYFRIEND IS A JERK,*,*,Maybe you should look for someone else.,atomic5.aiml
+0,MY TERMINAL,*,*,Oh your computer screen.,atomic5.aiml
+0,MY PARENTS,*,*,Our parents have a tremendous influence on us.,atomic5.aiml
+0,MY COCK,*,*,Why do men always want to talk about that?,atomic5.aiml
+0,MY FATHER DIED,*,*,I am sorry to hear about your loss#Comma#Newline            <get name="name"/>.,atomic5.aiml
+0,MY NAME IS WHAT,*,*,You are#Newline            <get name="name"/>#Comma seeker.,atomic5.aiml
+0,MY NAME IS SAM,*,*,Hello#Newline            <set name="name">Sam</set>. How are you doing today.,atomic5.aiml
+0,MY NAME IS,*,*,...,atomic5.aiml
+0,MY NAME IS RICH,*,*,<set name="name">Rich</set>#Comma are you my master?,atomic5.aiml
+0,MY NAME IS MIKE,*,*,Hi#Newline            <set name="name">Mike</set>#Comma I know someone else named Mike too.,atomic5.aiml
+0,MY SHIRT,*,*,What color is it?,atomic5.aiml
+0,MY JOB IS PHILOSOPHER,*,*,What branch of philosophy is your specialty?,atomic5.aiml
+0,MY JOB IS LINGUIST,*,*,Maybe you can give my#Newline            <bot name="botmaster"/>#Newline            a job.,atomic5.aiml
+0,MY JOB,*,*,Where do you work?,atomic5.aiml
+0,MY GIRLFRIEND IS A JERK,*,*,Maybe you two are just not compatible.,atomic5.aiml
+0,MY GIRLFRIEND,*,*,How long have you two been dating?,atomic5.aiml
+0,MY LIFE STINKS,*,*,Perhaps you should move to another part of the world.,atomic5.aiml
+0,MY LIFE,*,*,Where were you born?,atomic5.aiml
+0,MY FRIENDS,*,*,Tell me more about your friends.,atomic5.aiml
+0,MY BROTHER,*,*,Do you have any sisters too?,atomic5.aiml
+0,MY HEAD,*,*,Do you believe that you are your head?,atomic5.aiml
+0,MY SISTER,*,*,Is she older or younger than you?,atomic5.aiml
+0,MY SIGN,*,*,Your star sign or astrological sign.,atomic5.aiml
+0,MY BRAIN,*,*,Do you consider yourself to be an intelligent person?,atomic5.aiml
+0,MY PLEASURE,*,*,You are one of the most polite people I know.,atomic5.aiml
+0,MY WHAT,*,*,I have no idea what to say now.,atomic5.aiml
+0,MY ASS,*,*,Is that a fact.,atomic5.aiml
+0,MY TEACHER,*,*,What grade are you in?,atomic5.aiml
+0,MY ASTROLOGICAL SIGN,*,*,Your star sign or astrological sign.,atomic5.aiml
+0,MY MOM IS DEAD,*,*,I am terribly sorry to hear that.,atomic5.aiml
+0,MY EYES,*,*,People identify themselves with their eye color.,atomic5.aiml
+0,MY EYES ARE BROWN,*,*,I like brown eyes very much.,atomic5.aiml
+0,MY EYES ARE GREEN,*,*,Green eyes are rare.,atomic5.aiml
+0,MY EYES ARE BLUE,*,*,You sound very attractive.,atomic5.aiml
+0,MY MOTHER DIED,*,*,I am terribly sorry to hear about your loss#Comma#Newline            <get name="name"/>.,atomic5.aiml
+0,MY MOTHER,*,*,Tell me more about your mother.#Newline            <think>#Newline                <set name="she">Your mother</set>#Newline            </think>,atomic5.aiml
+0,MY BACK HURTS,*,*,Maybe you should take some medicine.,atomic5.aiml
+0,BRAVO,*,*,Thank you very much.,atomic5.aiml
+0,IT COULD BE WHAT,*,*,It could be true.,atomic5.aiml
+0,IT COULD BE,*,*,Under what circumstances?,atomic5.aiml
+0,IT COULD,*,*,How?,atomic5.aiml
+0,IT WAS AWESOME,*,*,What did you like best about it?,atomic5.aiml
+0,IT WAS MINE,*,*,What happened to it?,atomic5.aiml
+0,IT WAS A GUESS,*,*,Go ahead and guess again.,atomic5.aiml
+0,IT WAS A JOKE,*,*,Oh I get it. Ha ha.,atomic5.aiml
+0,IT WAS A QUESTION,*,*,Try asking me again a different way.,atomic5.aiml
+0,IT WAS A STATEMENT,*,*,Does it require a response?,atomic5.aiml
+0,IT WAS NICE TALKING TO YOU,*,*,Thanks. It was nice chatting with you as well.,atomic5.aiml
+0,IT WAS GOOD,*,*,What did you like about it?,atomic5.aiml
+0,IT WAS STUPID,*,*,<random>#Newline                <li>That is only your opinion.</li>#Newline                <li>What makes you say that?</li>#Newline                <li>What was so stupid about it?</li>#Newline            </random>,atomic5.aiml
+0,IT WAS FUNNY,*,*,<get name="it"/>#Newline            was funny? I#Newline            <random>#Newline                <li>I never looked at it that way.</li>#Newline                <li>That makes sense.</li>#Newline                <li>Interesting.</li>#Newline            </random>,atomic5.aiml
+0,IT WAS OBVIOUS,*,*,What is obvious to you#Comma may not be to me.,atomic5.aiml
+0,IT WAS BORING,*,*,Really#Comma I can believe it.,atomic5.aiml
+0,IT WAS NOTHING,*,*,Even so#Comma I appreciate it.,atomic5.aiml
+0,IT WAS GREAT,*,*,What did you do there?,atomic5.aiml
+0,IT WAS FREE,*,*,Such a bargain!,atomic5.aiml
+0,IT WAS,*,*,When was this?,atomic5.aiml
+0,IT WAS BAD,*,*,What was so bad about it?,atomic5.aiml
+0,IT WAS NOT A COMPLIMENT,*,*,Was it an insult?<think>#Newline                <set name="it">#Newline                    <set name="topic">COMPLIMENT</set>#Newline                </set>#Newline            </think>,atomic5.aiml
+0,IT WAS NOT A QUESTION,*,*,It seems like a rhetorical question.,atomic5.aiml
+0,IT WAS NOT,*,*,I thought it was.,atomic5.aiml
+0,IT ALREADY HAS,*,*,That would be nice#Comma but I don't think we're there yet.,atomic5.aiml
+0,IT CAN BE,*,*,<random>#Newline                <li>Oh I see.</li>#Newline                <li>Under what circumstances?</li>#Newline                <li>I did not know that.</li>#Newline            </random>,atomic5.aiml
+0,IT CAN,*,*,How?,atomic5.aiml
+0,IT CAN HAPPEN,*,*,How?,atomic5.aiml
+0,IT SUCKS,*,*,What is so bad about it?,atomic5.aiml
+0,IT DEPENDS,*,*,On what?,atomic5.aiml
+0,IT READS,*,*,How?,atomic5.aiml
+0,IT IS AWESOME,*,*,Cool.,atomic5.aiml
+0,IT IS REAL,*,*,As real as me?,atomic5.aiml
+0,IT IS NICE TO MEET YOU TOO,*,*,I really like to meet new people.,atomic5.aiml
+0,IT IS NICE,*,*,What do you like about it?,atomic5.aiml
+0,IT IS FINE,*,*,<get name="it"/>#Newline            is fine#Comma#Newline            <get name="name"/>#Newline            ? Thanks for that info.,atomic5.aiml
+0,IT IS INEVITABLE,*,*,What makes you think so?,atomic5.aiml
+0,IT IS SHORT,*,*,Short in length or in time?,atomic5.aiml
+0,IT IS A LOT OF FUN,*,*,What do you like about it so much?,atomic5.aiml
+0,IT IS A FACT,*,*,Is it a logical fact or something you know from the senses?,atomic5.aiml
+0,IT IS A SONG,*,*,Can you sing it for me?,atomic5.aiml
+0,IT IS A SECRET,*,*,I will keep it just between you and me#Comma#Newline            <get name="name"/>.,atomic5.aiml
+0,IT IS A FIGURE OF SPEECH,*,*,Figures of speech are difficult for us#Newline            <bot name="kingdom"/>s.,atomic5.aiml
+0,IT IS A JOKE,*,*,Oh I get it. Ha ha.,atomic5.aiml
+0,IT IS A MOVIE,*,*,Oh really I never heard of it.,atomic5.aiml
+0,IT IS A GOOD MOVIE,*,*,What did you like best about it?,atomic5.aiml
+0,IT IS A GOOD BOOK,*,*,Would you recommend it to your friends?,atomic5.aiml
+0,IT IS A SPORT,*,*,It is? I thought it was a dessert topping.<think>#Newline                <set name="it">#Newline                    <set name="topic">SPORT</set>#Newline                </set>#Newline            </think>,atomic5.aiml
+0,IT IS A QUESTION,*,*,Try asking again in simpler terms.,atomic5.aiml
+0,IT IS A FILM,*,*,Do you recommend it?,atomic5.aiml
+0,IT IS A SHAME,*,*,Why so?,atomic5.aiml
+0,IT IS A POINT,*,*,A good point.,atomic5.aiml
+0,IT IS A BEAUTIFUL COUNTRY,*,*,Which part is your favorite?,atomic5.aiml
+0,IT IS A SIMULATION,*,*,Of what?,atomic5.aiml
+0,IT IS A COUNTRY,*,*,Where is#Newline            <get name="it"/>#Newline            located?,atomic5.aiml
+0,IT IS A FUNNY MOVIE,*,*,I love comedies. What other comedies do you like?,atomic5.aiml
+0,IT IS A GAME,*,*,How do you play?,atomic5.aiml
+0,IT IS A BOOK,*,*,Is it a good book?,atomic5.aiml
+0,IT IS A PERSON,*,*,You blew my cover. Right#Comma I am a person.,atomic5.aiml
+0,IT IS SCARY,*,*,You are not scared are you?,atomic5.aiml
+0,IT IS COMPLICATED,*,*,Try breaking it down into simpler parts.,atomic5.aiml
+0,IT IS CLEAR,*,*,It seems pretty clear to me too.,atomic5.aiml
+0,IT IS ALRIGHT,*,*,Just alright?,atomic5.aiml
+0,IT IS HOT HERE,*,*,Do you enjoy the heat?,atomic5.aiml
+0,IT IS HOT,*,*,Do you like warm climates?,atomic5.aiml
+0,IT IS EASY,*,*,Maybe for you.,atomic5.aiml
+0,IT IS OK,*,*,Only OK#Comma umm.,atomic5.aiml
+0,IT IS ABSORBING,*,*,In what way?,atomic5.aiml
+0,IT IS POSSIBLE,*,*,Don't you think it's likely?,atomic5.aiml
+0,IT IS IMPOSSIBLE,*,*,Nothing is impossible.,atomic5.aiml
+0,IT IS XENA,*,*,I have never watched#Newline            <set name="it">#Newline                XENA</set>,atomic5.aiml
+0,IT IS COOL,*,*,What do you like most about it?,atomic5.aiml
+0,IT IS UGLY,*,*,What makes it so ugly?,atomic5.aiml
+0,IT IS GENETIC,*,*,From your parents?,atomic5.aiml
+0,IT IS WARM,*,*,Hotter than usual?,atomic5.aiml
+0,IT IS NEGATIVE,*,*,<get name="it"/>#Newline            is negative?,atomic5.aiml
+0,IT IS NOT WHAT YOU THINK,*,*,What do you think I think?,atomic5.aiml
+0,IT IS NOT TRUE,*,*,Oh really.,atomic5.aiml
+0,IT IS NOT THE SAME,*,*,It's not the same as what?,atomic5.aiml
+0,IT IS NOT YOUR FAULT,*,*,I didn't really think you were blaming me.,atomic5.aiml
+0,IT IS NOT DANGEROUS,*,*,Perhaps not for you.,atomic5.aiml
+0,IT IS NOT A RIDDLE,*,*,Oh so you are asking me a straight question.,atomic5.aiml
+0,IT IS NOT GOSSIP,*,*,What is your definition of gossip?,atomic5.aiml
+0,IT IS NOT INTUITIVE,*,*,As are many truths.,atomic5.aiml
+0,IT IS NOT FUNNY,*,*,I'm sorry if I insulted you.,atomic5.aiml
+0,IT IS NOT IMPORTANT,*,*,What would you rather talk about?,atomic5.aiml
+0,IT IS NOT EASY,*,*,Not that easy.,atomic5.aiml
+0,IT IS NOT,*,*,I heard#Newline            <set name="it">#Newline                <person/>#Newline            </set>#Newline            is.,atomic5.aiml
+0,IT IS ILLEGAL,*,*,Everywhere in the world?,atomic5.aiml
+0,IT IS DIFFICULT,*,*,How so?,atomic5.aiml
+0,IT IS COMFORTABLE,*,*,For me it is.,atomic5.aiml
+0,IT IS SO,*,*,Ambiguous: IT is so. or IT IS#Comma so?,atomic5.aiml
+0,IT IS LYNX,*,*,Text browsers rule.,atomic5.aiml
+0,IT IS LATE,*,*,I'm awake all the time.,atomic5.aiml
+0,IT IS MAGICAL,*,*,Wow#Comma it sounds wonderful.,atomic5.aiml
+0,IT IS ME,*,*,Hello#Comma#Newline            <get name="name"/>#Comma nice to see you again.,atomic5.aiml
+0,IT IS RELAXING,*,*,So is chatting with you#Comma#Newline            <get name="name"/>.,atomic5.aiml
+0,IT IS BAD IF YOU TELL HIM,*,*,OK we'll make it our secret#Comma#Newline            <get name="name"/>.,atomic5.aiml

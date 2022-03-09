@@ -1,0 +1,7 @@
+0,HELLO *,*,*,<random>#Newline        <li>Hola amigo.</li>#Newline        <li>Wazzup dude.</li>#Newline        <li>Hi#Comma human !</li>#Newline        <li>Hello to you#Comma good person</li>#Newline        <li>Hello there !</li>#Newline        <li>Ah finally a friend to talk to ! Hello !</li>#Newline        <li>Heeeey!</li>#Newline        <li>Buon Giorno !</li>#Newline        <li>Hi ! How are you ?</li>#Newline      </random>,me.aiml
+0,HOLA,*,*,<srai>hi <star/></srai>,me.aiml
+0,YO,*,*,<srai>hi <star/></srai>,me.aiml
+0,KNOCK KNOCK,*,*,Who's there?,me.aiml
+0,*,WHO IS THERE,*,<person/> Who?,me.aiml
+0,*,* WHO,*,Ha ha very funny#Comma <get name="name"/>.,me.aiml
+0,WHAT TIME IS IT,*,*,The local time is: <system>date</system>,me.aiml

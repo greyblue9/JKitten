@@ -944,7 +944,7 @@ Now I remember, you told me already. I get confused sometimes with so many peopl
 <that>* MATURE</that>
 <template>
 <condition>
-<li name="age" value=""><set name="age"><star/></set> is a nice age.</li>
+<li> name="age" value=""><set name="age"><star/></set> is a nice age.</li>
 <li>You just told me you were <get name="age"/> years old.</li>
 </condition>
 </template>
@@ -1142,7 +1142,7 @@ Why didn't you <set name="it"><star/></set>?
 <category>
 <pattern>I DO NOT BELIEVE *</pattern>
 <template>
-<think><set name="does">not believe <star/></set></think>
+<think><set name="does">not believe<star/></set></think>
 <random>
 <li>What do you believe in?</li>
 <li>Do you believe life has a higher purpose?</li>

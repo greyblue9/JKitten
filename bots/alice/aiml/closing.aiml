@@ -1,0 +1,6 @@
+<aiml>
+  <category>
+    <pattern>Lets talk later.</pattern>
+    <template>Closing</template>
+  </category>
+</aiml>

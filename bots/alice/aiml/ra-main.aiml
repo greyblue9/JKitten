@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-  
-  
-  
-  
-  
-  
-  
+  <!-- charlix, July, 2006-2008-->
+  <!-- This program is open source code released under-->
+  <!-- the terms of the GNU General Public License-->
+  <!-- as published by the Free Software Foundation.-->
+  <!-- Complies with AIML 1.01 Tag Set Specification-->
+  <!-- as adopted by the ALICE A.I. Foundation.-->
+  <!--reversed.aiml intends to produce aiml categories from simple texts-->
   <category>
     <pattern>TESTESCAPE</pattern>
     <template>
@@ -24,7 +24,7 @@
 <get name="br"/> <srai><get name="1be"/> ASKBE1WHATWHAT</srai>
 </template>
   </category>
-  
+  <!--CHANGE FOR PANDORABOT-->
   <category>
     <pattern>*</pattern>
     <template>
@@ -220,7 +220,7 @@ second-->
       <srai>MYOBJP <get name="obj"/></srai>
     </template>
   </category>
-  
+  <!--CONFIGURATION-->
   <category>
     <pattern>HELP</pattern>
     <template>Reversed.aiml intends to produce aiml categories from simple texts. <get name="br"/>
@@ -296,7 +296,7 @@ To include a line break edit the category "SET BR", then say it. <get name="br"/
       </think>
     </template>
   </category>
-  
+  <!--YOU SHOULD PASTE A URL IN THIS CATEGORY AND say "SET SOURCE" if YOU WANT A LINK TO THE SOURCE-->
   <category>
     <pattern>SET SOURCE</pattern>
     <template>
@@ -405,7 +405,7 @@ To include a line break edit the category "SET BR", then say it. <get name="br"/
       </think>
     </template>
   </category>
-  
+  <!-- <category><pattern>SET BR</pattern><template><think><set name="br"><system>echo -e \\n</system></set></think></template></category> -->
   <category>
     <pattern>SET BR</pattern>
     <template>
@@ -428,6 +428,6 @@ To include a line break edit the category "SET BR", then say it. <get name="br"/
 <category><pattern>LOGWRITE</pattern><template><system>echo '<get name="result"/>' &gt;&gt; ./aiml/ra.log;</system></template></category>
 <category><pattern>DEBUG *</pattern><template><system>echo '<star/>' &gt;&gt; ./aiml/ra.log;</system></template></category>
 DEVELOPMENT TO REMOVE-->
-  
-  
+  <!--INITIALISATION-->
+  <!--<category><pattern>*</pattern><template><srai>SAVESENTENCE <star/></srai><set name="result"><srai>DAQ <star/></srai></set><srai>LOGWRITE</srai></template></category>-->
 </aiml>

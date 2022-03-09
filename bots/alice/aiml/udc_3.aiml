@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+     <category>
+        <pattern>*</pattern>
+        <template>Sorry, I'm not sure how to respond.</template>
+    </category>
+    <category>
+        <pattern>THANK YOU _</pattern>
+        <template>Good luck in your computing career. Bye <get name="studentname"></get> !</template>
+    </category>
+</aiml>

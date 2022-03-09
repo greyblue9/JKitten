@@ -2,10 +2,10 @@
 
 <aiml version="1.0">
 
-
-
-
-
+<!-- Free software (c) 2001 ALICE AI Foundation -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
 
 <meta name="author" content="Jon Baer"/>
 <meta name="language" content="en"/>
@@ -21,15 +21,7 @@
 <pattern>SEARCH FOR *</pattern>
 <template>
 <think><set name="search"><star/></set></think>
-Which search engine would you like to use? Baidu,Yahoo, Yahoo Auctions, or Ebay.
-</template>
-</category>
-
-<category>
-<pattern>BAIDU</pattern>
-<that>WHICH SEARCH ENGINE WOULD YOU LIKE TO USE *</that>
-<template>
-<srai>SEARCH BAIDU FOR <get name="search"/></srai>
+Which search engine would you like to use? Yahoo, Yahoo Auctions, or Ebay.
 </template>
 </category>
 
@@ -58,14 +50,6 @@ Which search engine would you like to use? Baidu,Yahoo, Yahoo Auctions, or Ebay.
 </category>
 
 <category>
-<pattern>SEARCH BAIDU FOR *</pattern>
-<template>
-    <system>python baidu.py <star/></system><srai>WEBDONE</srai>
-</template>
-</category>
-
-<category>
-
 <pattern>SEARCH YAHOO FOR *</pattern>
 <template>
 <display target="target1">http://search.yahoo.com/bin/search?p=<star/></display> <srai>WEBDONE</srai>

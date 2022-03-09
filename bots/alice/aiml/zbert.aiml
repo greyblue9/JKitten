@@ -181,7 +181,7 @@ c:\<bot name="name"/>\chat&gt;.
 		<li value="RESTORE BOT"><bot name="name"/>bot now functioning again.<set name="topic"></set></li>
 		<li>
 		<random>
-			<li>COMMAND NOT RECOGNIZED. Please email mitsuku@square-bear.co.uk for assistance.<br/><bot name="name"/>reformatted on <get name="crashdate"/>by user:<get name="name"/><br/><br/>c:\<bot name="name"/>\chat&gt;.</li>
+			<li>COMMAND NOT RECOGNIZED. Please email mitsuku@square-bear.co.uk for assistance.<br/><bot name="name"/>reformatted on<get name="crashdate"/>by user:<get name="name"/><br/><br/>c:\<bot name="name"/>\chat&gt;.</li>
 		</random>
 		</li>
 	</condition>

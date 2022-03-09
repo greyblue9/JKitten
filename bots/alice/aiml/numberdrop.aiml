@@ -126,7 +126,7 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 </think>
 	<condition name="checkgameover">
 		<li value="BUST BUST BUST BUST"><set name="topic"></set><srai>BXGAMEOVER</srai></li>
-		<li>The next number is <get name="box"/>.<br/><br/>Which row would you like to put it on? A,B,C,D or R for the recycle bin. You can type Q to quit the game.</li>
+		<li>The next number is<get name="box"/>.<br/><br/>Which row would you like to put it on? A,B,C,D or R for the recycle bin. You can type Q to quit the game.</li>
 	</condition>
 </template>
 </category>
@@ -147,8 +147,8 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 		<li value="Q"><set name="topic"></set><srai>BXQUITGAME</srai></li>
 		<li>
 		<random>
-			<li><set name="topic"></set><srai>BXDISPLAYBOARD</srai>Invalid Choice!<br/>The next number is <get name="box"/>.<br/><br/>Which row would you like to put it on? A,B,C,D or R for the recycle bin. You can type Q to quit the game.<think><set name="topic">NUMBERDROP</set></think></li>
-			<li><set name="topic"></set><srai>BXDISPLAYBOARD</srai>Sorry but <get name="rowchoice"/>isn't a valid Choice!<br/>The next number is <get name="box"/>.<br/>Which row would you like to put it on? A,B,C,D or R for the recycle bin. You can type Q to quit the game.<think><set name="topic">NUMBERDROP</set></think></li>
+			<li><set name="topic"></set><srai>BXDISPLAYBOARD</srai>Invalid Choice!<br/>The next number is<get name="box"/>.<br/><br/>Which row would you like to put it on? A,B,C,D or R for the recycle bin. You can type Q to quit the game.<think><set name="topic">NUMBERDROP</set></think></li>
+			<li><set name="topic"></set><srai>BXDISPLAYBOARD</srai>Sorry but<get name="rowchoice"/>isn't a valid Choice!<br/>The next number is<get name="box"/>.<br/>Which row would you like to put it on? A,B,C,D or R for the recycle bin. You can type Q to quit the game.<think><set name="topic">NUMBERDROP</set></think></li>
 		</random>
 		</li>
 	</condition>
@@ -174,7 +174,7 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 </think>
 	<condition name="message"> 
 		<li value="0"><srai>BXWORKOUTROWA</srai></li>
-		<li value="1"><srai>BXDISPLAYBOARD</srai>The number is <get name="box"/>.<br/>Sorry, row A is not available. Please choose another one or type Q to QUIT.<think><set name="topic">NUMBERDROP</set></think></li>
+		<li value="1"><srai>BXDISPLAYBOARD</srai>The number is<get name="box"/>.<br/>Sorry, row A is not available. Please choose another one or type Q to QUIT.<think><set name="topic">NUMBERDROP</set></think></li>
 	</condition>
 </template>
 </category>
@@ -247,7 +247,7 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 </think>
 	<condition name="message"> 
 		<li value="0"><srai>BXWORKOUTROWB</srai></li>
-		<li value="1"><srai>BXDISPLAYBOARD</srai>The number is <get name="box"/>.<br/>Sorry, row B is not available. Please choose another one or type Q to QUIT.<think><set name="topic">NUMBERDROP</set></think></li>
+		<li value="1"><srai>BXDISPLAYBOARD</srai>The number is<get name="box"/>.<br/>Sorry, row B is not available. Please choose another one or type Q to QUIT.<think><set name="topic">NUMBERDROP</set></think></li>
 	</condition>
 </template>
 </category>
@@ -321,7 +321,7 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 </think>
 	<condition name="message"> 
 		<li value="0"><srai>BXWORKOUTROWC</srai></li>
-		<li value="1"><srai>BXDISPLAYBOARD</srai>The number is <get name="box"/>.<br/>Sorry, row C is not available. Please choose another one or type Q to QUIT.<think><set name="topic">NUMBERDROP</set></think></li>
+		<li value="1"><srai>BXDISPLAYBOARD</srai>The number is<get name="box"/>.<br/>Sorry, row C is not available. Please choose another one or type Q to QUIT.<think><set name="topic">NUMBERDROP</set></think></li>
 	</condition>
 </template>
 </category>
@@ -392,7 +392,7 @@ R) <get name="r1"/> /<get name="r2"/> /<get name="r3"/> /<get name="r4"/> /<get 
 </think>
 	<condition name="message"> 
 		<li value="0"><srai>BXWORKOUTROWD</srai></li>
-		<li value="1"><srai>BXDISPLAYBOARD</srai>The number is <get name="box"/>.<br/>Sorry, row D is not available. Please choose another one or type Q to QUIT.<think><set name="topic">NUMBERDROP</set></think></li>
+		<li value="1"><srai>BXDISPLAYBOARD</srai>The number is<get name="box"/>.<br/>Sorry, row D is not available. Please choose another one or type Q to QUIT.<think><set name="topic">NUMBERDROP</set></think></li>
 	</condition>
 </template>
 </category>
@@ -565,8 +565,8 @@ The recycle bin is now full. Any new numbers put in there will push the old ones
 	<set name="checkgameover"><get name="afin"/><get name="bfin"/><get name="cfin"/><get name="dfin"/></set>
 </think>
 	<condition name="checkgameover">
-		<li value="1 1 1 1">Hey you won! Well done <get name="name"/>. You are the champion!</li>
-		<li>Aw unlucky <get name="name"/>. You lost the game!</li>
+		<li value="1 1 1 1">Hey you won! Well done<get name="name"/>. You are the champion!</li>
+		<li>Aw unlucky<get name="name"/>. You lost the game!</li>
 	</condition>
 </template>
 </category>

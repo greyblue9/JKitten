@@ -215,7 +215,7 @@
             <think>
                 <set name="it">
                     <set name="want">
-                        <set name="topic">to teach me <person/></set>
+                        <set name="topic">to teach me<person/></set>
                     </set>
                 </set>
             </think>

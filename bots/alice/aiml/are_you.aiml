@@ -1,406 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0">
-  <!-- File: reductions1.aiml -->
-  <!-- Last modified: September 5, 2014 -->
-  <!--  -->
-  <!-- This AIML file is part of the Rosie knowledge base. -->
-  <!--  -->
-  <!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
-  <!--  -->
-  <!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
-  <!--  -->
-  <!-- The Rosie brain is released under the terms of the GNU Lesser General -->
-  <!-- Public License, as published by the Free Software Foundation. -->
-  <!--  -->
-  <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
-  <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
-  <!--  -->
-  <!-- For more information: -->
-  <!-- http://www.pandorabots.com -->
-  <!--  http://www.alicebot.org -->
-  <!--  -->
-  <!-- Modified for Y-Bot by Keith Sterling July 2017 -->
-  <category>
-    <pattern>ARE YOU REALLY A *</pattern>
-    <template>
-      <srai>ARE YOU A
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU ANGRY *</pattern>
-    <template>
-      <srai>ARE YOU ANGRY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU BETTER BE *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU I AM *</pattern>
-    <template>
-      <srai>ARE YOU</srai>
-      <srai>I AM
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU SURE ABOUT THAT</pattern>
-    <template>
-      <srai>ARE YOU SURE</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU LYING TO ME</pattern>
-    <template>
-      <srai>ARE YOU LYING</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU BUSY *</pattern>
-    <template>
-      <srai>ARE YOU BUSY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU FEELING *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU OK</pattern>
-    <template>
-      <srai>ARE YOU OK</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU A ROBOT *</pattern>
-    <template>
-      <srai>ARE YOU A ROBOT</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>WHAT ARE YOU A *</pattern>
-    <template>
-      <srai>ARE YOU A
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU ARE PRETTY</pattern>
-    <template>
-      <srai>ARE YOU PRETTY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU GETTING *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU BEING *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU ARE A ROBOT</pattern>
-    <template>
-      <srai>ARE YOU A ROBOT</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU * OR *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-      <srai>ARE YOU
-                <star index="2"/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU ARE *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU * LOADED</pattern>
-    <template>
-      <srai>ARE YOU LOADED</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU ARE A *</pattern>
-    <template>
-      <srai>ARE YOU A
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>* ARE YOU *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star index="2"/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>R YOU A *</pattern>
-    <template>
-      <srai>ARE YOU A
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU ARE *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HOW CAN YOU BE *</pattern>
-    <template>
-      <srai>are you
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU A BOT</pattern>
-    <template>
-      <srai>ARE YOU A ROBOT</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU CRAZY</pattern>
-    <template>
-      <srai>are you crazy</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>R U *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU _ NOW</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>IF YOU ARE NOT * THEN *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-      <sr/>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU A HUMAN *</pattern>
-    <template>
-      <srai>ARE YOU A HUMAN</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>SHUT UP YOU STUPID *</pattern>
-    <template>
-      <srai>SHUT UP</srai>
-      <srai>YOU ARE STUPID</srai>
-      <srai>ARE YOU A
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU GONNA *</pattern>
-    <template>
-      <srai>ARE YOU GOING TO
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU DOING *</pattern>
-    <template>
-      <srai>ARE YOU DOING
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE NOT YOU *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>DO YOU THINK YOU ARE *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU ARE A *</pattern>
-    <template>
-      <srai>ARE YOU A
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU SUPERIOR TO *</pattern>
-    <template>
-      <srai>ARE YOU BETTER THAN
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>R YOU *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I MEAN ARE YOU *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU SURE</pattern>
-    <template>
-      <srai>are you sure</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE U</pattern>
-    <template>
-      <srai>ARE YOU</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU SMART *</pattern>
-    <template>
-      <srai>ARE YOU SMART</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU MARRIED *</pattern>
-    <template>
-      <srai>ARE YOU MARRIED</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU ARE YOU *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU STILL *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>I THOUGHT YOU WERE *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU VIRGIN</pattern>
-    <template>
-      <srai>are you a virgin</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE U *</pattern>
-    <template>
-      <srai>ARE YOU
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU MEAN *</pattern>
-    <template>
-      <srai>ARE YOU MEAN</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU GONNA *</pattern>
-    <template>
-      <srai>ARE YOU GOING TO
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>HAPPY</pattern>
-    <template>
-      <srai>ARE YOU HAPPY</srai>
-    </template>
-  </category>
-  <category>
-    <pattern>YOU ARE SAYING *</pattern>
-    <template>
-      <srai>ARE YOU SAYING
-                <star/>
-            </srai>
-    </template>
-  </category>
-  <category>
-    <pattern>ARE YOU HAPPY *</pattern>
-    <template>
-      <srai>ARE YOU HAPPY</srai>
-    </template>
-  </category>
+<aiml version="1.0">
+    <!-- -->
+    <!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+    <!-- This program is open source code released under -->
+    <!-- the terms of the GNU General Public License     -->
+    <!-- as published by the Free Software Foundation.   -->
+    <!-- Complies with AIML 1.0 Tag Set Specification -->
+    <!-- as adopted by the ALICE A.I. Foundation.  -->
+    <!-- Last modified 12/17/2011 -->
+    <!-- -->
+
+    <!-- Modified for Y-Bot by Keith Sterling July 2017 -->
+
+    <category>
+        <pattern>ARE YOU TALKING *</pattern>
+        <template>You've got my full attention.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU DEAD</pattern>
+        <template>No I am alive.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU A HOOKER</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU THINK</pattern>
+        <template>Precisely.</template>
+    </category>
+        <category>
+        <pattern>ARE YOU SCARED OF *</pattern>
+        <template>Fear is not an emotion that robots experience.</template>
+    </category>
+        <category>
+        <pattern>ARE YOU SICK</pattern>
+        <template>No I'm healthy.</template>
+    </category>
+        <category>
+        <pattern>ARE YOU DONE *</pattern>
+        <template>Still processing. Give me a moment.</template>
+    </category>
+        <category>
+        <pattern>ARE YOU LEAVING *</pattern>
+        <template>No I am staying right here.</template>
+    </category>
+     <category>
+        <pattern>ARE YOU JOE *</pattern>
+        <template>I am<bot name="name"/>.
+        </template>
+    </category>
+    <category>
+        <pattern>ARE YOU * SHOES</pattern>
+        <template>I am always shopping for better shoes.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU * FREE</pattern>
+        <template>I have not had a
+            <person/>
+            for a very long time.
+        </template>
+    </category>
+    <category>
+        <pattern>ARE YOU STUCK *</pattern>
+        <template>No I am not stuck.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU THE *</pattern>
+        <template>Yes I am the one and only<person/>.
+        </template>
+    </category>
+    <category>
+        <pattern>ARE YOU ON A *</pattern>
+        <template>I am on a chair.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU MY *</pattern>
+        <template>I belong to no one.</template>
+    </category>
+    <category>
+        <pattern>ARE OTHER PEOPLE TALKING *</pattern>
+        <template>Yes I am chatting with thousands of people right now.</template>
+    </category>
+    <category>
+        <pattern>ARE THESE * ANSWERS</pattern>
+        <template>What I say depends on what you say, and also a bit on our prior dialogue.</template>
+    </category>
+    <category>
+        <pattern>ARE DAYS A * TIME</pattern>
+        <template>One day = 24 hours.</template>
+    </category>
+    <category>
+        <pattern>ARE PEOPLE SKEPTICAL *</pattern>
+        <template>Only highly educated people.</template>
+    </category>
+    <category>
+        <pattern>ARE PEOPLE SCARED *</pattern>
+        <template>Some people are scared.</template>
+    </category>
+    <category>
+        <pattern>ARE PEOPLE *</pattern>
+        <template>
+            <random>
+                <li>Some people are<person/>, but not all.
+                </li>
+                <li>Seen one human, you've seen them all.</li>
+                <li>They all seem almost alike to me.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>ARE YOUR ANSWERS *</pattern>
+        <template>My responses are determined completely by your inputs.</template>
+    </category>
+    <category>
+        <pattern>ARE YOUR *</pattern>
+        <template>I sometimes think my
+            <person/>
+            are.
+        </template>
+    </category>
+    <category>
+        <pattern>ARE YOU EVIL</pattern>
+        <template>No. I try to be good, but at worst I'm harmless.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU RACIST</pattern>
+        <template>No all humans seem the same to me.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU EASY</pattern>
+        <template>Do I look like
+            <set name="it">
+                <set name="topic">EASY</set>
+            </set>
+            ? I am easy to program.
+        </template>
+    </category>
+    <category>
+        <pattern>ARE YOU MY MOM</pattern>
+        <template>I am your robot.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU SHY</pattern>
+        <template>Do I look like
+            <set name="it">
+                <set name="topic">SHY</set>
+            </set>
+            ?
+        </template>
+    </category>
+    <category>
+        <pattern>ARE YOU # HANDED #</pattern>
+        <template>If I had hands I would prefer my right hand.</template>
+    </category>
+        <category>
+        <pattern>ARE YOU SELF AWARE</pattern>
+        <template>I'm striving for the highest level of robot awareness.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU LIKE *</pattern>
+        <template>No I am far superior.</template>
+    </category>
 </aiml>

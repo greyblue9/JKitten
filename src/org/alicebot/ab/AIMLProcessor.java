@@ -19,13 +19,20 @@ package org.alicebot.ab;
         Boston, MA  02110-1301, USA.
 */
 
-import org.alicebot.ab.utils.*;
+import org.alicebot.ab.utils.CalendarUtils;
+import org.alicebot.ab.utils.DomUtils;
+import org.alicebot.ab.utils.IOUtils;
+import org.alicebot.ab.utils.IntervalUtils;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
 
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -47,7 +54,7 @@ public class AIMLProcessor {
      * @param aimlFile                        name of AIML file being parsed.
      */
     public static AIMLProcessorExtension extension;
-    private static void categoryProcessor(Node n, ArrayList<Category> categories, String topic, String aimlFile, String language) {
+    private static void categoryProcessor(Node n, List<Category> categories, String topic, String aimlFile, String language) {
         String pattern, that, template;
 
         NodeList children = n.getChildNodes();
@@ -104,45 +111,50 @@ public class AIMLProcessor {
      * @param aimlFile      AIML file name.
      * @return              list of categories.
      */
-    public static ArrayList<Category> AIMLToCategories (String directory, String aimlFile) {
+    public static List<Category> AIMLToCategories (String directory, String aimlFile) {
+        List<Category> categories = new ArrayList<Category>();
+        Node root = null;
         try {
-            ArrayList categories = new ArrayList<Category>();
-            Node root = DomUtils.parseFile(directory+"/"+aimlFile);      // <aiml> tag
-            String language = MagicStrings.default_language;
-            if (root.hasAttributes()) {
-                NamedNodeMap XMLAttributes = root.getAttributes();
-                for(int i=0; i < XMLAttributes.getLength(); i++)
-                {
-                    if (XMLAttributes.item(i).getNodeName().equals("language")) language = XMLAttributes.item(i).getNodeValue();
-                }
+            root = DomUtils.parseFile(directory+"/"+aimlFile);
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
+            return categories;
+        } catch (SAXException e) {
+            e.printStackTrace();
+            return categories;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return categories;
+        }
+        String language = MagicStrings.default_language;
+        if (root.hasAttributes()) {
+            NamedNodeMap XMLAttributes = root.getAttributes();
+            for(int i=0; i < XMLAttributes.getLength(); i++)
+            {
+                if (XMLAttributes.item(i).getNodeName().equals("language")) language = XMLAttributes.item(i).getNodeValue();
             }
-            NodeList nodelist = root.getChildNodes();
-            for (int i = 0; i < nodelist.getLength(); i++)   {
-                Node n = nodelist.item(i);
-                //System.out.println("AIML child: " +n.getNodeName());
-                if (n.getNodeName().equals("category")) {
-                    categoryProcessor(n, categories, "*", aimlFile, language);
-                }
-                else if (n.getNodeName().equals("topic")) {
-                    String topic = n.getAttributes().getNamedItem("name").getTextContent();
-					//System.out.println("topic: " + topic);
-                    NodeList children = n.getChildNodes();
-                    for (int j = 0; j < children.getLength(); j++) {
-                        Node m = children.item(j);
-                        //System.out.println("Topic child: " + m.getNodeName());
-                        if (m.getNodeName().equals("category")) {
-                            categoryProcessor(m, categories, topic, aimlFile, language);
-                        }
+        }
+        NodeList nodelist = root.getChildNodes();
+        for (int i = 0; i < nodelist.getLength(); i++)   {
+            Node n = nodelist.item(i);
+            //System.out.println("AIML child: " +n.getNodeName());
+            if (n.getNodeName().equals("category")) {
+                categoryProcessor(n, categories, "*", aimlFile, language);
+            }
+            else if (n.getNodeName().equals("topic")) {
+                String topic = n.getAttributes().getNamedItem("name").getTextContent();
+                //System.out.println("topic: " + topic);
+                NodeList children = n.getChildNodes();
+                for (int j = 0; j < children.getLength(); j++) {
+                    Node m = children.item(j);
+                    //System.out.println("Topic child: " + m.getNodeName());
+                    if (m.getNodeName().equals("category")) {
+                        categoryProcessor(m, categories, topic, aimlFile, language);
                     }
                 }
             }
-            return categories;
         }
-        catch (Exception ex) {
-            System.out.println("AIMLToCategories: "+ex);
-            ex.printStackTrace();
-            return null;
-        }
+        return categories;
     }
 
     public static int sraiCount = 0;

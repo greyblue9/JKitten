@@ -14,23 +14,22 @@
  Free Software Foundation, Inc., 51 Franklin St, Fifth Floor,
  Boston, MA 02110-1301, USA.
  */
-import org.alicebot.ab.*;
-import java.util.Map;
-import java.util.LinkedHashMap;
-import java.util.stream.Collectors;
-import discord4j.core.event.domain.message.MessageCreateEvent;
+
 import discord4j.core.DiscordClient;
 import discord4j.core.GatewayDiscordClient;
-import discord4j.core.object.entity.channel.MessageChannel;
-import discord4j.core.object.entity.channel.GuildChannel;
 import discord4j.core.event.domain.message.MessageCreateEvent;
+import discord4j.core.object.entity.Member;
 import discord4j.core.object.entity.Message;
-import discord4j.core.object.entity.*;
+import discord4j.core.object.entity.Role;
+import discord4j.core.object.entity.channel.GuildChannel;
+import discord4j.core.object.entity.channel.MessageChannel;
+import org.alicebot.ab.*;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.regex.*;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 public class Main {
   
@@ -93,7 +92,7 @@ public class Main {
           final Message msg = event.getMessage();
           final MessageChannel channel 
             = msg.getChannel().block();
-          if (channel.getId().asLong() 
+          if (Objects.requireNonNull(channel).getId().asLong()
             != 944426266256367656L)
           {
             return;
@@ -150,7 +149,6 @@ public class Main {
               trace("Replacing channel", mchr.group(0), "with", channelName);
               text = mchr.replaceAll(channelName);
               mchr.reset(text);
-              continue;
             }
           }
           final String response = chat.multisentenceRespond(text);
@@ -161,7 +159,7 @@ public class Main {
             "  >> %s\n", response
           );
           if (response != null && !response.isEmpty()) {
-          msg.getChannel().block().createMessage(response).block();
+          Objects.requireNonNull(msg.getChannel().block()).createMessage(response).block();
           }
         });
       return cl;
@@ -182,10 +180,10 @@ public class Main {
         if (option.equals("bot")) botName = value;
         if (option.equals("action")) action = value;
         if (option.equals("trace")) {
-          MagicBooleans.trace_mode = Boolean.valueOf(value);
+          MagicBooleans.trace_mode = Boolean.parseBoolean(value);
         }
         if (option.equals("morph")) {
-          MagicBooleans.jp_tokenize = Boolean.valueOf(value);
+          MagicBooleans.jp_tokenize = Boolean.parseBoolean(value);
         }
       }
     }
@@ -212,12 +210,10 @@ public class Main {
     trace("Action =", action);
     final DiscordClient cl;
     if (args.length == 0) {
-       cl = DiscordBot.start(bot, doWrites);
+       cl = DiscordBot.start(bot, true);
     }
     
-    if (action == null 
-     || action.equals("chat")
-     || action.equals("chat-app"))
+    if (action.equals("chat") || action.equals("chat-app"))
     {
       chat.chat();
     } else if (action.equals("ab")) {
@@ -294,7 +290,7 @@ public class Main {
           word = strLine.substring(start, end);
           word = word.replaceAll("_", " ");
           System.out.println(word);
-        } else if (strLine.contains("")) {
+        } else {
           gloss = strLine.replaceAll("", "");
           gloss = gloss.replaceAll("", "");
           gloss = gloss.trim();

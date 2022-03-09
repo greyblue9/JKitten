@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>JKitten</artifactId>
+    <groupId>JKitten</groupId>
+    <version>1.0.0</version>
+    <build>
+        <directory>src</directory>
+        <outputDirectory>out</outputDirectory>
+        <sourceDirectory>src</sourceDirectory>
+    </build>
+    <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>JKitten</groupId>
+            <artifactId>deps</artifactId>
+            <systemPath>D:/Source/JKitten/lib/deps.jar</systemPath>
+            <version>1.0.0</version>
+            <scope>system</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>JKitten</groupId>
+            <artifactId>jackson-core</artifactId>
+            <systemPath>D:/Source/JKitten/lib/jackson-core-2.2.3.jar</systemPath>
+            <version>1.0.0</version>
+            <scope>system</scope>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -16,7 +16,9 @@ package org.alicebot.ab;
  Free Software Foundation, Inc., 51 Franklin St, Fifth Floor,
  Boston,MA 02110-1301, USA.
  */
+
 import org.alicebot.ab.utils.IOUtils;
+
 import java.io.*;
 import java.util.*;
 
@@ -104,7 +106,6 @@ public class Bot {
 
     /**
      * Constructor (default action, default path)
-     * @param name
      */
   public Bot(String name) {
     this(name, MagicStrings.root_path);
@@ -113,8 +114,6 @@ public class Bot {
     /**
      * Constructor (default action)
      *
-     * @param name
-     * @param path
      */
   public Bot(String name, String path) {
     this(name, path, "auto");
@@ -260,8 +259,9 @@ public class Bot {
             if (file.endsWith(".aiml") || file.endsWith(".AIML")) {
               if (MagicBooleans.trace_mode) System.out.println(file);
               try {
-                ArrayList<Category> moreCategories = AIMLProcessor.AIMLToCategories(aiml_path, file);
-                addMoreCategories(file, moreCategories);
+                List<Category> moreCategories = AIMLProcessor.AIMLToCategories(aiml_path, file);
+                moreCategories = addMoreCategories(file, moreCategories);
+                assert moreCategories != null;
                 cnt += moreCategories.size();
               } catch (Exception iex) {
                 System.out.println("Problem loading " + file);
@@ -298,9 +298,11 @@ public class Bot {
             if (file.endsWith(MagicStrings.aimlif_file_suffix) || file.endsWith(MagicStrings.aimlif_file_suffix.toUpperCase())) {
               if (MagicBooleans.trace_mode) System.out.println(file);
               try {
-                ArrayList<Category> moreCategories = readIFCategories(aimlif_path + "/" + file);
+                List<Category> moreCategories = readIFCategories(aimlif_path + "/" + file);
+                assert moreCategories != null;
+                moreCategories = addMoreCategories(file, moreCategories);
+                assert moreCategories != null;
                 cnt += moreCategories.size();
-                addMoreCategories(file, moreCategories);
               } catch (Exception iex) {
                 System.out.println("Problem loading " + file);
                 iex.printStackTrace();
@@ -524,13 +526,13 @@ public class Bot {
   public ArrayList<Category> readIFCategories(String filename) {
     ArrayList<Category> categories = new ArrayList<Category>();
     try {
-            // Open the file that is the first
-            // command line parameter
+      // Open the file that is the first
+      // command line parameter
       FileInputStream fstream = new FileInputStream(filename);
-            // Get the object
+      // Get the object
       BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
       String strLine;
-            //Read File Line By Line
+      //Read File Line By Line
       while ((strLine = br.readLine()) != null) {
         try {
           Category c = Category.IFToCategory(strLine);
@@ -539,10 +541,10 @@ public class Bot {
           System.out.println("Invalid AIMLIF in " + filename + " line " + strLine);
         }
       }
-            //Close the input stream
+      //Close the input stream
       br.close();
-    } catch (Exception e) {
-            //Catch exception if any
+    } catch (IOException e) {
+      //Catch exception if any
       System.err.println("Error: " + e.getMessage());
     }
     return categories;
@@ -645,7 +647,6 @@ public class Bot {
 
     /** traverse graph and test all categories found in leaf nodes for shadows
      *
-     * @param node
      */
   void shadowChecker(Nodemapper node) {
     if (NodemapperOperator.isLeaf(node)) {

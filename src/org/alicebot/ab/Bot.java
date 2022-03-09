@@ -173,13 +173,13 @@ public class Bot {
         if (aimlDate.after(aimlIFDate)) {
         cnt += addCategoriesFromAIMLIF();
         cnt += addCategoriesFromAIML();
-        writeAIMLFiles();
-        writeAIMLIFFiles();
+        //writeAIMLFiles();
+        //writeAIMLIFFiles();
       } else {
         cnt += addCategoriesFromAIML();
         cnt += addCategoriesFromAIMLIF();
-        writeAIMLIFFiles();
-        writeAIMLFiles();
+        //writeAIMLIFFiles();
+        //writeAIMLFiles();
       }
     }
     

@@ -1,6 +1,0 @@
-0,DO YOU KNOW WHERE THE * IS,*,*,<srai>WHERE IS THE#Newline                <star/>#Newline            </srai>,where_is.aiml
-0,WHERE IS MY _ NOW,*,*,<srai>WHERE IS MY#Newline                <star/>#Newline            </srai>,where_is.aiml
-0,CAN YOU LOCATE *,*,*,<srai>WHERE IS#Newline                <star/>#Newline            </srai>,where_is.aiml
-0,WHERE IS IT,*,*,<condition name="it">#Newline        <li value="it">What does "it" refer to?</li>#Newline        <li>#Newline          <srai>WHERE IS#Newline                        <get name="it"/>#Newline                    </srai>#Newline        </li>#Newline      </condition>,where_is.aiml
-0,WHERE * WENT,*,*,<srai>WHERE IS#Newline                <star/>#Newline                GO#Newline            </srai>,where_is.aiml
-0,WHERE * IS,*,*,<srai>WHERE IS#Newline                <star/>#Newline            </srai>,where_is.aiml

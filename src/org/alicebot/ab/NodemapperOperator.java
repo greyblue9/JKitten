@@ -22,121 +22,121 @@ import java.util.Set;
 
 public class NodemapperOperator {
 
-    /**
-     * number of branches from node
-     *
-     * @param node odemapper object
-     * @return umber of branches
-     */
+  /**
+  number of branches from node
+   *
+  @param node odemapper object
+  @return umber of branches
+  */
   public static int size(Nodemapper node) {
-    HashSet set = new HashSet();
-    if (node.shortCut) set.add("<THAT>");
-    if (node.key != null) set.add(node.key);
-    if (node.map != null) set.addAll(node.map.keySet());
-    return set.size();
+  HashSet set = new HashSet();
+  if (node.shortCut) set.add("<THAT>");
+  if (node.key != null) set.add(node.key);
+  if (node.map != null) set.addAll(node.map.keySet());
+  return set.size();
   }
 
-    /**
-     * insert a new link from this node to another, by adding a key, value pair
-     *
-     * @param node odemapper object
-     * @param key ey word
-     * @param value ord maps to this next node
-     */
+  /**
+  insert a new link from this node to another, by adding a key, value pair
+   *
+  @param node odemapper object
+  @param key ey word
+  @param value ord maps to this next node
+  */
   public static void put(Nodemapper node, String key, Nodemapper value) {
-    if (node.map != null) {
-      node.map.put(key, value);
-    } else {
-            // node.type == unary_node_mapper
-      node.key = key;
-      node.value = value;
-    }
+  if (node.map != null) {
+    node.map.put(key, value);
+  } else {
+      // node.type == unary_node_mapper
+    node.key = key;
+    node.value = value;
+  }
   }
 
-    /**
-     * get the node linked to this one by the word key
-     *
-     * @param node odemapper object
-     * @param key ey word to map
-     * @return he mapped node or null if the key is not found
-     */
+  /**
+  get the node linked to this one by the word key
+   *
+  @param node odemapper object
+  @param key ey word to map
+  @return he mapped node or null if the key is not found
+  */
   public static Nodemapper get(Nodemapper node, String key) {
-    if (node.map != null) {
-      return node.map.get(key);
-    } else {
-            // node.type == unary_node_mapper
-      if (key.equals(node.key)) return node.value; else return null;
-    }
+  if (node.map != null) {
+    return node.map.get(key);
+  } else {
+      // node.type == unary_node_mapper
+    if (key.equals(node.key)) return node.value; else return null;
+  }
   }
 
-    /**
-     * check whether a node contains a particular key
-     *
-     * @param node odemapper object
-     * @param key ey to test
-     * @return rue or false
-     */
+  /**
+  check whether a node contains a particular key
+   *
+  @param node odemapper object
+  @param key ey to test
+  @return rue or false
+  */
   public static boolean containsKey(Nodemapper node, String key) {
-        //System.out.println("containsKey: Node="+node+" Map="+node.map);
-    if (node.map != null) {
-      return node.map.containsKey(key);
-    } else {
-            // node.type == unary_node_mapper
-      if (key.equals(node.key)) return true; else return false;
-    }
+    //System.out.println("containsKey: Node="+node+" Map="+node.map);
+  if (node.map != null) {
+    return node.map.containsKey(key);
+  } else {
+      // node.type == unary_node_mapper
+    if (key.equals(node.key)) return true; else return false;
+  }
   }
 
-    /**
-     * print all node keys
-     *
-     * @param node Nodemapper object
-     */
+  /**
+  print all node keys
+   *
+  @param node Nodemapper object
+  */
   public static void printKeys(Nodemapper node) {
-    Set set = keySet(node);
-    Iterator iter = set.iterator();
-    while (iter.hasNext()) {
-      System.out.println("" + iter.next());
-    }
+  Set set = keySet(node);
+  Iterator iter = set.iterator();
+  while (iter.hasNext()) {
+    System.out.println("" + iter.next());
+  }
   }
 
-    /**
-     * get key set of a node
-     *
-     * @param node odemapper object
-     * @return et of keys
-     */
+  /**
+  get key set of a node
+   *
+  @param node odemapper object
+  @return et of keys
+  */
   public static Set<String> keySet(Nodemapper node) {
-    if (node.map != null) {
-      return node.map.keySet();
-    } else {
-            // node.type == unary_node_mapper
-      Set set = new HashSet<String>();
-      if (node.key != null) set.add(node.key);
-      return set;
-    }
+  if (node.map != null) {
+    return node.map.keySet();
+  } else {
+      // node.type == unary_node_mapper
+    Set set = new HashSet<String>();
+    if (node.key != null) set.add(node.key);
+    return set;
+  }
   }
 
-    /**
-     * test whether a node is a leaf
-     *
-     * @param node odemapper object
-     * @return rue or false
-     */
+  /**
+  test whether a node is a leaf
+   *
+  @param node odemapper object
+  @return rue or false
+  */
   public static boolean isLeaf(Nodemapper node) {
-    return (node.category != null);
+  return (node.category != null);
   }
 
-    /**
-     * upgrade a node from a singleton to a multi-way map
-     *
-     * @param node odemapper object
-     */
+  /**
+  upgrade a node from a singleton to a multi-way map
+   *
+  @param node odemapper object
+  */
   public static void upgrade(Nodemapper node) {
-        //System.out.println("Upgrading "+node.id);
-        //node.type = MagicNumbers.hash_node_mapper;
-    node.map = new HashMap<String, Nodemapper>();
-    node.map.put(node.key, node.value);
-    node.key = null;
-    node.value = null;
+    //System.out.println("Upgrading "+node.id);
+    //node.type = MagicNumbers.hash_node_mapper;
+  node.map = new HashMap<String, Nodemapper>();
+  node.map.put(node.key, node.value);
+  node.key = null;
+  node.value = null;
   }
 }

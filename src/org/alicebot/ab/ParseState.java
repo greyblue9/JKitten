@@ -37,24 +37,24 @@ public class ParseState {
 
   public StarBindings starBindings;
 
-    /**
-     * Constructor - class has public members
-     *
-     * @param depth epth in parse tree
-     * @param chatSession lient session
-     * @param input lient input
-     * @param that ot's last sentence
-     * @param topic urrent topic
-     * @param leaf ode containing the category processed
-     */
+  /**
+  Constructor - class has public members
+   *
+  @param depth epth in parse tree
+  @param chatSession lient session
+  @param input lient input
+  @param that ot's last sentence
+  @param topic urrent topic
+  @param leaf ode containing the category processed
+  */
   public ParseState(int depth, Chat chatSession, String input, String that, String topic, Nodemapper leaf) {
-    this.chatSession = chatSession;
-    this.input = input;
-    this.that = that;
-    this.topic = topic;
-    this.leaf = leaf;
-    this.depth = depth; // to prevent runaway recursion
-    this.vars = new Predicates();
-    this.starBindings = leaf.starBindings;
+  this.chatSession = chatSession;
+  this.input = input;
+  this.that = that;
+  this.topic = topic;
+  this.leaf = leaf;
+  this.depth = depth; // to prevent runaway recursion
+  this.vars = new Predicates();
+  this.starBindings = leaf.starBindings;
   }
 }

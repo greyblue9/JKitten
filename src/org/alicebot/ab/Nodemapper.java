@@ -19,13 +19,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
- * Nodemapper data structure. In order to minimize memory overhead this class has no methods.
- * Operations on Nodemapper objects are performed by NodemapperOperator class
- */
+Nodemapper data structure. In order to minimize memory overhead this class has no methods.
+Operations on Nodemapper objects are performed by NodemapperOperator class
+*/
 public class Nodemapper {
 
-    /* public static int idCnt=0;
-     public int id;*/
+  /* public static int idCnt=0;
+   public int id;*/
   public Category category = null;
 
   public int height = MagicNumbers.max_graph_height;
@@ -44,26 +44,26 @@ public class Nodemapper {
   
   @Override
   public int hashCode() {
-    int hash = 0x77;
-    hash = (hash << 3) ^ ((category != null) ? category.hashCode(): 0);
-    hash = (hash << 3) ^ ((key != null) ? key.hashCode(): 0);
-    hash = (hash << 3) ^ ((value != null) ? value.hashCode(): 0);
-    return hash;
+  int hash = 0x77;
+  hash = (hash << 3) ^ ((category != null) ? category.hashCode(): 0);
+  hash = (hash << 3) ^ ((key != null) ? key.hashCode(): 0);
+  hash = (hash << 3) ^ ((value != null) ? value.hashCode(): 0);
+  return hash;
   }
   
   @Override
   public boolean equals(Object other) {
-    if (!(other instanceof Nodemapper)) return false;
-    Nodemapper o = (Nodemapper) other;
-    return (
-         (category != null && category.equals(o.category))
-      || (category == null && o.category == null)
-    ) && (
-         (key != null && key.equals(o.key))
-      || (key == null && o.key == null)
-    ) && (
-         (value != null && value.equals(o.value))
-      || (value == null && o.value == null)
-    );
+  if (!(other instanceof Nodemapper)) return false;
+  Nodemapper o = (Nodemapper) other;
+  return (
+     (category != null && category.equals(o.category))
+    || (category == null && o.category == null)
+  ) && (
+     (key != null && key.equals(o.key))
+    || (key == null && o.key == null)
+  ) && (
+     (value != null && value.equals(o.value))
+    || (value == null && o.value == null)
+  );
   }
 }

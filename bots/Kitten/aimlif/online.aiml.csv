@@ -1,7 +1,0 @@
-0,SEARCH EMAIL FOR *,*,*,Sorry#Comma I haven't yet been programmed to search email.,online.aiml
-0,CALL * GOOGLE TALK,*,*,<srai>FEATURE REQUEST PLACE GOOGLE TALK CALLS</srai>,online.aiml
-0,CALL * SKYPE,*,*,<srai>FEATURE REQUEST PLACE SKYPE CALLS</srai>,online.aiml
-0,ADD TO MY CALENDAR,*,*,What do you want to add to your calendar?,online.aiml
-0,WWW DOT *,*,*,I will pass it along to my<bot name="botmaster"/>.,online.aiml
-0,WWW * COM,*,*,Thanks for that URL.,online.aiml
-0,NAME <SET>QUANTIFIER</SET> # SEARCH ENGINE,*,*,Google.,online.aiml

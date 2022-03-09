@@ -1,3 +1,0 @@
-0,APRENDER,*,*,<addtriple><subj>giseldo</subj><pred>eh</pred><obj>aluno</obj></addtriple>#Newline            Aprendido,rdfsvocabulario.aiml
-0,CONSULTAR,*,*,<select>#Newline        <vars>?x ?y</vars>#Newline        <q>#Newline          <subj>?x</subj>#Newline          <pred>eh</pred>#Newline          <obj>?y</obj>#Newline        </q>#Newline      </select>#Newline      <get var="?y">#Newline        <tuple>#Newline          <get var="tuples"/>#Newline        </tuple>#Newline      </get>,rdfsvocabulario.aiml
-0,TODOS,*,*,<select>#Newline        <vars>?x ?y ?z</vars>#Newline        <q>#Newline          <subj>?x</subj>#Newline          <pred>?y</pred>#Newline          <obj>?z</obj>#Newline        </q>#Newline      </select>,rdfsvocabulario.aiml

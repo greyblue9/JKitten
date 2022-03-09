@@ -1,3 +1,0 @@
-0,START SURVEY,*,*,<think><set name="topic">SURVEY_QUESTION1</set></think>#Newline            Question 1. What do you like about AIML?,ybot-survey.aiml
-0,#,*,SURVEY_QUESTION1,<think><set name="topic">SURVEY_QUESTION2</set><set name="answer1"><star/></set></think>#Newline                Thanks#Comma now Question 2. What do you dislike about AIML?,ybot-survey.aiml
-0,#,*,SURVEY_QUESTION2,<think><set name="answer2"><star/></set><extension path="programy.extensions.survey.survey.SurveyExtension"><get name="answer1"/>|#Newline                    <get name="answer2"/></extension></think>#Newline                Thanks#Comma thats the end of the survey#Newline                <think><set name="topic"/></think>,ybot-survey.aiml

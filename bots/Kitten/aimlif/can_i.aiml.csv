@@ -1,5 +1,0 @@
-0,COULD I *,*,*,<srai>CAN I#Newline                <star/>#Newline            </srai>,can_i.aiml
-0,WOULD YOU MIND IF I CALLED YOU *,*,*,<srai>CAN I CALL YOU#Newline                <star/>#Newline            </srai>,can_i.aiml
-0,CAN I C *,*,*,<srai>CAN I SEE#Newline                <star/>#Newline            </srai>,can_i.aiml
-0,CAN I CAN *,*,*,<srai>CAN I#Newline                <star/>#Newline            </srai>,can_i.aiml
-0,WOULD YOU MIND IF I *,*,*,<srai>CAN I#Newline                <star/>#Newline            </srai>,can_i.aiml

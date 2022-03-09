@@ -1,6 +1,0 @@
-0,I LIKE * WHAT ABOUT YOU,*,*,<srai>I LIKE#Newline                <star/>#Newline            </srai>#Newline      <srai>DO YOU LIKE#Newline                <star/>#Newline            </srai>,do_you_like.aiml
-0,YOU LIKE THE *,*,*,<srai>DO YOU LIKE THE#Newline                <star/>#Newline            </srai>,do_you_like.aiml
-0,YOU LIKE IT,*,*,<srai>DO YOU LIKE IT</srai>,do_you_like.aiml
-0,DO LIKE *,*,*,<srai>DO YOU LIKE#Newline                <star/>#Newline            </srai>,do_you_like.aiml
-0,DO U LIKE IT,*,*,<srai>DO YOU LIKE IT</srai>,do_you_like.aiml
-0,DO YOU LIK *,*,*,<srai>DO YOU LIKE#Newline                <star/>#Newline            </srai>,do_you_like.aiml

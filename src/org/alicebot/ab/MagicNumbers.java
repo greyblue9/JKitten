@@ -17,7 +17,7 @@ package org.alicebot.ab;
  Boston, MA 02110-1301, USA.
  */
 /**
- * Integers with specific values in Program AB
+Integers with specific values in Program AB
  *
  */
 public class MagicNumbers {

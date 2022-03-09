@@ -1,4 +1,0 @@
-0,WHICH 1,*,*,<srai>WHICH ONE</srai>,which.aiml
-0,WHICH OF THEM IS *,*,*,<srai>WHICH IS#Newline                <star/>#Newline            </srai>,which.aiml
-0,ON WHICH * IS *,*,*,<srai>WHICH#Newline                <star/>#Newline                IS#Newline                <star index="2"/>#Newline                ON#Newline            </srai>,which.aiml
-0,WHICH 1 *,*,*,<srai>WHICH ONE#Newline                <star/>#Newline            </srai>,which.aiml

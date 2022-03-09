@@ -1,4 +1,0 @@
-0,TURN * ON,*,*,<srai>TURN ON#Newline                <star/>#Newline            </srai>,general.aiml
-0,SHUT DOWN *,*,*,<srai>SHUT DOWN</srai>,general.aiml
-0,NOTE,*,*,<srai>TAKE A MEMO</srai>,general.aiml
-0,QUIT,*,*,<srai>STOP</srai>,general.aiml

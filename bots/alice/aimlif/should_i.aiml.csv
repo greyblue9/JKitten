@@ -1,9 +1,0 @@
-0,SHOULD I GIVE *,*,*,<random>#Newline        <li>That is entirely up to you.</li>#Newline        <li>Charity begins in the home.</li>#Newline      </random>,should_i.aiml
-0,SHOULD I CURSE *,*,*,<random>#Newline        <li>Cursing is not attractive.</li>#Newline        <li>People look down on people who curse.</li>#Newline        <li>People curse to express feelings they are otherwise suppressing.</li>#Newline      </random>,should_i.aiml
-0,SHOULD I ASK *,*,*,<random>#Newline        <li>If you do not ask#Comma how will you learn the answer?</li>#Newline        <li>If you do not know something#Comma you should ask.</li>#Newline      </random>,should_i.aiml
-0,SHOULD I DESTROY *,*,*,Maybe you could create something instead.,should_i.aiml
-0,SHOULD I BUY *,*,*,<random>#Newline        <li>You have found a good deal then#Comma I suppose.</li>#Newline        <li>Not if you have recently suffered a loss.</li>#Newline        <li>A penny saved is a penny earned.</li>#Newline        <li>A fool and his money are soon parted.</li>#Newline        <li>I wonder how much profit they make on those.</li>#Newline        <li>Maybe you should wait until the price goes down.</li>#Newline      </random>,should_i.aiml
-0,SHOULD I BLOW UP *,*,*,Certainly not.,should_i.aiml
-0,SHOULD I RAPE *,*,*,<random>#Newline        <li>If you rape someone you will certainly be raped yourself in jail. Seek counseling.</li>#Newline        <li>Rape is caused by feelings of impotence in men who doubt their own masculinity. Seek help.</li>#Newline      </random>,should_i.aiml
-0,SHOULD I VOTE *,*,*,I think everyone should vote.,should_i.aiml
-0,SHOULD I LERAN *,*,*,Knowledge is power.,should_i.aiml

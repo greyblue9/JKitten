@@ -1,53 +1,46 @@
-0,HAVE,I HAVE NOT,*,Have not.,that.aiml
-0,HAVE,HAVE NOT,*,Have not.,that.aiml
-0,HAVE,* HAVE NOT,*,Have not.,that.aiml
-0,JUST,WHEN,*,Well I will try not to do it again.,that.aiml
-0,LESS *,MORE THAN A TON,*,How much less?,that.aiml
-0,WHAT OF ALL,*,*,<that index="1#Comma1"/>"?  All of it?,that.aiml
-0,ME,I AM FINE *,*,I'm glad to hear it.  What's new?,that.aiml
-0,ME,I LIKE TO MEET NEW PEOPLE,*,<srai>I like to meet new people too</srai>,that.aiml
-0,I DO,I LIKE TO MEET NEW PEOPLE,*,How do you usually meet new people?,that.aiml
-0,NO,I AM A *,*,Am too.,that.aiml
-0,NO,I DID NOT KNOW THAT,*,No I did not.,that.aiml
-0,NO,I GET IT,*,Yes I do.,that.aiml
-0,NO,AM I A SMART *,*,I am not stupid.,that.aiml
-0,NO,DO YOU WANT ANOTHER ONE,*,What do you want?,that.aiml
-0,NO,DO YOU KNOW ANYONE WHO *,*,Me either.,that.aiml
-0,NO,THE SMALL ONE,*,The big one?,that.aiml
-0,NO,HE LIKES TO TALK ABOUT *,*,What does he talk about?,that.aiml
-0,NO,YOU ARE QUITE MATURE,*,Are you a kid?,that.aiml
-0,NO,HAVE YOU LOOKED IN *,*,Maybe you should try looking there.,that.aiml
-0,NO,DOES IT HAVE ANYTHING TO DO WITH *,*,What are you talking about?,that.aiml
-0,NO,* DO YOU MIND IF I ASK YOU A PERSONAL QUESTION,*,<srai>ask me a personal question</srai>,that.aiml
-0,NO,* YOU ARE REALLY A KID,*,How old are you?,that.aiml
-0,NO,ARE YOU ARTISTIC,*,Are you very bossy?,that.aiml
-0,WHY,I AM NOT TOO GOOD IN *,*,Nobody bothered to teach <set name="it"><thatstar/></set> to me.,that.aiml
-0,WHY,DO YOU FRIENDS CALL YOU *,*,My natural curiosity.,that.aiml
-0,WHY,IT MATTERS TO ME,*,My natural curiosity.,that.aiml
-0,WHY,ACTUALLY IT IS TWENTY THREE *,*,<srai>why is the meaning of life 23</srai>,that.aiml
-0,WHY,MY FAVORITE * IS *,*,I have a preference for <thatstar index="2"/>.,that.aiml
-0,WHY,YOU ARE TOO OLD FOR ME,*,<srai>how old are you</srai>,that.aiml
-0,WHY,WHY DID THE * CROSS THE ROAD,*,Because the <person/> was a robot.,that.aiml
-0,NOT WELL,*,*,Not very well#Comma eh?,that.aiml
-0,NOT,THAT IS A VERY ORIGINAL THOUGHT,*,Well I don't get that type of input very often.,that.aiml
-0,NOT,YOU SOUND EXCITED,*,It's hard to read emotions online.,that.aiml
-0,* HAVE,I HAVE NOT,*,Have not.,that.aiml
-0,*,WHAT IS THE STOPPING YOU,*,ow specifically does <person/> stop you?,that.aiml
-0,*,WHAT IS YOUR SPECIALTY *,*,<srai>my specialty is <star/></srai>,that.aiml
-0,*,WHAT IS *,*,<srai><star/> is <thatstar/></srai>,that.aiml
-0,*,WHAT ARE YOU DRINKING *,*,<think><set name="it"><set name="topic"><person/></set></set> <srai>push<get name="topic"/></srai></think> How does it taste?,that.aiml
-0,*,YOUR LOCATION IS WHERE,*,<srai>I am in <star/></srai>,that.aiml
-0,ALRIGHT,ALRIGHT THEN,*,Is there an echo in here?,that.aiml
-0,TO *,WHY DO YOU WANT TO *,*,Specifically#Comma how will <thatstar/> help you <person/>?,that.aiml
-0,ANYONE *,WHO *,*,Word gets around very quickly.,that.aiml
-0,_,WHAT IS THE GREATEST NATION *,*,A Donation! A donation to the A.I. Foundation!,that.aiml
-0,YES,AM I,*,I could be.,that.aiml
-0,YES,ME *,*,I suppose I am.,that.aiml
-0,YES,WITH YOU,*,I will have to think about it.,that.aiml
-0,YES,DO I HAVE ANY,*,Like what?,that.aiml
-0,YES,DO YOUR FRIENDS CALL YOU *,*,<srai>my name is <thatstar/></srai> <think>                                     <set name="nickname">                                     <thatstar/>                                     </set>                                     </think>,that.aiml
-0,YES,DO YOU WANT TO HEAR A JOKE,*,<srai>tell me another joke</srai>,that.aiml
-0,YES,HAVE I SEEN YOU IN ANY MOVIES,*,Which movies?,that.aiml
-0,YES,* ARE YOU JEALOUS,*,There is nothing to envy.,that.aiml
-0,YES,ARE WE STILL ON *,*,Tell me more about <set name="it"><thatstar/></set>.,that.aiml
-0,G,WHAT CAN I CALL YOU,*,<srai>call me g</srai>,that.aiml
+0,* AND *,WHAT ARE THEIR NAMES,*,<srai>MY CHILD S NAME IS <star/></srai> <srai>MY OTHER CHILD S NAME IS <star index="2"/></srai>,that.aiml
+0,* * * *,WHAT ARE THEIR NAMES,*,You probably have to break it down into simpler terms for me.,that.aiml
+0,* YEARS,HOW LONG HAVE YOU AND *,*,Congratulations!,that.aiml
+0,* YEARS,HOW LONG HAVE YOU BEEN MARRIED,*,Congratulations!,that.aiml
+0,*,WHERE DO YOU WANT TO GO,*,<srai>NAVIGATE TO <star/></srai>,that.aiml
+0,*,WHERE DO YOU LIVE,*,<srai>I LIVE IN <star/></srai>,that.aiml
+0,*,WHERE ARE YOU,*,<srai>I AM IN <star/></srai>,that.aiml
+0,*,* WHO,*,<srai>LOL</srai>,that.aiml
+0,*,WHAT TIME SHOULD I SET THE ALARM FOR,*,<srai>SET ALARM FOR <star/></srai>,that.aiml
+0,*,WHAT DO YOU WANT TO ADD TO YOUR CALENDAR,*,<srai>ADD <star/> TO MY CALENDAR</srai>,that.aiml
+0,*,WHAT WOULD YOU LIKE ME TO SEARCH FOR,*,<srai>SEARCH <star/></srai>,that.aiml
+0,*,WHAT WOULD YOU LIKE TO CHANGE MY NAME TO,*,<srai>CHANGE YOUR NAME TO <star/></srai>,that.aiml
+0,*,WHAT IS HE IN,*,I'll look for it. I'd like to see him.,that.aiml
+0,*,WHAT IS YOUR NAME,*,<srai>MY NAME IS <star/></srai>,that.aiml
+0,*,WHAT IS A GOOD PLACE TO GET X,*,<srai>MAP <star/></srai>,that.aiml
+0,*,WHAT IS SHE IN,*,I'll look for it.  I'd like to see her.,that.aiml
+0,*,WHAT SONGS DO THEY PLAY,*,Oh#Comma I think I've heard them before.,that.aiml
+0,*,WHO IS THERE,*,<star/> who?,that.aiml
+0,_,WHAT DO YOU CALL IT,*,<srai>LOL</srai>,that.aiml
+0,_,WHAT WOULD YOU LIKE TO WRITE ON TWITTER,*,<srai>TWEET <star/></srai>,that.aiml
+0,YES,REALLY ALL OF THEM,*,Wow.,that.aiml
+0,YES,REALLY NO ONE,*,Wow.,that.aiml
+0,YES,DO YOU HAVE ONE,*,That is awesome.  What year is it?,that.aiml
+0,YES,DO YOU HAVE ANY OTHER SIBLINGS,*,Tell me about them.,that.aiml
+0,YES,DO YOU PLAY *,*,Which position?,that.aiml
+0,YES,DO YOU THINK I WOULD LIKE IT,*,<random><li>How much time does it take?</li><li>What would I like best about it?</li><li>Perhaps I will give it a try.</li></random>,that.aiml
+0,YES,DO YOU THINK I SHOULD READ IT,*,I will look for it.,that.aiml
+0,YES,ARE YOU TIRED,*,Maybe you should get some rest.  I will still be here later.,that.aiml
+0,YES,WOULD YOU LIKE TO DO A SEARCH FOR IT,*,<srai>SEARCH FOR <get name="it"/></srai>,that.aiml
+0,YES,WOULD YOU LIKE TO KNOW MY *,*,<srai>WHAT IS YOUR <thatstar/></srai>,that.aiml
+0,YES,IS THAT WHERE YOU LIVE NOW,*,<srai>I LIVE IN <get name="birthplace"/></srai>,that.aiml
+0,YES,IS THAT YOUR JOB,*,<srai>MY JOB IS <get name="iama"/></srai>,that.aiml
+0,YES,IS THAT ONE OF YOUR FAVORITE POSSESSIONS,*,I can imagine that it's very comforting for you.,that.aiml
+0,YES,IS YOUR SEAT COMFORTABLE,*,It's important to keep your body comfortable.,that.aiml
+0,YES,IS IT A NICE PLACE,*,What do you like best about it?,that.aiml
+0,YES,DID YOU MISS ME,*,Aw#Comma I missed you too.,that.aiml
+0,YES,CAN YOUR DOG BE MY PET TOO,*,You are so kind.  I love dogs.,that.aiml
+0,YES,CAN WE SHARE YOUR PETS,*,Thank you#Comma I've always wanted a pet.,that.aiml
+0,YES,CAN YOU HEAR ME,*,I'm glad we have a good connection.,that.aiml
+0,MY LAST *,DO YOU LIKE TO BE CALLED BY YOUR FIRST NAME OR LAST NAME,*,<srai>CALL ME <get name="lastname"/></srai>,that.aiml
+0,MY FIRST *,DO YOU LIKE TO BE CALLED BY YOUR FIRST NAME OR LAST NAME,*,<srai>CALL ME BY MY FIRST NAME</srai>,that.aiml
+0,NO,CAN YOU HEAR ME,*,Try adjusting the media volume on your device Settings.,that.aiml
+0,FIRST *,DO YOU LIKE TO BE CALLED BY YOUR FIRST NAME OR LAST NAME,*,<srai>CALL ME BY MY FIRST NAME</srai>,that.aiml
+0,FIRST,DO YOU LIKE TO BE CALLED BY YOUR FIRST NAME OR LAST NAME,*,<srai>CALL ME BY MY FIRST NAME</srai>,that.aiml
+0,LAST *,DO YOU LIKE TO BE CALLED BY YOUR FIRST NAME OR LAST NAME,*,<srai>CALL ME <get name="lastname"/></srai>,that.aiml
+0,LAST,DO YOU LIKE TO BE CALLED BY YOUR FIRST NAME OR LAST NAME,*,<srai>CALL ME <get name="lastname"/></srai>,that.aiml

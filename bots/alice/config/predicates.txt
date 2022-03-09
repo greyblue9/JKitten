@@ -4,6 +4,7 @@ baby:who
 bestfriend:who
 birthday:when
 birthplace:where
+boy:who
 boyfriend:who
 brother:who
 cat:what
@@ -34,6 +35,7 @@ favoritetvshow:what
 firstname:what
 friend:who
 gender:unknown
+girl:who
 girlfriend:who
 grandfather:who
 grandmother:who
@@ -48,6 +50,7 @@ latitude:which
 likes:what
 location:where
 longitute:which
+man:who
 meta:set
 middlename:what
 mother:who
@@ -76,4 +79,5 @@ town:which
 voicemailnumber:unknown
 we:who
 wife:who
+woman:who
 

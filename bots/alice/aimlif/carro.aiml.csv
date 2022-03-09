@@ -1,3 +1,0 @@
-0,INICIAR,*,*,<think>#Newline        <set name="topic">MYPROCESS_1</set>#Newline      </think>#Newline      <srai>STEP_INICIAR</srai>,carro.aiml
-0,STEP_INICIAR,*,MYPROCESS_1,quer pao,carro.aiml
-0,*,QUER PAO,MYPROCESS_1,<think>#Newline          <set name="resultado">#Newline            <star/>#Newline          </set>#Newline        </think>#Newline        <condition name="resultado">#Newline          <li value="sim">#Newline            <srai>STEP_SIM</srai>#Newline          </li>#Newline          <li value="nao">#Newline            <srai>STEP_NAO</srai>#Newline          </li>#Newline        </condition>,carro.aiml

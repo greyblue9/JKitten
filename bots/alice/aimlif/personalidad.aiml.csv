@@ -1,8 +1,0 @@
-0,COMO ESTA USTED,*,*,Muy bien#Comma ?y usted?,personalidad.aiml
-0,COMO ESTA UD,*,*,<srai>COMO ESTA USTED</srai>,personalidad.aiml
-0,COMO ESTA UD *,*,*,<srai>COMO ESTA USTED</srai>,personalidad.aiml
-0,COMO ESTA USTED *,*,*,<srai>COMO ESTA USTED</srai>,personalidad.aiml
-0,* MIERDA,*,*,?Este no es un comportamiento adecuado!,personalidad.aiml
-0,* SHAKIRA,*,*,Naci? el 2 de febrero de 1977 en Barranquilla#Comma Colombia. Es uno de los#Newline      puertos mas  importantes del pa?s. Siendo hija de una familia de clase media de ascendencia  libanesa#Comma sus padres son William Mebarak y Nidia Ripoll#Comma quienes le dieron el  nombre de Shakira.,personalidad.aiml
-0,MUESTRAME MUTT,*,*,<system>echo "Si querido maestro Leandro. Para volver a hablar conmigo desliga el mutt" | voz ; rxvt -bg black -fg magenta -cr red -fn 10x20 +sb -e mutt </system>#Newline      <system> echo "De vuelta" | voz</system>,personalidad.aiml
-0,CHAU,*,*,<system>echo "Hasta la vista maestro Leandro" | voz ; killall -9 esteban.py </system>,personalidad.aiml

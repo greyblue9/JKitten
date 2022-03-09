@@ -1,8 +1,0 @@
-0,PUT * ON MY * LIST,*,*,<srai>ADD#Newline                <star/>#Newline                TO MY#Newline                <star index="2"/>#Newline                LIST#Newline            </srai>,lists.aiml
-0,PUT * ON MY LIST,*,*,<srai>ADD#Newline                <star/>#Newline                TO MY LIST#Newline            </srai>,lists.aiml
-0,PUT * ON THE * LIST,*,*,<srai>PUT#Newline                <star/>#Newline                ON MY#Newline                <star index="2"/>#Newline                LIST#Newline            </srai>,lists.aiml
-0,PUT * ON THE LIST,*,*,<srai>PUT#Newline                <star/>#Newline                ON MY LIST#Newline            </srai>,lists.aiml
-0,TAKE * OF MY LIST,*,*,<srai>REMOVE#Newline                <star/>#Newline                FROM MY LIST#Newline            </srai>,lists.aiml
-0,TAKE * OF THE LIST,*,*,<srai>REMOVE#Newline                <star/>#Newline                FROM MY LIST#Newline            </srai>,lists.aiml
-0,TAKE * OFF MY LIST,*,*,<srai>REMOVE#Newline                <star/>#Newline                FROM MY LIST#Newline            </srai>,lists.aiml
-0,TAKE * OFF THE LIST,*,*,<srai>REMOVE#Newline                <star/>#Newline                FROM MY LIST#Newline            </srai>,lists.aiml

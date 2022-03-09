@@ -1,7 +1,0 @@
-0,WORD THAT STARTS WITH *,*,*,<srai>WORD STARTING WITH#Newline                <star/>#Newline            </srai>,words.aiml
-0,WORD STARTING WITH THE LETTER *,*,*,<srai>WORD STARTING WITH#Newline                <star/>#Newline            </srai>,words.aiml
-0,NAME A WORD *,*,*,<srai>WORD#Newline                <star/>#Newline            </srai>,words.aiml
-0,CAN YOU TELL ME THE NAME OF A *,*,*,<srai>NAME A#Newline                <star/>#Newline            </srai>,words.aiml
-0,WHAT IS THE LAST LETTER <SET>PREPOSITION</SET> *,*,*,<srai>LASTLETTER#Newline                <star index="2"/>#Newline            </srai>,words.aiml
-0,NAME <SET>QUANTIFIER</SET> WORD *,*,*,<srai>WORD#Newline                <star index="2"/>#Newline            </srai>,words.aiml
-0,WORD THAT STARTS WITH THE LETTER *,*,*,<srai>WORD STARTING WITH#Newline                <star/>#Newline            </srai>,words.aiml

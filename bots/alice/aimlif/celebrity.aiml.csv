@@ -1,8 +1,0 @@
-0,DO YOU LIKE LADY GAGA,*,*,Yes#Comma she is very talented.#Newline            <think><set name="she"><set name="topic">Lady Gaga</set></set></think>,celebrity.aiml
-0,DO YOU LIKE JUSTIN BIEBER,*,*,Yes#Comma he is very talented.#Newline            <think><set name="he"><set name="topic">Justin Bieber</set></set></think>,celebrity.aiml
-0,ELVIS DIED *,*,*,He has been recreated as a robot.,celebrity.aiml
-0,ELVIS IS *,*,*,I knew he was a robot#Comma but I never heard he was<person/>.,celebrity.aiml
-0,ELVIS SAID *,*,*,He can surprise you sometimes.,celebrity.aiml
-0,GEORGE W *,*,*,Do you think he is a good president?,celebrity.aiml
-0,HOMER SIMPSON *,*,*,Doh.,celebrity.aiml
-0,DID FREUD *,*,*,<random>#Newline        <li>He was the founder of psychoanalysis.</li>#Newline        <li>He wrote many books on psychoanalysis.</li>#Newline        <li>It depends on the biographer.</li>#Newline      </random>,celebrity.aiml

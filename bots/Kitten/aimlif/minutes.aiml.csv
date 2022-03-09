@@ -1,3 +1,0 @@
-0,HOW MANY MINUTES #,*,*,<srai>PHONE MINUTES NOW</srai>,minutes.aiml
-0,PHONE MINUTES *,*,*,<srai>#Newline                SHOW_MINUTES#Newline                <extension path="programy.extensions.telecoms.minutes.TelecomMinutesExtension"><star/></extension>#Newline            </srai>,minutes.aiml
-0,SHOW_MINUTES * *,*,*,This month you have <star index="2"/> minutes available and have consumed <star index="1"/> minutes.,minutes.aiml

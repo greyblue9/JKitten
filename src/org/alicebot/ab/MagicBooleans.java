@@ -17,8 +17,8 @@ package org.alicebot.ab;
  Boston, MA 02110-1301, USA.
  */
 /**
- * Global boolean values that control various actions in Program AB
- */
+Global boolean values that control various actions in Program AB
+*/
 public class MagicBooleans {
 
   public static boolean trace_mode = true;
@@ -40,8 +40,8 @@ public class MagicBooleans {
   public static boolean make_verbs_sets_maps = true;
 
   public static void trace(String traceString) {
-    if (trace_mode) {
-      System.out.println(traceString);
-    }
+  if (trace_mode) {
+    System.out.println(traceString);
+  }
   }
 }

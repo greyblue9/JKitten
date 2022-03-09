@@ -1,5 +1,0 @@
-0,ASKASERVICE *,*,*,I was not able to locate that information in my brain#Comma but I could look it up using the following#Newline            services Pandora#Comma Pannous DuckDuckGo or Wikipedia#Comma which one would you like to use#Newline            <think><set name="topic">SELECTSERVICE</set><set name="query"><star/></set></think>,services.aiml
-0,PANDORA,*,SELECTSERVICE,<srai>ASKPANDORA <get name="query"/></srai>,services.aiml
-0,PANNOUS,*,SELECTSERVICE,<srai>ASKPANNOUS <get name="query"/></srai>,services.aiml
-0,WIKIPEDIA,*,SELECTSERVICE,<srai>ASKWIKIPEDIA <get name="query"/></srai>,services.aiml
-0,DUCKDUCKGO,*,SELECTSERVICE,<srai>ASKDUCKDUCKGO <get name="query"/></srai>,services.aiml

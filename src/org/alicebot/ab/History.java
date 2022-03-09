@@ -17,78 +17,78 @@ package org.alicebot.ab;
  Boston, MA 02110-1301, USA.
  */
 /**
- * History object to maintain history of input, that request and response
+History object to maintain history of input, that request and response
  *
- * @param <T> type of history object
- */
+@param <T> type of history object
+*/
 public class History<T> {
 
   private Object[] history;
 
   private String name;
 
-    /**
-     * Constructor with default history name
-     */
+  /**
+  Constructor with default history name
+  */
   public History() {
-    this("unknown");
+  this("unknown");
   }
 
-    /**
-     * Constructor with history name
-     *
-     * @param name ame of history
-     */
+  /**
+  Constructor with history name
+   *
+  @param name ame of history
+  */
   public History(String name) {
-    this.name = name;
-    history = new Object[MagicNumbers.max_history];
+  this.name = name;
+  history = new Object[MagicNumbers.max_history];
   }
 
-    /**
-     * add an item to history
-     *
-     * @param item istory item to add
-     */
+  /**
+  add an item to history
+   *
+  @param item istory item to add
+  */
   public void add(T item) {
-    for (int i = MagicNumbers.max_history - 1; i > 0; i--) {
-      history[i] = history[i - 1];
-    }
-    history[0] = item;
+  for (int i = MagicNumbers.max_history - 1; i > 0; i--) {
+    history[i] = history[i - 1];
+  }
+  history[0] = item;
   }
 
-    /**
-     * get an item from history
-     *
-     * @param index istory index
-     * @return istory item
-     */
+  /**
+  get an item from history
+   *
+  @param index istory index
+  @return istory item
+  */
   public T get(int index) {
-    if (index < MagicNumbers.max_history) {
-      if (history[index] == null) return null; else return (T) history[index];
-    } else return null;
+  if (index < MagicNumbers.max_history) {
+    if (history[index] == null) return null; else return (T) history[index];
+  } else return null;
   }
 
-    /**
-     * get a String history item
-     *
-     * @param index istory index
-     * @return istory item
-     */
+  /**
+  get a String history item
+   *
+  @param index istory index
+  @return istory item
+  */
   public String getString(int index) {
-    if (index < MagicNumbers.max_history) {
-      if (history[index] == null) return MagicStrings.unknown_history_item; else return (String) history[index];
-    } else return null;
+  if (index < MagicNumbers.max_history) {
+    if (history[index] == null) return MagicStrings.unknown_history_item; else return (String) history[index];
+  } else return null;
   }
 
-    /**
-     * print history
-     */
+  /**
+  print history
+  */
   public void printHistory() {
-    int i;
-    for (i = 0; get(i) != null; i++) {
-      System.out.println(name + "History " + (i + 1) + " = " + get(i));
-      System.out.println(String.valueOf(get(i).getClass()).contains("History"));
-      if (String.valueOf(get(i).getClass()).contains("History")) ((History) get(i)).printHistory();
-    }
+  int i;
+  for (i = 0; get(i) != null; i++) {
+    System.out.println(name + "History " + (i + 1) + " = " + get(i));
+    System.out.println(String.valueOf(get(i).getClass()).contains("History"));
+    if (String.valueOf(get(i).getClass()).contains("History")) ((History) get(i)).printHistory();
+  }
   }
 }

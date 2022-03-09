@@ -17,11 +17,11 @@ package org.alicebot.ab;
  Boston, MA 02110-1301, USA.
  */
 /**
- * Global values for many strings in Program AB
- */
+Global values for many strings in Program AB
+*/
 public class MagicStrings {
 
-    // General global strings
+  // General global strings
   public static String program_name_version = "Program AB 0.0.6.26 beta -- AI Foundation Reference AIML 2.1 implementation";
 
   public static String comment = "Added repetition detection.";
@@ -40,7 +40,7 @@ public class MagicStrings {
 
   public static String text_comment_mark = ";;";
 
-    // defaults
+  // defaults
   public static String pannous_api_key = "guest";
 
   public static String pannous_login = "test-user";
@@ -57,7 +57,7 @@ public class MagicStrings {
 
   public static String sraix_shopping_hint = "shopping";
 
-    // AIML files
+  // AIML files
   public static String unknown_aiml_file = "unknown_aiml_file.aiml";
 
   public static String deleted_aiml_file = "deleted.aiml";
@@ -86,19 +86,19 @@ public class MagicStrings {
 
   public static String unfinished_aiml_file = "unfinished.aiml";
 
-    // filter responses
+  // filter responses
   public static String inappropriate_filter = "FILTER INAPPROPRIATE";
 
   public static String profanity_filter = "FILTER PROFANITY";
 
   public static String insult_filter = "FILTER INSULT";
 
-    // default templates
+  // default templates
   public static String deleted_template = "deleted";
 
   public static String unfinished_template = "unfinished";
 
-    // AIML defaults
+  // AIML defaults
   public static String bad_javascript = "JSFAILED";
 
   public static String js_enabled = "true";
@@ -145,7 +145,7 @@ public class MagicStrings {
 
   public static String null_star = "nullstar";
 
-    // sets and maps
+  // sets and maps
   public static String set_member_string = "ISA";
 
   public static String remote_map_key = "external";
@@ -162,14 +162,14 @@ public class MagicStrings {
 
   public static String map_plural = "plural";
 
-    // paths
+  // paths
   public static String root_path = "c:/ab";
 
   public static void setRootPath(String newRootPath) {
-    root_path = newRootPath;
+  root_path = newRootPath;
   }
 
   public static void setRootPath() {
-    setRootPath(System.getProperty("user.dir"));
+  setRootPath(System.getProperty("user.dir"));
   }
 }

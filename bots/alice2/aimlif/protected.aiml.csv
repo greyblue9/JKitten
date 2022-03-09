@@ -1,3 +1,0 @@
-0,{TEST},*,*,This category is protected from user input.,protected.aiml
-0,DO TEST,*,*,Now sraiing to the protected category {TEST}...<br/>#Newline<srai>{TEST}</srai>,protected.aiml
-0,DO PROTECTED *,*,*,Now sraiing to the protected category {<star/>}...<br/>#Newline<srai>{<star/>}</srai>,protected.aiml

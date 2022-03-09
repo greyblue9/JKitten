@@ -1,5 +1,0 @@
-0,HAD YOUR *,*,*,<srai>HAVE YOU HAD YOUR#Newline                <star/>#Newline            </srai>,have_you.aiml
-0,DID YOU EVER <SET>BE</SET> *,*,*,<srai>HAVE YOU EVER#Newline                <map><name>be2been</name><star/></map>#Newline                <star index="2"/>#Newline            </srai>,have_you.aiml
-0,HAVE YOU EVER WATCH *,*,*,<srai>HAVE YOU SEEN#Newline                <star/>#Newline            </srai>,have_you.aiml
-0,HAVE YOU EVER BEEN TO THE *,*,*,<srai>HAVE YOU BEEN TO THE#Newline                <star/>#Newline            </srai>,have_you.aiml
-0,HOW DO YOU EVER *,*,*,<srai>HAVE YOU EVER#Newline                <star/>#Newline            </srai>,have_you.aiml

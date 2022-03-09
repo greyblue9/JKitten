@@ -17,35 +17,35 @@ package org.alicebot.ab;
  Boston, MA 02110-1301, USA.
  */
 /**
- * Specialized timer function for program instrumentation
- */
+Specialized timer function for program instrumentation
+*/
 public class Timer {
 
   private long startTimeMillis;
 
   public Timer() {
-    start();
+  start();
   }
 
   public void start() {
-    startTimeMillis = System.currentTimeMillis();
+  startTimeMillis = System.currentTimeMillis();
   }
 
   public long elapsedTimeMillis() {
-    return System.currentTimeMillis() - startTimeMillis + 1;
+  return System.currentTimeMillis() - startTimeMillis + 1;
   }
 
   public long elapsedRestartMs() {
-    long ms = System.currentTimeMillis() - startTimeMillis + 1;
-    start();
-    return ms;
+  long ms = System.currentTimeMillis() - startTimeMillis + 1;
+  start();
+  return ms;
   }
 
   public float elapsedTimeSecs() {
-    return elapsedTimeMillis() / 1000F;
+  return elapsedTimeMillis() / 1000F;
   }
 
   public float elapsedTimeMins() {
-    return elapsedTimeSecs() / 60F;
+  return elapsedTimeSecs() / 60F;
   }
 }

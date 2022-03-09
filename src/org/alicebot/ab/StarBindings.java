@@ -17,8 +17,8 @@ package org.alicebot.ab;
  Boston, MA 02110-1301, USA.
  */
 /**
- * structure to hold binding of wildcards in input pattern, that pattern and topicpattern
- */
+structure to hold binding of wildcards in input pattern, that pattern and topicpattern
+*/
 public class StarBindings {
 
   public Stars inputStars;
@@ -27,12 +27,12 @@ public class StarBindings {
 
   public Stars topicStars;
 
-    /** Constructor -- this class has public members
-     *
-     */
+  /** Constructor -- this class has public members
+   *
+   */
   public StarBindings() {
-    inputStars = new Stars();
-    thatStars = new Stars();
-    topicStars = new Stars();
+  inputStars = new Stars();
+  thatStars = new Stars();
+  topicStars = new Stars();
   }
 }

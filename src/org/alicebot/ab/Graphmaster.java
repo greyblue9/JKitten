@@ -22,6 +22,7 @@ package org.alicebot.ab;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import org.apache.commons.lang3.StringEscapeUtils;
 
 /**
 The AIML Pattern matching algorithm and data structure.
@@ -57,6 +58,7 @@ public class Graphmaster {
     vocabulary = new TreeSet<String>();
   }
 
+  static final StringBuilder sb = new StringBuilder(128);
 
   /**
   Convert input, that and topic to a single sentence having the form
@@ -67,10 +69,29 @@ public class Graphmaster {
   @param topic  topic (or topic pattern)
   @return
   */
-  public static String inputThatTopic (String input, String that, String topic)  {
-    return input.trim()+" <THAT> "+that.trim()+" <TOPIC> "+topic.trim();
+  public static String inputThatTopic(String input, String that, String topic)  {
+    sb.delete(0, sb.length());
+    for (String s: new String[]{ 
+      input.trim(),
+      "<THAT>",
+      that.trim(),
+      "<TOPIC>",
+      topic.trim()
+    })
+    {
+      if (s.isEmpty()) {
+        s = " ";
+      }
+      if (sb.length() != 0) sb.append(" ");
+      while (s.indexOf("  ") != -1) {
+        s = s.replace("  ", " ");
+      }
+      s = s.trim();
+      sb.append(s);
+    }
+    return sb.toString();
   }
-
+  
   /**
   add an AIML category to this graph.
    *
@@ -161,7 +182,8 @@ public class Graphmaster {
       node.height = Math.min(4, node.height);
       node.shortCut = true;
     }
-    else if (NodemapperOperator.containsKey(node, path.word)) {
+    else if (NodemapperOperator.containsKey(node, path.word)) 
+    {
       if (path.word.startsWith("<SET>")) addSets(path.word, bot, node, category.getFilename());
       Nodemapper nextNode = NodemapperOperator.get(node, path.word);
       addPath(nextNode, path.next, category);
@@ -619,10 +641,36 @@ public class Graphmaster {
       }
     }
   }
+  
+  public static final Comparator<Category> TEMPLATE_LENGTH_DESC_COMPARATOR = new Comparator<Category>() {
+      @Override
+      public int compare(Category a, Category b) {
+        final String template1 = 
+          (a != null && a.getTemplate() != null)
+            ? a.getTemplate()
+            : "";
+        final String template2 = 
+          (b != null && b.getTemplate() != null)
+            ? b.getTemplate()
+            : "";
+        if (template1.length() == template2.length()) {
+          return 0;
+        }
+        if (template1.length() > template2.length()) {
+          return -1;
+        }
+        return 1;
+      }
+    };
+    
   public ArrayList<Category> getCategories() {
     ArrayList<Category> categories = new ArrayList<Category>();
     getCategories(root, categories);
     //for (Category c : categories) System.out.println("getCategories: "+c.inputThatTopic()+" "+c.getTemplate());
+
+
+    categories.sort(TEMPLATE_LENGTH_DESC_COMPARATOR);
+    
     return categories;
   }
   void getCategories(Nodemapper node, ArrayList<Category> categories) {

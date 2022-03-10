@@ -18,7 +18,11 @@ package org.alicebot.ab;
  */
 
 import org.alicebot.ab.utils.IOUtils;
-
+import com.google.common.collect.Ordering;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.filefilter.SuffixFileFilter;
+import org.apache.commons.io.IOCase;
+import org.apache.commons.io.filefilter.TrueFileFilter;
 import java.io.*;
 import java.util.*;
 
@@ -26,7 +30,15 @@ import java.util.*;
 Class representing the AIML bot
 */
 public class Bot {
-
+  
+  public static String getenv(String key, String defaultV) {
+    String val = System.getenv(key);
+    if (val == null || val.trim().isEmpty()) {
+      return defaultV;
+    }
+    return val;
+  }
+  
   public final Properties properties = new Properties();
 
   public final PreProcessor preProcessor;
@@ -73,28 +85,75 @@ public class Bot {
   @param name ame of bot
   */
   public void setAllPaths(String root, String name) {
-  File rootDir =new File(root).getAbsoluteFile();
-  root_path = rootDir.getPath();
-  bot_path = new File(rootDir, "bots").getPath();
-  bot_name_path = new File(new File(bot_path), name).getAbsolutePath();
-  if (MagicBooleans.trace_mode) System.out.println("Name = " + name + " Path = " + bot_name_path);
-  aiml_path = bot_name_path + "/aiml";
-  aimlif_path = bot_name_path + "/aimlif";
-  config_path = bot_name_path + "/config";
-  log_path = bot_name_path + "/logs";
-  sets_path = bot_name_path + "/sets";
-  maps_path = bot_name_path + "/maps";
-  if (MagicBooleans.trace_mode) {
-    System.out.println(root_path);
-    System.out.println(bot_path);
-    System.out.println(bot_name_path);
-    System.out.println(aiml_path);
-    System.out.println(aimlif_path);
-    System.out.println(config_path);
-    System.out.println(log_path);
-    System.out.println(sets_path);
-    System.out.println(maps_path);
-  }
+    try {
+      File rootDir =new File(root)
+        .getAbsoluteFile().getCanonicalFile();
+      this.root_path = rootDir.getPath();
+      this.bot_path = new File(rootDir, "bots").getPath();
+      
+      this.bot_name_path = new File(
+        getenv(
+          "BOT_NAME_PATH",
+          new File(new File(bot_path), name).getPath()
+        )
+      ).getAbsoluteFile().getCanonicalFile().getPath();    
+      
+      if (MagicBooleans.trace_mode) {
+        System.err.println(
+          "Name = " + name + ", Path = " + bot_name_path
+        );
+      }
+      
+      this.aiml_path = new File(
+        getenv(
+          "AIML_PATH",
+          new File(new File(bot_name_path), "aiml").getPath()
+        )
+      ).getAbsoluteFile().getCanonicalFile().getPath();
+      
+      this.aimlif_path = new File(
+        getenv(
+          "AIMLIF_PATH",
+          new File(new File(bot_name_path), "aimlif").getPath()
+        )
+      ).getAbsoluteFile().getCanonicalFile().getPath();
+      
+      this.config_path = new File(
+        getenv(
+          "AIML_PATH",
+          new File(new File(bot_name_path), "config").getPath()
+        )
+      ).getAbsoluteFile().getCanonicalFile().getPath();
+      
+      log_path = bot_name_path + "/logs";
+      this.sets_path = new File(
+        getenv(
+          "SETS_PATH",
+          new File(new File(bot_name_path), "sets").getPath()
+        )
+      ).getAbsoluteFile().getCanonicalFile().getPath();
+      
+      this.maps_path = new File(
+        getenv(
+          "AIML_PATH",
+          new File(new File(bot_name_path), "maps").getPath()
+        )
+      ).getAbsoluteFile().getCanonicalFile().getPath();
+      
+      if (MagicBooleans.trace_mode) {
+        System.out.println(root_path);
+        System.out.println(bot_path);
+        System.out.println(bot_name_path);
+        System.out.println(aiml_path);
+        System.out.println(aimlif_path);
+        System.out.println(config_path);
+        System.out.println(log_path);
+        System.out.println(sets_path);
+        System.out.println(maps_path);
+      }
+    } catch (IOException ioe) {
+      throw new RuntimeException(ioe);
+    }
   }
 
   /**
@@ -213,32 +272,32 @@ public class Bot {
   }
   if (file.contains(MagicStrings.deleted_aiml_file)) {
     if (this.deletedGraph != null) {
-    for (Category c : moreCategories) {
-      System.out.println("Delete "+c.getPattern());
-      deletedGraph.addCategory(c);
-    }
+      for (Category c : moreCategories) {
+        System.out.println("Delete "+c.getPattern());
+        deletedGraph.addCategory(c);
+      }
     }
   } else if (file.contains(MagicStrings.learnf_aiml_file)) {
     if (MagicBooleans.trace_mode) System.out.println("Reading Learnf file");
     for (Category c : moreCategories) {
-    
-     try {
-     brain.addCategory(c);
-     learnfGraph.addCategory(c);
-    } catch (Throwable e) { e.printStackTrace(); };
+       try {
+         brain.addCategory(c);
+         learnfGraph.addCategory(c);
+      } catch (Throwable e) { e.printStackTrace(); };
     }
   } else {
     for (Category c : moreCategories) {
         //System.out.println("Brain size="+brain.root.size());
         //brain.printgraph();
     try {
-    brain.addCategory(c);
+    
+      brain.addCategory(c);
     } catch (Throwable e) { e.printStackTrace(); };
     }
   }
   return moreCategories;
   }
-
+  
   /**
   Load all brain categories from AIML directory
   */
@@ -248,29 +307,75 @@ public class Bot {
   int cnt = 0;
   try {
       // Directory path here
-    String file;
-    File folder = new File(aiml_path);
-    if (folder.exists()) {
-    File[] listOfFiles = IOUtils.listFiles(folder);
-    if (MagicBooleans.trace_mode) System.out.println("Loading AIML files from " + aiml_path);
-    for (File listOfFile : listOfFiles) {
-      if (listOfFile.isFile()) {
-      file = listOfFile.getName();
+    File folder = new File(aiml_path)
+      .getAbsoluteFile().getCanonicalFile();
+    
+    final List<File> files 
+      = Ordering.usingToString().sortedCopy(
+        FileUtils.listFiles(
+          new File(aiml_path),
+          new SuffixFileFilter(".aiml", IOCase.INSENSITIVE),
+          TrueFileFilter.TRUE
+        )
+      );
+    final File[] listOfFiles = files.toArray(new File[0]);
+    
+    System.err.printf(
+      "\n\n=== Loading %d AIML files from %s ===\n\n",
+      files.size(),
+      aiml_path
+    );
+    int i = -1;
+    for (final File listOfFile: files) {
+      if (! listOfFile.isFile()) continue;
+      final String file = listOfFile.getName();
       if (file.endsWith(".aiml") || file.endsWith(".AIML")) {
-        if (MagicBooleans.trace_mode) System.out.println(file);
+        ++i;
+        System.err.printf(
+          "Loading %3d/%-3d: %-30s ... ",
+          i+1, files.size(), file
+        );
+        List<Category> moreCategories = new ArrayList<>();
+        int mcSize1 = 0, mcSize2 = 0;
+        
         try {
-        List<Category> moreCategories = AIMLProcessor.AIMLToCategories(aiml_path, file);
-        moreCategories = addMoreCategories(file, moreCategories);
-        assert moreCategories != null;
-        cnt += moreCategories.size();
+          moreCategories = AIMLProcessor.AIMLToCategories(
+            aiml_path, file
+          );
+          assert moreCategories != null;
+          mcSize1 = moreCategories.size();
         } catch (Exception iex) {
-        System.out.println("Problem loading " + file);
-        iex.printStackTrace();
+          iex.printStackTrace();
+        } finally {
+          cnt += mcSize1;
+        }
+        System.err.printf("[OK +%4d -> %6d] ", mcSize1, cnt);
+        
+        try {
+          moreCategories = addMoreCategories(
+            file, moreCategories
+          );
+          assert moreCategories != null;
+          mcSize2 = moreCategories.size() - mcSize1;
+        } catch (Exception iex) {
+          iex.printStackTrace();
+        } finally {
+          cnt += mcSize2;
+        }
+        if (mcSize2 > 0) {
+          System.err.printf("[+%4d -> %6d]\n", mcSize2, cnt);
+        } else {
+          System.err.println();
+        }
+        
+        if (false && mcSize1 == 0 && mcSize2 == 0) {
+          System.err.printf(
+            "Deleting %s ...\n", listOfFile
+          );
+          listOfFile.delete();
         }
       }
-      }
     }
-    } else System.out.println("addCategoriesFromAIML: " + aiml_path + " does not exist.");
   } catch (Exception ex) {
     ex.printStackTrace();
   }
@@ -296,7 +401,9 @@ public class Bot {
       if (listOfFile.isFile()) {
       file = listOfFile.getName();
       if (file.endsWith(MagicStrings.aimlif_file_suffix) || file.endsWith(MagicStrings.aimlif_file_suffix.toUpperCase())) {
-        if (MagicBooleans.trace_mode) System.out.println(file);
+        if (MagicBooleans.trace_mode) {
+          System.err.printf("Loading %s\n", listOfFile);
+        }
         try {
         List<Category> moreCategories = readIFCategories(aimlif_path + "/" + file);
         assert moreCategories != null;
@@ -357,12 +464,11 @@ public class Bot {
   @param file he destination AIMLIF file
   */
   public void writeCertainIFCategories(Graphmaster graph, String file) {
-  /**
+  
 if (MagicBooleans.trace_mode) System.out.println("writeCertainIFCaegories " + file + " size= " + graph.getCategories().size());
   writeIFCategories(graph.getCategories(), file + MagicStrings.aimlif_file_suffix);
   File dir = new File(aimlif_path);
   dir.setLastModified(new Date().getTime());
-*/
   }
 
   /**

@@ -15,31 +15,37 @@ package org.alicebot.ab;
  Free Software Foundation, Inc., 51 Franklin St, Fifth Floor,
  Boston, MA 02110-1301, USA.
  */
+import java.io.*;
 import java.util.Comparator;
-
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.Jsoup;
+import org.jsoup.parser.Parser;
+import org.apache.commons.lang3.StringUtils;
+import static java.nio.charset.StandardCharsets.UTF_8;
 /**
 structure representing an AIML category and operations on Category
 */
 public class Category {
 
-  private String pattern;
+  public String pattern;
+  public Element patternEl;
+  public String that;
+  public Element thatEl;
+  public String topic;
+  public Element topicEl;
+  public String template;
+  public Element templateEl;
+  public String filename;
 
-  private String that;
+  public int activationCnt;
 
-  private String topic;
-
-  private String template;
-
-  private String filename;
-
-  private int activationCnt;
-
-  private int categoryNumber; // for loading order
+  public int categoryNumber; // for loading order
 
   public static int categoryCnt = 0;
 
-  private AIMLSet matches;
-
+  public AIMLSet matches;
+  
   /**
   Return a set of inputs matching the category
    *
@@ -209,7 +215,7 @@ public class Category {
   @param line emplate on a single line of text
   @return riginal multi-line template
   */
-  private static String lineToTemplate(String line) {
+  public static String lineToTemplate(String line) {
   String result = line.replaceAll("\\#Newline", "\n");
   result = result.replaceAll(MagicStrings.aimlif_split_char_name, MagicStrings.aimlif_split_char);
   return result;
@@ -322,28 +328,61 @@ public class Category {
   @return rue or false
   */
   public boolean validate() {
-  validationMessage = "";
-  if (!validPatternForm(pattern)) {
-    validationMessage += "Badly formatted ";
+    validationMessage = "";
+    if (!validPatternForm(pattern)) {
+      validationMessage += String.format(
+        "Badly formatted pattern: %s\n", pattern
+      );
+    }
+    else if (!validPatternForm(that)) {
+      validationMessage += String.format(
+        "Badly formatted that: %s\n", that
+      );
+    }
+    else if (!validPatternForm(topic)) {
+      validationMessage += String.format(
+        "Badly formatted topic: %s\n", topic
+      );
+    }
+    else if (!AIMLProcessor.validTemplate(template)) {
+      validationMessage += String.format(
+        "Badly formatted template: %s\n", template
+      );
+    }
+    
+    if (!filename.endsWith(".aiml")) {
+      validationMessage += "Filename suffix should be .aiml\n";
+    }
+    if (validationMessage.isEmpty()) return true;
+    System.err.printf(
+      "Category(%s) failing validation: [%s]\n",
+      this, validationMessage
+    );
     return false;
   }
-  if (!validPatternForm(that)) {
-    validationMessage += "Badly formatted ";
-    return false;
+  
+  
+  public static Element toElement(final String input) {
+    try {
+      final Document doc = Jsoup.parse(
+        new ByteArrayInputStream(input.getBytes(UTF_8)),
+        UTF_8.name(),
+        "http://127.0.0.1/",
+        Parser.xmlParser()
+      );
+      return doc;
+    } catch (final IOException ioe) {
+      throw new RuntimeException(ioe);
+    }
   }
-  if (!validPatternForm(topic)) {
-    validationMessage += "Badly formatted ";
-    return false;
-  }
-  if (!AIMLProcessor.validTemplate(template)) {
-    validationMessage += "Badly formatted ";
-    return false;
-  }
-  if (!filename.endsWith(".aiml")) {
-    validationMessage += "Filename suffix should be .aiml";
-    return false;
-  }
-  return true;
+  
+  public static String normSpace(String input) {
+    return 
+        StringUtils.join(
+          StringUtils.split(
+            input
+          ), " "
+        ).trim();
   }
 
   /**

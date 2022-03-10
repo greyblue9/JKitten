@@ -143,10 +143,10 @@ public class AIMLProcessor {
     }
     String language = MagicStrings.default_language;
     if (root.hasAttributes()) {
-      NamedNodeMap XMLAttributes = root.getAttributes();
-      for(int i=0; i < XMLAttributes.getLength(); i++)
+      NamedNodeMap attts = root.getAttributes();
+      for(int i=0; i < attts.getLength(); i++)
       {
-        if (XMLAttributes.item(i).getNodeName().equals("language")) language = XMLAttributes.item(i).getNodeValue();
+        if (attts.item(i).getNodeName().equals("language")) language = attts.item(i).getNodeValue();
       }
     }
     NodeList nodelist = root.getChildNodes();
@@ -225,23 +225,47 @@ public class AIMLProcessor {
   @param srCnt     number of <srai> activations.
   @return        bot's reply.
   */
- public static String respond(String input, String that, String topic, Chat chatSession, int srCnt) {
-	 MagicBooleans.trace("input: " + input + ", that: " + that + ", topic: " + topic + ", chatSession: " + chatSession + ", srCnt: " + srCnt);
-    String response;
-    if (input == null || input.length()==0) input = MagicStrings.null_input;
+  public static String respond(String input, String that, String topic, Chat chatSession, int srCnt)
+  {
+    sb.delete(0, sb.length());
+    for (int i=0; i<srCnt; i++) sb.append("  ");
+    final String indent = sb.toString();
+    
+  	 System.err.printf(
+  	   "%s respond(input=%s, that=%s, topic=%s, srCnt=%d)\n",
+  	   indent, input, that, topic, srCnt
+  	 );
+  	 
+    String response = MagicStrings.default_bot_response;
+    if (input == null || input.trim().length() == 0) {
+      input = MagicStrings.null_input;
+    }
     sraiCount = srCnt;
-    response = MagicStrings.default_bot_response;
-     try {
-      Nodemapper leaf = chatSession.bot.brain.match(input, that, topic);
-      if (leaf == null) {return(response);}
-      ParseState ps = new ParseState(0, chatSession, input, that, topic, leaf);
-      //chatSession.matchTrace += leaf.category.getTemplate()+"\n";
-			String template = leaf.category.getTemplate();
-			//MagicBooleans.trace("in AIMLProcessor.respond(), template: " + template);
+    try {
+      Nodemapper leaf = chatSession.bot.brain.match(
+        input, that, topic
+      );
+      if (leaf == null) {
+        System.err.printf(
+          "%s leaf = chatSession.bot.brain.match(input=%s, that=%s, topic=%s): leaf == null; returning response=%s\n",
+          indent, input, that, topic, response
+        );
+        return response;
+      }
+      ParseState ps = new ParseState(
+        0, chatSession, input, that, topic, leaf
+      );
+      chatSession.matchTrace += leaf.category.getTemplate()+"\n";
+      String template = leaf.category.getTemplate();
+      MagicBooleans.trace("in AIMLProcessor.respond(), template: " + template);
       response = evalTemplate(template, ps);
-      //System.out.println("That="+that);
+      System.err.printf(
+        "%s evalTemplate(template=%s, ps=%s) with that=%s returned response=%s\n",
+        indent, template, ps, that, response
+      );
     } catch (Exception ex) {
       ex.printStackTrace();
+      return ex.toString();
     }
     return response;
   }
@@ -363,11 +387,11 @@ public class AIMLProcessor {
     //MagicBooleans.trace("in AIMLProcessor.unevaluatedXML(), nodeName: " + nodeName);
     String attributes = "";
     if (node.hasAttributes()) {
-      NamedNodeMap XMLAttributes = node.getAttributes();
-      for(int i=0; i < XMLAttributes.getLength(); i++)
+      NamedNodeMap attts = node.getAttributes();
+      for(int i=0; i < attts.getLength(); i++)
 
       {
-        final Node aNode = XMLAttributes.item(i);
+        final Node aNode = attts.item(i);
         if (aNode == null) continue;
         
         attributes += " " 

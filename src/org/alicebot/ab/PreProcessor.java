@@ -18,6 +18,12 @@ package org.alicebot.ab;
 import java.io.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.TextNode;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+import org.apache.commons.lang3.StringUtils;
 
 /**
 AIML Preprocessor and substitutions
@@ -77,13 +83,25 @@ public class PreProcessor {
   @return ormalized client input
   */
   public String normalize(String request) {
-  if (DEBUG) System.out.println("PreProcessor.normalize(request: " + request + ")");
-  String result = substitute(request, normalPatterns, normalSubs, normalCount);
-  result = result.replaceAll("(\r\n|\n\r|\r|\n)", " ");
-  if (DEBUG) System.out.println("PreProcessor.normalize() returning: " + result);
-  return result;
+    if (DEBUG) System.out.println("PreProcessor.normalize(request: " + request + ")");
+    String result = substitute(request, normalPatterns, normalSubs, normalCount);
+    
+    Element elem = Category.toElement(result);
+    for (final Element e: elem.select("a, b, i, p, div, span, u, em, strong, pre, code, link").toArray(new Element[0])) {
+      e.replaceWith(
+        new TextNode(e.text(), "http://127.0.0.1/")
+      );
+    }
+    final Matcher m = Pattern.compile("\\s+", Pattern.DOTALL).matcher(elem.outerHtml());
+    if (m.find()) {
+      result = m.replaceAll(" ");
+    } else {
+      result = elem.outerHtml();
+    }
+    if (DEBUG) System.out.println("PreProcessor.normalize() returning: " + result);
+    return result;
   }
-
+  
   /**
   apply denormalization substitutions to a request
    *

@@ -184,7 +184,7 @@ public class Chat {
     String response;
     response = AIMLProcessor.respond(input, that, topic, this);
       //MagicBooleans.trace("in chat.respond(), response: " + response);
-    String normResponse = response bot.preProcessor.normalize(response);
+    String normResponse = response = bot.preProcessor.normalize(response);
       //MagicBooleans.trace("in chat.respond(), normResponse: " + normResponse);
     String sentences[] = bot.preProcessor.sentenceSplit(normResponse);
     for (int i = 0; i < sentences.length; i++) {

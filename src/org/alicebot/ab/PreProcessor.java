@@ -30,7 +30,7 @@ AIML Preprocessor and substitutions
 */
 public class PreProcessor {
 
-  private static boolean DEBUG = false;
+  private static boolean DEBUG = true;
 
   public int normalCount = 0;
 

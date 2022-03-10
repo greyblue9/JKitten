@@ -10,6 +10,15 @@ import java.io.InputStreamReader;
 import java.nio.charset.Charset;
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
+import javax.script.ScriptContext;
+import jdk.nashorn.api.scripting.ScriptObjectMirror;
+import com.google.common.collect.Ordering;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.filefilter.SuffixFileFilter;
+import org.apache.commons.io.IOCase;
+import org.apache.commons.io.filefilter.TrueFileFilter;
+import java.util.*;
+import org.apache.commons.lang3.StringEscapeUtils;
 
 public class IOUtils {
 
@@ -104,12 +113,56 @@ public class IOUtils {
     return failedString;
   }
   }
+  
+  static ScriptEngineManager mgr;
+  static ScriptEngine engine;
+  static ScriptContext ctx;
+  static ScriptObjectMirror glob;
 
   public static String evalScript(String engineName, String script) throws Exception {
-    //System.out.println("evaluating "+script);
-  ScriptEngineManager mgr = new ScriptEngineManager();
-  ScriptEngine engine = mgr.getEngineByName("JavaScript");
-  String result = "" + engine.eval(script);
-  return result;
+    System.err.printf(
+      "Evaluating script: %s\n", StringEscapeUtils.escapeJava(script)
+    );
+    if (glob == null) {
+      mgr = new ScriptEngineManager();
+      engine = mgr.getEngineByName("JavaScript");
+      ctx = engine.getContext();
+      glob = (ScriptObjectMirror) ctx.getBindings(ctx.getScopes().get(0));
+      
+      final List<File> scriptFiles
+        = Ordering.usingToString().sortedCopy(
+          FileUtils.listFiles(
+            new File(".").getAbsoluteFile(),
+            new SuffixFileFilter(".js", IOCase.INSENSITIVE),
+            TrueFileFilter.TRUE
+          )
+        );
+      
+      for (final File scriptFile: scriptFiles) {
+        System.err.printf(
+          "Parsing script file: %s ...\n", scriptFile
+        );
+        final Object result = glob.eval(
+          FileUtils.readFileToString(scriptFile)
+        );
+        System.err.printf(
+          "Script file result: %s\n", result
+        );
+        for (final Map.Entry<String, Object> entry:
+          glob.entrySet())
+        {
+          System.err.printf(
+            "[%s] = %s\n", entry.getKey(), entry.getValue()
+          );
+        }
+      }
+    }
+    final Object result = glob.eval(script);
+    System.err.printf(
+      "glob.eval(%s) returned: %s\n",
+      StringEscapeUtils.escapeJava(script),
+      result
+    );
+    return String.valueOf(result);
   }
 }

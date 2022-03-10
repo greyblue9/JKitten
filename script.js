@@ -6,7 +6,7 @@ function getStockQuote(stock) {
   return "Sorry, the market is down due to the Russia situation.";
 }
 
-var knowledge = {};
+var knowledge = Java.type("Main").chatSessions;
 
 
 function setValue(session_key, key, value) {
@@ -18,11 +18,11 @@ function setValue(session_key, key, value) {
 
 function getValue(session_key, key) {
   if (!(session_key in knowledge)) {
-    return "something I don't know";
+    return "";
   }
   if (!(key in knowledge[session_key])) {
     return knowledge[session_key][key];
   }
-  return "something you haven't told me yet";
+  return "";
 }
 

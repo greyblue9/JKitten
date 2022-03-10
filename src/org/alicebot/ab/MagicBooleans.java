@@ -29,7 +29,7 @@ public class MagicBooleans {
 
   public static boolean jp_tokenize = false;
 
-  public static boolean fix_excel_csv = true;
+  public static boolean fix_excel_csv = false;
 
   public static boolean enable_network_connection = true;
 

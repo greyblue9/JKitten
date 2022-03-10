@@ -84,7 +84,7 @@ public class PreProcessor {
   */
   public String normalize(String request) {
     if (DEBUG) System.out.println("PreProcessor.normalize(request: " + request + ")");
-    String result = substitute(request, normalPatterns, normalSubs, normalCount);
+    String result = substitute(request, normalPatterns, normalSubs, 0);
     
     Element elem = Category.toElement(result);
     for (final Element e: elem.select("a, b, i, p, div, span, u, em, strong, pre, code, link").toArray(new Element[0])) {

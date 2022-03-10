@@ -22,6 +22,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.Jsoup;
 import org.jsoup.parser.Parser;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.StringEscapeUtils;
 import static java.nio.charset.StandardCharsets.UTF_8;
 /**
 structure representing an AIML category and operations on Category
@@ -251,53 +252,55 @@ public class Category {
   @return IML Category
   */
   public static String categoryToAIML(Category category) {
-  String pattern = category.getPattern();
+    String pattern = category.getPattern();
   
-  if (pattern.contains("<SET>") || pattern.contains("<BOT")) {
-    String[] splitPattern = pattern.split(" ");
-    String rpattern = "";
-    for (String w : splitPattern) {
-    if (w.startsWith("<SET>") || w.startsWith("<BOT") || w.startsWith("NAME=")) {
-      w = w.toLowerCase();
+    if (pattern.contains("<SET>") || pattern.contains("<BOT")) {
+      String[] splitPattern = pattern.split(" ");
+      String rpattern = "";
+      for (String w : splitPattern) {
+      if (w.startsWith("<SET>") || w.startsWith("<BOT") || w.startsWith("NAME=")) {
+        w = w.toLowerCase();
+      }
+      rpattern = rpattern + " " + w;
+      }
+      pattern = rpattern.trim();
     }
-    rpattern = rpattern + " " + w;
+    
+    if (pattern.contains("set")) {
+      System.err.printf(
+        "Rebuilt pattern: %s\n", 
+        StringEscapeUtils.escapeJava(pattern)
+      );
     }
-    pattern = rpattern.trim();
-  }
-    //if (pattern.contains("set")) System.out.println("Rebuilt pattern "+pattern);
-  String NL = "\n";
-  String result = "<category>\n  ";
-  try {
-    if (!category.getTopic().equals("*")) {
-    result += "<topic name=\""
-      + (category.getTopic() != null && category.getTopic().trim().startsWith("<")? category.getTopic().trim():String.valueOf(category.getTopic()).replace("&amp;","__AND__").replace("<","&lt;").replace(">","&gt;").replace("&","&amp;").replace("__AND__", "&amp;"))
-      + "\">" 
-      + (category.getTopic() != null && category.getTopic().trim().startsWith("<")? category.getTopic().trim():String.valueOf(category.getTopic()).replace("&amp;","__AND__").replace("<","&lt;").replace(">","&gt;").replace("&","&amp;").replace("__AND__", "&amp;"))
-      + "</topic>\n  ";
-    }
-    if (!category.getThat().equals("*")) {
-    result += "<that name=\""
-      + (category.getThat() != null && category.getThat().trim().startsWith("<")? category.getThat().trim():String.valueOf(category.getThat()).replace("&amp;","__AND__").replace("<","&lt;").replace(">","&gt;").replace("&","&amp;").replace("__AND__", "&amp;"))
-      + "\">" 
-      + (category.getThat() != null && category.getThat().trim().startsWith("<")? category.getThat().trim():String.valueOf(category.getThat()).replace("&amp;","__AND__").replace("<","&lt;").replace(">","&gt;").replace("&","&amp;").replace("__AND__", "&amp;"))
-      + "</that>\n  ";
-    }
-    result += "<pattern>"
-      + (pattern != null && pattern.trim().startsWith("<")? pattern.trim():String.valueOf(pattern).replace("&amp;","__AND__").replace("<","&lt;").replace(">","&gt;").replace("&","&amp;").replace("__AND__", "&amp;"))
-     + "</pattern>\n  ";
+    
+    String NL = "\n";
+    String result = "<category>\n  ";
+    try {
+      if (!category.getTopic().equals("*")) {
+      result += "<topic>" 
+        + category.getTopic()
+        + "</topic>\n  ";
+      }
+      if (!category.getThat().equals("*")) {
+        result += "<that>" 
+          + category.getThat()
+          + "</that>\n  ";
+      }
+      result += "<pattern>"
+        + pattern
+        + "</pattern>\n  ";
      
-   result += 
-    "<template>"
-      + (category.getTemplate() != null && category.getTemplate().trim().startsWith("<")? category.getTemplate().trim():String.valueOf(category.getTemplate()).replace("&amp;","__AND__").replace("<","&lt;").replace(">","&gt;").replace("&","&amp;").replace("__AND__", "&amp;"))
-      + "</template>\n  "
-     + "</category>";
-  } catch (Exception ex) {
-    ex.printStackTrace();
-    return "";
+      result += "<template>"
+        + category.getTemplate()
+        + "</template>\n  "
+       + "</category>";
+    } catch (Exception ex) {
+      ex.printStackTrace();
+      return "";
+    }
+    return result;
   }
-  return result;
-  }
-
+  
   /**
   check to see if a pattern expression is valid in AIML 2.0
    *
@@ -305,19 +308,11 @@ public class Category {
   @return rue or false
   */
   public boolean validPatternForm(String pattern) {
-  if (pattern.length() < 1) {
-    validationMessage += "Zero length. ";
-    return false;
-  }
-  String[] words = pattern.split(" ");
-  for (int i = 0; i < words.length; i++) {
-      //String word = words[i];
-      /*if (!(word.matches("[\\p{Hiragana}\\p{Katakana}\\p{Han}\\p{Latin}]*+") || word.equals("*") || word.equals("_"))) {
-       System.out.println("Invalid pattern word "+word);
-       return false;
-       }*/
-  }
-  return true;
+    if (pattern.length() < 1) {
+      validationMessage += "Zero length. ";
+      return false;
+    }
+    return true;
   }
 
   public String validationMessage = "";

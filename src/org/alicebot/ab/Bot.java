@@ -52,7 +52,7 @@ public class Bot {
     
   // public Graphmaster unfinishedGraph;
   // public final ArrayList<Category> categories;
-  public String name = MagicStrings.default_bot_name;
+  public String name = "alice";
 
   public HashMap<String, AIMLSet> setMap = new HashMap<String, AIMLSet>();
 
@@ -64,7 +64,7 @@ public class Bot {
 
   public String bot_path = root_path + "/bots";
 
-  public String bot_name_path = bot_path + "/super";
+  public String bot_name_path = bot_path + "/alice";
 
   public String aimlif_path = bot_path + "/aimlif";
 
@@ -86,17 +86,67 @@ public class Bot {
   */
   public void setAllPaths(String root, String name) {
     try {
-      File rootDir =new File(root)
-        .getAbsoluteFile().getCanonicalFile();
-      this.root_path = rootDir.getPath();
-      this.bot_path = new File(rootDir, "bots").getPath();
+      File root_dir = new File(
+        getenv(
+          "ROOT_PATH",
+          root
+        )
+      );
+      if (!root_dir.exists()) {
+        this.root_path = new File(".").getPath();
+      } else {
+        this.root_path = root_dir.getPath();
+      }
+      this.root_path = new File(this.root_path)
+        .getAbsoluteFile().getCanonicalFile().getPath();
       
-      this.bot_name_path = new File(
+      File bot_dir = new File(
+        getenv(
+          "BOT_PATH",
+          new File(
+            new File(this.root_path),
+            getenv("BOT_DIRNAME", "bots")
+          ).getPath()
+        )
+      );
+      if (! bot_dir.exists()) {
+        this.bot_path = this.root_path;
+      } else {
+        this.bot_path = bot_dir.getPath();
+      }
+      
+      File bot_name_dir = new File(
         getenv(
           "BOT_NAME_PATH",
-          new File(new File(bot_path), name).getPath()
+          new File(
+             new File(this.bot_path),
+            getenv("BOT_NAME_DIRNAME", name)
+          ).getPath()
         )
-      ).getAbsoluteFile().getCanonicalFile().getPath();    
+      );
+      if (! bot_name_dir.exists()) {
+        this.bot_name_path = this.root_path;
+      } else {
+        this.bot_name_path = bot_name_dir.getPath();
+      }
+      
+      File rootDir =new File(root)
+        .getAbsoluteFile().getCanonicalFile();
+      
+      File aiml_dir = new File(
+        getenv(
+          "AIML_PATH",
+          new File(
+            new File(this.bot_name_path), "aiml"
+          ).getPath()
+        )
+      );
+      if (! aiml_dir.exists()) {
+        this.aiml_path = this.root_path;
+      } else {
+        this.aiml_path = aiml_dir.getPath();
+      }
+      
       
       if (MagicBooleans.trace_mode) {
         System.err.println(
@@ -104,41 +154,76 @@ public class Bot {
         );
       }
       
-      this.aiml_path = new File(
-        getenv(
-          "AIML_PATH",
-          new File(new File(bot_name_path), "aiml").getPath()
-        )
-      ).getAbsoluteFile().getCanonicalFile().getPath();
-      
-      this.aimlif_path = new File(
+      File aimlif_dir = new File(
         getenv(
           "AIMLIF_PATH",
-          new File(new File(bot_name_path), "aimlif").getPath()
+          new File(
+            new File(this.bot_name_path), "aimlif"
+          ).getPath()
         )
-      ).getAbsoluteFile().getCanonicalFile().getPath();
+      );
+      if (! aimlif_dir.exists()) {
+        this.aimlif_path = this.root_path;
+      } else {
+        this.aimlif_path = aimlif_dir.getPath();
+      }
       
-      this.config_path = new File(
+      File config_dir = new File(
         getenv(
-          "AIML_PATH",
-          new File(new File(bot_name_path), "config").getPath()
+          "CONFIG_PATH",
+          new File(
+            new File(this.bot_name_path), "config"
+          ).getPath()
         )
-      ).getAbsoluteFile().getCanonicalFile().getPath();
+      );
+      if (! config_dir.exists()) {
+        this.config_path = this.root_path;
+      } else {
+        this.config_path = config_dir.getPath();
+      }
       
-      log_path = bot_name_path + "/logs";
-      this.sets_path = new File(
+      File log_dir = new File(
+        getenv(
+          "LOG_PATH",
+          new File(
+            new File(this.bot_name_path), "logs"
+          ).getPath()
+        )
+      );
+      if (! log_dir.exists()) {
+        this.log_path = this.root_path;
+      } else {
+        this.log_path = log_dir.getPath();
+      }
+      
+      File sets_dir = new File(
         getenv(
           "SETS_PATH",
-          new File(new File(bot_name_path), "sets").getPath()
+          new File(
+            new File(this.bot_name_path), "sets"
+          ).getPath()
         )
-      ).getAbsoluteFile().getCanonicalFile().getPath();
+      );
+      if (! sets_dir.exists()) {
+        this.sets_path = this.root_path;
+      } else {
+        this.sets_path = sets_dir.getPath();
+      }
       
-      this.maps_path = new File(
+      File maps_dir = new File(
         getenv(
-          "AIML_PATH",
-          new File(new File(bot_name_path), "maps").getPath()
+          "MAPS_PATH",
+          new File(
+            new File(this.bot_name_path), "maps"
+          ).getPath()
         )
-      ).getAbsoluteFile().getCanonicalFile().getPath();
+      );
+      if (! maps_dir.exists()) {
+        this.maps_path = this.root_path;
+      } else {
+        this.maps_path = maps_dir.getPath();
+      }
+      
       
       if (MagicBooleans.trace_mode) {
         System.out.println(root_path);

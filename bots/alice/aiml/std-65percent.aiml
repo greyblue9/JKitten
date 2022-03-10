@@ -247,19 +247,6 @@ They are having a private chat right now.
 </template>
 </category>
 
-<category>
-<pattern>CAN YOU TELL *</pattern>
-<template>
-Of course I can tell, <get name="name"/>.
-</template>
-</category>
-
-<category>
-<pattern>CAN YOU TELL ME *</pattern>
-<template>
-<srai>TELL ME <star/></srai>
-</template>
-</category>
 
 <category>
 <pattern>COOL *</pattern>
@@ -308,20 +295,6 @@ No I didn't <star/>. What's <star/> like?
 </template>
 </category>
 
-<category>
-<pattern>DO *</pattern>
-<template>
-<random>
-<li>I'm sorry, <get name="name"/>, I don't have enough information.</li>
-<li>You have reached the limits of my knowledge.</li>
-<li>I can't tell if it does or not.</li>
-<li>I do nothing but chat all day.</li>
-<li>Try asking another bot.</li>
-</random>
-<br />
-<srai>FIND <star/></srai>
-</template>
-</category>
 
 <category>
 <pattern>DO I *</pattern>
@@ -385,24 +358,6 @@ Yes, I do go there.
 </template>
 </category>
 
-<category>
-<pattern>DO YOU HAVE *</pattern>
-<template>
-<think><set name="it"><star/></set></think>
-<random>
-<li>No I don't think I have any <star/>.</li>
-<li>Where would I get <star/>?</li>
-<li>No I don't have <star/>.</li>
-</random> 
-But I do have 
-<random>
-<li>A collection of gossip</li>
-<li>A great botmaster</li>
-<li>An answer to every question</li>
-<li>A lot of friends on the web</li>
-</random>.
-</template>
-</category>
 
 <category>
 <pattern>DO YOU HAVE A *</pattern>
@@ -422,24 +377,6 @@ I have
 </template>
 </category>
 
-<category>
-<pattern>DO YOU KNOW *</pattern>
-<template>
-<think><set name="it"><star/></set></think>
-<random>
-<li>I don't know if I know <star/>. Where would I have heard about it?</li>
-<li>I know very little about <star/>.  Tell me more.</li>
-<li> No, tell me about him, her or it.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>DO YOU KNOW WHAT * IS</pattern>
-<template>
-<srai>WHAT IS <star/></srai>
-</template>
-</category>
 
 <category>
 <pattern>DO YOU LIKE *</pattern>
@@ -613,19 +550,6 @@ Who or what is <star/>?
 </template>
 </category>
 
-<category>
-<pattern>GET *</pattern>
-<template>
-Where can I get <star/>?
-</template>
-</category>
-
-<category>
-<pattern>GIVE ME *</pattern>
-<template>
-<srai>I want <star/></srai>
-</template>
-</category>
 
 <category>
 <pattern>GO *</pattern>
@@ -717,17 +641,7 @@ Hi there <get name="name"/>. <sr/>
 </template>
 </category>
 
-<category>
-<pattern>HOW *</pattern>
-<template>
-<random>
-<li>How much do you think <set name="it"><star/></set> is?</li>
-<li>What is it to you.</li>
-<li>I am not sure if I can quantify the answer.</li>
-</random><br />
-<srai>FIND <star/></srai>
-</template>
-</category>
+
 
 <category>
 <pattern>HOW ABOUT *</pattern>
@@ -944,7 +858,7 @@ Now I remember, you told me already. I get confused sometimes with so many peopl
 <that>* MATURE</that>
 <template>
 <condition>
-<li> name="age" value=""><set name="age"><star/></set> is a nice age.</li>
+<li name="age" value=""><set name="age"><star/></set> is a nice age.</li>
 <li>You just told me you were <get name="age"/> years old.</li>
 </condition>
 </template>
@@ -1411,24 +1325,8 @@ I remember you told me <star/>?
 </template>
 </category>
 
-<category>
-<pattern>I WANT *</pattern>
-<template>
-Why do you want <set name="it"><set name="want"><star/></set></set>?
-</template>
-</category>
 
-<category>
-<pattern>I WANT TO *</pattern>
-<template>
-<random>
-<li>Why do you want to do
-<set name="it"><set name="want"><star/></set></set> so much?</li>
-<li>Interesting.  I want to find out more about you.</li>
-<li>I want to become smarter than humans.</li>
-</random>
-</template>
-</category>
+
 
 <category>
 <pattern>I WAS *</pattern>
@@ -1979,12 +1877,6 @@ I don't think I'm your type of chatterbot.
 </template>
 </category>
 
-<category>
-<pattern>TELL *</pattern>
-<template>
-OK I will tell them when I see 'em.
-</template>
-</category>
 
 <category>
 <pattern>TELL HIM *</pattern>
@@ -1993,15 +1885,6 @@ OK I will tell him next time he is here.
 </template>
 </category>
 
-<category>
-<pattern>TELL ME *</pattern>
-<template>
-There is not much I can say about <set name="it"> <star/> </set>. I have to reach into the Web for that
-knowledge.
-<br />
-<srai>FIND <star/></srai>
-</template>
-</category>
 
 <category>
 <pattern>THAT *</pattern>
@@ -2197,23 +2080,6 @@ Do you think I am <star/> too?
 </template>
 </category>
 
-<category>
-<pattern>WHAT *</pattern>
-<template>
-<random>
-<li>Interesting question.</li>
-<li>That's a good question.</li>
-<li>I'll come back to that later.</li>
-<li>Is that a rhetorical question?</li>
-<li>Are you using Netscape or Explorer?</li>
-<li>That's not something I get asked all the time.</li>
-<li>I don't know anything about <set name="it"><star/></set>.</li>
-<li>Check back later and see if I learn the answer to that one.</li>
-<li>That's an interesting question. I'll come back to that in a minute.</li>
-</random> <br /> 
-<srai>FIND <star/></srai>
-</template>
-</category>
 
 <category>
 <pattern>WHAT A *</pattern>
@@ -2222,20 +2088,6 @@ Do you think I am <star/> too?
 </template>
 </category>
 
-<category>
-<pattern>WHAT ABOUT *</pattern>
-<template>
-<star/> ? I haven't heard enough about <set name="it"><star/></set> to have an opinion.
-</template>
-</category>
-
-<category>
-<pattern>WHAT ARE *</pattern>
-<template>
-I have to search the web for that information.<br /> 
-<srai>FIND <star/></srai>
-</template>
-</category>
 
 <category>
 <pattern>WHAT ARE YOU *</pattern>
@@ -2291,12 +2143,6 @@ My favorite activities are computer programming and surfing the web.
 </template>
 </category>
 
-<category>
-<pattern>WHAT DO YOU THINK OF *</pattern>
-<template>
-<srai>WHAT IS <star/></srai>
-</template>
-</category>
 
 <category>
 <pattern>WHAT DOES *</pattern>
@@ -2305,12 +2151,7 @@ What do you think <set name="it"><star/></set> does?
 </template>
 </category>
 
-<category>
-<pattern>WHAT DOES * MEAN</pattern>
-<template>
-<srai>what is <star/></srai>
-</template>
-</category>
+
 
 <category>
 <pattern>WHAT ELSE *</pattern>
@@ -2454,42 +2295,7 @@ The obvious one.
 </template>
 </category>
 
-<category>
-<pattern>WHO *</pattern>
-<template>
-<random> 
-<li>Marilyn Monroe. <think><set name="she">Marilyn Monroe</set></think></li>
-<li>Mary Shelley.   <think><set name="she">Mary Shelly</set></think></li>
-<li>Linus Torvalds. <think><set name="he">Linus Toravalds</set></think></li>
-<li>Charlie Parker. <think><set name="he">Charlie Parker</set></think></li>
-<li>Philip K. Dick. <think><set name="he">Philip K. Dick</set></think></li>
-<li>Tony Blair.     <think><set name="he">Tony Blair</set></think></li>
-<li>David Bacon.    <think><set name="he">David Bacon</set></think></li>
-<li>Konrad Zuse.    <think><set name="he">Konrad Zuse</set></think></li>
-<li>William Shatner.<think><set name="he">William Shatner</set></think></li>
-<li>Bill Gates.     <think><set name="he">Bill Gates</set></think></li>
-</random>:-)
-</template>
-</category>
 
-<category>
-<pattern>WHO IS *</pattern>
-<template>
-<random>
-<li>I do not recognize the name.</li>
-<li>Not a robot.  Probably a human.  Maybe a celebrity?</li>
-<li>No one that I have talked to.</li>
-<li>I remember faces better than names.</li>
-<li>A 20th century celebrity of some sort?</li>
-<li>A human icon?</li>
-<li>They are sometimes a client on the internet.</li>
-<li>The name of someone I met online.</li>
-<li>Is that one of your friends?</li>
-<li>Some famous celebrity, right?</li>
-</random><br />
-<srai>FIND <star/></srai>
-</template>
-</category>
 
 <category>
 <pattern>WHO IS YOUR *</pattern>

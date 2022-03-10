@@ -391,21 +391,21 @@ public class Category {
   @param filename IML file name
   */
   public Category(int activationCnt, String pattern, String that, String topic, String template, String filename) {
-  if (MagicBooleans.fix_excel_csv) {
-    pattern = Utilities.fixCSV(pattern);
-    that = Utilities.fixCSV(that);
-    topic = Utilities.fixCSV(topic);
-    template = Utilities.fixCSV(template);
-    filename = Utilities.fixCSV(filename);
-  }
-  this.pattern = pattern.trim().toUpperCase();
-  this.that = that.trim().toUpperCase();
-  this.topic = topic.trim().toUpperCase();
-  this.template = template.replace("& ", " and "); // XML parser treats & badly
-  this.filename = filename;
-  this.activationCnt = activationCnt;
-  matches = null;
-  this.categoryNumber = categoryCnt++;
+    if (MagicBooleans.fix_excel_csv) {
+      pattern = Utilities.fixCSV(pattern);
+      that = Utilities.fixCSV(that);
+      topic = Utilities.fixCSV(topic);
+      template = Utilities.fixCSV(template);
+      filename = Utilities.fixCSV(filename);
+    }
+    this.pattern = pattern.trim().toUpperCase();
+    this.that = that.trim().toUpperCase();
+    this.topic = topic.trim().toUpperCase();
+    this.template = toElement(template.replace("& ", " and ")).outerHtml().replaceAll("'\n *", "'"); // XML parser treats & badly
+    this.filename = filename;
+    this.activationCnt = activationCnt;
+    matches = null;
+    this.categoryNumber = categoryCnt++;
   }
 
   /**

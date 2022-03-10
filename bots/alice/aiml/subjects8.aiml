@@ -1,6 +1,6 @@
 
 <aiml>
-	<category><pattern>MY FAVORITE SUBJECT IS <set>subjecteight</set></pattern>
+	<category><pattern>MY FAVORITE SUBJECT IS <set>subjeceight</set></pattern>
 	<template>
 	<random>
 	<li><set name="favoritesubject"><formal><star/></formal></set> is a nice subject. It is in the eight semester , isn't it?

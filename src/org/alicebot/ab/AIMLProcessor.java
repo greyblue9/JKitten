@@ -751,7 +751,7 @@ public class AIMLProcessor {
   */
 
   private static String id(Node node, ParseState ps) {
-    return ps.chatSession.customerId;
+    return ps.chatSession.customerId.trim();
   }
   /**
   return the size of the robot brain (number of AIML categories loaded).
@@ -1424,6 +1424,7 @@ public class AIMLProcessor {
 		//MagicBooleans.trace("in AIMLProcessor.recursEval(), nodeName: " + nodeName);
 		//MagicBooleans.trace("in AIMLProcessor.recursEval(), node.getNodeValue(): " + node.getNodeValue());
     if (nodeName.equals("#text")) return node.getNodeValue();
+    if (nodeName.equals("#cdata-section")) return node.getNodeValue();
     else if (nodeName.equals("#comment")) {
       //MagicBooleans.trace("in AIMLProcessor.recursEval(), comment = "+node.getTextContent());
       return "";

@@ -1,6 +1,7 @@
 package org.alicebot.ab;
 import org.alicebot.ab.utils.IOUtils;
 import java.io.*;
+import java.util.*;
 
 /* Program AB Reference AIML 2.0 implementation
  Copyright (C) 2013 ALICE A.I. Foundation
@@ -22,6 +23,7 @@ import java.io.*;
 Class encapsulating a chat session between a bot and a client
 */
 public class Chat {
+  public static final Map<String, Chat> sessions = new HashMap<>();
 
   public Bot bot;
 
@@ -72,6 +74,7 @@ public class Chat {
   this.customerId = customerId;
   this.bot = bot;
   this.doWrites = doWrites;
+  this.sessions.put(customerId, this);
   History<String> contextThatHistory = new History<String>();
   contextThatHistory.add(MagicStrings.default_that);
   thatHistory.add(contextThatHistory);

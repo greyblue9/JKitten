@@ -1,7 +1,6 @@
 #!/bin/bash
 
-classpath="${CLASSPATH}${CLASSPATH:+:}$( find "$( pwd )/lib" -name "*.jar" | tr '\n' ":"
-)$( pwd )/out:$( pwd  )"
+classpath="${CLASSPATH}${CLASSPATH:+:}$( find "$PWD/lib" -name "*.jar" | tr '\n' ":" )$PWD/out:$PWD"
 
 rm -rf out && mkdir -p out
 find ./src -name "*.java" -exec javac -g -implicit:none -proc:none -nowarn -cp "./lib/deps.jar:./lib/jackson-core-2.2.3.jar" -d out/ "{}" + && rm -vf -- lib/Ab.jar && ( cd out; zip -Xy ../lib/Ab.jar -r . ; );

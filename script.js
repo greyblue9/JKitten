@@ -6,23 +6,32 @@ function getStockQuote(stock) {
   return "Sorry, the market is down due to the Russia situation.";
 }
 
-var knowledge = Java.type("Main").chatSessions;
+var sessions = Java.type("org.alicebot.ab.Chat").sessions;
 
 
 function setValue(session_key, key, value) {
-  if (!(session_key in knowledge)) {
-    knowledge[session_key] = {};
+  if (!(session_key in sessions)) {
+    sessions[session_key] = {};
   }
-  knowledge[session_key][key] = value;
+  sessions[session_key][key] = value;
 }
 
 function getValue(session_key, key) {
-  if (!(session_key in knowledge)) {
+  if (!(session_key in sessions)) {
     return "";
   }
-  if (!(key in knowledge[session_key])) {
-    return knowledge[session_key][key];
+  if (!(key in sessions[session_key])) {
+    return sessions[session_key][key];
   }
   return "";
 }
+
+function showCalculator(session_key) {
+  var input = sessions[session_key].inputHistory.get(0);
+  var expr = input.replace(/^([^0-9()-]+ )*/, "");
+  var ans = eval(expr);
+  return ans;
+}
+
+
 

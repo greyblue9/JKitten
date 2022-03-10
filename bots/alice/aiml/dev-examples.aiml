@@ -275,5 +275,9 @@ OK.
 <template>You said yes</template>
 </category>
 
+<category>
+<pattern>SHOW CALCULATOR</pattern>
+<template><javascript>showCalculator('<id/>')</javascript></template>
+</category>
 
 </aiml>

@@ -25,7 +25,7 @@ public class MagicStrings {
 public static String program_name_version = "Program AB 0.0.6.26 beta -- AI Foundation Reference AIML 2.1 implementation";
     public static String comment = "Added repetition detection.";
     public static String aimlif_split_char = ",";
-    public static String default_bot = "alice2";
+    public static String default_bot = "alice";
     public static String default_language = "EN";
     public static String aimlif_split_char_name = "\\#Comma";
     public static String aimlif_file_suffix = ".csv";
@@ -69,7 +69,7 @@ public static String default_bot_response = "I have no answer for that.";
     public static String default_property = "unknown";
     public static String default_map = "unknown";
     public static String default_Customer_id = "unknown";
-    public static String default_bot_name = "unknown";
+    public static String default_bot_name = "alice";
     public static String default_that = "unknown";
     public static String default_topic = "unknown";
     public static String default_list_item = "NIL";

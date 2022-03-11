@@ -174,18 +174,18 @@ public class Graphmaster {
   void addPath(Nodemapper node, Path path, Category category) {
     //if (path != null) System.out.println("Enable shortcuts = "+enableShortCuts+" path="+Path.pathToSentence(path)+" "+thatStarTopicStar(path));
     if (path == null) {
-      node.category = category;
+      node.setCategory(category);
       node.height = 0;
     }
     else if (enableShortCuts && thatStarTopicStar(path)) {
-      node.category = category;
+      node.setCategory(category);
       node.height = Math.min(4, node.height);
       node.shortCut = true;
     }
     else if (NodemapperOperator.containsKey(node, path.word)) 
     {
       if (path.word.startsWith("<SET>")) addSets(path.word, bot, node, category.getFilename());
-      Nodemapper nextNode = NodemapperOperator.get(node, path.word);
+      Nodemapper nextNode = node.get(path.word);
       addPath(nextNode, path.next, category);
       int offset = 1;
       if (path.word.equals("#") || path.word.equals("^")) offset = 0;
@@ -197,10 +197,10 @@ public class Graphmaster {
         addSets(path.word, bot, node, category.getFilename());
       }
       if (node.key != null)  {
-        NodemapperOperator.upgrade(node);
+        node.upgrade();
         upgradeCnt++;
       }
-      NodemapperOperator.put(node, path.word, nextNode);
+      node.put(path.word, nextNode);
       addPath(nextNode, path.next, category);
       int offset = 1;
       if (path.word.equals("#") || path.word.equals("^")) offset = 0;
@@ -236,7 +236,7 @@ public class Graphmaster {
     if (verbose) System.out.println("findNode "+inputThatTopic(input, that, topic)+" "+result);
     return result;
   }
-  public static boolean verbose = false;
+  public static boolean verbose = true;
 
   /**
   Recursively find a leaf node given a starting node and a path.

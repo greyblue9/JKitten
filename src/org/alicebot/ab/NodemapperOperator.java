@@ -29,11 +29,7 @@ public class NodemapperOperator {
   @return umber of branches
   */
   public static int size(Nodemapper node) {
-  HashSet set = new HashSet();
-  if (node.shortCut) set.add("<THAT>");
-  if (node.key != null) set.add(node.key);
-  if (node.map != null) set.addAll(node.map.keySet());
-  return set.size();
+    return node.size();
   }
 
   /**
@@ -43,14 +39,8 @@ public class NodemapperOperator {
   @param key ey word
   @param value ord maps to this next node
   */
-  public static void put(Nodemapper node, String key, Nodemapper value) {
-  if (node.map != null) {
-    node.map.put(key, value);
-  } else {
-      // node.type == unary_node_mapper
-    node.key = key;
-    node.value = value;
-  }
+  public static Nodemapper put(Nodemapper node, String key, Nodemapper value) {
+    return node.put(key, value);
   }
 
   /**
@@ -61,12 +51,7 @@ public class NodemapperOperator {
   @return he mapped node or null if the key is not found
   */
   public static Nodemapper get(Nodemapper node, String key) {
-  if (node.map != null) {
-    return node.map.get(key);
-  } else {
-      // node.type == unary_node_mapper
-    if (key.equals(node.key)) return node.value; else return null;
-  }
+    return node.get(key);
   }
 
   /**
@@ -78,12 +63,7 @@ public class NodemapperOperator {
   */
   public static boolean containsKey(Nodemapper node, String key) {
     //System.out.println("containsKey: Node="+node+" Map="+node.map);
-  if (node.map != null) {
-    return node.map.containsKey(key);
-  } else {
-      // node.type == unary_node_mapper
-    if (key.equals(node.key)) return true; else return false;
-  }
+    return node.containsKey(key);
   }
 
   /**
@@ -92,11 +72,11 @@ public class NodemapperOperator {
   @param node Nodemapper object
   */
   public static void printKeys(Nodemapper node) {
-  Set set = keySet(node);
-  Iterator iter = set.iterator();
-  while (iter.hasNext()) {
-    System.out.println("" + iter.next());
-  }
+    Set set = keySet(node);
+    Iterator iter = set.iterator();
+    while (iter.hasNext()) {
+      System.out.println("" + iter.next());
+    }
   }
 
   /**
@@ -106,14 +86,7 @@ public class NodemapperOperator {
   @return et of keys
   */
   public static Set<String> keySet(Nodemapper node) {
-  if (node.map != null) {
-    return node.map.keySet();
-  } else {
-      // node.type == unary_node_mapper
-    Set set = new HashSet<String>();
-    if (node.key != null) set.add(node.key);
-    return set;
-  }
+    return node.keySet();
   }
 
   /**
@@ -123,7 +96,7 @@ public class NodemapperOperator {
   @return rue or false
   */
   public static boolean isLeaf(Nodemapper node) {
-  return (node.category != null);
+    return node.isLeaf();
   }
 
   /**
@@ -134,9 +107,7 @@ public class NodemapperOperator {
   public static void upgrade(Nodemapper node) {
     //System.out.println("Upgrading "+node.id);
     //node.type = MagicNumbers.hash_node_mapper;
-  node.map = new HashMap<String, Nodemapper>();
-  node.map.put(node.key, node.value);
-  node.key = null;
-  node.value = null;
+    node.upgrade();
   }
+  
 }

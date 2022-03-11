@@ -16,13 +16,16 @@ package org.alicebot.ab;
  Boston, MA 02110-1301, USA.
  */
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.TreeMap;
+import java.util.*;
 
 /**
 Nodemapper data structure. In order to minimize memory overhead this class has no methods.
 Operations on Nodemapper objects are performed by NodemapperOperator class
 */
-public class Nodemapper {
+public class Nodemapper extends AbstractMap<String, Nodemapper> {
+  
+  public static final Map<String, Nodemapper> byPattern = new  TreeMap<>();
 
   /* public static int idCnt=0;
    public int id;*/
@@ -32,7 +35,7 @@ public class Nodemapper {
 
   public StarBindings starBindings = null;
 
-  public HashMap<String, Nodemapper> map = null;
+  public TreeMap<String, Nodemapper> map = null;
 
   public String key = null;
 
@@ -44,26 +47,196 @@ public class Nodemapper {
   
   @Override
   public int hashCode() {
-  int hash = 0x77;
-  hash = (hash << 3) ^ ((category != null) ? category.hashCode(): 0);
-  hash = (hash << 3) ^ ((key != null) ? key.hashCode(): 0);
-  hash = (hash << 3) ^ ((value != null) ? value.hashCode(): 0);
-  return hash;
+    int hash = 0x77;
+    hash = (hash << 3) ^ ((category != null) ? category.hashCode(): 0);
+    hash = (hash << 3) ^ ((map != null) ? map.keySet().hashCode(): 0);
+    hash = (hash << 3) ^ ((value != null) ? value.hashCode(): 0);
+    hash = (hash << 3) ^ height;
+    return hash;
   }
   
   @Override
-  public boolean equals(Object other) {
-  if (!(other instanceof Nodemapper)) return false;
-  Nodemapper o = (Nodemapper) other;
-  return (
-     (category != null && category.equals(o.category))
-    || (category == null && o.category == null)
-  ) && (
-     (key != null && key.equals(o.key))
-    || (key == null && o.key == null)
-  ) && (
-     (value != null && value.equals(o.value))
-    || (value == null && o.value == null)
-  );
+  public boolean equals(final Object other) {
+    if (!(other instanceof Nodemapper)) return false;
+    Nodemapper o = (Nodemapper) other;
+    return (
+       (category != null && category.equals(o.category))
+      || (category == null && o.category == null)
+    ) && (
+       (map != null && map.keySet().equals(o.map.keySet()))
+      || (map == null && o.map == null)
+    ) && (
+       (value != null && value.equals(o.value))
+      || (value == null && o.value == null)
+    ) && (
+       (height == o.height)
+    );
+  }
+  
+  @Override
+  public String toString() {
+    return String.format(
+      "NodeMapper(key=%s, height=%s, category=%s, value=%s map=%s)",
+      key, height, category, value, map
+    );
+  }
+  
+  public void setCategory(Category category) {
+    if (this.category != null) {
+      final String oldPattern = this.category.getPattern();
+      byPattern.remove(oldPattern);
+    }
+    this.category = category;
+    if (category != null) {
+      final String pattern = category.getPattern();
+      byPattern.put(pattern, this);
+    }
+  }
+  
+  /**
+  number of branches from node
+   *
+  @param node odemapper object
+  @return umber of branches
+  */
+  @Override
+  public int size() {
+    TreeSet set = new TreeSet();
+    if (this.shortCut) set.add("<THAT>");
+    if (this.key != null) set.add(this.key);
+    if (this.map != null) set.addAll(this.map.keySet());
+    return set.size();
+  }
+
+  /**
+  insert a new link from this node to another, by adding a key, value pair
+   *
+  @param node odemapper object
+  @param key ey word
+  @param value ord maps to this next node
+  */
+  @Override
+  public Nodemapper put(String key, Nodemapper value) {
+    if (this.map != null) {
+      return this.map.put(key, value);
+    } else {
+      // this.type == unary_node_mapper
+      final Nodemapper oldValue = (key.equals(this.key))
+        ? this.value
+        : null;
+      this.key = key;
+      this.value = value;
+      return oldValue;
+    }
+  }
+
+  /**
+  get the node linked to this one by the word key
+  
+  @param node odemapper object
+  @param key ey word to map
+  @return he mapped node or null if the key is not found
+  */
+  @Override
+  public Nodemapper get(Object key) {
+    if (this.map != null) {
+      return this.map.get(key);
+    } else {
+      // this.type == unary_node_mapper
+      if (key.equals(this.key)) return this.value; else return null;
+    }
+  }
+
+  /**
+  check whether a node contains a particular key
+   *
+  @param node odemapper object
+  @param key ey to test
+  @return rue or false
+  */
+  @Override
+  public boolean containsKey(Object key) {
+    //System.out.println("containsKey: Node="+this+" Map="+this.map);
+    if (this.map != null) {
+      return this.map.containsKey(key);
+    } else {
+      // this.type == unary_node_mapper
+      if (key.equals(this.key)) return true; else return false;
+    }
+  }
+
+  /**
+  print all node keys
+   *
+  @param node Nodemapper object
+  */
+  public void printKeys() {
+    Set set = this.keySet();
+    Iterator iter = set.iterator();
+    while (iter.hasNext()) {
+      System.out.println("" + iter.next());
+    }
+  }
+
+  /**
+  get key set of a node
+   *
+  @param node odemapper object
+  @return et of keys
+  */
+  @Override
+  public Set<String> keySet() {
+    if (this.map != null) {
+      return this.map.keySet();
+    } else {
+      // this.type == unary_node_mapper
+      Set set = new TreeSet<String>();
+      if (this.key != null) set.add(this.key);
+      return set;
+    }
+  }
+
+  /**
+  get key set of a node
+   *
+  @param node odemapper object
+  @return et of keys
+  */
+  @Override
+  public Set<Map.Entry<String, Nodemapper>> entrySet() {
+    final Set<Map.Entry<String, Nodemapper>> entries
+      = new TreeSet<>();
+    
+    for (final String key: this.keySet()) {
+      final Nodemapper value = this.get(key);
+      final Map.Entry<String, Nodemapper> entry
+        = new AbstractMap.SimpleEntry<>(key, value);
+      entries.add(entry);
+    }
+    return entries;
+  }
+
+  /**
+  test whether a node is a leaf
+   *
+  @param node odemapper object
+  @return rue or false
+  */
+  public boolean isLeaf() {
+    return (this.category != null);
+  }
+  
+  /**
+  upgrade a node from a singleton to a multi-way map
+   *
+  @param node odemapper object
+  */
+  public void upgrade() {
+    // System.out.println("Upgrading "+this.id);
+    // this.type = MagicNumbers.hash_node_mapper;
+    this.map = new TreeMap<String, Nodemapper>();
+    this.map.put(this.key, this.value);
+    this.key = null;
+    this.value = null;
   }
 }

@@ -66,17 +66,17 @@ public class Bot {
 
   public String bot_name_path = bot_path + "/alice";
 
-  public String aimlif_path = bot_path + "/aimlif";
+  public String aimlif_path = bot_name_path + "/aimlif";
 
-  public String aiml_path = bot_path + "/aiml";
+  public String aiml_path = bot_name_path + "/aiml";
 
-  public String config_path = bot_path + "/config";
+  public String config_path = bot_name_path + "/config";
 
-  public String log_path = bot_path + "/log";
+  public String log_path = bot_name_path + "/log";
 
-  public String sets_path = bot_path + "/sets";
+  public String sets_path = bot_name_path + "/sets";
 
-  public String maps_path = bot_path + "/maps";
+  public String maps_path = bot_name_path + "/maps";
 
   /**
   Set all directory path variables for this bot

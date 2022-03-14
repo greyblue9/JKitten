@@ -18,12 +18,16 @@ package org.alicebot.ab;
 import java.util.ArrayList;
 import java.util.TreeMap;
 import java.util.*;
+import org.apache.commons.lang3.tuple.Pair;
 
 /**
 Nodemapper data structure. In order to minimize memory overhead this class has no methods.
 Operations on Nodemapper objects are performed by NodemapperOperator class
 */
-public class Nodemapper extends AbstractMap<String, Nodemapper> {
+public class Nodemapper 
+  extends AbstractMap<String, Nodemapper> 
+  implements Comparable<Nodemapper>
+{
   
   public static final Map<String, Nodemapper> byPattern = new  TreeMap<>();
 
@@ -71,6 +75,29 @@ public class Nodemapper extends AbstractMap<String, Nodemapper> {
     ) && (
        (height == o.height)
     );
+  }
+  
+  @Override
+  public int compareTo(final Nodemapper other) {
+    if (!(other instanceof Nodemapper)) return 0;
+    Nodemapper o = (Nodemapper) other;
+    if (category == null || o.category == null) {
+      return 0;
+    }
+    int cmp = category.getPattern().compareTo(
+      o.category.getPattern()
+    );
+    if (cmp != 0) return cmp;
+    cmp = category.getFilename().compareTo(
+      o.category.getFilename()
+    );
+    if (cmp != 0) return cmp;
+    if (key == null || o.key == null) {
+      return 0;
+    }
+    cmp = key.compareTo(o.key);
+    if (cmp != 0) return cmp;
+    return 0;
   }
   
   @Override
@@ -209,8 +236,8 @@ public class Nodemapper extends AbstractMap<String, Nodemapper> {
     
     for (final String key: this.keySet()) {
       final Nodemapper value = this.get(key);
-      final Map.Entry<String, Nodemapper> entry
-        = new AbstractMap.SimpleEntry<>(key, value);
+      final Pair<String, Nodemapper> entry
+        = Pair.of(key, value);
       entries.add(entry);
     }
     return entries;

@@ -27,7 +27,8 @@ import static java.nio.charset.StandardCharsets.UTF_8;
 /**
 structure representing an AIML category and operations on Category
 */
-public class Category {
+public class Category 
+  implements Comparable<Category> {
   
   public static Map<String, Category> byPattern = new TreeMap<>();
 
@@ -50,6 +51,21 @@ public class Category {
 
   public AIMLSet matches;
   
+  @Override
+  public int compareTo(final Category o) {
+    if (o == null) {
+      return 0;
+    }
+    int cmp = this.getPattern().compareTo(
+      o.getPattern()
+    );
+    if (cmp != 0) return cmp;
+    cmp = this.getFilename().compareTo(
+      o.getFilename()
+    );
+    if (cmp != 0) return cmp;
+    return 0;
+  }
   /**
   Return a set of inputs matching the category
    *

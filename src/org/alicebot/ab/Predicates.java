@@ -17,6 +17,7 @@ package org.alicebot.ab;
  */
 import java.io.*;
 import java.util.HashMap;
+import org.apache.commons.lang3.StringEscapeUtils;
 
 /**
 Manage client predicates
@@ -31,16 +32,25 @@ public class Predicates extends HashMap<String, String> {
   @param value redicate value
   @return redicate value
   */
+  @Override
   public String put(String key, String value) {
-    //MagicBooleans.trace("predicates.put(key: " + key + ", value: " + value + ")");
-  if (MagicBooleans.jp_tokenize) {
-  }
-  if (key.equals("topic") && value.length() == 0) value = MagicStrings.default_get;
-  if (value.equals(MagicStrings.too_much_recursion)) value = MagicStrings.default_list_item;
+    MagicBooleans.trace(String.format(
+      "predicates.put(key: %s, value: %s)",
+      StringEscapeUtils.escapeJava(key),
+      StringEscapeUtils.escapeJava(value)
+    ));
+    if (key.equals("topic")
+      && (value == null || value.isEmpty()))
+    {
+      value = this.get(key);
+    }
+    if (value.equals(MagicStrings.too_much_recursion)) {
+      value = MagicStrings.default_list_item;
+    }
     // MagicBooleans.trace("Setting predicate key: " + key + " to value: " + value);
-  String result = super.put(key, value);
-    //MagicBooleans.trace("in predicates.put, returning: " + result);
-  return result;
+    String result = super.put(key, value);
+    // MagicBooleans.trace("in predicates.put, returning: " + result);
+    return result;
   }
 
   /**
@@ -49,12 +59,20 @@ public class Predicates extends HashMap<String, String> {
   @param key predicate name
   @return redicate value
   */
-  public String get(String key) {
-    //MagicBooleans.trace("predicates.get(key: " + key + ")");
-  String result = super.get(key);
-  if (result == null) result = MagicStrings.default_get;
-    //MagicBooleans.trace("in predicates.get, returning: " + result);
-  return result;
+  @Override
+  public String get(final Object key) {
+    MagicBooleans.trace(String.format(
+      "predicates.get(key: %s)",
+      StringEscapeUtils.escapeJava((String) key)
+    ));
+    String result = super.get(key);
+    if (result == null) result = MagicStrings.default_get;
+    MagicBooleans.trace(String.format(
+      "predicates.get(key: %s) returning -> %s",
+      StringEscapeUtils.escapeJava((String) key),
+      StringEscapeUtils.escapeJava(result)
+    ));
+    return result;
   }
 
   /**
@@ -62,21 +80,25 @@ public class Predicates extends HashMap<String, String> {
    *
   @param in input stream
   */
-  public void getPredicateDefaultsFromInputStream(InputStream in) {
-  BufferedReader br = new BufferedReader(new InputStreamReader(in));
-  String strLine;
-  try {
-      //Read File Line By Line
-    while ((strLine = br.readLine()) != null) {
-    if (strLine.contains(":")) {
-      String property = strLine.substring(0, strLine.indexOf(":"));
-      String value = strLine.substring(strLine.indexOf(":") + 1);
-      put(property, value);
+  public void getPredicateDefaultsFromInputStream(
+    final InputStream in) 
+  {
+    try (final BufferedReader br = new BufferedReader(
+           new InputStreamReader(in))
+        )
+    {
+      // Read File Line By Line
+      String strLine;
+      while ((strLine = br.readLine()) != null) {
+        if (strLine.contains(":")) {
+          String property = strLine.substring(0, strLine.indexOf(":"));
+          String value = strLine.substring(strLine.indexOf(":") + 1);
+          this.put(property, value);
+        }
+      }
+    } catch (Exception ex) {
+      ex.printStackTrace();
     }
-    }
-  } catch (Exception ex) {
-    ex.printStackTrace();
-  }
   }
 
   /** read predicate defaults from a file
@@ -84,19 +106,21 @@ public class Predicates extends HashMap<String, String> {
   @param filename ame of file
   */
   public void getPredicateDefaults(String filename) {
-  try {
-      // Open the file that is the first
-      // command line parameter
-    File file = new File(filename);
-    if (file.exists()) {
-    FileInputStream fstream = new FileInputStream(filename);
-        // Get the object
-    getPredicateDefaultsFromInputStream(fstream);
-    fstream.close();
+    try {
+        // Open the file that is the first
+        // command line parameter
+        final File file = new File(filename);
+        if (file.exists()) {
+        try (final InputStream fstream
+          = new FileInputStream(filename))
+        {
+          // Get the object
+          getPredicateDefaultsFromInputStream(fstream);
+        }
+      }
+    } catch (Exception e) {
+      // Catch exception if any
+      e.printStackTrace();
     }
-  } catch (Exception e) {
-      //Catch exception if any
-    System.err.println("Error: " + e.getMessage());
-  }
   }
 }

@@ -1,0 +1,3042 @@
+<?xml version="1.0"?>
+<aiml>
+ <category>
+  <pattern>
+   SUP
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BARAN
+    </set>
+    <set name="that">
+     BARAN
+    </set>
+   </think>
+   hey baran!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HEY BARAN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     YOU
+    </set>
+    <set name="that">
+     YOU
+    </set>
+   </think>
+   its going great, how about you?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HOWS IT GOING
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HOWS
+    </set>
+    <set name="that">
+     HOWS
+    </set>
+   </think>
+   its going great, how about you?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS GOING GREAT HOW ABOUT YOU
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GOOD
+    </set>
+    <set name="that">
+     GOOD
+    </set>
+   </think>
+   koofers is pretty good
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HOWS KOOFERS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GOOD
+    </set>
+    <set name="that">
+     GOOD
+    </set>
+   </think>
+   koofers is pretty good
+  </template>
+ </category>
+ <category>
+  <pattern>
+   KOOFERS IS PRETTY GOOD
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     P
+    </set>
+    <set name="that">
+     P
+    </set>
+   </think>
+   but im sure its fun :P
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THERES LOT ON THE BURNER AS USUAL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     P
+    </set>
+    <set name="that">
+     P
+    </set>
+   </think>
+   but im sure its fun :P
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YEAH REALLY LIKE IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HEHE
+    </set>
+    <set name="that">
+     HEHE
+    </set>
+   </think>
+   hehe
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IT BEATS MY PREVIOUS INTERNSHIP WHERE WAS DEATHLY BORED ALL THE TIME
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HEHE
+    </set>
+    <set name="that">
+     HEHE
+    </set>
+   </think>
+   hehe
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HEHE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NOW
+    </set>
+    <set name="that">
+     NOW
+    </set>
+   </think>
+   i think i know my way around PHP pretty well by now
+  </template>
+ </category>
+ <category>
+  <pattern>
+   INTERNSHIPS ARE LIKE THAT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NOW
+    </set>
+    <set name="that">
+     NOW
+    </set>
+   </think>
+   i think i know my way around PHP pretty well by now
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SO BY NOW MUST BE PHP PRO HUH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BE
+    </set>
+    <set name="that">
+     BE
+    </set>
+   </think>
+   i think i know my way around PHP pretty well by now
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OR DO THEY USE SOME OTHER CRAP
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NOW
+    </set>
+    <set name="that">
+     NOW
+    </set>
+   </think>
+   i think i know my way around PHP pretty well by now
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I THINK KNOW MY WAY AROUND PHP PRETTY WELL BY NOW
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NICE
+    </set>
+    <set name="that">
+     NICE
+    </set>
+   </think>
+   nice
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THATS WHAT WE USE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THATS
+    </set>
+    <set name="that">
+     THATS
+    </set>
+   </think>
+   nice
+  </template>
+ </category>
+ <category>
+  <pattern>
+   NICE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     COMPONENT
+    </set>
+    <set name="that">
+     COMPONENT
+    </set>
+   </think>
+   so you're building their social component?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IRONICALLY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     COMPONENT
+    </set>
+    <set name="that">
+     COMPONENT
+    </set>
+   </think>
+   so you're building their social component?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BECAUSE IN MY COMPANY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     COMPONENT
+    </set>
+    <set name="that">
+     COMPONENT
+    </set>
+   </think>
+   so you're building their social component?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THEY HAVE SOCIAL NETWORK THING
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     COMPONENT
+    </set>
+    <set name="that">
+     COMPONENT
+    </set>
+   </think>
+   so you're building their social component?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND WHEN GOT HIRED PUT IN THAT ALSO KNOW
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     COMPONENT
+    </set>
+    <set name="that">
+     COMPONENT
+    </set>
+   </think>
+   so you're building their social component?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   PHP AND DRUPAL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     COMPONENT
+    </set>
+    <set name="that">
+     COMPONENT
+    </set>
+   </think>
+   so you're building their social component?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND THEY PUT ME ON PROJECT FOR THAT SINCE GOT HIRED
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     COMPONENT
+    </set>
+    <set name="that">
+     COMPONENT
+    </set>
+   </think>
+   so you're building their social component?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SO YOURE BUILDING THEIR SOCIAL COMPONENT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HEH
+    </set>
+    <set name="that">
+     HEH
+    </set>
+   </think>
+   no heh
+  </template>
+ </category>
+ <category>
+  <pattern>
+   NO HEH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HEH
+    </set>
+    <set name="that">
+     HEH
+    </set>
+   </think>
+   sharepoint?!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THEIR SOCIAL COMPONENT IS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IS
+    </set>
+    <set name="that">
+     IS
+    </set>
+   </think>
+   sharepoint?!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   LIKE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LIKE
+    </set>
+    <set name="that">
+     LIKE
+    </set>
+   </think>
+   sharepoint?!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   .NET
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NET
+    </set>
+    <set name="that">
+     NET
+    </set>
+   </think>
+   sharepoint?!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND SHAREPOINT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     AND
+    </set>
+    <set name="that">
+     AND
+    </set>
+   </think>
+   sharepoint?!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND SOME OTHER IDIOTS WORK ON THAT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THAT
+    </set>
+    <set name="that">
+     THAT
+    </set>
+   </think>
+   sharepoint?!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS KINDA CRAPPY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CRAPPY
+    </set>
+    <set name="that">
+     CRAPPY
+    </set>
+   </think>
+   sharepoint?!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SHAREPOINT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     USE
+    </set>
+    <set name="that">
+     USE
+    </set>
+   </think>
+   actually they use
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ARGH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     USE
+    </set>
+    <set name="that">
+     USE
+    </set>
+   </think>
+   actually they use
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ACTUALLY THEY USE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ASP
+    </set>
+    <set name="that">
+     ASP
+    </set>
+   </think>
+   wow, PHP and ASP
+  </template>
+ </category>
+ <category>
+  <pattern>
+   A COMBINATION OF
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ASP
+    </set>
+    <set name="that">
+     ASP
+    </set>
+   </think>
+   wow, PHP and ASP
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ASP SHAREPOINT PHP
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ASP
+    </set>
+    <set name="that">
+     ASP
+    </set>
+   </think>
+   wow, PHP and ASP
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ETC
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ASP
+    </set>
+    <set name="that">
+     ASP
+    </set>
+   </think>
+   wow, PHP and ASP
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I KNOW WAS SHOCKED TOO
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ASP
+    </set>
+    <set name="that">
+     ASP
+    </set>
+   </think>
+   wow, PHP and ASP
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BUT YOU CAN SEE .PHP IN LOT OF PLACES
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ASP
+    </set>
+    <set name="that">
+     ASP
+    </set>
+   </think>
+   wow, PHP and ASP
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND YOU CAN SEE SHAREPOINT FEATURES TOO
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     YOU
+    </set>
+    <set name="that">
+     YOU
+    </set>
+   </think>
+   wow, PHP and ASP
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WOW PHP AND ASP
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IT
+    </set>
+    <set name="that">
+     IT
+    </set>
+   </think>
+   right , im glad i dont know the people woh made it
+  </template>
+ </category>
+ <category>
+  <pattern>
+   RIGHT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LIKE
+    </set>
+    <set name="that">
+     LIKE
+    </set>
+   </think>
+   how do you like it?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IM * DONT KNOW THE PEOPLE WOH MADE IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LIKE
+    </set>
+    <set name="that">
+     LIKE
+    </set>
+   </think>
+   how do you like it?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ID MAKE FUN OF THEM TOO HARD
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LIKE
+    </set>
+    <set name="that">
+     LIKE
+    </set>
+   </think>
+   how do you like it?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BUT WORKED ON GOVERNMENT PROJECT FOR THAT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LIKE
+    </set>
+    <set name="that">
+     LIKE
+    </set>
+   </think>
+   how do you like it?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   FOR PHP
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LIKE
+    </set>
+    <set name="that">
+     LIKE
+    </set>
+   </think>
+   how do you like it?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I MEAN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LIKE
+    </set>
+    <set name="that">
+     LIKE
+    </set>
+   </think>
+   how do you like it?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SINCE MY COMPANY IS FED CONTRACTOR
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LIKE
+    </set>
+    <set name="that">
+     LIKE
+    </set>
+   </think>
+   how do you like it?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BUILT LOT OF DRUPAL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LIKE
+    </set>
+    <set name="that">
+     LIKE
+    </set>
+   </think>
+   how do you like it?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HEHE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LIKE
+    </set>
+    <set name="that">
+     LIKE
+    </set>
+   </think>
+   how do you like it?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HOW DO YOU LIKE IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LIKE
+    </set>
+    <set name="that">
+     LIKE
+    </set>
+   </think>
+   it's awesome in terms of the code i get to work with (mostly my own)
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS AWESOME IN TERMS OF THE CODE GET TO WORK WITH (MOSTLY MY OWN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HAHA
+    </set>
+    <set name="that">
+     HAHA
+    </set>
+   </think>
+   that's a definite plus, haha
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS ALSO AWESOME THAT EVERYONE * IS SO BAD AT PHP THAT THEY GIVE ALL TASKS TO ME TO DO
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THATS
+    </set>
+    <set name="that">
+     THATS
+    </set>
+   </think>
+   that's a definite plus, haha
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THATS DEFINITE PLUS HAHA
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THATS
+    </set>
+    <set name="that">
+     THATS
+    </set>
+   </think>
+   yea
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ABILITY TO WORK ON YOUR OWN CODE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CODE
+    </set>
+    <set name="that">
+     CODE
+    </set>
+   </think>
+   yea
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YEA
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BAAH
+    </set>
+    <set name="that">
+     BAAH
+    </set>
+   </think>
+   baah
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THE BAD PART IS ALL THE BUGS AND DEADLINES BECOME SORT OF MY RESPONSIBILITY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BAD
+    </set>
+    <set name="that">
+     BAD
+    </set>
+   </think>
+   particularly with PHP existing code can be so bad
+  </template>
+ </category>
+ <category>
+  <pattern>
+   PARTICULARLY WITH PHP EXISTING CODE CAN BE SO BAD
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PARTICULARLY
+    </set>
+    <set name="that">
+     PARTICULARLY
+    </set>
+   </think>
+   yeah, because of different styles and so many ways to do things
+  </template>
+ </category>
+ <category>
+  <pattern>
+   INLINE QUERIES AND CRAP
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THINGS
+    </set>
+    <set name="that">
+     THINGS
+    </set>
+   </think>
+   yeah, because of different styles and so many ways to do things
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YEAH BECAUSE OF DIFFERENT STYLES AND SO MANY WAYS TO DO THINGS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SHIT
+    </set>
+    <set name="that">
+     SHIT
+    </set>
+   </think>
+   holy shit
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ACTUALLY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SHIT
+    </set>
+    <set name="that">
+     SHIT
+    </set>
+   </think>
+   holy shit
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THE PROJECT WE HAD
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PROJECT
+    </set>
+    <set name="that">
+     PROJECT
+    </set>
+   </think>
+   holy shit
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WAS DRUPAL PROJECT BECAUSE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SHIT
+    </set>
+    <set name="that">
+     SHIT
+    </set>
+   </think>
+   holy shit
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THE GOVERNMENT BUILT IT AT FIRST
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SHIT
+    </set>
+    <set name="that">
+     SHIT
+    </set>
+   </think>
+   holy shit
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SO THEY SENT US THE DRUPAL PACKAGE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SHIT
+    </set>
+    <set name="that">
+     SHIT
+    </set>
+   </think>
+   holy shit
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IT WAS * FILES
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SHIT
+    </set>
+    <set name="that">
+     SHIT
+    </set>
+   </think>
+   holy shit
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HOLY SHIT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IT
+    </set>
+    <set name="that">
+     IT
+    </set>
+   </think>
+   and we don't use ANY of it
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND WE DONT USE ANY OF IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CHRIST
+    </set>
+    <set name="that">
+     CHRIST
+    </set>
+   </think>
+   oh christ
+  </template>
+ </category>
+ <category>
+  <pattern>
+   EXCEPT THE CORE DRUPAL FUNCTIONS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CHRIST
+    </set>
+    <set name="that">
+     CHRIST
+    </set>
+   </think>
+   oh christ
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WHICH IS LIKE * FILES
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CHRIST
+    </set>
+    <set name="that">
+     CHRIST
+    </set>
+   </think>
+   oh christ
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SO JUST BUILT MY OWN MODULE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BUILT
+    </set>
+    <set name="that">
+     BUILT
+    </set>
+   </think>
+   oh christ
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND DISABLED ALMOST ALL OF THEIR MODULES
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CHRIST
+    </set>
+    <set name="that">
+     CHRIST
+    </set>
+   </think>
+   oh christ
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BUT THE IDIOTS DIDNT UNDERSTAND DRUPAL SOTHEY "INSERTED CUSTOM CODE AND BYPASSED DRUPAL API
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CHRIST
+    </set>
+    <set name="that">
+     CHRIST
+    </set>
+   </think>
+   oh christ
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND HAVENT REMOVED THEIR FILES BECAUSE OF THE "POSSIBILITY THAT THEY MIGHT NEED THEM FOR "CHARTS LATER
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CHRIST
+    </set>
+    <set name="that">
+     CHRIST
+    </set>
+   </think>
+   oh christ
+  </template>
+ </category>
+ <category>
+  <pattern>
+   MAKES THE SITE BIT SLOW
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CHRIST
+    </set>
+    <set name="that">
+     CHRIST
+    </set>
+   </think>
+   oh christ
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I DEACTIVATED MOST OF THEIR CODE CUZ ITS SO NASTY THEY HAVE LIKE QUERIES WITH SUBQUERIES AND * INNER JOINS ETC IT MAKES NO SENSE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CHRIST
+    </set>
+    <set name="that">
+     CHRIST
+    </set>
+   </think>
+   oh christ
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OH CHRIST
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FUN
+    </set>
+    <set name="that">
+     FUN
+    </set>
+   </think>
+   yeah has your code been THAT fun ?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YEAH HAS YOUR CODE BEEN THAT FUN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WAY
+    </set>
+    <set name="that">
+     WAY
+    </set>
+   </think>
+   no, i can't say it has, in that way
+  </template>
+ </category>
+ <category>
+  <pattern>
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WAY
+    </set>
+    <set name="that">
+     WAY
+    </set>
+   </think>
+   no, i can't say it has, in that way
+  </template>
+ </category>
+ <category>
+  <pattern>
+   NO CANT SAY IT HAS IN THAT WAY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     MANAGER
+    </set>
+    <set name="that">
+     MANAGER
+    </set>
+   </think>
+   yeah apparently i have been on one of the 'roughest' projects for a long time, or so says my program manager
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HAHA
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     MANAGER
+    </set>
+    <set name="that">
+     MANAGER
+    </set>
+   </think>
+   yeah apparently i have been on one of the 'roughest' projects for a long time, or so says my program manager
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IM LUCKY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     MANAGER
+    </set>
+    <set name="that">
+     MANAGER
+    </set>
+   </think>
+   yeah apparently i have been on one of the 'roughest' projects for a long time, or so says my program manager
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WEVE HAD SOME ROUGH CODE FROM INTERNS AND OLDER PARTS OF THE SITE BUT NOTHING THAT BAD REALLY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     MANAGER
+    </set>
+    <set name="that">
+     MANAGER
+    </set>
+   </think>
+   yeah apparently i have been on one of the 'roughest' projects for a long time, or so says my program manager
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YEAH APPARENTLY HAVE BEEN ON ONE OF THE ROUGHEST PROJECTS FOR LONG TIME OR SO SAYS MY PROGRAM MANAGER
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CODE
+    </set>
+    <set name="that">
+     CODE
+    </set>
+   </think>
+   and there's not THAT much code
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND THERES NOT THAT MUCH CODE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     EFFICIENT
+    </set>
+    <set name="that">
+     EFFICIENT
+    </set>
+   </think>
+   i'm sure koofers is a lot more efficient
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WHO ARE YOU WORKING FOR
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     EFFICIENT
+    </set>
+    <set name="that">
+     EFFICIENT
+    </set>
+   </think>
+   i'm sure koofers is a lot more efficient
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IM SURE KOOFERS IS LOT MORE EFFICIENT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     OF
+    </set>
+    <set name="that">
+     OF
+    </set>
+   </think>
+   lol, don't underestimate the bureaucracy of koofers
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AS SMALLER COMPANY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     OF
+    </set>
+    <set name="that">
+     OF
+    </set>
+   </think>
+   lol, don't underestimate the bureaucracy of koofers
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I WORK FOR BOOZ ALLEN HAMILTON
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     OF
+    </set>
+    <set name="that">
+     OF
+    </set>
+   </think>
+   lol, don't underestimate the bureaucracy of koofers
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS LIKE * BIGGEST DEFENSE COMPANY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     OF
+    </set>
+    <set name="that">
+     OF
+    </set>
+   </think>
+   lol, don't underestimate the bureaucracy of koofers
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SMALLER IN SIZE BUT BIGGER IN REVENUE HEH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SMALLER
+    </set>
+    <set name="that">
+     SMALLER
+    </set>
+   </think>
+   lol, don't underestimate the bureaucracy of koofers
+  </template>
+ </category>
+ <category>
+  <pattern>
+   LOL DONT UNDERESTIMATE THE BUREAUCRACY OF KOOFERS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     OF
+    </set>
+    <set name="that">
+     OF
+    </set>
+   </think>
+   lol
+  </template>
+ </category>
+ <category>
+  <pattern>
+   MAINLY THE FAULT OF OUR NEWISH "PRODUCT MANAGER
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     MANAGER
+    </set>
+    <set name="that">
+     MANAGER
+    </set>
+   </think>
+   lol
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND CONTRACT DESIGNER
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     DESIGNER
+    </set>
+    <set name="that">
+     DESIGNER
+    </set>
+   </think>
+   lol
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WERE WORKING OUR WAY AROUND IT WITH "BLACK OPS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     OPS
+    </set>
+    <set name="that">
+     OPS
+    </set>
+   </think>
+   lol
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WHICH IS WHERE THE DEVS COME UP FEATURES AND DEVELOP THEM COMPANY MEETINGS CYCLES THE DESIGNER AND ENDLESS KIBITZING THAT MARKS NORMAL DEVELOPMENT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     MARKS
+    </set>
+    <set name="that">
+     MARKS
+    </set>
+   </think>
+   lol
+  </template>
+ </category>
+ <category>
+  <pattern>
+   LOL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     INTO
+    </set>
+    <set name="that">
+     INTO
+    </set>
+   </think>
+   so i'm working on putting more faces and friends into koofers
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SO IM WORKING ON PUTTING MORE FACES AND FRIENDS INTO KOOFERS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WALL
+    </set>
+    <set name="that">
+     WALL
+    </set>
+   </think>
+   how dare koofers ask permission to post on my wall lol
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IF YOU LOG IN NOW AND GO TO BROWSE CLASSES YOULL SEE THE FIRST PIECE OF IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WALL
+    </set>
+    <set name="that">
+     WALL
+    </set>
+   </think>
+   how dare koofers ask permission to post on my wall lol
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ALL YOUR FRIENDS ARE SHOWN ALONG THE SUBJECTS AND COURSES ITS KIND OF NEAT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WALL
+    </set>
+    <set name="that">
+     WALL
+    </set>
+   </think>
+   how dare koofers ask permission to post on my wall lol
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WHO HAS EVER TAKEN THOSE IN THE PAST
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WALL
+    </set>
+    <set name="that">
+     WALL
+    </set>
+   </think>
+   how dare koofers ask permission to post on my wall lol
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HOW DARE KOOFERS ASK PERMISSION TO POST ON MY WALL LOL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ANYMORE
+    </set>
+    <set name="that">
+     ANYMORE
+    </set>
+   </think>
+   don't worry, it won't anymore
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THAT DOES LOOK COOL THO
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ANYMORE
+    </set>
+    <set name="that">
+     ANYMORE
+    </set>
+   </think>
+   don't worry, it won't anymore
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THE PICS AND STUFF
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ANYMORE
+    </set>
+    <set name="that">
+     ANYMORE
+    </set>
+   </think>
+   don't worry, it won't anymore
+  </template>
+ </category>
+ <category>
+  <pattern>
+   DONT WORRY IT WONT ANYMORE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     STUFF
+    </set>
+    <set name="that">
+     STUFF
+    </set>
+   </think>
+   lol it's funny that i find friends who take africana studies and weird stuff
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IT DID FOR WHILE AS MARKETING DECISION WHICH WAS HORRIBLE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     STUFF
+    </set>
+    <set name="that">
+     STUFF
+    </set>
+   </think>
+   lol it's funny that i find friends who take africana studies and weird stuff
+  </template>
+ </category>
+ <category>
+  <pattern>
+   LOL ITS FUNNY THAT FIND FRIENDS WHO TAKE AFRICANA STUDIES AND WEIRD STUFF
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THOUGHT
+    </set>
+    <set name="that">
+     THOUGHT
+    </set>
+   </think>
+   haha, yeah, who would have thought?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HAHA YEAH WHO WOULD HAVE THOUGHT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IDEA
+    </set>
+    <set name="that">
+     IDEA
+    </set>
+   </think>
+   no idea
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I CANT BELIEVE HOW MANY PEOPLE TOOK ESM CLASSES
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IDEA
+    </set>
+    <set name="that">
+     IDEA
+    </set>
+   </think>
+   no idea
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WHAT THE HECK IS THAT ANYWAY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IDEA
+    </set>
+    <set name="that">
+     IDEA
+    </set>
+   </think>
+   no idea
+  </template>
+ </category>
+ <category>
+  <pattern>
+   DEFORMS APPARENTLY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IDEA
+    </set>
+    <set name="that">
+     IDEA
+    </set>
+   </think>
+   no idea
+  </template>
+ </category>
+ <category>
+  <pattern>
+   NO IDEA
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THAT
+    </set>
+    <set name="that">
+     THAT
+    </set>
+   </think>
+   what project is that?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IM SO BORED
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THAT
+    </set>
+    <set name="that">
+     THAT
+    </set>
+   </think>
+   what project is that?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   .BEEN WORKING ON THIS FORM ALL DAY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THAT
+    </set>
+    <set name="that">
+     THAT
+    </set>
+   </think>
+   what project is that?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ACTUALLY FUNNY ENOUGH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THAT
+    </set>
+    <set name="that">
+     THAT
+    </set>
+   </think>
+   what project is that?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I WORK ON BUILDING PHP FORMS AT WORK
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THAT
+    </set>
+    <set name="that">
+     THAT
+    </set>
+   </think>
+   what project is that?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THEN COME HOME TO WORK ON REAL FORMS FOR NEWER PROJECT COMINGU P
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THAT
+    </set>
+    <set name="that">
+     THAT
+    </set>
+   </think>
+   what project is that?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WHAT PROJECT IS THAT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     AGENCY
+    </set>
+    <set name="that">
+     AGENCY
+    </set>
+   </think>
+   its a newer secret project for a different government agency
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS NEWER SECRET PROJECT FOR DIFFERENT GOVERNMENT AGENCY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WOW
+    </set>
+    <set name="that">
+     WOW
+    </set>
+   </think>
+   wow
+  </template>
+ </category>
+ <category>
+  <pattern>
+   GOING INTO .NET
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GOING
+    </set>
+    <set name="that">
+     GOING
+    </set>
+   </think>
+   wow
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ASP  AND JAVASCRIPT STUFF
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GOING
+    </set>
+    <set name="that">
+     GOING
+    </set>
+   </think>
+   wow
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WOW
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BET
+    </set>
+    <set name="that">
+     BET
+    </set>
+   </think>
+   its annoying i bet
+  </template>
+ </category>
+ <category>
+  <pattern>
+   C IS PRETTY GOOD BUT TRIED TO LEARN ASP ONCE AND IT SEEMED KIND OF INSANE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BET
+    </set>
+    <set name="that">
+     BET
+    </set>
+   </think>
+   its annoying i bet
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS ANNOYING BET
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CYCLE
+    </set>
+    <set name="that">
+     CYCLE
+    </set>
+   </think>
+   coming from PHP background it was SO much server-side control of everything and the whole page cycle
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IT WAS LIKE WHAT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FROM
+    </set>
+    <set name="that">
+     FROM
+    </set>
+   </think>
+   i think in essence it shouldnt be that much different from
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I THINK IN ESSENCE IT SHOULDNT BE THAT MUCH DIFFERENT FROM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PROJECT
+    </set>
+    <set name="that">
+     PROJECT
+    </set>
+   </think>
+   are they making you rush through the current project?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   PHP
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PROJECT
+    </set>
+    <set name="that">
+     PROJECT
+    </set>
+   </think>
+   are they making you rush through the current project?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   JUST DIFFERENT SYNTAX
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PROJECT
+    </set>
+    <set name="that">
+     PROJECT
+    </set>
+   </think>
+   are they making you rush through the current project?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   DIFFERENT METHODS TOO
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PROJECT
+    </set>
+    <set name="that">
+     PROJECT
+    </set>
+   </think>
+   are they making you rush through the current project?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BUT IM GETTING SICK OF PHP AT THE MOMENT HAVING SEEN SO MUCH OF IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PROJECT
+    </set>
+    <set name="that">
+     PROJECT
+    </set>
+   </think>
+   are they making you rush through the current project?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND THE NEW PROJECT HAS MUUUUCH BETTER DEADLINES
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PROJECT
+    </set>
+    <set name="that">
+     PROJECT
+    </set>
+   </think>
+   are they making you rush through the current project?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ARE THEY MAKING YOU RUSH THROUGH THE CURRENT PROJECT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LIKE
+    </set>
+    <set name="that">
+     LIKE
+    </set>
+   </think>
+   yeah like
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YEAH LIKE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GOD
+    </set>
+    <set name="that">
+     GOD
+    </set>
+   </think>
+   good god
+  </template>
+ </category>
+ <category>
+  <pattern>
+   STARTED IN AUGUST
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     STARTED
+    </set>
+    <set name="that">
+     STARTED
+    </set>
+   </think>
+   good god
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BUT THEY GOT US STARTED ON THE *
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GOD
+    </set>
+    <set name="that">
+     GOD
+    </set>
+   </think>
+   good god
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND THEN THEY DIDNT GIVE US ALL THE DATABASE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GOD
+    </set>
+    <set name="that">
+     GOD
+    </set>
+   </think>
+   good god
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SO WE HAD TO GET OURSELVES ORIENTED
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GOD
+    </set>
+    <set name="that">
+     GOD
+    </set>
+   </think>
+   good god
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THEN FINALLY THEY TOLD ME OK JUST MAKE YOUR OWN TABLES AND DO THE WORK
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GOD
+    </set>
+    <set name="that">
+     GOD
+    </set>
+   </think>
+   good god
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THEN BY SEPTEMBER * THE DEADLINE WAS DUE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THEN
+    </set>
+    <set name="that">
+     THEN
+    </set>
+   </think>
+   good god
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THEY MADE ME WORK ALL WEEKEND OVERTIME TO ACHIEVE SOME SORT OF MILESTONE ON IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GOD
+    </set>
+    <set name="that">
+     GOD
+    </set>
+   </think>
+   good god
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND SINCE OCTOBER BEEN FIXING BUGS AND TEACHING SOME OF THE NEW PROGRAMMERS WHO WILL PROBABLY TAKE OVER THIS PROJECT IN THE LONG RUN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GOD
+    </set>
+    <set name="that">
+     GOD
+    </set>
+   </think>
+   good god
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I FINISHED LIKE ONE PHASE OF THE PROJECT IN SEPT * SO THE SECOND PHASE GOT DELAYED GUESS TILL DUNNO WHEN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GOD
+    </set>
+    <set name="that">
+     GOD
+    </set>
+   </think>
+   good god
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS JUST REALLY WEIRD
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GOD
+    </set>
+    <set name="that">
+     GOD
+    </set>
+   </think>
+   good god
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND TOO MUCH WORK PACKED INTO TOO LITTLE TIME WITH TOO FEW PROGRAMMERS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GOD
+    </set>
+    <set name="that">
+     GOD
+    </set>
+   </think>
+   good god
+  </template>
+ </category>
+ <category>
+  <pattern>
+   GOOD GOD
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GOD
+    </set>
+    <set name="that">
+     GOD
+    </set>
+   </think>
+   yea
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THATS NOT VERY PLEASANT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PLEASANT
+    </set>
+    <set name="that">
+     PLEASANT
+    </set>
+   </think>
+   yea
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I GUESS BECAUSE THEY THOUGHT WELL WE GAVE THEM ALL THIS CUSTOM CODE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     OF
+    </set>
+    <set name="that">
+     OF
+    </set>
+   </think>
+   sounds like a typical misunderstanding that developers fall victim of.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SHOULD BE TOO LONG TO MAKE * FORMS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BE
+    </set>
+    <set name="that">
+     BE
+    </set>
+   </think>
+   sounds like a typical misunderstanding that developers fall victim of.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   EXCEPT THERE WERE LIKE ALL THESE REQUIREMENTS FOR EACH OF THOSE FORMS AND THEN SECURITY SETTINGS AND FORM LOCKS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     OF
+    </set>
+    <set name="that">
+     OF
+    </set>
+   </think>
+   sounds like a typical misunderstanding that developers fall victim of.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HIDES
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     OF
+    </set>
+    <set name="that">
+     OF
+    </set>
+   </think>
+   sounds like a typical misunderstanding that developers fall victim of.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SUBMISSIONS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     OF
+    </set>
+    <set name="that">
+     OF
+    </set>
+   </think>
+   sounds like a typical misunderstanding that developers fall victim of.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   UNSUBMISSIONS ETC FOR EACH FORM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     OF
+    </set>
+    <set name="that">
+     OF
+    </set>
+   </think>
+   sounds like a typical misunderstanding that developers fall victim of.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND IT TOOK TONS OF TIME TO FIGURE OUT WHAT THE HELL THE FORMS LOOKED LIKE BECAUSE THEY DONT EVEN KNOW THEMSELVES
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     OF
+    </set>
+    <set name="that">
+     OF
+    </set>
+   </think>
+   sounds like a typical misunderstanding that developers fall victim of.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SO CONSTANTLY WE WERE CHANGING THE FORM AND NEVER MAKING PROGRESS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LIKE
+    </set>
+    <set name="that">
+     LIKE
+    </set>
+   </think>
+   sounds like a typical misunderstanding that developers fall victim of.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BY WE MEAN ME USUALLY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     OF
+    </set>
+    <set name="that">
+     OF
+    </set>
+   </think>
+   sounds like a typical misunderstanding that developers fall victim of.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SOUNDS LIKE TYPICAL MISUNDERSTANDING THAT DEVELOPERS FALL VICTIM OF
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     MISUNDERSTANDING
+    </set>
+    <set name="that">
+     MISUNDERSTANDING
+    </set>
+   </think>
+   yea
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS LIKE "WELL THERES NOT MUCH ON THIS * HOW LONG COULD THAT TAKE TO IMPLEMENT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IMPLEMENT
+    </set>
+    <set name="that">
+     IMPLEMENT
+    </set>
+   </think>
+   yea
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THEY DONT REALIZE THAT ONE ELEMENT REQUIRES HUGE BACKEND REWRITE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     REWRITE
+    </set>
+    <set name="that">
+     REWRITE
+    </set>
+   </think>
+   yea
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS JUST THAT SINCE THE CONTRACT IS WON
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BAAH
+    </set>
+    <set name="that">
+     BAAH
+    </set>
+   </think>
+   baah
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND THEY ONLY GIVE VAGUE DETAILS ON THE CONTRACT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BAAH
+    </set>
+    <set name="that">
+     BAAH
+    </set>
+   </think>
+   baah
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ALL THE COMPANIES THAT TRY TO WIN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BAAH
+    </set>
+    <set name="that">
+     BAAH
+    </set>
+   </think>
+   baah
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SAY OH YEA CAN DO THAT IN * DAYS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     DO
+    </set>
+    <set name="that">
+     DO
+    </set>
+   </think>
+   baah
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BAAH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     API
+    </set>
+    <set name="that">
+     API
+    </set>
+   </think>
+   it's an API framework
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THAT SOUNDS HORRID
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     API
+    </set>
+    <set name="that">
+     API
+    </set>
+   </think>
+   it's an API framework
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SO WHAT DOES DRUPAL DO EXACTLY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     API
+    </set>
+    <set name="that">
+     API
+    </set>
+   </think>
+   it's an API framework
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IM NOT SURE WHAT IT IS REALLY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     API
+    </set>
+    <set name="that">
+     API
+    </set>
+   </think>
+   it's an API framework
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS AN API FRAMEWORK
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BROAD
+    </set>
+    <set name="that">
+     BROAD
+    </set>
+   </think>
+   oh, ok, so it's pretty broad
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND ALSO CMS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BROAD
+    </set>
+    <set name="that">
+     BROAD
+    </set>
+   </think>
+   oh, ok, so it's pretty broad
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SO THINK LIKE MORE ADVANCED AND BETTER PROGRAMMED VERSION OF PHPNUKE OR WORDPRESS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BROAD
+    </set>
+    <set name="that">
+     BROAD
+    </set>
+   </think>
+   oh, ok, so it's pretty broad
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BUT ALSO KIND OF LIKE PHPCAKE FRAMEWORK WITH CODING FUNCTIONS THAT CAN BE USED GLOBALLY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BROAD
+    </set>
+    <set name="that">
+     BROAD
+    </set>
+   </think>
+   oh, ok, so it's pretty broad
+  </template>
+ </category>
+ <category>
+  <pattern>
+   FOR DATABASE MANAGEMENT FOR REDIRECTS FOR JAVASCRIPT CSS FOR MENU SYSTEMS FOR BLOCK SYSTEMS FOR ARTICLENODE SYSTEMS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BROAD
+    </set>
+    <set name="that">
+     BROAD
+    </set>
+   </think>
+   oh, ok, so it's pretty broad
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OH OK SO ITS PRETTY BROAD
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PHP
+    </set>
+    <set name="that">
+     PHP
+    </set>
+   </think>
+   yeah one of the biggest communities for PHP development
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YEAH ONE OF THE BIGGEST COMMUNITIES FOR PHP DEVELOPMENT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SUCH
+    </set>
+    <set name="that">
+     SUCH
+    </set>
+   </think>
+   i had no idea it was such a complete framework
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IT HAS EVEN AJAX SUPPORT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SUCH
+    </set>
+    <set name="that">
+     SUCH
+    </set>
+   </think>
+   i had no idea it was such a complete framework
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I HAD NO IDEA IT WAS SUCH COMPLETE FRAMEWORK
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     EASIER
+    </set>
+    <set name="that">
+     EASIER
+    </set>
+   </think>
+   well learning drupal makes everything easier
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I KIND OF THOUGHT IT WAS SOCIAL CMS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     EASIER
+    </set>
+    <set name="that">
+     EASIER
+    </set>
+   </think>
+   well learning drupal makes everything easier
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WELL LEARNING DRUPAL MAKES EVERYTHING EASIER
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HANDY
+    </set>
+    <set name="that">
+     HANDY
+    </set>
+   </think>
+   that seems handy
+  </template>
+ </category>
+ <category>
+  <pattern>
+   DONT HAVE TO WORRY AS MUCH ABOUT SQL INJECTIONS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HANDY
+    </set>
+    <set name="that">
+     HANDY
+    </set>
+   </think>
+   that seems handy
+  </template>
+ </category>
+ <category>
+  <pattern>
+   XSS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     XSS
+    </set>
+    <set name="that">
+     XSS
+    </set>
+   </think>
+   that seems handy
+  </template>
+ </category>
+ <category>
+  <pattern>
+   EVERYTHING IS HANDLED WITH THE HELPER FUNCTIONS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     EVERYTHING
+    </set>
+    <set name="that">
+     EVERYTHING
+    </set>
+   </think>
+   that seems handy
+  </template>
+ </category>
+ <category>
+  <pattern>
+   NO MORE AJAX CODE OR JAVASCRIPT MESSING AROUND YOU JUST PUT AN ATTRIBUTE FOR AJAX
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HANDY
+    </set>
+    <set name="that">
+     HANDY
+    </set>
+   </think>
+   that seems handy
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THAT SEEMS HANDY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ANYWAY
+    </set>
+    <set name="that">
+     ANYWAY
+    </set>
+   </think>
+   anyway
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ANYWAY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IDEA
+    </set>
+    <set name="that">
+     IDEA
+    </set>
+   </think>
+   good idea.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I THINK IM GONNA TAKE BREAK FROM THIS FORM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IDEA
+    </set>
+    <set name="that">
+     IDEA
+    </set>
+   </think>
+   good idea.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   STILL ABOUT * MORE SECTIONS TO GO LOL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SECTIONS
+    </set>
+    <set name="that">
+     SECTIONS
+    </set>
+   </think>
+   good idea.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IM * IM NOT THE ONE WHO HAD TO CODE THIS ELECTRONIC FORM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IDEA
+    </set>
+    <set name="that">
+     IDEA
+    </set>
+   </think>
+   good idea.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   * PAGES OF CRAP
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IDEA
+    </set>
+    <set name="that">
+     IDEA
+    </set>
+   </think>
+   good idea.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   GOOD IDEA
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     DUDE
+    </set>
+    <set name="that">
+     DUDE
+    </set>
+   </think>
+   hey dude
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THAT SOUNDS SO EXHAUSTING
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     DUDE
+    </set>
+    <set name="that">
+     DUDE
+    </set>
+   </think>
+   hey dude
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IM TRYING TO WRITE CHAT PROGRAM FOR OUR OFFICE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TRYING
+    </set>
+    <set name="that">
+     TRYING
+    </set>
+   </think>
+   hey dude
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     DUDE
+    </set>
+    <set name="that">
+     DUDE
+    </set>
+   </think>
+   hey dude
+  </template>
+ </category>
+</aiml>

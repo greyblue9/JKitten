@@ -16,7 +16,7 @@ package org.alicebot.ab;
  Boston, MA 02110-1301, USA.
  */
 import java.io.*;
-import java.util.Comparator;
+import java.util.*;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.Jsoup;
@@ -28,6 +28,8 @@ import static java.nio.charset.StandardCharsets.UTF_8;
 structure representing an AIML category and operations on Category
 */
 public class Category {
+  
+  public static Map<String, Category> byPattern = new TreeMap<>();
 
   public String pattern;
   public Element patternEl;
@@ -36,6 +38,7 @@ public class Category {
   public String topic;
   public Element topicEl;
   public String template;
+  public String templateRaw;
   public Element templateEl;
   public String filename;
 
@@ -401,11 +404,14 @@ public class Category {
     this.pattern = pattern.trim().toUpperCase();
     this.that = that.trim().toUpperCase();
     this.topic = topic.trim().toUpperCase();
-    this.template = toElement(template.replace("& ", " and ")).outerHtml().replaceAll("'\n *", "'"); // XML parser treats & badly
+    this.templateRaw = template;
+    this.templateEl = toElement(template.replace("& ", " and "));
+    this.template = templateEl.outerHtml().replaceAll("'\n *", "'"); // XML parser treats & badly
     this.filename = filename;
     this.activationCnt = activationCnt;
     matches = null;
     this.categoryNumber = categoryCnt++;
+    byPattern.put(this.pattern, this);
   }
 
   /**
@@ -474,5 +480,24 @@ public class Category {
      (that != null && that.equals(o.that))
     || (that == null && o.that == null)
   );
+  }
+  
+  @Override
+  public String toString() {
+    return String.format(
+      "Category(pattern=%s, topic=%s, template=%s)",
+      this.pattern != null
+        ? StringEscapeUtils.escapeJava(this.pattern)
+        : "null",
+      this.that != null
+        ? StringEscapeUtils.escapeJava(this.that)
+        : "null",
+      this.topic != null
+        ? StringEscapeUtils.escapeJava(this.topic)
+        : "null",
+      this.template != null
+        ? StringEscapeUtils.escapeJava(this.template)
+        : "null"
+    );
   }
 }

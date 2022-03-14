@@ -20,19 +20,27 @@ package org.alicebot.ab;
 structure to hold binding of wildcards in input pattern, that pattern and topicpattern
 */
 public class StarBindings {
+  public static StarBindings current;
 
   public Stars inputStars;
-
   public Stars thatStars;
-
   public Stars topicStars;
 
   /** Constructor -- this class has public members
    *
    */
   public StarBindings() {
-  inputStars = new Stars();
-  thatStars = new Stars();
-  topicStars = new Stars();
+    inputStars = new Stars();
+    thatStars = new Stars();
+    topicStars = new Stars();
+    current = this;
+  }
+  
+  @Override
+  public String toString() {
+    return String.format(
+      "StarBindings(inputStars=%s, thatStars=%s, topicStars=%s)",
+      inputStars, thatStars, topicStars
+    );
   }
 }

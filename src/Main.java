@@ -104,20 +104,20 @@ public class Main {
       = msg.getAuthor().get().getId().asLong();
       final String username = msg.getAuthor().get().getUsername();
       final Chat chat = getOrCreateChat(
-      bot, doWrites, Long.toString(authorId, 10)
+      bot, doWrites, "0"
       );
-      String currentName = chat.predicates.getOrDefault("name", "unknown");
+      /*String currentName = chat.predicates.getOrDefault("name", "unknown");
       if (null == currentName 
         || "".equals(currentName) 
         || "unknown".equals(currentName.toLowerCase()) 
         || "friend".equals(currentName.toLowerCase()) 
         || "seeker".equals(currentName.toLowerCase())) 
       {
-      trace("setting name to", username);
+      trace("setting name to", username);*/
       chat.predicates.put("name", username);
       //trace("setting that to", username);
       //chat.predicates.put("that", username);
-      }
+      //}
       trace("msg", msg, "in chat", chat);
       String text = msg.getContent();
       Pattern p = Pattern.compile("<!?@([0-9]+)>", Pattern.DOTALL);

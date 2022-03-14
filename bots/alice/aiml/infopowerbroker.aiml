@@ -1,0 +1,2387 @@
+<?xml version="1.0"?>
+<aiml>
+ <category>
+  <pattern>
+   HEY PATRICK
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WELL
+    </set>
+    <set name="that">
+     WELL
+    </set>
+   </think>
+   doing well
+  </template>
+ </category>
+ <category>
+  <pattern>
+   NOT TOO BAD HOW ABOUT YOURSELF
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WELL
+    </set>
+    <set name="that">
+     WELL
+    </set>
+   </think>
+   doing well
+  </template>
+ </category>
+ <category>
+  <pattern>
+   DOING WELL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IT
+    </set>
+    <set name="that">
+     IT
+    </set>
+   </think>
+   glad to hear it
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SLUGGED OUT THE * MONDAY AFTER DST WITHOUT TOO MUCH ISSUE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IT
+    </set>
+    <set name="that">
+     IT
+    </set>
+   </think>
+   glad to hear it
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YOU SAID YOU WERE IN HERNDON RIGHT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     YOU
+    </set>
+    <set name="that">
+     YOU
+    </set>
+   </think>
+   glad to hear it
+  </template>
+ </category>
+ <category>
+  <pattern>
+   * TO HEAR IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WOW
+    </set>
+    <set name="that">
+     WOW
+    </set>
+   </think>
+   oh wow!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YEAH UP UNTIL ABOUT MONTH AGO WAS LIVING IN HERNDON
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WOW
+    </set>
+    <set name="that">
+     WOW
+    </set>
+   </think>
+   oh wow!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I HAVE SINCE MOVED TO ARLINGTON ALTHOUGH THE LEASE ON OUR HERNDON PLACE DOESNT END UNTIL THIS FRIDAY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WOW
+    </set>
+    <set name="that">
+     WOW
+    </set>
+   </think>
+   oh wow!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OH WOW
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HEIGHTS
+    </set>
+    <set name="that">
+     HEIGHTS
+    </set>
+   </think>
+   in ashton heights
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WHERE IN ARLINGTON ARE YOU
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TO
+    </set>
+    <set name="that">
+     TO
+    </set>
+   </think>
+   you're probably living right next to me
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IM * BLOCKS FROM THE VA SQUARE METRO AND BALLSTON METRO STATIONS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TO
+    </set>
+    <set name="that">
+     TO
+    </set>
+   </think>
+   you're probably living right next to me
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YOURE PROBABLY LIVING RIGHT NEXT TO ME
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     YOURE
+    </set>
+    <set name="that">
+     YOURE
+    </set>
+   </think>
+   oh wow
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IM ONE BLOCK FROM VA SQUARE METRO
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WOW
+    </set>
+    <set name="that">
+     WOW
+    </set>
+   </think>
+   oh wow
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IN ASHTON HEIGHTS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WOW
+    </set>
+    <set name="that">
+     WOW
+    </set>
+   </think>
+   oh wow
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IM IN QUINCY PLAZA
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ST
+    </set>
+    <set name="that">
+     ST
+    </set>
+   </think>
+   what's your address- mine is 740 N Monroe St
+  </template>
+ </category>
+ <category>
+  <pattern>
+   * FAIRFAX DRIVE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CORNER
+    </set>
+    <set name="that">
+     CORNER
+    </set>
+   </think>
+   ah, yes, you're right around the corner
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YOURE RIGHT ACCROSS FROM FDIC
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CORNER
+    </set>
+    <set name="that">
+     CORNER
+    </set>
+   </think>
+   ah, yes, you're right around the corner
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AH YES YOURE RIGHT AROUND THE CORNER
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WEEK
+    </set>
+    <set name="that">
+     WEEK
+    </set>
+   </think>
+   we should get together sometime this week
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YEAH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BETTER
+    </set>
+    <set name="that">
+     BETTER
+    </set>
+   </think>
+   (much better)
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WE SHOULD GET TOGETHER SOMETIME THIS WEEK
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BUILDING
+    </set>
+    <set name="that">
+     BUILDING
+    </set>
+   </think>
+   disquietingly close to the DARPA building
+  </template>
+ </category>
+ <category>
+  <pattern>
+   DISQUIETINGLY CLOSE TO THE DARPA BUILDING
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HAHA
+    </set>
+    <set name="that">
+     HAHA
+    </set>
+   </think>
+   haha
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HAHA
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HAHA
+    </set>
+    <set name="that">
+     HAHA
+    </set>
+   </think>
+   yeah
+  </template>
+ </category>
+ <category>
+  <pattern>
+   NO DRAGONFLIES NEAR ME
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TO
+    </set>
+    <set name="that">
+     TO
+    </set>
+   </think>
+   not sure i know what you're referring to
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SO IM OK
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TO
+    </set>
+    <set name="that">
+     TO
+    </set>
+   </think>
+   not sure i know what you're referring to
+  </template>
+ </category>
+ <category>
+  <pattern>
+   NOT SURE KNOW WHAT YOURE REFERRING TO
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BUGS
+    </set>
+    <set name="that">
+     BUGS
+    </set>
+   </think>
+   their 'bugged' bugs
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THEIR BUGGED BUGS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THOSE
+    </set>
+    <set name="that">
+     THOSE
+    </set>
+   </think>
+   ohh, yeah, i heard about those
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OHH YEAH HEARD ABOUT THOSE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ETC
+    </set>
+    <set name="that">
+     ETC
+    </set>
+   </think>
+   dragonflies with cameras/mics etc
+  </template>
+ </category>
+ <category>
+  <pattern>
+   DRAGONFLIES WITH CAMERASMICS ETC
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     OUT
+    </set>
+    <set name="that">
+     OUT
+    </set>
+   </think>
+   yeah, i'll keep an eye out
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YEAH ILL KEEP AN EYE OUT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     STOPS
+    </set>
+    <set name="that">
+     STOPS
+    </set>
+   </think>
+   metro stops
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SO WHAT BROUGHT YOU TO ARLINGTON
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     STOPS
+    </set>
+    <set name="that">
+     STOPS
+    </set>
+   </think>
+   metro stops
+  </template>
+ </category>
+ <category>
+  <pattern>
+   METRO STOPS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THEN
+    </set>
+    <set name="that">
+     THEN
+    </set>
+   </think>
+   oh really? you're conveniently located then
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ALSO MY OFFICE IS ON THE OTHER SIDE OF GIANT FOOD
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THEN
+    </set>
+    <set name="that">
+     THEN
+    </set>
+   </think>
+   oh really? you're conveniently located then
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SRA NOT FDIC
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THEN
+    </set>
+    <set name="that">
+     THEN
+    </set>
+   </think>
+   oh really? you're conveniently located then
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OH REALLY YOURE CONVENIENTLY LOCATED THEN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     KK
+    </set>
+    <set name="that">
+     KK
+    </set>
+   </think>
+   kk
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BRB
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     KK
+    </set>
+    <set name="that">
+     KK
+    </set>
+   </think>
+   kk
+  </template>
+ </category>
+ <category>
+  <pattern>
+   KK
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BACK
+    </set>
+    <set name="that">
+     BACK
+    </set>
+   </think>
+   back
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BACK
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IM
+    </set>
+    <set name="that">
+     IM
+    </set>
+   </think>
+   I'm on the 18th floor
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SO WHICH APARTMENT IS YOURS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ON
+    </set>
+    <set name="that">
+     ON
+    </set>
+   </think>
+   I'm on the 18th floor
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IM ON THE * FLOOR
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PLACE
+    </set>
+    <set name="that">
+     PLACE
+    </set>
+   </think>
+   ballston place?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BALLSTON PLACE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PLAZA
+    </set>
+    <set name="that">
+     PLAZA
+    </set>
+   </think>
+   Quincy Plaza
+  </template>
+ </category>
+ <category>
+  <pattern>
+   QUINCY PLAZA
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BUILDING
+    </set>
+    <set name="that">
+     BUILDING
+    </set>
+   </think>
+   i think i tend to confuse that building with ballston place
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I THINK TEND TO CONFUSE THAT BUILDING WITH BALLSTON PLACE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BUILDING
+    </set>
+    <set name="that">
+     BUILDING
+    </set>
+   </think>
+   fair enough
+  </template>
+ </category>
+ <category>
+  <pattern>
+   FAIR ENOUGH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TALKING
+    </set>
+    <set name="that">
+     TALKING
+    </set>
+   </think>
+   i definitely know the building you're talking about though
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I DEFINITELY KNOW THE BUILDING YOURE TALKING ABOUT THOUGH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TALKING
+    </set>
+    <set name="that">
+     TALKING
+    </set>
+   </think>
+   it's nice, we like it
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HOW LONG HAVE YOU BEEN THERE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IT
+    </set>
+    <set name="that">
+     IT
+    </set>
+   </think>
+   it's nice, we like it
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS NICE WE LIKE IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IT
+    </set>
+    <set name="that">
+     IT
+    </set>
+   </think>
+   cool
+  </template>
+ </category>
+ <category>
+  <pattern>
+   * MONTHS TODAY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TODAY
+    </set>
+    <set name="that">
+     TODAY
+    </set>
+   </think>
+   cool
+  </template>
+ </category>
+ <category>
+  <pattern>
+   COOL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NEXT
+    </set>
+    <set name="that">
+     NEXT
+    </set>
+   </think>
+   moving to a larger apt on the 11th floor next month
+  </template>
+ </category>
+ <category>
+  <pattern>
+   MOVING TO LARGER APT ON THE * FLOOR NEXT MONTH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PLACE
+    </set>
+    <set name="that">
+     PLACE
+    </set>
+   </think>
+   how many rooms in your current place?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WHICH WILL BE NICE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BE
+    </set>
+    <set name="that">
+     BE
+    </set>
+   </think>
+   how many rooms in your current place?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HOW MANY ROOMS IN YOUR CURRENT PLACE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FT
+    </set>
+    <set name="that">
+     FT
+    </set>
+   </think>
+   1 bedroom 500 sq ft
+  </template>
+ </category>
+ <category>
+  <pattern>
+   * BEDROOM * SQ FT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BE
+    </set>
+    <set name="that">
+     BE
+    </set>
+   </think>
+   oh, that will be nice
+  </template>
+ </category>
+ <category>
+  <pattern>
+   MOVING TO * * FT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BE
+    </set>
+    <set name="that">
+     BE
+    </set>
+   </think>
+   oh, that will be nice
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OH THAT WILL BE NICE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BE
+    </set>
+    <set name="that">
+     BE
+    </set>
+   </think>
+   yeah
+  </template>
+ </category>
+ <category>
+  <pattern>
+   LOTS OF ROOM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ROOM
+    </set>
+    <set name="that">
+     ROOM
+    </set>
+   </think>
+   yeah
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ENOUGH SPACE FOR ME AND THE MRS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     INDEED
+    </set>
+    <set name="that">
+     INDEED
+    </set>
+   </think>
+   indeed!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   INDEED
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HAHA
+    </set>
+    <set name="that">
+     HAHA
+    </set>
+   </think>
+   haha
+  </template>
+ </category>
+ <category>
+  <pattern>
+   NATALIES RESPONSE OF CHOICE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HAHA
+    </set>
+    <set name="that">
+     HAHA
+    </set>
+   </think>
+   haha
+  </template>
+ </category>
+ <category>
+  <pattern>
+   [INDEED
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     INDEED
+    </set>
+    <set name="that">
+     INDEED
+    </set>
+   </think>
+   natalie, indeed
+  </template>
+ </category>
+ <category>
+  <pattern>
+   * INDEED
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ARE
+    </set>
+    <set name="that">
+     ARE
+    </set>
+   </think>
+   that's where the horses are?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I DONT KNOW WHY SHES MOVED SO FAR AWAY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ARE
+    </set>
+    <set name="that">
+     ARE
+    </set>
+   </think>
+   that's where the horses are?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THATS WHERE THE HORSES ARE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IN
+    </set>
+    <set name="that">
+     IN
+    </set>
+   </think>
+   there must be horses in virginia
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THERE MUST BE HORSES IN VIRGINIA
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ARE
+    </set>
+    <set name="that">
+     ARE
+    </set>
+   </think>
+   that's where the horses are?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BUT NOT THE DERBY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NOT
+    </set>
+    <set name="that">
+     NOT
+    </set>
+   </think>
+   no, certainly not
+  </template>
+ </category>
+ <category>
+  <pattern>
+   NO CERTAINLY NOT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     END
+    </set>
+    <set name="that">
+     END
+    </set>
+   </think>
+   where's sadie going to end up?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WHERES * GOING TO END UP
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TO
+    </set>
+    <set name="that">
+     TO
+    </set>
+   </think>
+   i think she is planning to, yes
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IS SHE COMING BACK TO RVA
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TO
+    </set>
+    <set name="that">
+     TO
+    </set>
+   </think>
+   i think she is planning to, yes
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I THINK SHE IS PLANNING TO YES
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TO
+    </set>
+    <set name="that">
+     TO
+    </set>
+   </think>
+   ah ok
+  </template>
+ </category>
+ <category>
+  <pattern>
+   LAST HEARD SHE HAD SOCIAL WORK JOB IN POWHATAN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     POWHATAN
+    </set>
+    <set name="that">
+     POWHATAN
+    </set>
+   </think>
+   ah ok
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AH OK
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CHESTERFIELD
+    </set>
+    <set name="that">
+     CHESTERFIELD
+    </set>
+   </think>
+   but she wanted to get something a little better in chesterfield
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BUT SHE WANTED TO GET SOMETHING LITTLE BETTER IN CHESTERFIELD
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NICE
+    </set>
+    <set name="that">
+     NICE
+    </set>
+   </think>
+   that will be nice
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THAT WILL BE NICE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BE
+    </set>
+    <set name="that">
+     BE
+    </set>
+   </think>
+   but she wanted to get something a little better in chesterfield
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IF REMEMBER CORRECTLY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NOPE
+    </set>
+    <set name="that">
+     NOPE
+    </set>
+   </think>
+   nope
+  </template>
+ </category>
+ <category>
+  <pattern>
+   DO YOU KEEP ANY PETS AT YOUR PLACE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     KEEP
+    </set>
+    <set name="that">
+     KEEP
+    </set>
+   </think>
+   nope
+  </template>
+ </category>
+ <category>
+  <pattern>
+   NOPE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TIME
+    </set>
+    <set name="that">
+     TIME
+    </set>
+   </think>
+   wow, that's the best utility deal i've seen in a long time
+  </template>
+ </category>
+ <category>
+  <pattern>
+   NO PETS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HAHAHA
+    </set>
+    <set name="that">
+     HAHAHA
+    </set>
+   </think>
+   hahaha
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ONLY PCS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HAHAHA
+    </set>
+    <set name="that">
+     HAHAHA
+    </set>
+   </think>
+   hahaha
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HAHAHA
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SON
+    </set>
+    <set name="that">
+     SON
+    </set>
+   </think>
+   (2 comp sci majors can pile up the megagigabits son!)
+  </template>
+ </category>
+ <category>
+  <pattern>
+   * COMP SCI MAJORS CAN PILE UP THE MEGAGIGABITS SON
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WELL
+    </set>
+    <set name="that">
+     WELL
+    </set>
+   </think>
+   so your wife is very into computers as well?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SO YOUR WIFE IS VERY INTO COMPUTERS AS WELL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WELL
+    </set>
+    <set name="that">
+     WELL
+    </set>
+   </think>
+   yeah
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SHE WORKS AS NETWORK ENGINEER
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     EXCITING
+    </set>
+    <set name="that">
+     EXCITING
+    </set>
+   </think>
+   oh, very exciting
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THE NUTS AND VOLTS (PATCH PANELS SWITCHES ETC
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     EXCITING
+    </set>
+    <set name="that">
+     EXCITING
+    </set>
+   </think>
+   oh, very exciting
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OH VERY EXCITING
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NOPE
+    </set>
+    <set name="that">
+     NOPE
+    </set>
+   </think>
+   nope
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I BET YOU GUYS HAVE DISPROPORTIONATELY HIGH ELECTRIC BILL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NOPE
+    </set>
+    <set name="that">
+     NOPE
+    </set>
+   </think>
+   nope
+  </template>
+ </category>
+ <category>
+  <pattern>
+   * FOR UNLIMITED UTILITIES
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TIME
+    </set>
+    <set name="that">
+     TIME
+    </set>
+   </think>
+   wow, that's the best utility deal i've seen in a long time
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ELECTRIC WATER SEWER HVAC
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TIME
+    </set>
+    <set name="that">
+     TIME
+    </set>
+   </think>
+   wow, that's the best utility deal i've seen in a long time
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WE JUST DO OUR OWN CABLE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TIME
+    </set>
+    <set name="that">
+     TIME
+    </set>
+   </think>
+   wow, that's the best utility deal i've seen in a long time
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WOW THATS THE BEST UTILITY DEAL IVE SEEN IN LONG TIME
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     APARTMENT
+    </set>
+    <set name="that">
+     APARTMENT
+    </set>
+   </think>
+   it's going up to $50 a month for the new apartment
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS GOING UP TO * MONTH FOR THE NEW APARTMENT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     RATE
+    </set>
+    <set name="that">
+     RATE
+    </set>
+   </think>
+   i don't know how you get electricity for a flat rate
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I DONT KNOW HOW YOU GET ELECTRICITY FOR FLAT RATE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IT
+    </set>
+    <set name="that">
+     IT
+    </set>
+   </think>
+   that's the way they do it
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THATS THE WAY THEY DO IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CABLE
+    </set>
+    <set name="that">
+     CABLE
+    </set>
+   </think>
+   we have included water, sewer and heat, but pay for our own electric, gas, and cable
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IT MEANS DO GRID COMPUTING * WITH HEXACORE CHIP
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CABLE
+    </set>
+    <set name="that">
+     CABLE
+    </set>
+   </think>
+   we have included water, sewer and heat, but pay for our own electric, gas, and cable
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WE HAVE INCLUDED WATER SEWER AND HEAT BUT PAY FOR OUR OWN ELECTRIC GAS AND CABLE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NOT
+    </set>
+    <set name="that">
+     NOT
+    </set>
+   </think>
+   doing cancer research and what-not
+  </template>
+ </category>
+ <category>
+  <pattern>
+   (ELECTRIC RANGE SO NO GAS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ADVANTAGE
+    </set>
+    <set name="that">
+     ADVANTAGE
+    </set>
+   </think>
+   well, you may as well take advantage!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WELL YOU * AS WELL TAKE ADVANTAGE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ADVANTAGE
+    </set>
+    <set name="that">
+     ADVANTAGE
+    </set>
+   </think>
+   yeah!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   FOLDINGHOME?
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GRID
+    </set>
+    <set name="that">
+     GRID
+    </set>
+   </think>
+   world community grid
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WORLD COMMUNITY GRID
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THAT
+    </set>
+    <set name="that">
+     THAT
+    </set>
+   </think>
+   oh, cool, didn't know about that
+  </template>
+ </category>
+ <category>
+  <pattern>
+   (VIA IBM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THAT
+    </set>
+    <set name="that">
+     THAT
+    </set>
+   </think>
+   oh, cool, didn't know about that
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OH COOL DIDNT KNOW ABOUT THAT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ITS
+    </set>
+    <set name="that">
+     ITS
+    </set>
+   </think>
+   it's a good program
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS GOOD PROGRAM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CORES
+    </set>
+    <set name="that">
+     CORES
+    </set>
+   </think>
+   wait, your desktop has 6 cores?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IT USES THE BOINC CLIENT FROM BERKELY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CORES
+    </set>
+    <set name="that">
+     CORES
+    </set>
+   </think>
+   wait, your desktop has 6 cores?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WAIT YOUR DESKTOP HAS * CORES
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CORES
+    </set>
+    <set name="that">
+     CORES
+    </set>
+   </think>
+   yeah
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS AN AMD HEXACORE CHIP
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CRAZY
+    </set>
+    <set name="that">
+     CRAZY
+    </set>
+   </think>
+   that's crazy
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THEIR PHENOM * (MADE THE DESKTOP LAST SUMMER
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CRAZY
+    </set>
+    <set name="that">
+     CRAZY
+    </set>
+   </think>
+   that's crazy
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THATS CRAZY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FOR
+    </set>
+    <set name="that">
+     FOR
+    </set>
+   </think>
+   i still have a soft spot for them
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I LIKE AMD
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FOR
+    </set>
+    <set name="that">
+     FOR
+    </set>
+   </think>
+   i still have a soft spot for them
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I HAVE PHENOM * IN MY DESKTOP
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     X4
+    </set>
+    <set name="that">
+     X4
+    </set>
+   </think>
+   i still have a soft spot for them
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I STILL HAVE SOFT SPOT FOR THEM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FOR
+    </set>
+    <set name="that">
+     FOR
+    </set>
+   </think>
+   oh really? what were they using it for
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THEY GAVE ME THAT CHIP BACK AT GSGIS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FOR
+    </set>
+    <set name="that">
+     FOR
+    </set>
+   </think>
+   oh really? what were they using it for
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SO KEEP WITH THEM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FOR
+    </set>
+    <set name="that">
+     FOR
+    </set>
+   </think>
+   oh really? what were they using it for
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OH REALLY WHAT WERE THEY USING IT FOR
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PRIZE
+    </set>
+    <set name="that">
+     PRIZE
+    </set>
+   </think>
+   i went to an amd workshop on 64 bit computing, and won the door prize
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I WENT TO AN AMD WORKSHOP ON * BIT COMPUTING AND WON THE DOOR PRIZE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ENLARGE
+    </set>
+    <set name="that">
+     ENLARGE
+    </set>
+   </think>
+   hang on, i need to enlarge this font
+  </template>
+ </category>
+ <category>
+  <pattern>
+   (THE CPU PUT INTO THE PC THAT YUAN AND BUILT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PC
+    </set>
+    <set name="that">
+     PC
+    </set>
+   </think>
+   hang on, i need to enlarge this font
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HANG ON NEED TO ENLARGE THIS FONT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ENLARGE
+    </set>
+    <set name="that">
+     ENLARGE
+    </set>
+   </think>
+   ok
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OK
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LATER
+    </set>
+    <set name="that">
+     LATER
+    </set>
+   </think>
+   excellent, see you later
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IM RUINING MY EYES TRYING TO READ IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IT
+    </set>
+    <set name="that">
+     IT
+    </set>
+   </think>
+   yeah
+  </template>
+ </category>
+ <category>
+  <pattern>
+   (MUCH BETTER
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NICE
+    </set>
+    <set name="that">
+     NICE
+    </set>
+   </think>
+   nice!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   NICE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WEEK
+    </set>
+    <set name="that">
+     WEEK
+    </set>
+   </think>
+   well, i'm afraid i won't be able to make it over there in time, but i'd love to get together sometime this week
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WELL IM AFRAID WONT BE ABLE TO MAKE IT OVER THERE IN TIME BUT ID LOVE TO GET TOGETHER SOMETIME THIS WEEK
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     DEFINITELY
+    </set>
+    <set name="that">
+     DEFINITELY
+    </set>
+   </think>
+   definitely!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   DEFINITELY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NOW
+    </set>
+    <set name="that">
+     NOW
+    </set>
+   </think>
+   i do now
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YOU HAVE MY EMAIL ADDRESS RIGHT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NOW
+    </set>
+    <set name="that">
+     NOW
+    </set>
+   </think>
+   i do now
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I DO NOW
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     STEAM
+    </set>
+    <set name="that">
+     STEAM
+    </set>
+   </think>
+   and are you on Steam?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND ARE YOU ON STEAM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GREYBLUE9
+    </set>
+    <set name="that">
+     GREYBLUE9
+    </set>
+   </think>
+   yes, greyblue9
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YES *
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IT
+    </set>
+    <set name="that">
+     IT
+    </set>
+   </think>
+   got it
+  </template>
+ </category>
+ <category>
+  <pattern>
+   GOT IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IT
+    </set>
+    <set name="that">
+     IT
+    </set>
+   </think>
+   no, i wasn't aware of it
+  </template>
+ </category>
+ <category>
+  <pattern>
+   LET ME KNOW IF YOU HAVE ANY DAYS THAT WORK WELL FOR YOU
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LET
+    </set>
+    <set name="that">
+     LET
+    </set>
+   </think>
+   no, i wasn't aware of it
+  </template>
+ </category>
+ <category>
+  <pattern>
+   DO YOU KNOW ABOUT ROCK BOTTOMS WEDNESDAY SPECIAL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IT
+    </set>
+    <set name="that">
+     IT
+    </set>
+   </think>
+   no, i wasn't aware of it
+  </template>
+ </category>
+ <category>
+  <pattern>
+   NO WASNT AWARE OF IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FROM
+    </set>
+    <set name="that">
+     FROM
+    </set>
+   </think>
+   $1.50 drafts from 4-7
+  </template>
+ </category>
+ <category>
+  <pattern>
+   FOR THEIR HOMEBREWED BEER
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     DEAL
+    </set>
+    <set name="that">
+     DEAL
+    </set>
+   </think>
+   oh, that is an excellent deal
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OH THAT IS AN EXCELLENT DEAL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GET
+    </set>
+    <set name="that">
+     GET
+    </set>
+   </think>
+   when do you get off work on Wed?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WHEN DO YOU GET OFF WORK ON WED
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GET
+    </set>
+    <set name="that">
+     GET
+    </set>
+   </think>
+   i usually leave somewhat later, but i can go anytime after 5 with no problem
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I USUALLY LEAVE SOMEWHAT LATER BUT CAN GO ANYTIME AFTER * WITH NO PROBLEM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NO
+    </set>
+    <set name="that">
+     NO
+    </set>
+   </think>
+   ok
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WHEN WOULD YOU LIKE TO MEET
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     MEET
+    </set>
+    <set name="that">
+     MEET
+    </set>
+   </think>
+   ok
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WONDERFUL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IS
+    </set>
+    <set name="that">
+     IS
+    </set>
+   </think>
+   my # is 804-839-0136
+  </template>
+ </category>
+ <category>
+  <pattern>
+   MY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ON
+    </set>
+    <set name="that">
+     ON
+    </set>
+   </think>
+   I'll have my phone on me (804) 240-8362
+  </template>
+ </category>
+ <category>
+  <pattern>
+   (SAME
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GSGIS
+    </set>
+    <set name="that">
+     GSGIS
+    </set>
+   </think>
+   ok, cool
+  </template>
+ </category>
+ <category>
+  <pattern>
+   FROM GSGIS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GSGIS
+    </set>
+    <set name="that">
+     GSGIS
+    </set>
+   </think>
+   ok, cool
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OK COOL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     EARLIER
+    </set>
+    <set name="that">
+     EARLIER
+    </set>
+   </think>
+   I still had your # from earlier
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ILL CALL YOU WHEN GET THERE THEN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     EARLIER
+    </set>
+    <set name="that">
+     EARLIER
+    </set>
+   </think>
+   I still had your # from earlier
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I STILL HAD YOUR
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LATER
+    </set>
+    <set name="that">
+     LATER
+    </set>
+   </think>
+   excellent, see you later
+  </template>
+ </category>
+ <category>
+  <pattern>
+   FROM EARLIER
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LATER
+    </set>
+    <set name="that">
+     LATER
+    </set>
+   </think>
+   excellent, see you later
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SEE YOU THEN (WELL GRAB THE TABLE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     YOU
+    </set>
+    <set name="that">
+     YOU
+    </set>
+   </think>
+   excellent, see you later
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I * (ITS TIME FOR CHIPOTLE RUN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LATER
+    </set>
+    <set name="that">
+     LATER
+    </set>
+   </think>
+   excellent, see you later
+  </template>
+ </category>
+ <category>
+  <pattern>
+   EXCELLENT SEE YOU LATER
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TTYL
+    </set>
+    <set name="that">
+     TTYL
+    </set>
+   </think>
+   ttyl!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   TTYL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TELL
+    </set>
+    <set name="that">
+     TELL
+    </set>
+   </think>
+   tell dani i'
+  </template>
+ </category>
+ <category>
+  <pattern>
+   TELL * I
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TELL
+    </set>
+    <set name="that">
+     TELL
+    </set>
+   </think>
+   absolutely
+  </template>
+ </category>
+ <category>
+  <pattern>
+   LOOK FORWARD TO MEETING HER
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HER
+    </set>
+    <set name="that">
+     HER
+    </set>
+   </think>
+   absolutely
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SHES LOOKING FORWARD TO MEETING YOU TOO
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TOO
+    </set>
+    <set name="that">
+     TOO
+    </set>
+   </think>
+   lol, ok
+  </template>
+ </category>
+ <category>
+  <pattern>
+   * SHES WALKING OUT THE DOOR WITHOUT ME
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WITHOUT
+    </set>
+    <set name="that">
+     WITHOUT
+    </set>
+   </think>
+   lol, ok
+  </template>
+ </category>
+</aiml>

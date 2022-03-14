@@ -1,0 +1,738 @@
+<?xml version="1.0"?>
+<aiml>
+ <category>
+  <pattern>
+   HEY JOEL * TOLD ME WERE HAVING LOT OF PROBLEMS THE USERFRIENDS AND BUCKETTRIAL TABLES
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     UP
+    </set>
+    <set name="that">
+     UP
+    </set>
+   </think>
+   yeah they appeared to be backed up
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YEAH THEY APPEARED TO BE BACKED UP
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     INDEX
+    </set>
+    <set name="that">
+     INDEX
+    </set>
+   </think>
+   well is it possible that using IN prevents it from using the index?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ANY IDEA WHY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     INDEX
+    </set>
+    <set name="that">
+     INDEX
+    </set>
+   </think>
+   well is it possible that using IN prevents it from using the index?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   MY ONLY THEORY IS THERE ARE LOTS OF "DELETE COMMANDS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     INDEX
+    </set>
+    <set name="that">
+     INDEX
+    </set>
+   </think>
+   well is it possible that using IN prevents it from using the index?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WELL IS IT POSSIBLE THAT USING IN PREVENTS IT FROM USING THE INDEX
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HIT
+    </set>
+    <set name="that">
+     HIT
+    </set>
+   </think>
+   um, IN may have a performance hit yes
+  </template>
+ </category>
+ <category>
+  <pattern>
+   UM IN * HAVE PERFORMANCE HIT YES
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     MULTIPLE
+    </set>
+    <set name="that">
+     MULTIPLE
+    </set>
+   </think>
+   no, it has multiple
+  </template>
+ </category>
+ <category>
+  <pattern>
+   DO YOU DO IN WITH JUST ONE ENTRY IN THE ()S
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     DO
+    </set>
+    <set name="that">
+     DO
+    </set>
+   </think>
+   no, it has multiple
+  </template>
+ </category>
+ <category>
+  <pattern>
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     MULTIPLE
+    </set>
+    <set name="that">
+     MULTIPLE
+    </set>
+   </think>
+   no, it has multiple
+  </template>
+ </category>
+ <category>
+  <pattern>
+   NO IT HAS MULTIPLE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IT
+    </set>
+    <set name="that">
+     IT
+    </set>
+   </think>
+   it does have a performance impact. i noticed doing a union instead of IN actually improved performance in one instance
+  </template>
+ </category>
+ <category>
+  <pattern>
+   USERFRIENDUSERFBUID
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     INSTANCE
+    </set>
+    <set name="that">
+     INSTANCE
+    </set>
+   </think>
+   it does have a performance impact. i noticed doing a union instead of IN actually improved performance in one instance
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BLAH AND USERFRIENDFBUID IN *
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     INSTANCE
+    </set>
+    <set name="that">
+     INSTANCE
+    </set>
+   </think>
+   it does have a performance impact. i noticed doing a union instead of IN actually improved performance in one instance
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IT DOES HAVE PERFORMANCE IMPACT NOTICED DOING UNION INSTEAD OF IN ACTUALLY IMPROVED PERFORMANCE IN ONE INSTANCE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IT
+    </set>
+    <set name="that">
+     IT
+    </set>
+   </think>
+   well i'm curious to see what effect it would have if we changed the two columns in that table to bigint
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BUT DIDNT THINK IT WAS HUGE PERFORMANCE HIT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BIGINT
+    </set>
+    <set name="that">
+     BIGINT
+    </set>
+   </think>
+   well i'm curious to see what effect it would have if we changed the two columns in that table to bigint
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WELL IM CURIOUS TO SEE WHAT EFFECT IT WOULD HAVE IF WE CHANGED THE TWO COLUMNS IN THAT TABLE TO BIGINT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     UP
+    </set>
+    <set name="that">
+     UP
+    </set>
+   </think>
+   hmm, i wonder why BucketTrial is getting backed up
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IT SEEMED TO SPEED IT UP ON MY LOCAL MACHINE AND THERE WERE NO CODE CHANGES NEEDED
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     UP
+    </set>
+    <set name="that">
+     UP
+    </set>
+   </think>
+   hmm, i wonder why BucketTrial is getting backed up
+  </template>
+ </category>
+ <category>
+  <pattern>
+   PLUS IF WE EMPTIED THE TABLE IT WOULD JUST REBUILD ITSELF AS PEOPLE LOGGED IN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TABLE
+    </set>
+    <set name="that">
+     TABLE
+    </set>
+   </think>
+   hmm, i wonder why BucketTrial is getting backed up
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HMM WONDER WHY BUCKETTRIAL IS GETTING BACKED UP
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     INDEX
+    </set>
+    <set name="that">
+     INDEX
+    </set>
+   </think>
+   well it looks like there is no index
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IT COULD ALSO BE CORRUPT AND WE NEED TO REPAIR IT HMM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     INDEX
+    </set>
+    <set name="that">
+     INDEX
+    </set>
+   </think>
+   well it looks like there is no index
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ACTUALLY THE QUERY THATS TAKING LONG IS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     INDEX
+    </set>
+    <set name="that">
+     INDEX
+    </set>
+   </think>
+   well it looks like there is no index
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WELL IT LOOKS LIKE THERE IS NO INDEX
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     USERFRIENDUSERFBUID
+    </set>
+    <set name="that">
+     USERFRIENDUSERFBUID
+    </set>
+   </think>
+   the query that gets hung up uses the UserFriendUserFBUID column
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ONLY ON THE PRIMARY KEY WHICH ISNT USED FOR LOOKUPS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     USERFRIENDUSERFBUID
+    </set>
+    <set name="that">
+     USERFRIENDUSERFBUID
+    </set>
+   </think>
+   the query that gets hung up uses the UserFriendUserFBUID column
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IT NEEDS ONE ON TESTID
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     USERFRIENDUSERFBUID
+    </set>
+    <set name="that">
+     USERFRIENDUSERFBUID
+    </set>
+   </think>
+   the query that gets hung up uses the UserFriendUserFBUID column
+  </template>
+ </category>
+ <category>
+  <pattern>
+   VISITORID
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     USERFRIENDUSERFBUID
+    </set>
+    <set name="that">
+     USERFRIENDUSERFBUID
+    </set>
+   </think>
+   the query that gets hung up uses the UserFriendUserFBUID column
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I SHOULD HAVE PUT THAT IN WHEN IT WAS DESIGNED
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     USERFRIENDUSERFBUID
+    </set>
+    <set name="that">
+     USERFRIENDUSERFBUID
+    </set>
+   </think>
+   the query that gets hung up uses the UserFriendUserFBUID column
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THE QUERY THAT GETS HUNG UP USES THE USERFRIENDUSERFBUID COLUMN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TABLE
+    </set>
+    <set name="that">
+     TABLE
+    </set>
+   </think>
+   do you think we should put it back in maintenance mode and make the changes to the userfriends table
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OK
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     DO
+    </set>
+    <set name="that">
+     DO
+    </set>
+   </think>
+   do you think we should put it back in maintenance mode and make the changes to the userfriends table
+  </template>
+ </category>
+ <category>
+  <pattern>
+   DO YOU THINK WE SHOULD PUT IT BACK IN MAINTENANCE MODE AND MAKE THE CHANGES TO THE USERFRIENDS TABLE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THINK
+    </set>
+    <set name="that">
+     THINK
+    </set>
+   </think>
+   yes
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YES
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IT
+    </set>
+    <set name="that">
+     IT
+    </set>
+   </think>
+   alright, let's do it
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ALRIGHT LETS DO IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     USERFRIENDS
+    </set>
+    <set name="that">
+     USERFRIENDS
+    </set>
+   </think>
+   for UserFriends?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WE SHOULD PROBABLY PUT IT IN MAINTENANCE MODE AND THEN JUST DROP THE TABLE RATHER THAN TRY TO DELETE EVERYTHING IN IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TRY
+    </set>
+    <set name="that">
+     TRY
+    </set>
+   </think>
+   for UserFriends?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   FOR USERFRIENDS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     USERFRIENDS
+    </set>
+    <set name="that">
+     USERFRIENDS
+    </set>
+   </think>
+   yeah
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YEAH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CREATE
+    </set>
+    <set name="that">
+     CREATE
+    </set>
+   </think>
+   what we should do is rename the table, then re-create the table and add the indice
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS SUCH SIMPLE TABLE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CREATE
+    </set>
+    <set name="that">
+     CREATE
+    </set>
+   </think>
+   what we should do is rename the table, then re-create the table and add the indice
+  </template>
+ </category>
+ <category>
+  <pattern>
+   USERFRIENDS_INDEX IS IN THERE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     THERE
+    </set>
+    <set name="that">
+     THERE
+    </set>
+   </think>
+   sure
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WANT ME TO SWITCH THEM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WANT
+    </set>
+    <set name="that">
+     WANT
+    </set>
+   </think>
+   sure
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SURE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     DONE
+    </set>
+    <set name="that">
+     DONE
+    </set>
+   </think>
+   done
+  </template>
+ </category>
+ <category>
+  <pattern>
+   DONE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IN
+    </set>
+    <set name="that">
+     IN
+    </set>
+   </think>
+   i think we're trying to conference you in
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SWEET
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ONE
+    </set>
+    <set name="that">
+     ONE
+    </set>
+   </think>
+   yeah.. it could use one
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IS THERE ANY INDICIES NEEDED FOR BUCKETTRIAL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ONE
+    </set>
+    <set name="that">
+     ONE
+    </set>
+   </think>
+   yeah.. it could use one
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THATS THE OTHER QUERY THAT SEEMED TO HANG UP BUT * HAVE BEEN BECAUSE OF THE USERFRIENDS ISSUE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ONE
+    </set>
+    <set name="that">
+     ONE
+    </set>
+   </think>
+   yeah.. it could use one
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YEAH IT COULD USE ONE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ONE
+    </set>
+    <set name="that">
+     ONE
+    </set>
+   </think>
+   sure
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SHOULD GO AHEAD AND ADD IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     GO
+    </set>
+    <set name="that">
+     GO
+    </set>
+   </think>
+   sure
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SINCE ITS ONLY *
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SINCE
+    </set>
+    <set name="that">
+     SINCE
+    </set>
+   </think>
+   sure
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I THINK WERE TRYING TO CONFERENCE YOU IN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PASSWORD
+    </set>
+    <set name="that">
+     PASSWORD
+    </set>
+   </think>
+   hey joel, do you know the logmein password?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ON THE PHONE WITH PATRICK AND KYLE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PASSWORD
+    </set>
+    <set name="that">
+     PASSWORD
+    </set>
+   </think>
+   hey joel, do you know the logmein password?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HEY JOEL DO YOU KNOW THE LOGMEIN PASSWORD
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TABLE
+    </set>
+    <set name="that">
+     TABLE
+    </set>
+   </think>
+   is ABTest a new table?
+  </template>
+ </category>
+</aiml>

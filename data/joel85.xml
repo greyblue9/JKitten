@@ -1,0 +1,111 @@
+<session type="start" time="1285123354" medium="AIM" to="joel85" from="greyblue9"/>
+<message type="outgoing_privateMessage" time="1285123377" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="hey%20Joel%2C%20Kyle%20told%20me%20we%27re%20having%20a%20lot%20of%20problems%20w%2F%20the%20UserFriends%20and%20BucketTrial%20tables"/>
+<message type="incoming_privateMessage" time="1285123395" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="yeah%20they%20appeared%20to%20be%20backed%20up"/>
+<message type="incoming_privateMessage" time="1285123405" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="any%20idea%20why%3F"/>
+<message type="incoming_privateMessage" time="1285123414" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="my%20only%20theory%20is%20there%20are%20lots%20of%20%22delete%22%20commands"/>
+<message type="outgoing_privateMessage" time="1285123540" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="well%20is%20it%20possible%20that%20using%20IN%20prevents%20it%20from%20using%20the%20index%3F"/>
+<message type="incoming_privateMessage" time="1285123588" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="um%2C%20IN%20may%20have%20a%20performance%20hit%20yes"/>
+<message type="incoming_privateMessage" time="1285123601" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="do%20you%20do%20a%20IN%20with%20just%20one%20entry%20in%20the%20%28%29%27s"/>
+<message type="incoming_privateMessage" time="1285123607" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="%3F"/>
+<message type="outgoing_privateMessage" time="1285123610" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="no%2C%20it%20has%20multiple"/>
+<message type="outgoing_privateMessage" time="1285123631" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="UserFriendUserFBUID%20%3D%20blah%20AND%20UserFriendFBUID%20IN%20%281%2C2%2C3%2C4%2C5%29"/>
+<message type="incoming_privateMessage" time="1285123695" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="it%20does%20have%20a%20performance%20impact%2E%20i%20noticed%20doing%20a%20union%20instead%20of%20IN%20actually%20improved%20performance%20in%20one%20instance"/>
+<message type="incoming_privateMessage" time="1285123702" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="but%20i%20didn%27t%20think%20it%20was%20a%20huge%20performance%20hit"/>
+<message type="outgoing_privateMessage" time="1285123732" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="well%20i%27m%20curious%20to%20see%20what%20effect%20it%20would%20have%20if%20we%20changed%20the%20two%20columns%20in%20that%20table%20to%20bigint"/>
+<message type="outgoing_privateMessage" time="1285123743" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="it%20seemed%20to%20speed%20it%20up%20on%20my%20local%20machine%20and%20there%20were%20no%20code%20changes%20needed"/>
+<message type="outgoing_privateMessage" time="1285123764" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="plus%20if%20we%20emptied%20the%20table%20it%20would%20just%20rebuild%20itself%20as%20people%20logged%20in"/>
+<message type="incoming_privateMessage" time="1285123792" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="hmm%2C%20i%20wonder%20why%20BucketTrial%20is%20getting%20backed%20up"/>
+<message type="incoming_privateMessage" time="1285123802" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="it%20could%20also%20be%20corrupt%20and%20we%20need%20to%20repair%20it%2E%20hmm"/>
+<message type="incoming_privateMessage" time="1285123818" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="actually%20the%20query%20thats%20taking%20long%20is"/>
+<message type="outgoing_privateMessage" time="1285123836" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="well%20it%20looks%20like%20there%20is%20no%20index"/>
+<message type="outgoing_privateMessage" time="1285123845" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="only%20on%20the%20primary%20key%20which%20isn%27t%20used%20for%20lookups"/>
+<message type="outgoing_privateMessage" time="1285123860" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="it%20needs%20one%20on%20testID%20%3E%20visitorID"/>
+<message type="outgoing_privateMessage" time="1285123869" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="i%20should%20have%20put%20that%20in%20when%20it%20was%20designed"/>
+<message type="incoming_privateMessage" time="1285123880" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="the%20query%20that%20gets%20hung%20up%20uses%20the%20UserFriendUserFBUID%20column"/>
+<message type="incoming_privateMessage" time="1285123908" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="ok"/>
+<message type="outgoing_privateMessage" time="1285123939" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="do%20you%20think%20we%20should%20put%20it%20back%20in%20maintenance%20mode%20and%20make%20the%20changes%20to%20the%20userfriends%20table"/>
+<message type="incoming_privateMessage" time="1285123960" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="yes"/>
+<message type="outgoing_privateMessage" time="1285123968" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="alright%2C%20let%27s%20do%20it"/>
+<message type="outgoing_privateMessage" time="1285124022" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="we%20should%20probably%20put%20it%20in%20maintenance%20mode%20and%20then%20just%20drop%20the%20table%20rather%20than%20try%20to%20delete%20everything%20in%20it"/>
+<message type="incoming_privateMessage" time="1285124045" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="for%20UserFriends%3F"/>
+<message type="outgoing_privateMessage" time="1285124049" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="yeah"/>
+<message type="outgoing_privateMessage" time="1285124062" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="it%27s%20such%20a%20simple%20table"/>
+<message type="incoming_privateMessage" time="1285124078" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="what%20we%20should%20do%20is%20rename%20the%20table%2C%20then%20re%2Dcreate%20the%20table%20and%20add%20the%20indice"/>
+<message type="outgoing_privateMessage" time="1285124229" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="ok"/>
+<message type="outgoing_privateMessage" time="1285124233" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="UserFriends_index%20is%20in%20there"/>
+<message type="outgoing_privateMessage" time="1285124263" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="Want%20me%20to%20switch%20them%3F"/>
+<message type="incoming_privateMessage" time="1285124268" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="sure"/>
+<message type="outgoing_privateMessage" time="1285124318" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="done"/>
+<message type="incoming_privateMessage" time="1285124410" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="sweet"/>
+<message type="incoming_privateMessage" time="1285124419" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="is%20there%20any%20indicies%20needed%20for%20BucketTrial"/>
+<message type="incoming_privateMessage" time="1285124435" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="thats%20the%20other%20query%20that%20seemed%20to%20hang%20up%2C%20but%20may%20have%20been%20because%20of%20the%20UserFriends%20issue"/>
+<message type="outgoing_privateMessage" time="1285124440" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="yeah%2E%2E%20it%20could%20use%20one"/>
+<message type="outgoing_privateMessage" time="1285124454" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="should%20i%20go%20ahead%20and%20add%20it"/>
+<message type="outgoing_privateMessage" time="1285124458" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="since%20it%27s%20only%2031M"/>
+<message type="incoming_privateMessage" time="1285124459" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="sure"/>
+<message type="outgoing_privateMessage" time="1285124525" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="done"/>
+<message type="incoming_privateMessage" time="1285124569" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="i%20think%20we%27re%20trying%20to%20conference%20you%20in"/>
+<message type="incoming_privateMessage" time="1285124576" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="on%20the%20phone%20with%20patrick%20and%20kyle"/>
+<status type="Offline" time="1285126582" medium="AIM" from="joel85"/>
+<message type="information_standard" time="1285126582" medium="AIM" text="%22joel85%20%28joel85%29%22%20signed%20off%20at%20Tue%20Sep%2021%2023%3A36%3A22%202010%2E"/>
+<message type="information_standard" time="1285129660" medium="AIM" text="%22joel85%20%28joel85%29%22%20signed%20on%20at%20Wed%20Sep%2022%2000%3A27%3A40%202010%2E"/>
+<status type="online" time="1285129660" medium="AIM" from="joel85"/>
+<session type="stop" time="1285131104" medium="AIM" to="joel85" from="greyblue9"/>
+<session type="start" time="1288397183" medium="AIM" to="joel85" from="greyblue9"/>
+<status type="away" time="1288404757" medium="AIM" from="joel85"/>
+<session type="stop" time="1288404948" medium="AIM" to="joel85" from="greyblue9"/>
+<session type="start" time="1290284439" medium="AIM" to="joel85" from="greyblue9"/>
+<message type="outgoing_privateMessage" time="1290284450" medium="AIM" to="joel85" from="greyblue9" from_display="David" text="hey%20joel%2C%20do%20you%20know%20the%20logmein%20password%3F"/>
+<session type="stop" time="1290286347" medium="AIM" to="joel85" from="greyblue9"/>
+<session type="start" time="1291567380" medium="AIM" to="joel85" from="greyblue9"/>
+<message type="incoming_privateMessage" time="1291567380" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="is%20ABTest%20a%20new%20table%3F"/>
+<message type="incoming_privateMessage" time="1291568811" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="hey%20david"/>
+<message type="incoming_privateMessage" time="1291568854" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="the%20rateInstructor%20function%20may%20not%20be%20calling%20its%20callback%20when%20you%20close%20the%20popup"/>
+<message type="incoming_privateMessage" time="1291568885" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="on%20upload%2Drate"/>
+<message type="incoming_privateMessage" time="1291568888" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="the%20banner%20version"/>
+<message type="incoming_privateMessage" time="1291568890" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="on%20univ%2Dhome"/>
+<message type="incoming_privateMessage" time="1291568899" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="thanks"/>
+<message type="incoming_privateMessage" time="1291568903" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="yes"/>
+<message type="incoming_privateMessage" time="1291569133" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="chrome"/>
+<message type="incoming_privateMessage" time="1291569141" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="what%20univ%20are%20you%20at%3F"/>
+<message type="incoming_privateMessage" time="1291569152" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="i%27m%20at%20VT%20from%20the%20homepage"/>
+<message type="incoming_privateMessage" time="1291569186" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="should%20it%20call%20the%20callback%20as%20soon%20as%20you%20close%20the%20rate%20dialog%2C%20or%20only%20after%20you%20make%20your%20first%20rating%3F"/>
+<message type="incoming_privateMessage" time="1291569233" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="ok%20thats%20fine"/>
+<message type="incoming_privateMessage" time="1291569241" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="so%20you%20were%20able%20to%20repo%3F"/>
+<message type="incoming_privateMessage" time="1291569401" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="can%27t%20you%20do%20that%20with%20jquery%3F"/>
+<message type="incoming_privateMessage" time="1291569415" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="i%20think%20the%20click%20function%20%20appends%20not%20overwrite%2E%20hmm"/>
+<message type="incoming_privateMessage" time="1291569581" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="oo%20looks%20like%20i%20signed%20up%20with%20limited%20permisons"/>
+<message type="incoming_privateMessage" time="1291569587" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="got%20a%20fb%20post%20popup%2E%20cool"/>
+<message type="incoming_privateMessage" time="1291569609" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="any%20value%20to%20making%20the%20post%20for%20your%20testing%3F"/>
+<message type="incoming_privateMessage" time="1291569626" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="i%20added%20the%20ABTest%20table%20but%20it%20should%20be%20empty"/>
+<message type="incoming_privateMessage" time="1291569644" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="want%20me%20to%20make%20the%20post%3F"/>
+<message type="incoming_privateMessage" time="1291569659" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="i%27ll%20do%20it%2C%20no%20harm"/>
+<message type="incoming_privateMessage" time="1291570955" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="ok"/>
+<message type="incoming_privateMessage" time="1291571131" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="hat%20is%20invitation_campaign%20used%20for%20on%20the%20invite%20widget%3F"/>
+<message type="incoming_privateMessage" time="1291571139" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="can%20that%20be%20any%20arbitrary%20string%3F"/>
+<message type="incoming_privateMessage" time="1291571356" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="ok%2C%20thanks"/>
+<message type="incoming_privateMessage" time="1291571420" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="probably%20should%20just%20run%20the%20callback"/>
+<message type="incoming_privateMessage" time="1291571425" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="i%27m%20guessing%20that%20would%20be%20their%20expectation"/>
+<message type="incoming_privateMessage" time="1291577119" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="yep"/>
+<message type="incoming_privateMessage" time="1291577144" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="yeah%20they%20are%20a%20bit%20slow%2C%20take%205%20seconds%20or%20so"/>
+<message type="incoming_privateMessage" time="1291577156" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="oh%20i%20haven%27t%20tried%20to%20the%20course%20search%20lately"/>
+<message type="incoming_privateMessage" time="1291577166" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="on%20test%3F"/>
+<message type="incoming_privateMessage" time="1291577196" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="i%20tried%20on%20test%20and%20it%20took%202%20seconds"/>
+<message type="incoming_privateMessage" time="1291577199" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="for%20%22ece%22"/>
+<message type="incoming_privateMessage" time="1291577214" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="so%20i%27m%20guessing%20local%20is%20missing%20an%20index"/>
+<message type="incoming_privateMessage" time="1291577325" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="we%20could%20try%20to%20identify%20and%20add%20it%2C%20but%20i%27m%20guessing%20it%20would%20lock%20up%20the%20local%20db%20for%20a%20while"/>
+<message type="incoming_privateMessage" time="1291577350" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="is%20it%20slowing%20your%20development%20down%3F%20we%20can%20just%20bite%20the%20bullet%20or%20wait%20until%20the%20morning"/>
+<status type="away" time="1291585406" medium="AIM" from="joel85"/>
+<status type="away" time="1291585406" medium="AIM" from="joel85"/>
+<message type="incoming_privateMessage" time="1291586551" medium="AIM" to="greyblue9" from="joel85" from_display="joel85" text="hey"/>
+<status type="online" time="1291586558" medium="AIM" from="joel85"/>
+<status type="Offline" time="1291587119" medium="AIM" from="joel85"/>
+<message type="information_standard" time="1291587119" medium="AIM" text="%22joel85%20%28joel85%29%22%20signed%20off%20at%20Sun%20Dec%2005%2017%3A11%3A59%202010%2E"/>
+<message type="information_standard" time="1291590654" medium="AIM" text="%22joel85%20%28joel85%29%22%20signed%20on%20at%20Sun%20Dec%2005%2018%3A10%3A54%202010%2E"/>
+<status type="online" time="1291590654" medium="AIM" from="joel85"/>
+<status type="Offline" time="1291591737" medium="AIM" from="joel85"/>
+<message type="information_standard" time="1291591738" medium="AIM" text="%22joel85%20%28joel85%29%22%20signed%20off%20at%20Sun%20Dec%2005%2018%3A28%3A57%202010%2E"/>
+<message type="information_standard" time="1291592419" medium="AIM" text="%22joel85%20%28joel85%29%22%20signed%20on%20at%20Sun%20Dec%2005%2018%3A40%3A19%202010%2E"/>
+<status type="online" time="1291592419" medium="AIM" from="joel85"/>
+<status type="Offline" time="1291594380" medium="AIM" from="joel85"/>
+<message type="information_standard" time="1291594380" medium="AIM" text="%22joel85%20%28joel85%29%22%20signed%20off%20at%20Sun%20Dec%2005%2019%3A13%3A00%202010%2E"/>

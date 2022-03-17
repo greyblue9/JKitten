@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 <!-- File: train.aiml -->
-<!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: July 19, 2014 -->
+<!-- Last modified: July 27, 2016 -->
 <!--  -->
-<!-- This AIML file is part of the ALICE2 0.0.5 chat bot knowledge base. -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
 <!--  -->
-<!-- The ALICE2 brain is Copyright &copy; 2014 by ALICE AI Foundation. -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
 <!--  -->
-<!-- The ALICE2 brain is released under the terms of the GNU Lesser General -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
 <!-- Public License, as published by the Free Software Foundation. -->
 <!--  -->
 <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
-<!-- For more information see http://www.alicebot.org -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
 <!--  -->
+
 <category><pattern><set>name</set> LIKES TO <set>be</set> *</pattern>
 <template><think>
 <set var="name"><star/></set>
@@ -1003,7 +1007,7 @@ OK, when you say "<star/>", I will assume you mean "<star index="2"/>".
 <template><eval><star/></eval>.</template>
 </category>
 <category>
-<pattern>IS <eval><star/></eval> AN <star index="2"/></pattern>
+<pattern>IS <eval><star/></eval> AN <eval><star index="2"/></eval></pattern>
 <template>Yes.</template>
 </category>
 </learn></template>
@@ -1438,6 +1442,7 @@ and "<get name="learnpattern"/>"?</template>
 <set var="questionword"><srai>QUESTIONWORD <star/></srai></set>
 <set var="was"><star index="2"/></set>
 <set var="be"><map><name>was2be</name><get var="was"/></map></set>
+<set var="been"><map><name>be2been</name><get var="be"/></map></set>
 <set var="object"><person><star index="3"/></person></set>
 </think>
 <random>
@@ -1459,6 +1464,11 @@ and "<get name="learnpattern"/>"?</template>
 
 <category>
 <pattern>WHAT DID <eval><star/></eval> DO #</pattern>
+<template><eval><star/> <get var="was"/> <get var="object"/></eval>.</template>
+</category>
+
+<category>
+<pattern>WHAT WAS <eval><get var="been"/></eval> #</pattern>
 <template><eval><star/> <get var="was"/> <get var="object"/></eval>.</template>
 </category>
 

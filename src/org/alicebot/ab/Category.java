@@ -217,6 +217,9 @@ public class Category
   }
   matches.add(input);
   }
+  
+  static final Matcher NL_MATCHER
+    = Pattern.compile("\r?\n", Pattern.DOTALL).matcher("");
 
   /**
   convert a template to a single-line representation by replacing "," with #Comma and newline with #Newline
@@ -224,10 +227,12 @@ public class Category
   @return emplate on a single line of text
   */
   public static String templateToLine(String template) {
-  String result = template;
-  result = result.replaceAll("(\r\n|\n\r|\r|\n)", "\\#Newline");
-  result = result.replaceAll(MagicStrings.aimlif_split_char, MagicStrings.aimlif_split_char_name);
-  return result;
+    return NL_MATCHER.reset(template)
+      .replaceAll("\\#Newline")
+      .replace(
+        MagicStrings.aimlif_split_char,
+        MagicStrings.aimlif_split_char_name
+      );
   }
 
   /**
@@ -375,19 +380,10 @@ public class Category
     return false;
   }
   
+  static final Parser parser = Parser.xmlParser();
   
   public static Element toElement(final String input) {
-    try {
-      final Document doc = Jsoup.parse(
-        new ByteArrayInputStream(input.getBytes(UTF_8)),
-        UTF_8.name(),
-        "http://127.0.0.1/",
-        Parser.xmlParser()
-      );
-      return doc;
-    } catch (final IOException ioe) {
-      throw new RuntimeException(ioe);
-    }
+    return parser.parseInput(input, "");
   }
   
   public static String normSpace(String input) {

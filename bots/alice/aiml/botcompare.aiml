@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> 
-<aiml version="1.0">
+<aiml>
 
 <!-- Free software (c)2008 Square Bear. -->
 <!-- This program is open source code released under -->
@@ -112,52 +111,8 @@ Replace xxxxx and yyyyy with your own variables.
 </template>
 </category>
 
- <category>
- <pattern>BOTCOMPARISON</pattern>
- <template>
- <learn>
-	<category>
-	 <pattern>
-	 <eval><uppercase>BOTCHECK <get name="comparevalue1"/></uppercase></eval>
-	 </pattern>
-	 <template>
-		<think>
-		 <set name="match">YES</set>
-		</think>
-	 </template>
-	</category>
- </learn> 
-	<srai>botcheck <get name="comparevalue2"/></srai>
-	<srai>botremovecomparison</srai>
- </template>
- </category>
+ 
 
-<category>
-<pattern>BOTCHECK *</pattern>
-<template>
-	<think>
-	 <set name="match">NO</set>
-	</think>
-</template>
-</category>
-
- <category>
- <pattern>BOTREMOVECOMPARISON</pattern>
- <template>
- <learn>
-	<category>
-	 <pattern>
-	 <eval><uppercase>BOTCHECK <get name="comparevalue1"/></uppercase></eval>
-	 </pattern>
-	 <template>
-		<think>
-		 <set name="match">NO</set>
-		</think>
-	 </template>
-	</category>
- </learn> 
- </template>
- </category>
 
 
 <!-- A few error message in case BOTCOMPARE is used wrongly. -->

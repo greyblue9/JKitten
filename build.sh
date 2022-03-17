@@ -3,7 +3,16 @@
 classpath="${CLASSPATH}${CLASSPATH:+:}$( find "$PWD/lib" -name "*.jar" | tr '\n' ":" )$PWD/out:$PWD"
 
 rm -rf out && mkdir -p out
-find ./src -name "*.java" -exec javac -g -implicit:none -proc:none -nowarn -cp "./lib/deps.jar:./lib/jackson-core-2.2.3.jar" -d out/ "{}" + && rm -vf -- lib/Ab.jar && ( cd out; zip -Xy ../lib/Ab.jar -r . ; );
+find src -name "*.class" -delete
+find ./src -name "*.java" -exec javac -g -implicit:none -proc:none -nowarn -cp "./lib/deps.jar:./lib/jackson-core-2.2.3.jar" -d out/ "{}" +  \
+  && \
+    rm -vf -- lib/Ab.jar  \
+  && \
+    ( cd out; zip -Xy ../lib/Ab.jar -r . ; ) \
+  && \
+    ( cd src; zip -Xy ../lib/Ab.jar -r . ; ) \
+
+
 [ $? -eq 0 ] || exit 1
 (( NO_DX )) && exit 0
 dx=$( which dx )

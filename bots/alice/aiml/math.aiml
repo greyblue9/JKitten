@@ -19,10 +19,10 @@ Revised on May 16 2008 by NatLangProc, demo at: http://nlp-addiction.com/chatbot
 -->
 
 <category>
- <pattern>* + *</pattern>
+ <pattern>*</pattern>
  <template>
-  <think><set name="topic">math</set></think>
-  <srai><star /></srai>
+  Let's talk about <set name="topic">math</set>!
+  <srai><star/></srai>
  </template>
 </category>
 
@@ -101,8 +101,7 @@ Revised on May 16 2008 by NatLangProc, demo at: http://nlp-addiction.com/chatbot
 <random><li>plus </li><li>and </li><li>+ </li><li>+ </li><li>added to </li><li>increased by </li></random>
 <get name="y" />  
 <srai>XEQUALS</srai>
-<javascript>
-var ret = '';
+<script language="JavaScript">
 var x = '<get name="x" />'; var y = '<get name="y" />';
 if( y.search(/^ point /) != -1 ) { 
  var newy = ''; var split = y.split(" "); var i = 0;  
@@ -112,14 +111,13 @@ if( y.search(/^ point /) != -1 ) {
  } i++; if( i == split.length ) { break; } }
  x = x.replace(' point ', '.'); x = parseFloat(x); 
  y = newy; y = y.replace(' point ', '.'); y = parseFloat(y);
- ret += ("\nOops, I mean: " + x + " plus " + y + " = ");
+ document.write("<br />Oops, I mean: " + x + " plus " + y + " = ");
 } else {
  x = x.replace(' point ', '.'); x = parseFloat(x); 
  y = y.replace(' point ', '.'); y = parseFloat(y); }
 if( isNaN(x) || isNaN(y) ) { var r = '<get name="err" />'; } else { var r = x + y; } 
-ret += (r); 
-ret;
-</javascript>
+document.write(r); 
+</script>
 </template></category>
 <category><pattern>* PLUS *</pattern><template><srai>XMATH ADD <star/> <star index="2" /></srai></template></category>
 <category><pattern>* ADDED TO *</pattern><template><srai>XMATH ADD <star/> <star index="2" /></srai></template></category>
@@ -141,8 +139,7 @@ ret;
  <random><li>minus </li><li>- </li><li>- </li><li>subtracted from </li><li>subtracted by </li><li>take away </li></random>
  <get name="y" /> 
 <srai>XEQUALS</srai>
-<javascript>
-var ret = '';
+<script language="JavaScript">
 var x = '<get name="x" />'; var y = '<get name="y" />';
 if( y.search(/^ point /) != -1 ) { 
  var newy = ''; var split = y.split(" "); var i = 0;  
@@ -152,14 +149,13 @@ if( y.search(/^ point /) != -1 ) {
  } i++; if( i == split.length ) { break; } }
  x = x.replace(' point ', '.'); x = parseFloat(x); 
  y = newy; y = y.replace(' point ', '.'); y = parseFloat(y);
- ret += ("<br />Oops, I mean: " + x + " minus " + y + " = ");
+ document.write("<br />Oops, I mean: " + x + " minus " + y + " = ");
 } else {
  x = x.replace(' point ', '.'); x = parseFloat(x); 
  y = y.replace(' point ', '.'); y = parseFloat(y); }
 if( isNaN(x) || isNaN(y) ) { var r = '<get name="err" />'; } else { var r = x - y; } 
-ret += (r);
-ret;
-</javascript>
+document.write(r); 
+</script>
 </template></category>
 <category><pattern>* MINUS *</pattern><template><srai>XMATH SUBTRACT <star/> <star index="2" /></srai></template></category>
 <category><pattern>* SUBTRACTED BY *</pattern><template><srai>XMATH SUBTRACT <star/> <star index="2" /></srai></template></category>
@@ -183,8 +179,7 @@ ret;
  <random><li>times </li><li>* </li><li>x </li><li>X </li><li>multiplied by </li></random>
  <get name="y" />  
 <srai>XEQUALS</srai>
-<javascript>
-var ret = '';
+<script language="JavaScript">
 var x = '<get name="x" />'; var y = '<get name="y" />';
 if( y.search(/^ point /) != -1 ) { 
  var newy = ''; var split = y.split(" "); var i = 0;  
@@ -194,14 +189,13 @@ if( y.search(/^ point /) != -1 ) {
  } i++; if( i == split.length ) { break; } }
  x = x.replace(' point ', '.'); x = parseFloat(x); 
  y = newy; y = y.replace(' point ', '.'); y = parseFloat(y);
- ret += ("<br />Oops, I mean: " + x + " times " + y + " = ");
+ document.write("<br />Oops, I mean: " + x + " times " + y + " = ");
 } else {
  x = x.replace(' point ', '.'); x = parseFloat(x); 
  y = y.replace(' point ', '.'); y = parseFloat(y); }
 if( isNaN(x) || isNaN(y) ) { var r = '<get name="err" />'; } else { var r = x * y; } 
-ret += (r);
-ret;
-</javascript>
+document.write(r); 
+</script>
 </template></category>
 <category><pattern>* TIMES *</pattern><template><srai>XMATH MULTIPLY <star/> <star index="2" /></srai></template></category>
 <category><pattern>* X *</pattern><template><srai>XMATH MULTIPLY <star/> <star index="2" /></srai></template></category>
@@ -227,8 +221,7 @@ ret;
  <random><li>divided by </li><li>/ </li></random>
  <get name="y" /> 
 <srai>XEQUALS</srai>
-<javascript>
-var ret = '';
+<script language="JavaScript">
 var x = '<get name="x" />'; var y = '<get name="y" />';
 if( y.search(/^ point /) != -1 ) { 
  var newy = ''; var split = y.split(" "); var i = 0;  
@@ -238,14 +231,13 @@ if( y.search(/^ point /) != -1 ) {
  } i++; if( i == split.length ) { break; } }
  x = x.replace(' point ', '.'); x = parseFloat(x); 
  y = newy; y = y.replace(' point ', '.'); y = parseFloat(y);
- ret += ("<br />Oops, I mean: " + x + " divided by " + y + " = ");
+ document.write("<br />Oops, I mean: " + x + " divided by " + y + " = ");
 } else {
  x = x.replace(' point ', '.'); x = parseFloat(x); 
  y = y.replace(' point ', '.'); y = parseFloat(y); }
 if( isNaN(x) || isNaN(y) ) { var r = '<get name="err" />'; } else { var r = x / y; } 
-ret += (r); 
-ret;
-</javascript>
+document.write(r); 
+</script>
 </template></category>
 <category><pattern>DIVIDE * BY *</pattern><template><srai>XMATH DIVIDE <star/> <star index="2" /></srai></template></category>
 <category><pattern>DIVIDE * *</pattern><template><srai>XMATH DIVIDE <star/> <star index="2" /></srai></template></category>
@@ -276,11 +268,11 @@ ret;
 <srai>XHMM</srai>
  The Square Root of <get name="x" /> 
 <srai>XEQUALS</srai>
-<javascript>
+<script language="JavaScript">
 var x = '<get name="x"/>'; x = x.replace(' point ', '.'); x = parseFloat(x); 
 if( isNaN(x) ) { var r = '<get name="err" />'; } else { var r = Math.sqrt(x); }
-ret += (r); 
-</javascript>
+document.write(r); 
+</script>
 </template></category>
 <category><pattern>SQUARE ROOT *</pattern><template><srai>XMATH SQUARE ROOT <star/></srai></template></category>
 <category><pattern>SQUARE ROOT OF *</pattern><template><srai>XMATH SQUARE ROOT <star/></srai></template></category>
@@ -301,7 +293,7 @@ ret += (r);
 <srai>XHMM</srai>
  <get name="x" /> to the power of <get name="y" /> 
 <srai>XEQUALS</srai>
-<javascript>
+<script language="JavaScript">
 var x = '<get name="x" />'; var y = '<get name="y" />';
 if( y.search(/^ point /) != -1 ) { 
  var newy = ''; var split = y.split(" "); var i = 0;  
@@ -311,13 +303,13 @@ if( y.search(/^ point /) != -1 ) {
  } i++; if( i == split.length ) { break; } }
  x = x.replace(' point ', '.'); x = parseFloat(x); 
  y = newy; y = y.replace(' point ', '.'); y = parseFloat(y);
- ret += ("<br />Oops, I mean: " + x + " raised to the power of " + y + " = ");
+ document.write("<br />Oops, I mean: " + x + " raised to the power of " + y + " = ");
 } else {
  x = x.replace(' point ', '.'); x = parseFloat(x); 
  y = y.replace(' point ', '.'); y = parseFloat(y); }
 if( isNaN(x) || isNaN(y) ) { var r = '<get name="err" />'; } else { var r = Math.pow(x,y); } 
-ret += (r); 
-</javascript>
+document.write(r); 
+</script>
 </template></category>
 <category><pattern>RAISE * *</pattern><template><srai>XMATH POWER <star/> <star index="2" /></srai></template></category>
 <category><pattern>* TO POWER OF *</pattern><template><srai>XMATH POWER <star/> <star index="2" /></srai></template></category>
@@ -339,12 +331,12 @@ ret += (r);
 <srai>XHMM</srai>
  The Sine of <get name="x" /> 
 <srai>XEQUALS</srai>
-<javascript>
+<script language="JavaScript">
 var x = '<get name="x"/>'; x = x.replace(' point ', '.'); x = parseFloat(x); 
 if( isNaN(x) ) { var r = '<get name="err" />'; } else { 
  var r = Math.sin(x); var d = Math.sin(x * Math.PI/180) }
-ret += (r + ' radians, or ' + d + ' degrees '); 
-</javascript>
+document.write(r + ' radians, or ' + d + ' degrees '); 
+</script>
 </template></category>
 <category><pattern>SINE OF *</pattern><template><srai>XMATH SINE <star/></srai></template></category>
 <category><pattern>SINE *</pattern><template><srai>XMATH SINE <star/></srai></template></category>
@@ -358,12 +350,12 @@ ret += (r + ' radians, or ' + d + ' degrees ');
 <srai>XHMM</srai>
  The Cosine of <get name="x" /> 
 <srai>XEQUALS</srai>
-<javascript>
+<script language="JavaScript">
 var x = '<get name="x"/>'; x = x.replace(' point ', '.'); x = parseFloat(x); 
 if( isNaN(x) ) { var r = '<get name="err" />'; } else { 
  var r = Math.cos(x); var d = Math.cos(x * Math.PI/180) }
-ret += (r + ' radians, or ' + d + ' degrees '); 
-</javascript>
+document.write(r + ' radians, or ' + d + ' degrees '); 
+</script>
 </template></category>
 <category><pattern>COSINE OF *</pattern><template><srai>XMATH COSINE <star/></srai></template></category>
 <category><pattern>COSINE *</pattern><template><srai>XMATH COSINE <star/></srai></template></category>
@@ -377,12 +369,12 @@ ret += (r + ' radians, or ' + d + ' degrees ');
 <srai>XHMM</srai>
  The Tangent of <get name="x" /> 
 <srai>XEQUALS</srai>
-<javascript>
+<script language="JavaScript">
 var x = '<get name="x"/>'; x = x.replace(' point ', '.'); x = parseFloat(x); 
 if( isNaN(x) ) { var r = '<get name="err" />'; } else { 
  var r = Math.tan(x); var d = Math.tan(x * Math.PI/180) }
-ret += (r + ' radians, or ' + d + ' degrees '); 
-</javascript>
+document.write(r + ' radians, or ' + d + ' degrees '); 
+</script>
 </template></category>
 <category><pattern>TANGENT OF *</pattern><template><srai>XMATH TANGENT <star/></srai></template></category>
 <category><pattern>TANGENT *</pattern><template><srai>XMATH TANGENT <star/></srai></template></category>
@@ -397,11 +389,11 @@ ret += (r + ' radians, or ' + d + ' degrees ');
 <srai>XHMM</srai> 
 The natural logarithm (base E) of <get name="x" /> 
 <srai>XEQUALS</srai>
-<javascript>
+<script language="JavaScript">
 var x = '<get name="x"/>'; x = x.replace(' point ', '.'); x = parseFloat(x); 
 if( isNaN(x) ) { var r = '<get name="err" />'; } else { var r = Math.log(x); }
-ret += (r); 
-</javascript>
+document.write(r); 
+</script>
 </template></category>
 <category><pattern>LOGARITHM OF *</pattern><template><srai>XMATH LOGARITHM <star/></srai></template></category>
 <category><pattern>LOGARITHM *</pattern><template><srai>XMATH LOGARITHM <star/></srai></template></category>
@@ -450,7 +442,7 @@ ret += (r);
 
 <!-- SRAI section: QUESTION TAG REMOVALS -->
 
-<category><pattern>WHAT IS *</pattern><template><srai>SHOW CALCULATOR</srai></template></category>
+<category><pattern>WHAT IS *</pattern><template><srai><star/></srai></template></category>
 <category><pattern>WHAT IS ANSWER OF *</pattern><template><srai><star/></srai></template></category>
 <category><pattern>WHAT S *</pattern><template><srai><star/></srai></template></category>
 <category><pattern>WHATS *</pattern><template><srai><star/></srai></template></category>
@@ -752,7 +744,21 @@ ret += (r);
 
 <!-- Help -->
 
-<category><pattern>HELP MATH</pattern><template><srai>SHOW CALCULATOR</srai></template></category>
+<category><pattern>HELP MATH</pattern><template>This is all the math I know:
+<br /> * PLUS *
+<br /> * MINUS *
+<br /> * TIMES *
+<br /> * DIVIDED BY *
+<br /> SQUARE ROOT OF *
+<br /> * TO THE POWER OF *
+<br /> SINE OF *
+<br /> COSINE OF *
+<br /> TANGENT OF *
+<br /> LOGARITHM OF *
+<br /> ... my math skills depend on JavaScript working in this window.
+<br /> ... I can always read numbers (1, 3.14, 995 ...) but not always text (one, two, three ...)
+<br /> ... I get confused by the characters + - / *   Please use words like "plus", "minus" etc.
+</template></category>
 <category><pattern>HELP</pattern><template><srai>HELP MATH</srai></template></category>
 <category><pattern>HELP *</pattern><template><srai>HELP MATH</srai></template></category>
 <category><pattern>* HELP</pattern><template><srai>HELP MATH</srai></template></category>

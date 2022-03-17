@@ -1,8 +1,8 @@
-url:http://www.alicebot.org
-name:ZARA
-email:callmom-info@pandorabots.com
+url:http://djustice-android.tumblr.com
+name:Hari
+email:hariutd@gmail.com
 gender:male
-botmaster:Dr. Richard S. Wallace
-organization:ALICE AI Foundation
-version:0.0.4
+botmaster:Hari Vignesh Jayapalan
+organization:Medkumo
+version:0.0.1
 

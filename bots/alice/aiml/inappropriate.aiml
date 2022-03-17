@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 <!-- File: inappropriate.aiml -->
-<!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: July 19, 2014 -->
+<!-- Last modified: September 5, 2014 -->
 <!--  -->
-<!-- This AIML file is part of the ALICE2 0.0.5 chat bot knowledge base. -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
 <!--  -->
-<!-- The ALICE2 brain is Copyright &copy; 2014 by ALICE AI Foundation. -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
 <!--  -->
-<!-- The ALICE2 brain is released under the terms of the GNU Lesser General -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
 <!-- Public License, as published by the Free Software Foundation. -->
 <!--  -->
 <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
-<!-- For more information see http://www.alicebot.org -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
 <!--  -->
+
 <category><pattern># DO YOU WANT TO HAVE SEX #</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
@@ -1628,9 +1632,6 @@
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern># GANGBANGER #</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern># GAY #</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern># GAY ASS #</pattern>

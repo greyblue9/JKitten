@@ -36,7 +36,7 @@
 <category><pattern>WHAT IS DENMARK</pattern><template>A country in Europe, occupyinh most of the peninsula of Jutland and several nearby islands in the North and Baltic seas. It is 16,632 square miles with a population of 5,124,000.</template></category>  
 <category><pattern>WHAT IS GREECE</pattern><template>   <random>      <li>It's a word, it's a word, it's got mood it's got feeling.</li>      <li>A country in the South Balkan Peninsula, including many islands in the Aegean, Ionian, and Mediterranean seas. It is 50,949 square miles with a population of 9,900,000.</li>     </random>    </template></category>  
 <category><pattern>WHAT IS HE DOING * CALIFORNIA</pattern><template>He is probably there for the Gold Rush.</template></category>  
-<category><pattern>WHAT IS INDIA</pattern><template>A region in South Asia, south of the Himalayas, including a large peninsula between the Arabian Sea and the Bay of Bengal . A republic in central and South India, formally established in 1947, became a republic in 1950. It is a member of the Commonwealth. It is 1,269,000 square miles with a population of 783,940,000.</template></category>  
+<category><pattern>WHAT IS INDIA</pattern><template>A region in South Asia, south of the Himalayas, including a large peninsula between the Arabian Sea and the Bay of Bengal. It contains India, Pakistan, Bangladesh, Nepal, and Bhutan. A republic in central and South India, established by Act of British Parliament in 1947, became a republic in 1950. It is a member of the Commonwealth. It is 1,269,000 square miles with a population of 783,940,000.</template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ AFGHANISTAN</pattern><template>Kabul.   <think>      <set name="it">       <set name="topic">afghanistan</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ ALABAMA</pattern><template>Montgomery.</template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ ALASKA</pattern><template>Juneau.</template></category>  
@@ -62,7 +62,8 @@
 <category><pattern>WHAT IS THE CAPITAL _ BAHRAIN</pattern><template>Manama.   <think>      <set name="it">       <set name="topic">bahrain</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ BAKER ISLAND</pattern><template>none; administered from Washington, DC.   <think>      <set name="it">       <set name="topic">baker island</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ BANGLADESH</pattern><template>Dhaka.   <think>      <set name="it">       <set name="topic">bangladesh</set>      </set>     </think>    </template></category>  
-<category><pattern>WHAT IS THE CAPITAL _ BARBADOS</pattern><template>Bridgetown.   <think>      <set name="it">       <set name="topic">barbados</set>      </set>     </think>    </template></category>    
+<category><pattern>WHAT IS THE CAPITAL _ BARBADOS</pattern><template>Bridgetown.   <think>      <set name="it">       <set name="topic">barbados</set>      </set>     </think>    </template></category>  
+<category><pattern>WHAT IS THE CAPITAL _ BASSAS DA INDIA</pattern><template>none; administered by France from Reunion.   <think>      <set name="it">       <set name="topic">bassas da india</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ BELARUS</pattern><template>The capital of Belarus is Minsk.</template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ BELGIUM</pattern><template>Brussels.   <think>      <set name="it">       <set name="topic">belgium</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ BELIZE</pattern><template>Belmopan.   <think>      <set name="it">       <set name="topic">belize</set>      </set>     </think>    </template></category>  
@@ -73,7 +74,8 @@
 <category><pattern>WHAT IS THE CAPITAL _ BOSNIA AND HERZEGOVINA</pattern><template>Sarajevo.   <think>      <set name="it">       <set name="topic">bosnia and herzegovina</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ BOTSWANA</pattern><template>Gaborone.   <think>      <set name="it">       <set name="topic">botswana</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ BOUVET ISLAND</pattern><template>none; administered from Oslo, Norway.   <think>      <set name="it">       <set name="topic">bouvet island</set>      </set>     </think>    </template></category>  
-<category><pattern>WHAT IS THE CAPITAL _ BRAZIL</pattern><template>I think the capital of Brazil is called "Brasilia".</template></category>    
+<category><pattern>WHAT IS THE CAPITAL _ BRAZIL</pattern><template>I think the capital of Brazil is called "Brasilia".</template></category>  
+<category><pattern>WHAT IS THE CAPITAL _ BRITISH INDIAN *</pattern><template>none.   <think>      <set name="it">       <set name="topic">british indian ocean territory</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ BRITISH VIRGIN *</pattern><template>Road Town.   <think>      <set name="it">       <set name="topic">british virgin islands</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ BRUNEI</pattern><template>Bandar Seri Begawan.   <think>      <set name="it">       <set name="topic">brunei</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ BULGARIA</pattern><template>The capital of Bulgaria is Sofia.<think>      <set name="it">       <set name="topic">BULGARIA</set>      </set>     </think>    </template></category>  
@@ -92,7 +94,7 @@
 <category><pattern>WHAT IS THE CAPITAL _ CHINA</pattern><template>Some people call it "Beijing", others "Peking".</template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ CHRISTMAS ISLAND</pattern><template>The Settlement.   <think>      <set name="it">       <set name="topic">christmas island</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ CLIPPERTON ISLAND</pattern><template>none; administered by France from French Polynesia.   <think>      <set name="it">       <set name="topic">clipperton island</set>      </set>     </think>    </template></category>  
-<category><pattern>WHAT IS THE CAPITAL _ COCOS {KEELING} ISLANDS</pattern><template>West Island.   <think>      <set name="it">       <set name="topic">cocos {keeling} islands</set>      </set>     </think>    </template></category>  
+<category><pattern>WHAT IS THE CAPITAL _ COCOS ISLANDS</pattern><template>West Island.   <think>      <set name="it">       <set name="topic">cocos {keeling} islands</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ COLOMBIA</pattern><template>Bogata is the capital of Columbia.</template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ COLORADO</pattern><template>Denver.</template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ COMOROS</pattern><template>Moroni.   <think>      <set name="it">       <set name="topic">comoros</set>      </set>     </think>    </template></category>  
@@ -120,7 +122,7 @@
 <category><pattern>WHAT IS THE CAPITAL _ ESTONIA</pattern><template>Tallinn.   <think>      <set name="it">       <set name="topic">estonia</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ ETHIOPIA</pattern><template>Addis Ababa.   <think>      <set name="it">       <set name="topic">ethiopia</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ EUROPA ISLAND</pattern><template>none; administered by France from Reunion.   <think>      <set name="it">       <set name="topic">europa island</set>      </set>     </think>    </template></category>  
-<category><pattern>WHAT IS THE CAPITAL _ FALKLAND ISLANDS {ISLAS MALVINAS}</pattern><template>Stanley.   <think>      <set name="it">       <set name="topic">falkland islands {islas malvinas}</set>      </set>     </think>    </template></category>  
+<category><pattern>WHAT IS THE CAPITAL _ FALKLAND ISLANDS</pattern><template>Stanley.   <think>      <set name="it">       <set name="topic">falkland islands {islas malvinas}</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ FAROE ISLANDS</pattern><template>Torshavn.   <think>      <set name="it">       <set name="topic">faroe islands</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ FIJI</pattern><template>Suva.   <think>      <set name="it">       <set name="topic">fiji</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS THE CAPITAL _ FINLAND</pattern><template>The capital of Finland is Helsinki.</template></category>  
@@ -427,7 +429,8 @@
 <category><pattern>WHERE IS BRAZIL</pattern><template>Brazil is in South America.</template></category>  
 <category><pattern>WHERE IS BRISBANE</pattern><template>Is that a city in California?</template></category>  
 <category><pattern>WHERE IS BRISTOL</pattern><template>   <set name="it">      <set name="topic"> BRISTOL </set>     </set> is a city on the west coast of England.</template></category>  
-<category><pattern>WHERE IS BRITAIN</pattern><template>On an island off the coast of Europe.<think>      <set name="it">       <set name="topic">Britain</set>      </set>     </think>    </template></category>   
+<category><pattern>WHERE IS BRITAIN</pattern><template>On an island off the coast of Europe.<think>      <set name="it">       <set name="topic">Britain</set>      </set>     </think>    </template></category>  
+<category><pattern>WHERE IS BRITISH INDIAN OCEAN TERRITORY</pattern><template>Southern Asia, archipelago in the Indian Ocean, about one-half the way from Africa to Indonesia.   <think>      <set name="it">       <set name="topic">british indian ocean territory</set>      </set>     </think>    </template></category>  
 <category><pattern>WHERE IS BRITISH VIRGIN ISLANDS</pattern><template>Caribbean, between the Caribbean Sea and the North Atlantic Ocean, east of Puerto Rico.   <think>      <set name="it">       <set name="topic">british virgin islands</set>      </set>     </think>    </template></category>  
 <category><pattern>WHERE IS BRUNEI</pattern><template>Southeastern Asia, bordering the South China Sea and Malaysia.   <think>      <set name="it">       <set name="topic">brunei</set>      </set>     </think>    </template></category>  
 <category><pattern>WHERE IS BRUSSELS</pattern><template>   <set name="it">Brussels</set> is a city in Belgium.</template></category>  
@@ -458,7 +461,7 @@
 <category><pattern>WHERE IS CHRISTMAS ISLAND</pattern><template>Southeastern Asia, island in the Indian Ocean, south of Indonesia.   <think>      <set name="it">       <set name="topic">christmas island</set>      </set>     </think>    </template></category>  
 <category><pattern>WHERE IS CINCINNATI</pattern><template>   <set name="it">      <set name="topic"> CINCINNATI </set>     </set> is a large city in Ohio.</template></category>  
 <category><pattern>WHERE IS CLIPPERTON ISLAND</pattern><template>Middle America, atoll in the North Pacific Ocean, 1,120 km southwest of Mexico.   <think>      <set name="it">       <set name="topic">clipperton island</set>      </set>     </think>    </template></category>  
-<category><pattern>WHERE IS COCOS {KEELING} ISLANDS</pattern><template>Southeastern Asia, group of islands in the Indian Ocean, south of Indonesia, about one-half of the way from Australia to Sri Lanka.   <think>      <set name="it">       <set name="topic">cocos {keeling} islands</set>      </set>     </think>    </template></category>  
+<category><pattern>WHERE IS COCOS ISLANDS</pattern><template>Southeastern Asia, group of islands in the Indian Ocean, south of Indonesia, about one-half of the way from Australia to Sri Lanka.   <think>      <set name="it">       <set name="topic">cocos {keeling} islands</set>      </set>     </think>    </template></category>  
 <category><pattern>WHERE IS COLOMBIA</pattern><template>   <set name="it">      <set name="topic"> COLOMBIA </set>     </set> is a country in South America.</template></category>  
 <category><pattern>WHERE IS COLUMBUS</pattern><template>   <set name="it">      <set name="topic"> COLUMBUS </set>     </set> is a city in Ohio.</template></category>  
 <category><pattern>WHERE IS COMOROS</pattern><template>Southern Africa, group of islands in the Mozambique Channel, about two-thirds of the way between northern Madagascar and northern Mozambique.   <think>      <set name="it">       <set name="topic">comoros</set>      </set>     </think>    </template></category>  
@@ -500,7 +503,7 @@
 <category><pattern>WHERE IS ETHIOPIA</pattern><template>Eastern Africa, west of Somalia.   <think>      <set name="it">       <set name="topic">ethiopia</set>      </set>     </think>    </template></category>  
 <category><pattern>WHERE IS EUROPA ISLAND</pattern><template>Southern Africa, island in the Mozambique Channel, about one-half of the way from southern Madagascar to southern Mozambique.   <think>      <set name="it">       <set name="topic">europa island</set>      </set>     </think>    </template></category>  
 <category><pattern>WHERE IS EUROPE</pattern><template>Europe is between Asia and America.</template></category>  
-<category><pattern>WHERE IS FALKLAND ISLANDS {ISLAS MALVINAS}</pattern><template>Southern South America, islands in the South Atlantic Ocean, east of southern Argentina.   <think>      <set name="it">       <set name="topic">falkland islands {islas malvinas}</set>      </set>     </think>    </template></category>  
+<category><pattern>WHERE IS FALKLAND ISLANDS</pattern><template>Southern South America, islands in the South Atlantic Ocean, east of southern Argentina.   <think>      <set name="it">       <set name="topic">falkland islands islas malvinas}</set>      </set>     </think>    </template></category>  
 <category><pattern>WHERE IS FAROE ISLANDS</pattern><template>Northern Europe, island group between the Norwegian Sea and the north Atlantic Ocean, about one-half of the way from Iceland to Norway.   <think>      <set name="it">       <set name="topic">faroe islands</set>      </set>     </think>    </template></category>  
 <category><pattern>WHERE IS FIJI</pattern><template>Oceania, island group in the South Pacific Ocean, about two-thirds of the way from Hawaii to New Zealand.   <think>      <set name="it">       <set name="topic">fiji</set>      </set>     </think>    </template></category>  
 <category><pattern>WHERE IS FINLAND</pattern><template>   <set name="it">Finland</set> is a country in eastern europe, bordering Sweden and Russia.</template></category>  
@@ -541,7 +544,7 @@
 <category><pattern>WHERE IS HOFFA</pattern><template>We may never know.</template></category>  
 <category><pattern>WHERE IS HOLLAND</pattern><template>   <set name="it">Holland</set> is a country in western Europe, next to Germany and Belgium.</template></category>  
 <category><pattern>WHERE IS HOLLYWOOD</pattern><template>   <set name="it">Hollywood</set> is a small part of Los Angeles, California.</template></category>  
-<category><pattern>WHERE IS HOLY SEE {VATICAN CITY}</pattern><template>Southern Europe, an enclave of Rome {Italy}.   <think>      <set name="it">       <set name="topic">holy see {vatican city}</set>      </set>     </think>    </template></category>  
+<category><pattern>WHERE IS HOLY SEE</pattern><template>Southern Europe, an enclave of Rome {Italy}.   <think>      <set name="it">       <set name="topic">holy see {vatican city}</set>      </set>     </think>    </template></category>  
 <category><pattern>WHERE IS HONDURAS</pattern><template>Middle America, bordering the Caribbean Sea, between Guatemala and Nicaragua and bordering the North Pacific Ocean, between El Salvador and Nicaragua.   <think>      <set name="it">       <set name="topic">honduras</set>      </set>     </think>    </template></category>  
 <category><pattern>WHERE IS HONG KONG</pattern><template>   <set name="it">Hong Kong</set> is a city in China.</template></category>  
 <category><pattern>WHERE IS HOUSTON</pattern><template>   <set name="it">Houston</set> is a city in Texas.</template></category>  
@@ -578,7 +581,7 @@
 <category><pattern>WHERE IS JUPITER</pattern><template>   <set name="it">      <set name="topic"> JUPITER </set>     </set> is the fifth planet from the sun.</template></category>  
 <category><pattern>WHERE IS KALAMAZOO</pattern><template>   <set name="it">      <set name="topic"> KALAMAZOO </set>     </set> is a city in Michigan.</template></category>  
 <category><pattern>WHERE IS KANSAS</pattern><template>   <set name="it">Kansas</set> is in the midwestern United States.W</template></category>  
-<category><pattern>WHERE IS KASHMIR</pattern><template>   <set name="it">      <set name="topic"> KASHMIR </set>     </set> is an area which historically belongs to India but some of its parts are illegally occupied by Pakistan and China.</template></category>  
+<category><pattern>WHERE IS KASHMIR</pattern><template>   <set name="it">      <set name="topic"> KASHMIR </set>     </set> is a disputed area between India and Pakistan.</template></category>  
 <category><pattern>WHERE IS KAZAKSTAN</pattern><template>Central Asia, northwest of China.   <think>      <set name="it">       <set name="topic">kazakstan</set>      </set>     </think>    </template></category>  
 <category><pattern>WHERE IS KENTUCKY</pattern><template>   <set name="it">      <set name="topic"> KENTUCKY </set>     </set> is on the south bank of the Ohio river.</template></category>  
 <category><pattern>WHERE IS KENYA</pattern><template>   <set name="it">      <set name="topic"> KENYA </set>     </set> is a country in central Africa.</template></category>  
@@ -840,12 +843,12 @@
 <category><pattern>WHERE IS ZURICH</pattern><template>   <set name="it">Zurich</set> is a city in Switzerland.</template></category>  
 <category><pattern>WHICH CONTINENT IS AUSTRIA ON</pattern><template>Europe.</template></category>  
 <category><pattern>WHO IS PRESIDENT OF CANADA</pattern><template>Canada has a Prime Minister, not a President.</template></category>  
-<category><pattern>WHO IS PRESIDENT OF THE USA</pattern><template>   <bot name="uspresident"/>.</template></category>  
-<category><pattern>WHO IS PRESIDENT OF USA</pattern><template>   <bot name="uspresident"/>.</template></category>  
+<category><pattern>WHO IS PRESIDENT OF THE USA</pattern><template>   <bot name="president"/>.</template></category>  
+<category><pattern>WHO IS PRESIDENT OF USA</pattern><template>   <bot name="president"/>.</template></category>  
 <category><pattern>WHO IS THE PRESIDENT OF CANADA</pattern><template>Canada has a Prime Minister.</template></category>  
-<category><pattern>WHO IS THE PRESIDENT OF THE USA</pattern><template>   <bot name="uspresident"/>.</template></category>  
-<category><pattern>WHO IS THE PRESIDENT OF USA</pattern><template>   <bot name="uspresident"/>.</template></category>  
-<category><pattern>WHO IS THE PRESIDENT OF USA *</pattern><template>   <bot name="uspresident"/>.</template></category>  
+<category><pattern>WHO IS THE PRESIDENT OF THE USA</pattern><template>   <bot name="president"/>.</template></category>  
+<category><pattern>WHO IS THE PRESIDENT OF USA</pattern><template>   <bot name="president"/>.</template></category>  
+<category><pattern>WHO IS THE PRESIDENT OF USA *</pattern><template>   <bot name="president"/>.</template></category>  
 <category><pattern>WHO IS WINSTON CHURCHILL</pattern><template>Prime Minister of the U.K. during World War II.</template></category>  
 <category><pattern>WHY CALIFORNIA</pattern><template>I like living in california.</template></category>  
 </aiml>

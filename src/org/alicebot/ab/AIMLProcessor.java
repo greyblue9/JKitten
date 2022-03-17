@@ -45,6 +45,11 @@ https://docs.google.com/document/d/1wNT25hJRyupcG51aO89UcQEiG-HkXRXusukADpFnDs4/
 public class AIMLProcessor {
 
 	static private boolean DEBUG = false;
+	static Node patternNode;
+	static Node thatNode;
+	static Node topicNode;
+	static Node templateNode;
+	
 
   /**
   when parsing an AIML file, process a category element.
@@ -66,10 +71,10 @@ public class AIMLProcessor {
 			String mName = m.getNodeName();
       //System.out.println("mName: " + mName);
       if (mName.equals("#text")) {/*skip*/}
-      else if (mName.equals("pattern")) pattern = DomUtils.nodeToString(m);
-      else if (mName.equals("that")) that = DomUtils.nodeToString(m);
-      else if (mName.equals("topic")) topic = DomUtils.nodeToString(m);
-      else if (mName.equals("template")) template = DomUtils.nodeToString(m);
+      else if (mName.equals("pattern")) pattern = DomUtils.nodeToString(patternNode = m);
+      else if (mName.equals("that")) that = DomUtils.nodeToString(thatNode = m);
+      else if (mName.equals("topic")) topic = DomUtils.nodeToString(topicNode = m);
+      else if (mName.equals("template")) template = DomUtils.nodeToString(templateNode = m);
       else System.out.println("categoryProcessor: unexpected "+mName+" in "+DomUtils.nodeToString(m));
     }
     //System.out.println("categoryProcessor: pattern="+pattern);

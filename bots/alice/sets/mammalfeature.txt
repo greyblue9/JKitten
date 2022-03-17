@@ -4,4 +4,3 @@ milk
 fur
 backbone
 live births
-hairs

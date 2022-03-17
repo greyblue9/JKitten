@@ -40,7 +40,7 @@
   </category>
   <category>
     <pattern>IF I HAD YOU *</pattern>
-    <template>What would you do with me <person/>?
+    <template>What would you do with me<person/>?
         </template>
   </category>
   <category>
@@ -157,7 +157,7 @@
   </category>
   <category>
     <pattern>IF YOU WERE *</pattern>
-    <template>I will let you know when I become a <person/>.
+    <template>I will let you know when I become a<person/>.
         </template>
   </category>
   <category>
@@ -289,7 +289,7 @@
           <random>
             <li>So if not
                             <person><star index="2"/></person>
-                            , then not <person/>.
+                            , then not<person/>.
                         </li>
             <li>But can
                             <person/>

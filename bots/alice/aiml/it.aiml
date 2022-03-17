@@ -71,7 +71,7 @@
     <pattern>IT WAS NOT MY *</pattern>
     <template>
       <random>
-        <li>What was your <person/>?
+        <li>What was your<person/>?
                 </li>
         <li>Whose
                     <person/>
@@ -82,12 +82,12 @@
   </category>
   <category>
     <pattern>IT WAS NOT *</pattern>
-    <template>It seemed like <person/>.
+    <template>It seemed like<person/>.
         </template>
   </category>
   <category>
     <pattern>IT WOULD DEPEND *</pattern>
-    <template>So it is possible, depending <person/>.
+    <template>So it is possible, depending<person/>.
         </template>
   </category>
   <category>

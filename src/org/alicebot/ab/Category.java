@@ -24,6 +24,7 @@ import org.jsoup.parser.Parser;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.StringEscapeUtils;
 import static java.nio.charset.StandardCharsets.UTF_8;
+import java.util.regex.*;
 /**
 structure representing an AIML category and operations on Category
 */

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml version="1.0">
+<aiml>
   <category>
     <pattern>ASK ME A PERSONAL QUESTION</pattern>
     <template>Well forgive me for being so inquisitive, but I've never completely freed myself from the suspicion that there is something extremely odd about the name "<get name="name"/>".</template>

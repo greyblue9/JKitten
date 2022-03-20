@@ -4,7 +4,7 @@ This file includes support for "what rhymes with" questions,
 with the help of Brian Langenberger's Rhyming Dictionary
 at http://rhyme.sourceforge.net/
 -->
-<aiml version="1.0.1">
+<aiml>
   <category>
     <pattern>WHAT RHYMES WITH *</pattern>
     <template>

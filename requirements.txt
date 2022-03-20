@@ -1,0 +1,6 @@
+nextcord
+requests
+flask
+google-search
+
+pyjnius

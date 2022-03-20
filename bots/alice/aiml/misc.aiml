@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="1.0">
+<aiml>
   <category>
     <pattern>MAINE</pattern>
     <template>A State and a battleship.</template>

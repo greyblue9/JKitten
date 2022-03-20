@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--Taken from: https://gist.githubusercontent.com/nylo-andry/3997684/raw/94591b5d8c405e3e90945dd512ea77c8b6de8fde/basic.aiml-->
-<aiml version="1.0.1" encoding="UTF-8">
+<aiml>
   <category>
     <pattern>HELLO</pattern>
     <template>

@@ -3,7 +3,7 @@
 This file includes support for "what does X stand for" questions,
 with the help of an online acronym decoder.
 -->
-<aiml version="1.0.1">
+<aiml>
   <category>
     <pattern>WHAT DOES * STAND FOR</pattern>
     <template>

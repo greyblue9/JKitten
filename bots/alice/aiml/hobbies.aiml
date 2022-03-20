@@ -1,0 +1,21 @@
+<aiml>
+  <category>
+    <pattern>I want to talk about hobbies.</pattern>
+    <template>Lets talk about hobbies.</template>
+  </category>
+  
+  <topic this_topic="hobbies.">
+    <category>
+      <pattern>* is my hobby.</pattern>
+      <template><think><set activity="hobby"><star /></set></think> is your hobby.</template>
+    </category>
+    
+    <category>
+      <pattern>I am enjoying my hobby!</pattern>
+      <template>
+        <condition activity="hobby" value="singing">Do you still sing?</condition>
+        <condition activity="hobby" value="drawing">Do you still draw pictures?</condition>
+      </template>
+    </category>
+  </topic>
+</aiml>

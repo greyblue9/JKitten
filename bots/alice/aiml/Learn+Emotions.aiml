@@ -1,0 +1,10 @@
+<aiml>
+    <category>
+        <pattern>I am <set>emotion</set></pattern>
+        <template>Sometimes I feel <star/> as well.</template>
+    </category>
+    <category>
+        <pattern>I feel *</pattern>
+        <template>Sometimes I feel <star/> as well.<self>think {if (star.meaning == null) { star.meaning = new Emotion(); } else { star.meaning.instantiation = #emotion; } }</self></template>
+    </category>
+</aiml>

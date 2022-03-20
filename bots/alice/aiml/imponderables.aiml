@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="1.0">
+<aiml>
 <category><pattern>IMPONDERABLES</pattern>
 <template><random><li>Do fish ever sneeze?</li>
 <li>Can sour cream go bad?</li>

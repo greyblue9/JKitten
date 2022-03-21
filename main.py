@@ -394,6 +394,10 @@ async def on_message(message):
                 " being serious or not",
                 "I'm not sure if yo",
                 "being serious or not.",
+                "reference to the song",
+                "I'm over hereactly",
+                "Thanks for the trade",
+                "Hey, I'm over here,"
               )
             ):
                 print("Requesting a reply from second model")
@@ -412,6 +416,10 @@ async def on_message(message):
                 " being serious or not",
                 "I'm not sure if yo",
                 "being serious or not.",
+                "reference to the song",
+                "I'm over hereactly",
+                "Thanks for the trade",
+                "Hey, I'm over here,"
               )
             ):
                 get_chat(uid).multisentenceRespond(bot_message or response)
@@ -423,6 +431,10 @@ async def on_message(message):
                     "Are you a girl",
                     "like, I know",
                     "I know, right",
+                    "reference to the song",
+                    "I'm over hereactly",
+                    "Thanks for the trade",
+                    "Hey, I'm over here,"
                   )
             ):
             
@@ -434,6 +446,10 @@ async def on_message(message):
                     "Are you a girl",
                     "like, I know",
                     "I know, right",
+                    "reference to the song",
+                    "I'm over hereactly",
+                    "Thanks for the trade",
+                    "Hey, I'm over here,"
                   )
             ):
                 print("Requesting a reply from Alice")
@@ -454,6 +470,10 @@ async def on_message(message):
                     "how old are you",
                     "where are you?",
                     "i'm glad you",
+                    "reference to the song",
+                    "I'm over hereactly",
+                    "Thanks for the trade",
+                    "Hey, I'm over here,"
                   )
             ):
                 print("Requesting a reply from Alice, #2")

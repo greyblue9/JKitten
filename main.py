@@ -26,8 +26,9 @@ EMOJI_REGEX = re.compile(
 def translate_emojis(message: str) -> str:
   return EMOJI_REGEX.subn(
     " \\1 ",
-    demoji.replace(
-      message.split("]")[-1].strip("\n: ,")
+    demoji.replace_with_desc(
+      message.split("]")[-1].strip("\n: ,"),
+      sep=" "
     )
   )[0]
 

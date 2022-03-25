@@ -29,66 +29,66 @@ from __future__ import print_function
 # Get around this by importing UserDict.UserDict if the built-in dict
 # object isn't available.
 try:
-  dict
+    dict
 except:
-  from UserDict import UserDict as dict
+    from UserDict import UserDict as dict
 
 import re
 import string
 
 try:
-  from ConfigParser import ConfigParser
+    from ConfigParser import ConfigParser
 except ImportError:
-  from configparser import ConfigParser
+    from configparser import ConfigParser
 
 
 class WordSub(dict):
-  """All-in-one multiple-string-substitution class."""
+    """All-in-one multiple-string-substitution class."""
 
-  def _wordToRegex(self, word):
-    """Convert a word to a regex object which matches the word."""
-    if word != "" and word[0].isalpha() and word[-1].isalpha():
-      return "\\b%s\\b" % re.escape(word)
-    else:
-      return r"\b%s\b" % re.escape(word)
+    def _wordToRegex(self, word):
+        """Convert a word to a regex object which matches the word."""
+        if word != "" and word[0].isalpha() and word[-1].isalpha():
+            return "\\b%s\\b" % re.escape(word)
+        else:
+            return r"\b%s\b" % re.escape(word)
 
-  def _update_regex(self):
-    """Build re object based on the keys of the current
-    dictionary.
+    def _update_regex(self):
+        """Build re object based on the keys of the current
+        dictionary.
 
-    """
-    self._regex = re.compile("|".join(map(self._wordToRegex, self.keys())))
-    self._regexIsDirty = False
+        """
+        self._regex = re.compile("|".join(map(self._wordToRegex, self.keys())))
+        self._regexIsDirty = False
 
-  def __init__(self, defaults={}):
-    """Initialize the object, and populate it with the entries in
-    the defaults dictionary.
+    def __init__(self, defaults={}):
+        """Initialize the object, and populate it with the entries in
+        the defaults dictionary.
 
-    """
-    self._regex = None
-    self._regexIsDirty = True
-    for k, v in defaults.items():
-      self[k] = v
+        """
+        self._regex = None
+        self._regexIsDirty = True
+        for k, v in defaults.items():
+            self[k] = v
 
-  def __call__(self, match):
-    """Handler invoked for each regex match."""
-    return self[match.group(0)]
+    def __call__(self, match):
+        """Handler invoked for each regex match."""
+        return self[match.group(0)]
 
-  def __setitem__(self, i, y):
-    self._regexIsDirty = True
-    # for each entry the user adds, we actually add three entrys:
-    super(type(self), self).__setitem__(i.lower(), y.lower())  # key = value
-    super(type(self), self).__setitem__(
-      string.capwords(i), string.capwords(y)
-    )  # Key = Value
-    super(type(self), self).__setitem__(i.upper(), y.upper())  # KEY = VALUE
+    def __setitem__(self, i, y):
+        self._regexIsDirty = True
+        # for each entry the user adds, we actually add three entrys:
+        super(type(self), self).__setitem__(i.lower(), y.lower())  # key = value
+        super(type(self), self).__setitem__(
+            string.capwords(i), string.capwords(y)
+        )  # Key = Value
+        super(type(self), self).__setitem__(i.upper(), y.upper())  # KEY = VALUE
 
-  def sub(self, text):
-    """Translate text, returns the modified text."""
-    if self._regexIsDirty:
-      self._update_regex()
-    before = text
-    after = self._regex.sub(self, text)
-    if before != after:
-      print("sub: before: %r, after: %r"%(before,after))
-    return after
+    def sub(self, text):
+        """Translate text, returns the modified text."""
+        if self._regexIsDirty:
+            self._update_regex()
+        before = text
+        after = self._regex.sub(self, text)
+        if before != after:
+            print("sub: before: %r, after: %r" % (before, after))
+        return after

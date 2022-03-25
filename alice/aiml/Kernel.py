@@ -32,6 +32,7 @@ from logging import DEBUG, StreamHandler, getLogger, root
 from bs4 import BeautifulSoup, GuessedAtParserWarning
 from io import StringIO, BytesIO
 from itertools import islice
+
 log = getLogger(__name__)
 root.addHandler(StreamHandler(sys.stderr))
 root.setLevel(DEBUG)
@@ -84,7 +85,7 @@ class Kernel:
     self._subbers["person"] = WordSub(DefaultSubs.defaultPerson)
     self._subbers["person2"] = WordSub(DefaultSubs.defaultPerson2)
     self._subbers["normal"] = WordSub(DefaultSubs.defaultNormal)
-    
+
     self._stack = []
 
     # set up the element processors
@@ -121,10 +122,9 @@ class Kernel:
       "uppercase": self._processUppercase,
       "version": self._processVersion,
     }
-    
+
     self._byfile = {}
     self._files = {}
-    
 
   def bootstrap(self, brainFile=None, learnFiles=[], commands=[], chdir=None):
     """Prepare a Kernel object for use.
@@ -365,10 +365,14 @@ class Kernel:
       with catch_warnings() as cw:
         filterwarnings(action="ignore", category=GuessedAtParserWarning)
         doc = BeautifulSoup(Path(f).read_bytes())
-        
-      for elem in list(reversed(doc.select(
-        "p, i, br, b, em, string, div, span, blockquote, br, img, object, a, link, head, body, html"
-      ))):
+
+      for elem in list(
+        reversed(
+          doc.select(
+            "p, i, br, b, em, string, div, span, blockquote, br, img, object, a, link, head, body, html"
+          )
+        )
+      ):
         elem.replaceWithChildren()
       xmlstr = doc.decode().encode()
       with BytesIO(xmlstr) as sio:
@@ -380,7 +384,8 @@ class Kernel:
         handler.setEncoding(self._textEncoding)
         try:
           z = parser.parse(sio)
-          if z: print(f"{filename=} {z=}")
+          if z:
+            print(f"{filename=} {z=}")
         except xml.sax.SAXParseException as msg:
           err = "\x0aFATAL PARSE ERROR in file %s:\x0a%s\x0a" % (f, msg)
           sys.stderr.write(err)
@@ -393,7 +398,7 @@ class Kernel:
         # Parsing was successful.
         if self._verboseMode:
           print("done (%.2f seconds)" % (time.monotonic() - start))
-  
+
   def respond(self, input_, sessionID=_globalSessionID):
     """Return the Kernel's response to the input string."""
     if len(input_) == 0:
@@ -496,7 +501,13 @@ class Kernel:
     # Determine the final response.
     response = ""
     elem = self._brain.match(subbedInput, subbedThat, subbedTopic)
-    log.debug("_brain.match(subbedInput=%s, subbedThat=%s, subbedTopic=%s) = elem: %s", subbedInput, subbedThat, subbedTopic, elem)
+    log.debug(
+      "_brain.match(subbedInput=%s, subbedThat=%s, subbedTopic=%s) = elem: %s",
+      subbedInput,
+      subbedThat,
+      subbedTopic,
+      elem,
+    )
     if elem is None:
       if self._verboseMode:
         err = "WARNING: No match found for input: %s\n" % self._cod.enc(input_)
@@ -504,7 +515,12 @@ class Kernel:
     else:
       # Process the element into a response string.
       elem_resp = self._processElement(elem, sessionID).strip()
-      log.debug("_processElement(elem=%s, sessionID=%s) = elem_resp: %s", elem, sessionID, elem_resp)
+      log.debug(
+        "_processElement(elem=%s, sessionID=%s) = elem_resp: %s",
+        elem,
+        sessionID,
+        elem_resp,
+      )
       response += elem_resp
       response += " "
     response = response.strip()

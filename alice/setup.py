@@ -8,7 +8,6 @@ import glob
 from aiml.constants import VERSION
 
 
-
 setup_args = dict(
   name="python-aiml",
   version=VERSION,

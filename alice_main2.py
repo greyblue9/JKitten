@@ -12,12 +12,4 @@ k = aiml.Kernel.Kernel()
 if Path("brain.dmp").exists():
   k.bootstrap("brain.dmp", [])
 else:
-  k.bootstrap(
-    None,
-    list(
-      map(Path.as_posix, Path("./").glob("**/*.aiml"))
-    )
-  )
-
-
-
+  k.bootstrap(None, list(map(Path.as_posix, Path("./").glob("**/*.aiml"))))

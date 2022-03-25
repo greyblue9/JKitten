@@ -97,7 +97,7 @@ if USE_JAVA:
     "./lib/Ab.jar",
     "./lib.deps.jar",
     *(
-      "/data/media/0/src/JKitten/lib/Ab.jar:/data/media/0/src/JKitten/lib/deps.jar:/data/media/0/src/JKitten/lib/jackson-core-2.13.1.jar:/data/media/0/src/JKitten/lib/jackson-databind-2.13.1.jar".strip().split(
+      "lib/Ab.jar:lib/deps.jar:lib/jackson-core-2.13.1.jar:lib/jackson-databind-2.13.1.jar".strip().split(
         ":"
       )
     ),
@@ -116,6 +116,7 @@ if USE_JAVA:
   from zipfile import ZipFile
 
   with (ZipFile(orig_cwd / "lib" / "Ab.jar", "r")) as jar:
+    from pathlib import Path
     globals().update(
       {
         Path(f).stem: jnius.autoclass(
@@ -124,6 +125,7 @@ if USE_JAVA:
         for f in jar.namelist()
         if Path(f).suffix == ".class"
         and (f == "Main.class" or f.startswith("org/alicebot/"))
+        and not f.endswith("Path.class")
       }
     )
   alice_bot = None

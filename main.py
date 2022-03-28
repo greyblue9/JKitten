@@ -389,6 +389,10 @@ async def on_message(message):
   mention = f"<@!{bot.user.id}>"
   try:
     for _ in range(1):
+      if len(bot_message.split()) == 1:
+        if bot_message.split()[0].lower() in ("lol", "lmao", "xD", "lmfao", "xd", "rofl"):
+          plan.append("skip short laugh message")
+          break
       if message.author.bot:
         print("message.author.bot")
         plan.append("skip other bot message")

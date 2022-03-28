@@ -192,7 +192,15 @@ public class Sraix {
     String topic = h3.text().split(" - ")[0].split("\\|")[0];
     String topicMatch = String.format("what is %s?", input), descMatch = String.format("%s is ", input);
     int levTopic = StringUtils.getLevenshteinDistance(topic.toLowerCase(), topicMatch.toLowerCase());
-    int levDesc = StringUtils.getLevenshteinDistance(desc.toLowerCase().subSequence(0, descMatch.length()), descMatch.toLowerCase());
+    int levDesc = StringUtils.getLevenshteinDistance(
+      desc.toLowerCase().subSequence(
+        0,
+        descMatch.length() < desc.length()
+          ? descMatch.length()
+          : desc.length()
+      ),
+      descMatch.toLowerCase()
+    );
     System.err.printf("levTopic=%d, levDesc=%d, topic=\"%s\", desc=\"%s\"\n", levTopic, levDesc, topic, desc);
     if (levTopic + levDesc < bestLev) {
       bestLev = levTopic + levDesc;

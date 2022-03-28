@@ -453,8 +453,8 @@ async def on_message(message):
             )
             if response:
               break
-        except:
-          pass
+          except:
+            pass
         m = re.search(
           "(?:(?:,|:|Alice|do you know|tell|tell me|answer) )*( *me|, *|[:-]+ *| +)* *(who is |who's |what is |what are |who are |how does |when is |when was |when will |how [a-z]+ (is |was| will |be )*)+([a-zA-Z0-9_ ]+ .*[a-zA-Z0-9_])",
           bot_message,

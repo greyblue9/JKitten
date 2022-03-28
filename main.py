@@ -433,27 +433,30 @@ async def on_message(message):
           import urllib.parse, urllib.request
 
           inpt = bot_message
-          resp = urllib.request.urlopen(
-            urllib.request.Request(
-              f"http://api.wolframalpha.com/v2/query?appid=2U987T-JJR9G73T6P&input={urllib.parse.quote(inpt)}"
+          try:
+            resp = urllib.request.urlopen(
+              urllib.request.Request(
+                f"http://api.wolframalpha.com/v2/query?appid=2U987T-JJR9G73T6P&input={urllib.parse.quote(inpt)}"
+              )
             )
-          )
-          doc = BS(resp.read().decode(), features="lxml")
-          response = str(
-            sorted(
-              filter(
-                lambda i: i.text,
-                doc.select(
-                  'pod[error=false] > subpod[title=""] > plaintext'
+            doc = BS(resp.read().decode(), features="lxml")
+            response = str(
+              sorted(
+                filter(
+                  lambda i: i.text,
+                  doc.select(
+                    'pod[error=false] > subpod[title=""] > plaintext'
+                  ),
                 ),
-              ),
-              key=lambda i: len(i.text),
-            )[0].text
-          )
-          if response:
-            break
+                key=lambda i: len(i.text),
+              )[0].text
+            )
+            if response:
+              break
+        except:
+          pass
         m = re.search(
-          "(?:(?:,|:|Alice|do you know|tell|tell me|answer) )*( *me|, *|[:-]+ *| +)* *(who is |who's |what is |what are |who are |when is|when was |when will |how [a-z]+ (is |was| will |be )*)+([a-zA-Z0-9_ ]+ .*[a-zA-Z0-9_])",
+          "(?:(?:,|:|Alice|do you know|tell|tell me|answer) )*( *me|, *|[:-]+ *| +)* *(who is |who's |what is |what are |who are |how does |when is |when was |when will |how [a-z]+ (is |was| will |be )*)+([a-zA-Z0-9_ ]+ .*[a-zA-Z0-9_])",
           bot_message,
         )
         if m:

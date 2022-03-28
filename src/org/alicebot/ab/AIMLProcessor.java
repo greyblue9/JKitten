@@ -44,7 +44,6 @@ https://docs.google.com/document/d/1wNT25hJRyupcG51aO89UcQEiG-HkXRXusukADpFnDs4/
 */
 public class AIMLProcessor {
 
-	static private boolean DEBUG = false;
 	static Node patternNode;
 	static Node thatNode;
 	static Node topicNode;
@@ -214,10 +213,7 @@ public class AIMLProcessor {
   @return        bot's response.
   */
   public static String respond(String input, String that, String topic, Chat chatSession) {
-    if (false /*checkForRepeat(input, chatSession) > 0*/) return "Repeat!";
-    else {
-      return respond(input, that, topic, chatSession, 0);
-    }
+    return respond(input, that, topic, chatSession, 0);
   }
 
   /**
@@ -260,7 +256,7 @@ public class AIMLProcessor {
       ParseState ps = new ParseState(
         0, chatSession, input, that, topic, leaf
       );
-      chatSession.matchTrace += leaf.category.getTemplate()+"\n";
+      Chat.matchTrace += leaf.category.getTemplate()+"\n";
       String template = leaf.category.getTemplate();
       MagicBooleans.trace("in AIMLProcessor.respond(), template: " + template);
       response = evalTemplate(template, ps);
@@ -400,9 +396,9 @@ public class AIMLProcessor {
         if (aNode == null) continue;
         
         attributes += " " 
-          + StringEscapeUtils.escapeXml(getNodeName(aNode))
+          + StringEscapeUtils.escapeXml11(getNodeName(aNode))
           + "=\""
-          + StringEscapeUtils.escapeXml(
+          + StringEscapeUtils.escapeXml11(
               (aNode.getNodeValue() != null)
                 ? aNode.getNodeValue()
                 : ""
@@ -415,16 +411,16 @@ public class AIMLProcessor {
 		  
     if (! resultIn.equals("")) {
       result = "<"
-        + StringEscapeUtils.escapeXml(nodeName)
+        + StringEscapeUtils.escapeXml11(nodeName)
         + attributes
         + ">"
-        + StringEscapeUtils.escapeXml(resultIn)
+        + StringEscapeUtils.escapeXml11(resultIn)
         + "</"
-        + StringEscapeUtils.escapeXml(nodeName)
+        + StringEscapeUtils.escapeXml11(nodeName)
         + ">";
 			} else {
       result = "<"
-        + StringEscapeUtils.escapeXml(nodeName)
+        + StringEscapeUtils.escapeXml11(nodeName)
         + attributes
         + "/>";
 			}
@@ -818,8 +814,12 @@ public class AIMLProcessor {
         System.out.println("That index="+index+","+jndex);
       } catch (Exception ex) { ex.printStackTrace(); }
     String that = MagicStrings.unknown_history_item;
-    History hist = ps.chatSession.thatHistory.get(index);
-    if (hist != null) that = (String)hist.get(jndex);
+    Object hist = ps.chatSession.thatHistory.get(index);
+    if (hist instanceof History<?>) {
+      that = (String) ((History<?>) hist).get(jndex);
+    } else if (hist instanceof String) {
+      that = (String) hist;
+    }
     return that.trim();
   }
 
@@ -1040,7 +1040,6 @@ public class AIMLProcessor {
   private static String random(Node node, ParseState ps) {
     NodeList childList = node.getChildNodes();
     ArrayList<Node> liList = new ArrayList<Node>();
-    String setName = getAttributeOrTagValue(node, ps, "set");
     for (int i = 0; i < childList.getLength(); i++) {
       if (childList.item(i).getNodeName().equals("li")) liList.add(childList.item(i));
     }

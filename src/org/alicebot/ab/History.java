@@ -40,8 +40,12 @@ public class History<T> {
   @param name ame of history
   */
   public History(String name) {
-  this.name = name;
-  history = new Object[MagicNumbers.max_history];
+    this.name = name;
+    history = new Object[MagicNumbers.max_history];
+  }
+  
+  public int size() {
+    return history.length;
   }
 
   /**
@@ -49,7 +53,7 @@ public class History<T> {
    *
   @param item istory item to add
   */
-  public void add(T item) {
+  public void add(Object item) {
   for (int i = MagicNumbers.max_history - 1; i > 0; i--) {
     history[i] = history[i - 1];
   }

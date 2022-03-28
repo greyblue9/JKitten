@@ -31,7 +31,7 @@ public class Chat {
 
   public String customerId = MagicStrings.default_Customer_id;
 
-  public History<History> thatHistory = new History<History>("that");
+  public History<History<String>> thatHistory = new History<History<String>>("that");
 
   public History<String> requestHistory = new History<String>("request");
 
@@ -74,7 +74,7 @@ public class Chat {
   this.customerId = customerId;
   this.bot = bot;
   this.doWrites = doWrites;
-  this.sessions.put(customerId, this);
+  Chat.sessions.put(customerId, this);
   History<String> contextThatHistory = new History<String>();
   contextThatHistory.add(MagicStrings.default_that);
   thatHistory.add(contextThatHistory);
@@ -170,7 +170,7 @@ public class Chat {
   @param contextThatHistory istory of "that" values for this request/response interaction
   @return ot's reply
   */
-  String respond(String input, String that, String topic, History contextThatHistory) {
+  String respond(String input, String that, String topic, History<History<?>> contextThatHistory) {
       //MagicBooleans.trace("chat.respond(input: " + input + ", that: " + that + ", topic: " + topic + ", contextThatHistory: " + contextThatHistory + ")");
     boolean repetition = true;
       //inputHistory.printHistory();
@@ -207,10 +207,19 @@ public class Chat {
   @param contextThatHistory istory of "that" values for this request/response interaction
   @return ot's reply
   */
-  String respond(String input, History<String> contextThatHistory) {
-    History hist = thatHistory.get(0);
-    String that;
-    if (hist == null) that = MagicStrings.default_that; else that = hist.getString(0);
+  String respond(String input, History<History<?>> contextThatHistory) {
+    Object hist = thatHistory.get(0);
+    String that = MagicStrings.default_that;
+    if (hist instanceof History<?>) {
+      History<Object> hist2 = (History<Object>) hist;
+      if (hist2.size() > 0 && hist2.get(hist2.size() - 1) instanceof String) {
+        that = (String) hist2.get(hist2.size() - 1);
+      }
+      that = (String) ((History<?>) hist).get(0);
+    } else if (hist instanceof String) {
+      that = (String) hist;
+    }
+    
     String response = respond(input, that, predicates.get("topic"), contextThatHistory);
     return response;
   }
@@ -229,7 +238,7 @@ public class Chat {
     String normalized = bot.preProcessor.normalize(request);
       //MagicBooleans.trace("in chat.multisentenceRespond(), normalized: " + normalized);
     String sentences[] = bot.preProcessor.sentenceSplit(normalized);
-    History<String> contextThatHistory = new History<String>("contextThat");
+    History<History<?>> contextThatHistory = new History<History<?>>("contextThat");
     for (int i = 0; i < sentences.length; i++) {
         //System.out.println("Human: "+sentences[i]);
     AIMLProcessor.trace_count = 0;

@@ -26,6 +26,7 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class AB {
   /**
@@ -363,7 +364,7 @@ public class AB {
     browserCategories = nonZeroActivationCount(browserCategories);
     for (Category c : browserCategories)  {
       try {
-      ArrayList samples = new ArrayList(c.getMatches(bot));
+      List<String> samples = new ArrayList<>(c.getMatches(bot));
       Collections.shuffle(samples);
       int sampleSize = Math.min(MagicNumbers.displayed_input_sample_size, c.getMatches(bot).size());
       for (int i = 0; i < sampleSize; i++) {

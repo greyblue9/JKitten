@@ -92,7 +92,7 @@ orig_cwd = Path.cwd()
 if USE_JAVA:
   import jnius_config, subprocess, sys
 
-  jnius_config.add_options("-Xverify:none", "-Xmx3064m", "-Xrs")
+  jnius_config.add_options("-agentlib:jdwp=transport=dt_socket,server=y,address=8000,suspend=n", "-Xverify:none", "-Xmx3064m", "-Xrs")
   jnius_config.add_classpath(
     "./lib/Ab.jar",
     "./lib.deps.jar",
@@ -440,20 +440,12 @@ async def on_message(message):
               )
             )
             doc = BS(resp.read().decode(), features="lxml")
-            response = str(
-              sorted(
-                filter(
-                  lambda i: i.text,
-                  doc.select(
-                    'pod[error=false] > subpod[title=""] > plaintext'
-                  ),
-                ),
-                key=lambda i: len(i.text),
-              )[0].text
-            )
+            for elem in doc.select("pod[id=\"Result\"] plaintext"):
+              response = elem.text
+              break
             if response:
               break
-          except:
+          except SystemError:
             pass
         m = re.search(
           "(?:(?:,|:|Alice|do you know|tell|tell me|answer) )*( *me|, *|[:-]+ *| +)* *(who is |who's |what is |what are |who are |how does |when is |when was |when will |how [a-z]+ (is |was| will |be )*)+([a-zA-Z0-9_ ]+ .*[a-zA-Z0-9_])",
@@ -468,6 +460,9 @@ async def on_message(message):
             .strip(".!?")
             + "."
           )
+          if "|" in response or ("." not in response and "," not in response):
+            print("discarding response", response)
+            response = ""
           chat.multisentenceRespond(response)
         else:
           response = get_response(

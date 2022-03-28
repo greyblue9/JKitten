@@ -25,7 +25,15 @@
         <dependency>
             <groupId>JKitten</groupId>
             <artifactId>jackson-core</artifactId>
-            <systemPath>D:/Source/JKitten/lib/jackson-core-2.2.3.jar</systemPath>
+            <systemPath>D:/Source/JKitten/lib/jackson-core-2.13.1.jar</systemPath>
+            <version>1.0.0</version>
+            <scope>system</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>JKitten</groupId>
+            <artifactId>jackson-core</artifactId>
+            <systemPath>D:/Source/JKitten/lib/jackson-databind-2.13.1.jar</systemPath>
             <version>1.0.0</version>
             <scope>system</scope>
         </dependency>

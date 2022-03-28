@@ -100,8 +100,6 @@ public class Main {
       if (msg.getAuthor().get().isBot()) {
       return;
       }
-      final long authorId 
-      = msg.getAuthor().get().getId().asLong();
       final String username = msg.getAuthor().get().getUsername();
       final Chat chat = getOrCreateChat(
       bot, doWrites, "0"
@@ -208,9 +206,7 @@ public class Main {
     bot.brain.printgraph();
   }
   trace("Action =", action);
-  final DiscordClient cl;
   if (args.length == 0) {
-     cl = DiscordBot.start(bot, true);
   }
   
   if (action.equals("chat") || action.equals("chat-app"))
@@ -333,15 +329,16 @@ public class Main {
   int limit = 1000;
   try {
     FileInputStream fstream = new FileInputStream(filename);
-      // Get the object
-    BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
-    String strLine;
-      //Read File Line By Line
-    int count = 0;
-    while ((strLine = br.readLine()) != null && count++ < limit) {
-    System.out.println("Human: " + strLine);
-    String response = chatSession.multisentenceRespond(strLine);
-    System.out.println("Robot: " + response);
+      try (// Get the object
+    BufferedReader br = new BufferedReader(new InputStreamReader(fstream))) {
+      String strLine;
+        //Read File Line By Line
+      int count = 0;
+      while ((strLine = br.readLine()) != null && count++ < limit) {
+      System.out.println("Human: " + strLine);
+      String response = chatSession.multisentenceRespond(strLine);
+      System.out.println("Robot: " + response);
+      }
     }
   } catch (Exception ex) {
     ex.printStackTrace();

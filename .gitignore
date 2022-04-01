@@ -148,3 +148,5 @@ macros.ctags.rsp
 macros.gdb
 macros.h
 .env.old
+*.~*
+.env.*

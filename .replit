@@ -1,1 +1,1 @@
-Run = "./setup.sh; venv/bin/python main.py"
+Run = "bash ./setup.sh && PYTHON=venv/bin/python bash run.sh"

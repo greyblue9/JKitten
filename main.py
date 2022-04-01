@@ -83,12 +83,7 @@ def translate_urls(message: str) -> str:
 orig_cwd = Path.cwd()
 if USE_JAVA:
   import jnius_config, subprocess, sys
-<<<<<<< HEAD
-
-  jnius_config.add_options("-agentlib:jdwp=transport=dt_socket,server=y,address=8000,suspend=n", "-Xverify:none", "-Xmx3064m", "-Xrs")
-=======
   jnius_config.add_options("-Xverify:none", "-Xmx3064m", "-Xrs")
->>>>>>> 3b6cb53 (Nice Alice)
   jnius_config.add_classpath(
     "./lib/Ab.jar",
     "./lib.deps.jar",

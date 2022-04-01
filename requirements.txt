@@ -2,7 +2,9 @@ nextcord
 requests
 flask
 google-search
-
+nltk
+spacy
+bs4
 pyjnius
 python-dotenv
 demoji

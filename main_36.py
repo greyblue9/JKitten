@@ -1,18 +1,40 @@
 import traceback
 from bs4 import BeautifulSoup as BS
 
-import asyncio
+          
+          
+          
+  
+  
+          
+      
+              
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+          
 import requests
 import nextcord
 from nextcord.ext import commands
 import json
 import os, re
 import logging
-logging.root.setLevel(logging.DEBUG)
-logging.root.addHandler(logging.StreamHandler())
-log = logging.getLogger(__name__)
-for log_name in ("nextcord.__init__", "nextcord.client", "nextcord.gateway", "nextcord.http", "nextcord.opus", "nextcord.player", "nextcord.shard", "nextcord.state", "nextcord.voice_client", "nextcord.webhook", "nextcord.webhook"):
-  logging.getLogger(log_name).setLevel(logging.INFO)
 from nextcord.utils import find
 from nextcord.ui import Button, View
 from nextcord import *
@@ -31,38 +53,45 @@ import dotenv
 import demoji
 import re
 BLACKLIST = {
-  "JSFAILED",
-  "SRAIXFAILED",
-  "Did you mean ",
-  "the last of us",
+  "What is this",
   "a good song",
   "a guy making a video ",
+  "is the guy who made the video",
   "is the guy who made the video",
   "making a video",
   "not sure what that means",
   "not sure what you're trying to say",
   "want to talk about unknown",
-  "right? like, I know",
+  "what you mean",
+  "like, I know",
+  "I know, right",
+  "I'm not sure if you're",
   "Are you a girl",
+  " being serious or not",
+  "I'm not sure if yo",
   "being serious or not.",
   "reference to the song",
   "I'm over hereactly",
   "Thanks for the trade",
-  "reference to the song",
-  "are you a man",
+  "Hey, I'm over here",
+  "what you mean",
   "Are you a girl",
+  "like, I know",
+  "I know, right",
   "reference to the song",
   "I'm over hereactly",
-  "not sure what",
-  "I know, right?",
+  "Thanks for the trade",
+  "Hey, I'm over here,",
+  "are you a man",
+  "Are you a girl",
+  "how old are you",
+  "where are you?",
+  "i'm glad you",
+  "reference to the song",
+  "I'm over hereactly",
+  "Thanks for the trade",
+  "Hey, I'm over here,",
 }
-name_lookup = {
-  "856229099952144464": "Dekriel",
-  "856229099952144464": "David",
-  "955035045716979763": "Alice",
-  "889338065020129310": "Mikko",
-}
-DEFAULT_UID = "856229099952144464"
 USE_JAVA = True
 EMOJI_REGEX = re.compile(":([^: ][^:]*[^: ]):", re.DOTALL | re.IGNORECASE)
 def translate_emojis(message: str) -> str:
@@ -81,14 +110,12 @@ def translate_urls(message: str) -> str:
   ).subn(". ", message)[0]
   return message
 orig_cwd = Path.cwd()
+# sys.path.insert(0, "/data/media/0/src/sschatbot/src")
+# sys.path.insert(1, "/data/media/0/src/sschatbot/src/bot")
+# os.chdir("/data/media/0/src/sschatbot/src/bot")
 if USE_JAVA:
   import jnius_config, subprocess, sys
-<<<<<<< HEAD
-
-  jnius_config.add_options("-agentlib:jdwp=transport=dt_socket,server=y,address=8000,suspend=n", "-Xverify:none", "-Xmx3064m", "-Xrs")
-=======
   jnius_config.add_options("-Xverify:none", "-Xmx3064m", "-Xrs")
->>>>>>> 3b6cb53 (Nice Alice)
   jnius_config.add_classpath(
     "./lib/Ab.jar",
     "./lib.deps.jar",
@@ -103,9 +130,7 @@ if USE_JAVA:
     items=lambda self: ((e.getKey(), e.getValue()) for e in self.entrySet()),
     keys=lambda self: self.keySet(),
   )
-  jnius.reflect.protocol_map.setdefault(
-    "org.alicebot.ab.Nodemapper", {}
-  ).update(
+  jnius.reflect.protocol_map.setdefault("org.alicebot.ab.Nodemapper", {}).update(
     items=lambda self: ((e.getKey(), e.getValue()) for e in self.entrySet()),
     keys=lambda self: self.keySet(),
   )
@@ -125,13 +150,10 @@ if USE_JAVA:
       }
     )
   alice_bot = None
-  async def get_chat(uid):
+  def get_chat(uid):
     global alice_bot
     if alice_bot is None:
-      alice_bot \
-        = jnius.autoclass("org.alicebot.ab.Bot")(
-            "alice", orig_cwd.as_posix()
-          )
+      alice_bot = Bot("alice", orig_cwd.as_posix())
     return Main.getOrCreateChat(alice_bot, True, uid)
 else:
   sys.path.insert(0, (orig_cwd / "alice").as_posix())
@@ -147,46 +169,29 @@ else:
       self.uid = uid
     def multisentenceRespond(self, bot_message):
       return k.respond(bot_message, self.uid)
-  async def get_chat(uid):
+  def get_chat(uid):
     return Chat(uid)
 import requests
 inputs = {}
 responses = {}
-from aiohttp import ClientSession
 if "LOCAL" in os.environ:
-  from converse import get_response as get_response_orig
-  async def get_response(message, uid, model=None):
-    return get_response_orig(message, uid, model)
-  
+  from converse import get_response
 else:
-  async def get_response(message, uid, model=None):
-    if model is None:
-      model = random.choices(
-        (
-          "facebook/blenderbot-400M-distill",
-          "microsoft/DialoGPT-large",
-        ),
-        weights=(
-          10,
-          90,
-        )
-      )[0]
+  def get_response(message, uid, model="microsoft/DialoGPT-large"):
     token = "jTOJnGIVFERTJqsFsUkAQZuyZVvdfzDxTeXSeSDORMTbrdrKaouEtTvPBIGVYcLDdkACpfeeSAQbUNBjFqKHkFdLvqmruoghVGNSxvfZjbfpVfGgzjYdtKZAqOItCmZY"
     headers = {"Authorization": f"Bearer api_{token}"}
+    inputs.setdefault(uid, []).append(message)
     API_URL = f"https://api-inference.huggingface.co/models/{model}"
     payload = {
       "generated_responses": [],
       "past_user_inputs": inputs.get(uid),
       "text": message,
     }
-    async with ClientSession() as session:
-      async with session.post(
-        API_URL, headers=headers, json=payload
-      ) as response:
-        data = await response.json()
-        pprint(data)
-        reply = data.get("generated_text")
-        return reply
+    response = requests.post(API_URL, headers=headers, json=payload)
+    data = response.json()
+    reply = data.get("generated_text")
+    responses.setdefault(uid, []).append(reply)
+    return reply
 import random
 TEXT_CHANNELS_FILE = orig_cwd / "text_channels.json"
 if not TEXT_CHANNELS_FILE.exists():
@@ -199,13 +204,9 @@ DISCORD_BOT_TOKEN = (
   or eval("exec('raise Exception(\"Missing bot token.\")')")
 )
 PREFIX = "+" or "@Kitten"
-intents = Intents.default()
-intents.value |= nextcord.Intents.messages.flag
-intents.value |= nextcord.Intents.guilds.flag
-bot = commands.bot.Bot(
-  command_prefix=PREFIX,
-  status=Status.idle,
-  intents=intents,
+intents = Intents.message
+bot = commands.Bot(
+  command_prefix=PREFIX, help_command=None, status=Status.idle, intents=intents
 )
 async def get_channel(message):
   with open(TEXT_CHANNELS_FILE, "r") as file:
@@ -242,14 +243,14 @@ def save_config(conf):
 @bot.command(name="ping")
 async def ping(ctx: commands.Context):
   await ctx.send(f"the bot ping is currently: {round(bot.latency * 1000)}ms")
-def replace_mention(word, name_lookup):
-  word = word.replace("!", "").replace("&", "").replace("@", "")
-  if not word.startswith("<") or not word.endswith(">"):
+def replace_mention(word, members):
+  if not word.startswith("<@"):
     return word
-  mbr_id = word[1:-1]
-  if name := name_lookup.get(mbr_id):
-    return name
-  return word
+  word = word.replace("!", "")
+  mbr_id = int(word[2:-1])
+  mbrs = [b for g in bot.guilds for b in g.members]
+  mbr = [m for m in mbrs if str(m.id) == str(mbr_id)][0]
+  return mbr.name
 @bot.command(pass_context=True)
 async def whoami(ctx):
   if ctx.message.author.server_permissions.administrator:
@@ -334,183 +335,124 @@ async def print_message(ctx, message):
 async def guild(ctx):
   guild = ctx.guild
   return guild
-  
-  
-tagger = None 
-import nltk
-def pos_tag(sentence):
-  global tagger 
-  if tagger is None:
-    nltk.download('treebank')
-    from nltk.corpus import treebank
-    from nltk.tag import PerceptronTagger
-    tagger = PerceptronTagger()
-    tagger.train(treebank.tagged_sents()[:300])
-  tagged = tagger.tag(
-    nltk.tokenize.word_tokenize(sentence)
-  )
-  return tagged
-
-from tagger import *
-
-async def wolfram_alpha(inpt, uid):
-  log.info("wolfram_alpha(%r, %r) query", inpt, uid)
+def wolfram_alpha(bot_message):
   from bs4 import BeautifulSoup as BSimport
+  import sys
   import urllib.parse, urllib.request
-  API_URL = (f"http://api.wolframalpha.com/v2/query?"
-             f"appid=2U987T-JJR9G73T6P"
-             f"&input={urllib.parse.quote(inpt)}")
-  response = ""
-  async with ClientSession() as session:
-    async with session.get(
-      API_URL
-    ) as resp:
-      doc = BS(await resp.read(), features="lxml")
-      print(doc)
-      for ans in sorted(
-          filter(
-            lambda i: i.text,
-            doc.select(
-              'pod[error=false] > subpod[title=""] > plaintext'
-            ),
-          ),
-          key=lambda i: len(i.text),
-      ):
-        if " is " in str(ans.text):
-          response = str(ans.text)
-          response = response.split("...")[0]
-          if ". " in response:
-            response = response.rsplit(".", 1)[0]
-            response += "."
-          log.info("wolfram_alpha(%r, %r) returning %r",
-            inpt, uid, response)
-          return response
-        if "|" in str(ans.text) or "(" in str(ans.text):
-          continue
-      if response:
-        log.info("wolfram_alpha(%r, %r) returning %r",
-          inpt, uid, response)
-        return response
-      for ans in doc.select(
-        "subpod plaintext"
-      ):
-        if "|" in str(ans.text):
-          continue
-        response = str(ans.text)
-        log.info("wolfram_alpha(%r, %r) #2 returning %r",
-          inpt, uid, response)
-        return response
-      log.debug(doc.prettify())
-  log.info("wolfram_alpha(%r, %r) returning empty",
-          inpt, uid, response)
-  return ""
-
-
-from pprint import pprint
-
-
-async def gpt_response(bot_message, uid=DEFAULT_UID):
-  log.debug("gpt_response(%r, %r)", bot_message, uid)
-  last_input = inputs.setdefault(uid, [""])[-1]
-  last_response = responses.setdefault(uid, [""])[-1]
-  response = await get_response(bot_message, uid)
-  if not response:
-    return ""
-  for b in BLACKLIST:
-    if b.lower() in response.lower() or response.lower() in b:
-      log.debug("gpt_response(%r, %r) discarding response %r due to blacklist", bot_message, uid, response)
-      return ""
-  if "" in set(
-    filter(
-      None,
-      (
-        re.subn("[^a-z]+", "", s.lower(), re.IGNORECASE)[0]
-        for s in (last_input or "", last_response or "", bot_message or "")
-      )
+  inpt = bot_message
+  resp = urllib.request.urlopen(
+    urllib.request.Request(
+      f"http://api.wolframalpha.com/v2/query?appid=2U987T-JJR9G73T6P&input={urllib.parse.quote(inpt)}"
     )
+  )
+  doc = BS(resp.read())
+  elems = list(
+    sorted(
+      filter(
+        lambda i: i.text,
+        doc.select(
+          'pod[error=false] > subpod[title=""] > plaintext'
+        ),
+      ),
+      key=lambda i: len(i.text),
+    )
+  )
+  
+  if elems:
+    return elems[0].text
+  return None
+  
+@bot.listen()
+async def on_message(message):
+  response = ""
+  channel_id = message.channel.id
+  channel_name = translate_emojis(
+    message.channel.name.split(b"\xff\xfe1\xfe".decode("utf-16"))[-1]
+    .strip()
+    .strip("-")
+  ).strip("-")
+  print(f"channel_id = {channel_id}")
+  print(f"channel_name = {channel_name}")
+  print(f"{message.channel=}")
+  print(f"{message.author=}")
+  print(f"{message.guild=}")
+  bot_message = " ".join(
+    (
+      replace_mention(word, message.guild.members)
+      for word in message.content.split()
+    )
+  )
+  bot_message = translate_emojis(bot_message)
+  bot_message = translate_urls(bot_message)
+  
+  bot_message = re.compile(
+    "([A-Za-z][a-z-]*)[_0-9-][^,.! ]*", re.DOTALL
+  ).subn(
+    "\\1",
+    bot_message
+  )[0]
+  print(f"[{message.author.name}][{message.guild.name}]:" f" {bot_message}")
+  uid = message.author.name
+  mention = f"<@!{bot.user.id}>"
+  if message.author.bot or bot.user == message.author:
+    print("message.author.bot")
+    return
+  if (
+    channel_name != "ai-chat-bot" 
+    and mention not in message.content
   ):
-    log.debug("gpt_response(%r, %r) discarding response %r because it repeats a previous entry", bot_message, uid, response)
-    return ""
-  log.info("query GPT for %r returns %r", 
-      bot_message, response)
-  return response
+    print(
+      f"channel_name ({channel_name}) != ai-chat-bot and "
+      f"({mention!r}) not in content ({message.content!r})"
+    )
+    return
+  
+  with message.channel.typing():
+    response = maybe_eval(bot_message)
+    if response:
+      await message.reply(response)
+      return
+    
+    m = re.search(
+      "how old is|how many|when will|how much ",
+      bot_message.lower()
+    )
+    if m:
+      response = wolfram_alpha(bot_message)
+    if response:
+      await message.reply(response)
+      return
+    
+    response = get_response(
+      bot_message,
+      message.author.name,
+      model="microsoft/DialoGPT-large",
+    )
+    if response:
+      await message.reply(response)
+      return
+    
+    chat = get_chat(uid)
+    response = chat.multisentenceRespond(bot_message)
+    if response:
+      await message.reply(response)
+      return
+    
+    response = random.choice(
+      [
+        f"Hey there! How are you, {message.author.mention}?",
+        "Hello",
+        "Hi what'a up?",
+        f"Hey, good to see you again, {message.author.mention}.",
+        f"Welcome back, {message.author.mention}!",
+        f"Yo what's up, {message.author.mention}",
+        "Hi, it's good to see you again.",
+        "Hello there." "Well, hello!",
+        "Hiya bro",
+        f"Yay {message.author.mention}! You're exactly who I was hoping to see.",
+        "Sup, dude?",
+      ]
+    )
+    await message.reply(response)
+bot.run(DISCORD_BOT_TOKEN)
 
-
-async def google(bot_message, uid=DEFAULT_UID):
-  log.debug("google(%r, %r) called", bot_message, uid)
-  chat = await get_chat(uid)
-  cats = categorize(bot_message.lower())
-  topic = "*"
-  if cats["entities"]:
-    topic = cats["entities"][0]
-  response = (
-    jnius.autoclass("org.alicebot.ab.Sraix")
-      .sraixPannous(bot_message, topic, chat)
-  )
-  if "SRAIXFAILED" in response:
-    log.debug("google(%r, %r) failed with %r", bot_message, uid, response)
-    return ""
-  for b in BLACKLIST:
-    if b.lower() in response.lower() or response.lower() in b:
-      log.debug("google(%r, %r) discarding response %r because it repeats a previous entry", bot_message, uid, response)
-      return ""
-  log.info("query Google for %r returns %r", 
-      bot_message, response)
-  return response
-
-
-def setup(bot: commands.Bot):
-    module_name = [
-      k for k in sys.modules.keys()
-      if k.startswith("commands")
-    ][-1]
-    class_name = module_name.split(".")[-1]
-    module = sys.modules.get(module_name)
-    cog_cls = getattr(module, class_name)
-    cog_obj = cog_cls(bot)
-    bot.add_cog(cog_obj)
-
-
-for file in Path("commands").glob("*.py"):
-  bot.load_extension(f"commands.{file.stem}")
-import threading
-import time
-from asyncio import get_event_loop_policy
-from os import getenv
-from threading import Thread, current_thread
-import nextcord.utils
-from dotenv import load_dotenv
-from nextcord.ext.commands import Bot
-from pathlib import Path
-load_dotenv()
-import hack_nextcord
-
-def start_bot():
-  token = (
-    getenv("Token", getenv("DISCORD_BOT_TOKEN")).strip('"')
-  )
-  thread = current_thread()
-  log.info(
-    "Starting bot with token '%s%s%s' on thread: %s",
-    token[0:5], "*" * len(token[5:-5]), token[-5:], thread
-  )
-  bot._rollout_all_guilds = True
-  global cogs
-  cogs = bot._BotBase__cogs
-  bot.run(token)
-
-loop = get_event_loop_policy().get_event_loop()
-start_bot()
-get_chat(DEFAULT_UID)
-import code
-chat = asyncio.run(get_chat("856229099952144464"))
-cons = code.InteractiveConsole(locals())
-cons.push("import __main__")
-cons.push("from __main__ import *")
-cons.push("try: import pythonrc")
-cons.push("except: pass")
-cons.push("")
-cons.push("import readline")
-cons.push("import rlcompleter")
-cons.push("readline.parse_and_bind('tab: complete')")
-cons.interact(exitmsg="Goodbye!")

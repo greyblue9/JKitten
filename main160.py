@@ -83,12 +83,7 @@ def translate_urls(message: str) -> str:
 orig_cwd = Path.cwd()
 if USE_JAVA:
   import jnius_config, subprocess, sys
-<<<<<<< HEAD
-
-  jnius_config.add_options("-agentlib:jdwp=transport=dt_socket,server=y,address=8000,suspend=n", "-Xverify:none", "-Xmx3064m", "-Xrs")
-=======
   jnius_config.add_options("-Xverify:none", "-Xmx3064m", "-Xrs")
->>>>>>> 3b6cb53 (Nice Alice)
   jnius_config.add_classpath(
     "./lib/Ab.jar",
     "./lib.deps.jar",
@@ -350,9 +345,7 @@ def pos_tag(sentence):
     nltk.tokenize.word_tokenize(sentence)
   )
   return tagged
-
 from tagger import *
-
 async def wolfram_alpha(inpt, uid):
   log.info("wolfram_alpha(%r, %r) query", inpt, uid)
   from bs4 import BeautifulSoup as BSimport
@@ -404,11 +397,7 @@ async def wolfram_alpha(inpt, uid):
   log.info("wolfram_alpha(%r, %r) returning empty",
           inpt, uid, response)
   return ""
-
-
 from pprint import pprint
-
-
 async def gpt_response(bot_message, uid=DEFAULT_UID):
   log.debug("gpt_response(%r, %r)", bot_message, uid)
   last_input = inputs.setdefault(uid, [""])[-1]
@@ -434,8 +423,6 @@ async def gpt_response(bot_message, uid=DEFAULT_UID):
   log.info("query GPT for %r returns %r", 
       bot_message, response)
   return response
-
-
 async def google(bot_message, uid=DEFAULT_UID):
   log.debug("google(%r, %r) called", bot_message, uid)
   chat = await get_chat(uid)
@@ -457,8 +444,47 @@ async def google(bot_message, uid=DEFAULT_UID):
   log.info("query Google for %r returns %r", 
       bot_message, response)
   return response
-
-
+async def alice_response(bot_message, uid):
+  log.debug("alice_response(%r, %r)", bot_message, uid)
+  last_input = inputs.setdefault(uid, [""])[-1]
+  last_response = responses.setdefault(uid, [""])[-1]
+  global loop
+  chat = await get_chat(uid)
+  cats = await loop.run_in_executor(
+    None, categorize, bot_message.lower()
+  )
+  topic = "*"
+  if cats["entities"]:
+    log.debug("alice_response(%r, %r) setting topic to %r", bot_message, uid, topic)
+    topic = cats["entities"][0]
+    chat.predicates.put("topic", topic)
+  log.debug("alice_response(%r, %r): query %r", bot_message, uid, bot_message)
+  response = await loop.run_in_executor(
+    None, chat.multisentenceRespond, bot_message
+  )
+  log.debug("alice_response(%r, %r): result: %r", bot_message, uid, response)
+  
+  for b in BLACKLIST:
+    if b.lower() in response.lower() or response.lower() in b:
+      log.debug("alice_response(%r, %r) discarding response %r due to blacklist", bot_message, uid, response)
+      return ""
+  if "" in set(
+    filter(
+      None,
+      (
+        re.subn("[^a-z]+", "", s.lower(), re.IGNORECASE)[0]
+        for s in (last_input, last_response, bot_message)
+      )
+    )
+  ):
+    log.debug("alice_response(%r, %r) discarding response %r because it repeats a previous entry", bot_message, uid, response)
+    return ""
+  
+  log.info(  
+    "alice_response query for %r returns %r", 
+    bot_message, response
+  )
+  return response
 def setup(bot: commands.Bot):
     module_name = [
       k for k in sys.modules.keys()
@@ -469,8 +495,6 @@ def setup(bot: commands.Bot):
     cog_cls = getattr(module, class_name)
     cog_obj = cog_cls(bot)
     bot.add_cog(cog_obj)
-
-
 for file in Path("commands").glob("*.py"):
   bot.load_extension(f"commands.{file.stem}")
 import threading
@@ -484,7 +508,6 @@ from nextcord.ext.commands import Bot
 from pathlib import Path
 load_dotenv()
 import hack_nextcord
-
 def start_bot():
   token = (
     getenv("Token", getenv("DISCORD_BOT_TOKEN")).strip('"')
@@ -498,7 +521,6 @@ def start_bot():
   global cogs
   cogs = bot._BotBase__cogs
   bot.run(token)
-
 loop = get_event_loop_policy().get_event_loop()
 start_bot()
 get_chat(DEFAULT_UID)

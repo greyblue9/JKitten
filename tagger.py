@@ -3,6 +3,8 @@ import spacy
 from spacy.lang.en import English
 import nltk
 nltk.download("punkt")
+nltk.download("averaged_perceptron_tagger")
+
 
 tag_meanings = {
   "CC":  ("conjunction", "coordinating"),

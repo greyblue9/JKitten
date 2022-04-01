@@ -6,6 +6,11 @@ nltk.download("punkt")
 nltk.download("averaged_perceptron_tagger")
 
 
+@lru_cache
+def get_nlp(name: str="en_core_web_md") -> English:
+  import spacy
+  return spacy.load(name)
+
 tag_meanings = {
   "CC":  ("conjunction", "coordinating"),
   "CD":  ("numeral", "cardinal"),
@@ -157,4 +162,3 @@ def categorize(text: str):
     "attributes": tuple(attributes),
     "clauses": tuple(clauses),
   }
-

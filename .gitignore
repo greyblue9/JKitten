@@ -150,3 +150,5 @@ macros.h
 .env.old
 *.~*
 .env.*
+.gdb_history
+core

@@ -5,5 +5,5 @@ eval "$( sed -s -r -e ':a s~^[^ =]\ ([^ =]+)~\1~; ta; s~ *= *~=~; s~^([a-zA-Z0-9
 : ${PYTHON:=python3}
 eval "python=( $PYTHON )"
 
-command "${python[@]}" ./main54.py
+command "${python[@]}" ./main.py
 

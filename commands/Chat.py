@@ -1,4 +1,213 @@
 from __main__ import *
+from pprint import pprint
+from tagger import *
+import nltk
+
+
+tagger = None
+def pos_tag(sentence):
+  global tagger 
+  if tagger is None:
+    nltk.download('treebank')
+    from nltk.corpus import treebank
+    from nltk.tag import PerceptronTagger
+    tagger = PerceptronTagger()
+    tagger.train(treebank.tagged_sents()[:300])
+  tagged = tagger.tag(
+    nltk.tokenize.word_tokenize(sentence)
+  )
+  return tagged
+
+
+async def wolfram_alpha(inpt, uid=None):
+  if uid is None: from __main__ import DEFAULT_UID as uid
+  log.info("wolfram_alpha(%r, %r) query", inpt, uid)
+  from bs4 import BeautifulSoup as BSimport
+  import urllib.parse, urllib.request
+  API_URL = (f"http://api.wolframalpha.com/v2/query?"
+             f"appid=2U987T-JJR9G73T6P"
+             f"&input={urllib.parse.quote(inpt)}")
+  response = ""
+  async with ClientSession() as session:
+    async with session.get(
+      API_URL
+    ) as resp:
+      doc = BS(await resp.read(), features="lxml")
+      print(doc)
+      for ans in sorted(
+          filter(
+            lambda i: i.text,
+            doc.select(
+              'pod[error=false] > subpod[title=""] > plaintext'
+            ),
+          ),
+          key=lambda i: len(i.text),
+      ):
+        if " is " in str(ans.text):
+          response = str(ans.text)
+          response = response.split("...")[0]
+          if ". " in response:
+            response = response.rsplit(".", 1)[0]
+            response += "."
+          log.info("wolfram_alpha(%r, %r) returning %r",
+            inpt, uid, response)
+          return response
+        if "|" in str(ans.text) or "(" in str(ans.text):
+          continue
+      if response:
+        log.info("wolfram_alpha(%r, %r) returning %r",
+          inpt, uid, response)
+        return response
+      for ans in doc.select(
+        "subpod plaintext"
+      ):
+        if "|" in str(ans.text):
+          continue
+        response = str(ans.text)
+        log.info("wolfram_alpha(%r, %r) #2 returning %r",
+          inpt, uid, response)
+        return response
+      log.debug(doc.prettify())
+  log.info("wolfram_alpha(%r, %r) returning empty",
+          inpt, uid, response)
+  return ""
+
+async def get_response(message, uid, model=None):
+  inpt = bot_message = message
+  while True:
+    if model is None:
+      model = random.choices(
+        model_names := (
+          "microsoft/DialoGPT-large",
+          "microsoft/DialoGPT-small",
+          "HansAnonymous/DialoGPT-small-shrek",
+          "MrDuckerino/DialoGPT-medium-Rick",
+          "MrE/DialoGPT-medium-SARGER3",
+          "OneLoneTurnip/GPT-Jillian",
+          "OneLoneTurnip/GPT-Quinn",
+          "ZAFuzzy/DialoGPT-medium-Fatty",
+          "Zixtrauce/BaekBot",
+          "Zixtrauce/JohnBot",
+          "alistair7/bbt-diagpt2-model",
+          "deepparag/Aeona",
+          "facebook/blenderbot-400M-distill",
+          "kookyklavicle/sean-diaz",
+          "r3dhummingbird/DialoGPT-medium-joshua",
+          "satvikag/chatbot",
+          "zenham/wail_m_e4_16h_2k",
+        ),
+        weights:=tuple(
+          int(
+            (len(model_names)-n) ** (
+              0.15 * ((len(model_names) - n) // 1.7)
+            )
+          ) 
+          for n in range(len(model_names))
+        )
+      )[0]
+    model_idx = model_names.index(model)
+    weight = weights[model_idx]
+    log.info(
+      "\nget_response(%r, %r): selected model\n\n"
+      "    %r   (weight: %s)\n\n",
+      message, uid, model, weight
+    )
+    token = "jTOJnGIVFERTJqsFsUkAQZuyZVvdfzDxTeXSeSDORMTbrdrKaouEtTvPBIGVYcLDdkACpfeeSAQbUNBjFqKHkFdLvqmruoghVGNSxvfZjbfpVfGgzjYdtKZAqOItCmZY"
+    headers = {"Authorization": f"Bearer api_{token}"}
+    API_URL = f"https://api-inference.huggingface.co/models/{model}"
+    payload = {
+      "generated_responses": [],
+      "past_user_inputs": inputs.get(uid),
+      "text": message,
+    }
+    async with ClientSession() as session:
+      async with session.post(
+        API_URL, headers=headers, json=payload
+      ) as response:
+        data = await response.json()
+        pprint(data)
+        if data.get("ereor"):
+          await asyncio.sleep(data.get("estimated_time",0))
+          async with ClientSession() as session:
+            async with session.post(
+              API_URL, headers=headers, json=payload
+            ) as response:
+              data = await response.json()
+              pprint(data)
+        
+        reply = data.get("generated_text")
+        response = reply
+        if not response:
+          model = None
+          continue
+        for b in BLACKLIST:
+          if b.lower() in response.lower() or response.lower() in b:
+            log.debug("get_response(%r, %r) discarding response %r due to blacklist", inpt, uid, response)
+            response = ""
+            model = None
+            break
+        if not response: continue
+        
+        if re.subn("[^a-z]+", "", response.lower(), re.IGNORECASE)[0] == re.subn("[^a-z]+", "", inpt.lower(), re.IGNORECASE)[0]:
+          log.debug("get_response(%r, %r) discarding response %r because it repeats a previous entry", inpt, uid, response)
+          response = ""
+          model = None
+          continue
+        return response
+    return "wtf"
+
+async def gpt_response(bot_message, uid=None):
+  if uid is None: from __main__ import DEFAULT_UID as uid
+  log.debug("gpt_response(%r, %r)", bot_message, uid)
+  last_input = inputs.setdefault(uid, [""])[-1]
+  last_response = responses.setdefault(uid, [""])[-1]
+  response = await get_response(bot_message, uid)
+  if not response:
+    return ""
+  for b in BLACKLIST:
+    if b.lower() in response.lower() or response.lower() in b:
+      log.debug("gpt_response(%r, %r) discarding response %r due to blacklist", bot_message, uid, response)
+      return ""
+  if "" in set(
+    filter(
+      None,
+      (
+        re.subn("[^a-z]+", "", s.lower(), re.IGNORECASE)[0]
+        for s in (last_input or "", last_response or "", bot_message or "")
+      )
+    )
+  ):
+    log.debug("gpt_response(%r, %r) discarding response %r because it repeats a previous entry", bot_message, uid, response)
+    return ""
+  log.info("query GPT for %r returns %r", 
+      bot_message, response)
+  return response
+
+
+async def google(bot_message, uid=None):
+  if uid is None: from __main__ import DEFAULT_UID as uid
+  log.debug("google(%r, %r) called", bot_message, uid)
+  chat = await get_chat(uid)
+  cats = categorize(bot_message.lower())
+  topic = "*"
+  if cats["entities"]:
+    topic = cats["entities"][0]
+  response = (
+    jnius.autoclass("org.alicebot.ab.Sraix")
+      .sraixPannous(bot_message, topic, chat)
+  )
+  if "SRAIXFAILED" in response:
+    log.debug("google(%r, %r) failed with %r", bot_message, uid, response)
+    return ""
+  for b in BLACKLIST:
+    if b.lower() in response.lower() or response.lower() in b:
+      log.debug("google(%r, %r) discarding response %r because it repeats a previous entry", bot_message, uid, response)
+      return ""
+  log.info("query Google for %r returns %r", 
+      bot_message, response)
+  return response
+
+
 
 async def alice_response(bot_message, uid):
   log.debug("alice_response(%r, %r)", bot_message, uid)
@@ -62,6 +271,7 @@ async def alice_response(bot_message, uid):
   )
   return response
 
+
 class Chat(commands.Cog):
   def __init__(self, bot):
     self.bot = bot
@@ -72,13 +282,15 @@ class Chat(commands.Cog):
     response = ""
     channel_id = message.channel.id
     channel_name = translate_emojis(
-      message.channel.name.split(b"\xff\xfe1\xfe".decode("utf-16"))[-1]
+      message.channel.name.split(
+        b"\xff\xfe1\xfe".decode("utf-16"))[-1]
       .strip()
       .strip("-")
     ).strip("-")
     print(f"channel_id = {channel_id}")
     print(f"channel_name = {channel_name}")
     uid = str(message.author.id)
+    
     if uid not in name_lookup:
       realname = message.author.name
       if m := re.search(
@@ -96,14 +308,11 @@ class Chat(commands.Cog):
     )
     bot_message = translate_emojis(bot_message)
     bot_message = translate_urls(bot_message)
-    
     log.info(
       f"[{message.author.name}][{message.guild.name}]:"
       f" {bot_message}"
     )
     mention = f"<@!{self.bot.user.id}>"
-    #if message.author.bot:
-    #  return
     if self.bot.user == message.author:
       return
     if (
@@ -288,4 +497,10 @@ class Chat(commands.Cog):
       if response:
         return await respond(response)
     finally:
+
       await self.bot.process_commands(message)
+
+
+def setup(bot):
+  bot.add_cog(Chat(bot))
+

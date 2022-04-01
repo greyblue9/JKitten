@@ -1,6 +1,8 @@
 from functools import lru_cache
 import spacy
 from spacy.lang.en import English
+import nltk
+nltk.download("punkt")
 
 tag_meanings = {
   "CC":  ("conjunction", "coordinating"),
@@ -58,9 +60,9 @@ def tag_sentence(sentence, describe=False):
     yield word, tuple(cur)
 
 @lru_cache
-def get_nlp(name: str="en_core_web_lg") -> English:
+def get_nlp(name: str="en_core_web_md") -> English:
   import spacy
-  return spacy.load("en_core_web_lg")
+  return spacy.load("en_core_web_md")
 
 def parse_text(text: str):
   d = get_nlp()(text)

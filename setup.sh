@@ -14,9 +14,12 @@ echo "bs4_installed = $bs4_installed" 1>&2
 
 if (( ! nextcord_installed || !  bs4_installed )); then
 	echo "Installing requirements..."
-
+    rm -rf -- venv
+    echo Creating venv...
+    python3 -m venv venv 
+    echo Installing...
     venv/bin/python -m pip install --pre wheel
-	venv/bin/python -m pip install --upgrade --pre -r requirements.txt
+	venv/bin/python -m pip install -r requirements.txt
     
 	venv/bin/python -c "import nextcord" 2>/dev/null &&  nextcord_installed=1
 	venv/bin/python -c "import bs4" 2>/dev/null  && bs4_installed=1
@@ -26,7 +29,7 @@ if (( ! nextcord_installed || !  bs4_installed )); then
         rm -rf -- venv
         exit 255
     fi
-    venv/bin/python -m spacy download en_core_web_lg
+    venv/bin/python -m spacy download en_core_web_md
 fi
 
 set -e

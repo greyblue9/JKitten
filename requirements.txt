@@ -1,9 +1,13 @@
+thinc==8.0.2
+srsly==1.0.2
+catalogue==2.0.7
+numpy==1.19.3
+spacy==2.3.7
 nextcord
 requests
 flask
 google-search
 nltk
-spacy
 bs4
 pyjnius
 python-dotenv

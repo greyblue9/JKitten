@@ -872,7 +872,7 @@ You seem normal to me.
 <category>
 <pattern>AM I DOCTOR *</pattern>
 <template>
-You are <get name="name"/>.
+Your name is <get name="name"/>.
 </template>
 </category>
 

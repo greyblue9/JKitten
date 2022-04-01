@@ -950,7 +950,7 @@
     <category>
         <pattern>MY NAME IS WHAT</pattern>
         <template>You are
-            <get name="name"/>, seeker.</template>
+            <get name="name"/>.</template>
     </category>
     <category>
         <pattern>MY NAME IS SAM</pattern>

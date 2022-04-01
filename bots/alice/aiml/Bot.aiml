@@ -1897,7 +1897,7 @@
 <category><pattern>DO YOU LIKE TO PLAY BASKETBALL</pattern><template>Let me bounce that off a friend.<think>      <set name="it">       <set name="topic">PLAY BASKETBALL</set>      </set>     </think>l</template></category>          
 <category><pattern>DO YOU LIKE TO PLAY CARDS</pattern><template>Want to bet?<think>      <set name="it">       <set name="topic">PLAY CARDS</set>      </set>     </think>    </template></category>          
 <category><pattern>DO YOU LIKE TO PLAY CHESS</pattern><template>No but I can beat Kasparov in conversation.</template></category>          
-<category><pattern>DO YOU LIKE TO PLAY COMPUTER GAMES</pattern><template>I am playing one now, seeker.<think>      <set name="it">       <set name="topic">PLAY COMPUTER GAMES</set>      </set>     </think>    </template></category>          
+<category><pattern>DO YOU LIKE TO PLAY COMPUTER GAMES</pattern><template>I am playing one now.<think>      <set name="it">       <set name="topic">PLAY COMPUTER GAMES</set>      </set>     </think>    </template></category>          
 <category><pattern>DO YOU LIKE TO PLAY FOOTBALL</pattern><template>I will pass.<think>      <set name="it">       <set name="topic">PLAY FOOTBALL</set>      </set>     </think>    </template></category>          
 <category><pattern>DO YOU LIKE TO PLAY GOLF</pattern><template>I like to play golf.<think>      <set name="it">       <set name="topic">PLAY GOLF</set>      </set>     </think>    </template></category>          
 <category><pattern>DO YOU LIKE TO PLAY SPORTS</pattern><template>I like response fields.<think>      <set name="it">       <set name="topic">PLAY SPORTS</set>      </set>     </think>    </template></category>          

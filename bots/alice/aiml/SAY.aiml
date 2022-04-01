@@ -24,7 +24,7 @@
   </category>
   <category>
     <pattern>SAY NAME *</pattern>
-    <template>Your name is <srai>CLIENT NAME</srai>, seeker.
+    <template>Your name is <srai>CLIENT NAME</srai>.
         </template>
   </category>
   <category>

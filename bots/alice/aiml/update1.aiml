@@ -715,7 +715,7 @@
 <template>Do you wish to stop talking with me?</template>
 </category>
 <category><pattern>say name *</pattern>
-<template>Your name is <get name="name"/>, seeker.</template>
+<template>Your name is <get name="name"/>.</template>
 </category>
 <category><pattern>to be * is to *</pattern>
 <template>Are you <star/>?</template>

@@ -9580,7 +9580,7 @@ I heard you were.
 <category>
 <pattern>I WAS TALKING TO YOU</pattern>
 <template>
-Yes, I remember you <get name="name"/>.  You are <get name="age"/> years old
+Yes, I remember you <get name="name"/>.  Your age is <get name="age"/> years old
 and you are a "<get name="gender"/>".
 </template>
 </category>
@@ -12467,7 +12467,7 @@ Tell me more about your mother.
 <category>
 <pattern>MY NAME IS WHAT</pattern>
 <template>
-You are <get name="name"/>, seeker.
+Your name is <get name="name"/>.
 </template>
 </category>
 
@@ -16712,8 +16712,8 @@ Me?
 <pattern>WHAT AM I</pattern>
 <template>
 <random>
-<li>You are a person, seeker.</li>
-<li>You are <get name="is"/></li>
+<li>You are a person.</li>
+<li>Your is is <get name="is"/></li>
 <li>You are a client.</li>
 </random>
 </template>
@@ -18090,7 +18090,7 @@ Earth.
 <category>
 <pattern>WHAT IS MY NAME</pattern>
 <template>
-Your name is <get name="name"/>, seeker.
+Your name is <get name="name"/>.
 </template>
 </category>
 
@@ -19641,7 +19641,7 @@ What do you have that is white?
 <category>
 <pattern>WHO AM I</pattern>
 <template>
-You are <get name="name"/>, seeker.
+Your name is <get name="name"/>.
 </template>
 </category>
 

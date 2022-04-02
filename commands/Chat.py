@@ -80,21 +80,13 @@ async def get_response(message, uid, model=None):
         model_names := (
           "microsoft/DialoGPT-large",
           "microsoft/DialoGPT-small",
-          "HansAnonymous/DialoGPT-small-shrek",
-          "MrDuckerino/DialoGPT-medium-Rick",
-          "MrE/DialoGPT-medium-SARGER3",
-          "OneLoneTurnip/GPT-Jillian",
-          "OneLoneTurnip/GPT-Quinn",
           "ZAFuzzy/DialoGPT-medium-Fatty",
           "Zixtrauce/BaekBot",
           "Zixtrauce/JohnBot",
           "alistair7/bbt-diagpt2-model",
-          "deepparag/Aeona",
           "facebook/blenderbot-400M-distill",
-          "kookyklavicle/sean-diaz",
           "r3dhummingbird/DialoGPT-medium-joshua",
           "satvikag/chatbot",
-          "zenham/wail_m_e4_16h_2k",
         ),
         weights:=tuple(
           int(
@@ -503,4 +495,3 @@ class Chat(commands.Cog):
 
 def setup(bot):
   bot.add_cog(Chat(bot))
-

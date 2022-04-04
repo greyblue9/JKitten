@@ -30,32 +30,7 @@ from traceback import format_exc, format_exception, format_exception_only
 import dotenv
 import demoji
 import re
-BLACKLIST = {
-  "JSFAILED",
-  "SRAIXFAILED",
-  "Did you mean ",
-  "the last of us",
-  "a good song",
-  "a guy making a video ",
-  "is the guy who made the video",
-  "making a video",
-  "not sure what that means",
-  "not sure what you're trying to say",
-  "want to talk about unknown",
-  "right? like, I know",
-  "Are you a girl",
-  "being serious or not.",
-  "reference to the song",
-  "I'm over hereactly",
-  "Thanks for the trade",
-  "reference to the song",
-  "are you a man",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "not sure what",
-  "I know, right?",
-}
+
 name_lookup = {
   "856229099952144464": "Dekriel",
   "856229099952144464": "David",

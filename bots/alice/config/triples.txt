@@ -5676,4 +5676,6 @@ zebra:collective:a cohort of zebra or  a herd of zebra
 zebra:legs:4
 zebra:sound:nyeaah
 cow:hasPlural:cows
-
+I:am:catbot
+hair:is:long
+name:hasPlural:names

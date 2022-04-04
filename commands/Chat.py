@@ -3,6 +3,40 @@ from pprint import pprint
 from tagger import *
 import nltk
 
+BLACKLIST = {
+  "JSFAILED",
+  "joking or not",
+  "SRAIXFAILED",
+  "serious or not,"
+  "Did you mean ",
+  "the last of us",
+  "a good song",
+  "a guy making a video ",
+  "sarcastic or not,"
+  "is the guy who made the video",
+  "making a video",
+  "not sure what that means",
+  "not sure what you're trying to say",
+  "want to talk about unknown",
+  "right? like, I know",
+  "Are you a girl",
+  "being serious or not.",
+  "reference to the song",
+  "I'm over hereactly",
+  "Thanks for the trade",
+  "reference to the song",
+  "are you a man",
+  "Are you a girl",
+  "reference to the song",
+  "I'm over hereactly",
+  "not sure what",
+  "web search",
+  "search the web",
+  "I know, right?",
+  "&lt;",
+  "<oob>",
+}
+
 
 tagger = None
 def pos_tag(sentence):
@@ -32,8 +66,11 @@ async def wolfram_alpha(inpt, uid=None):
     async with session.get(
       API_URL
     ) as resp:
-      doc = BS(await resp.read(), features="lxml")
+      doc = BS(await resp.read())
       print(doc)
+      for ans in reversed(doc.select("subpod > img + plaintext")):
+        if ans.text:
+          return '`' + str(ans.text) + '`'
       for ans in sorted(
           filter(
             lambda i: i.text,
@@ -73,20 +110,18 @@ async def wolfram_alpha(inpt, uid=None):
   return ""
 
 async def get_response(message, uid, model=None):
+  response = None
   inpt = bot_message = message
-  while True:
+  for attempt in range(3):
+    if response:
+      return response
     if model is None:
       model = random.choices(
         model_names := (
           "microsoft/DialoGPT-large",
+          'facebook/blenderbot-400M-distill',
+          'facebook/blenderbot-90M',
           "microsoft/DialoGPT-small",
-          "ZAFuzzy/DialoGPT-medium-Fatty",
-          "Zixtrauce/BaekBot",
-          "Zixtrauce/JohnBot",
-          "alistair7/bbt-diagpt2-model",
-          "facebook/blenderbot-400M-distill",
-          "r3dhummingbird/DialoGPT-medium-joshua",
-          "satvikag/chatbot",
         ),
         weights:=tuple(
           int(
@@ -261,6 +296,7 @@ async def alice_response(bot_message, uid):
     "alice_response query for %r returns %r",
     bot_message, response
   )
+  response = response.replace("<br />", "\n").replace("<br >", "\n").replace("<br/>", "\n").replace("<br>", "\n")
   return response
 
 
@@ -269,6 +305,21 @@ class Chat(commands.Cog):
     self.bot = bot
     super().__init__()
 
+  @commands.Command
+  async def wa(self, ctx, *, message):
+    response = await wolfram_alpha(message)
+    return await ctx.send(response)
+  
+  @commands.Command
+  async def google(self, ctx, *, message):
+    response = await google(message)
+    return await ctx.send(response)
+    
+  @commands.Command
+  async def alice(self, ctx, *, message):
+    response = await alice_response(message, str(ctx.message.author.id))
+    return await ctx.send(response)
+    
   @commands.Cog.listener()
   async def on_message(self, message):
     response = ""
@@ -347,11 +398,11 @@ class Chat(commands.Cog):
         }
         has_pronouns = pronouns_pos.intersection(by_pos)
         has_personal = personal_pos.intersection(by_pos)
-        has_proper_noun = "NN" in (
-          pos for word, pos in pos_tag(bot_message)
+        has_proper_noun = "NP" in (
+          pos[0:2] for word, pos in pos_tag(bot_message)
         )
         has_poss_pronoun = "PRP" in (
-          pos for word, pos in pos_tag(bot_message)
+          pos[0:3] for word, pos in pos_tag(bot_message)
         )
         
         if (

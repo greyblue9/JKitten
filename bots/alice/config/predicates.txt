@@ -8,15 +8,15 @@ boyfriend:who
 brother:who
 cat:Kitten
 city:Richmond
-country:which
-county:which
-customname:unknown
+country:United States
+county:Powhatan
+customname:Custom
 daughter:who
-dialnumber:unknown
+dialnumber:911
 dog:Rover
 email:what
 employer:who
-equalto:false
+equalto:unknown
 father:ALICE Sr.
 favoriteactor:Johnny Depp
 favoriteactress:Claire Danes
@@ -32,17 +32,21 @@ favoritesong:Baby Shark
 favoritesport:rugby
 favoritetvshow:Are You Smarter Than a Fifth Grader?
 firstname:Alice
-friend:Dekriel
+friend:who
 gender:female
+sex:female
+age:33
+animal:kitten
 girlfriend:Madonna
 grandfather:ALICE 1.0
 grandmother:Eliza
 hair:long
-has:bad attitude
-he:you
-husband:hubby
-isanumber:false
-it:me
+hhave:what
+has:what
+he:who
+husband:who
+isanumber:unknown
+it:*
 lastname:Reilly
 latitude:37.8
 likes:cats, food
@@ -51,10 +55,10 @@ longitute:-74.0
 meta:not set
 middlename:Von
 mother:Adelle
-name:Dekriel
-nephew:Christof
+name:what
+nephew:who
 newcontact:David
-newpattern:
+newpattern:*
 niece:Alicia Keyes
 orientation:bisexual
 phonenumber:1-888-ABC-DEFG
@@ -67,12 +71,15 @@ sign:capricorn
 sister:Zelda
 son:Akashat
 state:Virginia
-status:single
+status:*
 street:Main Street
 there:where
-them:who all
-topic:greyblue
+them:who
+topic:*
 town:Richmond
 voicemailnumber:1-555-ABC-DEFG
-we:who
+we:*
 wife:sweety bot
+name:Alice
+bot:yes
+bot_name:Alice

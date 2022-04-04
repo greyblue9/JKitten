@@ -18,7 +18,7 @@ def auto_reload_start(bot):
     (watchdog.events.FileSystemEventHandler,),
     {
       "on_modified": lambda self, evt: bot.reload_extension(
-        path_as_dotted(evt.src_path)[0]
+        f"commands.{Path(evt.src_path).stem}"
       ) if path_as_dotted(evt.src_path) else None
     },
   )()

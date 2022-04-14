@@ -6,8 +6,7 @@ pyjnius
 python-dotenv
 demoji
 watchdog
-nextcord
+disnake
 requests
-flask
 nltk
 bs4

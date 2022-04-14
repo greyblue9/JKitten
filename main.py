@@ -3,32 +3,31 @@ from bs4 import BeautifulSoup as BS
 
 import asyncio
 import requests
-import nextcord
-from nextcord.ext import commands
+import disnake
+from disnake.ext import commands
 import json
 import os, re
 import logging
 logging.root.setLevel(logging.DEBUG)
 logging.root.addHandler(logging.StreamHandler())
 log = logging.getLogger(__name__)
-for log_name in ("nextcord.__init__", "nextcord.client", "nextcord.gateway", "nextcord.http", "nextcord.opus", "nextcord.player", "nextcord.shard", "nextcord.state", "nextcord.voice_client", "nextcord.webhook", "nextcord.webhook"):
+for log_name in ("disnake.__init__", "disnake.client", "disnake.gateway", "disnake.http", "disnake.opus", "disnake.player", "disnake.shard", "disnake.state", "disnake.voice_client", "disnake.webhook", "disnake.webhook"):
   logging.getLogger(log_name).setLevel(logging.INFO)
-from nextcord.utils import find
-from nextcord.ui import Button, View
-from nextcord import *
-from nextcord.guild import Guild
-from nextcord.embeds import Embed
-from nextcord.user import Colour
-from nextcord.channel import TextChannel
-from nextcord.channel import TextChannel as Channel
+from disnake.utils import find
+from disnake.ui import Button, View
+from disnake import *
+from disnake.guild import Guild
+from disnake.embeds import Embed
+from disnake.user import Colour
+from disnake.channel import TextChannel
+from disnake.channel import TextChannel as Channel
 import sys
-from webserver import keep_alive
 from pathlib import Path
 from bs4 import BeautifulSoup as BS
 import traceback
 from traceback import format_exc, format_exception, format_exception_only
 import dotenv
-import demoji
+from text_tools import repeated_sub, translate_urls, translate_emojis
 import re
 
 name_lookup = {
@@ -39,67 +38,16 @@ name_lookup = {
 }
 DEFAULT_UID = "856229099952144464"
 USE_JAVA = True
-EMOJI_REGEX = re.compile(":([^: ][^:]*[^: ]):", re.DOTALL | re.IGNORECASE)
-def translate_emojis(message: str) -> str:
-  return EMOJI_REGEX.subn(
-    " \\1 ", demoji.replace(message.split("]")[-1].strip("\n: ,"))
-  )[0]
-def translate_urls(message: str) -> str:
-  prev = ""
-  while message != prev:
-    prev = message
-    message = re.compile(
-      "(https?://)([a-z]+)([^a-z ,;.]+)", re.DOTALL | re.IGNORECASE
-    ).subn("\\2 \\1", message)[0]
-  message = re.compile(
-    "\\s*(https?://)([^ ]*?)([, :;]|$)\\s*", re.DOTALL | re.IGNORECASE
-  ).subn(". ", message)[0]
-  return message
+
 orig_cwd = Path.cwd()
 if USE_JAVA:
-  import jnius_config, subprocess, sys
-  jnius_config.add_options("-Xverify:none", "-Xmx3064m", "-Xrs")
-  jnius_config.add_classpath(
-    "./lib/Ab.jar",
-    "./lib.deps.jar",
-    *(
-      "lib/Ab.jar:lib/deps.jar:lib/jackson-core-2.13.1.jar:lib/jackson-databind-2.13.1.jar".strip().split(
-        ":"
-      )
-    ),
-  )
-  import jnius
-  jnius.reflect.protocol_map["java.util.Map"].update(
-    items=lambda self: ((e.getKey(), e.getValue()) for e in self.entrySet()),
-    keys=lambda self: self.keySet(),
-  )
-  jnius.reflect.protocol_map.setdefault(
-    "org.alicebot.ab.Nodemapper", {}
-  ).update(
-    items=lambda self: ((e.getKey(), e.getValue()) for e in self.entrySet()),
-    keys=lambda self: self.keySet(),
-  )
-  setup = jnius.env.get_java_setup()
-  from zipfile import ZipFile
-  with (ZipFile(orig_cwd / "lib" / "Ab.jar", "r")) as jar:
-    from pathlib import Path
-    globals().update(
-      {
-        Path(f).stem: jnius.autoclass(
-          ".".join(Path(f).parts[0:-1] + (Path(f).stem,))
-        )
-        for f in jar.namelist()
-        if Path(f).suffix == ".class"
-        and (f == "Main.class" or f.startswith("org/alicebot/"))
-        and not f.endswith("Path.class")
-      }
-    )
+  from program_ab import *
   alice_bot = None
   async def get_chat(uid):
     global alice_bot
     if alice_bot is None:
       alice_bot \
-        = jnius.autoclass("org.alicebot.ab.Bot")(
+        = autoclass("org.alicebot.ab.Bot")(
             "alice", orig_cwd.as_posix()
           )
     return Main.getOrCreateChat(alice_bot, True, uid)
@@ -112,6 +60,7 @@ else:
     k.bootstrap(orig_cwd / "brain.dmp", [])
   else:
     k.bootstrap(None, list(map(Path.as_posix, orig_cwd.glob("**/*.aiml"))))
+  
   class Chat:
     def __init__(self, uid):
       self.uid = uid
@@ -144,15 +93,18 @@ DISCORD_BOT_TOKEN = (
   or dotenv.get_key(dotenv_path=(orig_cwd / ".env"), key_to_get="Token")
   or eval("exec('raise Exception(\"Missing bot token.\")')")
 )
+
+
 PREFIX = "+" or "@Kitten"
 intents = Intents.default()
-intents.value |= nextcord.Intents.messages.flag
-intents.value |= nextcord.Intents.guilds.flag
+intents.value |= disnake.Intents.messages.flag
+intents.value |= disnake.Intents.guilds.flag
 bot = commands.bot.Bot(
   command_prefix=PREFIX,
   status=Status.idle,
   intents=intents,
 )
+
 async def get_channel(message):
   with open(TEXT_CHANNELS_FILE, "r") as file:
     guild = json.load(file)
@@ -160,16 +112,18 @@ async def get_channel(message):
     if key in guild:
       return guild[key]
     return None
+
 @bot.event
 async def on_ready():
   print("bot is online")
+
 @bot.event
 async def on_guild_join(guild):
   ch = [c for c in guild.text_channels if c.permissions_for(guild.me).send_messages][
     0
   ]  # get first channel with speaking permissions
   print(ch)
-  embed = nextcord.Embed(
+  embed = disnake.Embed(
     title=f"Thanks for Adding me to your server!\n\n I'm so glad to be in {guild.name}!\n \nTo talk with me, just have `@Kitten` in your message! \n \nTo setup a channel for me to talk in do:\n`+setup`",
     color=0x37393F,
   )
@@ -178,16 +132,20 @@ async def on_guild_join(guild):
     url="https://cdn.discordapp.com/attachments/889405771870257173/943436635343843328/cute_cat_4.jpeg"
   )
   await ch.send(embed=embed)
+
 def load_config():
   with open(TEXT_CHANNELS_FILE, "r") as file:
     guild = json.load(file)
   return guild
+
 def save_config(conf):
   with open(TEXT_CHANNELS_FILE, "w") as file:
     json.dump(conf, file, indent=4)
+
 @bot.command(name="ping")
 async def ping(ctx: commands.Context):
   await ctx.send(f"the bot ping is currently: {round(bot.latency * 1000)}ms")
+
 def replace_mention(word, name_lookup):
   word = word.replace("!", "").replace("&", "").replace("@", "")
   if not word.startswith("<") or not word.endswith(">"):
@@ -196,6 +154,7 @@ def replace_mention(word, name_lookup):
   if name := name_lookup.get(mbr_id):
     return name
   return word
+
 @bot.command(pass_context=True)
 async def whoami(ctx):
   if ctx.message.author.server_permissions.administrator:
@@ -204,6 +163,7 @@ async def whoami(ctx):
   else:
     msg = "You're an average joe {0.author.mention}".format(ctx.message)
     await ctx.send(msg)
+
 @bot.command()
 @commands.has_permissions(administrator=True)
 async def setup(ctx: commands.Context, *, args=""):
@@ -273,6 +233,7 @@ async def setup(ctx: commands.Context, *, args=""):
   else:
     await reply_maybe_embed(f"The channel {channel.mention} is not in your guild.")
   return
+
 @bot.command(name="print-message-to-console")
 async def print_message(ctx, message):
   print(message)
@@ -280,9 +241,8 @@ async def print_message(ctx, message):
 async def guild(ctx):
   guild = ctx.guild
   return guild
-  
 
-
+# function shared by all Cogs
 def setup(bot: commands.Bot):
     module_name = [
       k for k in sys.modules.keys()
@@ -295,23 +255,104 @@ def setup(bot: commands.Bot):
     bot.add_cog(cog_obj)
 
 
-for file in Path("commands").glob("*.py"):
-  bot.load_extension(f"commands.{file.stem}")
-import threading
-import time
+if __name__ == "__main__":
+    # Discover all the commands and load each one
+    # into the bot
+    dir: Path = Path("commands")
+    for item in dir.iterdir():
+        if item.name.endswith(".py"):
+            name = f'{item.parent.name}.{item.stem}'
+            log.info("Loading extension: %r", name)
+            bot.load_extension(name)
+
+
+import asyncio, logging, threading, time
 from asyncio import get_event_loop_policy
 from os import getenv
 from threading import Thread, current_thread
-import nextcord.utils
+import disnake.utils
 from dotenv import load_dotenv
-from nextcord.ext.commands import Bot
-from pathlib import Path
+from disnake.ext.commands import Bot
 load_dotenv()
-import hack_nextcord
+from disnake.client import *
+from typing import *
+_log = logging.getLogger(__name__)
+
+def _cleanup_loop(loop):
+  pass
+def run(self, *args: Any, **kwargs: Any) -> None:
+  loop = self.loop
+  try:
+    loop.add_signal_handler(
+      signal.SIGINT, lambda: loop.stop())
+    loop.add_signal_handler(
+      signal.SIGTERM, lambda: loop.stop())
+  except:
+    pass
+  async def runner():
+    try:
+      await self.start(*args, **kwargs)
+    finally:
+      if not self.is_closed():
+        await self.close()
+  def stop_loop_on_completion(f):
+    loop.stop()
+  future = asyncio.ensure_future(runner(), loop=loop)
+  future.add_done_callback(stop_loop_on_completion)
+  try:
+    loop.run_forever()
+  except KeyboardInterrupt:
+    _log.info(
+      "Received signal to terminate bot and event loop.")
+  finally:
+    future.remove_done_callback(stop_loop_on_completion)
+    _log.info("Cleaning up tasks.")
+    _cleanup_loop(loop)
+  if not future.cancelled():
+    try:
+      return future.result()
+    except KeyboardInterrupt:
+      # I am unsure why this gets raised here 
+      # but suppress it anyway
+      return None
+Client.run = run
+
+from watchdog.events import FileSystemEventHandler
+from watchdog.observers import Observer
+from importlib.machinery import all_suffixes
+
+def path_as_dotted(path):
+  p = Path(path).relative_to(Path.cwd())
+  for s in all_suffixes():
+    if not p.name.endswith(s):
+      continue
+    log.info("on_modified: p=%s, s=%s", p, s)
+    return ".".join(p.as_posix().strip("/.").split("/"))
+
+class EvtHandler(FileSystemEventHandler):
+  def on_modified(self, evt):
+    log.info("on_modified(self=%s, evt=%s)", self, evt)
+    name = path_as_dotted(evt.src_path)
+    if not name:
+      return
+    log.info("on_modified: reloading %r", name)
+    bot.reload_extension(name)
+
+def auto_reload_start(bot):
+  evts = []
+  obs = Observer()
+  h = EvtHandler()
+  obs.schedule(
+    event_handler=h,
+    path=Path.cwd() / "commands",
+    recursive=True
+  )
+  obs.start()
 
 def start_bot():
   token = (
-    getenv("Token", getenv("DISCORD_BOT_TOKEN")).strip('"')
+    getenv("Token", getenv("DISCORD_BOT_TOKEN"))
+      .strip('"')
   )
   thread = current_thread()
   log.info(
@@ -319,17 +360,12 @@ def start_bot():
     token[0:5], "*" * len(token[5:-5]), token[-5:], thread
   )
   bot._rollout_all_guilds = True
-  global cogs
-  cogs = bot._BotBase__cogs
-  from auto_reload import auto_reload_start
   auto_reload_start(bot)
   bot.run(token)
 
 loop = get_event_loop_policy().get_event_loop()
 Thread(target=start_bot).start()
-get_chat(DEFAULT_UID)
 import code
-chat = asyncio.run(get_chat("856229099952144464"))
 cons = code.InteractiveConsole(locals())
 cons.push("import __main__")
 cons.push("from __main__ import *")

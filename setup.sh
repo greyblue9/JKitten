@@ -4,15 +4,15 @@
 	python3 -m venv venv
 }
 
-nextcord_installed=0
+disnake_installed=0
 bs4_installed=0
 
-venv/bin/python -c "import nextcord" 2>/dev/null &&  nextcord_installed=1
+venv/bin/python -c "import disnake" 2>/dev/null &&  disnake_installed=1
 venv/bin/python -c "import bs4" 2>/dev/null  && bs4_installed=1
-echo "nextcord_installed = $nextcord_installed" 1>&2
+echo "disnake_installed = $disnake_installed" 1>&2
 echo "bs4_installed = $bs4_installed" 1>&2
 
-if (( ! nextcord_installed || !  bs4_installed )); then
+if (( ! disnake_installed || !  bs4_installed )); then
 	echo "Installing requirements..."
     rm -rf -- venv
     echo Creating venv...
@@ -21,11 +21,11 @@ if (( ! nextcord_installed || !  bs4_installed )); then
     venv/bin/python -m pip install --pre wheel
 	venv/bin/python -m pip install -r requirements.txt
     
-	venv/bin/python -c "import nextcord" 2>/dev/null &&  nextcord_installed=1
+	venv/bin/python -c "import disnake" 2>/dev/null &&  disnake_installed=1
 	venv/bin/python -c "import bs4" 2>/dev/null  && bs4_installed=1
-	echo "nextcord_instaled = $nextcord_installed" 1>&2
+	echo "disnake_instaled = $disnake_installed" 1>&2
 	echo "bs4_instaled = $bs4_installed" 1>&2
-    if ! (( nextcord_installed && bs4_installed )); then
+    if ! (( disnake_installed && bs4_installed )); then
         rm -rf -- venv
         exit 255
     fi

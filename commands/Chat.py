@@ -3,40 +3,30 @@ from pprint import pprint
 from tagger import *
 import nltk
 import aiohttp
-CC
+
 BLACKLIST = {
   "JSFAILED",
   "joking or not",
   "SRAIXFAILED",
-  "serious or not,"
   "the last of us",
   "a guy making a video ",
-  "sarcastic or not,"
   "is the guy who made the video",
   "making a video",
   "want to talk about unknown",
-  "right? like, I know",
   "Are you a girl",
-  "being serious or not.",
   "reference to the song",
   "I'm over hereactly",
   "Thanks for the trade",
   "being sarcastic",
   "reference to the song",
-	
-	"I know, right",
-	"serious or not",
-	
-	"are you a man",
+	 
   "Are you a girl",
   "reference to the song",
   "I'm over hereactly",
   "not sure what you mean",
   "web search",
   "good song",
-  "at the office",
   "search the web",
-  "&lt;",
   "<oob>",
 }
 

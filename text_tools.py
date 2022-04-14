@@ -2,6 +2,8 @@ from re import DOTALL, IGNORECASE, Pattern, compile
 from typing import Any, Union
 import demoji
 import logging
+from __main__ import *
+import re
 log = logging.getLogger(__name__)
 
 FLAGS = DOTALL | IGNORECASE
@@ -55,4 +57,3 @@ def translate_urls(text: str) -> str:
       text, new_text
     )
   return new_text
-

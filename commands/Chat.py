@@ -1,9 +1,7 @@
 from __main__ import *
 from disnake.ext.commands.interaction_bot_base import CommonBotBase
 from disnake.ext.commands import Cog
-from disnake.ext.commands.cog import  (
-  InvokableApplicationCommand as Command
-)
+from disnake.ext.commands import Command
 from pprint import pprint
 from tagger import *
 import nltk
@@ -28,6 +26,9 @@ class Class:
 
 BLACKLIST = {
   "JSFAILED",
+  "I know, right",
+  "serious or not",
+  "I'm not sure what you're trying to say",
   "joking or not",
   "SRAIXFAILED",
   "the last of us",
@@ -85,7 +86,7 @@ async def wolfram_alpha(inpt, uid=None):
       print(doc)
       for ans in reversed(doc.select("subpod > img + plaintext")):
         if ans.text:
-          return '`' + str(ans.text) + '`'
+          return str(ans.text)
       for ans in sorted(
           filter(
             lambda i: i.text,
@@ -460,6 +461,9 @@ class Chat(Cog):
   @event
   async def on_message(self, message):
     response = ""
+    if message.content.startswith("+"):
+        await self.bot.process_commands(message)
+        return
     channel_id = message.channel.id
     channel = message.channel
     in_whitelist = any(
@@ -685,6 +689,4 @@ class Chat(Cog):
       if response:
         return await respond(response)
     finally:
-      pass
-
-
+      await self.bot.process_commands(message)

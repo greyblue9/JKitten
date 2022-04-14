@@ -1,6 +1,6 @@
 import traceback
 from bs4 import BeautifulSoup as BS
-
+import re
 import asyncio
 import requests
 import disnake
@@ -142,7 +142,7 @@ intents = Intents.default()
 intents.value |= disnake.Intents.messages.flag
 intents.value |= disnake.Intents.guilds.flag
 
-bot = AutoShardedInteractionBot(
+bot = AutoShardedBot(
   command_prefix=PREFIX,
   sync_commands=True,
   sync_commands_debug=True,
@@ -280,6 +280,7 @@ def start_bot():
   bot.run(token)
 
 loop = get_event_loop_policy().get_event_loop()
+get_chat("0")
 Thread(target=start_bot).start()
 import code
 cons = code.InteractiveConsole(locals())

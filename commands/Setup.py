@@ -1,9 +1,7 @@
 from __main__ import *
 from disnake.ext.commands.interaction_bot_base import CommonBotBase
 from disnake.ext.commands import Cog
-from disnake.ext.commands.cog import  (
-  InvokableApplicationCommand as Command
-)
+from disnake.ext.commands import Command
 
 async def get_channel(self, message):
   with open(TEXT_CHANNELS_FILE, "r") as file:

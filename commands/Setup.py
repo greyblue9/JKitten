@@ -57,15 +57,7 @@ class Setup(Cog):
   @Command
   async def ping(self, ctx: commands.Context):
     await ctx.send(f"the bot ping is currently: {round(bot.latency * 1000)}ms")
-  
-  def replace_mention(self, word, name_lookup):
-    word = word.replace("!", "").replace("&", "").replace("@", "")
-    if not word.startswith("<") or not word.endswith(">"):
-      return word
-    mbr_id = word[1:-1]
-    if name := name_lookup.get(mbr_id):
-      return name
-    return word
+
   
   @Command
   async def whoami(self, ctx):

@@ -489,7 +489,7 @@ class Chat(Cog):
       return
     ok = in_whitelist or mention in message.content
     if not ok:
-      return await self.bot.process_commands(message)
+      return
     def respond(new_response):
       nonlocal response
       response = new_response
@@ -679,6 +679,6 @@ class Chat(Cog):
       if response:
         return await respond(response)
     finally:
-      await self.bot.process_commands(message)
+      pass
 
 

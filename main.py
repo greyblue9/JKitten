@@ -280,7 +280,7 @@ def start_bot():
   bot.run(token)
 
 loop = get_event_loop_policy().get_event_loop()
-get_chat("0")
+loop.run_until_complete(get_chat(DEFAULT_UID))
 Thread(target=start_bot).start()
 import code
 cons = code.InteractiveConsole(locals())

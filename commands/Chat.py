@@ -128,9 +128,17 @@ async def wolfram_alpha(inpt, uid=None):
 async def get_response(message, uid, model=None):
   response = None
   inpt = bot_message = message
-  for attempt in range(3):
+  data = {}
+  for attempt in range(4):
     if response:
       return response
+    if attempt == 3:
+      break
+    if attempt > 0:
+      sleep_time = random.randrange(0, 5)
+      log.info("Attempt %d: sleeping %d seconds ...",
+        attempt, sleep_time)
+      await asyncio.sleep(sleep_time)
     if model is None:
       model = random.choices(
         model_names := (
@@ -169,16 +177,19 @@ async def get_response(message, uid, model=None):
         else:
           pprint(data)
         if not data:
-          data = { "error": "No reply" }
-        if data.get("ereor"):
+          data = { "error": "No reply", "estimated_time": 5 }
+        if data.get("error"):
           await asyncio.sleep(data.get("estimated_time",20))
           async with ClientSession() as session:
             async with session.post(
               API_URL, headers=headers, json=payload
             ) as response:
-              data = await response.json()
-              pprint(data)
-        
+              try:
+                data = await response.json(content_type="application/json")
+              except Exception as e:
+                print(e)
+        if data:
+          pprint(data)
         reply = data.get("generated_text")
         response = reply
         if not response:
@@ -547,8 +558,10 @@ class Chat(Cog):
         print(f"{has_proper_noun=}")
         print(f"{has_poss_pronoun=}")
         if (
-          cats["tagged"][0][0] in ("what", "who", "when", "where")   and
-          cats["tagged"][1][0] in ("is", "are")
+          cats["tagged"]
+          and cats["tagged"][0]
+          and cats["tagged"][0][0] in ("what", "who", "when", "where")
+          and cats["tagged"][1][0] in ("is", "are")
           and cats["question"]
           and not cats["person"]
         ):

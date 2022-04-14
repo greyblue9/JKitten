@@ -48,7 +48,7 @@ def translate_emojis(text: str) -> str:
 
 
 def translate_urls(text: str) -> str:
-  words = re.subn(r"https?://|www|\.[a-zA-Z0-9_]+/|[^a-zA-Z]+|(?<=[^a-zA-Z])[a-zA-Z]{1,2}(?=[^a-zA-Z])", " ", text)[0].split()
+  words = re.subn(r"https?://|www|\.[a-zA-Z0-9_]+/|[^a-zA-Z]+", " ", text)[0].split()
   words2 = list( filter(lambda i: len(i) > 2, map( str.lower, filter( None, re.split("(?:[._]+)|(?=[^a-zA-Z]|(?<=[a-z])(?=[A-Z]))", " ".join(words)), ), ) ) )
   new_text = " ".join(" ".join(words2).split())
   if text != new_text:

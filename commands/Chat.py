@@ -499,8 +499,11 @@ class Chat(Cog):
         for word in message.content.split()
       )
     )
+    
     bot_message = translate_emojis(bot_message)
-    bot_message = translate_urls(bot_message)
+    if "https://" in bot_message or "http://" in bot_message:
+      bot_message = translate_urls(bot_message)
+    
     log.info(
       f"[{message.author.name}][{message.guild.name}]:"
       f" {bot_message}"

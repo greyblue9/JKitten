@@ -39,7 +39,7 @@ def translate_emojis(text: str) -> str:
  new_text = repeated_sub(EMOJI_REGEX, " \\1 ", new_text)
  if text != new_text:
    log.debug(
-     "translate_emojis(text=%r) returns %%r",
+     "translate_emojis(text=%r) returns %r",
      text, new_text
    )
  return new_text
@@ -54,7 +54,7 @@ def translate_urls(text: str) -> str:
   )
   if text != new_text:
     log.debug(
-      "translate_urls(text=%r) returns %%r",
+      "translate_urls(text=%r) returns %r",
       text, new_text
     )
   return new_text

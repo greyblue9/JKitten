@@ -15,7 +15,10 @@ CHANNEL_NAME_WHITELIST = {
   "global-chat",
   "🤖︱ai-chat-bot",
   "general",
+  "alice-bot",
+  "speichren",
 }
+
 
 class Class:
   @classmethod
@@ -459,7 +462,10 @@ class Chat(Cog):
     response = ""
     channel_id = message.channel.id
     channel = message.channel
-    in_whitelist = channel.name in CHANNEL_NAME_WHITELIST
+    in_whitelist = any(
+      channel.name.lower() in f.lower()
+      for f in CHANNEL_NAME_WHITELIST
+    )
     print(f"channel.name = {channel.name}")
     uid = str(message.author.id)
     

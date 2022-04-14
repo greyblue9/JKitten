@@ -5,9 +5,33 @@ import asyncio
 import requests
 import disnake
 from disnake.ext import commands
+from disnake.ext.commands import (
+   AutoShardedBot,
+   AutoShardedInteractionBot,
+   Bot,
+   Cog,
+   CogMeta,
+   Command,
+   DefaultHelpCommand,
+   GroupMixin,
+   GuildContext,
+   HelpCommand,
+   InteractionBot,
+   InvokableSlashCommand,
+   ParamInfo,
+   SubCommand,
+   before_invoke,
+   when_mentioned,  
+)
 import json
 import os, re
 import logging
+TEST_GUILDS = [
+  936455318043504730, # Kitten AI Testing
+  846378738740232267, # CUDA Server
+  881146381891436565, # The Chill Zone
+  476190141161930753, # Bot Test Python
+]
 logging.root.setLevel(logging.DEBUG)
 logging.root.addHandler(logging.StreamHandler())
 log = logging.getLogger(__name__)
@@ -29,6 +53,12 @@ from traceback import format_exc, format_exception, format_exception_only
 import dotenv
 from text_tools import repeated_sub, translate_urls, translate_emojis
 import re
+class Class:
+  @classmethod
+  def forName(cls, name):
+    from jnius import autoclass
+    return autoclass(name)
+
 
 name_lookup = {
   "856229099952144464": "Dekriel",
@@ -47,7 +77,7 @@ if USE_JAVA:
     global alice_bot
     if alice_bot is None:
       alice_bot \
-        = autoclass("org.alicebot.ab.Bot")(
+        = Class.forName("org.alicebot.ab.Bot")(
             "alice", orig_cwd.as_posix()
           )
     return Main.getOrCreateChat(alice_bot, True, uid)
@@ -99,148 +129,19 @@ PREFIX = "+" or "@Kitten"
 intents = Intents.default()
 intents.value |= disnake.Intents.messages.flag
 intents.value |= disnake.Intents.guilds.flag
-bot = commands.bot.Bot(
+
+bot = AutoShardedInteractionBot(
   command_prefix=PREFIX,
+  sync_commands=True,
+  sync_commands_debug=True,
+  sync_commands_on_cog_unload=True,
+  sync_permissions=True,
+  test_guilds=TEST_GUILDS,
+  # **options:
   status=Status.idle,
   intents=intents,
 )
 
-async def get_channel(message):
-  with open(TEXT_CHANNELS_FILE, "r") as file:
-    guild = json.load(file)
-    key = str(message.guild.id)
-    if key in guild:
-      return guild[key]
-    return None
-
-@bot.event
-async def on_ready():
-  print("bot is online")
-
-@bot.event
-async def on_guild_join(guild):
-  ch = [c for c in guild.text_channels if c.permissions_for(guild.me).send_messages][
-    0
-  ]  # get first channel with speaking permissions
-  print(ch)
-  embed = disnake.Embed(
-    title=f"Thanks for Adding me to your server!\n\n I'm so glad to be in {guild.name}!\n \nTo talk with me, just have `@Kitten` in your message! \n \nTo setup a channel for me to talk in do:\n`+setup`",
-    color=0x37393F,
-  )
-  embed.set_author(name="Meow! I'm Kitten,")
-  embed.set_thumbnail(
-    url="https://cdn.discordapp.com/attachments/889405771870257173/943436635343843328/cute_cat_4.jpeg"
-  )
-  await ch.send(embed=embed)
-
-def load_config():
-  with open(TEXT_CHANNELS_FILE, "r") as file:
-    guild = json.load(file)
-  return guild
-
-def save_config(conf):
-  with open(TEXT_CHANNELS_FILE, "w") as file:
-    json.dump(conf, file, indent=4)
-
-@bot.command(name="ping")
-async def ping(ctx: commands.Context):
-  await ctx.send(f"the bot ping is currently: {round(bot.latency * 1000)}ms")
-
-def replace_mention(word, name_lookup):
-  word = word.replace("!", "").replace("&", "").replace("@", "")
-  if not word.startswith("<") or not word.endswith(">"):
-    return word
-  mbr_id = word[1:-1]
-  if name := name_lookup.get(mbr_id):
-    return name
-  return word
-
-@bot.command(pass_context=True)
-async def whoami(ctx):
-  if ctx.message.author.server_permissions.administrator:
-    msg = "You're an admin {0.author.mention}".format(ctx.message)
-    await ctx.send(msg)
-  else:
-    msg = "You're an average joe {0.author.mention}".format(ctx.message)
-    await ctx.send(msg)
-
-@bot.command()
-@commands.has_permissions(administrator=True)
-async def setup(ctx: commands.Context, *, args=""):
-  channel: Channel = None
-  removing: bool = False
-  words = args.split()
-  if words and words[0] == "remove":
-    removing = True
-    # drop first arg
-    args = " ".join(words[1:])
-  channel_match: re.Match = re.search(r"<#(?P<id>[0-9]+)>", args)
-  if channel_match:
-    guild_: Guild = ctx.guild
-    channel = guild_.get_channel(int(channel_match.group("id")))
-  guild: Guild = ctx.guild
-  config = load_config()
-  print(
-    f"Setup command: {args=!r} {words=} {channel_match=} {channel=!r} {removing=!r}"
-  )
-  def reply_maybe_embed(*args):
-    status = [
-      (
-        int(sk),
-        ctx.guild.get_channel(int(sk)),
-      )
-      for sk in ([config[str(guild.id)]] if str(guild.id) in config else [])
-    ]
-    status_embed = Embed(
-      title="Current Status",
-      color=0xFF7575,
-      type="rich",
-      description="\n".join([f"{ch.mention}: installed" for chid, ch in status]),
-    )
-    if status:
-      return ctx.reply(*args, embed=status_embed)
-    return ctx.reply(*args)
-  #
-  if channel is None:
-    await reply_maybe_embed(
-      "Hello there! \n"
-      " - To setup the AI on a channel, do `+setup #channel`. \n"
-      " - To remove the AI from a channel, do `+setup remove #channel`."
-    )
-    return
-  if not removing:
-    if guild.id in config:
-      await reply_maybe_embed(
-        "Are you disabled?! You already have an AI channel set up!"
-      )
-      return
-    config[str(guild.id)] = channel.id
-    save_config(config)
-    await reply_maybe_embed(
-      f"Alrighty! The channel {channel.mention} has been setup!"
-    )
-    return
-  # renoving
-  if channel.guild.id == guild.id:
-    if str(guild.id) in config:
-      del config[str(guild.id)]
-      save_config(config)
-      await reply_maybe_embed(
-        f"The channel {channel.mention} has been removed. I'll miss you! :("
-      )
-    else:
-      await reply_maybe_embed(f"The channel {channel.mention} is not set up.")
-  else:
-    await reply_maybe_embed(f"The channel {channel.mention} is not in your guild.")
-  return
-
-@bot.command(name="print-message-to-console")
-async def print_message(ctx, message):
-  print(message)
-  await ctx.send("message printed in console")
-async def guild(ctx):
-  guild = ctx.guild
-  return guild
 
 # function shared by all Cogs
 def setup(bot: commands.Bot):
@@ -326,8 +227,11 @@ def path_as_dotted(path):
   for s in all_suffixes():
     if not p.name.endswith(s):
       continue
-    log.info("on_modified: p=%s, s=%s", p, s)
-    return ".".join(p.as_posix().strip("/.").split("/"))
+    name_noext = p.name.removesuffix(s)
+    p_noext = p.parent / name_noext
+    
+    log.info("on_modified: p=%s, p_noext=%s", p, p_noext)
+    return ".".join(p_noext.parts)
 
 class EvtHandler(FileSystemEventHandler):
   def on_modified(self, evt):

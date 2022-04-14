@@ -1,8 +1,27 @@
 from __main__ import *
+from disnake.ext.commands.interaction_bot_base import CommonBotBase
+from disnake.ext.commands import Cog
+from disnake.ext.commands.cog import  (
+  InvokableApplicationCommand as Command
+)
 from pprint import pprint
 from tagger import *
 import nltk
 import aiohttp
+
+
+CHANNEL_NAME_WHITELIST = {
+  "open-chat",
+  "global-chat",
+  "🤖︱ai-chat-bot",
+  "general",
+}
+
+class Class:
+  @classmethod
+  def forName(cls, name):
+    from jnius import autoclass
+    return autoclass(name)
 
 BLACKLIST = {
   "JSFAILED",
@@ -213,10 +232,8 @@ async def google(bot_message, uid=None):
   topic = "*"
   if cats["entities"]:
     topic = cats["entities"][0]
-  response = (
-    jnius.autoclass("org.alicebot.ab.Sraix")
-      .sraixPannous(bot_message, topic, chat)
-  )
+  Sraix = Class.forName("org.alicebot.ab.Sraix")
+  response = Sraix.sraixPannous(bot_message, topic, chat)
   if "SRAIXFAILED" in response:
     log.debug("google(%r, %r) failed with %r", bot_message, uid, response)
     return ""
@@ -410,37 +427,39 @@ async def alice_response(bot_message, uid):
   return response
 
 
-class Chat(commands.Cog):
+
+
+
+
+class Chat(Cog):
+  bot: CommonBotBase
+  event = Cog.listener()
+  
   def __init__(self, bot):
     self.bot = bot
     super().__init__()
-
-  @commands.Command
+  
+  @Command
   async def wa(self, ctx, *, message):
     response = await wolfram_alpha(message)
     return await ctx.send(response)
   
-  @commands.Command
+  @Command
   async def google(self, ctx, *, message):
     response = await google(message)
     return await ctx.send(response)
     
-  @commands.Command
+  @Command
   async def alice(self, ctx, *, message):
     response = await alice_response(message, str(ctx.message.author.id))
     return await ctx.send(response)
     
-  @commands.Cog.listener()
+  @event
   async def on_message(self, message):
     response = ""
     channel_id = message.channel.id
-    channel_name = translate_emojis(
-      message.channel.name.split(
-        b"\xff\xfe1\xfe".decode("utf-16"))[-1]
-      .strip()
-      .strip("-")
-    ).strip("-")
-    print(f"channel_id = {channel_id}")
+    channel = message.channel
+    in_whitelist = channel.name in CHANNEL_NAME_WHITELIST
     print(f"channel_name = {channel_name}")
     uid = str(message.author.id)
     
@@ -468,14 +487,9 @@ class Chat(commands.Cog):
     mention = f"<@!{self.bot.user.id}>"
     if self.bot.user == message.author:
       return
-    if (
-      (await get_channel(message) is not None and
-       await get_channel(message) != channel_id)
-      and channel_name != "ai-chat-bot" 
-      and mention not in message.content
-      and f"<@{self.bot.user.id}>" not in message.content
-    ):
-      return
+    ok = in_whitelist or mention in message.content
+    if not ok:
+      return await self.bot.process_commands(message)
     def respond(new_response):
       nonlocal response
       response = new_response
@@ -556,7 +570,7 @@ class Chat(commands.Cog):
           )
           and cats['entities'] in ((), ('alice',),)
           and cats['question'] == True
-          and (has_poss_pronoun or 
+          and (has_poss_pronoun or
                'PRP$' in dict(cats['tagged']).values())
         ):
           if new_response := await alice_response(bot_message, uid):
@@ -564,9 +578,7 @@ class Chat(commands.Cog):
         
         if (
           "age" in cats["attributes"] and cats["entities"]
-          or "how many " in bot_message.lower()
           or "how long " in bot_message.lower()
-          or "how much " in bot_message.lower()
           or "how old " in bot_message.lower()
           or "'s age" in bot_message.lower()
           or re.search("^what is [^ ]+($|,|\\.)", bot_message.lower())
@@ -582,9 +594,9 @@ class Chat(commands.Cog):
           1
           for pos in
           dict(cats["tagged"]).values()
-          if pos in ("DT", "JJR", "PRP",)
+          if pos in ("DT", "JJR", "PRP", "PRP$")
         )
-        if exclaim_score >= 3:
+        if exclaim_score >= 4:
           if new_response := await gpt_response(bot_message, uid):
             return await respond(new_response)
         
@@ -667,9 +679,6 @@ class Chat(commands.Cog):
       if response:
         return await respond(response)
     finally:
-
       await self.bot.process_commands(message)
 
 
-def setup(bot):
-  bot.add_cog(Chat(bot))

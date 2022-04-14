@@ -493,7 +493,7 @@ class Chat(Cog):
     mention = f"<@!{self.bot.user.id}>"
     if self.bot.user == message.author:
       return
-    ok = in_whitelist or mention in message.content
+    ok = in_whitelist or mention in message.content or "alice" in message.content.lower() or "alice "in bot_message.lower()
     if not ok:
       return
     def respond(new_response):

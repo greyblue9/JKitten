@@ -460,7 +460,7 @@ class Chat(Cog):
     channel_id = message.channel.id
     channel = message.channel
     in_whitelist = channel.name in CHANNEL_NAME_WHITELIST
-    print(f"channel_name = {channel_name}")
+    print(f"channel.name = {channel.name}")
     uid = str(message.author.id)
     
     if uid not in name_lookup:

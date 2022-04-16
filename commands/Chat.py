@@ -9,10 +9,10 @@ import aiohttp
 
 
 CHANNEL_NAME_WHITELIST = {
-  "open-chat",
+#  "open-chat",
   "global-chat",
   "🤖︱ai-chat-bot",
-  "general",
+#  "general",
   "alice-bot",
   "speichren",
 }

@@ -3,6 +3,7 @@ from disnake.ext.commands.interaction_bot_base import CommonBotBase
 from disnake.ext.commands import Cog
 from disnake.ext.commands import Command
 
+
 async def get_channel(self, message):
   with open(TEXT_CHANNELS_FILE, "r") as file:
     guild = json.load(file)
@@ -15,18 +16,20 @@ async def get_channel(self, message):
 class Setup(Cog):
   bot: CommonBotBase
   event = Cog.listener()
-  
+
   def __init__(self, bot):
     self.bot = bot
     super().__init__()
-  
+
   @event
   async def on_ready(self):
     print("bot is online")
-  
+
   @event
   async def on_guild_join(self, guild):
-    ch = [c for c in guild.text_channels if c.permissions_for(guild.me).send_messages][
+    ch = [
+      c for c in guild.text_channels if c.permissions_for(guild.me).send_messages
+    ][
       0
     ]  # get first channel with speaking permissions
     print(ch)
@@ -39,24 +42,20 @@ class Setup(Cog):
       url="https://cdn.discordapp.com/attachments/889405771870257173/943436635343843328/cute_cat_4.jpeg"
     )
     await ch.send(embed=embed)
-  
-  
+
   def load_config(self):
     with open(TEXT_CHANNELS_FILE, "r") as file:
       guild = json.load(file)
     return guild
-  
-  
+
   def save_config(self, conf):
     with open(TEXT_CHANNELS_FILE, "w") as file:
       json.dump(conf, file, indent=4)
-  
-  
+
   @Command
   async def ping(self, ctx: commands.Context):
     await ctx.send(f"the bot ping is currently: {round(bot.latency * 1000)}ms")
 
-  
   @Command
   async def whoami(self, ctx):
     if ctx.message.author.server_permissions.administrator:
@@ -65,7 +64,7 @@ class Setup(Cog):
     else:
       msg = "You're an average joe {0.author.mention}".format(ctx.message)
       await ctx.send(msg)
-  
+
   @commands.has_permissions(administrator=True)
   @Command
   async def setup(self, ctx: commands.Context, *, args=""):
@@ -85,6 +84,7 @@ class Setup(Cog):
     print(
       f"Setup command: {args=!r} {words=} {channel_match=} {channel=!r} {removing=!r}"
     )
+
     def reply_maybe_embed(*args):
       status = [
         (
@@ -97,11 +97,14 @@ class Setup(Cog):
         title="Current Status",
         color=0xFF7575,
         type="rich",
-        description="\n".join([f"{ch.mention}: installed" for chid, ch in status]),
+        description="\n".join(
+          [f"{ch.mention}: installed" for chid, ch in status]
+        ),
       )
       if status:
         return ctx.reply(*args, embed=status_embed)
       return ctx.reply(*args)
+
     #
     if channel is None:
       await reply_maybe_embed(
@@ -115,15 +118,13 @@ class Setup(Cog):
     if not removing:
       if guild.id in config:
         await reply_maybe_embed(
-          "Are you disabled?! "
-          "You already have an AI channel set up!"
+          "Are you disabled?! " "You already have an AI channel set up!"
         )
         return
       config[str(guild.id)] = channel.id
       self.save_config(config)
       await reply_maybe_embed(
-        f"Alrighty! The channel "
-        f"{channel.mention} has been setup!"
+        f"Alrighty! The channel " f"{channel.mention} has been setup!"
       )
       return
     # renoving
@@ -136,16 +137,13 @@ class Setup(Cog):
           f"has been removed. I'll miss you! :("
         )
       else:
-        await reply_maybe_embed(
-          f"The channel {channel.mention} is not set up."
-        )
+        await reply_maybe_embed(f"The channel {channel.mention} is not set up.")
     else:
       await reply_maybe_embed(
-        f"The channel {channel.mention} "
-        f"is not in your guild."
+        f"The channel {channel.mention} " f"is not in your guild."
       )
     return
-  
+
   @Command
   async def print_message(self, ctx, message):
     print(message)

@@ -581,6 +581,8 @@ class Chat(Cog):
           cats["tagged"]
           and cats["tagged"][0]
           and cats["tagged"][0][0] in ("what", "who", "when", "where")
+          and len(cats["tagged"]) > 1
+          and cats["tagged"][1]
           and cats["tagged"][1][0] in ("is", "are")
           and cats["question"]
           and not cats["person"]

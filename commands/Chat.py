@@ -126,15 +126,9 @@ async def get_response(message, uid, model=None):
   response = None
   inpt = bot_message = message
   data = {}
-  for attempt in range(4):
+  for attempt in range(2):
     if response:
       return response
-    if attempt == 3:
-      break
-    if attempt > 0:
-      sleep_time = random.randrange(0, 5)
-      log.info("Attempt %d: sleeping %d seconds ...", attempt, sleep_time)
-      await asyncio.sleep(sleep_time)
     if model is None:
       model = random.choices(
         model_names := (
@@ -142,7 +136,7 @@ async def get_response(message, uid, model=None):
           "facebook/blenderbot-3B",
           "microsoft/DialoGPT-small",
         ),
-        weights := (55, 35, 5),
+        weights := (65, 25, 15),
       )[0]
     model_idx = model_names.index(model)
     weight = weights[model_idx]

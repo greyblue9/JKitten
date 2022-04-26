@@ -9,10 +9,10 @@ import aiohttp
 
 
 CHANNEL_NAME_WHITELIST = {
-#  "open-chat",
+  "open-chat",
   "global-chat",
   "🤖︱ai-chat-bot",
-#  "general",
+  "general",
   "alice-bot",
   "speichren",
 }
@@ -143,9 +143,11 @@ async def get_response(message, uid, model=None):
       model = random.choices(
         model_names := (
           "microsoft/DialoGPT-large",
+          "facebook/blenderbot-3B",
           "microsoft/DialoGPT-small",
         ),
-        weights:=(90, 10)
+        weights:=(55, 
+                  35, 5)
       )[0]
     model_idx = model_names.index(model)
     weight = weights[model_idx]
@@ -264,119 +266,76 @@ import functools
 
 strip_xtra = lambda s: re.subn("([a-z])'[a-z]*", "\\1", re.subn("(?<=[^a-zA-Z])'((?:[^'.]+|(?<=[a-z])'[a-z]*)+)(\\.?)'", "\\1", s)[0])[0].strip().lower()
 
-find = lambda coll, words: ([[(pfx:=(coll[coll.index(word)+1:])) and ["my" if p == "your" else "your" if p == "my" else "me" if p == "you" else "you" if p == "me" else p for p in pfx], [word], (suffix:=coll[0: coll.index(word)]) and [s for s in suffix if s not in ("who", "what", "when", "where", "why", "how")]] for word in words if word in coll] + [None])[0]
+def find(coll, r):
+  return [coll[idx+1:] + coll[idx:idx+1] for idx,w in enumerate(coll) 
+          if w in r][0] if any(w in coll for w in r) else [coll]
+
 
 def google2(bot_message, uid=0, req_url=None):
-  ans_marker = " ".join(
-    functools.reduce(
-      list.__add__,
-      find(
-        re.subn("[.?!\t\n ]*$", "", bot_message.lower())[0].split(),
-        (
-          "is",
-          "are",
-          "were",
-          "was",
-        ),
-      ),
-      [],
-    )
-  )
-  query = '"{}"'.format(ans_marker)
-  from bs4 import BeautifulSoup
-  from pathlib import Path
-  from urllib.request import Request, urlopen
-  from urllib.parse import quote_plus
 
-  f = urlopen(
-    Request(
-      "https://www.google.com/search?client=safari&rls=en&gbv=1&q={}&hl=en&num=10".format(
-        quote_plus(query)
-      )
-      if req_url is None
-      else req_url,
-      headers={
-        "Accept-Language": "en-us",
-        "Host": "www.google.com",
+    ans_marker = " ".join(find(
+                re.subn("[.?!\t\n ]*$", "", bot_message.lower())[0].split(),
+    ("is", "are," "were", "was")))
+
+    query = "\"{}\"".format(ans_marker)
+
+    from bs4 import BeautifulSoup
+    from pathlib import Path
+    from urllib.request import Request, urlopen
+    from urllib.parse import quote_plus
+
+    if not req_url:
+    	req_url = "https://www.google.com/search?client=safari&rls=en&gbv=1&q={}&hl=en&num=10".format(quote_plus(query))
+
+    headers = {
+    	"Accept-Language": "en-us",
+    	"Host": "www.google.com",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15",
-      },
+   		"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15"
+   	}
+
+    request = urlopen(
+    	Request(req_url,
+    	headers=headers)
     )
-  )
-  html = f.read()
-  f.close()
-  doc = BeautifulSoup(html)
-  doc2 = doc
-  [
-    (e.clear() or e.replace_with_children()) if e else None
-    for e in reversed(list(doc2.select("svg, script, style, link, meta, :empty")))
-  ]
-  [
-    (e.replace_with_children()) if e else None
-    for e in reversed(list(doc2.select("html, body, head, header, footer, form")))
-  ]
-  [
-    ((a := pg.parent.parent).clear() or a.replace_with_children())
-    if pg and pg.parent and pg.parent.parent
-    else None
-    for pg in doc2.select('a[href*="policies.google.com"]')
-  ]
-  [
-    ((p := ac.parent.parent.parent).clear() or p.replace_with_children())
-    if ac and ac.parent and ac.parent.parent and ac.parent.parent.parent
-    else None
-    for ac in doc2.select("accordion-entry-search-icon")
-  ]
-  descrips = [
-    "\n".join(x.text for x in e.select("* > * > * > *"))
-    for e in doc2.select(
-      "div:first-child:last-child > div > div > div > div > div:first-child:last-child"
-    )
-  ]
-  answers = [
-    e.text[strip_xtra(e.text).index(strip_xtra(ans_marker)) :]
-    .strip(". ")
-    .split(". ")[0]
-    .split("\xa0")[0]
-    for e in doc.select("* > * > *")
-    if strip_xtra(ans_marker) in strip_xtra(e.text) and "..." not in e.text[strip_xtra(e.text).index(strip_xtra(ans_marker)) :]
-    .strip(". ")
-    .split(". ")[0]
-    .split("\xa0")[0]
-    and not e.text[strip_xtra(e.text).index(strip_xtra(ans_marker)) :]
-    .strip(". ")
-    .split(". ")[0]
-    .split("\xa0")[0].strip().endswith(" is")
-  ]
-  answers = [a for a in answers if not a.strip().endswith("is")]
-  next_url = "https://www.google.com{}".format(
-      next(iter(doc.select('a[aria-label="Next page"]')))["href"]
-    )
-  for idx, answ in enumerate(answers):
-    print(answ)
-    answers = sorted(answ,key=lambda i:(1 if "Florida" not in i else 0, len(i)))[-1:]
-    answer = answ[0].capitalize()[0:1] + answ[0][1:] if answ else None
-    if answer:
-      answer = answer + "."
-    ans = (
-      answ
-      if answ
-      else "")
-    
-    ans = ans.split(" - ")[0]
-    ans = ans.split(" r/")[0]
-    ans = re.subn("([a-zA-Z0-9]+)[^a-zA-Z0-9]*(\\.|\n|\\? |:)", "\\1. ", ans, re.DOTALL)[0]
-    ans = re.subn("([^a-zA-Z])\\.([^ .])", "\\1. \\2", ans, re.DOTALL)[0]
-    prev = ans
-    while (ans := re.subn("\\. [A-Z][^.\n]+", ".\n", ans, re.DOTALL)[0]) != prev:
-      prev = ans
-    if ans.strip().endswith("is"):
-      continue
-    if not ans: continue
-    if ans[-1].isalnum():
-      ans += "."
-    return ans.splitlines()[0]
-  return google2(bot_message, uid, next_url) if req_url is None else random.choice(descrips)
+    html = request.read()
+    request.close()
+
+    doc = BeautifulSoup(html)
+    doc2 = doc
+    [
+        (e.clear() or e.replace_with_children())
+        if e else None
+        for e in reversed(list(doc2.select("svg, script, style, link, meta, :empty")))
+    ]
+    [
+        (e.replace_with_children())
+        if e else None
+        for e in reversed(list(doc2.select("html, body, head, header, footer, form")))
+    ]
+    [
+        ((a:=pg.parent.parent).clear() or a.replace_with_children())
+        if pg and pg.parent and pg.parent.parent else None
+        for pg in doc2.select("a[href*=\"policies.google.com\"]")
+    ]
+    [
+        ((p:=ac.parent.parent.parent).clear() or p.replace_with_children())
+        if ac and ac.parent and ac.parent.parent and ac.parent.parent.parent else None
+        for ac in doc2.select("accordion-entry-search-icon")
+    ]
+    descrips = [
+        "\n".join(
+            x.text
+            for x in e.select("* > * > * > *"))
+            for e in doc2.select("div:first-child:last-child > div > div > div > div > div:first-child:last-child")
+    ]
+    answers = [
+        e.text[strip_xtra(e.text).index(strip_xtra(ans_marker)):].strip(". ").split(". ")[0].split("\xa0")[0] for e in doc.select("*") if strip_xtra(ans_marker) in strip_xtra(e.text)
+    ]
+    answer = answers[-1] if answers else None
+    next_url = "https://www.google.com{}".format(next(iter(doc.select("a[aria-label=\"Next page\"]")))["href"])
+    return answer if answer else google2(bot_message, uid, next_url) if req_url is None else descrips
+
 
 async def alice_response(bot_message, uid):
   log.debug("alice_response(%r, %r)", bot_message, uid)

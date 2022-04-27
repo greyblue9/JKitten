@@ -126,7 +126,7 @@ async def get_response(message, uid, model=None):
   response = None
   inpt = bot_message = message
   data = {}
-  for attempt in range(2):
+  for attempt in range(1):
     if response:
       return response
     if model is None:
@@ -352,7 +352,7 @@ def google2(bot_message, uid=0, req_url=None):
     for e in doc.select("*")
     if strip_xtra(ans_marker) in strip_xtra(e.text)
   ]
-  printf(f"google2: {answers=!r}")
+  print(f"google2: {answers=!r}")
   
   next_url = None
   for elem in doc.select('a[aria-label="Next page"]'):

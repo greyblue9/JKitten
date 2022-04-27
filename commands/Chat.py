@@ -351,6 +351,7 @@ def google2(bot_message, uid=0, req_url=None):
       ) :
     ]
     .strip(". ")
+    .split(". ")[0]
     .split("\xa0")[0]
     for e in doc.select("*")
     if strip_xtra(ans_marker) in strip_xtra(e.text)

@@ -376,7 +376,7 @@ def google2(bot_message, uid=0, req_url=None):
       + (a[1].islower() * 60)
       + a.strip().endswith(".") * 70
       + (a[1].isupper() * -30)
-      + (75 < len(a) < 500) * 50,
+      + (75 < len(a) < 500) * 50
       + min((len(a) - 150) * 10, 100),
       a
     )

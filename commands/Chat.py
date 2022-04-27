@@ -344,7 +344,7 @@ def google2(bot_message, uid=0, req_url=None):
       "div:first-child:last-child > div > div > div > div > div:first-child:last-child"
     )
   ]
-  answers = [
+  answers = list({
     e.text[
       strip_xtra(e.text).index(
         strip_xtra(ans_marker)
@@ -355,7 +355,7 @@ def google2(bot_message, uid=0, req_url=None):
     .split("\xa0")[0]
     for e in doc.select("*")
     if strip_xtra(ans_marker) in strip_xtra(e.text)
-  ]
+  })
   for i, a in reversed(list(enumerate(answers))):
     if "Google Search" in a:
       print("popping answer", i, a)

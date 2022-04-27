@@ -361,7 +361,7 @@ def google2(bot_message, uid=0, req_url=None):
       print("popping answer", i, a)
       answers.pop(i)
   
-  a_sorted = [
+  a_sorted = sorted([
     (
         (
              a.startswith("The ")
@@ -382,7 +382,7 @@ def google2(bot_message, uid=0, req_url=None):
       a
     )
     for i, a in enumerate(answers)
-  ]
+  ])
   
   
   print(f"google2: a_sorted")

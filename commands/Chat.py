@@ -360,7 +360,7 @@ def google2(bot_message, uid=0, req_url=None):
       print(f"google2: next page is {next_url!r}")
   
   if answers:
-    print(f"google2: returning first answer: {answer=}")
+    print(f"google2: returning first answer: {answers[0]=}")
     return answers[0]
   elif next_url and not req_url:
     print(f"google2: trying next page")

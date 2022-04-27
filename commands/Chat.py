@@ -289,7 +289,7 @@ def google2(bot_message, uid=0, req_url=None):
   ans_marker = " ".join(
     find(
       re.subn("[.?!\t\n ]*$", "", bot_message.lower())[0].split(),
-      ("is", "are," "were", "was"),
+      ("is", "are", "was", "were", "will", "has", "had"),
     )
   )
 
@@ -525,10 +525,10 @@ class Chat(Cog):
         if (
           cats["tagged"]
           and cats["tagged"][0]
-          and cats["tagged"][0][0] in ("what", "who", "when", "where")
+          and cats["tagged"][0][0] in ("what", "who", "when", "where", "how", "why")
           and len(cats["tagged"]) > 1
           and cats["tagged"][1]
-          and cats["tagged"][1][0] in ("is", "are")
+          and cats["tagged"][1][0] in ("is", "are", "was", "were", "will", "has", "had")
           and cats["question"]
           and not cats["person"]
         ):

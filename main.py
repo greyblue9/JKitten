@@ -93,42 +93,6 @@ name_lookup = {
   "889338065020129310": "Mikko",
 }
 DEFAULT_UID = "856229099952144464"
-USE_JAVA = True
-
-orig_cwd = Path.cwd()
-if USE_JAVA:
-  from program_ab import *
-
-  alice_bot = None
-
-  async def get_chat(uid):
-    global alice_bot
-    if alice_bot is None:
-      alice_bot = Class.forName("org.alicebot.ab.Bot")(
-        "alice", orig_cwd.as_posix()
-      )
-    return Main.getOrCreateChat(alice_bot, True, uid)
-
-else:
-  sys.path.insert(0, (orig_cwd / "alice").as_posix())
-  import aiml.Kernel
-
-  k = aiml.Kernel.Kernel()
-  print(k)
-  if (orig_cwd / "brain.dmp").exists():
-    k.bootstrap(orig_cwd / "brain.dmp", [])
-  else:
-    k.bootstrap(None, list(map(Path.as_posix, orig_cwd.glob("**/*.aiml"))))
-
-  class Chat:
-    def __init__(self, uid):
-      self.uid = uid
-
-    def multisentenceRespond(self, bot_message):
-      return k.respond(bot_message, self.uid)
-
-  async def get_chat(uid):
-    return Chat(uid)
 
 
 import requests
@@ -147,7 +111,7 @@ else:
   pass
 import random
 
-
+orig_cwd = Path.cwd()
 TEXT_CHANNELS_FILE = orig_cwd / "text_channels.json"
 if not TEXT_CHANNELS_FILE.exists():
   TEXT_CHANNELS_FILE.write_text(json.dumps({}))
@@ -161,16 +125,16 @@ DISCORD_BOT_TOKEN = (
 
 
 PREFIX = "+" or "@Kitten"
-intents = Intents.default()
-intents.value |= disnake.Intents.messages.flag
-intents.value |= disnake.Intents.guilds.flag
+intents = Intents.all()
+intents.value &= (~Intents.members.flag)
+intents.value &= (~Intents.presences.flag)
 
 bot = AutoShardedBot(
   command_prefix=PREFIX,
-  sync_commands=True,
-  sync_commands_debug=True,
-  sync_commands_on_cog_unload=True,
-  sync_permissions=True,
+  sync_commands=False,
+  sync_commands_debug=False,
+  sync_commands_on_cog_unload=False,
+  sync_permissions=False,
   test_guilds=TEST_GUILDS,
   # **options:
   status=Status.idle,
@@ -308,11 +272,19 @@ def start_bot():
 
 
 loop = get_event_loop_policy().get_event_loop()
-loop.run_until_complete(get_chat(DEFAULT_UID))
 Thread(target=start_bot).start()
 import code
 
 cons = code.InteractiveConsole(locals())
+from subprocess import check_output
+histfile = Path(
+  check_output(
+    [
+      "sh", "-c",
+      r"find ${HOME} ${PWD} -maxdepth 3 -xdev -noleaf -name '.py*hist*' -printf '%-12s %.10T@ %p\n' | sort -k2n | sort -k2n | cut -c 25- | tail -n 1"
+    ], encoding="utf-8"
+  ).strip()
+)
 cons.push("import __main__")
 cons.push("from __main__ import *")
 cons.push("try: import pythonrc")
@@ -321,4 +293,9 @@ cons.push("")
 cons.push("import readline")
 cons.push("import rlcompleter")
 cons.push("readline.parse_and_bind('tab: complete')")
+if histfile.is_file():
+  print("Loading history file: %s", histfile)
+  cons.push(
+    f"readline.read_history_file({histfile.as_posix()!r})"
+  )
 cons.interact(exitmsg="Goodbye!")

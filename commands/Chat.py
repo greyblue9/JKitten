@@ -258,30 +258,7 @@ async def gpt_response(bot_message, uid=None):
 
 
 async def google(bot_message, uid=None):
-  if uid is None:
-    from __main__ import DEFAULT_UID as uid
-  log.debug("google(%r, %r) called", bot_message, uid)
-  chat = await get_chat(uid)
-  cats = categorize(bot_message.lower())
-  topic = "*"
-  if cats["entities"]:
-    topic = cats["entities"][0]
-  Sraix = Class.forName("org.alicebot.ab.Sraix")
-  response = Sraix.sraixPannous(bot_message, topic, chat)
-  if "SRAIXFAILED" in response:
-    log.debug("google(%r, %r) failed with %r", bot_message, uid, response)
-    return ""
-  for b in BLACKLIST:
-    if b.lower() in response.lower() or response.lower() in b:
-      log.debug(
-        "google(%r, %r) discarding response %r because it repeats a previous entry",
-        bot_message,
-        uid,
-        response,
-      )
-      return ""
-  log.info("query Google for %r returns %r", bot_message, response)
-  return response
+  return ""
 
 
 import functools
@@ -375,96 +352,27 @@ def google2(bot_message, uid=0, req_url=None):
     for e in doc.select("*")
     if strip_xtra(ans_marker) in strip_xtra(e.text)
   ]
-  answer = answers[-1] if answers else None
-  next_url = "https://www.google.com{}".format(
-    next(iter(doc.select('a[aria-label="Next page"]')))["href"]
-  )
-  return (
-    answer
-    if answer
-    else google2(bot_message, uid, next_url)
-    if req_url is None
-    else descrips
-  )
+  printf(f"google2: {answers=!r}")
+  
+  next_url = None
+  for elem in doc.select('a[aria-label="Next page"]'):
+      next_url = elem.attrs.get("href")
+      print(f"google2: next page is {next_url!r}")
+  
+  if answers:
+    print(f"google2: returning first answer: {answer=}")
+    return answers[0]
+  elif next_url and not req_url:
+    print(f"google2: trying next page")
+    if answer := google2(bot_message, uid, next_url):
+      print(f"google2: got answer from next page: {answer=}")
+      return answer
+  print(f"google2: fall back to google for {bot_message=}")
+  return google(bot_message)
 
 
 async def alice_response(bot_message, uid):
-  log.debug("alice_response(%r, %r)", bot_message, uid)
-  last_input = inputs.setdefault(uid, [""])[-1]
-  last_response = responses.setdefault(uid, [""])[-1]
-  if "what is your name" in last_response.lower():
-    name = bot_message.strip(".? !").split()[-1]
-    name_lookup[uid] = name
-    return random.choice(
-      [
-        f"It's great to meet you, {name}.",
-        f"Well! How do you do, {name}?",
-        f"Gosh, I've been waiting so long and now I'm finally speaking with *the* {name}!",
-      ]
-    )
-  import gc
-  import asyncio.unix_events
-
-  loop = [
-    o
-    for o in gc.get_objects()
-    if isinstance(o, asyncio.unix_events._UnixSelectorEventLoop) and o.is_running
-  ][0]
-  chat = await get_chat(uid)
-  cats = await loop.run_in_executor(None, categorize, bot_message.lower())
-  topic = "*"
-  if cats["entities"]:
-    log.debug("alice_response(%r, %r) setting topic to %r", bot_message, uid, topic)
-    topic = cats["entities"][0]
-    chat.predicates.put("topic", topic)
-  log.debug("alice_response(%r, %r): query %r", bot_message, uid, bot_message)
-  response = await loop.run_in_executor(None, chat.multisentenceRespond, bot_message)
-  log.debug("alice_response(%r, %r): result: %r", bot_message, uid, response)
-
-  for b in BLACKLIST:
-    if b.lower() in response.lower() or response.lower() in b:
-      log.debug(
-        "alice_response(%r, %r) discarding response %r due to blacklist",
-        bot_message,
-        uid,
-        response,
-      )
-      return ""
-  if "" in set(
-    filter(
-      None,
-      (
-        re.subn("[^a-z]+", "", s.lower(), re.IGNORECASE)[0]
-        for s in (last_input, last_response, bot_message)
-      ),
-    )
-  ):
-    log.debug(
-      "alice_response(%r, %r) discarding response %r because it repeats a previous entry",
-      bot_message,
-      uid,
-      response,
-    )
-    return ""
-
-  if "your name is dekriel" in response.lower():
-    name = name_lookup.get(uid)
-    if name:
-      response = f"Your name is {name}."
-    else:
-      response = "I don't know your name. What is your name?"
-
-  if "Hari" in response:
-    response = re.sub("\\bHari\\b", "Alice", response)
-
-  log.info("alice_response query for %r returns %r", bot_message, response)
-  response = (
-    response.replace("<br />", "\n")
-    .replace("<br >", "\n")
-    .replace("<br/>", "\n")
-    .replace("<br>", "\n")
-  )
-  return response
+  return ""
 
 
 class Chat(Cog):
@@ -493,6 +401,8 @@ class Chat(Cog):
   @event
   async def on_message(self, message):
     response = ""
+    if "Focused Technophiles" not in message.guild.name:
+      return
     if message.content.startswith("+"):
       await self.bot.process_commands(message)
       return
@@ -501,9 +411,7 @@ class Chat(Cog):
     in_whitelist = any(
       channel.name.lower() in f.lower() for f in CHANNEL_NAME_WHITELIST
     )
-    print(f"channel.name = {channel.name}")
     uid = str(message.author.id)
-
     if uid not in name_lookup:
       realname = message.author.name
       if m := re.search(
@@ -521,8 +429,7 @@ class Chat(Cog):
     bot_message = translate_emojis(bot_message)
     if "https://" in bot_message or "http://" in bot_message:
       bot_message = translate_urls(bot_message)
-
-    log.info(f"[{message.author.name}][{message.guild.name}]:" f" {bot_message}")
+    
     mention = f"<@!{self.bot.user.id}>"
     if self.bot.user == message.author:
       return
@@ -534,7 +441,7 @@ class Chat(Cog):
     )
     if not ok:
       return
-
+    log.info(f"[{message.author.name}][{message.guild.name}]:" f" {bot_message}")
     def respond(new_response):
       nonlocal response
       response = new_response

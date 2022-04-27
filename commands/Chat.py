@@ -345,14 +345,23 @@ def google2(bot_message, uid=0, req_url=None):
     )
   ]
   answers = [
-    e.text[strip_xtra(e.text).index(strip_xtra(ans_marker)) :]
+    e.text[
+      strip_xtra(e.text).index(
+        strip_xtra(ans_marker)
+      ) :
+    ]
     .strip(". ")
     .split(". ")[0]
     .split("\xa0")[0]
     for e in doc.select("*")
     if strip_xtra(ans_marker) in strip_xtra(e.text)
   ]
-  print(f"google2: {answers=!r}")
+  for i, a in reversed(list(enumerate(answers))):
+    if "Google Search" in a:
+      print("popping answer", i, a)
+      answers.pop(i)
+  print(f"google2: ")
+  pprint(answers)
   
   next_url = None
   for elem in doc.select('a[aria-label="Next page"]'):
@@ -360,8 +369,12 @@ def google2(bot_message, uid=0, req_url=None):
       print(f"google2: next page is {next_url!r}")
   
   if answers:
-    print(f"google2: returning first answer: {answers[0]=}")
-    return answers[0]
+    for answer in answers:
+      if "Google Search" in answer:
+        continue
+      
+      print(f"google2: returning first answer: {answer=}")
+      return answer
   elif next_url and not req_url:
     print(f"google2: trying next page")
     if answer := google2(bot_message, uid, next_url):

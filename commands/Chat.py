@@ -372,7 +372,7 @@ def google2(bot_message, uid=0, req_url=None):
           or a.startswith("Mrs. ") 
           or a.startswith("Miss ") 
           or a.startswith("Dr. ")
-        ) * 10 
+        ) * 20 
       + (a[0].isupper() * 100) 
       + (a[1].islower() * 60)
       + a.strip().endswith(".") * 70
@@ -387,7 +387,7 @@ def google2(bot_message, uid=0, req_url=None):
   
   print(f"google2: a_sorted")
   pprint(a_sorted)
-  answers = [a for score, a in reversed(a_sorted)]
+  answers = [a+"." for score, a in reversed(a_sorted)]
   
   print(f"google2: answers")
   pprint(answers)

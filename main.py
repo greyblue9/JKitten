@@ -224,7 +224,7 @@ Client.run = run
 from watchdog.events import FileSystemEventHandler
 from watchdog.observers import Observer
 from importlib.machinery import all_suffixes
-
+log.setLevel(logging.DEBUG)
 
 def path_as_dotted(path):
   p = Path(path).relative_to(Path.cwd())
@@ -235,8 +235,9 @@ def path_as_dotted(path):
     p_noext = p.parent / name_noext
 
     log.info("on_modified: p=%s, p_noext=%s", p, p_noext)
-    return ".".join(p_noext.parts)
-
+    ret = ".".join(p_noext.parts)
+    print("path_as_dotted({path!r}) -> {ret!r}")
+    return ret
 
 class EvtHandler(FileSystemEventHandler):
   def on_modified(self, evt):
@@ -245,6 +246,7 @@ class EvtHandler(FileSystemEventHandler):
     if not name:
       return
     log.info("on_modified: reloading %r", name)
+    global bot
     bot.reload_extension(name)
 
 

@@ -363,7 +363,17 @@ def google2(bot_message, uid=0, req_url=None):
   
   a_sorted = [
     (
-        (a[0].isupper() * 10) 
+        (
+             a.startswith("The ")
+          or a.startswith("An ") 
+          or a.startswith("An ") 
+          or a.startswith("Mr. ") 
+          or a.startswith("Ms. ") 
+          or a.startswith("Mrs. ") 
+          or a.startswith("Miss ") 
+          or a.startswith("Dr. ")
+        ) * 10 
+      + (a[0].isupper() * 10) 
       + (a[1].islower() * 6)
       + a.strip().endswith(".") * 7
       + (a[1].isupper() * -3)

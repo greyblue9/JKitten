@@ -360,9 +360,27 @@ def google2(bot_message, uid=0, req_url=None):
     if "Google Search" in a:
       print("popping answer", i, a)
       answers.pop(i)
-  print(f"google2: ")
-  pprint(answers)
   
+  a_sorted = [
+    (
+        (a[0].isupper() * 10) 
+      + (a[1].islower() * 6)
+      + a.strip().endswith(".") * 7
+      + (a[1].isupper() * -3)
+      + (75 < len(a) < 500) * 5,
+      
+      a
+    )
+    for i, a in enumerate(answers)
+  ]
+  
+  
+  print(f"google2: a_sorted")
+  pprint(a_sorted)
+  answers = [a for score, a in reversed(a_sorted)]
+  
+  print(f"google2: answers")
+  pprint(answers)
   next_url = None
   for elem in doc.select('a[aria-label="Next page"]'):
       next_url = elem.attrs.get("href")
@@ -370,9 +388,6 @@ def google2(bot_message, uid=0, req_url=None):
   
   if answers:
     for answer in answers:
-      if "Google Search" in answer:
-        continue
-      
       print(f"google2: returning first answer: {answer=}")
       return answer
   elif next_url and not req_url:

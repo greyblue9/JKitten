@@ -373,12 +373,12 @@ def google2(bot_message, uid=0, req_url=None):
           or a.startswith("Miss ") 
           or a.startswith("Dr. ")
         ) * 10 
-      + (a[0].isupper() * 10) 
-      + (a[1].islower() * 6)
-      + a.strip().endswith(".") * 7
-      + (a[1].isupper() * -3)
-      + (75 < len(a) < 500) * 5,
-      
+      + (a[0].isupper() * 100) 
+      + (a[1].islower() * 60)
+      + a.strip().endswith(".") * 70
+      + (a[1].isupper() * -30)
+      + (75 < len(a) < 500) * 50,
+      + min((len(a) - 150) * 10, 100),
       a
     )
     for i, a in enumerate(answers)

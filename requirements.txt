@@ -10,3 +10,4 @@ disnake
 requests
 nltk
 bs4
+safeeval

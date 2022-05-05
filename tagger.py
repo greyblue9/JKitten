@@ -135,50 +135,19 @@ def categorize(text: str):
       words = item.lower().split()
       for widx, word in enumerate(words):
         if widx == 0:
-          if word in ("what", "who", "when", "where", "how", "why"):
+          if word in ("who", "what", "when", "where", "why", "how"):
             question = True
           if word in ("how", "'s"):
             next_word = words[widx + 1 : widx + 2]
             if next_word:
               attributes.append(next_word[0])
-  
+
   if contains_seqs(text, ("what", "is")):
     question = True
     person = False
-  if contains_seqs(text, ("what", "was")):
-    question = True
-    person = False
-  if contains_seqs(text, ("what", "were")):
-    question = True
-    person = False
-  if contains_seqs(text, ("what", "will")):
-    question = True
-    person = False
-  if contains_seqs(text, ("what", "has")):
-    question = True
-    person = False
-  if contains_seqs(text, ("what", "had")):
-    question = True
-
   if contains_seqs(text, ("who", "is")):
     question = True
-    person = False
-  if contains_seqs(text, ("who", "was")):
-    question = True
-    person = False
-  if contains_seqs(text, ("who", "were")):
-    question = True
-    person = False
-  if contains_seqs(text, ("who", "will")):
-    question = True
-    person = False
-  if contains_seqs(text, ("who", "has")):
-    question = True
-    person = False
-  if contains_seqs(text, ("who", "had")):
-    question = True
-    person = False
-
+    person = True
   if not attributes:
     attributes.extend(
       [

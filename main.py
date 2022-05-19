@@ -92,43 +92,10 @@ name_lookup = {
   "955035045716979763": "Alice",
   "889338065020129310": "Mikko",
 }
-DEFAULT_UID = "856229099952144464"
-USE_JAVA = True
+DEFAULT_UID = "_global"
+USE_JAVA = False
 
 orig_cwd = Path.cwd()
-if USE_JAVA:
-  from program_ab import *
-
-  alice_bot = None
-
-  async def get_chat(uid):
-    global alice_bot
-    if alice_bot is None:
-      alice_bot = Class.forName("org.alicebot.ab.Bot")(
-        "alice", orig_cwd.as_posix()
-      )
-    return Main.getOrCreateChat(alice_bot, True, uid)
-
-else:
-  sys.path.insert(0, (orig_cwd / "alice").as_posix())
-  import aiml.Kernel
-
-  k = aiml.Kernel.Kernel()
-  print(k)
-  if (orig_cwd / "brain.dmp").exists():
-    k.bootstrap(orig_cwd / "brain.dmp", [])
-  else:
-    k.bootstrap(None, list(map(Path.as_posix, orig_cwd.glob("**/*.aiml"))))
-
-  class Chat:
-    def __init__(self, uid):
-      self.uid = uid
-
-    def multisentenceRespond(self, bot_message):
-      return k.respond(bot_message, self.uid)
-
-  async def get_chat(uid):
-    return Chat(uid)
 
 
 import requests
@@ -308,7 +275,7 @@ def start_bot():
 
 
 loop = get_event_loop_policy().get_event_loop()
-loop.run_until_complete(get_chat(DEFAULT_UID))
+# loop.run_until_complete(get_chat(DEFAULT_UID))
 Thread(target=start_bot).start()
 import code
 

@@ -57,18 +57,133 @@ BLACKLIST = {
 
 tagger = None
 
+import pprint
+from pathlib import Path
+import sys
+
+
+last_input = last_response = ""
+
+
+def get_chat(uid=DEFAULT_UID):
+  return PyAimlChat(uid)
+import __main__
+__main__.get_chat = get_chat
+
+
+class PyAimlChat:
+  def __init__(self, uid=DEFAULT_UID):
+    self.uid = uid
+  def multisentenceRespond(self, query):
+    resp = alice_response_inner(query, self.uid)
+    return resp
+
+k = None
+@lru_cache
+def get_kernel():
+  global k
+  if not k:
+    sys.path.insert(0, (Path.cwd() / "alice").as_posix())
+    import aiml.AimlParser
+    try:
+      k = aiml.Kernel.Kernel()
+    except (TypeError, ImportError):
+      k = aiml.Kernel()
+    log.info("Created python aiml Kernel: %s,", k)
+    if Path("brain.dmp").exists():
+      k.bootstrap("brain.dmp", [])
+      log.info("Loaded brain into Kernel: %s,", k)
+    else:
+      k.bootstrap(None, list(map(Path.as_posix, Path("./").glob("**/*.aiml"))))
+      k.saveBrain("brain.dmp")
+  return k
+
+def alice_response_inner(q, uid=DEFAULT_UID):
+  k = get_kernel() 
+  log.info("alice_response_inner: q=%s", q)
+  q2 = norm_sent(k, q)
+  log.info("alice_response_inner: q2=%s", q2)
+  r = k.respond(q2)
+  log.info("alice_response_inner: r=%s", r)
+  r2 = fix_pred_response(r) if " ." in r else r
+  log.info("alice_response_inner: r2=%s", r2)
+  return r2
+
+
+def fix_pred_response(s):
+  subj, key, *rest = s.partition(" .")[0].lower().split()
+  ans = (
+    k.getPredicate(key, subj)
+    if subj not in ("my", "me", "i", "we", "myself")
+    else k.getBotPredicate(key)
+  )
+  resp = (
+    "".join([s.partition(" .")[0], " ", ans, "."])
+    if ans
+    else "".join(["What ", " ".join(rest), " ", subj, " ", key, "?"])
+  )
+  return resp
+
+
+def norm_sent(k, s):
+  import re
+
+  exec(
+    'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
+    locals(),
+  )
+  norm = re.sub(
+    r" ([^a-zA-Z0-9_])\1* *",
+    "\\1",
+    " ".join(
+      filter(
+        None,
+        map(
+          str.strip,
+          re.split(
+            r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
+            s,
+          ),
+        ),
+      )
+    ),
+  )
+  return norm
+
+
+
 
 def pos_tag(sentence):
   global tagger
   if tagger is None:
-    nltk.download("treebank")
-    from nltk.corpus import treebank
-    from nltk.tag import PerceptronTagger
+    log.info("pos_tag: creating tagger")
 
+    try:
+      from nltk.corpus import treebank
+    except Exception:
+      log.info("pos_tag: nltk.download")
+      nltk.download("treebank")
+      from nltk.corpus import treebank
+    from nltk.tag import PerceptronTagger
+    log.info("pos_tag: PerceptronTagger()")
     tagger = PerceptronTagger()
-    tagger.train(treebank.tagged_sents()[:300])
+    log.info("pos_tag: Train tagger")
+    try:
+      tagger.train(
+       treebank.tagged_sents()[:500])
+    except LookupError:
+      nltk.download("treebank")
+      tagger.train(
+       treebank.tagged_sents()[:500])
+    log.info("pos_tag: Got tagger: %s", tagger)
   tagged = tagger.tag(nltk.tokenize.word_tokenize(sentence))
   return tagged
+
+
+async def alice_response(bot_message, uid=DEFAULT_UID):
+  global chat
+  chat = get_chat(uid)
+  return chat.multisentenceRespond(bot_message)
 
 
 async def wolfram_alpha(inpt, uid=None):
@@ -136,7 +251,7 @@ async def get_response(message, uid, model=None):
           "facebook/blenderbot-3B",
           "microsoft/DialoGPT-small",
         ),
-        weights := (65, 25, 15),
+        weights := (75, 15, 15),
       )[0]
     model_idx = model_names.index(model)
     weight = weights[model_idx]
@@ -170,7 +285,7 @@ async def get_response(message, uid, model=None):
         if not data:
           data = {"error": "No reply", "estimated_time": 5}
         if data.get("error"):
-          await asyncio.sleep(data.get("estimated_time", 20))
+          await asyncio.sleep(data.get("estimated_time", 7))
           async with ClientSession() as session:
             async with session.post(
               API_URL, headers=headers, json=payload
@@ -202,29 +317,16 @@ async def get_response(message, uid, model=None):
         if not response:
           continue
 
-        if (
-          re.subn("[^a-z]+", "", response.lower(), re.IGNORECASE)[0]
-          == re.subn("[^a-z]+", "", inpt.lower(), re.IGNORECASE)[0]
-        ):
-          log.debug(
-            "get_response(%r, %r) discarding response %r because it repeats a previous entry",
-            inpt,
-            uid,
-            response,
-          )
-          response = ""
-          model = None
-          continue
-        return response
-    return "wtf"
-
+        if response: return response
+      if response: return response
+    if response: return response
+  return response
 
 async def gpt_response(bot_message, uid=None):
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   log.debug("gpt_response(%r, %r)", bot_message, uid)
-  last_input = inputs.setdefault(uid, [""])[-1]
-  last_response = responses.setdefault(uid, [""])[-1]
+
   response = await get_response(bot_message, uid)
   if not response:
     return ""
@@ -237,22 +339,6 @@ async def gpt_response(bot_message, uid=None):
         response,
       )
       return ""
-  if "" in set(
-    filter(
-      None,
-      (
-        re.subn("[^a-z]+", "", s.lower(), re.IGNORECASE)[0]
-        for s in (last_input or "", last_response or "", bot_message or "")
-      ),
-    )
-  ):
-    log.debug(
-      "gpt_response(%r, %r) discarding response %r because it repeats a previous entry",
-      bot_message,
-      uid,
-      response,
-    )
-    return ""
   log.info("query GPT for %r returns %r", bot_message, response)
   return response
 
@@ -260,30 +346,9 @@ async def gpt_response(bot_message, uid=None):
 async def google(bot_message, uid=None):
   if uid is None:
     from __main__ import DEFAULT_UID as uid
-  log.debug("google(%r, %r) called", bot_message, uid)
-  chat = await get_chat(uid)
-  cats = categorize(bot_message.lower())
-  topic = "*"
-  if cats["entities"]:
-    topic = cats["entities"][0]
-  Sraix = Class.forName("org.alicebot.ab.Sraix")
-  response = Sraix.sraixPannous(bot_message, topic, chat)
-  if "SRAIXFAILED" in response:
-    log.debug("google(%r, %r) failed with %r", bot_message, uid, response)
-    return ""
-  for b in BLACKLIST:
-    if b.lower() in response.lower() or response.lower() in b:
-      log.debug(
-        "google(%r, %r) discarding response %r because it repeats a previous entry",
-        bot_message,
-        uid,
-        response,
-      )
-      return ""
-  log.info("query Google for %r returns %r", bot_message, response)
-  return response
-
-
+  return await alice_response(bot_message, uid)
+  
+from pprint import pprint
 import functools
 
 strip_xtra = (
@@ -308,7 +373,8 @@ def find(coll, r):
 
 
 def google2(bot_message, uid=0, req_url=None):
-
+  return alice_response_inner(bot_message, uid)
+  
   ans_marker = " ".join(
     find(
       re.subn("[.?!\t\n ]*$", "", bot_message.lower())[0].split(),
@@ -388,83 +454,7 @@ def google2(bot_message, uid=0, req_url=None):
   )
 
 
-async def alice_response(bot_message, uid):
-  log.debug("alice_response(%r, %r)", bot_message, uid)
-  last_input = inputs.setdefault(uid, [""])[-1]
-  last_response = responses.setdefault(uid, [""])[-1]
-  if "what is your name" in last_response.lower():
-    name = bot_message.strip(".? !").split()[-1]
-    name_lookup[uid] = name
-    return random.choice(
-      [
-        f"It's great to meet you, {name}.",
-        f"Well! How do you do, {name}?",
-        f"Gosh, I've been waiting so long and now I'm finally speaking with *the* {name}!",
-      ]
-    )
-  import gc
-  import asyncio.unix_events
 
-  loop = [
-    o
-    for o in gc.get_objects()
-    if isinstance(o, asyncio.unix_events._UnixSelectorEventLoop) and o.is_running
-  ][0]
-  chat = await get_chat(uid)
-  cats = await loop.run_in_executor(None, categorize, bot_message.lower())
-  topic = "*"
-  if cats["entities"]:
-    log.debug("alice_response(%r, %r) setting topic to %r", bot_message, uid, topic)
-    topic = cats["entities"][0]
-    chat.predicates.put("topic", topic)
-  log.debug("alice_response(%r, %r): query %r", bot_message, uid, bot_message)
-  response = await loop.run_in_executor(None, chat.multisentenceRespond, bot_message)
-  log.debug("alice_response(%r, %r): result: %r", bot_message, uid, response)
-
-  for b in BLACKLIST:
-    if b.lower() in response.lower() or response.lower() in b:
-      log.debug(
-        "alice_response(%r, %r) discarding response %r due to blacklist",
-        bot_message,
-        uid,
-        response,
-      )
-      return ""
-  if "" in set(
-    filter(
-      None,
-      (
-        re.subn("[^a-z]+", "", s.lower(), re.IGNORECASE)[0]
-        for s in (last_input, last_response, bot_message)
-      ),
-    )
-  ):
-    log.debug(
-      "alice_response(%r, %r) discarding response %r because it repeats a previous entry",
-      bot_message,
-      uid,
-      response,
-    )
-    return ""
-
-  if "your name is dekriel" in response.lower():
-    name = name_lookup.get(uid)
-    if name:
-      response = f"Your name is {name}."
-    else:
-      response = "I don't know your name. What is your name?"
-
-  if "Hari" in response:
-    response = re.sub("\\bHari\\b", "Alice", response)
-
-  log.info("alice_response query for %r returns %r", bot_message, response)
-  response = (
-    response.replace("<br />", "\n")
-    .replace("<br >", "\n")
-    .replace("<br/>", "\n")
-    .replace("<br>", "\n")
-  )
-  return response
 
 
 class Chat(Cog):
@@ -492,6 +482,8 @@ class Chat(Cog):
 
   @event
   async def on_message(self, message):
+    global last_response
+    global last_input
     response = ""
     if message.content.startswith("+"):
       await self.bot.process_commands(message)
@@ -543,10 +535,14 @@ class Chat(Cog):
       responses.setdefault(uid, []).append(response)
       if message.author.bot:
         response = f"<@{message.author.id}> {response}"
+      last_input = inputs.setdefault(uid, [""])[-1]
+      last_response = responses.setdefault(uid, [""])[-1]
       return message.reply(response)
-
+    
     try:
       with message.channel.typing():
+        bot_message = norm_sent(get_kernel(), bot_message)
+        log.info("norm_sent -> %s", bot_message)
         cats: dict = categorize(bot_message.lower())
         # {
         #   "tagged": tagged, "items": items,
@@ -577,7 +573,19 @@ class Chat(Cog):
         print(f"{has_personal=}")
         print(f"{has_proper_noun=}")
         print(f"{has_poss_pronoun=}")
-        if (
+        if (("what is " in str((last_response or "").lower()).lower() 
+            or "are you " in str((last_response or "").lower()).lower() 
+            or "do you " in str((last_response or "").lower()).lower() 
+            or "where do" in str((last_response or "").lower()).lower() 
+            or "where are " in str((last_response or "").lower()).lower() 
+            or "when were " in str((last_response or "").lower()).lower())
+            or (not (has_proper_noun or has_poss_pronoun) and len(bot_message.split()) < 3 and bot_message[0].isupper())
+        ):
+          if new_response := await alice_response(bot_message, uid):
+            return await respond(new_response)
+          
+          
+        if False and  (
           cats["tagged"]
           and cats["tagged"][0]
           and cats["tagged"][0][0] in ("what", "who", "when", "where")

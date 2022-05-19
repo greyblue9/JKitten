@@ -52,6 +52,12 @@ BLACKLIST = {
   "good song",
   "search the web",
   "<oob>",
+  "I like a good discussion.",
+  "I'm very enthusiastic.",
+  "I'm sorry, I didn't mean to hurt your feelings.",
+  "\"\"",
+  "is .",
+  "I'm sorry, I'm not a native speaker.",
 }
 
 
@@ -76,6 +82,13 @@ class PyAimlChat:
     self.uid = uid
   def multisentenceRespond(self, query):
     resp = alice_response_inner(query, self.uid)
+    if any(
+      w.lower() in resp.lower() or resp.lower() in w.lower()
+      for w in BLACKLIST
+    ):
+      log.info("Not using due to blacklist: %s", resp)
+      resp = ""
+      
     return resp
 
 k = None
@@ -174,7 +187,7 @@ def pos_tag(sentence):
     except LookupError:
       nltk.download("treebank")
       tagger.train(
-       treebank.tagged_sents()[:500])
+       treebank.tagged_sents()[:200])
     log.info("pos_tag: Got tagger: %s", tagger)
   tagged = tagger.tag(nltk.tokenize.word_tokenize(sentence))
   return tagged
@@ -241,17 +254,21 @@ async def get_response(message, uid, model=None):
   response = None
   inpt = bot_message = message
   data = {}
-  for attempt in range(2):
+  for attempt in range(4):
     if response:
       return response
     if model is None:
       model = random.choices(
         model_names := (
           "microsoft/DialoGPT-large",
+          "facebook/blenderbot-400M-distill",
+          "deepparag/Aeona",
+          "facebook/blenderbot-90M",
           "facebook/blenderbot-3B",
+          "facebook/blenderbot_small-90M",
           "microsoft/DialoGPT-small",
         ),
-        weights := (75, 15, 15),
+        weights := (75, 15, 5,6,9,15,17),
       )[0]
     model_idx = model_names.index(model)
     weight = weights[model_idx]
@@ -266,8 +283,8 @@ async def get_response(message, uid, model=None):
     headers = {"Authorization": f"Bearer {token}"}
     API_URL = f"https://api-inference.huggingface.co/models/{model}"
     payload = {
-      "generated_responses": [],
-      "past_user_inputs": inputs.get(uid),
+      "generated_responses": [last_response],
+      "past_user_inputs": [],
       "text": message,
     }
     async with ClientSession() as session:
@@ -285,7 +302,7 @@ async def get_response(message, uid, model=None):
         if not data:
           data = {"error": "No reply", "estimated_time": 5}
         if data.get("error"):
-          await asyncio.sleep(data.get("estimated_time", 7))
+          await asyncio.sleep(data.get("estimated_time", 30))
           async with ClientSession() as session:
             async with session.post(
               API_URL, headers=headers, json=payload
@@ -316,10 +333,16 @@ async def get_response(message, uid, model=None):
             break
         if not response:
           continue
-
-        if response: return response
-      if response: return response
-    if response: return response
+        if any(
+          w.lower() in response.lower()
+          or response.lower() in w.lower()
+          for w in BLACKLIST
+        ):
+          log.info("Not using due to blacklist: %s", response)
+          response = ""
+          continue
+        break
+  log.info("get_response(%s) returning %s", bot_message, response)
   return response
 
 async def gpt_response(bot_message, uid=None):
@@ -344,6 +367,7 @@ async def gpt_response(bot_message, uid=None):
 
 
 async def google(bot_message, uid=None):
+  return google2(bot_message, uid)
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   return await alice_response(bot_message, uid)
@@ -373,8 +397,6 @@ def find(coll, r):
 
 
 def google2(bot_message, uid=0, req_url=None):
-  return alice_response_inner(bot_message, uid)
-  
   ans_marker = " ".join(
     find(
       re.subn("[.?!\t\n ]*$", "", bot_message.lower())[0].split(),
@@ -454,9 +476,6 @@ def google2(bot_message, uid=0, req_url=None):
   )
 
 
-
-
-
 class Chat(Cog):
   bot: CommonBotBase
   event = Cog.listener()
@@ -509,7 +528,9 @@ class Chat(Cog):
     bot_message = " ".join(
       (replace_mention(word, name_lookup) for word in message.content.split())
     )
-
+    if not message.author.bot and bot_message.strip().startswith("perkel"):
+      await message.reply((bot_message + " ") + (bot_message + " "))
+      return
     bot_message = translate_emojis(bot_message)
     if "https://" in bot_message or "http://" in bot_message:
       bot_message = translate_urls(bot_message)
@@ -750,3 +771,6 @@ class Chat(Cog):
         return await respond(response)
     finally:
       await self.bot.process_commands(message)
+
+get_kernel()
+pos_tag("hello world")

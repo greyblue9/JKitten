@@ -568,11 +568,11 @@ class Chat(Cog):
       last_input = inputs.setdefault(uid, [""])[-1]
       last_response = responses.setdefault(uid, [""])[-1]
       return message.reply(response)
-    
+     
     try:
       with message.channel.typing():
         bot_message = norm_sent(get_kernel(), bot_message)
-        if any(bot_message.lower().strip().startswith(w) for w in (
+        if (last_response.strip().endswith("?") or  any(bot_message.lower().strip().startswith(w) for w in (
           "who is your",
           "who are your",
           "who was your",
@@ -581,7 +581,7 @@ class Chat(Cog):
           "what was your",
           "when is your",
           "what are your",
-        )):
+        ))):
           if new_response := await alice_response(bot_message, uid):
             return await respond(new_response)
         log.info("norm_sent -> %s", bot_message)
@@ -615,19 +615,9 @@ class Chat(Cog):
         print(f"{has_personal=}")
         print(f"{has_proper_noun=}")
         print(f"{has_poss_pronoun=}")
-        if (("what is " in str((last_response or "").lower()).lower() 
-            or "are you " in str((last_response or "").lower()).lower() 
-            or "do you " in str((last_response or "").lower()).lower() 
-            or "where do" in str((last_response or "").lower()).lower() 
-            or "where are " in str((last_response or "").lower()).lower() 
-            or "when were " in str((last_response or "").lower()).lower())
-            or (not (has_proper_noun or has_poss_pronoun) and len(bot_message.split()) < 3 and bot_message[0].isupper())
-        ):
-          if new_response := await alice_response(bot_message, uid):
-            return await respond(new_response)
           
           
-        if False and  (
+        if (
           cats["tagged"]
           and cats["tagged"][0]
           and cats["tagged"][0][0] in ("what", "who", "when", "where")

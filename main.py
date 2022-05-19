@@ -34,7 +34,7 @@ TEST_GUILDS = [
   476190141161930753,  # Bot Test Python
 ]
 logging.root.setLevel(logging.DEBUG)
-logging.root.addHandler(logging.StreamHandler())
+# logging.root.addHandler(logging.StreamHandler())
 log = logging.getLogger(__name__)
 for log_name in (
   "disnake.__init__",
@@ -132,7 +132,7 @@ intents = Intents.default()
 intents.value |= disnake.Intents.messages.flag
 intents.value |= disnake.Intents.guilds.flag
 
-bot = AutoShardedBot(
+bot = Bot(
   command_prefix=PREFIX,
   sync_commands=True,
   sync_commands_debug=True,
@@ -242,13 +242,23 @@ def path_as_dotted(path):
 
 
 class EvtHandler(FileSystemEventHandler):
-  def on_modified(self, evt):
-    log.info("on_modified(self=%s, evt=%s)", self, evt)
-    name = path_as_dotted(evt.src_path)
+  def on_any_event(self, evt):
+    # log.info("on_modified(self=%s, evt=%s)", self, evt)
+    name = getattr(evt, "name", getattr(evt, "dest_path", getattr(evt, "src_path", "")))
+    
     if not name:
       return
-    log.info("on_modified: reloading %r", name)
-    bot.reload_extension(name)
+    
+    stem = Path(name).name
+    stems = stem.rsplit(".", 2)
+    if len(stems) > 1:
+      stem = stems[-2]
+    print("stem=", stem)
+    dotted = f"commands.{stem}"
+    if not (Path("commands") / f"{stem}.py").exists():
+      return
+    log.info("on_modified: reloading %r", dotted)
+    bot.reload_extension(dotted)
 
 
 def auto_reload_start(bot):

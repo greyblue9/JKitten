@@ -3,7 +3,6 @@ from disnake.ext.commands.interaction_bot_base import CommonBotBase
 from disnake.ext.commands import Cog
 from disnake.ext.commands import Command
 from pprint import pprint
-from tagger import *
 import nltk
 import aiohttp
 from safeeval import SafeEval
@@ -66,13 +65,9 @@ BLACKLIST = {
   "who.",
 }
 
-
-tagger = None
-
 import pprint
 from pathlib import Path
 import sys
-
 
 last_input = last_response = ""
 
@@ -95,32 +90,11 @@ class PyAimlChat:
       log.info("Not using due to blacklist: %s", resp)
       resp = ""
       
-    return resp
+    return resp.replace('is I.', 'is Alice').replace('I is', 'Alice is').replace('led I.', 'led Alice.')
 
-k = None
-@lru_cache
-def get_kernel():
-  global k
-  if not k:
-    sys.path.insert(0, (Path.cwd() / "alice").as_posix())
-    import aiml.AimlParser
-    try:
-      k = aiml.Kernel.Kernel()
-    except (TypeError, ImportError):
-      k = aiml.Kernel()
-    log.info("Created python aiml Kernel: %s,", k)
-    if Path("brain.dmp").exists():
-      k.bootstrap("brain.dmp", [])
-      log.info("Loaded brain into Kernel: %s,", k)
-    else:
-      k.bootstrap(None, list(map(Path.as_posix, Path("./").glob("**/*.aiml"))))
-    for ln in (Path.cwd() / "bots"/ "alice"/"config" / "predicates.txt").read_text().splitlines():
-      name, val = ln.split(":", 1)
-      k.setBotPredicate(name, val)
-  k.saveBrain("brain.dmp")
-  return k
 
 def alice_response_inner(q, uid=DEFAULT_UID):
+  from __main__ import get_kernel
   k = get_kernel() 
   log.info("alice_response_inner: q=%s", q)
   q2 = norm_sent(k, q)
@@ -174,32 +148,6 @@ def norm_sent(k, s):
 
 
 
-
-def pos_tag(sentence):
-  global tagger
-  if tagger is None:
-    log.info("pos_tag: creating tagger")
-
-    try:
-      from nltk.corpus import treebank
-    except Exception:
-      log.info("pos_tag: nltk.download")
-      nltk.download("treebank")
-      from nltk.corpus import treebank
-    from nltk.tag import PerceptronTagger
-    log.info("pos_tag: PerceptronTagger()")
-    tagger = PerceptronTagger()
-    log.info("pos_tag: Train tagger")
-    try:
-      tagger.train(
-       treebank.tagged_sents()[:500])
-    except LookupError:
-      nltk.download("treebank")
-      tagger.train(
-       treebank.tagged_sents()[:200])
-    log.info("pos_tag: Got tagger: %s", tagger)
-  tagged = tagger.tag(nltk.tokenize.word_tokenize(sentence))
-  return tagged
 
 
 async def alice_response(bot_message, uid=DEFAULT_UID):
@@ -258,15 +206,25 @@ async def wolfram_alpha(inpt, uid=None):
   log.info("wolfram_alpha(%r, %r) returning empty", inpt, uid, response)
   return ""
 
-
+last_model = None
 async def get_response(message, uid, model=None):
+  
+  model = None
+  print("*** in ", message, uid, model, responses.setdefault(uid,[""]))
+  global last_model
   response = None
   inpt = bot_message = message
   data = {}
   for attempt in range(4):
     if response:
       return response
-    if model is None:
+    print("?? in ", last_model)
+    if last_model and (not last_input.lower().startswith("what") or ("they" in last_input.lower() or "them "in last_input.lower() or " it " in last_input.lower() or " he  " in last_input.lower() or " she  "in last_input.lower())):
+        model = last_model
+        log.info("reusing model %s", last_model)
+        print("reuse model", last_model)
+        last_model = None
+    if not model:
       model = random.choices(
         model_names := (
           "microsoft/DialoGPT-large",
@@ -277,23 +235,23 @@ async def get_response(message, uid, model=None):
           "facebook/blenderbot_small-90M",
           "microsoft/DialoGPT-small",
         ),
-        weights := (75, 15, 5,6,9,15,17),
+        weights := (125, 15, 5,6,9,15,17),
       )[0]
-    model_idx = model_names.index(model)
-    weight = weights[model_idx]
-    log.info(
+      model_idx = model_names.index(model)
+      weight = weights[model_idx]
+      log.info(
       "\nget_response(%r, %r): selected model\n\n" "    %r   (weight: %s)\n\n",
       message,
       uid,
       model,
       weight,
-    )
+      )
     token = "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"
     headers = {"Authorization": f"Bearer {token}"}
     API_URL = f"https://api-inference.huggingface.co/models/{model}"
     payload = {
-      "generated_responses": [],
-      "past_user_inputs": [],
+      "generated_responses": responses.setdefault(uid,[])[:-2],
+      "past_user_inputs": inputs.setdefault(uid,[])[:-2],
       "text": message,
     }
     async with ClientSession() as session:
@@ -352,6 +310,7 @@ async def get_response(message, uid, model=None):
           continue
         break
   log.info("get_response(%s) returning %s", bot_message, response)
+  if model: last_model = model
   return response
 
 async def gpt_response(bot_message, uid=None):
@@ -379,20 +338,55 @@ async def google(bot_message, uid=None):
   return google2(bot_message, uid)
   if uid is None:
     from __main__ import DEFAULT_UID as uid
-  return await alice_response(bot_message, uid)
+  return google2(bot_message, uid)
   
 from pprint import pprint
 import functools
 
-strip_xtra = (
-  lambda s: re.subn(
-    "([a-z])'[a-z]*",
-    "\\1",
-    re.subn("(?<=[^a-zA-Z])'((?:[^'.]+|(?<=[a-z])'[a-z]*)+)(\\.?)'", "\\1", s)[0],
+def strip_xtra(s):
+  import codecs, re
+  print("strip_xtra(%r)" % (s,))
+  
+  escaped = codecs.unicode_escape_encode(s)[0]
+  print("strip_xtra(%r): escaped=%r" % (s, escaped))
+  
+  s0 = codecs.unicode_escape_decode(
+    sorted(
+      list(
+        filter(
+          lambda i: (
+            i.strip() 
+            and not re.compile(
+              rb"^[A-Z][a-z]{2} \d+(,|$)", re.DOTALL
+            ).search(i)
+            and re.compile(
+              rb"([A-Z]*[a-z]+|[A-Z]+|[a-z]+|[A-Z]+[a-z]*) ",
+              re.DOTALL
+            ).search(i)
+          ),
+          re.compile(
+            rb"[\t ][\t ]+|\\n|\\xb7|\\xa0", re.DOTALL
+          ).split(escaped)
+        )
+      ),
+      key=len
+    )[-1]
   )[0]
-  .strip()
-  .lower()
-)
+  print("strip_xtra(%r): s0=%r" % (s, s0))
+  
+  s1 = re.compile(
+    "(?<=[^a-zA-Z])'((?:[^'.]|(?<=[a-z]))'[a-z]+)(\\.?)'",
+    re.DOTALL
+  ).sub("\\1", s0).strip()
+  print("strip_xtra(%r): s1=%r" % (s, s1))
+  
+  s2 = re.compile(
+    "([a-z])'[a-z]*", re.DOTALL
+  ).sub("\\1", s1).strip()
+  print("strip_xtra(%r): s2=%r" % (s, s2))
+  
+  return s2
+
 
 
 def find(coll, r):
@@ -464,24 +458,38 @@ def google2(bot_message, uid=0, req_url=None):
       "div:first-child:last-child > div > div > div > div > div:first-child:last-child"
     )
   ]
+  for idx, d in reversed(list(enumerate(descrips))):
+    if " is " not in d.strip() and " are " not in d.strip() and " were " not in d.strip() and " was " not in d.strip() and " will " not in d.strip() and " has " not in d.strip() and " have " not in d.strip() and " can " not in d.strip():
+      descrips.pop(idx)
+  
+  descrips = [strip_xtra(d) for d in descrips]
+  print("descrips=", descrips)
+  
   answers = [
-    e.text[strip_xtra(e.text).index(strip_xtra(ans_marker)) :]
+    e[e.lower().index(strip_xtra(ans_marker).lower()) :]
     .strip(". ")
     .split(". ")[0]
     .split("\xa0")[0]
-    for e in doc.select("*")
-    if strip_xtra(ans_marker) in strip_xtra(e.text)
+    for e in descrips
+    if strip_xtra(ans_marker).lower() in e.lower()
   ]
+  print("answers=", answers)
+  
   answer = answers[-1] if answers else None
-  next_url = "https://www.google.com{}".format(
-    next(iter(doc.select('a[aria-label="Next page"]')))["href"]
-  )
+  try:
+    next_url = "https://www.google.com{}".format(
+      next(iter(doc.select('a[aria-label="Next page"]')))["href"]
+    )
+  except StopIteration:
+    next_url = None
+  
   return (
-    answer
+    (answer[0].upper() + answer[1:]).strip(" \n\t.")+"."
     if answer
+    else (descrips[0][0].upper() + descrips[0][1:]).strip(" \n\t.")+"." if descrips
     else google2(bot_message, uid, next_url)
-    if req_url is None
-    else descrips
+    if req_url is None and next_url
+    else ""
   )
 
 
@@ -563,16 +571,24 @@ class Chat(Cog):
       log.info("Responding to %r with %r", bot_message, response)
       inputs.setdefault(uid, []).append(bot_message)
       responses.setdefault(uid, []).append(response)
+      global last_response
+      global last_input
       if message.author.bot:
         response = f"<@{message.author.id}> {response}"
-      last_input = inputs.setdefault(uid, [""])[-1]
-      last_response = responses.setdefault(uid, [""])[-1]
+      last_input = bot_message
+      last_response = response
       return message.reply(response)
-     
+    if message.author.id == self.bot.user.id:
+      return
+    from __main__ import get_kernel
     try:
       with message.channel.typing():
         bot_message = norm_sent(get_kernel(), bot_message)
-        if (last_response.strip().endswith("?") or  any(bot_message.lower().strip().startswith(w) for w in (
+        if (last_response.strip().endswith("?") and last_model):
+          if new_response := await gpt_response(bot_message, uid):
+            return await respond(new_response)
+            
+        if any(bot_message.lower().strip().startswith(w) for w in (
           "who is your",
           "who are your",
           "who was your",
@@ -581,11 +597,14 @@ class Chat(Cog):
           "what was your",
           "when is your",
           "what are your",
-        ))):
+        )):
           if new_response := await alice_response(bot_message, uid):
             return await respond(new_response)
         log.info("norm_sent -> %s", bot_message)
-        cats: dict = categorize(bot_message.lower())
+        from tagger import categorize
+        log.info("bot_message=%r", bot_message)
+        cats: dict = categorize(bot_message.lower() or "")
+        log.info("cats=%r", cats)
         # {
         #   "tagged": tagged, "items": items,
         #   "question": question, "person": person,
@@ -595,6 +614,8 @@ class Chat(Cog):
         # {
         pprint(cats)
         by_pos = {pos: wd for wd, pos in cats["tagged"]}
+        log.info("by_pos=%r", by_pos)
+        from tagger import tag_meanings
         pronouns_pos = {
           pos for pos, m in tag_meanings.items() if "pro" in str(m).lower()
         }
@@ -603,11 +624,9 @@ class Chat(Cog):
         }
         has_pronouns = pronouns_pos.intersection(by_pos)
         has_personal = personal_pos.intersection(by_pos)
-        has_proper_noun = "NP" in (
-          pos[0:2] for word, pos in pos_tag(bot_message)
-        )
+        has_proper_noun = cats["proper_noun"]
         has_poss_pronoun = "PRP" in (
-          pos[0:3] for word, pos in pos_tag(bot_message)
+          pos[0:3] for word, pos in cats["tagged"]
         )
         print(f"{by_pos=}")
         print(f"{pronouns_pos=}")
@@ -616,14 +635,13 @@ class Chat(Cog):
         print(f"{has_proper_noun=}")
         print(f"{has_poss_pronoun=}")
           
-          
         if (
           cats["tagged"]
           and cats["tagged"][0]
-          and cats["tagged"][0][0] in ("what", "who", "when", "where")
+          and cats["tagged"][0][0] in ("what", "who", "when", "where", "how", "why")
           and len(cats["tagged"]) > 1
           and cats["tagged"][1]
-          and cats["tagged"][1][0] in ("is", "are")
+          and cats["tagged"][1][0] in ("is", "are", "were", "was", "has", "do," "does", "had")
           and cats["question"]
           and not cats["person"]
         ):
@@ -783,5 +801,4 @@ class Chat(Cog):
     finally:
       await self.bot.process_commands(message)
 
-get_kernel()
-pos_tag("hello world")
+

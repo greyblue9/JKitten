@@ -34,7 +34,7 @@ TEST_GUILDS = [
   476190141161930753,  # Bot Test Python
 ]
 logging.root.setLevel(logging.DEBUG)
-# logging.root.addHandler(logging.StreamHandler())
+logging.root.addHandler(logging.StreamHandler())
 log = logging.getLogger(__name__)
 for log_name in (
   "disnake.__init__",
@@ -227,28 +227,72 @@ Client.run = run
 from watchdog.events import FileSystemEventHandler
 from watchdog.observers import Observer
 from importlib.machinery import all_suffixes
+from functools import lru_cache
+import nltk
 
+k = None
+@lru_cache
+def get_kernel():
+  global k
+  if not k:
+    sys.path.insert(0, (Path.cwd() / "alice").as_posix())
+    import aiml.AimlParser
+    try:
+      k = aiml.Kernel.Kernel()
+    except (TypeError, ImportError):
+      k = aiml.Kernel()
+    log.info("Created python aiml Kernel: %s,", k)
+    if Path("brain.dmp").exists():
+      k.bootstrap("brain.dmp", [])
+      log.info("Loaded brain into Kernel: %s,", k)
+    else:
+      k.bootstrap(None, list(map(Path.as_posix, Path("./").glob("**/*.aiml"))))
+      k.saveBrain("brain.dmp")
+    preds = {
+      ln.split(":", 1)[0]: ln.split(":", 1)[1]
+      for ln in
+      (Path.cwd() / "bots"/ "alice"/"config" / "predicates.txt").read_text().splitlines()
+    }
+    log.info("Loading %d predicates ...", len(preds))
+    for pk, pv in preds.items():
+      k.setBotPredicate(pk, pv)
+  return k
+get_kernel()
 
-def path_as_dotted(path):
-  p = Path(path).relative_to(Path.cwd())
-  for s in all_suffixes():
-    if not p.name.endswith(s):
-      continue
-    name_noext = p.name.removesuffix(s)
-    p_noext = p.parent / name_noext
-
-    log.info("on_modified: p=%s, p_noext=%s", p, p_noext)
-    return ".".join(p_noext.parts)
+tagger = None
+def pos_tag(sentence):
+  global tagger
+  if tagger is None:
+    log.info("pos_tag: creating tagger")
+    try:
+      from nltk.corpus import treebank
+    except Exception:
+      log.info("pos_tag: nltk.download")
+      nltk.download("treebank")
+      from nltk.corpus import treebank
+    from nltk.tag import PerceptronTagger
+    log.info("pos_tag: PerceptronTagger()")
+    tagger = PerceptronTagger()
+    log.info("pos_tag: Train tagger")
+    try:
+      tagger.train(
+       treebank.tagged_sents()[:500])
+    except LookupError:
+      nltk.download("treebank")
+      tagger.train(
+       treebank.tagged_sents()[:500])
+    log.info("pos_tag: Got tagger: %s", tagger)
+  tagged = tagger.tag(nltk.tokenize.word_tokenize(sentence))
+  return tagged
+pos_tag("")
 
 
 class EvtHandler(FileSystemEventHandler):
   def on_any_event(self, evt):
     # log.info("on_modified(self=%s, evt=%s)", self, evt)
     name = getattr(evt, "name", getattr(evt, "dest_path", getattr(evt, "src_path", "")))
-    
     if not name:
       return
-    
     stem = Path(name).name
     stems = stem.rsplit(".", 2)
     if len(stems) > 1:

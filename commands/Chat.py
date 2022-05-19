@@ -558,6 +558,7 @@ class Chat(Cog):
       return
     ok = (
       in_whitelist
+      or self.bot.user in message.mentions
       or mention in message.content
       or "alice" in message.content.lower()
       or "alice " in bot_message.lower()

@@ -331,6 +331,31 @@ def start_bot():
 loop = get_event_loop_policy().get_event_loop()
 # loop.run_until_complete(get_chat(DEFAULT_UID))
 Thread(target=start_bot).start()
+
+
+
+def iter_over(coro):
+  from threading import Event
+  it = coro.__aiter__()
+  rslts = []
+  try:
+    while True:
+      f = asyncio.run_coroutine_threadsafe(
+        it.__anext__(), loop
+      )
+      ev = Event()
+      def on_done(_):
+        ev.set()
+      f.add_done_callback(on_done)
+      if ev.wait():
+        rslts.append(f.result())
+      else:
+        break
+  except StopAsyncIteration:
+    pass
+  return rslts
+  
+
 import code
 
 cons = code.InteractiveConsole(locals())

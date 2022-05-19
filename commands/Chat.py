@@ -58,6 +58,12 @@ BLACKLIST = {
   "\"\"",
   "is .",
   "I'm sorry, I'm not a native speaker.",
+  "where.",
+  "what.",
+  " is.",
+  "is .",
+  "when.",
+  "who.",
 }
 
 
@@ -108,7 +114,10 @@ def get_kernel():
       log.info("Loaded brain into Kernel: %s,", k)
     else:
       k.bootstrap(None, list(map(Path.as_posix, Path("./").glob("**/*.aiml"))))
-      k.saveBrain("brain.dmp")
+    for ln in (Path.cwd() / "bots"/ "alice"/"config" / "predicates.txt").read_text().splitlines():
+      name, val = ln.split(":", 1)
+      k.setBotPredicate(name, val)
+  k.saveBrain("brain.dmp")
   return k
 
 def alice_response_inner(q, uid=DEFAULT_UID):
@@ -283,7 +292,7 @@ async def get_response(message, uid, model=None):
     headers = {"Authorization": f"Bearer {token}"}
     API_URL = f"https://api-inference.huggingface.co/models/{model}"
     payload = {
-      "generated_responses": [last_response],
+      "generated_responses": [],
       "past_user_inputs": [],
       "text": message,
     }
@@ -302,7 +311,7 @@ async def get_response(message, uid, model=None):
         if not data:
           data = {"error": "No reply", "estimated_time": 5}
         if data.get("error"):
-          await asyncio.sleep(data.get("estimated_time", 30))
+          await asyncio.sleep(data.get("estimated_time", 6))
           async with ClientSession() as session:
             async with session.post(
               API_URL, headers=headers, json=payload

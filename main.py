@@ -262,7 +262,7 @@ get_kernel()
 tagger = None
 def pos_tag(sentence):
   global tagger
-  iimport nltk
+  import nltk
   if tagger is None:
     nltk.download(
      "averaged_perceptron_tagger")

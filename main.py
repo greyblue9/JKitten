@@ -263,6 +263,9 @@ tagger = None
 def pos_tag(sentence):
   global tagger
   if tagger is None:
+    import nltk
+    nltk.download("averaged_perceptron_tagger")
+    nltk.download("punkt")
     log.info("pos_tag: creating tagger")
     try:
       from nltk.corpus import treebank

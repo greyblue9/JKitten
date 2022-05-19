@@ -572,6 +572,18 @@ class Chat(Cog):
     try:
       with message.channel.typing():
         bot_message = norm_sent(get_kernel(), bot_message)
+        if any(bot_message.lower().strip().startswith(w) for w in (
+          "who is your",
+          "who are your",
+          "who was your",
+          "what is your",
+          "what are your",
+          "what was your",
+          "when is your",
+          "what are your",
+        )):
+          if new_response := await alice_response(bot_message, uid):
+            return await respond(new_response)
         log.info("norm_sent -> %s", bot_message)
         cats: dict = categorize(bot_message.lower())
         # {

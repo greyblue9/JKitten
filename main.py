@@ -2,6 +2,7 @@ import traceback
 from bs4 import BeautifulSoup as BS
 import re
 import asyncio
+import inspect
 import requests
 import disnake
 from disnake.ext import commands
@@ -48,6 +49,10 @@ for log_name in (
   "disnake.voice_client",
   "disnake.webhook",
   "disnake.webhook",
+  "watchdog.events",
+  "watchdog.observers.fsevents",
+  "watchdog.observers.fsevents2",
+  "watchdog.observers.inotify_buffer",
 ):
   logging.getLogger(log_name).setLevel(logging.INFO)
 from disnake.utils import find
@@ -293,20 +298,27 @@ pos_tag("")
 
 class EvtHandler(FileSystemEventHandler):
   def on_any_event(self, evt):
-    # log.info("on_modified(self=%s, evt=%s)", self, evt)
-    name = getattr(evt, "name", getattr(evt, "dest_path", getattr(evt, "src_path", "")))
-    if not name:
-      return
-    stem = Path(name).name
-    stems = stem.rsplit(".", 2)
-    if len(stems) > 1:
-      stem = stems[-2]
-    print("stem=", stem)
-    dotted = f"commands.{stem}"
-    if not (Path("commands") / f"{stem}.py").exists():
-      return
-    log.info("on_modified: reloading %r", dotted)
-    bot.reload_extension(dotted)
+    # log.info("on_any_event(self=%s, evt=%s)", self, evt)
+    for fld, val in inspect.getmembers(evt):
+      if not isinstance(val, str):
+        continue
+      if ".py" not in val: continue
+      val2 = val.split("/")[-1]
+      val2 = val2.split(".py")[0]
+      val2 = val2.split(".")[-1]
+      p = Path("commands") / f"{val2}.py"
+      if not p.exists():
+        continue
+      name = ".".join([*p.parent.parts, p.stem])
+      log.debug("%s: %s := %r", type(evt).__name__, fld, val2)
+      try:
+        bot.unload_extension(name)
+      except Exception:
+        pass
+      if name in sys.modules:
+        del sys.modules[name]
+      bot.load_extension(name)
+      log.info("Reloaded extension: %s", name)
 
 
 def auto_reload_start(bot):

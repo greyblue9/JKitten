@@ -226,8 +226,9 @@ async def get_response(message, uid, model=None):
         last_model = None
     if not model:
       model = random.choices(
-        model_names := (
+        model_names := ( 
           "microsoft/DialoGPT-large",
+          "microsoft/DialoGPT-medium",
           "facebook/blenderbot-400M-distill",
           "deepparag/Aeona",
           "facebook/blenderbot-90M",
@@ -235,7 +236,7 @@ async def get_response(message, uid, model=None):
           "facebook/blenderbot_small-90M",
           "microsoft/DialoGPT-small",
         ),
-        weights := (125, 15, 5,6,9,15,17),
+        weights := (125, 15,15, 5,6,9,15,17),
       )[0]
       model_idx = model_names.index(model)
       weight = weights[model_idx]
@@ -250,8 +251,8 @@ async def get_response(message, uid, model=None):
     headers = {"Authorization": f"Bearer {token}"}
     API_URL = f"https://api-inference.huggingface.co/models/{model}"
     payload = {
-      "generated_responses": responses.setdefault(uid,[])[:-2],
-      "past_user_inputs": inputs.setdefault(uid,[])[:-2],
+      "generated_responses": [],
+      "past_user_inputs": [],
       "text": message,
     }
     async with ClientSession() as session:
@@ -280,12 +281,11 @@ async def get_response(message, uid, model=None):
                 )
               except Exception as e:
                 print(e)
-        if data:
-          pprint(data)
         reply = data.get("generated_text")
         response = reply
         if not response:
           model = None
+          last_model = None
           continue
         for b in BLACKLIST:
           if b.lower() in response.lower() or response.lower() in b:
@@ -521,9 +521,6 @@ class Chat(Cog):
     global last_response
     global last_input
     response = ""
-    if message.content.startswith("+"):
-      await self.bot.process_commands(message)
-      return
     channel_id = message.channel.id
     channel = message.channel
     in_whitelist = any(
@@ -541,9 +538,9 @@ class Chat(Cog):
       ):
         realname = m.group("name").lower().capitalize()
       name_lookup[uid] = realname
-
+    content = message.content or message.system_content or "\n".join(filter(None, ((e.title + "\n" + e.description).strip() for e in message.embeds)))
     bot_message = " ".join(
-      (replace_mention(word, name_lookup) for word in message.content.split())
+      (replace_mention(word, name_lookup) for word in content.split())
     )
     if not message.author.bot and bot_message.strip().startswith("perkel"):
       await message.reply((bot_message + " ") + (bot_message + " "))
@@ -559,10 +556,11 @@ class Chat(Cog):
     ok = (
       in_whitelist
       or self.bot.user in message.mentions
-      or mention in message.content
-      or "alice" in message.content.lower()
+      or mention in content
+      or "alice" in content.lower()
       or "alice " in bot_message.lower()
     )
+    ok = ok and content[0:1].isalnum()
     if not ok:
       return
 
@@ -790,7 +788,7 @@ class Chat(Cog):
         color=Color.red(),
       )
       embed.add_field(name="Your name", value=message.author.name)
-      embed.add_field(name="Your message", value=message.content)
+      embed.add_field(name="Your message", value=content)
       embed.add_field(name="Translated message", value=bot_message)
       await message.reply(
         response,
@@ -800,6 +798,6 @@ class Chat(Cog):
       if response:
         return await respond(response)
     finally:
-      await self.bot.process_commands(message)
+      pass
 
 

@@ -364,7 +364,7 @@ def strip_xtra(s):
   ordered = sorted(ok, key=len)
   longest = ordered[-1]
   
-  s0 = codecs.unicode_escape_decode(longest)
+  s0 = codecs.unicode_escape_decode(longest)[0]
   print("strip_xtra(%r): s0=%r" % (s, s0))
   
   s1 = re.compile(

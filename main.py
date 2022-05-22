@@ -135,6 +135,7 @@ DISCORD_BOT_TOKEN = (
 PREFIX = "+" or "@Kitten"
 intents = Intents.default()
 intents.value |= disnake.Intents.messages.flag
+intents.value |= disnake.Intents.message_content.flag
 intents.value |= disnake.Intents.guilds.flag
 
 bot = Bot(

@@ -397,15 +397,17 @@ def find(coll, r):
 
 
 def google2(bot_message, uid=0, req_url=None):
-  ans_marker = " ".join(
-    find(
-      re.subn("[.?!\t\n ]*$", "", bot_message.lower())[0].split(),
-      ("is", "are," "were", "was"),
+  try:
+    ans_marker = " ".join(
+      find(
+        re.subn("[.?!\t\n ]*$", "", bot_message.lower())[0].split(),
+        ("is", "are," "were", "was"),
+      )
     )
-  )
-
-  query = '"{}"'.format(ans_marker)
-
+  
+    query = '"{}"'.format(ans_marker)
+  except Exception:
+    query = bot_message
   from bs4 import BeautifulSoup
   from pathlib import Path
   from urllib.request import Request, urlopen

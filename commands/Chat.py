@@ -255,6 +255,13 @@ async def get_response(message, uid, model=None):
       "past_user_inputs": [],
       "text": message,
     }
+    context = random.randint(0, 4)
+    if context > 3:
+      payload["generated_responses"] += responses.setdefault(uid, [])[-2:]
+    elif context > 2:
+      payload["generated_responses"] += responses.setdefault(uid, [])[-1:]
+    if context > 1:
+      payload["past_user_inputs"] += inputs.setdefault(uid, [])[-1:]
     async with ClientSession() as session:
       async with session.post(API_URL, headers=headers, json=payload) as response:
         try:

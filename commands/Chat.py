@@ -107,6 +107,7 @@ def alice_response_inner(q, uid=DEFAULT_UID):
 
 
 def fix_pred_response(s):
+  k = get_kernel()
   subj, key, *rest = s.partition(" .")[0].lower().split()
   ans = (
     k.getPredicate(key, subj)
@@ -799,4 +800,3 @@ class Chat(Cog):
         return await respond(response)
     finally:
       pass
-

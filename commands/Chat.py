@@ -107,6 +107,7 @@ def alice_response_inner(q, uid=DEFAULT_UID):
 
 
 def fix_pred_response(s):
+  from __main__ import get_kernel
   k = get_kernel()
   subj, key, *rest = s.partition(" .")[0].lower().split()
   ans = (

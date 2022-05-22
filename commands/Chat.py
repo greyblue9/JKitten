@@ -407,6 +407,7 @@ def google2(bot_message, uid=0, req_url=None):
   
     query = '"{}"'.format(ans_marker)
   except Exception:
+    ans_marker = bot_message
     query = bot_message
   from bs4 import BeautifulSoup
   from pathlib import Path

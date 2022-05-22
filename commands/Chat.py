@@ -350,41 +350,31 @@ def strip_xtra(s):
   escaped = codecs.unicode_escape_encode(s)[0]
   print("strip_xtra(%r): escaped=%r" % (s, escaped))
   
-  s0 = codecs.unicode_escape_decode(
-    sorted(
-      list(
-        filter(
-          lambda i: (
-            i.strip() 
-            and not re.compile(
-              rb"^[A-Z][a-z]{2} \d+(,|$)", re.DOTALL
-            ).search(i)
-            and re.compile(
-              rb"([A-Z]*[a-z]+|[A-Z]+|[a-z]+|[A-Z]+[a-z]*) ",
-              re.DOTALL
-            ).search(i)
-          ),
-          re.compile(
-            rb"[\t ][\t ]+|\\n|\\xb7|\\xa0", re.DOTALL
-          ).split(escaped)
-        )
-      ),
-      key=len
-    )[-1]
-  )[0]
+  splits = re.compile(rb"[\t ][\t ]+|\\n|\\xb7|\\xa0", re.DOTALL).split(escaped)
+  ok = []
+  for i in splits:
+    i = i.strip()
+    if re.compile(rb"^[A-Z][a-z]{2} \d+(,|$)", re.DOTALL).search(i):
+      continue
+    if not re.compile(rb"([A-Z]*[a-z]+|[A-Z]+|[a-z]+|[A-Z]+[a-z]*) ", re.DOTALL).search(i):
+      continue
+    ok.append(i)
+  if not ok:
+    return ""
+  ordered = sorted(ok, key=len)
+  longest = ordered[-1]
+  
+  s0 = codecs.unicode_escape_decode(longest)
   print("strip_xtra(%r): s0=%r" % (s, s0))
   
   s1 = re.compile(
     "(?<=[^a-zA-Z])'((?:[^'.]|(?<=[a-z]))'[a-z]+)(\\.?)'",
     re.DOTALL
   ).sub("\\1", s0).strip()
-  print("strip_xtra(%r): s1=%r" % (s, s1))
   
   s2 = re.compile(
     "([a-z])'[a-z]*", re.DOTALL
   ).sub("\\1", s1).strip()
-  print("strip_xtra(%r): s2=%r" % (s, s2))
-  
   return s2
 
 
@@ -799,5 +789,4 @@ class Chat(Cog):
         return await respond(response)
     finally:
       pass
-
 

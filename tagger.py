@@ -2,15 +2,18 @@ from functools import lru_cache
 import spacy
 from spacy.lang.en import English
 import nltk
+from nltk import word_tokenize
+from collections import Counter
+from itertools import chain
+from logging import getLogger
+log = getLogger(__name__)
 
-nltk.download("punkt")
-nltk.download("averaged_perceptron_tagger")
-
+# nltk.download("punkt")
+# nltk.download("averaged_perceptron_tagger")
 
 @lru_cache
 def get_nlp(name: str = "en_core_web_md") -> English:
   import spacy
-
   return spacy.load(name)
 
 
@@ -50,8 +53,8 @@ tag_meanings = {
 
 
 def tag_sentence(sentence, describe=False):
-  from nltk import pos_tag, word_tokenize
-
+  from __main__ import pos_tag
+  
   tagged = pos_tag(word_tokenize(sentence))
   if not describe:
     yield from tagged
@@ -70,13 +73,6 @@ def tag_sentence(sentence, describe=False):
       else:
         cur.append(tup)
     yield word, tuple(cur)
-
-
-@lru_cache
-def get_nlp(name: str = "en_core_web_md") -> English:
-  import spacy
-
-  return spacy.load("en_core_web_md")
 
 
 def parse_text(text: str):
@@ -115,18 +111,29 @@ def contains_seqs(text, *search_seqs):
 
 
 def categorize(text: str):
-  items = list(parse_text(text))
-  from collections import Counter
-
+  log.info("categorize: text=%r", text)
+  from __main__ import pos_tag
+  parsed = list(parse_text(text))
+  log.info("categorize: parsed=%r", parsed)
+  items = parsed
+  log.info("categorize: items=%r", items)
+  
   ctr = Counter(items)
-  from nltk import pos_tag, word_tokenize
-
-  tagged = pos_tag(word_tokenize(text.lower()))
+  log.info("categorize: ctr=%r", ctr)
+  tokenized = word_tokenize(text.lower())
+  log.info("categorize: tokenized=%r", tokenized)
+  tagged = pos_tag(text.lower())
+  log.info("categorize: text=%r", tagged)
+  
   question = False
   person = False
   attributes = []
   entities = []
   clauses = []
+  for wd, pos in tagged:
+    if wd.lower().split("'")[0] in ("who", "what", "when", "where", "why", "how"):
+      question = True
+  
   for item, count in ctr.most_common():
     if count > 1:
       entities.append(item)
@@ -142,9 +149,10 @@ def categorize(text: str):
             if next_word:
               attributes.append(next_word[0])
 
-  if contains_seqs(text, ("what", "is")):
+  if (contains_seqs(text, ("what", "is")) or contains_seqs(text, ("what", "was")) or contains_seqs(text, ("what", "were")) or contains_seqs(text, ("who", "is")) or contains_seqs(text, ("who", "was")) or contains_seqs(text, ("who", "were")) or contains_seqs(text, ("where", "is")) or contains_seqs(text, ("where", "was")) or contains_seqs(text, ("where", "were")) or contains_seqs(text, ("when", "is")) or contains_seqs(text, ("when", "are")) or contains_seqs(text, ("when", "were")) or contains_seqs(text, ("how", "do")) or contains_seqs(text, ("how", "does"))):
     question = True
-    person = False
+  if "you" in text.lower():
+    person = True
   if contains_seqs(text, ("who", "is")):
     question = True
     person = True
@@ -164,4 +172,17 @@ def categorize(text: str):
     "entities": tuple(entities),
     "attributes": tuple(attributes),
     "clauses": tuple(clauses),
+    "proper_noun": next(iter(chain((
+      wd
+      for wd, pos in tagged
+      if pos in ("NN", "NNS", "NNP") 
+    ), (None,))))
   }
+from functools import lru_cache
+import spacy
+from spacy.lang.en import English
+import nltk
+
+nltk.download("punkt")
+nltk.download("averaged_perceptron_tagger")
+

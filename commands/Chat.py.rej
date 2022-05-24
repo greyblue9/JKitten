@@ -1,0 +1,87 @@
+--- commands/Chat.py
++++ commands/Chat.py
+@@ -236,7 +237,7 @@ async def get_response(message, uid, model=None):
+           "facebook/blenderbot_small-90M",
+           "microsoft/DialoGPT-small",
+         ),
+-        weights := (125, 15, 5,6,9,15,17),
++        weights := (125, 15,15, 5,6,9,15,17),
+       )[0]
+       model_idx = model_names.index(model)
+       weight = weights[model_idx]
+@@ -251,8 +252,8 @@ async def get_response(message, uid, model=None):
+     headers = {"Authorization": f"Bearer {token}"}
+     API_URL = f"https://api-inference.huggingface.co/models/{model}"
+     payload = {
+-      "generated_responses": responses.setdefault(uid,[])[:-2],
+-      "past_user_inputs": inputs.setdefault(uid,[])[:-2],
++      "generated_responses": [],
++      "past_user_inputs": [],
+       "text": message,
+     }
+     async with ClientSession() as session:
+@@ -350,41 +350,31 @@ def strip_xtra(s):
+   escaped = codecs.unicode_escape_encode(s)[0]
+   print("strip_xtra(%r): escaped=%r" % (s, escaped))
+   
+-  s0 = codecs.unicode_escape_decode(
+-    sorted(
+-      list(
+-        filter(
+-          lambda i: (
+-            i.strip() 
+-            and not re.compile(
+-              rb"^[A-Z][a-z]{2} \d+(,|$)", re.DOTALL
+-            ).search(i)
+-            and re.compile(
+-              rb"([A-Z]*[a-z]+|[A-Z]+|[a-z]+|[A-Z]+[a-z]*) ",
+-              re.DOTALL
+-            ).search(i)
+-          ),
+-          re.compile(
+-            rb"[\t ][\t ]+|\\n|\\xb7|\\xa0", re.DOTALL
+-          ).split(escaped)
+-        )
+-      ),
+-      key=len
+-    )[-1]
+-  )[0]
++  splits = re.compile(rb"[\t ][\t ]+|\\n|\\xb7|\\xa0", re.DOTALL).split(escaped)
++  ok = []
++  for i in splits:
++    i = i.strip()
++    if re.compile(rb"^[A-Z][a-z]{2} \d+(,|$)", re.DOTALL).search(i):
++      continue
++    if not re.compile(rb"([A-Z]*[a-z]+|[A-Z]+|[a-z]+|[A-Z]+[a-z]*) ", re.DOTALL).search(i):
++      continue
++    ok.append(i)
++  if not ok:
++    return ""
++  ordered = sorted(ok, key=len)
++  longest = ordered[-1]
++  
++  s0 = codecs.unicode_escape_decode(longest)[0]
+   print("strip_xtra(%r): s0=%r" % (s, s0))
+   
+   s1 = re.compile(
+     "(?<=[^a-zA-Z])'((?:[^'.]|(?<=[a-z]))'[a-z]+)(\\.?)'",
+     re.DOTALL
+   ).sub("\\1", s0).strip()
+-  print("strip_xtra(%r): s1=%r" % (s, s1))
+   
+   s2 = re.compile(
+     "([a-z])'[a-z]*", re.DOTALL
+   ).sub("\\1", s1).strip()
+-  print("strip_xtra(%r): s2=%r" % (s, s2))
+-  
+   return s2
+ 
+ 
+@@ -798,6 +786,5 @@ class Chat(Cog):
+       if response:
+         return await respond(response)
+     finally:
+-      await self.bot.process_commands(message)
+-
++      pass
+ 

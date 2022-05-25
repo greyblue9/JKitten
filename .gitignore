@@ -152,3 +152,4 @@ macros.h
 .env.*
 .gdb_history
 core
+*.dmp

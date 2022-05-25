@@ -61,7 +61,6 @@ BLACKLIST = {
     "I'm very enthusiastic.",
     "I'm sorry, I didn't mean to hurt your feelings.",
     "\"\"",
-    "is .",
     "I'm sorry, I'm not a native speaker.",
     "where.",
     "what.",
@@ -118,12 +117,8 @@ def fix_pred_response(s):
     if subj not in ("my", "me", "i", "we", "myself")
     else k.getBotPredicate(key)
   )
-  resp = (
-    "".join([s.partition(" .")[0], " ", ans, "."])
-    if ans
-    else "".join(["What ", " ".join(rest), " ", subj, " ", key, "?"])
-  )
-  return resp
+  return ("".join([s.partition(" .")[0], " ", ans, "."]) if ans else "".join(
+      ["What ", " ".join(rest), " ", subj, " ", key, "?"]))
 
 
 def norm_sent(k, s):
@@ -131,24 +126,22 @@ def norm_sent(k, s):
   if k:
     for f,t in k._subbers["normal"].items():
       s = re.sub(rf"\b{re.escape(f)}\b", t, s)
-  
-  norm = re.sub(
-    r" ([^a-zA-Z0-9_])\1* *",
-    "\\1",
-    " ".join(
-      filter(
-        None,
-        map(
-          str.strip,
-          re.split(
-            r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
-            s,
-          ),
-        ),
-      )
-    ),
+
+  return re.sub(
+      r" ([^a-zA-Z0-9_])\1* *",
+      "\\1",
+      " ".join(
+          filter(
+              None,
+              map(
+                  str.strip,
+                  re.split(
+                      r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
+                      s,
+                  ),
+              ),
+          )),
   )
-  return norm
 
 
 

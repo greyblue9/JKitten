@@ -42,14 +42,13 @@ def msg_encoder(encoding=None):
   For None encoding, a passthrough function will be returned
   """
   Codec = namedtuple("Codec", ["enc", "dec"])
-  if encoding in (None, False):
-    l = lambda x: unicode(x)
-    return Codec(l, l)
-  else:
+  if encoding not in (None, False):
     return Codec(
       lambda x: x.encode(encoding, "replace"),
       lambda x: x.decode(encoding, "replace"),
     )
+  l = lambda x: unicode(x)
+  return Codec(l, l)
 
 
 class Kernel:
@@ -64,7 +63,7 @@ class Kernel:
 
   def __init__(self, sessions=None):
     self._verboseMode = True
-    self._version = "python-aiml {}".format(VERSION)
+    self._version = f"python-aiml {VERSION}"
     self._brain = PatternMgr()
     self._respondLock = threading.RLock()
     self.setTextEncoding(None if PY3 else "utf-8")
@@ -213,7 +212,7 @@ class Kernel:
 
     """
     if self._verboseMode:
-      print("Loading brain from %s..." % filename, end="")
+      print(f"Loading brain from {filename}...", end="")
     start = time.monotonic()
     self._brain.restore(filename)
     if self._verboseMode:
@@ -226,7 +225,7 @@ class Kernel:
   def saveBrain(self, filename):
     """Dump the contents of the bot's brain to a file on disk."""
     if self._verboseMode:
-      print("Saving brain to %s..." % filename, end="")
+      print(f"Saving brain to {filename}...", end="")
     start = time.monotonic()
     self._brain.save(filename)
     if self._verboseMode:
@@ -375,14 +374,13 @@ class Kernel:
       xmlstr = doc.decode().encode()
       with BytesIO(xmlstr) as sio:
         if self._verboseMode:
-          print("Loading %s..." % f, end="")
+          print(f"Loading {f}...", end="")
         # Load and parse the AIML file.
         parser = create_parser()
         handler = parser.getContentHandler()
         handler.setEncoding(self._textEncoding)
         try:
-          z = parser.parse(sio)
-          if z:
+          if z := parser.parse(sio):
             print(f"{filename=} {z=}")
         except xml.sax.SAXParseException as msg:
           err = "\x0aFATAL PARSE ERROR in file %s:\x0a%s\x0a" % (f, msg)
@@ -441,7 +439,7 @@ class Kernel:
         self.setPredicate(self._outputHistory, outputHistory, sessionID)
 
         # append this response to the final response.
-        finalResponse += response + "  "
+        finalResponse += f"{response}  "
 
       finalResponse = finalResponse.strip()
       # print( "@ASSERT", self.getPredicate(self._inputStack, sessionID))
@@ -619,12 +617,9 @@ class Kernel:
       try:
         name = attr.get("name", None)
         # Get the list of <li> elemnents
-        listitems = []
-        for e in elem[2:]:
-          if e[0] == "li":
-            listitems.append(e)
+        listitems = [e for e in elem[2:] if e[0] == "li"]
         # if listitems is empty, return the empty string
-        if len(listitems) == 0:
+        if not listitems:
           return ""
         # iterate through the list looking for a condition that
         # matches.
@@ -638,7 +633,7 @@ class Kernel:
               continue
             # get the name of the predicate to test
             liName = name
-            if liName == None:
+            if liName is None:
               liName = liAttr["name"]
             # get the value to check against
             liValue = liAttr["value"]
@@ -659,7 +654,7 @@ class Kernel:
           try:
             li = listitems[-1]
             liAttr = li[1]
-            if not ("name" in liAttr or "value" in liAttr):
+            if "name" not in liAttr and "value" not in liAttr:
               response += self._processElement(li, sessionID)
           except:
             # listitems was empty, no attributes, missing
@@ -696,9 +691,7 @@ class Kernel:
     capitalize the first letter of each word of the result.
 
     """
-    response = ""
-    for e in elem[2:]:
-      response += self._processElement(e, sessionID)
+    response = "".join(self._processElement(e, sessionID) for e in elem[2:])
     return string.capwords(response)
 
   # <gender>
@@ -710,9 +703,7 @@ class Kernel:
     This subsitution is handled by the aiml.WordSub module.
 
     """
-    response = ""
-    for e in elem[2:]:
-      response += self._processElement(e, sessionID)
+    response = "".join(self._processElement(e, sessionID) for e in elem[2:])
     return self._subbers["gender"].sub(response)
 
   # <get>
@@ -806,9 +797,7 @@ class Kernel:
     treat the result as an AIML file to open and learn.
 
     """
-    filename = ""
-    for e in elem[2:]:
-      filename += self._processElement(e, sessionID)
+    filename = "".join(self._processElement(e, sessionID) for e in elem[2:])
     self.learn(filename)
     return ""
 
@@ -826,10 +815,7 @@ class Kernel:
     _processRandom() for details of their usage.
 
     """
-    response = ""
-    for e in elem[2:]:
-      response += self._processElement(e, sessionID)
-    return response
+    return "".join(self._processElement(e, sessionID) for e in elem[2:])
 
   # <lowercase>
   def _processLowercase(self, elem, sessionID):
@@ -839,9 +825,7 @@ class Kernel:
     then convert the results to all-lowercase.
 
     """
-    response = ""
-    for e in elem[2:]:
-      response += self._processElement(e, sessionID)
+    response = "".join(self._processElement(e, sessionID) for e in elem[2:])
     return response.lower()
 
   # <person>
@@ -857,9 +841,7 @@ class Kernel:
     a shortcut for <person><star/></person>.
 
     """
-    response = ""
-    for e in elem[2:]:
-      response += self._processElement(e, sessionID)
+    response = "".join(self._processElement(e, sessionID) for e in elem[2:])
     if len(elem[2:]) == 0:  # atomic <person/> = <person><star/></person>
       response = self._processElement(["star", {}], sessionID)
     return self._subbers["person"].sub(response)
@@ -877,9 +859,7 @@ class Kernel:
     a shortcut for <person2><star/></person2>.
 
     """
-    response = ""
-    for e in elem[2:]:
-      response += self._processElement(e, sessionID)
+    response = "".join(self._processElement(e, sessionID) for e in elem[2:])
     if len(elem[2:]) == 0:  # atomic <person2/> = <person2><star/></person2>
       response = self._processElement(["star", {}], sessionID)
     return self._subbers["person2"].sub(response)
@@ -896,11 +876,8 @@ class Kernel:
     ignored.
 
     """
-    listitems = []
-    for e in elem[2:]:
-      if e[0] == "li":
-        listitems.append(e)
-    if len(listitems) == 0:
+    listitems = [e for e in elem[2:] if e[0] == "li"]
+    if not listitems:
       return ""
 
     # select and process a random listitem.
@@ -915,9 +892,7 @@ class Kernel:
     then capitalize the first letter of the results.
 
     """
-    response = ""
-    for e in elem[2:]:
-      response += self._processElement(e, sessionID)
+    response = "".join(self._processElement(e, sessionID) for e in elem[2:])
     try:
       response = response.strip()
       words = response.split(" ", 1)
@@ -939,9 +914,7 @@ class Kernel:
     are also returned.
 
     """
-    value = ""
-    for e in elem[2:]:
-      value += self._processElement(e, sessionID)
+    value = "".join(self._processElement(e, sessionID) for e in elem[2:])
     # print( "@ELEM", elem )
     self.setPredicate(elem[1]["name"], value, sessionID)
     return value
@@ -964,8 +937,7 @@ class Kernel:
 
     """
     star = self._processElement(["star", {}], sessionID)
-    response = self._respond(star, sessionID)
-    return response
+    return self._respond(star, sessionID)
 
   # <srai>
   def _processSrai(self, elem, sessionID):
@@ -984,7 +956,7 @@ class Kernel:
       print("srai processElement e=", e)
       rs = self._processElement(e, sessionID)
       print("srai processElement returned rs=", rs)
-      newInput += " " + rs
+      newInput += f" {rs}"
       newInput = newInput.strip()
       print("srai newInput -> ", newInput)
     print("srai respomd with newInput=", newInput)
@@ -1027,8 +999,7 @@ class Kernel:
     except:
       that = ""  # there might not be any output yet
     topic = self.getPredicate("topic", sessionID)
-    response = self._brain.star("star", input_, that, topic, index)
-    return response
+    return self._brain.star("star", input_, that, topic, index)
 
   # <system>
   def _processSystem(self, elem, sessionID):
@@ -1045,10 +1016,7 @@ class Kernel:
 
     """
     # build up the command string
-    command = ""
-    for e in elem[2:]:
-      command += self._processElement(e, sessionID)
-
+    command = "".join(self._processElement(e, sessionID) for e in elem[2:])
     # normalize the path to the command.  Under Windows, this
     # switches forward-slashes to back-slashes; all system
     # elements should use unix-style paths for cross-platform
@@ -1057,8 +1025,6 @@ class Kernel:
     # executable = os.path.normpath(executable)
     command = os.path.normpath(command)
 
-    # execute the command.
-    response = ""
     try:
       out = os.popen(command)
     except RuntimeError as msg:
@@ -1070,8 +1036,7 @@ class Kernel:
         sys.stderr.write(err)
       return "There was an error while computing my response.  Please inform my botmaster."
     time.sleep(0.01)  # I'm told this works around a potential IOError exception.
-    for line in out:
-      response += line + "\n"
+    response = "".join(line + "\n" for line in out)
     response = " ".join(response.splitlines()).strip()
     return response
 
@@ -1084,10 +1049,7 @@ class Kernel:
     response tree.
 
     """
-    response = ""
-    for e in elem[2:]:
-      response += self._processElement(e, sessionID)
-    return response
+    return "".join(self._processElement(e, sessionID) for e in elem[2:])
 
   # text
   def _processText(self, elem, sessionID):
@@ -1101,7 +1063,7 @@ class Kernel:
 
     """
     try:
-      elem[2] + ""
+      f"{elem[2]}"
     except TypeError:
       raise TypeError("Text element contents are not text")
 
@@ -1174,8 +1136,7 @@ class Kernel:
     except:
       that = ""  # there might not be any output yet
     topic = self.getPredicate("topic", sessionID)
-    response = self._brain.star("thatstar", input_, that, topic, index)
-    return response
+    return self._brain.star("thatstar", input_, that, topic, index)
 
   # <think>
   def _processThink(self, elem, sessionID):
@@ -1223,8 +1184,7 @@ class Kernel:
     except:
       that = ""  # there might not be any output yet
     topic = self.getPredicate("topic", sessionID)
-    response = self._brain.star("topicstar", input_, that, topic, index)
-    return response
+    return self._brain.star("topicstar", input_, that, topic, index)
 
   # <uppercase>
   def _processUppercase(self, elem, sessionID):
@@ -1235,9 +1195,7 @@ class Kernel:
     upper-case.
 
     """
-    response = ""
-    for e in elem[2:]:
-      response += self._processElement(e, sessionID)
+    response = "".join(self._processElement(e, sessionID) for e in elem[2:])
     return response.upper()
 
   # <version>

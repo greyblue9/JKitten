@@ -69,32 +69,7 @@ BLACKLIST = {
   "who.",
 }
 
-import pprint
-from pathlib import Path
-import sys
-
 last_input = last_response = ""
-
-
-def get_chat(uid=DEFAULT_UID):
-  return PyAimlChat(uid)
-import __main__
-__main__.get_chat = get_chat
-
-
-class PyAimlChat:
-  def __init__(self, uid=DEFAULT_UID):
-    self.uid = uid
-  def multisentenceRespond(self, query):
-    resp = alice_response_inner(query, self.uid)
-    if any(
-      w.lower() in resp.lower() or resp.lower() in w.lower()
-      for w in BLACKLIST
-    ):
-      log.info("Not using due to blacklist: %s", resp)
-      resp = ""
-      
-    return resp.replace('is I.', 'is Alice').replace('I is', 'Alice is').replace('led I.', 'led Alice.')
 
 
 def alice_response_inner(q, uid=DEFAULT_UID):

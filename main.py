@@ -72,6 +72,27 @@ from traceback import format_exc, format_exception, format_exception_only
 import dotenv
 from text_tools import repeated_sub, translate_urls, translate_emojis
 import re
+import asyncio, logging, threading, time
+from asyncio import get_event_loop_policy
+from os import getenv
+from threading import Thread, current_thread
+import disnake.utils
+from dotenv import load_dotenv
+from disnake.ext.commands import Bot
+import requests
+from aiohttp import ClientSession
+import random
+from disnake.client import *
+from typing import *
+from watchdog.events import FileSystemEventHandler
+from watchdog.observers import Observer
+from importlib.machinery import all_suffixes
+from functools import lru_cache
+import nltk
+
+load_dotenv()
+DISCORD_BOT_TOKEN = getenv("Token")
+
 
 
 def replace_mention(word, name_lookup):
@@ -147,34 +168,9 @@ else:
 async def get_chat(uid):
   return AChat(uid)
 
-import requests
 
 inputs = {}
 responses = {}
-from aiohttp import ClientSession
-
-if "LOCAL" in os.environ:
-  from converse import get_response as get_response_orig
-
-  async def get_response(message, uid, model=None):
-    return get_response_orig(message, uid, model)
-
-else:
-  pass
-import random
-
-
-TEXT_CHANNELS_FILE = orig_cwd / "text_channels.json"
-if not TEXT_CHANNELS_FILE.exists():
-  TEXT_CHANNELS_FILE.write_text(json.dumps({}))
-DISCORD_BOT_TOKEN = (
-  os.getenv("DISCORD_BOT_TOKEN")
-  or os.getenv("Token")
-  or dotenv.get_key(dotenv_path=(orig_cwd / ".env"), key_to_get="DISCORD_BOT_TOKEN")
-  or dotenv.get_key(dotenv_path=(orig_cwd / ".env"), key_to_get="Token")
-  or eval("exec('raise Exception(\"Missing bot token.\")')")
-)
-
 
 PREFIX = "+" or "@Kitten"
 intents = Intents.default()
@@ -216,17 +212,7 @@ if __name__ == "__main__":
       bot.load_extension(name)
 
 
-import asyncio, logging, threading, time
-from asyncio import get_event_loop_policy
-from os import getenv
-from threading import Thread, current_thread
-import disnake.utils
-from dotenv import load_dotenv
-from disnake.ext.commands import Bot
 
-load_dotenv()
-from disnake.client import *
-from typing import *
 
 _log = logging.getLogger(__name__)
 
@@ -273,12 +259,6 @@ def run(self, *args: Any, **kwargs: Any) -> None:
 
 
 Client.run = run
-
-from watchdog.events import FileSystemEventHandler
-from watchdog.observers import Observer
-from importlib.machinery import all_suffixes
-from functools import lru_cache
-import nltk
 
 k = None
 @lru_cache
@@ -343,7 +323,6 @@ pos_tag("")
 
 class EvtHandler(FileSystemEventHandler):
   def on_any_event(self, evt):
-    # log.info("on_any_event(self=%s, evt=%s)", self, evt)
     for fld, val in inspect.getmembers(evt):
       if not isinstance(val, str):
         continue
@@ -375,22 +354,21 @@ def auto_reload_start(bot):
 
 
 def start_bot():
-  token = getenv("Token", getenv("DISCORD_BOT_TOKEN")).strip('"')
   thread = current_thread()
   log.info(
     "Starting bot with token '%s%s%s' on thread: %s",
-    token[0:5],
-    "*" * len(token[5:-5]),
-    token[-5:],
+    DISCORD_BOT_TOKEN[0:5],
+    "*" * len(DISCORD_BOT_TOKEN[5:-5]),
+    DISCORD_BOT_TOKEN[-5:],
     thread,
   )
   bot._rollout_all_guilds = True
   auto_reload_start(bot)
-  bot.run(token)
+  bot.run(DISCORD_BOT_TOKEN)
 
 
 loop = get_event_loop_policy().get_event_loop()
-# loop.run_until_complete(get_chat(DEFAULT_UID))
+loop.run_until_complete(get_chat(DEFAULT_UID))
 Thread(target=start_bot).start()
 
 
@@ -418,7 +396,6 @@ def iter_over(coro):
   
 
 import code
-
 cons = code.InteractiveConsole(locals())
 cons.push("import __main__")
 cons.push("from __main__ import *")

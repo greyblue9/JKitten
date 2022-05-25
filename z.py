@@ -311,8 +311,7 @@ def pos_tag(sentence):
       tagger.train(
        treebank.tagged_sents()[:500])
     log.info("pos_tag: Got tagger: %s", tagger)
-  tagged = tagger.tag(nltk.tokenize.word_tokenize(sentence))
-  return tagged
+  return tagger.tag(nltk.tokenize.word_tokenize(sentence))
 pos_tag("")
 
 
@@ -353,11 +352,11 @@ def start_bot():
   token = getenv("Token", getenv("DISCORD_BOT_TOKEN")).strip('"')
   thread = current_thread()
   log.info(
-    "Starting bot with token '%s%s%s' on thread: %s",
-    token[0:5],
-    "*" * len(token[5:-5]),
-    token[-5:],
-    thread,
+      "Starting bot with token '%s%s%s' on thread: %s",
+      token[:5],
+      "*" * len(token[5:-5]),
+      token[-5:],
+      thread,
   )
   bot._rollout_all_guilds = True
   auto_reload_start(bot)
@@ -697,8 +696,7 @@ def pos_tag(sentence):
       tagger.train(
        treebank.tagged_sents()[:500])
     log.info("pos_tag: Got tagger: %s", tagger)
-  tagged = tagger.tag(nltk.tokenize.word_tokenize(sentence))
-  return tagged
+  return tagger.tag(nltk.tokenize.word_tokenize(sentence))
 pos_tag("")
 
 
@@ -739,11 +737,11 @@ def start_bot():
   token = getenv("Token", getenv("DISCORD_BOT_TOKEN")).strip('"')
   thread = current_thread()
   log.info(
-    "Starting bot with token '%s%s%s' on thread: %s",
-    token[0:5],
-    "*" * len(token[5:-5]),
-    token[-5:],
-    thread,
+      "Starting bot with token '%s%s%s' on thread: %s",
+      token[:5],
+      "*" * len(token[5:-5]),
+      token[-5:],
+      thread,
   )
   bot._rollout_all_guilds = True
   auto_reload_start(bot)
@@ -1078,8 +1076,7 @@ def pos_tag(sentence):
       tagger.train(
        treebank.tagged_sents()[:500])
     log.info("pos_tag: Got tagger: %s", tagger)
-  tagged = tagger.tag(nltk.tokenize.word_tokenize(sentence))
-  return tagged
+  return tagger.tag(nltk.tokenize.word_tokenize(sentence))
 pos_tag("")
 
 
@@ -1113,11 +1110,11 @@ def start_bot():
   token = getenv("Token", getenv("DISCORD_BOT_TOKEN")).strip('"')
   thread = current_thread()
   log.info(
-    "Starting bot with token '%s%s%s' on thread: %s",
-    token[0:5],
-    "*" * len(token[5:-5]),
-    token[-5:],
-    thread,
+      "Starting bot with token '%s%s%s' on thread: %s",
+      token[:5],
+      "*" * len(token[5:-5]),
+      token[-5:],
+      thread,
   )
   bot._rollout_all_guilds = True
   auto_reload_start(bot)
@@ -1462,11 +1459,11 @@ def start_bot():
   token = getenv("Token", getenv("DISCORD_BOT_TOKEN")).strip('"')
   thread = current_thread()
   log.info(
-    "Starting bot with token '%s%s%s' on thread: %s",
-    token[0:5],
-    "*" * len(token[5:-5]),
-    token[-5:],
-    thread,
+      "Starting bot with token '%s%s%s' on thread: %s",
+      token[:5],
+      "*" * len(token[5:-5]),
+      token[-5:],
+      thread,
   )
   bot._rollout_all_guilds = True
   auto_reload_start(bot)
@@ -1752,11 +1749,11 @@ def start_bot():
   token = getenv("Token", getenv("DISCORD_BOT_TOKEN")).strip('"')
   thread = current_thread()
   log.info(
-    "Starting bot with token '%s%s%s' on thread: %s",
-    token[0:5],
-    "*" * len(token[5:-5]),
-    token[-5:],
-    thread,
+      "Starting bot with token '%s%s%s' on thread: %s",
+      token[:5],
+      "*" * len(token[5:-5]),
+      token[-5:],
+      thread,
   )
   bot._rollout_all_guilds = True
   auto_reload_start(bot)

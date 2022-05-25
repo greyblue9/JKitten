@@ -56,7 +56,6 @@ BLACKLIST = {
     "I'm very enthusiastic.",
     "I'm sorry, I didn't mean to hurt your feelings.",
     "\"\"",
-    "is .",
     "I'm sorry, I'm not a native speaker.",
     "where.",
     "what.",
@@ -116,12 +115,8 @@ def fix_pred_response(s):
     if subj not in ("my", "me", "i", "we", "myself")
     else k.getBotPredicate(key)
   )
-  resp = (
-    "".join([s.partition(" .")[0], " ", ans, "."])
-    if ans
-    else "".join(["What ", " ".join(rest), " ", subj, " ", key, "?"])
-  )
-  return resp
+  return ("".join([s.partition(" .")[0], " ", ans, "."]) if ans else "".join(
+      ["What ", " ".join(rest), " ", subj, " ", key, "?"]))
 
 
 def norm_sent(k, s):
@@ -131,23 +126,21 @@ def norm_sent(k, s):
     'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
     locals(),
   )
-  norm = re.sub(
-    r" ([^a-zA-Z0-9_])\1* *",
-    "\\1",
-    " ".join(
-      filter(
-        None,
-        map(
-          str.strip,
-          re.split(
-            r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
-            s,
-          ),
-        ),
-      )
-    ),
+  return re.sub(
+      r" ([^a-zA-Z0-9_])\1* *",
+      "\\1",
+      " ".join(
+          filter(
+              None,
+              map(
+                  str.strip,
+                  re.split(
+                      r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
+                      s,
+                  ),
+              ),
+          )),
   )
-  return norm
 
 
 
@@ -340,28 +333,6 @@ async def gpt_response(bot_message, uid=None):
 
 async def google(bot_message, uid=None):
   return google2(bot_message, uid)
-  if uid is None:
-    from __main__ import DEFAULT_UID as uid
-  log.debug("google(%r, %r) called", bot_message, uid)
-  chat = await get_chat(uid)
-  cats = categorize(bot_message.lower())
-  topic = cats["entities"][0] if cats["entities"] else "*"
-  Sraix = Class.forName("org.alicebot.ab.Sraix")
-  response = Sraix.sraixPannous(bot_message, topic, chat.chat if hasattr(chat, "chat") else chat)
-  if "SRAIXFAILED" in response:
-    log.debug("google(%r, %r) failed with %r", bot_message, uid, response)
-    return ""
-  for b in BLACKLIST:
-    if b.lower() in response.lower() or response.lower() in b:
-      log.debug(
-        "google(%r, %r) discarding response %r because it repeats a previous entry",
-        bot_message,
-        uid,
-        response,
-      )
-      return ""
-  log.info("query Google for %r returns %r", bot_message, response)
-  return response
 
 
 import functools

@@ -54,7 +54,7 @@ tag_meanings = {
 
 def tag_sentence(sentence, describe=False):
   from __main__ import pos_tag
-  
+
   tagged = pos_tag(word_tokenize(sentence))
   if not describe:
     yield from tagged
@@ -66,10 +66,9 @@ def tag_sentence(sentence, describe=False):
       cur = [tag]
       yield word, tuple(cur)
       continue
-    for idx, tup in enumerate(meanings):
+    for tup in meanings:
       if isinstance(tup[0], tuple):
-        for t in tup:
-          cur.append(t[0] if isinstance(t[0], str) else t)
+        cur.extend(t[0] if isinstance(t[0], str) else t for t in tup)
       else:
         cur.append(tup)
     yield word, tuple(cur)
@@ -81,7 +80,7 @@ def parse_text(text: str):
   seen = set()
   for sent in sents:
     toks = list(sent)
-    toks_clean = list(t for t in d if not t.is_stop and not t.is_punct)
+    toks_clean = [t for t in d if not t.is_stop and not t.is_punct]
     if sent.ents:
       yield from map(str, sent.ents)
 
@@ -101,12 +100,10 @@ def contains_seqs(text, *search_seqs):
   d = get_nlp()(text.lower())
   for sent in d.sents:
     tok_strs = tuple(map(str, sent))
-    for search_seq in search_seqs:
-      if any(
-        tok_strs[i : i + len(search_seq)] == search_seq
-        for i in range(0, len(tok_strs) - len(search_seq))
-      ):
-        found.append(search_seq)
+    found.extend(
+        search_seq for search_seq in search_seqs
+        if any(tok_strs[i:i + len(search_seq)] == search_seq
+               for i in range(len(tok_strs) - len(search_seq))))
   return tuple(found)
 
 
@@ -117,14 +114,14 @@ def categorize(text: str):
   log.info("categorize: parsed=%r", parsed)
   items = parsed
   log.info("categorize: items=%r", items)
-  
+
   ctr = Counter(items)
   log.info("categorize: ctr=%r", ctr)
   tokenized = word_tokenize(text.lower())
   log.info("categorize: tokenized=%r", tokenized)
   tagged = pos_tag(text.lower())
   log.info("categorize: text=%r", tagged)
-  
+
   question = False
   person = False
   attributes = []
@@ -133,7 +130,7 @@ def categorize(text: str):
   for wd, pos in tagged:
     if wd.lower().split("'")[0] in ("who", "what", "when", "where", "why", "how"):
       question = True
-  
+
   for item, count in ctr.most_common():
     if count > 1:
       entities.append(item)
@@ -145,8 +142,7 @@ def categorize(text: str):
           if word in ("who", "what", "when", "where", "why", "how"):
             question = True
           if word in ("how", "'s"):
-            next_word = words[widx + 1 : widx + 2]
-            if next_word:
+            if next_word := words[widx + 1:widx + 2]:
               attributes.append(next_word[0])
 
   if (contains_seqs(text, ("what", "is")) or contains_seqs(text, ("what", "was")) or contains_seqs(text, ("what", "were")) or contains_seqs(text, ("who", "is")) or contains_seqs(text, ("who", "was")) or contains_seqs(text, ("who", "were")) or contains_seqs(text, ("where", "is")) or contains_seqs(text, ("where", "was")) or contains_seqs(text, ("where", "were")) or contains_seqs(text, ("when", "is")) or contains_seqs(text, ("when", "are")) or contains_seqs(text, ("when", "were")) or contains_seqs(text, ("how", "do")) or contains_seqs(text, ("how", "does"))):
@@ -157,13 +153,10 @@ def categorize(text: str):
     question = True
     person = True
   if not attributes:
-    attributes.extend(
-      [
-        wd
-        for wd, pos in tagged
-        if pos == "JJ" and not any(wd in ent.split() for ent in entities)
-      ]
-    )
+    attributes.extend([
+        wd for wd, pos in tagged
+        if pos == "JJ" and all(wd not in ent.split() for ent in entities)
+    ])
   return {
     "tagged": tagged,
     "items": items,
@@ -243,10 +236,9 @@ def tag_sentence(sentence, describe=False):
       cur = [tag]
       yield word, tuple(cur)
       continue
-    for idx, tup in enumerate(meanings):
+    for tup in meanings:
       if isinstance(tup[0], tuple):
-        for t in tup:
-          cur.append(t[0] if isinstance(t[0], str) else t)
+        cur.extend(t[0] if isinstance(t[0], str) else t for t in tup)
       else:
         cur.append(tup)
     yield word, tuple(cur)
@@ -265,7 +257,7 @@ def parse_text(text: str):
   seen = set()
   for sent in sents:
     toks = list(sent)
-    toks_clean = list(t for t in d if not t.is_stop and not t.is_punct)
+    toks_clean = [t for t in d if not t.is_stop and not t.is_punct]
     if sent.ents:
       yield from map(str, sent.ents)
 
@@ -285,12 +277,10 @@ def contains_seqs(text, *search_seqs):
   d = get_nlp()(text.lower())
   for sent in d.sents:
     tok_strs = tuple(map(str, sent))
-    for search_seq in search_seqs:
-      if any(
-        tok_strs[i : i + len(search_seq)] == search_seq
-        for i in range(0, len(tok_strs) - len(search_seq))
-      ):
-        found.append(search_seq)
+    found.extend(
+        search_seq for search_seq in search_seqs
+        if any(tok_strs[i:i + len(search_seq)] == search_seq
+               for i in range(len(tok_strs) - len(search_seq))))
   return tuple(found)
 
 
@@ -318,8 +308,7 @@ def categorize(text: str):
           if word in ("who", "what", "when", "where", "why", "how"):
             question = True
           if word in ("how", "'s"):
-            next_word = words[widx + 1 : widx + 2]
-            if next_word:
+            if next_word := words[widx + 1:widx + 2]:
               attributes.append(next_word[0])
 
   if contains_seqs(text, ("what", "is")):
@@ -329,13 +318,10 @@ def categorize(text: str):
     question = True
     person = True
   if not attributes:
-    attributes.extend(
-      [
-        wd
-        for wd, pos in tagged
-        if pos == "JJ" and not any(wd in ent.split() for ent in entities)
-      ]
-    )
+    attributes.extend([
+        wd for wd, pos in tagged
+        if pos == "JJ" and all(wd not in ent.split() for ent in entities)
+    ])
   return {
     "tagged": tagged,
     "items": items,
@@ -410,10 +396,9 @@ def tag_sentence(sentence, describe=False):
       cur = [tag]
       yield word, tuple(cur)
       continue
-    for idx, tup in enumerate(meanings):
+    for tup in meanings:
       if isinstance(tup[0], tuple):
-        for t in tup:
-          cur.append(t[0] if isinstance(t[0], str) else t)
+        cur.extend(t[0] if isinstance(t[0], str) else t for t in tup)
       else:
         cur.append(tup)
     yield word, tuple(cur)
@@ -432,7 +417,7 @@ def parse_text(text: str):
   seen = set()
   for sent in sents:
     toks = list(sent)
-    toks_clean = list(t for t in d if not t.is_stop and not t.is_punct)
+    toks_clean = [t for t in d if not t.is_stop and not t.is_punct]
     if sent.ents:
       yield from map(str, sent.ents)
 
@@ -452,12 +437,10 @@ def contains_seqs(text, *search_seqs):
   d = get_nlp()(text.lower())
   for sent in d.sents:
     tok_strs = tuple(map(str, sent))
-    for search_seq in search_seqs:
-      if any(
-        tok_strs[i : i + len(search_seq)] == search_seq
-        for i in range(0, len(tok_strs) - len(search_seq))
-      ):
-        found.append(search_seq)
+    found.extend(
+        search_seq for search_seq in search_seqs
+        if any(tok_strs[i:i + len(search_seq)] == search_seq
+               for i in range(len(tok_strs) - len(search_seq))))
   return tuple(found)
 
 
@@ -485,10 +468,9 @@ def categorize(text: str):
           if word in ("what", "who", "when", "where", "how", "why"):
             question = True
           if word in ("how", "'s"):
-            next_word = words[widx + 1 : widx + 2]
-            if next_word:
+            if next_word := words[widx + 1:widx + 2]:
               attributes.append(next_word[0])
-  
+
   if contains_seqs(text, ("what", "is")):
     question = True
     person = False
@@ -527,13 +509,10 @@ def categorize(text: str):
     person = False
 
   if not attributes:
-    attributes.extend(
-      [
-        wd
-        for wd, pos in tagged
-        if pos == "JJ" and not any(wd in ent.split() for ent in entities)
-      ]
-    )
+    attributes.extend([
+        wd for wd, pos in tagged
+        if pos == "JJ" and all(wd not in ent.split() for ent in entities)
+    ])
   return {
     "tagged": tagged,
     "items": items,

@@ -5,6 +5,7 @@ from disnake.ext.commands import Command
 from pprint import pprint
 import nltk
 import aiohttp
+import inspect
 from safeeval import SafeEval
 from bs4 import BeautifulSoup as BS
 from bs4 import BeautifulSoup
@@ -344,7 +345,9 @@ async def google(bot_message, uid=None):
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   log.debug("google(%r, %r) called", bot_message, uid)
-  chat = await get_chat(uid)
+  chat = get_chat(uid)
+  if inspect.isawaitable(chat):
+    chat = await chat
   cats = categorize(bot_message.lower())
   topic = cats["entities"][0] if cats["entities"] else "*"
   Sraix = Class.forName("org.alicebot.ab.Sraix")
@@ -561,7 +564,9 @@ async def alice_response(bot_message, uid):
     for o in gc.get_objects()
     if isinstance(o, asyncio.unix_events._UnixSelectorEventLoop) and o.is_running
   ][0]
-  chat = await get_chat(uid)
+  chat = get_chat(uid)
+  if inspect.isawaitable(chat):
+    chat = await chat
   if hasattr(chat, "predicates") and ("name" not in list(
       chat.predicates) or str(chat.predicates.get("name")) == "unknown"):
     chat.predicates.put("name", str(mbs.get(str(uid))).split("#")[0])

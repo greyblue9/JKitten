@@ -3,7 +3,6 @@ from disnake.ext.commands.interaction_bot_base import CommonBotBase
 from disnake.ext.commands import Cog
 from disnake.ext.commands import Command
 from pprint import pprint
-from tagger import *
 import nltk
 import aiohttp
 from safeeval import SafeEval
@@ -53,7 +52,102 @@ BLACKLIST = {
     "good song",
     "search the web",
     "<oob>",
+    "I like a good discussion.",
+    "I'm very enthusiastic.",
+    "I'm sorry, I didn't mean to hurt your feelings.",
+    "\"\"",
+    "is .",
+    "I'm sorry, I'm not a native speaker.",
+    "where.",
+    "what.",
+    " is.",
+    "is .",
+    "when.",
+    "who.",
 }
+
+import pprint
+from pathlib import Path
+import sys
+
+last_input = last_response = ""
+
+
+def get_chat(uid=DEFAULT_UID):
+  return PyAimlChat(uid)
+import __main__
+__main__.get_chat = get_chat
+
+
+class PyAimlChat:
+  def __init__(self, uid=DEFAULT_UID):
+    self.uid = uid
+  def multisentenceRespond(self, query):
+    resp = alice_response_inner(query, self.uid)
+    if any(
+      w.lower() in resp.lower() or resp.lower() in w.lower()
+      for w in BLACKLIST
+    ):
+      log.info("Not using due to blacklist: %s", resp)
+      resp = ""
+      
+    return resp.replace('is I.', 'is Alice').replace('I is', 'Alice is').replace('led I.', 'led Alice.')
+
+
+def alice_response_inner(q, uid=DEFAULT_UID):
+  from __main__ import get_kernel
+  k = get_kernel() 
+  log.info("alice_response_inner: q=%s", q)
+  q2 = norm_sent(k, q)
+  log.info("alice_response_inner: q2=%s", q2)
+  r = k.respond(q2)
+  log.info("alice_response_inner: r=%s", r)
+  r2 = fix_pred_response(r) if " ." in r else r
+  log.info("alice_response_inner: r2=%s", r2)
+  return r2
+
+
+def fix_pred_response(s):
+  from __main__ import get_kernel
+  k = get_kernel()
+  subj, key, *rest = s.partition(" .")[0].lower().split()
+  ans = (
+    k.getPredicate(key, subj)
+    if subj not in ("my", "me", "i", "we", "myself")
+    else k.getBotPredicate(key)
+  )
+  resp = (
+    "".join([s.partition(" .")[0], " ", ans, "."])
+    if ans
+    else "".join(["What ", " ".join(rest), " ", subj, " ", key, "?"])
+  )
+  return resp
+
+
+def norm_sent(k, s):
+  import re
+
+  exec(
+    'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
+    locals(),
+  )
+  norm = re.sub(
+    r" ([^a-zA-Z0-9_])\1* *",
+    "\\1",
+    " ".join(
+      filter(
+        None,
+        map(
+          str.strip,
+          re.split(
+            r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
+            s,
+          ),
+        ),
+      )
+    ),
+  )
+  return norm
 
 
 
@@ -227,8 +321,7 @@ async def gpt_response(bot_message, uid=None):
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   log.debug("gpt_response(%r, %r)", bot_message, uid)
-  last_input = inputs.setdefault(uid, [""])[-1]
-  last_response = responses.setdefault(uid, [""])[-1]
+
   response = await get_response(bot_message, uid)
   if not response:
     return ""
@@ -241,27 +334,12 @@ async def gpt_response(bot_message, uid=None):
         response,
       )
       return ""
-  if "" in set(
-    filter(
-      None,
-      (
-        re.subn("[^a-z]+", "", s.lower(), re.IGNORECASE)[0]
-        for s in (last_input or "", last_response or "", bot_message or "")
-      ),
-    )
-  ):
-    log.debug(
-      "gpt_response(%r, %r) discarding response %r because it repeats a previous entry",
-      bot_message,
-      uid,
-      response,
-    )
-    return ""
   log.info("query GPT for %r returns %r", bot_message, response)
   return response
 
 
 async def google(bot_message, uid=None):
+  return google2(bot_message, uid)
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   log.debug("google(%r, %r) called", bot_message, uid)
@@ -631,6 +709,13 @@ class ChatCog(Cog):
         if any(bot_message.lower().strip().startswith(w) for w in (
           "who is your",
           "what is your",
+          "who are your",
+          "who was your",
+          "what is your",
+          "what are your",
+          "what was your",
+          "when is your",
+          "what are your",
         )):
           if new_response := await alice_response(bot_message, uid):
             return await respond(new_response)
@@ -668,13 +753,14 @@ class ChatCog(Cog):
         print(f"{has_personal=}")
         print(f"{has_proper_noun=}")
         print(f"{has_poss_pronoun=}")
+          
         if (
           cats["tagged"]
           and cats["tagged"][0]
-          and cats["tagged"][0][0] in ("what", "who", "when", "where")
+          and cats["tagged"][0][0] in ("what", "who", "when", "where", "how", "why")
           and len(cats["tagged"]) > 1
           and cats["tagged"][1]
-          and cats["tagged"][1][0] in ("is", "are")
+          and cats["tagged"][1][0] in ("is", "are", "were", "was", "has", "do," "does", "had")
           and cats["question"]
           and not cats["person"]
         ):
@@ -810,7 +896,7 @@ class ChatCog(Cog):
         color=Color.red(),
       )
       embed.add_field(name="Your name", value=message.author.name)
-      embed.add_field(name="Your message", value=message.content)
+      embed.add_field(name="Your message", value=content)
       embed.add_field(name="Translated message", value=bot_message)
       await message.reply(
         response,

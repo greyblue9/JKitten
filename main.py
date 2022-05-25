@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup as BS
 import inspect
 import re
 import asyncio
+import inspect
 import requests
 import disnake
 from disnake.ext import commands
@@ -49,6 +50,10 @@ for log_name in (
   "disnake.voice_client",
   "disnake.webhook",
   "disnake.webhook",
+  "watchdog.events",
+  "watchdog.observers.fsevents",
+  "watchdog.observers.fsevents2",
+  "watchdog.observers.inotify_buffer",
 ):
   logging.getLogger(log_name).setLevel(logging.INFO)
 from disnake.utils import find
@@ -178,7 +183,7 @@ intents.value |= disnake.Intents.message_content.flag
 intents.value |= disnake.Intents.guilds.flag
 intents.value |= disnake.Intents.members.flag
 
-bot = AutoShardedBot(
+bot = Bot(
   command_prefix=PREFIX,
   sync_commands=True,
   sync_commands_debug=True,
@@ -384,8 +389,33 @@ def start_bot():
 
 
 loop = get_event_loop_policy().get_event_loop()
-loop.run_until_complete(get_chat(DEFAULT_UID))
+# loop.run_until_complete(get_chat(DEFAULT_UID))
 Thread(target=start_bot).start()
+
+
+
+def iter_over(coro):
+  from threading import Event
+  it = coro.__aiter__()
+  rslts = []
+  try:
+    while True:
+      f = asyncio.run_coroutine_threadsafe(
+        it.__anext__(), loop
+      )
+      ev = Event()
+      def on_done(_):
+        ev.set()
+      f.add_done_callback(on_done)
+      if ev.wait():
+        rslts.append(f.result())
+      else:
+        break
+  except StopAsyncIteration:
+    pass
+  return rslts
+  
+
 import code
 
 cons = code.InteractiveConsole(locals())

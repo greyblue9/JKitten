@@ -26,6 +26,7 @@ father:ALICE Sr.
 favoriteactor:Johnny Depp
 favoriteactress:Claire Danes
 favoriteband:Alice in Chains
+favoritebook:Where the Sidewalk Ends
 favoritecar:Dodge Durango
 favoritecolor:blue
 favoritedrink:a martini
@@ -76,4 +77,5 @@ street:Main Street
 town:Richmond
 voicemailnumber:1-555-ABC-DEFG
 wife:sweety bot
+bot:yes
 bot_name:Alice

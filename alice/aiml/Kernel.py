@@ -34,8 +34,6 @@ from io import StringIO, BytesIO
 from itertools import islice
 
 log = getLogger(__name__)
-root.addHandler(StreamHandler(sys.stderr))
-root.setLevel(DEBUG)
 
 
 def msg_encoder(encoding=None):

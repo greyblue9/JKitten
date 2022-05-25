@@ -339,7 +339,9 @@ async def gpt_response(bot_message, uid=None):
 
 
 async def google(bot_message, uid=None):
-  return google2(bot_message, uid)
+  import __main__
+  if not hasattr("__main__", "Chat"):
+    return google2(bot_message, uid)
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   log.debug("google(%r, %r) called", bot_message, uid)

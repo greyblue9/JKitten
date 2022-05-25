@@ -707,7 +707,8 @@ class ChatCog(Cog):
     try:
       with message.channel.typing():
         import __main__
-        if not hasattr(__main__, "Chat"):
+        from __main__ import USE_JAVA
+        if not USE_JAVA and not hasattr(__main__, "Chat"):
           from __main__ import get_kernel
           bot_message = norm_sent(get_kernel(), bot_message)
         if (last_response.strip().endswith("?") and last_model):
@@ -773,7 +774,10 @@ class ChatCog(Cog):
           and not cats["person"]
         ):
           print("Google")
-          if new_response := await alice_response(bot_message, uid):
+          if new_response := google2(bot_message, uid):
+            if inspect.isawaitable(new_response):
+            new_response = await new_response
+          if new_response:
             return await respond(new_response)
 
         if bot_message.lower().startswith("my name is "):

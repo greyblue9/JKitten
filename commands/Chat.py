@@ -176,13 +176,11 @@ async def wolfram_alpha(inpt, uid=None):
 
 
 last_model = None
-async def get_response(message, uid, model=None):
-  
-  model = None
+async def get_response(bot_message, uid, model=None, message=None):
   print("*** in ", message, uid, model, responses.setdefault(uid,[""]))
   global last_model
   response = None
-  inpt = bot_message = message
+  inpt = bot_message
   data = {}
   for attempt in range(4):
     if response:
@@ -198,20 +196,20 @@ async def get_response(message, uid, model=None):
         model_names := ( 
           "microsoft/DialoGPT-large",
           "microsoft/DialoGPT-medium",
-          "facebook/blenderbot-400M-distill",
+          "microsoft/DialoGPT-small",
           "deepparag/Aeona",
+          "facebook/blenderbot-400M-distill",
           "facebook/blenderbot-90M",
           "facebook/blenderbot-3B",
           "facebook/blenderbot_small-90M",
-          "microsoft/DialoGPT-small",
         ),
-        weights := (125, 15,15, 5,6,9,15,17),
+        weights := (225, 15,15, 5,6,9,15,17),
       )[0]
       model_idx = model_names.index(model)
       weight = weights[model_idx]
       log.info(
       "\nget_response(%r, %r): selected model\n\n" "    %r   (weight: %s)\n\n",
-      message,
+      bot_message,
       uid,
       model,
       weight,
@@ -222,7 +220,7 @@ async def get_response(message, uid, model=None):
     payload = {
       "generated_responses": [],
       "past_user_inputs": [],
-      "text": message,
+      "text": bot_message,
     }
     context = random.randint(0, 4)
     if context > 3:
@@ -245,8 +243,13 @@ async def get_response(message, uid, model=None):
           pprint(data)
         if not data:
           data = {"error": "No reply", "estimated_time": 5}
-        if data.get("error"):
-          await asyncio.sleep(data.get("estimated_time", 6))
+        if data.get("estimated_time"):
+          sleepytime = data.get("estimated_time", 0)
+          if sleepytime:
+            import time
+            ts = int(time.time() + sleepytime)
+            await message.reply(f"Please wait <t:{ts}:R>, I am working on a response ...", delete_after=sleepytime)
+            await asyncio.sleep(sleepytime)
           async with ClientSession() as session:
             async with session.post(
               API_URL, headers=headers, json=payload
@@ -290,12 +293,12 @@ async def get_response(message, uid, model=None):
   return response
 
 
-async def gpt_response(bot_message, uid=None):
+async def gpt_response(bot_message, uid=None, message=message):
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   log.debug("gpt_response(%r, %r)", bot_message, uid)
 
-  response = await get_response(bot_message, uid)
+  response = await get_response(bot_message, uid=uid, message=message)
   if not response:
     return ""
   for b in BLACKLIST:
@@ -705,7 +708,7 @@ class ChatCog(Cog):
           from __main__ import get_kernel
           bot_message = norm_sent(get_kernel(), bot_message)
         if (last_response.strip().endswith("?") and last_model):
-          if new_response := await gpt_response(bot_message, uid):
+          if new_response := await gpt_response(bot_message, uid, message):
             return await respond(new_response)
             
         if any(bot_message.lower().strip().startswith(w) for w in (
@@ -840,7 +843,7 @@ class ChatCog(Cog):
           if pos in ("DT", "JJR", "PRP", "PRP$")
         )
         if exclaim_score >= 4:
-          if new_response := await gpt_response(bot_message, uid):
+          if new_response := await gpt_response(bot_message, uid, message):
             return await respond(new_response)
 
         if m := re.compile(
@@ -859,7 +862,7 @@ class ChatCog(Cog):
           if not cats["question"] or (
             not cats["person"] and not cats["entities"]
           ):
-            if new_response := await gpt_response(bot_message, uid):
+            if new_response := await gpt_response(bot_message, uid, message):
               response = new_response
 
           elif new_response := await wolfram_alpha(bot_message, uid):

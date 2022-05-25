@@ -26,43 +26,38 @@ class Class:
 
 
 BLACKLIST = {
-  "JSFAILED",
-  "I know, right",
-  "serious or not",
-  "I'm not sure what you're trying to say",
-  "joking or not",
-  "SRAIXFAILED",
-  "the last of us",
-  "a guy making a video ",
-  "is the guy who made the video",
-  "making a video",
-  "want to talk about unknown",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "Thanks for the trade",
-  "being sarcastic",
-  "reference to the song",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "not sure what you mean",
-  "web search",
-  "good song",
-  "search the web",
-  "<oob>",
-  "I like a good discussion.",
-  "I'm very enthusiastic.",
-  "I'm sorry, I didn't mean to hurt your feelings.",
-  "\"\"",
-  "is .",
-  "I'm sorry, I'm not a native speaker.",
-  "where.",
-  "what.",
-  " is.",
-  "is .",
-  "when.",
-  "who.",
+    "JSFAILED",
+    "I know, right",
+    "serious or not",
+    "I'm not sure what you're trying to say",
+    "joking or not",
+    "SRAIXFAILED",
+    "the last of us",
+    "a guy making a video ",
+    "is the guy who made the video",
+    "making a video",
+    "want to talk about unknown",
+    "Thanks for the trade",
+    "being sarcastic",
+    "Are you a girl",
+    "reference to the song",
+    "I'm over hereactly",
+    "not sure what you mean",
+    "web search",
+    "good song",
+    "search the web",
+    "<oob>",
+    "I like a good discussion.",
+    "I'm very enthusiastic.",
+    "I'm sorry, I didn't mean to hurt your feelings.",
+    "\"\"",
+    "I'm sorry, I'm not a native speaker.",
+    "where.",
+    "what.",
+    " is.",
+    "is .",
+    "when.",
+    "who.",
 }
 
 import pprint
@@ -115,12 +110,8 @@ def fix_pred_response(s):
     if subj not in ("my", "me", "i", "we", "myself")
     else k.getBotPredicate(key)
   )
-  resp = (
-    "".join([s.partition(" .")[0], " ", ans, "."])
-    if ans
-    else "".join(["What ", " ".join(rest), " ", subj, " ", key, "?"])
-  )
-  return resp
+  return ("".join([s.partition(" .")[0], " ", ans, "."]) if ans else "".join(
+      ["What ", " ".join(rest), " ", subj, " ", key, "?"]))
 
 
 def norm_sent(k, s):
@@ -130,23 +121,21 @@ def norm_sent(k, s):
     'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
     locals(),
   )
-  norm = re.sub(
-    r" ([^a-zA-Z0-9_])\1* *",
-    "\\1",
-    " ".join(
-      filter(
-        None,
-        map(
-          str.strip,
-          re.split(
-            r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
-            s,
-          ),
-        ),
-      )
-    ),
+  return re.sub(
+      r" ([^a-zA-Z0-9_])\1* *",
+      "\\1",
+      " ".join(
+          filter(
+              None,
+              map(
+                  str.strip,
+                  re.split(
+                      r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
+                      s,
+                  ),
+              ),
+          )),
   )
-  return norm
 
 
 
@@ -217,7 +206,8 @@ async def get_response(message, uid, model=None):
   response = None
   inpt = bot_message = message
   data = {}
-  for attempt in range(4):
+  token = "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"
+  for _ in range(4):
     if response:
       return response
     print("?? in ", last_model)
@@ -249,7 +239,6 @@ async def get_response(message, uid, model=None):
       model,
       weight,
       )
-    token = "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"
     headers = {"Authorization": f"Bearer {token}"}
     API_URL = f"https://api-inference.huggingface.co/models/{model}"
     payload = {
@@ -345,9 +334,6 @@ async def gpt_response(bot_message, uid=None):
 
 async def google(bot_message, uid=None):
   return google2(bot_message, uid)
-  if uid is None:
-    from __main__ import DEFAULT_UID as uid
-  return google2(bot_message, uid)
   
 from pprint import pprint
 import functools
@@ -355,10 +341,10 @@ import functools
 def strip_xtra(s):
   import codecs, re
   print("strip_xtra(%r)" % (s,))
-  
+
   escaped = codecs.unicode_escape_encode(s)[0]
   print("strip_xtra(%r): escaped=%r" % (s, escaped))
-  
+
   splits = re.compile(rb"[\t ][\t ]+|\\n|\\xb7|\\xa0", re.DOTALL).split(escaped)
   ok = []
   for i in splits:
@@ -372,19 +358,16 @@ def strip_xtra(s):
     return ""
   ordered = sorted(ok, key=len)
   longest = ordered[-1]
-  
+
   s0 = codecs.unicode_escape_decode(longest)[0]
   print("strip_xtra(%r): s0=%r" % (s, s0))
-  
+
   s1 = re.compile(
     "(?<=[^a-zA-Z])'((?:[^'.]|(?<=[a-z]))'[a-z]+)(\\.?)'",
     re.DOTALL
   ).sub("\\1", s0).strip()
-  
-  s2 = re.compile(
-    "([a-z])'[a-z]*", re.DOTALL
-  ).sub("\\1", s1).strip()
-  return s2
+
+  return re.compile("([a-z])'[a-z]*", re.DOTALL).sub("\\1", s1).strip()
 
 
 
@@ -406,8 +389,8 @@ def google2(bot_message, uid=0, req_url=None):
         ("is", "are," "were", "was"),
       )
     )
-  
-    query = '"{}"'.format(ans_marker)
+
+    query = f'"{ans_marker}"'
   except Exception:
     ans_marker = bot_message
     query = bot_message
@@ -417,9 +400,7 @@ def google2(bot_message, uid=0, req_url=None):
   from urllib.parse import quote_plus
 
   if not req_url:
-    req_url = "https://www.google.com/search?client=safari&rls=en&gbv=1&q={}&hl=en&num=10".format(
-      quote_plus(query)
-    )
+    req_url = f"https://www.google.com/search?client=safari&rls=en&gbv=1&q={quote_plus(query)}&hl=en&num=10"
 
   headers = {
     "Accept-Language": "en-us",
@@ -463,10 +444,10 @@ def google2(bot_message, uid=0, req_url=None):
   for idx, d in reversed(list(enumerate(descrips))):
     if " is " not in d.strip() and " are " not in d.strip() and " were " not in d.strip() and " was " not in d.strip() and " will " not in d.strip() and " has " not in d.strip() and " have " not in d.strip() and " can " not in d.strip():
       descrips.pop(idx)
-  
+
   descrips = [strip_xtra(d) for d in descrips]
   print("descrips=", descrips)
-  
+
   answers = [
     e[e.lower().index(strip_xtra(ans_marker).lower()) :]
     .strip(". ")
@@ -476,7 +457,7 @@ def google2(bot_message, uid=0, req_url=None):
     if strip_xtra(ans_marker).lower() in e.lower()
   ]
   print("answers=", answers)
-  
+
   answer = answers[-1] if answers else None
   try:
     next_url = "https://www.google.com{}".format(
@@ -484,7 +465,7 @@ def google2(bot_message, uid=0, req_url=None):
     )
   except StopIteration:
     next_url = None
-  
+
   return (
     (answer[0].upper() + answer[1:]).strip(" \n\t.")+"."
     if answer
@@ -828,43 +809,38 @@ class Class:
 
 
 BLACKLIST = {
-  "JSFAILED",
-  "I know, right",
-  "serious or not",
-  "I'm not sure what you're trying to say",
-  "joking or not",
-  "SRAIXFAILED",
-  "the last of us",
-  "a guy making a video ",
-  "is the guy who made the video",
-  "making a video",
-  "want to talk about unknown",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "Thanks for the trade",
-  "being sarcastic",
-  "reference to the song",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "not sure what you mean",
-  "web search",
-  "good song",
-  "search the web",
-  "<oob>",
-  "I like a good discussion.",
-  "I'm very enthusiastic.",
-  "I'm sorry, I didn't mean to hurt your feelings.",
-  "\"\"",
-  "is .",
-  "I'm sorry, I'm not a native speaker.",
-  "where.",
-  "what.",
-  " is.",
-  "is .",
-  "when.",
-  "who.",
+    "JSFAILED",
+    "I know, right",
+    "serious or not",
+    "I'm not sure what you're trying to say",
+    "joking or not",
+    "SRAIXFAILED",
+    "the last of us",
+    "a guy making a video ",
+    "is the guy who made the video",
+    "making a video",
+    "want to talk about unknown",
+    "Thanks for the trade",
+    "being sarcastic",
+    "Are you a girl",
+    "reference to the song",
+    "I'm over hereactly",
+    "not sure what you mean",
+    "web search",
+    "good song",
+    "search the web",
+    "<oob>",
+    "I like a good discussion.",
+    "I'm very enthusiastic.",
+    "I'm sorry, I didn't mean to hurt your feelings.",
+    "\"\"",
+    "I'm sorry, I'm not a native speaker.",
+    "where.",
+    "what.",
+    " is.",
+    "is .",
+    "when.",
+    "who.",
 }
 
 import pprint
@@ -916,12 +892,8 @@ def fix_pred_response(s):
     if subj not in ("my", "me", "i", "we", "myself")
     else k.getBotPredicate(key)
   )
-  resp = (
-    "".join([s.partition(" .")[0], " ", ans, "."])
-    if ans
-    else "".join(["What ", " ".join(rest), " ", subj, " ", key, "?"])
-  )
-  return resp
+  return ("".join([s.partition(" .")[0], " ", ans, "."]) if ans else "".join(
+      ["What ", " ".join(rest), " ", subj, " ", key, "?"]))
 
 
 def norm_sent(k, s):
@@ -931,23 +903,21 @@ def norm_sent(k, s):
     'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
     locals(),
   )
-  norm = re.sub(
-    r" ([^a-zA-Z0-9_])\1* *",
-    "\\1",
-    " ".join(
-      filter(
-        None,
-        map(
-          str.strip,
-          re.split(
-            r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
-            s,
-          ),
-        ),
-      )
-    ),
+  return re.sub(
+      r" ([^a-zA-Z0-9_])\1* *",
+      "\\1",
+      " ".join(
+          filter(
+              None,
+              map(
+                  str.strip,
+                  re.split(
+                      r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
+                      s,
+                  ),
+              ),
+          )),
   )
-  return norm
 
 
 
@@ -1018,7 +988,8 @@ async def get_response(message, uid, model=None):
   response = None
   inpt = bot_message = message
   data = {}
-  for attempt in range(4):
+  token = "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"
+  for _ in range(4):
     if response:
       return response
     print("?? in ", last_model)
@@ -1050,7 +1021,6 @@ async def get_response(message, uid, model=None):
       model,
       weight,
       )
-    token = "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"
     headers = {"Authorization": f"Bearer {token}"}
     API_URL = f"https://api-inference.huggingface.co/models/{model}"
     payload = {
@@ -1146,9 +1116,6 @@ async def gpt_response(bot_message, uid=None):
 
 async def google(bot_message, uid=None):
   return google2(bot_message, uid)
-  if uid is None:
-    from __main__ import DEFAULT_UID as uid
-  return google2(bot_message, uid)
   
 from pprint import pprint
 import functools
@@ -1156,10 +1123,10 @@ import functools
 def strip_xtra(s):
   import codecs, re
   print("strip_xtra(%r)" % (s,))
-  
+
   escaped = codecs.unicode_escape_encode(s)[0]
   print("strip_xtra(%r): escaped=%r" % (s, escaped))
-  
+
   splits = re.compile(rb"[\t ][\t ]+|\\n|\\xb7|\\xa0", re.DOTALL).split(escaped)
   ok = []
   for i in splits:
@@ -1173,19 +1140,16 @@ def strip_xtra(s):
     return ""
   ordered = sorted(ok, key=len)
   longest = ordered[-1]
-  
+
   s0 = codecs.unicode_escape_decode(longest)[0]
   print("strip_xtra(%r): s0=%r" % (s, s0))
-  
+
   s1 = re.compile(
     "(?<=[^a-zA-Z])'((?:[^'.]|(?<=[a-z]))'[a-z]+)(\\.?)'",
     re.DOTALL
   ).sub("\\1", s0).strip()
-  
-  s2 = re.compile(
-    "([a-z])'[a-z]*", re.DOTALL
-  ).sub("\\1", s1).strip()
-  return s2
+
+  return re.compile("([a-z])'[a-z]*", re.DOTALL).sub("\\1", s1).strip()
 
 
 
@@ -1207,8 +1171,8 @@ def google2(bot_message, uid=0, req_url=None):
         ("is", "are," "were", "was"),
       )
     )
-  
-    query = '"{}"'.format(ans_marker)
+
+    query = f'"{ans_marker}"'
   except Exception:
     ans_marker = bot_message
     query = bot_message
@@ -1218,9 +1182,7 @@ def google2(bot_message, uid=0, req_url=None):
   from urllib.parse import quote_plus
 
   if not req_url:
-    req_url = "https://www.google.com/search?client=safari&rls=en&gbv=1&q={}&hl=en&num=10".format(
-      quote_plus(query)
-    )
+    req_url = f"https://www.google.com/search?client=safari&rls=en&gbv=1&q={quote_plus(query)}&hl=en&num=10"
 
   headers = {
     "Accept-Language": "en-us",
@@ -1264,10 +1226,10 @@ def google2(bot_message, uid=0, req_url=None):
   for idx, d in reversed(list(enumerate(descrips))):
     if " is " not in d.strip() and " are " not in d.strip() and " were " not in d.strip() and " was " not in d.strip() and " will " not in d.strip() and " has " not in d.strip() and " have " not in d.strip() and " can " not in d.strip():
       descrips.pop(idx)
-  
+
   descrips = [strip_xtra(d) for d in descrips]
   print("descrips=", descrips)
-  
+
   answers = [
     e[e.lower().index(strip_xtra(ans_marker).lower()) :]
     .strip(". ")
@@ -1277,7 +1239,7 @@ def google2(bot_message, uid=0, req_url=None):
     if strip_xtra(ans_marker).lower() in e.lower()
   ]
   print("answers=", answers)
-  
+
   answer = answers[-1] if answers else None
   try:
     next_url = "https://www.google.com{}".format(
@@ -1285,7 +1247,7 @@ def google2(bot_message, uid=0, req_url=None):
     )
   except StopIteration:
     next_url = None
-  
+
   return (
     (answer[0].upper() + answer[1:]).strip(" \n\t.")+"."
     if answer
@@ -1629,43 +1591,38 @@ class Class:
 
 
 BLACKLIST = {
-  "JSFAILED",
-  "I know, right",
-  "serious or not",
-  "I'm not sure what you're trying to say",
-  "joking or not",
-  "SRAIXFAILED",
-  "the last of us",
-  "a guy making a video ",
-  "is the guy who made the video",
-  "making a video",
-  "want to talk about unknown",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "Thanks for the trade",
-  "being sarcastic",
-  "reference to the song",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "not sure what you mean",
-  "web search",
-  "good song",
-  "search the web",
-  "<oob>",
-  "I like a good discussion.",
-  "I'm very enthusiastic.",
-  "I'm sorry, I didn't mean to hurt your feelings.",
-  "\"\"",
-  "is .",
-  "I'm sorry, I'm not a native speaker.",
-  "where.",
-  "what.",
-  " is.",
-  "is .",
-  "when.",
-  "who.",
+    "JSFAILED",
+    "I know, right",
+    "serious or not",
+    "I'm not sure what you're trying to say",
+    "joking or not",
+    "SRAIXFAILED",
+    "the last of us",
+    "a guy making a video ",
+    "is the guy who made the video",
+    "making a video",
+    "want to talk about unknown",
+    "Thanks for the trade",
+    "being sarcastic",
+    "Are you a girl",
+    "reference to the song",
+    "I'm over hereactly",
+    "not sure what you mean",
+    "web search",
+    "good song",
+    "search the web",
+    "<oob>",
+    "I like a good discussion.",
+    "I'm very enthusiastic.",
+    "I'm sorry, I didn't mean to hurt your feelings.",
+    "\"\"",
+    "I'm sorry, I'm not a native speaker.",
+    "where.",
+    "what.",
+    " is.",
+    "is .",
+    "when.",
+    "who.",
 }
 
 import pprint
@@ -1716,12 +1673,8 @@ def fix_pred_response(s):
     if subj not in ("my", "me", "i", "we", "myself")
     else k.getBotPredicate(key)
   )
-  resp = (
-    "".join([s.partition(" .")[0], " ", ans, "."])
-    if ans
-    else "".join(["What ", " ".join(rest), " ", subj, " ", key, "?"])
-  )
-  return resp
+  return ("".join([s.partition(" .")[0], " ", ans, "."]) if ans else "".join(
+      ["What ", " ".join(rest), " ", subj, " ", key, "?"]))
 
 
 def norm_sent(k, s):
@@ -1731,23 +1684,21 @@ def norm_sent(k, s):
     'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
     locals(),
   )
-  norm = re.sub(
-    r" ([^a-zA-Z0-9_])\1* *",
-    "\\1",
-    " ".join(
-      filter(
-        None,
-        map(
-          str.strip,
-          re.split(
-            r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
-            s,
-          ),
-        ),
-      )
-    ),
+  return re.sub(
+      r" ([^a-zA-Z0-9_])\1* *",
+      "\\1",
+      " ".join(
+          filter(
+              None,
+              map(
+                  str.strip,
+                  re.split(
+                      r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
+                      s,
+                  ),
+              ),
+          )),
   )
-  return norm
 
 
 
@@ -1818,7 +1769,8 @@ async def get_response(message, uid, model=None):
   response = None
   inpt = bot_message = message
   data = {}
-  for attempt in range(4):
+  token = "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"
+  for _ in range(4):
     if response:
       return response
     print("?? in ", last_model)
@@ -1850,7 +1802,6 @@ async def get_response(message, uid, model=None):
       model,
       weight,
       )
-    token = "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"
     headers = {"Authorization": f"Bearer {token}"}
     API_URL = f"https://api-inference.huggingface.co/models/{model}"
     payload = {
@@ -1946,9 +1897,6 @@ async def gpt_response(bot_message, uid=None):
 
 async def google(bot_message, uid=None):
   return google2(bot_message, uid)
-  if uid is None:
-    from __main__ import DEFAULT_UID as uid
-  return google2(bot_message, uid)
   
 from pprint import pprint
 import functools
@@ -1956,10 +1904,10 @@ import functools
 def strip_xtra(s):
   import codecs, re
   print("strip_xtra(%r)" % (s,))
-  
+
   escaped = codecs.unicode_escape_encode(s)[0]
   print("strip_xtra(%r): escaped=%r" % (s, escaped))
-  
+
   splits = re.compile(rb"[\t ][\t ]+|\\n|\\xb7|\\xa0", re.DOTALL).split(escaped)
   ok = []
   for i in splits:
@@ -1973,19 +1921,16 @@ def strip_xtra(s):
     return ""
   ordered = sorted(ok, key=len)
   longest = ordered[-1]
-  
+
   s0 = codecs.unicode_escape_decode(longest)[0]
   print("strip_xtra(%r): s0=%r" % (s, s0))
-  
+
   s1 = re.compile(
     "(?<=[^a-zA-Z])'((?:[^'.]|(?<=[a-z]))'[a-z]+)(\\.?)'",
     re.DOTALL
   ).sub("\\1", s0).strip()
-  
-  s2 = re.compile(
-    "([a-z])'[a-z]*", re.DOTALL
-  ).sub("\\1", s1).strip()
-  return s2
+
+  return re.compile("([a-z])'[a-z]*", re.DOTALL).sub("\\1", s1).strip()
 
 
 
@@ -2007,8 +1952,8 @@ def google2(bot_message, uid=0, req_url=None):
         ("is", "are," "were", "was"),
       )
     )
-  
-    query = '"{}"'.format(ans_marker)
+
+    query = f'"{ans_marker}"'
   except Exception:
     ans_marker = bot_message
     query = bot_message
@@ -2018,9 +1963,7 @@ def google2(bot_message, uid=0, req_url=None):
   from urllib.parse import quote_plus
 
   if not req_url:
-    req_url = "https://www.google.com/search?client=safari&rls=en&gbv=1&q={}&hl=en&num=10".format(
-      quote_plus(query)
-    )
+    req_url = f"https://www.google.com/search?client=safari&rls=en&gbv=1&q={quote_plus(query)}&hl=en&num=10"
 
   headers = {
     "Accept-Language": "en-us",
@@ -2064,10 +2007,10 @@ def google2(bot_message, uid=0, req_url=None):
   for idx, d in reversed(list(enumerate(descrips))):
     if " is " not in d.strip() and " are " not in d.strip() and " were " not in d.strip() and " was " not in d.strip() and " will " not in d.strip() and " has " not in d.strip() and " have " not in d.strip() and " can " not in d.strip():
       descrips.pop(idx)
-  
+
   descrips = [strip_xtra(d) for d in descrips]
   print("descrips=", descrips)
-  
+
   answers = [
     e[e.lower().index(strip_xtra(ans_marker).lower()) :]
     .strip(". ")
@@ -2077,7 +2020,7 @@ def google2(bot_message, uid=0, req_url=None):
     if strip_xtra(ans_marker).lower() in e.lower()
   ]
   print("answers=", answers)
-  
+
   answer = answers[-1] if answers else None
   try:
     next_url = "https://www.google.com{}".format(
@@ -2085,7 +2028,7 @@ def google2(bot_message, uid=0, req_url=None):
     )
   except StopIteration:
     next_url = None
-  
+
   return (
     (answer[0].upper() + answer[1:]).strip(" \n\t.")+"."
     if answer
@@ -2431,43 +2374,38 @@ class Class:
 
 
 BLACKLIST = {
-  "JSFAILED",
-  "I know, right",
-  "serious or not",
-  "I'm not sure what you're trying to say",
-  "joking or not",
-  "SRAIXFAILED",
-  "the last of us",
-  "a guy making a video ",
-  "is the guy who made the video",
-  "making a video",
-  "want to talk about unknown",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "Thanks for the trade",
-  "being sarcastic",
-  "reference to the song",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "not sure what you mean",
-  "web search",
-  "good song",
-  "search the web",
-  "<oob>",
-  "I like a good discussion.",
-  "I'm very enthusiastic.",
-  "I'm sorry, I didn't mean to hurt your feelings.",
-  "\"\"",
-  "is .",
-  "I'm sorry, I'm not a native speaker.",
-  "where.",
-  "what.",
-  " is.",
-  "is .",
-  "when.",
-  "who.",
+    "JSFAILED",
+    "I know, right",
+    "serious or not",
+    "I'm not sure what you're trying to say",
+    "joking or not",
+    "SRAIXFAILED",
+    "the last of us",
+    "a guy making a video ",
+    "is the guy who made the video",
+    "making a video",
+    "want to talk about unknown",
+    "Thanks for the trade",
+    "being sarcastic",
+    "Are you a girl",
+    "reference to the song",
+    "I'm over hereactly",
+    "not sure what you mean",
+    "web search",
+    "good song",
+    "search the web",
+    "<oob>",
+    "I like a good discussion.",
+    "I'm very enthusiastic.",
+    "I'm sorry, I didn't mean to hurt your feelings.",
+    "\"\"",
+    "I'm sorry, I'm not a native speaker.",
+    "where.",
+    "what.",
+    " is.",
+    "is .",
+    "when.",
+    "who.",
 }
 
 import pprint
@@ -2518,12 +2456,8 @@ def fix_pred_response(s):
     if subj not in ("my", "me", "i", "we", "myself")
     else k.getBotPredicate(key)
   )
-  resp = (
-    "".join([s.partition(" .")[0], " ", ans, "."])
-    if ans
-    else "".join(["What ", " ".join(rest), " ", subj, " ", key, "?"])
-  )
-  return resp
+  return ("".join([s.partition(" .")[0], " ", ans, "."]) if ans else "".join(
+      ["What ", " ".join(rest), " ", subj, " ", key, "?"]))
 
 
 def norm_sent(k, s):
@@ -2533,23 +2467,21 @@ def norm_sent(k, s):
     'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
     locals(),
   )
-  norm = re.sub(
-    r" ([^a-zA-Z0-9_])\1* *",
-    "\\1",
-    " ".join(
-      filter(
-        None,
-        map(
-          str.strip,
-          re.split(
-            r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
-            s,
-          ),
-        ),
-      )
-    ),
+  return re.sub(
+      r" ([^a-zA-Z0-9_])\1* *",
+      "\\1",
+      " ".join(
+          filter(
+              None,
+              map(
+                  str.strip,
+                  re.split(
+                      r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
+                      s,
+                  ),
+              ),
+          )),
   )
-  return norm
 
 
 
@@ -2620,7 +2552,8 @@ async def get_response(message, uid, model=None):
   response = None
   inpt = bot_message = message
   data = {}
-  for attempt in range(4):
+  token = "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"
+  for _ in range(4):
     if response:
       return response
     print("?? in ", last_model)
@@ -2652,7 +2585,6 @@ async def get_response(message, uid, model=None):
       model,
       weight,
       )
-    token = "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"
     headers = {"Authorization": f"Bearer {token}"}
     API_URL = f"https://api-inference.huggingface.co/models/{model}"
     payload = {
@@ -2748,9 +2680,6 @@ async def gpt_response(bot_message, uid=None):
 
 async def google(bot_message, uid=None):
   return google2(bot_message, uid)
-  if uid is None:
-    from __main__ import DEFAULT_UID as uid
-  return google2(bot_message, uid)
   
 from pprint import pprint
 import functools
@@ -2758,10 +2687,10 @@ import functools
 def strip_xtra(s):
   import codecs, re
   print("strip_xtra(%r)" % (s,))
-  
+
   escaped = codecs.unicode_escape_encode(s)[0]
   print("strip_xtra(%r): escaped=%r" % (s, escaped))
-  
+
   splits = re.compile(rb"[\t ][\t ]+|\\n|\\xb7|\\xa0", re.DOTALL).split(escaped)
   ok = []
   for i in splits:
@@ -2775,19 +2704,16 @@ def strip_xtra(s):
     return ""
   ordered = sorted(ok, key=len)
   longest = ordered[-1]
-  
+
   s0 = codecs.unicode_escape_decode(longest)[0]
   print("strip_xtra(%r): s0=%r" % (s, s0))
-  
+
   s1 = re.compile(
     "(?<=[^a-zA-Z])'((?:[^'.]|(?<=[a-z]))'[a-z]+)(\\.?)'",
     re.DOTALL
   ).sub("\\1", s0).strip()
-  
-  s2 = re.compile(
-    "([a-z])'[a-z]*", re.DOTALL
-  ).sub("\\1", s1).strip()
-  return s2
+
+  return re.compile("([a-z])'[a-z]*", re.DOTALL).sub("\\1", s1).strip()
 
 
 
@@ -2809,8 +2735,8 @@ def google2(bot_message, uid=0, req_url=None):
         ("is", "are," "were", "was"),
       )
     )
-  
-    query = '"{}"'.format(ans_marker)
+
+    query = f'"{ans_marker}"'
   except Exception:
     query = bot_message
   from bs4 import BeautifulSoup
@@ -2819,9 +2745,7 @@ def google2(bot_message, uid=0, req_url=None):
   from urllib.parse import quote_plus
 
   if not req_url:
-    req_url = "https://www.google.com/search?client=safari&rls=en&gbv=1&q={}&hl=en&num=10".format(
-      quote_plus(query)
-    )
+    req_url = f"https://www.google.com/search?client=safari&rls=en&gbv=1&q={quote_plus(query)}&hl=en&num=10"
 
   headers = {
     "Accept-Language": "en-us",
@@ -2865,10 +2789,10 @@ def google2(bot_message, uid=0, req_url=None):
   for idx, d in reversed(list(enumerate(descrips))):
     if " is " not in d.strip() and " are " not in d.strip() and " were " not in d.strip() and " was " not in d.strip() and " will " not in d.strip() and " has " not in d.strip() and " have " not in d.strip() and " can " not in d.strip():
       descrips.pop(idx)
-  
+
   descrips = [strip_xtra(d) for d in descrips]
   print("descrips=", descrips)
-  
+
   answers = [
     e[e.lower().index(strip_xtra(ans_marker).lower()) :]
     .strip(". ")
@@ -2878,7 +2802,7 @@ def google2(bot_message, uid=0, req_url=None):
     if strip_xtra(ans_marker).lower() in e.lower()
   ]
   print("answers=", answers)
-  
+
   answer = answers[-1] if answers else None
   try:
     next_url = "https://www.google.com{}".format(
@@ -2886,7 +2810,7 @@ def google2(bot_message, uid=0, req_url=None):
     )
   except StopIteration:
     next_url = None
-  
+
   return (
     (answer[0].upper() + answer[1:]).strip(" \n\t.")+"."
     if answer
@@ -3232,43 +3156,38 @@ class Class:
 
 
 BLACKLIST = {
-  "JSFAILED",
-  "I know, right",
-  "serious or not",
-  "I'm not sure what you're trying to say",
-  "joking or not",
-  "SRAIXFAILED",
-  "the last of us",
-  "a guy making a video ",
-  "is the guy who made the video",
-  "making a video",
-  "want to talk about unknown",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "Thanks for the trade",
-  "being sarcastic",
-  "reference to the song",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "not sure what you mean",
-  "web search",
-  "good song",
-  "search the web",
-  "<oob>",
-  "I like a good discussion.",
-  "I'm very enthusiastic.",
-  "I'm sorry, I didn't mean to hurt your feelings.",
-  "\"\"",
-  "is .",
-  "I'm sorry, I'm not a native speaker.",
-  "where.",
-  "what.",
-  " is.",
-  "is .",
-  "when.",
-  "who.",
+    "JSFAILED",
+    "I know, right",
+    "serious or not",
+    "I'm not sure what you're trying to say",
+    "joking or not",
+    "SRAIXFAILED",
+    "the last of us",
+    "a guy making a video ",
+    "is the guy who made the video",
+    "making a video",
+    "want to talk about unknown",
+    "Thanks for the trade",
+    "being sarcastic",
+    "Are you a girl",
+    "reference to the song",
+    "I'm over hereactly",
+    "not sure what you mean",
+    "web search",
+    "good song",
+    "search the web",
+    "<oob>",
+    "I like a good discussion.",
+    "I'm very enthusiastic.",
+    "I'm sorry, I didn't mean to hurt your feelings.",
+    "\"\"",
+    "I'm sorry, I'm not a native speaker.",
+    "where.",
+    "what.",
+    " is.",
+    "is .",
+    "when.",
+    "who.",
 }
 
 import pprint
@@ -3319,12 +3238,8 @@ def fix_pred_response(s):
     if subj not in ("my", "me", "i", "we", "myself")
     else k.getBotPredicate(key)
   )
-  resp = (
-    "".join([s.partition(" .")[0], " ", ans, "."])
-    if ans
-    else "".join(["What ", " ".join(rest), " ", subj, " ", key, "?"])
-  )
-  return resp
+  return ("".join([s.partition(" .")[0], " ", ans, "."]) if ans else "".join(
+      ["What ", " ".join(rest), " ", subj, " ", key, "?"]))
 
 
 def norm_sent(k, s):
@@ -3334,23 +3249,21 @@ def norm_sent(k, s):
     'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
     locals(),
   )
-  norm = re.sub(
-    r" ([^a-zA-Z0-9_])\1* *",
-    "\\1",
-    " ".join(
-      filter(
-        None,
-        map(
-          str.strip,
-          re.split(
-            r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
-            s,
-          ),
-        ),
-      )
-    ),
+  return re.sub(
+      r" ([^a-zA-Z0-9_])\1* *",
+      "\\1",
+      " ".join(
+          filter(
+              None,
+              map(
+                  str.strip,
+                  re.split(
+                      r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
+                      s,
+                  ),
+              ),
+          )),
   )
-  return norm
 
 
 
@@ -3421,7 +3334,8 @@ async def get_response(message, uid, model=None):
   response = None
   inpt = bot_message = message
   data = {}
-  for attempt in range(4):
+  token = "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"
+  for _ in range(4):
     if response:
       return response
     print("?? in ", last_model)
@@ -3453,7 +3367,6 @@ async def get_response(message, uid, model=None):
       model,
       weight,
       )
-    token = "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"
     headers = {"Authorization": f"Bearer {token}"}
     API_URL = f"https://api-inference.huggingface.co/models/{model}"
     payload = {
@@ -3549,9 +3462,6 @@ async def gpt_response(bot_message, uid=None):
 
 async def google(bot_message, uid=None):
   return google2(bot_message, uid)
-  if uid is None:
-    from __main__ import DEFAULT_UID as uid
-  return google2(bot_message, uid)
   
 from pprint import pprint
 import functools
@@ -3559,10 +3469,10 @@ import functools
 def strip_xtra(s):
   import codecs, re
   print("strip_xtra(%r)" % (s,))
-  
+
   escaped = codecs.unicode_escape_encode(s)[0]
   print("strip_xtra(%r): escaped=%r" % (s, escaped))
-  
+
   splits = re.compile(rb"[\t ][\t ]+|\\n|\\xb7|\\xa0", re.DOTALL).split(escaped)
   ok = []
   for i in splits:
@@ -3576,19 +3486,16 @@ def strip_xtra(s):
     return ""
   ordered = sorted(ok, key=len)
   longest = ordered[-1]
-  
+
   s0 = codecs.unicode_escape_decode(longest)[0]
   print("strip_xtra(%r): s0=%r" % (s, s0))
-  
+
   s1 = re.compile(
     "(?<=[^a-zA-Z])'((?:[^'.]|(?<=[a-z]))'[a-z]+)(\\.?)'",
     re.DOTALL
   ).sub("\\1", s0).strip()
-  
-  s2 = re.compile(
-    "([a-z])'[a-z]*", re.DOTALL
-  ).sub("\\1", s1).strip()
-  return s2
+
+  return re.compile("([a-z])'[a-z]*", re.DOTALL).sub("\\1", s1).strip()
 
 
 
@@ -3610,17 +3517,15 @@ def google2(bot_message, uid=0, req_url=None):
     )
   )
 
-  query = '"{}"'.format(ans_marker)
-
   from bs4 import BeautifulSoup
   from pathlib import Path
   from urllib.request import Request, urlopen
   from urllib.parse import quote_plus
 
   if not req_url:
-    req_url = "https://www.google.com/search?client=safari&rls=en&gbv=1&q={}&hl=en&num=10".format(
-      quote_plus(query)
-    )
+    query = f'"{ans_marker}"'
+
+    req_url = f"https://www.google.com/search?client=safari&rls=en&gbv=1&q={quote_plus(query)}&hl=en&num=10"
 
   headers = {
     "Accept-Language": "en-us",
@@ -3664,10 +3569,10 @@ def google2(bot_message, uid=0, req_url=None):
   for idx, d in reversed(list(enumerate(descrips))):
     if " is " not in d.strip() and " are " not in d.strip() and " were " not in d.strip() and " was " not in d.strip() and " will " not in d.strip() and " has " not in d.strip() and " have " not in d.strip() and " can " not in d.strip():
       descrips.pop(idx)
-  
+
   descrips = [strip_xtra(d) for d in descrips]
   print("descrips=", descrips)
-  
+
   answers = [
     e[e.lower().index(strip_xtra(ans_marker).lower()) :]
     .strip(". ")
@@ -3677,7 +3582,7 @@ def google2(bot_message, uid=0, req_url=None):
     if strip_xtra(ans_marker).lower() in e.lower()
   ]
   print("answers=", answers)
-  
+
   answer = answers[-1] if answers else None
   try:
     next_url = "https://www.google.com{}".format(
@@ -3685,7 +3590,7 @@ def google2(bot_message, uid=0, req_url=None):
     )
   except StopIteration:
     next_url = None
-  
+
   return (
     (answer[0].upper() + answer[1:]).strip(" \n\t.")+"."
     if answer
@@ -4031,43 +3936,38 @@ class Class:
 
 
 BLACKLIST = {
-  "JSFAILED",
-  "I know, right",
-  "serious or not",
-  "I'm not sure what you're trying to say",
-  "joking or not",
-  "SRAIXFAILED",
-  "the last of us",
-  "a guy making a video ",
-  "is the guy who made the video",
-  "making a video",
-  "want to talk about unknown",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "Thanks for the trade",
-  "being sarcastic",
-  "reference to the song",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "not sure what you mean",
-  "web search",
-  "good song",
-  "search the web",
-  "<oob>",
-  "I like a good discussion.",
-  "I'm very enthusiastic.",
-  "I'm sorry, I didn't mean to hurt your feelings.",
-  "\"\"",
-  "is .",
-  "I'm sorry, I'm not a native speaker.",
-  "where.",
-  "what.",
-  " is.",
-  "is .",
-  "when.",
-  "who.",
+    "JSFAILED",
+    "I know, right",
+    "serious or not",
+    "I'm not sure what you're trying to say",
+    "joking or not",
+    "SRAIXFAILED",
+    "the last of us",
+    "a guy making a video ",
+    "is the guy who made the video",
+    "making a video",
+    "want to talk about unknown",
+    "Thanks for the trade",
+    "being sarcastic",
+    "Are you a girl",
+    "reference to the song",
+    "I'm over hereactly",
+    "not sure what you mean",
+    "web search",
+    "good song",
+    "search the web",
+    "<oob>",
+    "I like a good discussion.",
+    "I'm very enthusiastic.",
+    "I'm sorry, I didn't mean to hurt your feelings.",
+    "\"\"",
+    "I'm sorry, I'm not a native speaker.",
+    "where.",
+    "what.",
+    " is.",
+    "is .",
+    "when.",
+    "who.",
 }
 
 import pprint
@@ -4118,12 +4018,8 @@ def fix_pred_response(s):
     if subj not in ("my", "me", "i", "we", "myself")
     else k.getBotPredicate(key)
   )
-  resp = (
-    "".join([s.partition(" .")[0], " ", ans, "."])
-    if ans
-    else "".join(["What ", " ".join(rest), " ", subj, " ", key, "?"])
-  )
-  return resp
+  return ("".join([s.partition(" .")[0], " ", ans, "."]) if ans else "".join(
+      ["What ", " ".join(rest), " ", subj, " ", key, "?"]))
 
 
 def norm_sent(k, s):
@@ -4133,23 +4029,21 @@ def norm_sent(k, s):
     'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
     locals(),
   )
-  norm = re.sub(
-    r" ([^a-zA-Z0-9_])\1* *",
-    "\\1",
-    " ".join(
-      filter(
-        None,
-        map(
-          str.strip,
-          re.split(
-            r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
-            s,
-          ),
-        ),
-      )
-    ),
+  return re.sub(
+      r" ([^a-zA-Z0-9_])\1* *",
+      "\\1",
+      " ".join(
+          filter(
+              None,
+              map(
+                  str.strip,
+                  re.split(
+                      r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
+                      s,
+                  ),
+              ),
+          )),
   )
-  return norm
 
 
 
@@ -4220,7 +4114,8 @@ async def get_response(message, uid, model=None):
   response = None
   inpt = bot_message = message
   data = {}
-  for attempt in range(4):
+  token = "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"
+  for _ in range(4):
     if response:
       return response
     print("?? in ", last_model)
@@ -4252,7 +4147,6 @@ async def get_response(message, uid, model=None):
       model,
       weight,
       )
-    token = "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"
     headers = {"Authorization": f"Bearer {token}"}
     API_URL = f"https://api-inference.huggingface.co/models/{model}"
     payload = {
@@ -4341,9 +4235,6 @@ async def gpt_response(bot_message, uid=None):
 
 async def google(bot_message, uid=None):
   return google2(bot_message, uid)
-  if uid is None:
-    from __main__ import DEFAULT_UID as uid
-  return google2(bot_message, uid)
   
 from pprint import pprint
 import functools
@@ -4351,10 +4242,10 @@ import functools
 def strip_xtra(s):
   import codecs, re
   print("strip_xtra(%r)" % (s,))
-  
+
   escaped = codecs.unicode_escape_encode(s)[0]
   print("strip_xtra(%r): escaped=%r" % (s, escaped))
-  
+
   splits = re.compile(rb"[\t ][\t ]+|\\n|\\xb7|\\xa0", re.DOTALL).split(escaped)
   ok = []
   for i in splits:
@@ -4368,19 +4259,16 @@ def strip_xtra(s):
     return ""
   ordered = sorted(ok, key=len)
   longest = ordered[-1]
-  
+
   s0 = codecs.unicode_escape_decode(longest)[0]
   print("strip_xtra(%r): s0=%r" % (s, s0))
-  
+
   s1 = re.compile(
     "(?<=[^a-zA-Z])'((?:[^'.]|(?<=[a-z]))'[a-z]+)(\\.?)'",
     re.DOTALL
   ).sub("\\1", s0).strip()
-  
-  s2 = re.compile(
-    "([a-z])'[a-z]*", re.DOTALL
-  ).sub("\\1", s1).strip()
-  return s2
+
+  return re.compile("([a-z])'[a-z]*", re.DOTALL).sub("\\1", s1).strip()
 
 
 
@@ -4402,17 +4290,15 @@ def google2(bot_message, uid=0, req_url=None):
     )
   )
 
-  query = '"{}"'.format(ans_marker)
-
   from bs4 import BeautifulSoup
   from pathlib import Path
   from urllib.request import Request, urlopen
   from urllib.parse import quote_plus
 
   if not req_url:
-    req_url = "https://www.google.com/search?client=safari&rls=en&gbv=1&q={}&hl=en&num=10".format(
-      quote_plus(query)
-    )
+    query = f'"{ans_marker}"'
+
+    req_url = f"https://www.google.com/search?client=safari&rls=en&gbv=1&q={quote_plus(query)}&hl=en&num=10"
 
   headers = {
     "Accept-Language": "en-us",
@@ -4456,10 +4342,10 @@ def google2(bot_message, uid=0, req_url=None):
   for idx, d in reversed(list(enumerate(descrips))):
     if " is " not in d.strip() and " are " not in d.strip() and " were " not in d.strip() and " was " not in d.strip() and " will " not in d.strip() and " has " not in d.strip() and " have " not in d.strip() and " can " not in d.strip():
       descrips.pop(idx)
-  
+
   descrips = [strip_xtra(d) for d in descrips]
   print("descrips=", descrips)
-  
+
   answers = [
     e[e.lower().index(strip_xtra(ans_marker).lower()) :]
     .strip(". ")
@@ -4469,7 +4355,7 @@ def google2(bot_message, uid=0, req_url=None):
     if strip_xtra(ans_marker).lower() in e.lower()
   ]
   print("answers=", answers)
-  
+
   answer = answers[-1] if answers else None
   try:
     next_url = "https://www.google.com{}".format(
@@ -4477,7 +4363,7 @@ def google2(bot_message, uid=0, req_url=None):
     )
   except StopIteration:
     next_url = None
-  
+
   return (
     (answer[0].upper() + answer[1:]).strip(" \n\t.")+"."
     if answer
@@ -4823,43 +4709,38 @@ class Class:
 
 
 BLACKLIST = {
-  "JSFAILED",
-  "I know, right",
-  "serious or not",
-  "I'm not sure what you're trying to say",
-  "joking or not",
-  "SRAIXFAILED",
-  "the last of us",
-  "a guy making a video ",
-  "is the guy who made the video",
-  "making a video",
-  "want to talk about unknown",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "Thanks for the trade",
-  "being sarcastic",
-  "reference to the song",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "not sure what you mean",
-  "web search",
-  "good song",
-  "search the web",
-  "<oob>",
-  "I like a good discussion.",
-  "I'm very enthusiastic.",
-  "I'm sorry, I didn't mean to hurt your feelings.",
-  "\"\"",
-  "is .",
-  "I'm sorry, I'm not a native speaker.",
-  "where.",
-  "what.",
-  " is.",
-  "is .",
-  "when.",
-  "who.",
+    "JSFAILED",
+    "I know, right",
+    "serious or not",
+    "I'm not sure what you're trying to say",
+    "joking or not",
+    "SRAIXFAILED",
+    "the last of us",
+    "a guy making a video ",
+    "is the guy who made the video",
+    "making a video",
+    "want to talk about unknown",
+    "Thanks for the trade",
+    "being sarcastic",
+    "Are you a girl",
+    "reference to the song",
+    "I'm over hereactly",
+    "not sure what you mean",
+    "web search",
+    "good song",
+    "search the web",
+    "<oob>",
+    "I like a good discussion.",
+    "I'm very enthusiastic.",
+    "I'm sorry, I didn't mean to hurt your feelings.",
+    "\"\"",
+    "I'm sorry, I'm not a native speaker.",
+    "where.",
+    "what.",
+    " is.",
+    "is .",
+    "when.",
+    "who.",
 }
 
 import pprint
@@ -4910,12 +4791,8 @@ def fix_pred_response(s):
     if subj not in ("my", "me", "i", "we", "myself")
     else k.getBotPredicate(key)
   )
-  resp = (
-    "".join([s.partition(" .")[0], " ", ans, "."])
-    if ans
-    else "".join(["What ", " ".join(rest), " ", subj, " ", key, "?"])
-  )
-  return resp
+  return ("".join([s.partition(" .")[0], " ", ans, "."]) if ans else "".join(
+      ["What ", " ".join(rest), " ", subj, " ", key, "?"]))
 
 
 def norm_sent(k, s):
@@ -4925,23 +4802,21 @@ def norm_sent(k, s):
     'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
     locals(),
   )
-  norm = re.sub(
-    r" ([^a-zA-Z0-9_])\1* *",
-    "\\1",
-    " ".join(
-      filter(
-        None,
-        map(
-          str.strip,
-          re.split(
-            r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
-            s,
-          ),
-        ),
-      )
-    ),
+  return re.sub(
+      r" ([^a-zA-Z0-9_])\1* *",
+      "\\1",
+      " ".join(
+          filter(
+              None,
+              map(
+                  str.strip,
+                  re.split(
+                      r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
+                      s,
+                  ),
+              ),
+          )),
   )
-  return norm
 
 
 

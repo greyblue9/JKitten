@@ -441,7 +441,7 @@ def google2(bot_message, uid=0, req_url=None):
   html = request.read()
   request.close()
 
-  doc = BeautifulSoup(html, "lxml")
+  doc = BeautifulSoup(html, "html.parser")
   doc2 = doc
   [
     (e.clear() or e.replace_with_children()) if e else None

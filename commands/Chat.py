@@ -590,7 +590,7 @@ async def alice_response(bot_message, uid):
       if hasattr(chat, "predicates"):
         chat.predicates.put("topic", topic)
         chat.predicates.put("it", topic)
-  if hasattr(__main__, "ParseState") and _main__.ParseState.current:
+  if hasattr(__main__, "ParseState") and __main__.ParseState.current:
     __main__.ParseState.current.it = topic or "*"
     __main__.ParseState.current.that = topic or "*"
   

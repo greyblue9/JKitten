@@ -100,7 +100,7 @@ name_lookup = {
   '923229808803065907': 'Bob',
 }
 DEFAULT_UID = "0"
-USE_JAVA = True
+USE_JAVA = False
 
 orig_cwd = Path.cwd()
 k = chat = None

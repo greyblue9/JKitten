@@ -27,36 +27,32 @@ class Class:
 
 
 BLACKLIST = {
-  "JSFAILED",
-  "I know, right",
-  "serious or not",
-  "I have no answer for that",
-  "is unknown",
-  "unknown is",
-  "not sure if I",
-  "a reference to the",
-  "I'm not sure what you're trying to say",
-  "joking or not",
-  "SRAIXFAILED",
-  "the last of us",
-  "a guy making a video ",
-  "is the guy who made the video",
-  "making a video",
-  "want to talk about unknown",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "Thanks for the trade",
-  "being sarcastic",
-  "reference to the song",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "not sure what you mean",
-  "web search",
-  "good song",
-  "search the web",
-  "<oob>",
+    "JSFAILED",
+    "I know, right",
+    "serious or not",
+    "I have no answer for that",
+    "is unknown",
+    "unknown is",
+    "not sure if I",
+    "a reference to the",
+    "I'm not sure what you're trying to say",
+    "joking or not",
+    "SRAIXFAILED",
+    "the last of us",
+    "a guy making a video ",
+    "is the guy who made the video",
+    "making a video",
+    "want to talk about unknown",
+    "Thanks for the trade",
+    "being sarcastic",
+    "Are you a girl",
+    "reference to the song",
+    "I'm over hereactly",
+    "not sure what you mean",
+    "web search",
+    "good song",
+    "search the web",
+    "<oob>",
 }
 
 
@@ -121,7 +117,8 @@ async def get_response(message, uid, model=None):
   response = None
   inpt = bot_message = message
   data = {}
-  for attempt in range(4):
+  token = "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"
+  for _ in range(4):
     if response:
       return response
     print("?? in ", last_model)
@@ -153,7 +150,6 @@ async def get_response(message, uid, model=None):
       model,
       weight,
       )
-    token = "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"
     headers = {"Authorization": f"Bearer {token}"}
     API_URL = f"https://api-inference.huggingface.co/models/{model}"
     payload = {
@@ -271,9 +267,7 @@ async def google(bot_message, uid=None):
   log.debug("google(%r, %r) called", bot_message, uid)
   chat = await get_chat(uid)
   cats = categorize(bot_message.lower())
-  topic = "*"
-  if cats["entities"]:
-    topic = cats["entities"][0]
+  topic = cats["entities"][0] if cats["entities"] else "*"
   Sraix = Class.forName("org.alicebot.ab.Sraix")
   response = Sraix.sraixPannous(bot_message, topic, chat.chat if hasattr(chat, "chat") else chat)
   if "SRAIXFAILED" in response:
@@ -297,10 +291,10 @@ import functools
 def strip_xtra(s):
   import codecs, re
   print("strip_xtra(%r)" % (s,))
-  
+
   escaped = codecs.unicode_escape_encode(s)[0]
   print("strip_xtra(%r): escaped=%r" % (s, escaped))
-  
+
   splits = re.compile(rb"[\t ][\t ]+|\\n|\\xb7|\\xa0", re.DOTALL).split(escaped)
   ok = []
   for i in splits:
@@ -314,19 +308,16 @@ def strip_xtra(s):
     return ""
   ordered = sorted(ok, key=len)
   longest = ordered[-1]
-  
+
   s0 = codecs.unicode_escape_decode(longest)[0]
   print("strip_xtra(%r): s0=%r" % (s, s0))
-  
+
   s1 = re.compile(
     "(?<=[^a-zA-Z])'((?:[^'.]|(?<=[a-z]))'[a-z]+)(\\.?)'",
     re.DOTALL
   ).sub("\\1", s0).strip()
-  
-  s2 = re.compile(
-    "([a-z])'[a-z]*", re.DOTALL
-  ).sub("\\1", s1).strip()
-  return s2
+
+  return re.compile("([a-z])'[a-z]*", re.DOTALL).sub("\\1", s1).strip()
 
 
 def find(coll, r):
@@ -348,7 +339,7 @@ def google2(bot_message, uid=0, req_url=None):
       )
     )
 
-    query = '"{}"'.format(ans_marker)
+    query = f'"{ans_marker}"'
   except Exception:
     ans_marker = bot_message
     query = bot_message
@@ -358,9 +349,7 @@ def google2(bot_message, uid=0, req_url=None):
   from urllib.parse import quote_plus
 
   if not req_url:
-    req_url = "https://www.google.com/search?client=safari&rls=en&gbv=1&q={}&hl=en&num=10".format(
-      quote_plus(query)
-    )
+    req_url = f"https://www.google.com/search?client=safari&rls=en&gbv=1&q={quote_plus(query)}&hl=en&num=10"
 
   headers = {
     "Accept-Language": "en-us",
@@ -444,23 +433,21 @@ def norm_sent(k, s):
     'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
     locals(),
   )
-  norm = re.sub(
-    r" ([^a-zA-Z0-9_])\1* *",
-    "\\1",
-    " ".join(
-      filter(
-        None,
-        map(
-          str.strip,
-          re.split(
-            r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
-            s,
-          ),
-        ),
-      )
-    ),
+  return re.sub(
+      r" ([^a-zA-Z0-9_])\1* *",
+      "\\1",
+      " ".join(
+          filter(
+              None,
+              map(
+                  str.strip,
+                  re.split(
+                      r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
+                      s,
+                  ),
+              ),
+          )),
   )
-  return norm
 
 async def alice_response(bot_message, uid):
   if hasattr(__import__("__main__"), "Chat"):
@@ -473,7 +460,7 @@ async def alice_response(bot_message, uid):
   mbs = { str(m.id): m
       for g in __import__("__main__").bot.guilds 
       for m in g.members}
-  
+
   log.debug("alice_response(%r, %r)", bot_message, uid)
   last_input = inputs.setdefault(uid, [""])[-1]
   last_response = responses.setdefault(uid, [""])[-1]
@@ -496,9 +483,9 @@ async def alice_response(bot_message, uid):
     if isinstance(o, asyncio.unix_events._UnixSelectorEventLoop) and o.is_running
   ][0]
   chat = await get_chat(uid)
-  if hasattr(chat, "predicates"):
-    if not "name" in list(chat.predicates) or str(chat.predicates.get("name")) == "unknown":
-      chat.predicates.put("name", str(mbs.get(str(uid))).split("#")[0])
+  if hasattr(chat, "predicates") and ("name" not in list(
+      chat.predicates) or str(chat.predicates.get("name")) == "unknown"):
+    chat.predicates.put("name", str(mbs.get(str(uid))).split("#")[0])
   cats = await loop.run_in_executor(None, categorize, bot_message.lower())
   topic = "*"
   if cats["entities"]:
@@ -522,8 +509,7 @@ async def alice_response(bot_message, uid):
 
 
   if "your name is dekriel" in response.lower():
-    name = name_lookup.get(uid)
-    if name:
+    if name := name_lookup.get(uid):
       response = f"Your name is {name}."
     else:
       response = "I don't know your name. What is your name?"

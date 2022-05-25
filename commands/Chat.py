@@ -471,7 +471,7 @@ def google2(bot_message, uid=0, req_url=None):
     )
   ]
   for idx, d in reversed(list(enumerate(descrips))):
-    if " is " not in d.strip() and " are " not in d.strip() and " were " not in d.strip() and " was " not in d.strip() and " will " not in d.strip() and " has " not in d.strip() and " have " not in d.strip() and " can " not in d.strip():
+    if "'?" in d or "?'" in d or '(" is " not in d.strip() and " are " not in d.strip() and " were " not in d.strip() and " was " not in d.strip() and " will " not in d.strip() and " has " not in d.strip() and " have " not in d.strip() and " can " not in d.strip()):
       descrips.pop(idx)
 
   descrips = [strip_xtra(d) for d in descrips]

@@ -776,7 +776,7 @@ class ChatCog(Cog):
           print("Google")
           if new_response := google2(bot_message, uid):
             if inspect.isawaitable(new_response):
-            new_response = await new_response
+              new_response = await new_response
           if new_response:
             return await respond(new_response)
 

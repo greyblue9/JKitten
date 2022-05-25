@@ -284,6 +284,8 @@ k = None
 @lru_cache
 def get_kernel():
   global k
+  if USE_JAVA:
+    return k
   if not k:
     sys.path.insert(0, (Path.cwd() / "alice").as_posix())
     import aiml.AimlParser

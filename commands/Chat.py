@@ -9,6 +9,7 @@ import inspect
 from safeeval import SafeEval
 from bs4 import BeautifulSoup as BS
 from bs4 import BeautifulSoup
+from tagger import categorize
 
 CHANNEL_NAME_WHITELIST = {
   "open-chat",
@@ -75,11 +76,6 @@ import sys
 last_input = last_response = ""
 
 
-def get_chat(uid=DEFAULT_UID):
-  return PyAimlChat(uid)
-import __main__
-__main__.get_chat = get_chat
-
 
 class PyAimlChat:
   def __init__(self, uid=DEFAULT_UID):
@@ -110,6 +106,9 @@ def alice_response_inner(q, uid=DEFAULT_UID):
 
 
 def fix_pred_response(s):
+  from __main__ import USE_JAVA
+  if USE_JAVA:
+    return s
   from __main__ import get_kernel
   k = get_kernel()
   subj, key, *rest = s.partition(" .")[0].lower().split()
@@ -128,11 +127,10 @@ def fix_pred_response(s):
 
 def norm_sent(k, s):
   import re
-
-  exec(
-    'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
-    locals(),
-  )
+  if k:
+    for f,t in k._subbers["normal"].items():
+      s = re.sub(rf"\b{re.escape(f)}\b", t, s)
+  
   norm = re.sub(
     r" ([^a-zA-Z0-9_])\1* *",
     "\\1",
@@ -580,7 +578,11 @@ async def alice_response(bot_message, uid):
   log.debug("alice_response(%r, %r): query %r", bot_message, uid, bot_message)
   response = await loop.run_in_executor(None, chat.multisentenceRespond, bot_message)
   log.debug("alice_response(%r, %r): result: %r", bot_message, uid, response)
-
+  if "&lt;search" in response:
+    q = response.split("&lt;search&gt;")[1]
+    q = q.split("&lt;/")[0]
+    log.info("Doing search for %r", q)
+    response = await google(q, uid)
   for b in BLACKLIST:
     if b.lower() in response.lower() or response.lower() in b:
       log.debug(

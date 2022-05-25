@@ -1,5 +1,6 @@
 import traceback
 from bs4 import BeautifulSoup as BS
+import inspect
 import re
 import asyncio
 import inspect
@@ -92,16 +93,59 @@ class Class:
 
 
 name_lookup = {
-  "856229099952144464": "Dekriel",
+  "863091076617601085": "Dekriel",
   "856229099952144464": "David",
   "955035045716979763": "Alice",
   "889338065020129310": "Mikko",
+  '923229808803065907': 'Bob',
 }
-DEFAULT_UID = "_global"
-USE_JAVA = False
+DEFAULT_UID = "0"
+USE_JAVA = True
 
 orig_cwd = Path.cwd()
+k = chat = None
+alice_bot = None
 
+if USE_JAVA:
+  from program_ab import *
+
+  class AChat:
+    def __init__(self, uid):
+      self.uid = uid
+      self.chat = None
+    def multisentenceRespond(self, bot_message):
+      global alice_bot
+      if alice_bot is None:
+        alice_bot = Class.forName("org.alicebot.ab.Bot")(
+          "alice", orig_cwd.as_posix()
+        )
+      if self.chat is None:
+        self.chat = Main.getOrCreateChat(alice_bot, True, self.uid)
+      global chat
+      chat = self.chat
+      return self.chat.multisentenceRespond(bot_message)
+
+else:
+  
+  class AChat:
+    def __init__(self, uid):
+      self.uid = uid
+    def multisentenceRespond(self, bot_message):
+      global k
+      if k is None:
+        sys.path.insert(0, (orig_cwd / "alice").as_posix())
+        import aiml.Kernel
+        k = alice_bot = aiml.Kernel.Kernel()
+        print(k)
+        if (orig_cwd / "brain.dmp").exists():
+          k.bootstrap(orig_cwd / "brain.dmp", [])
+        else:
+          k.bootstrap(None, list(map(Path.as_posix, orig_cwd.glob("**/*.aiml"))))
+      return k.respond(bot_message, self.uid)
+
+
+async def get_chat(uid):
+  return AChat(uid)
 
 import requests
 
@@ -137,14 +181,14 @@ intents = Intents.default()
 intents.value |= disnake.Intents.messages.flag
 intents.value |= disnake.Intents.message_content.flag
 intents.value |= disnake.Intents.guilds.flag
+intents.value |= disnake.Intents.members.flag
 
 bot = Bot(
   command_prefix=PREFIX,
   sync_commands=True,
   sync_commands_debug=True,
   sync_commands_on_cog_unload=True,
-  sync_permissions=True,
-  test_guilds=TEST_GUILDS,
+  test_guilds=[],
   # **options:
   status=Status.idle,
   intents=intents,

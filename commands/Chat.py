@@ -339,8 +339,9 @@ async def gpt_response(bot_message, uid=None):
 
 async def google(bot_message, uid=None):
   import __main__
-  if not hasattr("__main__", "Chat"):
-    return google2(bot_message, uid)
+  from __main__ import USE_JAVA
+  if not USE_JAVA:
+    return ""
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   log.debug("google(%r, %r) called", bot_message, uid)
@@ -496,14 +497,17 @@ def google2(bot_message, uid=0, req_url=None):
   except StopIteration:
     next_url = None
 
-  return (
+  a = (
     (answer[0].upper() + answer[1:]).strip(" \n\t.")+"."
     if answer
     else (descrips[0][0].upper() + descrips[0][1:]).strip(" \n\t.")+"." if descrips
-    else google2(bot_message, uid, next_url)
+    else google(bot_message, uid)
     if req_url is None and next_url
     else ""
   )
+  if any(b in a for b in BLACKLIST):
+    return ""
+  return a
 
 
 
@@ -531,24 +535,24 @@ def norm_sent(k, s):
   )
 
 async def alice_response(bot_message, uid):
-  if hasattr(__import__("__main__"), "Chat"):
+  import __main__
+  if hasattr(__main__, "Chat"):
     sessions = list(
-      __import__("__main__")
-        .Chat.sessions.keys()
+      __main__.Chat.sessions.keys()
     )
   else:
     sessions = [str(uid)]
   mbs = { str(m.id): m
-      for g in __import__("__main__").bot.guilds 
+      for g in __main__.bot.guilds 
       for m in g.members}
-
+  
   log.debug("alice_response(%r, %r)", bot_message, uid)
   last_input = inputs.setdefault(uid, [""])[-1]
   last_response = responses.setdefault(uid, [""])[-1]
   if "what is your name" in last_response.lower():
     name = bot_message.strip(".? !").split()[-1]
     name_lookup[uid] = name
-    return random.choice(
+    response = random.choice(
       [
         f"It's great to meet you, {name}.",
         f"Well! How do you do, {name}?",
@@ -557,7 +561,7 @@ async def alice_response(bot_message, uid):
     )
   import gc
   import asyncio.unix_events
-
+  
   loop = [
     o
     for o in gc.get_objects()
@@ -569,13 +573,27 @@ async def alice_response(bot_message, uid):
   if hasattr(chat, "predicates") and ("name" not in list(
       chat.predicates) or str(chat.predicates.get("name")) == "unknown"):
     chat.predicates.put("name", str(mbs.get(str(uid))).split("#")[0])
-  cats = await loop.run_in_executor(None, categorize, bot_message.lower())
-  topic = "*"
-  if cats["entities"]:
-    log.debug("alice_response(%r, %r) setting topic to %r", bot_message, uid, topic)
-    topic = cats["entities"][0]
-    if hasattr(chat, "predicates"):
-      chat.predicates.put("topic", topic)
+  cats0 = await loop.run_in_executor(None, categorize, last_input.lower())
+  cats1 = await loop.run_in_executor(None, categorize, last_response.lower())
+  cats2 = await loop.run_in_executor(None, categorize, bot_message.lower())
+  topic = ""
+  for cats in (cats0, cats1, cats2):
+    if cats["entities"]:
+      topic = cats["entities"][0]
+      log.debug("alice_response(%r, %r) setting topic to %r", bot_message, uid, topic)
+      if hasattr(chat, "predicates"):
+        chat.predicates.put("topic", topic)
+        chat.predicates.put("it", topic)
+    elif not topic and cats["clauses"]:
+      topic = cats["clauses"][0]
+      log.debug("alice_response(%r, %r) setting topic to %r", bot_message, uid, topic)
+      if hasattr(chat, "predicates"):
+        chat.predicates.put("topic", topic)
+        chat.predicates.put("it", topic)
+  if hasattr(__main__, "ParseState") and _main__.ParseState.current:
+    __main__.ParseState.current.it = topic or "*"
+    __main__.ParseState.current.that = topic or "*"
+  
   log.debug("alice_response(%r, %r): query %r", bot_message, uid, bot_message)
   response = await loop.run_in_executor(None, chat.multisentenceRespond, bot_message)
   log.debug("alice_response(%r, %r): result: %r", bot_message, uid, response)

@@ -6,6 +6,8 @@ from pprint import pprint
 import nltk
 import aiohttp
 from safeeval import SafeEval
+from bs4 import BeautifulSoup as BS
+from bs4 import BeautifulSoup
 
 CHANNEL_NAME_WHITELIST = {
   "open-chat",
@@ -154,9 +156,7 @@ async def wolfram_alpha(inpt, uid=None):
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   log.info("wolfram_alpha(%r, %r) query", inpt, uid)
-  from bs4 import BeautifulSoup as BSimport
   import urllib.parse, urllib.request
-
   API_URL = (
     f"http://api.wolframalpha.com/v2/query?"
     f"appid=2U987T-JJR9G73T6P"

@@ -108,8 +108,8 @@ async def wolfram_alpha(inpt, uid=None):
         log.info("wolfram_alpha(%r, %r) #2 returning %r", inpt, uid, response)
         return response
       log.debug(doc.prettify())
-  log.info("wolfram_alpha(%r, %r) returning empty", inpt, uid, response)
-  return ""
+  log.info("wolfram_alpha(%r, %r) returning %r", inpt, uid, response)
+  return response
 
 
 last_model = None

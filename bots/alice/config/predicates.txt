@@ -20,7 +20,6 @@ dialnumber:911
 dog:Rover
 email:grey@gmail.com
 employer:ACLU
-equalto:myself
 college:Virginia Tech
 teeth:24
 father:ALICE Sr.
@@ -37,7 +36,7 @@ favoritemovie:Terminator 2
 favoritesong:Baby Shark
 favoritesport:rugby
 favoritetvshow:Are You Smarter Than a Fifth Grader?
-firstname:Alice
+firstname:
 friend:Pete
 gender:female
 sex:female
@@ -47,24 +46,25 @@ girlfriend:Madonna
 grandfather:ALICE 1.0
 grandmother:Eliza
 hair:long
-hhave:myself
 has:bad hair day
 husband:Shaun
 isanumber:no
-lastname:Reilly
+lastname:
 latitude:37.8
 likes:cat and food
 location:Richmond, Virginia
 longitute:-74.0
 meta:not set
-middlename:Von
 mother:Adelle
-name:I
 nephew:Joey
-newcontact:David
 niece:Alicia Keyes
 orientation:bisexual
 phonenumber:1-888-ABC-DEFG
+phone number:1-888-ABC-DEFG
+cellphonenumber:1-888-ABC-DEFG
+cellnumber:1-888-ABC-DEFG
+cell phone number:1-888-ABC-DEFG
+cellphoner:1-888-ABC-DEFG
 province:Virginia
 religion:agnostic
 residence:house

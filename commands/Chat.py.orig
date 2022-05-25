@@ -3,6 +3,7 @@ from disnake.ext.commands.interaction_bot_base import CommonBotBase
 from disnake.ext.commands import Cog
 from disnake.ext.commands import Command
 from pprint import pprint
+from tagger import *
 import nltk
 import aiohttp
 from safeeval import SafeEval
@@ -26,129 +27,48 @@ class Class:
 
 
 BLACKLIST = {
-    "JSFAILED",
-    "I know, right",
-    "serious or not",
-    "I have no answer for that",
-    "is unknown",
-    "unknown is",
-    "not sure if I",
-    "a reference to the",
-    "I'm not sure what you're trying to say",
-    "joking or not",
-    "SRAIXFAILED",
-    "the last of us",
-    "a guy making a video ",
-    "is the guy who made the video",
-    "making a video",
-    "want to talk about unknown",
-    "Thanks for the trade",
-    "being sarcastic",
-    "Are you a girl",
-    "reference to the song",
-    "I'm over hereactly",
-    "not sure what you mean",
-    "web search",
-    "good song",
-    "search the web",
-    "<oob>",
-    "I like a good discussion.",
-    "I'm very enthusiastic.",
-    "I'm sorry, I didn't mean to hurt your feelings.",
-    "\"\"",
-    "is .",
-    "I'm sorry, I'm not a native speaker.",
-    "where.",
-    "what.",
-    " is.",
-    "is .",
-    "when.",
-    "who.",
+  "JSFAILED",
+  "I know, right",
+  "serious or not",
+  "I'm not sure what you're trying to say",
+  "joking or not",
+  "SRAIXFAILED",
+  "the last of us",
+  "a guy making a video ",
+  "is the guy who made the video",
+  "making a video",
+  "want to talk about unknown",
+  "Are you a girl",
+  "reference to the song",
+  "I'm over hereactly",
+  "Thanks for the trade",
+  "being sarcastic",
+  "reference to the song",
+  "Are you a girl",
+  "reference to the song",
+  "I'm over hereactly",
+  "not sure what you mean",
+  "web search",
+  "good song",
+  "search the web",
+  "<oob>",
 }
 
-import pprint
-from pathlib import Path
-import sys
 
-last_input = last_response = ""
+tagger = None
 
 
-def get_chat(uid=DEFAULT_UID):
-  return PyAimlChat(uid)
-import __main__
-__main__.get_chat = get_chat
+def pos_tag(sentence):
+  global tagger
+  if tagger is None:
+    nltk.download("treebank")
+    from nltk.corpus import treebank
+    from nltk.tag import PerceptronTagger
 
-
-class PyAimlChat:
-  def __init__(self, uid=DEFAULT_UID):
-    self.uid = uid
-  def multisentenceRespond(self, query):
-    resp = alice_response_inner(query, self.uid)
-    if any(
-      w.lower() in resp.lower() or resp.lower() in w.lower()
-      for w in BLACKLIST
-    ):
-      log.info("Not using due to blacklist: %s", resp)
-      resp = ""
-      
-    return resp.replace('is I.', 'is Alice').replace('I is', 'Alice is').replace('led I.', 'led Alice.')
-
-
-def alice_response_inner(q, uid=DEFAULT_UID):
-  from __main__ import get_kernel
-  k = get_kernel() 
-  log.info("alice_response_inner: q=%s", q)
-  q2 = norm_sent(k, q)
-  log.info("alice_response_inner: q2=%s", q2)
-  r = k.respond(q2)
-  log.info("alice_response_inner: r=%s", r)
-  r2 = fix_pred_response(r) if " ." in r else r
-  log.info("alice_response_inner: r2=%s", r2)
-  return r2
-
-
-def fix_pred_response(s):
-  from __main__ import get_kernel
-  k = get_kernel()
-  subj, key, *rest = s.partition(" .")[0].lower().split()
-  ans = (
-    k.getPredicate(key, subj)
-    if subj not in ("my", "me", "i", "we", "myself")
-    else k.getBotPredicate(key)
-  )
-  resp = (
-    "".join([s.partition(" .")[0], " ", ans, "."])
-    if ans
-    else "".join(["What ", " ".join(rest), " ", subj, " ", key, "?"])
-  )
-  return resp
-
-
-def norm_sent(k, s):
-  import re
-
-  exec(
-    'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
-    locals(),
-  )
-  norm = re.sub(
-    r" ([^a-zA-Z0-9_])\1* *",
-    "\\1",
-    " ".join(
-      filter(
-        None,
-        map(
-          str.strip,
-          re.split(
-            r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
-            s,
-          ),
-        ),
-      )
-    ),
-  )
-  return norm
-
+    tagger = PerceptronTagger()
+    tagger.train(treebank.tagged_sents()[:300])
+  tagged = tagger.tag(nltk.tokenize.word_tokenize(sentence))
+  return tagged
 
 
 async def wolfram_alpha(inpt, uid=None):
@@ -198,57 +118,41 @@ async def wolfram_alpha(inpt, uid=None):
         log.info("wolfram_alpha(%r, %r) #2 returning %r", inpt, uid, response)
         return response
       log.debug(doc.prettify())
-  log.info("wolfram_alpha(%r, %r) returning %r", inpt, uid, response)
-  return response
+  log.info("wolfram_alpha(%r, %r) returning empty", inpt, uid, response)
+  return ""
 
 
-last_model = None
 async def get_response(message, uid, model=None):
-  
-  model = None
-  print("*** in ", message, uid, model, responses.setdefault(uid,[""]))
-  global last_model
   response = None
   inpt = bot_message = message
   data = {}
-  token = "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"
-  for _ in range(4):
+  for attempt in range(2):
     if response:
       return response
-    print("?? in ", last_model)
-    if last_model and (not last_input.lower().startswith("what") or ("they" in last_input.lower() or "them "in last_input.lower() or " it " in last_input.lower() or " he  " in last_input.lower() or " she  "in last_input.lower())):
-        model = last_model
-        log.info("reusing model %s", last_model)
-        print("reuse model", last_model)
-        last_model = None
-    if not model:
+    if model is None:
       model = random.choices(
-        model_names := ( 
+        model_names := (
           "microsoft/DialoGPT-large",
-          "microsoft/DialoGPT-medium",
-          "facebook/blenderbot-400M-distill",
-          "deepparag/Aeona",
-          "facebook/blenderbot-90M",
           "facebook/blenderbot-3B",
-          "facebook/blenderbot_small-90M",
           "microsoft/DialoGPT-small",
         ),
-        weights := (125, 15,15, 5,6,9,15,17),
+        weights := (65, 25, 15),
       )[0]
-      model_idx = model_names.index(model)
-      weight = weights[model_idx]
-      log.info(
+    model_idx = model_names.index(model)
+    weight = weights[model_idx]
+    log.info(
       "\nget_response(%r, %r): selected model\n\n" "    %r   (weight: %s)\n\n",
       message,
       uid,
       model,
       weight,
-      )
+    )
+    token = "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"
     headers = {"Authorization": f"Bearer {token}"}
     API_URL = f"https://api-inference.huggingface.co/models/{model}"
     payload = {
       "generated_responses": [],
-      "past_user_inputs": [],
+      "past_user_inputs": inputs.get(uid),
       "text": message,
     }
     context = random.randint(0, 4)
@@ -273,7 +177,7 @@ async def get_response(message, uid, model=None):
         if not data:
           data = {"error": "No reply", "estimated_time": 5}
         if data.get("error"):
-          await asyncio.sleep(data.get("estimated_time", 6))
+          await asyncio.sleep(data.get("estimated_time", 20))
           async with ClientSession() as session:
             async with session.post(
               API_URL, headers=headers, json=payload
@@ -284,11 +188,12 @@ async def get_response(message, uid, model=None):
                 )
               except Exception as e:
                 print(e)
+        if data:
+          pprint(data)
         reply = data.get("generated_text")
         response = reply
         if not response:
           model = None
-          last_model = None
           continue
         for b in BLACKLIST:
           if b.lower() in response.lower() or response.lower() in b:
@@ -303,25 +208,30 @@ async def get_response(message, uid, model=None):
             break
         if not response:
           continue
-        if any(
-          w.lower() in response.lower()
-          or response.lower() in w.lower()
-          for w in BLACKLIST
+
+        if (
+          re.subn("[^a-z]+", "", response.lower(), re.IGNORECASE)[0]
+          == re.subn("[^a-z]+", "", inpt.lower(), re.IGNORECASE)[0]
         ):
-          log.info("Not using due to blacklist: %s", response)
+          log.debug(
+            "get_response(%r, %r) discarding response %r because it repeats a previous entry",
+            inpt,
+            uid,
+            response,
+          )
           response = ""
+          model = None
           continue
-        break
-  log.info("get_response(%s) returning %s", bot_message, response)
-  if model: last_model = model
-  return response
+        return response
+    return "wtf"
 
 
 async def gpt_response(bot_message, uid=None):
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   log.debug("gpt_response(%r, %r)", bot_message, uid)
-
+  last_input = inputs.setdefault(uid, [""])[-1]
+  last_response = responses.setdefault(uid, [""])[-1]
   response = await get_response(bot_message, uid)
   if not response:
     return ""
@@ -334,20 +244,37 @@ async def gpt_response(bot_message, uid=None):
         response,
       )
       return ""
+  if "" in set(
+    filter(
+      None,
+      (
+        re.subn("[^a-z]+", "", s.lower(), re.IGNORECASE)[0]
+        for s in (last_input or "", last_response or "", bot_message or "")
+      ),
+    )
+  ):
+    log.debug(
+      "gpt_response(%r, %r) discarding response %r because it repeats a previous entry",
+      bot_message,
+      uid,
+      response,
+    )
+    return ""
   log.info("query GPT for %r returns %r", bot_message, response)
   return response
 
 
 async def google(bot_message, uid=None):
-  return google2(bot_message, uid)
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   log.debug("google(%r, %r) called", bot_message, uid)
   chat = await get_chat(uid)
   cats = categorize(bot_message.lower())
-  topic = cats["entities"][0] if cats["entities"] else "*"
+  topic = "*"
+  if cats["entities"]:
+    topic = cats["entities"][0]
   Sraix = Class.forName("org.alicebot.ab.Sraix")
-  response = Sraix.sraixPannous(bot_message, topic, chat.chat if hasattr(chat, "chat") else chat)
+  response = Sraix.sraixPannous(bot_message, topic, chat)
   if "SRAIXFAILED" in response:
     log.debug("google(%r, %r) failed with %r", bot_message, uid, response)
     return ""
@@ -366,36 +293,15 @@ async def google(bot_message, uid=None):
 
 import functools
 
-def strip_xtra(s):
-  import codecs, re
-  print("strip_xtra(%r)" % (s,))
-
-  escaped = codecs.unicode_escape_encode(s)[0]
-  print("strip_xtra(%r): escaped=%r" % (s, escaped))
-
-  splits = re.compile(rb"[\t ][\t ]+|\\n|\\xb7|\\xa0", re.DOTALL).split(escaped)
-  ok = []
-  for i in splits:
-    i = i.strip()
-    if re.compile(rb"^[A-Z][a-z]{2} \d+(,|$)", re.DOTALL).search(i):
-      continue
-    if not re.compile(rb"([A-Z]*[a-z]+|[A-Z]+|[a-z]+|[A-Z]+[a-z]*) ", re.DOTALL).search(i):
-      continue
-    ok.append(i)
-  if not ok:
-    return ""
-  ordered = sorted(ok, key=len)
-  longest = ordered[-1]
-
-  s0 = codecs.unicode_escape_decode(longest)[0]
-  print("strip_xtra(%r): s0=%r" % (s, s0))
-
-  s1 = re.compile(
-    "(?<=[^a-zA-Z])'((?:[^'.]|(?<=[a-z]))'[a-z]+)(\\.?)'",
-    re.DOTALL
-  ).sub("\\1", s0).strip()
-
-  return re.compile("([a-z])'[a-z]*", re.DOTALL).sub("\\1", s1).strip()
+strip_xtra = (
+  lambda s: re.subn(
+    "([a-z])'[a-z]*",
+    "\\1",
+    re.subn("(?<=[^a-zA-Z])'((?:[^'.]+|(?<=[a-z])'[a-z]*)+)(\\.?)'", "\\1", s)[0],
+  )[0]
+  .strip()
+  .lower()
+)
 
 
 def find(coll, r):
@@ -409,6 +315,7 @@ def find(coll, r):
 
 
 def google2(bot_message, uid=0, req_url=None):
+
   try:
     ans_marker = " ".join(
       find(
@@ -416,8 +323,8 @@ def google2(bot_message, uid=0, req_url=None):
         ("is", "are," "were", "was"),
       )
     )
-
-    query = f'"{ans_marker}"'
+  
+    query = '"{}"'.format(ans_marker)
   except Exception:
     ans_marker = bot_message
     query = bot_message
@@ -427,20 +334,22 @@ def google2(bot_message, uid=0, req_url=None):
   from urllib.parse import quote_plus
 
   if not req_url:
-    req_url = f"https://www.google.com/search?client=safari&rls=en&gbv=1&q={quote_plus(query)}&hl=en&num=10"
+    req_url = "https://www.google.com/search?client=safari&rls=en&gbv=1&q={}&hl=en&num=10".format(
+      quote_plus(query)
+    )
 
   headers = {
     "Accept-Language": "en-us",
     "Host": "www.google.com",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko)Version/14.0.3 Safari/605.1.15",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15",
   }
 
   request = urlopen(Request(req_url, headers=headers))
   html = request.read()
   request.close()
 
-  doc = BeautifulSoup(html, "lxml")
+  doc = BeautifulSoup(html)
   doc2 = doc
   [
     (e.clear() or e.replace_with_children()) if e else None
@@ -468,77 +377,28 @@ def google2(bot_message, uid=0, req_url=None):
       "div:first-child:last-child > div > div > div > div > div:first-child:last-child"
     )
   ]
-  for idx, d in reversed(list(enumerate(descrips))):
-    if " is " not in d.strip() and " are " not in d.strip() and " were " not in d.strip() and " was " not in d.strip() and " will " not in d.strip() and " has " not in d.strip() and " have " not in d.strip() and " can " not in d.strip():
-      descrips.pop(idx)
-
-  descrips = [strip_xtra(d) for d in descrips]
-  print("descrips=", descrips)
-
   answers = [
-    e[e.lower().index(strip_xtra(ans_marker).lower()) :]
+    e.text[strip_xtra(e.text).index(strip_xtra(ans_marker)) :]
     .strip(". ")
     .split(". ")[0]
     .split("\xa0")[0]
-    for e in descrips
-    if strip_xtra(ans_marker).lower() in e.lower()
+    for e in doc.select("*")
+    if strip_xtra(ans_marker) in strip_xtra(e.text)
   ]
-  print("answers=", answers)
-
   answer = answers[-1] if answers else None
-  try:
-    next_url = "https://www.google.com{}".format(
-      next(iter(doc.select('a[aria-label="Next page"]')))["href"]
-    )
-  except StopIteration:
-    next_url = None
-
+  next_url = "https://www.google.com{}".format(
+    next(iter(doc.select('a[aria-label="Next page"]')))["href"]
+  )
   return (
-    (answer[0].upper() + answer[1:]).strip(" \n\t.")+"."
+    answer
     if answer
-    else (descrips[0][0].upper() + descrips[0][1:]).strip(" \n\t.")+"." if descrips
     else google2(bot_message, uid, next_url)
-    if req_url is None and next_url
-    else ""
+    if req_url is None
+    else descrips
   )
 
-
-
-
-def norm_sent(k, s):
-  import re
-  exec(
-    'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
-    locals(),
-  )
-  return re.sub(
-      r" ([^a-zA-Z0-9_])\1* *",
-      "\\1",
-      " ".join(
-          filter(
-              None,
-              map(
-                  str.strip,
-                  re.split(
-                      r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
-                      s,
-                  ),
-              ),
-          )),
-  )
 
 async def alice_response(bot_message, uid):
-  if hasattr(__import__("__main__"), "Chat"):
-    sessions = list(
-      __import__("__main__")
-        .Chat.sessions.keys()
-    )
-  else:
-    sessions = [str(uid)]
-  mbs = { str(m.id): m
-      for g in __import__("__main__").bot.guilds 
-      for m in g.members}
-
   log.debug("alice_response(%r, %r)", bot_message, uid)
   last_input = inputs.setdefault(uid, [""])[-1]
   last_response = responses.setdefault(uid, [""])[-1]
@@ -561,16 +421,12 @@ async def alice_response(bot_message, uid):
     if isinstance(o, asyncio.unix_events._UnixSelectorEventLoop) and o.is_running
   ][0]
   chat = await get_chat(uid)
-  if hasattr(chat, "predicates") and ("name" not in list(
-      chat.predicates) or str(chat.predicates.get("name")) == "unknown"):
-    chat.predicates.put("name", str(mbs.get(str(uid))).split("#")[0])
   cats = await loop.run_in_executor(None, categorize, bot_message.lower())
   topic = "*"
   if cats["entities"]:
     log.debug("alice_response(%r, %r) setting topic to %r", bot_message, uid, topic)
     topic = cats["entities"][0]
-    if hasattr(chat, "predicates"):
-      chat.predicates.put("topic", topic)
+    chat.predicates.put("topic", topic)
   log.debug("alice_response(%r, %r): query %r", bot_message, uid, bot_message)
   response = await loop.run_in_executor(None, chat.multisentenceRespond, bot_message)
   log.debug("alice_response(%r, %r): result: %r", bot_message, uid, response)
@@ -584,10 +440,26 @@ async def alice_response(bot_message, uid):
         response,
       )
       return ""
-
+  if "" in set(
+    filter(
+      None,
+      (
+        re.subn("[^a-z]+", "", s.lower(), re.IGNORECASE)[0]
+        for s in (last_input, last_response, bot_message)
+      ),
+    )
+  ):
+    log.debug(
+      "alice_response(%r, %r) discarding response %r because it repeats a previous entry",
+      bot_message,
+      uid,
+      response,
+    )
+    return ""
 
   if "your name is dekriel" in response.lower():
-    if name := name_lookup.get(uid):
+    name = name_lookup.get(uid)
+    if name:
       response = f"Your name is {name}."
     else:
       response = "I don't know your name. What is your name?"
@@ -605,9 +477,7 @@ async def alice_response(bot_message, uid):
   return response
 
 
-last_input = last_response = ""
-
-class ChatCog(Cog):
+class Chat(Cog):
   bot: CommonBotBase
   event = Cog.listener()
 
@@ -632,9 +502,10 @@ class ChatCog(Cog):
 
   @event
   async def on_message(self, message):
-    global last_response
-    global last_input
     response = ""
+    if message.content.startswith("+"):
+      await self.bot.process_commands(message)
+      return
     channel_id = message.channel.id
     channel = message.channel
     in_whitelist = any(
@@ -652,15 +523,11 @@ class ChatCog(Cog):
       ):
         realname = m.group("name").lower().capitalize()
       name_lookup[uid] = realname
-    content = message.content or message.system_content or "\n".join(filter(None, ((e.title + "\n" + e.description).strip() for e in message.embeds)))
-    if not content or not content.strip():
-      return
+
     bot_message = " ".join(
-      (replace_mention(word, name_lookup) for word in content.split())
+      (replace_mention(word, name_lookup) for word in message.content.split())
     )
-    if not message.author.bot and bot_message.strip().startswith("perkel"):
-      await message.reply((bot_message + " ") + (bot_message + " "))
-      return
+
     bot_message = translate_emojis(bot_message)
     if "https://" in bot_message or "http://" in bot_message:
       bot_message = translate_urls(bot_message)
@@ -671,12 +538,10 @@ class ChatCog(Cog):
       return
     ok = (
       in_whitelist
-      or self.bot.user in message.mentions
-      or mention in content
-      or "alice" in content.lower()
+      or mention in message.content
+      or "alice" in message.content.lower()
       or "alice " in bot_message.lower()
     )
-    ok = ok and content[0:1].isalnum()
     if not ok:
       return
 
@@ -686,44 +551,13 @@ class ChatCog(Cog):
       log.info("Responding to %r with %r", bot_message, response)
       inputs.setdefault(uid, []).append(bot_message)
       responses.setdefault(uid, []).append(response)
-      global last_response
-      global last_input
       if message.author.bot:
         response = f"<@{message.author.id}> {response}"
-      last_input = bot_message
-      last_response = response
       return message.reply(response)
-    if message.author.id == self.bot.user.id:
-      return
-    
+
     try:
       with message.channel.typing():
-        import __main__
-        if not hasattr(__main__, "Chat"):
-          from __main__ import get_kernel
-          bot_message = norm_sent(get_kernel(), bot_message)
-        if (last_response.strip().endswith("?") and last_model):
-          if new_response := await gpt_response(bot_message, uid):
-            return await respond(new_response)
-            
-        if any(bot_message.lower().strip().startswith(w) for w in (
-          "who is your",
-          "what is your",
-          "who are your",
-          "who was your",
-          "what is your",
-          "what are your",
-          "what was your",
-          "when is your",
-          "what are your",
-        )):
-          if new_response := await alice_response(bot_message, uid):
-            return await respond(new_response)
-        log.info("norm_sent -> %s", bot_message)
-        from tagger import categorize
-        log.info("bot_message=%r", bot_message)
-        cats: dict = categorize(bot_message.lower() or "")
-        log.info("cats=%r", cats)
+        cats: dict = categorize(bot_message.lower())
         # {
         #   "tagged": tagged, "items": items,
         #   "question": question, "person": person,
@@ -733,8 +567,6 @@ class ChatCog(Cog):
         # {
         pprint(cats)
         by_pos = {pos: wd for wd, pos in cats["tagged"]}
-        log.info("by_pos=%r", by_pos)
-        from tagger import tag_meanings
         pronouns_pos = {
           pos for pos, m in tag_meanings.items() if "pro" in str(m).lower()
         }
@@ -743,9 +575,11 @@ class ChatCog(Cog):
         }
         has_pronouns = pronouns_pos.intersection(by_pos)
         has_personal = personal_pos.intersection(by_pos)
-        has_proper_noun = cats["proper_noun"]
+        has_proper_noun = "NP" in (
+          pos[0:2] for word, pos in pos_tag(bot_message)
+        )
         has_poss_pronoun = "PRP" in (
-          pos[0:3] for word, pos in cats["tagged"]
+          pos[0:3] for word, pos in pos_tag(bot_message)
         )
         print(f"{by_pos=}")
         print(f"{pronouns_pos=}")
@@ -753,19 +587,18 @@ class ChatCog(Cog):
         print(f"{has_personal=}")
         print(f"{has_proper_noun=}")
         print(f"{has_poss_pronoun=}")
-          
         if (
           cats["tagged"]
           and cats["tagged"][0]
-          and cats["tagged"][0][0] in ("what", "who", "when", "where", "how", "why")
+          and cats["tagged"][0][0] in ("what", "who", "when", "where")
           and len(cats["tagged"]) > 1
           and cats["tagged"][1]
-          and cats["tagged"][1][0] in ("is", "are", "were", "was", "has", "do," "does", "had")
+          and cats["tagged"][1][0] in ("is", "are")
           and cats["question"]
           and not cats["person"]
         ):
           print("Google")
-          if new_response := await alice_response(bot_message, uid):
+          if new_response := google2(bot_message, uid):
             return await respond(new_response)
 
         if bot_message.lower().startswith("my name is "):
@@ -784,6 +617,18 @@ class ChatCog(Cog):
                 "name",
                 "age",
                 "favorite",
+                "master",
+                "botmaster",
+                "creator",
+                "inventor",
+                "boss",
+                "friend",
+                "buddy",
+                "pal",
+                "nemesis",
+                "birthday",
+                "job",
+                "occupation",
               }
             )
             or (
@@ -896,7 +741,7 @@ class ChatCog(Cog):
         color=Color.red(),
       )
       embed.add_field(name="Your name", value=message.author.name)
-      embed.add_field(name="Your message", value=content)
+      embed.add_field(name="Your message", value=message.content)
       embed.add_field(name="Translated message", value=bot_message)
       await message.reply(
         response,
@@ -906,9 +751,4 @@ class ChatCog(Cog):
       if response:
         return await respond(response)
     finally:
-      pass
-
-def setup(bot):
-  cog = ChatCog(bot)
-  bot.add_cog(cog)
-  return cog
+      await self.bot.process_commands(message)

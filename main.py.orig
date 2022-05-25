@@ -1,9 +1,7 @@
 import traceback
 from bs4 import BeautifulSoup as BS
-import inspect
 import re
 import asyncio
-import inspect
 import requests
 import disnake
 from disnake.ext import commands
@@ -50,10 +48,6 @@ for log_name in (
   "disnake.voice_client",
   "disnake.webhook",
   "disnake.webhook",
-  "watchdog.events",
-  "watchdog.observers.fsevents",
-  "watchdog.observers.fsevents2",
-  "watchdog.observers.inotify_buffer",
 ):
   logging.getLogger(log_name).setLevel(logging.INFO)
 from disnake.utils import find
@@ -93,59 +87,49 @@ class Class:
 
 
 name_lookup = {
-  "863091076617601085": "Dekriel",
+  "856229099952144464": "Dekriel",
   "856229099952144464": "David",
   "955035045716979763": "Alice",
   "889338065020129310": "Mikko",
-  '923229808803065907': 'Bob',
 }
-DEFAULT_UID = "0"
+DEFAULT_UID = "856229099952144464"
 USE_JAVA = True
 
 orig_cwd = Path.cwd()
-k = chat = None
-alice_bot = None
-
 if USE_JAVA:
   from program_ab import *
 
-  class AChat:
-    def __init__(self, uid):
-      self.uid = uid
-      self.chat = None
-    def multisentenceRespond(self, bot_message):
-      global alice_bot
-      if alice_bot is None:
-        alice_bot = Class.forName("org.alicebot.ab.Bot")(
-          "alice", orig_cwd.as_posix()
-        )
-      if self.chat is None:
-        self.chat = Main.getOrCreateChat(alice_bot, True, self.uid)
-      global chat
-      chat = self.chat
-      return self.chat.multisentenceRespond(bot_message)
+  alice_bot = None
+
+  async def get_chat(uid):
+    global alice_bot
+    if alice_bot is None:
+      alice_bot = Class.forName("org.alicebot.ab.Bot")(
+        "alice", orig_cwd.as_posix()
+      )
+    return Main.getOrCreateChat(alice_bot, True, uid)
 
 else:
-  
-  class AChat:
+  sys.path.insert(0, (orig_cwd / "alice").as_posix())
+  import aiml.Kernel
+
+  k = aiml.Kernel.Kernel()
+  print(k)
+  if (orig_cwd / "brain.dmp").exists():
+    k.bootstrap(orig_cwd / "brain.dmp", [])
+  else:
+    k.bootstrap(None, list(map(Path.as_posix, orig_cwd.glob("**/*.aiml"))))
+
+  class Chat:
     def __init__(self, uid):
       self.uid = uid
+
     def multisentenceRespond(self, bot_message):
-      global k
-      if k is None:
-        sys.path.insert(0, (orig_cwd / "alice").as_posix())
-        import aiml.Kernel
-        k = alice_bot = aiml.Kernel.Kernel()
-        print(k)
-        if (orig_cwd / "brain.dmp").exists():
-          k.bootstrap(orig_cwd / "brain.dmp", [])
-        else:
-          k.bootstrap(None, list(map(Path.as_posix, orig_cwd.glob("**/*.aiml"))))
       return k.respond(bot_message, self.uid)
 
+  async def get_chat(uid):
+    return Chat(uid)
 
-async def get_chat(uid):
-  return AChat(uid)
 
 import requests
 
@@ -181,14 +165,14 @@ intents = Intents.default()
 intents.value |= disnake.Intents.messages.flag
 intents.value |= disnake.Intents.message_content.flag
 intents.value |= disnake.Intents.guilds.flag
-intents.value |= disnake.Intents.members.flag
 
-bot = Bot(
+bot = AutoShardedBot(
   command_prefix=PREFIX,
   sync_commands=True,
   sync_commands_debug=True,
   sync_commands_on_cog_unload=True,
-  test_guilds=[],
+  sync_permissions=True,
+  test_guilds=TEST_GUILDS,
   # **options:
   status=Status.idle,
   intents=intents,
@@ -277,92 +261,28 @@ Client.run = run
 from watchdog.events import FileSystemEventHandler
 from watchdog.observers import Observer
 from importlib.machinery import all_suffixes
-from functools import lru_cache
-import nltk
 
-k = None
-@lru_cache
-def get_kernel():
-  global k
-  if not k:
-    sys.path.insert(0, (Path.cwd() / "alice").as_posix())
-    import aiml.AimlParser
-    try:
-      k = aiml.Kernel.Kernel()
-    except (TypeError, ImportError):
-      k = aiml.Kernel()
-    log.info("Created python aiml Kernel: %s,", k)
-    if Path("brain.dmp").exists():
-      k.bootstrap("brain.dmp", [])
-      log.info("Loaded brain into Kernel: %s,", k)
-    else:
-      k.bootstrap(None, list(map(Path.as_posix, Path("./").glob("**/*.aiml"))))
-      k.saveBrain("brain.dmp")
-    preds = {
-      ln.split(":", 1)[0]: ln.split(":", 1)[1]
-      for ln in
-      (Path.cwd() / "bots"/ "alice"/"config" / "predicates.txt").read_text().splitlines()
-    }
-    log.info("Loading %d predicates ...", len(preds))
-    for pk, pv in preds.items():
-      k.setBotPredicate(pk, pv)
-  return k
 
-tagger = None
-def pos_tag(sentence):
-  global tagger
-  import nltk
-  if tagger is None:
-    nltk.download(
-     "averaged_perceptron_tagger")
-    nltk.download("punkt")
-    log.info("pos_tag: creating tagger")
-    try:
-      from nltk.corpus import treebank
-    except Exception:
-      log.info("pos_tag: nltk.download")
-      nltk.download("treebank")
-      from nltk.corpus import treebank
-    from nltk.tag import PerceptronTagger
-    log.info("pos_tag: PerceptronTagger()")
-    tagger = PerceptronTagger()
-    log.info("pos_tag: Train tagger")
-    try:
-      tagger.train(
-       treebank.tagged_sents()[:500])
-    except LookupError:
-      nltk.download("treebank")
-      tagger.train(
-       treebank.tagged_sents()[:500])
-    log.info("pos_tag: Got tagger: %s", tagger)
-  tagged = tagger.tag(nltk.tokenize.word_tokenize(sentence))
-  return tagged
-pos_tag("")
+def path_as_dotted(path):
+  p = Path(path).relative_to(Path.cwd())
+  for s in all_suffixes():
+    if not p.name.endswith(s):
+      continue
+    name_noext = p.name.removesuffix(s)
+    p_noext = p.parent / name_noext
+
+    log.info("on_modified: p=%s, p_noext=%s", p, p_noext)
+    return ".".join(p_noext.parts)
 
 
 class EvtHandler(FileSystemEventHandler):
-  def on_any_event(self, evt):
-    # log.info("on_any_event(self=%s, evt=%s)", self, evt)
-    for fld, val in inspect.getmembers(evt):
-      if not isinstance(val, str):
-        continue
-      if ".py" not in val: continue
-      val2 = val.split("/")[-1]
-      val2 = val2.split(".py")[0]
-      val2 = val2.split(".")[-1]
-      p = Path("commands") / f"{val2}.py"
-      if not p.exists():
-        continue
-      name = ".".join([*p.parent.parts, p.stem])
-      log.debug("%s: %s := %r", type(evt).__name__, fld, val2)
-      try:
-        bot.unload_extension(name)
-      except Exception:
-        pass
-      if name in sys.modules:
-        del sys.modules[name]
-      bot.load_extension(name)
-      log.info("Reloaded extension: %s", name)
+  def on_modified(self, evt):
+    log.info("on_modified(self=%s, evt=%s)", self, evt)
+    name = path_as_dotted(evt.src_path)
+    if not name:
+      return
+    log.info("on_modified: reloading %r", name)
+    bot.reload_extension(name)
 
 
 def auto_reload_start(bot):
@@ -389,33 +309,8 @@ def start_bot():
 
 
 loop = get_event_loop_policy().get_event_loop()
-# loop.run_until_complete(get_chat(DEFAULT_UID))
+loop.run_until_complete(get_chat(DEFAULT_UID))
 Thread(target=start_bot).start()
-
-
-
-def iter_over(coro):
-  from threading import Event
-  it = coro.__aiter__()
-  rslts = []
-  try:
-    while True:
-      f = asyncio.run_coroutine_threadsafe(
-        it.__anext__(), loop
-      )
-      ev = Event()
-      def on_done(_):
-        ev.set()
-      f.add_done_callback(on_done)
-      if ev.wait():
-        rslts.append(f.result())
-      else:
-        break
-  except StopAsyncIteration:
-    pass
-  return rslts
-  
-
 import code
 
 cons = code.InteractiveConsole(locals())

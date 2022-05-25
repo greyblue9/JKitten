@@ -32,6 +32,8 @@ if (( ! disnake_installed || !  bs4_installed )); then
     venv/bin/python -m spacy download en_core_web_md
 fi
 
+# git rev-list --all --objects | grep -Eie 'main.py' | cut -d" " -f1 | xargs -d$'\n' -n1 env PAGER=cat git show | tee z.py
+
 set -e
 srcdate=$( find src -name "*.java" -exec stat -t -- {} + | cut -d" " -f12 | sort -n | tail -1; )
 libdate=$( stat -t -- lib/Ab.jar | cut -d" " -f12 || echo 0; )

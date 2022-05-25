@@ -178,3 +178,11 @@ def categorize(text: str):
       if pos in ("NN", "NNS", "NNP") 
     ), (None,))))
   }
+from functools import lru_cache
+import spacy
+from spacy.lang.en import English
+import nltk
+
+nltk.download("punkt")
+nltk.download("averaged_perceptron_tagger")
+

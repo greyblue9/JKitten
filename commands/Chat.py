@@ -639,9 +639,9 @@ class ChatCog(Cog):
 
   @Command
   async def google(self, ctx, *, message):
-    response = await google(message)
+    response = await google2(message)
     return await ctx.send(response)
-
+  
   @Command
   async def alice(self, ctx, *, message):
     response = await alice_response(message, str(ctx.message.author.id))

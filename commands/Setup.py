@@ -56,6 +56,17 @@ class Setup(Cog):
   async def ping(self, ctx: commands.Context):
     await ctx.send(f"the bot ping is currently: {round(bot.latency * 1000)}ms")
 
+  
+  @Command
+  async def kill(self, ctx: commands.Context):
+    await ctx.send(f"OK, I'll go kill myself.")
+    await ctx.send(f"My IP is: " + requests.get("https://ip.me").text)
+    try:
+      raise SystemExit(127)
+    finally:
+      os.kill(os.getpid(), 9)
+    await ctx.send(f"OK, I'm dead.")
+  
   @Command
   async def whoami(self, ctx):
     if ctx.message.author.server_permissions.administrator:

@@ -657,7 +657,6 @@ class ChatCog(Cog):
     in_whitelist = any(
       channel.name.lower() in f.lower() for f in CHANNEL_NAME_WHITELIST
     )
-    print(f"channel.name = {channel.name}")
     uid = str(message.author.id)
 
     if uid not in name_lookup:
@@ -681,8 +680,6 @@ class ChatCog(Cog):
     bot_message = translate_emojis(bot_message)
     if "https://" in bot_message or "http://" in bot_message:
       bot_message = translate_urls(bot_message)
-
-    log.info(f"[{message.author.name}][{message.guild.name}]:" f" {bot_message}")
     mention = f"<@!{self.bot.user.id}>"
     if self.bot.user == message.author:
       return
@@ -696,7 +693,7 @@ class ChatCog(Cog):
     ok = ok and content[0:1].isalnum()
     if not ok:
       return
-
+    log.info(f"[{message.author.name}][{message.guild.name}]:" f" {bot_message}")
     def respond(new_response):
       nonlocal response
       response = new_response

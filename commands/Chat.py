@@ -731,6 +731,15 @@ class ChatCog(Cog):
           "what was your",
           "when is your",
           "what are your",
+          "who is my",
+          "what is my",
+          "who are my",
+          "who was my",
+          "what is my",
+          "what are my",
+          "what was my",
+          "when is my",
+          "what are my",
         )):
           if new_response := await alice_response(bot_message, uid):
             return await respond(new_response)

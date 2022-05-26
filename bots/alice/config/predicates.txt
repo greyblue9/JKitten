@@ -59,7 +59,6 @@ longitute:-74.0
 meta:not set
 middlename:Von
 mother:Adelle
-name:I
 nephew:Joey
 newcontact:David
 niece:Alicia Keyes

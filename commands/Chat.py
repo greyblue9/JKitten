@@ -639,7 +639,7 @@ class ChatCog(Cog):
 
   @Command
   async def google(self, ctx, *, message):
-    response = await google2(message)
+    response = google2(message)
     return await ctx.send(response)
   
   @Command
@@ -841,7 +841,10 @@ class ChatCog(Cog):
           or re.search("^what is [^ ]+($|,|\\.)", bot_message.lower())
         ):
           if new_response := await wolfram_alpha(bot_message, uid):
-            return await respond(new_response)
+            if ("(" in new_response or "|" in new_response):
+              new_response = google2(content, uid)
+            if new_response:
+              return await respond(new_response)
 
         if has_personal and "name" in cats["attributes"]:
           if new_response := await alice_response(bot_message, uid):
@@ -875,8 +878,11 @@ class ChatCog(Cog):
             if new_response := await gpt_response(bot_message, uid, message):
               response = new_response
 
-          elif new_response := await wolfram_alpha(bot_message, uid):
-            return await respond(new_response)
+            if new_response := await wolfram_alpha(bot_message, uid):
+              if ("(" in new_response or "|" in new_response):
+                new_response = google2(content, uid)
+              if new_response:
+                return await respond(new_response)
 
           elif new_response := await google(bot_message, uid):
             return await respond(new_response)

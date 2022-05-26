@@ -37,6 +37,8 @@ BLACKLIST = {
   "joking or not",
   "SRAIXFAILED",
   "the last of us",
+  "I know, right",
+  "Let me learn this",
   "a guy making a video ",
   "is the guy who made the video",
   "making a video",
@@ -51,20 +53,21 @@ BLACKLIST = {
   "reference to the song",
   "I'm over hereactly",
   "not sure what you mean",
+  "Last Airbender",
   "web search",
   "good song",
   "search the web",
   "<oob>",
   "I like a good discussion.",
   "I'm very enthusiastic.",
-  "I'm sorry, I didn't mean to hurt your feelings.",
   "\"\"",
   "is .",
   "I'm sorry, I'm not a native speaker.",
   "where.",
   "what.",
-  " is.",
-  "is .",
+  " is .",
+  " am.",
+  "is unknown.",
   "when.",
   "who.",
 }
@@ -186,11 +189,10 @@ async def get_response(bot_message, uid, model=None, message=None):
     if response:
       return response
     print("?? in ", last_model)
-    if last_model and (not last_input.lower().startswith("what") or ("they" in last_input.lower() or "them "in last_input.lower() or " it " in last_input.lower() or " he  " in last_input.lower() or " she  "in last_input.lower())):
+    if last_model and (not last_input.lower().startswith("what") or ("they" in last_input.lower() or "them "in last_input.lower() or " it " in last_input.lower() or " he  " in last_input.lower() or " she  "in last_input.lower() or "you" in last_input.lower() or "can " in last_input.lower())):
         model = last_model
         log.info("reusing model %s", last_model)
         print("reuse model", last_model)
-        last_model = None
     if not model:
       model = random.choices(
         model_names := ( 
@@ -279,6 +281,9 @@ async def get_response(bot_message, uid, model=None, message=None):
             break
         if not response:
           continue
+        if response.lower() == bot_message.lower():
+          response = ""
+          continue
         if any(
           w.lower() in response.lower()
           or response.lower() in w.lower()
@@ -301,6 +306,9 @@ async def gpt_response(bot_message, uid=None, message=message):
   response = await get_response(bot_message, uid=uid, message=message)
   if not response:
     return ""
+  if response.lower() == bot_message.lower():
+    response = ""
+    continue
   for b in BLACKLIST:
     if b.lower() in response.lower() or response.lower() in b:
       log.debug(
@@ -332,6 +340,9 @@ async def google(bot_message, uid=None):
   if "SRAIXFAILED" in response:
     log.debug("google(%r, %r) failed with %r", bot_message, uid, response)
     return ""
+  if response.lower() == bot_message.lower():
+    response = ""
+    continue
   for b in BLACKLIST:
     if b.lower() in response.lower() or response.lower() in b:
       log.debug(
@@ -482,6 +493,8 @@ def google2(bot_message, uid=0, req_url=None):
     if req_url is None and next_url
     else ""
   )
+  if a.lower() == bot_message.lower():
+    return ""
   if any(b in a for b in BLACKLIST):
     return ""
   return a
@@ -579,6 +592,8 @@ async def alice_response(bot_message, uid):
     q = q.split("&lt;/")[0]
     log.info("Doing search for %r", q)
     response = await google(q, uid)
+  if response.lower() == bot_message.lower():
+    return ""
   for b in BLACKLIST:
     if b.lower() in response.lower() or response.lower() in b:
       log.debug(

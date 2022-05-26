@@ -121,7 +121,7 @@ name_lookup = {
   '923229808803065907': 'Bob',
 }
 DEFAULT_UID = "0"
-USE_JAVA = False
+USE_JAVA = True
 
 orig_cwd = Path.cwd()
 k = chat = None
@@ -179,7 +179,7 @@ intents.value |= disnake.Intents.message_content.flag
 intents.value |= disnake.Intents.guilds.flag
 intents.value |= disnake.Intents.members.flag
 
-bot = Bot(
+bot = AutoShardedBot(
   command_prefix=PREFIX,
   sync_commands=True,
   sync_commands_debug=True,

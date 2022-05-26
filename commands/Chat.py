@@ -308,7 +308,6 @@ async def gpt_response(bot_message, uid=None, message=message):
     return ""
   if response.lower() == bot_message.lower():
     response = ""
-    continue
   for b in BLACKLIST:
     if b.lower() in response.lower() or response.lower() in b:
       log.debug(
@@ -342,7 +341,6 @@ async def google(bot_message, uid=None):
     return ""
   if response.lower() == bot_message.lower():
     response = ""
-    continue
   for b in BLACKLIST:
     if b.lower() in response.lower() or response.lower() in b:
       log.debug(

@@ -362,7 +362,7 @@ class Kernel:
       start = time.monotonic()
       with catch_warnings() as cw:
         filterwarnings(action="ignore", category=GuessedAtParserWarning)
-        doc = BeautifulSoup(Path(f).read_bytes(), "xml")
+        doc = BeautifulSoup(Path(f).read_bytes(), features=["lxml", "xml"])
 
       for elem in list(
         reversed(

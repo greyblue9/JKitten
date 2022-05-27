@@ -11,3 +11,4 @@ requests
 nltk
 bs4
 safeeval
+lxml

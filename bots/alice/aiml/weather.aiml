@@ -1,6 +1,0 @@
-<aiml>
-  <category>
-    <pattern>Give me a weather report.</pattern>
-    <template>Lets check the weather.</template>
-  </category>
-</aiml>

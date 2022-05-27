@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 <!-- File: dialog.aiml -->
-<!-- Last modified: September 5, 2014 -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: July 19, 2014 -->
 <!--  -->
-<!-- This AIML file is part of the Rosie knowledge base. -->
+<!-- This AIML file is part of the ALICE2 0.0.5 chat bot knowledge base. -->
 <!--  -->
-<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
+<!-- The ALICE2 brain is Copyright &copy; 2014 by ALICE AI Foundation. -->
 <!--  -->
-<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
-<!--  -->
-<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
+<!-- The ALICE2 brain is released under the terms of the GNU Lesser General -->
 <!-- Public License, as published by the Free Software Foundation. -->
 <!--  -->
 <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
-<!-- For more information: -->
-<!-- http://www.pandorabots.com -->
-<!--  http://www.alicebot.org -->
+<!-- For more information see http://www.alicebot.org -->
 <!--  -->
-
 <category><pattern>CLEAR DIALOG HISTORY</pattern>
 <template>Cleared.
 <think>

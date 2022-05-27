@@ -167,9 +167,7 @@ else:
 
 
 async def get_chat(uid):
-  if "PChat" in globals():
-    return PChat(uid)
-  return AChat(uid)
+  return PChat(uid) if "PChat" in globals() else AChat(uid)
 
 
 inputs = {}
@@ -320,8 +318,7 @@ def pos_tag(sentence):
       tagger.train(
        treebank.tagged_sents()[:500])
     log.info("pos_tag: Got tagger: %s", tagger)
-  tagged = tagger.tag(nltk.tokenize.word_tokenize(sentence))
-  return tagged
+  return tagger.tag(nltk.tokenize.word_tokenize(sentence))
 pos_tag("")
 
 
@@ -360,11 +357,11 @@ def auto_reload_start(bot):
 def start_bot():
   thread = current_thread()
   log.info(
-    "Starting bot with token '%s%s%s' on thread: %s",
-    DISCORD_BOT_TOKEN[0:5],
-    "*" * len(DISCORD_BOT_TOKEN[5:-5]),
-    DISCORD_BOT_TOKEN[-5:],
-    thread,
+      "Starting bot with token '%s%s%s' on thread: %s",
+      DISCORD_BOT_TOKEN[:5],
+      "*" * len(DISCORD_BOT_TOKEN[5:-5]),
+      DISCORD_BOT_TOKEN[-5:],
+      thread,
   )
   setattr(bot, "_rollout_all_guilds", True)
   auto_reload_start(bot)

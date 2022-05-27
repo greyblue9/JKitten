@@ -36,46 +36,41 @@ class Class:
 
 
 BLACKLIST = {
-  "JSFAILED",
-  "I know, right",
-  "serious or not",
-  "I'm not sure what you're trying to say",
-  "joking or not",
-  "SRAIXFAILED",
-  "the last of us",
-  "I know, right",
-  "Let me learn this",
-  "a guy making a video ",
-  "is the guy who made the video",
-  "making a video",
-  "want to talk about unknown",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "Thanks for the trade",
-  "being sarcastic",
-  "reference to the song",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "not sure what you mean",
-  "Last Airbender",
-  "web search",
-  "good song",
-  "search the web",
-  "<oob>",
-  "I like a good discussion.",
-  "I'm very enthusiastic.",
-  "\"\"",
-  "is .",
-  "I'm sorry, I'm not a native speaker.",
-  "where.",
-  "what.",
-  " is .",
-  " am.",
-  "is unknown.",
-  "when.",
-  "who.",
+    "JSFAILED",
+    "serious or not",
+    "I'm not sure what you're trying to say",
+    "joking or not",
+    "SRAIXFAILED",
+    "the last of us",
+    "I know, right",
+    "Let me learn this",
+    "a guy making a video ",
+    "is the guy who made the video",
+    "making a video",
+    "want to talk about unknown",
+    "Thanks for the trade",
+    "being sarcastic",
+    "Are you a girl",
+    "reference to the song",
+    "I'm over hereactly",
+    "not sure what you mean",
+    "Last Airbender",
+    "web search",
+    "good song",
+    "search the web",
+    "<oob>",
+    "I like a good discussion.",
+    "I'm very enthusiastic.",
+    "\"\"",
+    "is .",
+    "I'm sorry, I'm not a native speaker.",
+    "where.",
+    "what.",
+    " is .",
+    " am.",
+    "is unknown.",
+    "when.",
+    "who.",
 }
 
 last_input = last_response = ""
@@ -103,12 +98,8 @@ def fix_pred_response(s):
     if subj not in ("my", "me", "i", "we", "myself")
     else k.getBotPredicate(key)
   )
-  resp = (
-    "".join([s.partition(" .")[0], " ", ans, "."])
-    if ans
-    else "".join(["What ", " ".join(rest), " ", subj, " ", key, "?"])
-  )
-  return resp
+  return ("".join([s.partition(" .")[0], " ", ans, "."]) if ans else "".join(
+      ["What ", " ".join(rest), " ", subj, " ", key, "?"]))
 
 
 def norm_sent(k, s):
@@ -116,24 +107,22 @@ def norm_sent(k, s):
   if k:
     for f,t in k._subbers["normal"].items():
       s = re.sub(rf"\b{re.escape(f)}\b", t, s)
-  
-  norm = re.sub(
-    r" ([^a-zA-Z0-9_])\1* *",
-    "\\1",
-    " ".join(
-      filter(
-        None,
-        map(
-          str.strip,
-          re.split(
-            r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
-            s,
-          ),
-        ),
-      )
-    ),
+
+  return re.sub(
+      r" ([^a-zA-Z0-9_])\1* *",
+      "\\1",
+      " ".join(
+          filter(
+              None,
+              map(
+                  str.strip,
+                  re.split(
+                      r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
+                      s,
+                  ),
+              ),
+          )),
   )
-  return norm
 
 
 
@@ -193,7 +182,8 @@ async def get_response(bot_message, uid, model=None, message:Message=None): #typ
   response = None
   inpt = bot_message
   data = {}
-  for attempt in range(4):
+  token = "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"
+  for _ in range(4):
     if response:
       return response
     print("?? in ", last_model)
@@ -224,7 +214,6 @@ async def get_response(bot_message, uid, model=None, message:Message=None): #typ
       model,
       weight,
       )
-    token = "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"
     headers = {"Authorization": f"Bearer {token}"}
     API_URL = f"https://api-inference.huggingface.co/models/{model}"
     payload = {
@@ -254,8 +243,7 @@ async def get_response(bot_message, uid, model=None, message:Message=None): #typ
         if not data:
           data = {"error": "No reply", "estimated_time": 5}
         if data.get("estimated_time"):
-          sleepytime = data.get("estimated_time", 0)
-          if sleepytime:
+          if sleepytime := data.get("estimated_time", 0):
             import time
             ts = int(time.time() + sleepytime)
             await message.reply(f"Please wait <t:{ts}:R>, I am working on a response ...", delete_after=sleepytime)

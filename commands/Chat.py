@@ -685,8 +685,8 @@ class ChatCog(Cog):
       last_input = bot_message
       last_response = response
       BLACKLIST.add(response)
-      if len(BLACKLIST) % 25 == 0:
-        BLACKLIST = set(list(BLACKLIST)[:25])
+      if len(BLACKLIST) % 75 == 0:
+        BLACKLIST = set(list(BLACKLIST)[:30])
       return message.reply(response)
     if message.author == self.bot.user:
       return

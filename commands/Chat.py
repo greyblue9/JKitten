@@ -532,22 +532,15 @@ async def alice_response(bot_message, uid):
         f"Gosh, I've been waiting so long and now I'm finally speaking with *the* {name}!",
       ]
     )
-  import gc, asyncio.unix_events
-  
-  loop = [
-    o
-    for o in gc.get_objects()
-    if isinstance(o, asyncio.unix_events._UnixSelectorEventLoop) and o.is_running  # type: ignore
-  ][0]
   chat = get_chat(uid)
   if inspect.isawaitable(chat):
     chat = await chat
   if hasattr(chat, "predicates") and ("name" not in list(
       chat.predicates) or str(chat.predicates.get("name")) == "unknown"):
     chat.predicates.put("name", str(mbs.get(str(uid))).split("#")[0])
-  cats0 = await loop.run_in_executor(None, categorize, last_input.lower())
-  cats1 = await loop.run_in_executor(None, categorize, last_response.lower())
-  cats2 = await loop.run_in_executor(None, categorize, bot_message.lower())
+  cats0 = categorize(last_input.lower())
+  cats1 = categorize(last_response.lower())
+  cats2 = categorize(bot_message.lower())
   topic = ""
   for cats in (cats0, cats1, cats2):
     if cats["entities"]:
@@ -567,7 +560,7 @@ async def alice_response(bot_message, uid):
     __main__.ParseState.current.that = topic or "*"
   
   log.debug("alice_response(%r, %r): query %r", bot_message, uid, bot_message)
-  response = await loop.run_in_executor(None, chat.multisentenceRespond, bot_message)
+  response = chat.multisentenceRespond(bot_message)
   log.debug("alice_response(%r, %r): result: %r", bot_message, uid, response)
   if "&lt;search" in response:
     q = response.split("&lt;search&gt;")[1]
@@ -576,8 +569,15 @@ async def alice_response(bot_message, uid):
     response = await google(q, uid)
   if response.lower() == bot_message.lower():
     return ""
+
+  response = (
+    response.replace("<br />", "\n")
+    .replace("<br >", "\n")
+    .replace("<br/>", "\n")
+    .replace("<br>", "\n")
+  )
   for b in BLACKLIST:
-    if b.lower() in response.lower() or response.lower() in b:
+    if b.lower() == response.lower() or response.lower() == b:
       log.debug(
         "alice_response(%r, %r) discarding response %r due to blacklist",
         bot_message,
@@ -585,24 +585,7 @@ async def alice_response(bot_message, uid):
         response,
       )
       return ""
-
-
-  if "your name is dekriel" in response.lower():
-    if name := name_lookup.get(uid):
-      response = f"Your name is {name}."
-    else:
-      response = "I don't know your name. What is your name?"
-
-  if "Hari" in response:
-    response = re.sub("\\bHari\\b", "Alice", response)
-
   log.info("alice_response query for %r returns %r", bot_message, response)
-  response = (
-    response.replace("<br />", "\n")
-    .replace("<br >", "\n")
-    .replace("<br/>", "\n")
-    .replace("<br>", "\n")
-  )
   return response
 
 
@@ -691,6 +674,9 @@ class ChatCog(Cog):
         response = f"<@{message.author.id}> {response}"
       last_input = bot_message
       last_response = response
+      BLACKLIST.add(response)
+      if len(BLACKLIST) % 100 == 0:
+        BLACKLIST[:] = list(BLACKLIST)[:70]
       return message.reply(response)
     if message.author == self.bot.user:
       return
@@ -702,10 +688,7 @@ class ChatCog(Cog):
         if not USE_JAVA and not hasattr(__main__, "Chat"):
           from __main__ import get_kernel
           bot_message = norm_sent(get_kernel(), bot_message)
-        if (last_response.strip().endswith("?") and last_model):
-          if new_response := await gpt_response(bot_message, uid, message):
-            return await respond(new_response)
-            
+        
         if any(bot_message.lower().strip().startswith(w) for w in (
           "who is your",
           "what is your",
@@ -724,6 +707,7 @@ class ChatCog(Cog):
         log.info("bot_message=%r", bot_message)
         cats: dict = categorize(bot_message.lower() or "")
         log.info("cats=%r", cats)
+        
         # {
         #   "tagged": tagged, "items": items,
         #   "question": question, "person": person,
@@ -732,6 +716,11 @@ class ChatCog(Cog):
         #   "clauses": tuple(clauses),
         # {
         pprint(cats)
+
+        if (last_response.strip().endswith("?") and last_model and "what" not in bot_message and "who" not in bot_message and "where" not in bot_message):
+          if new_response := await gpt_response(bot_message, uid, message):
+            return await respond(new_response)
+        
         by_pos = {pos: wd for wd, pos in cats["tagged"]}
         log.info("by_pos=%r", by_pos)
         from tagger import tag_meanings

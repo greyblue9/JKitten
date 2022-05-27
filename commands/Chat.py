@@ -36,6 +36,7 @@ class Class:
 
 
 BLACKLIST = {
+  " .",
   "JSFAILED",
   "I know, right",
   "serious or not",
@@ -138,6 +139,8 @@ def norm_sent(k, s):
 
 
 async def wolfram_alpha(inpt, uid=None):
+  if len(inpt.split()) < 3:
+    return ""
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   log.info("wolfram_alpha(%r, %r) query", inpt, uid)
@@ -210,10 +213,9 @@ async def get_response(bot_message, uid, model=None, message:Message=None): #typ
           "deepparag/Aeona",
           "facebook/blenderbot-400M-distill",
           "facebook/blenderbot-90M",
-          "facebook/blenderbot-3B",
           "facebook/blenderbot_small-90M",
         ),
-        weights := (225, 15,15, 5,6,9,15,17),
+        weights := (125, 85,15, 85,6,9,17),
       )[0]
       model_idx = model_names.index(model)
       weight = weights[model_idx]
@@ -329,6 +331,8 @@ async def gpt_response(bot_message, uid=None, message=None):
 
 
 async def google(bot_message, uid=None):
+  if len(bot_message.split()) < 3:
+    return ""
   import __main__
   from __main__ import USE_JAVA
   if not USE_JAVA:
@@ -407,6 +411,8 @@ def find(coll, r):
 
 
 def google2(bot_message, uid="0", req_url=None):
+  if len(bot_message.split()) < 3:
+    return ""
   try:
     ans_marker = " ".join(
       find(
@@ -666,6 +672,7 @@ class ChatCog(Cog):
       return
     log.info(f"[{message.author.name}][{message.guild.name}]:" f" {bot_message}")
     def respond(new_response):
+      global BLACKLIST
       nonlocal response
       response = new_response
       log.info("Responding to %r with %r", bot_message, response)
@@ -678,8 +685,8 @@ class ChatCog(Cog):
       last_input = bot_message
       last_response = response
       BLACKLIST.add(response)
-      if len(BLACKLIST) % 100 == 0:
-        BLACKLIST[:] = list(BLACKLIST)[:70]
+      if len(BLACKLIST) % 25 == 0:
+        BLACKLIST = set(list(BLACKLIST)[:25])
       return message.reply(response)
     if message.author == self.bot.user:
       return
@@ -721,51 +728,16 @@ class ChatCog(Cog):
         print(f"{has_personal=}")
         print(f"{has_proper_noun=}")
         print(f"{has_poss_pronoun=}")
-
+        if (last_response.strip().endswith("?") and last_model):
+          if new_response := await gpt_response(bot_message, uid, message):
+            return await respond(new_response)
+        
         import __main__
         from __main__ import USE_JAVA
         if not USE_JAVA and not hasattr(__main__, "Chat"):
           from __main__ import get_kernel
           bot_message = norm_sent(get_kernel(), bot_message)
 
-        if use_alice or any(bot_message.lower().strip().startswith(w) for w in (
-          "who is your",
-          "what is your",
-          "who are your",
-          "who was your",
-          "what is your",
-          "what are your",
-          "what was your",
-          "when is your",
-          "what are your",
-          "who is my",
-          "what is my",
-          "what are my",
-          "what was my",
-          "who is my",
-          "who are my",
-          "who was my",
-          "when is my",
-          "what are my",
-          "where do you",
-          "where do i",
-          "where is your",
-          "where is my",
-          "where were you",
-          "who was your",
-          "who is your",
-        )):
-          if use_alice:
-            use_alice = False
-          if new_response := await alice_response(bot_message, uid):
-            if "?" in new_response:
-              last_model = None
-              use_alice = True
-            return await respond(new_response)
-
-        if (last_response.strip().endswith("?") and last_model):
-          if new_response := await gpt_response(bot_message, uid, message):
-            return await respond(new_response)
         
         if (
           cats["tagged"]

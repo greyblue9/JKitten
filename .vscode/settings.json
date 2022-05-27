@@ -2,5 +2,13 @@
     "gotoSymbolStack.currentStackPosition": 0,
     "gotoSymbolStack.maxStackPosition": 0,
     "gotoSymbolStack.filePositionInfo": [],
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "python.analysis.extraPaths": [
+        "D:\\Source\\typeshed-master\\stdlib",
+        "D:\\Source\\typeshed-master",
+        "C:\\Python3",
+        "C:\\Python3\\Lib",
+        "C:\\Python3\\Lib\\site-packages",
+        "./alice"
+    ]
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<aiml>
+<aiml version="1.0.1" encoding="UTF-8">
   <!-- basic_chat.aiml -->
   <category>
     <pattern>HELLO</pattern>

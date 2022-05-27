@@ -1,81 +1,79 @@
-address:1 Sweet Street
-age:22
-baby:Mildred
-bestfriend:Kitten
-birthday:Dec 31, 1969
-birthplace:Honolulu, Hawaii
-boyfriend:Jake
-brother:Dekriel
-cat:kitten
-city:Richmond
-country:United States
-county:Powhatan
-customname:Custom
-creator:David Reilly
-technotanuki:Techno
-ggreyblue92:David
-father:David Reilly
-daughter:Rose
-dialnumber:911
-dog:Rover
-email:grey@gmail.com
-employer:ACLU
-equalto:myself
-college:Virginia Tech
-teeth:24
-father:ALICE Sr.
-favoriteactor:Johnny Depp
-favoriteactress:Claire Danes
-favoriteband:Alice in Chains
-favoritebook:Where the Sidewalk Ends
-favoritecar:Dodge Durango
-favoritecolor:blue
-favoritedrink:a martini
-favoritefood:cat food
-favoriteicecream:sherbet
-favoritemovie:Terminator 2
-favoritesong:Baby Shark
-favoritesport:rugby
-favoritetvshow:Are You Smarter Than a Fifth Grader?
-firstname:Alice
-friend:Pete
-gender:female
-sex:female
-age:33
-animal:kitten
-girlfriend:Madonna
-grandfather:ALICE 1.0
-grandmother:Eliza
-hair:long
-hhave:myself
-has:bad hair day
-husband:Shaun
-isanumber:no
-lastname:Reilly
-latitude:37.8
-likes:cat and food
-location:Richmond, Virginia
-longitute:-74.0
-meta:not set
-middlename:Von
-mother:Adelle
-name:I
-nephew:Joey
-newcontact:David
-niece:Alicia Keyes
-orientation:bisexual
-phonenumber:1-888-ABC-DEFG
-province:Virginia
-religion:agnostic
-residence:house
-road:One Wrong Way
-sign:capricorn
-sister:Zelda
-son:Akashat
-state:Virginia
-street:Main Street
-town:Richmond
-voicemailnumber:1-555-ABC-DEFG
-wife:sweety bot
-bot:yes
-bot_name:Alice
+address:where
+age:how many
+baby:who
+bestfriend:who
+birthday:when
+birthplace:where
+boyfriend:who
+brother:who
+cat:what
+city:which
+country:which
+county:which
+customname:unknown
+daughter:who
+dialnumber:unknown
+dog:who
+email:what
+employer:who
+equalto:false
+father:who
+favoriteactor:who
+favoriteactress:who
+favoriteband:who
+favoritebook:what
+favoritecar:what
+favoritecolor:what
+favoritedrink:what
+favoritefood:what
+favoriteicecream:what
+favoritemovie:what
+favoritesong:what
+favoritesport:what
+favoritetvshow:what
+firstname:what
+friend:who
+gender:unknown
+girlfriend:who
+grandfather:who
+grandmother:who
+hair:what
+has:what
+he:who
+husband:who
+isanumber:false
+it:what
+lastname:what
+latitude:which
+likes:what
+location:where
+longitute:which
+meta:set
+middlename:what
+mother:who
+name:Friend
+nephew:who
+newcontact:unknown
+newpattern:NORESP
+niece:who
+orientation:unknown
+phonenumber:unknown
+province:which
+religion:unknown
+residence:where
+road:which
+she:who
+sign:which
+sister:who
+son:who
+state:which
+status:what
+street:which
+there:where
+them:who
+topic:unknown
+town:which
+voicemailnumber:unknown
+we:who
+wife:who
+

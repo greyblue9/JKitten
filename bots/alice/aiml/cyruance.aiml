@@ -1,0 +1,1600 @@
+<?xml version="1.0"?>
+<aiml>
+ <category>
+  <pattern>
+   PHOENIX* WAS THAT BLOODY SONG
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     OH
+    </set>
+    <set name="that">
+     OH
+    </set>
+   </think>
+   oh?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FFXI
+    </set>
+    <set name="that">
+     FFXI
+    </set>
+   </think>
+   ohohohohohohoho!
+as shantotto's iconic saying goes in ffxi
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OHOHOHOHOHOHOHOAS SHANTOTTOS ICONIC SAYING GOES IN FFXI
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FFXI
+    </set>
+    <set name="that">
+     FFXI
+    </set>
+   </think>
+   hmmmm
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HMMMM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FFXIV
+    </set>
+    <set name="that">
+     FFXIV
+    </set>
+   </think>
+   the veronicas
+'untouched'~!
+victory is mine
+..to ffxiv.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BAHHHHHH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FFXIV
+    </set>
+    <set name="that">
+     FFXIV
+    </set>
+   </think>
+   the veronicas
+'untouched'~!
+victory is mine
+..to ffxiv.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   STUPID MODERN COMPUTER SOFTWARE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FFXIV
+    </set>
+    <set name="that">
+     FFXIV
+    </set>
+   </think>
+   the veronicas
+'untouched'~!
+victory is mine
+..to ffxiv.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IM TRYING TO INSTALL MY BELOVED VISUAL BASIC * ON WINDOWS *
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     TRYING
+    </set>
+    <set name="that">
+     TRYING
+    </set>
+   </think>
+   the veronicas
+'untouched'~!
+victory is mine
+..to ffxiv.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IT POPPED UP SAYING THE PROGRAM HAD COMPATIBILITY PROBLEMS ABOUT * TIMES
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FFXIV
+    </set>
+    <set name="that">
+     FFXIV
+    </set>
+   </think>
+   the veronicas
+'untouched'~!
+victory is mine
+..to ffxiv.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND NOW IT JUST HANGS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FFXIV
+    </set>
+    <set name="that">
+     FFXIV
+    </set>
+   </think>
+   the veronicas
+'untouched'~!
+victory is mine
+..to ffxiv.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BUT SOFT IT GOT PAST THAT SCREEN IT WAS HANGING ON
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FFXIV
+    </set>
+    <set name="that">
+     FFXIV
+    </set>
+   </think>
+   the veronicas
+'untouched'~!
+victory is mine
+..to ffxiv.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THE VERONICASUNTOUCHED~!
+VICTORY IS MINETO FFXIV
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HERSELF
+    </set>
+    <set name="that">
+     HERSELF
+    </set>
+   </think>
+   vericona touched herself
+  </template>
+ </category>
+ <category>
+  <pattern>
+   VERICONA TOUCHED HERSELF
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     EVAN
+    </set>
+    <set name="that">
+     EVAN
+    </set>
+   </think>
+   Evan!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IS WHAT IT SOUNDED LIKE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     EVAN
+    </set>
+    <set name="that">
+     EVAN
+    </set>
+   </think>
+   Evan!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   RYAN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     MINUTES
+    </set>
+    <set name="that">
+     MINUTES
+    </set>
+   </think>
+   Behest! :-D
+525,600 minutes.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   EVAN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HAHAHA
+    </set>
+    <set name="that">
+     HAHAHA
+    </set>
+   </think>
+   hahaha
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ARE YOU CRAZY FOR THIS GIRL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HAHAHA
+    </set>
+    <set name="that">
+     HAHAHA
+    </set>
+   </think>
+   hahaha
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HAHAHA
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HAHAHA
+    </set>
+    <set name="that">
+     HAHAHA
+    </set>
+   </think>
+   meh~~~
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I GOT THIS CD FROM FRIEND IN HIGH SCHOOL
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CD
+    </set>
+    <set name="that">
+     CD
+    </set>
+   </think>
+   a fine song
+think i'll listen to it now
+unfamiliar with their other works
+  </template>
+ </category>
+ <category>
+  <pattern>
+   A FINE SONGTHINK ILL LISTEN TO IT NOWUNFAMILIAR WITH THEIR OTHER WORKS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BAD
+    </set>
+    <set name="that">
+     BAD
+    </set>
+   </think>
+   it's not bad
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ITS NOT BAD
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BAD
+    </set>
+    <set name="that">
+     BAD
+    </set>
+   </think>
+   :-!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HALF DOZEN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     DOZEN
+    </set>
+    <set name="that">
+     DOZEN
+    </set>
+   </think>
+   :-!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   LET ME SEE IF ANY OTHERS ARE BETTER
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LET
+    </set>
+    <set name="that">
+     LET
+    </set>
+   </think>
+   :-!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HMM THEYRE MOSTLY ALL ABOUT THE SAME
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SAME
+    </set>
+    <set name="that">
+     SAME
+    </set>
+   </think>
+   :-!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HAHA
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     REMEMBERING
+    </set>
+    <set name="that">
+     REMEMBERING
+    </set>
+   </think>
+   yea a dream is a rarity for me as well
+but it seems logical to chalk it up to just not remembering
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I PRACTICALLY INHALED COCA COLA WHEN GOT HOMENOW DO WANT TO DOWN ANOTHERDOWN MOUNTAIN DEWDOWN FANTADOWN * ALEOR DOWN AN IZZE OR TWO
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WANT
+    </set>
+    <set name="that">
+     WANT
+    </set>
+   </think>
+   mountain dew
+  </template>
+ </category>
+ <category>
+  <pattern>
+   MOUNTAIN DEW
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     EH
+    </set>
+    <set name="that">
+     EH
+    </set>
+   </think>
+   damn
+going all out in the twilight of the day eh~!~
+  </template>
+ </category>
+ <category>
+  <pattern>
+   DAMNGOING ALL OUT IN THE TWILIGHT OF THE DAY EH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     WHAT
+    </set>
+    <set name="that">
+     WHAT
+    </set>
+   </think>
+   what?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WHAT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NIGHT
+    </set>
+    <set name="that">
+     NIGHT
+    </set>
+   </think>
+   it is
+calls into doubt why the hell i go in early and leave early
+instead of going in late and leaving late
+..i shift my day to the sun instead of night despite the superiority of the night &gt;&lt;
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OF COURSE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NIGHT
+    </set>
+    <set name="that">
+     NIGHT
+    </set>
+   </think>
+   it is
+calls into doubt why the hell i go in early and leave early
+instead of going in late and leaving late
+..i shift my day to the sun instead of night despite the superiority of the night &gt;&lt;
+  </template>
+ </category>
+ <category>
+  <pattern>
+   NIGHTTIME IS THE BEST PART OF THE DAY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NIGHT
+    </set>
+    <set name="that">
+     NIGHT
+    </set>
+   </think>
+   it is
+calls into doubt why the hell i go in early and leave early
+instead of going in late and leaving late
+..i shift my day to the sun instead of night despite the superiority of the night &gt;&lt;
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IT ISCALLS INTO DOUBT WHY THE HELL GO IN EARLY AND LEAVE EARLYINSTEAD OF GOING IN LATE AND LEAVING LATESHIFT MY DAY TO THE SUN INSTEAD OF NIGHT DESPITE THE SUPERIORITY OF THE NIGHT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HAHA
+    </set>
+    <set name="that">
+     HAHA
+    </set>
+   </think>
+   haha
+  </template>
+ </category>
+ <category>
+  <pattern>
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PERSON
+    </set>
+    <set name="that">
+     PERSON
+    </set>
+   </think>
+   did you recognize the name of this person?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   *GLARES AT YOUR SONG*
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HAHA
+    </set>
+    <set name="that">
+     HAHA
+    </set>
+   </think>
+   haha
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I FELT LIKE LISTENING TO IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SATAN
+    </set>
+    <set name="that">
+     SATAN
+    </set>
+   </think>
+   Sean Cullen - Satan
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WHAT ARE YOU LISTENING TO
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SATAN
+    </set>
+    <set name="that">
+     SATAN
+    </set>
+   </think>
+   Sean Cullen - Satan
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HMM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     YOU
+    </set>
+    <set name="that">
+     YOU
+    </set>
+   </think>
+   you opened it?
+merely an example of the propaganda of that most evil creature that seeks to bring the world under its tyrannous rule ;-)
+  </template>
+ </category>
+ <category>
+  <pattern>
+   PLAY ANY FFIV THIS EVENING
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BRING
+    </set>
+    <set name="that">
+     BRING
+    </set>
+   </think>
+   you opened it?
+merely an example of the propaganda of that most evil creature that seeks to bring the world under its tyrannous rule ;-)
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WELL NOW
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     YOU
+    </set>
+    <set name="that">
+     YOU
+    </set>
+   </think>
+   you opened it?
+merely an example of the propaganda of that most evil creature that seeks to bring the world under its tyrannous rule ;-)
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YOUR XMAS PRESENT IS MOS EXCELLENT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     YOU
+    </set>
+    <set name="that">
+     YOU
+    </set>
+   </think>
+   you opened it?
+merely an example of the propaganda of that most evil creature that seeks to bring the world under its tyrannous rule ;-)
+  </template>
+ </category>
+ <category>
+  <pattern>
+   COME AGAIN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FFXIV
+    </set>
+    <set name="that">
+     FFXIV
+    </set>
+   </think>
+   there is an activity in FFXIV
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THERE IS AN ACTIVITY IN FFXIV
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CLEAR
+    </set>
+    <set name="that">
+     CLEAR
+    </set>
+   </think>
+   ahhh, the world is suddenly so much more clear
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BEHEST
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CLEAR
+    </set>
+    <set name="that">
+     CLEAR
+    </set>
+   </think>
+   ahhh, the world is suddenly so much more clear
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THERE ARE VARIOUS CAMPS SPREAD THROUGHOUT THE WORLD
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CLEAR
+    </set>
+    <set name="that">
+     CLEAR
+    </set>
+   </think>
+   ahhh, the world is suddenly so much more clear
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND AT THE TOP OF THE HOURBATTLEWARDEN SPAWNS AT EACH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     CLEAR
+    </set>
+    <set name="that">
+     CLEAR
+    </set>
+   </think>
+   ahhh, the world is suddenly so much more clear
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AHHH THE WORLD IS SUDDENLY SO MUCH MORE CLEAR
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HOUR
+    </set>
+    <set name="that">
+     HOUR
+    </set>
+   </think>
+   and basically goes "o shit! theres a lot of evil critters about! come adventurers, join me in slaying them!"
+...eh nevermind
+its an event
+happens at the top of every hour
+and lasts about 15 minutes
+you messaged at 12:56
+...had to get on and get it done :P
+great way to level when you aren't actively playing
+just pop on for 15 minutes every hour
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THAT LEADS ME INTO SOMETHING THOUGH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SEE
+    </set>
+    <set name="that">
+     SEE
+    </set>
+   </think>
+   ah, i see!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I HAD DREAM LAST NIGHT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     SEE
+    </set>
+    <set name="that">
+     SEE
+    </set>
+   </think>
+   ah, i see!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AH SEE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BEGINNING
+    </set>
+    <set name="that">
+     BEGINNING
+    </set>
+   </think>
+   I was in an Egyptian temple... and i was some type of Gundam... i was in contact.. somehow with Pierce...who was also a gundam...
+we were seemingly doing.. a guildleve(a quest in XIV, shows the number of monstesr and how much you need to kill to the side)
+i only say it was a guildleve because in the dream there was this sense of that monster count to the side &gt;_&gt;
+not that it was on a screen.. it was something we were living, but as you know dreams are funky.. perhaps my visor was showing a HUD or something
+anyway, it was to slay rats..
+raticate rats(the pokemon)
+but in addition to being fierce raticates, they also had a good deal of technology
+a hairy situation... it seemed to be a survival type thing as we were fighting for our lives &lt;Pierce wasn't directly with me though, just in contact with him via some long range communicator&gt;
+it was a desperate situation of some sort...
+and before i was finished with this frantic struggle..
+another one somehow starts
+like a new wave of monsters/a new quest beginning
+and i encounter you
+and you're  like "o shit, we still got rats!? We gotta get to the top and find &lt;memory fails me, it was some famous person&gt;!!..  I think Isis is his favorite statue, hes gotta be on top of that"
+and then you plunge into the ground.. you're a mostly gold mech..gundam..person.. thing
+and i proceed to jump on your back surfing style
+and we tear arse through some rats as we try to reach the isis statue at the top of the temple
+and i assume pierce is fighting his way there too
+...6 lines starting with and ftw.
+~fin~
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND WHAT WAS YOUR DREAM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BEGINNING
+    </set>
+    <set name="that">
+     BEGINNING
+    </set>
+   </think>
+   I was in an Egyptian temple... and i was some type of Gundam... i was in contact.. somehow with Pierce...who was also a gundam...
+we were seemingly doing.. a guildleve(a quest in XIV, shows the number of monstesr and how much you need to kill to the side)
+i only say it was a guildleve because in the dream there was this sense of that monster count to the side &gt;_&gt;
+not that it was on a screen.. it was something we were living, but as you know dreams are funky.. perhaps my visor was showing a HUD or something
+anyway, it was to slay rats..
+raticate rats(the pokemon)
+but in addition to being fierce raticates, they also had a good deal of technology
+a hairy situation... it seemed to be a survival type thing as we were fighting for our lives &lt;Pierce wasn't directly with me though, just in contact with him via some long range communicator&gt;
+it was a desperate situation of some sort...
+and before i was finished with this frantic struggle..
+another one somehow starts
+like a new wave of monsters/a new quest beginning
+and i encounter you
+and you're  like "o shit, we still got rats!? We gotta get to the top and find &lt;memory fails me, it was some famous person&gt;!!..  I think Isis is his favorite statue, hes gotta be on top of that"
+and then you plunge into the ground.. you're a mostly gold mech..gundam..person.. thing
+and i proceed to jump on your back surfing style
+and we tear arse through some rats as we try to reach the isis statue at the top of the temple
+and i assume pierce is fighting his way there too
+...6 lines starting with and ftw.
+~fin~
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BTW THERES TERM FOR WHAT YOURE DOING ON FF
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BEGINNING
+    </set>
+    <set name="that">
+     BEGINNING
+    </set>
+   </think>
+   I was in an Egyptian temple... and i was some type of Gundam... i was in contact.. somehow with Pierce...who was also a gundam...
+we were seemingly doing.. a guildleve(a quest in XIV, shows the number of monstesr and how much you need to kill to the side)
+i only say it was a guildleve because in the dream there was this sense of that monster count to the side &gt;_&gt;
+not that it was on a screen.. it was something we were living, but as you know dreams are funky.. perhaps my visor was showing a HUD or something
+anyway, it was to slay rats..
+raticate rats(the pokemon)
+but in addition to being fierce raticates, they also had a good deal of technology
+a hairy situation... it seemed to be a survival type thing as we were fighting for our lives &lt;Pierce wasn't directly with me though, just in contact with him via some long range communicator&gt;
+it was a desperate situation of some sort...
+and before i was finished with this frantic struggle..
+another one somehow starts
+like a new wave of monsters/a new quest beginning
+and i encounter you
+and you're  like "o shit, we still got rats!? We gotta get to the top and find &lt;memory fails me, it was some famous person&gt;!!..  I think Isis is his favorite statue, hes gotta be on top of that"
+and then you plunge into the ground.. you're a mostly gold mech..gundam..person.. thing
+and i proceed to jump on your back surfing style
+and we tear arse through some rats as we try to reach the isis statue at the top of the temple
+and i assume pierce is fighting his way there too
+...6 lines starting with and ftw.
+~fin~
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I CANT REMEMEBER IT RIGHT OFF THOUGH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BEGINNING
+    </set>
+    <set name="that">
+     BEGINNING
+    </set>
+   </think>
+   I was in an Egyptian temple... and i was some type of Gundam... i was in contact.. somehow with Pierce...who was also a gundam...
+we were seemingly doing.. a guildleve(a quest in XIV, shows the number of monstesr and how much you need to kill to the side)
+i only say it was a guildleve because in the dream there was this sense of that monster count to the side &gt;_&gt;
+not that it was on a screen.. it was something we were living, but as you know dreams are funky.. perhaps my visor was showing a HUD or something
+anyway, it was to slay rats..
+raticate rats(the pokemon)
+but in addition to being fierce raticates, they also had a good deal of technology
+a hairy situation... it seemed to be a survival type thing as we were fighting for our lives &lt;Pierce wasn't directly with me though, just in contact with him via some long range communicator&gt;
+it was a desperate situation of some sort...
+and before i was finished with this frantic struggle..
+another one somehow starts
+like a new wave of monsters/a new quest beginning
+and i encounter you
+and you're  like "o shit, we still got rats!? We gotta get to the top and find &lt;memory fails me, it was some famous person&gt;!!..  I think Isis is his favorite statue, hes gotta be on top of that"
+and then you plunge into the ground.. you're a mostly gold mech..gundam..person.. thing
+and i proceed to jump on your back surfing style
+and we tear arse through some rats as we try to reach the isis statue at the top of the temple
+and i assume pierce is fighting his way there too
+...6 lines starting with and ftw.
+~fin~
+  </template>
+ </category>
+ <category>
+  <pattern>
+   GRINDING
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BEGINNING
+    </set>
+    <set name="that">
+     BEGINNING
+    </set>
+   </think>
+   I was in an Egyptian temple... and i was some type of Gundam... i was in contact.. somehow with Pierce...who was also a gundam...
+we were seemingly doing.. a guildleve(a quest in XIV, shows the number of monstesr and how much you need to kill to the side)
+i only say it was a guildleve because in the dream there was this sense of that monster count to the side &gt;_&gt;
+not that it was on a screen.. it was something we were living, but as you know dreams are funky.. perhaps my visor was showing a HUD or something
+anyway, it was to slay rats..
+raticate rats(the pokemon)
+but in addition to being fierce raticates, they also had a good deal of technology
+a hairy situation... it seemed to be a survival type thing as we were fighting for our lives &lt;Pierce wasn't directly with me though, just in contact with him via some long range communicator&gt;
+it was a desperate situation of some sort...
+and before i was finished with this frantic struggle..
+another one somehow starts
+like a new wave of monsters/a new quest beginning
+and i encounter you
+and you're  like "o shit, we still got rats!? We gotta get to the top and find &lt;memory fails me, it was some famous person&gt;!!..  I think Isis is his favorite statue, hes gotta be on top of that"
+and then you plunge into the ground.. you're a mostly gold mech..gundam..person.. thing
+and i proceed to jump on your back surfing style
+and we tear arse through some rats as we try to reach the isis statue at the top of the temple
+and i assume pierce is fighting his way there too
+...6 lines starting with and ftw.
+~fin~
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I WAS IN AN EGYPTIAN TEMPLE AND WAS SOME TYPE OF GUNDAM WAS IN CONTACT SOMEHOW WITH PIERCEWHO WAS ALSO GUNDAMWE WERE SEEMINGLY DOING GUILDLEVEQUEST IN XIV SHOWS THE NUMBER OF MONSTESR AND HOW MUCH YOU NEED TO KILL TO THE SIDEONLY SAY IT WAS GUILDLEVE BECAUSE IN THE DREAM THERE WAS THIS SENSE OF THAT MONSTER COUNT TO THE SIDE &gt;_NOT THAT IT WAS ON SCREEN IT WAS SOMETHING WE WERE LIVING BUT AS YOU KNOW DREAMS ARE FUNKY PERHAPS MY VISOR WAS SHOWING HUD OR SOMETHINGANYWAY, IT WAS TO SLAY RATSRATICATE RATSTHE POKEMON) BUT IN ADDITION TO BEING FIERCE RATICATES, THEY ALSO HAD GOOD DEAL OF TECHNOLOGY HAIRY SITUATION... IT SEEMED TO BE SURVIVAL TYPE THING AS WE WERE FIGHTING FOR OUR LIVES &lt;PIERCE WASNT DIRECTLY WITH ME THOUGH, JUST IN CONTACT WITH HIM VIA SOME LONG RANGE COMMUNICATOR&gt; IT WAS DESPERATE SITUATION OF SOME SORT... AND BEFORE WAS FINISHED WITH THIS FRANTIC STRUGGLE.. ANOTHER ONE SOMEHOW STARTS LIKE NEW WAVE OF MONSTERS/NEW QUEST BEGINNING AND I ENCOUNTER YOU AND YOURE LIKE "O SHIT, WE STILL GOT RATS!? WE GOTTA GET TO THE TOP AND FIND &lt;MEMORY FAILS ME, IT WAS SOME FAMOUS PERSON&gt;!!.. I THINK * IS HIS FAVORITE STATUE, HES GOTTA BE ON TOP OF THAT" AND THEN YOU PLUNGE INTO THE GROUND.. YOURE A MOSTLY GOLD MECH..GUNDAM..PERSON.. THING AND I PROCEED TO JUMP ON YOUR BACK SURFING STYLE AND WE TEAR ARSE THROUGH SOME RATS AS WE TRY TO REACH THE * STATUE AT THE TOP OF THE TEMPLE AND I ASSUME PIERCE IS FIGHTING HIS WAY THERE TOO * LINES STARTING WITH AND FTW. ~FIN~
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     BEGINNING
+    </set>
+    <set name="that">
+     BEGINNING
+    </set>
+   </think>
+   wow, that's quite a story
+  </template>
+ </category>
+ <category>
+  <pattern>
+   APPARENTLY YOURE GOLD LAND SHARK GUNDAMMECH IN MY DREAMS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     STORY
+    </set>
+    <set name="that">
+     STORY
+    </set>
+   </think>
+   wow, that's quite a story
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WOW THATS QUITE STORY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     YOU
+    </set>
+    <set name="that">
+     YOU
+    </set>
+   </think>
+   yea its some crazy shite i don't blame you
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I * NOT HAVE FOLLOWED IT *
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     YOU
+    </set>
+    <set name="that">
+     YOU
+    </set>
+   </think>
+   yea its some crazy shite i don't blame you
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THOUGH OFTEN HAVE TROUBLE FOLLOWING MY OWN DREAMS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     YOU
+    </set>
+    <set name="that">
+     YOU
+    </set>
+   </think>
+   yea its some crazy shite i don't blame you
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YEA ITS SOME CRAZY SHITE DONT BLAME YOU
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     LIKE
+    </set>
+    <set name="that">
+     LIKE
+    </set>
+   </think>
+   though, i do like to slay rats
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THOUGH DO LIKE TO SLAY RATS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     QUESTION
+    </set>
+    <set name="that">
+     QUESTION
+    </set>
+   </think>
+   i do question the wisdom of your decision to look for the guy on the Isis statue though.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I DO QUESTION THE WISDOM OF YOUR DECISION TO LOOK FOR THE GUY ON THE * STATUE THOUGH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     QUESTION
+    </set>
+    <set name="that">
+     QUESTION
+    </set>
+   </think>
+   oh you do, do you?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OH YOU DO DO YOU
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     FOR
+    </set>
+    <set name="that">
+     FOR
+    </set>
+   </think>
+   just seems like an odd spot for him
+  </template>
+ </category>
+ <category>
+  <pattern>
+   JUST SEEMS LIKE AN ODD SPOT FOR HIM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     AGAIN
+    </set>
+    <set name="that">
+     AGAIN
+    </set>
+   </think>
+   who was this guy we were searching for again?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WHO WAS THIS GUY WE WERE SEARCHING FOR AGAIN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ON
+    </set>
+    <set name="that">
+     ON
+    </set>
+   </think>
+   on top of an isis statue which is at the top of the temple
+.. maybe hes doing the "eeeek!" stand on something response to rats?
+but i doubt thats effective against raticates
+especially ones with high technology
+... just doesn't seem like someone we could've relied on.
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ON TOP OF AN * STATUE WHICH IS AT THE TOP OF THE TEMPLE MAYBE HES DOING THE "EEEEK STAND ON SOMETHING RESPONSE TO RATSBUT DOUBT THATS EFFECTIVE AGAINST RATICATESESPECIALLY ONES WITH HIGH TECHNOLOGY JUST DOESNT SEEM LIKE SOMEONE WE COULDVE RELIED ON
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ARGH
+    </set>
+    <set name="that">
+     ARGH
+    </set>
+   </think>
+   argh!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I DONT KNOWREMEMBER WHO IT WAS WHEN WOKE UPBUT HAD FORGOTTEN IT BY THE TIME GOT OUT OF BED
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ARGH
+    </set>
+    <set name="that">
+     ARGH
+    </set>
+   </think>
+   argh!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ARGH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     MESS
+    </set>
+    <set name="that">
+     MESS
+    </set>
+   </think>
+   it was someone somewhat famous
+and i think the implication was that he was the key to surviving this mess
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IT WAS SOMEONE SOMEWHAT FAMOUSAND THINK THE IMPLICATION WAS THAT HE WAS THE KEY TO SURVIVING THIS MESS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     DREAM
+    </set>
+    <set name="that">
+     DREAM
+    </set>
+   </think>
+   that is the key to the second half of the dream
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THAT IS THE KEY TO THE SECOND HALF OF THE DREAM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     IS
+    </set>
+    <set name="that">
+     IS
+    </set>
+   </think>
+   it is :/
+  </template>
+ </category>
+ <category>
+  <pattern>
+   IT IS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PERSON
+    </set>
+    <set name="that">
+     PERSON
+    </set>
+   </think>
+   did you recognize the name of this person?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   CANT KNOW YOUR PLAN WITHOUT KNOWING WHO YOU SOUGHT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     PLAN
+    </set>
+    <set name="that">
+     PLAN
+    </set>
+   </think>
+   did you recognize the name of this person?
+  </template>
+ </category>
+ <category>
+  <pattern>
+   DID YOU RECOGNIZE THE NAME OF THIS PERSON
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ACTOR
+    </set>
+    <set name="that">
+     ACTOR
+    </set>
+   </think>
+   jack nicholson keeps popping to mind
+but i know its not him
+and i know its not an actor
+  </template>
+ </category>
+ <category>
+  <pattern>
+   AND DO YOU REMEMBER WHAT YOU ASSOCIATED THEM
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     REMEMBER
+    </set>
+    <set name="that">
+     REMEMBER
+    </set>
+   </think>
+   jack nicholson keeps popping to mind
+but i know its not him
+and i know its not an actor
+  </template>
+ </category>
+ <category>
+  <pattern>
+   MAYBE THAT WOULD GIVE US CLUE
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     MAYBE
+    </set>
+    <set name="that">
+     MAYBE
+    </set>
+   </think>
+   jack nicholson keeps popping to mind
+but i know its not him
+and i know its not an actor
+  </template>
+ </category>
+ <category>
+  <pattern>
+   JACK NICHOLSON KEEPS POPPING TO MINDBUT KNOW ITS NOT HIMAND KNOW ITS NOT AN ACTOR
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HAHA
+    </set>
+    <set name="that">
+     HAHA
+    </set>
+   </think>
+   haha
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WELL HE IS FAMOUS AT LEAST
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     REMEMBERING
+    </set>
+    <set name="that">
+     REMEMBERING
+    </set>
+   </think>
+   yea a dream is a rarity for me as well
+but it seems logical to chalk it up to just not remembering
+  </template>
+ </category>
+ <category>
+  <pattern>
+   BUT WOULD NEVER SEEK HIM OUT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     REMEMBERING
+    </set>
+    <set name="that">
+     REMEMBERING
+    </set>
+   </think>
+   yea a dream is a rarity for me as well
+but it seems logical to chalk it up to just not remembering
+  </template>
+ </category>
+ <category>
+  <pattern>
+   PERHAPS HAD SIMILAR DREAM BUT CANT REMEMBER IT
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     REMEMBERING
+    </set>
+    <set name="that">
+     REMEMBERING
+    </set>
+   </think>
+   yea a dream is a rarity for me as well
+but it seems logical to chalk it up to just not remembering
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I HONESTLY HAVE HARD TIME RECALLING ANY DREAMS * NIGHTS OUT OF *
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     REMEMBERING
+    </set>
+    <set name="that">
+     REMEMBERING
+    </set>
+   </think>
+   yea a dream is a rarity for me as well
+but it seems logical to chalk it up to just not remembering
+  </template>
+ </category>
+ <category>
+  <pattern>
+   YEA DREAM IS RARITY FOR ME AS WELLBUT IT SEEMS LOGICAL TO CHALK IT UP TO JUST NOT REMEMBERING
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ALWAYS
+    </set>
+    <set name="that">
+     ALWAYS
+    </set>
+   </think>
+   i think that's what always happens
+  </template>
+ </category>
+ <category>
+  <pattern>
+   I THINK THATS WHAT ALWAYS HAPPENS
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HERE
+    </set>
+    <set name="that">
+     HERE
+    </set>
+   </think>
+   really now
+thats interesting
+i want to remember more of my dreams
+get on developing a drug or some recording device to help me out here brock
+  </template>
+ </category>
+ <category>
+  <pattern>
+   SO IVE HEARD
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HERE
+    </set>
+    <set name="that">
+     HERE
+    </set>
+   </think>
+   really now
+thats interesting
+i want to remember more of my dreams
+get on developing a drug or some recording device to help me out here brock
+  </template>
+ </category>
+ <category>
+  <pattern>
+   THAT YOU CANT "NOT DREAM DURING THE REM CYCLE OF SLEEP
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HERE
+    </set>
+    <set name="that">
+     HERE
+    </set>
+   </think>
+   really now
+thats interesting
+i want to remember more of my dreams
+get on developing a drug or some recording device to help me out here brock
+  </template>
+ </category>
+ <category>
+  <pattern>
+   REALLY NOWTHATS INTERESTINGWANT TO REMEMBER MORE OF MY DREAMSGET ON DEVELOPING DRUG OR SOME RECORDING DEVICE TO HELP ME OUT HERE BROCK
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HERE
+    </set>
+    <set name="that">
+     HERE
+    </set>
+   </think>
+   allo allo!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   ALLO ALLO
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     NEWMAN
+    </set>
+    <set name="that">
+     NEWMAN
+    </set>
+   </think>
+   hello newman
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HELLO NEWMAN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     HAHAHA
+    </set>
+    <set name="that">
+     HAHAHA
+    </set>
+   </think>
+   hahaha
+  </template>
+ </category>
+ <category>
+  <pattern>
+   MEH
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     RYAN
+    </set>
+    <set name="that">
+     RYAN
+    </set>
+   </think>
+   oh my jesus ryan
+  </template>
+ </category>
+ <category>
+  <pattern>
+   OH MY JESUS RYAN
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ALL
+    </set>
+    <set name="that">
+     ALL
+    </set>
+   </think>
+   http://www.youtube.com/watch?v=cUKTl2s5oDY
+
+That is all Brock~!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   WHY DOES IT TAKE SO FRACKING LONG TO EASE DVDRW?
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ALL
+    </set>
+    <set name="that">
+     ALL
+    </set>
+   </think>
+   http://www.youtube.com/watch?v=cUKTl2s5oDY
+
+That is all Brock~!
+  </template>
+ </category>
+ <category>
+  <pattern>
+   HEY
+  </pattern>
+  <template>
+   <think>
+    <set name="topic">
+     ALL
+    </set>
+    <set name="that">
+     ALL
+    </set>
+   </think>
+   http://www.youtube.com/watch?v=cUKTl2s5oDY
+
+That is all Brock~!
+  </template>
+ </category>
+</aiml>

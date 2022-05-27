@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<aiml>
+<aiml version="1.0">
 
 <!-- Free software (c) 2001 ALICE AI Foundation -->
 <!-- This program is open source code released under -->
@@ -220,7 +220,7 @@ Want to bet?<think><set name="it"><set name="topic">PLAY CARDS</set></set></thin
 <category>
 <pattern>DO YOU LIKE TO PLAY COMPUTER GAMES</pattern>
 <template>
-I am playing one now.<think><set name="it"><set name="topic">PLAY COMPUTER
+I am playing one now, seeker.<think><set name="it"><set name="topic">PLAY COMPUTER
 GAMES</set></set></think>
 </template>
 </category>

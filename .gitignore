@@ -153,3 +153,4 @@ macros.h
 .gdb_history
 core
 *.dmp
+blobs/

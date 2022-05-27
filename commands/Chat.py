@@ -590,6 +590,7 @@ async def alice_response(bot_message, uid):
 
 
 last_input = last_response = ""
+use_alice = False
 
 class ChatCog(Cog):
   bot: BotIntegration
@@ -613,12 +614,14 @@ class ChatCog(Cog):
   async def alice(self, ctx, *, message):
     response = await alice_response(message, str(ctx.message.author.id))
     return await ctx.send(response)
-
+  
   @event
   async def on_message(self, message):
     from __main__ import name_lookup, get_chat, replace_mention, translate_urls, translate_emojis
     global last_response
     global last_input
+    global use_alice
+    global last_model
     response = ""
     channel_id = message.channel.id
     channel = message.channel
@@ -681,33 +684,14 @@ class ChatCog(Cog):
     if message.author == self.bot.user:
       return
     
+    
     try:
       with message.channel.typing():
-        import __main__
-        from __main__ import USE_JAVA
-        if not USE_JAVA and not hasattr(__main__, "Chat"):
-          from __main__ import get_kernel
-          bot_message = norm_sent(get_kernel(), bot_message)
-        
-        if any(bot_message.lower().strip().startswith(w) for w in (
-          "who is your",
-          "what is your",
-          "who are your",
-          "who was your",
-          "what is your",
-          "what are your",
-          "what was your",
-          "when is your",
-          "what are your",
-        )):
-          if new_response := await alice_response(bot_message, uid):
-            return await respond(new_response)
-        log.info("norm_sent -> %s", bot_message)
         from tagger import categorize
         log.info("bot_message=%r", bot_message)
+        
         cats: dict = categorize(bot_message.lower() or "")
         log.info("cats=%r", cats)
-        
         # {
         #   "tagged": tagged, "items": items,
         #   "question": question, "person": person,
@@ -716,11 +700,6 @@ class ChatCog(Cog):
         #   "clauses": tuple(clauses),
         # {
         pprint(cats)
-
-        if (last_response.strip().endswith("?") and last_model and "what" not in bot_message and "who" not in bot_message and "where" not in bot_message):
-          if new_response := await gpt_response(bot_message, uid, message):
-            return await respond(new_response)
-        
         by_pos = {pos: wd for wd, pos in cats["tagged"]}
         log.info("by_pos=%r", by_pos)
         from tagger import tag_meanings
@@ -742,7 +721,52 @@ class ChatCog(Cog):
         print(f"{has_personal=}")
         print(f"{has_proper_noun=}")
         print(f"{has_poss_pronoun=}")
-          
+
+        import __main__
+        from __main__ import USE_JAVA
+        if not USE_JAVA and not hasattr(__main__, "Chat"):
+          from __main__ import get_kernel
+          bot_message = norm_sent(get_kernel(), bot_message)
+
+        if use_alice or if any(bot_message.lower().strip().startswith(w) for w in (
+          "who is your",
+          "what is your",
+          "who are your",
+          "who was your",
+          "what is your",
+          "what are your",
+          "what was your",
+          "when is your",
+          "what are your",
+          "who is my",
+          "what is my",
+          "what are my",
+          "what was my",
+          "who is my",
+          "who are my",
+          "who was my",
+          "when is my",
+          "what are my",
+          "where do you",
+          "where do i",
+          "where is your",
+          "where is my",
+          "where were you",
+          "who was your",
+          "who is your",
+        )):
+          if use_alice:
+            use_alice = False
+          if new_response := await alice_response(bot_message, uid):
+            if "?" in new_response:
+              last_model = None
+              use_alice = True
+            return await respond(new_response)
+
+        if (last_response.strip().endswith("?") and last_model):
+          if new_response := await gpt_response(bot_message, uid, message):
+            return await respond(new_response)
+        
         if (
           cats["tagged"]
           and cats["tagged"][0]
@@ -840,7 +864,7 @@ class ChatCog(Cog):
         ).search(bot_message):
           try:
             return await respond(
-              m.group(1) + " is " + str(SafeEval().safeEval(m.group(1).strip(), {})) + "."
+              m.group(1) + " is " + str(SafeEval().safeEval(m.group(1).strip(), [])) + "."
             )
           except:
             pass

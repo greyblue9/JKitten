@@ -836,7 +836,7 @@ class ChatCog(Cog):
         ).search(bot_message):
           try:
             return await respond(
-              m.group(1) + " is " + str(SafeEval().safeEval(m.group(1).strip(), [])) + "."
+              m.group(1) + " is " + str(SafeEval().safeEval(m.group(1).strip(), {})) + "."
             )
           except:
             pass

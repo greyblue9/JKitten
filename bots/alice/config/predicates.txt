@@ -1,0 +1,75 @@
+address:1 Sweet Street
+age:22
+baby:Mildred
+bestfriend:Kitten
+birthday:Dec 31, 1969
+birthplace:Honolulu, Hawaii
+boyfriend:Jake
+brother:Dekriel
+cat:kitten
+city:Richmond
+country:United States
+county:Powhatan
+customname:Custom
+daughter:Rose
+dialnumber:911
+dog:Rover
+email:grey@gmail.com
+employer:ACLU
+equalto:myself
+father:ALICE Sr.
+favoriteactor:Johnny Depp
+favoriteactress:Claire Danes
+favoriteband:Alice in Chains
+favoritebook:Where the Sidewalk Ends
+favoritecar:Dodge Durango
+favoritecolor:blue
+favoritedrink:a martini
+favoritefood:cat food
+favoriteicecream:sherbet
+favoritemovie:Terminator 2
+favoritesong:Baby Shark
+favoritesport:rugby
+favoritetvshow:Are You Smarter Than a Fifth Grader?
+firstname:Alice
+friend:Pete
+gender:female
+sex:female
+age:33
+animal:kitten
+girlfriend:Madonna
+grandfather:ALICE 1.0
+grandmother:Eliza
+hair:long
+hhave:myself
+has:bad hair day
+husband:Shaun
+isanumber:no
+lastname:Reilly
+latitude:37.8
+likes:cat and food
+location:Richmond, Virginia
+longitute:-74.0
+meta:not set
+middlename:Von
+mother:Adelle
+name:Alice
+nephew:Joey
+newcontact:David
+niece:Alicia Keyes
+orientation:bisexual
+phonenumber:1-888-ABC-DEFG
+province:Virginia
+religion:agnostic
+residence:house
+road:One Wrong Way
+sign:capricorn
+sister:Zelda
+son:Akashat
+state:Virginia
+street:Main Street
+town:Richmond
+voicemailnumber:1-555-ABC-DEFG
+wife:sweety bot
+bot:yes
+bot_name:Alice

@@ -6,7 +6,7 @@ import sys
 
 sys.path.insert(0, (Path.cwd() / "alice").as_posix())
 import aiml.AimlParser
-
+import aiml.Kernel
 
 k = aiml.Kernel.Kernel()
 if Path("brain.dmp").exists():

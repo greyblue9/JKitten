@@ -66,7 +66,7 @@ from disnake.channel import TextChannel
 from disnake.channel import TextChannel as Channel
 import sys
 from pathlib import Path
-from bs4 import BeautifulSoup as BS
+from bs4 import BeautifulSoup as BS # type:ignore
 import traceback
 from traceback import format_exc, format_exception, format_exception_only
 import dotenv
@@ -91,7 +91,7 @@ from functools import lru_cache
 import nltk
 
 load_dotenv()
-DISCORD_BOT_TOKEN = getenv("Token")
+DISCORD_BOT_TOKEN: str = getenv("Token", "")
 
 
 
@@ -141,6 +141,7 @@ if USE_JAVA:
           "alice", orig_cwd.as_posix()
         )
       if self.chat is None:
+        from __main__ import Main #type:ignore
         self.chat = Main.getOrCreateChat(alice_bot, True, self.uid)
       global chat
       chat = self.chat
@@ -148,7 +149,7 @@ if USE_JAVA:
 
 else:
   
-  class AChat:
+  class PChat:
     def __init__(self, uid):
       self.uid = uid
     def multisentenceRespond(self, bot_message):
@@ -166,6 +167,8 @@ else:
 
 
 async def get_chat(uid):
+  if "PChat" in globals():
+    return PChat(uid)
   return AChat(uid)
 
 
@@ -175,7 +178,7 @@ responses = {}
 PREFIX = "+" or "@Kitten"
 intents = Intents.default()
 intents.value |= disnake.Intents.messages.flag
-intents.value |= disnake.Intents.message_content.flag
+intents.value |= getattr(disnake.Intents, "message_content").flag
 intents.value |= disnake.Intents.guilds.flag
 intents.value |= disnake.Intents.members.flag
 
@@ -224,6 +227,7 @@ def _cleanup_loop(loop):
 def run(self, *args: Any, **kwargs: Any) -> None:
   loop = self.loop
   try:
+    import signal
     loop.add_signal_handler(signal.SIGINT, lambda: loop.stop())
     loop.add_signal_handler(signal.SIGTERM, lambda: loop.stop())
   except:
@@ -266,11 +270,11 @@ def get_kernel():
   global k
   if not k:
     sys.path.insert(0, (Path.cwd() / "alice").as_posix())
-    import aiml.AimlParser
+    import aiml.AimlParser, aiml.Kernel
     try:
       k = aiml.Kernel.Kernel()
     except (TypeError, ImportError):
-      k = aiml.Kernel()
+      k = aiml.Kernel() # type: ignore
     log.info("Created python aiml Kernel: %s,", k)
     if Path("brain.dmp").exists():
       k.bootstrap("brain.dmp", [])
@@ -362,7 +366,7 @@ def start_bot():
     DISCORD_BOT_TOKEN[-5:],
     thread,
   )
-  bot._rollout_all_guilds = True
+  setattr(bot, "_rollout_all_guilds", True)
   auto_reload_start(bot)
   bot.run(DISCORD_BOT_TOKEN)
 

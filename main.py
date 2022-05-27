@@ -281,7 +281,6 @@ def get_kernel():
       log.info("Loaded brain into Kernel: %s,", k)
     else:
       k.bootstrap(None, list(map(Path.as_posix, Path("./").glob("**/*.aiml"))))
-      k.saveBrain("brain.dmp")
     preds = {
       ln.split(":", 1)[0]: ln.split(":", 1)[1]
       for ln in
@@ -291,6 +290,7 @@ def get_kernel():
     log.info("Loading %d predicates ...", len(preds))
     for pk, pv in preds.items():
       k.setBotPredicate(pk, pv)
+    k.saveBrain("brain.dmp")
   return k
 get_kernel()
 

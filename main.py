@@ -286,6 +286,7 @@ def get_kernel():
       ln.split(":", 1)[0]: ln.split(":", 1)[1]
       for ln in
       (Path.cwd() / "bots"/ "alice"/"config" / "predicates.txt").read_text().splitlines()
+      if len(ln.split(":")) >= 2
     }
     log.info("Loading %d predicates ...", len(preds))
     for pk, pv in preds.items():

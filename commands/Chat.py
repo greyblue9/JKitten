@@ -728,7 +728,7 @@ class ChatCog(Cog):
           from __main__ import get_kernel
           bot_message = norm_sent(get_kernel(), bot_message)
 
-        if use_alice or if any(bot_message.lower().strip().startswith(w) for w in (
+        if use_alice or any(bot_message.lower().strip().startswith(w) for w in (
           "who is your",
           "what is your",
           "who are your",

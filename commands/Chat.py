@@ -1,3 +1,6 @@
+from typing import Optional, Union, Any
+import random, asyncio, re, logging, sys, traceback, time, json
+from aiohttp import ClientSession
 from __main__ import *
 from disnake.ext.commands.interaction_bot_base import CommonBotBase
 from disnake.ext.commands import Cog
@@ -10,6 +13,9 @@ from safeeval import SafeEval
 from bs4 import BeautifulSoup as BS
 from bs4 import BeautifulSoup
 from tagger import categorize
+
+from __main__ import DEFAULT_UID, log, inputs, responses
+from disnake import BotIntegration, Color, Embed, Message
 
 CHANNEL_NAME_WHITELIST = {
   "open-chat",
@@ -90,6 +96,8 @@ def alice_response_inner(q, uid=DEFAULT_UID):
 
 def fix_pred_response(s):
   subj, key, *rest = s.partition(" .")[0].lower().split()
+  from __main__ import get_kernel
+  k = get_kernel()
   ans = (
     k.getPredicate(key, subj)
     if subj not in ("my", "me", "i", "we", "myself")
@@ -179,7 +187,7 @@ async def wolfram_alpha(inpt, uid=None):
 
 
 last_model = None
-async def get_response(bot_message, uid, model=None, message=None):
+async def get_response(bot_message, uid, model=None, message:Message=None): #type: ignore
   print("*** in ", message, uid, model, responses.setdefault(uid,[""]))
   global last_model
   response = None
@@ -235,7 +243,7 @@ async def get_response(bot_message, uid, model=None, message=None):
       async with session.post(API_URL, headers=headers, json=payload) as response:
         try:
           data = await response.json()
-        except aiohttp.client_exceptions.ContentTypeError:
+        except aiohttp.client_exceptions.ContentTypeError:  # type: ignore
           print(response.content)
           try:
             data = await response.json(content_type="application/json")
@@ -298,9 +306,8 @@ async def get_response(bot_message, uid, model=None, message=None):
   return response
 
 
-async def gpt_response(bot_message, uid=None, message=message):
-  if uid is None:
-    from __main__ import DEFAULT_UID as uid
+async def gpt_response(bot_message, uid=None, message=None):
+  uid = uid or DEFAULT_UID
   log.debug("gpt_response(%r, %r)", bot_message, uid)
 
   response = await get_response(bot_message, uid=uid, message=message)
@@ -329,6 +336,7 @@ async def google(bot_message, uid=None):
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   log.debug("google(%r, %r) called", bot_message, uid)
+  from __main__ import get_chat
   chat = get_chat(uid)
   if inspect.isawaitable(chat):
     chat = await chat
@@ -360,7 +368,7 @@ def strip_xtra(s):
   import codecs, re
   print("strip_xtra(%r)" % (s,))
 
-  escaped = codecs.unicode_escape_encode(s)[0]
+  escaped = codecs.unicode_escape_encode(s)[0]  # type: ignore
   print("strip_xtra(%r): escaped=%r" % (s, escaped))
 
   splits = re.compile(rb"[\t ][\t ]+|\\n|\\xb7|\\xa0", re.DOTALL).split(escaped)
@@ -377,7 +385,7 @@ def strip_xtra(s):
   ordered = sorted(ok, key=len)
   longest = ordered[-1]
 
-  s0 = codecs.unicode_escape_decode(longest)[0]
+  s0 = codecs.unicode_escape_decode(longest)[0]  # type: ignore
   print("strip_xtra(%r): s0=%r" % (s, s0))
 
   s1 = re.compile(
@@ -394,11 +402,11 @@ def find(coll, r):
       0
     ]
     if any(w in coll for w in r)
-    else [coll]
+    else coll
   )
 
 
-def google2(bot_message, uid=0, req_url=None):
+def google2(bot_message, uid="0", req_url=None):
   try:
     ans_marker = " ".join(
       find(
@@ -498,30 +506,6 @@ def google2(bot_message, uid=0, req_url=None):
   return a
 
 
-
-
-def norm_sent(k, s):
-  import re
-  exec(
-    'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
-    locals(),
-  )
-  return re.sub(
-      r" ([^a-zA-Z0-9_])\1* *",
-      "\\1",
-      " ".join(
-          filter(
-              None,
-              map(
-                  str.strip,
-                  re.split(
-                      r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
-                      s,
-                  ),
-              ),
-          )),
-  )
-
 async def alice_response(bot_message, uid):
   import __main__
   if hasattr(__main__, "Chat"):
@@ -537,6 +521,7 @@ async def alice_response(bot_message, uid):
   log.debug("alice_response(%r, %r)", bot_message, uid)
   last_input = inputs.setdefault(uid, [""])[-1]
   last_response = responses.setdefault(uid, [""])[-1]
+  from __main__ import name_lookup, get_chat
   if "what is your name" in last_response.lower():
     name = bot_message.strip(".? !").split()[-1]
     name_lookup[uid] = name
@@ -547,13 +532,12 @@ async def alice_response(bot_message, uid):
         f"Gosh, I've been waiting so long and now I'm finally speaking with *the* {name}!",
       ]
     )
-  import gc
-  import asyncio.unix_events
+  import gc, asyncio.unix_events
   
   loop = [
     o
     for o in gc.get_objects()
-    if isinstance(o, asyncio.unix_events._UnixSelectorEventLoop) and o.is_running
+    if isinstance(o, asyncio.unix_events._UnixSelectorEventLoop) and o.is_running  # type: ignore
   ][0]
   chat = get_chat(uid)
   if inspect.isawaitable(chat):
@@ -625,7 +609,7 @@ async def alice_response(bot_message, uid):
 last_input = last_response = ""
 
 class ChatCog(Cog):
-  bot: CommonBotBase
+  bot: BotIntegration
   event = Cog.listener()
 
   def __init__(self, bot):
@@ -649,6 +633,7 @@ class ChatCog(Cog):
 
   @event
   async def on_message(self, message):
+    from __main__ import name_lookup, get_chat, replace_mention, translate_urls, translate_emojis
     global last_response
     global last_input
     response = ""
@@ -680,7 +665,7 @@ class ChatCog(Cog):
     bot_message = translate_emojis(bot_message)
     if "https://" in bot_message or "http://" in bot_message:
       bot_message = translate_urls(bot_message)
-    mention = f"<@!{self.bot.user.id}>"
+    mention = f"<@!{self.bot.user.id}>" #type: ignore
     if self.bot.user == message.author:
       return
     ok = (
@@ -707,7 +692,7 @@ class ChatCog(Cog):
       last_input = bot_message
       last_response = response
       return message.reply(response)
-    if message.author.id == self.bot.user.id:
+    if message.author == self.bot.user:
       return
     
     try:
@@ -866,7 +851,7 @@ class ChatCog(Cog):
         ).search(bot_message):
           try:
             return await respond(
-              m.group(1) + " is " + str(SafeEval().safeEval(m.group(1).strip(), [])) + "."
+              m.group(1) + " is " + str(SafeEval().safeEval(m.group(1).strip(), {})) + "."
             )
           except:
             pass

@@ -6,6 +6,7 @@ from __future__ import print_function
 
 from xml.sax.handler import ContentHandler
 from xml.sax.xmlreader import Locator
+import inspect
 import sys
 import xml.sax
 import xml.sax.handler
@@ -218,19 +219,7 @@ class AimlHandler(ContentHandler):
         sys.stderr.write(
           "  state: %d (%s)\x0a" % (self._state, StateNames.get(self._state))
         )
-        import __main__
-
-        __main__.parse_errors = getattr(__main__, "parse_errors", [])
-        __main__.parse_errors.append(
-          (
-            err,
-            self._startElement,
-            [name, attr],
-            list(self._stack),
-            (self._state, StateNames.get(self._state)),
-          )
-        )
-
+        
       self._numParseErrors += 1  # increment error count
       # In case of a parse error, if we're inside a category, skip it.
       if self._state >= self._STATE_InsideCategory:

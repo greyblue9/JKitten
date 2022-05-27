@@ -6,10 +6,11 @@ import sys
 
 sys.path.insert(0, (Path.cwd() / "alice").as_posix())
 import aiml.AimlParser
+import aiml.Kernel
 
 
 def main():
-  k = aiml.Kernel()
+  k = aiml.Kernel.Kernel()
   k.bootstrap(None, list(map(Path.as_posix, Path("./").glob("**/*.aiml"))))
   while ln := input("> "):
     print(f"\nyou: {ln}\n   >> {k.respond(ln)}")

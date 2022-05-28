@@ -1,8 +1,12 @@
+import disnake
 from __main__ import *
 from disnake.ext.commands.interaction_bot_base import CommonBotBase
 from disnake.ext.commands import Cog
 from disnake.ext.commands import Command
+from disnake.ext import commands
+import json
 
+TEXT_CHANNELS_FILE = "data/text_channels.json"
 
 async def get_channel(self, message):
   with open(TEXT_CHANNELS_FILE, "r") as file:

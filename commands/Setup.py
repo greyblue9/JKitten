@@ -5,7 +5,6 @@ import os
 import re
 import requests
 from typing import Optional, Union, Any
-from __main__ import *
 from disnake.ext.commands.interaction_bot_base import CommonBotBase
 from disnake.ext.commands import Cog
 from disnake.ext.commands import Command

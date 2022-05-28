@@ -31,7 +31,7 @@ favoritemovie:Terminator 2
 favoritesong:Baby Shark
 favoritesport:rugby
 favoritetvshow:Are You Smarter Than a Fifth Grader?
-firstname:Alice
+firstname:unknown
 friend:Pete
 gender:female
 sex:female
@@ -53,7 +53,7 @@ longitute:-74.0
 meta:not set
 middlename:Von
 mother:Adelle
-name:Alice
+name:unknown
 nephew:Joey
 newcontact:David
 niece:Alicia Keyes

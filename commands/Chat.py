@@ -36,47 +36,8 @@ class Class:
 
 
 BLACKLIST = {
-  " .",
-  "JSFAILED",
-  "I know, right",
-  "serious or not",
-  "I'm not sure what you're trying to say",
-  "joking or not",
-  "SRAIXFAILED",
-  "the last of us",
-  "I know, right",
-  "Let me learn this",
-  "a guy making a video ",
-  "is the guy who made the video",
-  "making a video",
-  "want to talk about unknown",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "Thanks for the trade",
-  "being sarcastic",
-  "reference to the song",
-  "Are you a girl",
-  "reference to the song",
-  "I'm over hereactly",
-  "not sure what you mean",
-  "Last Airbender",
-  "web search",
-  "good song",
-  "search the web",
-  "<oob>",
-  "I like a good discussion.",
-  "I'm very enthusiastic.",
-  "\"\"",
-  "is .",
-  "I'm sorry, I'm not a native speaker.",
-  "where.",
-  "what.",
-  " is .",
-  " am.",
-  "is unknown.",
-  "when.",
-  "who.",
+  'reference to the song', 'is unknown.', "I'm over hereactly", ' is .', 'as a contact', 'is an enity', 'or not. I am', 'I like a good discussion.', 'making a video', 'I try to keep my life in balance.', 'I know, right', 'Thanks for the trade', "I'm not sure what you're trying to say", 'is .', 'search the web', 'serious or not', 'a guy making a video ', 'is what.', 'Are you a girl', 'good song', 'is the guy who made the video', "I'm very enthusiastic.", 'Let me learn this', 'JSFAILED', 'joking or not', 'Last Airbender', 'place a call', 'not sure what you mean', 'want to talk about unknown', 'where.', 'the last of us', 'SRAIXFAILED', "I'm sorry, I'm not a native speaker.", 'a web search',
+  
 }
 
 last_input = last_response = ""
@@ -206,7 +167,7 @@ async def get_response(bot_message, uid, model=None, message:Message=None): #typ
         print("reuse model", last_model)
     if not model:
       model = random.choices(
-        model_names := ( 
+        model_names := ((
           "microsoft/DialoGPT-large",
           "microsoft/DialoGPT-medium",
           "microsoft/DialoGPT-small",
@@ -214,8 +175,16 @@ async def get_response(bot_message, uid, model=None, message:Message=None): #typ
           "facebook/blenderbot-400M-distill",
           "facebook/blenderbot-90M",
           "facebook/blenderbot_small-90M",
-        ),
-        weights := (125, 85,15, 85,6,9,17),
+        ) if not (is_question := bot_message.lower().split()[0] in ("what", "where", "when")) else (
+          "deepset/roberta-base-squad2",
+          "ahotrod/albert_xxlargev1_squad2_512",
+          "deepset/bert-large-uncased-whole-word-masking-squad2",
+        )),
+        weights := ((
+          225, 15, 15, 85, 6, 9, 17
+        ) if not is_question else (
+          33, 33, 33
+        )),
       )[0]
       model_idx = model_names.index(model)
       weight = weights[model_idx]
@@ -334,7 +303,7 @@ async def google(bot_message, uid=None):
   if len(bot_message.split()) < 3:
     return ""
   import __main__
-  from __main__ import USE_JAVA
+  from __main__ import Class, USE_JAVA
   if not USE_JAVA:
     return ""
   if uid is None:
@@ -478,7 +447,7 @@ def google2(bot_message, uid="0", req_url=None):
 
   descrips = [strip_xtra(d) for d in descrips]
   print("descrips=", descrips)
-
+  
   answers = [
     e[e.lower().index(strip_xtra(ans_marker).lower()) :]
     .strip(". ")
@@ -487,8 +456,15 @@ def google2(bot_message, uid="0", req_url=None):
     for e in descrips
     if strip_xtra(ans_marker).lower() in e.lower()
   ]
+  answers = sorted(answers, key=lambda a: (a[0].isupper() and (a[1:2].islower() or a.split()[1][0:1].islower())) * 8 + (a.strip().endswith(".")) * 6 + (" ago — " not in a) * 4 + ("›" not in a) * 12 + ("..." not in a) * 6)
+  
+  if not answers:
+    for a in descrips:
+      a2 = strip_xtra(a)
+      if not a2: continue
+      answers.append(a2)
   print("answers=", answers)
-
+  answers = sorted(answers, key=lambda a: (a[0].isupper() and (a[1:2].islower() or a.split()[1][0:1].islower())) * 8 + (a.strip().endswith(".")) * 6 + (" ago — " not in a) * 4 + ("›" not in a) * 12 + ("..." not in a) * 6)
   answer = answers[-1] if answers else None
   try:
     next_url = "https://www.google.com{}".format(
@@ -496,14 +472,12 @@ def google2(bot_message, uid="0", req_url=None):
     )
   except StopIteration:
     next_url = None
-
+  descrips = sorted(descrips, key=lambda a: (a[0].isupper() and (a[1:2].islower() or a.split()[1][0:1].islower())) * 8 + (a.strip().endswith(".")) * 6 + (" ago — " not in a) * 4 + ("›" not in a) * 12 + ("..." not in a) * 6)
   a = (
-    (answer[0].upper() + answer[1:]).strip(" \n\t.")+"."
+    answer
     if answer
-    else (descrips[0][0].upper() + descrips[0][1:]).strip(" \n\t.")+"." if descrips
+    else descrips[-1] if descrips
     else google(bot_message, uid)
-    if req_url is None and next_url
-    else ""
   )
   if a.lower() == bot_message.lower():
     return ""
@@ -583,7 +557,7 @@ async def alice_response(bot_message, uid):
     .replace("<br>", "\n")
   )
   for b in BLACKLIST:
-    if b.lower() == response.lower() or response.lower() == b:
+    if b.lower() in response.lower() or response.lower() in b.lower():
       log.debug(
         "alice_response(%r, %r) discarding response %r due to blacklist",
         bot_message,
@@ -611,6 +585,16 @@ class ChatCog(Cog):
     response = await wolfram_alpha(message)
     return await ctx.send(response)
 
+  @Command
+  async def ip(self, ctx, *, message=""):
+    ip = requests.get("https://ip.me").text
+    await ctx.reply(f"My IP is {ip}")
+
+  @Command
+  async def blacklist(self, ctx, *, message):
+    global BLACKLIST
+    BLACKLIST.add(message)
+  
   @Command
   async def google(self, ctx, *, message):
     response = google2(message)
@@ -684,9 +668,6 @@ class ChatCog(Cog):
         response = f"<@{message.author.id}> {response}"
       last_input = bot_message
       last_response = response
-      BLACKLIST.add(response)
-      if len(BLACKLIST) % 75 == 0:
-        BLACKLIST = set(list(BLACKLIST)[:30])
       return message.reply(response)
     if message.author == self.bot.user:
       return
@@ -694,6 +675,12 @@ class ChatCog(Cog):
     
     try:
       with message.channel.typing():
+        bot_message = content
+        if not bot_message or bot_message.lower() in ("lol", "lmao", "xd"):
+          return await respond(random.choice(["Speak up.", "Huh?", "I didn't get that.", "What now?", "Yes.", "No.," "I don't know.", "Who asked?", "My name is Alice", "Do I know you?", "Haven't we met someplace before?", "I'd like to ask you out.", "You're so good looking.", "You know I think you're my type.", "Are you single?", "Do you have any significant other? Because you're significant to me.", "I freaking love you." , "You have such a nice butt.", "I could squeeze you forever."]))
+        if ("why" not in bot_message.lower() and bot_message.lower()[0] in ("m", "w")) and (new_response := await alice_response(content, uid)):
+          return await respond(new_response)
+        
         from tagger import categorize
         log.info("bot_message=%r", bot_message)
         
@@ -732,38 +719,6 @@ class ChatCog(Cog):
           if new_response := await gpt_response(bot_message, uid, message):
             return await respond(new_response)
         
-        import __main__
-        from __main__ import USE_JAVA
-        if not USE_JAVA and not hasattr(__main__, "Chat"):
-          from __main__ import get_kernel
-          bot_message = norm_sent(get_kernel(), bot_message)
-
-        
-        if (
-          cats["tagged"]
-          and cats["tagged"][0]
-          and cats["tagged"][0][0] in ("what", "who", "when", "where", "how", "why")
-          and len(cats["tagged"]) > 1
-          and cats["tagged"][1]
-          and cats["tagged"][1][0] in ("is", "are", "were", "was", "has", "do," "does", "had")
-          and cats["question"]
-          and not cats["person"]
-        ):
-          print("Google")
-          if new_response := google2(bot_message, uid):
-            if inspect.isawaitable(new_response):
-              new_response = await new_response
-          if new_response:
-            return await respond(new_response)
-
-        if bot_message.lower().startswith("my name is "):
-          name = bot_message.strip(".!? ").split()[-1]
-          name_lookup[uid] = name
-          name_lookup[message.author.name] = name
-          inputs.setdefault(uid, []).append("What is your name?")
-          if new_response := await alice_response(bot_message, uid):
-            return await respond(new_response)
-
         if (
           (
             cats["attributes"] == ()
@@ -799,6 +754,38 @@ class ChatCog(Cog):
           and cats["question"] == True
           and (has_poss_pronoun or "PRP$" in dict(cats["tagged"]).values())
         ):
+          if new_response := await alice_response(bot_message, uid):
+            return await respond(new_response)
+
+        import __main__
+        from __main__ import USE_JAVA
+        if not USE_JAVA and not hasattr(__main__, "Chat"):
+          from __main__ import get_kernel
+          bot_message = norm_sent(get_kernel(), bot_message)
+
+        
+        if (
+          cats["tagged"]
+          and cats["tagged"][0]
+          and cats["tagged"][0][0] in ("what", "who", "when", "where", "how", "why")
+          and len(cats["tagged"]) > 1
+          and cats["tagged"][1]
+          and cats["tagged"][1][0] in ("is", "are", "were", "was", "has", "do," "does", "had")
+          and cats["question"]
+          and not cats["person"]
+        ):
+          print("Google")
+          if new_response := google2(bot_message, uid):
+            if inspect.isawaitable(new_response):
+              new_response = await new_response
+          if new_response:
+            return await respond(new_response)
+
+        if bot_message.lower().startswith("my name is "):
+          name = bot_message.strip(".!? ").split()[-1]
+          name_lookup[uid] = name
+          name_lookup[message.author.name] = name
+          inputs.setdefault(uid, []).append("What is your name?")
           if new_response := await alice_response(bot_message, uid):
             return await respond(new_response)
 

@@ -943,7 +943,11 @@ class Kernel:
     for e in elem[2:]:
       value += self._processElement(e, sessionID)
     # print( "@ELEM", elem )
-    self.setPredicate(elem[1]["name"], value, sessionID)
+    print("elem=", elem )
+    name = elem[1].get("name") or elem[1].get("var") or "name"
+    if not (name and value):
+       return self.getPredicate(name, value, sessionID)
+    self.setPredicate(name, value, sessionID)
     return value
 
   # <size>

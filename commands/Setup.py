@@ -58,14 +58,17 @@ class Setup(Cog):
 
   
   @Command
-  async def kill(self, ctx: commands.Context):
-    await ctx.send(f"OK, I'll go kill myself.")
-    await ctx.send(f"My IP is: " + requests.get("https://ip.me").text)
+  async def kill(self, ctx: commands.Context, message=""):
+    ip = requests.get("https://ip.me").text
+    doit = not message or (message and message.strip() == ip.strip())
+    if not doit:
+      return
+    await ctx.reply(f"OK, I'll go kill myself. My IP is: " + ip)
     try:
-      raise SystemExit(127)
+      raise SystemExit(0)
     finally:
+      await ctx.send(f"OK, I'm dead.")
       os.kill(os.getpid(), 9)
-    await ctx.send(f"OK, I'm dead.")
   
   @Command
   async def whoami(self, ctx):

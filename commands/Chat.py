@@ -36,7 +36,7 @@ class Class:
 
 
 BLACKLIST = {
-  'reference to the song', 'is unknown.', "I'm over hereactly", ' is .', 'as a contact', 'is an enity', 'or not. I am', 'I like a good discussion.', 'making a video', 'I try to keep my life in balance.', 'I know, right', 'Thanks for the trade', "I'm not sure what you're trying to say", 'is .', 'search the web', 'serious or not', 'a guy making a video ', 'is what.', 'Are you a girl', 'good song', 'is the guy who made the video', "I'm very enthusiastic.", 'Let me learn this', 'JSFAILED', 'joking or not', 'Last Airbender', 'place a call', 'not sure what you mean', 'want to talk about unknown', 'where.', 'the last of us', 'SRAIXFAILED', "I'm sorry, I'm not a native speaker.", 'a web search',
+  'reference to the song', 'is unknown.', "I'm over hereactly", ' is .', 'as a contact', 'is an enity', 'or not. I am', 'I like a good discussion.', 'making a video', 'I try to keep my life in balance.', 'I know, right', 'Thanks for the trade', "I'm not sure what you're trying to say", 'is .', 'search the web', 'serious or not', 'a guy making a video ', 'is what.', 'Are you a girl', 'good song', 'is the guy who made the video', "I'm very enthusiastic.", 'Let me learn this', 'JSFAILED', 'joking or not', 'Last Airbender', 'place a call', 'not sure what you mean', 'want to talk about unknown', 'where.', 'the last of us', 'SRAIXFAILED', "I'm sorry, I'm not a native speaker.", 'a web search', 'album by', '·',
   
 }
 
@@ -147,6 +147,13 @@ async def wolfram_alpha(inpt, uid=None):
         return response
       log.debug(doc.prettify())
   log.info("wolfram_alpha(%r, %r) returning %r", inpt, uid, response)
+  if any(
+    w.lower() in response.lower()
+    or response.lower() in w.lower()
+    for w in BLACKLIST
+  ):
+    log.info("Not using due to blacklist: %s", response)
+    return ""
   return response
 
 
@@ -171,7 +178,6 @@ async def get_response(bot_message, uid, model=None, message:Message=None): #typ
           "microsoft/DialoGPT-large",
           "microsoft/DialoGPT-medium",
           "microsoft/DialoGPT-small",
-          "deepparag/Aeona",
           "facebook/blenderbot-400M-distill",
           "facebook/blenderbot-90M",
           "facebook/blenderbot_small-90M",
@@ -181,7 +187,7 @@ async def get_response(bot_message, uid, model=None, message:Message=None): #typ
           "deepset/bert-large-uncased-whole-word-masking-squad2",
         )),
         weights := ((
-          225, 15, 15, 85, 6, 9, 17
+          325, 15, 15, 6, 9, 17
         ) if not is_question else (
           33, 33, 33
         )),
@@ -676,7 +682,16 @@ class ChatCog(Cog):
     try:
       with message.channel.typing():
         bot_message = content
-        if not bot_message or bot_message.lower() in ("lol", "lmao", "xd"):
+
+        import __main__
+        from __main__ import USE_JAVA
+        if not USE_JAVA and not hasattr(__main__, "Chat"):
+          from __main__ import get_kernel
+          bot_message = norm_sent(get_kernel(), bot_message)
+
+        if not bot_message:
+          return
+        if bot_message.lower() in ("lol", "lmao", "xd"):
           return await respond(random.choice(["Speak up.", "Huh?", "I didn't get that.", "What now?", "Yes.", "No.," "I don't know.", "Who asked?", "My name is Alice", "Do I know you?", "Haven't we met someplace before?", "I'd like to ask you out.", "You're so good looking.", "You know I think you're my type.", "Are you single?", "Do you have any significant other? Because you're significant to me.", "I freaking love you." , "You have such a nice butt.", "I could squeeze you forever."]))
         if ("why" not in bot_message.lower() and bot_message.lower()[0] in ("m", "w")) and (new_response := await alice_response(content, uid)):
           return await respond(new_response)
@@ -756,13 +771,18 @@ class ChatCog(Cog):
         ):
           if new_response := await alice_response(bot_message, uid):
             return await respond(new_response)
-
-        import __main__
-        from __main__ import USE_JAVA
-        if not USE_JAVA and not hasattr(__main__, "Chat"):
-          from __main__ import get_kernel
-          bot_message = norm_sent(get_kernel(), bot_message)
-
+        
+        if m := re.compile(
+          "^(?:alice|[,*]*|do you know |what is |what'?s |"
+          "^ *)*(.*[0-9].*)[,?.]* *$",
+          re.DOTALL | re.IGNORECASE,
+        ).search(bot_message):
+          try:
+            return await respond(
+              m.group(1) + " is " + str(SafeEval().safeEval(m.group(1).strip(), {})) + "."
+            )
+          except:
+            pass
         
         if (
           cats["tagged"]
@@ -816,24 +836,12 @@ class ChatCog(Cog):
           if new_response := await gpt_response(bot_message, uid, message):
             return await respond(new_response)
 
-        if m := re.compile(
-          "^(?:alice|[,*]*|do you know |what is |what'?s |"
-          "^ *)*(.*[0-9].*)[,?.]* *$",
-          re.DOTALL | re.IGNORECASE,
-        ).search(bot_message):
-          try:
-            return await respond(
-              m.group(1) + " is " + str(SafeEval().safeEval(m.group(1).strip(), {})) + "."
-            )
-          except:
-            pass
-
         if not response:
           if not cats["question"] or (
             not cats["person"] and not cats["entities"]
           ):
             if new_response := await gpt_response(bot_message, uid, message):
-              response = new_response
+              return await respond(new_response)
 
             if new_response := await wolfram_alpha(bot_message, uid):
               if ("(" in new_response or "|" in new_response):
@@ -844,36 +852,6 @@ class ChatCog(Cog):
           elif new_response := await google(bot_message, uid):
             return await respond(new_response)
 
-        if response.endswith(", seeker."):
-          response = response.removesuffix(", seeker.") + "."
-        if (
-          "hiya" == response.lower().strip()
-          or "i am dad" in response.lower()
-          or "i'm dad" in response.lower()
-          or "hi jon" in response.lower()
-          or ", jon" in response.lower()
-          or "hi kyle" in response.lower()
-          or ", kyle" in response.lower()
-          or "hi paul" in response.lower()
-          or ", paul" in response.lower()
-          or "hi mat" in response.lower()
-          or ", mat" in response.lower()
-        ):
-          response = random.choice(
-            [
-              f"Hey there! How are you, {message.author.mention}?",
-              "Hello",
-              "Hi what'a up?",
-              f"Hey, good to see you again, {message.author.mention}.",
-              f"Welcome back, {message.author.mention}!",
-              f"Yo what's up, {message.author.mention}",
-              "Hi, it's good to see you again.",
-              "Hello there." "Well, hello!",
-              "Hiya bro",
-              f"Yay {message.author.mention}! You're exactly who I was hoping to see.",
-              "Sup, dude?",
-            ]
-          )
     except Exception as exc:
       exc_str = "" "\n%s" % (
         "\x0a".join(

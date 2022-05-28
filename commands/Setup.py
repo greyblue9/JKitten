@@ -1,5 +1,5 @@
 from disnake import Embed, Guild
-from disnake.guild import GuildChannel as Channel
+from disnake.channel import TextChannel as Channel
 import disnake
 import os
 import re
@@ -11,6 +11,7 @@ from disnake.ext.commands import Command
 from disnake.ext import commands
 import json
 from disnake.message import Message
+from __main__ import setup
 
 TEXT_CHANNELS_FILE = "data/text_channels.json"
 

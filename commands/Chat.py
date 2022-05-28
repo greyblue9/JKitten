@@ -1,3 +1,5 @@
+from __main__ import get_chat, pos_tag, replace_mention
+from text_tools import translate_emojis, translate_urls
 from typing import Optional, Union, Any
 import random, requests, asyncio, re, logging, sys, traceback, time, json
 from aiohttp import ClientSession
@@ -16,6 +18,7 @@ from tagger import categorize
 
 from __main__ import DEFAULT_UID, log, inputs, responses
 from disnake import BotIntegration, Color, Embed, Message
+from tagger import tag_meanings
 
 CHANNEL_NAME_WHITELIST = {
   "open-chat",
@@ -493,90 +496,72 @@ def google2(bot_message, uid="0", req_url=None):
 
 
 async def alice_response(bot_message, uid):
-  import __main__
-  if hasattr(__main__, "Chat"):
-    sessions = list(
-      __main__.Chat.sessions.keys()
-    )
-  else:
-    sessions = [str(uid)]
-  mbs = { str(m.id): m
-      for g in __main__.bot.guilds 
-      for m in g.members}
-  
   log.debug("alice_response(%r, %r)", bot_message, uid)
   last_input = inputs.setdefault(uid, [""])[-1]
   last_response = responses.setdefault(uid, [""])[-1]
-  from __main__ import name_lookup, get_chat
   if "what is your name" in last_response.lower():
     name = bot_message.strip(".? !").split()[-1]
     name_lookup[uid] = name
-    response = random.choice(
-      [
-        f"It's great to meet you, {name}.",
-        f"Well! How do you do, {name}?",
-        f"Gosh, I've been waiting so long and now I'm finally speaking with *the* {name}!",
-      ]
-    )
-  chat = get_chat(uid)
-  if inspect.isawaitable(chat):
-    chat = await chat
-  if hasattr(chat, "predicates") and ("name" not in list(
-      chat.predicates) or str(chat.predicates.get("name")) == "unknown"):
-    chat.predicates.put("name", str(mbs.get(str(uid))).split("#")[0])
-  cats0 = categorize(last_input.lower())
-  cats1 = categorize(last_response.lower())
-  cats2 = categorize(bot_message.lower())
-  topic = ""
-  for cats in (cats0, cats1, cats2):
-    if cats["entities"]:
-      topic = cats["entities"][0]
-      log.debug("alice_response(%r, %r) setting topic to %r", bot_message, uid, topic)
-      if hasattr(chat, "predicates"):
-        chat.predicates.put("topic", topic)
-        chat.predicates.put("it", topic)
-    elif not topic and cats["clauses"]:
-      topic = cats["clauses"][0]
-      log.debug("alice_response(%r, %r) setting topic to %r", bot_message, uid, topic)
-      if hasattr(chat, "predicates"):
-        chat.predicates.put("topic", topic)
-        chat.predicates.put("it", topic)
-  if hasattr(__main__, "ParseState") and __main__.ParseState.current:
-    __main__.ParseState.current.it = topic or "*"
-    __main__.ParseState.current.that = topic or "*"
-  
+    return random.choice([
+      f"It's great to meet you, {name}.",
+      f"Well! How do you do, {name}?",
+      f"Gosh, I've been waiting so long and now I'm finally speaking with *the* {name}!",
+    ])
+  import gc
+  import asyncio.unix_events
+  loop = [o for o in gc.get_objects() if isinstance(o, asyncio.unix_events._UnixSelectorEventLoop) and o.is_running][0]
+  chat = await get_chat(uid)
+  cats = await loop.run_in_executor(
+    None, categorize, bot_message.lower()
+  )
+  topic = "*"
+  if cats["entities"]:
+    log.debug("alice_response(%r, %r) setting topic to %r", bot_message, uid, topic)
+    topic = cats["entities"][0]
+    chat.predicates.put("topic", topic)
   log.debug("alice_response(%r, %r): query %r", bot_message, uid, bot_message)
-  response = chat.multisentenceRespond(bot_message)
+  response = await loop.run_in_executor(
+    None, chat.multisentenceRespond, bot_message
+  )
   log.debug("alice_response(%r, %r): result: %r", bot_message, uid, response)
-  if "&lt;search" in response:
-    q = response.split("&lt;search&gt;")[1]
-    q = q.split("&lt;/")[0]
-    log.info("Doing search for %r", q)
-    response = await google(q, uid)
-  if response.lower() == bot_message.lower():
+
+  for b in BLACKLIST:
+    if b.lower() in response.lower() or response.lower() in b:
+      log.debug("alice_response(%r, %r) discarding response %r due to blacklist", bot_message, uid, response)
+      return ""
+  if "" in set(
+    filter(
+      None,
+      (
+        re.subn("[^a-z]+", "", s.lower(), re.IGNORECASE)[0]
+        for s in (last_input, last_response, bot_message)
+      )
+    )
+  ):
+    log.debug("alice_response(%r, %r) discarding response %r because it repeats a previous entry", bot_message, uid, response)
     return ""
 
-  response = (
-    response.replace("<br />", "\n")
-    .replace("<br >", "\n")
-    .replace("<br/>", "\n")
-    .replace("<br>", "\n")
+  if "your name is dekriel" in response.lower():
+    name = name_lookup.get(uid)
+    if name:
+      response = f"Your name is {name}."
+    else:
+      response = "I don't know your name. What is your name?"
+  
+  if "Hari" in response:
+    response = re.sub("\\bHari\\b", "Alice", response)
+  
+  log.info(
+    "alice_response query for %r returns %r",
+    bot_message, response
   )
-  for b in BLACKLIST:
-    if b.lower() in response.lower() or response.lower() in b.lower():
-      log.debug(
-        "alice_response(%r, %r) discarding response %r due to blacklist",
-        bot_message,
-        uid,
-        response,
-      )
-      return ""
-  log.info("alice_response query for %r returns %r", bot_message, response)
   return response
+
 
 
 last_input = last_response = ""
 use_alice = False
+from __main__ import name_lookup
 
 class ChatCog(Cog):
   bot: BotIntegration
@@ -613,94 +598,64 @@ class ChatCog(Cog):
   
   @event
   async def on_message(self, message):
-    from __main__ import name_lookup, get_chat, replace_mention, translate_urls, translate_emojis
-    global last_response
-    global last_input
-    global use_alice
-    global last_model
     response = ""
     channel_id = message.channel.id
-    channel = message.channel
-    in_whitelist = any(
-      channel.name.lower() in f.lower() for f in CHANNEL_NAME_WHITELIST
-    )
+    channel_name = translate_emojis(
+      message.channel.name.split(b"\xff\xfe1\xfe".decode("utf-16"))[-1]
+      .strip()
+      .strip("-")
+    ).strip("-")
+    print(f"channel_id = {channel_id}")
+    print(f"channel_name = {channel_name}")
     uid = str(message.author.id)
-
     if uid not in name_lookup:
       realname = message.author.name
       if m := re.search(
         "^[^A-Za-z]*(?P<name>[a-zA-Z][a-z-]+[a-z])([^a-z].*|)$",
-        realname,
-        re.DOTALL,
+        realname, re.DOTALL
       ):
         realname = m.group("name").lower().capitalize()
       name_lookup[uid] = realname
-    content = message.content or message.system_content or "\n".join(filter(None, ((e.title + "\n" + e.description).strip() for e in message.embeds)))
-    if not content or not content.strip():
-      return
+    
     bot_message = " ".join(
-      (replace_mention(word, name_lookup) for word in content.split())
+      (
+        replace_mention(word, name_lookup)
+        for word in message.content.split()
+      )
     )
-    if not message.author.bot and bot_message.strip().startswith("perkel"):
-      await message.reply((bot_message + " ") + (bot_message + " "))
-      return
     bot_message = translate_emojis(bot_message)
-    if "https://" in bot_message or "http://" in bot_message:
-      bot_message = translate_urls(bot_message)
-    mention = f"<@!{self.bot.user.id}>" #type: ignore
+    bot_message = translate_urls(bot_message)
+    
+    log.info(
+      f"[{message.author.name}][{message.guild.name}]:"
+      f" {bot_message}"
+    )
+    mention = f"<@!{self.bot.user.id}>"
+    #if message.author.bot:
+    #  return
     if self.bot.user == message.author:
       return
-    ok = (
-      in_whitelist
-      or self.bot.user in message.mentions
-      or mention in content
-      or "alice" in content.lower()
-      or "alice " in bot_message.lower()
-    )
-    ok = ok and content[0:1].isalnum()
-    if not ok:
+    if (
+      channel_name != "ai-chat-bot" 
+      and mention not in message.content
+      and f"<@{self.bot.user.id}>" not in message.content
+    ):
       return
-    log.info(f"[{message.author.name}][{message.guild.name}]:" f" {bot_message}")
     def respond(new_response):
-      global BLACKLIST
       nonlocal response
       response = new_response
-      log.info("Responding to %r with %r", bot_message, response)
+      log.info(
+        "Responding to %r with %r", bot_message, response
+      )
       inputs.setdefault(uid, []).append(bot_message)
       responses.setdefault(uid, []).append(response)
-      global last_response
-      global last_input
       if message.author.bot:
         response = f"<@{message.author.id}> {response}"
-      last_input = bot_message
-      last_response = response
       return message.reply(response)
-    if message.author == self.bot.user:
-      return
-    
     
     try:
       with message.channel.typing():
-        bot_message = content
-
-        import __main__
-        from __main__ import USE_JAVA
-        if not USE_JAVA and not hasattr(__main__, "Chat"):
-          from __main__ import get_kernel
-          bot_message = norm_sent(get_kernel(), bot_message)
-
-        if not bot_message:
-          return
-        if bot_message.lower() in ("lol", "lmao", "xd"):
-          return await respond(random.choice(["Speak up.", "Huh?", "I didn't get that.", "What now?", "Yes.", "No.," "I don't know.", "Who asked?", "My name is Alice", "Do I know you?", "Haven't we met someplace before?", "I'd like to ask you out.", "You're so good looking.", "You know I think you're my type.", "Are you single?", "Do you have any significant other? Because you're significant to me.", "I freaking love you." , "You have such a nice butt.", "I could squeeze you forever."]))
-        if ("why" not in bot_message.lower() and bot_message.lower()[0] in ("m", "w")) and (new_response := await alice_response(content, uid)):
-          return await respond(new_response)
-        
-        from tagger import categorize
-        log.info("bot_message=%r", bot_message)
-        
-        cats: dict = categorize(bot_message.lower() or "")
-        log.info("cats=%r", cats)
+        cats: dict = categorize(bot_message.lower())
         # {
         #   "tagged": tagged, "items": items,
         #   "question": question, "person": person,
@@ -709,154 +664,139 @@ class ChatCog(Cog):
         #   "clauses": tuple(clauses),
         # {
         pprint(cats)
-        by_pos = {pos: wd for wd, pos in cats["tagged"]}
-        log.info("by_pos=%r", by_pos)
-        from tagger import tag_meanings
+        by_pos = { pos:wd for wd,pos in cats["tagged"] }
         pronouns_pos = {
-          pos for pos, m in tag_meanings.items() if "pro" in str(m).lower()
+          pos for pos,m in tag_meanings.items() 
+          if "pro" in str(m).lower()
         }
         personal_pos = {
-          pos for pos, m in tag_meanings.items() if "pers" in str(m).lower()
+          pos for pos,m in tag_meanings.items() 
+          if "pers" in str(m).lower()
         }
         has_pronouns = pronouns_pos.intersection(by_pos)
         has_personal = personal_pos.intersection(by_pos)
-        has_proper_noun = cats["proper_noun"]
-        has_poss_pronoun = "PRP" in (
-          pos[0:3] for word, pos in cats["tagged"]
+        has_proper_noun = "NN" in (
+          pos for word, pos in pos_tag(bot_message)
         )
-        print(f"{by_pos=}")
-        print(f"{pronouns_pos=}")
-        print(f"{personal_pos=}")
-        print(f"{has_personal=}")
-        print(f"{has_proper_noun=}")
-        print(f"{has_poss_pronoun=}")
-        if (last_response.strip().endswith("?") and last_model):
-          if new_response := await gpt_response(bot_message, uid, message):
-            return await respond(new_response)
+        has_poss_pronoun = "PRP" in (
+          pos for word, pos in pos_tag(bot_message)
+        )
         
         if (
-          (
-            cats["attributes"] == ()
-            or set(cats["attributes"]).intersection(
-              {
-                "name",
-                "age",
-                "favorite",
-                "master",
-                "botmaster",
-                "creator",
-                "inventor",
-                "boss",
-                "friend",
-                "buddy",
-                "pal",
-                "nemesis",
-                "birthday",
-                "job",
-                "occupation",
-              }
-            )
-            or (
-              has_poss_pronoun
-              and bot_message.split()[0] in ("what", "how")
-            )
-          )
-          and cats["entities"]
-          in (
-            (),
-            ("alice",),
-          )
-          and cats["question"] == True
-          and (has_poss_pronoun or "PRP$" in dict(cats["tagged"]).values())
+          bot_message.lower().startswith("my name is ")
         ):
-          if new_response := await alice_response(bot_message, uid):
-            return await respond(new_response)
-        
-        if m := re.compile(
-          "^(?:alice|[,*]*|do you know |what is |what'?s |"
-          "^ *)*(.*[0-9].*)[,?.]* *$",
-          re.DOTALL | re.IGNORECASE,
-        ).search(bot_message):
-          try:
-            return await respond(
-              m.group(1) + " is " + str(SafeEval().safeEval(m.group(1).strip(), {})) + "."
-            )
-          except:
-            pass
-        
-        if (
-          cats["tagged"]
-          and cats["tagged"][0]
-          and cats["tagged"][0][0] in ("what", "who", "when", "where", "how", "why")
-          and len(cats["tagged"]) > 1
-          and cats["tagged"][1]
-          and cats["tagged"][1][0] in ("is", "are", "were", "was", "has", "do," "does", "had")
-          and cats["question"]
-          and not cats["person"]
-        ):
-          print("Google")
-          if new_response := google2(bot_message, uid):
-            if inspect.isawaitable(new_response):
-              new_response = await new_response
-          if new_response:
-            return await respond(new_response)
-
-        if bot_message.lower().startswith("my name is "):
           name = bot_message.strip(".!? ").split()[-1]
           name_lookup[uid] = name
           name_lookup[message.author.name] = name
           inputs.setdefault(uid, []).append("What is your name?")
           if new_response := await alice_response(bot_message, uid):
             return await respond(new_response)
-
+        
         if (
-          "age" in cats["attributes"]
-          and cats["entities"]
+          (
+            cats['attributes'] == () or
+            set(cats['attributes']).intersection({
+              'name', 'age', 'favorite',
+              'master', 'botmaster', 'creator', 'inventor',
+              'boss', 'friend', 'buddy', 'pal', 'nemesis',
+              'birthday', 'job', 'occupation'
+            })
+            or (has_poss_pronoun 
+              and bot_message.split()[0] in ("what", "how"))
+          )
+          and cats['entities'] in ((), ('alice',),)
+          and cats['question'] == True
+          and (has_poss_pronoun or 
+               'PRP$' in dict(cats['tagged']).values())
+        ):
+          if new_response := await alice_response(bot_message, uid):
+            return await respond(new_response)
+        
+        if (
+          "age" in cats["attributes"] and cats["entities"]
+          or "how many " in bot_message.lower()
           or "how long " in bot_message.lower()
+          or "how much " in bot_message.lower()
           or "how old " in bot_message.lower()
           or "'s age" in bot_message.lower()
           or re.search("^what is [^ ]+($|,|\\.)", bot_message.lower())
         ):
           if new_response := await wolfram_alpha(bot_message, uid):
-            if ("(" in new_response or "|" in new_response):
-              new_response = google2(content, uid)
-            if new_response:
-              return await respond(new_response)
-
+            return await respond(new_response)
+  
         if has_personal and "name" in cats["attributes"]:
           if new_response := await alice_response(bot_message, uid):
             return await respond(new_response)
-
+        
         exclaim_score = sum(
           1
-          for pos in dict(cats["tagged"]).values()
-          if pos in ("DT", "JJR", "PRP", "PRP$")
+          for pos in
+          dict(cats["tagged"]).values()
+          if pos in ("DT", "JJR", "PRP",)
         )
-        if exclaim_score >= 4:
-          if new_response := await gpt_response(bot_message, uid, message):
+        if exclaim_score >= 3:
+          if new_response := await gpt_response(bot_message, uid):
             return await respond(new_response)
-
+        
+        if m := re.compile(
+          "^(?:do you know |what is |what'?s |"
+          "^ *)([0-9]+.*[0-9])[,?.]* *$",
+          re.DOTALL | re.IGNORECASE,
+        ).search(bot_message):
+            try:
+              return await respond(
+                m.group(1) + " is " +
+                str(eval(m.group(1).strip())) + "."
+              ) 
+            except:
+              pass
+        
         if not response:
-          if not cats["question"] or (
-            not cats["person"] and not cats["entities"]
+          if (not cats["question"]
+            or (not cats["person"] and not cats["entities"])
           ):
-            if new_response := await gpt_response(bot_message, uid, message):
-              return await respond(new_response)
-
-            if new_response := await wolfram_alpha(bot_message, uid):
-              if ("(" in new_response or "|" in new_response):
-                new_response = google2(content, uid)
-              if new_response:
-                return await respond(new_response)
-
+             if new_response := await gpt_response(bot_message, uid):
+               response = new_response
+          
+          elif new_response := await wolfram_alpha(bot_message, uid):
+            return await respond(new_response)
+          
           elif new_response := await google(bot_message, uid):
             return await respond(new_response)
-
+        
+        if response.endswith(", seeker."):
+           response = response.removesuffix(", seeker.") + "."
+        if (
+            "hiya" == response.lower().strip()
+            or "i am dad" in response.lower()
+            or "i'm dad" in response.lower()
+            or "hi jon" in response.lower()
+            or ", jon" in response.lower()
+            or "hi kyle" in response.lower()
+            or ", kyle" in response.lower()
+            or "hi paul" in response.lower()
+            or ", paul" in response.lower()
+            or "hi mat" in response.lower()
+            or ", mat" in response.lower()
+          ):
+            response = random.choice(
+              [
+                f"Hey there! How are you, {message.author.mention}?",
+                "Hello",
+                "Hi what'a up?",
+                f"Hey, good to see you again, {message.author.mention}.",
+                f"Welcome back, {message.author.mention}!",
+                f"Yo what's up, {message.author.mention}",
+                "Hi, it's good to see you again.",
+                "Hello there." "Well, hello!",
+                "Hiya bro",
+                f"Yay {message.author.mention}! You're exactly who I was hoping to see.",
+                "Sup, dude?",
+              ]
+            )
     except Exception as exc:
       exc_str = "" "\n%s" % (
-        "\x0a".join(
-          traceback.format_exception(type(exc), exc, exc.__traceback__)
-        )
+        "\x0a".join(traceback.format_exception(type(exc), exc, exc.__traceback__))
       )
       embed = Embed(
         description=(
@@ -867,7 +807,7 @@ class ChatCog(Cog):
         color=Color.red(),
       )
       embed.add_field(name="Your name", value=message.author.name)
-      embed.add_field(name="Your message", value=content)
+      embed.add_field(name="Your message", value=message.content)
       embed.add_field(name="Translated message", value=bot_message)
       await message.reply(
         response,
@@ -877,8 +817,7 @@ class ChatCog(Cog):
       if response:
         return await respond(response)
     finally:
-      pass
-
+      await self.bot.process_commands(message)
 def setup(bot):
   cog = ChatCog(bot)
   bot.add_cog(cog)

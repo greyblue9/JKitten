@@ -1,5 +1,5 @@
 from typing import Optional, Union, Any
-import random, asyncio, re, logging, sys, traceback, time, json
+import random, requests, asyncio, re, logging, sys, traceback, time, json
 from aiohttp import ClientSession
 from __main__ import *
 from disnake.ext.commands.interaction_bot_base import CommonBotBase

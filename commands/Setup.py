@@ -1,10 +1,17 @@
+from disnake import Embed, Guild
+from disnake.guild import GuildChannel as Channel
 import disnake
+import os
+import re
+import requests
+from typing import Optional, Union, Any
 from __main__ import *
 from disnake.ext.commands.interaction_bot_base import CommonBotBase
 from disnake.ext.commands import Cog
 from disnake.ext.commands import Command
 from disnake.ext import commands
 import json
+from disnake.message import Message
 
 TEXT_CHANNELS_FILE = "data/text_channels.json"
 
@@ -58,7 +65,7 @@ class Setup(Cog):
 
   @Command
   async def ping(self, ctx: commands.Context):
-    await ctx.send(f"the bot ping is currently: {round(bot.latency * 1000)}ms")
+    await ctx.send(f"the bot ping is currently: {round(self.bot.latency * 1000)}ms")
 
   
   @Command
@@ -85,8 +92,8 @@ class Setup(Cog):
 
   @commands.has_permissions(administrator=True)
   @Command
-  async def setup(self, ctx: commands.Context, *, args=""):
-    channel: Channel = None
+  async def setup(self, ctx: Message, *, args=""):
+    channel: Optional[Channel] = None
     removing: bool = False
     words = args.split()
     if words and words[0] == "remove":
@@ -95,9 +102,9 @@ class Setup(Cog):
       args = " ".join(words[1:])
     channel_match: re.Match = re.search(r"<#(?P<id>[0-9]+)>", args)
     if channel_match:
-      guild_: Guild = ctx.guild
+      guild_: Optional[Guild] = ctx.guild
       channel = guild_.get_channel(int(channel_match.group("id")))
-    guild: Guild = ctx.guild
+    guild: Optional[Guild] = ctx.guild
     config = self.load_config()
     print(
       f"Setup command: {args=!r} {words=} {channel_match=} {channel=!r} {removing=!r}"
@@ -107,7 +114,7 @@ class Setup(Cog):
       status = [
         (
           int(sk),
-          ctx.guild.get_channel(int(sk)),
+          ctx.guild.get_channel(int(sk)), #type:ignore
         )
         for sk in ([config[str(guild.id)]] if str(guild.id) in config else [])
       ]

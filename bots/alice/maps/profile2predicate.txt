@@ -4,6 +4,7 @@ baby:baby
 bestfriend:bestfriend
 birthday:birthday
 birthplace:birthplace
+boy:boy
 boyfriend:boyfriend
 brother:brother
 cat:cat
@@ -31,6 +32,7 @@ favorite tv show:favoritetvshow
 first name:firstname
 friend:friend
 gender:gender
+girl:girl
 girlfriend:girlfriend
 grandfather:grandfather
 grandmother:grandmother
@@ -42,6 +44,7 @@ latitude:latitude
 likes:likes
 location:location
 longitute:longitute
+man:man
 middlename:middlename
 mother:mother
 nephew:nephew
@@ -57,4 +60,5 @@ status:status
 street:street
 town:town
 wife:wife
+woman:woman
 

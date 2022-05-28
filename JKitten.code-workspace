@@ -2,6 +2,10 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "JKitten @ 87cfefa",
+			"uri": "gitlens://87cfefa/d:/Source/JKitten?{\"path\":\"/d:/Source/JKitten\",\"ref\":\"87cfefa13e9fe7e5cdb12a2ad75499dc5ed18b81\",\"repoPath\":\"d:/Source/JKitten\"}"
 		}
 	],
 	"settings": {

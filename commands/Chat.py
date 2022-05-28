@@ -655,6 +655,7 @@ class ChatCog(Cog):
     
     try:
       with message.channel.typing():
+        from __main__ import pos_tag
         cats: dict = categorize(bot_message.lower())
         # {
         #   "tagged": tagged, "items": items,

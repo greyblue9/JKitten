@@ -1,4 +1,4 @@
-from __main__ import get_chat, pos_tag, replace_mention
+from __main__ import *
 from text_tools import translate_emojis, translate_urls
 from typing import Optional, Union, Any
 import random, requests, asyncio, re, logging, sys, traceback, time, json

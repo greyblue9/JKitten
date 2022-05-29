@@ -4,6 +4,7 @@ import demoji
 import logging
 from __main__ import *
 import re
+import Levenshtein
 
 log = logging.getLogger(__name__)
 
@@ -53,7 +54,10 @@ def translate_urls(text: str) -> str:
   if text != new_text:
     log.debug("translate_urls(text=%r) returns %r", text, new_text)
   return new_text
+
+
 def norm_text(s):
+  log.debug("norm_text: s=%r", s)
   from pathlib import Path
   import json, functools, itertools
 
@@ -71,7 +75,10 @@ def norm_text(s):
     )
   }
   [
-    s := re.compile(rf"\b{re.escape(k)}\b", re.DOTALL | re.IGNORECASE).subn(v, s)[0]
+    s := re.compile(
+      rf"\b{re.escape(k)}\b",
+      re.DOTALL | re.IGNORECASE
+    ).subn(v, s)[0]
     for k, v in mp.items()
   ]
   words = s.split()
@@ -97,4 +104,6 @@ def norm_text(s):
     for idx, w, k, v, d in best
     if words[idx].lower() == w.lower()
   ]
-  return " ".join(words)
+  r = " ".join(words)
+  log.debug("norm_text(s=%r): returning r=%r", s, r)
+  return r

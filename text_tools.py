@@ -53,3 +53,48 @@ def translate_urls(text: str) -> str:
   if text != new_text:
     log.debug("translate_urls(text=%r) returns %r", text, new_text)
   return new_text
+def norm_text(s):
+  from pathlib import Path
+  import json, functools, itertools
+
+  mp = {
+    k.lower(): v
+    for k, v in functools.reduce(
+      list.__add__,
+      [
+        *itertools.chain(
+          list(json.loads(p.read_bytes()).items())
+          for p in Path.cwd().glob("**/contractions.json")
+        )
+      ],
+      [],
+    )
+  }
+  [
+    s := re.compile(rf"\b{re.escape(k)}\b", re.DOTALL | re.IGNORECASE).subn(v, s)[0]
+    for k, v in mp.items()
+  ]
+  words = s.split()
+  best = sorted(
+    [
+      (idx, w, k, v, d)
+      for idx, w, k, v, d in [
+        (idx, word, k, v, Levenshtein.distance(word, k.lower()))
+        for idx, word in enumerate(map(str.lower, words))
+        for k, v in mp.items()
+      ]
+      if d < 2
+      and w not in mp.values()
+      and w.lower() not in mp.values()
+      and w.lower().capitalize() not in mp.values()
+      and w.lower() != k.lower()
+      and not set(w.lower().split()).intersection(v.lower().split())
+    ],
+    key=lambda i: i[-1],
+  )
+  [
+    words.__setitem__(idx, v)
+    for idx, w, k, v, d in best
+    if words[idx].lower() == w.lower()
+  ]
+  return " ".join(words)

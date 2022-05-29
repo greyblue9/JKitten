@@ -12,3 +12,4 @@ nltk
 bs4
 safeeval
 lxml
+python-Levenshtein

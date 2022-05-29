@@ -95,15 +95,18 @@ def norm_text(s):
       and w.lower() not in mp.values()
       and w.lower().capitalize() not in mp.values()
       and w.lower() != k.lower()
-      and not set(w.lower().split()).intersection(v.lower().split())
+      and len(w) == len(k)+1
     ],
     key=lambda i: i[-1],
   )
   [
     words.__setitem__(idx, v)
-    for idx, w, k, v, d in best
+    for idx, w, k, v, d in best[0:0]
     if words[idx].lower() == w.lower()
+    and words[idx][0:2].lower() == w[0:2].lower()
   ]
   r = " ".join(words)
+  r = re.compile(rf"(i am|my name's|my name is|i'm|call me|i'm called|i am called|calls me|(?: am| me| name[s i']*|call[a-z*])) ([A-Z][a-zA-Z*])(?=$|[^a-zA-Z])", re.DOTALL).sub("\\1 Alice", r)
+  
   log.debug("norm_text(s=%r): returning r=%r", s, r)
   return r

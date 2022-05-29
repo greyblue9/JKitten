@@ -13,3 +13,5 @@ bs4
 safeeval
 lxml
 python-Levenshtein
+nest-asyncio
+

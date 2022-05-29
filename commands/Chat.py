@@ -7,6 +7,7 @@ from tagger import *
 from text_tools import norm_text
 import nltk
 import aiohttp
+
 from safeeval import SafeEval
 
 CHANNEL_NAME_WHITELIST = {
@@ -234,6 +235,12 @@ async def gpt_response(bot_message, uid=None):
   log.debug("gpt_response(%r, %r)", bot_message, uid)
   last_input = inputs.setdefault(uid, [""])[-1]
   last_response = responses.setdefault(uid, [""])[-1]
+  if (m := re.compile(r"(my name[si']+|i[a'm]+|i'm called|call me|name's) +(?P<name>[A-Za-z][a-zA-Z0-9_]*)(?=$|[^a-zA-Z0-9_])", re.DOTALL|re.IGNORECASE).search(bot_message)):
+    name = m["name"].capitalize()
+    name_lookup[str(uid)] = name
+    inputs[uid].append(bot_message)
+    
+  
   response = await get_response(bot_message, uid)
   if not response:
     return ""
@@ -246,22 +253,23 @@ async def gpt_response(bot_message, uid=None):
         response,
       )
       return ""
-  if "" in set(
-    filter(
-      None,
-      (
-        re.subn("[^a-z]+", "", s.lower(), re.IGNORECASE)[0]
-        for s in (last_input or "", last_response or "", bot_message or "")
-      ),
-    )
-  ):
-    log.debug(
-      "gpt_response(%r, %r) discarding response %r because it repeats a previous entry",
-      bot_message,
-      uid,
-      response,
-    )
-    return ""
+  
+  from __main__ import get_chat_session
+  chat_session = await get_chat_session(str(uid))
+  try:
+    preds = {e.getKey(): e.getValue() for e in chat_session.predicates.entrySet()}
+
+    chat_session.predicates[
+  "name"] = (name := name_lookup.get(uid) or chat_session.predicates.get("name")) or "unknown";
+    if name and name != "unknown":
+      name_lookup[str(uid)] = name
+  except Exception as e:
+    log.error("error in gpt_response: %s", e)
+  
+  
+  if str(uid) in name_lookup:
+    response = re.compile(rf"((?:you are|your name's|you?r? name is|you?'?r?e?|call you?|you're called|you are called|calls you|(?:are you|i?s you?r? name[s i']*|call[a-z*] you))[.: ]+)([A-Z][a-z]+|Alice|Unknown|unknown|I| ?)(?=$|[^a-zA-Z])", re.DOTALL).sub(f"\\1{name_lookup[str(uid)]}", response)
+  
   log.info("query GPT for %r returns %r", bot_message, response)
   return response
 
@@ -464,53 +472,49 @@ def norm_sent(k, s):
   return norm
 
 async def alice_response(bot_message, uid):
-  if hasattr(__import__("__main__"), "Chat"):
-    sessions = list(
-      __import__("__main__")
-        .Chat.sessions.keys()
-    )
-  else:
-    sessions = [str(uid)]
-  mbs = { str(m.id): m
-      for g in __import__("__main__").bot.guilds 
-      for m in g.members}
   
-  log.debug("alice_response(%r, %r)", bot_message, uid)
-  last_input = inputs.setdefault(uid, [""])[-1]
-  last_response = responses.setdefault(uid, [""])[-1]
-  if "what is your name" in last_response.lower():
-    name = bot_message.strip(".? !").split()[-1]
-    name_lookup[uid] = name
-    return random.choice(
-      [
-        f"It's great to meet you, {name}.",
-        f"Well! How do you do, {name}?",
-        f"Gosh, I've been waiting so long and now I'm finally speaking with *the* {name}!",
-      ]
-    )
   import gc
   import asyncio.unix_events
 
   loop = [
     o
     for o in gc.get_objects()
-    if isinstance(o, asyncio.unix_events._UnixSelectorEventLoop) and o.is_running
+    if isinstance(
+      o, asyncio.unix_events._UnixSelectorEventLoop
+    ) and o.is_running
   ][0]
-  chat = await get_chat(uid)
-  if hasattr(chat, "predicates"):
-    if not "name" in list(chat.predicates) or str(chat.predicates.get("name")) == "unknown":
-      chat.predicates.put("name", str(mbs.get(str(uid))).split("#")[0])
+  
+  chat = await get_chat(str(uid))
+  
+  log.debug("alice_response(%r, %r)", bot_message, uid)
+  last_input = inputs.setdefault(uid, [""])[-1]
+  last_response = responses.setdefault(uid, [""])[-1]
+
+  from __main__ import get_chat_session
+  chat_session = await get_chat_session(str(uid))
+  preds = {e.getKey(): e.getValue() for e in chat_session.predicates.entrySet()}
+  chat_session.predicates[
+  "name"] = (name := name_lookup.get(uid) or chat_session.predicates.get("name")) or "unknown";
+  if name and name != "unknown":
+    name_lookup[str(uid)] = name
+  if (m := re.compile(r"(my name[si']+|i[a'm]+|i'm called|call me|name's) +(?P<name>[A-Za-z][a-zA-Z0-9_]*)(?=$|[^a-zA-Z0-9_])", re.DOTALL|re.IGNORECASE).search(bot_message)):
+    name = m["name"].capitalize()
+    name_lookup[str(uid)] = name
   cats = await loop.run_in_executor(None, categorize, bot_message.lower())
   topic = "*"
   if cats["entities"]:
     log.debug("alice_response(%r, %r) setting topic to %r", bot_message, uid, topic)
     topic = cats["entities"][0]
-    if hasattr(chat, "predicates"):
-      chat.predicates.put("topic", topic)
+    if hasattr(chat_session, "predicates"):
+      chat_session.predicates.put("topic", topic)
   log.debug("alice_response(%r, %r): query %r", bot_message, uid, bot_message)
   response = await loop.run_in_executor(None, chat.multisentenceRespond, bot_message)
   log.debug("alice_response(%r, %r): result: %r", bot_message, uid, response)
-
+  if str(uid) in name_lookup:
+    response = re.compile(rf"((?:you are|your name's|you?r? name is|you?'?r?e?|call you?|you're called|you are called|calls you|(?:are you|i?s you?r? name[s i']*|call[a-z*] you))[.: ]+)([A-Z][a-z]+|Alice|Unknown|unknown|I| ?)(?=$|[^a-zA-Z])", re.DOTALL).sub(f"\\1{name_lookup[str(uid)]}", response)
+  
+  
+  
   for b in BLACKLIST:
     if b.lower() in response.lower() or response.lower() in b:
       log.debug(
@@ -522,7 +526,7 @@ async def alice_response(bot_message, uid):
       return ""
 
 
-  if "your name is dekriel" in response.lower():
+  if "your name is unknown" in response.lower():
     name = name_lookup.get(uid)
     if name:
       response = f"Your name is {name}."
@@ -630,6 +634,7 @@ class ChatCog(Cog):
 
     def respond(new_response):
       nonlocal response
+      new_response = new_response.strip().removesuffix(", seeker").removesuffix(", seeker.")
       response = new_response
       log.info("Responding to %r with %r", bot_message, response)
       inputs.setdefault(uid, []).append(bot_message)

@@ -17,6 +17,7 @@ from disnake.ext.commands import (
   DefaultHelpCommand,
   GroupMixin,
   GuildContext,
+
   HelpCommand,
   InteractionBot,
   InvokableSlashCommand,
@@ -119,6 +120,7 @@ name_lookup = {
   "955035045716979763": "Alice",
   "889338065020129310": "Mikko",
   '923229808803065907': 'Bob',
+  '923229808803065907': 'Joel,'
 }
 DEFAULT_UID = "0"
 USE_JAVA = True
@@ -170,6 +172,16 @@ async def get_chat(uid):
   if "PChat" in globals():
     return PChat(uid)
   return AChat(uid)
+
+async def get_chat_session(uid):
+  import __main__
+  uid = uid or next(iter(__main__.name_lookup.keys()))
+  xchat = __main__.get_chat(uid)
+  xchat = await xchat if inspect.isawaitable(xchat) else xchat
+  __main__.alice_bot = __main__.alice_bot if __main__.alice_bot is not None else __import__("jnius").autoclass("org.alicebot.ab.Bot")("alice", __main__.orig_cwd.as_posix()); xchat.chat = xchat.chat if hasattr(xchat,"chat") and xchat.chat is not None else __import__("jnius").autoclass("Main").getOrCreateChat(__main__.alice_bot, True, uid)
+  return xchat.chat
+
+
 
 
 inputs = {}

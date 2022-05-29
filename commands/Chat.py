@@ -4,6 +4,7 @@ from disnake.ext.commands import Cog
 from disnake.ext.commands import Command
 from pprint import pprint
 from tagger import *
+from text_tools import norm_text
 import nltk
 import aiohttp
 from safeeval import SafeEval
@@ -591,6 +592,17 @@ class ChatCog(Cog):
     content = message.content or message.system_content or "\n".join(filter(None, ((e.title + "\n" + e.description).strip() for e in message.embeds)))
     if not content or not content.strip():
       return
+    last = ""
+    while last != content:
+      last = content
+      content = re.compile(
+        rf"[^a-z>]\balice\b[^a-z<]*",
+        re.DOTALL|re.IGNORECASE
+      ).subn("", content.strip())[0].strip()
+      if not content:
+        content = last
+        break
+    content = norm_text(content)
     bot_message = " ".join(
       (replace_mention(word, name_lookup) for word in content.split())
     )

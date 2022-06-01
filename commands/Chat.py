@@ -139,13 +139,13 @@ async def wolfram_alpha(inpt, uid=None):
 
 
 last_model = None
-async def get_response(message, uid, model=None):
+async def get_response(bot_message, uid, model=None, message=None):
   
   model = None
   print("*** in ", message, uid, model, responses.setdefault(uid,[""]))
   global last_model
   response = None
-  inpt = bot_message = message
+  inpt = bot_message
   data = {}
   for attempt in range(4):
     if response:

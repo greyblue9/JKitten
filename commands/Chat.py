@@ -4,11 +4,35 @@ from disnake.ext.commands import Cog
 from disnake.ext.commands import Command
 from pprint import pprint
 from tagger import *
-from text_tools import norm_text
+from text_tools import norm_text, translate_emojis, translate_urls
 import nltk
-import aiohttp
-
+import aiohttp.client_exceptions
+import urllib.parse, urllib.request
+import os
+from bs4 import BeautifulSoup as BS
 from safeeval import SafeEval
+from __main__ import responses, inputs, name_lookup, get_chat, replace_mention
+from disnake import Embed, Color
+import random, asyncio, re, traceback
+
+class ClientSession(aiohttp.ClientSession):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def _request(self, method, url, *args, **kwargs):
+        scheme, netloc, path, params, query, fragment = urllib.parse.urlparse(url)
+        url = urllib.parse.urlunparse((scheme, netloc, path, params, query, fragment))
+        try:
+            return super()._request(method, url, *args, **kwargs)
+        except aiohttp.client_exceptions.ServerDisconnectedError:
+            print("Self-kill due to server disconnect")
+            from __main__ import bot
+            for ch in [c for g in bot.guilds for c in g.channels if "ai-chat-bot" in c.name]:
+                from __main__ import loop
+                loop.run_until_complete(
+                    ch.send("Please wait a minute while Alice restarts...", delete_after=20)
+                )
+            os.system("kill 1")
 
 CHANNEL_NAME_WHITELIST = {
   "open-chat",
@@ -284,7 +308,7 @@ async def google(bot_message, uid=None):
   if cats["entities"]:
     topic = cats["entities"][0]
   Sraix = Class.forName("org.alicebot.ab.Sraix")
-  response = Sraix.sraixPannous(bot_message, topic, chat.chat if hasattr(chat, "chat") else cchat)
+  response = Sraix.sraixPannous(bot_message, topic, chat.chat if hasattr(chat, "chat") else chat)
   if "SRAIXFAILED" in response:
     log.debug("google(%r, %r) failed with %r", bot_message, uid, response)
     return ""

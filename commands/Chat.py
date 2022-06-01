@@ -34,6 +34,30 @@ class ClientSession(aiohttp.ClientSession):
                 )
             os.system("kill 1")
 
+def clean_response(s, bot_message=None):
+  if bot_message and re.subn("[^a-z]+", "", response.lower()) == re.subn("[^a-z]+", "", bot_message.lower()):
+    return ""
+  return ".  ".join({
+    (s.strip()[0].upper() + s.strip()[1:]):None 
+    for s in re.split(
+      "(?<=[.!?])[\t\n ]*(?=[a-zA-Z][^.,;?]{3,})",
+      re.subn(
+        "([.,!;?]) *([A-Z][a-z]{2}) [1-3][0-9]?, [12][0-9]{3}[^A-Za-z]*",
+        "\\1 \x0a",
+        re.subn(
+          "(^|[.,;?!]) *i('[a-z]+|) ",
+          "\\1 I\\2 ",
+          re.subn(
+            "(?<=[a-zA-Z])(([!,?;])[.]|([.])) *($|[A-Za-z](?=[^.!?]{4,}))",
+            "\\2\\3 \\4",
+            s
+          )[0]
+        )[0]
+      )[0]
+    )  
+  }.keys())
+
+
 CHANNEL_NAME_WHITELIST = {
   "open-chat",
   "global-chat",
@@ -663,6 +687,10 @@ class ChatCog(Cog):
 
     def respond(new_response):
       nonlocal response
+      if new_response := clean_response(new_response, bot_message):
+        response = new_response
+      else:
+        return asyncio.sleep(0)
       new_response = new_response.strip().removesuffix(", seeker").removesuffix(", seeker.")
       response = new_response
       log.info("Responding to %r with %r", bot_message, response)

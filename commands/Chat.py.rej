@@ -1,0 +1,74 @@
+--- commands/Chat.py
++++ commands/Chat.py
+@@ -68,36 +68,11 @@
+   "when.",
+   "who.",
+ }
+ 
+-import pprint
+-from pathlib import Path
+-import sys
+-
+ last_input = last_response = ""
+ 
+ 
+-def get_chat(uid=DEFAULT_UID):
+-  return PyAimlChat(uid)
+-import __main__
+-__main__.get_chat = get_chat
+-
+-
+-class PyAimlChat:
+-  def __init__(self, uid=DEFAULT_UID):
+-    self.uid = uid
+-  def multisentenceRespond(self, query):
+-    resp = alice_response_inner(query, self.uid)
+-    if any(
+-      w.lower() in resp.lower() or resp.lower() in w.lower()
+-      for w in BLACKLIST
+-    ):
+-      log.info("Not using due to blacklist: %s", resp)
+-      resp = ""
+-
+-    return resp.replace('is I.', 'is Alice').replace('I is', 'Alice is').replace('led I.', 'led Alice.')
+-
+-
+ def alice_response_inner(q, uid=DEFAULT_UID):
+   from __main__ import get_kernel
+   k = get_kernel()
+   log.info("alice_response_inner: q=%s", q)
+@@ -200,15 +175,13 @@
+   return response
+ 
+ 
+ last_model = None
+-async def get_response(message, uid, model=None):
+-
+-  model = None
++async def get_response(bot_message, uid, model=None, message=None):
+   print("*** in ", message, uid, model, responses.setdefault(uid,[""]))
+   global last_model
+   response = None
+-  inpt = bot_message = message
++  inpt = bot_message
+   data = {}
+   for attempt in range(4):
+     if response:
+       return response
+@@ -319,14 +297,14 @@
+   if model: last_model = model
+   return response
+ 
+ 
+-async def gpt_response(bot_message, uid=None):
++async def gpt_response(bot_message, uid=None, message=message):
+   if uid is None:
+     from __main__ import DEFAULT_UID as uid
+   log.debug("gpt_response(%r, %r)", bot_message, uid)
+ 
+-  response = await get_response(bot_message, uid)
++  response = await get_response(bot_message, uid=uid, message=message)
+   if not response:
+     return ""
+   for b in BLACKLIST:
+     if b.lower() in response.lower() or response.lower() in b:

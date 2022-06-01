@@ -16,7 +16,7 @@ import xml.sax
 from collections import namedtuple
 
 try:
-  from ConfigParser import ConfigParser
+  from ConfigParser import ConfigParser #type: ignore
 except ImportError:
   from configparser import ConfigParser
 
@@ -301,7 +301,7 @@ class Kernel:
     substituter.
 
     """
-    inFile = file(filename)
+    inFile = Path(filename)
     parser = ConfigParser()
     parser.readfp(inFile, filename)
     inFile.close()
@@ -413,7 +413,7 @@ class Kernel:
 
     # prevent other threads from stomping all over us.
     self._respondLock.acquire()
-
+    finalResponse = "???"
     try:
       # Add the session, if it doesn't already exist
       self._addSession(sessionID)
@@ -454,7 +454,7 @@ class Kernel:
       # release the lock
       self._respondLock.release()
       if hasattr(self, "onResponse"):
-        self.onResponse(s, sessionID, response)
+        self.onResponse(input_, sessionID, finalResponse)
 
   # This version of _respond() just fetches the response for some input.
   # It does not mess with the input and output histories.  Recursive calls
@@ -1114,7 +1114,7 @@ class Kernel:
     # space.  To improve performance, we do this only once for each
     # text element encountered, and save the results for the future.
     if elem[1]["xml:space"] == "default":
-      elem[2] = re.sub("\s+", " ", elem[2])
+      elem[2] = re.sub(r"\s+", " ", elem[2])
       elem[1]["xml:space"] = "preserve"
     return elem[2]
 

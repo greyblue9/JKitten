@@ -12,8 +12,8 @@ import xml.sax
 import xml.sax.handler
 from functools import lru_cache
 
-from .constants import *
-
+from aiml.constants import *
+unicode = str
 
 class AimlParserError(Exception):
   pass

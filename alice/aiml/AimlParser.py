@@ -463,6 +463,7 @@ class AimlHandler(ContentHandler):
     """
     name = name.lower()
     matched_stack = self._stack[-1].lower() == name.lower()
+    pos = 0
     if matched_stack:
       pos = len(self._stack) - 1
     else:

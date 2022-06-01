@@ -18,7 +18,10 @@ from pathlib import Path
 
 load_dotenv()
 mods = importAll(get_package_modules("nextcord"))
-import hack_nextcord
+try:
+  import hack_nextcord #type: ignore
+except ImportError:
+  pass
 from nextcord.gateway import DiscordWebSocket
 import nextcord.gateway
 from nextcord import utils
@@ -92,7 +95,7 @@ new_bots = []
 def update_users():
   prev_users = dict(users)
   prev_bots = dict(bots)
-  messages.update({m.id: m for g in bot.guilds for m in g._state._messages})
+  messages.update({m.id: m for g in bot.guilds for m in (g._state._messages or [])})
   users.update(
     {
       m.author.id: m.author

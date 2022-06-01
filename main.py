@@ -158,7 +158,7 @@ else:
       global k
       if k is None:
         sys.path.insert(0, (orig_cwd / "alice").as_posix())
-        import aiml.Kernel
+        import aiml.Kernel # type: ignore
         k = alice_bot = aiml.Kernel.Kernel()
         print(k)
         if (orig_cwd / "brain.dmp").exists():
@@ -282,7 +282,7 @@ def get_kernel():
   global k
   if not k:
     sys.path.insert(0, (Path.cwd() / "alice").as_posix())
-    import aiml.AimlParser, aiml.Kernel
+    import aiml.AimlParser, aiml.Kernel # type: ignore
     try:
       k = aiml.Kernel.Kernel()
     except (TypeError, ImportError):

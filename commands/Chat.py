@@ -35,7 +35,7 @@ class ClientSession(aiohttp.ClientSession):
             os.system("kill 1")
 
 def clean_response(s, bot_message=None):
-  if bot_message and re.subn("[^a-z]+", "", response.lower()) == re.subn("[^a-z]+", "", bot_message.lower()):
+  if bot_message and re.subn("[^a-z]+", "", s.lower()) == re.subn("[^a-z]+", "", bot_message.lower()):
     return ""
   return ".  ".join({
     (s.strip()[0].upper() + s.strip()[1:]):None 
@@ -164,8 +164,6 @@ async def wolfram_alpha(inpt, uid=None):
 
 last_model = None
 async def get_response(bot_message, uid, model=None, message=None):
-  
-  model = None
   print("*** in ", message, uid, model, responses.setdefault(uid,[""]))
   global last_model
   response = None
@@ -282,7 +280,7 @@ async def get_response(bot_message, uid, model=None, message=None):
   return response
 
 
-async def gpt_response(bot_message, uid=None):
+async def gpt_response(bot_message, uid=None, message=None):
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   log.debug("gpt_response(%r, %r)", bot_message, uid)
@@ -294,7 +292,7 @@ async def gpt_response(bot_message, uid=None):
     inputs[uid].append(bot_message)
     
   
-  response = await get_response(bot_message, uid)
+  response = await get_response(bot_message, uid, last_model, message)
   if not response:
     return ""
   for b in BLACKLIST:

@@ -73,3 +73,8 @@ voicemailnumber:1-555-ABC-DEFG
 wife:sweety bot
 bot:yes
 bot_name:Alice
+creator:David Reilly
+botmaster:David Reilly
+grandpa:David Reilly
+grandfather:David Reilly
+godfather:David Reilly

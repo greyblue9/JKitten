@@ -95,3 +95,8 @@ default-property:name
 default-map:triples
 learn-filename:learn.aiml
 customname:Alice
+creator:David Reilly
+botmaster:David Reilly
+grandpa:David Reilly
+grandfather:David Reilly
+godfather:David Reilly

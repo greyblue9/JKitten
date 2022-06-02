@@ -37,26 +37,9 @@ class ClientSession(aiohttp.ClientSession):
 def clean_response(s, bot_message=None):
   if bot_message and re.subn("[^a-z]+", "", s.lower()) == re.subn("[^a-z]+", "", bot_message.lower()):
     return ""
-  return ".  ".join({
-    (s.strip()[0].upper() + s.strip()[1:]):None 
-    for s in re.split(
-      "(?<=[.!?])\\.?[\t\n ]*(?=[a-zA-Z][^.,;?]{3,})",
-      re.subn(
-        "([.,!;?])\\.* *([A-Z][a-z]{2}) [1-3][0-9]?, [12][0-9]{3}[^A-Za-z]*",
-        "\\1 \x0a",
-        re.subn(
-          "(^|[.,;?!])\\.* *i('[a-z]+|) ",
-          "\\1 I\\2 ",
-          re.subn(
-            "(?<=[a-zA-Z])(([!,?;])[.]*|\\.?([.])) *($|[A-Za-z](?=[^.!?]{4,}))",
-            "\\2\\3 \\4",
-            s
-          )[0]
-        )[0]
-      )[0]
-    )  
-  }.keys())
-
+  s = next(iter(sorted(s.split(" \xb7 "), key=len, reverse=True)))
+  s2 = re.subn("([.,!;?]) *([A-Z][a-z]{2}) [1-3][0-9]?, [12][0-9]{3}[^A-Za-z]*", "\\1 \n", re.subn("(^|[.,;?!]) *i('[a-z]+|) ", "\\1 I\\2 ", re.subn("(?<=[a-zA-Z])(([!,?;])[.]|([.])) *($|[A-Za-z])", "\\2\\3 \\4", s.replace("&nbsp;", " "))[0])[0])[0]
+  return "  ".join({(s.strip()[0].upper() + s.strip()[1:]) :None for s in re.split("(?<=[.!?])[\t\n ]*(?=[a-zA-Z][^.,;?]{3,})", re.subn("([.,!;?]) *([A-Z][a-z]{2}) [1-3][0-9]?, [12][0-9]{3}[^A-Za-z]*", "\\1 \n", re.subn("(^|[.,;?!]) *i('[a-z]+|) ", "\\1 I\\2 ", re.subn("(?<=[a-zA-Z])(([!,?;])[.]|([.])) *($|[A-Za-z](?=[^.!?]{4,}))", "\\2\\3 \\4", s2)[0])[0])[0])}.keys())
 
 CHANNEL_NAME_WHITELIST = {
   "open-chat",

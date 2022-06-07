@@ -792,6 +792,7 @@ class ChatCog(Cog):
         print(f"{has_proper_noun=}")
         print(f"{has_poss_pronoun=}")
         if (
+          "your" not in bot_message and
           cats["tagged"]
           and cats["tagged"][0]
           and cats["tagged"][0][0] in ("what", "who", "when", "where")
@@ -802,7 +803,7 @@ class ChatCog(Cog):
           and not cats["person"]
         ):
           print("Google")
-          if new_response := await alice_response(bot_message, uid):
+          if new_response := await google2(bot_message, uid):
             return await respond(new_response)
 
         if bot_message.lower().startswith("my name is "):
@@ -836,7 +837,7 @@ class ChatCog(Cog):
           and cats["question"] == True
           and (has_poss_pronoun or "PRP$" in dict(cats["tagged"]).values())
         ):
-          if new_response := await alice_response(bot_message, uid):
+          if new_response := await gpt_response(bot_message, uid, model=get_last_model(uid), message=message):
             return await respond(new_response)
 
         if (

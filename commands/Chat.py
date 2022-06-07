@@ -70,6 +70,9 @@ BLACKLIST = {
   "a reference to the",
   "I'm not sure what you're trying to say",
   "joking or not",
+  "I have no idea what that means.",
+  "I know, right",
+  "don't know what",
   "SRAIXFAILED",
   "the last of us",
   "a guy making a video ",
@@ -243,15 +246,17 @@ async def get_response(bot_message, uid, *, model=None, message=None):
         response = reply
         if not response:
           model = None
+          set_last_model(uid, None)
           continue
         for b in BLACKLIST:
-          if b and b.lower() in response.lower() or response.lower() in b:
+          if b and (b.lower() in response.lower() or response.lower() in b):
             log.debug(
               "get_response(%r, %r) discarding response %r due to blacklist",
               inpt,
               uid,
               response,
             )
+            set_last_model(uid, None)
             response = ""
             model = None
             break
@@ -264,8 +269,19 @@ async def get_response(bot_message, uid, *, model=None, message=None):
         ):
           log.info("Not using due to blacklist: %s", response)
           response = ""
+          set_last_model(uid, None)
           continue
         break
+  for b in BLACKLIST:
+    if b and (b.lower() in response.lower() or response.lower() in b):
+      log.debug(
+        "gpt_response(%r, %r) discarding response %r due to blacklist",
+        bot_message,
+        uid,
+        response,
+      )
+      return ""
+      set_last_model(uid, None)
   log.info("get_response(%s) returning %s", bot_message, response)
   if model and response:
     set_last_model(uid, model)
@@ -288,7 +304,7 @@ async def gpt_response(bot_message, uid=None, *, model=None, message=None):
   if not response:
     return ""
   for b in BLACKLIST:
-    if b and b.lower() in response.lower() or response.lower() in b:
+    if b and (b.lower() in response.lower() or response.lower() in b):
       log.debug(
         "gpt_response(%r, %r) discarding response %r due to blacklist",
         bot_message,
@@ -453,22 +469,11 @@ async def google2(bot_message, uid=0, req_url=None):
       "div:first-child:last-child > div > div > div > div > div:first-child:last-child"
     )
   ]
-  descrips = [strip_xtra(d) for d in descrips]
   for idx, d in reversed(list(enumerate(descrips))):
-    if not d.strip():
-      descrips.pop(idx)
-      continue
-    d = d.split("..")[0]
-    descrips[idx] = d
-    if not d or not d[0].isupper():
-      descrips.pop(idx)
-      continue
     if " is " not in d.strip() and " are " not in d.strip() and " were " not in d.strip() and " was " not in d.strip() and " will " not in d.strip() and " has " not in d.strip() and " have " not in d.strip() and " can " not in d.strip():
       descrips.pop(idx)
-    elif not d.strip().endswith(".") and ". " not in d:
-      descrips.pop(idx)
-  
-  
+
+  descrips = [strip_xtra(d) for d in descrips]
   print("descrips=", descrips)
 
   answers = [
@@ -803,7 +808,6 @@ class ChatCog(Cog):
         print(f"{has_proper_noun=}")
         print(f"{has_poss_pronoun=}")
         if (
-          "your" not in bot_message and
           cats["tagged"]
           and cats["tagged"][0]
           and cats["tagged"][0][0] in ("what", "who", "when", "where")
@@ -814,7 +818,7 @@ class ChatCog(Cog):
           and not cats["person"]
         ):
           print("Google")
-          if new_response := await google2(bot_message, uid):
+          if new_response := await alice_response(bot_message, uid):
             return await respond(new_response)
 
         if bot_message.lower().startswith("my name is "):
@@ -848,7 +852,7 @@ class ChatCog(Cog):
           and cats["question"] == True
           and (has_poss_pronoun or "PRP$" in dict(cats["tagged"]).values())
         ):
-          if new_response := await gpt_response(bot_message, uid, model=get_last_model(uid), message=message):
+          if new_response := await alice_response(bot_message, uid):
             return await respond(new_response)
 
         if (

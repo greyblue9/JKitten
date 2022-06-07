@@ -94,7 +94,7 @@ BLACKLIST = {
 
 
 
-async def wolfram_alpha(inpt, uid=None):
+async def wolfram_alpha(inpt, uid=None, *, message=None):
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   log.info("wolfram_alpha(%r, %r) query", inpt, uid)
@@ -145,22 +145,31 @@ async def wolfram_alpha(inpt, uid=None):
   return ""
 
 
-last_model = None
-async def get_response(bot_message, uid, model=None, message=None):
+
+async def get_response(bot_message, uid, *, model=None, message=None):
   print("*** in ", message, uid, model, responses.setdefault(uid,[""]))
-  global last_model
+  if Path("DialoGPT-medium").exists():
+    log.info("Use local model")
+    from testgpt import (
+      get_response as local_get_response
+    )
+    response = await local_get_response(
+      bot_message, uid, model=model, message=message
+    )
+    if response:
+      log.info("Using local response %r", response)
+      return response
+  
   response = None
   inpt = bot_message
   data = {}
   for attempt in range(4):
     if response:
       return response
-    print("?? in ", last_model)
-    if last_model and (not last_input.lower().startswith("what") or ("they" in last_input.lower() or "them "in last_input.lower() or " it " in last_input.lower() or " he  " in last_input.lower() or " she  "in last_input.lower())):
-        model = last_model
-        log.info("reusing model %s", last_model)
-        print("reuse model", last_model)
-        last_model = None
+    last_inpt = get_last_input(uid)
+    if get_last_model(uid):
+        model = get_last_model(uid)
+        log.info("reusing model %s", model)
     if not model:
       model = random.choices(
         model_names := ( 
@@ -173,7 +182,7 @@ async def get_response(bot_message, uid, model=None, message=None):
           "facebook/blenderbot-3B",
           "facebook/blenderbot_small-90M",
         ),
-        weights := (225, 15,15, 5,6,9,15,17),
+        weights := (325, 15,15, 65,6,9,15,17),
       )[0]
       model_idx = model_names.index(model)
       weight = weights[model_idx]
@@ -234,10 +243,9 @@ async def get_response(bot_message, uid, model=None, message=None):
         response = reply
         if not response:
           model = None
-          last_model = None
           continue
         for b in BLACKLIST:
-          if b.lower() in response.lower() or response.lower() in b:
+          if b and b.lower() in response.lower() or response.lower() in b:
             log.debug(
               "get_response(%r, %r) discarding response %r due to blacklist",
               inpt,
@@ -259,27 +267,28 @@ async def get_response(bot_message, uid, model=None, message=None):
           continue
         break
   log.info("get_response(%s) returning %s", bot_message, response)
-  if model: last_model = model
+  if model and response:
+    set_last_model(uid, model)
+  else:
+    set_last_model(uid, None)
   return response
 
 
-async def gpt_response(bot_message, uid=None, message=None):
+async def gpt_response(bot_message, uid=None, *, model=None, message=None):
   if uid is None:
     from __main__ import DEFAULT_UID as uid
-  log.debug("gpt_response(%r, %r)", bot_message, uid)
-  last_input = inputs.setdefault(uid, [""])[-1]
-  last_response = responses.setdefault(uid, [""])[-1]
+  log.debug("gpt_response(%r, %r, model=%r)", bot_message, uid, model)
   if (m := re.compile(r"(my name[si']+|i[a'm]+|i'm called|call me|name's) +(?P<name>[A-Za-z][a-zA-Z0-9_]*)(?=$|[^a-zA-Z0-9_])", re.DOTALL|re.IGNORECASE).search(bot_message)):
     name = m["name"].capitalize()
     name_lookup[str(uid)] = name
     inputs[uid].append(bot_message)
     
   
-  response = await get_response(bot_message, uid, last_model, message)
+  response = await get_response(bot_message, uid, model=get_last_model(uid), message=message)
   if not response:
     return ""
   for b in BLACKLIST:
-    if b.lower() in response.lower() or response.lower() in b:
+    if b and b.lower() in response.lower() or response.lower() in b:
       log.debug(
         "gpt_response(%r, %r) discarding response %r due to blacklist",
         bot_message,
@@ -382,7 +391,7 @@ def find(coll, r):
   )
 
 
-def google2(bot_message, uid=0, req_url=None):
+async def google2(bot_message, uid=0, req_url=None):
   try:
     ans_marker = " ".join(
       find(
@@ -473,7 +482,7 @@ def google2(bot_message, uid=0, req_url=None):
     (answer[0].upper() + answer[1:]).strip(" \n\t.")+"."
     if answer
     else (descrips[0][0].upper() + descrips[0][1:]).strip(" \n\t.")+"." if descrips
-    else google2(bot_message, uid, next_url)
+    else await google2(bot_message, uid, next_url)
     if req_url is None and next_url
     else ""
   )
@@ -521,8 +530,6 @@ async def alice_response(bot_message, uid):
   chat = await get_chat(str(uid))
   
   log.debug("alice_response(%r, %r)", bot_message, uid)
-  last_input = inputs.setdefault(uid, [""])[-1]
-  last_response = responses.setdefault(uid, [""])[-1]
 
   from __main__ import get_chat_session
   chat_session = await get_chat_session(str(uid))
@@ -580,7 +587,42 @@ async def alice_response(bot_message, uid):
   return response
 
 
-last_input = last_response = ""
+def get_last_input(uid=None, default="xyzzy"):
+  if uid is None:
+    from __main__ import DEFAULT_UID as uid
+  if uid not in inputs:
+    inputs[uid] = []
+  if inputs[uid]:
+    return inputs[uid][-1]
+  return default
+    
+def get_last_response(uid=None, default="xyzzy"):
+  if uid is None:
+    from __main__ import DEFAULT_UID as uid
+  if uid not in responses:
+    responses[uid] = []
+  if responses[uid]:
+    return responses[uid][-1]
+  return default
+
+models = {}
+
+def get_last_model(uid=None, default=None):
+  if uid is None:
+    from __main__ import DEFAULT_UID as uid
+  if uid not in models:
+    models[uid] = []
+  if models[uid]:
+    return models[uid][-1]
+  return default
+
+def set_last_model(uid=None, model=None):
+  if uid is None:
+    from __main__ import DEFAULT_UID as uid
+  if uid not in models:
+    models[uid] = []
+  models[uid].append(model)
+
 
 class ChatCog(Cog):
   bot: CommonBotBase
@@ -592,23 +634,44 @@ class ChatCog(Cog):
 
   @Command
   async def wa(self, ctx, *, message):
-    response = await wolfram_alpha(message)
+    uid = str(ctx.message.author.id)
+    response = await wolfram_alpha(message, str(ctx.message.author.id), message=message)
     return await ctx.send(response)
 
   @Command
   async def google(self, ctx, *, message):
-    response = await google(message)
+    uid = str(ctx.message.author.id)
+    response = await google(message, str(ctx.message.author.id), message=message)
     return await ctx.send(response)
+    
+  @Command
+  async def google2(self, ctx, *, message):
+    uid = str(ctx.message.author.id)
+    response = await google2(message, str(ctx.message.author.id), message=message)
+    return await ctx.send(response)
+
 
   @Command
   async def alice(self, ctx, *, message):
-    response = await alice_response(message, str(ctx.message.author.id))
+    uid = str(ctx.message.author.id)
+    response = await alice_response(message, str(ctx.message.author.id), model=get_last_model(uid), message=ctx.message)
+    return await ctx.send(response)
+
+  @Command
+  async def gpt(self, ctx, *, message):
+    uid = str(ctx.message.author.id)
+    response = await gpt_response(message, str(ctx.message.author.id), model=get_last_model(uid), message=ctx.message)
+    return await ctx.send(response)
+
+  @Command
+  async def gpt(self, ctx, *, message):
+    uid = str(ctx.message.author.id)
+    response = await get_response(message, str(ctx.message.author.id), message=ctx.message)
     return await ctx.send(response)
 
   @event
   async def on_message(self, message):
-    global last_response
-    global last_input
+
     response = ""
     channel_id = message.channel.id
     channel = message.channel
@@ -678,12 +741,8 @@ class ChatCog(Cog):
       log.info("Responding to %r with %r", bot_message, new_response)
       inputs.setdefault(uid, []).append(bot_message)
       responses.setdefault(uid, []).append(new_response)
-      global last_response
-      global last_input
       if message.author.bot:
         response = f"<@{message.author.id}> {response}"
-      last_input = bot_message
-      last_response = response
       return message.reply(response)
     if message.author.id == self.bot.user.id:
       return
@@ -694,8 +753,8 @@ class ChatCog(Cog):
         if not hasattr(__main__, "Chat"):
           from __main__ import get_kernel
           bot_message = norm_sent(get_kernel(), bot_message)
-        if (last_response.strip().endswith("?") and last_model):
-          if new_response := await gpt_response(bot_message, uid, message):
+        if (get_last_response(uid).strip().endswith("?") and get_last_model(uid)):
+          if new_response := await gpt_response(bot_message, uid, model=get_last_model(uid), message=message):
             return await respond(new_response)
             
         if any(bot_message.lower().strip().startswith(w) for w in (
@@ -807,7 +866,7 @@ class ChatCog(Cog):
           if pos in ("DT", "JJR", "PRP", "PRP$")
         )
         if exclaim_score >= 4:
-          if new_response := await gpt_response(bot_message, uid, message):
+          if new_response := await gpt_response(bot_message, uid, model=get_last_model(uid), message=message):
             return await respond(new_response)
 
         if m := re.compile(
@@ -826,7 +885,7 @@ class ChatCog(Cog):
           if not cats["question"] or (
             not cats["person"] and not cats["entities"]
           ):
-            if new_response := await gpt_response(bot_message, uid, message):
+            if new_response := await gpt_response(bot_message, uid, model=get_last_model(uid), message=message):
               response = new_response
 
           elif new_response := await wolfram_alpha(bot_message, uid):

@@ -11,7 +11,7 @@ import urllib.parse, urllib.request
 import os
 from bs4 import BeautifulSoup as BS
 from safeeval import SafeEval
-from __main__ import responses, inputs, name_lookup, get_chat, replace_mention
+from __main__ import responses, inputs, name_lookup, get_chat, replace_mention, setup
 from disnake import Embed, Color
 import random, asyncio, re, traceback
 
@@ -757,12 +757,6 @@ class ChatCog(Cog):
           if new_response := await gpt_response(bot_message, uid, model=get_last_model(uid), message=message):
             return await respond(new_response)
             
-        if any(bot_message.lower().strip().startswith(w) for w in (
-          "who is your",
-          "what is your",
-        )):
-          if new_response := await alice_response(bot_message, uid):
-            return await respond(new_response)
         log.info("norm_sent -> %s", bot_message)
         from tagger import categorize
         log.info("bot_message=%r", bot_message)

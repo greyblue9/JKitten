@@ -4,24 +4,29 @@ from disnake.ext.commands import Cog
 from disnake.ext.commands import Command
 from pprint import pprint
 from tagger import *
-from text_tools import norm_text, translate_emojis, translate_urls
 import nltk
-import aiohttp.client_exceptions
-import urllib.parse, urllib.request
-import os
-from bs4 import BeautifulSoup as BS
+import aiohttp
 from safeeval import SafeEval
-from __main__ import name_lookup, get_chat, replace_mention, setup
-from disnake import Embed, Color
-import random, asyncio, re, traceback
-import shelve
-conv = shelve.open("conversation.shelve")
-if "inputs" not in conv:
-  conv["inputs"] = {}
-if "responses" not in conv:
-  conv["responses"] = {}
-if "blacklist" not in conv:
-  conv["blacklist"] = [
+
+CHANNEL_NAME_WHITELIST = {
+  "open-chat",
+  "global-chat",
+  "🤖︱ai-chat-bot",
+  "general",
+  "alice-bot",
+  "speichren",
+}
+
+
+class Class:
+  @classmethod
+  def forName(cls, name):
+    from jnius import autoclass
+
+    return autoclass(name)
+
+
+BLACKLIST = {
   "JSFAILED",
   "I know, right",
   "serious or not",
@@ -32,9 +37,6 @@ if "blacklist" not in conv:
   "a reference to the",
   "I'm not sure what you're trying to say",
   "joking or not",
-  "I have no idea what that means.",
-  "I know, right",
-  "don't know what",
   "SRAIXFAILED",
   "the last of us",
   "a guy making a video ",
@@ -55,60 +57,11 @@ if "blacklist" not in conv:
   "good song",
   "search the web",
   "<oob>",
-  ]
-inputs = conv["inputs"]
-responses = conv["responses"]
-
-
-class ClientSession(aiohttp.ClientSession):
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-
-    def _request(self, method, url, *args, **kwargs):
-        scheme, netloc, path, params, query, fragment = urllib.parse.urlparse(url)
-        url = urllib.parse.urlunparse((scheme, netloc, path, params, query, fragment))
-        try:
-            return super()._request(method, url, *args, **kwargs)
-        except aiohttp.client_exceptions.ServerDisconnectedError:
-            print("Self-kill due to server disconnect")
-            from __main__ import bot
-            for ch in [c for g in bot.guilds for c in g.channels if "ai-chat-bot" in c.name]:
-                from __main__ import loop
-                loop.run_until_complete(
-                    ch.send("Please wait a minute while Alice restarts...", delete_after=20)
-                )
-            os.system("kill 1")
-
-def clean_response(s, bot_message=None):
-  if bot_message and re.subn("[^a-z]+", "", s.lower()) == re.subn("[^a-z]+", "", bot_message.lower()):
-    return ""
-  s = next(iter(sorted(s.split(" \xb7 "), key=len, reverse=True)))
-  s2 = re.subn("([.,!;?]) *([A-Z][a-z]{2}) [1-3][0-9]?, [12][0-9]{3}[^A-Za-z]*", "\\1 \n", re.subn("(^|[.,;?!]) *i('[a-z]+|) ", "\\1 I\\2 ", re.subn("(?<=[a-zA-Z])(([!,?;])[.]|([.])) *($|[A-Za-z])", "\\2\\3 \\4", s.replace("&nbsp;", " "))[0])[0])[0]
-  return "  ".join({(s.strip()[0].upper() + s.strip()[1:]) :None for s in re.split("(?<=[.!?])[\t\n ]*(?=[a-zA-Z][^.,;?]{3,})", re.subn("([.,!;?]) *([A-Z][a-z]{2}) [1-3][0-9]?, [12][0-9]{3}[^A-Za-z]*", "\\1 \n", re.subn("(^|[.,;?!]) *i('[a-z]+|) ", "\\1 I\\2 ", re.subn("(?<=[a-zA-Z])(([!,?;])[.]|([.])) *($|[A-Za-z](?=[^.!?]{4,}))", "\\2\\3 \\4", s2)[0])[0])[0])}.keys())
-
-CHANNEL_NAME_WHITELIST = {
-  "open-chat",
-  "global-chat",
-  "🤖︱ai-chat-bot",
-  "general",
-  "alice-bot",
-  "speichren",
 }
 
 
-class Class:
-  @classmethod
-  def forName(cls, name):
-    from jnius import autoclass
 
-    return autoclass(name)
-
-
-BLACKLIST = conv["blacklist"]
-print("hello")
-
-
-async def wolfram_alpha(inpt, uid=None, *, message=None):
+async def wolfram_alpha(inpt, uid=None):
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   log.info("wolfram_alpha(%r, %r) query", inpt, uid)
@@ -155,54 +108,47 @@ async def wolfram_alpha(inpt, uid=None, *, message=None):
         log.info("wolfram_alpha(%r, %r) #2 returning %r", inpt, uid, response)
         return response
       log.debug(doc.prettify())
-  log.info("wolfram_alpha(%r, %r) returning empty", inpt, uid, response)
-  return ""
+  log.info("wolfram_alpha(%r, %r) returning %r", inpt, uid, response)
+  return response
 
 
-
-async def get_response(bot_message, uid, *, model=None, message=None):
-  print("*** in ", message, uid, model, responses.setdefault(uid,[""]))
-  if Path("DialoGPT-medium").exists():
-    log.info("Use local model")
-    from testgpt import (
-      get_response as local_get_response
-    )
-    response = await local_get_response(
-      bot_message, uid, model=model, message=message
-    )
-    if response:
-      log.info("Using local response %r", response)
-      return response
+last_model = None
+async def get_response(message, uid, model=None):
   
+  model = None
+  print("*** in ", message, uid, model, responses.setdefault(uid,[""]))
+  global last_model
   response = None
-  inpt = bot_message
+  inpt = bot_message = message
   data = {}
   for attempt in range(4):
     if response:
       return response
-    last_inpt = get_last_input(uid)
-    if get_last_model(uid):
-        model = get_last_model(uid)
-        log.info("reusing model %s", model)
+    print("?? in ", last_model)
+    if last_model and (not last_input.lower().startswith("what") or ("they" in last_input.lower() or "them "in last_input.lower() or " it " in last_input.lower() or " he  " in last_input.lower() or " she  "in last_input.lower())):
+        model = last_model
+        log.info("reusing model %s", last_model)
+        print("reuse model", last_model)
+        last_model = None
     if not model:
       model = random.choices(
         model_names := ( 
           "microsoft/DialoGPT-large",
           "microsoft/DialoGPT-medium",
-          "microsoft/DialoGPT-small",
-          "deepparag/Aeona",
           "facebook/blenderbot-400M-distill",
+          "deepparag/Aeona",
           "facebook/blenderbot-90M",
           "facebook/blenderbot-3B",
           "facebook/blenderbot_small-90M",
+          "microsoft/DialoGPT-small",
         ),
-        weights := (325, 15,15, 65,6,9,15,17),
+        weights := (125, 15,15, 5,6,9,15,17),
       )[0]
       model_idx = model_names.index(model)
       weight = weights[model_idx]
       log.info(
       "\nget_response(%r, %r): selected model\n\n" "    %r   (weight: %s)\n\n",
-      bot_message,
+      message,
       uid,
       model,
       weight,
@@ -213,7 +159,7 @@ async def get_response(bot_message, uid, *, model=None, message=None):
     payload = {
       "generated_responses": [],
       "past_user_inputs": [],
-      "text": bot_message,
+      "text": message,
     }
     context = random.randint(0, 4)
     if context > 3:
@@ -236,13 +182,8 @@ async def get_response(bot_message, uid, *, model=None, message=None):
           pprint(data)
         if not data:
           data = {"error": "No reply", "estimated_time": 5}
-        if data.get("estimated_time"):
-          sleepytime = data.get("estimated_time", 0)
-          if sleepytime:
-            import time
-            ts = int(time.time() + sleepytime)
-            await message.reply(f"Please wait <t:{ts}:R>, I am working on a response ...", delete_after=sleepytime)
-            await asyncio.sleep(sleepytime)
+        if data.get("error"):
+          await asyncio.sleep(data.get("estimated_time", 6))
           async with ClientSession() as session:
             async with session.post(
               API_URL, headers=headers, json=payload
@@ -257,17 +198,16 @@ async def get_response(bot_message, uid, *, model=None, message=None):
         response = reply
         if not response:
           model = None
-          set_last_model(uid, None)
+          last_model = None
           continue
         for b in BLACKLIST:
-          if b and (b.lower() in response.lower() or response.lower() in b):
+          if b.lower() in response.lower() or response.lower() in b:
             log.debug(
               "get_response(%r, %r) discarding response %r due to blacklist",
               inpt,
               uid,
               response,
             )
-            set_last_model(uid, None)
             response = ""
             model = None
             break
@@ -280,42 +220,24 @@ async def get_response(bot_message, uid, *, model=None, message=None):
         ):
           log.info("Not using due to blacklist: %s", response)
           response = ""
-          set_last_model(uid, None)
           continue
         break
-  for b in BLACKLIST:
-    if b and (b.lower() in response.lower() or response.lower() in b):
-      log.debug(
-        "gpt_response(%r, %r) discarding response %r due to blacklist",
-        bot_message,
-        uid,
-        response,
-      )
-      return ""
-      set_last_model(uid, None)
   log.info("get_response(%s) returning %s", bot_message, response)
-  if model and response:
-    set_last_model(uid, model)
-  else:
-    set_last_model(uid, None)
+  if model: last_model = model
   return response
 
 
-async def gpt_response(bot_message, uid=None, *, model=None, message=None):
+async def gpt_response(bot_message, uid=None):
   if uid is None:
     from __main__ import DEFAULT_UID as uid
-  log.debug("gpt_response(%r, %r, model=%r)", bot_message, uid, model)
-  if (m := re.compile(r"(my name[si']+|i[a'm]+|i'm called|call me|name's) +(?P<name>[A-Za-z][a-zA-Z0-9_]*)(?=$|[^a-zA-Z0-9_])", re.DOTALL|re.IGNORECASE).search(bot_message)):
-    name = m["name"].capitalize()
-    name_lookup[str(uid)] = name
-    inputs[uid].append(bot_message)
-    
-  
-  response = await get_response(bot_message, uid, model=get_last_model(uid), message=message)
+  log.debug("gpt_response(%r, %r)", bot_message, uid)
+  last_input = inputs.setdefault(uid, [""])[-1]
+  last_response = responses.setdefault(uid, [""])[-1]
+  response = await get_response(bot_message, uid)
   if not response:
     return ""
   for b in BLACKLIST:
-    if b and (b.lower() in response.lower() or response.lower() in b):
+    if b.lower() in response.lower() or response.lower() in b:
       log.debug(
         "gpt_response(%r, %r) discarding response %r due to blacklist",
         bot_message,
@@ -323,23 +245,22 @@ async def gpt_response(bot_message, uid=None, *, model=None, message=None):
         response,
       )
       return ""
-  
-  from __main__ import get_chat_session
-  chat_session = await get_chat_session(str(uid))
-  try:
-    preds = {e.getKey(): e.getValue() for e in chat_session.predicates.entrySet()}
-
-    chat_session.predicates[
-  "name"] = (name := name_lookup.get(uid) or chat_session.predicates.get("name")) or "unknown";
-    if name and name != "unknown":
-      name_lookup[str(uid)] = name
-  except Exception as e:
-    log.error("error in gpt_response: %s", e)
-  
-  
-  if str(uid) in name_lookup:
-    response = re.compile(rf"((?:you are|your name's|you?r? name is|you?'?r?e?|call you?|you're called|you are called|calls you|(?:are you|i?s you?r? name[s i']*|call[a-z*] you))[.: ]+)([A-Z][a-z]+|Alice|Unknown|unknown|I| ?)(?=$|[^a-zA-Z])", re.DOTALL).sub(f"\\1{name_lookup[str(uid)]}", response)
-  
+  if "" in set(
+    filter(
+      None,
+      (
+        re.subn("[^a-z]+", "", s.lower(), re.IGNORECASE)[0]
+        for s in (last_input or "", last_response or "", bot_message or "")
+      ),
+    )
+  ):
+    log.debug(
+      "gpt_response(%r, %r) discarding response %r because it repeats a previous entry",
+      bot_message,
+      uid,
+      response,
+    )
+    return ""
   log.info("query GPT for %r returns %r", bot_message, response)
   return response
 
@@ -418,7 +339,7 @@ def find(coll, r):
   )
 
 
-async def google2(bot_message, uid=0, req_url=None):
+def google2(bot_message, uid=0, req_url=None):
   try:
     ans_marker = " ".join(
       find(
@@ -509,7 +430,7 @@ async def google2(bot_message, uid=0, req_url=None):
     (answer[0].upper() + answer[1:]).strip(" \n\t.")+"."
     if answer
     else (descrips[0][0].upper() + descrips[0][1:]).strip(" \n\t.")+"." if descrips
-    else await google2(bot_message, uid, next_url)
+    else google2(bot_message, uid, next_url)
     if req_url is None and next_url
     else ""
   )
@@ -542,47 +463,53 @@ def norm_sent(k, s):
   return norm
 
 async def alice_response(bot_message, uid):
+  if hasattr(__import__("__main__"), "Chat"):
+    sessions = list(
+      __import__("__main__")
+        .Chat.sessions.keys()
+    )
+  else:
+    sessions = [str(uid)]
+  mbs = { str(m.id): m
+      for g in __import__("__main__").bot.guilds 
+      for m in g.members}
   
+  log.debug("alice_response(%r, %r)", bot_message, uid)
+  last_input = inputs.setdefault(uid, [""])[-1]
+  last_response = responses.setdefault(uid, [""])[-1]
+  if "what is your name" in last_response.lower():
+    name = bot_message.strip(".? !").split()[-1]
+    name_lookup[uid] = name
+    return random.choice(
+      [
+        f"It's great to meet you, {name}.",
+        f"Well! How do you do, {name}?",
+        f"Gosh, I've been waiting so long and now I'm finally speaking with *the* {name}!",
+      ]
+    )
   import gc
   import asyncio.unix_events
 
   loop = [
     o
     for o in gc.get_objects()
-    if isinstance(
-      o, asyncio.unix_events._UnixSelectorEventLoop
-    ) and o.is_running
+    if isinstance(o, asyncio.unix_events._UnixSelectorEventLoop) and o.is_running
   ][0]
-  
-  chat = await get_chat(str(uid))
-  
-  log.debug("alice_response(%r, %r)", bot_message, uid)
-
-  from __main__ import get_chat_session
-  chat_session = await get_chat_session(str(uid))
-  preds = {e.getKey(): e.getValue() for e in chat_session.predicates.entrySet()}
-  chat_session.predicates[
-  "name"] = (name := name_lookup.get(uid) or chat_session.predicates.get("name")) or "unknown";
-  if name and name != "unknown":
-    name_lookup[str(uid)] = name
-  if (m := re.compile(r"(my name[si']+|i[a'm]+|i'm called|call me|name's) +(?P<name>[A-Za-z][a-zA-Z0-9_]*)(?=$|[^a-zA-Z0-9_])", re.DOTALL|re.IGNORECASE).search(bot_message)):
-    name = m["name"].capitalize()
-    name_lookup[str(uid)] = name
+  chat = await get_chat(uid)
+  if hasattr(chat, "predicates"):
+    if not "name" in list(chat.predicates) or str(chat.predicates.get("name")) == "unknown":
+      chat.predicates.put("name", str(mbs.get(str(uid))).split("#")[0])
   cats = await loop.run_in_executor(None, categorize, bot_message.lower())
   topic = "*"
   if cats["entities"]:
     log.debug("alice_response(%r, %r) setting topic to %r", bot_message, uid, topic)
     topic = cats["entities"][0]
-    if hasattr(chat_session, "predicates"):
-      chat_session.predicates.put("topic", topic)
+    if hasattr(chat, "predicates"):
+      chat.predicates.put("topic", topic)
   log.debug("alice_response(%r, %r): query %r", bot_message, uid, bot_message)
   response = await loop.run_in_executor(None, chat.multisentenceRespond, bot_message)
   log.debug("alice_response(%r, %r): result: %r", bot_message, uid, response)
-  if str(uid) in name_lookup:
-    response = re.compile(rf"((?:you are|your name's|you?r? name is|you?'?r?e?|call you?|you're called|you are called|calls you|(?:are you|i?s you?r? name[s i']*|call[a-z*] you))[.: ]+)([A-Z][a-z]+|Alice|Unknown|unknown|I| ?)(?=$|[^a-zA-Z])", re.DOTALL).sub(f"\\1{name_lookup[str(uid)]}", response)
-  
-  
-  
+
   for b in BLACKLIST:
     if b.lower() in response.lower() or response.lower() in b:
       log.debug(
@@ -594,7 +521,7 @@ async def alice_response(bot_message, uid):
       return ""
 
 
-  if "your name is unknown" in response.lower():
+  if "your name is dekriel" in response.lower():
     name = name_lookup.get(uid)
     if name:
       response = f"Your name is {name}."
@@ -614,42 +541,7 @@ async def alice_response(bot_message, uid):
   return response
 
 
-def get_last_input(uid=None, default="xyzzy"):
-  if uid is None:
-    from __main__ import DEFAULT_UID as uid
-  if uid not in inputs:
-    inputs[uid] = []
-  if inputs[uid]:
-    return inputs[uid][-1]
-  return default
-    
-def get_last_response(uid=None, default="xyzzy"):
-  if uid is None:
-    from __main__ import DEFAULT_UID as uid
-  if uid not in responses:
-    responses[uid] = []
-  if responses[uid]:
-    return responses[uid][-1]
-  return default
-
-models = {}
-
-def get_last_model(uid=None, default=None):
-  if uid is None:
-    from __main__ import DEFAULT_UID as uid
-  if uid not in models:
-    models[uid] = []
-  if models[uid]:
-    return models[uid][-1]
-  return default
-
-def set_last_model(uid=None, model=None):
-  if uid is None:
-    from __main__ import DEFAULT_UID as uid
-  if uid not in models:
-    models[uid] = []
-  models[uid].append(model)
-
+last_input = last_response = ""
 
 class ChatCog(Cog):
   bot: CommonBotBase
@@ -661,49 +553,23 @@ class ChatCog(Cog):
 
   @Command
   async def wa(self, ctx, *, message):
-    uid = str(ctx.message.author.id)
-    response = await wolfram_alpha(message, str(ctx.message.author.id), message=message)
+    response = await wolfram_alpha(message)
     return await ctx.send(response)
 
-  @Command
-  async def version(self, ctx, *, message=""):
-    uid = str(ctx.message.author.id)
-    response = "hi" + str(sys.version) + str(ctx.message.author.id)
-    return await ctx.send(response)
-  
   @Command
   async def google(self, ctx, *, message):
-    uid = str(ctx.message.author.id)
-    response = await google(message, str(ctx.message.author.id), message=message)
+    response = await google(message)
     return await ctx.send(response)
-    
-  @Command
-  async def google2(self, ctx, *, message):
-    uid = str(ctx.message.author.id)
-    response = await google2(message, str(ctx.message.author.id), message=message)
-    return await ctx.send(response)
-
 
   @Command
   async def alice(self, ctx, *, message):
-    uid = str(ctx.message.author.id)
-    response = await alice_response(message, str(ctx.message.author.id), model=get_last_model(uid), message=ctx.message)
-    return await ctx.send(response)
-
-  @Command
-  async def gpt(self, ctx, *, message):
-    uid = str(ctx.message.author.id)
-    response = await gpt_response(message, str(ctx.message.author.id), model=get_last_model(uid), message=ctx.message)
-    return await ctx.send(response)
-
-  @Command
-  async def gpt(self, ctx, *, message):
-    uid = str(ctx.message.author.id)
-    response = await get_response(message, str(ctx.message.author.id), message=ctx.message)
+    response = await alice_response(message, str(ctx.message.author.id))
     return await ctx.send(response)
 
   @event
   async def on_message(self, message):
+    global last_response
+    global last_input
     response = ""
     channel_id = message.channel.id
     channel = message.channel
@@ -725,17 +591,6 @@ class ChatCog(Cog):
     content = message.content or message.system_content or "\n".join(filter(None, ((e.title + "\n" + e.description).strip() for e in message.embeds)))
     if not content or not content.strip():
       return
-    last = ""
-    while last != content:
-      last = content
-      content = re.compile(
-        rf"[^a-z>]\balice\b[^a-z<]*",
-        re.DOTALL|re.IGNORECASE
-      ).subn("", content.strip())[0].strip()
-      if not content:
-        content = last
-        break
-    content = norm_text(content)
     bot_message = " ".join(
       (replace_mention(word, name_lookup) for word in content.split())
     )
@@ -763,18 +618,16 @@ class ChatCog(Cog):
 
     def respond(new_response):
       nonlocal response
-      new_response = new_response.strip() or response
-      if new_response := clean_response(new_response, bot_message):
-        response = new_response
-      else:
-        return asyncio.sleep(0)
-      new_response = new_response.strip().removesuffix(", seeker").removesuffix(", seeker.")
       response = new_response
-      log.info("Responding to %r with %r", bot_message, new_response)
+      log.info("Responding to %r with %r", bot_message, response)
       inputs.setdefault(uid, []).append(bot_message)
-      responses.setdefault(uid, []).append(new_response)
+      responses.setdefault(uid, []).append(response)
+      global last_response
+      global last_input
       if message.author.bot:
         response = f"<@{message.author.id}> {response}"
+      last_input = bot_message
+      last_response = response
       return message.reply(response)
     if message.author.id == self.bot.user.id:
       return
@@ -785,10 +638,16 @@ class ChatCog(Cog):
         if not hasattr(__main__, "Chat"):
           from __main__ import get_kernel
           bot_message = norm_sent(get_kernel(), bot_message)
-        if (get_last_response(uid).strip().endswith("?") and get_last_model(uid)):
-          if new_response := await gpt_response(bot_message, uid, model=get_last_model(uid), message=message):
+        if (last_response.strip().endswith("?") and last_model):
+          if new_response := await gpt_response(bot_message, uid):
             return await respond(new_response)
             
+        if any(bot_message.lower().strip().startswith(w) for w in (
+          "who is your",
+          "what is your",
+        )):
+          if new_response := await alice_response(bot_message, uid):
+            return await respond(new_response)
         log.info("norm_sent -> %s", bot_message)
         from tagger import categorize
         log.info("bot_message=%r", bot_message)
@@ -892,7 +751,7 @@ class ChatCog(Cog):
           if pos in ("DT", "JJR", "PRP", "PRP$")
         )
         if exclaim_score >= 4:
-          if new_response := await gpt_response(bot_message, uid, model=get_last_model(uid), message=message):
+          if new_response := await gpt_response(bot_message, uid):
             return await respond(new_response)
 
         if m := re.compile(
@@ -911,7 +770,7 @@ class ChatCog(Cog):
           if not cats["question"] or (
             not cats["person"] and not cats["entities"]
           ):
-            if new_response := await gpt_response(bot_message, uid, model=get_last_model(uid), message=message):
+            if new_response := await gpt_response(bot_message, uid):
               response = new_response
 
           elif new_response := await wolfram_alpha(bot_message, uid):

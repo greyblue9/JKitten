@@ -344,21 +344,20 @@ class EvtHandler(FileSystemEventHandler):
       if not isinstance(val, str):
         continue
       if ".py" not in val: continue
-      val2 = val.split("/")[-1]
-      val2 = val2.split(".py")[0]
-      val2 = val2.split(".")[-1]
+      val2 = val.split("/")[-1].split(".py")[0].split(".")[-1]
       p = Path("commands") / f"{val2}.py"
       if not p.exists():
         continue
       name = ".".join([*p.parent.parts, p.stem])
       log.debug("%s: %s := %r", type(evt).__name__, fld, val2)
       try:
-        bot.unload_extension(name)
+        from commands import Chat
+        Chat.conv.close()
+        
+        bot.reload_extension(name)
+        break
       except Exception:
-        pass
-      if name in sys.modules:
-        del sys.modules[name]
-      bot.load_extension(name)
+        traceback.print_exc()
       log.info("Reloaded extension: %s", name)
 
 

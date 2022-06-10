@@ -153,4 +153,5 @@ macros.h
 .gdb_history
 core
 *.dmp
-blobs/
+blobs/conversation.shelve
+conversa*

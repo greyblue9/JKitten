@@ -1,20 +1,95 @@
-from __main__ import *
-from disnake.ext.commands.interaction_bot_base import CommonBotBase
-from disnake.ext.commands import Cog
-from disnake.ext.commands import Command
+import asyncio, asyncio.unix_events
+import codecs
+import functools
+import gc
+import logging 
+log = logging.getLogger(__name__)
+import os
+from pathlib import Path
 from pprint import pprint
-from tagger import *
+import random
+import re
+import traceback
+import shelve
+import re
+import time
+import sys
+
 from text_tools import norm_text, translate_emojis, translate_urls
 import nltk
 import aiohttp.client_exceptions
 import urllib.parse, urllib.request
-import os
 from bs4 import BeautifulSoup as BS
 from safeeval import SafeEval
 from __main__ import name_lookup, get_chat, replace_mention, setup
 from disnake import Embed, Color
-import random, asyncio, re, traceback
-import shelve
+from jnius import autoclass
+from urllib.request import Request, urlopen
+from urllib.parse import quote_plus
+
+
+from disnake.ext.commands.interaction_bot_base import CommonBotBase
+from disnake.ext.commands import Cog
+from disnake.ext.commands import Command
+
+from tagger import tag_meanings, categorize
+
+### tools.py: Module to hold the decorators and other utility functions.
+
+import ast
+import inspect
+from collections.abc import Callable
+from functools import update_wrapper
+from itertools import takewhile
+from textwrap import dedent
+
+
+class _PipeTransformer(ast.NodeTransformer):
+    def visit_BinOp(self, node):
+        if not isinstance(node.op, (ast.LShift, ast.RShift)):
+            return node
+        if not isinstance(node.right, ast.Call):
+            return self.visit(
+                ast.Call(
+                    func=node.right,
+                    args=[node.left],
+                    keywords=[],
+                    starargs=None,
+                    kwargs=None,
+                    lineno=node.right.lineno,
+                    col_offset=node.right.col_offset,
+                )
+            )
+        node.right.args.insert(0 if isinstance(node.op, ast.RShift) else len(node.right.args), node.left)
+        return self.visit(node.right)
+
+def pipes(func_or_class):
+    if inspect.isclass(func_or_class):
+        decorator_frame = inspect.stack()[1]
+        ctx = decorator_frame[0].f_locals
+        first_line_number = decorator_frame[2]
+    else:
+        ctx = func_or_class.__globals__
+        first_line_number = func_or_class.__code__.co_firstlineno
+    source = inspect.getsource(func_or_class)
+    tree = ast.parse(dedent(source))
+    ast.increment_lineno(tree, first_line_number - 1)
+    source_indent = sum(1 for _ in takewhile(str.isspace, source)) + 1
+    for node in ast.walk(tree):
+        if hasattr(node, "col_offset"):
+            node.col_offset += source_indent
+    tree.body[0].decorator_list = [
+        d
+        for d in tree.body[0].decorator_list
+        if isinstance(d, ast.Call) and d.func.id != "pipes" or isinstance(d, ast.Name) and d.id != "pipes"
+    ]
+    tree = _PipeTransformer().visit(tree)
+    code = compile(tree, filename=(ctx["__file__"] if "__file__" in ctx else "repl"), mode="exec")
+    exec(code, ctx)
+    return ctx[tree.body[0].name]
+
+### 
+
 conv = shelve.open("conversation.shelve")
 if "inputs" not in conv:
   conv["inputs"] = {}
@@ -100,8 +175,6 @@ CHANNEL_NAME_WHITELIST = {
 class Class:
   @classmethod
   def forName(cls, name):
-    from jnius import autoclass
-
     return autoclass(name)
 
 
@@ -113,8 +186,6 @@ async def wolfram_alpha(inpt, uid=None, *, message=None):
   if uid is None:
     from __main__ import DEFAULT_UID as uid
   log.info("wolfram_alpha(%r, %r) query", inpt, uid)
-  from bs4 import BeautifulSoup as BSimport
-  import urllib.parse, urllib.request
 
   API_URL = (
     f"http://api.wolframalpha.com/v2/query?"
@@ -158,8 +229,6 @@ async def wolfram_alpha(inpt, uid=None, *, message=None):
       log.debug(doc.prettify())
   log.info("wolfram_alpha(%r, %r) returning empty", inpt, uid, response)
   return ""
-
-
 
 async def get_response(bot_message, uid, *, model=None, message=None):
   print("*** in ", message, uid, model, responses.setdefault(uid,[""]))
@@ -240,7 +309,6 @@ async def get_response(bot_message, uid, *, model=None, message=None):
         if data.get("estimated_time"):
           sleepytime = data.get("estimated_time", 0)
           if sleepytime:
-            import time
             ts = int(time.time() + sleepytime)
             await message.reply(f"Please wait <t:{ts}:R>, I am working on a response ...", delete_after=sleepytime)
             await asyncio.sleep(sleepytime)
@@ -371,11 +439,7 @@ async def google(bot_message, uid=None):
   log.info("query Google for %r returns %r", bot_message, response)
   return response
 
-
-import functools
-
 def strip_xtra(s):
-  import codecs, re
   print("strip_xtra(%r)" % (s,))
   
   escaped = codecs.unicode_escape_encode(s)[0]
@@ -432,10 +496,6 @@ async def google2(bot_message, uid=0, req_url=None):
   except Exception:
     ans_marker = bot_message
     query = bot_message
-  from bs4 import BeautifulSoup
-  from pathlib import Path
-  from urllib.request import Request, urlopen
-  from urllib.parse import quote_plus
 
   if not req_url:
     req_url = "https://www.google.com/search?client=safari&rls=en&gbv=1&q={}&hl=en&num=10".format(
@@ -453,7 +513,7 @@ async def google2(bot_message, uid=0, req_url=None):
   html = request.read()
   request.close()
 
-  doc = BeautifulSoup(html, "lxml")
+  doc = BS(html, "lxml")
   doc2 = doc
   [
     (e.clear() or e.replace_with_children()) if e else None
@@ -519,7 +579,6 @@ async def google2(bot_message, uid=0, req_url=None):
 
 
 def norm_sent(k, s):
-  import re
   exec(
     'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
     locals(),
@@ -543,10 +602,6 @@ def norm_sent(k, s):
   return norm
 
 async def alice_response(bot_message, uid):
-  
-  import gc
-  import asyncio.unix_events
-
   loop = [
     o
     for o in gc.get_objects()
@@ -791,7 +846,6 @@ class ChatCog(Cog):
             return await respond(new_response)
             
         log.info("norm_sent -> %s", bot_message)
-        from tagger import categorize
         log.info("bot_message=%r", bot_message)
         cats: dict = categorize(bot_message.lower() or "")
         log.info("cats=%r", cats)
@@ -805,7 +859,7 @@ class ChatCog(Cog):
         pprint(cats)
         by_pos = {pos: wd for wd, pos in cats["tagged"]}
         log.info("by_pos=%r", by_pos)
-        from tagger import tag_meanings
+
         pronouns_pos = {
           pos for pos, m in tag_meanings.items() if "pro" in str(m).lower()
         }

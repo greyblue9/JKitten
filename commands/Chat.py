@@ -93,6 +93,7 @@ CHANNEL_NAME_WHITELIST = {
   "general",
   "alice-bot",
   "speichren",
+  "bot-chat-restricted",
 }
 
 
@@ -697,10 +698,10 @@ class ChatCog(Cog):
     return await ctx.send(response)
 
   @Command
-  async def gpt(self, ctx, *, message):
+  async def blacklist(self, ctx, *, message):
     uid = str(ctx.message.author.id)
-    response = await get_response(message, str(ctx.message.author.id), message=ctx.message)
-    return await ctx.send(response)
+    BLACKLIST.append(message)
+    return await ctx.reply(f"There are now {len(blacklist)} things in the blacklist.")
 
   @event
   async def on_message(self, message):

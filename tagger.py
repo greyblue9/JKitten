@@ -297,12 +297,13 @@ def hyperize(token):
     if tag in ("VB", "VBG", "VBD"):
         S = wn.synsets(word, pos=wn.VERB)
     if not S:
-        return set()
+        return ""
     H = {thing for s in S for thing in s.hypernyms()}
     if not H:
         H = S
+    names = list({n for s in H for n in s.lemma_names()})
     
-    return {n for s in H for n in s.lemma_names()}
+    return choice(names)
 
 def hyped_tokens(tokens):
   return [hyperize(t) for t in trigram_tagger(tokens)]

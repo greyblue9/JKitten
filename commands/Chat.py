@@ -26,7 +26,7 @@ from disnake import Embed, Color
 from jnius import autoclass
 from urllib.request import Request, urlopen
 from urllib.parse import quote_plus
-#import use
+import use
 
 
 from disnake.ext.commands.interaction_bot_base import CommonBotBase
@@ -68,7 +68,7 @@ if "blacklist" not in conv:
   "Thanks for the trade",
   "being sarcastic",
   "reference to the song",
-  "Are you a girl",
+  "Are you a girl", "I did.",
   "reference to the song",
   "I'm over hereactly",
   "not sure what you mean",
@@ -173,8 +173,8 @@ async def wolfram_alpha(inpt, uid=None, *, message=None):
         log.info("wolfram_alpha(%r, %r) #2 returning %r", inpt, uid, response)
         return response
       log.debug(doc.prettify())
-  log.info("wolfram_alpha(%r, %r) returning empty", inpt, uid, response)
-  return ""
+  log.info("wolfram_alpha(%r, %r) returning empty %r", inpt, uid, response)
+  return response
 
 async def get_response(bot_message, uid, *, model=None, message=None):
   print(0, "*** in ", message)
@@ -194,7 +194,7 @@ async def get_response(bot_message, uid, *, model=None, message=None):
   response = None
   inpt = bot_message
   data = {}
-  for attempt in range(4):
+  for attempt in range(7):
     if response:
       return response
     last_inpt = get_last_input(uid)
@@ -205,8 +205,11 @@ async def get_response(bot_message, uid, *, model=None, message=None):
       model = random.choices(
         model_names := ( 
           "microsoft/DialoGPT-large",
+          "facebook/blenderbot-400M-distill",
+          "abhiramtirumala/DialoGPT-sarcastic",
+          "af1tang/personaGPT",
         ),
-        weights := (325,),
+        weights := (325,100,150,120),
       )[0]
       model_idx = model_names.index(model)
       weight = weights[model_idx]
@@ -263,6 +266,9 @@ async def get_response(bot_message, uid, *, model=None, message=None):
               except Exception as e:
                 print(e)
         reply = data.get("generated_text")
+        if get_last_response(uid) == reply:
+          log.warning("Kill duplicate %r",reply)
+          reply = ""
         response = reply
         if not response:
           model = None
@@ -586,18 +592,12 @@ async def alice_response(bot_message, uid):
         response,
       )
       return ""
-
-
-  if "your name is unknown" in response.lower():
-    name = name_lookup.get(uid)
-    if name:
-      response = f"Your name is {name}."
-    else:
-      response = "I don't know your name. What is your name?"
-
-  if "Hari" in response:
-    response = re.sub("\\bHari\\b", "Alice", response)
-
+  response = response.replace("Unknown","Dave")
+  response = response.replace("unknown","Dave")
+  if response == get_last_response(uid):
+    log.warning(
+      "Kill duplicate response: %r", response)
+    return ""
   log.info("alice_response query for %r returns %r", bot_message, response)
   response = (
     response.replace("<br />", "\n")
@@ -775,13 +775,19 @@ class ChatCog(Cog):
           bot_message = norm_sent(get_kernel(), bot_message)
 
         tokens = tokenize(msg.content)
+        
+        # topics
         hyps = hyped_tokens(tokens)
-        bot_message += ' '.join(str(s) for s in hyps)
+        a = ' '.join(str(s) for s in hyps)
+        hyps = hyped_tokens(tokens)
+        b = ' '.join(str(s) for s in hyps)
+        hyps = hyped_tokens(tokens)
+        c = ' '.join(str(s) for s in hyps)
+        #bot_message += ' '.join(str(s) for s in (a,b,c))
         if (get_last_response(user_id).strip().endswith("?") and get_last_model(user_id)):
           if new_response := await gpt_response(bot_message, user_id, model=get_last_model(user_id), message=msg):
             return await respond(new_response)
             
-        log.info("norm_sent -> %s", bot_message)
         log.info("bot_message=%r", bot_message)
         cats: dict = categorize(bot_message.lower() or "")
         log.info("cats=%r", cats)
@@ -812,9 +818,13 @@ class ChatCog(Cog):
           and not cats["person"]
         ):
           print("Google")
-          if new_response := await alice_response(bot_message, user_id):
+          if new_response := await google(bot_message, user_id):
             return await respond(new_response)
-
+          
+          if new_response := await google2(bot_message, user_id):
+            return await respond(new_response)
+          
+          
         if bot_message.lower().startswith("my name is "):
           name = bot_message.strip(".!? ").split()[-1]
           name_lookup[user_id] = name

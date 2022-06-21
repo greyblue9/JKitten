@@ -7,6 +7,7 @@ path = "contractions.html"
 import pythonrc
 from pythonrc import *
 from pathlib import Path
+import re
 
 f = Path(path)
 text = f.read_text()

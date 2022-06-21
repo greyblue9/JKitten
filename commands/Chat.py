@@ -1,10 +1,11 @@
-import asyncio, asyncio.unix_events
+simport asyncio, asyncio.unix_events
 import codecs
 import functools
 import gc
 import logging 
 log = logging.getLogger(__name__)
 import os
+import openai
 from pathlib import Path
 from pprint import pprint
 import random
@@ -176,7 +177,41 @@ async def wolfram_alpha(inpt, uid=None, *, message=None):
   log.info("wolfram_alpha(%r, %r) returning empty %r", inpt, uid, response)
   return response
 
-async def get_response(bot_message, uid, *, model=None, message=None):
+def gpt_marv(bot_message):
+  return openai.Completion.create(
+      model="text-davinci-001",
+      prompt=f"Marv is a chatbot that reluctantly answers questions with sarcastic responses:\n\n{bot_message}",
+      temperature=0.5,
+      max_tokens=60,
+      top_p=0.3,
+      frequency_penalty=0.5,
+      presence_penalty=0,
+      stop=[" Human:", " AI:"]
+  )
+  
+def gpt_katie(bot_message):
+  return openai.Completion.create(
+      model="text-curie-001",
+      prompt=f"The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, funny and fairly sarcastic.\n{bot_message}"
+,
+      temperature=0.9,
+      max_tokens=80,
+      top_p=1,
+      frequency_penalty=0.3,
+      presence_penalty=0.6,
+      stop=[" Human:", " AI:"]
+  )
+
+async def get_response(bot_message, uid, *, model=None, message=None): 
+  openai.api_key = os.getenv("OPENAI_API")
+  start_sequence = "\nAI:"
+  restart_sequence = "\nHuman: "
+  response = gpt_katie(bot_message)
+  
+  print(response["choices"][0]["text"])
+  return response["choices"][0]["text"]
+
+async def get_response2(bot_message, uid, *, model=None, message=None):
   print(0, "*** in ", message)
   print(0, uid, model, responses.setdefault(uid,[""]))
   if Path("DialoGPT-medium").exists():
@@ -206,10 +241,9 @@ async def get_response(bot_message, uid, *, model=None, message=None):
         model_names := ( 
           "microsoft/DialoGPT-large",
           "facebook/blenderbot-400M-distill",
-          "abhiramtirumala/DialoGPT-sarcastic",
           "af1tang/personaGPT",
         ),
-        weights := (325,100,150,120),
+        weights := (425,100,120),
       )[0]
       model_idx = model_names.index(model)
       weight = weights[model_idx]
@@ -298,6 +332,7 @@ async def get_response(bot_message, uid, *, model=None, message=None):
           set_last_model(uid, None)
           continue
         break
+  if not response: return ""
   for b in BLACKLIST:
     if b and (b.lower() in response.lower() or response.lower() in b):
       log.debug(
@@ -325,8 +360,10 @@ async def gpt_response(bot_message, uid=None, *, model=None, message=None):
     name_lookup[str(uid)] = name
     inputs[uid].append(bot_message)
     
-  
-  response = await get_response(bot_message, uid, model=get_last_model(uid), message=message)
+  which = random.randint(1, 2)
+  fn = get_response if which == 1 else get_response2 
+  response = await fn(bot_message, uid, model=get_last_model(uid),
+                                message=message)
   if not response:
     return ""
   for b in BLACKLIST:
@@ -699,6 +736,7 @@ class ChatCog(Cog):
   @event
   async def on_message(self, msg):
     response = ""
+    message = msg
     in_whitelist = any(
       msg.channel.name.lower() in f.lower() for f in CHANNEL_NAME_WHITELIST
     )
@@ -765,6 +803,7 @@ class ChatCog(Cog):
       if msg.author.bot:
         response = f"<@{msg.author.id}> {response}"
       return msg.reply(response)
+    
     if msg.author.id == self.bot.user.id:
       return
     try:
@@ -830,7 +869,7 @@ class ChatCog(Cog):
           name_lookup[user_id] = name
           name_lookup[message.author.name] = name
           inputs.setdefault(user_id, []).append("What is your name?")
-          if new_response := await alice_response(bot_message, user_id):
+          if new_response := await gpt_response(bot_message, user_id):
             return await respond(new_response)
 
         if (
@@ -856,7 +895,7 @@ class ChatCog(Cog):
           and cats["question"] == True
           and (has_poss_pronoun or "PRP$" in dict(cats["tagged"]).values())
         ):
-          if new_response := await alice_response(bot_message, user_id):
+          if new_response := await gpt_response(bot_message, user_id):
             return await respond(new_response)
 
         if (
@@ -871,7 +910,7 @@ class ChatCog(Cog):
             return await respond(new_response)
 
         if has_personal and "name" in cats["attributes"]:
-          if new_response := await alice_response(bot_message, user_id):
+          if new_response := await gpt_response(bot_message, user_id):
             return await respond(new_response)
 
         exclaim_score = sum(
@@ -962,6 +1001,8 @@ class ChatCog(Cog):
         return await respond(response)
     finally:
       pass
+
+
 
 def setup(bot):
   cog = ChatCog(bot)

@@ -7,6 +7,10 @@ from tagger import *
 import nltk
 import aiohttp
 from safeeval import SafeEval
+import os
+
+
+OPENAI_API_KEY = os.getenv("OPENAI_API")
 
 CHANNEL_NAME_WHITELIST = {
   "open-chat",
@@ -121,10 +125,28 @@ async def wolfram_alpha(inpt, uid=None):
   log.info("wolfram_alpha(%r, %r) returning empty", inpt, uid, response)
   return ""
 
+async def get_response(bot_sg, uid, model=None):
+  import openai
+  
+  openai.api_key = os.getenv("OPENAI_API_KEY")
+  
+  start_sequence = "\nAI:"
+  restart_sequence = "\nHuman: "
+  
+  response = openai.Completion.create(
+    model="text-ada-001",
+    prompt="The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and funny and sarcastic.\n\nHuman: Hello, who are you?\nAI: I am an AI created by OpenAI. How can I help you today?\nHuman: what is the difference between a cow and a pig?\nAI: A cow is a milk-producing animal. A pig is a meat-producing animal",
+    temperature=0.9,
+    max_tokens=150,
+    top_p=1,
+    frequency_penalty=0,
+    presence_penalty=0.6,
+    stop=[" Human:", " AI:"]
+  )
 
-async def get_response(message, uid, model=None):
+async def get_response_old(bot_msg, uid, model=None):
   response = None
-  inpt = bot_message = message
+  inpt = bot_message = msg
   data = {}
   for attempt in range(2):
     if response:
@@ -142,7 +164,7 @@ async def get_response(message, uid, model=None):
     weight = weights[model_idx]
     log.info(
       "\nget_response(%r, %r): selected model\n\n" "    %r   (weight: %s)\n\n",
-      message,
+      msg,
       uid,
       model,
       weight,
@@ -153,7 +175,7 @@ async def get_response(message, uid, model=None):
     payload = {
       "generated_responses": [],
       "past_user_inputs": inputs.get(uid),
-      "text": message,
+      "text": msg,
     }
     async with ClientSession() as session:
       async with session.post(API_URL, headers=headers, json=payload) as response:

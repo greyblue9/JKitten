@@ -641,12 +641,12 @@ class ChatCog(Cog):
 
     @Command
     async def google(self, ctx, *, message):
-        response = await google(message, str(ctx.message.author.id), message=message)
+        response = await google(message, str(ctx.message.author.id))
         return await ctx.send(response)
 
     @Command
     async def google2(self, ctx, *, message):
-        response = await google2(message, str(ctx.message.author.id), message=message)
+        response = await google2(message, str(ctx.message.author.id))
         return await ctx.send(response)
 
     @Command

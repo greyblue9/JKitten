@@ -10,9 +10,9 @@ log = logging.getLogger(__name__)
 
 FLAGS = re.DOTALL | re.IGNORECASE
 
-EMOJI_REGEX: re.Pattern = compile(":([^: ][^:]*[^: ]):", FLAGS)
-URL_REGEX: re.Pattern = compile("(https?://)([a-z]+)([^a-z ,;.]+)", FLAGS)
-URL_SENTENCE_REGEX: re.Pattern = compile("\\s*(https?://)([^ ]*?)([, :;]|$)\\s*", FLAGS)
+EMOJI_REGEX: re.Pattern = re.compile(":([^: ][^:]*[^: ]):", FLAGS)
+URL_REGEX: re.Pattern = re.compile("(https?://)([a-z]+)([^a-z ,;.]+)", FLAGS)
+URL_SENTENCE_REGEX: re.Pattern = re.compile("\\s*(https?://)([^ ]*?)([, :;]|$)\\s*", FLAGS)
 
 
 def repeated_sub(pattern: re.Pattern, replacement: str, text: str) -> str:

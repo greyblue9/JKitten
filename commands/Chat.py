@@ -28,15 +28,8 @@ from disnake.ext.commands.interaction_bot_base import CommonBotBase
 from jnius import autoclass
 from safeeval import SafeEval
 from tagger import categorize, hyped_tokens, tag_meanings, tokenize
-from text_tools import (
-    clean_response,
-    norm_text,
-    strip_extra,
-    translate_emojis,
-    translate_urls,
-    find,
-    norm_sent,
-)
+from text_tools import (clean_response, find, norm_sent, norm_text,
+                        strip_extra, translate_emojis, translate_urls)
 from tools import pipes
 
 conv = shelve.open("conversation.shelve")
@@ -265,19 +258,10 @@ async def get_response(bot_message, uid, *, model=None, message=None):
 async def get_response2(bot_message, uid, *, model=None, message=None):
     print(0, "*** in ", message)
     print(0, uid, model, responses.setdefault(uid, [""]))
-    if Path("DialoGPT-medium").exists():
-        log.info("Use local model")
-        from testgpt import get_response as local_get_response
-
-        response = await local_get_response(bot_message, uid, model=model, message=message)
-        if response:
-            log.info("Using local response %r", response)
-            return response
 
     response = None
     inpt = bot_message
     data = {}
-    token = "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"
     for _ in range(7):
         if response:
             return response
@@ -303,7 +287,7 @@ async def get_response2(bot_message, uid, *, model=None, message=None):
                 model,
                 weight,
             )
-        headers = {"Authorization": f"Bearer {token}"}
+        headers = {"Authorization": f"Bearer {os.getenv('HUGGINGFACE_API')}"}
         API_URL = f"https://api-inference.huggingface.co/models/{model}"
         payload = {
             "generated_responses": [],
@@ -877,35 +861,6 @@ class ChatCog(Cog):
 
                     elif new_response := await google(bot_message, user_id):
                         return await respond(new_response)
-
-                if (
-                    "hiya" == response.lower().strip()
-                    or "i am dad" in response.lower()
-                    or "i'm dad" in response.lower()
-                    or "hi jon" in response.lower()
-                    or ", jon" in response.lower()
-                    or "hi kyle" in response.lower()
-                    or ", kyle" in response.lower()
-                    or "hi paul" in response.lower()
-                    or ", paul" in response.lower()
-                    or "hi mat" in response.lower()
-                    or ", mat" in response.lower()
-                ):
-                    response = random.choice(
-                        [
-                            f"Hey there! How are you, {msg.author.mention}?",
-                            "Hello",
-                            "Hi what'a up?",
-                            f"Hey, good to see you again, {msg.author.mention}.",
-                            f"Welcome back, {msg.author.mention}!",
-                            f"Yo what's up, {msg.author.mention}",
-                            "Hi, it's good to see you again.",
-                            "Hello there." "Well, hello!",
-                            "Hiya bro",
-                            f"Yay {msg.author.mention}! You're exactly who I was hoping to see.",
-                            "Sup, dude?",
-                        ]
-                    )
         except Exception as exc:
             exc_str = "" "\n%s" % ("\x0a".join(traceback.format_exception(type(exc), exc, exc.__traceback__)))
             embed = Embed(

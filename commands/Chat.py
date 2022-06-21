@@ -1,6 +1,5 @@
 import asyncio
 import asyncio.unix_events
-import codecs
 import gc
 import logging
 
@@ -29,7 +28,15 @@ from disnake.ext.commands.interaction_bot_base import CommonBotBase
 from jnius import autoclass
 from safeeval import SafeEval
 from tagger import categorize, hyped_tokens, tag_meanings, tokenize
-from text_tools import norm_text, translate_emojis, translate_urls
+from text_tools import (
+    clean_response,
+    norm_text,
+    strip_extra,
+    translate_emojis,
+    translate_urls,
+    find,
+    norm_sent,
+)
 from tools import pipes
 
 conv = shelve.open("conversation.shelve")
@@ -98,42 +105,6 @@ class ClientSession(aiohttp.ClientSession):
                     ch.send("Please wait a minute while Alice restarts...", delete_after=20)
                 )
             os.system("kill 1")
-
-
-def clean_response(s, bot_message=None):
-    if bot_message and re.subn("[^a-z]+", "", s.lower()) == re.subn("[^a-z]+", "", bot_message.lower()):
-        return ""
-    s = next(iter(sorted(s.split(" \xb7 "), key=len, reverse=True)))
-    s2 = re.subn(
-        "([.,!;?]) *([A-Z][a-z]{2}) [1-3][0-9]?, [12][0-9]{3}[^A-Za-z]*",
-        "\\1 \n",
-        re.subn(
-            "(^|[.,;?!]) *i('[a-z]+|) ",
-            "\\1 I\\2 ",
-            re.subn("(?<=[a-zA-Z])(([!,?;])[.]|([.])) *($|[A-Za-z])", "\\2\\3 \\4", s.replace("&nbsp;", " "))[
-                0
-            ],
-        )[0],
-    )[0]
-    return "  ".join(
-        {
-            (s.strip()[0].upper() + s.strip()[1:]): None
-            for s in re.split(
-                "(?<=[.!?])[\t\n ]*(?=[a-zA-Z][^.,;?]{3,})",
-                re.subn(
-                    "([.,!;?]) *([A-Z][a-z]{2}) [1-3][0-9]?, [12][0-9]{3}[^A-Za-z]*",
-                    "\\1 \n",
-                    re.subn(
-                        "(^|[.,;?!]) *i('[a-z]+|) ",
-                        "\\1 I\\2 ",
-                        re.subn(
-                            "(?<=[a-zA-Z])(([!,?;])[.]|([.])) *($|[A-Za-z](?=[^.!?]{4,}))", "\\2\\3 \\4", s2
-                        )[0],
-                    )[0],
-                )[0],
-            )
-        }.keys()
-    )
 
 
 CHANNEL_NAME_WHITELIST = {
@@ -446,42 +417,6 @@ async def google(bot_message, uid=None):
     return response
 
 
-def strip_xtra(s):
-    print("strip_xtra(%r)" % (s,))
-
-    escaped = codecs.unicode_escape_encode(s)[0]
-    print("strip_xtra(%r): escaped=%r" % (s, escaped))
-
-    splits = re.compile(rb"[\t ][\t ]+|\\n|\\xb7|\\xa0", re.DOTALL).split(escaped)
-    ok = []
-    for i in splits:
-        i = i.strip()
-        if re.compile(rb"^[A-Z][a-z]{2} \d+(,|$)", re.DOTALL).search(i):
-            continue
-        if not re.compile(rb"([A-Z]*[a-z]+|[A-Z]+|[a-z]+|[A-Z]+[a-z]*) ", re.DOTALL).search(i):
-            continue
-        ok.append(i)
-    if not ok:
-        return ""
-    ordered = sorted(ok, key=len)
-    longest = ordered[-1]
-
-    s0 = codecs.unicode_escape_decode(longest)[0]
-    print("strip_xtra(%r): s0=%r" % (s, s0))
-
-    s1 = re.compile("(?<=[^a-zA-Z])'((?:[^'.]|(?<=[a-z]))'[a-z]+)(\\.?)'", re.DOTALL).sub("\\1", s0).strip()
-
-    return re.compile("([a-z])'[a-z]*", re.DOTALL).sub("\\1", s1).strip()
-
-
-def find(coll, r):
-    return (
-        [coll[idx + 1 :] + coll[idx : idx + 1] for idx, w in enumerate(coll) if w in r][0]
-        if any(w in coll for w in r)
-        else [coll]
-    )
-
-
 async def google2(bot_message, uid=0, req_url=None):
     try:
         ans_marker = " ".join(
@@ -553,13 +488,13 @@ async def google2(bot_message, uid=0, req_url=None):
         ):
             descrips.pop(idx)
 
-    descrips = [strip_xtra(d) for d in descrips]
+    descrips = [strip_extra(d) for d in descrips]
     print("descrips=", descrips)
 
     answers = [
-        e[e.lower().index(strip_xtra(ans_marker).lower()) :].strip(". ").split(". ")[0].split("\xa0")[0]
+        e[e.lower().index(strip_extra(ans_marker).lower()) :].strip(". ").split(". ")[0].split("\xa0")[0]
         for e in descrips
-        if strip_xtra(ans_marker).lower() in e.lower()
+        if strip_extra(ans_marker).lower() in e.lower()
     ]
     print("answers=", answers)
 
@@ -579,29 +514,6 @@ async def google2(bot_message, uid=0, req_url=None):
         else await google2(bot_message, uid, next_url)
         if req_url is None and next_url
         else ""
-    )
-
-
-def norm_sent(k, s):
-    exec(
-        'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
-        locals(),
-    )
-    return re.sub(
-        r" ([^a-zA-Z0-9_])\1* *",
-        "\\1",
-        " ".join(
-            filter(
-                None,
-                map(
-                    str.strip,
-                    re.split(
-                        r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
-                        s,
-                    ),
-                ),
-            )
-        ),
     )
 
 

@@ -1,7 +1,6 @@
 import logging
 import re
-from re import DOTALL, IGNORECASE, Pattern, compile
-from typing import Any, Union
+import codecs
 
 import demoji
 import Levenshtein
@@ -9,14 +8,14 @@ from __main__ import *
 
 log = logging.getLogger(__name__)
 
-FLAGS = DOTALL | IGNORECASE
+FLAGS = re.DOTALL | re.IGNORECASE
 
-EMOJI_REGEX: Pattern = compile(":([^: ][^:]*[^: ]):", FLAGS)
-URL_REGEX: Pattern = compile("(https?://)([a-z]+)([^a-z ,;.]+)", FLAGS)
-URL_SENTENCE_REGEX: Pattern = compile("\\s*(https?://)([^ ]*?)([, :;]|$)\\s*", FLAGS)
+EMOJI_REGEX: re.Pattern = compile(":([^: ][^:]*[^: ]):", FLAGS)
+URL_REGEX: re.Pattern = compile("(https?://)([a-z]+)([^a-z ,;.]+)", FLAGS)
+URL_SENTENCE_REGEX: re.Pattern = compile("\\s*(https?://)([^ ]*?)([, :;]|$)\\s*", FLAGS)
 
 
-def repeated_sub(pattern: Pattern, replacement: str, text: str) -> str:
+def repeated_sub(pattern: re.Pattern, replacement: str, text: str) -> str:
     prev = ""
     while text != prev:
         prev = text
@@ -106,3 +105,98 @@ def norm_text(s):
 
     log.debug("norm_text(s=%r): returning r=%r", s, r)
     return r
+
+
+def clean_response(s, bot_message=None):
+    if bot_message and re.subn("[^a-z]+", "", s.lower()) == re.subn("[^a-z]+", "", bot_message.lower()):
+        return ""
+    s = next(iter(sorted(s.split(" \xb7 "), key=len, reverse=True)))
+    s2 = re.subn(
+        "([.,!;?]) *([A-Z][a-z]{2}) [1-3][0-9]?, [12][0-9]{3}[^A-Za-z]*",
+        "\\1 \n",
+        re.subn(
+            "(^|[.,;?!]) *i('[a-z]+|) ",
+            "\\1 I\\2 ",
+            re.subn("(?<=[a-zA-Z])(([!,?;])[.]|([.])) *($|[A-Za-z])", "\\2\\3 \\4", s.replace("&nbsp;", " "))[
+                0
+            ],
+        )[0],
+    )[0]
+    return "  ".join(
+        {
+            (s.strip()[0].upper() + s.strip()[1:]): None
+            for s in re.split(
+                "(?<=[.!?])[\t\n ]*(?=[a-zA-Z][^.,;?]{3,})",
+                re.subn(
+                    "([.,!;?]) *([A-Z][a-z]{2}) [1-3][0-9]?, [12][0-9]{3}[^A-Za-z]*",
+                    "\\1 \n",
+                    re.subn(
+                        "(^|[.,;?!]) *i('[a-z]+|) ",
+                        "\\1 I\\2 ",
+                        re.subn(
+                            "(?<=[a-zA-Z])(([!,?;])[.]|([.])) *($|[A-Za-z](?=[^.!?]{4,}))", "\\2\\3 \\4", s2
+                        )[0],
+                    )[0],
+                )[0],
+            )
+        }.keys()
+    )
+
+
+def strip_extra(s):
+    print("strip_xtra(%r)" % (s,))
+
+    escaped = codecs.unicode_escape_encode(s)[0]
+    print("strip_xtra(%r): escaped=%r" % (s, escaped))
+
+    splits = re.compile(rb"[\t ][\t ]+|\\n|\\xb7|\\xa0", re.DOTALL).split(escaped)
+    ok = []
+    for i in splits:
+        i = i.strip()
+        if re.compile(rb"^[A-Z][a-z]{2} \d+(,|$)", re.DOTALL).search(i):
+            continue
+        if not re.compile(rb"([A-Z]*[a-z]+|[A-Z]+|[a-z]+|[A-Z]+[a-z]*) ", re.DOTALL).search(i):
+            continue
+        ok.append(i)
+    if not ok:
+        return ""
+    ordered = sorted(ok, key=len)
+    longest = ordered[-1]
+
+    s0 = codecs.unicode_escape_decode(longest)[0]
+    print("strip_xtra(%r): s0=%r" % (s, s0))
+
+    s1 = re.compile("(?<=[^a-zA-Z])'((?:[^'.]|(?<=[a-z]))'[a-z]+)(\\.?)'", re.DOTALL).sub("\\1", s0).strip()
+
+    return re.compile("([a-z])'[a-z]*", re.DOTALL).sub("\\1", s1).strip()
+
+
+def find(coll, r):
+    return (
+        [coll[idx + 1 :] + coll[idx : idx + 1] for idx, w in enumerate(coll) if w in r][0]
+        if any(w in coll for w in r)
+        else [coll]
+    )
+
+
+def norm_sent(k, s):
+    exec(
+        'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
+        locals(),
+    )
+    return re.sub(
+        r" ([^a-zA-Z0-9_])\1* *",
+        "\\1",
+        " ".join(
+            filter(
+                None,
+                map(
+                    str.strip,
+                    re.split(
+                        r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
+                        s,
+                    ),
+                ),
+            )
+        ),
+    )

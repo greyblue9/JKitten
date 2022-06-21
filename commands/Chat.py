@@ -1,7 +1,6 @@
 import asyncio
 import asyncio.unix_events
 import codecs
-import functools
 import gc
 import logging
 
@@ -21,9 +20,7 @@ from urllib.parse import quote_plus
 from urllib.request import Request, urlopen
 
 import aiohttp.client_exceptions
-import nltk
 import openai
-import use
 from __main__ import get_chat, name_lookup, replace_mention, setup
 from bs4 import BeautifulSoup as BS
 from disnake import Color, Embed
@@ -235,10 +232,59 @@ def gpt_katie(bot_message):
     )
 
 
+async def gpt_response(bot_message, uid=None, *, model=None, message=None):
+    if uid is None:
+        from __main__ import DEFAULT_UID as uid
+    log.debug("gpt_response(%r, %r, model=%r)", bot_message, uid, model)
+    if m := re.compile(
+        r"(my name[si']+|i[a'm]+|i'm called|call me|name's) +(?P<name>[A-Za-z][a-zA-Z0-9_]*)(?=$|[^a-zA-Z0-9_])",
+        re.DOTALL | re.IGNORECASE,
+    ).search(bot_message):
+        name = m["name"].capitalize()
+        name_lookup[str(uid)] = name
+        inputs[uid].append(bot_message)
+
+    which = random.randint(1, 2)
+    fn = get_response if which == 1 else get_response2
+    response = await fn(bot_message, uid, model=get_last_model(uid), message=message)
+    if not response:
+        return ""
+    for b in BLACKLIST:
+        if b and (b.lower() in response.lower() or response.lower() in b):
+            log.debug(
+                "gpt_response(%r, %r) discarding response %r due to blacklist",
+                bot_message,
+                uid,
+                response,
+            )
+            return ""
+
+    from __main__ import get_chat_session
+
+    chat_session = await get_chat_session(str(uid))
+    try:
+        preds = {e.getKey(): e.getValue() for e in chat_session.predicates.entrySet()}
+
+        chat_session.predicates["name"] = (
+            name := name_lookup.get(uid) or chat_session.predicates.get("name")
+        ) or "unknown"
+        if name and name != "unknown":
+            name_lookup[str(uid)] = name
+    except Exception as e:
+        log.error("error in gpt_response: %s", e)
+
+    if str(uid) in name_lookup:
+        response = re.compile(
+            "((?:you are|your name's|you?r? name is|you?'?r?e?|call you?|you're called|you are called|calls you|(?:are you|i?s you?r? name[s i']*|call[a-z*] you))[.: ]+)([A-Z][a-z]+|Alice|Unknown|unknown|I| ?)(?=$|[^a-zA-Z])",
+            re.DOTALL,
+        ).sub(f"\\1{name_lookup[str(uid)]}", response)
+
+    log.info("query GPT for %r returns %r", bot_message, response)
+    return response
+
+
 async def get_response(bot_message, uid, *, model=None, message=None):
     openai.api_key = os.getenv("OPENAI_API")
-    start_sequence = "\nAI:"
-    restart_sequence = "\nHuman: "
     response = gpt_katie(bot_message)
 
     print(response["choices"][0]["text"])
@@ -375,57 +421,6 @@ async def get_response2(bot_message, uid, *, model=None, message=None):
     return response
 
 
-async def gpt_response(bot_message, uid=None, *, model=None, message=None):
-    if uid is None:
-        from __main__ import DEFAULT_UID as uid
-    log.debug("gpt_response(%r, %r, model=%r)", bot_message, uid, model)
-    if m := re.compile(
-        r"(my name[si']+|i[a'm]+|i'm called|call me|name's) +(?P<name>[A-Za-z][a-zA-Z0-9_]*)(?=$|[^a-zA-Z0-9_])",
-        re.DOTALL | re.IGNORECASE,
-    ).search(bot_message):
-        name = m["name"].capitalize()
-        name_lookup[str(uid)] = name
-        inputs[uid].append(bot_message)
-
-    which = random.randint(1, 2)
-    fn = get_response if which == 1 else get_response2
-    response = await fn(bot_message, uid, model=get_last_model(uid), message=message)
-    if not response:
-        return ""
-    for b in BLACKLIST:
-        if b and (b.lower() in response.lower() or response.lower() in b):
-            log.debug(
-                "gpt_response(%r, %r) discarding response %r due to blacklist",
-                bot_message,
-                uid,
-                response,
-            )
-            return ""
-
-    from __main__ import get_chat_session
-
-    chat_session = await get_chat_session(str(uid))
-    try:
-        preds = {e.getKey(): e.getValue() for e in chat_session.predicates.entrySet()}
-
-        chat_session.predicates["name"] = (
-            name := name_lookup.get(uid) or chat_session.predicates.get("name")
-        ) or "unknown"
-        if name and name != "unknown":
-            name_lookup[str(uid)] = name
-    except Exception as e:
-        log.error("error in gpt_response: %s", e)
-
-    if str(uid) in name_lookup:
-        response = re.compile(
-            "((?:you are|your name's|you?r? name is|you?'?r?e?|call you?|you're called|you are called|calls you|(?:are you|i?s you?r? name[s i']*|call[a-z*] you))[.: ]+)([A-Z][a-z]+|Alice|Unknown|unknown|I| ?)(?=$|[^a-zA-Z])",
-            re.DOTALL,
-        ).sub(f"\\1{name_lookup[str(uid)]}", response)
-
-    log.info("query GPT for %r returns %r", bot_message, response)
-    return response
-
-
 async def google(bot_message, uid=None):
     if uid is None:
         from __main__ import DEFAULT_UID as uid
@@ -502,8 +497,9 @@ async def google2(bot_message, uid=0, req_url=None):
         query = bot_message
 
     if not req_url:
-        req_url = f"https://www.google.com/search?client=safari&rls=en&gbv=1&q={quote_plus(query)}&hl=en&num=10"
-
+        req_url = (
+            f"https://www.google.com/search?client=safari&rls=en&gbv=1&q={quote_plus(query)}&hl=en&num=10"
+        )
 
     headers = {
         "Accept-Language": "en-us",
@@ -591,7 +587,22 @@ def norm_sent(k, s):
         'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
         locals(),
     )
-    return re.sub(r" ([^a-zA-Z0-9_])\1* *", "\\1", " ".join(filter(None, map(str.strip, re.split(r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])", s,),),)),)
+    return re.sub(
+        r" ([^a-zA-Z0-9_])\1* *",
+        "\\1",
+        " ".join(
+            filter(
+                None,
+                map(
+                    str.strip,
+                    re.split(
+                        r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])",
+                        s,
+                    ),
+                ),
+            )
+        ),
+    )
 
 
 async def alice_response(bot_message, uid):
@@ -631,8 +642,10 @@ async def alice_response(bot_message, uid):
     response = await loop.run_in_executor(None, chat.multisentenceRespond, bot_message)
     log.debug("alice_response(%r, %r): result: %r", bot_message, uid, response)
     if str(uid) in name_lookup:
-        response = re.compile("((?:you are|your name's|you?r? name is|you?'?r?e?|call you?|you're called|you are called|calls you|(?:are you|i?s you?r? name[s i']*|call[a-z*] you))[.: ]+)([A-Z][a-z]+|Alice|Unknown|unknown|I| ?)(?=$|[^a-zA-Z])", re.DOTALL).sub(f"\\1{name_lookup[str(uid)]}", response)
-
+        response = re.compile(
+            "((?:you are|your name's|you?r? name is|you?'?r?e?|call you?|you're called|you are called|calls you|(?:are you|i?s you?r? name[s i']*|call[a-z*] you))[.: ]+)([A-Z][a-z]+|Alice|Unknown|unknown|I| ?)(?=$|[^a-zA-Z])",
+            re.DOTALL,
+        ).sub(f"\\1{name_lookup[str(uid)]}", response)
 
     for b in BLACKLIST:
         if b.lower() in response.lower() or response.lower() in b:
@@ -706,7 +719,6 @@ class ChatCog(Cog):
 
     @Command
     async def wa(self, ctx, *, message):
-        uid = str(ctx.message.author.id)
         response = await wolfram_alpha(message, str(ctx.message.author.id), message=message)
         return await ctx.send(response)
 

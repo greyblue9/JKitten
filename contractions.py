@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-ucfirst = lambda i: i[0:1].upper() + i[1:].lower()
+ucfirst = lambda i: i[:1].upper() + i[1:].lower()
 import json, sys
 
 path = "contractions.html"
@@ -48,11 +48,8 @@ lookup = [
   if len(r.select("td")) == 2
 ]
 lookup2 = lookup + [(k.replace("'", ""), v) for k, v in lookup]
-data = {}
-data.update({k.lower(): v.lower() for k, v in lookup2})
-data.update({k.upper(): v.upper() for k, v in lookup2})
-data.update({ucfirst(k): ucfirst(v) for k, v in lookup2})
-Path("./bots/alice/maps/contractions.txt").write_text(
-  "\n".join("{}:{}".format(k, v) for k, v in data.items())
-)
+data = {k.lower(): v.lower() for k, v in lookup2} | {k.upper(): v.upper() for k, v in lookup2} | {ucfirst(k): ucfirst(v) for k, v in lookup2}
+
+Path("./bots/alice/maps/contractions.txt").write_text("\n".join(f"{k}:{v}" for k, v in data.items()))
+
 Path("contractions.json").write_text(json.dumps(data, indent=2))

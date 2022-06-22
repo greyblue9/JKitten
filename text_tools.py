@@ -1,6 +1,7 @@
 import logging
 import re
 import codecs
+from tools import pipes
 
 import demoji
 import Levenshtein
@@ -107,6 +108,7 @@ def norm_text(s):
     return r
 
 
+@pipes
 def clean_response(s, bot_message=None):
     if bot_message and re.subn("[^a-z]+", "", s.lower()) == re.subn("[^a-z]+", "", bot_message.lower()):
         return ""

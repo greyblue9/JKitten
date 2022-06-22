@@ -19,8 +19,9 @@ from urllib.parse import quote_plus
 from urllib.request import Request, urlopen
 
 import aiohttp.client_exceptions
+import nltk
 import openai
-from __main__ import get_chat, name_lookup, replace_mention, setup
+from __main__ import get_chat, get_chat_session, get_kernel, name_lookup, replace_mention, setup
 from bs4 import BeautifulSoup as BS
 from disnake import Color, Embed
 from disnake.ext.commands import Cog, Command
@@ -28,8 +29,15 @@ from disnake.ext.commands.interaction_bot_base import CommonBotBase
 from jnius import autoclass
 from safeeval import SafeEval
 from tagger import categorize, hyped_tokens, tag_meanings, tokenize
-from text_tools import (clean_response, find, norm_sent, norm_text,
-                        strip_extra, translate_emojis, translate_urls)
+from text_tools import (
+    clean_response,
+    find,
+    norm_sent,
+    norm_text,
+    strip_extra,
+    translate_emojis,
+    translate_urls,
+)
 from tools import pipes
 
 conv = shelve.open("conversation.shelve")
@@ -117,7 +125,7 @@ class Class:
         return autoclass(name)
 
 
-BLACKLIST = conv["blacklist"]
+BLACKLIST = {w.lower() for w in conv["blacklist"]}
 print("hello")
 
 
@@ -223,12 +231,8 @@ async def gpt_response(bot_message, uid=None, *, model=None, message=None):
             )
             return ""
 
-    from __main__ import get_chat_session
-
     chat_session = await get_chat_session(str(uid))
     try:
-        preds = {e.getKey(): e.getValue() for e in chat_session.predicates.entrySet()}
-
         chat_session.predicates["name"] = (
             name := name_lookup.get(uid) or chat_session.predicates.get("name")
         ) or "unknown"
@@ -512,8 +516,6 @@ async def alice_response(bot_message, uid):
 
     log.debug("alice_response(%r, %r)", bot_message, uid)
 
-    from __main__ import get_chat_session
-
     chat_session = await get_chat_session(str(uid))
     preds = {e.getKey(): e.getValue() for e in chat_session.predicates.entrySet()}
     chat_session.predicates["name"] = (
@@ -605,6 +607,41 @@ def set_last_model(uid=None, model=None):
     models[uid].append(model)
 
 
+def add_name(user_id, realname):
+    if m := re.search(
+        "^[^A-Za-z]*(?P<name>[a-zA-Z][a-z-]+[a-z])([^a-z].*|)$",
+        realname,
+        re.DOTALL,
+    ):
+        realname = m["name"].lower().capitalize()
+    name_lookup[user_id] = realname
+
+
+def get_content(msg):
+    return (
+        msg.content
+        or msg.system_content
+        or "\n".join(filter(None, ((e.title + "\n" + e.description).strip() for e in msg.embeds)))
+    )
+
+
+def replace_content(content: list[str]) -> list[str]:
+    return [replace_mention(word, name_lookup) for word in content]
+
+
+# fmt: off
+@pipes
+def build_bot_msg(content):
+    return (content 
+            >> norm_text 
+            >> nltk.word_tokenize
+            >> replace_content
+            >> translate_emojis
+            >> ' '.join
+    )
+# fmt: on
+
+
 class ChatCog(Cog):
     bot: CommonBotBase
     event = Cog.listener()
@@ -658,24 +695,13 @@ class ChatCog(Cog):
     async def on_message(self, msg):
         response = ""
         message = msg
-        in_whitelist = any(msg.channel.name.lower() in f.lower() for f in CHANNEL_NAME_WHITELIST)
         print(f"channel.name = {msg.channel.name}")
         user_id = str(msg.author.id)
 
         if user_id not in name_lookup:
-            realname = msg.author.name
-            if m := re.search(
-                "^[^A-Za-z]*(?P<name>[a-zA-Z][a-z-]+[a-z])([^a-z].*|)$",
-                realname,
-                re.DOTALL,
-            ):
-                realname = m.group("name").lower().capitalize()
-            name_lookup[user_id] = realname
-        content = (
-            msg.content
-            or msg.system_content
-            or "\n".join(filter(None, ((e.title + "\n" + e.description).strip() for e in msg.embeds)))
-        )
+            add_name(user_id, msg.author.name)
+
+        content = get_content(msg)
         if not content or not content.strip():
             return
         last = ""
@@ -689,25 +715,28 @@ class ChatCog(Cog):
             if not content:
                 content = last
                 break
-        content = norm_text(content)
-        bot_message = " ".join((replace_mention(word, name_lookup) for word in content.split()))
-        bot_message = translate_emojis(bot_message)
-        if "https://" in bot_message or "http://" in bot_message:
-            bot_message = translate_urls(bot_message)
+
+        # content = norm_text(content)
+        # bot_message = " ".join((replace_mention(word, name_lookup) for word in content.split()))
+        # bot_message = translate_emojis(bot_message)
+        # if "https://" in bot_message or "http://" in bot_message:
+        #     bot_message = translate_urls(bot_message)
+        bot_message = build_bot_msg(content)
 
         log.info(f"[{msg.author.name}][{msg.guild.name}]:" f" {bot_message}")
         mention = f"<@!{self.bot.user.id}>"
         if self.bot.user == msg.author:
             return
-        ok = (
-            in_whitelist
+        if not content[0:1].isalnum():
+            return
+
+        if not (
+            any(msg.channel.name.lower() in f.lower() for f in CHANNEL_NAME_WHITELIST)
             or self.bot.user in msg.mentions
             or mention in content
             or "alice" in content.lower()
             or "alice " in bot_message.lower()
-        )
-        ok = ok and content[0:1].isalnum()
-        if not ok:
+        ):
             return
 
         def respond(new_response):
@@ -730,23 +759,8 @@ class ChatCog(Cog):
             return
         try:
             with msg.channel.typing():
-                import __main__
-
-                if not hasattr(__main__, "Chat"):
-                    from __main__ import get_kernel
-
+                if not hasattr(sys.modules["__main__"], "Chat"):
                     bot_message = norm_sent(get_kernel(), bot_message)
-
-                tokens = tokenize(msg.content)
-
-                # topics
-                hyps = hyped_tokens(tokens)
-                a = " ".join(str(s) for s in hyps)
-                hyps = hyped_tokens(tokens)
-                b = " ".join(str(s) for s in hyps)
-                hyps = hyped_tokens(tokens)
-                c = " ".join(str(s) for s in hyps)
-                # bot_message += ' '.join(str(s) for s in (a,b,c))
                 if get_last_response(user_id).strip().endswith("?") and get_last_model(user_id):
                     if new_response := await gpt_response(
                         bot_message, user_id, model=get_last_model(user_id), message=msg

@@ -185,7 +185,7 @@ def find(coll, r):
     )
 
 
-def norm_sent(k, s):
+def norm_sent_old(k, s):
     exec(
         'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
         locals(),
@@ -206,6 +206,23 @@ def norm_sent(k, s):
             )
         ),
     )
+
+
+# fmt: off
+@pipes
+def norm_sent(k, s):
+    exec(
+        'for f,t in k._subbers["normal"].items(): s = re.sub(rf"\\b{re.escape(f)}\\b", t, s)',
+        locals(),
+    )
+    return (s
+        >> re.split(r"(?:(?<=[a-zA-Z0-9_]))(?=[^a-zA-Z0-9_])|(?:(?<=[^a-zA-Z0-9_]))(?=[a-zA-Z0-9_])")
+        << map(str.strip)
+        << filter(None)
+        >> " ".join
+        >> re.sub(r" ([^a-zA-Z0-9_])\1* *","\\1")
+    )
+# fmt: on
 
 
 @beartype

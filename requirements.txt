@@ -16,3 +16,4 @@ python-Levenshtein
 nest-asyncio
 justuse
 openai
+beartype

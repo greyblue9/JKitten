@@ -6,6 +6,7 @@ from tools import pipes
 import demoji
 import Levenshtein
 from __main__ import *
+from beartype import beartype
 
 log = logging.getLogger(__name__)
 
@@ -15,7 +16,7 @@ EMOJI_REGEX: re.Pattern = re.compile(":([^: ][^:]*[^: ]):", FLAGS)
 URL_REGEX: re.Pattern = re.compile("(https?://)([a-z]+)([^a-z ,;.]+)", FLAGS)
 URL_SENTENCE_REGEX: re.Pattern = re.compile("\\s*(https?://)([^ ]*?)([, :;]|$)\\s*", FLAGS)
 
-
+@beartype
 def repeated_sub(pattern: re.Pattern, replacement: str, text: str) -> str:
     prev = ""
     while text != prev:
@@ -24,6 +25,7 @@ def repeated_sub(pattern: re.Pattern, replacement: str, text: str) -> str:
     return text
 
 
+@beartype
 def translate_emojis(text: str) -> str:
     new_text = repeated_sub(EMOJI_REGEX, " \\1 ", text)
     new_text = new_text.split("]")[-1]
@@ -34,7 +36,7 @@ def translate_emojis(text: str) -> str:
         log.debug("translate_emojis(text=%r) returns %r", text, new_text)
     return new_text
 
-
+@beartype
 def translate_urls(text: str) -> str:
     words = re.subn(r"https?://|www|\.[a-zA-Z0-9_]+/|[^a-zA-Z]+", " ", text)[0].split()
     words2 = list(
@@ -108,7 +110,7 @@ def norm_text(s):
     return r
 
 
-@pipes
+
 def clean_response(s, bot_message=None):
     if bot_message and re.subn("[^a-z]+", "", s.lower()) == re.subn("[^a-z]+", "", bot_message.lower()):
         return ""

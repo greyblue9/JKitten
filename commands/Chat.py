@@ -628,9 +628,9 @@ def replace_content(content: list[str]) -> list[str]:
 def build_bot_msg(content):
     return (content 
             >> norm_text 
+            >> translate_emojis
             >> nltk.word_tokenize
             >> replace_content
-            >> translate_emojis
             >> ' '.join
     )
 # fmt: on

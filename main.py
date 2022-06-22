@@ -56,16 +56,6 @@ load_dotenv()
 DISCORD_BOT_TOKEN: str = getenv("Token", "")
 
 
-def replace_mention(word, name_lookup):
-    word = word.replace("!", "").replace("&", "").replace("@", "")
-    if not word.startswith("<") or not word.endswith(">"):
-        return word
-    mbr_id = word[1:-1]
-    if name := name_lookup.get(mbr_id):
-        return name
-    return word
-
-
 class Class:
     @classmethod
     def forName(cls, name):

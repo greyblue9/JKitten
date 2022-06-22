@@ -1,12 +1,13 @@
+import codecs
 import logging
 import re
-import codecs
-from tools import pipes
 
 import demoji
 import Levenshtein
-from __main__ import *
+import nltk
 from beartype import beartype
+
+from tools import pipes
 
 log = logging.getLogger(__name__)
 
@@ -15,6 +16,7 @@ FLAGS = re.DOTALL | re.IGNORECASE
 EMOJI_REGEX: re.Pattern = re.compile(":([^: ][^:]*[^: ]):", FLAGS)
 URL_REGEX: re.Pattern = re.compile("(https?://)([a-z]+)([^a-z ,;.]+)", FLAGS)
 URL_SENTENCE_REGEX: re.Pattern = re.compile("\\s*(https?://)([^ ]*?)([, :;]|$)\\s*", FLAGS)
+
 
 @beartype
 def repeated_sub(pattern: re.Pattern, replacement: str, text: str) -> str:
@@ -35,6 +37,7 @@ def translate_emojis(text: str) -> str:
     if text != new_text:
         log.debug("translate_emojis(text=%r) returns %r", text, new_text)
     return new_text
+
 
 @beartype
 def translate_urls(text: str) -> str:
@@ -108,7 +111,6 @@ def norm_text(s):
 
     log.debug("norm_text(s=%r): returning r=%r", s, r)
     return r
-
 
 
 def clean_response(s, bot_message=None):
@@ -204,3 +206,41 @@ def norm_sent(k, s):
             )
         ),
     )
+
+
+@beartype
+def replace_mention(word: str, name_lookup: dict[str, str]):
+    word = word.replace("!", "").replace("&", "").replace("@", "")
+    if not word.startswith("<") or not word.endswith(">"):
+        return word
+    mbr_id = word[1:-1]
+    if name := name_lookup.get(mbr_id):
+        return name
+    return word
+
+
+@beartype
+def get_content(msg):
+    return (
+        msg.content
+        or msg.system_content
+        or "\n".join(filter(None, ((e.title + "\n" + e.description).strip() for e in msg.embeds)))
+    )
+
+
+@beartype
+def replace_content(content: list[str], name_lookup: dict[int, str]) -> list[str]:
+    return [replace_mention(word, name_lookup) for word in content]
+
+
+# fmt: off
+@pipes
+def build_bot_msg(content:str, name_lookup:dict[str, str]) -> str:
+    return (content 
+            >> norm_text 
+            >> translate_emojis
+            >> nltk.word_tokenize
+            >> replace_content(name_lookup=name_lookup)
+            >> ' '.join
+    )
+# fmt: on

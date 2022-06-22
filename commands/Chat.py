@@ -1,5 +1,4 @@
 import asyncio
-import asyncio.unix_events
 import gc
 import logging
 
@@ -21,8 +20,7 @@ from urllib.request import Request, urlopen
 import aiohttp.client_exceptions
 import nltk
 import openai
-from __main__ import (get_chat, get_chat_session, name_lookup, replace_mention,
-                      setup)
+from __main__ import get_chat, get_chat_session, name_lookup
 from bs4 import BeautifulSoup as BS
 from disnake import Color, Embed
 from disnake.ext.commands import Cog, Command
@@ -30,8 +28,17 @@ from disnake.ext.commands.interaction_bot_base import CommonBotBase
 from jnius import autoclass
 from safeeval import SafeEval
 from tagger import categorize, hyped_tokens, tag_meanings, tokenize
-from text_tools import (clean_response, find, norm_sent, norm_text,
-                        strip_extra, translate_emojis, translate_urls)
+from text_tools import (
+    clean_response,
+    find,
+    norm_sent,
+    norm_text,
+    strip_extra,
+    translate_emojis,
+    translate_urls,
+    get_content,
+    build_bot_msg,
+)
 from tools import pipes
 
 conv = shelve.open("conversation.shelve")
@@ -611,31 +618,6 @@ def add_name(user_id, realname):
     name_lookup[user_id] = realname
 
 
-def get_content(msg):
-    return (
-        msg.content
-        or msg.system_content
-        or "\n".join(filter(None, ((e.title + "\n" + e.description).strip() for e in msg.embeds)))
-    )
-
-
-def replace_content(content: list[str]) -> list[str]:
-    return [replace_mention(word, name_lookup) for word in content]
-
-
-# fmt: off
-@pipes
-def build_bot_msg(content):
-    return (content 
-            >> norm_text 
-            >> translate_emojis
-            >> nltk.word_tokenize
-            >> replace_content
-            >> ' '.join
-    )
-# fmt: on
-
-
 class ChatCog(Cog):
     bot: CommonBotBase
     event = Cog.listener()
@@ -715,7 +697,7 @@ class ChatCog(Cog):
         # bot_message = translate_emojis(bot_message)
         # if "https://" in bot_message or "http://" in bot_message:
         #     bot_message = translate_urls(bot_message)
-        bot_message = build_bot_msg(content)
+        bot_message = build_bot_msg(content, name_lookup)
 
         log.info(f"[{msg.author.name}][{msg.guild.name}]:" f" {bot_message}")
         mention = f"<@!{self.bot.user.id}>"

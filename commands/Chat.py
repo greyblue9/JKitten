@@ -21,7 +21,8 @@ from urllib.request import Request, urlopen
 import aiohttp.client_exceptions
 import nltk
 import openai
-from __main__ import get_chat, get_chat_session, get_kernel, name_lookup, replace_mention, setup
+from __main__ import (get_chat, get_chat_session, name_lookup, replace_mention,
+                      setup)
 from bs4 import BeautifulSoup as BS
 from disnake import Color, Embed
 from disnake.ext.commands import Cog, Command
@@ -29,15 +30,8 @@ from disnake.ext.commands.interaction_bot_base import CommonBotBase
 from jnius import autoclass
 from safeeval import SafeEval
 from tagger import categorize, hyped_tokens, tag_meanings, tokenize
-from text_tools import (
-    clean_response,
-    find,
-    norm_sent,
-    norm_text,
-    strip_extra,
-    translate_emojis,
-    translate_urls,
-)
+from text_tools import (clean_response, find, norm_sent, norm_text,
+                        strip_extra, translate_emojis, translate_urls)
 from tools import pipes
 
 conv = shelve.open("conversation.shelve")
@@ -759,7 +753,10 @@ class ChatCog(Cog):
             return
         try:
             with msg.channel.typing():
-                if not hasattr(sys.modules["__main__"], "Chat"):
+                import __main__
+                from __main__ import get_kernel
+
+                if not hasattr(__main__, "Chat"):
                     bot_message = norm_sent(get_kernel(), bot_message)
                 if get_last_response(user_id).strip().endswith("?") and get_last_model(user_id):
                     if new_response := await gpt_response(

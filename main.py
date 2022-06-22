@@ -1,34 +1,22 @@
-import traceback
-from bs4 import BeautifulSoup as BS
-import inspect
-import re
 import asyncio
+import contextlib
 import inspect
-import requests
-import disnake
-from disnake.ext import commands
-from disnake.ext.commands import (
-  AutoShardedBot,
-  AutoShardedInteractionBot,
-  Bot,
-  Cog,
-  CogMeta,
-  Command,
-  DefaultHelpCommand,
-  GroupMixin,
-  GuildContext,
-
-  HelpCommand,
-  InteractionBot,
-  InvokableSlashCommand,
-  ParamInfo,
-  SubCommand,
-  before_invoke,
-  when_mentioned,
-)
 import json
-import os, re
 import logging
+import os
+import re
+import traceback
+
+import disnake
+import requests
+from bs4 import BeautifulSoup as BS
+from disnake.ext import commands
+from disnake.ext.commands import (AutoShardedBot, AutoShardedInteractionBot,
+                                  Bot, Cog, CogMeta, Command,
+                                  DefaultHelpCommand, GroupMixin, GuildContext,
+                                  HelpCommand, InteractionBot,
+                                  InvokableSlashCommand, ParamInfo, SubCommand,
+                                  before_invoke, when_mentioned)
 
 TEST_GUILDS = [
   936455318043504730,  # Kitten AI Testing
@@ -57,39 +45,44 @@ for log_name in (
   "watchdog.observers.inotify_buffer",
 ):
   logging.getLogger(log_name).setLevel(logging.INFO)
-from disnake.utils import find
-from disnake.ui import Button, View
-from disnake import *
-from disnake.guild import Guild
-from disnake.embeds import Embed
-from disnake.user import Colour
-from disnake.channel import TextChannel
-from disnake.channel import TextChannel as Channel
-import sys
-from pathlib import Path
-from bs4 import BeautifulSoup as BS # type:ignore
-import traceback
-from traceback import format_exc, format_exception, format_exception_only
-import dotenv
-from text_tools import repeated_sub, translate_urls, translate_emojis
+import asyncio
+import logging
+import random
 import re
-import asyncio, logging, threading, time
+import sys
+import threading
+import time
+import traceback
 from asyncio import get_event_loop_policy
+from functools import lru_cache
+from importlib.machinery import all_suffixes
 from os import getenv
+from pathlib import Path
 from threading import Thread, current_thread
+from traceback import format_exc, format_exception, format_exception_only
+from typing import *
+
 import disnake.utils
-from dotenv import load_dotenv
-from disnake.ext.commands import Bot
+import dotenv
+import nltk
 import requests
 from aiohttp import ClientSession
-import random
+from bs4 import BeautifulSoup as BS  # type:ignore
+from disnake import *
+from disnake.channel import TextChannel
+from disnake.channel import TextChannel as Channel
 from disnake.client import *
-from typing import *
+from disnake.embeds import Embed
+from disnake.ext.commands import Bot
+from disnake.guild import Guild
+from disnake.ui import Button, View
+from disnake.user import Colour
+from disnake.utils import find
+from dotenv import load_dotenv
 from watchdog.events import FileSystemEventHandler
 from watchdog.observers import Observer
-from importlib.machinery import all_suffixes
-from functools import lru_cache
-import nltk
+
+from text_tools import repeated_sub, translate_emojis, translate_urls
 
 load_dotenv()
 DISCORD_BOT_TOKEN: str = getenv("Token", "")
@@ -115,12 +108,11 @@ class Class:
 
 
 name_lookup = {
-  "863091076617601085": "Dekriel",
-  "856229099952144464": "David",
-  "955035045716979763": "Alice",
-  "889338065020129310": "Mikko",
-  '923229808803065907': 'Bob',
-  '923229808803065907': 'Joel,'
+    "863091076617601085": "Dekriel",
+    "856229099952144464": "David",
+    "955035045716979763": "Alice",
+    "889338065020129310": "Mikko",
+    '923229808803065907': 'Joel,'
 }
 DEFAULT_UID = "0"
 USE_JAVA = True
@@ -143,7 +135,7 @@ if USE_JAVA:
           "alice", orig_cwd.as_posix()
         )
       if self.chat is None:
-        from __main__ import Main #type:ignore
+        from __main__ import Main  # type:ignore
         self.chat = Main.getOrCreateChat(alice_bot, True, self.uid)
       global chat
       chat = self.chat
@@ -158,7 +150,7 @@ else:
       global k
       if k is None:
         sys.path.insert(0, (orig_cwd / "alice").as_posix())
-        import aiml.Kernel # type: ignore
+        import aiml.Kernel  # type: ignore
         k = alice_bot = aiml.Kernel.Kernel()
         print(k)
         if (orig_cwd / "brain.dmp").exists():
@@ -169,9 +161,7 @@ else:
 
 
 async def get_chat(uid):
-  if "PChat" in globals():
-    return PChat(uid)
-  return AChat(uid)
+  return PChat(uid) if "PChat" in globals() else AChat(uid)
 
 async def get_chat_session(uid):
   import __main__
@@ -219,8 +209,8 @@ def setup(bot: commands.Bot):
 if __name__ == "__main__":
   # Discover all the commands and load each one
   # into the bot
-  dir: Path = Path("commands")
-  for item in dir.iterdir():
+  path: Path = Path("commands")
+  for item in path.iterdir():
     if item.name.endswith(".py"):
       name = f"{item.parent.name}.{item.stem}"
       log.info("Loading extension: %r", name)
@@ -282,7 +272,8 @@ def get_kernel():
   global k
   if not k:
     sys.path.insert(0, (Path.cwd() / "alice").as_posix())
-    import aiml.AimlParser, aiml.Kernel # type: ignore
+    import aiml.AimlParser  # type: ignore
+    import aiml.Kernel
     try:
       k = aiml.Kernel.Kernel()
     except (TypeError, ImportError):
@@ -371,13 +362,9 @@ def auto_reload_start(bot):
 
 def start_bot():
   thread = current_thread()
-  log.info(
-    "Starting bot with token '%s%s%s' on thread: %s",
-    DISCORD_BOT_TOKEN[0:5],
-    "*" * len(DISCORD_BOT_TOKEN[5:-5]),
-    DISCORD_BOT_TOKEN[-5:],
-    thread,
-  )
+  log.info("Starting bot with token '%s%s%s' on thread: %s",
+           DISCORD_BOT_TOKEN[:5], "*" * len(DISCORD_BOT_TOKEN[5:-5]),
+           DISCORD_BOT_TOKEN[-5:], thread)
   setattr(bot, "_rollout_all_guilds", True)
   auto_reload_start(bot)
   bot.run(DISCORD_BOT_TOKEN)
@@ -414,8 +401,8 @@ def iter_over(coro):
 def iter_over_async(ait, loop):
   ait = ait.__aiter__()
   done = False
-  from threading import Event
   from asyncio import Future, ensure_future
+  from threading import Event
   async def get_next():
     nonlocal done
     try:
@@ -439,28 +426,25 @@ def iter_over_async(ait, loop):
 
 def run_coro(coro, loop):
   from asyncio import ensure_future, gather
-  from threading import Event
   from asyncio.exceptions import InvalidStateError
+  from threading import Event
   fut = ensure_future(loop.create_task(coro))
   g = gather(fut)
   sentinel = object()
   def getter():
     while True:
       yield sentinel
-      try:
+      with contextlib.suppress(InvalidStateError):
         yield g.result()
         break
-      except InvalidStateError:
-        pass
-      try:
+      with contextlib.suppress(InvalidStateError):
         yield g.exception()
         break
-      except InvalidStateError:
-        pass
   return next(filter(lambda o: o is not sentinel, getter()))
 
 
 import code
+
 cons = code.InteractiveConsole(locals())
 cons.push("import __main__")
 cons.push("from __main__ import *")

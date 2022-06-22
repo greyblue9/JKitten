@@ -47,7 +47,6 @@ from threading import Thread, current_thread
 
 import disnake.utils
 from bs4 import BeautifulSoup as BS  # type:ignore
-from disnake import *
 from disnake.ext.commands import Bot
 from dotenv import load_dotenv
 from watchdog.events import FileSystemEventHandler
@@ -157,7 +156,7 @@ inputs = {}
 responses = {}
 
 PREFIX = "+" or "@Kitten"
-intents = Intents.default()
+intents = disnake.Intents.default()
 intents.value |= disnake.Intents.messages.flag
 intents.value |= getattr(disnake.Intents, "message_content").flag
 intents.value |= disnake.Intents.guilds.flag
@@ -170,7 +169,7 @@ bot = Bot(
     sync_commands_on_cog_unload=True,
     test_guilds=[],
     # **options:
-    status=Status.idle,
+    status=disnake.Status.idle,
     intents=intents,
 )
 
@@ -242,7 +241,7 @@ def run(self, *args: Any, **kwargs: Any) -> None:
             return None
 
 
-Client.run = run
+disnake.Client.run = run
 
 k = None
 

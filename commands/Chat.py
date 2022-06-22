@@ -18,7 +18,6 @@ from urllib.parse import quote_plus
 from urllib.request import Request, urlopen
 
 import aiohttp.client_exceptions
-import nltk
 import openai
 from __main__ import get_chat, get_chat_session, name_lookup
 from bs4 import BeautifulSoup as BS
@@ -27,15 +26,12 @@ from disnake.ext.commands import Cog, Command
 from disnake.ext.commands.interaction_bot_base import CommonBotBase
 from jnius import autoclass
 from safeeval import SafeEval
-from tagger import categorize, hyped_tokens, tag_meanings, tokenize
+from tagger import categorize, tag_meanings
 from text_tools import (
     clean_response,
     find,
     norm_sent,
-    norm_text,
     strip_extra,
-    translate_emojis,
-    translate_urls,
     get_content,
     build_bot_msg,
 )
@@ -816,11 +812,11 @@ class ChatCog(Cog):
                     or re.search("^what is [^ ]+($|,|\\.)", bot_message.lower())
                 ):
                     if new_response := await wolfram_alpha(bot_message, user_id):
-                        return await respond(new_response)
+                        return await respond(new_response, message=msg)
 
                 if has_personal and "name" in cats["attributes"]:
                     if new_response := await gpt_response(bot_message, user_id):
-                        return await respond(new_response)
+                        return await respond(new_response, message=msg)
 
                 exclaim_score = sum(
                     1 for pos in dict(cats["tagged"]).values() if pos in ("DT", "JJR", "PRP", "PRP$")

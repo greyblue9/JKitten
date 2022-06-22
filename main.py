@@ -1,34 +1,12 @@
 import asyncio
 import contextlib
 import inspect
-import json
 import logging
-import os
-import re
 import traceback
 
 import disnake
-import requests
-from bs4 import BeautifulSoup as BS
 from disnake.ext import commands
-from disnake.ext.commands import (
-    AutoShardedBot,
-    AutoShardedInteractionBot,
-    Bot,
-    Cog,
-    CogMeta,
-    Command,
-    DefaultHelpCommand,
-    GroupMixin,
-    GuildContext,
-    HelpCommand,
-    InteractionBot,
-    InvokableSlashCommand,
-    ParamInfo,
-    SubCommand,
-    before_invoke,
-    when_mentioned,
-)
+from disnake.ext.commands import Bot
 
 TEST_GUILDS = [
     936455318043504730,  # Kitten AI Testing
@@ -59,42 +37,21 @@ for log_name in (
     logging.getLogger(log_name).setLevel(logging.INFO)
 import asyncio
 import logging
-import random
-import re
 import sys
-import threading
-import time
 import traceback
 from asyncio import get_event_loop_policy
 from functools import lru_cache
-from importlib.machinery import all_suffixes
 from os import getenv
 from pathlib import Path
 from threading import Thread, current_thread
-from traceback import format_exc, format_exception, format_exception_only
-from typing import *
 
 import disnake.utils
-import dotenv
-import nltk
-import requests
-from aiohttp import ClientSession
 from bs4 import BeautifulSoup as BS  # type:ignore
 from disnake import *
-from disnake.channel import TextChannel
-from disnake.channel import TextChannel as Channel
-from disnake.client import *
-from disnake.embeds import Embed
 from disnake.ext.commands import Bot
-from disnake.guild import Guild
-from disnake.ui import Button, View
-from disnake.user import Colour
-from disnake.utils import find
 from dotenv import load_dotenv
 from watchdog.events import FileSystemEventHandler
 from watchdog.observers import Observer
-
-from text_tools import repeated_sub, translate_emojis, translate_urls
 
 load_dotenv()
 DISCORD_BOT_TOKEN: str = getenv("Token", "")

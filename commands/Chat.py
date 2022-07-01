@@ -43,7 +43,8 @@ if "inputs" not in conv:
 if "responses" not in conv:
     conv["responses"] = {}
 if "blacklist" not in conv:
-    conv["blacklist"] = [
+    conv["blacklist"] = []
+conv["blacklist"] += [
         "JSFAILED",
         "I know, right",
         "serious or not",
@@ -59,6 +60,7 @@ if "blacklist" not in conv:
         "don't know what",
         "SRAIXFAILED",
         "the last of us",
+      "appropriate",
         "a guy making a video ",
         "is the guy who made the video",
         "making a video",
@@ -75,8 +77,11 @@ if "blacklist" not in conv:
         "I'm over hereactly",
         "not sure what you mean",
         "web search",
+  "Did you mean to repeat yourself?",
+  "You are repeating yourself.",
         "good song",
         "search the web",
+  "Let's avoid your animal instincts.",
         "<oob>",
     ]
 inputs = conv["inputs"]
@@ -214,7 +219,7 @@ async def gpt_response(bot_message, uid=None, *, model=None, message=None):
         inputs[uid].append(bot_message)
 
     which = random.randint(1, 2)
-    fn = get_response if which == 1 else get_response2
+    fn = get_response2
     response = await fn(bot_message, uid, model=get_last_model(uid), message=message)
     if not response:
         return ""
@@ -274,10 +279,8 @@ async def get_response2(bot_message, uid, *, model=None, message=None):
             model = random.choices(
                 model_names := (
                     "microsoft/DialoGPT-large",
-                    "facebook/blenderbot-400M-distill",
-                    "af1tang/personaGPT",
                 ),
-                weights := (425, 100, 120),
+                weights := (425,),
             )[0]
             model_idx = model_names.index(model)
             weight = weights[model_idx]
@@ -377,7 +380,7 @@ async def get_response2(bot_message, uid, *, model=None, message=None):
     return response
 
 
-async def google(bot_message, uid=None):
+async def google(bot_message, uid=None, message=None):
     if uid is None:
         from __main__ import DEFAULT_UID as uid
     log.debug("google(%r, %r) called", bot_message, uid)
@@ -402,7 +405,7 @@ async def google(bot_message, uid=None):
     return response
 
 
-async def google2(bot_message, uid=0, req_url=None):
+async def google2(bot_message, uid=0, req_url=None, message=None):
     try:
         ans_marker = " ".join(
             find(
@@ -502,7 +505,7 @@ async def google2(bot_message, uid=0, req_url=None):
     )
 
 
-async def alice_response(bot_message, uid):
+async def alice_response(bot_message, uid, message=None):
     loop = [
         o
         for o in gc.get_objects()
@@ -766,10 +769,10 @@ class ChatCog(Cog):
                     and not cats["person"]
                 ):
                     print("Google")
-                    if new_response := await google(bot_message, user_id):
+                    if new_response := await alice_response(bot_message, user_id, message=message):
                         return await respond(new_response)
 
-                    if new_response := await google2(bot_message, user_id):
+                    if new_response := await google2(bot_message, user_id, message=message):
                         return await respond(new_response)
 
                 if bot_message.lower().startswith("my name is "):
@@ -777,7 +780,7 @@ class ChatCog(Cog):
                     name_lookup[user_id] = name
                     name_lookup[message.author.name] = name
                     inputs.setdefault(user_id, []).append("What is your name?")
-                    if new_response := await gpt_response(bot_message, user_id):
+                    if new_response := await gpt_response(bot_message, user_id, message=message):
                         return await respond(new_response)
 
                 if (
@@ -800,7 +803,7 @@ class ChatCog(Cog):
                     and cats["question"] == True
                     and (has_poss_pronoun or "PRP$" in dict(cats["tagged"]).values())
                 ):
-                    if new_response := await gpt_response(bot_message, user_id):
+                    if new_response := await alice_response(bot_message, user_id, message=message):
                         return await respond(new_response)
 
                 if (
@@ -811,11 +814,11 @@ class ChatCog(Cog):
                     or "'s age" in bot_message.lower()
                     or re.search("^what is [^ ]+($|,|\\.)", bot_message.lower())
                 ):
-                    if new_response := await wolfram_alpha(bot_message, user_id):
+                    if new_response := await wolfram_alpha(bot_message, user_id, message=message):
                         return await respond(new_response, message=msg)
 
                 if has_personal and "name" in cats["attributes"]:
-                    if new_response := await gpt_response(bot_message, user_id):
+                    if new_response := await gpt_response(bot_message, user_id, message=message):
                         return await respond(new_response, message=msg)
 
                 exclaim_score = sum(
@@ -845,11 +848,17 @@ class ChatCog(Cog):
                         ):
                             response = new_response
 
-                    elif new_response := await wolfram_alpha(bot_message, user_id):
+                    elif new_response := await wolfram_alpha(bot_message, user_id, message=message):
                         return await respond(new_response)
 
-                    elif new_response := await google(bot_message, user_id):
+                    elif new_response := await google(bot_message, user_id, message=message):
                         return await respond(new_response)
+                    if not new_response and not response:
+                      new_response = await gpt_response(
+                            bot_message, user_id, model=get_last_model(user_id), message=msg
+                      )
+                    if new_response or response:
+                      return await respond(new_response or response)
         except Exception as exc:
             exc_str = "" "\n%s" % ("\x0a".join(traceback.format_exception(type(exc), exc, exc.__traceback__)))
             embed = Embed(
